@@ -52,8 +52,7 @@ namespace System {
 class Object;
 }
 namespace System {
-template<typename T>
-class WeakReference_1;
+template <typename T> class WeakReference_1;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -71,206 +70,223 @@ namespace Mono::Net::Security {
 // CS Name: Mono.Net.Security.ChainValidationHelper/<>c__DisplayClass11_0
 class CORDL_TYPE ChainValidationHelper___c__DisplayClass11_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field settings, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_settings, put=__cordl_internal_set_settings)) ::Mono::Security::Interface::MonoTlsSettings*  settings;
+  // Declarations
+  /// @brief Field settings, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings)) ::Mono::Security::Interface::MonoTlsSettings* settings;
 
-static inline ::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0* New_ctor() ;
+  static inline ::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0* New_ctor();
 
-/// @brief Method <GetValidationCallback>b__0, addr 0x5e25298, size 0x168, virtual false, abstract: false, final false
-inline bool _GetValidationCallback_b__0(::System::Object*  s, ::System::Security::Cryptography::X509Certificates::X509Certificate*  c, ::System::Security::Cryptography::X509Certificates::X509Chain*  ch, ::System::Net::Security::SslPolicyErrors  e) ;
+  /// @brief Method <GetValidationCallback>b__0, addr 0x5e972a4, size 0x168, virtual false, abstract: false, final false
+  inline bool _GetValidationCallback_b__0(::System::Object* s, ::System::Security::Cryptography::X509Certificates::X509Certificate* c,
+                                          ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::System::Net::Security::SslPolicyErrors e);
 
-constexpr ::Mono::Security::Interface::MonoTlsSettings* const& __cordl_internal_get_settings() const;
+  constexpr ::Mono::Security::Interface::MonoTlsSettings* const& __cordl_internal_get_settings() const;
 
-constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings() ;
+  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings();
 
-constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings*  value) ;
+  constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
 
-/// @brief Method .ctor, addr 0x5e24b8c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e96b98, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ChainValidationHelper___c__DisplayClass11_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ChainValidationHelper___c__DisplayClass11_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ChainValidationHelper___c__DisplayClass11_0(ChainValidationHelper___c__DisplayClass11_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11006 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10999};
+  /// @brief Field settings, offset: 0x10, size: 0x8, def value: None
+  ::Mono::Security::Interface::MonoTlsSettings* ___settings;
 
-/// @brief Field settings, offset: 0x10, size: 0x8, def value: None
- ::Mono::Security::Interface::MonoTlsSettings*  ___settings;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0, ___settings) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0, 0x18>, "Size mismatch!");
 
-} // namespace end def Mono::Net::Security
+} // namespace Mono::Net::Security
 // Dependencies System.Object
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: Mono.Net.Security.ChainValidationHelper
 class CORDL_TYPE ChainValidationHelper : public ::System::Object {
 public:
-// Declarations
-using __c__DisplayClass11_0 = ::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0;
+  // Declarations
+  using __c__DisplayClass11_0 = ::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0;
 
- __declspec(property(get=get_Settings)) ::Mono::Security::Interface::MonoTlsSettings*  Settings;
+  __declspec(property(get = get_Settings)) ::Mono::Security::Interface::MonoTlsSettings* Settings;
 
-/// @brief Field certSelectionCallback, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_certSelectionCallback, put=__cordl_internal_set_certSelectionCallback)) ::System::Net::Security::LocalCertSelectionCallback*  certSelectionCallback;
+  /// @brief Field certSelectionCallback, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_certSelectionCallback, put = __cordl_internal_set_certSelectionCallback)) ::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback;
 
-/// @brief Field certValidationCallback, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_certValidationCallback, put=__cordl_internal_set_certValidationCallback)) ::System::Net::ServerCertValidationCallback*  certValidationCallback;
+  /// @brief Field certValidationCallback, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_certValidationCallback, put = __cordl_internal_set_certValidationCallback)) ::System::Net::ServerCertValidationCallback* certValidationCallback;
 
-/// @brief Field owner, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_owner, put=__cordl_internal_set_owner)) ::System::WeakReference_1<::System::Net::Security::SslStream*>*  owner;
+  /// @brief Field owner, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner)) ::System::WeakReference_1<::System::Net::Security::SslStream*>* owner;
 
-/// @brief Field provider, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_provider, put=__cordl_internal_set_provider)) ::Mono::Net::Security::MobileTlsProvider*  provider;
+  /// @brief Field provider, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_provider, put = __cordl_internal_set_provider)) ::Mono::Net::Security::MobileTlsProvider* provider;
 
-/// @brief Field request, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get_request, put=__cordl_internal_set_request)) ::System::Net::HttpWebRequest*  request;
+  /// @brief Field request, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::System::Net::HttpWebRequest* request;
 
-/// @brief Field settings, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_settings, put=__cordl_internal_set_settings)) ::Mono::Security::Interface::MonoTlsSettings*  settings;
+  /// @brief Field settings, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings)) ::Mono::Security::Interface::MonoTlsSettings* settings;
 
-/// @brief Field tlsStream, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_tlsStream, put=__cordl_internal_set_tlsStream)) ::Mono::Net::Security::MonoTlsStream*  tlsStream;
+  /// @brief Field tlsStream, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_tlsStream, put = __cordl_internal_set_tlsStream)) ::Mono::Net::Security::MonoTlsStream* tlsStream;
 
-/// @brief Convert operator to "::Mono::Security::Interface::ICertificateValidator"
-constexpr operator  ::Mono::Security::Interface::ICertificateValidator*() noexcept;
+  /// @brief Convert operator to "::Mono::Security::Interface::ICertificateValidator"
+  constexpr operator ::Mono::Security::Interface::ICertificateValidator*() noexcept;
 
-/// @brief Method Create, addr 0x5e24844, size 0x90, virtual false, abstract: false, final false
-static inline ::Mono::Net::Security::ChainValidationHelper* Create(::Mono::Net::Security::MobileTlsProvider*  provider, ::ByRef<::Mono::Security::Interface::MonoTlsSettings*>  settings, ::Mono::Net::Security::MonoTlsStream*  stream) ;
+  /// @brief Method Create, addr 0x5e96850, size 0x90, virtual false, abstract: false, final false
+  static inline ::Mono::Net::Security::ChainValidationHelper* Create(::Mono::Net::Security::MobileTlsProvider* provider, ::ByRef<::Mono::Security::Interface::MonoTlsSettings*> settings,
+                                                                     ::Mono::Net::Security::MonoTlsStream* stream);
 
-/// @brief Method DefaultSelectionCallback, addr 0x5e24b90, size 0x4c, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate*  remoteCertificate, ::ArrayW<::StringW,::Array<::StringW>*>  acceptableIssuers) ;
+  /// @brief Method DefaultSelectionCallback, addr 0x5e96b9c, size 0x4c, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
+  DefaultSelectionCallback(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
+                           ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
 
-/// @brief Method GetInternalValidator, addr 0x5e244cc, size 0xdc, virtual false, abstract: false, final false
-static inline ::Mono::Net::Security::ChainValidationHelper* GetInternalValidator(::System::Net::Security::SslStream*  owner, ::Mono::Net::Security::MobileTlsProvider*  provider, ::Mono::Security::Interface::MonoTlsSettings*  settings) ;
+  /// @brief Method GetInternalValidator, addr 0x5e964d8, size 0xdc, virtual false, abstract: false, final false
+  static inline ::Mono::Net::Security::ChainValidationHelper* GetInternalValidator(::System::Net::Security::SslStream* owner, ::Mono::Net::Security::MobileTlsProvider* provider,
+                                                                                   ::Mono::Security::Interface::MonoTlsSettings* settings);
 
-/// @brief Method GetValidationCallback, addr 0x5e249ec, size 0xf0, virtual false, abstract: false, final false
-static inline ::System::Net::ServerCertValidationCallback* GetValidationCallback(::Mono::Security::Interface::MonoTlsSettings*  settings) ;
+  /// @brief Method GetValidationCallback, addr 0x5e969f8, size 0xf0, virtual false, abstract: false, final false
+  static inline ::System::Net::ServerCertValidationCallback* GetValidationCallback(::Mono::Security::Interface::MonoTlsSettings* settings);
 
-/// @brief Method InvokeCallback, addr 0x5e251e0, size 0xb0, virtual false, abstract: false, final false
-inline bool InvokeCallback(::System::Security::Cryptography::X509Certificates::X509Certificate*  leaf, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain, ::System::Net::Security::SslPolicyErrors  errors) ;
+  /// @brief Method InvokeCallback, addr 0x5e971ec, size 0xb0, virtual false, abstract: false, final false
+  inline bool InvokeCallback(::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
+                             ::System::Net::Security::SslPolicyErrors errors);
 
-static inline ::Mono::Net::Security::ChainValidationHelper* New_ctor(::System::Net::Security::SslStream*  owner, ::Mono::Net::Security::MobileTlsProvider*  provider, ::Mono::Security::Interface::MonoTlsSettings*  settings, bool  cloneSettings, ::Mono::Net::Security::MonoTlsStream*  stream) ;
+  static inline ::Mono::Net::Security::ChainValidationHelper* New_ctor(::System::Net::Security::SslStream* owner, ::Mono::Net::Security::MobileTlsProvider* provider,
+                                                                       ::Mono::Security::Interface::MonoTlsSettings* settings, bool cloneSettings, ::Mono::Net::Security::MonoTlsStream* stream);
 
-/// @brief Method SelectClientCertificate, addr 0x5e24be4, size 0x48, virtual true, abstract: false, final true
-inline bool SelectClientCertificate(::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate*  remoteCertificate, ::ArrayW<::StringW,::Array<::StringW>*>  acceptableIssuers, ::ByRef<::System::Security::Cryptography::X509Certificates::X509Certificate*>  clientCertificate) ;
+  /// @brief Method SelectClientCertificate, addr 0x5e96bf0, size 0x48, virtual true, abstract: false, final true
+  inline bool SelectClientCertificate(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
+                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers,
+                                      ::ByRef<::System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
 
-/// @brief Method ValidateCertificate, addr 0x5e24c2c, size 0xd4, virtual false, abstract: false, final false
-inline ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW  host, bool  serverMode, ::System::Security::Cryptography::X509Certificates::X509Certificate*  leaf, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain) ;
+  /// @brief Method ValidateCertificate, addr 0x5e96c38, size 0xd4, virtual false, abstract: false, final false
+  inline ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW host, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf,
+                                                                            ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
 
-/// @brief Method ValidateChain, addr 0x5e24de0, size 0x400, virtual false, abstract: false, final false
-inline ::Mono::Security::Interface::ValidationResult* ValidateChain(::StringW  host, bool  server, ::System::Security::Cryptography::X509Certificates::X509Certificate*  leaf, ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*>  chain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  certs, ::System::Net::Security::SslPolicyErrors  errors) ;
+  /// @brief Method ValidateChain, addr 0x5e96dec, size 0x400, virtual false, abstract: false, final false
+  inline ::Mono::Security::Interface::ValidationResult* ValidateChain(::StringW host, bool server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf,
+                                                                      ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain,
+                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs,
+                                                                      ::System::Net::Security::SslPolicyErrors errors);
 
-/// @brief Method ValidateChain, addr 0x5e24d00, size 0xe0, virtual false, abstract: false, final false
-inline ::Mono::Security::Interface::ValidationResult* ValidateChain(::StringW  host, bool  server, ::System::Security::Cryptography::X509Certificates::X509Certificate*  leaf, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  certs, ::System::Net::Security::SslPolicyErrors  errors) ;
+  /// @brief Method ValidateChain, addr 0x5e96d0c, size 0xe0, virtual false, abstract: false, final false
+  inline ::Mono::Security::Interface::ValidationResult* ValidateChain(::StringW host, bool server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf,
+                                                                      ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
+                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs,
+                                                                      ::System::Net::Security::SslPolicyErrors errors);
 
-constexpr ::System::Net::Security::LocalCertSelectionCallback* const& __cordl_internal_get_certSelectionCallback() const;
+  constexpr ::System::Net::Security::LocalCertSelectionCallback* const& __cordl_internal_get_certSelectionCallback() const;
 
-constexpr ::System::Net::Security::LocalCertSelectionCallback*& __cordl_internal_get_certSelectionCallback() ;
+  constexpr ::System::Net::Security::LocalCertSelectionCallback*& __cordl_internal_get_certSelectionCallback();
 
-constexpr ::System::Net::ServerCertValidationCallback* const& __cordl_internal_get_certValidationCallback() const;
+  constexpr ::System::Net::ServerCertValidationCallback* const& __cordl_internal_get_certValidationCallback() const;
 
-constexpr ::System::Net::ServerCertValidationCallback*& __cordl_internal_get_certValidationCallback() ;
+  constexpr ::System::Net::ServerCertValidationCallback*& __cordl_internal_get_certValidationCallback();
 
-constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>* const& __cordl_internal_get_owner() const;
+  constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>* const& __cordl_internal_get_owner() const;
 
-constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>*& __cordl_internal_get_owner() ;
+  constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>*& __cordl_internal_get_owner();
 
-constexpr ::Mono::Net::Security::MobileTlsProvider* const& __cordl_internal_get_provider() const;
+  constexpr ::Mono::Net::Security::MobileTlsProvider* const& __cordl_internal_get_provider() const;
 
-constexpr ::Mono::Net::Security::MobileTlsProvider*& __cordl_internal_get_provider() ;
+  constexpr ::Mono::Net::Security::MobileTlsProvider*& __cordl_internal_get_provider();
 
-constexpr ::System::Net::HttpWebRequest* const& __cordl_internal_get_request() const;
+  constexpr ::System::Net::HttpWebRequest* const& __cordl_internal_get_request() const;
 
-constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get_request() ;
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get_request();
 
-constexpr ::Mono::Security::Interface::MonoTlsSettings* const& __cordl_internal_get_settings() const;
+  constexpr ::Mono::Security::Interface::MonoTlsSettings* const& __cordl_internal_get_settings() const;
 
-constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings() ;
+  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings();
 
-constexpr ::Mono::Net::Security::MonoTlsStream* const& __cordl_internal_get_tlsStream() const;
+  constexpr ::Mono::Net::Security::MonoTlsStream* const& __cordl_internal_get_tlsStream() const;
 
-constexpr ::Mono::Net::Security::MonoTlsStream*& __cordl_internal_get_tlsStream() ;
+  constexpr ::Mono::Net::Security::MonoTlsStream*& __cordl_internal_get_tlsStream();
 
-constexpr void __cordl_internal_set_certSelectionCallback(::System::Net::Security::LocalCertSelectionCallback*  value) ;
+  constexpr void __cordl_internal_set_certSelectionCallback(::System::Net::Security::LocalCertSelectionCallback* value);
 
-constexpr void __cordl_internal_set_certValidationCallback(::System::Net::ServerCertValidationCallback*  value) ;
+  constexpr void __cordl_internal_set_certValidationCallback(::System::Net::ServerCertValidationCallback* value);
 
-constexpr void __cordl_internal_set_owner(::System::WeakReference_1<::System::Net::Security::SslStream*>*  value) ;
+  constexpr void __cordl_internal_set_owner(::System::WeakReference_1<::System::Net::Security::SslStream*>* value);
 
-constexpr void __cordl_internal_set_provider(::Mono::Net::Security::MobileTlsProvider*  value) ;
+  constexpr void __cordl_internal_set_provider(::Mono::Net::Security::MobileTlsProvider* value);
 
-constexpr void __cordl_internal_set_request(::System::Net::HttpWebRequest*  value) ;
+  constexpr void __cordl_internal_set_request(::System::Net::HttpWebRequest* value);
 
-constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings*  value) ;
+  constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
 
-constexpr void __cordl_internal_set_tlsStream(::Mono::Net::Security::MonoTlsStream*  value) ;
+  constexpr void __cordl_internal_set_tlsStream(::Mono::Net::Security::MonoTlsStream* value);
 
-/// @brief Method .ctor, addr 0x5e245a8, size 0x29c, virtual false, abstract: false, final false
-inline void _ctor(::System::Net::Security::SslStream*  owner, ::Mono::Net::Security::MobileTlsProvider*  provider, ::Mono::Security::Interface::MonoTlsSettings*  settings, bool  cloneSettings, ::Mono::Net::Security::MonoTlsStream*  stream) ;
+  /// @brief Method .ctor, addr 0x5e965b4, size 0x29c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::Security::SslStream* owner, ::Mono::Net::Security::MobileTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings* settings, bool cloneSettings,
+                    ::Mono::Net::Security::MonoTlsStream* stream);
 
-/// @brief Method get_Settings, addr 0x5e24bdc, size 0x8, virtual true, abstract: false, final true
-inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings() ;
+  /// @brief Method get_Settings, addr 0x5e96be8, size 0x8, virtual true, abstract: false, final true
+  inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
-/// @brief Convert to "::Mono::Security::Interface::ICertificateValidator"
-constexpr ::Mono::Security::Interface::ICertificateValidator* i___Mono__Security__Interface__ICertificateValidator() noexcept;
+  /// @brief Convert to "::Mono::Security::Interface::ICertificateValidator"
+  constexpr ::Mono::Security::Interface::ICertificateValidator* i___Mono__Security__Interface__ICertificateValidator() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ChainValidationHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ChainValidationHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ChainValidationHelper(ChainValidationHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ChainValidationHelper(ChainValidationHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ChainValidationHelper(ChainValidationHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ChainValidationHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ChainValidationHelper(ChainValidationHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11007 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11000};
+  /// @brief Field owner, offset: 0x10, size: 0x8, def value: None
+  ::System::WeakReference_1<::System::Net::Security::SslStream*>* ___owner;
 
-/// @brief Field owner, offset: 0x10, size: 0x8, def value: None
- ::System::WeakReference_1<::System::Net::Security::SslStream*>*  ___owner;
+  /// @brief Field settings, offset: 0x18, size: 0x8, def value: None
+  ::Mono::Security::Interface::MonoTlsSettings* ___settings;
 
-/// @brief Field settings, offset: 0x18, size: 0x8, def value: None
- ::Mono::Security::Interface::MonoTlsSettings*  ___settings;
+  /// @brief Field provider, offset: 0x20, size: 0x8, def value: None
+  ::Mono::Net::Security::MobileTlsProvider* ___provider;
 
-/// @brief Field provider, offset: 0x20, size: 0x8, def value: None
- ::Mono::Net::Security::MobileTlsProvider*  ___provider;
+  /// @brief Field certValidationCallback, offset: 0x28, size: 0x8, def value: None
+  ::System::Net::ServerCertValidationCallback* ___certValidationCallback;
 
-/// @brief Field certValidationCallback, offset: 0x28, size: 0x8, def value: None
- ::System::Net::ServerCertValidationCallback*  ___certValidationCallback;
+  /// @brief Field certSelectionCallback, offset: 0x30, size: 0x8, def value: None
+  ::System::Net::Security::LocalCertSelectionCallback* ___certSelectionCallback;
 
-/// @brief Field certSelectionCallback, offset: 0x30, size: 0x8, def value: None
- ::System::Net::Security::LocalCertSelectionCallback*  ___certSelectionCallback;
+  /// @brief Field tlsStream, offset: 0x38, size: 0x8, def value: None
+  ::Mono::Net::Security::MonoTlsStream* ___tlsStream;
 
-/// @brief Field tlsStream, offset: 0x38, size: 0x8, def value: None
- ::Mono::Net::Security::MonoTlsStream*  ___tlsStream;
+  /// @brief Field request, offset: 0x40, size: 0x8, def value: None
+  ::System::Net::HttpWebRequest* ___request;
 
-/// @brief Field request, offset: 0x40, size: 0x8, def value: None
- ::System::Net::HttpWebRequest*  ___request;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Net::Security::ChainValidationHelper, ___owner) == 0x10, "Offset mismatch!");
@@ -289,7 +305,7 @@ static_assert(offsetof(::Mono::Net::Security::ChainValidationHelper, ___request)
 
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::ChainValidationHelper, 0x48>, "Size mismatch!");
 
-} // namespace end def Mono::Net::Security
+} // namespace Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::ChainValidationHelper);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Security", "ChainValidationHelper");
 NEED_NO_BOX(::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0);

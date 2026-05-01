@@ -21,62 +21,62 @@ namespace GlobalNamespace {
 // CS Name: FillIndicator
 class CORDL_TYPE FillIndicator : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _bgImage, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__bgImage, put=__cordl_internal_set__bgImage)) ::UnityW<::UnityEngine::UI::Image>  _bgImage;
+  // Declarations
+  /// @brief Field _bgImage, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage)) ::UnityW<::UnityEngine::UI::Image> _bgImage;
 
-/// @brief Field _image, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__image, put=__cordl_internal_set__image)) ::UnityW<::UnityEngine::UI::Image>  _image;
+  /// @brief Field _image, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image)) ::UnityW<::UnityEngine::UI::Image> _image;
 
- __declspec(property(get=get_fillAmount, put=set_fillAmount)) float_t  fillAmount;
+  __declspec(property(get = get_fillAmount, put = set_fillAmount)) float_t fillAmount;
 
-static inline ::GlobalNamespace::FillIndicator* New_ctor() ;
+  static inline ::GlobalNamespace::FillIndicator* New_ctor();
 
-constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage() ;
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
 
-constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image() ;
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
 
-constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image>  value) ;
+  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
 
-constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image>  value) ;
+  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-/// @brief Method .ctor, addr 0x5854844, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58c8ff8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_fillAmount, addr 0x585482c, size 0x18, virtual false, abstract: false, final false
-inline float_t get_fillAmount() ;
+  /// @brief Method get_fillAmount, addr 0x58c8fe0, size 0x18, virtual false, abstract: false, final false
+  inline float_t get_fillAmount();
 
-/// @brief Method set_fillAmount, addr 0x5854708, size 0x44, virtual false, abstract: false, final false
-inline void set_fillAmount(float_t  value) ;
+  /// @brief Method set_fillAmount, addr 0x58c8ebc, size 0x44, virtual false, abstract: false, final false
+  inline void set_fillAmount(float_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FillIndicator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FillIndicator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FillIndicator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FillIndicator(FillIndicator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FillIndicator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FillIndicator(FillIndicator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FillIndicator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FillIndicator(FillIndicator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FillIndicator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FillIndicator(FillIndicator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6322};
+  /// @brief Field _bgImage, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
-/// @brief Field _bgImage, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Image>  ____bgImage;
+  /// @brief Field _image, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Image> ____image;
 
-/// @brief Field _image, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Image>  ____image;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::FillIndicator, ____bgImage) == 0x20, "Offset mismatch!");
@@ -85,6 +85,6 @@ static_assert(offsetof(::GlobalNamespace::FillIndicator, ____image) == 0x28, "Of
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FillIndicator, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FillIndicator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FillIndicator*, "", "FillIndicator");

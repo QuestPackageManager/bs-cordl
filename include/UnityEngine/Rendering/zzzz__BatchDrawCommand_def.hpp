@@ -22,54 +22,61 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.BatchDrawCommand
 struct CORDL_TYPE BatchDrawCommand {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr BatchDrawCommand() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BatchDrawCommand();
 
-// Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: None }, CppParam { name: "batchID", ty: "::UnityEngine::Rendering::BatchID", modifiers: "", def_value: None }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value: None }, CppParam { name: "splitVisibilityMask", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "lightmapIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sortingPosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "visibleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: None }, CppParam { name: "submeshIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unusedPadding2", ty: "uint16_t", modifiers: "", def_value: None }]
-constexpr BatchDrawCommand(::UnityEngine::Rendering::BatchDrawCommandFlags  flags, ::UnityEngine::Rendering::BatchID  batchID, ::UnityEngine::Rendering::BatchMaterialID  materialID, uint16_t  splitVisibilityMask, uint16_t  lightmapIndex, int32_t  sortingPosition, uint32_t  visibleOffset, uint32_t  visibleCount, ::UnityEngine::Rendering::BatchMeshID  meshID, uint16_t  submeshIndex, uint16_t  unusedPadding2) noexcept;
+  // Ctor Parameters [CppParam { name: "flags", ty: "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: None }, CppParam { name: "batchID", ty:
+  // "::UnityEngine::Rendering::BatchID", modifiers: "", def_value: None }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value: None }, CppParam {
+  // name: "splitVisibilityMask", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "lightmapIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
+  // "sortingPosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "visibleCount", ty:
+  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: None }, CppParam { name: "submeshIndex", ty:
+  // "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unusedPadding2", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr BatchDrawCommand(::UnityEngine::Rendering::BatchDrawCommandFlags flags, ::UnityEngine::Rendering::BatchID batchID, ::UnityEngine::Rendering::BatchMaterialID materialID,
+                             uint16_t splitVisibilityMask, uint16_t lightmapIndex, int32_t sortingPosition, uint32_t visibleOffset, uint32_t visibleCount, ::UnityEngine::Rendering::BatchMeshID meshID,
+                             uint16_t submeshIndex, uint16_t unusedPadding2) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10838};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10845 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x24};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
-/// @brief Field flags, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::Rendering::BatchDrawCommandFlags  flags;
+  /// @brief Field flags, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::Rendering::BatchDrawCommandFlags flags;
 
-/// @brief Field batchID, offset: 0x4, size: 0x4, def value: None
- ::UnityEngine::Rendering::BatchID  batchID;
+  /// @brief Field batchID, offset: 0x4, size: 0x4, def value: None
+  ::UnityEngine::Rendering::BatchID batchID;
 
-/// @brief Field materialID, offset: 0x8, size: 0x4, def value: None
- ::UnityEngine::Rendering::BatchMaterialID  materialID;
+  /// @brief Field materialID, offset: 0x8, size: 0x4, def value: None
+  ::UnityEngine::Rendering::BatchMaterialID materialID;
 
-/// @brief Field splitVisibilityMask, offset: 0xc, size: 0x2, def value: None
- uint16_t  splitVisibilityMask;
+  /// @brief Field splitVisibilityMask, offset: 0xc, size: 0x2, def value: None
+  uint16_t splitVisibilityMask;
 
-/// @brief Field lightmapIndex, offset: 0xe, size: 0x2, def value: None
- uint16_t  lightmapIndex;
+  /// @brief Field lightmapIndex, offset: 0xe, size: 0x2, def value: None
+  uint16_t lightmapIndex;
 
-/// @brief Field sortingPosition, offset: 0x10, size: 0x4, def value: None
- int32_t  sortingPosition;
+  /// @brief Field sortingPosition, offset: 0x10, size: 0x4, def value: None
+  int32_t sortingPosition;
 
-/// @brief Field visibleOffset, offset: 0x14, size: 0x4, def value: None
- uint32_t  visibleOffset;
+  /// @brief Field visibleOffset, offset: 0x14, size: 0x4, def value: None
+  uint32_t visibleOffset;
 
-/// @brief Field visibleCount, offset: 0x18, size: 0x4, def value: None
- uint32_t  visibleCount;
+  /// @brief Field visibleCount, offset: 0x18, size: 0x4, def value: None
+  uint32_t visibleCount;
 
-/// @brief Field meshID, offset: 0x1c, size: 0x4, def value: None
- ::UnityEngine::Rendering::BatchMeshID  meshID;
+  /// @brief Field meshID, offset: 0x1c, size: 0x4, def value: None
+  ::UnityEngine::Rendering::BatchMeshID meshID;
 
-/// @brief Field submeshIndex, offset: 0x20, size: 0x2, def value: None
- uint16_t  submeshIndex;
+  /// @brief Field submeshIndex, offset: 0x20, size: 0x2, def value: None
+  uint16_t submeshIndex;
 
-/// @brief Field unusedPadding2, offset: 0x22, size: 0x2, def value: None
- uint16_t  unusedPadding2;
+  /// @brief Field unusedPadding2, offset: 0x22, size: 0x2, def value: None
+  uint16_t unusedPadding2;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, flags) == 0x0, "Offset mismatch!");
@@ -96,5 +103,5 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommand, unusedPadding
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchDrawCommand, 0x24>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchDrawCommand, "UnityEngine.Rendering", "BatchDrawCommand");

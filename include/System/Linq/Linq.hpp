@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Linq/Buffer_1.hpp"
 #include "System/Linq/EmptyEnumerable_1.hpp"
@@ -18,6 +18,5 @@
 #include "System/Linq/OrderedEnumerable_2.hpp"
 #include "System/Linq/Set_1.hpp"
 #ifdef __cpp_modules
-                    export module Linq;
-                    #endif
-                
+export module Linq;
+#endif

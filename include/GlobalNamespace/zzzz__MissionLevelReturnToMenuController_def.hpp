@@ -29,75 +29,80 @@ namespace GlobalNamespace {
 // CS Name: MissionLevelReturnToMenuController
 class CORDL_TYPE MissionLevelReturnToMenuController : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _missionLevelSceneSetupData, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__missionLevelSceneSetupData, put=__cordl_internal_set__missionLevelSceneSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  _missionLevelSceneSetupData;
+  // Declarations
+  /// @brief Field _missionLevelSceneSetupData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionLevelSceneSetupData,
+                      put = __cordl_internal_set__missionLevelSceneSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>
+      _missionLevelSceneSetupData;
 
-/// @brief Field _missionObjectiveCheckersManager, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__missionObjectiveCheckersManager, put=__cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>  _missionObjectiveCheckersManager;
+  /// @brief Field _missionObjectiveCheckersManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionObjectiveCheckersManager,
+                      put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
+      _missionObjectiveCheckersManager;
 
-/// @brief Field _prepareLevelCompletionResults, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__prepareLevelCompletionResults, put=__cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>  _prepareLevelCompletionResults;
+  /// @brief Field _prepareLevelCompletionResults, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
+      _prepareLevelCompletionResults;
 
-/// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
-constexpr operator  ::GlobalNamespace::IReturnToMenuController*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
+  constexpr operator ::GlobalNamespace::IReturnToMenuController*() noexcept;
 
-static inline ::GlobalNamespace::MissionLevelReturnToMenuController* New_ctor() ;
+  static inline ::GlobalNamespace::MissionLevelReturnToMenuController* New_ctor();
 
-/// @brief Method ReturnToMenu, addr 0x5808654, size 0xb4, virtual true, abstract: false, final true
-inline void ReturnToMenu() ;
+  /// @brief Method ReturnToMenu, addr 0x587a5a0, size 0xb4, virtual true, abstract: false, final true
+  inline void ReturnToMenu();
 
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
 
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelSceneSetupData() ;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelSceneSetupData();
 
-constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
 
-constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>& __cordl_internal_get__missionObjectiveCheckersManager() ;
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>& __cordl_internal_get__missionObjectiveCheckersManager();
 
-constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
 
-constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults() ;
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
 
-constexpr void __cordl_internal_set__missionLevelSceneSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  value) ;
+  constexpr void __cordl_internal_set__missionLevelSceneSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>  value) ;
+  constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>  value) ;
+  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-/// @brief Method .ctor, addr 0x5808708, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x587a654, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
-constexpr ::GlobalNamespace::IReturnToMenuController* i___GlobalNamespace__IReturnToMenuController() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
+  constexpr ::GlobalNamespace::IReturnToMenuController* i___GlobalNamespace__IReturnToMenuController() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissionLevelReturnToMenuController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionLevelReturnToMenuController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissionLevelReturnToMenuController(MissionLevelReturnToMenuController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissionLevelReturnToMenuController(MissionLevelReturnToMenuController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissionLevelReturnToMenuController(MissionLevelReturnToMenuController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelReturnToMenuController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissionLevelReturnToMenuController(MissionLevelReturnToMenuController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6034 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6033};
+  /// @brief Field _missionLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelSceneSetupData;
 
-/// @brief Field _missionLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  ____missionLevelSceneSetupData;
+  /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
-/// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>  ____prepareLevelCompletionResults;
+  /// @brief Field _missionObjectiveCheckersManager, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
-/// @brief Field _missionObjectiveCheckersManager, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>  ____missionObjectiveCheckersManager;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionLevelReturnToMenuController, ____missionLevelSceneSetupData) == 0x20, "Offset mismatch!");
@@ -108,6 +113,6 @@ static_assert(offsetof(::GlobalNamespace::MissionLevelReturnToMenuController, __
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelReturnToMenuController, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelReturnToMenuController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelReturnToMenuController*, "", "MissionLevelReturnToMenuController");

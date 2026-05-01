@@ -7,8 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WorldSpaceDataStore)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -28,42 +27,43 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.WorldSpaceDataStore
 class CORDL_TYPE WorldSpaceDataStore : public ::System::Object {
 public:
-// Declarations
-/// @brief Field m_WorldSpaceData, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_m_WorldSpaceData, put=setStaticF_m_WorldSpaceData)) ::System::Collections::Generic::Dictionary_2<uint32_t,::UnityEngine::UIElements::WorldSpaceData>*  m_WorldSpaceData;
+  // Declarations
+  /// @brief Field m_WorldSpaceData, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_m_WorldSpaceData,
+                      put = setStaticF_m_WorldSpaceData)) ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* m_WorldSpaceData;
 
-/// @brief Method GetWorldSpaceData, addr 0x6b0666c, size 0xbc, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::WorldSpaceData GetWorldSpaceData(::UnityEngine::UIElements::VisualElement*  ve) ;
+  /// @brief Method GetWorldSpaceData, addr 0x6b788b4, size 0xbc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::WorldSpaceData GetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve);
 
-/// @brief Method SetWorldSpaceData, addr 0x6b065a4, size 0xc8, virtual false, abstract: false, final false
-static inline void SetWorldSpaceData(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::WorldSpaceData  data) ;
+  /// @brief Method SetWorldSpaceData, addr 0x6b787ec, size 0xc8, virtual false, abstract: false, final false
+  static inline void SetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::WorldSpaceData data);
 
-static inline ::System::Collections::Generic::Dictionary_2<uint32_t,::UnityEngine::UIElements::WorldSpaceData>* getStaticF_m_WorldSpaceData() ;
+  static inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* getStaticF_m_WorldSpaceData();
 
-static inline void setStaticF_m_WorldSpaceData(::System::Collections::Generic::Dictionary_2<uint32_t,::UnityEngine::UIElements::WorldSpaceData>*  value) ;
+  static inline void setStaticF_m_WorldSpaceData(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WorldSpaceDataStore() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WorldSpaceDataStore();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WorldSpaceDataStore", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WorldSpaceDataStore(WorldSpaceDataStore&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WorldSpaceDataStore", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WorldSpaceDataStore(WorldSpaceDataStore && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WorldSpaceDataStore", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WorldSpaceDataStore(WorldSpaceDataStore const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WorldSpaceDataStore", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WorldSpaceDataStore(WorldSpaceDataStore const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5268 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5268};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::WorldSpaceDataStore, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::WorldSpaceDataStore);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::WorldSpaceDataStore*, "UnityEngine.UIElements", "WorldSpaceDataStore");

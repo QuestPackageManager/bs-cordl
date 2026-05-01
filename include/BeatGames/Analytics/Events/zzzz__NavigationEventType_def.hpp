@@ -18,71 +18,71 @@ namespace BeatGames::Analytics::Events {
 // CS Name: BeatGames.Analytics.Events.NavigationEventType
 class CORDL_TYPE NavigationEventType : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
+  // Declarations
+  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
-/// @brief Field <Value>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__Value_k__BackingField, put=__cordl_internal_set__Value_k__BackingField)) ::StringW  _Value_k__BackingField;
+  /// @brief Field <Value>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::StringW _Value_k__BackingField;
 
-static inline ::BeatGames::Analytics::Events::NavigationEventType* New_ctor(::StringW  value) ;
+  static inline ::BeatGames::Analytics::Events::NavigationEventType* New_ctor(::StringW value);
 
-/// @brief Method ToString, addr 0x3191cd4, size 0x8, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x31c44f4, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Value_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Value_k__BackingField();
 
-constexpr void __cordl_internal_set__Value_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x3191bec, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  value) ;
+  /// @brief Method .ctor, addr 0x31c440c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW value);
 
-/// @brief Method get_CancelDrag, addr 0x3191c6c, size 0x68, virtual false, abstract: false, final false
-static inline ::BeatGames::Analytics::Events::NavigationEventType* get_CancelDrag() ;
+  /// @brief Method get_CancelDrag, addr 0x31c448c, size 0x68, virtual false, abstract: false, final false
+  static inline ::BeatGames::Analytics::Events::NavigationEventType* get_CancelDrag();
 
-/// @brief Method get_Click, addr 0x31911b8, size 0x68, virtual false, abstract: false, final false
-static inline ::BeatGames::Analytics::Events::NavigationEventType* get_Click() ;
+  /// @brief Method get_Click, addr 0x31c39c8, size 0x68, virtual false, abstract: false, final false
+  static inline ::BeatGames::Analytics::Events::NavigationEventType* get_Click();
 
-/// @brief Method get_Drag, addr 0x3191c04, size 0x68, virtual false, abstract: false, final false
-static inline ::BeatGames::Analytics::Events::NavigationEventType* get_Drag() ;
+  /// @brief Method get_Drag, addr 0x31c4424, size 0x68, virtual false, abstract: false, final false
+  static inline ::BeatGames::Analytics::Events::NavigationEventType* get_Drag();
 
-/// @brief Method get_Impression, addr 0x3191054, size 0x68, virtual false, abstract: false, final false
-static inline ::BeatGames::Analytics::Events::NavigationEventType* get_Impression() ;
+  /// @brief Method get_Impression, addr 0x31c3860, size 0x68, virtual false, abstract: false, final false
+  static inline ::BeatGames::Analytics::Events::NavigationEventType* get_Impression();
 
-/// @brief Method get_Value, addr 0x3191bf4, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Value() ;
+  /// @brief Method get_Value, addr 0x31c4414, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Value();
 
-/// @brief Method set_Value, addr 0x3191bfc, size 0x8, virtual false, abstract: false, final false
-inline void set_Value(::StringW  value) ;
+  /// @brief Method set_Value, addr 0x31c441c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Value(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NavigationEventType() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavigationEventType();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NavigationEventType(NavigationEventType&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NavigationEventType(NavigationEventType && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NavigationEventType(NavigationEventType const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NavigationEventType(NavigationEventType const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23095 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22987};
+  /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____Value_k__BackingField;
 
-/// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____Value_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatGames::Analytics::Events::NavigationEventType, ____Value_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatGames::Analytics::Events::NavigationEventType, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatGames::Analytics::Events
+} // namespace BeatGames::Analytics::Events
 NEED_NO_BOX(::BeatGames::Analytics::Events::NavigationEventType);
 DEFINE_IL2CPP_ARG_TYPE(::BeatGames::Analytics::Events::NavigationEventType*, "BeatGames.Analytics.Events", "NavigationEventType");

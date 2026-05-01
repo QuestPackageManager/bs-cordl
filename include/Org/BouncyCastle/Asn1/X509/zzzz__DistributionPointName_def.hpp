@@ -40,101 +40,101 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // CS Name: Org.BouncyCastle.Asn1.X509.DistributionPointName
 class CORDL_TYPE DistributionPointName : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
- __declspec(property(get=get_Name)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  Name;
+  // Declarations
+  __declspec(property(get = get_Name)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Name;
 
- __declspec(property(get=get_PointType)) int32_t  PointType;
+  __declspec(property(get = get_PointType)) int32_t PointType;
 
-/// @brief Field name, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  name;
+  /// @brief Field name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::Org::BouncyCastle::Asn1::Asn1Encodable* name;
 
-/// @brief Field type, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) int32_t  type;
+  /// @brief Field type, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) int32_t type;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-/// @brief Method GetInstance, addr 0x355f474, size 0x18, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
+  /// @brief Method GetInstance, addr 0x359bab8, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-/// @brief Method GetInstance, addr 0x355f8e0, size 0x184, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x359bf24, size 0x184, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames*  name) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* name);
 
-static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(int32_t  type, ::Org::BouncyCastle::Asn1::Asn1Encodable*  name) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
-/// @brief Method ToAsn1Object, addr 0x355fad0, size 0x6c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x359c114, size 0x6c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-/// @brief Method ToString, addr 0x355fb3c, size 0x170, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x359c180, size 0x170, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_name() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_name() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_name() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_name();
 
-constexpr int32_t const& __cordl_internal_get_type() const;
+  constexpr int32_t const& __cordl_internal_get_type() const;
 
-constexpr int32_t& __cordl_internal_get_type() ;
+  constexpr int32_t& __cordl_internal_get_type();
 
-constexpr void __cordl_internal_set_name(::Org::BouncyCastle::Asn1::Asn1Encodable*  value) ;
+  constexpr void __cordl_internal_set_name(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-constexpr void __cordl_internal_set_type(int32_t  value) ;
+  constexpr void __cordl_internal_set_type(int32_t value);
 
-/// @brief Method .ctor, addr 0x355fab4, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames*  name) ;
+  /// @brief Method .ctor, addr 0x359c0f8, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* name);
 
-/// @brief Method .ctor, addr 0x355fa64, size 0x44, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj) ;
+  /// @brief Method .ctor, addr 0x359c0a8, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-/// @brief Method .ctor, addr 0x355faa8, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(int32_t  type, ::Org::BouncyCastle::Asn1::Asn1Encodable*  name) ;
+  /// @brief Method .ctor, addr 0x359c0ec, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
-/// @brief Method appendObject, addr 0x355fcac, size 0xe4, virtual false, abstract: false, final false
-inline void appendObject(::System::Text::StringBuilder*  buf, ::StringW  sep, ::StringW  name, ::StringW  val) ;
+  /// @brief Method appendObject, addr 0x359c2f0, size 0xe4, virtual false, abstract: false, final false
+  inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
 
-/// @brief Method get_Name, addr 0x355fac8, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Name() ;
+  /// @brief Method get_Name, addr 0x359c10c, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
 
-/// @brief Method get_PointType, addr 0x355fac0, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_PointType() ;
+  /// @brief Method get_PointType, addr 0x359c104, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_PointType();
 
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DistributionPointName() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DistributionPointName();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DistributionPointName", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DistributionPointName(DistributionPointName&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DistributionPointName", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DistributionPointName(DistributionPointName && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DistributionPointName", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DistributionPointName(DistributionPointName const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DistributionPointName", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DistributionPointName(DistributionPointName const& ) = delete;
+  /// @brief Field FullName offset 0xffffffff size 0x4
+  static constexpr int32_t FullName{ static_cast<int32_t>(0x0) };
 
-/// @brief Field FullName offset 0xffffffff size 0x4
-static constexpr int32_t  FullName{static_cast<int32_t>(0x0)};
+  /// @brief Field NameRelativeToCrlIssuer offset 0xffffffff size 0x4
+  static constexpr int32_t NameRelativeToCrlIssuer{ static_cast<int32_t>(0x1) };
 
-/// @brief Field NameRelativeToCrlIssuer offset 0xffffffff size 0x4
-static constexpr int32_t  NameRelativeToCrlIssuer{static_cast<int32_t>(0x1)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 358 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{358};
+  /// @brief Field name, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___name;
 
-/// @brief Field name, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1Encodable*  ___name;
+  /// @brief Field type, offset: 0x18, size: 0x4, def value: None
+  int32_t ___type;
 
-/// @brief Field type, offset: 0x18, size: 0x4, def value: None
- int32_t  ___type;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DistributionPointName, ___name) == 0x10, "Offset mismatch!");
@@ -143,6 +143,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DistributionPointName, _
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::DistributionPointName, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::X509
+} // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::DistributionPointName);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::DistributionPointName*, "Org.BouncyCastle.Asn1.X509", "DistributionPointName");

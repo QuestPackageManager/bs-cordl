@@ -8,396 +8,319 @@
 #include "System/Data/zzzz__DataColumn_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::SqlBooleanStorage::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(::System::Data::DataColumn*)>(
+    &::System::Data::Common::SqlBooleanStorage::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5f15034;
+  constexpr static std::size_t addrs = 0x5f87040;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.Aggregate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(::ArrayW<int32_t,::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::SqlBooleanStorage::Aggregate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::System::Data::Common::SqlBooleanStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::SqlBooleanStorage::Aggregate)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x5f15164;
+  constexpr static std::size_t addrs = 0x5f87170;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.Compare
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlBooleanStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SqlBooleanStorage::Compare)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlBooleanStorage::*)(int32_t, int32_t)>(
+    &::System::Data::Common::SqlBooleanStorage::Compare)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f155bc;
+  constexpr static std::size_t addrs = 0x5f875c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.CompareValueTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlBooleanStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SqlBooleanStorage::CompareValueTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlBooleanStorage::*)(int32_t, ::System::Object*)>(
+    &::System::Data::Common::SqlBooleanStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f15660;
+  constexpr static std::size_t addrs = 0x5f8766c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.ConvertValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(::System::Object*)>(&::System::Data::Common::SqlBooleanStorage::ConvertValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(::System::Object*)>(
+    &::System::Data::Common::SqlBooleanStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f15714;
+  constexpr static std::size_t addrs = 0x5f87720;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 7));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.Copy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SqlBooleanStorage::Copy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t, int32_t)>(
+    &::System::Data::Common::SqlBooleanStorage::Copy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f15790;
+  constexpr static std::size_t addrs = 0x5f8779c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 8));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.Get
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(int32_t)>(&::System::Data::Common::SqlBooleanStorage::Get)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(int32_t)>(
+    &::System::Data::Common::SqlBooleanStorage::Get)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f157cc;
+  constexpr static std::size_t addrs = 0x5f877d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 9));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.IsNull
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Common::SqlBooleanStorage::*)(int32_t)>(&::System::Data::Common::SqlBooleanStorage::IsNull)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f15850;
+  constexpr static std::size_t addrs = 0x5f8785c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 11));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.Set
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SqlBooleanStorage::Set)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t, ::System::Object*)>(
+    &::System::Data::Common::SqlBooleanStorage::Set)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5f158dc;
+  constexpr static std::size_t addrs = 0x5f878e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.SetCapacity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t)>(&::System::Data::Common::SqlBooleanStorage::SetCapacity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t)>(
+    &::System::Data::Common::SqlBooleanStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f15924;
+  constexpr static std::size_t addrs = 0x5f87930;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.ConvertXmlToObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(::StringW)>(&::System::Data::Common::SqlBooleanStorage::ConvertXmlToObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(::StringW)>(
+    &::System::Data::Common::SqlBooleanStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5f159dc;
+  constexpr static std::size_t addrs = 0x5f879e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.ConvertObjectToXml
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::SqlBooleanStorage::*)(::System::Object*)>(&::System::Data::Common::SqlBooleanStorage::ConvertObjectToXml)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::SqlBooleanStorage::*)(::System::Object*)>(
+    &::System::Data::Common::SqlBooleanStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5f15c8c;
+  constexpr static std::size_t addrs = 0x5f87c98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.GetEmptyStorage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(int32_t)>(&::System::Data::Common::SqlBooleanStorage::GetEmptyStorage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBooleanStorage::*)(int32_t)>(
+    &::System::Data::Common::SqlBooleanStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5f15eec;
+  constexpr static std::size_t addrs = 0x5f87ef8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 18));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.CopyValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::SqlBooleanStorage::CopyValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::SqlBooleanStorage::CopyValue)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5f15f38;
+  constexpr static std::size_t addrs = 0x5f87f44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 19));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SqlBooleanStorage.SetStorage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(&::System::Data::Common::SqlBooleanStorage::SetStorage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBooleanStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
+    &::System::Data::Common::SqlBooleanStorage::SetStorage)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5f1603c;
+  constexpr static std::size_t addrs = 0x5f88048;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                                  20
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 20));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::System::Data::SqlTypes::SqlBoolean,::Array<::System::Data::SqlTypes::SqlBoolean>*>& System::Data::Common::SqlBooleanStorage::__cordl_internal_get__values()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____values;
+constexpr ::ArrayW<::System::Data::SqlTypes::SqlBoolean, ::Array<::System::Data::SqlTypes::SqlBoolean>*>& System::Data::Common::SqlBooleanStorage::__cordl_internal_get__values() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____values;
 }
-constexpr ::ArrayW<::System::Data::SqlTypes::SqlBoolean,::Array<::System::Data::SqlTypes::SqlBoolean>*> const& System::Data::Common::SqlBooleanStorage::__cordl_internal_get__values() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____values;
+constexpr ::ArrayW<::System::Data::SqlTypes::SqlBoolean, ::Array<::System::Data::SqlTypes::SqlBoolean>*> const& System::Data::Common::SqlBooleanStorage::__cordl_internal_get__values() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____values;
 }
-constexpr void System::Data::Common::SqlBooleanStorage::__cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlBoolean,::Array<::System::Data::SqlTypes::SqlBoolean>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::Common::SqlBooleanStorage::__cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlBoolean, ::Array<::System::Data::SqlTypes::SqlBoolean>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Data::Common::SqlBooleanStorage::_ctor(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::Common::SqlBooleanStorage::_ctor(::System::Data::DataColumn* column) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
 }
-inline ::System::Object* System::Data::Common::SqlBooleanStorage::Aggregate(::ArrayW<int32_t,::Array<int32_t>*>  records, ::System::Data::AggregateType  kind)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, records, kind);
+inline ::System::Object* System::Data::Common::SqlBooleanStorage::Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, records, kind);
 }
-inline int32_t System::Data::Common::SqlBooleanStorage::Compare(int32_t  recordNo1, int32_t  recordNo2)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo1, recordNo2);
+inline int32_t System::Data::Common::SqlBooleanStorage::Compare(int32_t recordNo1, int32_t recordNo2) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo1, recordNo2);
 }
-inline int32_t System::Data::Common::SqlBooleanStorage::CompareValueTo(int32_t  recordNo, ::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo, value);
+inline int32_t System::Data::Common::SqlBooleanStorage::CompareValueTo(int32_t recordNo, ::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo, value);
 }
-inline ::System::Object* System::Data::Common::SqlBooleanStorage::ConvertValue(::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, value);
+inline ::System::Object* System::Data::Common::SqlBooleanStorage::ConvertValue(::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, value);
 }
-inline void System::Data::Common::SqlBooleanStorage::Copy(int32_t  recordNo1, int32_t  recordNo2)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, recordNo1, recordNo2);
+inline void System::Data::Common::SqlBooleanStorage::Copy(int32_t recordNo1, int32_t recordNo2) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, recordNo1, recordNo2);
 }
-inline ::System::Object* System::Data::Common::SqlBooleanStorage::Get(int32_t  record)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, record);
+inline ::System::Object* System::Data::Common::SqlBooleanStorage::Get(int32_t record) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, record);
 }
-inline bool System::Data::Common::SqlBooleanStorage::IsNull(int32_t  record)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, record);
+inline bool System::Data::Common::SqlBooleanStorage::IsNull(int32_t record) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, record);
 }
-inline void System::Data::Common::SqlBooleanStorage::Set(int32_t  record, ::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, value);
+inline void System::Data::Common::SqlBooleanStorage::Set(int32_t record, ::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, value);
 }
-inline void System::Data::Common::SqlBooleanStorage::SetCapacity(int32_t  capacity)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
+inline void System::Data::Common::SqlBooleanStorage::SetCapacity(int32_t capacity) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
 }
-inline ::System::Object* System::Data::Common::SqlBooleanStorage::ConvertXmlToObject(::StringW  s)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, s);
+inline ::System::Object* System::Data::Common::SqlBooleanStorage::ConvertXmlToObject(::StringW s) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, s);
 }
-inline ::StringW System::Data::Common::SqlBooleanStorage::ConvertObjectToXml(::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
+inline ::StringW System::Data::Common::SqlBooleanStorage::ConvertObjectToXml(::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
-inline ::System::Object* System::Data::Common::SqlBooleanStorage::GetEmptyStorage(int32_t  recordCount)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, recordCount);
+inline ::System::Object* System::Data::Common::SqlBooleanStorage::GetEmptyStorage(int32_t recordCount) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 18)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, recordCount);
 }
-inline void System::Data::Common::SqlBooleanStorage::CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, store, nullbits, storeIndex);
+inline void System::Data::Common::SqlBooleanStorage::CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 19)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, store, nullbits, storeIndex);
 }
-inline void System::Data::Common::SqlBooleanStorage::SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(),
-                            20
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, store, nullbits);
+inline void System::Data::Common::SqlBooleanStorage::SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SqlBooleanStorage*>::get(), 20)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, store, nullbits);
 }
-inline ::System::Data::Common::SqlBooleanStorage* System::Data::Common::SqlBooleanStorage::New_ctor(::System::Data::DataColumn*  column)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::SqlBooleanStorage*>(column));
+inline ::System::Data::Common::SqlBooleanStorage* System::Data::Common::SqlBooleanStorage::New_ctor(::System::Data::DataColumn* column) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::SqlBooleanStorage*>(column));
 }
 // Ctor Parameters []
-constexpr ::System::Data::Common::SqlBooleanStorage::SqlBooleanStorage()   {
-}
+constexpr ::System::Data::Common::SqlBooleanStorage::SqlBooleanStorage() {}

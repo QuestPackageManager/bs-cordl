@@ -3,34 +3,28 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__TransferOwnershipOnSelect_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::*)()>(
+    &::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ca064;
+  constexpr static std::size_t addrs = 0x593bfd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect* Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect*>());
+inline ::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect* Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect*>());
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::TransferOwnershipOnSelect()   {
-}
+constexpr ::Meta::XR::MultiplayerBlocks::Shared::TransferOwnershipOnSelect::TransferOwnershipOnSelect() {}

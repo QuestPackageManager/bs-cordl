@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "OSCE/Web/AsyncRetry.hpp"
 #include "OSCE/Web/DefaultRequestSender.hpp"
@@ -11,6 +11,5 @@
 #include "OSCE/Web/REST.hpp"
 #include "OSCE/Web/WebSettings.hpp"
 #ifdef __cpp_modules
-                    export module Web;
-                    #endif
-                
+export module Web;
+#endif

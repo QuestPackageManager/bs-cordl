@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Buffers/Text/FormattingHelpers.hpp"
 #ifdef __cpp_modules
-                    export module Text;
-                    #endif
-                
+export module Text;
+#endif

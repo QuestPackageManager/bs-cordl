@@ -41,237 +41,248 @@ namespace GlobalNamespace {
 // CS Name: FireEffect
 class CORDL_TYPE FireEffect : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _beatmapCallbacksController, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapCallbacksController, put=__cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController*  _beatmapCallbacksController;
+  // Declarations
+  /// @brief Field _beatmapCallbacksController, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-/// @brief Field _bloomIntensityMultiplier, offset 0x60, size 0x4 
- __declspec(property(get=__cordl_internal_get__bloomIntensityMultiplier, put=__cordl_internal_set__bloomIntensityMultiplier)) float_t  _bloomIntensityMultiplier;
+  /// @brief Field _bloomIntensityMultiplier, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get__bloomIntensityMultiplier, put = __cordl_internal_set__bloomIntensityMultiplier)) float_t _bloomIntensityMultiplier;
 
-/// @brief Field _bloomPrePassRenderer, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get__bloomPrePassRenderer, put=__cordl_internal_set__bloomPrePassRenderer)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>  _bloomPrePassRenderer;
+  /// @brief Field _bloomPrePassRenderer, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrePassRenderer, put = __cordl_internal_set__bloomPrePassRenderer)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>
+      _bloomPrePassRenderer;
 
-/// @brief Field _bloomPropertyBlockController, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__bloomPropertyBlockController, put=__cordl_internal_set__bloomPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _bloomPropertyBlockController;
+  /// @brief Field _bloomPropertyBlockController, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPropertyBlockController, put = __cordl_internal_set__bloomPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _bloomPropertyBlockController;
 
-/// @brief Field _contributeCustomLightColor, offset 0x74, size 0x1 
- __declspec(property(get=__cordl_internal_get__contributeCustomLightColor, put=__cordl_internal_set__contributeCustomLightColor)) bool  _contributeCustomLightColor;
+  /// @brief Field _contributeCustomLightColor, offset 0x74, size 0x1
+  __declspec(property(get = __cordl_internal_get__contributeCustomLightColor, put = __cordl_internal_set__contributeCustomLightColor)) bool _contributeCustomLightColor;
 
-/// @brief Field _customLightColorContribution, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get__customLightColorContribution, put=__cordl_internal_set__customLightColorContribution)) ::UnityW<::GlobalNamespace::ColorSO>  _customLightColorContribution;
+  /// @brief Field _customLightColorContribution, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__customLightColorContribution, put = __cordl_internal_set__customLightColorContribution)) ::UnityW<::GlobalNamespace::ColorSO>
+      _customLightColorContribution;
 
-/// @brief Field _elementId, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get__elementId, put=__cordl_internal_set__elementId)) int32_t  _elementId;
+  /// @brief Field _elementId, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__elementId, put = __cordl_internal_set__elementId)) int32_t _elementId;
 
-/// @brief Field _emissionTextureColorPropertyBlockController, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__emissionTextureColorPropertyBlockController, put=__cordl_internal_set__emissionTextureColorPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _emissionTextureColorPropertyBlockController;
+  /// @brief Field _emissionTextureColorPropertyBlockController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__emissionTextureColorPropertyBlockController,
+                      put = __cordl_internal_set__emissionTextureColorPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _emissionTextureColorPropertyBlockController;
 
-/// @brief Field _flipBookPropertyBlockController, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__flipBookPropertyBlockController, put=__cordl_internal_set__flipBookPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _flipBookPropertyBlockController;
+  /// @brief Field _flipBookPropertyBlockController, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__flipBookPropertyBlockController,
+                      put = __cordl_internal_set__flipBookPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _flipBookPropertyBlockController;
 
-/// @brief Field _groupId, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__groupId, put=__cordl_internal_set__groupId)) int32_t  _groupId;
+  /// @brief Field _groupId, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__groupId, put = __cordl_internal_set__groupId)) int32_t _groupId;
 
-/// @brief Field _lightColorBeatmapEventCallbackWrapper, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get__lightColorBeatmapEventCallbackWrapper, put=__cordl_internal_set__lightColorBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper*  _lightColorBeatmapEventCallbackWrapper;
+  /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightColorBeatmapEventCallbackWrapper,
+                      put = __cordl_internal_set__lightColorBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _lightColorBeatmapEventCallbackWrapper;
 
-/// @brief Field _lightId, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get__lightId, put=__cordl_internal_set__lightId)) int32_t  _lightId;
+  /// @brief Field _lightId, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__lightId, put = __cordl_internal_set__lightId)) int32_t _lightId;
 
-/// @brief Field _lightWithIdManager, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get__lightWithIdManager, put=__cordl_internal_set__lightWithIdManager)) ::UnityW<::GlobalNamespace::LightWithIdManager>  _lightWithIdManager;
+  /// @brief Field _lightWithIdManager, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightWithIdManager, put = __cordl_internal_set__lightWithIdManager)) ::UnityW<::GlobalNamespace::LightWithIdManager> _lightWithIdManager;
 
-/// @brief Field _pointLightColor, offset 0x64, size 0x10 
- __declspec(property(get=__cordl_internal_get__pointLightColor, put=__cordl_internal_set__pointLightColor)) ::UnityEngine::Color  _pointLightColor;
+  /// @brief Field _pointLightColor, offset 0x64, size 0x10
+  __declspec(property(get = __cordl_internal_get__pointLightColor, put = __cordl_internal_set__pointLightColor)) ::UnityEngine::Color _pointLightColor;
 
-/// @brief Field _privatePointLightPropertyBlockController, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__privatePointLightPropertyBlockController, put=__cordl_internal_set__privatePointLightPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _privatePointLightPropertyBlockController;
+  /// @brief Field _privatePointLightPropertyBlockController, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__privatePointLightPropertyBlockController,
+                      put = __cordl_internal_set__privatePointLightPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _privatePointLightPropertyBlockController;
 
-/// @brief Field _useEmissionColor, offset 0x40, size 0x1 
- __declspec(property(get=__cordl_internal_get__useEmissionColor, put=__cordl_internal_set__useEmissionColor)) bool  _useEmissionColor;
+  /// @brief Field _useEmissionColor, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__useEmissionColor, put = __cordl_internal_set__useEmissionColor)) bool _useEmissionColor;
 
-/// @brief Method HandleColorChangeBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData*  e) ;
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
-static inline ::GlobalNamespace::FireEffect* New_ctor() ;
+  static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-/// @brief Method NotifyAlphaWasChanged, addr 0x5713458, size 0xc4, virtual false, abstract: false, final false
-inline void NotifyAlphaWasChanged(float_t  currentAlpha) ;
+  /// @brief Method NotifyAlphaWasChanged, addr 0x5782df4, size 0xc4, virtual false, abstract: false, final false
+  inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
-/// @brief Method OnDestroy, addr 0x5712f18, size 0x20, virtual true, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x57828b0, size 0x24, virtual true, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method SetRenderersEnabled, addr 0x57131b8, size 0x80, virtual false, abstract: false, final false
-inline void SetRenderersEnabled(bool  enabled) ;
+  /// @brief Method SetRenderersEnabled, addr 0x5782b54, size 0x80, virtual false, abstract: false, final false
+  inline void SetRenderersEnabled(bool enabled);
 
-/// @brief Method Start, addr 0x5712ca8, size 0x12c, virtual true, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x5782640, size 0x12c, virtual true, abstract: false, final false
+  inline void Start();
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController() ;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-constexpr float_t const& __cordl_internal_get__bloomIntensityMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__bloomIntensityMultiplier() const;
 
-constexpr float_t& __cordl_internal_get__bloomIntensityMultiplier() ;
+  constexpr float_t& __cordl_internal_get__bloomIntensityMultiplier();
 
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer> const& __cordl_internal_get__bloomPrePassRenderer() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer> const& __cordl_internal_get__bloomPrePassRenderer() const;
 
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>& __cordl_internal_get__bloomPrePassRenderer() ;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>& __cordl_internal_get__bloomPrePassRenderer();
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__bloomPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__bloomPropertyBlockController() const;
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__bloomPropertyBlockController() ;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__bloomPropertyBlockController();
 
-constexpr bool const& __cordl_internal_get__contributeCustomLightColor() const;
+  constexpr bool const& __cordl_internal_get__contributeCustomLightColor() const;
 
-constexpr bool& __cordl_internal_get__contributeCustomLightColor() ;
+  constexpr bool& __cordl_internal_get__contributeCustomLightColor();
 
-constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__customLightColorContribution() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__customLightColorContribution() const;
 
-constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__customLightColorContribution() ;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__customLightColorContribution();
 
-constexpr int32_t const& __cordl_internal_get__elementId() const;
+  constexpr int32_t const& __cordl_internal_get__elementId() const;
 
-constexpr int32_t& __cordl_internal_get__elementId() ;
+  constexpr int32_t& __cordl_internal_get__elementId();
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__emissionTextureColorPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__emissionTextureColorPropertyBlockController() const;
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__emissionTextureColorPropertyBlockController() ;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__emissionTextureColorPropertyBlockController();
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__flipBookPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__flipBookPropertyBlockController() const;
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__flipBookPropertyBlockController() ;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__flipBookPropertyBlockController();
 
-constexpr int32_t const& __cordl_internal_get__groupId() const;
+  constexpr int32_t const& __cordl_internal_get__groupId() const;
 
-constexpr int32_t& __cordl_internal_get__groupId() ;
+  constexpr int32_t& __cordl_internal_get__groupId();
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper() ;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper();
 
-constexpr int32_t const& __cordl_internal_get__lightId() const;
+  constexpr int32_t const& __cordl_internal_get__lightId() const;
 
-constexpr int32_t& __cordl_internal_get__lightId() ;
+  constexpr int32_t& __cordl_internal_get__lightId();
 
-constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightWithIdManager() const;
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightWithIdManager() const;
 
-constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightWithIdManager() ;
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightWithIdManager();
 
-constexpr ::UnityEngine::Color const& __cordl_internal_get__pointLightColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__pointLightColor() const;
 
-constexpr ::UnityEngine::Color& __cordl_internal_get__pointLightColor() ;
+  constexpr ::UnityEngine::Color& __cordl_internal_get__pointLightColor();
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__privatePointLightPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__privatePointLightPropertyBlockController() const;
 
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__privatePointLightPropertyBlockController() ;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__privatePointLightPropertyBlockController();
 
-constexpr bool const& __cordl_internal_get__useEmissionColor() const;
+  constexpr bool const& __cordl_internal_get__useEmissionColor() const;
 
-constexpr bool& __cordl_internal_get__useEmissionColor() ;
+  constexpr bool& __cordl_internal_get__useEmissionColor();
 
-constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value) ;
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-constexpr void __cordl_internal_set__bloomIntensityMultiplier(float_t  value) ;
+  constexpr void __cordl_internal_set__bloomIntensityMultiplier(float_t value);
 
-constexpr void __cordl_internal_set__bloomPrePassRenderer(::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>  value) ;
+  constexpr void __cordl_internal_set__bloomPrePassRenderer(::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer> value);
 
-constexpr void __cordl_internal_set__bloomPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
+  constexpr void __cordl_internal_set__bloomPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-constexpr void __cordl_internal_set__contributeCustomLightColor(bool  value) ;
+  constexpr void __cordl_internal_set__contributeCustomLightColor(bool value);
 
-constexpr void __cordl_internal_set__customLightColorContribution(::UnityW<::GlobalNamespace::ColorSO>  value) ;
+  constexpr void __cordl_internal_set__customLightColorContribution(::UnityW<::GlobalNamespace::ColorSO> value);
 
-constexpr void __cordl_internal_set__elementId(int32_t  value) ;
+  constexpr void __cordl_internal_set__elementId(int32_t value);
 
-constexpr void __cordl_internal_set__emissionTextureColorPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
+  constexpr void __cordl_internal_set__emissionTextureColorPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-constexpr void __cordl_internal_set__flipBookPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
+  constexpr void __cordl_internal_set__flipBookPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-constexpr void __cordl_internal_set__groupId(int32_t  value) ;
+  constexpr void __cordl_internal_set__groupId(int32_t value);
 
-constexpr void __cordl_internal_set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value) ;
+  constexpr void __cordl_internal_set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-constexpr void __cordl_internal_set__lightId(int32_t  value) ;
+  constexpr void __cordl_internal_set__lightId(int32_t value);
 
-constexpr void __cordl_internal_set__lightWithIdManager(::UnityW<::GlobalNamespace::LightWithIdManager>  value) ;
+  constexpr void __cordl_internal_set__lightWithIdManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-constexpr void __cordl_internal_set__pointLightColor(::UnityEngine::Color  value) ;
+  constexpr void __cordl_internal_set__pointLightColor(::UnityEngine::Color value);
 
-constexpr void __cordl_internal_set__privatePointLightPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
+  constexpr void __cordl_internal_set__privatePointLightPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-constexpr void __cordl_internal_set__useEmissionColor(bool  value) ;
+  constexpr void __cordl_internal_set__useEmissionColor(bool value);
 
-/// @brief Method .ctor, addr 0x5713590, size 0x20, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5782f2c, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FireEffect() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FireEffect();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FireEffect(FireEffect&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FireEffect(FireEffect && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FireEffect(FireEffect const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FireEffect(FireEffect const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5607 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5606};
+  /// @brief Field _groupId, offset: 0x20, size: 0x4, def value: None
+  int32_t ____groupId;
 
-/// @brief Field _groupId, offset: 0x20, size: 0x4, def value: None
- int32_t  ____groupId;
+  /// @brief Field _elementId, offset: 0x24, size: 0x4, def value: None
+  int32_t ____elementId;
 
-/// @brief Field _elementId, offset: 0x24, size: 0x4, def value: None
- int32_t  ____elementId;
+  /// @brief Field _lightId, offset: 0x28, size: 0x4, def value: None
+  int32_t ____lightId;
 
-/// @brief Field _lightId, offset: 0x28, size: 0x4, def value: None
- int32_t  ____lightId;
+  /// @brief Field _flipBookPropertyBlockController, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____flipBookPropertyBlockController;
 
-/// @brief Field _flipBookPropertyBlockController, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____flipBookPropertyBlockController;
+  /// @brief Field _bloomPropertyBlockController, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____bloomPropertyBlockController;
 
-/// @brief Field _bloomPropertyBlockController, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____bloomPropertyBlockController;
+  /// @brief Field _useEmissionColor, offset: 0x40, size: 0x1, def value: None
+  bool ____useEmissionColor;
 
-/// @brief Field _useEmissionColor, offset: 0x40, size: 0x1, def value: None
- bool  ____useEmissionColor;
+  /// @brief Field _privatePointLightPropertyBlockController, offset: 0x48, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____privatePointLightPropertyBlockController;
 
-/// @brief Field _privatePointLightPropertyBlockController, offset: 0x48, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____privatePointLightPropertyBlockController;
+  /// @brief Field _emissionTextureColorPropertyBlockController, offset: 0x50, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____emissionTextureColorPropertyBlockController;
 
-/// @brief Field _emissionTextureColorPropertyBlockController, offset: 0x50, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____emissionTextureColorPropertyBlockController;
+  /// @brief Field _bloomPrePassRenderer, offset: 0x58, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer> ____bloomPrePassRenderer;
 
-/// @brief Field _bloomPrePassRenderer, offset: 0x58, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>  ____bloomPrePassRenderer;
+  /// @brief Field _bloomIntensityMultiplier, offset: 0x60, size: 0x4, def value: None
+  float_t ____bloomIntensityMultiplier;
 
-/// @brief Field _bloomIntensityMultiplier, offset: 0x60, size: 0x4, def value: None
- float_t  ____bloomIntensityMultiplier;
+  /// @brief Field _pointLightColor, offset: 0x64, size: 0x10, def value: None
+  ::UnityEngine::Color ____pointLightColor;
 
-/// @brief Field _pointLightColor, offset: 0x64, size: 0x10, def value: None
- ::UnityEngine::Color  ____pointLightColor;
+  /// @brief Field _contributeCustomLightColor, offset: 0x74, size: 0x1, def value: None
+  bool ____contributeCustomLightColor;
 
-/// @brief Field _contributeCustomLightColor, offset: 0x74, size: 0x1, def value: None
- bool  ____contributeCustomLightColor;
+  /// @brief Field _customLightColorContribution, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::ColorSO> ____customLightColorContribution;
 
-/// @brief Field _customLightColorContribution, offset: 0x78, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::ColorSO>  ____customLightColorContribution;
+  /// @brief Field _beatmapCallbacksController, offset: 0x80, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-/// @brief Field _beatmapCallbacksController, offset: 0x80, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapCallbacksController*  ____beatmapCallbacksController;
+  /// @brief Field _lightWithIdManager, offset: 0x88, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightWithIdManager;
 
-/// @brief Field _lightWithIdManager, offset: 0x88, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::LightWithIdManager>  ____lightWithIdManager;
+  /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset: 0x90, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____lightColorBeatmapEventCallbackWrapper;
 
-/// @brief Field _lightColorBeatmapEventCallbackWrapper, offset: 0x90, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapDataCallbackWrapper*  ____lightColorBeatmapEventCallbackWrapper;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::FireEffect, ____groupId) == 0x20, "Offset mismatch!");
@@ -308,6 +319,6 @@ static_assert(offsetof(::GlobalNamespace::FireEffect, ____lightColorBeatmapEvent
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireEffect, 0x98>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FireEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FireEffect*, "", "FireEffect");

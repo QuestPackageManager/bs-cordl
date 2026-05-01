@@ -8,94 +8,91 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
 //  Writing Method size for method: ::Tweening::Vector2Tween._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::Vector2Tween::*)()>(&::Tweening::Vector2Tween::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x62927bc;
+  constexpr static std::size_t addrs = 0x63047c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tweening::Vector2Tween._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::Vector2Tween::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t, ::GlobalNamespace::EaseType, float_t)>(&::Tweening::Vector2Tween::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::Vector2Tween::*)(
+    ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t, ::GlobalNamespace::EaseType, float_t)>(&::Tweening::Vector2Tween::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6292814;
+  constexpr static std::size_t addrs = 0x6304820;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tweening::Vector2Tween.GetValue
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::Tweening::Vector2Tween::*)(float_t)>(&::Tweening::Vector2Tween::GetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x62928b0;
+  constexpr static std::size_t addrs = 0x63048bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(), 6));
     return ___internal_method;
   }
 };
-inline void Tweening::Vector2Tween::setStaticF_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2,::UnityEngine::Vector2,::System::Action_1<::UnityEngine::Vector2>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector2Tween*>*  value)  {
-::cordl_internals::setStaticField<::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2,::UnityEngine::Vector2,::System::Action_1<::UnityEngine::Vector2>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector2Tween*>*, "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get>(std::forward<::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2,::UnityEngine::Vector2,::System::Action_1<::UnityEngine::Vector2>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector2Tween*>*>(value));
+inline void Tweening::Vector2Tween::setStaticF_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t,
+                                                                                  ::GlobalNamespace::EaseType, float_t, ::Tweening::Vector2Tween*>* value) {
+  ::cordl_internals::setStaticField<::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t, ::GlobalNamespace::EaseType,
+                                                                  float_t, ::Tweening::Vector2Tween*>*,
+                                    "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get>(
+      std::forward<::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t, ::GlobalNamespace::EaseType, float_t,
+                                                 ::Tweening::Vector2Tween*>*>(value));
 }
-inline ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2,::UnityEngine::Vector2,::System::Action_1<::UnityEngine::Vector2>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector2Tween*>* Tweening::Vector2Tween::getStaticF_Pool()  {
-return ::cordl_internals::getStaticField<::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2,::UnityEngine::Vector2,::System::Action_1<::UnityEngine::Vector2>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::Vector2Tween*>*, "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get>();
+inline ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t, ::GlobalNamespace::EaseType, float_t,
+                                     ::Tweening::Vector2Tween*>*
+Tweening::Vector2Tween::getStaticF_Pool() {
+  return ::cordl_internals::getStaticField<::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t,
+                                                                         ::GlobalNamespace::EaseType, float_t, ::Tweening::Vector2Tween*>*,
+                                           "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get>();
 }
-inline void Tweening::Vector2Tween::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Tweening::Vector2Tween::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Tweening::Vector2Tween::_ctor(::UnityEngine::Vector2  fromValue, ::UnityEngine::Vector2  toValue, ::System::Action_1<::UnityEngine::Vector2>*  onUpdate, float_t  duration, ::GlobalNamespace::EaseType  easeType, float_t  delay)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fromValue, toValue, onUpdate, duration, easeType, delay);
+inline void Tweening::Vector2Tween::_ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration,
+                                          ::GlobalNamespace::EaseType easeType, float_t delay) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Vector2>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fromValue, toValue, onUpdate, duration, easeType, delay);
 }
-inline ::UnityEngine::Vector2 Tweening::Vector2Tween::GetValue(float_t  t)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, t);
+inline ::UnityEngine::Vector2 Tweening::Vector2Tween::GetValue(float_t t) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::Vector2Tween*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, t);
 }
-inline ::Tweening::Vector2Tween* Tweening::Vector2Tween::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::Vector2Tween*>());
+inline ::Tweening::Vector2Tween* Tweening::Vector2Tween::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::Vector2Tween*>());
 }
-inline ::Tweening::Vector2Tween* Tweening::Vector2Tween::New_ctor(::UnityEngine::Vector2  fromValue, ::UnityEngine::Vector2  toValue, ::System::Action_1<::UnityEngine::Vector2>*  onUpdate, float_t  duration, ::GlobalNamespace::EaseType  easeType, float_t  delay)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::Vector2Tween*>(fromValue, toValue, onUpdate, duration, easeType, delay));
+inline ::Tweening::Vector2Tween* Tweening::Vector2Tween::New_ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate,
+                                                                  float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::Vector2Tween*>(fromValue, toValue, onUpdate, duration, easeType, delay));
 }
 // Ctor Parameters []
-constexpr ::Tweening::Vector2Tween::Vector2Tween()   {
-}
+constexpr ::Tweening::Vector2Tween::Vector2Tween() {}

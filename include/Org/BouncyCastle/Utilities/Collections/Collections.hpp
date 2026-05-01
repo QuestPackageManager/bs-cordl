@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/CollectionUtilities.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/EmptyEnumerable.hpp"
@@ -18,6 +18,5 @@
 #include "Org/BouncyCastle/Utilities/Collections/UnmodifiableSet.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/UnmodifiableSetProxy.hpp"
 #ifdef __cpp_modules
-                    export module Collections;
-                    #endif
-                
+export module Collections;
+#endif

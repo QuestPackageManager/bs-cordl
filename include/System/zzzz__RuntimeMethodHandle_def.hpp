@@ -41,61 +41,61 @@ namespace System {
 // CS Name: System.RuntimeMethodHandle
 struct CORDL_TYPE RuntimeMethodHandle {
 public:
-// Declarations
- __declspec(property(get=get_Value)) ::System::IntPtr  Value;
+  // Declarations
+  __declspec(property(get = get_Value)) ::System::IntPtr Value;
 
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr operator  ::System::Runtime::Serialization::ISerializable*() ;
+  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+  constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-/// @brief Method ConstructInstantiation, addr 0x5ae8648, size 0x164, virtual false, abstract: false, final false
-static inline ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo*  method, ::System::TypeNameFormatFlags  format) ;
+  /// @brief Method ConstructInstantiation, addr 0x5b5a630, size 0x164, virtual false, abstract: false, final false
+  static inline ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format);
 
-/// @brief Method Equals, addr 0x5ae8558, size 0xe8, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x5b5a540, size 0xe8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method GetHashCode, addr 0x5ae8640, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x5b5a628, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method GetObjectData, addr 0x5ae83cc, size 0x18c, virtual true, abstract: false, final true
-inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method GetObjectData, addr 0x5b5a3b4, size 0x18c, virtual true, abstract: false, final true
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method IsNullHandle, addr 0x5ae87ac, size 0x10, virtual false, abstract: false, final false
-inline bool IsNullHandle() ;
+  /// @brief Method IsNullHandle, addr 0x5b5a794, size 0x10, virtual false, abstract: false, final false
+  inline bool IsNullHandle();
 
-/// @brief Method .ctor, addr 0x5ae8240, size 0x184, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5b5a228, size 0x184, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5ae8238, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  v) ;
+  /// @brief Method .ctor, addr 0x5b5a220, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr v);
 
-/// @brief Method get_Value, addr 0x5ae83c4, size 0x8, virtual false, abstract: false, final false
-inline ::System::IntPtr get_Value() ;
+  /// @brief Method get_Value, addr 0x5b5a3ac, size 0x8, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Value();
 
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() ;
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr RuntimeMethodHandle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeMethodHandle();
 
-// Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
-constexpr RuntimeMethodHandle(::System::IntPtr  value) noexcept;
+  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr RuntimeMethodHandle(::System::IntPtr value) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2627};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2627 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field value, offset: 0x0, size: 0x8, def value: None
- ::System::IntPtr  value;
+  /// @brief Field value, offset: 0x0, size: 0x8, def value: None
+  ::System::IntPtr value;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::RuntimeMethodHandle, value) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::RuntimeMethodHandle, 0x8>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::RuntimeMethodHandle, "System", "RuntimeMethodHandle");

@@ -10,548 +10,463 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Open._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Open::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRIOBuffer__Open::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Open::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRIOBuffer__Open::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c93f00;
+  constexpr static std::size_t addrs = 0x5d05ee8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Open.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Open::*)(::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::ByRef<uint64_t>)>(&::OVR::OpenVR::IVRIOBuffer__Open::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Open::*)(
+    ::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::ByRef<uint64_t>)>(&::OVR::OpenVR::IVRIOBuffer__Open::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c93f80;
+  constexpr static std::size_t addrs = 0x5d05f68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Open.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRIOBuffer__Open::*)(::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::ByRef<uint64_t>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Open::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRIOBuffer__Open::*)(::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::ByRef<uint64_t>, ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRIOBuffer__Open::BeginInvoke)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5c93f94;
+  constexpr static std::size_t addrs = 0x5d05f7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Open.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Open::*)(::ByRef<uint64_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRIOBuffer__Open::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Open::*)(::ByRef<uint64_t>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRIOBuffer__Open::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c94078;
+  constexpr static std::size_t addrs = 0x5d06060;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRIOBuffer__Open::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRIOBuffer__Open::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Open::Invoke(::StringW  pchPath, ::OVR::OpenVR::EIOBufferMode  mode, uint32_t  unElementSize, uint32_t  unElements, ::ByRef<uint64_t>  pulBuffer)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, pchPath, mode, unElementSize, unElements, pulBuffer);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Open::Invoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements,
+                                                                            ::ByRef<uint64_t> pulBuffer) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, pchPath, mode, unElementSize, unElements, pulBuffer);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Open::BeginInvoke(::StringW  pchPath, ::OVR::OpenVR::EIOBufferMode  mode, uint32_t  unElementSize, uint32_t  unElements, ::ByRef<uint64_t>  pulBuffer, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchPath, mode, unElementSize, unElements, pulBuffer, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Open::BeginInvoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements,
+                                                                           ::ByRef<uint64_t> pulBuffer, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchPath, mode, unElementSize, unElements, pulBuffer, callback, object);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Open::EndInvoke(::ByRef<uint64_t>  pulBuffer, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, pulBuffer, result);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Open::EndInvoke(::ByRef<uint64_t> pulBuffer, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Open*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, pulBuffer, result);
 }
-inline ::OVR::OpenVR::IVRIOBuffer__Open* OVR::OpenVR::IVRIOBuffer__Open::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Open*>(object, method));
+inline ::OVR::OpenVR::IVRIOBuffer__Open* OVR::OpenVR::IVRIOBuffer__Open::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Open*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRIOBuffer__Open::IVRIOBuffer__Open()   {
-}
+constexpr ::OVR::OpenVR::IVRIOBuffer__Open::IVRIOBuffer__Open() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Close._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Close::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRIOBuffer__Close::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Close::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRIOBuffer__Close::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c9409c;
+  constexpr static std::size_t addrs = 0x5d06084;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Close.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Close::*)(uint64_t)>(&::OVR::OpenVR::IVRIOBuffer__Close::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Close::*)(uint64_t)>(
+    &::OVR::OpenVR::IVRIOBuffer__Close::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c94108;
+  constexpr static std::size_t addrs = 0x5d060f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Close.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRIOBuffer__Close::*)(uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Close::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRIOBuffer__Close::*)(uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Close::BeginInvoke)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c9411c;
+  constexpr static std::size_t addrs = 0x5d06104;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Close.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Close::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRIOBuffer__Close::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Close::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRIOBuffer__Close::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c94170;
+  constexpr static std::size_t addrs = 0x5d06158;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRIOBuffer__Close::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRIOBuffer__Close::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Close::Invoke(uint64_t  ulBuffer)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, ulBuffer);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Close::Invoke(uint64_t ulBuffer) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, ulBuffer);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Close::BeginInvoke(uint64_t  ulBuffer, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Close::BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, callback, object);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Close::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, result);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Close::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Close*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRIOBuffer__Close* OVR::OpenVR::IVRIOBuffer__Close::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Close*>(object, method));
+inline ::OVR::OpenVR::IVRIOBuffer__Close* OVR::OpenVR::IVRIOBuffer__Close::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Close*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRIOBuffer__Close::IVRIOBuffer__Close()   {
-}
+constexpr ::OVR::OpenVR::IVRIOBuffer__Close::IVRIOBuffer__Close() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Read._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Read::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRIOBuffer__Read::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Read::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRIOBuffer__Read::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c94194;
+  constexpr static std::size_t addrs = 0x5d0617c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Read.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Read::*)(uint64_t, ::System::IntPtr, uint32_t, ::ByRef<uint32_t>)>(&::OVR::OpenVR::IVRIOBuffer__Read::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Read::*)(uint64_t, ::System::IntPtr, uint32_t, ::ByRef<uint32_t>)>(&::OVR::OpenVR::IVRIOBuffer__Read::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c94200;
+  constexpr static std::size_t addrs = 0x5d061e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Read.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRIOBuffer__Read::*)(uint64_t, ::System::IntPtr, uint32_t, ::ByRef<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Read::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRIOBuffer__Read::*)(uint64_t, ::System::IntPtr, uint32_t, ::ByRef<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Read::BeginInvoke)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5c94214;
+  constexpr static std::size_t addrs = 0x5d061fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Read.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Read::*)(::ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRIOBuffer__Read::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Read::*)(::ByRef<uint32_t>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRIOBuffer__Read::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c942bc;
+  constexpr static std::size_t addrs = 0x5d062a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRIOBuffer__Read::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRIOBuffer__Read::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Read::Invoke(uint64_t  ulBuffer, ::System::IntPtr  pDst, uint32_t  unBytes, ::ByRef<uint32_t>  punRead)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, ulBuffer, pDst, unBytes, punRead);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Read::Invoke(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ::ByRef<uint32_t> punRead) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, ulBuffer, pDst, unBytes, punRead);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Read::BeginInvoke(uint64_t  ulBuffer, ::System::IntPtr  pDst, uint32_t  unBytes, ::ByRef<uint32_t>  punRead, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, pDst, unBytes, punRead, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Read::BeginInvoke(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ::ByRef<uint32_t> punRead, ::System::AsyncCallback* callback,
+                                                                           ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, pDst, unBytes, punRead, callback, object);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Read::EndInvoke(::ByRef<uint32_t>  punRead, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, punRead, result);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Read::EndInvoke(::ByRef<uint32_t> punRead, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Read*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, punRead, result);
 }
-inline ::OVR::OpenVR::IVRIOBuffer__Read* OVR::OpenVR::IVRIOBuffer__Read::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Read*>(object, method));
+inline ::OVR::OpenVR::IVRIOBuffer__Read* OVR::OpenVR::IVRIOBuffer__Read::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Read*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRIOBuffer__Read::IVRIOBuffer__Read()   {
-}
+constexpr ::OVR::OpenVR::IVRIOBuffer__Read::IVRIOBuffer__Read() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Write._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Write::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRIOBuffer__Write::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Write::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRIOBuffer__Write::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c942e0;
+  constexpr static std::size_t addrs = 0x5d062c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Write.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Write::*)(uint64_t, ::System::IntPtr, uint32_t)>(&::OVR::OpenVR::IVRIOBuffer__Write::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Write::*)(uint64_t, ::System::IntPtr, uint32_t)>(
+    &::OVR::OpenVR::IVRIOBuffer__Write::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c9434c;
+  constexpr static std::size_t addrs = 0x5d06334;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Write.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRIOBuffer__Write::*)(uint64_t, ::System::IntPtr, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Write::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRIOBuffer__Write::*)(uint64_t, ::System::IntPtr, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Write::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5c94360;
+  constexpr static std::size_t addrs = 0x5d06348;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__Write.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Write::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRIOBuffer__Write::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Write::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRIOBuffer__Write::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c943f0;
+  constexpr static std::size_t addrs = 0x5d063d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRIOBuffer__Write::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRIOBuffer__Write::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Write::Invoke(uint64_t  ulBuffer, ::System::IntPtr  pSrc, uint32_t  unBytes)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, ulBuffer, pSrc, unBytes);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Write::Invoke(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, ulBuffer, pSrc, unBytes);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Write::BeginInvoke(uint64_t  ulBuffer, ::System::IntPtr  pSrc, uint32_t  unBytes, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, pSrc, unBytes, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__Write::BeginInvoke(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, pSrc, unBytes, callback, object);
 }
-inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Write::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, result);
+inline ::OVR::OpenVR::EIOBufferError OVR::OpenVR::IVRIOBuffer__Write::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__Write*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EIOBufferError, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRIOBuffer__Write* OVR::OpenVR::IVRIOBuffer__Write::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Write*>(object, method));
+inline ::OVR::OpenVR::IVRIOBuffer__Write* OVR::OpenVR::IVRIOBuffer__Write::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__Write*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRIOBuffer__Write::IVRIOBuffer__Write()   {
-}
+constexpr ::OVR::OpenVR::IVRIOBuffer__Write::IVRIOBuffer__Write() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__PropertyContainer._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRIOBuffer__PropertyContainer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRIOBuffer__PropertyContainer::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c94414;
+  constexpr static std::size_t addrs = 0x5d063fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__PropertyContainer.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(uint64_t)>(&::OVR::OpenVR::IVRIOBuffer__PropertyContainer::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(uint64_t)>(
+    &::OVR::OpenVR::IVRIOBuffer__PropertyContainer::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c94480;
+  constexpr static std::size_t addrs = 0x5d06468;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__PropertyContainer.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__PropertyContainer::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__PropertyContainer::BeginInvoke)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c94494;
+  constexpr static std::size_t addrs = 0x5d0647c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRIOBuffer__PropertyContainer.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRIOBuffer__PropertyContainer::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRIOBuffer__PropertyContainer::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c944e8;
+  constexpr static std::size_t addrs = 0x5d064d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRIOBuffer__PropertyContainer::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRIOBuffer__PropertyContainer::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint64_t OVR::OpenVR::IVRIOBuffer__PropertyContainer::Invoke(uint64_t  ulBuffer)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, ulBuffer);
+inline uint64_t OVR::OpenVR::IVRIOBuffer__PropertyContainer::Invoke(uint64_t ulBuffer) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, ulBuffer);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__PropertyContainer::BeginInvoke(uint64_t  ulBuffer, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRIOBuffer__PropertyContainer::BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, ulBuffer, callback, object);
 }
-inline uint64_t OVR::OpenVR::IVRIOBuffer__PropertyContainer::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, result);
+inline uint64_t OVR::OpenVR::IVRIOBuffer__PropertyContainer::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRIOBuffer__PropertyContainer* OVR::OpenVR::IVRIOBuffer__PropertyContainer::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>(object, method));
+inline ::OVR::OpenVR::IVRIOBuffer__PropertyContainer* OVR::OpenVR::IVRIOBuffer__PropertyContainer::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRIOBuffer__PropertyContainer*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRIOBuffer__PropertyContainer::IVRIOBuffer__PropertyContainer()   {
-}
-// Ctor Parameters [CppParam { name: "Open", ty: "::OVR::OpenVR::IVRIOBuffer__Open*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Close", ty: "::OVR::OpenVR::IVRIOBuffer__Close*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Read", ty: "::OVR::OpenVR::IVRIOBuffer__Read*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Write", ty: "::OVR::OpenVR::IVRIOBuffer__Write*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PropertyContainer", ty: "::OVR::OpenVR::IVRIOBuffer__PropertyContainer*", modifiers: "", def_value: Some("{}") }]
-constexpr ::OVR::OpenVR::IVRIOBuffer::IVRIOBuffer(::OVR::OpenVR::IVRIOBuffer__Open*  Open, ::OVR::OpenVR::IVRIOBuffer__Close*  Close, ::OVR::OpenVR::IVRIOBuffer__Read*  Read, ::OVR::OpenVR::IVRIOBuffer__Write*  Write, ::OVR::OpenVR::IVRIOBuffer__PropertyContainer*  PropertyContainer) noexcept  {
-this->Open = Open;
-this->Close = Close;
-this->Read = Read;
-this->Write = Write;
-this->PropertyContainer = PropertyContainer;
+constexpr ::OVR::OpenVR::IVRIOBuffer__PropertyContainer::IVRIOBuffer__PropertyContainer() {}
+// Ctor Parameters [CppParam { name: "Open", ty: "::OVR::OpenVR::IVRIOBuffer__Open*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Close", ty: "::OVR::OpenVR::IVRIOBuffer__Close*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "Read", ty: "::OVR::OpenVR::IVRIOBuffer__Read*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Write", ty:
+// "::OVR::OpenVR::IVRIOBuffer__Write*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PropertyContainer", ty: "::OVR::OpenVR::IVRIOBuffer__PropertyContainer*", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::OVR::OpenVR::IVRIOBuffer::IVRIOBuffer(::OVR::OpenVR::IVRIOBuffer__Open* Open, ::OVR::OpenVR::IVRIOBuffer__Close* Close, ::OVR::OpenVR::IVRIOBuffer__Read* Read,
+                                                  ::OVR::OpenVR::IVRIOBuffer__Write* Write, ::OVR::OpenVR::IVRIOBuffer__PropertyContainer* PropertyContainer) noexcept {
+  this->Open = Open;
+  this->Close = Close;
+  this->Read = Read;
+  this->Write = Write;
+  this->PropertyContainer = PropertyContainer;
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRIOBuffer::IVRIOBuffer()   {
-}
+constexpr ::OVR::OpenVR::IVRIOBuffer::IVRIOBuffer() {}

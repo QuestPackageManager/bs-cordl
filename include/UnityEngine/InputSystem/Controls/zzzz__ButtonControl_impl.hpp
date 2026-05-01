@@ -3,352 +3,291 @@
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.get_needsToCheckFramePress
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::get_needsToCheckFramePress)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::get_needsToCheckFramePress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63446cc;
+  constexpr static std::size_t addrs = 0x63b66d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_needsToCheckFramePress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                               "get_needsToCheckFramePress", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.set_needsToCheckFramePress
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)(bool)>(&::UnityEngine::InputSystem::Controls::ButtonControl::set_needsToCheckFramePress)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)(bool)>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::set_needsToCheckFramePress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63446d4;
+  constexpr static std::size_t addrs = 0x63b66e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "set_needsToCheckFramePress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(), "set_needsToCheckFramePress",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.get_pressPointOrDefault
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::get_pressPointOrDefault)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::get_pressPointOrDefault)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63446dc;
+  constexpr static std::size_t addrs = 0x63b66e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_pressPointOrDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                               "get_pressPointOrDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6343d98;
+  constexpr static std::size_t addrs = 0x63b5da4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.IsValueConsideredPressed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)(float_t)>(&::UnityEngine::InputSystem::Controls::ButtonControl::IsValueConsideredPressed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)(float_t)>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::IsValueConsideredPressed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x634474c;
+  constexpr static std::size_t addrs = 0x63b6758;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "IsValueConsideredPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(), "IsValueConsideredPressed",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.get_isPressed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::get_isPressed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::get_isPressed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63447bc;
+  constexpr static std::size_t addrs = 0x63b67c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_isPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                               "get_isPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.BeginTestingForFramePresses
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)(bool, bool)>(&::UnityEngine::InputSystem::Controls::ButtonControl::BeginTestingForFramePresses)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)(bool, bool)>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::BeginTestingForFramePresses)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x634487c;
+  constexpr static std::size_t addrs = 0x63b6888;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "BeginTestingForFramePresses",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(), "BeginTestingForFramePresses", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.get_wasPressedThisFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::get_wasPressedThisFrame)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::get_wasPressedThisFrame)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6344978;
+  constexpr static std::size_t addrs = 0x63b6984;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_wasPressedThisFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                               "get_wasPressedThisFrame", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.get_wasReleasedThisFrame
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::get_wasReleasedThisFrame)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::get_wasReleasedThisFrame)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6344b3c;
+  constexpr static std::size_t addrs = 0x63b6b48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_wasReleasedThisFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                               "get_wasReleasedThisFrame", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::ButtonControl.UpdateWasPressed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(&::UnityEngine::InputSystem::Controls::ButtonControl::UpdateWasPressed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::ButtonControl::*)()>(
+    &::UnityEngine::InputSystem::Controls::ButtonControl::UpdateWasPressed)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6344d00;
+  constexpr static std::size_t addrs = 0x63b6d0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "UpdateWasPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                               "UpdateWasPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_NeedsToCheckFramePress()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_NeedsToCheckFramePress;
+constexpr bool& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_NeedsToCheckFramePress() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_NeedsToCheckFramePress;
 }
 constexpr bool const& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_NeedsToCheckFramePress() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_NeedsToCheckFramePress;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_NeedsToCheckFramePress;
 }
-constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_NeedsToCheckFramePress(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_NeedsToCheckFramePress = value;
+constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_NeedsToCheckFramePress(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_NeedsToCheckFramePress = value;
 }
-constexpr uint32_t& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_UpdateCountLastPressed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UpdateCountLastPressed;
+constexpr uint32_t& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_UpdateCountLastPressed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateCountLastPressed;
 }
 constexpr uint32_t const& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_UpdateCountLastPressed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UpdateCountLastPressed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateCountLastPressed;
 }
-constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_UpdateCountLastPressed(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_UpdateCountLastPressed = value;
+constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_UpdateCountLastPressed(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_UpdateCountLastPressed = value;
 }
-constexpr uint32_t& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_UpdateCountLastReleased()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UpdateCountLastReleased;
+constexpr uint32_t& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_UpdateCountLastReleased() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateCountLastReleased;
 }
 constexpr uint32_t const& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_UpdateCountLastReleased() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UpdateCountLastReleased;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateCountLastReleased;
 }
-constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_UpdateCountLastReleased(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_UpdateCountLastReleased = value;
+constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_UpdateCountLastReleased(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_UpdateCountLastReleased = value;
 }
-constexpr bool& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_LastUpdateWasPress()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_LastUpdateWasPress;
+constexpr bool& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_LastUpdateWasPress() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastUpdateWasPress;
 }
 constexpr bool const& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_m_LastUpdateWasPress() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_LastUpdateWasPress;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastUpdateWasPress;
 }
-constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_LastUpdateWasPress(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_LastUpdateWasPress = value;
+constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_m_LastUpdateWasPress(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_LastUpdateWasPress = value;
 }
-constexpr bool& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get__needsToCheckFramePress_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____needsToCheckFramePress_k__BackingField;
+constexpr bool& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get__needsToCheckFramePress_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____needsToCheckFramePress_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get__needsToCheckFramePress_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____needsToCheckFramePress_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____needsToCheckFramePress_k__BackingField;
 }
-constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set__needsToCheckFramePress_k__BackingField(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____needsToCheckFramePress_k__BackingField = value;
+constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set__needsToCheckFramePress_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____needsToCheckFramePress_k__BackingField = value;
 }
-constexpr float_t& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_pressPoint()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___pressPoint;
+constexpr float_t& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_pressPoint() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pressPoint;
 }
 constexpr float_t const& UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_get_pressPoint() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___pressPoint;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pressPoint;
 }
-constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_pressPoint(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___pressPoint = value;
+constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__cordl_internal_set_pressPoint(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___pressPoint = value;
 }
-inline void UnityEngine::InputSystem::Controls::ButtonControl::setStaticF_s_GlobalDefaultButtonPressPoint(float_t  value)  {
-::cordl_internals::setStaticField<float_t, "s_GlobalDefaultButtonPressPoint", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>(std::forward<float_t>(value));
+inline void UnityEngine::InputSystem::Controls::ButtonControl::setStaticF_s_GlobalDefaultButtonPressPoint(float_t value) {
+  ::cordl_internals::setStaticField<float_t, "s_GlobalDefaultButtonPressPoint", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>(
+      std::forward<float_t>(value));
 }
-inline float_t UnityEngine::InputSystem::Controls::ButtonControl::getStaticF_s_GlobalDefaultButtonPressPoint()  {
-return ::cordl_internals::getStaticField<float_t, "s_GlobalDefaultButtonPressPoint", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>();
+inline float_t UnityEngine::InputSystem::Controls::ButtonControl::getStaticF_s_GlobalDefaultButtonPressPoint() {
+  return ::cordl_internals::getStaticField<float_t, "s_GlobalDefaultButtonPressPoint",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>();
 }
-inline void UnityEngine::InputSystem::Controls::ButtonControl::setStaticF_s_GlobalDefaultButtonReleaseThreshold(float_t  value)  {
-::cordl_internals::setStaticField<float_t, "s_GlobalDefaultButtonReleaseThreshold", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>(std::forward<float_t>(value));
+inline void UnityEngine::InputSystem::Controls::ButtonControl::setStaticF_s_GlobalDefaultButtonReleaseThreshold(float_t value) {
+  ::cordl_internals::setStaticField<float_t, "s_GlobalDefaultButtonReleaseThreshold",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>(std::forward<float_t>(value));
 }
-inline float_t UnityEngine::InputSystem::Controls::ButtonControl::getStaticF_s_GlobalDefaultButtonReleaseThreshold()  {
-return ::cordl_internals::getStaticField<float_t, "s_GlobalDefaultButtonReleaseThreshold", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>();
+inline float_t UnityEngine::InputSystem::Controls::ButtonControl::getStaticF_s_GlobalDefaultButtonReleaseThreshold() {
+  return ::cordl_internals::getStaticField<float_t, "s_GlobalDefaultButtonReleaseThreshold",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get>();
 }
-inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_needsToCheckFramePress()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_needsToCheckFramePress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_needsToCheckFramePress() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                             "get_needsToCheckFramePress", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::Controls::ButtonControl::set_needsToCheckFramePress(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "set_needsToCheckFramePress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::InputSystem::Controls::ButtonControl::set_needsToCheckFramePress(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(), "set_needsToCheckFramePress",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t UnityEngine::InputSystem::Controls::ButtonControl::get_pressPointOrDefault()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_pressPointOrDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::InputSystem::Controls::ButtonControl::get_pressPointOrDefault() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                             "get_pressPointOrDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::Controls::ButtonControl::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::InputSystem::Controls::ButtonControl::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::Controls::ButtonControl::IsValueConsideredPressed(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "IsValueConsideredPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
+inline bool UnityEngine::InputSystem::Controls::ButtonControl::IsValueConsideredPressed(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(), "IsValueConsideredPressed",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_isPressed()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_isPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_isPressed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                             "get_isPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::Controls::ButtonControl::BeginTestingForFramePresses(bool  currentlyPressed, bool  pressedLastFrame)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "BeginTestingForFramePresses",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentlyPressed, pressedLastFrame);
+inline void UnityEngine::InputSystem::Controls::ButtonControl::BeginTestingForFramePresses(bool currentlyPressed, bool pressedLastFrame) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(), "BeginTestingForFramePresses", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentlyPressed, pressedLastFrame);
 }
-inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_wasPressedThisFrame()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_wasPressedThisFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_wasPressedThisFrame() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                             "get_wasPressedThisFrame", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_wasReleasedThisFrame()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "get_wasReleasedThisFrame",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_wasReleasedThisFrame() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                             "get_wasReleasedThisFrame", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::Controls::ButtonControl::UpdateWasPressed()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
-                        "UpdateWasPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::InputSystem::Controls::ButtonControl::UpdateWasPressed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::ButtonControl*>::get(),
+                                                                             "UpdateWasPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* UnityEngine::InputSystem::Controls::ButtonControl::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Controls::ButtonControl*>());
+inline ::UnityEngine::InputSystem::Controls::ButtonControl* UnityEngine::InputSystem::Controls::ButtonControl::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Controls::ButtonControl*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl::ButtonControl()   {
-}
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl::ButtonControl() {}

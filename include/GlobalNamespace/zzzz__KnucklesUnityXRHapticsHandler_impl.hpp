@@ -15,460 +15,400 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)(int32_t)>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)(int32_t)>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a6264;
+  constexpr static std::size_t addrs = 0x5714148;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x56a62f4;
+  constexpr static std::size_t addrs = 0x57141d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x56a62f8;
+  constexpr static std::size_t addrs = 0x57141dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9.System_Collections_Generic_IEnumerator_System_Object__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a642c;
+  constexpr static std::size_t addrs = 0x5714310;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x56a6434;
+  constexpr static std::size_t addrs = 0x5714318;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a646c;
+  constexpr static std::size_t addrs = 0x5714350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Object*& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::System::Object* const& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set___2__current(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler*& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler*& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler* const& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set___4__this(::GlobalNamespace::KnucklesUnityXRHapticsHandler*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set___4__this(::GlobalNamespace::KnucklesUnityXRHapticsHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::XR::InputDevice& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get__device_5__2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____device_5__2;
+constexpr ::UnityEngine::XR::InputDevice& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get__device_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____device_5__2;
 }
 constexpr ::UnityEngine::XR::InputDevice const& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get__device_5__2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____device_5__2;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____device_5__2;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set__device_5__2(::UnityEngine::XR::InputDevice  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____device_5__2 = value;
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set__device_5__2(::UnityEngine::XR::InputDevice value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____device_5__2 = value;
 }
-constexpr ::UnityEngine::WaitForSecondsRealtime*& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get__waiter_5__3()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____waiter_5__3;
+constexpr ::UnityEngine::WaitForSecondsRealtime*& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get__waiter_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____waiter_5__3;
 }
 constexpr ::UnityEngine::WaitForSecondsRealtime* const& GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_get__waiter_5__3() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____waiter_5__3;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____waiter_5__3;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waiter_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::__cordl_internal_set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waiter_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>(__1__state));
+inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr  GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9()   {
-}
+constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9::KnucklesUnityXRHapticsHandler__HapticsCoroutine_d__9() {}
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)(::UnityEngine::XR::XRNode, ::UnityEngine::MonoBehaviour*)>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)(::UnityEngine::XR::XRNode, ::UnityEngine::MonoBehaviour*)>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x56a618c;
+  constexpr static std::size_t addrs = 0x5714070;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MonoBehaviour*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MonoBehaviour*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler.TriggerHapticPulse
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)(float_t, float_t)>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler::TriggerHapticPulse)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)(float_t, float_t)>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x56a6228;
+  constexpr static std::size_t addrs = 0x571410c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "TriggerHapticPulse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(), "TriggerHapticPulse", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler.StopHaptics
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler::StopHaptics)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler::StopHaptics)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x56a624c;
+  constexpr static std::size_t addrs = 0x5714130;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "StopHaptics",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
+                                                                               "StopHaptics", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler.HapticsCoroutine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler::HapticsCoroutine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler::HapticsCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x56a61d4;
+  constexpr static std::size_t addrs = 0x57140b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "HapticsCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
+                                                                               "HapticsCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::KnucklesUnityXRHapticsHandler.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)()>(&::GlobalNamespace::KnucklesUnityXRHapticsHandler::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KnucklesUnityXRHapticsHandler::*)()>(
+    &::GlobalNamespace::KnucklesUnityXRHapticsHandler::Dispose)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x56a626c;
+  constexpr static std::size_t addrs = 0x5714150;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
+                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::MonoBehaviour>& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__coroutineRunner()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____coroutineRunner;
+constexpr ::UnityW<::UnityEngine::MonoBehaviour>& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__coroutineRunner() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____coroutineRunner;
 }
 constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__coroutineRunner() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____coroutineRunner;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____coroutineRunner;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__coroutineRunner(::UnityW<::UnityEngine::MonoBehaviour>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coroutineRunner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__coroutineRunner(::UnityW<::UnityEngine::MonoBehaviour> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coroutineRunner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Coroutine*& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__hapticsCoroutine()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hapticsCoroutine;
+constexpr ::UnityEngine::Coroutine*& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__hapticsCoroutine() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hapticsCoroutine;
 }
 constexpr ::UnityEngine::Coroutine* const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__hapticsCoroutine() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hapticsCoroutine;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hapticsCoroutine;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__hapticsCoroutine(::UnityEngine::Coroutine*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticsCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__hapticsCoroutine(::UnityEngine::Coroutine* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticsCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::XR::XRNode& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__node()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____node;
+constexpr ::UnityEngine::XR::XRNode& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__node() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____node;
 }
 constexpr ::UnityEngine::XR::XRNode const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__node() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____node;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____node;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__node(::UnityEngine::XR::XRNode  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____node = value;
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__node(::UnityEngine::XR::XRNode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____node = value;
 }
-constexpr float_t& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__remainingTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____remainingTime;
+constexpr float_t& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__remainingTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____remainingTime;
 }
 constexpr float_t const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__remainingTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____remainingTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____remainingTime;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__remainingTime(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____remainingTime = value;
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__remainingTime(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____remainingTime = value;
 }
-constexpr float_t& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__amplitude()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____amplitude;
+constexpr float_t& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__amplitude() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____amplitude;
 }
 constexpr float_t const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_get__amplitude() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____amplitude;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____amplitude;
 }
-constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__amplitude(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____amplitude = value;
+constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__cordl_internal_set__amplitude(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____amplitude = value;
 }
-inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::_ctor(::UnityEngine::XR::XRNode  node, ::UnityEngine::MonoBehaviour*  coroutineRunner)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MonoBehaviour*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, coroutineRunner);
+inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MonoBehaviour*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, coroutineRunner);
 }
-inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::TriggerHapticPulse(float_t  strength, float_t  duration)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "TriggerHapticPulse",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, strength, duration);
+inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::TriggerHapticPulse(float_t strength, float_t duration) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(), "TriggerHapticPulse", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, strength, duration);
 }
-inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::StopHaptics()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "StopHaptics",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::StopHaptics() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
+                                                                             "StopHaptics", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::KnucklesUnityXRHapticsHandler::HapticsCoroutine()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "HapticsCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* GlobalNamespace::KnucklesUnityXRHapticsHandler::HapticsCoroutine() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
+                                                                             "HapticsCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>::get(),
+                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* GlobalNamespace::KnucklesUnityXRHapticsHandler::New_ctor(::UnityEngine::XR::XRNode  node, ::UnityEngine::MonoBehaviour*  coroutineRunner)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>(node, coroutineRunner));
+inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* GlobalNamespace::KnucklesUnityXRHapticsHandler::New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::KnucklesUnityXRHapticsHandler*>(node, coroutineRunner));
 }
 /// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
-constexpr  GlobalNamespace::KnucklesUnityXRHapticsHandler::operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept {
-return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
+constexpr GlobalNamespace::KnucklesUnityXRHapticsHandler::operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept {
+  return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
 constexpr ::GlobalNamespace::IUnityXRHapticsHandler* GlobalNamespace::KnucklesUnityXRHapticsHandler::i___GlobalNamespace__IUnityXRHapticsHandler() noexcept {
-return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
+  return static_cast<::GlobalNamespace::IUnityXRHapticsHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  GlobalNamespace::KnucklesUnityXRHapticsHandler::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr GlobalNamespace::KnucklesUnityXRHapticsHandler::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::KnucklesUnityXRHapticsHandler::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler::KnucklesUnityXRHapticsHandler()   {
-}
+constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler::KnucklesUnityXRHapticsHandler() {}

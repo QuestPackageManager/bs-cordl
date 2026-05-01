@@ -7,12 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlObjectFactoryRegistry)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class IBaseUxmlObjectFactory;
@@ -29,48 +27,51 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UxmlObjectFactoryRegistry
 class CORDL_TYPE UxmlObjectFactoryRegistry : public ::System::Object {
 public:
-// Declarations
-/// @brief Field s_Factories, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_Factories, put=setStaticF_s_Factories)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*  s_Factories;
+  // Declarations
+  /// @brief Field s_Factories, offset 0xffffffff, size 0x8
+  __declspec(property(
+      get = getStaticF_s_Factories,
+      put = setStaticF_s_Factories)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* s_Factories;
 
-/// @brief Method RegisterEngineFactories, addr 0x6af57e0, size 0x1ec, virtual false, abstract: false, final false
-static inline void RegisterEngineFactories() ;
+  /// @brief Method RegisterEngineFactories, addr 0x6b67a28, size 0x1ec, virtual false, abstract: false, final false
+  static inline void RegisterEngineFactories();
 
-/// @brief Method RegisterFactory, addr 0x6af5cec, size 0x4ac, virtual false, abstract: false, final false
-static inline void RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory*  factory) ;
+  /// @brief Method RegisterFactory, addr 0x6b67f34, size 0x4ac, virtual false, abstract: false, final false
+  static inline void RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory* factory);
 
-/// @brief Method RegisterUserFactories, addr 0x6af59cc, size 0x320, virtual false, abstract: false, final false
-static inline void RegisterUserFactories() ;
+  /// @brief Method RegisterUserFactories, addr 0x6b67c14, size 0x320, virtual false, abstract: false, final false
+  static inline void RegisterUserFactories();
 
-static inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* getStaticF_s_Factories() ;
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* getStaticF_s_Factories();
 
-/// @brief Method get_factories, addr 0x6af5708, size 0xd8, virtual false, abstract: false, final false
-static inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* get_factories() ;
+  /// @brief Method get_factories, addr 0x6b67950, size 0xd8, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* get_factories();
 
-static inline void setStaticF_s_Factories(::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>*  value) ;
+  static inline void
+  setStaticF_s_Factories(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UxmlObjectFactoryRegistry() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlObjectFactoryRegistry();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5191 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5191};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlObjectFactoryRegistry, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlObjectFactoryRegistry);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlObjectFactoryRegistry*, "UnityEngine.UIElements", "UxmlObjectFactoryRegistry");

@@ -21,59 +21,62 @@ namespace Mono::Security::Cryptography {
 // CS Name: Mono.Security.Cryptography.RC4
 class CORDL_TYPE RC4 : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
-// Declarations
- __declspec(property(get=get_IV, put=set_IV)) ::ArrayW<uint8_t,::Array<uint8_t>*>  IV;
+  // Declarations
+  __declspec(property(get = get_IV, put = set_IV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
-/// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_legalBlockSizes, put=setStaticF_s_legalBlockSizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>  s_legalBlockSizes;
+  /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_legalBlockSizes,
+                      put = setStaticF_s_legalBlockSizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      s_legalBlockSizes;
 
-/// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_legalKeySizes, put=setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>  s_legalKeySizes;
+  /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      s_legalKeySizes;
 
-/// @brief Method Create, addr 0x58f4dbc, size 0x54, virtual false, abstract: false, final false
-static inline ::Mono::Security::Cryptography::RC4* Create() ;
+  /// @brief Method Create, addr 0x5966d28, size 0x54, virtual false, abstract: false, final false
+  static inline ::Mono::Security::Cryptography::RC4* Create();
 
-static inline ::Mono::Security::Cryptography::RC4* New_ctor() ;
+  static inline ::Mono::Security::Cryptography::RC4* New_ctor();
 
-/// @brief Method .ctor, addr 0x58effe4, size 0x80, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5961f50, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes() ;
+  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
 
-static inline ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes() ;
+  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-/// @brief Method get_IV, addr 0x58f4d70, size 0x48, virtual true, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_IV() ;
+  /// @brief Method get_IV, addr 0x5966cdc, size 0x48, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IV();
 
-static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>  value) ;
+  static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>  value) ;
+  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-/// @brief Method set_IV, addr 0x58f4db8, size 0x4, virtual true, abstract: false, final false
-inline void set_IV(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  /// @brief Method set_IV, addr 0x5966d24, size 0x4, virtual true, abstract: false, final false
+  inline void set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RC4() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RC4();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RC4", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RC4(RC4&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RC4", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RC4(RC4 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RC4", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RC4(RC4 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RC4", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RC4(RC4 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19308 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19298};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::RC4, 0x48>, "Size mismatch!");
 
-} // namespace end def Mono::Security::Cryptography
+} // namespace Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::RC4);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::RC4*, "Mono.Security.Cryptography", "RC4");

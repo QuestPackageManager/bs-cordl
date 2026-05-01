@@ -39,111 +39,111 @@ namespace HMUI {
 // CS Name: HMUI.HoverHint
 class CORDL_TYPE HoverHint : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _hoverHintController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__hoverHintController, put=__cordl_internal_set__hoverHintController)) ::UnityW<::HMUI::HoverHintController>  _hoverHintController;
+  // Declarations
+  /// @brief Field _hoverHintController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__hoverHintController, put = __cordl_internal_set__hoverHintController)) ::UnityW<::HMUI::HoverHintController> _hoverHintController;
 
-/// @brief Field _text, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::StringW  _text;
+  /// @brief Field _text, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::StringW _text;
 
-/// @brief Field _worldCornersTemp, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__worldCornersTemp, put=__cordl_internal_set__worldCornersTemp)) ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  _worldCornersTemp;
+  /// @brief Field _worldCornersTemp, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__worldCornersTemp, put = __cordl_internal_set__worldCornersTemp)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _worldCornersTemp;
 
- __declspec(property(get=get_size)) ::UnityEngine::Vector2  size;
+  __declspec(property(get = get_size)) ::UnityEngine::Vector2 size;
 
- __declspec(property(get=get_text, put=set_text)) ::StringW  text;
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
- __declspec(property(get=get_worldCenter)) ::UnityEngine::Vector3  worldCenter;
+  __declspec(property(get = get_worldCenter)) ::UnityEngine::Vector3 worldCenter;
 
-/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
-constexpr operator  ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
-/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
-constexpr operator  ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
 
-static inline ::HMUI::HoverHint* New_ctor() ;
+  static inline ::HMUI::HoverHint* New_ctor();
 
-/// @brief Method OnDisable, addr 0x56c58a8, size 0x84, virtual false, abstract: false, final false
-inline void OnDisable() ;
+  /// @brief Method OnDisable, addr 0x5733794, size 0x84, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-/// @brief Method OnPointerEnter, addr 0x56c5718, size 0x30, virtual true, abstract: false, final true
-inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
+  /// @brief Method OnPointerEnter, addr 0x5733604, size 0x30, virtual true, abstract: false, final true
+  inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-/// @brief Method OnPointerExit, addr 0x56c5770, size 0xc4, virtual true, abstract: false, final true
-inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
+  /// @brief Method OnPointerExit, addr 0x573365c, size 0xc4, virtual true, abstract: false, final true
+  inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get__hoverHintController() const;
+  constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get__hoverHintController() const;
 
-constexpr ::UnityW<::HMUI::HoverHintController>& __cordl_internal_get__hoverHintController() ;
+  constexpr ::UnityW<::HMUI::HoverHintController>& __cordl_internal_get__hoverHintController();
 
-constexpr ::StringW const& __cordl_internal_get__text() const;
+  constexpr ::StringW const& __cordl_internal_get__text() const;
 
-constexpr ::StringW& __cordl_internal_get__text() ;
+  constexpr ::StringW& __cordl_internal_get__text();
 
-constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__worldCornersTemp() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__worldCornersTemp() const;
 
-constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__worldCornersTemp() ;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__worldCornersTemp();
 
-constexpr void __cordl_internal_set__hoverHintController(::UnityW<::HMUI::HoverHintController>  value) ;
+  constexpr void __cordl_internal_set__hoverHintController(::UnityW<::HMUI::HoverHintController> value);
 
-constexpr void __cordl_internal_set__text(::StringW  value) ;
+  constexpr void __cordl_internal_set__text(::StringW value);
 
-constexpr void __cordl_internal_set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  value) ;
+  constexpr void __cordl_internal_set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-/// @brief Method .ctor, addr 0x56c592c, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5733818, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_size, addr 0x56c5598, size 0x7c, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector2 get_size() ;
+  /// @brief Method get_size, addr 0x5733484, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_size();
 
-/// @brief Method get_text, addr 0x56c5588, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_text() ;
+  /// @brief Method get_text, addr 0x5733474, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_text();
 
-/// @brief Method get_worldCenter, addr 0x56c5614, size 0x104, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector3 get_worldCenter() ;
+  /// @brief Method get_worldCenter, addr 0x5733500, size 0x104, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_worldCenter();
 
-/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-/// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
-constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
 
-/// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
-constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-/// @brief Method set_text, addr 0x56c5590, size 0x8, virtual false, abstract: false, final false
-inline void set_text(::StringW  value) ;
+  /// @brief Method set_text, addr 0x573347c, size 0x8, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HoverHint() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HoverHint();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HoverHint(HoverHint&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HoverHint(HoverHint && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HoverHint(HoverHint const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HoverHint(HoverHint const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19148 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19138};
+  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
+  ::StringW ____text;
 
-/// @brief Field _text, offset: 0x20, size: 0x8, def value: None
- ::StringW  ____text;
+  /// @brief Field _hoverHintController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::HoverHintController> ____hoverHintController;
 
-/// @brief Field _hoverHintController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::HoverHintController>  ____hoverHintController;
+  /// @brief Field _worldCornersTemp, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____worldCornersTemp;
 
-/// @brief Field _worldCornersTemp, offset: 0x30, size: 0x8, def value: None
- ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  ____worldCornersTemp;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::HoverHint, ____text) == 0x20, "Offset mismatch!");
@@ -154,6 +154,6 @@ static_assert(offsetof(::HMUI::HoverHint, ____worldCornersTemp) == 0x30, "Offset
 
 static_assert(::cordl_internals::size_check_v<::HMUI::HoverHint, 0x38>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 NEED_NO_BOX(::HMUI::HoverHint);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::HoverHint*, "HMUI", "HoverHint");

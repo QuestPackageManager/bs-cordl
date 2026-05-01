@@ -10,8 +10,7 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template<typename T>
-class PacketPool_1;
+template <typename T> class PacketPool_1;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -34,75 +33,75 @@ namespace GlobalNamespace {
 // CS Name: SyncTimePacket
 class CORDL_TYPE SyncTimePacket : public ::System::Object {
 public:
-// Declarations
-/// @brief Field syncTime, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_syncTime, put=__cordl_internal_set_syncTime)) int64_t  syncTime;
+  // Declarations
+  /// @brief Field syncTime, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_syncTime, put = __cordl_internal_set_syncTime)) int64_t syncTime;
 
-/// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
-constexpr operator  ::GlobalNamespace::IPoolablePacket*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
+  constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr operator  ::LiteNetLib::Utils::INetSerializable*() noexcept;
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-/// @brief Method Deserialize, addr 0x32324d4, size 0x20, virtual true, abstract: false, final true
-inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
+  /// @brief Method Deserialize, addr 0x326e9ac, size 0x20, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-/// @brief Method Init, addr 0x32324f4, size 0x8, virtual false, abstract: false, final false
-inline ::GlobalNamespace::SyncTimePacket* Init(int64_t  syncTime) ;
+  /// @brief Method Init, addr 0x326e9cc, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SyncTimePacket* Init(int64_t syncTime);
 
-static inline ::GlobalNamespace::SyncTimePacket* New_ctor() ;
+  static inline ::GlobalNamespace::SyncTimePacket* New_ctor();
 
-/// @brief Method Release, addr 0x32324fc, size 0x58, virtual true, abstract: false, final true
-inline void Release() ;
+  /// @brief Method Release, addr 0x326e9d4, size 0x58, virtual true, abstract: false, final true
+  inline void Release();
 
-/// @brief Method Serialize, addr 0x32324c0, size 0x14, virtual true, abstract: false, final true
-inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
+  /// @brief Method Serialize, addr 0x326e998, size 0x14, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-constexpr int64_t const& __cordl_internal_get_syncTime() const;
+  constexpr int64_t const& __cordl_internal_get_syncTime() const;
 
-constexpr int64_t& __cordl_internal_get_syncTime() ;
+  constexpr int64_t& __cordl_internal_get_syncTime();
 
-constexpr void __cordl_internal_set_syncTime(int64_t  value) ;
+  constexpr void __cordl_internal_set_syncTime(int64_t value);
 
-/// @brief Method .ctor, addr 0x3232554, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x326ea2c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_pool, addr 0x323247c, size 0x44, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::SyncTimePacket*>* get_pool() ;
+  /// @brief Method get_pool, addr 0x326e954, size 0x44, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::SyncTimePacket*>* get_pool();
 
-/// @brief Convert to "::GlobalNamespace::IPoolablePacket"
-constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SyncTimePacket() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SyncTimePacket();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SyncTimePacket", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SyncTimePacket(SyncTimePacket&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SyncTimePacket", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SyncTimePacket(SyncTimePacket && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SyncTimePacket", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SyncTimePacket(SyncTimePacket const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SyncTimePacket", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SyncTimePacket(SyncTimePacket const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18112 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18104};
+  /// @brief Field syncTime, offset: 0x10, size: 0x8, def value: None
+  int64_t ___syncTime;
 
-/// @brief Field syncTime, offset: 0x10, size: 0x8, def value: None
- int64_t  ___syncTime;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SyncTimePacket, ___syncTime) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SyncTimePacket, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SyncTimePacket);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SyncTimePacket*, "", "SyncTimePacket");

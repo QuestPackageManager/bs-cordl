@@ -18,81 +18,81 @@ namespace System::Net {
 // CS Name: System.Net.Authorization
 class CORDL_TYPE Authorization : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Complete)) bool  Complete;
+  // Declarations
+  __declspec(property(get = get_Complete)) bool Complete;
 
- __declspec(property(get=get_Message)) ::StringW  Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
-/// @brief Field ModuleAuthenticationType, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_ModuleAuthenticationType, put=__cordl_internal_set_ModuleAuthenticationType)) ::StringW  ModuleAuthenticationType;
+  /// @brief Field ModuleAuthenticationType, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_ModuleAuthenticationType, put = __cordl_internal_set_ModuleAuthenticationType)) ::StringW ModuleAuthenticationType;
 
-/// @brief Field m_Complete, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_Complete, put=__cordl_internal_set_m_Complete)) bool  m_Complete;
+  /// @brief Field m_Complete, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_Complete, put = __cordl_internal_set_m_Complete)) bool m_Complete;
 
-/// @brief Field m_Message, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Message, put=__cordl_internal_set_m_Message)) ::StringW  m_Message;
+  /// @brief Field m_Message, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Message, put = __cordl_internal_set_m_Message)) ::StringW m_Message;
 
-static inline ::System::Net::Authorization* New_ctor(::StringW  token) ;
+  static inline ::System::Net::Authorization* New_ctor(::StringW token);
 
-static inline ::System::Net::Authorization* New_ctor(::StringW  token, bool  finished) ;
+  static inline ::System::Net::Authorization* New_ctor(::StringW token, bool finished);
 
-constexpr ::StringW const& __cordl_internal_get_ModuleAuthenticationType() const;
+  constexpr ::StringW const& __cordl_internal_get_ModuleAuthenticationType() const;
 
-constexpr ::StringW& __cordl_internal_get_ModuleAuthenticationType() ;
+  constexpr ::StringW& __cordl_internal_get_ModuleAuthenticationType();
 
-constexpr bool const& __cordl_internal_get_m_Complete() const;
+  constexpr bool const& __cordl_internal_get_m_Complete() const;
 
-constexpr bool& __cordl_internal_get_m_Complete() ;
+  constexpr bool& __cordl_internal_get_m_Complete();
 
-constexpr ::StringW const& __cordl_internal_get_m_Message() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Message() const;
 
-constexpr ::StringW& __cordl_internal_get_m_Message() ;
+  constexpr ::StringW& __cordl_internal_get_m_Message();
 
-constexpr void __cordl_internal_set_ModuleAuthenticationType(::StringW  value) ;
+  constexpr void __cordl_internal_set_ModuleAuthenticationType(::StringW value);
 
-constexpr void __cordl_internal_set_m_Complete(bool  value) ;
+  constexpr void __cordl_internal_set_m_Complete(bool value);
 
-constexpr void __cordl_internal_set_m_Message(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_Message(::StringW value);
 
-/// @brief Method .ctor, addr 0x62563f8, size 0x88, virtual false, abstract: false, final false
-inline void _ctor(::StringW  token) ;
+  /// @brief Method .ctor, addr 0x62c8404, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::StringW token);
 
-/// @brief Method .ctor, addr 0x6256494, size 0x8c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  token, bool  finished) ;
+  /// @brief Method .ctor, addr 0x62c84a0, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW token, bool finished);
 
-/// @brief Method get_Complete, addr 0x6256528, size 0x8, virtual false, abstract: false, final false
-inline bool get_Complete() ;
+  /// @brief Method get_Complete, addr 0x62c8534, size 0x8, virtual false, abstract: false, final false
+  inline bool get_Complete();
 
-/// @brief Method get_Message, addr 0x6256520, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Message() ;
+  /// @brief Method get_Message, addr 0x62c852c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Message();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Authorization() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Authorization();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Authorization", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Authorization(Authorization&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Authorization", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Authorization(Authorization && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Authorization", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Authorization(Authorization const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Authorization", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Authorization(Authorization const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11468 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11461};
+  /// @brief Field m_Message, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___m_Message;
 
-/// @brief Field m_Message, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___m_Message;
+  /// @brief Field m_Complete, offset: 0x18, size: 0x1, def value: None
+  bool ___m_Complete;
 
-/// @brief Field m_Complete, offset: 0x18, size: 0x1, def value: None
- bool  ___m_Complete;
+  /// @brief Field ModuleAuthenticationType, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___ModuleAuthenticationType;
 
-/// @brief Field ModuleAuthenticationType, offset: 0x20, size: 0x8, def value: None
- ::StringW  ___ModuleAuthenticationType;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Authorization, ___m_Message) == 0x10, "Offset mismatch!");
@@ -103,6 +103,6 @@ static_assert(offsetof(::System::Net::Authorization, ___ModuleAuthenticationType
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Authorization, 0x28>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 NEED_NO_BOX(::System::Net::Authorization);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Authorization*, "System.Net", "Authorization");

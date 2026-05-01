@@ -35,154 +35,154 @@ namespace Oculus::Haptics {
 // CS Name: Oculus.Haptics.Haptics
 class CORDL_TYPE Haptics : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <IsPCMHaptics>k__BackingField, offset 0xffffffff, size 0x1 
- __declspec(property(get=getStaticF__IsPCMHaptics_k__BackingField, put=setStaticF__IsPCMHaptics_k__BackingField)) bool  _IsPCMHaptics_k__BackingField;
+  // Declarations
+  /// @brief Field <IsPCMHaptics>k__BackingField, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF__IsPCMHaptics_k__BackingField, put = setStaticF__IsPCMHaptics_k__BackingField)) bool _IsPCMHaptics_k__BackingField;
 
-/// @brief Field instance, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_instance, put=setStaticF_instance)) ::Oculus::Haptics::Haptics*  instance;
+  /// @brief Field instance, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::Oculus::Haptics::Haptics* instance;
 
-/// @brief Field syncContext, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_syncContext, put=setStaticF_syncContext)) ::System::Threading::SynchronizationContext*  syncContext;
+  /// @brief Field syncContext, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_syncContext, put = setStaticF_syncContext)) ::System::Threading::SynchronizationContext* syncContext;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method CreateHapticPlayer, addr 0x5c02280, size 0x20, virtual false, abstract: false, final false
-inline int32_t CreateHapticPlayer() ;
+  /// @brief Method CreateHapticPlayer, addr 0x5c74268, size 0x20, virtual false, abstract: false, final false
+  inline int32_t CreateHapticPlayer();
 
-/// @brief Method Dispose, addr 0x5c04a40, size 0x70, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x5c76a28, size 0x70, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method Dispose, addr 0x5c04ab0, size 0xd8, virtual true, abstract: false, final false
-inline void Dispose(bool  disposing) ;
+  /// @brief Method Dispose, addr 0x5c76a98, size 0xd8, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-/// @brief Method EnsureInitialized, addr 0x5c036a8, size 0x258, virtual false, abstract: false, final false
-static inline bool EnsureInitialized() ;
+  /// @brief Method EnsureInitialized, addr 0x5c75690, size 0x258, virtual false, abstract: false, final false
+  static inline bool EnsureInitialized();
 
-/// @brief Method Finalize, addr 0x5c04bec, size 0x50, virtual true, abstract: false, final false
-inline void Finalize() ;
+  /// @brief Method Finalize, addr 0x5c76bd4, size 0x50, virtual true, abstract: false, final false
+  inline void Finalize();
 
-/// @brief Method GetAmplitudeHapticPlayer, addr 0x5c02c6c, size 0xa4, virtual false, abstract: false, final false
-inline float_t GetAmplitudeHapticPlayer(int32_t  playerId) ;
+  /// @brief Method GetAmplitudeHapticPlayer, addr 0x5c74c54, size 0xa4, virtual false, abstract: false, final false
+  inline float_t GetAmplitudeHapticPlayer(int32_t playerId);
 
-/// @brief Method GetClipDuration, addr 0x5c02bb4, size 0xa0, virtual false, abstract: false, final false
-inline float_t GetClipDuration(int32_t  clipId) ;
+  /// @brief Method GetClipDuration, addr 0x5c74b9c, size 0xa0, virtual false, abstract: false, final false
+  inline float_t GetClipDuration(int32_t clipId);
 
-/// @brief Method GetFrequencyShiftHapticPlayer, addr 0x5c02e84, size 0xa0, virtual false, abstract: false, final false
-inline float_t GetFrequencyShiftHapticPlayer(int32_t  playerId) ;
+  /// @brief Method GetFrequencyShiftHapticPlayer, addr 0x5c74e6c, size 0xa0, virtual false, abstract: false, final false
+  inline float_t GetFrequencyShiftHapticPlayer(int32_t playerId);
 
-/// @brief Method GetPriorityHapticPlayer, addr 0x5c03098, size 0xb8, virtual false, abstract: false, final false
-inline uint32_t GetPriorityHapticPlayer(int32_t  playerId) ;
+  /// @brief Method GetPriorityHapticPlayer, addr 0x5c75080, size 0xb8, virtual false, abstract: false, final false
+  inline uint32_t GetPriorityHapticPlayer(int32_t playerId);
 
-/// @brief Method IsHapticPlayerLooping, addr 0x5c02a44, size 0xa0, virtual false, abstract: false, final false
-inline bool IsHapticPlayerLooping(int32_t  playerId) ;
+  /// @brief Method IsHapticPlayerLooping, addr 0x5c74a2c, size 0xa0, virtual false, abstract: false, final false
+  inline bool IsHapticPlayerLooping(int32_t playerId);
 
-/// @brief Method IsInitialized, addr 0x5c03908, size 0x98, virtual false, abstract: false, final false
-static inline bool IsInitialized() ;
+  /// @brief Method IsInitialized, addr 0x5c758f0, size 0x98, virtual false, abstract: false, final false
+  static inline bool IsInitialized();
 
-/// @brief Method IsPcmHapticsExtensionEnabled, addr 0x5c03900, size 0x8, virtual false, abstract: false, final false
-static inline bool IsPcmHapticsExtensionEnabled() ;
+  /// @brief Method IsPcmHapticsExtensionEnabled, addr 0x5c758e8, size 0x8, virtual false, abstract: false, final false
+  static inline bool IsPcmHapticsExtensionEnabled();
 
-/// @brief Method IsSupportedPlatform, addr 0x5c0369c, size 0x8, virtual false, abstract: false, final false
-static inline bool IsSupportedPlatform() ;
+  /// @brief Method IsSupportedPlatform, addr 0x5c75684, size 0x8, virtual false, abstract: false, final false
+  static inline bool IsSupportedPlatform();
 
-/// @brief Method LoadClip, addr 0x5c032c4, size 0xb8, virtual false, abstract: false, final false
-inline int32_t LoadClip(::StringW  clipJson) ;
+  /// @brief Method LoadClip, addr 0x5c752ac, size 0xb8, virtual false, abstract: false, final false
+  inline int32_t LoadClip(::StringW clipJson);
 
-/// @brief Method LoopHapticPlayer, addr 0x5c02b04, size 0x98, virtual false, abstract: false, final false
-inline void LoopHapticPlayer(int32_t  playerId, bool  enabled) ;
+  /// @brief Method LoopHapticPlayer, addr 0x5c74aec, size 0x98, virtual false, abstract: false, final false
+  inline void LoopHapticPlayer(int32_t playerId, bool enabled);
 
-/// @brief Method MapPriority, addr 0x5c045f0, size 0x2a4, virtual false, abstract: false, final false
-static inline uint32_t MapPriority(uint32_t  input, int32_t  inMin, int32_t  inMax, int32_t  outMin, int32_t  outMax) ;
+  /// @brief Method MapPriority, addr 0x5c765d8, size 0x2a4, virtual false, abstract: false, final false
+  static inline uint32_t MapPriority(uint32_t input, int32_t inMin, int32_t inMax, int32_t outMin, int32_t outMax);
 
-static inline ::Oculus::Haptics::Haptics* New_ctor() ;
+  static inline ::Oculus::Haptics::Haptics* New_ctor();
 
-/// @brief Method PauseHapticPlayer, addr 0x5c0256c, size 0xf4, virtual false, abstract: false, final false
-inline void PauseHapticPlayer(int32_t  playerId) ;
+  /// @brief Method PauseHapticPlayer, addr 0x5c74554, size 0xf4, virtual false, abstract: false, final false
+  inline void PauseHapticPlayer(int32_t playerId);
 
-/// @brief Method PlayCallback, addr 0x5c035f8, size 0x4, virtual false, abstract: false, final false
-static inline void PlayCallback(::System::IntPtr  context, ::Oculus::Haptics::Ffi_Controller  controller, float_t  duration, float_t  amplitude) ;
+  /// @brief Method PlayCallback, addr 0x5c755e0, size 0x4, virtual false, abstract: false, final false
+  static inline void PlayCallback(::System::IntPtr context, ::Oculus::Haptics::Ffi_Controller controller, float_t duration, float_t amplitude);
 
-/// @brief Method PlayHapticPlayer, addr 0x5c02450, size 0x104, virtual false, abstract: false, final false
-inline void PlayHapticPlayer(int32_t  playerId, ::Oculus::Haptics::Controller  controller) ;
+  /// @brief Method PlayHapticPlayer, addr 0x5c74438, size 0x104, virtual false, abstract: false, final false
+  inline void PlayHapticPlayer(int32_t playerId, ::Oculus::Haptics::Controller controller);
 
-/// @brief Method ReleaseClip, addr 0x5c03444, size 0x1c, virtual false, abstract: false, final false
-inline bool ReleaseClip(int32_t  clipId) ;
+  /// @brief Method ReleaseClip, addr 0x5c7542c, size 0x1c, virtual false, abstract: false, final false
+  inline bool ReleaseClip(int32_t clipId);
 
-/// @brief Method ReleaseHapticPlayer, addr 0x5c0358c, size 0x1c, virtual false, abstract: false, final false
-inline bool ReleaseHapticPlayer(int32_t  playerId) ;
+  /// @brief Method ReleaseHapticPlayer, addr 0x5c75574, size 0x1c, virtual false, abstract: false, final false
+  inline bool ReleaseHapticPlayer(int32_t playerId);
 
-/// @brief Method ResumeHapticPlayer, addr 0x5c02678, size 0xf4, virtual false, abstract: false, final false
-inline void ResumeHapticPlayer(int32_t  playerId) ;
+  /// @brief Method ResumeHapticPlayer, addr 0x5c74660, size 0xf4, virtual false, abstract: false, final false
+  inline void ResumeHapticPlayer(int32_t playerId);
 
-/// @brief Method SeekPlaybackPositionHapticPlayer, addr 0x5c02890, size 0x19c, virtual false, abstract: false, final false
-inline void SeekPlaybackPositionHapticPlayer(int32_t  playerId, float_t  time) ;
+  /// @brief Method SeekPlaybackPositionHapticPlayer, addr 0x5c74878, size 0x19c, virtual false, abstract: false, final false
+  inline void SeekPlaybackPositionHapticPlayer(int32_t playerId, float_t time);
 
-/// @brief Method SetAmplitudeHapticPlayer, addr 0x5c02d28, size 0x144, virtual false, abstract: false, final false
-inline void SetAmplitudeHapticPlayer(int32_t  playerId, float_t  amplitude) ;
+  /// @brief Method SetAmplitudeHapticPlayer, addr 0x5c74d10, size 0x144, virtual false, abstract: false, final false
+  inline void SetAmplitudeHapticPlayer(int32_t playerId, float_t amplitude);
 
-/// @brief Method SetFrequencyShiftHapticPlayer, addr 0x5c02f3c, size 0x144, virtual false, abstract: false, final false
-inline void SetFrequencyShiftHapticPlayer(int32_t  playerId, float_t  amount) ;
+  /// @brief Method SetFrequencyShiftHapticPlayer, addr 0x5c74f24, size 0x144, virtual false, abstract: false, final false
+  inline void SetFrequencyShiftHapticPlayer(int32_t playerId, float_t amount);
 
-/// @brief Method SetHapticPlayerClip, addr 0x5c0337c, size 0xc8, virtual false, abstract: false, final false
-inline void SetHapticPlayerClip(int32_t  playerId, int32_t  clipId) ;
+  /// @brief Method SetHapticPlayerClip, addr 0x5c75364, size 0xc8, virtual false, abstract: false, final false
+  inline void SetHapticPlayerClip(int32_t playerId, int32_t clipId);
 
-/// @brief Method SetPriorityHapticPlayer, addr 0x5c0316c, size 0x158, virtual false, abstract: false, final false
-inline void SetPriorityHapticPlayer(int32_t  playerId, uint32_t  value) ;
+  /// @brief Method SetPriorityHapticPlayer, addr 0x5c75154, size 0x158, virtual false, abstract: false, final false
+  inline void SetPriorityHapticPlayer(int32_t playerId, uint32_t value);
 
-/// @brief Method StopHapticPlayer, addr 0x5c02784, size 0xf4, virtual false, abstract: false, final false
-inline void StopHapticPlayer(int32_t  playerId) ;
+  /// @brief Method StopHapticPlayer, addr 0x5c7476c, size 0xf4, virtual false, abstract: false, final false
+  inline void StopHapticPlayer(int32_t playerId);
 
-/// @brief Method .ctor, addr 0x5c036a4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5c7568c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline bool getStaticF__IsPCMHaptics_k__BackingField() ;
+  static inline bool getStaticF__IsPCMHaptics_k__BackingField();
 
-static inline ::Oculus::Haptics::Haptics* getStaticF_instance() ;
+  static inline ::Oculus::Haptics::Haptics* getStaticF_instance();
 
-static inline ::System::Threading::SynchronizationContext* getStaticF_syncContext() ;
+  static inline ::System::Threading::SynchronizationContext* getStaticF_syncContext();
 
-/// @brief Method get_Instance, addr 0x5c0238c, size 0xa8, virtual false, abstract: false, final false
-static inline ::Oculus::Haptics::Haptics* get_Instance() ;
+  /// @brief Method get_Instance, addr 0x5c74374, size 0xa8, virtual false, abstract: false, final false
+  static inline ::Oculus::Haptics::Haptics* get_Instance();
 
-/// @brief Method get_IsPCMHaptics, addr 0x5c035fc, size 0x4c, virtual false, abstract: false, final false
-static inline bool get_IsPCMHaptics() ;
+  /// @brief Method get_IsPCMHaptics, addr 0x5c755e4, size 0x4c, virtual false, abstract: false, final false
+  static inline bool get_IsPCMHaptics();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-static inline void setStaticF__IsPCMHaptics_k__BackingField(bool  value) ;
+  static inline void setStaticF__IsPCMHaptics_k__BackingField(bool value);
 
-static inline void setStaticF_instance(::Oculus::Haptics::Haptics*  value) ;
+  static inline void setStaticF_instance(::Oculus::Haptics::Haptics* value);
 
-static inline void setStaticF_syncContext(::System::Threading::SynchronizationContext*  value) ;
+  static inline void setStaticF_syncContext(::System::Threading::SynchronizationContext* value);
 
-/// @brief Method set_IsPCMHaptics, addr 0x5c03648, size 0x54, virtual false, abstract: false, final false
-static inline void set_IsPCMHaptics(bool  value) ;
+  /// @brief Method set_IsPCMHaptics, addr 0x5c75630, size 0x54, virtual false, abstract: false, final false
+  static inline void set_IsPCMHaptics(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Haptics() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Haptics();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Haptics", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Haptics(Haptics&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Haptics", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Haptics(Haptics && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Haptics", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Haptics(Haptics const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Haptics", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Haptics(Haptics const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22522 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22444};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Haptics::Haptics, 0x10>, "Size mismatch!");
 
-} // namespace end def Oculus::Haptics
+} // namespace Oculus::Haptics
 NEED_NO_BOX(::Oculus::Haptics::Haptics);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Haptics::Haptics*, "Oculus.Haptics", "Haptics");

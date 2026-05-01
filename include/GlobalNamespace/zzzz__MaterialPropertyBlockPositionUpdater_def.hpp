@@ -20,51 +20,51 @@ namespace GlobalNamespace {
 // CS Name: MaterialPropertyBlockPositionUpdater
 class CORDL_TYPE MaterialPropertyBlockPositionUpdater : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
-// Declarations
-/// @brief Field _targetTransform, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__targetTransform, put=__cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform>  _targetTransform;
+  // Declarations
+  /// @brief Field _targetTransform, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform> _targetTransform;
 
-static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor() ;
+  static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor();
 
-/// @brief Method SetProperty, addr 0x56be348, size 0xb4, virtual true, abstract: false, final false
-inline void SetProperty() ;
+  /// @brief Method SetProperty, addr 0x572c234, size 0xb4, virtual true, abstract: false, final false
+  inline void SetProperty();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
 
-constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-/// @brief Method .ctor, addr 0x56be3fc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x572c2e8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MaterialPropertyBlockPositionUpdater() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyBlockPositionUpdater();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19779 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19769};
+  /// @brief Field _targetTransform, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
-/// @brief Field _targetTransform, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____targetTransform;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockPositionUpdater, ____targetTransform) == 0x38, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockPositionUpdater, 0x40>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockPositionUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockPositionUpdater*, "", "MaterialPropertyBlockPositionUpdater");

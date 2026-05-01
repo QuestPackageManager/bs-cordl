@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/XR/OpenXR/NativeTypes/XrBaseInStructure.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/XrEnvironmentBlendMode.hpp"
@@ -20,6 +20,5 @@
 #include "UnityEngine/XR/OpenXR/NativeTypes/XrViewConfigurationType.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/XrViewStateFlags.hpp"
 #ifdef __cpp_modules
-                    export module NativeTypes;
-                    #endif
-                
+export module NativeTypes;
+#endif

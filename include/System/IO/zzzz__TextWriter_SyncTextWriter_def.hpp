@@ -37,123 +37,123 @@ namespace GlobalNamespace {
 // CS Name: System.IO.TextWriter/SyncTextWriter
 class CORDL_TYPE TextWriter_SyncTextWriter : public ::System::IO::TextWriter {
 public:
-// Declarations
- __declspec(property(get=get_Encoding)) ::System::Text::Encoding*  Encoding;
+  // Declarations
+  __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
 
- __declspec(property(get=get_FormatProvider)) ::System::IFormatProvider*  FormatProvider;
+  __declspec(property(get = get_FormatProvider)) ::System::IFormatProvider* FormatProvider;
 
- __declspec(property(get=get_NewLine, put=set_NewLine)) ::StringW  NewLine;
+  __declspec(property(get = get_NewLine, put = set_NewLine)) ::StringW NewLine;
 
-/// @brief Field _out, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__out, put=__cordl_internal_set__out)) ::System::IO::TextWriter*  _out;
+  /// @brief Field _out, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out)) ::System::IO::TextWriter* _out;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method Close, addr 0x5a54984, size 0x1c, virtual true, abstract: false, final false
-inline void Close() ;
+  /// @brief Method Close, addr 0x5ac696c, size 0x1c, virtual true, abstract: false, final false
+  inline void Close();
 
-/// @brief Method Dispose, addr 0x5a549a0, size 0xc4, virtual true, abstract: false, final false
-inline void Dispose(bool  disposing) ;
+  /// @brief Method Dispose, addr 0x5ac6988, size 0xc4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-/// @brief Method Flush, addr 0x5a54a64, size 0x1c, virtual true, abstract: false, final false
-inline void Flush() ;
+  /// @brief Method Flush, addr 0x5ac6a4c, size 0x1c, virtual true, abstract: false, final false
+  inline void Flush();
 
-/// @brief Method FlushAsync, addr 0x5a54e0c, size 0xa8, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task* FlushAsync() ;
+  /// @brief Method FlushAsync, addr 0x5ac6df4, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* FlushAsync();
 
-static inline ::GlobalNamespace::TextWriter_SyncTextWriter* New_ctor(::System::IO::TextWriter*  t) ;
+  static inline ::GlobalNamespace::TextWriter_SyncTextWriter* New_ctor(::System::IO::TextWriter* t);
 
-/// @brief Method Write, addr 0x5a54aa0, size 0x20, virtual true, abstract: false, final false
-inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer) ;
+  /// @brief Method Write, addr 0x5ac6a88, size 0x20, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-/// @brief Method Write, addr 0x5a54ac0, size 0x20, virtual true, abstract: false, final false
-inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
+  /// @brief Method Write, addr 0x5ac6aa8, size 0x20, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-/// @brief Method Write, addr 0x5a54b00, size 0x20, virtual true, abstract: false, final false
-inline void Write(::StringW  format, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2) ;
+  /// @brief Method Write, addr 0x5ac6ae8, size 0x20, virtual true, abstract: false, final false
+  inline void Write(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-/// @brief Method Write, addr 0x5a54ae0, size 0x20, virtual true, abstract: false, final false
-inline void Write(::StringW  value) ;
+  /// @brief Method Write, addr 0x5ac6ac8, size 0x20, virtual true, abstract: false, final false
+  inline void Write(::StringW value);
 
-/// @brief Method Write, addr 0x5a54a80, size 0x20, virtual true, abstract: false, final false
-inline void Write(char16_t  value) ;
+  /// @brief Method Write, addr 0x5ac6a68, size 0x20, virtual true, abstract: false, final false
+  inline void Write(char16_t value);
 
-/// @brief Method WriteAsync, addr 0x5a54d38, size 0xd4, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
+  /// @brief Method WriteAsync, addr 0x5ac6d20, size 0xd4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-/// @brief Method WriteAsync, addr 0x5a54c7c, size 0xbc, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task* WriteAsync(::StringW  value) ;
+  /// @brief Method WriteAsync, addr 0x5ac6c64, size 0xbc, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
 
-/// @brief Method WriteAsync, addr 0x5a54bc0, size 0xbc, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task* WriteAsync(char16_t  value) ;
+  /// @brief Method WriteAsync, addr 0x5ac6ba8, size 0xbc, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
 
-/// @brief Method WriteLine, addr 0x5a54b20, size 0x20, virtual true, abstract: false, final false
-inline void WriteLine() ;
+  /// @brief Method WriteLine, addr 0x5ac6b08, size 0x20, virtual true, abstract: false, final false
+  inline void WriteLine();
 
-/// @brief Method WriteLine, addr 0x5a54b40, size 0x20, virtual true, abstract: false, final false
-inline void WriteLine(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
+  /// @brief Method WriteLine, addr 0x5ac6b28, size 0x20, virtual true, abstract: false, final false
+  inline void WriteLine(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-/// @brief Method WriteLine, addr 0x5a54b80, size 0x20, virtual true, abstract: false, final false
-inline void WriteLine(::StringW  format, ::System::Object*  arg0) ;
+  /// @brief Method WriteLine, addr 0x5ac6b68, size 0x20, virtual true, abstract: false, final false
+  inline void WriteLine(::StringW format, ::System::Object* arg0);
 
-/// @brief Method WriteLine, addr 0x5a54ba0, size 0x20, virtual true, abstract: false, final false
-inline void WriteLine(::StringW  format, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2) ;
+  /// @brief Method WriteLine, addr 0x5ac6b88, size 0x20, virtual true, abstract: false, final false
+  inline void WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-/// @brief Method WriteLine, addr 0x5a54b60, size 0x20, virtual true, abstract: false, final false
-inline void WriteLine(::StringW  value) ;
+  /// @brief Method WriteLine, addr 0x5ac6b48, size 0x20, virtual true, abstract: false, final false
+  inline void WriteLine(::StringW value);
 
-constexpr ::System::IO::TextWriter* const& __cordl_internal_get__out() const;
+  constexpr ::System::IO::TextWriter* const& __cordl_internal_get__out() const;
 
-constexpr ::System::IO::TextWriter*& __cordl_internal_get__out() ;
+  constexpr ::System::IO::TextWriter*& __cordl_internal_get__out();
 
-constexpr void __cordl_internal_set__out(::System::IO::TextWriter*  value) ;
+  constexpr void __cordl_internal_set__out(::System::IO::TextWriter* value);
 
-/// @brief Method .ctor, addr 0x5a54738, size 0x88, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::TextWriter*  t) ;
+  /// @brief Method .ctor, addr 0x5ac6720, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::TextWriter* t);
 
-/// @brief Method get_Encoding, addr 0x5a54908, size 0x20, virtual true, abstract: false, final false
-inline ::System::Text::Encoding* get_Encoding() ;
+  /// @brief Method get_Encoding, addr 0x5ac68f0, size 0x20, virtual true, abstract: false, final false
+  inline ::System::Text::Encoding* get_Encoding();
 
-/// @brief Method get_FormatProvider, addr 0x5a54928, size 0x1c, virtual true, abstract: false, final false
-inline ::System::IFormatProvider* get_FormatProvider() ;
+  /// @brief Method get_FormatProvider, addr 0x5ac6910, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::IFormatProvider* get_FormatProvider();
 
-/// @brief Method get_NewLine, addr 0x5a54944, size 0x20, virtual true, abstract: false, final false
-inline ::StringW get_NewLine() ;
+  /// @brief Method get_NewLine, addr 0x5ac692c, size 0x20, virtual true, abstract: false, final false
+  inline ::StringW get_NewLine();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-/// @brief Method set_NewLine, addr 0x5a54964, size 0x20, virtual true, abstract: false, final false
-inline void set_NewLine(::StringW  value) ;
+  /// @brief Method set_NewLine, addr 0x5ac694c, size 0x20, virtual true, abstract: false, final false
+  inline void set_NewLine(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TextWriter_SyncTextWriter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextWriter_SyncTextWriter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TextWriter_SyncTextWriter(TextWriter_SyncTextWriter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TextWriter_SyncTextWriter(TextWriter_SyncTextWriter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TextWriter_SyncTextWriter(TextWriter_SyncTextWriter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TextWriter_SyncTextWriter(TextWriter_SyncTextWriter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3869 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3869};
+  /// @brief Field _out, offset: 0x30, size: 0x8, def value: None
+  ::System::IO::TextWriter* ____out;
 
-/// @brief Field _out, offset: 0x30, size: 0x8, def value: None
- ::System::IO::TextWriter*  ____out;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TextWriter_SyncTextWriter, ____out) == 0x30, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextWriter_SyncTextWriter, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextWriter_SyncTextWriter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextWriter_SyncTextWriter*, "System.IO", "TextWriter/SyncTextWriter");

@@ -21,35 +21,35 @@ namespace UnityEngine {
 // CS Name: UnityEngine.HashUnsafeUtilities
 class CORDL_TYPE HashUnsafeUtilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ComputeHash128, addr 0x68fdca4, size 0x3c, virtual false, abstract: false, final false
-static inline void ComputeHash128(void*  data, uint64_t  dataSize, ::UnityEngine::Hash128*  hash) ;
+  // Declarations
+  /// @brief Method ComputeHash128, addr 0x696fec0, size 0x3c, virtual false, abstract: false, final false
+  static inline void ComputeHash128(void* data, uint64_t dataSize, ::UnityEngine::Hash128* hash);
 
-/// @brief Method ComputeHash128, addr 0x68fdce0, size 0x80, virtual false, abstract: false, final false
-static inline void ComputeHash128(void*  data, uint64_t  dataSize, uint64_t*  hash1, uint64_t*  hash2) ;
+  /// @brief Method ComputeHash128, addr 0x696fefc, size 0x80, virtual false, abstract: false, final false
+  static inline void ComputeHash128(void* data, uint64_t dataSize, uint64_t* hash1, uint64_t* hash2);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HashUnsafeUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HashUnsafeUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HashUnsafeUtilities(HashUnsafeUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HashUnsafeUtilities(HashUnsafeUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HashUnsafeUtilities(HashUnsafeUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashUnsafeUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HashUnsafeUtilities(HashUnsafeUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10225 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10219};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HashUnsafeUtilities, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::HashUnsafeUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HashUnsafeUtilities*, "UnityEngine", "HashUnsafeUtilities");

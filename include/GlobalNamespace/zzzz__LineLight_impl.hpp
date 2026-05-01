@@ -8,258 +8,197 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LineLight.get_p0
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::get_p0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x56bcf70;
+  constexpr static std::size_t addrs = 0x572ae5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_p0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_p0",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LineLight.get_p1
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::get_p1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x56bcf7c;
+  constexpr static std::size_t addrs = 0x572ae68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_p1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_p1",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LineLight.get_color
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x56bcf88;
+  constexpr static std::size_t addrs = 0x572ae74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_color",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LineLight.get_lineLights
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* (*)()>(&::GlobalNamespace::LineLight::get_lineLights)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* (*)()>(
+    &::GlobalNamespace::LineLight::get_lineLights)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x56bcf94;
+  constexpr static std::size_t addrs = 0x572ae80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_lineLights",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_lineLights",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LineLight.OnEnable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::OnEnable)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x56bcff0;
+  constexpr static std::size_t addrs = 0x572aedc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "OnEnable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LineLight.OnDisable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::OnDisable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x56bd0c4;
+  constexpr static std::size_t addrs = 0x572afb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "OnDisable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LineLight.OnDrawGizmos
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::OnDrawGizmos)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x56bd14c;
+  constexpr static std::size_t addrs = 0x572b038;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "OnDrawGizmos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "OnDrawGizmos",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LineLight._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x56bd1d4;
+  constexpr static std::size_t addrs = 0x572b0c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& GlobalNamespace::LineLight::__cordl_internal_get__p0()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____p0;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::LineLight::__cordl_internal_get__p0() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____p0;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LineLight::__cordl_internal_get__p0() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____p0;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____p0;
 }
-constexpr void GlobalNamespace::LineLight::__cordl_internal_set__p0(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____p0 = value;
+constexpr void GlobalNamespace::LineLight::__cordl_internal_set__p0(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____p0 = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::LineLight::__cordl_internal_get__p1()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____p1;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::LineLight::__cordl_internal_get__p1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____p1;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LineLight::__cordl_internal_get__p1() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____p1;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____p1;
 }
-constexpr void GlobalNamespace::LineLight::__cordl_internal_set__p1(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____p1 = value;
+constexpr void GlobalNamespace::LineLight::__cordl_internal_set__p1(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____p1 = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::LineLight::__cordl_internal_get__color()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____color;
+constexpr ::UnityEngine::Color& GlobalNamespace::LineLight::__cordl_internal_get__color() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::LineLight::__cordl_internal_get__color() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____color;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____color;
 }
-constexpr void GlobalNamespace::LineLight::__cordl_internal_set__color(::UnityEngine::Color  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____color = value;
+constexpr void GlobalNamespace::LineLight::__cordl_internal_set__color(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____color = value;
 }
-inline void GlobalNamespace::LineLight::setStaticF__lineLights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, "_lineLights", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*>(value));
+inline void GlobalNamespace::LineLight::setStaticF__lineLights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, "_lineLights",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get>(
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* GlobalNamespace::LineLight::getStaticF__lineLights()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, "_lineLights", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get>();
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* GlobalNamespace::LineLight::getStaticF__lineLights() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, "_lineLights",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get>();
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::LineLight::get_p0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_p0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+inline ::UnityEngine::Vector3 GlobalNamespace::LineLight::get_p0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_p0",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::LineLight::get_p1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_p1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+inline ::UnityEngine::Vector3 GlobalNamespace::LineLight::get_p1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_p1",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Color GlobalNamespace::LineLight::get_color()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+inline ::UnityEngine::Color GlobalNamespace::LineLight::get_color() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_color",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* GlobalNamespace::LineLight::get_lineLights()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "get_lineLights",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, false>(nullptr, ___internal_method);
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* GlobalNamespace::LineLight::get_lineLights() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_lineLights",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, false>(nullptr, ___internal_method);
 }
-inline void GlobalNamespace::LineLight::OnEnable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LineLight::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "OnEnable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LineLight::OnDisable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LineLight::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "OnDisable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LineLight::OnDrawGizmos()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        "OnDrawGizmos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LineLight::OnDrawGizmos() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "OnDrawGizmos",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LineLight::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LineLight::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LineLight* GlobalNamespace::LineLight::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LineLight*>());
+inline ::GlobalNamespace::LineLight* GlobalNamespace::LineLight::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LineLight*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LineLight::LineLight()   {
-}
+constexpr ::GlobalNamespace::LineLight::LineLight() {}

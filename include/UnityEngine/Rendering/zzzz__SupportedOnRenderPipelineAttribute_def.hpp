@@ -10,12 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SupportedOnRenderPipelineAttribute)
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template<typename T>
-class Lazy_1;
+template <typename T> class Lazy_1;
 }
 namespace System {
 class Type;
@@ -40,199 +38,203 @@ class SupportedOnRenderPipelineAttribute___c;
 MARK_VAL_T(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode);
 MARK_REF_PTR_T(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute);
 MARK_REF_PTR_T(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.SupportedOnRenderPipelineAttribute/SupportedMode
 struct CORDL_TYPE SupportedOnRenderPipelineAttribute_SupportedMode {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped
-enum struct __SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped : int32_t {
-__E_Unsupported = static_cast<int32_t>(0x0),
-__E_Supported = static_cast<int32_t>(0x1),
-__E_SupportedByBaseClass = static_cast<int32_t>(0x2),
-};
+  /// @brief Nested struct __SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped
+  enum struct __SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped : int32_t {
+    __E_Unsupported = static_cast<int32_t>(0x0),
+    __E_Supported = static_cast<int32_t>(0x1),
+    __E_SupportedByBaseClass = static_cast<int32_t>(0x2),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped () const noexcept {
-return static_cast<__SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped() const noexcept {
+    return static_cast<__SupportedOnRenderPipelineAttribute_SupportedMode_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr SupportedOnRenderPipelineAttribute_SupportedMode() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SupportedOnRenderPipelineAttribute_SupportedMode();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr SupportedOnRenderPipelineAttribute_SupportedMode(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SupportedOnRenderPipelineAttribute_SupportedMode(int32_t value__) noexcept;
 
-/// @brief Field Supported value: I32(1)
-static ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode const Supported;
+  /// @brief Field Supported value: I32(1)
+  static ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode const Supported;
 
-/// @brief Field SupportedByBaseClass value: I32(2)
-static ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode const SupportedByBaseClass;
+  /// @brief Field SupportedByBaseClass value: I32(2)
+  static ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode const SupportedByBaseClass;
 
-/// @brief Field Unsupported value: I32(0)
-static ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode const Unsupported;
+  /// @brief Field Unsupported value: I32(0)
+  static ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode const Unsupported;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10762};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10769 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.SupportedOnRenderPipelineAttribute/<>c
 class CORDL_TYPE SupportedOnRenderPipelineAttribute___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* __9;
 
-/// @brief Field <>9__6_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__6_0, put=setStaticF___9__6_0)) ::System::Func_2<::System::Type*,::StringW>*  __9__6_0;
+  /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<::System::Type*, ::StringW>* __9__6_0;
 
-static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* New_ctor() ;
+  static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* New_ctor();
 
-/// @brief Method <.cctor>b__12_0, addr 0x6952194, size 0xd4, virtual false, abstract: false, final false
-inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> __cctor_b__12_0() ;
+  /// @brief Method <.cctor>b__12_0, addr 0x69c43dc, size 0xd4, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> __cctor_b__12_0();
 
-/// @brief Method <.ctor>b__6_0, addr 0x6952174, size 0x20, virtual false, abstract: false, final false
-inline ::StringW __ctor_b__6_0(::System::Type*  t) ;
+  /// @brief Method <.ctor>b__6_0, addr 0x69c43bc, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW __ctor_b__6_0(::System::Type* t);
 
-/// @brief Method .ctor, addr 0x6952170, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69c43b8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* getStaticF___9() ;
+  static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* getStaticF___9();
 
-static inline ::System::Func_2<::System::Type*,::StringW>* getStaticF___9__6_0() ;
+  static inline ::System::Func_2<::System::Type*, ::StringW>* getStaticF___9__6_0();
 
-static inline void setStaticF___9(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* value);
 
-static inline void setStaticF___9__6_0(::System::Func_2<::System::Type*,::StringW>*  value) ;
+  static inline void setStaticF___9__6_0(::System::Func_2<::System::Type*, ::StringW>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SupportedOnRenderPipelineAttribute___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SupportedOnRenderPipelineAttribute___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10770 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10763};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 // Dependencies System.Attribute
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.SupportedOnRenderPipelineAttribute
 class CORDL_TYPE SupportedOnRenderPipelineAttribute : public ::System::Attribute {
 public:
-// Declarations
-using SupportedMode = ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode;
+  // Declarations
+  using SupportedMode = ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode;
 
-using __c = ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c;
+  using __c = ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c;
 
-/// @brief Field <renderPipelineTypes>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__renderPipelineTypes_k__BackingField, put=__cordl_internal_set__renderPipelineTypes_k__BackingField)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  _renderPipelineTypes_k__BackingField;
+  /// @brief Field <renderPipelineTypes>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderPipelineTypes_k__BackingField,
+                      put = __cordl_internal_set__renderPipelineTypes_k__BackingField)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*>
+      _renderPipelineTypes_k__BackingField;
 
-/// @brief Field k_DefaultRenderPipelineAsset, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_k_DefaultRenderPipelineAsset, put=setStaticF_k_DefaultRenderPipelineAsset)) ::System::Lazy_1<::ArrayW<::System::Type*,::Array<::System::Type*>*>>*  k_DefaultRenderPipelineAsset;
+  /// @brief Field k_DefaultRenderPipelineAsset, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_DefaultRenderPipelineAsset,
+                      put = setStaticF_k_DefaultRenderPipelineAsset)) ::System::Lazy_1<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* k_DefaultRenderPipelineAsset;
 
- __declspec(property(get=get_renderPipelineTypes)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  renderPipelineTypes;
+  __declspec(property(get = get_renderPipelineTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> renderPipelineTypes;
 
-/// @brief Method GetSupportedMode, addr 0x6951dc8, size 0x6c, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::System::Type*  renderPipelineAssetType) ;
+  /// @brief Method GetSupportedMode, addr 0x69c4010, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::System::Type* renderPipelineAssetType);
 
-/// @brief Method GetSupportedMode, addr 0x6951e34, size 0x148, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::ArrayW<::System::Type*,::Array<::System::Type*>*>  renderPipelineTypes, ::System::Type*  renderPipelineAssetType) ;
+  /// @brief Method GetSupportedMode, addr 0x69c407c, size 0x148, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::ArrayW<::System::Type*, ::Array<::System::Type*>*> renderPipelineTypes,
+                                                                                                            ::System::Type* renderPipelineAssetType);
 
-/// @brief Method IsTypeSupportedOnRenderPipeline, addr 0x6951f7c, size 0x78, virtual false, abstract: false, final false
-static inline bool IsTypeSupportedOnRenderPipeline(::System::Type*  type, ::System::Type*  renderPipelineAssetType) ;
+  /// @brief Method IsTypeSupportedOnRenderPipeline, addr 0x69c41c4, size 0x78, virtual false, abstract: false, final false
+  static inline bool IsTypeSupportedOnRenderPipeline(::System::Type* type, ::System::Type* renderPipelineAssetType);
 
-static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(::ArrayW<::System::Type*,::Array<::System::Type*>*>  renderPipeline) ;
+  static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> renderPipeline);
 
-static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(::System::Type*  renderPipeline) ;
+  static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(::System::Type* renderPipeline);
 
-constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*> const& __cordl_internal_get__renderPipelineTypes_k__BackingField() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__renderPipelineTypes_k__BackingField() const;
 
-constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*>& __cordl_internal_get__renderPipelineTypes_k__BackingField() ;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__renderPipelineTypes_k__BackingField();
 
-constexpr void __cordl_internal_set__renderPipelineTypes_k__BackingField(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value) ;
+  constexpr void __cordl_internal_set__renderPipelineTypes_k__BackingField(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-/// @brief Method .ctor, addr 0x6951abc, size 0x30c, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<::System::Type*,::Array<::System::Type*>*>  renderPipeline) ;
+  /// @brief Method .ctor, addr 0x69c3d04, size 0x30c, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> renderPipeline);
 
-/// @brief Method .ctor, addr 0x6951a18, size 0xa4, virtual false, abstract: false, final false
-inline void _ctor(::System::Type*  renderPipeline) ;
+  /// @brief Method .ctor, addr 0x69c3c60, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Type* renderPipeline);
 
-static inline ::System::Lazy_1<::ArrayW<::System::Type*,::Array<::System::Type*>*>>* getStaticF_k_DefaultRenderPipelineAsset() ;
+  static inline ::System::Lazy_1<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* getStaticF_k_DefaultRenderPipelineAsset();
 
-/// @brief Method get_renderPipelineTypes, addr 0x6951a10, size 0x8, virtual false, abstract: false, final false
-inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> get_renderPipelineTypes() ;
+  /// @brief Method get_renderPipelineTypes, addr 0x69c3c58, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_renderPipelineTypes();
 
-static inline void setStaticF_k_DefaultRenderPipelineAsset(::System::Lazy_1<::ArrayW<::System::Type*,::Array<::System::Type*>*>>*  value) ;
+  static inline void setStaticF_k_DefaultRenderPipelineAsset(::System::Lazy_1<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SupportedOnRenderPipelineAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SupportedOnRenderPipelineAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10771 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10764};
+  /// @brief Field <renderPipelineTypes>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ____renderPipelineTypes_k__BackingField;
 
-/// @brief Field <renderPipelineTypes>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<::System::Type*,::Array<::System::Type*>*>  ____renderPipelineTypes_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute, ____renderPipelineTypes_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode, "UnityEngine.Rendering", "SupportedOnRenderPipelineAttribute/SupportedMode");
 NEED_NO_BOX(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute*, "UnityEngine.Rendering", "SupportedOnRenderPipelineAttribute");

@@ -21,41 +21,41 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.SpaceFillingCurves
 class CORDL_TYPE SpaceFillingCurves : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Compact1By1, addr 0x6706648, size 0x28, virtual false, abstract: false, final false
-static inline uint32_t Compact1By1(uint32_t  x) ;
+  // Declarations
+  /// @brief Method Compact1By1, addr 0x6778654, size 0x28, virtual false, abstract: false, final false
+  static inline uint32_t Compact1By1(uint32_t x);
 
-/// @brief Method DecodeMorton2D, addr 0x67066e4, size 0x58, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::uint2 DecodeMorton2D(uint32_t  code) ;
+  /// @brief Method DecodeMorton2D, addr 0x67786f0, size 0x58, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::uint2 DecodeMorton2D(uint32_t code);
 
-/// @brief Method EncodeMorton2D, addr 0x6706670, size 0x74, virtual false, abstract: false, final false
-static inline uint32_t EncodeMorton2D(::Unity::Mathematics::uint2  coord) ;
+  /// @brief Method EncodeMorton2D, addr 0x677867c, size 0x74, virtual false, abstract: false, final false
+  static inline uint32_t EncodeMorton2D(::Unity::Mathematics::uint2 coord);
 
-/// @brief Method Part1By1, addr 0x6706624, size 0x24, virtual false, abstract: false, final false
-static inline uint32_t Part1By1(uint32_t  x) ;
+  /// @brief Method Part1By1, addr 0x6778630, size 0x24, virtual false, abstract: false, final false
+  static inline uint32_t Part1By1(uint32_t x);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SpaceFillingCurves() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpaceFillingCurves();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceFillingCurves", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SpaceFillingCurves(SpaceFillingCurves&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SpaceFillingCurves", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SpaceFillingCurves(SpaceFillingCurves && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceFillingCurves", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SpaceFillingCurves(SpaceFillingCurves const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SpaceFillingCurves", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SpaceFillingCurves(SpaceFillingCurves const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12948 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12941};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::SpaceFillingCurves, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::SpaceFillingCurves);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::SpaceFillingCurves*, "UnityEngine.Rendering.Universal", "SpaceFillingCurves");

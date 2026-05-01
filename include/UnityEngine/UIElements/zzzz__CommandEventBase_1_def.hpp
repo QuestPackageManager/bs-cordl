@@ -14,79 +14,78 @@ class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template<typename T>
-class CommandEventBase_1;
+template <typename T> class CommandEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::CommandEventBase_1);
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
-template<typename T>
+template <typename T>
 // Is value type: false
 // CS Name: UnityEngine.UIElements.CommandEventBase`1<T>
 class CORDL_TYPE CommandEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
-// Declarations
- __declspec(property(get=get_commandName, put=set_commandName)) ::StringW  commandName;
+  // Declarations
+  __declspec(property(get = get_commandName, put = set_commandName)) ::StringW commandName;
 
-/// @brief Field m_CommandName, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_CommandName, put=__cordl_internal_set_m_CommandName)) ::StringW  m_CommandName;
+  /// @brief Field m_CommandName, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CommandName, put = __cordl_internal_set_m_CommandName)) ::StringW m_CommandName;
 
-/// @brief Method Dispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel*  panel) ;
+  /// @brief Method Dispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-/// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-static inline T GetPooled(::StringW  commandName) ;
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline T GetPooled(::StringW commandName);
 
-/// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-static inline T GetPooled(::UnityEngine::Event*  systemEvent) ;
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline T GetPooled(::UnityEngine::Event* systemEvent);
 
-/// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void Init() ;
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Init();
 
-/// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void LocalInit() ;
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void LocalInit();
 
-static inline ::UnityEngine::UIElements::CommandEventBase_1<T>* New_ctor() ;
+  static inline ::UnityEngine::UIElements::CommandEventBase_1<T>* New_ctor();
 
-constexpr ::StringW const& __cordl_internal_get_m_CommandName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CommandName() const;
 
-constexpr ::StringW& __cordl_internal_get_m_CommandName() ;
+  constexpr ::StringW& __cordl_internal_get_m_CommandName();
 
-constexpr void __cordl_internal_set_m_CommandName(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_CommandName(::StringW value);
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_commandName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline ::StringW get_commandName() ;
+  /// @brief Method get_commandName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::StringW get_commandName();
 
-/// @brief Method set_commandName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void set_commandName(::StringW  value) ;
+  /// @brief Method set_commandName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_commandName(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CommandEventBase_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandEventBase_1();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CommandEventBase_1(CommandEventBase_1&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CommandEventBase_1(CommandEventBase_1 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CommandEventBase_1(CommandEventBase_1 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CommandEventBase_1(CommandEventBase_1 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4440};
+  /// @brief Field m_CommandName, offset: 0x68, size: 0x8, def value: None
+  ::StringW ___m_CommandName;
 
-/// @brief Field m_CommandName, offset: 0x68, size: 0x8, def value: None
- ::StringW  ___m_CommandName;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::CommandEventBase_1, "UnityEngine.UIElements", "CommandEventBase`1");

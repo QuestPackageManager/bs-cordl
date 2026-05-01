@@ -24,67 +24,67 @@ namespace GlobalNamespace {
 // CS Name: PathsHolder
 class CORDL_TYPE PathsHolder : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _bezierPath, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__bezierPath, put=__cordl_internal_set__bezierPath)) ::GlobalNamespace::BezierPath*  _bezierPath;
+  // Declarations
+  /// @brief Field _bezierPath, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__bezierPath, put = __cordl_internal_set__bezierPath)) ::GlobalNamespace::BezierPath* _bezierPath;
 
-/// @brief Field _vertexPath, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__vertexPath, put=__cordl_internal_set__vertexPath)) ::GlobalNamespace::VertexPath*  _vertexPath;
+  /// @brief Field _vertexPath, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__vertexPath, put = __cordl_internal_set__vertexPath)) ::GlobalNamespace::VertexPath* _vertexPath;
 
- __declspec(property(get=get_bezierPath)) ::GlobalNamespace::BezierPath*  bezierPath;
+  __declspec(property(get = get_bezierPath)) ::GlobalNamespace::BezierPath* bezierPath;
 
- __declspec(property(get=get_vertexPath)) ::GlobalNamespace::VertexPath*  vertexPath;
+  __declspec(property(get = get_vertexPath)) ::GlobalNamespace::VertexPath* vertexPath;
 
-static inline ::GlobalNamespace::PathsHolder* New_ctor(int32_t  numberOfFixedVertexPathSegments, bool  updateVertexPath) ;
+  static inline ::GlobalNamespace::PathsHolder* New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-/// @brief Method UpdateVertexPathByBezierPath, addr 0x5771110, size 0x1c, virtual false, abstract: false, final false
-inline void UpdateVertexPathByBezierPath() ;
+  /// @brief Method UpdateVertexPathByBezierPath, addr 0x57e11b0, size 0x1c, virtual false, abstract: false, final false
+  inline void UpdateVertexPathByBezierPath();
 
-constexpr ::GlobalNamespace::BezierPath* const& __cordl_internal_get__bezierPath() const;
+  constexpr ::GlobalNamespace::BezierPath* const& __cordl_internal_get__bezierPath() const;
 
-constexpr ::GlobalNamespace::BezierPath*& __cordl_internal_get__bezierPath() ;
+  constexpr ::GlobalNamespace::BezierPath*& __cordl_internal_get__bezierPath();
 
-constexpr ::GlobalNamespace::VertexPath* const& __cordl_internal_get__vertexPath() const;
+  constexpr ::GlobalNamespace::VertexPath* const& __cordl_internal_get__vertexPath() const;
 
-constexpr ::GlobalNamespace::VertexPath*& __cordl_internal_get__vertexPath() ;
+  constexpr ::GlobalNamespace::VertexPath*& __cordl_internal_get__vertexPath();
 
-constexpr void __cordl_internal_set__bezierPath(::GlobalNamespace::BezierPath*  value) ;
+  constexpr void __cordl_internal_set__bezierPath(::GlobalNamespace::BezierPath* value);
 
-constexpr void __cordl_internal_set__vertexPath(::GlobalNamespace::VertexPath*  value) ;
+  constexpr void __cordl_internal_set__vertexPath(::GlobalNamespace::VertexPath* value);
 
-/// @brief Method .ctor, addr 0x5770a84, size 0x124, virtual false, abstract: false, final false
-inline void _ctor(int32_t  numberOfFixedVertexPathSegments, bool  updateVertexPath) ;
+  /// @brief Method .ctor, addr 0x57e0b30, size 0x120, virtual false, abstract: false, final false
+  inline void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-/// @brief Method get_bezierPath, addr 0x5770a74, size 0x8, virtual false, abstract: false, final false
-inline ::GlobalNamespace::BezierPath* get_bezierPath() ;
+  /// @brief Method get_bezierPath, addr 0x57e0b20, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BezierPath* get_bezierPath();
 
-/// @brief Method get_vertexPath, addr 0x5770a7c, size 0x8, virtual false, abstract: false, final false
-inline ::GlobalNamespace::VertexPath* get_vertexPath() ;
+  /// @brief Method get_vertexPath, addr 0x57e0b28, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::VertexPath* get_vertexPath();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PathsHolder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PathsHolder();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PathsHolder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PathsHolder(PathsHolder&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PathsHolder", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PathsHolder(PathsHolder && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PathsHolder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PathsHolder(PathsHolder const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PathsHolder", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PathsHolder(PathsHolder const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6764 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6755};
+  /// @brief Field _bezierPath, offset: 0x10, size: 0x8, def value: None
+  ::GlobalNamespace::BezierPath* ____bezierPath;
 
-/// @brief Field _bezierPath, offset: 0x10, size: 0x8, def value: None
- ::GlobalNamespace::BezierPath*  ____bezierPath;
+  /// @brief Field _vertexPath, offset: 0x18, size: 0x8, def value: None
+  ::GlobalNamespace::VertexPath* ____vertexPath;
 
-/// @brief Field _vertexPath, offset: 0x18, size: 0x8, def value: None
- ::GlobalNamespace::VertexPath*  ____vertexPath;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PathsHolder, ____bezierPath) == 0x10, "Offset mismatch!");
@@ -93,6 +93,6 @@ static_assert(offsetof(::GlobalNamespace::PathsHolder, ____vertexPath) == 0x18, 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PathsHolder, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PathsHolder);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PathsHolder*, "", "PathsHolder");

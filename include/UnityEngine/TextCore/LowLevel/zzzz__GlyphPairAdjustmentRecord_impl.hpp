@@ -8,225 +8,198 @@
 #include "UnityEngine/TextCore/LowLevel/zzzz__FontFeatureLookupFlags_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord.get_firstAdjustmentRecord
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (
+    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f57b8;
+  constexpr static std::size_t addrs = 0x6a67a00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "get_firstAdjustmentRecord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
+                                                 "get_firstAdjustmentRecord", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord.set_firstAdjustmentRecord
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(
+    ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f57cc;
+  constexpr static std::size_t addrs = 0x6a67a14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "set_firstAdjustmentRecord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), "set_firstAdjustmentRecord",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord.get_secondAdjustmentRecord
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (
+    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f57e0;
+  constexpr static std::size_t addrs = 0x6a67a28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "get_secondAdjustmentRecord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
+                                                 "get_secondAdjustmentRecord", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord.get_featureLookupFlags
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags (
+    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f57f4;
+  constexpr static std::size_t addrs = 0x6a67a3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "get_featureLookupFlags",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), "get_featureLookupFlags",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(
+    ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x69f57fc;
+  constexpr static std::size_t addrs = 0x6a67a44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GetHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(
+    &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69f5820;
+  constexpr static std::size_t addrs = 0x6a67a68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), 2));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::System::Object*)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::System::Object*)>(
+    &::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69f588c;
+  constexpr static std::size_t addrs = 0x6a67ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), 0));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)(
+    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69f5904;
+  constexpr static std::size_t addrs = 0x6a67b4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "get_firstAdjustmentRecord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, false>(this, ___internal_method);
+inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), "get_firstAdjustmentRecord",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, false>(this, ___internal_method);
 }
-inline void UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::set_firstAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "set_firstAdjustmentRecord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::set_firstAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), "set_firstAdjustmentRecord",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_secondAdjustmentRecord()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "get_secondAdjustmentRecord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, false>(this, ___internal_method);
+inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_secondAdjustmentRecord() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
+                                               "get_secondAdjustmentRecord", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, false>(this, ___internal_method);
 }
-inline ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_featureLookupFlags()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "get_featureLookupFlags",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags, false>(this, ___internal_method);
+inline ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_featureLookupFlags() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), "get_featureLookupFlags",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags, false>(this, ___internal_method);
 }
-inline void UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::_ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord  firstAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord  secondAdjustmentRecord)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstAdjustmentRecord, secondAdjustmentRecord);
+inline void UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::_ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord firstAdjustmentRecord,
+                                                                              ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord secondAdjustmentRecord) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstAdjustmentRecord, secondAdjustmentRecord);
 }
-inline int32_t UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GetHashCode() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals(::System::Object*  obj)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals(::System::Object* obj) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-inline bool UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::Equals(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
-constexpr  UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*()  {
-return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
-constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphPairAdjustmentRecord_()  {
-return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*
+UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphPairAdjustmentRecord_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SecondAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FeatureLookupFlags", ty: "::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GlyphPairAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord  m_FirstAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord  m_SecondAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags  m_FeatureLookupFlags) noexcept  {
-this->m_FirstAdjustmentRecord = m_FirstAdjustmentRecord;
-this->m_SecondAdjustmentRecord = m_SecondAdjustmentRecord;
-this->m_FeatureLookupFlags = m_FeatureLookupFlags;
+// Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_SecondAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FeatureLookupFlags", ty:
+// "::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GlyphPairAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord,
+                                                                                                  ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord,
+                                                                                                  ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags) noexcept {
+  this->m_FirstAdjustmentRecord = m_FirstAdjustmentRecord;
+  this->m_SecondAdjustmentRecord = m_SecondAdjustmentRecord;
+  this->m_FeatureLookupFlags = m_FeatureLookupFlags;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GlyphPairAdjustmentRecord()   {
-}
+constexpr ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::GlyphPairAdjustmentRecord() {}

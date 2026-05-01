@@ -22,86 +22,86 @@ namespace Mono::Security::Protocol::Ntlm {
 // CS Name: Mono.Security.Protocol.Ntlm.MessageBase
 class CORDL_TYPE MessageBase : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Flags, put=set_Flags)) ::Mono::Security::Protocol::Ntlm::NtlmFlags  Flags;
+  // Declarations
+  __declspec(property(get = get_Flags, put = set_Flags)) ::Mono::Security::Protocol::Ntlm::NtlmFlags Flags;
 
- __declspec(property(get=get_Type)) int32_t  Type;
+  __declspec(property(get = get_Type)) int32_t Type;
 
-/// @brief Field _flags, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get__flags, put=__cordl_internal_set__flags)) ::Mono::Security::Protocol::Ntlm::NtlmFlags  _flags;
+  /// @brief Field _flags, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags)) ::Mono::Security::Protocol::Ntlm::NtlmFlags _flags;
 
-/// @brief Field _type, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get__type, put=__cordl_internal_set__type)) int32_t  _type;
+  /// @brief Field _type, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) int32_t _type;
 
-/// @brief Field header, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_header, put=setStaticF_header)) ::ArrayW<uint8_t,::Array<uint8_t>*>  header;
+  /// @brief Field header, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_header, put = setStaticF_header)) ::ArrayW<uint8_t, ::Array<uint8_t>*> header;
 
-/// @brief Method CheckHeader, addr 0x58edfac, size 0x114, virtual false, abstract: false, final false
-inline bool CheckHeader(::ArrayW<uint8_t,::Array<uint8_t>*>  message) ;
+  /// @brief Method CheckHeader, addr 0x595ff18, size 0x114, virtual false, abstract: false, final false
+  inline bool CheckHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-/// @brief Method Decode, addr 0x58ede24, size 0x188, virtual true, abstract: false, final false
-inline void Decode(::ArrayW<uint8_t,::Array<uint8_t>*>  message) ;
+  /// @brief Method Decode, addr 0x595fd90, size 0x188, virtual true, abstract: false, final false
+  inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-/// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetBytes() ;
+  /// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
-static inline ::Mono::Security::Protocol::Ntlm::MessageBase* New_ctor(int32_t  messageType) ;
+  static inline ::Mono::Security::Protocol::Ntlm::MessageBase* New_ctor(int32_t messageType);
 
-/// @brief Method PrepareMessage, addr 0x58edd1c, size 0x108, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> PrepareMessage(int32_t  messageSize) ;
+  /// @brief Method PrepareMessage, addr 0x595fc88, size 0x108, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMessage(int32_t messageSize);
 
-constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags const& __cordl_internal_get__flags() const;
+  constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags const& __cordl_internal_get__flags() const;
 
-constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags& __cordl_internal_get__flags() ;
+  constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags& __cordl_internal_get__flags();
 
-constexpr int32_t const& __cordl_internal_get__type() const;
+  constexpr int32_t const& __cordl_internal_get__type() const;
 
-constexpr int32_t& __cordl_internal_get__type() ;
+  constexpr int32_t& __cordl_internal_get__type();
 
-constexpr void __cordl_internal_set__flags(::Mono::Security::Protocol::Ntlm::NtlmFlags  value) ;
+  constexpr void __cordl_internal_set__flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
 
-constexpr void __cordl_internal_set__type(int32_t  value) ;
+  constexpr void __cordl_internal_set__type(int32_t value);
 
-/// @brief Method .ctor, addr 0x58edcfc, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  messageType) ;
+  /// @brief Method .ctor, addr 0x595fc68, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t messageType);
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_header() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_header();
 
-/// @brief Method get_Flags, addr 0x58edd04, size 0x8, virtual false, abstract: false, final false
-inline ::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags() ;
+  /// @brief Method get_Flags, addr 0x595fc70, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
 
-/// @brief Method get_Type, addr 0x58edd14, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_Type() ;
+  /// @brief Method get_Type, addr 0x595fc80, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Type();
 
-static inline void setStaticF_header(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_header(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method set_Flags, addr 0x58edd0c, size 0x8, virtual false, abstract: false, final false
-inline void set_Flags(::Mono::Security::Protocol::Ntlm::NtlmFlags  value) ;
+  /// @brief Method set_Flags, addr 0x595fc78, size 0x8, virtual false, abstract: false, final false
+  inline void set_Flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageBase() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageBase();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageBase(MessageBase&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageBase(MessageBase && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageBase(MessageBase const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageBase", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageBase(MessageBase const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19275 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19265};
+  /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
+  int32_t ____type;
 
-/// @brief Field _type, offset: 0x10, size: 0x4, def value: None
- int32_t  ____type;
+  /// @brief Field _flags, offset: 0x14, size: 0x4, def value: None
+  ::Mono::Security::Protocol::Ntlm::NtlmFlags ____flags;
 
-/// @brief Field _flags, offset: 0x14, size: 0x4, def value: None
- ::Mono::Security::Protocol::Ntlm::NtlmFlags  ____flags;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Security::Protocol::Ntlm::MessageBase, ____type) == 0x10, "Offset mismatch!");
@@ -110,6 +110,6 @@ static_assert(offsetof(::Mono::Security::Protocol::Ntlm::MessageBase, ____flags)
 
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::MessageBase, 0x18>, "Size mismatch!");
 
-} // namespace end def Mono::Security::Protocol::Ntlm
+} // namespace Mono::Security::Protocol::Ntlm
 NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::MessageBase);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::MessageBase*, "Mono.Security.Protocol.Ntlm", "MessageBase");

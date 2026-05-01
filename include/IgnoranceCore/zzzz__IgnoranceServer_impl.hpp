@@ -11,485 +11,445 @@
 #include "IgnoranceThirdparty/zzzz__RingBuffer_1_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "IsFruityDevice", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "BindAllInterfaces", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Peers", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "CertificatePath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Certificate", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "PrivateKeyPath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "PrivateKey", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
-constexpr ::IgnoranceCore::IgnoranceServer_ThreadParamInfo::IgnoranceServer_ThreadParamInfo(bool  IsFruityDevice, bool  BindAllInterfaces, int32_t  Channels, int32_t  Peers, int32_t  PollTime, int32_t  Port, int32_t  PacketSizeLimit, int32_t  Verbosity, ::StringW  Address, bool  UseSsl, ::StringW  CertificatePath, ::StringW  Certificate, ::StringW  PrivateKeyPath, ::StringW  PrivateKey) noexcept  {
-this->IsFruityDevice = IsFruityDevice;
-this->BindAllInterfaces = BindAllInterfaces;
-this->Channels = Channels;
-this->Peers = Peers;
-this->PollTime = PollTime;
-this->Port = Port;
-this->PacketSizeLimit = PacketSizeLimit;
-this->Verbosity = Verbosity;
-this->Address = Address;
-this->UseSsl = UseSsl;
-this->CertificatePath = CertificatePath;
-this->Certificate = Certificate;
-this->PrivateKeyPath = PrivateKeyPath;
-this->PrivateKey = PrivateKey;
+// Ctor Parameters [CppParam { name: "IsFruityDevice", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "BindAllInterfaces", ty: "bool", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Peers", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollTime", ty:
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "CertificatePath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "Certificate", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "PrivateKeyPath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "PrivateKey",
+// ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+constexpr ::IgnoranceCore::IgnoranceServer_ThreadParamInfo::IgnoranceServer_ThreadParamInfo(bool IsFruityDevice, bool BindAllInterfaces, int32_t Channels, int32_t Peers, int32_t PollTime,
+                                                                                            int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity, ::StringW Address, bool UseSsl,
+                                                                                            ::StringW CertificatePath, ::StringW Certificate, ::StringW PrivateKeyPath, ::StringW PrivateKey) noexcept {
+  this->IsFruityDevice = IsFruityDevice;
+  this->BindAllInterfaces = BindAllInterfaces;
+  this->Channels = Channels;
+  this->Peers = Peers;
+  this->PollTime = PollTime;
+  this->Port = Port;
+  this->PacketSizeLimit = PacketSizeLimit;
+  this->Verbosity = Verbosity;
+  this->Address = Address;
+  this->UseSsl = UseSsl;
+  this->CertificatePath = CertificatePath;
+  this->Certificate = Certificate;
+  this->PrivateKeyPath = PrivateKeyPath;
+  this->PrivateKey = PrivateKey;
 }
 // Ctor Parameters []
-constexpr ::IgnoranceCore::IgnoranceServer_ThreadParamInfo::IgnoranceServer_ThreadParamInfo()   {
-}
+constexpr ::IgnoranceCore::IgnoranceServer_ThreadParamInfo::IgnoranceServer_ThreadParamInfo() {}
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceServer.get_IsAlive
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::get_IsAlive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x56e29a0;
+  constexpr static std::size_t addrs = 0x575088c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "get_IsAlive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "get_IsAlive",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceServer.Start
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Start)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x56e29b4;
+  constexpr static std::size_t addrs = 0x57508a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Start",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceServer.Stop
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Stop)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x56e2ffc;
+  constexpr static std::size_t addrs = 0x5750ee8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "Stop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Stop",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceServer.ThreadWorker
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)(::System::Object*)>(&::IgnoranceCore::IgnoranceServer::ThreadWorker)> {
   constexpr static std::size_t size = 0x1494;
-  constexpr static std::size_t addrs = 0x56e30a0;
+  constexpr static std::size_t addrs = 0x5750f8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "ThreadWorker",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "ThreadWorker", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceServer.SetupRingBuffersIfNull
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::SetupRingBuffersIfNull)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x56e2da4;
+  constexpr static std::size_t addrs = 0x5750c90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "SetupRingBuffersIfNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
+                                                                               "SetupRingBuffersIfNull", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceServer._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x56e4534;
+  constexpr static std::size_t addrs = 0x5752420;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindAddress()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___BindAddress;
+constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindAddress() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___BindAddress;
 }
 constexpr ::StringW const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindAddress() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___BindAddress;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___BindAddress;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_BindAddress(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BindAddress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_BindAddress(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BindAddress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindPort()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___BindPort;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindPort() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___BindPort;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindPort() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___BindPort;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___BindPort;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_BindPort(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___BindPort = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_BindPort(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___BindPort = value;
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumChannels()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___MaximumChannels;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumChannels() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MaximumChannels;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumChannels() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___MaximumChannels;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MaximumChannels;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_MaximumChannels(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___MaximumChannels = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_MaximumChannels(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___MaximumChannels = value;
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumPeers()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___MaximumPeers;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumPeers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MaximumPeers;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumPeers() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___MaximumPeers;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MaximumPeers;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_MaximumPeers(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___MaximumPeers = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_MaximumPeers(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___MaximumPeers = value;
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumPacketSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___MaximumPacketSize;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumPacketSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MaximumPacketSize;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_MaximumPacketSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___MaximumPacketSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___MaximumPacketSize;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_MaximumPacketSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___MaximumPacketSize = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_MaximumPacketSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___MaximumPacketSize = value;
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PollTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___PollTime;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PollTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___PollTime;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PollTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___PollTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___PollTime;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_PollTime(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___PollTime = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_PollTime(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___PollTime = value;
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Verbosity()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Verbosity;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Verbosity() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Verbosity;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Verbosity() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Verbosity;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Verbosity;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Verbosity(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___Verbosity = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Verbosity(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___Verbosity = value;
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_IncomingOutgoingBufferSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___IncomingOutgoingBufferSize;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_IncomingOutgoingBufferSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___IncomingOutgoingBufferSize;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_IncomingOutgoingBufferSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___IncomingOutgoingBufferSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___IncomingOutgoingBufferSize;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_IncomingOutgoingBufferSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___IncomingOutgoingBufferSize = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_IncomingOutgoingBufferSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___IncomingOutgoingBufferSize = value;
 }
-constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_ConnectionEventBufferSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ConnectionEventBufferSize;
+constexpr int32_t& IgnoranceCore::IgnoranceServer::__cordl_internal_get_ConnectionEventBufferSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ConnectionEventBufferSize;
 }
 constexpr int32_t const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_ConnectionEventBufferSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ConnectionEventBufferSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ConnectionEventBufferSize;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_ConnectionEventBufferSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___ConnectionEventBufferSize = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_ConnectionEventBufferSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___ConnectionEventBufferSize = value;
 }
-constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_IsFruityDevice()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___IsFruityDevice;
+constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_IsFruityDevice() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___IsFruityDevice;
 }
 constexpr bool const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_IsFruityDevice() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___IsFruityDevice;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___IsFruityDevice;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_IsFruityDevice(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___IsFruityDevice = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_IsFruityDevice(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___IsFruityDevice = value;
 }
-constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindAllInterfaces()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___BindAllInterfaces;
+constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindAllInterfaces() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___BindAllInterfaces;
 }
 constexpr bool const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_BindAllInterfaces() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___BindAllInterfaces;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___BindAllInterfaces;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_BindAllInterfaces(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___BindAllInterfaces = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_BindAllInterfaces(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___BindAllInterfaces = value;
 }
-constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_UseSsl()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___UseSsl;
+constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_UseSsl() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___UseSsl;
 }
 constexpr bool const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_UseSsl() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___UseSsl;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___UseSsl;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_UseSsl(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___UseSsl = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_UseSsl(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___UseSsl = value;
 }
-constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_CertificatePath()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CertificatePath;
+constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_CertificatePath() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CertificatePath;
 }
 constexpr ::StringW const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_CertificatePath() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CertificatePath;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CertificatePath;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_CertificatePath(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CertificatePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_CertificatePath(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CertificatePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Certificate()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Certificate;
+constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Certificate() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Certificate;
 }
 constexpr ::StringW const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Certificate() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Certificate;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Certificate;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Certificate(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Certificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Certificate(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Certificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PrivateKeyPath()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___PrivateKeyPath;
+constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PrivateKeyPath() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___PrivateKeyPath;
 }
 constexpr ::StringW const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PrivateKeyPath() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___PrivateKeyPath;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___PrivateKeyPath;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_PrivateKeyPath(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PrivateKeyPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_PrivateKeyPath(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PrivateKeyPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PrivateKey()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___PrivateKey;
+constexpr ::StringW& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PrivateKey() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___PrivateKey;
 }
 constexpr ::StringW const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_PrivateKey() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___PrivateKey;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___PrivateKey;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_PrivateKey(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PrivateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_PrivateKey(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PrivateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_CeaseOperation()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CeaseOperation;
+constexpr bool& IgnoranceCore::IgnoranceServer::__cordl_internal_get_CeaseOperation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CeaseOperation;
 }
 constexpr bool const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_CeaseOperation() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CeaseOperation;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CeaseOperation;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_CeaseOperation(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___CeaseOperation = value;
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_CeaseOperation(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___CeaseOperation = value;
 }
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Incoming()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Incoming;
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Incoming() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Incoming;
 }
 constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Incoming() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Incoming;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Incoming;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Incoming(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Incoming)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Incoming(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Incoming)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Outgoing()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Outgoing;
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Outgoing() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Outgoing;
 }
 constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Outgoing() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Outgoing;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Outgoing;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Outgoing(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Outgoing)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Outgoing(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Outgoing)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Commands()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Commands;
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Commands() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Commands;
 }
 constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_Commands() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Commands;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Commands;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Commands(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Commands)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_Commands(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Commands)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_ConnectionEvents()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ConnectionEvents;
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_ConnectionEvents() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ConnectionEvents;
 }
 constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_ConnectionEvents() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ConnectionEvents;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ConnectionEvents;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_ConnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ConnectionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_ConnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ConnectionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_DisconnectionEvents()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___DisconnectionEvents;
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_DisconnectionEvents() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___DisconnectionEvents;
 }
 constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_DisconnectionEvents() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___DisconnectionEvents;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___DisconnectionEvents;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_DisconnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DisconnectionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_DisconnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DisconnectionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_StatusUpdates()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___StatusUpdates;
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_StatusUpdates() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___StatusUpdates;
 }
 constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_StatusUpdates() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___StatusUpdates;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___StatusUpdates;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_StatusUpdates(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___StatusUpdates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_StatusUpdates(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___StatusUpdates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_RecycledServerStatBlocks()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___RecycledServerStatBlocks;
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_RecycledServerStatBlocks() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RecycledServerStatBlocks;
 }
 constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_RecycledServerStatBlocks() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___RecycledServerStatBlocks;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RecycledServerStatBlocks;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_RecycledServerStatBlocks(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RecycledServerStatBlocks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_RecycledServerStatBlocks(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RecycledServerStatBlocks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::Thread*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_WorkerThread()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___WorkerThread;
+constexpr ::System::Threading::Thread*& IgnoranceCore::IgnoranceServer::__cordl_internal_get_WorkerThread() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___WorkerThread;
 }
 constexpr ::System::Threading::Thread* const& IgnoranceCore::IgnoranceServer::__cordl_internal_get_WorkerThread() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___WorkerThread;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___WorkerThread;
 }
-constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_WorkerThread(::System::Threading::Thread*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___WorkerThread)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void IgnoranceCore::IgnoranceServer::__cordl_internal_set_WorkerThread(::System::Threading::Thread* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___WorkerThread)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline bool IgnoranceCore::IgnoranceServer::get_IsAlive()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "get_IsAlive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool IgnoranceCore::IgnoranceServer::get_IsAlive() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "get_IsAlive",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void IgnoranceCore::IgnoranceServer::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void IgnoranceCore::IgnoranceServer::Start() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Start",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void IgnoranceCore::IgnoranceServer::Stop()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "Stop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void IgnoranceCore::IgnoranceServer::Stop() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Stop",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void IgnoranceCore::IgnoranceServer::ThreadWorker(::System::Object*  parameters)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "ThreadWorker",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parameters);
+inline void IgnoranceCore::IgnoranceServer::ThreadWorker(::System::Object* parameters) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "ThreadWorker", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parameters);
 }
-inline void IgnoranceCore::IgnoranceServer::SetupRingBuffersIfNull()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        "SetupRingBuffersIfNull",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void IgnoranceCore::IgnoranceServer::SetupRingBuffersIfNull() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "SetupRingBuffersIfNull",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void IgnoranceCore::IgnoranceServer::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void IgnoranceCore::IgnoranceServer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::IgnoranceCore::IgnoranceServer* IgnoranceCore::IgnoranceServer::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::IgnoranceCore::IgnoranceServer*>());
+inline ::IgnoranceCore::IgnoranceServer* IgnoranceCore::IgnoranceServer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::IgnoranceCore::IgnoranceServer*>());
 }
 // Ctor Parameters []
-constexpr ::IgnoranceCore::IgnoranceServer::IgnoranceServer()   {
-}
+constexpr ::IgnoranceCore::IgnoranceServer::IgnoranceServer() {}

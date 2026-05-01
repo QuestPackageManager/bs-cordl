@@ -24,49 +24,50 @@ MARK_REF_PTR_T(::System::Xml::DoubleArrayHelperWithString);
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.DoubleArrayHelperWithString
-class CORDL_TYPE DoubleArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW,double_t> {
+class CORDL_TYPE DoubleArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW, double_t> {
 public:
-// Declarations
-/// @brief Field Instance, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::System::Xml::DoubleArrayHelperWithString*  Instance;
+  // Declarations
+  /// @brief Field Instance, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Xml::DoubleArrayHelperWithString* Instance;
 
-static inline ::System::Xml::DoubleArrayHelperWithString* New_ctor() ;
+  static inline ::System::Xml::DoubleArrayHelperWithString* New_ctor();
 
-/// @brief Method ReadArray, addr 0x5f4a7c4, size 0x38, virtual true, abstract: false, final false
-inline int32_t ReadArray(::System::Xml::XmlDictionaryReader*  reader, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<double_t,::Array<double_t>*>  array, int32_t  offset, int32_t  count) ;
+  /// @brief Method ReadArray, addr 0x5fbc7d0, size 0x38, virtual true, abstract: false, final false
+  inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<double_t, ::Array<double_t>*> array, int32_t offset, int32_t count);
 
-/// @brief Method WriteArray, addr 0x5f4a7fc, size 0x3c, virtual true, abstract: false, final false
-inline void WriteArray(::System::Xml::XmlDictionaryWriter*  writer, ::StringW  prefix, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<double_t,::Array<double_t>*>  array, int32_t  offset, int32_t  count) ;
+  /// @brief Method WriteArray, addr 0x5fbc808, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<double_t, ::Array<double_t>*> array, int32_t offset,
+                         int32_t count);
 
-/// @brief Method .ctor, addr 0x5f4a838, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5fbc844, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Xml::DoubleArrayHelperWithString* getStaticF_Instance() ;
+  static inline ::System::Xml::DoubleArrayHelperWithString* getStaticF_Instance();
 
-static inline void setStaticF_Instance(::System::Xml::DoubleArrayHelperWithString*  value) ;
+  static inline void setStaticF_Instance(::System::Xml::DoubleArrayHelperWithString* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DoubleArrayHelperWithString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DoubleArrayHelperWithString();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleArrayHelperWithString", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DoubleArrayHelperWithString(DoubleArrayHelperWithString&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleArrayHelperWithString", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DoubleArrayHelperWithString(DoubleArrayHelperWithString && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleArrayHelperWithString", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DoubleArrayHelperWithString(DoubleArrayHelperWithString const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleArrayHelperWithString", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DoubleArrayHelperWithString(DoubleArrayHelperWithString const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16901 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16893};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::DoubleArrayHelperWithString, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::DoubleArrayHelperWithString);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::DoubleArrayHelperWithString*, "System.Xml", "DoubleArrayHelperWithString");

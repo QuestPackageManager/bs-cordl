@@ -28,44 +28,44 @@ namespace System::Threading::Tasks {
 // CS Name: System.Threading.Tasks.AsyncCausalityTracer
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
-// Declarations
-/// @brief Method TraceOperationCompletion, addr 0x5b18cb8, size 0x4, virtual false, abstract: false, final false
-static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel  traceLevel, int32_t  taskId, ::System::Threading::Tasks::AsyncCausalityStatus  status) ;
+  // Declarations
+  /// @brief Method TraceOperationCompletion, addr 0x5b8aca0, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
-/// @brief Method TraceOperationCreation, addr 0x5b18cb4, size 0x4, virtual false, abstract: false, final false
-static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel  traceLevel, int32_t  taskId, ::StringW  operationName, uint64_t  relatedContext) ;
+  /// @brief Method TraceOperationCreation, addr 0x5b8ac9c, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-/// @brief Method TraceSynchronousWorkCompletion, addr 0x5b1557c, size 0x4, virtual false, abstract: false, final false
-static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel  traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork  work) ;
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x5b87564, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-/// @brief Method TraceSynchronousWorkStart, addr 0x5b18cbc, size 0x4, virtual false, abstract: false, final false
-static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel  traceLevel, int32_t  taskId, ::System::Threading::Tasks::CausalitySynchronousWork  work) ;
+  /// @brief Method TraceSynchronousWorkStart, addr 0x5b8aca4, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-/// @brief Method get_LoggingOn, addr 0x5b15574, size 0x8, virtual false, abstract: false, final false
-static inline bool get_LoggingOn() ;
+  /// @brief Method get_LoggingOn, addr 0x5b8755c, size 0x8, virtual false, abstract: false, final false
+  static inline bool get_LoggingOn();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AsyncCausalityTracer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncCausalityTracer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AsyncCausalityTracer(AsyncCausalityTracer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AsyncCausalityTracer(AsyncCausalityTracer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AsyncCausalityTracer(AsyncCausalityTracer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AsyncCausalityTracer(AsyncCausalityTracer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2836 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2836};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::AsyncCausalityTracer, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Threading::Tasks
+} // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::AsyncCausalityTracer);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::AsyncCausalityTracer*, "System.Threading.Tasks", "AsyncCausalityTracer");

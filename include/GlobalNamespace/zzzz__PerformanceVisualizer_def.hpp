@@ -20,37 +20,37 @@ namespace GlobalNamespace {
 // CS Name: PerformanceVisualizer
 class CORDL_TYPE PerformanceVisualizer : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Method Initialize, addr 0x57646b8, size 0xdc, virtual false, abstract: false, final false
-inline void Initialize(::UnityEngine::Camera*  mainCamera, bool  enableFPSModule, bool  enableMemoryModule) ;
+  // Declarations
+  /// @brief Method Initialize, addr 0x57d47c8, size 0xdc, virtual false, abstract: false, final false
+  inline void Initialize(::UnityEngine::Camera* mainCamera, bool enableFPSModule, bool enableMemoryModule);
 
-static inline ::GlobalNamespace::PerformanceVisualizer* New_ctor() ;
+  static inline ::GlobalNamespace::PerformanceVisualizer* New_ctor();
 
-/// @brief Method .ctor, addr 0x5764794, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57d48a4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PerformanceVisualizer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PerformanceVisualizer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceVisualizer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PerformanceVisualizer(PerformanceVisualizer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PerformanceVisualizer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PerformanceVisualizer(PerformanceVisualizer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceVisualizer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PerformanceVisualizer(PerformanceVisualizer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PerformanceVisualizer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PerformanceVisualizer(PerformanceVisualizer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6702};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceVisualizer, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceVisualizer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceVisualizer*, "", "PerformanceVisualizer");

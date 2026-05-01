@@ -17,47 +17,47 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.PanelTextSettings
 class CORDL_TYPE PanelTextSettings : public ::UnityEngine::TextCore::Text::TextSettings {
 public:
-// Declarations
-/// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_DefaultPanelTextSettings, put=setStaticF_s_DefaultPanelTextSettings)) ::UnityW<::UnityEngine::UIElements::PanelTextSettings>  s_DefaultPanelTextSettings;
+  // Declarations
+  /// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_DefaultPanelTextSettings, put = setStaticF_s_DefaultPanelTextSettings)) ::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
-/// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x6ad8b94, size 0xb4, virtual false, abstract: false, final false
-static inline void InitializeDefaultPanelTextSettingsIfNull() ;
+  /// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x6b4addc, size 0xb4, virtual false, abstract: false, final false
+  static inline void InitializeDefaultPanelTextSettingsIfNull();
 
-static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-/// @brief Method .ctor, addr 0x6ad8c48, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b4ae90, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings() ;
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
-/// @brief Method get_defaultPanelTextSettings, addr 0x6ad8b44, size 0x50, virtual false, abstract: false, final false
-static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings() ;
+  /// @brief Method get_defaultPanelTextSettings, addr 0x6b4ad8c, size 0x50, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
-static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings>  value) ;
+  static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PanelTextSettings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PanelTextSettings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PanelTextSettings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PanelTextSettings(PanelTextSettings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PanelTextSettings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PanelTextSettings(PanelTextSettings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PanelTextSettings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PanelTextSettings(PanelTextSettings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PanelTextSettings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PanelTextSettings(PanelTextSettings const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5090 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5090};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PanelTextSettings, 0xa8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PanelTextSettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PanelTextSettings*, "UnityEngine.UIElements", "PanelTextSettings");

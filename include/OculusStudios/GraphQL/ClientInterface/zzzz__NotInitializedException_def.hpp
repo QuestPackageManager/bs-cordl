@@ -21,44 +21,44 @@ namespace OculusStudios::GraphQL::ClientInterface {
 // CS Name: OculusStudios.GraphQL.ClientInterface.NotInitializedException
 class CORDL_TYPE NotInitializedException : public ::System::Exception {
 public:
-// Declarations
-static inline ::OculusStudios::GraphQL::ClientInterface::NotInitializedException* New_ctor() ;
+  // Declarations
+  static inline ::OculusStudios::GraphQL::ClientInterface::NotInitializedException* New_ctor();
 
-static inline ::OculusStudios::GraphQL::ClientInterface::NotInitializedException* New_ctor(::StringW  message) ;
+  static inline ::OculusStudios::GraphQL::ClientInterface::NotInitializedException* New_ctor(::StringW message);
 
-static inline ::OculusStudios::GraphQL::ClientInterface::NotInitializedException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
+  static inline ::OculusStudios::GraphQL::ClientInterface::NotInitializedException* New_ctor(::StringW message, ::System::Exception* inner);
 
-/// @brief Method .ctor, addr 0x5d7e358, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5df0340, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5d7e3b0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5df0398, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5d7e41c, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
+  /// @brief Method .ctor, addr 0x5df0404, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NotInitializedException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotInitializedException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NotInitializedException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NotInitializedException(NotInitializedException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NotInitializedException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NotInitializedException(NotInitializedException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NotInitializedException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NotInitializedException(NotInitializedException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NotInitializedException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NotInitializedException(NotInitializedException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22544 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22466};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::ClientInterface::NotInitializedException, 0x90>, "Size mismatch!");
 
-} // namespace end def OculusStudios::GraphQL::ClientInterface
+} // namespace OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::NotInitializedException);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::NotInitializedException*, "OculusStudios.GraphQL.ClientInterface", "NotInitializedException");

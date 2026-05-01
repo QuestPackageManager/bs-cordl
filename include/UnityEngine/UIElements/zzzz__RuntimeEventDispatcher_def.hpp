@@ -20,32 +20,32 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.RuntimeEventDispatcher
 class CORDL_TYPE RuntimeEventDispatcher : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Create, addr 0x6be29d4, size 0x54, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::EventDispatcher* Create() ;
+  // Declarations
+  /// @brief Method Create, addr 0x6c54c1c, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::EventDispatcher* Create();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RuntimeEventDispatcher() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeEventDispatcher();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeEventDispatcher", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RuntimeEventDispatcher(RuntimeEventDispatcher&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RuntimeEventDispatcher", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RuntimeEventDispatcher(RuntimeEventDispatcher && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeEventDispatcher", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RuntimeEventDispatcher(RuntimeEventDispatcher const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RuntimeEventDispatcher", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RuntimeEventDispatcher(RuntimeEventDispatcher const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4593 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4593};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RuntimeEventDispatcher, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RuntimeEventDispatcher);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RuntimeEventDispatcher*, "UnityEngine.UIElements", "RuntimeEventDispatcher");

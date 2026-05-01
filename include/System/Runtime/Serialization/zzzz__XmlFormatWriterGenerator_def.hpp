@@ -59,210 +59,214 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.XmlFormatWriterGenerator/CriticalHelper/<>c__DisplayClass0_0
 class CORDL_TYPE CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field classContract, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_classContract, put=__cordl_internal_set_classContract)) ::System::Runtime::Serialization::ClassDataContract*  classContract;
+  // Declarations
+  /// @brief Field classContract, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_classContract, put = __cordl_internal_set_classContract)) ::System::Runtime::Serialization::ClassDataContract* classContract;
 
-static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0* New_ctor() ;
+  static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0* New_ctor();
 
-/// @brief Method <GenerateClassWriter>b__0, addr 0x5fb07c0, size 0x90, virtual false, abstract: false, final false
-inline void _GenerateClassWriter_b__0(::System::Runtime::Serialization::XmlWriterDelegator*  xw, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  ctx, ::System::Runtime::Serialization::ClassDataContract*  ctr) ;
+  /// @brief Method <GenerateClassWriter>b__0, addr 0x60227cc, size 0x90, virtual false, abstract: false, final false
+  inline void _GenerateClassWriter_b__0(::System::Runtime::Serialization::XmlWriterDelegator* xw, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* ctx,
+                                        ::System::Runtime::Serialization::ClassDataContract* ctr);
 
-constexpr ::System::Runtime::Serialization::ClassDataContract* const& __cordl_internal_get_classContract() const;
+  constexpr ::System::Runtime::Serialization::ClassDataContract* const& __cordl_internal_get_classContract() const;
 
-constexpr ::System::Runtime::Serialization::ClassDataContract*& __cordl_internal_get_classContract() ;
+  constexpr ::System::Runtime::Serialization::ClassDataContract*& __cordl_internal_get_classContract();
 
-constexpr void __cordl_internal_set_classContract(::System::Runtime::Serialization::ClassDataContract*  value) ;
+  constexpr void __cordl_internal_set_classContract(::System::Runtime::Serialization::ClassDataContract* value);
 
-/// @brief Method .ctor, addr 0x5fb07b8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60227c4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17112 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17104};
+  /// @brief Field classContract, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Serialization::ClassDataContract* ___classContract;
 
-/// @brief Field classContract, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Serialization::ClassDataContract*  ___classContract;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0, ___classContract) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatWriterGenerator/CriticalHelper/<>c__DisplayClass1_0
 class CORDL_TYPE CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field collectionContract, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_collectionContract, put=__cordl_internal_set_collectionContract)) ::System::Runtime::Serialization::CollectionDataContract*  collectionContract;
+  // Declarations
+  /// @brief Field collectionContract, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_collectionContract, put = __cordl_internal_set_collectionContract)) ::System::Runtime::Serialization::CollectionDataContract* collectionContract;
 
-static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0* New_ctor() ;
+  static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0* New_ctor();
 
-/// @brief Method <GenerateCollectionWriter>b__0, addr 0x5fb0850, size 0x90, virtual false, abstract: false, final false
-inline void _GenerateCollectionWriter_b__0(::System::Runtime::Serialization::XmlWriterDelegator*  xw, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  ctx, ::System::Runtime::Serialization::CollectionDataContract*  ctr) ;
+  /// @brief Method <GenerateCollectionWriter>b__0, addr 0x602285c, size 0x90, virtual false, abstract: false, final false
+  inline void _GenerateCollectionWriter_b__0(::System::Runtime::Serialization::XmlWriterDelegator* xw, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* ctx,
+                                             ::System::Runtime::Serialization::CollectionDataContract* ctr);
 
-constexpr ::System::Runtime::Serialization::CollectionDataContract* const& __cordl_internal_get_collectionContract() const;
+  constexpr ::System::Runtime::Serialization::CollectionDataContract* const& __cordl_internal_get_collectionContract() const;
 
-constexpr ::System::Runtime::Serialization::CollectionDataContract*& __cordl_internal_get_collectionContract() ;
+  constexpr ::System::Runtime::Serialization::CollectionDataContract*& __cordl_internal_get_collectionContract();
 
-constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract*  value) ;
+  constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract* value);
 
-/// @brief Method .ctor, addr 0x5fb07bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60227c8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17113 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17105};
+  /// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Serialization::CollectionDataContract* ___collectionContract;
 
-/// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Serialization::CollectionDataContract*  ___collectionContract;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0, ___collectionContract) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatWriterGenerator/CriticalHelper
 class CORDL_TYPE XmlFormatWriterGenerator_CriticalHelper : public ::System::Object {
 public:
-// Declarations
-using __c__DisplayClass0_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0;
+  // Declarations
+  using __c__DisplayClass0_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0;
 
-using __c__DisplayClass1_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0;
+  using __c__DisplayClass1_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0;
 
-/// @brief Method GenerateClassWriter, addr 0x5fb04d0, size 0xa8, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* GenerateClassWriter(::System::Runtime::Serialization::ClassDataContract*  classContract) ;
+  /// @brief Method GenerateClassWriter, addr 0x60224dc, size 0xa8, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* GenerateClassWriter(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-/// @brief Method GenerateCollectionWriter, addr 0x5fb0710, size 0xa8, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* GenerateCollectionWriter(::System::Runtime::Serialization::CollectionDataContract*  collectionContract) ;
+  /// @brief Method GenerateCollectionWriter, addr 0x602271c, size 0xa8, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* GenerateCollectionWriter(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-static inline ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* New_ctor() ;
+  static inline ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* New_ctor();
 
-/// @brief Method .ctor, addr 0x5fb0334, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6022340, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlFormatWriterGenerator_CriticalHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlFormatWriterGenerator_CriticalHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator_CriticalHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlFormatWriterGenerator_CriticalHelper(XmlFormatWriterGenerator_CriticalHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator_CriticalHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlFormatWriterGenerator_CriticalHelper(XmlFormatWriterGenerator_CriticalHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator_CriticalHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlFormatWriterGenerator_CriticalHelper(XmlFormatWriterGenerator_CriticalHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator_CriticalHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlFormatWriterGenerator_CriticalHelper(XmlFormatWriterGenerator_CriticalHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17114 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17106};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.XmlFormatWriterGenerator
 class CORDL_TYPE XmlFormatWriterGenerator : public ::System::Object {
 public:
-// Declarations
-using CriticalHelper = ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper;
+  // Declarations
+  using CriticalHelper = ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper;
 
-/// @brief Field helper, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_helper, put=__cordl_internal_set_helper)) ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper*  helper;
+  /// @brief Field helper, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* helper;
 
-/// @brief Method GenerateClassWriter, addr 0x5fb0338, size 0x198, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* GenerateClassWriter(::System::Runtime::Serialization::ClassDataContract*  classContract) ;
+  /// @brief Method GenerateClassWriter, addr 0x6022344, size 0x198, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* GenerateClassWriter(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-/// @brief Method GenerateCollectionWriter, addr 0x5fb0578, size 0x198, virtual false, abstract: false, final false
-inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* GenerateCollectionWriter(::System::Runtime::Serialization::CollectionDataContract*  collectionContract) ;
+  /// @brief Method GenerateCollectionWriter, addr 0x6022584, size 0x198, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* GenerateCollectionWriter(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-static inline ::System::Runtime::Serialization::XmlFormatWriterGenerator* New_ctor() ;
+  static inline ::System::Runtime::Serialization::XmlFormatWriterGenerator* New_ctor();
 
-constexpr ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* const& __cordl_internal_get_helper() const;
+  constexpr ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* const& __cordl_internal_get_helper() const;
 
-constexpr ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper*& __cordl_internal_get_helper() ;
+  constexpr ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper*& __cordl_internal_get_helper();
 
-constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper*  value) ;
+  constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* value);
 
-/// @brief Method .ctor, addr 0x5fb02e4, size 0x50, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60222f0, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlFormatWriterGenerator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlFormatWriterGenerator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlFormatWriterGenerator(XmlFormatWriterGenerator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlFormatWriterGenerator(XmlFormatWriterGenerator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlFormatWriterGenerator(XmlFormatWriterGenerator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlFormatWriterGenerator(XmlFormatWriterGenerator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17115 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17107};
+  /// @brief Field helper, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* ___helper;
 
-/// @brief Field helper, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper*  ___helper;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::XmlFormatWriterGenerator, ___helper) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::XmlFormatWriterGenerator, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0*, "System.Runtime.Serialization", "XmlFormatWriterGenerator/CriticalHelper/<>c__DisplayClass0_0");
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0*, "System.Runtime.Serialization",
+                       "XmlFormatWriterGenerator/CriticalHelper/<>c__DisplayClass0_0");
 NEED_NO_BOX(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0*, "System.Runtime.Serialization", "XmlFormatWriterGenerator/CriticalHelper/<>c__DisplayClass1_0");
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0*, "System.Runtime.Serialization",
+                       "XmlFormatWriterGenerator/CriticalHelper/<>c__DisplayClass1_0");
 NEED_NO_BOX(::System::Runtime::Serialization::XmlFormatWriterGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::XmlFormatWriterGenerator*, "System.Runtime.Serialization", "XmlFormatWriterGenerator");
 NEED_NO_BOX(::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper);

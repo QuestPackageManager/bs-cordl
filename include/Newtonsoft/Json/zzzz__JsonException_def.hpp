@@ -30,52 +30,52 @@ namespace Newtonsoft::Json {
 // CS Name: Newtonsoft.Json.JsonException
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
-// Declarations
-/// @brief Method Create, addr 0x5b29114, size 0xac, virtual false, abstract: false, final false
-static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo*  lineInfo, ::StringW  path, ::StringW  message) ;
+  // Declarations
+  /// @brief Method Create, addr 0x5b9b0fc, size 0xac, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor() ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor();
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW  message) ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message);
 
-static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-/// @brief Method .ctor, addr 0x5b28f58, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5b9af40, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5b29090, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5b9b078, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5b28fb0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5b9af98, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5b2901c, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x5b9b004, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr JsonException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  JsonException(JsonException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-JsonException(JsonException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  JsonException(JsonException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-JsonException(JsonException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13238 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13231};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonException, 0x90>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json
+} // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonException);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonException*, "Newtonsoft.Json", "JsonException");

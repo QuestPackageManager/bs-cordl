@@ -26,121 +26,124 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // CS Name: Org.BouncyCastle.Crypto.Parameters.SM2KeyExchangePrivateParameters
 class CORDL_TYPE SM2KeyExchangePrivateParameters : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_EphemeralPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  EphemeralPrivateKey;
+  // Declarations
+  __declspec(property(get = get_EphemeralPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* EphemeralPrivateKey;
 
- __declspec(property(get=get_EphemeralPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint*  EphemeralPublicPoint;
+  __declspec(property(get = get_EphemeralPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint* EphemeralPublicPoint;
 
- __declspec(property(get=get_IsInitiator)) bool  IsInitiator;
+  __declspec(property(get = get_IsInitiator)) bool IsInitiator;
 
- __declspec(property(get=get_StaticPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  StaticPrivateKey;
+  __declspec(property(get = get_StaticPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* StaticPrivateKey;
 
- __declspec(property(get=get_StaticPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint*  StaticPublicPoint;
+  __declspec(property(get = get_StaticPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint* StaticPublicPoint;
 
-/// @brief Field mEphemeralPrivateKey, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_mEphemeralPrivateKey, put=__cordl_internal_set_mEphemeralPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  mEphemeralPrivateKey;
+  /// @brief Field mEphemeralPrivateKey, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_mEphemeralPrivateKey,
+                      put = __cordl_internal_set_mEphemeralPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* mEphemeralPrivateKey;
 
-/// @brief Field mEphemeralPublicPoint, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_mEphemeralPublicPoint, put=__cordl_internal_set_mEphemeralPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint*  mEphemeralPublicPoint;
+  /// @brief Field mEphemeralPublicPoint, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_mEphemeralPublicPoint, put = __cordl_internal_set_mEphemeralPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint* mEphemeralPublicPoint;
 
-/// @brief Field mInitiator, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_mInitiator, put=__cordl_internal_set_mInitiator)) bool  mInitiator;
+  /// @brief Field mInitiator, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_mInitiator, put = __cordl_internal_set_mInitiator)) bool mInitiator;
 
-/// @brief Field mStaticPrivateKey, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_mStaticPrivateKey, put=__cordl_internal_set_mStaticPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  mStaticPrivateKey;
+  /// @brief Field mStaticPrivateKey, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_mStaticPrivateKey, put = __cordl_internal_set_mStaticPrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* mStaticPrivateKey;
 
-/// @brief Field mStaticPublicPoint, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_mStaticPublicPoint, put=__cordl_internal_set_mStaticPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint*  mStaticPublicPoint;
+  /// @brief Field mStaticPublicPoint, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_mStaticPublicPoint, put = __cordl_internal_set_mStaticPublicPoint)) ::Org::BouncyCastle::Math::EC::ECPoint* mStaticPublicPoint;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-static inline ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters* New_ctor(bool  initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  ephemeralPrivateKey) ;
+  static inline ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters* New_ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
+                                                                                                   ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& __cordl_internal_get_mEphemeralPrivateKey() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& __cordl_internal_get_mEphemeralPrivateKey() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mEphemeralPrivateKey() ;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mEphemeralPrivateKey();
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_mEphemeralPublicPoint() const;
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_mEphemeralPublicPoint() const;
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mEphemeralPublicPoint() ;
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mEphemeralPublicPoint();
 
-constexpr bool const& __cordl_internal_get_mInitiator() const;
+  constexpr bool const& __cordl_internal_get_mInitiator() const;
 
-constexpr bool& __cordl_internal_get_mInitiator() ;
+  constexpr bool& __cordl_internal_get_mInitiator();
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& __cordl_internal_get_mStaticPrivateKey() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& __cordl_internal_get_mStaticPrivateKey() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mStaticPrivateKey() ;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mStaticPrivateKey();
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_mStaticPublicPoint() const;
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_mStaticPublicPoint() const;
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mStaticPublicPoint() ;
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mStaticPublicPoint();
 
-constexpr void __cordl_internal_set_mEphemeralPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  value) ;
+  constexpr void __cordl_internal_set_mEphemeralPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-constexpr void __cordl_internal_set_mEphemeralPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint*  value) ;
+  constexpr void __cordl_internal_set_mEphemeralPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-constexpr void __cordl_internal_set_mInitiator(bool  value) ;
+  constexpr void __cordl_internal_set_mInitiator(bool value);
 
-constexpr void __cordl_internal_set_mStaticPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  value) ;
+  constexpr void __cordl_internal_set_mStaticPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-constexpr void __cordl_internal_set_mStaticPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint*  value) ;
+  constexpr void __cordl_internal_set_mStaticPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-/// @brief Method .ctor, addr 0x331b818, size 0x25c, virtual false, abstract: false, final false
-inline void _ctor(bool  initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  ephemeralPrivateKey) ;
+  /// @brief Method .ctor, addr 0x3357e5c, size 0x25c, virtual false, abstract: false, final false
+  inline void _ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
+                    ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-/// @brief Method get_EphemeralPrivateKey, addr 0x331ba8c, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey() ;
+  /// @brief Method get_EphemeralPrivateKey, addr 0x33580d0, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-/// @brief Method get_EphemeralPublicPoint, addr 0x331ba94, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECPoint* get_EphemeralPublicPoint() ;
+  /// @brief Method get_EphemeralPublicPoint, addr 0x33580d8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* get_EphemeralPublicPoint();
 
-/// @brief Method get_IsInitiator, addr 0x331ba74, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsInitiator() ;
+  /// @brief Method get_IsInitiator, addr 0x33580b8, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsInitiator();
 
-/// @brief Method get_StaticPrivateKey, addr 0x331ba7c, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey() ;
+  /// @brief Method get_StaticPrivateKey, addr 0x33580c0, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
-/// @brief Method get_StaticPublicPoint, addr 0x331ba84, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECPoint* get_StaticPublicPoint() ;
+  /// @brief Method get_StaticPublicPoint, addr 0x33580c8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* get_StaticPublicPoint();
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SM2KeyExchangePrivateParameters() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SM2KeyExchangePrivateParameters();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchangePrivateParameters", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SM2KeyExchangePrivateParameters(SM2KeyExchangePrivateParameters&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchangePrivateParameters", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SM2KeyExchangePrivateParameters(SM2KeyExchangePrivateParameters && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchangePrivateParameters", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SM2KeyExchangePrivateParameters(SM2KeyExchangePrivateParameters const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchangePrivateParameters", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SM2KeyExchangePrivateParameters(SM2KeyExchangePrivateParameters const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1084 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1084};
+  /// @brief Field mInitiator, offset: 0x10, size: 0x1, def value: None
+  bool ___mInitiator;
 
-/// @brief Field mInitiator, offset: 0x10, size: 0x1, def value: None
- bool  ___mInitiator;
+  /// @brief Field mStaticPrivateKey, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ___mStaticPrivateKey;
 
-/// @brief Field mStaticPrivateKey, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  ___mStaticPrivateKey;
+  /// @brief Field mStaticPublicPoint, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Math::EC::ECPoint* ___mStaticPublicPoint;
 
-/// @brief Field mStaticPublicPoint, offset: 0x20, size: 0x8, def value: None
- ::Org::BouncyCastle::Math::EC::ECPoint*  ___mStaticPublicPoint;
+  /// @brief Field mEphemeralPrivateKey, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ___mEphemeralPrivateKey;
 
-/// @brief Field mEphemeralPrivateKey, offset: 0x28, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  ___mEphemeralPrivateKey;
+  /// @brief Field mEphemeralPublicPoint, offset: 0x30, size: 0x8, def value: None
+  ::Org::BouncyCastle::Math::EC::ECPoint* ___mEphemeralPublicPoint;
 
-/// @brief Field mEphemeralPublicPoint, offset: 0x30, size: 0x8, def value: None
- ::Org::BouncyCastle::Math::EC::ECPoint*  ___mEphemeralPublicPoint;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters, ___mInitiator) == 0x10, "Offset mismatch!");
@@ -155,6 +158,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePr
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters, 0x38>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Parameters
+} // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters*, "Org.BouncyCastle.Crypto.Parameters", "SM2KeyExchangePrivateParameters");

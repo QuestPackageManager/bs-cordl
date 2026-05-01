@@ -21,39 +21,42 @@ namespace BeatmapSaveDataVersion4 {
 // CS Name: BeatmapSaveDataVersion4.FxEventBox
 struct CORDL_TYPE FxEventBox {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr FxEventBox() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FxEventBox();
 
-// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }]
-constexpr FxEventBox(float_t  w, ::BeatmapSaveDataCommon::DistributionParamType  d, float_t  s, ::BeatmapSaveDataCommon::DistributionParamType  t, int32_t  b, ::BeatmapSaveDataCommon::EaseType  e) noexcept;
+  // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None
+  // }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam {
+  // name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }]
+  constexpr FxEventBox(float_t w, ::BeatmapSaveDataCommon::DistributionParamType d, float_t s, ::BeatmapSaveDataCommon::DistributionParamType t, int32_t b,
+                       ::BeatmapSaveDataCommon::EaseType e) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15301};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15306 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
-/// @brief Field w, offset: 0x0, size: 0x4, def value: None
- float_t  w;
+  /// @brief Field w, offset: 0x0, size: 0x4, def value: None
+  float_t w;
 
-/// @brief Field d, offset: 0x4, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::DistributionParamType  d;
+  /// @brief Field d, offset: 0x4, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::DistributionParamType d;
 
-/// @brief Field s, offset: 0x8, size: 0x4, def value: None
- float_t  s;
+  /// @brief Field s, offset: 0x8, size: 0x4, def value: None
+  float_t s;
 
-/// @brief Field t, offset: 0xc, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::DistributionParamType  t;
+  /// @brief Field t, offset: 0xc, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::DistributionParamType t;
 
-/// @brief Field b, offset: 0x10, size: 0x4, def value: None
- int32_t  b;
+  /// @brief Field b, offset: 0x10, size: 0x4, def value: None
+  int32_t b;
 
-/// @brief Field e, offset: 0x14, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::EaseType  e;
+  /// @brief Field e, offset: 0x14, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::EaseType e;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion4::FxEventBox, w) == 0x0, "Offset mismatch!");
@@ -70,5 +73,5 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::FxEventBox, e) == 0x14, "Offse
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::FxEventBox, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatmapSaveDataVersion4
+} // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::FxEventBox, "BeatmapSaveDataVersion4", "FxEventBox");

@@ -29,43 +29,44 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.CharConverter
 class CORDL_TYPE CharConverter : public ::System::ComponentModel::TypeConverter {
 public:
-// Declarations
-/// @brief Method CanConvertFrom, addr 0x6201cdc, size 0x80, virtual true, abstract: false, final false
-inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
+  // Declarations
+  /// @brief Method CanConvertFrom, addr 0x6273ce8, size 0x80, virtual true, abstract: false, final false
+  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-/// @brief Method ConvertFrom, addr 0x6201e40, size 0x10c, virtual true, abstract: false, final false
-inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
+  /// @brief Method ConvertFrom, addr 0x6273e4c, size 0x10c, virtual true, abstract: false, final false
+  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-/// @brief Method ConvertTo, addr 0x6201d5c, size 0xe4, virtual true, abstract: false, final false
-inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
+  /// @brief Method ConvertTo, addr 0x6273d68, size 0xe4, virtual true, abstract: false, final false
+  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
+                                     ::System::Type* destinationType);
 
-static inline ::System::ComponentModel::CharConverter* New_ctor() ;
+  static inline ::System::ComponentModel::CharConverter* New_ctor();
 
-/// @brief Method .ctor, addr 0x6201f4c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6273f58, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CharConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CharConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CharConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CharConverter(CharConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CharConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CharConverter(CharConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CharConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CharConverter(CharConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CharConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CharConverter(CharConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11231 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11224};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CharConverter, 0x10>, "Size mismatch!");
 
-} // namespace end def System::ComponentModel
+} // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::CharConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::CharConverter*, "System.ComponentModel", "CharConverter");

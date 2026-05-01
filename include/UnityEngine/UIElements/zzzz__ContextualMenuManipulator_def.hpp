@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PointerManipulator_def.hpp"
 CORDL_MODULE_EXPORT(ContextualMenuManipulator)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
 class ContextualMenuPopulateEvent;
@@ -36,81 +35,81 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ContextualMenuManipulator
 class CORDL_TYPE ContextualMenuManipulator : public ::UnityEngine::UIElements::PointerManipulator {
 public:
-// Declarations
-/// @brief Field m_MenuBuilder, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_MenuBuilder, put=__cordl_internal_set_m_MenuBuilder)) ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*  m_MenuBuilder;
+  // Declarations
+  /// @brief Field m_MenuBuilder, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MenuBuilder, put = __cordl_internal_set_m_MenuBuilder)) ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>* m_MenuBuilder;
 
-/// @brief Method DoDisplayMenu, addr 0x6a8c92c, size 0x40, virtual false, abstract: false, final false
-inline void DoDisplayMenu(::UnityEngine::UIElements::EventBase*  evt) ;
+  /// @brief Method DoDisplayMenu, addr 0x6afeb74, size 0x40, virtual false, abstract: false, final false
+  inline void DoDisplayMenu(::UnityEngine::UIElements::EventBase* evt);
 
-static inline ::UnityEngine::UIElements::ContextualMenuManipulator* New_ctor(::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*  menuBuilder) ;
+  static inline ::UnityEngine::UIElements::ContextualMenuManipulator* New_ctor(::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>* menuBuilder);
 
-/// @brief Method OnContextualMenuEvent, addr 0x6a8c9e4, size 0x1c, virtual false, abstract: false, final false
-inline void OnContextualMenuEvent(::UnityEngine::UIElements::ContextualMenuPopulateEvent*  evt) ;
+  /// @brief Method OnContextualMenuEvent, addr 0x6afec2c, size 0x1c, virtual false, abstract: false, final false
+  inline void OnContextualMenuEvent(::UnityEngine::UIElements::ContextualMenuPopulateEvent* evt);
 
-/// @brief Method OnKeyUpEvent, addr 0x6a8c96c, size 0x78, virtual false, abstract: false, final false
-inline void OnKeyUpEvent(::UnityEngine::UIElements::KeyUpEvent*  evt) ;
+  /// @brief Method OnKeyUpEvent, addr 0x6afebb4, size 0x78, virtual false, abstract: false, final false
+  inline void OnKeyUpEvent(::UnityEngine::UIElements::KeyUpEvent* evt);
 
-/// @brief Method OnPointerDownEventOSX, addr 0x6a8c820, size 0x28, virtual false, abstract: false, final false
-inline void OnPointerDownEventOSX(::UnityEngine::UIElements::IPointerEvent*  evt) ;
+  /// @brief Method OnPointerDownEventOSX, addr 0x6afea68, size 0x28, virtual false, abstract: false, final false
+  inline void OnPointerDownEventOSX(::UnityEngine::UIElements::IPointerEvent* evt);
 
-/// @brief Method OnPointerMoveEvent, addr 0x6a8c878, size 0x48, virtual false, abstract: false, final false
-inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent*  evt) ;
+  /// @brief Method OnPointerMoveEvent, addr 0x6afeac0, size 0x48, virtual false, abstract: false, final false
+  inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-/// @brief Method OnPointerMoveEventOSX, addr 0x6a8c8c0, size 0x6c, virtual false, abstract: false, final false
-inline void OnPointerMoveEventOSX(::UnityEngine::UIElements::PointerMoveEvent*  evt) ;
+  /// @brief Method OnPointerMoveEventOSX, addr 0x6afeb08, size 0x6c, virtual false, abstract: false, final false
+  inline void OnPointerMoveEventOSX(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-/// @brief Method OnPointerUpEvent, addr 0x6a8c76c, size 0x4, virtual false, abstract: false, final false
-inline void OnPointerUpEvent(::UnityEngine::UIElements::IPointerEvent*  evt) ;
+  /// @brief Method OnPointerUpEvent, addr 0x6afe9b4, size 0x4, virtual false, abstract: false, final false
+  inline void OnPointerUpEvent(::UnityEngine::UIElements::IPointerEvent* evt);
 
-/// @brief Method OnPointerUpEventOSX, addr 0x6a8c848, size 0x30, virtual false, abstract: false, final false
-inline void OnPointerUpEventOSX(::UnityEngine::UIElements::IPointerEvent*  evt) ;
+  /// @brief Method OnPointerUpEventOSX, addr 0x6afea90, size 0x30, virtual false, abstract: false, final false
+  inline void OnPointerUpEventOSX(::UnityEngine::UIElements::IPointerEvent* evt);
 
-/// @brief Method ProcessPointerEvent, addr 0x6a8c770, size 0xb0, virtual false, abstract: false, final false
-inline void ProcessPointerEvent(::UnityEngine::UIElements::IPointerEvent*  evt) ;
+  /// @brief Method ProcessPointerEvent, addr 0x6afe9b8, size 0xb0, virtual false, abstract: false, final false
+  inline void ProcessPointerEvent(::UnityEngine::UIElements::IPointerEvent* evt);
 
-/// @brief Method RegisterCallbacksOnTarget, addr 0x6a8c0a4, size 0x364, virtual true, abstract: false, final false
-inline void RegisterCallbacksOnTarget() ;
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x6afe2ec, size 0x364, virtual true, abstract: false, final false
+  inline void RegisterCallbacksOnTarget();
 
-/// @brief Method UnregisterCallbacksFromTarget, addr 0x6a8c408, size 0x364, virtual true, abstract: false, final false
-inline void UnregisterCallbacksFromTarget() ;
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6afe650, size 0x364, virtual true, abstract: false, final false
+  inline void UnregisterCallbacksFromTarget();
 
-constexpr ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>* const& __cordl_internal_get_m_MenuBuilder() const;
+  constexpr ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>* const& __cordl_internal_get_m_MenuBuilder() const;
 
-constexpr ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*& __cordl_internal_get_m_MenuBuilder() ;
+  constexpr ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*& __cordl_internal_get_m_MenuBuilder();
 
-constexpr void __cordl_internal_set_m_MenuBuilder(::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*  value) ;
+  constexpr void __cordl_internal_set_m_MenuBuilder(::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>* value);
 
-/// @brief Method .ctor, addr 0x6a8bf38, size 0x16c, virtual false, abstract: false, final false
-inline void _ctor(::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*  menuBuilder) ;
+  /// @brief Method .ctor, addr 0x6afe180, size 0x16c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>* menuBuilder);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ContextualMenuManipulator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContextualMenuManipulator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ContextualMenuManipulator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ContextualMenuManipulator(ContextualMenuManipulator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContextualMenuManipulator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ContextualMenuManipulator(ContextualMenuManipulator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ContextualMenuManipulator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ContextualMenuManipulator(ContextualMenuManipulator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContextualMenuManipulator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ContextualMenuManipulator(ContextualMenuManipulator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4102 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4102};
+  /// @brief Field m_MenuBuilder, offset: 0x28, size: 0x8, def value: None
+  ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>* ___m_MenuBuilder;
 
-/// @brief Field m_MenuBuilder, offset: 0x28, size: 0x8, def value: None
- ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*  ___m_MenuBuilder;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuManipulator, ___m_MenuBuilder) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ContextualMenuManipulator, 0x30>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ContextualMenuManipulator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ContextualMenuManipulator*, "UnityEngine.UIElements", "ContextualMenuManipulator");

@@ -4,147 +4,127 @@
 #include "UnityEngine/ProBuilder/zzzz__XYZColor_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::XYZColor._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::XYZColor::*)(float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::XYZColor::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::XYZColor::*)(float_t, float_t, float_t)>(
+    &::UnityEngine::ProBuilder::XYZColor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6502e64;
+  constexpr static std::size_t addrs = 0x6574e70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::XYZColor.FromRGB
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::XYZColor* (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::XYZColor::FromRGB)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6502e70;
+  constexpr static std::size_t addrs = 0x6574e7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                        "FromRGB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), "FromRGB", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::XYZColor.FromRGB
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::XYZColor* (*)(float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::XYZColor::FromRGB)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6502f68;
+  constexpr static std::size_t addrs = 0x6574f74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                        "FromRGB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), "FromRGB", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::XYZColor.ToString
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::XYZColor::*)()>(&::UnityEngine::ProBuilder::XYZColor::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6503188;
+  constexpr static std::size_t addrs = 0x6575194;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), 3));
     return ___internal_method;
   }
 };
-constexpr float_t& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_x()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___x;
+constexpr float_t& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_x() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___x;
 }
 constexpr float_t const& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_x() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___x;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___x;
 }
-constexpr void UnityEngine::ProBuilder::XYZColor::__cordl_internal_set_x(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___x = value;
+constexpr void UnityEngine::ProBuilder::XYZColor::__cordl_internal_set_x(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___x = value;
 }
-constexpr float_t& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_y()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___y;
+constexpr float_t& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_y() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___y;
 }
 constexpr float_t const& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_y() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___y;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___y;
 }
-constexpr void UnityEngine::ProBuilder::XYZColor::__cordl_internal_set_y(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___y = value;
+constexpr void UnityEngine::ProBuilder::XYZColor::__cordl_internal_set_y(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___y = value;
 }
-constexpr float_t& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_z()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___z;
+constexpr float_t& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_z() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___z;
 }
 constexpr float_t const& UnityEngine::ProBuilder::XYZColor::__cordl_internal_get_z() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___z;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___z;
 }
-constexpr void UnityEngine::ProBuilder::XYZColor::__cordl_internal_set_z(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___z = value;
+constexpr void UnityEngine::ProBuilder::XYZColor::__cordl_internal_set_z(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___z = value;
 }
-inline void UnityEngine::ProBuilder::XYZColor::_ctor(float_t  x, float_t  y, float_t  z)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, y, z);
+inline void UnityEngine::ProBuilder::XYZColor::_ctor(float_t x, float_t y, float_t z) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, y, z);
 }
-inline ::UnityEngine::ProBuilder::XYZColor* UnityEngine::ProBuilder::XYZColor::FromRGB(::UnityEngine::Color  col)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                        "FromRGB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::XYZColor*, false>(nullptr, ___internal_method, col);
+inline ::UnityEngine::ProBuilder::XYZColor* UnityEngine::ProBuilder::XYZColor::FromRGB(::UnityEngine::Color col) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), "FromRGB", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::XYZColor*, false>(nullptr, ___internal_method, col);
 }
-inline ::UnityEngine::ProBuilder::XYZColor* UnityEngine::ProBuilder::XYZColor::FromRGB(float_t  R, float_t  G, float_t  B)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                        "FromRGB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::XYZColor*, false>(nullptr, ___internal_method, R, G, B);
+inline ::UnityEngine::ProBuilder::XYZColor* UnityEngine::ProBuilder::XYZColor::FromRGB(float_t R, float_t G, float_t B) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), "FromRGB", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::XYZColor*, false>(nullptr, ___internal_method, R, G, B);
 }
-inline ::StringW UnityEngine::ProBuilder::XYZColor::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::ProBuilder::XYZColor::ToString() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::XYZColor*>::get(), 3)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityEngine::ProBuilder::XYZColor* UnityEngine::ProBuilder::XYZColor::New_ctor(float_t  x, float_t  y, float_t  z)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::XYZColor*>(x, y, z));
+inline ::UnityEngine::ProBuilder::XYZColor* UnityEngine::ProBuilder::XYZColor::New_ctor(float_t x, float_t y, float_t z) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::XYZColor*>(x, y, z));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::XYZColor::XYZColor()   {
-}
+constexpr ::UnityEngine::ProBuilder::XYZColor::XYZColor() {}

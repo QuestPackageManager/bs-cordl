@@ -18,53 +18,53 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.TypeLoadExceptionHolder
 class CORDL_TYPE TypeLoadExceptionHolder : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_TypeName)) ::StringW  TypeName;
+  // Declarations
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
-/// @brief Field m_typeName, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_typeName, put=__cordl_internal_set_m_typeName)) ::StringW  m_typeName;
+  /// @brief Field m_typeName, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_typeName, put = __cordl_internal_set_m_typeName)) ::StringW m_typeName;
 
-static inline ::System::Runtime::Serialization::TypeLoadExceptionHolder* New_ctor(::StringW  typeName) ;
+  static inline ::System::Runtime::Serialization::TypeLoadExceptionHolder* New_ctor(::StringW typeName);
 
-constexpr ::StringW const& __cordl_internal_get_m_typeName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_typeName() const;
 
-constexpr ::StringW& __cordl_internal_get_m_typeName() ;
+  constexpr ::StringW& __cordl_internal_get_m_typeName();
 
-constexpr void __cordl_internal_set_m_typeName(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_typeName(::StringW value);
 
-/// @brief Method .ctor, addr 0x59a4478, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  typeName) ;
+  /// @brief Method .ctor, addr 0x5a163e4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW typeName);
 
-/// @brief Method get_TypeName, addr 0x59a4480, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_TypeName() ;
+  /// @brief Method get_TypeName, addr 0x5a163ec, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_TypeName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TypeLoadExceptionHolder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TypeLoadExceptionHolder();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLoadExceptionHolder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TypeLoadExceptionHolder(TypeLoadExceptionHolder&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TypeLoadExceptionHolder", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TypeLoadExceptionHolder(TypeLoadExceptionHolder && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TypeLoadExceptionHolder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TypeLoadExceptionHolder(TypeLoadExceptionHolder const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TypeLoadExceptionHolder", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TypeLoadExceptionHolder(TypeLoadExceptionHolder const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3240 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3240};
+  /// @brief Field m_typeName, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___m_typeName;
 
-/// @brief Field m_typeName, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___m_typeName;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::TypeLoadExceptionHolder, ___m_typeName) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::TypeLoadExceptionHolder, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::TypeLoadExceptionHolder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::TypeLoadExceptionHolder*, "System.Runtime.Serialization", "TypeLoadExceptionHolder");

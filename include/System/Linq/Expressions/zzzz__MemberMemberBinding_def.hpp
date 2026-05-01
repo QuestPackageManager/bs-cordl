@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__MemberBinding_def.hpp"
 CORDL_MODULE_EXPORT(MemberMemberBinding)
 namespace System::Collections::ObjectModel {
-template<typename T>
-class ReadOnlyCollection_1;
+template <typename T> class ReadOnlyCollection_1;
 }
 namespace System::Linq::Expressions {
 class MemberBinding;
@@ -24,48 +23,50 @@ namespace System::Linq::Expressions {
 // CS Name: System.Linq.Expressions.MemberMemberBinding
 class CORDL_TYPE MemberMemberBinding : public ::System::Linq::Expressions::MemberBinding {
 public:
-// Declarations
- __declspec(property(get=get_Bindings)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*  Bindings;
+  // Declarations
+  __declspec(property(get = get_Bindings)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* Bindings;
 
-/// @brief Field <Bindings>k__BackingField, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__Bindings_k__BackingField, put=__cordl_internal_set__Bindings_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*  _Bindings_k__BackingField;
+  /// @brief Field <Bindings>k__BackingField, offset 0x20, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__Bindings_k__BackingField,
+      put = __cordl_internal_set__Bindings_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* _Bindings_k__BackingField;
 
-constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* const& __cordl_internal_get__Bindings_k__BackingField() const;
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* const& __cordl_internal_get__Bindings_k__BackingField() const;
 
-constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*& __cordl_internal_get__Bindings_k__BackingField() ;
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*& __cordl_internal_get__Bindings_k__BackingField();
 
-constexpr void __cordl_internal_set__Bindings_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*  value) ;
+  constexpr void __cordl_internal_set__Bindings_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* value);
 
-/// @brief Method get_Bindings, addr 0x5dd29cc, size 0x8, virtual false, abstract: false, final false
-inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings() ;
+  /// @brief Method get_Bindings, addr 0x5e449d8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MemberMemberBinding() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemberMemberBinding();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MemberMemberBinding(MemberMemberBinding&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MemberMemberBinding(MemberMemberBinding && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MemberMemberBinding(MemberMemberBinding const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MemberMemberBinding", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MemberMemberBinding(MemberMemberBinding const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16182 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16174};
+  /// @brief Field <Bindings>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* ____Bindings_k__BackingField;
 
-/// @brief Field <Bindings>k__BackingField, offset: 0x20, size: 0x8, def value: None
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*  ____Bindings_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::MemberMemberBinding, ____Bindings_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::MemberMemberBinding, 0x28>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions
+} // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::MemberMemberBinding);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::MemberMemberBinding*, "System.Linq.Expressions", "MemberMemberBinding");

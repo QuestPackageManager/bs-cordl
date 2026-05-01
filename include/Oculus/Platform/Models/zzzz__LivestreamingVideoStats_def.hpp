@@ -22,66 +22,66 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.LivestreamingVideoStats
 class CORDL_TYPE LivestreamingVideoStats : public ::System::Object {
 public:
-// Declarations
-/// @brief Field CommentCount, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_CommentCount, put=__cordl_internal_set_CommentCount)) int32_t  CommentCount;
+  // Declarations
+  /// @brief Field CommentCount, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_CommentCount, put = __cordl_internal_set_CommentCount)) int32_t CommentCount;
 
-/// @brief Field ReactionCount, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_ReactionCount, put=__cordl_internal_set_ReactionCount)) int32_t  ReactionCount;
+  /// @brief Field ReactionCount, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_ReactionCount, put = __cordl_internal_set_ReactionCount)) int32_t ReactionCount;
 
-/// @brief Field TotalViews, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_TotalViews, put=__cordl_internal_set_TotalViews)) ::StringW  TotalViews;
+  /// @brief Field TotalViews, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_TotalViews, put = __cordl_internal_set_TotalViews)) ::StringW TotalViews;
 
-static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(::System::IntPtr  o) ;
+  static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(::System::IntPtr o);
 
-constexpr int32_t const& __cordl_internal_get_CommentCount() const;
+  constexpr int32_t const& __cordl_internal_get_CommentCount() const;
 
-constexpr int32_t& __cordl_internal_get_CommentCount() ;
+  constexpr int32_t& __cordl_internal_get_CommentCount();
 
-constexpr int32_t const& __cordl_internal_get_ReactionCount() const;
+  constexpr int32_t const& __cordl_internal_get_ReactionCount() const;
 
-constexpr int32_t& __cordl_internal_get_ReactionCount() ;
+  constexpr int32_t& __cordl_internal_get_ReactionCount();
 
-constexpr ::StringW const& __cordl_internal_get_TotalViews() const;
+  constexpr ::StringW const& __cordl_internal_get_TotalViews() const;
 
-constexpr ::StringW& __cordl_internal_get_TotalViews() ;
+  constexpr ::StringW& __cordl_internal_get_TotalViews();
 
-constexpr void __cordl_internal_set_CommentCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_CommentCount(int32_t value);
 
-constexpr void __cordl_internal_set_ReactionCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_ReactionCount(int32_t value);
 
-constexpr void __cordl_internal_set_TotalViews(::StringW  value) ;
+  constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
-/// @brief Method .ctor, addr 0x5c42ca4, size 0x90, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  o) ;
+  /// @brief Method .ctor, addr 0x5cb4c8c, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LivestreamingVideoStats() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LivestreamingVideoStats();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LivestreamingVideoStats", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LivestreamingVideoStats(LivestreamingVideoStats&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LivestreamingVideoStats", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LivestreamingVideoStats(LivestreamingVideoStats && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LivestreamingVideoStats", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LivestreamingVideoStats(LivestreamingVideoStats const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LivestreamingVideoStats", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LivestreamingVideoStats(LivestreamingVideoStats const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18045 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18037};
+  /// @brief Field CommentCount, offset: 0x10, size: 0x4, def value: None
+  int32_t ___CommentCount;
 
-/// @brief Field CommentCount, offset: 0x10, size: 0x4, def value: None
- int32_t  ___CommentCount;
+  /// @brief Field ReactionCount, offset: 0x14, size: 0x4, def value: None
+  int32_t ___ReactionCount;
 
-/// @brief Field ReactionCount, offset: 0x14, size: 0x4, def value: None
- int32_t  ___ReactionCount;
+  /// @brief Field TotalViews, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___TotalViews;
 
-/// @brief Field TotalViews, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___TotalViews;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::LivestreamingVideoStats, ___CommentCount) == 0x10, "Offset mismatch!");
@@ -92,6 +92,6 @@ static_assert(offsetof(::Oculus::Platform::Models::LivestreamingVideoStats, ___T
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LivestreamingVideoStats, 0x20>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LivestreamingVideoStats);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LivestreamingVideoStats*, "Oculus.Platform.Models", "LivestreamingVideoStats");

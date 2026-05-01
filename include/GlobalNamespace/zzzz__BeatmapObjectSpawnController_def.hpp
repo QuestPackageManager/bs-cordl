@@ -64,90 +64,93 @@ namespace GlobalNamespace {
 // CS Name: BeatmapObjectSpawnController/InitData
 class CORDL_TYPE BeatmapObjectSpawnController_InitData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field beatsPerMinute, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_beatsPerMinute, put=__cordl_internal_set_beatsPerMinute)) float_t  beatsPerMinute;
+  // Declarations
+  /// @brief Field beatsPerMinute, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_beatsPerMinute, put = __cordl_internal_set_beatsPerMinute)) float_t beatsPerMinute;
 
-/// @brief Field noteJumpMovementSpeed, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get_noteJumpMovementSpeed, put=__cordl_internal_set_noteJumpMovementSpeed)) float_t  noteJumpMovementSpeed;
+  /// @brief Field noteJumpMovementSpeed, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteJumpMovementSpeed, put = __cordl_internal_set_noteJumpMovementSpeed)) float_t noteJumpMovementSpeed;
 
-/// @brief Field noteJumpValue, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_noteJumpValue, put=__cordl_internal_set_noteJumpValue)) float_t  noteJumpValue;
+  /// @brief Field noteJumpValue, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteJumpValue, put = __cordl_internal_set_noteJumpValue)) float_t noteJumpValue;
 
-/// @brief Field noteJumpValueType, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get_noteJumpValueType, put=__cordl_internal_set_noteJumpValueType)) ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType  noteJumpValueType;
+  /// @brief Field noteJumpValueType, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteJumpValueType,
+                      put = __cordl_internal_set_noteJumpValueType)) ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType noteJumpValueType;
 
-/// @brief Field noteLinesCount, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_noteLinesCount, put=__cordl_internal_set_noteLinesCount)) int32_t  noteLinesCount;
+  /// @brief Field noteLinesCount, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteLinesCount, put = __cordl_internal_set_noteLinesCount)) int32_t noteLinesCount;
 
-static inline ::GlobalNamespace::BeatmapObjectSpawnController_InitData* New_ctor(float_t  beatsPerMinute, int32_t  noteLinesCount, float_t  noteJumpMovementSpeed, ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType  noteJumpValueType, float_t  noteJumpValue) ;
+  static inline ::GlobalNamespace::BeatmapObjectSpawnController_InitData* New_ctor(float_t beatsPerMinute, int32_t noteLinesCount, float_t noteJumpMovementSpeed,
+                                                                                   ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType noteJumpValueType, float_t noteJumpValue);
 
-constexpr float_t const& __cordl_internal_get_beatsPerMinute() const;
+  constexpr float_t const& __cordl_internal_get_beatsPerMinute() const;
 
-constexpr float_t& __cordl_internal_get_beatsPerMinute() ;
+  constexpr float_t& __cordl_internal_get_beatsPerMinute();
 
-constexpr float_t const& __cordl_internal_get_noteJumpMovementSpeed() const;
+  constexpr float_t const& __cordl_internal_get_noteJumpMovementSpeed() const;
 
-constexpr float_t& __cordl_internal_get_noteJumpMovementSpeed() ;
+  constexpr float_t& __cordl_internal_get_noteJumpMovementSpeed();
 
-constexpr float_t const& __cordl_internal_get_noteJumpValue() const;
+  constexpr float_t const& __cordl_internal_get_noteJumpValue() const;
 
-constexpr float_t& __cordl_internal_get_noteJumpValue() ;
+  constexpr float_t& __cordl_internal_get_noteJumpValue();
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType const& __cordl_internal_get_noteJumpValueType() const;
+  constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType const& __cordl_internal_get_noteJumpValueType() const;
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType& __cordl_internal_get_noteJumpValueType() ;
+  constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType& __cordl_internal_get_noteJumpValueType();
 
-constexpr int32_t const& __cordl_internal_get_noteLinesCount() const;
+  constexpr int32_t const& __cordl_internal_get_noteLinesCount() const;
 
-constexpr int32_t& __cordl_internal_get_noteLinesCount() ;
+  constexpr int32_t& __cordl_internal_get_noteLinesCount();
 
-constexpr void __cordl_internal_set_beatsPerMinute(float_t  value) ;
+  constexpr void __cordl_internal_set_beatsPerMinute(float_t value);
 
-constexpr void __cordl_internal_set_noteJumpMovementSpeed(float_t  value) ;
+  constexpr void __cordl_internal_set_noteJumpMovementSpeed(float_t value);
 
-constexpr void __cordl_internal_set_noteJumpValue(float_t  value) ;
+  constexpr void __cordl_internal_set_noteJumpValue(float_t value);
 
-constexpr void __cordl_internal_set_noteJumpValueType(::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType  value) ;
+  constexpr void __cordl_internal_set_noteJumpValueType(::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType value);
 
-constexpr void __cordl_internal_set_noteLinesCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_noteLinesCount(int32_t value);
 
-/// @brief Method .ctor, addr 0x571ef90, size 0x18, virtual false, abstract: false, final false
-inline void _ctor(float_t  beatsPerMinute, int32_t  noteLinesCount, float_t  noteJumpMovementSpeed, ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType  noteJumpValueType, float_t  noteJumpValue) ;
+  /// @brief Method .ctor, addr 0x578e90c, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(float_t beatsPerMinute, int32_t noteLinesCount, float_t noteJumpMovementSpeed, ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType noteJumpValueType,
+                    float_t noteJumpValue);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapObjectSpawnController_InitData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapObjectSpawnController_InitData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapObjectSpawnController_InitData(BeatmapObjectSpawnController_InitData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapObjectSpawnController_InitData(BeatmapObjectSpawnController_InitData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapObjectSpawnController_InitData(BeatmapObjectSpawnController_InitData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController_InitData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapObjectSpawnController_InitData(BeatmapObjectSpawnController_InitData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5636 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5635};
+  /// @brief Field beatsPerMinute, offset: 0x10, size: 0x4, def value: None
+  float_t ___beatsPerMinute;
 
-/// @brief Field beatsPerMinute, offset: 0x10, size: 0x4, def value: None
- float_t  ___beatsPerMinute;
+  /// @brief Field noteLinesCount, offset: 0x14, size: 0x4, def value: None
+  int32_t ___noteLinesCount;
 
-/// @brief Field noteLinesCount, offset: 0x14, size: 0x4, def value: None
- int32_t  ___noteLinesCount;
+  /// @brief Field noteJumpMovementSpeed, offset: 0x18, size: 0x4, def value: None
+  float_t ___noteJumpMovementSpeed;
 
-/// @brief Field noteJumpMovementSpeed, offset: 0x18, size: 0x4, def value: None
- float_t  ___noteJumpMovementSpeed;
+  /// @brief Field noteJumpValueType, offset: 0x1c, size: 0x4, def value: None
+  ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType ___noteJumpValueType;
 
-/// @brief Field noteJumpValueType, offset: 0x1c, size: 0x4, def value: None
- ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType  ___noteJumpValueType;
+  /// @brief Field noteJumpValue, offset: 0x20, size: 0x4, def value: None
+  float_t ___noteJumpValue;
 
-/// @brief Field noteJumpValue, offset: 0x20, size: 0x4, def value: None
- float_t  ___noteJumpValue;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController_InitData, ___beatsPerMinute) == 0x10, "Offset mismatch!");
@@ -162,244 +165,250 @@ static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController_InitData,
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectSpawnController_InitData, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapObjectSpawnController
 class CORDL_TYPE BeatmapObjectSpawnController : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-using InitData = ::GlobalNamespace::BeatmapObjectSpawnController_InitData;
+  // Declarations
+  using InitData = ::GlobalNamespace::BeatmapObjectSpawnController_InitData;
 
-/// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapCallbacksController, put=__cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController*  _beatmapCallbacksController;
+  /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-/// @brief Field _beatmapData, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapData, put=__cordl_internal_set__beatmapData)) ::GlobalNamespace::IReadonlyBeatmapData*  _beatmapData;
+  /// @brief Field _beatmapData, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
 
-/// @brief Field _beatmapObjectSpawnMovementData, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapObjectSpawnMovementData, put=__cordl_internal_set__beatmapObjectSpawnMovementData)) ::GlobalNamespace::BeatmapObjectSpawnMovementData*  _beatmapObjectSpawnMovementData;
+  /// @brief Field _beatmapObjectSpawnMovementData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnMovementData,
+                      put = __cordl_internal_set__beatmapObjectSpawnMovementData)) ::GlobalNamespace::BeatmapObjectSpawnMovementData* _beatmapObjectSpawnMovementData;
 
-/// @brief Field _beatmapObjectSpawner, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapObjectSpawner, put=__cordl_internal_set__beatmapObjectSpawner)) ::GlobalNamespace::IBeatmapObjectSpawner*  _beatmapObjectSpawner;
+  /// @brief Field _beatmapObjectSpawner, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawner, put = __cordl_internal_set__beatmapObjectSpawner)) ::GlobalNamespace::IBeatmapObjectSpawner* _beatmapObjectSpawner;
 
-/// @brief Field _disableSpawning, offset 0x60, size 0x1 
- __declspec(property(get=__cordl_internal_get__disableSpawning, put=__cordl_internal_set__disableSpawning)) bool  _disableSpawning;
+  /// @brief Field _disableSpawning, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get__disableSpawning, put = __cordl_internal_set__disableSpawning)) bool _disableSpawning;
 
-/// @brief Field _initData, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__initData, put=__cordl_internal_set__initData)) ::GlobalNamespace::BeatmapObjectSpawnController_InitData*  _initData;
+  /// @brief Field _initData, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::BeatmapObjectSpawnController_InitData* _initData;
 
-/// @brief Field _isInitialized, offset 0x61, size 0x1 
- __declspec(property(get=__cordl_internal_get__isInitialized, put=__cordl_internal_set__isInitialized)) bool  _isInitialized;
+  /// @brief Field _isInitialized, offset 0x61, size 0x1
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-/// @brief Field _jumpOffsetYProvider, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__jumpOffsetYProvider, put=__cordl_internal_set__jumpOffsetYProvider)) ::GlobalNamespace::IJumpOffsetYProvider*  _jumpOffsetYProvider;
+  /// @brief Field _jumpOffsetYProvider, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__jumpOffsetYProvider, put = __cordl_internal_set__jumpOffsetYProvider)) ::GlobalNamespace::IJumpOffsetYProvider* _jumpOffsetYProvider;
 
-/// @brief Field _noteDataCallbackWrapper, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get__noteDataCallbackWrapper, put=__cordl_internal_set__noteDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper*  _noteDataCallbackWrapper;
+  /// @brief Field _noteDataCallbackWrapper, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteDataCallbackWrapper,
+                      put = __cordl_internal_set__noteDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _noteDataCallbackWrapper;
 
-/// @brief Field _obstacleDataCallbackWrapper, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get__obstacleDataCallbackWrapper, put=__cordl_internal_set__obstacleDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper*  _obstacleDataCallbackWrapper;
+  /// @brief Field _obstacleDataCallbackWrapper, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__obstacleDataCallbackWrapper,
+                      put = __cordl_internal_set__obstacleDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _obstacleDataCallbackWrapper;
 
-/// @brief Field _sliderDataCallbackWrapper, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get__sliderDataCallbackWrapper, put=__cordl_internal_set__sliderDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper*  _sliderDataCallbackWrapper;
+  /// @brief Field _sliderDataCallbackWrapper, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__sliderDataCallbackWrapper,
+                      put = __cordl_internal_set__sliderDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _sliderDataCallbackWrapper;
 
-/// @brief Field _variableMovementDataProvider, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__variableMovementDataProvider, put=__cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider*  _variableMovementDataProvider;
+  /// @brief Field _variableMovementDataProvider, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
+                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
- __declspec(property(get=get_beatmapObjectSpawnMovementData)) ::GlobalNamespace::BeatmapObjectSpawnMovementData*  beatmapObjectSpawnMovementData;
+  __declspec(property(get = get_beatmapObjectSpawnMovementData)) ::GlobalNamespace::BeatmapObjectSpawnMovementData* beatmapObjectSpawnMovementData;
 
-/// @brief Field didInitEvent, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get_didInitEvent, put=__cordl_internal_set_didInitEvent)) ::System::Action*  didInitEvent;
+  /// @brief Field didInitEvent, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_didInitEvent, put = __cordl_internal_set_didInitEvent)) ::System::Action* didInitEvent;
 
- __declspec(property(get=get_isInitialized)) bool  isInitialized;
+  __declspec(property(get = get_isInitialized)) bool isInitialized;
 
- __declspec(property(get=get_noteLinesCount)) int32_t  noteLinesCount;
+  __declspec(property(get = get_noteLinesCount)) int32_t noteLinesCount;
 
- __declspec(property(get=get_noteLinesDistance)) float_t  noteLinesDistance;
+  __declspec(property(get = get_noteLinesDistance)) float_t noteLinesDistance;
 
- __declspec(property(get=get_verticalLayerDistance)) float_t  verticalLayerDistance;
+  __declspec(property(get = get_verticalLayerDistance)) float_t verticalLayerDistance;
 
-/// @brief Method HandleNoteDataCallback, addr 0x571e844, size 0xf8, virtual false, abstract: false, final false
-inline void HandleNoteDataCallback(::GlobalNamespace::NoteData*  noteData) ;
+  /// @brief Method HandleNoteDataCallback, addr 0x578e1c0, size 0xf8, virtual false, abstract: false, final false
+  inline void HandleNoteDataCallback(::GlobalNamespace::NoteData* noteData);
 
-/// @brief Method HandleObstacleDataCallback, addr 0x571ea30, size 0xf4, virtual false, abstract: false, final false
-inline void HandleObstacleDataCallback(::GlobalNamespace::ObstacleData*  obstacleData) ;
+  /// @brief Method HandleObstacleDataCallback, addr 0x578e3ac, size 0xf4, virtual false, abstract: false, final false
+  inline void HandleObstacleDataCallback(::GlobalNamespace::ObstacleData* obstacleData);
 
-/// @brief Method HandleSliderDataCallback, addr 0x571ecb4, size 0xec, virtual false, abstract: false, final false
-inline void HandleSliderDataCallback(::GlobalNamespace::SliderData*  sliderNoteData) ;
+  /// @brief Method HandleSliderDataCallback, addr 0x578e630, size 0xec, virtual false, abstract: false, final false
+  inline void HandleSliderDataCallback(::GlobalNamespace::SliderData* sliderNoteData);
 
-static inline ::GlobalNamespace::BeatmapObjectSpawnController* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapObjectSpawnController* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x571e7f0, size 0x54, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x578e178, size 0x48, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method Start, addr 0x571e000, size 0x7dc, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x578d988, size 0x7dc, virtual false, abstract: false, final false
+  inline void Start();
 
-/// @brief Method StopSpawning, addr 0x571eed8, size 0xc, virtual false, abstract: false, final false
-inline void StopSpawning() ;
+  /// @brief Method StopSpawning, addr 0x578e854, size 0xc, virtual false, abstract: false, final false
+  inline void StopSpawning();
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController() ;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get__beatmapData() const;
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get__beatmapData() const;
 
-constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData() ;
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData* const& __cordl_internal_get__beatmapObjectSpawnMovementData() const;
+  constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData* const& __cordl_internal_get__beatmapObjectSpawnMovementData() const;
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData*& __cordl_internal_get__beatmapObjectSpawnMovementData() ;
+  constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData*& __cordl_internal_get__beatmapObjectSpawnMovementData();
 
-constexpr ::GlobalNamespace::IBeatmapObjectSpawner* const& __cordl_internal_get__beatmapObjectSpawner() const;
+  constexpr ::GlobalNamespace::IBeatmapObjectSpawner* const& __cordl_internal_get__beatmapObjectSpawner() const;
 
-constexpr ::GlobalNamespace::IBeatmapObjectSpawner*& __cordl_internal_get__beatmapObjectSpawner() ;
+  constexpr ::GlobalNamespace::IBeatmapObjectSpawner*& __cordl_internal_get__beatmapObjectSpawner();
 
-constexpr bool const& __cordl_internal_get__disableSpawning() const;
+  constexpr bool const& __cordl_internal_get__disableSpawning() const;
 
-constexpr bool& __cordl_internal_get__disableSpawning() ;
+  constexpr bool& __cordl_internal_get__disableSpawning();
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnController_InitData* const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::BeatmapObjectSpawnController_InitData* const& __cordl_internal_get__initData() const;
 
-constexpr ::GlobalNamespace::BeatmapObjectSpawnController_InitData*& __cordl_internal_get__initData() ;
+  constexpr ::GlobalNamespace::BeatmapObjectSpawnController_InitData*& __cordl_internal_get__initData();
 
-constexpr bool const& __cordl_internal_get__isInitialized() const;
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-constexpr bool& __cordl_internal_get__isInitialized() ;
+  constexpr bool& __cordl_internal_get__isInitialized();
 
-constexpr ::GlobalNamespace::IJumpOffsetYProvider* const& __cordl_internal_get__jumpOffsetYProvider() const;
+  constexpr ::GlobalNamespace::IJumpOffsetYProvider* const& __cordl_internal_get__jumpOffsetYProvider() const;
 
-constexpr ::GlobalNamespace::IJumpOffsetYProvider*& __cordl_internal_get__jumpOffsetYProvider() ;
+  constexpr ::GlobalNamespace::IJumpOffsetYProvider*& __cordl_internal_get__jumpOffsetYProvider();
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__noteDataCallbackWrapper() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__noteDataCallbackWrapper() const;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__noteDataCallbackWrapper() ;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__noteDataCallbackWrapper();
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__obstacleDataCallbackWrapper() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__obstacleDataCallbackWrapper() const;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__obstacleDataCallbackWrapper() ;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__obstacleDataCallbackWrapper();
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__sliderDataCallbackWrapper() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__sliderDataCallbackWrapper() const;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__sliderDataCallbackWrapper() ;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__sliderDataCallbackWrapper();
 
-constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
 
-constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider() ;
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
 
-constexpr ::System::Action* const& __cordl_internal_get_didInitEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didInitEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_didInitEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_didInitEvent();
 
-constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value) ;
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData*  value) ;
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-constexpr void __cordl_internal_set__beatmapObjectSpawnMovementData(::GlobalNamespace::BeatmapObjectSpawnMovementData*  value) ;
+  constexpr void __cordl_internal_set__beatmapObjectSpawnMovementData(::GlobalNamespace::BeatmapObjectSpawnMovementData* value);
 
-constexpr void __cordl_internal_set__beatmapObjectSpawner(::GlobalNamespace::IBeatmapObjectSpawner*  value) ;
+  constexpr void __cordl_internal_set__beatmapObjectSpawner(::GlobalNamespace::IBeatmapObjectSpawner* value);
 
-constexpr void __cordl_internal_set__disableSpawning(bool  value) ;
+  constexpr void __cordl_internal_set__disableSpawning(bool value);
 
-constexpr void __cordl_internal_set__initData(::GlobalNamespace::BeatmapObjectSpawnController_InitData*  value) ;
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::BeatmapObjectSpawnController_InitData* value);
 
-constexpr void __cordl_internal_set__isInitialized(bool  value) ;
+  constexpr void __cordl_internal_set__isInitialized(bool value);
 
-constexpr void __cordl_internal_set__jumpOffsetYProvider(::GlobalNamespace::IJumpOffsetYProvider*  value) ;
+  constexpr void __cordl_internal_set__jumpOffsetYProvider(::GlobalNamespace::IJumpOffsetYProvider* value);
 
-constexpr void __cordl_internal_set__noteDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value) ;
+  constexpr void __cordl_internal_set__noteDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-constexpr void __cordl_internal_set__obstacleDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value) ;
+  constexpr void __cordl_internal_set__obstacleDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-constexpr void __cordl_internal_set__sliderDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value) ;
+  constexpr void __cordl_internal_set__sliderDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider*  value) ;
+  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
-constexpr void __cordl_internal_set_didInitEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_didInitEvent(::System::Action* value);
 
-/// @brief Method .ctor, addr 0x571eee4, size 0x80, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x578e860, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_didInitEvent, addr 0x571dea8, size 0xac, virtual false, abstract: false, final false
-inline void add_didInitEvent(::System::Action*  value) ;
+  /// @brief Method add_didInitEvent, addr 0x578d830, size 0xac, virtual false, abstract: false, final false
+  inline void add_didInitEvent(::System::Action* value);
 
-/// @brief Method get_beatmapObjectSpawnMovementData, addr 0x571de30, size 0x8, virtual false, abstract: false, final false
-inline ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData() ;
+  /// @brief Method get_beatmapObjectSpawnMovementData, addr 0x578d7b8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
 
-/// @brief Method get_isInitialized, addr 0x571dea0, size 0x8, virtual false, abstract: false, final false
-inline bool get_isInitialized() ;
+  /// @brief Method get_isInitialized, addr 0x578d828, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isInitialized();
 
-/// @brief Method get_noteLinesCount, addr 0x571de38, size 0x18, virtual false, abstract: false, final false
-inline int32_t get_noteLinesCount() ;
+  /// @brief Method get_noteLinesCount, addr 0x578d7c0, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_noteLinesCount();
 
-/// @brief Method get_noteLinesDistance, addr 0x571de50, size 0x1c, virtual false, abstract: false, final false
-inline float_t get_noteLinesDistance() ;
+  /// @brief Method get_noteLinesDistance, addr 0x578d7d8, size 0x1c, virtual false, abstract: false, final false
+  inline float_t get_noteLinesDistance();
 
-/// @brief Method get_verticalLayerDistance, addr 0x571de78, size 0x1c, virtual false, abstract: false, final false
-inline float_t get_verticalLayerDistance() ;
+  /// @brief Method get_verticalLayerDistance, addr 0x578d800, size 0x1c, virtual false, abstract: false, final false
+  inline float_t get_verticalLayerDistance();
 
-/// @brief Method remove_didInitEvent, addr 0x571df54, size 0xac, virtual false, abstract: false, final false
-inline void remove_didInitEvent(::System::Action*  value) ;
+  /// @brief Method remove_didInitEvent, addr 0x578d8dc, size 0xac, virtual false, abstract: false, final false
+  inline void remove_didInitEvent(::System::Action* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapObjectSpawnController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapObjectSpawnController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapObjectSpawnController(BeatmapObjectSpawnController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapObjectSpawnController(BeatmapObjectSpawnController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapObjectSpawnController(BeatmapObjectSpawnController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapObjectSpawnController(BeatmapObjectSpawnController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5637 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5636};
+  /// @brief Field _beatmapObjectSpawnMovementData, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapObjectSpawnMovementData* ____beatmapObjectSpawnMovementData;
 
-/// @brief Field _beatmapObjectSpawnMovementData, offset: 0x20, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapObjectSpawnMovementData*  ____beatmapObjectSpawnMovementData;
+  /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-/// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapCallbacksController*  ____beatmapCallbacksController;
+  /// @brief Field _beatmapObjectSpawner, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::IBeatmapObjectSpawner* ____beatmapObjectSpawner;
 
-/// @brief Field _beatmapObjectSpawner, offset: 0x30, size: 0x8, def value: None
- ::GlobalNamespace::IBeatmapObjectSpawner*  ____beatmapObjectSpawner;
+  /// @brief Field _jumpOffsetYProvider, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::IJumpOffsetYProvider* ____jumpOffsetYProvider;
 
-/// @brief Field _jumpOffsetYProvider, offset: 0x38, size: 0x8, def value: None
- ::GlobalNamespace::IJumpOffsetYProvider*  ____jumpOffsetYProvider;
+  /// @brief Field _variableMovementDataProvider, offset: 0x40, size: 0x8, def value: None
+  ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
-/// @brief Field _variableMovementDataProvider, offset: 0x40, size: 0x8, def value: None
- ::GlobalNamespace::IVariableMovementDataProvider*  ____variableMovementDataProvider;
+  /// @brief Field _beatmapData, offset: 0x48, size: 0x8, def value: None
+  ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
-/// @brief Field _beatmapData, offset: 0x48, size: 0x8, def value: None
- ::GlobalNamespace::IReadonlyBeatmapData*  ____beatmapData;
+  /// @brief Field _initData, offset: 0x50, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapObjectSpawnController_InitData* ____initData;
 
-/// @brief Field _initData, offset: 0x50, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapObjectSpawnController_InitData*  ____initData;
+  /// @brief Field didInitEvent, offset: 0x58, size: 0x8, def value: None
+  ::System::Action* ___didInitEvent;
 
-/// @brief Field didInitEvent, offset: 0x58, size: 0x8, def value: None
- ::System::Action*  ___didInitEvent;
+  /// @brief Field _disableSpawning, offset: 0x60, size: 0x1, def value: None
+  bool ____disableSpawning;
 
-/// @brief Field _disableSpawning, offset: 0x60, size: 0x1, def value: None
- bool  ____disableSpawning;
+  /// @brief Field _isInitialized, offset: 0x61, size: 0x1, def value: None
+  bool ____isInitialized;
 
-/// @brief Field _isInitialized, offset: 0x61, size: 0x1, def value: None
- bool  ____isInitialized;
+  /// @brief Field _obstacleDataCallbackWrapper, offset: 0x68, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____obstacleDataCallbackWrapper;
 
-/// @brief Field _obstacleDataCallbackWrapper, offset: 0x68, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapDataCallbackWrapper*  ____obstacleDataCallbackWrapper;
+  /// @brief Field _noteDataCallbackWrapper, offset: 0x70, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____noteDataCallbackWrapper;
 
-/// @brief Field _noteDataCallbackWrapper, offset: 0x70, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapDataCallbackWrapper*  ____noteDataCallbackWrapper;
+  /// @brief Field _sliderDataCallbackWrapper, offset: 0x78, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____sliderDataCallbackWrapper;
 
-/// @brief Field _sliderDataCallbackWrapper, offset: 0x78, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapDataCallbackWrapper*  ____sliderDataCallbackWrapper;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____beatmapObjectSpawnMovementData) == 0x20, "Offset mismatch!");
@@ -430,7 +439,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____slid
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectSpawnController, 0x80>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectSpawnController*, "", "BeatmapObjectSpawnController");
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnController_InitData);

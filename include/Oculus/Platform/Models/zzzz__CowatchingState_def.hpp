@@ -20,48 +20,48 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.CowatchingState
 class CORDL_TYPE CowatchingState : public ::System::Object {
 public:
-// Declarations
-/// @brief Field InSession, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_InSession, put=__cordl_internal_set_InSession)) bool  InSession;
+  // Declarations
+  /// @brief Field InSession, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_InSession, put = __cordl_internal_set_InSession)) bool InSession;
 
-static inline ::Oculus::Platform::Models::CowatchingState* New_ctor(::System::IntPtr  o) ;
+  static inline ::Oculus::Platform::Models::CowatchingState* New_ctor(::System::IntPtr o);
 
-constexpr bool const& __cordl_internal_get_InSession() const;
+  constexpr bool const& __cordl_internal_get_InSession() const;
 
-constexpr bool& __cordl_internal_get_InSession() ;
+  constexpr bool& __cordl_internal_get_InSession();
 
-constexpr void __cordl_internal_set_InSession(bool  value) ;
+  constexpr void __cordl_internal_set_InSession(bool value);
 
-/// @brief Method .ctor, addr 0x5c41288, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  o) ;
+  /// @brief Method .ctor, addr 0x5cb3270, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CowatchingState() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CowatchingState();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CowatchingState", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CowatchingState(CowatchingState&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CowatchingState", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CowatchingState(CowatchingState && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CowatchingState", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CowatchingState(CowatchingState const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CowatchingState", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CowatchingState(CowatchingState const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18015 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18007};
+  /// @brief Field InSession, offset: 0x10, size: 0x1, def value: None
+  bool ___InSession;
 
-/// @brief Field InSession, offset: 0x10, size: 0x1, def value: None
- bool  ___InSession;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::CowatchingState, ___InSession) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::CowatchingState, 0x18>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::CowatchingState);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CowatchingState*, "Oculus.Platform.Models", "CowatchingState");

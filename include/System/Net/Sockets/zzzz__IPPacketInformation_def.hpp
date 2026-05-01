@@ -18,39 +18,40 @@ struct IPPacketInformation;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::IPPacketInformation);
-// Dependencies 
+// Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
 // CS Name: System.Net.Sockets.IPPacketInformation
 struct CORDL_TYPE IPPacketInformation {
 public:
-// Declarations
-/// @brief Method Equals, addr 0x61b5b70, size 0x9c, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  comparand) ;
+  // Declarations
+  /// @brief Method Equals, addr 0x6227b7c, size 0x9c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* comparand);
 
-/// @brief Method GetHashCode, addr 0x61b5c0c, size 0x30, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6227c18, size 0x30, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr IPPacketInformation() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IPPacketInformation();
 
-// Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr IPPacketInformation(::System::Net::IPAddress*  address, int32_t  networkInterface) noexcept;
+  // Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value: None
+  // }]
+  constexpr IPPacketInformation(::System::Net::IPAddress* address, int32_t networkInterface) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11743};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11750 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field address, offset: 0x0, size: 0x8, def value: None
- ::System::Net::IPAddress*  address;
+  /// @brief Field address, offset: 0x0, size: 0x8, def value: None
+  ::System::Net::IPAddress* address;
 
-/// @brief Field networkInterface, offset: 0x8, size: 0x4, def value: None
- int32_t  networkInterface;
+  /// @brief Field networkInterface, offset: 0x8, size: 0x4, def value: None
+  int32_t networkInterface;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Sockets::IPPacketInformation, address) == 0x0, "Offset mismatch!");
@@ -59,5 +60,5 @@ static_assert(offsetof(::System::Net::Sockets::IPPacketInformation, networkInter
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::IPPacketInformation, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net::Sockets
+} // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::IPPacketInformation, "System.Net.Sockets", "IPPacketInformation");

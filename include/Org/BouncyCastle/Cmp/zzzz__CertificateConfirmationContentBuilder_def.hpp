@@ -35,84 +35,85 @@ namespace Org::BouncyCastle::Cmp {
 // CS Name: Org.BouncyCastle.Cmp.CertificateConfirmationContentBuilder
 class CORDL_TYPE CertificateConfirmationContentBuilder : public ::System::Object {
 public:
-// Declarations
-/// @brief Field acceptedCerts, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_acceptedCerts, put=__cordl_internal_set_acceptedCerts)) ::System::Collections::IList*  acceptedCerts;
+  // Declarations
+  /// @brief Field acceptedCerts, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_acceptedCerts, put = __cordl_internal_set_acceptedCerts)) ::System::Collections::IList* acceptedCerts;
 
-/// @brief Field acceptedReqIds, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_acceptedReqIds, put=__cordl_internal_set_acceptedReqIds)) ::System::Collections::IList*  acceptedReqIds;
+  /// @brief Field acceptedReqIds, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_acceptedReqIds, put = __cordl_internal_set_acceptedReqIds)) ::System::Collections::IList* acceptedReqIds;
 
-/// @brief Field digestAlgFinder, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_digestAlgFinder, put=__cordl_internal_set_digestAlgFinder)) ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  digestAlgFinder;
+  /// @brief Field digestAlgFinder, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_digestAlgFinder, put = __cordl_internal_set_digestAlgFinder)) ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
 
-/// @brief Field sigAlgFinder, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_sigAlgFinder, put=setStaticF_sigAlgFinder)) ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder*  sigAlgFinder;
+  /// @brief Field sigAlgFinder, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_sigAlgFinder, put = setStaticF_sigAlgFinder)) ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* sigAlgFinder;
 
-/// @brief Method AddAcceptedCertificate, addr 0x35a608c, size 0x12c, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* AddAcceptedCertificate(::Org::BouncyCastle::X509::X509Certificate*  certHolder, ::Org::BouncyCastle::Math::BigInteger*  certReqId) ;
+  /// @brief Method AddAcceptedCertificate, addr 0x35e26d0, size 0x12c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* AddAcceptedCertificate(::Org::BouncyCastle::X509::X509Certificate* certHolder,
+                                                                                                 ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-/// @brief Method Build, addr 0x35a61b8, size 0x474, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Build() ;
+  /// @brief Method Build, addr 0x35e27fc, size 0x474, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Build();
 
-static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor() ;
+  static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor();
 
-static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  digestAlgFinder) ;
+  static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-constexpr ::System::Collections::IList* const& __cordl_internal_get_acceptedCerts() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_acceptedCerts() const;
 
-constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedCerts() ;
+  constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedCerts();
 
-constexpr ::System::Collections::IList* const& __cordl_internal_get_acceptedReqIds() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_acceptedReqIds() const;
 
-constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedReqIds() ;
+  constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedReqIds();
 
-constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* const& __cordl_internal_get_digestAlgFinder() const;
+  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* const& __cordl_internal_get_digestAlgFinder() const;
 
-constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __cordl_internal_get_digestAlgFinder() ;
+  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __cordl_internal_get_digestAlgFinder();
 
-constexpr void __cordl_internal_set_acceptedCerts(::System::Collections::IList*  value) ;
+  constexpr void __cordl_internal_set_acceptedCerts(::System::Collections::IList* value);
 
-constexpr void __cordl_internal_set_acceptedReqIds(::System::Collections::IList*  value) ;
+  constexpr void __cordl_internal_set_acceptedReqIds(::System::Collections::IList* value);
 
-constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  value) ;
+  constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-/// @brief Method .ctor, addr 0x35a5fbc, size 0x54, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x35e2600, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x35a6010, size 0x7c, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  digestAlgFinder) ;
+  /// @brief Method .ctor, addr 0x35e2654, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* getStaticF_sigAlgFinder() ;
+  static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* getStaticF_sigAlgFinder();
 
-static inline void setStaticF_sigAlgFinder(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder*  value) ;
+  static inline void setStaticF_sigAlgFinder(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CertificateConfirmationContentBuilder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertificateConfirmationContentBuilder();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateConfirmationContentBuilder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CertificateConfirmationContentBuilder(CertificateConfirmationContentBuilder&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CertificateConfirmationContentBuilder", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CertificateConfirmationContentBuilder(CertificateConfirmationContentBuilder && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateConfirmationContentBuilder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CertificateConfirmationContentBuilder(CertificateConfirmationContentBuilder const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CertificateConfirmationContentBuilder", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CertificateConfirmationContentBuilder(CertificateConfirmationContentBuilder const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 602 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{602};
+  /// @brief Field digestAlgFinder, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* ___digestAlgFinder;
 
-/// @brief Field digestAlgFinder, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*  ___digestAlgFinder;
+  /// @brief Field acceptedCerts, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::IList* ___acceptedCerts;
 
-/// @brief Field acceptedCerts, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::IList*  ___acceptedCerts;
+  /// @brief Field acceptedReqIds, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::IList* ___acceptedReqIds;
 
-/// @brief Field acceptedReqIds, offset: 0x20, size: 0x8, def value: None
- ::System::Collections::IList*  ___acceptedReqIds;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder, ___digestAlgFinder) == 0x10, "Offset mismatch!");
@@ -123,6 +124,6 @@ static_assert(offsetof(::Org::BouncyCastle::Cmp::CertificateConfirmationContentB
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder, 0x28>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Cmp
+} // namespace Org::BouncyCastle::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder*, "Org.BouncyCastle.Cmp", "CertificateConfirmationContentBuilder");

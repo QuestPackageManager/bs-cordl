@@ -14,44 +14,44 @@ struct VolumeIsolationScope;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::VolumeIsolationScope);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.VolumeIsolationScope
 #pragma pack(push, 0)
 struct CORDL_TYPE VolumeIsolationScope {
 public:
-// Declarations
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
 
-/// @brief Method System.IDisposable.Dispose, addr 0x6615bf4, size 0x4, virtual true, abstract: false, final true
-inline void System_IDisposable_Dispose() ;
+  /// @brief Method System.IDisposable.Dispose, addr 0x6687c00, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
-/// @brief Method .ctor, addr 0x6615bf0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(bool  unused) ;
+  /// @brief Method .ctor, addr 0x6687bfc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(bool unused);
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() ;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr VolumeIsolationScope() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VolumeIsolationScope();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12308};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12315 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::VolumeIsolationScope, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::VolumeIsolationScope, "UnityEngine.Rendering", "VolumeIsolationScope");

@@ -7,8 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SubsystemDescriptorStore)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 struct IntPtr;
@@ -37,77 +36,79 @@ namespace UnityEngine::SubsystemsImplementation {
 // CS Name: UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore
 class CORDL_TYPE SubsystemDescriptorStore : public ::System::Object {
 public:
-// Declarations
-/// @brief Field s_DeprecatedDescriptors, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_DeprecatedDescriptors, put=setStaticF_s_DeprecatedDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>*  s_DeprecatedDescriptors;
+  // Declarations
+  /// @brief Field s_DeprecatedDescriptors, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_DeprecatedDescriptors,
+                      put = setStaticF_s_DeprecatedDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>* s_DeprecatedDescriptors;
 
-/// @brief Field s_IntegratedDescriptors, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_IntegratedDescriptors, put=setStaticF_s_IntegratedDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::IntegratedSubsystemDescriptor*>*  s_IntegratedDescriptors;
+  /// @brief Field s_IntegratedDescriptors, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_IntegratedDescriptors,
+                      put = setStaticF_s_IntegratedDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::IntegratedSubsystemDescriptor*>* s_IntegratedDescriptors;
 
-/// @brief Field s_StandaloneDescriptors, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_StandaloneDescriptors, put=setStaticF_s_StandaloneDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>*  s_StandaloneDescriptors;
+  /// @brief Field s_StandaloneDescriptors, offset 0xffffffff, size 0x8
+  __declspec(property(
+      get = getStaticF_s_StandaloneDescriptors,
+      put = setStaticF_s_StandaloneDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>* s_StandaloneDescriptors;
 
-/// @brief Method AddDescriptorSubset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TBaseTypeInList,typename TQueryType>
-static inline void AddDescriptorSubset(::System::Collections::Generic::List_1<TBaseTypeInList>*  copyFrom, ::System::Collections::Generic::List_1<TQueryType>*  copyTo) ;
+  /// @brief Method AddDescriptorSubset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TBaseTypeInList, typename TQueryType>
+  static inline void AddDescriptorSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
-/// @brief Method ClearManagedDescriptors, addr 0x69ee160, size 0x190, virtual false, abstract: false, final false
-static inline void ClearManagedDescriptors() ;
+  /// @brief Method ClearManagedDescriptors, addr 0x6a603a8, size 0x190, virtual false, abstract: false, final false
+  static inline void ClearManagedDescriptors();
 
-/// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>*  descriptors) ;
+  /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
 
-/// @brief Method InitializeManagedDescriptor, addr 0x69ee074, size 0xec, virtual false, abstract: false, final false
-static inline void InitializeManagedDescriptor(::System::IntPtr  ptr, ::UnityEngine::IntegratedSubsystemDescriptor*  desc) ;
+  /// @brief Method InitializeManagedDescriptor, addr 0x6a602bc, size 0xec, virtual false, abstract: false, final false
+  static inline void InitializeManagedDescriptor(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystemDescriptor* desc);
 
-/// @brief Method RegisterDeprecatedDescriptor, addr 0x69ed7dc, size 0x80, virtual false, abstract: false, final false
-static inline void RegisterDeprecatedDescriptor(::UnityEngine::SubsystemDescriptor*  descriptor) ;
+  /// @brief Method RegisterDeprecatedDescriptor, addr 0x6a5fa24, size 0x80, virtual false, abstract: false, final false
+  static inline void RegisterDeprecatedDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
-/// @brief Method RegisterDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TDescriptor,typename TBaseTypeInList>
-static inline void RegisterDescriptor(TDescriptor  descriptor, ::System::Collections::Generic::List_1<TBaseTypeInList>*  storeInList) ;
+  /// @brief Method RegisterDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TDescriptor, typename TBaseTypeInList> static inline void RegisterDescriptor(TDescriptor descriptor, ::System::Collections::Generic::List_1<TBaseTypeInList>* storeInList);
 
-/// @brief Method ReportSingleSubsystemAnalytics, addr 0x69ee2f0, size 0x14c, virtual false, abstract: false, final false
-static inline void ReportSingleSubsystemAnalytics(::StringW  id) ;
+  /// @brief Method ReportSingleSubsystemAnalytics, addr 0x6a60538, size 0x14c, virtual false, abstract: false, final false
+  static inline void ReportSingleSubsystemAnalytics(::StringW id);
 
-/// @brief Method ReportSingleSubsystemAnalytics_Injected, addr 0x69ee43c, size 0x3c, virtual false, abstract: false, final false
-static inline void ReportSingleSubsystemAnalytics_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  id) ;
+  /// @brief Method ReportSingleSubsystemAnalytics_Injected, addr 0x6a60684, size 0x3c, virtual false, abstract: false, final false
+  static inline void ReportSingleSubsystemAnalytics_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> id);
 
-static inline ::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>* getStaticF_s_DeprecatedDescriptors() ;
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>* getStaticF_s_DeprecatedDescriptors();
 
-static inline ::System::Collections::Generic::List_1<::UnityEngine::IntegratedSubsystemDescriptor*>* getStaticF_s_IntegratedDescriptors() ;
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::IntegratedSubsystemDescriptor*>* getStaticF_s_IntegratedDescriptors();
 
-static inline ::System::Collections::Generic::List_1<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>* getStaticF_s_StandaloneDescriptors() ;
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>* getStaticF_s_StandaloneDescriptors();
 
-static inline void setStaticF_s_DeprecatedDescriptors(::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>*  value) ;
+  static inline void setStaticF_s_DeprecatedDescriptors(::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>* value);
 
-static inline void setStaticF_s_IntegratedDescriptors(::System::Collections::Generic::List_1<::UnityEngine::IntegratedSubsystemDescriptor*>*  value) ;
+  static inline void setStaticF_s_IntegratedDescriptors(::System::Collections::Generic::List_1<::UnityEngine::IntegratedSubsystemDescriptor*>* value);
 
-static inline void setStaticF_s_StandaloneDescriptors(::System::Collections::Generic::List_1<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>*  value) ;
+  static inline void setStaticF_s_StandaloneDescriptors(::System::Collections::Generic::List_1<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SubsystemDescriptorStore() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubsystemDescriptorStore();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SubsystemDescriptorStore(SubsystemDescriptorStore&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SubsystemDescriptorStore(SubsystemDescriptorStore && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SubsystemDescriptorStore(SubsystemDescriptorStore const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SubsystemDescriptorStore(SubsystemDescriptorStore const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22620 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22542};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::SubsystemsImplementation
+} // namespace UnityEngine::SubsystemsImplementation
 NEED_NO_BOX(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*, "UnityEngine.SubsystemsImplementation", "SubsystemDescriptorStore");

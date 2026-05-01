@@ -10,207 +10,175 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::MemoryTraceWriter.get_LevelFilter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceLevel (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::get_LevelFilter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceLevel (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
+    &::Newtonsoft::Json::Serialization::MemoryTraceWriter::get_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bab798;
+  constexpr static std::size_t addrs = 0x5c1d780;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "get_LevelFilter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
+                                                                               "get_LevelFilter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::MemoryTraceWriter.set_LevelFilter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(::System::Diagnostics::TraceLevel)>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::set_LevelFilter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(::System::Diagnostics::TraceLevel)>(
+    &::Newtonsoft::Json::Serialization::MemoryTraceWriter::set_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bab7a0;
+  constexpr static std::size_t addrs = 0x5c1d788;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "set_LevelFilter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(), "set_LevelFilter", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::MemoryTraceWriter._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
+    &::Newtonsoft::Json::Serialization::MemoryTraceWriter::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5bab7a8;
+  constexpr static std::size_t addrs = 0x5c1d790;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::MemoryTraceWriter.Trace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(::System::Diagnostics::TraceLevel, ::StringW, ::System::Exception*)>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::Trace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(
+    ::System::Diagnostics::TraceLevel, ::StringW, ::System::Exception*)>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::Trace)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5bab848;
+  constexpr static std::size_t addrs = 0x5c1d830;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "Trace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(), "Trace", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::MemoryTraceWriter.GetTraceMessages
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::GetTraceMessages)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
+    ::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::GetTraceMessages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5babb24;
+  constexpr static std::size_t addrs = 0x5c1db0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "GetTraceMessages",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
+                                                                               "GetTraceMessages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::MemoryTraceWriter.ToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
+    &::Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5babb2c;
+  constexpr static std::size_t addrs = 0x5c1db14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                                  3
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(), 3));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Queue_1<::StringW>*& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__traceMessages()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____traceMessages;
+constexpr ::System::Collections::Generic::Queue_1<::StringW>*& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__traceMessages() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____traceMessages;
 }
 constexpr ::System::Collections::Generic::Queue_1<::StringW>* const& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__traceMessages() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____traceMessages;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____traceMessages;
 }
-constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_set__traceMessages(::System::Collections::Generic::Queue_1<::StringW>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____traceMessages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_set__traceMessages(::System::Collections::Generic::Queue_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____traceMessages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__lock()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lock;
+constexpr ::System::Object*& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__lock() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lock;
 }
 constexpr ::System::Object* const& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__lock() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lock;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lock;
 }
-constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_set__lock(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_set__lock(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Diagnostics::TraceLevel& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__LevelFilter_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____LevelFilter_k__BackingField;
+constexpr ::System::Diagnostics::TraceLevel& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__LevelFilter_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____LevelFilter_k__BackingField;
 }
 constexpr ::System::Diagnostics::TraceLevel const& Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_get__LevelFilter_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____LevelFilter_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____LevelFilter_k__BackingField;
 }
-constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____LevelFilter_k__BackingField = value;
+constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____LevelFilter_k__BackingField = value;
 }
-inline ::System::Diagnostics::TraceLevel Newtonsoft::Json::Serialization::MemoryTraceWriter::get_LevelFilter()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "get_LevelFilter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceLevel, false>(this, ___internal_method);
+inline ::System::Diagnostics::TraceLevel Newtonsoft::Json::Serialization::MemoryTraceWriter::get_LevelFilter() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
+                                                                             "get_LevelFilter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceLevel, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::MemoryTraceWriter::set_LevelFilter(::System::Diagnostics::TraceLevel  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "set_LevelFilter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::Serialization::MemoryTraceWriter::set_LevelFilter(::System::Diagnostics::TraceLevel value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(), "set_LevelFilter", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::Serialization::MemoryTraceWriter::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::Serialization::MemoryTraceWriter::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::MemoryTraceWriter::Trace(::System::Diagnostics::TraceLevel  level, ::StringW  message, ::System::Exception*  ex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "Trace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level, message, ex);
+inline void Newtonsoft::Json::Serialization::MemoryTraceWriter::Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(), "Trace", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceLevel>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level, message, ex);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::StringW>* Newtonsoft::Json::Serialization::MemoryTraceWriter::GetTraceMessages()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                        "GetTraceMessages",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerable_1<::StringW>* Newtonsoft::Json::Serialization::MemoryTraceWriter::GetTraceMessages() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
+                                                                             "GetTraceMessages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*, false>(this, ___internal_method);
 }
-inline ::StringW Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(),
-                            3
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>::get(), 3)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Serialization::MemoryTraceWriter* Newtonsoft::Json::Serialization::MemoryTraceWriter::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>());
+inline ::Newtonsoft::Json::Serialization::MemoryTraceWriter* Newtonsoft::Json::Serialization::MemoryTraceWriter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>());
 }
 /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
-constexpr  Newtonsoft::Json::Serialization::MemoryTraceWriter::operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept {
-return static_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(static_cast<void*>(this));
+constexpr Newtonsoft::Json::Serialization::MemoryTraceWriter::operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept {
+  return static_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
 constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* Newtonsoft::Json::Serialization::MemoryTraceWriter::i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept {
-return static_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(static_cast<void*>(this));
+  return static_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Serialization::MemoryTraceWriter::MemoryTraceWriter()   {
-}
+constexpr ::Newtonsoft::Json::Serialization::MemoryTraceWriter::MemoryTraceWriter() {}

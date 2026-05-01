@@ -50,210 +50,210 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DoubleField_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DoubleField/UxmlFactory
-class CORDL_TYPE DoubleField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DoubleField*,::UnityEngine::UIElements::DoubleField_UxmlTraits*> {
+class CORDL_TYPE DoubleField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DoubleField*, ::UnityEngine::UIElements::DoubleField_UxmlTraits*> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::DoubleField_UxmlFactory* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::DoubleField_UxmlFactory* New_ctor();
 
-/// @brief Method .ctor, addr 0x6b73174, size 0x68, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6be53bc, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DoubleField_UxmlFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DoubleField_UxmlFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DoubleField_UxmlFactory(DoubleField_UxmlFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DoubleField_UxmlFactory(DoubleField_UxmlFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DoubleField_UxmlFactory(DoubleField_UxmlFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DoubleField_UxmlFactory(DoubleField_UxmlFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4177 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4177};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DoubleField_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DoubleField/UxmlTraits
-class CORDL_TYPE DoubleField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<double_t,::UnityEngine::UIElements::UxmlDoubleAttributeDescription*> {
+class CORDL_TYPE DoubleField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<double_t, ::UnityEngine::UIElements::UxmlDoubleAttributeDescription*> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::DoubleField_UxmlTraits* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::DoubleField_UxmlTraits* New_ctor();
 
-/// @brief Method .ctor, addr 0x6b731dc, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6be5424, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DoubleField_UxmlTraits() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DoubleField_UxmlTraits();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DoubleField_UxmlTraits(DoubleField_UxmlTraits&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DoubleField_UxmlTraits(DoubleField_UxmlTraits && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DoubleField_UxmlTraits(DoubleField_UxmlTraits const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DoubleField_UxmlTraits(DoubleField_UxmlTraits const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4178 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4178};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DoubleField_UxmlTraits, 0xc0>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1::TextValueInput<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DoubleField/DoubleInput
 class CORDL_TYPE DoubleField_DoubleInput : public ::UnityEngine::UIElements::TextValueField_1_TextValueInput<double_t> {
 public:
-// Declarations
- __declspec(property(get=get_allowedCharacters)) ::StringW  allowedCharacters;
+  // Declarations
+  __declspec(property(get = get_allowedCharacters)) ::StringW allowedCharacters;
 
- __declspec(property(get=get_parentDoubleField)) ::UnityEngine::UIElements::DoubleField*  parentDoubleField;
+  __declspec(property(get = get_parentDoubleField)) ::UnityEngine::UIElements::DoubleField* parentDoubleField;
 
-/// @brief Method ApplyInputDeviceDelta, addr 0x6b73300, size 0x1ac, virtual true, abstract: false, final false
-inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, double_t  startValue) ;
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6be5548, size 0x1ac, virtual true, abstract: false, final false
+  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue);
 
-static inline ::UnityEngine::UIElements::DoubleField_DoubleInput* New_ctor() ;
+  static inline ::UnityEngine::UIElements::DoubleField_DoubleInput* New_ctor();
 
-/// @brief Method StringToValue, addr 0x6b73508, size 0xa0, virtual true, abstract: false, final false
-inline double_t StringToValue(::StringW  str) ;
+  /// @brief Method StringToValue, addr 0x6be5750, size 0xa0, virtual true, abstract: false, final false
+  inline double_t StringToValue(::StringW str);
 
-/// @brief Method ValueToString, addr 0x6b734ac, size 0x5c, virtual true, abstract: false, final false
-inline ::StringW ValueToString(double_t  v) ;
+  /// @brief Method ValueToString, addr 0x6be56f4, size 0x5c, virtual true, abstract: false, final false
+  inline ::StringW ValueToString(double_t v);
 
-/// @brief Method .ctor, addr 0x6b72f80, size 0x9c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6be51c8, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_allowedCharacters, addr 0x6b732a4, size 0x5c, virtual true, abstract: false, final false
-inline ::StringW get_allowedCharacters() ;
+  /// @brief Method get_allowedCharacters, addr 0x6be54ec, size 0x5c, virtual true, abstract: false, final false
+  inline ::StringW get_allowedCharacters();
 
-/// @brief Method get_parentDoubleField, addr 0x6b73228, size 0x7c, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::DoubleField* get_parentDoubleField() ;
+  /// @brief Method get_parentDoubleField, addr 0x6be5470, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::DoubleField* get_parentDoubleField();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DoubleField_DoubleInput() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DoubleField_DoubleInput();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DoubleField_DoubleInput(DoubleField_DoubleInput&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DoubleField_DoubleInput(DoubleField_DoubleInput && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DoubleField_DoubleInput(DoubleField_DoubleInput const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DoubleField_DoubleInput(DoubleField_DoubleInput const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4179 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4179};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DoubleField_DoubleInput, 0x4e8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DoubleField
 class CORDL_TYPE DoubleField : public ::UnityEngine::UIElements::TextValueField_1<double_t> {
 public:
-// Declarations
-using DoubleInput = ::UnityEngine::UIElements::DoubleField_DoubleInput;
+  // Declarations
+  using DoubleInput = ::UnityEngine::UIElements::DoubleField_DoubleInput;
 
-using UxmlFactory = ::UnityEngine::UIElements::DoubleField_UxmlFactory;
+  using UxmlFactory = ::UnityEngine::UIElements::DoubleField_UxmlFactory;
 
-using UxmlTraits = ::UnityEngine::UIElements::DoubleField_UxmlTraits;
+  using UxmlTraits = ::UnityEngine::UIElements::DoubleField_UxmlTraits;
 
- __declspec(property(get=get_doubleInput)) ::UnityEngine::UIElements::DoubleField_DoubleInput*  doubleInput;
+  __declspec(property(get = get_doubleInput)) ::UnityEngine::UIElements::DoubleField_DoubleInput* doubleInput;
 
-/// @brief Field inputUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_inputUssClassName, put=setStaticF_inputUssClassName)) ::StringW  inputUssClassName;
+  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
-/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
+  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
+  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-/// @brief Method ApplyInputDeviceDelta, addr 0x6b7303c, size 0x5c, virtual true, abstract: false, final false
-inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, double_t  startValue) ;
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6be5284, size 0x5c, virtual true, abstract: false, final false
+  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue);
 
-/// @brief Method CanTryParse, addr 0x6b7301c, size 0x20, virtual true, abstract: false, final false
-inline bool CanTryParse(::StringW  textString) ;
+  /// @brief Method CanTryParse, addr 0x6be5264, size 0x20, virtual true, abstract: false, final false
+  inline bool CanTryParse(::StringW textString);
 
-static inline ::UnityEngine::UIElements::DoubleField* New_ctor() ;
+  static inline ::UnityEngine::UIElements::DoubleField* New_ctor();
 
-static inline ::UnityEngine::UIElements::DoubleField* New_ctor(::StringW  label, int32_t  maxLength) ;
+  static inline ::UnityEngine::UIElements::DoubleField* New_ctor(::StringW label, int32_t maxLength);
 
-/// @brief Method StringToValue, addr 0x6b72d14, size 0xe0, virtual true, abstract: false, final false
-inline double_t StringToValue(::StringW  str) ;
+  /// @brief Method StringToValue, addr 0x6be4f5c, size 0xe0, virtual true, abstract: false, final false
+  inline double_t StringToValue(::StringW str);
 
-/// @brief Method ValueToString, addr 0x6b72c54, size 0xc0, virtual true, abstract: false, final false
-inline ::StringW ValueToString(double_t  v) ;
+  /// @brief Method ValueToString, addr 0x6be4e9c, size 0xc0, virtual true, abstract: false, final false
+  inline ::StringW ValueToString(double_t v);
 
-/// @brief Method .ctor, addr 0x6b72df4, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6be503c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x6b72e00, size 0x180, virtual false, abstract: false, final false
-inline void _ctor(::StringW  label, int32_t  maxLength) ;
+  /// @brief Method .ctor, addr 0x6be5048, size 0x180, virtual false, abstract: false, final false
+  inline void _ctor(::StringW label, int32_t maxLength);
 
-static inline ::StringW getStaticF_inputUssClassName() ;
+  static inline ::StringW getStaticF_inputUssClassName();
 
-static inline ::StringW getStaticF_labelUssClassName() ;
+  static inline ::StringW getStaticF_labelUssClassName();
 
-static inline ::StringW getStaticF_ussClassName() ;
+  static inline ::StringW getStaticF_ussClassName();
 
-/// @brief Method get_doubleInput, addr 0x6b72bc4, size 0x90, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::DoubleField_DoubleInput* get_doubleInput() ;
+  /// @brief Method get_doubleInput, addr 0x6be4e0c, size 0x90, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::DoubleField_DoubleInput* get_doubleInput();
 
-static inline void setStaticF_inputUssClassName(::StringW  value) ;
+  static inline void setStaticF_inputUssClassName(::StringW value);
 
-static inline void setStaticF_labelUssClassName(::StringW  value) ;
+  static inline void setStaticF_labelUssClassName(::StringW value);
 
-static inline void setStaticF_ussClassName(::StringW  value) ;
+  static inline void setStaticF_ussClassName(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DoubleField() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DoubleField();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DoubleField(DoubleField&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DoubleField(DoubleField && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DoubleField(DoubleField const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DoubleField(DoubleField const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4180 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4180};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DoubleField, 0x540>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DoubleField);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DoubleField*, "UnityEngine.UIElements", "DoubleField");
 NEED_NO_BOX(::UnityEngine::UIElements::DoubleField_DoubleInput);

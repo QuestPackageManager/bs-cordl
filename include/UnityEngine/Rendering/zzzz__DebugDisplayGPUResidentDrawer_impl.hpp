@@ -16,2668 +16,2248 @@
 #include "UnityEngine/Rendering/zzzz__InstanceCullerViewStats_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionEventStats_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_displayBatcherStats(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "displayBatcherStats", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_displayBatcherStats(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "displayBatcherStats",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_displayBatcherStats()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "displayBatcherStats", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_displayBatcherStats() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "displayBatcherStats",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occlusionTestOverlayEnable(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayEnable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occlusionTestOverlayEnable(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayEnable",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occlusionTestOverlayEnable()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayEnable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occlusionTestOverlayEnable() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayEnable",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occlusionTestOverlayCountVisible(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayCountVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occlusionTestOverlayCountVisible(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayCountVisible",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occlusionTestOverlayCountVisible()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayCountVisible", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occlusionTestOverlayCountVisible() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occlusionTestOverlayCountVisible",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_overrideOcclusionTestToAlwaysPass(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "overrideOcclusionTestToAlwaysPass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_overrideOcclusionTestToAlwaysPass(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "overrideOcclusionTestToAlwaysPass",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_overrideOcclusionTestToAlwaysPass()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "overrideOcclusionTestToAlwaysPass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_overrideOcclusionTestToAlwaysPass() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "overrideOcclusionTestToAlwaysPass",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderContextStats(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderContextStats", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderContextStats(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderContextStats",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderContextStats()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderContextStats", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderContextStats() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderContextStats",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewEnable(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewEnable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewEnable(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewEnable",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewEnable()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewEnable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewEnable() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewEnable",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewIndex(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewIndex(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewIndex",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewIndex()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewIndex() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewIndex",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewRangeMin(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMin", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewRangeMin(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMin",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewRangeMin()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMin", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewRangeMin() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMin",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewRangeMax(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMax", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::setStaticF_occluderDebugViewRangeMax(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMax",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
 }
-inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewRangeMax()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMax", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::getStaticF_occluderDebugViewRangeMax() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "occluderDebugViewRangeMax",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings*>::get>();
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::DebugDisplayGPUResidentDrawer_Strings()   {
-}
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_Strings::DebugDisplayGPUResidentDrawer_Strings() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6657d84;
+  constexpr static std::size_t addrs = 0x66c9d90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c.__ctor_b__4_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6657d88;
+  constexpr static std::size_t addrs = 0x66c9d94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<.ctor>b__4_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c.__ctor_b__4_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66580d4;
+  constexpr static std::size_t addrs = 0x66ca0e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c.__ctor_b__4_2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_2)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x665817c;
+  constexpr static std::size_t addrs = 0x66ca188;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<.ctor>b__4_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c.__ctor_b__4_16
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_16)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66581d0;
+  constexpr static std::size_t addrs = 0x66ca1dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<.ctor>b__4_16", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c.__ctor_b__4_17
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_17)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_17)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66581d8;
+  constexpr static std::size_t addrs = 0x66ca1e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_17",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<.ctor>b__4_17", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c.__ctor_b__4_24
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_24)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_24)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x665823c;
+  constexpr static std::size_t addrs = 0x66ca248;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_24",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<.ctor>b__4_24", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c._AddInstanceCullingStatsWidget_b__5_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddInstanceCullingStatsWidget_b__5_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddInstanceCullingStatsWidget_b__5_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6658290;
+  constexpr static std::size_t addrs = 0x66ca29c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__5_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<AddInstanceCullingStatsWidget>b__5_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c._AddOcclusionContextStatsWidget_b__6_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddOcclusionContextStatsWidget_b__6_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddOcclusionContextStatsWidget_b__6_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66582b8;
+  constexpr static std::size_t addrs = 0x66ca2c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<AddOcclusionContextStatsWidget>b__6_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                                 "<AddOcclusionContextStatsWidget>b__6_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9(::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>(value));
 }
-inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_0(::System::Func_1<::StringW>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<::StringW>*, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<::StringW>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_0(::System::Func_1<::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<::StringW>*, "<>9__4_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<::StringW>*>(value));
 }
-inline ::System::Func_1<::StringW>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_0()  {
-return ::cordl_internals::getStaticField<::System::Func_1<::StringW>*, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<::StringW>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_0() {
+  return ::cordl_internals::getStaticField<::System::Func_1<::StringW>*, "<>9__4_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_1(::System::Func_1<bool>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__4_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<bool>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_1(::System::Func_1<bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__4_1",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<bool>*>(value));
 }
-inline ::System::Func_1<bool>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_1()  {
-return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__4_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<bool>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_1() {
+  return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__4_1",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_2(::System::Func_1<bool>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__4_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<bool>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_2(::System::Func_1<bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__4_2",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<bool>*>(value));
 }
-inline ::System::Func_1<bool>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_2()  {
-return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__4_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<bool>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_2() {
+  return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__4_2",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_16(::System::Func_1<int32_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<int32_t>*, "<>9__4_16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<int32_t>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_16(::System::Func_1<int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<int32_t>*, "<>9__4_16",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<int32_t>*>(value));
 }
-inline ::System::Func_1<int32_t>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_16()  {
-return ::cordl_internals::getStaticField<::System::Func_1<int32_t>*, "<>9__4_16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<int32_t>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_16() {
+  return ::cordl_internals::getStaticField<::System::Func_1<int32_t>*, "<>9__4_16",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_17(::System::Func_1<int32_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<int32_t>*, "<>9__4_17", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<int32_t>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_17(::System::Func_1<int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<int32_t>*, "<>9__4_17",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<int32_t>*>(value));
 }
-inline ::System::Func_1<int32_t>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_17()  {
-return ::cordl_internals::getStaticField<::System::Func_1<int32_t>*, "<>9__4_17", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<int32_t>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_17() {
+  return ::cordl_internals::getStaticField<::System::Func_1<int32_t>*, "<>9__4_17",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_24(::System::Func_1<bool>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__4_24", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<bool>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__4_24(::System::Func_1<bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__4_24",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<bool>*>(value));
 }
-inline ::System::Func_1<bool>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_24()  {
-return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__4_24", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<bool>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__4_24() {
+  return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__4_24",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__5_1(::System::Func_1<::System::Object*>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<::System::Object*>*, "<>9__5_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<::System::Object*>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__5_1(::System::Func_1<::System::Object*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<::System::Object*>*, "<>9__5_1",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<::System::Object*>*>(value));
 }
-inline ::System::Func_1<::System::Object*>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__5_1()  {
-return ::cordl_internals::getStaticField<::System::Func_1<::System::Object*>*, "<>9__5_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<::System::Object*>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__5_1() {
+  return ::cordl_internals::getStaticField<::System::Func_1<::System::Object*>*, "<>9__5_1",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__6_1(::System::Func_1<::System::Object*>*  value)  {
-::cordl_internals::setStaticField<::System::Func_1<::System::Object*>*, "<>9__6_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(std::forward<::System::Func_1<::System::Object*>*>(value));
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::setStaticF___9__6_1(::System::Func_1<::System::Object*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<::System::Object*>*, "<>9__6_1",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>(
+      std::forward<::System::Func_1<::System::Object*>*>(value));
 }
-inline ::System::Func_1<::System::Object*>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__6_1()  {
-return ::cordl_internals::getStaticField<::System::Func_1<::System::Object*>*, "<>9__6_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
+inline ::System::Func_1<::System::Object*>* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::getStaticF___9__6_1() {
+  return ::cordl_internals::getStaticField<::System::Func_1<::System::Object*>*, "<>9__6_1",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get>();
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<.ctor>b__4_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_2() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<.ctor>b__4_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_16()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_16() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<.ctor>b__4_16", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_17()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_17",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_17() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<.ctor>b__4_17", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_24()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<.ctor>b__4_24",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_24() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<.ctor>b__4_24", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddInstanceCullingStatsWidget_b__5_1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__5_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddInstanceCullingStatsWidget_b__5_1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<AddInstanceCullingStatsWidget>b__5_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddOcclusionContextStatsWidget_b__6_1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
-                        "<AddOcclusionContextStatsWidget>b__6_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddOcclusionContextStatsWidget_b__6_1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>::get(),
+                                               "<AddOcclusionContextStatsWidget>b__6_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>());
+inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::SettingsPanel_DebugDisplayGPUResidentDrawer___c()   {
-}
+constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::SettingsPanel_DebugDisplayGPUResidentDrawer___c() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6657300;
+  constexpr static std::size_t addrs = 0x66c930c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66582e0;
+  constexpr static std::size_t addrs = 0x66ca2ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__4)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x665830c;
+  constexpr static std::size_t addrs = 0x66ca318;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                   "<.ctor>b__4", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__5)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6658338;
+  constexpr static std::size_t addrs = 0x66ca344;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__6
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__6)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__6)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6658364;
+  constexpr static std::size_t addrs = 0x66ca370;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                   "<.ctor>b__6", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__7
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__7)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__7)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6658390;
+  constexpr static std::size_t addrs = 0x66ca39c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__8
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__8)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__8)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66583bc;
+  constexpr static std::size_t addrs = 0x66ca3c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                   "<.ctor>b__8", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__9
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__9)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66583e8;
+  constexpr static std::size_t addrs = 0x66ca3f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__9",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__9", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__10
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__10)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__10)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6658400;
+  constexpr static std::size_t addrs = 0x66ca40c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__10",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__10",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__11
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__11)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__11)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665841c;
+  constexpr static std::size_t addrs = 0x66ca428;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__11",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__11", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__12
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__12)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__12)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6658434;
+  constexpr static std::size_t addrs = 0x66ca440;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__12",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__12",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__13
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__13)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__13)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6658450;
+  constexpr static std::size_t addrs = 0x66ca45c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__13",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__13", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__14
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(int32_t)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__14)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(int32_t)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__14)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6658468;
+  constexpr static std::size_t addrs = 0x66ca474;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__14",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__14",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__15
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__15)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__15)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6658480;
+  constexpr static std::size_t addrs = 0x66ca48c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__15",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__15", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__18
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__18)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__18)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66584a0;
+  constexpr static std::size_t addrs = 0x66ca4ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__18",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__18", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__19
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(float_t)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__19)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(float_t)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__19)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66584b8;
+  constexpr static std::size_t addrs = 0x66ca4c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__19",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__19",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__20
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__20)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__20)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66584d0;
+  constexpr static std::size_t addrs = 0x66ca4dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__20",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__20", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__21
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__21)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__21)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66584f0;
+  constexpr static std::size_t addrs = 0x66ca4fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__21",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__21", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__22
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(float_t)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__22)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(float_t)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__22)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6658508;
+  constexpr static std::size_t addrs = 0x66ca514;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__22",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__22",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__23
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__23)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__23)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6658520;
+  constexpr static std::size_t addrs = 0x66ca52c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__23",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__23", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__25
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__25)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__25)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6658540;
+  constexpr static std::size_t addrs = 0x66ca54c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__25",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                    "<.ctor>b__25", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0.__ctor_b__26
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__26)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__26)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x665856c;
+  constexpr static std::size_t addrs = 0x66ca578;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__26",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__26",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__cordl_internal_get_data()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__cordl_internal_get_data() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
 constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* const& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__cordl_internal_get_data() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
-constexpr void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__3() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__4(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__4(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__4", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__5()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__5() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__6(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__6(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__6", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__7()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__7() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__8(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__8(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__8", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__9()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__9",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__9() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__9", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__10(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__10",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__10(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__10", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__11()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__11",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__11() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__11", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__12(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__12",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__12(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__12", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int32_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__13()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__13",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__13() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__13", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__14(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__14",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__14(int32_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__14",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__15()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__15",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__15() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__15", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline float_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__18()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__18",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__18() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__18", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__19(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__19",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__19(float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__19",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__20()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__20",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__20() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__20", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline float_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__21()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__21",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__21() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__21", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__22(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__22",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__22(float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(), "<.ctor>b__22",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__23()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__23",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__23() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__23", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__25()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__25",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__25() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__25", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__26(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
-                        "<.ctor>b__26",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__26(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>::get(),
+                                  "<.ctor>b__26", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>());
+inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*
+UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0()   {
-}
+constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6657d28;
+  constexpr static std::size_t addrs = 0x66c9d34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0._AddInstanceCullingStatsWidget_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6658598;
+  constexpr static std::size_t addrs = 0x66ca5a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
+                                    "<AddInstanceCullingStatsWidget>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0._AddInstanceCullingStatsWidget_b__2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66585cc;
+  constexpr static std::size_t addrs = 0x66ca5d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
+                                    "<AddInstanceCullingStatsWidget>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0._AddInstanceCullingStatsWidget_b__3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__3)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6658600;
+  constexpr static std::size_t addrs = 0x66ca60c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
+                                    "<AddInstanceCullingStatsWidget>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::__cordl_internal_get_data()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::__cordl_internal_get_data() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
 constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* const& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::__cordl_internal_get_data() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
-constexpr void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::__cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::__cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__0() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
+                                  "<AddInstanceCullingStatsWidget>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__2() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
+                                  "<AddInstanceCullingStatsWidget>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
-                        "<AddInstanceCullingStatsWidget>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__3() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>::get(),
+                                  "<AddInstanceCullingStatsWidget>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>());
+inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*
+UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0()   {
-}
+constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6657d2c;
+  constexpr static std::size_t addrs = 0x66c9d38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0._AddOcclusionContextStatsWidget_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::*)()>(&::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_AddOcclusionContextStatsWidget_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::*)()>(
+    &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_AddOcclusionContextStatsWidget_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6658634;
+  constexpr static std::size_t addrs = 0x66ca640;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(),
-                        "<AddOcclusionContextStatsWidget>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(),
+                                    "<AddOcclusionContextStatsWidget>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::__cordl_internal_get_data()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::__cordl_internal_get_data() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
 constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* const& UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::__cordl_internal_get_data() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___data;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___data;
 }
-constexpr void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::__cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::__cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_AddOcclusionContextStatsWidget_b__0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(),
-                        "<AddOcclusionContextStatsWidget>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_AddOcclusionContextStatsWidget_b__0() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>::get(),
+                                  "<AddOcclusionContextStatsWidget>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0* UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>());
+inline ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*
+UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0()   {
-}
+constexpr ::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel.get_PanelName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_PanelName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_PanelName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x66572b4;
+  constexpr static std::size_t addrs = 0x66c92c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(), 8));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel.get_Flags
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::DebugUI_Flags (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_Flags)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::DebugUI_Flags (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66572f8;
+  constexpr static std::size_t addrs = 0x66c9304;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(), 10));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(
+    ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::_ctor)> {
   constexpr static std::size_t size = 0x136c;
-  constexpr static std::size_t addrs = 0x6655ccc;
+  constexpr static std::size_t addrs = 0x66c7cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel.AddInstanceCullingStatsWidget
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddInstanceCullingStatsWidget)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(
+    ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddInstanceCullingStatsWidget)> {
   constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x6657718;
+  constexpr static std::size_t addrs = 0x66c9724;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                        "AddInstanceCullingStatsWidget",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
+                                    "AddInstanceCullingStatsWidget", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel.AddOcclusionContextStatsWidget
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddOcclusionContextStatsWidget)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(
+    ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddOcclusionContextStatsWidget)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x6657304;
+  constexpr static std::size_t addrs = 0x66c9310;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                        "AddOcclusionContextStatsWidget",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
+                                    "AddOcclusionContextStatsWidget", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get() })));
     return ___internal_method;
   }
 };
-inline ::StringW UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_PanelName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_PanelName() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::DebugUI_Flags UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_Flags()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::DebugUI_Flags, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::DebugUI_Flags UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_Flags() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::DebugUI_Flags, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::_ctor(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*  data)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::_ctor(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddInstanceCullingStatsWidget(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*  data)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                        "AddInstanceCullingStatsWidget",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddInstanceCullingStatsWidget(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
+                                  "AddInstanceCullingStatsWidget", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddOcclusionContextStatsWidget(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*  data)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
-                        "AddOcclusionContextStatsWidget",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddOcclusionContextStatsWidget(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>::get(),
+                                  "AddOcclusionContextStatsWidget", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
-inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::New_ctor(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*  data)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>(data));
+inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*
+UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::New_ctor(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>(data));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::DebugDisplayGPUResidentDrawer_SettingsPanel()   {
-}
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::DebugDisplayGPUResidentDrawer_SettingsPanel() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6654de4;
+  constexpr static std::size_t addrs = 0x66c6df0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0._AddInstanceCullerViewDataRow_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6658654;
+  constexpr static std::size_t addrs = 0x66ca660;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                                 "<AddInstanceCullerViewDataRow>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0._AddInstanceCullerViewDataRow_b__1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__1)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6658670;
+  constexpr static std::size_t addrs = 0x66ca67c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                                 "<AddInstanceCullerViewDataRow>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0._AddInstanceCullerViewDataRow_b__2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__2)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x66586dc;
+  constexpr static std::size_t addrs = 0x66ca6e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                                 "<AddInstanceCullerViewDataRow>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0._AddInstanceCullerViewDataRow_b__3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__3)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6658714;
+  constexpr static std::size_t addrs = 0x66ca720;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                                 "<AddInstanceCullerViewDataRow>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0._AddInstanceCullerViewDataRow_b__4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__4)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x665874c;
+  constexpr static std::size_t addrs = 0x66ca758;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                                 "<AddInstanceCullerViewDataRow>b__4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0._AddInstanceCullerViewDataRow_b__5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__5)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6658784;
+  constexpr static std::size_t addrs = 0x66ca790;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                                 "<AddInstanceCullerViewDataRow>b__5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::__cordl_internal_get_viewIndex()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___viewIndex;
+constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::__cordl_internal_get_viewIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewIndex;
 }
 constexpr int32_t const& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::__cordl_internal_get_viewIndex() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___viewIndex;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewIndex;
 }
-constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::__cordl_internal_set_viewIndex(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___viewIndex = value;
+constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::__cordl_internal_set_viewIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___viewIndex = value;
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                               "<AddInstanceCullerViewDataRow>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                               "<AddInstanceCullerViewDataRow>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__2() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                               "<AddInstanceCullerViewDataRow>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__3() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                               "<AddInstanceCullerViewDataRow>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__4()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__4() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                               "<AddInstanceCullerViewDataRow>b__4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__5()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
-                        "<AddInstanceCullerViewDataRow>b__5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__5() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>::get(),
+                                               "<AddInstanceCullerViewDataRow>b__5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>());
+inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0()   {
-}
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66557c4;
+  constexpr static std::size_t addrs = 0x66c77d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66587bc;
+  constexpr static std::size_t addrs = 0x66ca7c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x66587d8;
+  constexpr static std::size_t addrs = 0x66ca7e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__2)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6658810;
+  constexpr static std::size_t addrs = 0x66ca81c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__3)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66588c8;
+  constexpr static std::size_t addrs = 0x66ca8d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__4)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x66588f0;
+  constexpr static std::size_t addrs = 0x66ca8fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__5)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6658994;
+  constexpr static std::size_t addrs = 0x66ca9a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__6
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__6)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__6)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6658a28;
+  constexpr static std::size_t addrs = 0x66caa34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0._AddInstanceOcclusionPassDataRow_b__7
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__7)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__7)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6658a50;
+  constexpr static std::size_t addrs = 0x66caa5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                                 "<AddInstanceOcclusionPassDataRow>b__7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::__cordl_internal_get_eventIndex()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___eventIndex;
+constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::__cordl_internal_get_eventIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___eventIndex;
 }
 constexpr int32_t const& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::__cordl_internal_get_eventIndex() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___eventIndex;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___eventIndex;
 }
-constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::__cordl_internal_set_eventIndex(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___eventIndex = value;
+constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::__cordl_internal_set_eventIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___eventIndex = value;
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__2() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__3() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__4()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__4() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__5()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__5() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__6()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__6() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__7()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
-                        "<AddInstanceOcclusionPassDataRow>b__7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__7() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>::get(),
+                                               "<AddInstanceOcclusionPassDataRow>b__7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>());
+inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0()   {
-}
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6655c34;
+  constexpr static std::size_t addrs = 0x66c7c40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0._AddOcclusionContextDataRow_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6658a78;
+  constexpr static std::size_t addrs = 0x66caa84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                                 "<AddOcclusionContextDataRow>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0._AddOcclusionContextDataRow_b__1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6658a94;
+  constexpr static std::size_t addrs = 0x66caaa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                                 "<AddOcclusionContextDataRow>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0._AddOcclusionContextDataRow_b__2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6658ac0;
+  constexpr static std::size_t addrs = 0x66caacc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                                 "<AddOcclusionContextDataRow>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0._AddOcclusionContextDataRow_b__3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__3)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6658aec;
+  constexpr static std::size_t addrs = 0x66caaf8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                                 "<AddOcclusionContextDataRow>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::__cordl_internal_get_index()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___index;
+constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::__cordl_internal_get_index() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___index;
 }
 constexpr int32_t const& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::__cordl_internal_get_index() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___index;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___index;
 }
-constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::__cordl_internal_set_index(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___index = value;
+constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::__cordl_internal_set_index(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___index = value;
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                               "<AddOcclusionContextDataRow>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                               "<AddOcclusionContextDataRow>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__2() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                               "<AddOcclusionContextDataRow>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
-                        "<AddOcclusionContextDataRow>b__3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__3() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>::get(),
+                                               "<AddOcclusionContextDataRow>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>());
+inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0()   {
-}
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.get_displayBatcherStats
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_displayBatcherStats)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_displayBatcherStats)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6654190;
+  constexpr static std::size_t addrs = 0x66c619c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_displayBatcherStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "get_displayBatcherStats", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.set_displayBatcherStats
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_displayBatcherStats)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_displayBatcherStats)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6654218;
+  constexpr static std::size_t addrs = 0x66c6224;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_displayBatcherStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_displayBatcherStats",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.GetOccluderViewInstanceID
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(::ByRef<int32_t>)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderViewInstanceID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(::ByRef<int32_t>)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderViewInstanceID)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6654238;
+  constexpr static std::size_t addrs = 0x66c6244;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetOccluderViewInstanceID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetOccluderViewInstanceID",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.get_occlusionTestOverlayEnable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayEnable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6654324;
+  constexpr static std::size_t addrs = 0x66c6330;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_occlusionTestOverlayEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "get_occlusionTestOverlayEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.set_occlusionTestOverlayEnable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayEnable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6654344;
+  constexpr static std::size_t addrs = 0x66c6350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_occlusionTestOverlayEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_occlusionTestOverlayEnable",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.get_occlusionTestOverlayCountVisible
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayCountVisible)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayCountVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6654364;
+  constexpr static std::size_t addrs = 0x66c6370;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_occlusionTestOverlayCountVisible",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                 "get_occlusionTestOverlayCountVisible", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.set_occlusionTestOverlayCountVisible
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayCountVisible)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayCountVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6654384;
+  constexpr static std::size_t addrs = 0x66c6390;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_occlusionTestOverlayCountVisible",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_occlusionTestOverlayCountVisible",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.get_overrideOcclusionTestToAlwaysPass
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_overrideOcclusionTestToAlwaysPass)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_overrideOcclusionTestToAlwaysPass)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66543a4;
+  constexpr static std::size_t addrs = 0x66c63b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_overrideOcclusionTestToAlwaysPass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                 "get_overrideOcclusionTestToAlwaysPass", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.set_overrideOcclusionTestToAlwaysPass
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_overrideOcclusionTestToAlwaysPass)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_overrideOcclusionTestToAlwaysPass)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66543c4;
+  constexpr static std::size_t addrs = 0x66c63d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_overrideOcclusionTestToAlwaysPass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_overrideOcclusionTestToAlwaysPass",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.GetInstanceCullerViewStats
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceCullerViewStats (*)(int32_t)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewStats)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceCullerViewStats (*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewStats)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x66543e4;
+  constexpr static std::size_t addrs = 0x66c63f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceCullerViewStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetInstanceCullerViewStats",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.GetInstanceOcclusionEventStats
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceOcclusionEventStats (*)(int32_t)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventStats)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceOcclusionEventStats (*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventStats)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x66544c8;
+  constexpr static std::size_t addrs = 0x66c64d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceOcclusionEventStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetInstanceOcclusionEventStats",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.GetOccluderStats
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::DebugOccluderStats (*)(int32_t)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderStats)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::DebugOccluderStats (*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderStats)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x66545b0;
+  constexpr static std::size_t addrs = 0x66c65bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetOccluderStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetOccluderStats",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.GetOcclusionContextsCounts
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOcclusionContextsCounts)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6654674;
+  constexpr static std::size_t addrs = 0x66c6680;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetOcclusionContextsCounts",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "GetOcclusionContextsCounts", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.GetInstanceCullerViewCount
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewCount)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x66546e0;
+  constexpr static std::size_t addrs = 0x66c66ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceCullerViewCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "GetInstanceCullerViewCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.GetInstanceOcclusionEventCount
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventCount)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x665474c;
+  constexpr static std::size_t addrs = 0x66c6758;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceOcclusionEventCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "GetInstanceOcclusionEventCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.AddInstanceCullerViewDataRow
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceCullerViewDataRow)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceCullerViewDataRow)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x66547b8;
+  constexpr static std::size_t addrs = 0x66c67c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "AddInstanceCullerViewDataRow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "AddInstanceCullerViewDataRow",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.OccluderVersionString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6654de8;
+  constexpr static std::size_t addrs = 0x66c6df4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "OccluderVersionString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "OccluderVersionString", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.OcclusionTestString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6654e68;
+  constexpr static std::size_t addrs = 0x66c6e74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "OcclusionTestString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "OcclusionTestString", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.VisibleInstancesString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6654ef0;
+  constexpr static std::size_t addrs = 0x66c6efc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "VisibleInstancesString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "VisibleInstancesString", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.CulledInstancesString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6654f64;
+  constexpr static std::size_t addrs = 0x66c6f70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "CulledInstancesString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "CulledInstancesString", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.AddInstanceOcclusionPassDataRow
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceOcclusionPassDataRow)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceOcclusionPassDataRow)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x6654fd8;
+  constexpr static std::size_t addrs = 0x66c6fe4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "AddInstanceOcclusionPassDataRow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "AddInstanceOcclusionPassDataRow",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.AddOcclusionContextDataRow
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddOcclusionContextDataRow)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddOcclusionContextDataRow)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x66557c8;
+  constexpr static std::size_t addrs = 0x66c77d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "AddOcclusionContextDataRow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "AddOcclusionContextDataRow",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.get_AreAnySettingsActive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_AreAnySettingsActive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_AreAnySettingsActive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6655c38;
+  constexpr static std::size_t addrs = 0x66c7c44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_AreAnySettingsActive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "get_AreAnySettingsActive", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.get_IsPostProcessingAllowed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsPostProcessingAllowed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsPostProcessingAllowed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6655c58;
+  constexpr static std::size_t addrs = 0x66c7c64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_IsPostProcessingAllowed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "get_IsPostProcessingAllowed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.get_IsLightingActive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsLightingActive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsLightingActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6655c60;
+  constexpr static std::size_t addrs = 0x66c7c6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_IsLightingActive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               "get_IsLightingActive", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.TryGetScreenClearColor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(::ByRef<::UnityEngine::Color>)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::TryGetScreenClearColor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(::ByRef<::UnityEngine::Color>)>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::TryGetScreenClearColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6655c68;
+  constexpr static std::size_t addrs = 0x66c7c74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "TryGetScreenClearColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "TryGetScreenClearColor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer.UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* (
+    ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6655c70;
+  constexpr static std::size_t addrs = 0x66c7c7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                 "UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
+    &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6657038;
+  constexpr static std::size_t addrs = 0x66c9044;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewEnable()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderDebugViewEnable;
+constexpr bool& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewEnable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderDebugViewEnable;
 }
 constexpr bool const& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewEnable() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderDebugViewEnable;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderDebugViewEnable;
 }
-constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderDebugViewEnable(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___occluderDebugViewEnable = value;
+constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderDebugViewEnable(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___occluderDebugViewEnable = value;
 }
-constexpr bool& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderContextStats()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderContextStats;
+constexpr bool& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderContextStats() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderContextStats;
 }
 constexpr bool const& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderContextStats() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderContextStats;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderContextStats;
 }
-constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderContextStats(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___occluderContextStats = value;
+constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderContextStats(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___occluderContextStats = value;
 }
-constexpr ::UnityEngine::Vector2& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewRange()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderDebugViewRange;
+constexpr ::UnityEngine::Vector2& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewRange() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderDebugViewRange;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewRange() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderDebugViewRange;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderDebugViewRange;
 }
-constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderDebugViewRange(::UnityEngine::Vector2  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___occluderDebugViewRange = value;
+constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderDebugViewRange(::UnityEngine::Vector2 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___occluderDebugViewRange = value;
 }
-constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewIndex()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderDebugViewIndex;
+constexpr int32_t& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderDebugViewIndex;
 }
 constexpr int32_t const& UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_get_occluderDebugViewIndex() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___occluderDebugViewIndex;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___occluderDebugViewIndex;
 }
-constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderDebugViewIndex(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___occluderDebugViewIndex = value;
+constexpr void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::__cordl_internal_set_occluderDebugViewIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___occluderDebugViewIndex = value;
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_displayBatcherStats()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_displayBatcherStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_displayBatcherStats() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "get_displayBatcherStats", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_displayBatcherStats(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_displayBatcherStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_displayBatcherStats(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_displayBatcherStats",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderViewInstanceID(::ByRef<int32_t>  viewInstanceID)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetOccluderViewInstanceID",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, viewInstanceID);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderViewInstanceID(::ByRef<int32_t> viewInstanceID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetOccluderViewInstanceID",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, viewInstanceID);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayEnable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_occlusionTestOverlayEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "get_occlusionTestOverlayEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayEnable(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_occlusionTestOverlayEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayEnable(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_occlusionTestOverlayEnable",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayCountVisible()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_occlusionTestOverlayCountVisible",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayCountVisible() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                               "get_occlusionTestOverlayCountVisible", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayCountVisible(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_occlusionTestOverlayCountVisible",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayCountVisible(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_occlusionTestOverlayCountVisible",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_overrideOcclusionTestToAlwaysPass()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_overrideOcclusionTestToAlwaysPass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_overrideOcclusionTestToAlwaysPass() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                               "get_overrideOcclusionTestToAlwaysPass", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_overrideOcclusionTestToAlwaysPass(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "set_overrideOcclusionTestToAlwaysPass",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_overrideOcclusionTestToAlwaysPass(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "set_overrideOcclusionTestToAlwaysPass",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Rendering::InstanceCullerViewStats UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewStats(int32_t  viewIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceCullerViewStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceCullerViewStats, false>(nullptr, ___internal_method, viewIndex);
+inline ::UnityEngine::Rendering::InstanceCullerViewStats UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewStats(int32_t viewIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetInstanceCullerViewStats",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceCullerViewStats, false>(nullptr, ___internal_method, viewIndex);
 }
-inline ::UnityEngine::Rendering::InstanceOcclusionEventStats UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventStats(int32_t  passIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceOcclusionEventStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceOcclusionEventStats, false>(nullptr, ___internal_method, passIndex);
+inline ::UnityEngine::Rendering::InstanceOcclusionEventStats UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventStats(int32_t passIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetInstanceOcclusionEventStats",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceOcclusionEventStats, false>(nullptr, ___internal_method, passIndex);
 }
-inline ::UnityEngine::Rendering::DebugOccluderStats UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderStats(int32_t  occluderIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetOccluderStats",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::DebugOccluderStats, false>(nullptr, ___internal_method, occluderIndex);
+inline ::UnityEngine::Rendering::DebugOccluderStats UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderStats(int32_t occluderIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "GetOccluderStats",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::DebugOccluderStats, false>(nullptr, ___internal_method, occluderIndex);
 }
-inline int32_t UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOcclusionContextsCounts()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetOcclusionContextsCounts",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOcclusionContextsCounts() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "GetOcclusionContextsCounts", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewCount()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceCullerViewCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewCount() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "GetInstanceCullerViewCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventCount()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "GetInstanceOcclusionEventCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventCount() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "GetInstanceOcclusionEventCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceCullerViewDataRow(int32_t  viewIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "AddInstanceCullerViewDataRow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*, false>(nullptr, ___internal_method, viewIndex);
+inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceCullerViewDataRow(int32_t viewIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "AddInstanceCullerViewDataRow",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*, false>(nullptr, ___internal_method, viewIndex);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>  stats)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "OccluderVersionString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "OccluderVersionString", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>  stats)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "OcclusionTestString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "OcclusionTestString", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>  stats)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "VisibleInstancesString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "VisibleInstancesString", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>  stats)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "CulledInstancesString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString(::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "CulledInstancesString", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::InstanceOcclusionEventStats>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, stats);
 }
-inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceOcclusionPassDataRow(int32_t  eventIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "AddInstanceOcclusionPassDataRow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*, false>(nullptr, ___internal_method, eventIndex);
+inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceOcclusionPassDataRow(int32_t eventIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "AddInstanceOcclusionPassDataRow",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*, false>(nullptr, ___internal_method, eventIndex);
 }
-inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddOcclusionContextDataRow(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "AddOcclusionContextDataRow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*, false>(nullptr, ___internal_method, index);
+inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddOcclusionContextDataRow(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "AddOcclusionContextDataRow",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*, false>(nullptr, ___internal_method, index);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_AreAnySettingsActive()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_AreAnySettingsActive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_AreAnySettingsActive() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "get_AreAnySettingsActive", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsPostProcessingAllowed()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_IsPostProcessingAllowed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsPostProcessingAllowed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "get_IsPostProcessingAllowed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsLightingActive()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "get_IsLightingActive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsLightingActive() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             "get_IsLightingActive", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::TryGetScreenClearColor(::ByRef<::UnityEngine::Color>  color)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "TryGetScreenClearColor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, color);
+inline bool UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::TryGetScreenClearColor(::ByRef<::UnityEngine::Color> color) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(), "TryGetScreenClearColor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, color);
 }
-inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        "UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*, false>(this, ___internal_method);
+inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                               "UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>());
+inline ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>());
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
-constexpr  UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::operator ::UnityEngine::Rendering::IDebugDisplaySettingsData*() noexcept {
-return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsData*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::operator ::UnityEngine::Rendering::IDebugDisplaySettingsData*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsData*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
 constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsData* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::i___UnityEngine__Rendering__IDebugDisplaySettingsData() noexcept {
-return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsData*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsData*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
-constexpr  UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept {
-return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
 constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept {
-return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::DebugDisplayGPUResidentDrawer()   {
-}
+constexpr ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::DebugDisplayGPUResidentDrawer() {}

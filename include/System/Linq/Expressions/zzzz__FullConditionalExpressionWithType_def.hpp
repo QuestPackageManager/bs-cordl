@@ -23,53 +23,54 @@ namespace System::Linq::Expressions {
 // CS Name: System.Linq.Expressions.FullConditionalExpressionWithType
 class CORDL_TYPE FullConditionalExpressionWithType : public ::System::Linq::Expressions::FullConditionalExpression {
 public:
-// Declarations
- __declspec(property(get=get_Type)) ::System::Type*  Type;
+  // Declarations
+  __declspec(property(get = get_Type)) ::System::Type* Type;
 
-/// @brief Field <Type>k__BackingField, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__Type_k__BackingField, put=__cordl_internal_set__Type_k__BackingField)) ::System::Type*  _Type_k__BackingField;
+  /// @brief Field <Type>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
 
-static inline ::System::Linq::Expressions::FullConditionalExpressionWithType* New_ctor(::System::Linq::Expressions::Expression*  test, ::System::Linq::Expressions::Expression*  ifTrue, ::System::Linq::Expressions::Expression*  ifFalse, ::System::Type*  type) ;
+  static inline ::System::Linq::Expressions::FullConditionalExpressionWithType* New_ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
+                                                                                         ::System::Linq::Expressions::Expression* ifFalse, ::System::Type* type);
 
-constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
+  constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
 
-constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField() ;
+  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
 
-constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type*  value) ;
+  constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-/// @brief Method .ctor, addr 0x5dc6518, size 0x28, virtual false, abstract: false, final false
-inline void _ctor(::System::Linq::Expressions::Expression*  test, ::System::Linq::Expressions::Expression*  ifTrue, ::System::Linq::Expressions::Expression*  ifFalse, ::System::Type*  type) ;
+  /// @brief Method .ctor, addr 0x5e38524, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue, ::System::Linq::Expressions::Expression* ifFalse, ::System::Type* type);
 
-/// @brief Method get_Type, addr 0x5dc6710, size 0x8, virtual true, abstract: false, final true
-inline ::System::Type* get_Type() ;
+  /// @brief Method get_Type, addr 0x5e3871c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Type* get_Type();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FullConditionalExpressionWithType() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FullConditionalExpressionWithType();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FullConditionalExpressionWithType", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FullConditionalExpressionWithType(FullConditionalExpressionWithType&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FullConditionalExpressionWithType", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FullConditionalExpressionWithType(FullConditionalExpressionWithType && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FullConditionalExpressionWithType", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FullConditionalExpressionWithType(FullConditionalExpressionWithType const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FullConditionalExpressionWithType", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FullConditionalExpressionWithType(FullConditionalExpressionWithType const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16138 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16130};
+  /// @brief Field <Type>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::System::Type* ____Type_k__BackingField;
 
-/// @brief Field <Type>k__BackingField, offset: 0x28, size: 0x8, def value: None
- ::System::Type*  ____Type_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::FullConditionalExpressionWithType, ____Type_k__BackingField) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::FullConditionalExpressionWithType, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions
+} // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::FullConditionalExpressionWithType);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::FullConditionalExpressionWithType*, "System.Linq.Expressions", "FullConditionalExpressionWithType");

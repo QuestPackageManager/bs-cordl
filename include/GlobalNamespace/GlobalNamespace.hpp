@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "GlobalNamespace/$BurstDirectCallInitializer.hpp"
 #include "GlobalNamespace/AOTEnforcer.hpp"
@@ -206,6 +206,7 @@
 #include "GlobalNamespace/BeatmapLevelOrPackIdAttribute.hpp"
 #include "GlobalNamespace/BeatmapLevelOrPackIdFilter.hpp"
 #include "GlobalNamespace/BeatmapLevelOrPackIdFilterExtensions.hpp"
+#include "GlobalNamespace/BeatmapLevelOrPackPromoInfoIdAttribute.hpp"
 #include "GlobalNamespace/BeatmapLevelPack.hpp"
 #include "GlobalNamespace/BeatmapLevelPackGroup.hpp"
 #include "GlobalNamespace/BeatmapLevelPackSO.hpp"
@@ -250,6 +251,7 @@
 #include "GlobalNamespace/BitMaskSparse.hpp"
 #include "GlobalNamespace/BitMaskUtil.hpp"
 #include "GlobalNamespace/BladeMovementDataElement.hpp"
+#include "GlobalNamespace/BlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "GlobalNamespace/BlocksBlade.hpp"
 #include "GlobalNamespace/BloomFilterUtil.hpp"
 #include "GlobalNamespace/BloomFogEnvironment.hpp"
@@ -702,6 +704,7 @@
 #include "GlobalNamespace/GuestNameButtonsListItemsList.hpp"
 #include "GlobalNamespace/HMAsyncRequest.hpp"
 #include "GlobalNamespace/HMAutoincrementedRequestId.hpp"
+#include "GlobalNamespace/HMDSessionTracker.hpp"
 #include "GlobalNamespace/HSVPanelController.hpp"
 #include "GlobalNamespace/HandsMovementMissionObjectiveChecker.hpp"
 #include "GlobalNamespace/HapticFeedbackManager.hpp"
@@ -751,6 +754,7 @@
 #include "GlobalNamespace/IBitMaskUtil.hpp"
 #include "GlobalNamespace/IBitMask_1.hpp"
 #include "GlobalNamespace/IBladeMovementData.hpp"
+#include "GlobalNamespace/IBlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "GlobalNamespace/IBloomPrePassParams.hpp"
 #include "GlobalNamespace/IBpmController.hpp"
 #include "GlobalNamespace/ICPUMonitor.hpp"
@@ -833,6 +837,8 @@
 #include "GlobalNamespace/IMultiplayerSpectatingSpot.hpp"
 #include "GlobalNamespace/IMultiplayerStatusModel.hpp"
 #include "GlobalNamespace/INetworkConfig.hpp"
+#include "GlobalNamespace/INetworkPacketProcessedHandler_1.hpp"
+#include "GlobalNamespace/INetworkPacketProcessor_1.hpp"
 #include "GlobalNamespace/INetworkPacketSerializer_1.hpp"
 #include "GlobalNamespace/INetworkPacketSubSerializer_1.hpp"
 #include "GlobalNamespace/INetworkPlayer.hpp"
@@ -1437,6 +1443,7 @@
 #include "GlobalNamespace/NodePoseSyncStateNetSerializable.hpp"
 #include "GlobalNamespace/NodeStatePropertyType.hpp"
 #include "GlobalNamespace/Noise3DTexturesGenerator.hpp"
+#include "GlobalNamespace/NoopBlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "GlobalNamespace/NoteBasicCutInfoHelper.hpp"
 #include "GlobalNamespace/NoteBigCuttableColliderSize.hpp"
 #include "GlobalNamespace/NoteController.hpp"
@@ -1830,9 +1837,7 @@
 #include "GlobalNamespace/PresetsSettingsController.hpp"
 #include "GlobalNamespace/PreviousColorPanelController.hpp"
 #include "GlobalNamespace/PrivacyPolicyDisplayViewController.hpp"
-#include "GlobalNamespace/PrivacyPolicyNoticeDisplayViewController.hpp"
-#include "GlobalNamespace/PrivacyPolicyNoticeView.hpp"
-#include "GlobalNamespace/PrivacyPolicyNoticeViewController.hpp"
+#include "GlobalNamespace/PrivacyPolicyView.hpp"
 #include "GlobalNamespace/PrivacyPolicyViewController.hpp"
 #include "GlobalNamespace/ProModeTrailingCollidersController.hpp"
 #include "GlobalNamespace/ProcessPort.hpp"
@@ -1882,6 +1887,8 @@
 #include "GlobalNamespace/ReflectionProbeBakingEffect.hpp"
 #include "GlobalNamespace/ReflectionProbeBakingOverride.hpp"
 #include "GlobalNamespace/ReflectionProbeDataSO.hpp"
+#include "GlobalNamespace/Region.hpp"
+#include "GlobalNamespace/RegionToLocalizationKeyPair.hpp"
 #include "GlobalNamespace/RelativeScoreAndImmediateRankCounter.hpp"
 #include "GlobalNamespace/RemoteMultiplayerSyncState_3.hpp"
 #include "GlobalNamespace/RemoteProcedureCall.hpp"
@@ -2151,7 +2158,6 @@
 #include "GlobalNamespace/SteamPlatformAdditionalContentModel.hpp"
 #include "GlobalNamespace/StepFloatMaterialPropertyEffectTarget.hpp"
 #include "GlobalNamespace/StepValuePicker.hpp"
-#include "GlobalNamespace/StopPreviewPlayerOnTransitionDidFinish.hpp"
 #include "GlobalNamespace/StoragePreference.hpp"
 #include "GlobalNamespace/StretchableCube.hpp"
 #include "GlobalNamespace/StretchableObstacle.hpp"
@@ -2308,6 +2314,5 @@
 #include "GlobalNamespace/ZenjectExtensions.hpp"
 #include "GlobalNamespace/ZenjectSafeBehaviour.hpp"
 #ifdef __cpp_modules
-                    export module GlobalNamespace;
-                    #endif
-                
+export module GlobalNamespace;
+#endif

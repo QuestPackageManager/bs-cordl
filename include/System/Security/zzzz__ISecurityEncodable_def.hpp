@@ -13,26 +13,26 @@ class ISecurityEncodable;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::ISecurityEncodable);
-// Dependencies 
+// Dependencies
 namespace System::Security {
 // Is value type: false
 // CS Name: System.Security.ISecurityEncodable
 class CORDL_TYPE ISecurityEncodable {
 public:
-// Declarations
-/// @brief Method ToXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Security::SecurityElement* ToXml() ;
+  // Declarations
+  /// @brief Method ToXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Security::SecurityElement* ToXml();
 
-// Ctor Parameters [CppParam { name: "", ty: "ISecurityEncodable", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ISecurityEncodable(ISecurityEncodable const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ISecurityEncodable", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ISecurityEncodable(ISecurityEncodable const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2898};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2898 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def System::Security
+} // namespace System::Security
 NEED_NO_BOX(::System::Security::ISecurityEncodable);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::ISecurityEncodable*, "System.Security", "ISecurityEncodable");

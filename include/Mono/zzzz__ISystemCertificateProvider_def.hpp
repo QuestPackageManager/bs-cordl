@@ -26,32 +26,35 @@ class ISystemCertificateProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::ISystemCertificateProvider);
-// Dependencies 
+// Dependencies
 namespace Mono {
 // Is value type: false
 // CS Name: Mono.ISystemCertificateProvider
 class CORDL_TYPE ISystemCertificateProvider {
 public:
-// Declarations
-/// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate*  cert, ::Mono::CertificateImportFlags  importFlags) ;
+  // Declarations
+  /// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert,
+                                                                                         ::Mono::CertificateImportFlags importFlags);
 
-/// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::Mono::CertificateImportFlags  importFlags) ;
+  /// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Mono::CertificateImportFlags importFlags);
 
-/// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle*  password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags  keyStorageFlags, ::Mono::CertificateImportFlags  importFlags) ;
+  /// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
+                                                                                         ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags,
+                                                                                         ::Mono::CertificateImportFlags importFlags);
 
-// Ctor Parameters [CppParam { name: "", ty: "ISystemCertificateProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ISystemCertificateProvider(ISystemCertificateProvider const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ISystemCertificateProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ISystemCertificateProvider(ISystemCertificateProvider const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2225};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2225 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def Mono
+} // namespace Mono
 NEED_NO_BOX(::Mono::ISystemCertificateProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::ISystemCertificateProvider*, "Mono", "ISystemCertificateProvider");

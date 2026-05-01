@@ -14,8 +14,7 @@ namespace GlobalNamespace {
 class IAnalyticsModel;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,66 +28,66 @@ namespace GlobalNamespace {
 // CS Name: OculusAnalyticsModel
 class CORDL_TYPE OculusAnalyticsModel : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_supportsOpenDataPrivacyPage)) bool  supportsOpenDataPrivacyPage;
+  // Declarations
+  __declspec(property(get = get_supportsOpenDataPrivacyPage)) bool supportsOpenDataPrivacyPage;
 
-/// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
-constexpr operator  ::GlobalNamespace::IAnalyticsModel*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
+  constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-/// @brief Method LogClick, addr 0x31eeb24, size 0xb4, virtual true, abstract: false, final true
-inline void LogClick(::StringW  clickType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  clickData) ;
+  /// @brief Method LogClick, addr 0x322a78c, size 0xb4, virtual true, abstract: false, final true
+  inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-/// @brief Method LogEditAvatarEvent, addr 0x31ee9d8, size 0x14c, virtual true, abstract: false, final true
-inline void LogEditAvatarEvent(::StringW  eventType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  eventData) ;
+  /// @brief Method LogEditAvatarEvent, addr 0x322a640, size 0x14c, virtual true, abstract: false, final true
+  inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-/// @brief Method LogEvent, addr 0x31ee63c, size 0x14c, virtual true, abstract: false, final true
-inline void LogEvent(::StringW  eventType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  eventData) ;
+  /// @brief Method LogEvent, addr 0x322a2a4, size 0x14c, virtual true, abstract: false, final true
+  inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-/// @brief Method LogExposure, addr 0x31eec8c, size 0xb4, virtual true, abstract: false, final true
-inline void LogExposure(::StringW  exposureType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  exposureData) ;
+  /// @brief Method LogExposure, addr 0x322a8f4, size 0xb4, virtual true, abstract: false, final true
+  inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-/// @brief Method LogImpression, addr 0x31eebd8, size 0xb4, virtual true, abstract: false, final true
-inline void LogImpression(::StringW  impressionType, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  impressionData) ;
+  /// @brief Method LogImpression, addr 0x322a840, size 0xb4, virtual true, abstract: false, final true
+  inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-/// @brief Method LogSessionEvent, addr 0x31ee788, size 0x250, virtual true, abstract: false, final true
-inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType  eventType, int32_t  timeSinceSessionStart) ;
+  /// @brief Method LogSessionEvent, addr 0x322a3f0, size 0x250, virtual true, abstract: false, final true
+  inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType eventType, int32_t timeSinceSessionStart);
 
-static inline ::GlobalNamespace::OculusAnalyticsModel* New_ctor() ;
+  static inline ::GlobalNamespace::OculusAnalyticsModel* New_ctor();
 
-/// @brief Method OpenDataPrivacyPage, addr 0x31ee638, size 0x4, virtual true, abstract: false, final true
-inline void OpenDataPrivacyPage() ;
+  /// @brief Method OpenDataPrivacyPage, addr 0x322a2a0, size 0x4, virtual true, abstract: false, final true
+  inline void OpenDataPrivacyPage();
 
-/// @brief Method .ctor, addr 0x31eed40, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x322a9a8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_supportsOpenDataPrivacyPage, addr 0x31ee630, size 0x8, virtual true, abstract: false, final true
-inline bool get_supportsOpenDataPrivacyPage() ;
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x322a298, size 0x8, virtual true, abstract: false, final true
+  inline bool get_supportsOpenDataPrivacyPage();
 
-/// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
-constexpr ::GlobalNamespace::IAnalyticsModel* i___GlobalNamespace__IAnalyticsModel() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
+  constexpr ::GlobalNamespace::IAnalyticsModel* i___GlobalNamespace__IAnalyticsModel() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OculusAnalyticsModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusAnalyticsModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OculusAnalyticsModel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OculusAnalyticsModel(OculusAnalyticsModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OculusAnalyticsModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OculusAnalyticsModel(OculusAnalyticsModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OculusAnalyticsModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OculusAnalyticsModel(OculusAnalyticsModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OculusAnalyticsModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OculusAnalyticsModel(OculusAnalyticsModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23379 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23259};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusAnalyticsModel, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusAnalyticsModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusAnalyticsModel*, "", "OculusAnalyticsModel");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Runtime/Remoting/ActivatedClientTypeEntry.hpp"
 #include "System/Runtime/Remoting/ActivatedServiceTypeEntry.hpp"
@@ -34,6 +34,5 @@
 #include "System/Runtime/Remoting/WellKnownObjectMode.hpp"
 #include "System/Runtime/Remoting/WellKnownServiceTypeEntry.hpp"
 #ifdef __cpp_modules
-                    export module Remoting;
-                    #endif
-                
+export module Remoting;
+#endif

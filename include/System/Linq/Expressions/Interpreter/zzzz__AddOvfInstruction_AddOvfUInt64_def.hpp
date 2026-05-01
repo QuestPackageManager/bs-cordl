@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.AddOvfInstruction/AddOvfUInt64
 class CORDL_TYPE AddOvfInstruction_AddOvfUInt64 : public ::System::Linq::Expressions::Interpreter::AddOvfInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::AddOvfInstruction_AddOvfUInt64* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::AddOvfInstruction_AddOvfUInt64* New_ctor();
 
-/// @brief Method Run, addr 0x5dd8178, size 0x14c, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e4a184, size 0x14c, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5dd7ad0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e49adc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AddOvfInstruction_AddOvfUInt64() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AddOvfInstruction_AddOvfUInt64();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfUInt64", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AddOvfInstruction_AddOvfUInt64(AddOvfInstruction_AddOvfUInt64&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfUInt64", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AddOvfInstruction_AddOvfUInt64(AddOvfInstruction_AddOvfUInt64 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfUInt64", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AddOvfInstruction_AddOvfUInt64(AddOvfInstruction_AddOvfUInt64 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfUInt64", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AddOvfInstruction_AddOvfUInt64(AddOvfInstruction_AddOvfUInt64 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16230 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16222};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AddOvfInstruction_AddOvfUInt64, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AddOvfInstruction_AddOvfUInt64);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AddOvfInstruction_AddOvfUInt64*, "System.Linq.Expressions.Interpreter", "AddOvfInstruction/AddOvfUInt64");

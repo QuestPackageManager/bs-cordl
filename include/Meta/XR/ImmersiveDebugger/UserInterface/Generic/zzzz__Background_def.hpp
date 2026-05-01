@@ -30,71 +30,71 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.Background
 class CORDL_TYPE Background : public ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller {
 public:
-// Declarations
- __declspec(property(put=set_Color)) ::UnityEngine::Color  Color;
+  // Declarations
+  __declspec(property(put = set_Color)) ::UnityEngine::Color Color;
 
- __declspec(property(put=set_PixelDensityMultiplier)) float_t  PixelDensityMultiplier;
+  __declspec(property(put = set_PixelDensityMultiplier)) float_t PixelDensityMultiplier;
 
- __declspec(property(put=set_RaycastTarget)) bool  RaycastTarget;
+  __declspec(property(put = set_RaycastTarget)) bool RaycastTarget;
 
- __declspec(property(put=set_Sprite)) ::UnityW<::UnityEngine::Sprite>  Sprite;
+  __declspec(property(put = set_Sprite)) ::UnityW<::UnityEngine::Sprite> Sprite;
 
-/// @brief Field _image, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get__image, put=__cordl_internal_set__image)) ::UnityW<::UnityEngine::UI::Image>  _image;
+  /// @brief Field _image, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image)) ::UnityW<::UnityEngine::UI::Image> _image;
 
-static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background* New_ctor() ;
+  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background* New_ctor();
 
-/// @brief Method Setup, addr 0x58aa1f0, size 0xa0, virtual true, abstract: false, final false
-inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  owner) ;
+  /// @brief Method Setup, addr 0x591c15c, size 0xa0, virtual true, abstract: false, final false
+  inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image() ;
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
 
-constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image>  value) ;
+  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-/// @brief Method .ctor, addr 0x58aa290, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x591c1fc, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method set_Color, addr 0x58aa178, size 0x20, virtual false, abstract: false, final false
-inline void set_Color(::UnityEngine::Color  value) ;
+  /// @brief Method set_Color, addr 0x591c0e4, size 0x20, virtual false, abstract: false, final false
+  inline void set_Color(::UnityEngine::Color value);
 
-/// @brief Method set_PixelDensityMultiplier, addr 0x58aa198, size 0x34, virtual false, abstract: false, final false
-inline void set_PixelDensityMultiplier(float_t  value) ;
+  /// @brief Method set_PixelDensityMultiplier, addr 0x591c104, size 0x34, virtual false, abstract: false, final false
+  inline void set_PixelDensityMultiplier(float_t value);
 
-/// @brief Method set_RaycastTarget, addr 0x58aa1cc, size 0x24, virtual false, abstract: false, final false
-inline void set_RaycastTarget(bool  value) ;
+  /// @brief Method set_RaycastTarget, addr 0x591c138, size 0x24, virtual false, abstract: false, final false
+  inline void set_RaycastTarget(bool value);
 
-/// @brief Method set_Sprite, addr 0x58aa160, size 0x18, virtual false, abstract: false, final false
-inline void set_Sprite(::UnityEngine::Sprite*  value) ;
+  /// @brief Method set_Sprite, addr 0x591c0cc, size 0x18, virtual false, abstract: false, final false
+  inline void set_Sprite(::UnityEngine::Sprite* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Background() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Background();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Background(Background&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Background(Background && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Background(Background const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Background(Background const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18371 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18361};
+  /// @brief Field _image, offset: 0x70, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Image> ____image;
 
-/// @brief Field _image, offset: 0x70, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Image>  ____image;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background, ____image) == 0x70, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background, 0x78>, "Size mismatch!");
 
-} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface::Generic
+} // namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "Background");

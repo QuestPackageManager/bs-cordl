@@ -26,37 +26,37 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.SerializationEventHandler
 class CORDL_TYPE SerializationEventHandler : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x599c684, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::System::Runtime::Serialization::StreamingContext  context) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x5a0e5f0, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Runtime::Serialization::SerializationEventHandler* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Runtime::Serialization::SerializationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x599c618, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5a0e584, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SerializationEventHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerializationEventHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationEventHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SerializationEventHandler(SerializationEventHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SerializationEventHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SerializationEventHandler(SerializationEventHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationEventHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SerializationEventHandler(SerializationEventHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SerializationEventHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SerializationEventHandler(SerializationEventHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3218 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3218};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::SerializationEventHandler, 0x80>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::SerializationEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationEventHandler*, "System.Runtime.Serialization", "SerializationEventHandler");

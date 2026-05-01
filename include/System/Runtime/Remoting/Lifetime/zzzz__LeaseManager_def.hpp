@@ -32,69 +32,69 @@ namespace System::Runtime::Remoting::Lifetime {
 // CS Name: System.Runtime.Remoting.Lifetime.LeaseManager
 class CORDL_TYPE LeaseManager : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _objects, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__objects, put=__cordl_internal_set__objects)) ::System::Collections::ArrayList*  _objects;
+  // Declarations
+  /// @brief Field _objects, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects)) ::System::Collections::ArrayList* _objects;
 
-/// @brief Field _timer, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__timer, put=__cordl_internal_set__timer)) ::System::Threading::Timer*  _timer;
+  /// @brief Field _timer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) ::System::Threading::Timer* _timer;
 
-/// @brief Method ManageLeases, addr 0x59861e8, size 0x25c, virtual false, abstract: false, final false
-inline void ManageLeases(::System::Object*  state) ;
+  /// @brief Method ManageLeases, addr 0x59f8154, size 0x25c, virtual false, abstract: false, final false
+  inline void ManageLeases(::System::Object* state);
 
-static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor() ;
+  static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
 
-/// @brief Method SetPollTime, addr 0x5985e34, size 0xe8, virtual false, abstract: false, final false
-inline void SetPollTime(::System::TimeSpan  timeSpan) ;
+  /// @brief Method SetPollTime, addr 0x59f7da0, size 0xe8, virtual false, abstract: false, final false
+  inline void SetPollTime(::System::TimeSpan timeSpan);
 
-/// @brief Method StartManager, addr 0x5986048, size 0x184, virtual false, abstract: false, final false
-inline void StartManager() ;
+  /// @brief Method StartManager, addr 0x59f7fb4, size 0x184, virtual false, abstract: false, final false
+  inline void StartManager();
 
-/// @brief Method StopManager, addr 0x59861cc, size 0x1c, virtual false, abstract: false, final false
-inline void StopManager() ;
+  /// @brief Method StopManager, addr 0x59f8138, size 0x1c, virtual false, abstract: false, final false
+  inline void StopManager();
 
-/// @brief Method TrackLifetime, addr 0x5985f1c, size 0x12c, virtual false, abstract: false, final false
-inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity*  identity) ;
+  /// @brief Method TrackLifetime, addr 0x59f7e88, size 0x12c, virtual false, abstract: false, final false
+  inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
-constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__objects() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__objects() const;
 
-constexpr ::System::Collections::ArrayList*& __cordl_internal_get__objects() ;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__objects();
 
-constexpr ::System::Threading::Timer* const& __cordl_internal_get__timer() const;
+  constexpr ::System::Threading::Timer* const& __cordl_internal_get__timer() const;
 
-constexpr ::System::Threading::Timer*& __cordl_internal_get__timer() ;
+  constexpr ::System::Threading::Timer*& __cordl_internal_get__timer();
 
-constexpr void __cordl_internal_set__objects(::System::Collections::ArrayList*  value) ;
+  constexpr void __cordl_internal_set__objects(::System::Collections::ArrayList* value);
 
-constexpr void __cordl_internal_set__timer(::System::Threading::Timer*  value) ;
+  constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
-/// @brief Method .ctor, addr 0x5986444, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x59f83b0, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LeaseManager() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LeaseManager();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LeaseManager", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LeaseManager(LeaseManager&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LeaseManager", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LeaseManager(LeaseManager && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LeaseManager", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LeaseManager(LeaseManager const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LeaseManager", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LeaseManager(LeaseManager const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3110 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3110};
+  /// @brief Field _objects, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::ArrayList* ____objects;
 
-/// @brief Field _objects, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::ArrayList*  ____objects;
+  /// @brief Field _timer, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::Timer* ____timer;
 
-/// @brief Field _timer, offset: 0x18, size: 0x8, def value: None
- ::System::Threading::Timer*  ____timer;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Lifetime::LeaseManager, ____objects) == 0x10, "Offset mismatch!");
@@ -103,6 +103,6 @@ static_assert(offsetof(::System::Runtime::Remoting::Lifetime::LeaseManager, ____
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifetime::LeaseManager, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting::Lifetime
+} // namespace System::Runtime::Remoting::Lifetime
 NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::LeaseManager);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");

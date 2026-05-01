@@ -14,15 +14,13 @@ namespace GlobalNamespace {
 struct BeatSaberPlayerIdentityPacketData;
 }
 namespace GlobalNamespace {
-template<typename TConnectedPlayer,typename TConnectedPlayerImpl,typename TGameSpecificIdentityData>
-class ConnectedPlayerManager_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class ConnectedPlayerManager_3;
 }
 namespace GlobalNamespace {
 class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
-template<typename TConnectedPlayer,typename TConnectedPlayerImpl,typename TGameSpecificIdentityData>
-class IConnectedPlayerFactory_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class IConnectedPlayerFactory_3;
 }
 namespace GlobalNamespace {
 class IConnection;
@@ -42,49 +40,64 @@ namespace GlobalNamespace {
 // CS Name: BeatSaberConnectedPlayerFactory
 class CORDL_TYPE BeatSaberConnectedPlayerFactory : public ::System::Object {
 public:
-// Declarations
-/// @brief Convert operator to "::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>"
-constexpr operator  ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*() noexcept;
+  // Declarations
+  /// @brief Convert operator to
+  /// "::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>"
+  constexpr operator ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
+                                                                  ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*() noexcept;
 
-/// @brief Method CreateDirectlyConnectedPlayer, addr 0x31d1ec0, size 0x250, virtual true, abstract: false, final true
-inline ::GlobalNamespace::BeatSaberConnectedPlayer* CreateDirectlyConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*  manager, uint8_t  connectionId, ::GlobalNamespace::IConnection*  connection) ;
+  /// @brief Method CreateDirectlyConnectedPlayer, addr 0x320dad8, size 0x250, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::BeatSaberConnectedPlayer*
+  CreateDirectlyConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
+                                                                            ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* manager,
+                                uint8_t connectionId, ::GlobalNamespace::IConnection* connection);
 
-/// @brief Method CreateLocalPlayer, addr 0x31d1dfc, size 0xc4, virtual true, abstract: false, final true
-inline ::GlobalNamespace::BeatSaberConnectedPlayer* CreateLocalPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*  manager, ::StringW  userId, ::StringW  userName, bool  isConnectionOwner, ::ArrayW<uint8_t,::Array<uint8_t>*>  publicEncryptionKey, ::ArrayW<uint8_t,::Array<uint8_t>*>  random, ::StringW  compatibilityVersion) ;
+  /// @brief Method CreateLocalPlayer, addr 0x320da14, size 0xc4, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::BeatSaberConnectedPlayer*
+  CreateLocalPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
+                                                                ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* manager,
+                    ::StringW userId, ::StringW userName, bool isConnectionOwner, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicEncryptionKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> random,
+                    ::StringW compatibilityVersion);
 
-/// @brief Method CreateRemoteConnectedPlayer, addr 0x31d2110, size 0xec, virtual true, abstract: false, final true
-inline ::GlobalNamespace::BeatSaberConnectedPlayer* CreateRemoteConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*  manager, uint8_t  connectionId, ::GlobalNamespace::PlayerConnectedPacket*  packet, ::GlobalNamespace::BeatSaberConnectedPlayer*  parent) ;
+  /// @brief Method CreateRemoteConnectedPlayer, addr 0x320dd28, size 0xec, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::BeatSaberConnectedPlayer*
+  CreateRemoteConnectedPlayer(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
+                                                                          ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* manager,
+                              uint8_t connectionId, ::GlobalNamespace::PlayerConnectedPacket* packet, ::GlobalNamespace::BeatSaberConnectedPlayer* parent);
 
-static inline ::GlobalNamespace::BeatSaberConnectedPlayerFactory* New_ctor() ;
+  static inline ::GlobalNamespace::BeatSaberConnectedPlayerFactory* New_ctor();
 
-/// @brief Method .ctor, addr 0x31d21fc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x320de14, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>"
-constexpr ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* i___GlobalNamespace__IConnectedPlayerFactory_3___GlobalNamespace__IBeatSaberConnectedPlayer____GlobalNamespace__BeatSaberConnectedPlayer____GlobalNamespace__BeatSaberPlayerIdentityPacketData_() noexcept;
+  /// @brief Convert to
+  /// "::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberConnectedPlayer*,::GlobalNamespace::BeatSaberPlayerIdentityPacketData>"
+  constexpr ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
+                                                         ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>*
+  i___GlobalNamespace__IConnectedPlayerFactory_3___GlobalNamespace__IBeatSaberConnectedPlayer____GlobalNamespace__BeatSaberConnectedPlayer____GlobalNamespace__BeatSaberPlayerIdentityPacketData_() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatSaberConnectedPlayerFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatSaberConnectedPlayerFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatSaberConnectedPlayerFactory(BeatSaberConnectedPlayerFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatSaberConnectedPlayerFactory(BeatSaberConnectedPlayerFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatSaberConnectedPlayerFactory(BeatSaberConnectedPlayerFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatSaberConnectedPlayerFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatSaberConnectedPlayerFactory(BeatSaberConnectedPlayerFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18817 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18807};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatSaberConnectedPlayerFactory, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatSaberConnectedPlayerFactory);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatSaberConnectedPlayerFactory*, "", "BeatSaberConnectedPlayerFactory");

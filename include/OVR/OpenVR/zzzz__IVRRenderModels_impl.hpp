@@ -13,2060 +13,1862 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c8f070;
+  constexpr static std::size_t addrs = 0x5d01058;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(::StringW, ::ByRef<::System::IntPtr>)>(&::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(
+    ::StringW, ::ByRef<::System::IntPtr>)>(&::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f0f0;
+  constexpr static std::size_t addrs = 0x5d010d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(::StringW, ::ByRef<::System::IntPtr>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(::StringW, ::ByRef<::System::IntPtr>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c8f104;
+  constexpr static std::size_t addrs = 0x5d010ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(::ByRef<::System::IntPtr>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::*)(
+    ::ByRef<::System::IntPtr>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8f15c;
+  constexpr static std::size_t addrs = 0x5d01144;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::Invoke(::StringW  pchRenderModelName, ::ByRef<::System::IntPtr>  ppRenderModel)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, pchRenderModelName, ppRenderModel);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::Invoke(::StringW pchRenderModelName, ::ByRef<::System::IntPtr> ppRenderModel) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, pchRenderModelName, ppRenderModel);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::BeginInvoke(::StringW  pchRenderModelName, ::ByRef<::System::IntPtr>  ppRenderModel, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, ppRenderModel, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::BeginInvoke(::StringW pchRenderModelName, ::ByRef<::System::IntPtr> ppRenderModel,
+                                                                                                ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, ppRenderModel, callback, object);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::EndInvoke(::ByRef<::System::IntPtr>  ppRenderModel, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, ppRenderModel, result);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::EndInvoke(::ByRef<::System::IntPtr> ppRenderModel, ::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, ppRenderModel, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::IVRRenderModels__LoadRenderModel_Async()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async::IVRRenderModels__LoadRenderModel_Async() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeRenderModel._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__FreeRenderModel::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeRenderModel::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c8f180;
+  constexpr static std::size_t addrs = 0x5d01168;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeRenderModel.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__FreeRenderModel::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeRenderModel::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f1ec;
+  constexpr static std::size_t addrs = 0x5d011d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeRenderModel.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__FreeRenderModel::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__FreeRenderModel::BeginInvoke)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c8f200;
+  constexpr static std::size_t addrs = 0x5d011e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeRenderModel.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__FreeRenderModel::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeRenderModel::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeRenderModel::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c8f254;
+  constexpr static std::size_t addrs = 0x5d0123c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__FreeRenderModel::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__FreeRenderModel::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRRenderModels__FreeRenderModel::Invoke(::System::IntPtr  pRenderModel)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pRenderModel);
+inline void OVR::OpenVR::IVRRenderModels__FreeRenderModel::Invoke(::System::IntPtr pRenderModel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pRenderModel);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__FreeRenderModel::BeginInvoke(::System::IntPtr  pRenderModel, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pRenderModel, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__FreeRenderModel::BeginInvoke(::System::IntPtr pRenderModel, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pRenderModel, callback, object);
 }
-inline void OVR::OpenVR::IVRRenderModels__FreeRenderModel::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
+inline void OVR::OpenVR::IVRRenderModels__FreeRenderModel::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* OVR::OpenVR::IVRRenderModels__FreeRenderModel::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* OVR::OpenVR::IVRRenderModels__FreeRenderModel::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__FreeRenderModel*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__FreeRenderModel::IVRRenderModels__FreeRenderModel()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__FreeRenderModel::IVRRenderModels__FreeRenderModel() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c8f260;
+  constexpr static std::size_t addrs = 0x5d01248;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(int32_t, ::ByRef<::System::IntPtr>)>(&::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(
+    int32_t, ::ByRef<::System::IntPtr>)>(&::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f2cc;
+  constexpr static std::size_t addrs = 0x5d012b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(int32_t, ::ByRef<::System::IntPtr>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(int32_t, ::ByRef<::System::IntPtr>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c8f2e0;
+  constexpr static std::size_t addrs = 0x5d012c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(::ByRef<::System::IntPtr>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::*)(
+    ::ByRef<::System::IntPtr>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8f35c;
+  constexpr static std::size_t addrs = 0x5d01344;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__LoadTexture_Async::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__LoadTexture_Async::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTexture_Async::Invoke(int32_t  textureId, ::ByRef<::System::IntPtr>  ppTexture)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, textureId, ppTexture);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTexture_Async::Invoke(int32_t textureId, ::ByRef<::System::IntPtr> ppTexture) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, textureId, ppTexture);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadTexture_Async::BeginInvoke(int32_t  textureId, ::ByRef<::System::IntPtr>  ppTexture, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, textureId, ppTexture, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadTexture_Async::BeginInvoke(int32_t textureId, ::ByRef<::System::IntPtr> ppTexture, ::System::AsyncCallback* callback,
+                                                                                            ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, textureId, ppTexture, callback, object);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTexture_Async::EndInvoke(::ByRef<::System::IntPtr>  ppTexture, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, ppTexture, result);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTexture_Async::EndInvoke(::ByRef<::System::IntPtr> ppTexture, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, ppTexture, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* OVR::OpenVR::IVRRenderModels__LoadTexture_Async::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* OVR::OpenVR::IVRRenderModels__LoadTexture_Async::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::IVRRenderModels__LoadTexture_Async()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async::IVRRenderModels__LoadTexture_Async() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTexture._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__FreeTexture::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeTexture::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c8f380;
+  constexpr static std::size_t addrs = 0x5d01368;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTexture.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__FreeTexture::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeTexture::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f3ec;
+  constexpr static std::size_t addrs = 0x5d013d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTexture.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__FreeTexture::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__FreeTexture::BeginInvoke)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c8f400;
+  constexpr static std::size_t addrs = 0x5d013e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTexture.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__FreeTexture::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTexture::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeTexture::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c8f454;
+  constexpr static std::size_t addrs = 0x5d0143c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__FreeTexture::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__FreeTexture::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRRenderModels__FreeTexture::Invoke(::System::IntPtr  pTexture)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pTexture);
+inline void OVR::OpenVR::IVRRenderModels__FreeTexture::Invoke(::System::IntPtr pTexture) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pTexture);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__FreeTexture::BeginInvoke(::System::IntPtr  pTexture, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pTexture, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__FreeTexture::BeginInvoke(::System::IntPtr pTexture, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pTexture, callback, object);
 }
-inline void OVR::OpenVR::IVRRenderModels__FreeTexture::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
+inline void OVR::OpenVR::IVRRenderModels__FreeTexture::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTexture*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__FreeTexture* OVR::OpenVR::IVRRenderModels__FreeTexture::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__FreeTexture*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__FreeTexture* OVR::OpenVR::IVRRenderModels__FreeTexture::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__FreeTexture*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__FreeTexture::IVRRenderModels__FreeTexture()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__FreeTexture::IVRRenderModels__FreeTexture() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c8f460;
+  constexpr static std::size_t addrs = 0x5d01448;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(int32_t, ::System::IntPtr, ::ByRef<::System::IntPtr>)>(&::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(
+    int32_t, ::System::IntPtr, ::ByRef<::System::IntPtr>)>(&::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f4cc;
+  constexpr static std::size_t addrs = 0x5d014b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(int32_t, ::System::IntPtr, ::ByRef<::System::IntPtr>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(int32_t, ::System::IntPtr, ::ByRef<::System::IntPtr>, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5c8f4e0;
+  constexpr static std::size_t addrs = 0x5d014c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(::ByRef<::System::IntPtr>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::*)(
+    ::ByRef<::System::IntPtr>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8f570;
+  constexpr static std::size_t addrs = 0x5d01558;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::Invoke(int32_t  textureId, ::System::IntPtr  pD3D11Device, ::ByRef<::System::IntPtr>  ppD3D11Texture2D)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, textureId, pD3D11Device, ppD3D11Texture2D);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::Invoke(int32_t textureId, ::System::IntPtr pD3D11Device, ::ByRef<::System::IntPtr> ppD3D11Texture2D) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, textureId, pD3D11Device, ppD3D11Texture2D);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::BeginInvoke(int32_t  textureId, ::System::IntPtr  pD3D11Device, ::ByRef<::System::IntPtr>  ppD3D11Texture2D, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, textureId, pD3D11Device, ppD3D11Texture2D, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::BeginInvoke(int32_t textureId, ::System::IntPtr pD3D11Device, ::ByRef<::System::IntPtr> ppD3D11Texture2D,
+                                                                                                 ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, textureId, pD3D11Device, ppD3D11Texture2D, callback, object);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::EndInvoke(::ByRef<::System::IntPtr>  ppD3D11Texture2D, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, ppD3D11Texture2D, result);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::EndInvoke(::ByRef<::System::IntPtr> ppD3D11Texture2D, ::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, ppD3D11Texture2D, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::IVRRenderModels__LoadTextureD3D11_Async()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async::IVRRenderModels__LoadTextureD3D11_Async() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c8f594;
+  constexpr static std::size_t addrs = 0x5d0157c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(int32_t, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(
+    int32_t, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f600;
+  constexpr static std::size_t addrs = 0x5d015e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(int32_t, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(int32_t, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c8f614;
+  constexpr static std::size_t addrs = 0x5d015fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRRenderModelError (::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::*)(
+    ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8f68c;
+  constexpr static std::size_t addrs = 0x5d01674;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::Invoke(int32_t  textureId, ::System::IntPtr  pDstTexture)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, textureId, pDstTexture);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::Invoke(int32_t textureId, ::System::IntPtr pDstTexture) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, textureId, pDstTexture);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::BeginInvoke(int32_t  textureId, ::System::IntPtr  pDstTexture, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, textureId, pDstTexture, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::BeginInvoke(int32_t textureId, ::System::IntPtr pDstTexture, ::System::AsyncCallback* callback,
+                                                                                                     ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, textureId, pDstTexture, callback, object);
 }
-inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, result);
+inline ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRRenderModelError, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::IVRRenderModels__LoadIntoTextureD3D11_Async()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async::IVRRenderModels__LoadIntoTextureD3D11_Async() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c8f6b0;
+  constexpr static std::size_t addrs = 0x5d01698;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f71c;
+  constexpr static std::size_t addrs = 0x5d01704;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::BeginInvoke)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c8f730;
+  constexpr static std::size_t addrs = 0x5d01718;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c8f784;
+  constexpr static std::size_t addrs = 0x5d0176c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::Invoke(::System::IntPtr  pD3D11Texture2D)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pD3D11Texture2D);
+inline void OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::Invoke(::System::IntPtr pD3D11Texture2D) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pD3D11Texture2D);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::BeginInvoke(::System::IntPtr  pD3D11Texture2D, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pD3D11Texture2D, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::BeginInvoke(::System::IntPtr pD3D11Texture2D, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pD3D11Texture2D, callback, object);
 }
-inline void OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
+inline void OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::IVRRenderModels__FreeTextureD3D11()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11::IVRRenderModels__FreeTextureD3D11() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelName._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelName::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelName::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c8f790;
+  constexpr static std::size_t addrs = 0x5d01778;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelName.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelName::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelName::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f7fc;
+  constexpr static std::size_t addrs = 0x5d017e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelName.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelName::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__GetRenderModelName::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c8f810;
+  constexpr static std::size_t addrs = 0x5d017f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelName.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelName::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelName::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelName::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8f888;
+  constexpr static std::size_t addrs = 0x5d01870;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetRenderModelName::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetRenderModelName::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelName::Invoke(uint32_t  unRenderModelIndex, ::System::Text::StringBuilder*  pchRenderModelName, uint32_t  unRenderModelNameLen)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, unRenderModelIndex, pchRenderModelName, unRenderModelNameLen);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelName::Invoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, unRenderModelIndex, pchRenderModelName, unRenderModelNameLen);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelName::BeginInvoke(uint32_t  unRenderModelIndex, ::System::Text::StringBuilder*  pchRenderModelName, uint32_t  unRenderModelNameLen, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, unRenderModelIndex, pchRenderModelName, unRenderModelNameLen, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelName::BeginInvoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName,
+                                                                                             uint32_t unRenderModelNameLen, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, unRenderModelIndex, pchRenderModelName, unRenderModelNameLen, callback, object);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelName::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelName::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* OVR::OpenVR::IVRRenderModels__GetRenderModelName::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* OVR::OpenVR::IVRRenderModels__GetRenderModelName::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelName*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelName::IVRRenderModels__GetRenderModelName()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelName::IVRRenderModels__GetRenderModelName() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5c8f8ac;
+  constexpr static std::size_t addrs = 0x5d01894;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)()>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)()>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f914;
+  constexpr static std::size_t addrs = 0x5d018fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)(::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)(::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c8f928;
+  constexpr static std::size_t addrs = 0x5d01910;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8f944;
+  constexpr static std::size_t addrs = 0x5d0192c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetRenderModelCount::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetRenderModelCount::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelCount::Invoke()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelCount::Invoke() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelCount::BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelCount::BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, callback, object);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelCount::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelCount::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* OVR::OpenVR::IVRRenderModels__GetRenderModelCount::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* OVR::OpenVR::IVRRenderModels__GetRenderModelCount::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::IVRRenderModels__GetRenderModelCount()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount::IVRRenderModels__GetRenderModelCount() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentCount._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetComponentCount::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentCount::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c8f968;
+  constexpr static std::size_t addrs = 0x5d01950;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentCount.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::StringW)>(&::OVR::OpenVR::IVRRenderModels__GetComponentCount::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::StringW)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentCount::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8f9e4;
+  constexpr static std::size_t addrs = 0x5d019cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentCount.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentCount::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentCount::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c8f9f8;
+  constexpr static std::size_t addrs = 0x5d019e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentCount.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentCount::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentCount::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentCount::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8fa18;
+  constexpr static std::size_t addrs = 0x5d01a00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetComponentCount::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetComponentCount::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentCount::Invoke(::StringW  pchRenderModelName)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentCount::Invoke(::StringW pchRenderModelName) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentCount::BeginInvoke(::StringW  pchRenderModelName, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentCount::BeginInvoke(::StringW pchRenderModelName, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, callback, object);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentCount::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentCount::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetComponentCount* OVR::OpenVR::IVRRenderModels__GetComponentCount::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetComponentCount* OVR::OpenVR::IVRRenderModels__GetComponentCount::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentCount*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentCount::IVRRenderModels__GetComponentCount()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentCount::IVRRenderModels__GetComponentCount() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentName._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetComponentName::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentName::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c8fa3c;
+  constexpr static std::size_t addrs = 0x5d01a24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentName.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(::StringW, uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::IVRRenderModels__GetComponentName::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(
+    ::StringW, uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::IVRRenderModels__GetComponentName::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8fabc;
+  constexpr static std::size_t addrs = 0x5d01aa4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentName.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(::StringW, uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentName::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(::StringW, uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentName::BeginInvoke)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c8fad0;
+  constexpr static std::size_t addrs = 0x5d01ab8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentName.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentName::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentName::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentName::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8fb4c;
+  constexpr static std::size_t addrs = 0x5d01b34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetComponentName::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetComponentName::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentName::Invoke(::StringW  pchRenderModelName, uint32_t  unComponentIndex, ::System::Text::StringBuilder*  pchComponentName, uint32_t  unComponentNameLen)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, unComponentIndex, pchComponentName, unComponentNameLen);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentName::Invoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName,
+                                                                       uint32_t unComponentNameLen) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, unComponentIndex, pchComponentName, unComponentNameLen);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentName::BeginInvoke(::StringW  pchRenderModelName, uint32_t  unComponentIndex, ::System::Text::StringBuilder*  pchComponentName, uint32_t  unComponentNameLen, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, unComponentIndex, pchComponentName, unComponentNameLen, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentName::BeginInvoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName,
+                                                                                           uint32_t unComponentNameLen, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, unComponentIndex, pchComponentName, unComponentNameLen, callback, object);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentName::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentName::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentName*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetComponentName* OVR::OpenVR::IVRRenderModels__GetComponentName::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentName*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetComponentName* OVR::OpenVR::IVRRenderModels__GetComponentName::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentName*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentName::IVRRenderModels__GetComponentName()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentName::IVRRenderModels__GetComponentName() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c8fb70;
+  constexpr static std::size_t addrs = 0x5d01b58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::StringW, ::StringW)>(&::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::StringW, ::StringW)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8fbf0;
+  constexpr static std::size_t addrs = 0x5d01bd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c8fc04;
+  constexpr static std::size_t addrs = 0x5d01bec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8fc2c;
+  constexpr static std::size_t addrs = 0x5d01c14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint64_t OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, pchRenderModelName, pchComponentName);
+inline uint64_t OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::Invoke(::StringW pchRenderModelName, ::StringW pchComponentName) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, pchRenderModelName, pchComponentName);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback,
+                                                                                                 ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, callback, object);
 }
-inline uint64_t OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, result);
+inline uint64_t OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::IVRRenderModels__GetComponentButtonMask()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask::IVRRenderModels__GetComponentButtonMask() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c8fc50;
+  constexpr static std::size_t addrs = 0x5d01c38;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(
+    ::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8fcd0;
+  constexpr static std::size_t addrs = 0x5d01cb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::BeginInvoke)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c8fce4;
+  constexpr static std::size_t addrs = 0x5d01ccc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c8fd44;
+  constexpr static std::size_t addrs = 0x5d01d2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::Text::StringBuilder*  pchComponentRenderModelName, uint32_t  unComponentRenderModelNameLen)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pchComponentRenderModelName, unComponentRenderModelNameLen);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName,
+                                                                                  uint32_t unComponentRenderModelNameLen) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pchComponentRenderModelName, unComponentRenderModelNameLen);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::Text::StringBuilder*  pchComponentRenderModelName, uint32_t  unComponentRenderModelNameLen, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pchComponentRenderModelName, unComponentRenderModelNameLen, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName,
+                                                                                                      ::System::Text::StringBuilder* pchComponentRenderModelName,
+                                                                                                      uint32_t unComponentRenderModelNameLen, ::System::AsyncCallback* callback,
+                                                                                                      ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pchComponentRenderModelName, unComponentRenderModelNameLen,
+                                                                             callback, object);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::IVRRenderModels__GetComponentRenderModelName()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName::IVRRenderModels__GetComponentRenderModelName() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c8fd68;
+  constexpr static std::size_t addrs = 0x5d01d50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(::StringW, ::StringW, uint64_t, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(&::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(
+    ::StringW, ::StringW, uint64_t, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8fde8;
+  constexpr static std::size_t addrs = 0x5d01dd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(::StringW, ::StringW, uint64_t, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(::StringW, ::StringW, uint64_t, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>,
+                                                                       ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::BeginInvoke)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5c8fdfc;
+  constexpr static std::size_t addrs = 0x5d01de4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::*)(
+    ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::EndInvoke)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5c8feec;
+  constexpr static std::size_t addrs = 0x5d01ed4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, uint64_t  devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pchRenderModelName, pchComponentName, devicePath, pState, pComponentState);
+inline bool OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath,
+                                                                                 ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
+                                                                                 ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pchRenderModelName, pchComponentName, devicePath, pState, pComponentState);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, uint64_t  devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, devicePath, pState, pComponentState, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath,
+                                                                                                         ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
+                                                                                                         ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState,
+                                                                                                         ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, devicePath, pState, pComponentState, callback, object);
 }
-inline bool OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::EndInvoke(::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pState, pComponentState, result);
+inline bool OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::EndInvoke(::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
+                                                                                    ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pState, pComponentState, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::IVRRenderModels__GetComponentStateForDevicePath()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath::IVRRenderModels__GetComponentStateForDevicePath() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentState._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetComponentState::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentState::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c8ff1c;
+  constexpr static std::size_t addrs = 0x5d01f04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentState.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::VRControllerState_t>, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(&::OVR::OpenVR::IVRRenderModels__GetComponentState::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(
+    ::StringW, ::StringW, ::ByRef<::OVR::OpenVR::VRControllerState_t>, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentState::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c8ff9c;
+  constexpr static std::size_t addrs = 0x5d01f84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentState.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::VRControllerState_t>, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentState::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(::StringW, ::StringW, ::ByRef<::OVR::OpenVR::VRControllerState_t>, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>,
+                                                          ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentState::BeginInvoke)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5c8ffb0;
+  constexpr static std::size_t addrs = 0x5d01f98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetComponentState.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(::ByRef<::OVR::OpenVR::VRControllerState_t>, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetComponentState::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__GetComponentState::*)(
+    ::ByRef<::OVR::OpenVR::VRControllerState_t>, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>, ::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetComponentState::EndInvoke)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5c900bc;
+  constexpr static std::size_t addrs = 0x5d020a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetComponentState::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetComponentState::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRRenderModels__GetComponentState::Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pControllerState, pState, pComponentState);
+inline bool OVR::OpenVR::IVRRenderModels__GetComponentState::Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
+                                                                    ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
+                                                                    ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pControllerState, pState, pComponentState);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentState::BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pControllerState, pState, pComponentState, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetComponentState::BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName,
+                                                                                            ::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
+                                                                                            ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
+                                                                                            ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::AsyncCallback* callback,
+                                                                                            ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, pControllerState, pState, pComponentState, callback,
+                                                                             object);
 }
-inline bool OVR::OpenVR::IVRRenderModels__GetComponentState::EndInvoke(::ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pControllerState, pState, pComponentState, result);
+inline bool OVR::OpenVR::IVRRenderModels__GetComponentState::EndInvoke(::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
+                                                                       ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetComponentState*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pControllerState, pState, pComponentState, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetComponentState* OVR::OpenVR::IVRRenderModels__GetComponentState::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentState*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetComponentState* OVR::OpenVR::IVRRenderModels__GetComponentState::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetComponentState*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentState::IVRRenderModels__GetComponentState()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetComponentState::IVRRenderModels__GetComponentState() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c900ec;
+  constexpr static std::size_t addrs = 0x5d020d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::StringW, ::StringW)>(&::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::StringW, ::StringW)>(
+    &::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c9016c;
+  constexpr static std::size_t addrs = 0x5d02154;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c90180;
+  constexpr static std::size_t addrs = 0x5d02168;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c901a8;
+  constexpr static std::size_t addrs = 0x5d02190;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline bool OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pchRenderModelName, pchComponentName);
+inline bool OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::Invoke(::StringW pchRenderModelName, ::StringW pchComponentName) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pchRenderModelName, pchComponentName);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback,
+                                                                                                  ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchComponentName, callback, object);
 }
-inline bool OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, result);
+inline bool OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::IVRRenderModels__RenderModelHasComponent()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent::IVRRenderModels__RenderModelHasComponent() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c901cc;
+  constexpr static std::size_t addrs = 0x5d021b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(
+    ::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c9024c;
+  constexpr static std::size_t addrs = 0x5d02234;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::AsyncCallback*,
+                                                                   ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c90260;
+  constexpr static std::size_t addrs = 0x5d02248;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::*)(
+    ::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c90320;
+  constexpr static std::size_t addrs = 0x5d02308;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::Invoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchThumbnailURL, uint32_t  unThumbnailURLLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, pchThumbnailURL, unThumbnailURLLen, peError);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen,
+                                                                                 ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, pchThumbnailURL, unThumbnailURLLen, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::BeginInvoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchThumbnailURL, uint32_t  unThumbnailURLLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchThumbnailURL, unThumbnailURLLen, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL,
+                                                                                                     uint32_t unThumbnailURLLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError,
+                                                                                                     ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchThumbnailURL, unThumbnailURLLen, peError, callback, object);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, peError, result);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::IVRRenderModels__GetRenderModelThumbnailURL()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL::IVRRenderModels__GetRenderModelThumbnailURL() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5c90344;
+  constexpr static std::size_t addrs = 0x5d0232c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(
+    ::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c903c4;
+  constexpr static std::size_t addrs = 0x5d023ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::AsyncCallback*,
+                                                                   ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c903d8;
+  constexpr static std::size_t addrs = 0x5d023c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::*)(
+    ::ByRef<::OVR::OpenVR::EVRRenderModelError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c90498;
+  constexpr static std::size_t addrs = 0x5d02480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::Invoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchOriginalPath, uint32_t  unOriginalPathLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, pchOriginalPath, unOriginalPathLen, peError);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen,
+                                                                                 ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchRenderModelName, pchOriginalPath, unOriginalPathLen, peError);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::BeginInvoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchOriginalPath, uint32_t  unOriginalPathLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchOriginalPath, unOriginalPathLen, peError, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath,
+                                                                                                     uint32_t unOriginalPathLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError,
+                                                                                                     ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, pchRenderModelName, pchOriginalPath, unOriginalPathLen, peError, callback, object);
 }
-inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, peError, result);
+inline uint32_t OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, peError, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::IVRRenderModels__GetRenderModelOriginalPath()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath::IVRRenderModels__GetRenderModelOriginalPath() {}
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(::System::Object*, ::System::IntPtr)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(::System::Object*, ::System::IntPtr)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c904bc;
+  constexpr static std::size_t addrs = 0x5d024a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(::OVR::OpenVR::EVRRenderModelError)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(
+    ::OVR::OpenVR::EVRRenderModelError)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c90528;
+  constexpr static std::size_t addrs = 0x5d02510;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(::OVR::OpenVR::EVRRenderModelError, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(::OVR::OpenVR::EVRRenderModelError, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c9053c;
+  constexpr static std::size_t addrs = 0x5d02524;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(::System::IAsyncResult*)>(&::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::*)(::System::IAsyncResult*)>(
+    &::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c905c4;
+  constexpr static std::size_t addrs = 0x5d025ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::System::IntPtr OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::Invoke(::OVR::OpenVR::EVRRenderModelError  error)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, error);
+inline ::System::IntPtr OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::Invoke(::OVR::OpenVR::EVRRenderModelError error) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, error);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::BeginInvoke(::OVR::OpenVR::EVRRenderModelError  error, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, error, callback, object);
+inline ::System::IAsyncResult* OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::BeginInvoke(::OVR::OpenVR::EVRRenderModelError error, ::System::AsyncCallback* callback,
+                                                                                                          ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, error, callback, object);
 }
-inline ::System::IntPtr OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, result);
+inline ::System::IntPtr OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, result);
 }
-inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>(object, method));
+inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::IVRRenderModels__GetRenderModelErrorNameFromEnum()   {
-}
-// Ctor Parameters [CppParam { name: "LoadRenderModel_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*", modifiers: "", def_value: Some("{}") }, CppParam { name: "FreeRenderModel", ty: "::OVR::OpenVR::IVRRenderModels__FreeRenderModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LoadTexture_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*", modifiers: "", def_value: Some("{}") }, CppParam { name: "FreeTexture", ty: "::OVR::OpenVR::IVRRenderModels__FreeTexture*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LoadTextureD3D11_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LoadIntoTextureD3D11_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*", modifiers: "", def_value: Some("{}") }, CppParam { name: "FreeTextureD3D11", ty: "::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelCount", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentCount", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentCount*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentButtonMask", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentStateForDevicePath", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentState", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "RenderModelHasComponent", ty: "::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelThumbnailURL", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelOriginalPath", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelErrorNameFromEnum", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }]
-constexpr ::OVR::OpenVR::IVRRenderModels::IVRRenderModels(::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*  LoadRenderModel_Async, ::OVR::OpenVR::IVRRenderModels__FreeRenderModel*  FreeRenderModel, ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*  LoadTexture_Async, ::OVR::OpenVR::IVRRenderModels__FreeTexture*  FreeTexture, ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*  LoadTextureD3D11_Async, ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*  LoadIntoTextureD3D11_Async, ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*  FreeTextureD3D11, ::OVR::OpenVR::IVRRenderModels__GetRenderModelName*  GetRenderModelName, ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*  GetRenderModelCount, ::OVR::OpenVR::IVRRenderModels__GetComponentCount*  GetComponentCount, ::OVR::OpenVR::IVRRenderModels__GetComponentName*  GetComponentName, ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*  GetComponentButtonMask, ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*  GetComponentRenderModelName, ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*  GetComponentStateForDevicePath, ::OVR::OpenVR::IVRRenderModels__GetComponentState*  GetComponentState, ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*  RenderModelHasComponent, ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*  GetRenderModelThumbnailURL, ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*  GetRenderModelOriginalPath, ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*  GetRenderModelErrorNameFromEnum) noexcept  {
-this->LoadRenderModel_Async = LoadRenderModel_Async;
-this->FreeRenderModel = FreeRenderModel;
-this->LoadTexture_Async = LoadTexture_Async;
-this->FreeTexture = FreeTexture;
-this->LoadTextureD3D11_Async = LoadTextureD3D11_Async;
-this->LoadIntoTextureD3D11_Async = LoadIntoTextureD3D11_Async;
-this->FreeTextureD3D11 = FreeTextureD3D11;
-this->GetRenderModelName = GetRenderModelName;
-this->GetRenderModelCount = GetRenderModelCount;
-this->GetComponentCount = GetComponentCount;
-this->GetComponentName = GetComponentName;
-this->GetComponentButtonMask = GetComponentButtonMask;
-this->GetComponentRenderModelName = GetComponentRenderModelName;
-this->GetComponentStateForDevicePath = GetComponentStateForDevicePath;
-this->GetComponentState = GetComponentState;
-this->RenderModelHasComponent = RenderModelHasComponent;
-this->GetRenderModelThumbnailURL = GetRenderModelThumbnailURL;
-this->GetRenderModelOriginalPath = GetRenderModelOriginalPath;
-this->GetRenderModelErrorNameFromEnum = GetRenderModelErrorNameFromEnum;
+constexpr ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum::IVRRenderModels__GetRenderModelErrorNameFromEnum() {}
+// Ctor Parameters [CppParam { name: "LoadRenderModel_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*", modifiers: "", def_value: Some("{}") }, CppParam { name: "FreeRenderModel",
+// ty: "::OVR::OpenVR::IVRRenderModels__FreeRenderModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LoadTexture_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "FreeTexture", ty: "::OVR::OpenVR::IVRRenderModels__FreeTexture*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "LoadTextureD3D11_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LoadIntoTextureD3D11_Async", ty:
+// "::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*", modifiers: "", def_value: Some("{}") }, CppParam { name: "FreeTextureD3D11", ty: "::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelName*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "GetRenderModelCount", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentCount", ty:
+// "::OVR::OpenVR::IVRRenderModels__GetComponentCount*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentName*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentButtonMask", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "GetComponentRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentStateForDevicePath",
+// ty: "::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetComponentState", ty:
+// "::OVR::OpenVR::IVRRenderModels__GetComponentState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "RenderModelHasComponent", ty:
+// "::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelThumbnailURL", ty:
+// "::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelOriginalPath", ty:
+// "::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRenderModelErrorNameFromEnum", ty:
+// "::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }]
+constexpr ::OVR::OpenVR::IVRRenderModels::IVRRenderModels(
+    ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* LoadRenderModel_Async, ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* FreeRenderModel,
+    ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* LoadTexture_Async, ::OVR::OpenVR::IVRRenderModels__FreeTexture* FreeTexture,
+    ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* LoadTextureD3D11_Async, ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* LoadIntoTextureD3D11_Async,
+    ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* FreeTextureD3D11, ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* GetRenderModelName,
+    ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* GetRenderModelCount, ::OVR::OpenVR::IVRRenderModels__GetComponentCount* GetComponentCount,
+    ::OVR::OpenVR::IVRRenderModels__GetComponentName* GetComponentName, ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* GetComponentButtonMask,
+    ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* GetComponentRenderModelName, ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* GetComponentStateForDevicePath,
+    ::OVR::OpenVR::IVRRenderModels__GetComponentState* GetComponentState, ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* RenderModelHasComponent,
+    ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* GetRenderModelThumbnailURL, ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* GetRenderModelOriginalPath,
+    ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* GetRenderModelErrorNameFromEnum) noexcept {
+  this->LoadRenderModel_Async = LoadRenderModel_Async;
+  this->FreeRenderModel = FreeRenderModel;
+  this->LoadTexture_Async = LoadTexture_Async;
+  this->FreeTexture = FreeTexture;
+  this->LoadTextureD3D11_Async = LoadTextureD3D11_Async;
+  this->LoadIntoTextureD3D11_Async = LoadIntoTextureD3D11_Async;
+  this->FreeTextureD3D11 = FreeTextureD3D11;
+  this->GetRenderModelName = GetRenderModelName;
+  this->GetRenderModelCount = GetRenderModelCount;
+  this->GetComponentCount = GetComponentCount;
+  this->GetComponentName = GetComponentName;
+  this->GetComponentButtonMask = GetComponentButtonMask;
+  this->GetComponentRenderModelName = GetComponentRenderModelName;
+  this->GetComponentStateForDevicePath = GetComponentStateForDevicePath;
+  this->GetComponentState = GetComponentState;
+  this->RenderModelHasComponent = RenderModelHasComponent;
+  this->GetRenderModelThumbnailURL = GetRenderModelThumbnailURL;
+  this->GetRenderModelOriginalPath = GetRenderModelOriginalPath;
+  this->GetRenderModelErrorNameFromEnum = GetRenderModelErrorNameFromEnum;
 }
 // Ctor Parameters []
-constexpr ::OVR::OpenVR::IVRRenderModels::IVRRenderModels()   {
-}
+constexpr ::OVR::OpenVR::IVRRenderModels::IVRRenderModels() {}

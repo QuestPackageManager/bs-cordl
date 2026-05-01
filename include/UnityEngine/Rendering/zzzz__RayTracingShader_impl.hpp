@@ -3,5 +3,4 @@
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RayTracingShader_def.hpp"
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RayTracingShader::RayTracingShader()   {
-}
+constexpr ::UnityEngine::Rendering::RayTracingShader::RayTracingShader() {}

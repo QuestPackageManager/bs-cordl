@@ -10,197 +10,158 @@
 #include "BeatSaber/Settings/zzzz__SmoothCameraSettings_def.hpp"
 #include "BeatSaber/Settings/zzzz__WindowSettings_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Settings::SettingPresets.DefaultSmoothCameraSettings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::SmoothCameraSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultSmoothCameraSettings)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::SmoothCameraSettings (*)()>(
+    &::BeatSaber::Settings::SettingPresets::DefaultSmoothCameraSettings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x31f1b8c;
+  constexpr static std::size_t addrs = 0x322d7f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultSmoothCameraSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                               "DefaultSmoothCameraSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::Settings::SettingPresets.DefaultAudioSettingsWithLatency
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::AudioSettings (*)(float_t)>(&::BeatSaber::Settings::SettingPresets::DefaultAudioSettingsWithLatency)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::AudioSettings (*)(float_t)>(
+    &::BeatSaber::Settings::SettingPresets::DefaultAudioSettingsWithLatency)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31f1c10;
+  constexpr static std::size_t addrs = 0x322d878;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultAudioSettingsWithLatency",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(), "DefaultAudioSettingsWithLatency",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::Settings::SettingPresets.DefaultMiscSettings
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::MiscSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultMiscSettings)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x31f1c24;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x322d88c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultMiscSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                               "DefaultMiscSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::Settings::SettingPresets.DefaultQuestSettings
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::QuestSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultQuestSettings)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31f1c6c;
+  constexpr static std::size_t addrs = 0x322d8dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultQuestSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                               "DefaultQuestSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::Settings::SettingPresets.DefaultWindowSettings
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::WindowSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultWindowSettings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31f1c80;
+  constexpr static std::size_t addrs = 0x322d8f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultWindowSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                               "DefaultWindowSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::Settings::SettingPresets.DefaultControllerSettings
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::ControllerSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultControllerSettings)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x31f1c8c;
+  constexpr static std::size_t addrs = 0x322d8fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultControllerSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                               "DefaultControllerSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuest1(::BeatSaber::Settings::Settings  value)  {
-::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuest1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(std::forward<::BeatSaber::Settings::Settings>(value));
+inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuest1(::BeatSaber::Settings::Settings value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuest1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
+      std::forward<::BeatSaber::Settings::Settings>(value));
 }
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuest1()  {
-return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuest1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
+inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuest1() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuest1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
 }
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuest2(::BeatSaber::Settings::Settings  value)  {
-::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuest2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(std::forward<::BeatSaber::Settings::Settings>(value));
+inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuest2(::BeatSaber::Settings::Settings value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuest2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
+      std::forward<::BeatSaber::Settings::Settings>(value));
 }
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuest2()  {
-return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuest2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
+inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuest2() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuest2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
 }
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuest3(::BeatSaber::Settings::Settings  value)  {
-::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuest3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(std::forward<::BeatSaber::Settings::Settings>(value));
+inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuest3(::BeatSaber::Settings::Settings value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuest3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
+      std::forward<::BeatSaber::Settings::Settings>(value));
 }
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuest3()  {
-return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuest3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
+inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuest3() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuest3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
 }
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuestPro(::BeatSaber::Settings::Settings  value)  {
-::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuestPro", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(std::forward<::BeatSaber::Settings::Settings>(value));
+inline void BeatSaber::Settings::SettingPresets::setStaticF_kQuestPro(::BeatSaber::Settings::Settings value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kQuestPro", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
+      std::forward<::BeatSaber::Settings::Settings>(value));
 }
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuestPro()  {
-return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuestPro", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
+inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kQuestPro() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kQuestPro", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
 }
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kStandalone(::BeatSaber::Settings::Settings  value)  {
-::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kStandalone", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(std::forward<::BeatSaber::Settings::Settings>(value));
+inline void BeatSaber::Settings::SettingPresets::setStaticF_kStandalone(::BeatSaber::Settings::Settings value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kStandalone", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
+      std::forward<::BeatSaber::Settings::Settings>(value));
 }
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kStandalone()  {
-return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kStandalone", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
+inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kStandalone() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kStandalone", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
 }
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kLightBaking(::BeatSaber::Settings::Settings  value)  {
-::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kLightBaking", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(std::forward<::BeatSaber::Settings::Settings>(value));
+inline void BeatSaber::Settings::SettingPresets::setStaticF_kLightBaking(::BeatSaber::Settings::Settings value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kLightBaking", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
+      std::forward<::BeatSaber::Settings::Settings>(value));
 }
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kLightBaking()  {
-return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kLightBaking", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
+inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kLightBaking() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kLightBaking", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
 }
-inline ::BeatSaber::Settings::SmoothCameraSettings BeatSaber::Settings::SettingPresets::DefaultSmoothCameraSettings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultSmoothCameraSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::SmoothCameraSettings, false>(nullptr, ___internal_method);
+inline ::BeatSaber::Settings::SmoothCameraSettings BeatSaber::Settings::SettingPresets::DefaultSmoothCameraSettings() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                             "DefaultSmoothCameraSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::SmoothCameraSettings, false>(nullptr, ___internal_method);
 }
-inline ::BeatSaber::Settings::AudioSettings BeatSaber::Settings::SettingPresets::DefaultAudioSettingsWithLatency(float_t  latency)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultAudioSettingsWithLatency",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::AudioSettings, false>(nullptr, ___internal_method, latency);
+inline ::BeatSaber::Settings::AudioSettings BeatSaber::Settings::SettingPresets::DefaultAudioSettingsWithLatency(float_t latency) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(), "DefaultAudioSettingsWithLatency",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::AudioSettings, false>(nullptr, ___internal_method, latency);
 }
-inline ::BeatSaber::Settings::MiscSettings BeatSaber::Settings::SettingPresets::DefaultMiscSettings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultMiscSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::MiscSettings, false>(nullptr, ___internal_method);
+inline ::BeatSaber::Settings::MiscSettings BeatSaber::Settings::SettingPresets::DefaultMiscSettings() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                             "DefaultMiscSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::MiscSettings, false>(nullptr, ___internal_method);
 }
-inline ::BeatSaber::Settings::QuestSettings BeatSaber::Settings::SettingPresets::DefaultQuestSettings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultQuestSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::QuestSettings, false>(nullptr, ___internal_method);
+inline ::BeatSaber::Settings::QuestSettings BeatSaber::Settings::SettingPresets::DefaultQuestSettings() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                             "DefaultQuestSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::QuestSettings, false>(nullptr, ___internal_method);
 }
-inline ::BeatSaber::Settings::WindowSettings BeatSaber::Settings::SettingPresets::DefaultWindowSettings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultWindowSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::WindowSettings, false>(nullptr, ___internal_method);
+inline ::BeatSaber::Settings::WindowSettings BeatSaber::Settings::SettingPresets::DefaultWindowSettings() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                             "DefaultWindowSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::WindowSettings, false>(nullptr, ___internal_method);
 }
-inline ::BeatSaber::Settings::ControllerSettings BeatSaber::Settings::SettingPresets::DefaultControllerSettings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
-                        "DefaultControllerSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::ControllerSettings, false>(nullptr, ___internal_method);
+inline ::BeatSaber::Settings::ControllerSettings BeatSaber::Settings::SettingPresets::DefaultControllerSettings() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
+                                                                             "DefaultControllerSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::ControllerSettings, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Settings::SettingPresets::SettingPresets()   {
-}
+constexpr ::BeatSaber::Settings::SettingPresets::SettingPresets() {}

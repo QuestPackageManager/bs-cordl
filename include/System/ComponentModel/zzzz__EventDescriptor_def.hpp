@@ -21,34 +21,34 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.EventDescriptor
 class CORDL_TYPE EventDescriptor : public ::System::ComponentModel::MemberDescriptor {
 public:
-// Declarations
-static inline ::System::ComponentModel::EventDescriptor* New_ctor(::StringW  name, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  attrs) ;
+  // Declarations
+  static inline ::System::ComponentModel::EventDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-/// @brief Method .ctor, addr 0x620b3d0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  name, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  attrs) ;
+  /// @brief Method .ctor, addr 0x627d3dc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EventDescriptor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventDescriptor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EventDescriptor(EventDescriptor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EventDescriptor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EventDescriptor(EventDescriptor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EventDescriptor(EventDescriptor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EventDescriptor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EventDescriptor(EventDescriptor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11248 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11241};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::EventDescriptor, 0x60>, "Size mismatch!");
 
-} // namespace end def System::ComponentModel
+} // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::EventDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EventDescriptor*, "System.ComponentModel", "EventDescriptor");

@@ -29,167 +29,167 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ProfilingSampler
 class CORDL_TYPE ProfilingSampler : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <inlineSampler>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__inlineSampler_k__BackingField, put=__cordl_internal_set__inlineSampler_k__BackingField)) ::UnityEngine::Profiling::CustomSampler*  _inlineSampler_k__BackingField;
+  // Declarations
+  /// @brief Field <inlineSampler>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__inlineSampler_k__BackingField,
+                      put = __cordl_internal_set__inlineSampler_k__BackingField)) ::UnityEngine::Profiling::CustomSampler* _inlineSampler_k__BackingField;
 
-/// @brief Field <name>k__BackingField, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__name_k__BackingField, put=__cordl_internal_set__name_k__BackingField)) ::StringW  _name_k__BackingField;
+  /// @brief Field <name>k__BackingField, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField)) ::StringW _name_k__BackingField;
 
-/// @brief Field <sampler>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__sampler_k__BackingField, put=__cordl_internal_set__sampler_k__BackingField)) ::UnityEngine::Profiling::CustomSampler*  _sampler_k__BackingField;
+  /// @brief Field <sampler>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__sampler_k__BackingField, put = __cordl_internal_set__sampler_k__BackingField)) ::UnityEngine::Profiling::CustomSampler* _sampler_k__BackingField;
 
- __declspec(property(get=get_cpuElapsedTime)) float_t  cpuElapsedTime;
+  __declspec(property(get = get_cpuElapsedTime)) float_t cpuElapsedTime;
 
- __declspec(property(get=get_cpuSampleCount)) int32_t  cpuSampleCount;
+  __declspec(property(get = get_cpuSampleCount)) int32_t cpuSampleCount;
 
- __declspec(property(put=set_enableRecording)) bool  enableRecording;
+  __declspec(property(put = set_enableRecording)) bool enableRecording;
 
- __declspec(property(get=get_gpuElapsedTime)) float_t  gpuElapsedTime;
+  __declspec(property(get = get_gpuElapsedTime)) float_t gpuElapsedTime;
 
- __declspec(property(get=get_gpuSampleCount)) int32_t  gpuSampleCount;
+  __declspec(property(get = get_gpuSampleCount)) int32_t gpuSampleCount;
 
- __declspec(property(get=get_inlineCpuElapsedTime)) float_t  inlineCpuElapsedTime;
+  __declspec(property(get = get_inlineCpuElapsedTime)) float_t inlineCpuElapsedTime;
 
- __declspec(property(get=get_inlineCpuSampleCount)) int32_t  inlineCpuSampleCount;
+  __declspec(property(get = get_inlineCpuSampleCount)) int32_t inlineCpuSampleCount;
 
- __declspec(property(get=get_inlineSampler, put=set_inlineSampler)) ::UnityEngine::Profiling::CustomSampler*  inlineSampler;
+  __declspec(property(get = get_inlineSampler, put = set_inlineSampler)) ::UnityEngine::Profiling::CustomSampler* inlineSampler;
 
-/// @brief Field m_InlineRecorder, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_InlineRecorder, put=__cordl_internal_set_m_InlineRecorder)) ::UnityEngine::Profiling::Recorder*  m_InlineRecorder;
+  /// @brief Field m_InlineRecorder, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_InlineRecorder, put = __cordl_internal_set_m_InlineRecorder)) ::UnityEngine::Profiling::Recorder* m_InlineRecorder;
 
-/// @brief Field m_Recorder, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Recorder, put=__cordl_internal_set_m_Recorder)) ::UnityEngine::Profiling::Recorder*  m_Recorder;
+  /// @brief Field m_Recorder, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Recorder, put = __cordl_internal_set_m_Recorder)) ::UnityEngine::Profiling::Recorder* m_Recorder;
 
- __declspec(property(get=get_name, put=set_name)) ::StringW  name;
+  __declspec(property(get = get_name, put = set_name)) ::StringW name;
 
- __declspec(property(get=get_sampler, put=set_sampler)) ::UnityEngine::Profiling::CustomSampler*  sampler;
+  __declspec(property(get = get_sampler, put = set_sampler)) ::UnityEngine::Profiling::CustomSampler* sampler;
 
-/// @brief Method Begin, addr 0x65b7008, size 0x38, virtual false, abstract: false, final false
-inline void Begin(::UnityEngine::Rendering::CommandBuffer*  cmd) ;
+  /// @brief Method Begin, addr 0x6629014, size 0x38, virtual false, abstract: false, final false
+  inline void Begin(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-/// @brief Method End, addr 0x65b7040, size 0x38, virtual false, abstract: false, final false
-inline void End(::UnityEngine::Rendering::CommandBuffer*  cmd) ;
+  /// @brief Method End, addr 0x662904c, size 0x38, virtual false, abstract: false, final false
+  inline void End(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-/// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TEnum>
-static inline ::UnityEngine::Rendering::ProfilingSampler* Get(TEnum  marker) ;
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TEnum> static inline ::UnityEngine::Rendering::ProfilingSampler* Get(TEnum marker);
 
-/// @brief Method IsValid, addr 0x65b7078, size 0x20, virtual false, abstract: false, final false
-inline bool IsValid() ;
+  /// @brief Method IsValid, addr 0x6629084, size 0x20, virtual false, abstract: false, final false
+  inline bool IsValid();
 
-static inline ::UnityEngine::Rendering::ProfilingSampler* New_ctor() ;
+  static inline ::UnityEngine::Rendering::ProfilingSampler* New_ctor();
 
-static inline ::UnityEngine::Rendering::ProfilingSampler* New_ctor(::StringW  name) ;
+  static inline ::UnityEngine::Rendering::ProfilingSampler* New_ctor(::StringW name);
 
-constexpr ::UnityEngine::Profiling::CustomSampler* const& __cordl_internal_get__inlineSampler_k__BackingField() const;
+  constexpr ::UnityEngine::Profiling::CustomSampler* const& __cordl_internal_get__inlineSampler_k__BackingField() const;
 
-constexpr ::UnityEngine::Profiling::CustomSampler*& __cordl_internal_get__inlineSampler_k__BackingField() ;
+  constexpr ::UnityEngine::Profiling::CustomSampler*& __cordl_internal_get__inlineSampler_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__name_k__BackingField();
 
-constexpr ::UnityEngine::Profiling::CustomSampler* const& __cordl_internal_get__sampler_k__BackingField() const;
+  constexpr ::UnityEngine::Profiling::CustomSampler* const& __cordl_internal_get__sampler_k__BackingField() const;
 
-constexpr ::UnityEngine::Profiling::CustomSampler*& __cordl_internal_get__sampler_k__BackingField() ;
+  constexpr ::UnityEngine::Profiling::CustomSampler*& __cordl_internal_get__sampler_k__BackingField();
 
-constexpr ::UnityEngine::Profiling::Recorder* const& __cordl_internal_get_m_InlineRecorder() const;
+  constexpr ::UnityEngine::Profiling::Recorder* const& __cordl_internal_get_m_InlineRecorder() const;
 
-constexpr ::UnityEngine::Profiling::Recorder*& __cordl_internal_get_m_InlineRecorder() ;
+  constexpr ::UnityEngine::Profiling::Recorder*& __cordl_internal_get_m_InlineRecorder();
 
-constexpr ::UnityEngine::Profiling::Recorder* const& __cordl_internal_get_m_Recorder() const;
+  constexpr ::UnityEngine::Profiling::Recorder* const& __cordl_internal_get_m_Recorder() const;
 
-constexpr ::UnityEngine::Profiling::Recorder*& __cordl_internal_get_m_Recorder() ;
+  constexpr ::UnityEngine::Profiling::Recorder*& __cordl_internal_get_m_Recorder();
 
-constexpr void __cordl_internal_set__inlineSampler_k__BackingField(::UnityEngine::Profiling::CustomSampler*  value) ;
+  constexpr void __cordl_internal_set__inlineSampler_k__BackingField(::UnityEngine::Profiling::CustomSampler* value);
 
-constexpr void __cordl_internal_set__name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__name_k__BackingField(::StringW value);
 
-constexpr void __cordl_internal_set__sampler_k__BackingField(::UnityEngine::Profiling::CustomSampler*  value) ;
+  constexpr void __cordl_internal_set__sampler_k__BackingField(::UnityEngine::Profiling::CustomSampler* value);
 
-constexpr void __cordl_internal_set_m_InlineRecorder(::UnityEngine::Profiling::Recorder*  value) ;
+  constexpr void __cordl_internal_set_m_InlineRecorder(::UnityEngine::Profiling::Recorder* value);
 
-constexpr void __cordl_internal_set_m_Recorder(::UnityEngine::Profiling::Recorder*  value) ;
+  constexpr void __cordl_internal_set_m_Recorder(::UnityEngine::Profiling::Recorder* value);
 
-/// @brief Method .ctor, addr 0x65b7308, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6629314, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x65b6f14, size 0xf4, virtual false, abstract: false, final false
-inline void _ctor(::StringW  name) ;
+  /// @brief Method .ctor, addr 0x6628f20, size 0xf4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
 
-/// @brief Method get_cpuElapsedTime, addr 0x65b71b0, size 0x68, virtual false, abstract: false, final false
-inline float_t get_cpuElapsedTime() ;
+  /// @brief Method get_cpuElapsedTime, addr 0x66291bc, size 0x68, virtual false, abstract: false, final false
+  inline float_t get_cpuElapsedTime();
 
-/// @brief Method get_cpuSampleCount, addr 0x65b7218, size 0x44, virtual false, abstract: false, final false
-inline int32_t get_cpuSampleCount() ;
+  /// @brief Method get_cpuSampleCount, addr 0x6629224, size 0x44, virtual false, abstract: false, final false
+  inline int32_t get_cpuSampleCount();
 
-/// @brief Method get_gpuElapsedTime, addr 0x65b7104, size 0x68, virtual false, abstract: false, final false
-inline float_t get_gpuElapsedTime() ;
+  /// @brief Method get_gpuElapsedTime, addr 0x6629110, size 0x68, virtual false, abstract: false, final false
+  inline float_t get_gpuElapsedTime();
 
-/// @brief Method get_gpuSampleCount, addr 0x65b716c, size 0x44, virtual false, abstract: false, final false
-inline int32_t get_gpuSampleCount() ;
+  /// @brief Method get_gpuSampleCount, addr 0x6629178, size 0x44, virtual false, abstract: false, final false
+  inline int32_t get_gpuSampleCount();
 
-/// @brief Method get_inlineCpuElapsedTime, addr 0x65b725c, size 0x68, virtual false, abstract: false, final false
-inline float_t get_inlineCpuElapsedTime() ;
+  /// @brief Method get_inlineCpuElapsedTime, addr 0x6629268, size 0x68, virtual false, abstract: false, final false
+  inline float_t get_inlineCpuElapsedTime();
 
-/// @brief Method get_inlineCpuSampleCount, addr 0x65b72c4, size 0x44, virtual false, abstract: false, final false
-inline int32_t get_inlineCpuSampleCount() ;
+  /// @brief Method get_inlineCpuSampleCount, addr 0x66292d0, size 0x44, virtual false, abstract: false, final false
+  inline int32_t get_inlineCpuSampleCount();
 
-/// @brief Method get_inlineSampler, addr 0x65b70a8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Profiling::CustomSampler* get_inlineSampler() ;
+  /// @brief Method get_inlineSampler, addr 0x66290b4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Profiling::CustomSampler* get_inlineSampler();
 
-/// @brief Method get_name, addr 0x65b70b8, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_name() ;
+  /// @brief Method get_name, addr 0x66290c4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_name();
 
-/// @brief Method get_sampler, addr 0x65b7098, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Profiling::CustomSampler* get_sampler() ;
+  /// @brief Method get_sampler, addr 0x66290a4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Profiling::CustomSampler* get_sampler();
 
-/// @brief Method set_enableRecording, addr 0x65b70c8, size 0x3c, virtual false, abstract: false, final false
-inline void set_enableRecording(bool  value) ;
+  /// @brief Method set_enableRecording, addr 0x66290d4, size 0x3c, virtual false, abstract: false, final false
+  inline void set_enableRecording(bool value);
 
-/// @brief Method set_inlineSampler, addr 0x65b70b0, size 0x8, virtual false, abstract: false, final false
-inline void set_inlineSampler(::UnityEngine::Profiling::CustomSampler*  value) ;
+  /// @brief Method set_inlineSampler, addr 0x66290bc, size 0x8, virtual false, abstract: false, final false
+  inline void set_inlineSampler(::UnityEngine::Profiling::CustomSampler* value);
 
-/// @brief Method set_name, addr 0x65b70c0, size 0x8, virtual false, abstract: false, final false
-inline void set_name(::StringW  value) ;
+  /// @brief Method set_name, addr 0x66290cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_name(::StringW value);
 
-/// @brief Method set_sampler, addr 0x65b70a0, size 0x8, virtual false, abstract: false, final false
-inline void set_sampler(::UnityEngine::Profiling::CustomSampler*  value) ;
+  /// @brief Method set_sampler, addr 0x66290ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_sampler(::UnityEngine::Profiling::CustomSampler* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProfilingSampler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProfilingSampler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProfilingSampler(ProfilingSampler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProfilingSampler(ProfilingSampler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProfilingSampler(ProfilingSampler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProfilingSampler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProfilingSampler(ProfilingSampler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12037 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12030};
+  /// @brief Field <sampler>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Profiling::CustomSampler* ____sampler_k__BackingField;
 
-/// @brief Field <sampler>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Profiling::CustomSampler*  ____sampler_k__BackingField;
+  /// @brief Field <inlineSampler>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Profiling::CustomSampler* ____inlineSampler_k__BackingField;
 
-/// @brief Field <inlineSampler>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::Profiling::CustomSampler*  ____inlineSampler_k__BackingField;
+  /// @brief Field <name>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  ::StringW ____name_k__BackingField;
 
-/// @brief Field <name>k__BackingField, offset: 0x20, size: 0x8, def value: None
- ::StringW  ____name_k__BackingField;
+  /// @brief Field m_Recorder, offset: 0x28, size: 0x8, def value: None
+  ::UnityEngine::Profiling::Recorder* ___m_Recorder;
 
-/// @brief Field m_Recorder, offset: 0x28, size: 0x8, def value: None
- ::UnityEngine::Profiling::Recorder*  ___m_Recorder;
+  /// @brief Field m_InlineRecorder, offset: 0x30, size: 0x8, def value: None
+  ::UnityEngine::Profiling::Recorder* ___m_InlineRecorder;
 
-/// @brief Field m_InlineRecorder, offset: 0x30, size: 0x8, def value: None
- ::UnityEngine::Profiling::Recorder*  ___m_InlineRecorder;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProfilingSampler, ____sampler_k__BackingField) == 0x10, "Offset mismatch!");
@@ -204,6 +204,6 @@ static_assert(offsetof(::UnityEngine::Rendering::ProfilingSampler, ___m_InlineRe
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProfilingSampler, 0x38>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ProfilingSampler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ProfilingSampler*, "UnityEngine.Rendering", "ProfilingSampler");

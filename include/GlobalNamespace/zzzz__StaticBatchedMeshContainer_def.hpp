@@ -17,34 +17,34 @@ namespace GlobalNamespace {
 // CS Name: StaticBatchedMeshContainer
 class CORDL_TYPE StaticBatchedMeshContainer : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-static inline ::GlobalNamespace::StaticBatchedMeshContainer* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::StaticBatchedMeshContainer* New_ctor();
 
-/// @brief Method .ctor, addr 0x32148c0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32505f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StaticBatchedMeshContainer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StaticBatchedMeshContainer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StaticBatchedMeshContainer(StaticBatchedMeshContainer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StaticBatchedMeshContainer(StaticBatchedMeshContainer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StaticBatchedMeshContainer(StaticBatchedMeshContainer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StaticBatchedMeshContainer(StaticBatchedMeshContainer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23484 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23375};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StaticBatchedMeshContainer, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StaticBatchedMeshContainer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticBatchedMeshContainer*, "", "StaticBatchedMeshContainer");

@@ -8,330 +8,292 @@
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.get_AlgorithmName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::get_AlgorithmName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32ba428;
+  constexpr static std::size_t addrs = 0x32f6a6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                        "get_AlgorithmName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), "get_AlgorithmName",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
+    bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Init)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x32ba46c;
+  constexpr static std::size_t addrs = 0x32f6ab0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 9));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.set_Debug
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(bool)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::set_Debug)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(bool)>(
+    &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::set_Debug)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32ba9ec;
+  constexpr static std::size_t addrs = 0x32f7030;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 10));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.GetInputBlockSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetInputBlockSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetInputBlockSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32ba9f0;
+  constexpr static std::size_t addrs = 0x32f7034;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 11));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.GetOutputBlockSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetOutputBlockSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32baa48;
+  constexpr static std::size_t addrs = 0x32f708c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.ProcessBlock
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessBlock)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x8b8;
-  constexpr static std::size_t addrs = 0x32baaa0;
+  constexpr static std::size_t addrs = 0x32f70e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.Encrypt
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Encrypt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
+    ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Encrypt)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x32bb748;
+  constexpr static std::size_t addrs = 0x32f7d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.AddCryptedBlocks
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, ::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::AddCryptedBlocks)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::AddCryptedBlocks)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x32bb828;
+  constexpr static std::size_t addrs = 0x32f7e6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.ProcessData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessData)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x32bba38;
+  constexpr static std::size_t addrs = 0x32f807c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine.chineseRemainder
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::System::Collections::IList*, ::System::Collections::IList*)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::chineseRemainder)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::System::Collections::IList*, ::System::Collections::IList*)>(
+    &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::chineseRemainder)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x32bb358;
+  constexpr static std::size_t addrs = 0x32f799c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                        "chineseRemainder",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), "chineseRemainder", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32bbc44;
+  constexpr static std::size_t addrs = 0x32f8288;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_forEncryption()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___forEncryption;
+constexpr bool& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_forEncryption() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___forEncryption;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_forEncryption() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___forEncryption;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___forEncryption;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_set_forEncryption(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___forEncryption = value;
+constexpr void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_set_forEncryption(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___forEncryption = value;
 }
-constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_key()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___key;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_key() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___key;
 }
 constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* const& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_key() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___key;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___key;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::System::Collections::IList*,::Array<::System::Collections::IList*>*>& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_lookup()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lookup;
+constexpr ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*>& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_lookup() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lookup;
 }
-constexpr ::ArrayW<::System::Collections::IList*,::Array<::System::Collections::IList*>*> const& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_lookup() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lookup;
+constexpr ::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> const& Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_get_lookup() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lookup;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_set_lookup(::ArrayW<::System::Collections::IList*,::Array<::System::Collections::IList*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::__cordl_internal_set_lookup(::ArrayW<::System::Collections::IList*, ::Array<::System::Collections::IList*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::StringW Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::get_AlgorithmName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                        "get_AlgorithmName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::get_AlgorithmName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                                             "get_AlgorithmName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, forEncryption, parameters);
+inline void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, forEncryption, parameters);
 }
-inline void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::set_Debug(bool  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::set_Debug(bool value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int32_t Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetInputBlockSize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetInputBlockSize() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetOutputBlockSize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetOutputBlockSize() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, int32_t  length)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method, inBytes, inOff, length);
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t length) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, inBytes, inOff, length);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Encrypt(::Org::BouncyCastle::Math::BigInteger*  plain)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method, plain);
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Encrypt(::Org::BouncyCastle::Math::BigInteger* plain) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, plain);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::AddCryptedBlocks(::ArrayW<uint8_t,::Array<uint8_t>*>  block1, ::ArrayW<uint8_t,::Array<uint8_t>*>  block2)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method, block1, block2);
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::AddCryptedBlocks(::ArrayW<uint8_t, ::Array<uint8_t>*> block1,
+                                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> block2) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, block1, block2);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessData(::ArrayW<uint8_t,::Array<uint8_t>*>  data)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method, data);
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessData(::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, data);
 }
-inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::chineseRemainder(::System::Collections::IList*  congruences, ::System::Collections::IList*  primes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                        "chineseRemainder",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(nullptr, ___internal_method, congruences, primes);
+inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::chineseRemainder(::System::Collections::IList* congruences,
+                                                                                                                        ::System::Collections::IList* primes) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(), "chineseRemainder", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(nullptr, ___internal_method, congruences, primes);
 }
-inline void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine* Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>());
+inline ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine* Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine*>());
 }
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
-constexpr  Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
+constexpr Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
 constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
+  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::NaccacheSternEngine()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::NaccacheSternEngine() {}

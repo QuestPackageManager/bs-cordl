@@ -26,49 +26,51 @@ MARK_REF_PTR_T(::System::Xml::Int16ArrayHelperWithDictionaryString);
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.Int16ArrayHelperWithDictionaryString
-class CORDL_TYPE Int16ArrayHelperWithDictionaryString : public ::System::Xml::ArrayHelper_2<::System::Xml::XmlDictionaryString*,int16_t> {
+class CORDL_TYPE Int16ArrayHelperWithDictionaryString : public ::System::Xml::ArrayHelper_2<::System::Xml::XmlDictionaryString*, int16_t> {
 public:
-// Declarations
-/// @brief Field Instance, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::System::Xml::Int16ArrayHelperWithDictionaryString*  Instance;
+  // Declarations
+  /// @brief Field Instance, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Xml::Int16ArrayHelperWithDictionaryString* Instance;
 
-static inline ::System::Xml::Int16ArrayHelperWithDictionaryString* New_ctor() ;
+  static inline ::System::Xml::Int16ArrayHelperWithDictionaryString* New_ctor();
 
-/// @brief Method ReadArray, addr 0x5f49f3c, size 0x38, virtual true, abstract: false, final false
-inline int32_t ReadArray(::System::Xml::XmlDictionaryReader*  reader, ::System::Xml::XmlDictionaryString*  localName, ::System::Xml::XmlDictionaryString*  namespaceUri, ::ArrayW<int16_t,::Array<int16_t>*>  array, int32_t  offset, int32_t  count) ;
+  /// @brief Method ReadArray, addr 0x5fbbf48, size 0x38, virtual true, abstract: false, final false
+  inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri,
+                           ::ArrayW<int16_t, ::Array<int16_t>*> array, int32_t offset, int32_t count);
 
-/// @brief Method WriteArray, addr 0x5f49f74, size 0x3c, virtual true, abstract: false, final false
-inline void WriteArray(::System::Xml::XmlDictionaryWriter*  writer, ::StringW  prefix, ::System::Xml::XmlDictionaryString*  localName, ::System::Xml::XmlDictionaryString*  namespaceUri, ::ArrayW<int16_t,::Array<int16_t>*>  array, int32_t  offset, int32_t  count) ;
+  /// @brief Method WriteArray, addr 0x5fbbf80, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri,
+                         ::ArrayW<int16_t, ::Array<int16_t>*> array, int32_t offset, int32_t count);
 
-/// @brief Method .ctor, addr 0x5f49fb0, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5fbbfbc, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Xml::Int16ArrayHelperWithDictionaryString* getStaticF_Instance() ;
+  static inline ::System::Xml::Int16ArrayHelperWithDictionaryString* getStaticF_Instance();
 
-static inline void setStaticF_Instance(::System::Xml::Int16ArrayHelperWithDictionaryString*  value) ;
+  static inline void setStaticF_Instance(::System::Xml::Int16ArrayHelperWithDictionaryString* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Int16ArrayHelperWithDictionaryString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Int16ArrayHelperWithDictionaryString();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Int16ArrayHelperWithDictionaryString", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Int16ArrayHelperWithDictionaryString(Int16ArrayHelperWithDictionaryString&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Int16ArrayHelperWithDictionaryString", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Int16ArrayHelperWithDictionaryString(Int16ArrayHelperWithDictionaryString && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Int16ArrayHelperWithDictionaryString", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Int16ArrayHelperWithDictionaryString(Int16ArrayHelperWithDictionaryString const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Int16ArrayHelperWithDictionaryString", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Int16ArrayHelperWithDictionaryString(Int16ArrayHelperWithDictionaryString const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16894 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16886};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Int16ArrayHelperWithDictionaryString, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::Int16ArrayHelperWithDictionaryString);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Int16ArrayHelperWithDictionaryString*, "System.Xml", "Int16ArrayHelperWithDictionaryString");

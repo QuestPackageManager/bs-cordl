@@ -38,54 +38,54 @@ namespace System::Runtime::Remoting::Contexts {
 // CS Name: System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
 class CORDL_TYPE DynamicPropertyCollection_DynamicPropertyReg : public ::System::Object {
 public:
-// Declarations
-/// @brief Field Property, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_Property, put=__cordl_internal_set_Property)) ::System::Runtime::Remoting::Contexts::IDynamicProperty*  Property;
+  // Declarations
+  /// @brief Field Property, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_Property, put = __cordl_internal_set_Property)) ::System::Runtime::Remoting::Contexts::IDynamicProperty* Property;
 
-/// @brief Field Sink, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_Sink, put=__cordl_internal_set_Sink)) ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*  Sink;
+  /// @brief Field Sink, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Sink, put = __cordl_internal_set_Sink)) ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
 
-static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg* New_ctor() ;
+  static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg* New_ctor();
 
-constexpr ::System::Runtime::Remoting::Contexts::IDynamicProperty* const& __cordl_internal_get_Property() const;
+  constexpr ::System::Runtime::Remoting::Contexts::IDynamicProperty* const& __cordl_internal_get_Property() const;
 
-constexpr ::System::Runtime::Remoting::Contexts::IDynamicProperty*& __cordl_internal_get_Property() ;
+  constexpr ::System::Runtime::Remoting::Contexts::IDynamicProperty*& __cordl_internal_get_Property();
 
-constexpr ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* const& __cordl_internal_get_Sink() const;
+  constexpr ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* const& __cordl_internal_get_Sink() const;
 
-constexpr ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& __cordl_internal_get_Sink() ;
+  constexpr ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& __cordl_internal_get_Sink();
 
-constexpr void __cordl_internal_set_Property(::System::Runtime::Remoting::Contexts::IDynamicProperty*  value) ;
+  constexpr void __cordl_internal_set_Property(::System::Runtime::Remoting::Contexts::IDynamicProperty* value);
 
-constexpr void __cordl_internal_set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink*  value) ;
+  constexpr void __cordl_internal_set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
 
-/// @brief Method .ctor, addr 0x5988dd8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x59fad44, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DynamicPropertyCollection_DynamicPropertyReg() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DynamicPropertyCollection_DynamicPropertyReg();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyReg&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyReg && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyReg const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection_DynamicPropertyReg", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyReg const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3115 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3115};
+  /// @brief Field Property, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Remoting::Contexts::IDynamicProperty* ___Property;
 
-/// @brief Field Property, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Remoting::Contexts::IDynamicProperty*  ___Property;
+  /// @brief Field Sink, offset: 0x18, size: 0x8, def value: None
+  ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* ___Sink;
 
-/// @brief Field Sink, offset: 0x18, size: 0x8, def value: None
- ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*  ___Sink;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg, ___Property) == 0x10, "Offset mismatch!");
@@ -94,75 +94,75 @@ static_assert(offsetof(::System::Runtime::Remoting::Contexts::DynamicPropertyCol
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting::Contexts
+} // namespace System::Runtime::Remoting::Contexts
 // Dependencies System.Object
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Contexts.DynamicPropertyCollection
 class CORDL_TYPE DynamicPropertyCollection : public ::System::Object {
 public:
-// Declarations
-using DynamicPropertyReg = ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg;
+  // Declarations
+  using DynamicPropertyReg = ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg;
 
- __declspec(property(get=get_HasProperties)) bool  HasProperties;
+  __declspec(property(get = get_HasProperties)) bool HasProperties;
 
-/// @brief Field _properties, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__properties, put=__cordl_internal_set__properties)) ::System::Collections::ArrayList*  _properties;
+  /// @brief Field _properties, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties)) ::System::Collections::ArrayList* _properties;
 
-/// @brief Method FindProperty, addr 0x5988c70, size 0x168, virtual false, abstract: false, final false
-inline int32_t FindProperty(::StringW  name) ;
+  /// @brief Method FindProperty, addr 0x59fabdc, size 0x168, virtual false, abstract: false, final false
+  inline int32_t FindProperty(::StringW name);
 
-static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* New_ctor() ;
+  static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* New_ctor();
 
-/// @brief Method NotifyMessage, addr 0x59877e4, size 0x5e0, virtual false, abstract: false, final false
-inline void NotifyMessage(bool  start, ::System::Runtime::Remoting::Messaging::IMessage*  msg, bool  client_site, bool  async) ;
+  /// @brief Method NotifyMessage, addr 0x59f9750, size 0x5e0, virtual false, abstract: false, final false
+  inline void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
 
-/// @brief Method RegisterDynamicProperty, addr 0x598718c, size 0x304, virtual false, abstract: false, final false
-inline bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty*  prop) ;
+  /// @brief Method RegisterDynamicProperty, addr 0x59f90f8, size 0x304, virtual false, abstract: false, final false
+  inline bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
 
-/// @brief Method UnregisterDynamicProperty, addr 0x598750c, size 0x178, virtual false, abstract: false, final false
-inline bool UnregisterDynamicProperty(::StringW  name) ;
+  /// @brief Method UnregisterDynamicProperty, addr 0x59f9478, size 0x178, virtual false, abstract: false, final false
+  inline bool UnregisterDynamicProperty(::StringW name);
 
-constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__properties() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__properties() const;
 
-constexpr ::System::Collections::ArrayList*& __cordl_internal_get__properties() ;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__properties();
 
-constexpr void __cordl_internal_set__properties(::System::Collections::ArrayList*  value) ;
+  constexpr void __cordl_internal_set__properties(::System::Collections::ArrayList* value);
 
-/// @brief Method .ctor, addr 0x5987684, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x59f95f0, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_HasProperties, addr 0x5986f58, size 0x30, virtual false, abstract: false, final false
-inline bool get_HasProperties() ;
+  /// @brief Method get_HasProperties, addr 0x59f8ec4, size 0x30, virtual false, abstract: false, final false
+  inline bool get_HasProperties();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DynamicPropertyCollection() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DynamicPropertyCollection();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DynamicPropertyCollection(DynamicPropertyCollection&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DynamicPropertyCollection(DynamicPropertyCollection && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DynamicPropertyCollection(DynamicPropertyCollection const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DynamicPropertyCollection", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DynamicPropertyCollection(DynamicPropertyCollection const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3116 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3116};
+  /// @brief Field _properties, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::ArrayList* ____properties;
 
-/// @brief Field _properties, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::ArrayList*  ____properties;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection, ____properties) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting::Contexts
+} // namespace System::Runtime::Remoting::Contexts
 NEED_NO_BOX(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");
 NEED_NO_BOX(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg);

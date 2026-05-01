@@ -19,520 +19,411 @@
 #include "UnityEngine/Rendering/zzzz__InstanceHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RangeKey_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_drawInstances
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstances)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> (
+    ::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstances)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6666c6c;
+  constexpr static std::size_t addrs = 0x66d8c78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_drawInstances", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_batchHash
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_batchHash)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> (
+    ::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_batchHash)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6666c74;
+  constexpr static std::size_t addrs = 0x66d8c80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_batchHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_batchHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_drawBatches
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatches)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> (
+    ::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatches)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6666c80;
+  constexpr static std::size_t addrs = 0x66d8c8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawBatches",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_drawBatches", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_rangeHash
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_rangeHash)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> (
+    ::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_rangeHash)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6666c88;
+  constexpr static std::size_t addrs = 0x66d8c94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_rangeHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_rangeHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_drawRanges
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawRanges)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> (
+    ::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawRanges)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6666c94;
+  constexpr static std::size_t addrs = 0x66d8ca0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawRanges",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_drawRanges", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_drawBatchIndices
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatchIndices)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatchIndices)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6666c9c;
+  constexpr static std::size_t addrs = 0x66d8ca8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawBatchIndices",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_drawBatchIndices", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_drawInstanceIndices
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstanceIndices)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstanceIndices)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6666ce8;
+  constexpr static std::size_t addrs = 0x66d8cf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawInstanceIndices",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_drawInstanceIndices", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.get_valid
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::get_valid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::get_valid)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6666d34;
+  constexpr static std::size_t addrs = 0x66d8d40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_valid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "get_valid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::Initialize)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6666d80;
+  constexpr static std::size_t addrs = 0x66d8d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.Dispose
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::Dispose)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6666f1c;
+  constexpr static std::size_t addrs = 0x66d8f28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "Dispose",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.RebuildDrawListsIfNeeded
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::RebuildDrawListsIfNeeded)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::RebuildDrawListsIfNeeded)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x666711c;
+  constexpr static std::size_t addrs = 0x66d9128;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "RebuildDrawListsIfNeeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "RebuildDrawListsIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.DestroyDrawInstanceIndices
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)(::Unity::Collections::NativeArray_1<int32_t>)>(&::UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstanceIndices)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)(::Unity::Collections::NativeArray_1<int32_t>)>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstanceIndices)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x66673ac;
+  constexpr static std::size_t addrs = 0x66d93b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "DestroyDrawInstanceIndices",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<int32_t>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "DestroyDrawInstanceIndices", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.DestroyDrawInstances
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>)>(&::UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstances)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)(
+    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>)>(&::UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstances)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6667474;
+  constexpr static std::size_t addrs = 0x66d9480;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "DestroyDrawInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "DestroyDrawInstances", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.DestroyMaterialDrawInstances
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)(::Unity::Collections::NativeArray_1<uint32_t>)>(&::UnityEngine::Rendering::CPUDrawInstanceData::DestroyMaterialDrawInstances)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)(::Unity::Collections::NativeArray_1<uint32_t>)>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::DestroyMaterialDrawInstances)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x666775c;
+  constexpr static std::size_t addrs = 0x66d9768;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "DestroyMaterialDrawInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint32_t>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "DestroyMaterialDrawInstances", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData.NeedsRebuild
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::NeedsRebuild)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(
+    &::UnityEngine::Rendering::CPUDrawInstanceData::NeedsRebuild)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6667750;
+  constexpr static std::size_t addrs = 0x66d975c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "NeedsRebuild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                               "NeedsRebuild", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::CPUDrawInstanceData._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CPUDrawInstanceData::*)()>(&::UnityEngine::Rendering::CPUDrawInstanceData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6667a38;
+  constexpr static std::size_t addrs = 0x66d9a44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_RangeHash()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RangeHash;
+constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_RangeHash() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RangeHash;
 }
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_RangeHash() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RangeHash;
+constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_RangeHash() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RangeHash;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_RangeHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RangeHash = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_RangeHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RangeHash = value;
 }
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawRanges()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawRanges;
+constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawRanges() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawRanges;
 }
 constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawRanges() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawRanges;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawRanges;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawRanges(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_DrawRanges = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawRanges(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DrawRanges = value;
 }
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_BatchHash()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_BatchHash;
+constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_BatchHash() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_BatchHash;
 }
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_BatchHash() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_BatchHash;
+constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_BatchHash() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_BatchHash;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_BatchHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_BatchHash = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_BatchHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_BatchHash = value;
 }
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawBatches()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawBatches;
+constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawBatches() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawBatches;
 }
 constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawBatches() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawBatches;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawBatches;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawBatches(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_DrawBatches = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawBatches(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DrawBatches = value;
 }
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawInstances()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawInstances;
+constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawInstances() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawInstances;
 }
 constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawInstances() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawInstances;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawInstances;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawInstances(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_DrawInstances = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawInstances(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DrawInstances = value;
 }
-constexpr ::Unity::Collections::NativeList_1<int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawInstanceIndices()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawInstanceIndices;
+constexpr ::Unity::Collections::NativeList_1<int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawInstanceIndices() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawInstanceIndices;
 }
 constexpr ::Unity::Collections::NativeList_1<int32_t> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawInstanceIndices() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawInstanceIndices;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawInstanceIndices;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawInstanceIndices(::Unity::Collections::NativeList_1<int32_t>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_DrawInstanceIndices = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawInstanceIndices(::Unity::Collections::NativeList_1<int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DrawInstanceIndices = value;
 }
-constexpr ::Unity::Collections::NativeList_1<int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawBatchIndices()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawBatchIndices;
+constexpr ::Unity::Collections::NativeList_1<int32_t>& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawBatchIndices() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawBatchIndices;
 }
 constexpr ::Unity::Collections::NativeList_1<int32_t> const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_DrawBatchIndices() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_DrawBatchIndices;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DrawBatchIndices;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawBatchIndices(::Unity::Collections::NativeList_1<int32_t>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_DrawBatchIndices = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_DrawBatchIndices(::Unity::Collections::NativeList_1<int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DrawBatchIndices = value;
 }
-constexpr bool& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_NeedsRebuild()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_NeedsRebuild;
+constexpr bool& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_NeedsRebuild() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_NeedsRebuild;
 }
 constexpr bool const& UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_get_m_NeedsRebuild() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_NeedsRebuild;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_NeedsRebuild;
 }
-constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_NeedsRebuild(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_NeedsRebuild = value;
+constexpr void UnityEngine::Rendering::CPUDrawInstanceData::__cordl_internal_set_m_NeedsRebuild(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_NeedsRebuild = value;
 }
-inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstances()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>, false>(this, ___internal_method);
+inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstances() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "get_drawInstances", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>, false>(this, ___internal_method);
 }
-inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_batchHash()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_batchHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>, false>(this, ___internal_method);
+inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_batchHash() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "get_batchHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>, false>(this, ___internal_method);
 }
-inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatches()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawBatches",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>, false>(this, ___internal_method);
+inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatches() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "get_drawBatches", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>, false>(this, ___internal_method);
 }
-inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_rangeHash()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_rangeHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>, false>(this, ___internal_method);
+inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_rangeHash() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "get_rangeHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>, false>(this, ___internal_method);
 }
-inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> UnityEngine::Rendering::CPUDrawInstanceData::get_drawRanges()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawRanges",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>, false>(this, ___internal_method);
+inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> UnityEngine::Rendering::CPUDrawInstanceData::get_drawRanges() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "get_drawRanges", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>, false>(this, ___internal_method);
 }
-inline ::Unity::Collections::NativeArray_1<int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatchIndices()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawBatchIndices",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<int32_t>, false>(this, ___internal_method);
+inline ::Unity::Collections::NativeArray_1<int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_drawBatchIndices() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "get_drawBatchIndices", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<int32_t>, false>(this, ___internal_method);
 }
-inline ::Unity::Collections::NativeArray_1<int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstanceIndices()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_drawInstanceIndices",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<int32_t>, false>(this, ___internal_method);
+inline ::Unity::Collections::NativeArray_1<int32_t> UnityEngine::Rendering::CPUDrawInstanceData::get_drawInstanceIndices() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "get_drawInstanceIndices", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<int32_t>, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::CPUDrawInstanceData::get_valid()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "get_valid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::CPUDrawInstanceData::get_valid() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "get_valid",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::Initialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::Initialize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "Dispose",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::RebuildDrawListsIfNeeded()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "RebuildDrawListsIfNeeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::RebuildDrawListsIfNeeded() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "RebuildDrawListsIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstanceIndices(::Unity::Collections::NativeArray_1<int32_t>  drawInstanceIndicesToDestroy)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "DestroyDrawInstanceIndices",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, drawInstanceIndicesToDestroy);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstanceIndices(::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndicesToDestroy) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "DestroyDrawInstanceIndices", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, drawInstanceIndicesToDestroy);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>  destroyedInstances)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "DestroyDrawInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destroyedInstances);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> destroyedInstances) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "DestroyDrawInstances", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destroyedInstances);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::DestroyMaterialDrawInstances(::Unity::Collections::NativeArray_1<uint32_t>  destroyedBatchMaterials)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "DestroyMaterialDrawInstances",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destroyedBatchMaterials);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::DestroyMaterialDrawInstances(::Unity::Collections::NativeArray_1<uint32_t> destroyedBatchMaterials) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), "DestroyMaterialDrawInstances", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destroyedBatchMaterials);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::NeedsRebuild()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        "NeedsRebuild",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::NeedsRebuild() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
+                                                                             "NeedsRebuild", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUDrawInstanceData::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::CPUDrawInstanceData::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CPUDrawInstanceData*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::CPUDrawInstanceData* UnityEngine::Rendering::CPUDrawInstanceData::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::CPUDrawInstanceData*>());
+inline ::UnityEngine::Rendering::CPUDrawInstanceData* UnityEngine::Rendering::CPUDrawInstanceData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::CPUDrawInstanceData*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::CPUDrawInstanceData::CPUDrawInstanceData()   {
-}
+constexpr ::UnityEngine::Rendering::CPUDrawInstanceData::CPUDrawInstanceData() {}

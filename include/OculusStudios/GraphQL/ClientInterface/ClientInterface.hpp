@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "OculusStudios/GraphQL/ClientInterface/ApplicationSuspendedException.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/AttemptData.hpp"
@@ -27,6 +27,5 @@
 #include "OculusStudios/GraphQL/ClientInterface/RequestStateExtensions.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/RequestType.hpp"
 #ifdef __cpp_modules
-                    export module ClientInterface;
-                    #endif
-                
+export module ClientInterface;
+#endif

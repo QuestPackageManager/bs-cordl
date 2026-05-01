@@ -33,71 +33,69 @@ namespace System::Runtime {
 // CS Name: System.Runtime.ExceptionTrace
 class CORDL_TYPE ExceptionTrace : public ::System::Object {
 public:
-// Declarations
-/// @brief Field diagnosticTrace, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_diagnosticTrace, put=__cordl_internal_set_diagnosticTrace)) ::System::Runtime::Diagnostics::EtwDiagnosticTrace*  diagnosticTrace;
+  // Declarations
+  /// @brief Field diagnosticTrace, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_diagnosticTrace, put = __cordl_internal_set_diagnosticTrace)) ::System::Runtime::Diagnostics::EtwDiagnosticTrace* diagnosticTrace;
 
-/// @brief Field eventSourceName, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_eventSourceName, put=__cordl_internal_set_eventSourceName)) ::StringW  eventSourceName;
+  /// @brief Field eventSourceName, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_eventSourceName, put = __cordl_internal_set_eventSourceName)) ::StringW eventSourceName;
 
-/// @brief Method ArgumentOutOfRange, addr 0x5fd1520, size 0xac, virtual false, abstract: false, final false
-inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW  paramName, ::System::Object*  actualValue, ::StringW  message) ;
+  /// @brief Method ArgumentOutOfRange, addr 0x604352c, size 0xac, virtual false, abstract: false, final false
+  inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-/// @brief Method BreakOnException, addr 0x5fd22d4, size 0x4, virtual false, abstract: false, final false
-inline void BreakOnException(::System::Exception*  exception) ;
+  /// @brief Method BreakOnException, addr 0x60442e0, size 0x4, virtual false, abstract: false, final false
+  inline void BreakOnException(::System::Exception* exception);
 
-static inline ::System::Runtime::ExceptionTrace* New_ctor(::StringW  eventSourceName, ::System::Runtime::Diagnostics::EtwDiagnosticTrace*  diagnosticTrace) ;
+  static inline ::System::Runtime::ExceptionTrace* New_ctor(::StringW eventSourceName, ::System::Runtime::Diagnostics::EtwDiagnosticTrace* diagnosticTrace);
 
-/// @brief Method TraceException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TException>
-inline TException TraceException(TException  exception) ;
+  /// @brief Method TraceException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TException> inline TException TraceException(TException exception);
 
-/// @brief Method TraceException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TException>
-inline TException TraceException(TException  exception, ::StringW  eventSource) ;
+  /// @brief Method TraceException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TException> inline TException TraceException(TException exception, ::StringW eventSource);
 
-/// @brief Method TraceHandledException, addr 0x5fd15cc, size 0x238, virtual false, abstract: false, final false
-inline void TraceHandledException(::System::Exception*  exception, ::System::Diagnostics::TraceEventType  traceEventType) ;
+  /// @brief Method TraceHandledException, addr 0x60435d8, size 0x238, virtual false, abstract: false, final false
+  inline void TraceHandledException(::System::Exception* exception, ::System::Diagnostics::TraceEventType traceEventType);
 
-constexpr ::System::Runtime::Diagnostics::EtwDiagnosticTrace* const& __cordl_internal_get_diagnosticTrace() const;
+  constexpr ::System::Runtime::Diagnostics::EtwDiagnosticTrace* const& __cordl_internal_get_diagnosticTrace() const;
 
-constexpr ::System::Runtime::Diagnostics::EtwDiagnosticTrace*& __cordl_internal_get_diagnosticTrace() ;
+  constexpr ::System::Runtime::Diagnostics::EtwDiagnosticTrace*& __cordl_internal_get_diagnosticTrace();
 
-constexpr ::StringW const& __cordl_internal_get_eventSourceName() const;
+  constexpr ::StringW const& __cordl_internal_get_eventSourceName() const;
 
-constexpr ::StringW& __cordl_internal_get_eventSourceName() ;
+  constexpr ::StringW& __cordl_internal_get_eventSourceName();
 
-constexpr void __cordl_internal_set_diagnosticTrace(::System::Runtime::Diagnostics::EtwDiagnosticTrace*  value) ;
+  constexpr void __cordl_internal_set_diagnosticTrace(::System::Runtime::Diagnostics::EtwDiagnosticTrace* value);
 
-constexpr void __cordl_internal_set_eventSourceName(::StringW  value) ;
+  constexpr void __cordl_internal_set_eventSourceName(::StringW value);
 
-/// @brief Method .ctor, addr 0x5fd1518, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  eventSourceName, ::System::Runtime::Diagnostics::EtwDiagnosticTrace*  diagnosticTrace) ;
+  /// @brief Method .ctor, addr 0x6043524, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW eventSourceName, ::System::Runtime::Diagnostics::EtwDiagnosticTrace* diagnosticTrace);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ExceptionTrace() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExceptionTrace();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExceptionTrace(ExceptionTrace&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ExceptionTrace(ExceptionTrace && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExceptionTrace(ExceptionTrace const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExceptionTrace", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ExceptionTrace(ExceptionTrace const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21121 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21110};
+  /// @brief Field eventSourceName, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___eventSourceName;
 
-/// @brief Field eventSourceName, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___eventSourceName;
+  /// @brief Field diagnosticTrace, offset: 0x18, size: 0x8, def value: None
+  ::System::Runtime::Diagnostics::EtwDiagnosticTrace* ___diagnosticTrace;
 
-/// @brief Field diagnosticTrace, offset: 0x18, size: 0x8, def value: None
- ::System::Runtime::Diagnostics::EtwDiagnosticTrace*  ___diagnosticTrace;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::ExceptionTrace, ___eventSourceName) == 0x10, "Offset mismatch!");
@@ -106,6 +104,6 @@ static_assert(offsetof(::System::Runtime::ExceptionTrace, ___diagnosticTrace) ==
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::ExceptionTrace, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Runtime
+} // namespace System::Runtime
 NEED_NO_BOX(::System::Runtime::ExceptionTrace);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ExceptionTrace*, "System.Runtime", "ExceptionTrace");

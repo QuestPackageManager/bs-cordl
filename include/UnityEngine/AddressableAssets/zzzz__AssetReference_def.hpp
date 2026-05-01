@@ -18,8 +18,7 @@ namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
@@ -57,171 +56,172 @@ namespace UnityEngine::AddressableAssets {
 // CS Name: UnityEngine.AddressableAssets.AssetReference
 class CORDL_TYPE AssetReference : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Asset)) ::UnityW<::UnityEngine::Object>  Asset;
+  // Declarations
+  __declspec(property(get = get_Asset)) ::UnityW<::UnityEngine::Object> Asset;
 
- __declspec(property(get=get_AssetGUID)) ::StringW  AssetGUID;
+  __declspec(property(get = get_AssetGUID)) ::StringW AssetGUID;
 
- __declspec(property(get=get_IsDone)) bool  IsDone;
+  __declspec(property(get = get_IsDone)) bool IsDone;
 
- __declspec(property(get=get_OperationHandle, put=set_OperationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle  OperationHandle;
+  __declspec(property(get = get_OperationHandle, put = set_OperationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle OperationHandle;
 
- __declspec(property(get=get_RuntimeKey)) ::System::Object*  RuntimeKey;
+  __declspec(property(get = get_RuntimeKey)) ::System::Object* RuntimeKey;
 
- __declspec(property(get=get_SubObjectName, put=set_SubObjectName)) ::StringW  SubObjectName;
+  __declspec(property(get = get_SubObjectName, put = set_SubObjectName)) ::StringW SubObjectName;
 
- __declspec(property(get=get_SubObjectType)) ::System::Type*  SubObjectType;
+  __declspec(property(get = get_SubObjectType)) ::System::Type* SubObjectType;
 
-/// @brief Field m_AssetGUID, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_AssetGUID, put=__cordl_internal_set_m_AssetGUID)) ::StringW  m_AssetGUID;
+  /// @brief Field m_AssetGUID, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_AssetGUID, put = __cordl_internal_set_m_AssetGUID)) ::StringW m_AssetGUID;
 
-/// @brief Field m_Operation, offset 0x28, size 0x18 
- __declspec(property(get=__cordl_internal_get_m_Operation, put=__cordl_internal_set_m_Operation)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle  m_Operation;
+  /// @brief Field m_Operation, offset 0x28, size 0x18
+  __declspec(property(get = __cordl_internal_get_m_Operation, put = __cordl_internal_set_m_Operation)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle m_Operation;
 
-/// @brief Field m_SubObjectName, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_SubObjectName, put=__cordl_internal_set_m_SubObjectName)) ::StringW  m_SubObjectName;
+  /// @brief Field m_SubObjectName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SubObjectName, put = __cordl_internal_set_m_SubObjectName)) ::StringW m_SubObjectName;
 
-/// @brief Field m_SubObjectType, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_SubObjectType, put=__cordl_internal_set_m_SubObjectType)) ::StringW  m_SubObjectType;
+  /// @brief Field m_SubObjectType, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SubObjectType, put = __cordl_internal_set_m_SubObjectType)) ::StringW m_SubObjectType;
 
-/// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
-constexpr operator  ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
+  constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
 
-/// @brief Method CreateFailedOperation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> CreateFailedOperation() ;
+  /// @brief Method CreateFailedOperation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> CreateFailedOperation();
 
-/// @brief Method InstantiateAsync, addr 0x62aab2c, size 0xb4, virtual true, abstract: false, final false
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> InstantiateAsync(::UnityEngine::Transform*  parent, bool  instantiateInWorldSpace) ;
+  /// @brief Method InstantiateAsync, addr 0x631cb38, size 0xb4, virtual true, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> InstantiateAsync(::UnityEngine::Transform* parent,
+                                                                                                                                          bool instantiateInWorldSpace);
 
-/// @brief Method InstantiateAsync, addr 0x62aaa2c, size 0x100, virtual true, abstract: false, final false
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> InstantiateAsync(::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation, ::UnityEngine::Transform*  parent) ;
+  /// @brief Method InstantiateAsync, addr 0x631ca38, size 0x100, virtual true, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
+  InstantiateAsync(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
-/// @brief Method IsValid, addr 0x62aa684, size 0xc, virtual false, abstract: false, final false
-inline bool IsValid() ;
+  /// @brief Method IsValid, addr 0x631c690, size 0xc, virtual false, abstract: false, final false
+  inline bool IsValid();
 
-/// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-template<typename TObject>
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync() ;
+  /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  template <typename TObject> inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync();
 
-/// @brief Method LoadSceneAsync, addr 0x62aa844, size 0x150, virtual true, abstract: false, final false
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadSceneAsync(::UnityEngine::SceneManagement::LoadSceneMode  loadMode, bool  activateOnLoad, int32_t  priority) ;
+  /// @brief Method LoadSceneAsync, addr 0x631c850, size 0x150, virtual true, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
+  LoadSceneAsync(::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority);
 
-static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor() ;
+  static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor();
 
-static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor(::StringW  guid) ;
+  static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor(::StringW guid);
 
-/// @brief Method ReleaseAsset, addr 0x62aac64, size 0xa4, virtual true, abstract: false, final false
-inline void ReleaseAsset() ;
+  /// @brief Method ReleaseAsset, addr 0x631cc70, size 0xa4, virtual true, abstract: false, final false
+  inline void ReleaseAsset();
 
-/// @brief Method ReleaseInstance, addr 0x62aad08, size 0x58, virtual true, abstract: false, final false
-inline void ReleaseInstance(::UnityEngine::GameObject*  obj) ;
+  /// @brief Method ReleaseInstance, addr 0x631cd14, size 0x58, virtual true, abstract: false, final false
+  inline void ReleaseInstance(::UnityEngine::GameObject* obj);
 
-/// @brief Method RuntimeKeyIsValid, addr 0x62aabe0, size 0x84, virtual true, abstract: false, final false
-inline bool RuntimeKeyIsValid() ;
+  /// @brief Method RuntimeKeyIsValid, addr 0x631cbec, size 0x84, virtual true, abstract: false, final false
+  inline bool RuntimeKeyIsValid();
 
-/// @brief Method ToString, addr 0x62aa7d8, size 0x6c, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x631c7e4, size 0x6c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method UnLoadScene, addr 0x62aa994, size 0x98, virtual true, abstract: false, final false
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnLoadScene() ;
+  /// @brief Method UnLoadScene, addr 0x631c9a0, size 0x98, virtual true, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnLoadScene();
 
-/// @brief Method ValidateAsset, addr 0x62aad60, size 0x8, virtual true, abstract: false, final false
-inline bool ValidateAsset(::UnityEngine::Object*  obj) ;
+  /// @brief Method ValidateAsset, addr 0x631cd6c, size 0x8, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-/// @brief Method ValidateAsset, addr 0x62aad68, size 0x8, virtual true, abstract: false, final false
-inline bool ValidateAsset(::StringW  path) ;
+  /// @brief Method ValidateAsset, addr 0x631cd74, size 0x8, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::StringW path);
 
-constexpr ::StringW const& __cordl_internal_get_m_AssetGUID() const;
+  constexpr ::StringW const& __cordl_internal_get_m_AssetGUID() const;
 
-constexpr ::StringW& __cordl_internal_get_m_AssetGUID() ;
+  constexpr ::StringW& __cordl_internal_get_m_AssetGUID();
 
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle const& __cordl_internal_get_m_Operation() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle const& __cordl_internal_get_m_Operation() const;
 
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& __cordl_internal_get_m_Operation() ;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& __cordl_internal_get_m_Operation();
 
-constexpr ::StringW const& __cordl_internal_get_m_SubObjectName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_SubObjectName() const;
 
-constexpr ::StringW& __cordl_internal_get_m_SubObjectName() ;
+  constexpr ::StringW& __cordl_internal_get_m_SubObjectName();
 
-constexpr ::StringW const& __cordl_internal_get_m_SubObjectType() const;
+  constexpr ::StringW const& __cordl_internal_get_m_SubObjectType() const;
 
-constexpr ::StringW& __cordl_internal_get_m_SubObjectType() ;
+  constexpr ::StringW& __cordl_internal_get_m_SubObjectType();
 
-constexpr void __cordl_internal_set_m_AssetGUID(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_AssetGUID(::StringW value);
 
-constexpr void __cordl_internal_set_m_Operation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle  value) ;
+  constexpr void __cordl_internal_set_m_Operation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
 
-constexpr void __cordl_internal_set_m_SubObjectName(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_SubObjectName(::StringW value);
 
-constexpr void __cordl_internal_set_m_SubObjectType(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_SubObjectType(::StringW value);
 
-/// @brief Method .ctor, addr 0x62aa69c, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x631c6a8, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x62aa6e8, size 0x50, virtual false, abstract: false, final false
-inline void _ctor(::StringW  guid) ;
+  /// @brief Method .ctor, addr 0x631c6f4, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor(::StringW guid);
 
-/// @brief Method get_Asset, addr 0x62aa738, size 0xa0, virtual true, abstract: false, final false
-inline ::UnityW<::UnityEngine::Object> get_Asset() ;
+  /// @brief Method get_Asset, addr 0x631c744, size 0xa0, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Object> get_Asset();
 
-/// @brief Method get_AssetGUID, addr 0x62aa5c8, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_AssetGUID() ;
+  /// @brief Method get_AssetGUID, addr 0x631c5d4, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_AssetGUID();
 
-/// @brief Method get_IsDone, addr 0x62aa690, size 0xc, virtual false, abstract: false, final false
-inline bool get_IsDone() ;
+  /// @brief Method get_IsDone, addr 0x631c69c, size 0xc, virtual false, abstract: false, final false
+  inline bool get_IsDone();
 
-/// @brief Method get_OperationHandle, addr 0x62aa4f0, size 0x14, virtual false, abstract: false, final false
-inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle() ;
+  /// @brief Method get_OperationHandle, addr 0x631c4fc, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
 
-/// @brief Method get_RuntimeKey, addr 0x62aa518, size 0xb0, virtual true, abstract: false, final false
-inline ::System::Object* get_RuntimeKey() ;
+  /// @brief Method get_RuntimeKey, addr 0x631c524, size 0xb0, virtual true, abstract: false, final false
+  inline ::System::Object* get_RuntimeKey();
 
-/// @brief Method get_SubObjectName, addr 0x62aa5d0, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_SubObjectName() ;
+  /// @brief Method get_SubObjectName, addr 0x631c5dc, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_SubObjectName();
 
-/// @brief Method get_SubObjectType, addr 0x62aa5e0, size 0xa4, virtual true, abstract: false, final false
-inline ::System::Type* get_SubObjectType() ;
+  /// @brief Method get_SubObjectType, addr 0x631c5ec, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::Type* get_SubObjectType();
 
-/// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
-constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
+  /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
+  constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
-/// @brief Method set_OperationHandle, addr 0x62aa504, size 0x14, virtual false, abstract: false, final false
-inline void set_OperationHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle  value) ;
+  /// @brief Method set_OperationHandle, addr 0x631c510, size 0x14, virtual false, abstract: false, final false
+  inline void set_OperationHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
 
-/// @brief Method set_SubObjectName, addr 0x62aa5d8, size 0x8, virtual true, abstract: false, final false
-inline void set_SubObjectName(::StringW  value) ;
+  /// @brief Method set_SubObjectName, addr 0x631c5e4, size 0x8, virtual true, abstract: false, final false
+  inline void set_SubObjectName(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AssetReference() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetReference();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReference", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AssetReference(AssetReference&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AssetReference", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AssetReference(AssetReference && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReference", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AssetReference(AssetReference const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AssetReference", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AssetReference(AssetReference const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19556 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19546};
+  /// @brief Field m_AssetGUID, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___m_AssetGUID;
 
-/// @brief Field m_AssetGUID, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___m_AssetGUID;
+  /// @brief Field m_SubObjectName, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___m_SubObjectName;
 
-/// @brief Field m_SubObjectName, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___m_SubObjectName;
+  /// @brief Field m_SubObjectType, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___m_SubObjectType;
 
-/// @brief Field m_SubObjectType, offset: 0x20, size: 0x8, def value: None
- ::StringW  ___m_SubObjectType;
+  /// @brief Field m_Operation, offset: 0x28, size: 0x18, def value: None
+  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle ___m_Operation;
 
-/// @brief Field m_Operation, offset: 0x28, size: 0x18, def value: None
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle  ___m_Operation;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AddressableAssets::AssetReference, ___m_AssetGUID) == 0x10, "Offset mismatch!");
@@ -234,6 +234,6 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AssetReference, ___m_Op
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AssetReference, 0x40>, "Size mismatch!");
 
-} // namespace end def UnityEngine::AddressableAssets
+} // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReference);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReference*, "UnityEngine.AddressableAssets", "AssetReference");

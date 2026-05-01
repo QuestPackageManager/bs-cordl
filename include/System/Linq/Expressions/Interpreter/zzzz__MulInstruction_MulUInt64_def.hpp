@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.MulInstruction/MulUInt64
 class CORDL_TYPE MulInstruction_MulUInt64 : public ::System::Linq::Expressions::Interpreter::MulInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::MulInstruction_MulUInt64* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::MulInstruction_MulUInt64* New_ctor();
 
-/// @brief Method Run, addr 0x5e01470, size 0x10c, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e7347c, size 0x10c, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5e00f34, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e72f40, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MulInstruction_MulUInt64() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MulInstruction_MulUInt64();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulUInt64", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MulInstruction_MulUInt64(MulInstruction_MulUInt64&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulUInt64", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MulInstruction_MulUInt64(MulInstruction_MulUInt64 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulUInt64", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MulInstruction_MulUInt64(MulInstruction_MulUInt64 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulUInt64", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MulInstruction_MulUInt64(MulInstruction_MulUInt64 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16474 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16466};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MulInstruction_MulUInt64, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MulInstruction_MulUInt64);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MulInstruction_MulUInt64*, "System.Linq.Expressions.Interpreter", "MulInstruction/MulUInt64");

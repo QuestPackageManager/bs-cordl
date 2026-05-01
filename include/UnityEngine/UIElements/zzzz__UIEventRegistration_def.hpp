@@ -7,8 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIEventRegistration)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 class Exception;
@@ -38,120 +37,120 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UIEventRegistration/<>c
 class CORDL_TYPE UIEventRegistration___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::UIEventRegistration___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIEventRegistration___c* __9;
 
-static inline ::UnityEngine::UIElements::UIEventRegistration___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::UIEventRegistration___c* New_ctor();
 
-/// @brief Method <.cctor>b__1_0, addr 0x6aedb14, size 0x50, virtual false, abstract: false, final false
-inline void __cctor_b__1_0() ;
+  /// @brief Method <.cctor>b__1_0, addr 0x6b5fd5c, size 0x50, virtual false, abstract: false, final false
+  inline void __cctor_b__1_0();
 
-/// @brief Method <.cctor>b__1_1, addr 0x6aedb64, size 0x50, virtual false, abstract: false, final false
-inline void __cctor_b__1_1() ;
+  /// @brief Method <.cctor>b__1_1, addr 0x6b5fdac, size 0x50, virtual false, abstract: false, final false
+  inline void __cctor_b__1_1();
 
-/// @brief Method <.cctor>b__1_2, addr 0x6aedbb4, size 0x68, virtual false, abstract: false, final false
-inline bool __cctor_b__1_2(int32_t  i, ::System::IntPtr  ptr) ;
+  /// @brief Method <.cctor>b__1_2, addr 0x6b5fdfc, size 0x68, virtual false, abstract: false, final false
+  inline bool __cctor_b__1_2(int32_t i, ::System::IntPtr ptr);
 
-/// @brief Method <.cctor>b__1_3, addr 0x6aedc1c, size 0x50, virtual false, abstract: false, final false
-inline void __cctor_b__1_3() ;
+  /// @brief Method <.cctor>b__1_3, addr 0x6b5fe64, size 0x50, virtual false, abstract: false, final false
+  inline void __cctor_b__1_3();
 
-/// @brief Method <.cctor>b__1_4, addr 0x6aedc6c, size 0x58, virtual false, abstract: false, final false
-inline bool __cctor_b__1_4(::System::Exception*  exception) ;
+  /// @brief Method <.cctor>b__1_4, addr 0x6b5feb4, size 0x58, virtual false, abstract: false, final false
+  inline bool __cctor_b__1_4(::System::Exception* exception);
 
-/// @brief Method <.cctor>b__1_5, addr 0x6aedcc4, size 0x50, virtual false, abstract: false, final false
-inline void __cctor_b__1_5() ;
+  /// @brief Method <.cctor>b__1_5, addr 0x6b5ff0c, size 0x50, virtual false, abstract: false, final false
+  inline void __cctor_b__1_5();
 
-/// @brief Method .ctor, addr 0x6aedb10, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b5fd58, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::UIEventRegistration___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::UIEventRegistration___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::UIEventRegistration___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::UIEventRegistration___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UIEventRegistration___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIEventRegistration___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UIEventRegistration___c(UIEventRegistration___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UIEventRegistration___c(UIEventRegistration___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UIEventRegistration___c(UIEventRegistration___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UIEventRegistration___c(UIEventRegistration___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5117 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5117};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIEventRegistration___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIEventRegistration
 class CORDL_TYPE UIEventRegistration : public ::System::Object {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::UIEventRegistration___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::UIEventRegistration___c;
 
-/// @brief Field s_Utilities, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_Utilities, put=setStaticF_s_Utilities)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>*  s_Utilities;
+  /// @brief Field s_Utilities, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_Utilities, put = setStaticF_s_Utilities)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* s_Utilities;
 
-/// @brief Method CleanupRoots, addr 0x6aed77c, size 0x1a0, virtual false, abstract: false, final false
-static inline void CleanupRoots() ;
+  /// @brief Method CleanupRoots, addr 0x6b5f9c4, size 0x1a0, virtual false, abstract: false, final false
+  static inline void CleanupRoots();
 
-/// @brief Method EndContainerGUIFromException, addr 0x6aed3b0, size 0x1f8, virtual false, abstract: false, final false
-static inline bool EndContainerGUIFromException(::System::Exception*  exception) ;
+  /// @brief Method EndContainerGUIFromException, addr 0x6b5f5f8, size 0x1f8, virtual false, abstract: false, final false
+  static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-/// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x6aed91c, size 0x1a0, virtual false, abstract: false, final false
-static inline void MakeCurrentIMGUIContainerDirty() ;
+  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x6b5fb64, size 0x1a0, virtual false, abstract: false, final false
+  static inline void MakeCurrentIMGUIContainerDirty();
 
-/// @brief Method ProcessEvent, addr 0x6aed5a8, size 0x1d4, virtual false, abstract: false, final false
-static inline bool ProcessEvent(int32_t  instanceID, ::System::IntPtr  nativeEventPtr) ;
+  /// @brief Method ProcessEvent, addr 0x6b5f7f0, size 0x1d4, virtual false, abstract: false, final false
+  static inline bool ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr);
 
-/// @brief Method RegisterUIElementSystem, addr 0x6aecfe8, size 0x8c, virtual false, abstract: false, final false
-static inline void RegisterUIElementSystem(::UnityEngine::UIElements::IUIElementsUtility*  utility) ;
+  /// @brief Method RegisterUIElementSystem, addr 0x6b5f230, size 0x8c, virtual false, abstract: false, final false
+  static inline void RegisterUIElementSystem(::UnityEngine::UIElements::IUIElementsUtility* utility);
 
-/// @brief Method ReleaseCapture, addr 0x6aed210, size 0x1a0, virtual false, abstract: false, final false
-static inline void ReleaseCapture() ;
+  /// @brief Method ReleaseCapture, addr 0x6b5f458, size 0x1a0, virtual false, abstract: false, final false
+  static inline void ReleaseCapture();
 
-/// @brief Method TakeCapture, addr 0x6aed074, size 0x19c, virtual false, abstract: false, final false
-static inline void TakeCapture() ;
+  /// @brief Method TakeCapture, addr 0x6b5f2bc, size 0x19c, virtual false, abstract: false, final false
+  static inline void TakeCapture();
 
-static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* getStaticF_s_Utilities() ;
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* getStaticF_s_Utilities();
 
-static inline void setStaticF_s_Utilities(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>*  value) ;
+  static inline void setStaticF_s_Utilities(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UIEventRegistration() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIEventRegistration();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UIEventRegistration(UIEventRegistration&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UIEventRegistration(UIEventRegistration && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UIEventRegistration(UIEventRegistration const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UIEventRegistration(UIEventRegistration const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5118 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5118};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIEventRegistration, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIEventRegistration);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIEventRegistration*, "UnityEngine.UIElements", "UIEventRegistration");
 NEED_NO_BOX(::UnityEngine::UIElements::UIEventRegistration___c);

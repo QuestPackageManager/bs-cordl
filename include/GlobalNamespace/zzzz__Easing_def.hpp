@@ -18,131 +18,131 @@ namespace GlobalNamespace {
 // CS Name: Easing
 class CORDL_TYPE Easing : public ::System::Object {
 public:
-// Declarations
-/// @brief Method BeatSaberInOutBack, addr 0x62919e0, size 0x90, virtual false, abstract: false, final false
-static inline float_t BeatSaberInOutBack(float_t  t) ;
+  // Declarations
+  /// @brief Method BeatSaberInOutBack, addr 0x63039ec, size 0x90, virtual false, abstract: false, final false
+  static inline float_t BeatSaberInOutBack(float_t t);
 
-/// @brief Method BeatSaberInOutBounce, addr 0x6291af4, size 0xbc, virtual false, abstract: false, final false
-static inline float_t BeatSaberInOutBounce(float_t  t) ;
+  /// @brief Method BeatSaberInOutBounce, addr 0x6303b00, size 0xbc, virtual false, abstract: false, final false
+  static inline float_t BeatSaberInOutBounce(float_t t);
 
-/// @brief Method BeatSaberInOutElastic, addr 0x6291a70, size 0x84, virtual false, abstract: false, final false
-static inline float_t BeatSaberInOutElastic(float_t  t) ;
+  /// @brief Method BeatSaberInOutElastic, addr 0x6303a7c, size 0x84, virtual false, abstract: false, final false
+  static inline float_t BeatSaberInOutElastic(float_t t);
 
-/// @brief Method InBack, addr 0x6291640, size 0x30, virtual false, abstract: false, final false
-static inline float_t InBack(float_t  t) ;
+  /// @brief Method InBack, addr 0x630364c, size 0x30, virtual false, abstract: false, final false
+  static inline float_t InBack(float_t t);
 
-/// @brief Method InBounce, addr 0x62918b0, size 0x24, virtual false, abstract: false, final false
-static inline float_t InBounce(float_t  t) ;
+  /// @brief Method InBounce, addr 0x63038bc, size 0x24, virtual false, abstract: false, final false
+  static inline float_t InBounce(float_t t);
 
-/// @brief Method InCirc, addr 0x62915bc, size 0x18, virtual false, abstract: false, final false
-static inline float_t InCirc(float_t  t) ;
+  /// @brief Method InCirc, addr 0x63035c8, size 0x18, virtual false, abstract: false, final false
+  static inline float_t InCirc(float_t t);
 
-/// @brief Method InCubic, addr 0x6291358, size 0xc, virtual false, abstract: false, final false
-static inline float_t InCubic(float_t  t) ;
+  /// @brief Method InCubic, addr 0x6303364, size 0xc, virtual false, abstract: false, final false
+  static inline float_t InCubic(float_t t);
 
-/// @brief Method InElastic, addr 0x6291730, size 0x6c, virtual false, abstract: false, final false
-static inline float_t InElastic(float_t  t) ;
+  /// @brief Method InElastic, addr 0x630373c, size 0x6c, virtual false, abstract: false, final false
+  static inline float_t InElastic(float_t t);
 
-/// @brief Method InExpo, addr 0x62914fc, size 0x24, virtual false, abstract: false, final false
-static inline float_t InExpo(float_t  t) ;
+  /// @brief Method InExpo, addr 0x6303508, size 0x24, virtual false, abstract: false, final false
+  static inline float_t InExpo(float_t t);
 
-/// @brief Method InOutBack, addr 0x62916c0, size 0x70, virtual false, abstract: false, final false
-static inline float_t InOutBack(float_t  t) ;
+  /// @brief Method InOutBack, addr 0x63036cc, size 0x70, virtual false, abstract: false, final false
+  static inline float_t InOutBack(float_t t);
 
-/// @brief Method InOutBounce, addr 0x629198c, size 0x54, virtual false, abstract: false, final false
-static inline float_t InOutBounce(float_t  t) ;
+  /// @brief Method InOutBounce, addr 0x6303998, size 0x54, virtual false, abstract: false, final false
+  static inline float_t InOutBounce(float_t t);
 
-/// @brief Method InOutCirc, addr 0x62915f0, size 0x50, virtual false, abstract: false, final false
-static inline float_t InOutCirc(float_t  t) ;
+  /// @brief Method InOutCirc, addr 0x63035fc, size 0x50, virtual false, abstract: false, final false
+  static inline float_t InOutCirc(float_t t);
 
-/// @brief Method InOutCubic, addr 0x629138c, size 0x50, virtual false, abstract: false, final false
-static inline float_t InOutCubic(float_t  t) ;
+  /// @brief Method InOutCubic, addr 0x6303398, size 0x50, virtual false, abstract: false, final false
+  static inline float_t InOutCubic(float_t t);
 
-/// @brief Method InOutElastic, addr 0x629180c, size 0xa4, virtual false, abstract: false, final false
-static inline float_t InOutElastic(float_t  t) ;
+  /// @brief Method InOutElastic, addr 0x6303818, size 0xa4, virtual false, abstract: false, final false
+  static inline float_t InOutElastic(float_t t);
 
-/// @brief Method InOutExpo, addr 0x6291550, size 0x6c, virtual false, abstract: false, final false
-static inline float_t InOutExpo(float_t  t) ;
+  /// @brief Method InOutExpo, addr 0x630355c, size 0x6c, virtual false, abstract: false, final false
+  static inline float_t InOutExpo(float_t t);
 
-/// @brief Method InOutQuad, addr 0x629132c, size 0x2c, virtual false, abstract: false, final false
-static inline float_t InOutQuad(float_t  t) ;
+  /// @brief Method InOutQuad, addr 0x6303338, size 0x2c, virtual false, abstract: false, final false
+  static inline float_t InOutQuad(float_t t);
 
-/// @brief Method InOutQuart, addr 0x6291414, size 0x54, virtual false, abstract: false, final false
-static inline float_t InOutQuart(float_t  t) ;
+  /// @brief Method InOutQuart, addr 0x6303420, size 0x54, virtual false, abstract: false, final false
+  static inline float_t InOutQuart(float_t t);
 
-/// @brief Method InOutQuint, addr 0x62914a4, size 0x58, virtual false, abstract: false, final false
-static inline float_t InOutQuint(float_t  t) ;
+  /// @brief Method InOutQuint, addr 0x63034b0, size 0x58, virtual false, abstract: false, final false
+  static inline float_t InOutQuint(float_t t);
 
-/// @brief Method InOutSine, addr 0x62912e4, size 0x2c, virtual false, abstract: false, final false
-static inline float_t InOutSine(float_t  t) ;
+  /// @brief Method InOutSine, addr 0x63032f0, size 0x2c, virtual false, abstract: false, final false
+  static inline float_t InOutSine(float_t t);
 
-/// @brief Method InQuad, addr 0x6291310, size 0x8, virtual false, abstract: false, final false
-static inline float_t InQuad(float_t  t) ;
+  /// @brief Method InQuad, addr 0x630331c, size 0x8, virtual false, abstract: false, final false
+  static inline float_t InQuad(float_t t);
 
-/// @brief Method InQuart, addr 0x62913dc, size 0x10, virtual false, abstract: false, final false
-static inline float_t InQuart(float_t  t) ;
+  /// @brief Method InQuart, addr 0x63033e8, size 0x10, virtual false, abstract: false, final false
+  static inline float_t InQuart(float_t t);
 
-/// @brief Method InQuint, addr 0x6291468, size 0x14, virtual false, abstract: false, final false
-static inline float_t InQuint(float_t  t) ;
+  /// @brief Method InQuint, addr 0x6303474, size 0x14, virtual false, abstract: false, final false
+  static inline float_t InQuint(float_t t);
 
-/// @brief Method InSine, addr 0x62912a0, size 0x2c, virtual false, abstract: false, final false
-static inline float_t InSine(float_t  t) ;
+  /// @brief Method InSine, addr 0x63032ac, size 0x2c, virtual false, abstract: false, final false
+  static inline float_t InSine(float_t t);
 
-/// @brief Method Linear, addr 0x629129c, size 0x4, virtual false, abstract: false, final false
-static inline float_t Linear(float_t  t) ;
+  /// @brief Method Linear, addr 0x63032a8, size 0x4, virtual false, abstract: false, final false
+  static inline float_t Linear(float_t t);
 
-/// @brief Method OutBack, addr 0x6291670, size 0x50, virtual false, abstract: false, final false
-static inline float_t OutBack(float_t  t) ;
+  /// @brief Method OutBack, addr 0x630367c, size 0x50, virtual false, abstract: false, final false
+  static inline float_t OutBack(float_t t);
 
-/// @brief Method OutBounce, addr 0x62918d4, size 0xb8, virtual false, abstract: false, final false
-static inline float_t OutBounce(float_t  t) ;
+  /// @brief Method OutBounce, addr 0x63038e0, size 0xb8, virtual false, abstract: false, final false
+  static inline float_t OutBounce(float_t t);
 
-/// @brief Method OutCirc, addr 0x62915d4, size 0x1c, virtual false, abstract: false, final false
-static inline float_t OutCirc(float_t  t) ;
+  /// @brief Method OutCirc, addr 0x63035e0, size 0x1c, virtual false, abstract: false, final false
+  static inline float_t OutCirc(float_t t);
 
-/// @brief Method OutCubic, addr 0x6291364, size 0x28, virtual false, abstract: false, final false
-static inline float_t OutCubic(float_t  t) ;
+  /// @brief Method OutCubic, addr 0x6303370, size 0x28, virtual false, abstract: false, final false
+  static inline float_t OutCubic(float_t t);
 
-/// @brief Method OutElastic, addr 0x629179c, size 0x70, virtual false, abstract: false, final false
-static inline float_t OutElastic(float_t  t) ;
+  /// @brief Method OutElastic, addr 0x63037a8, size 0x70, virtual false, abstract: false, final false
+  static inline float_t OutElastic(float_t t);
 
-/// @brief Method OutExpo, addr 0x6291520, size 0x30, virtual false, abstract: false, final false
-static inline float_t OutExpo(float_t  t) ;
+  /// @brief Method OutExpo, addr 0x630352c, size 0x30, virtual false, abstract: false, final false
+  static inline float_t OutExpo(float_t t);
 
-/// @brief Method OutQuad, addr 0x6291318, size 0x14, virtual false, abstract: false, final false
-static inline float_t OutQuad(float_t  t) ;
+  /// @brief Method OutQuad, addr 0x6303324, size 0x14, virtual false, abstract: false, final false
+  static inline float_t OutQuad(float_t t);
 
-/// @brief Method OutQuart, addr 0x62913ec, size 0x28, virtual false, abstract: false, final false
-static inline float_t OutQuart(float_t  t) ;
+  /// @brief Method OutQuart, addr 0x63033f8, size 0x28, virtual false, abstract: false, final false
+  static inline float_t OutQuart(float_t t);
 
-/// @brief Method OutQuint, addr 0x629147c, size 0x28, virtual false, abstract: false, final false
-static inline float_t OutQuint(float_t  t) ;
+  /// @brief Method OutQuint, addr 0x6303488, size 0x28, virtual false, abstract: false, final false
+  static inline float_t OutQuint(float_t t);
 
-/// @brief Method OutSine, addr 0x62912cc, size 0x18, virtual false, abstract: false, final false
-static inline float_t OutSine(float_t  t) ;
+  /// @brief Method OutSine, addr 0x63032d8, size 0x18, virtual false, abstract: false, final false
+  static inline float_t OutSine(float_t t);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Easing() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Easing();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Easing", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Easing(Easing&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Easing", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Easing(Easing && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Easing", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Easing(Easing const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Easing", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Easing(Easing const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22746 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22638};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Easing, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Easing);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Easing*, "", "Easing");

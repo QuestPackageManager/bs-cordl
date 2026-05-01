@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Microsoft/CodeAnalysis/EmbeddedAttribute.hpp"
 #ifdef __cpp_modules
-                    export module CodeAnalysis;
-                    #endif
-                
+export module CodeAnalysis;
+#endif

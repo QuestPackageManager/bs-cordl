@@ -17,37 +17,37 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ThemeStyleSheet
 class CORDL_TYPE ThemeStyleSheet : public ::UnityEngine::UIElements::StyleSheet {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor();
 
-/// @brief Method OnEnable, addr 0x6ad3b20, size 0x1c, virtual true, abstract: false, final false
-inline void OnEnable() ;
+  /// @brief Method OnEnable, addr 0x6b45d68, size 0x1c, virtual true, abstract: false, final false
+  inline void OnEnable();
 
-/// @brief Method .ctor, addr 0x6ad3b3c, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b45d84, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ThemeStyleSheet() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThemeStyleSheet();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ThemeStyleSheet(ThemeStyleSheet&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ThemeStyleSheet(ThemeStyleSheet && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ThemeStyleSheet(ThemeStyleSheet const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ThemeStyleSheet(ThemeStyleSheet const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5084 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5084};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ThemeStyleSheet, 0xa0>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ThemeStyleSheet);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ThemeStyleSheet*, "UnityEngine.UIElements", "ThemeStyleSheet");

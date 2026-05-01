@@ -29,63 +29,63 @@ namespace GlobalNamespace {
 // CS Name: TutorialNoteCutEffectSpawner
 class CORDL_TYPE TutorialNoteCutEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _beatmapObjectManager, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapObjectManager, put=__cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager*  _beatmapObjectManager;
+  // Declarations
+  /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-/// @brief Field _failFlyingTextSpawner, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__failFlyingTextSpawner, put=__cordl_internal_set__failFlyingTextSpawner)) ::UnityW<::GlobalNamespace::FlyingTextSpawner>  _failFlyingTextSpawner;
+  /// @brief Field _failFlyingTextSpawner, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner)) ::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
 
-/// @brief Method HandleNoteWasCut, addr 0x584b9a8, size 0x278, virtual false, abstract: false, final false
-inline void HandleNoteWasCut(::GlobalNamespace::NoteController*  noteController, ::ByRef<::GlobalNamespace::NoteCutInfo>  noteCutInfo) ;
+  /// @brief Method HandleNoteWasCut, addr 0x58bffb0, size 0x278, virtual false, abstract: false, final false
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor() ;
+  static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x584b910, size 0x98, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x58bff18, size 0x98, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method Start, addr 0x584b880, size 0x90, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x58bfe88, size 0x90, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
+  constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
 
-constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager() ;
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-constexpr ::UnityW<::GlobalNamespace::FlyingTextSpawner> const& __cordl_internal_get__failFlyingTextSpawner() const;
+  constexpr ::UnityW<::GlobalNamespace::FlyingTextSpawner> const& __cordl_internal_get__failFlyingTextSpawner() const;
 
-constexpr ::UnityW<::GlobalNamespace::FlyingTextSpawner>& __cordl_internal_get__failFlyingTextSpawner() ;
+  constexpr ::UnityW<::GlobalNamespace::FlyingTextSpawner>& __cordl_internal_get__failFlyingTextSpawner();
 
-constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager*  value) ;
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-constexpr void __cordl_internal_set__failFlyingTextSpawner(::UnityW<::GlobalNamespace::FlyingTextSpawner>  value) ;
+  constexpr void __cordl_internal_set__failFlyingTextSpawner(::UnityW<::GlobalNamespace::FlyingTextSpawner> value);
 
-/// @brief Method .ctor, addr 0x584bc20, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58c0228, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TutorialNoteCutEffectSpawner() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialNoteCutEffectSpawner();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6293 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6283};
+  /// @brief Field _failFlyingTextSpawner, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::FlyingTextSpawner> ____failFlyingTextSpawner;
 
-/// @brief Field _failFlyingTextSpawner, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::FlyingTextSpawner>  ____failFlyingTextSpawner;
+  /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
-/// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapObjectManager*  ____beatmapObjectManager;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____failFlyingTextSpawner) == 0x20, "Offset mismatch!");
@@ -94,6 +94,6 @@ static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____beat
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoteCutEffectSpawner, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialNoteCutEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TutorialNoteCutEffectSpawner*, "", "TutorialNoteCutEffectSpawner");

@@ -31,88 +31,88 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.MouseOutEvent/<>c
 class CORDL_TYPE MouseOutEvent___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::MouseOutEvent___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::MouseOutEvent___c* __9;
 
-static inline ::UnityEngine::UIElements::MouseOutEvent___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::MouseOutEvent___c* New_ctor();
 
-/// @brief Method <.cctor>b__0_0, addr 0x6bd523c, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::MouseOutEvent* __cctor_b__0_0() ;
+  /// @brief Method <.cctor>b__0_0, addr 0x6c47484, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::MouseOutEvent* __cctor_b__0_0();
 
-/// @brief Method .ctor, addr 0x6bd5238, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c47480, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::MouseOutEvent___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::MouseOutEvent___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::MouseOutEvent___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::MouseOutEvent___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MouseOutEvent___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseOutEvent___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MouseOutEvent___c(MouseOutEvent___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MouseOutEvent___c(MouseOutEvent___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MouseOutEvent___c(MouseOutEvent___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MouseOutEvent___c(MouseOutEvent___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4505 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4505};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseOutEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.MouseOutEvent
 class CORDL_TYPE MouseOutEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseOutEvent*> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::MouseOutEvent___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::MouseOutEvent___c;
 
-/// @brief Method Dispatch, addr 0x6bd510c, size 0x4, virtual true, abstract: false, final false
-inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel*  panel) ;
+  /// @brief Method Dispatch, addr 0x6c47354, size 0x4, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-static inline ::UnityEngine::UIElements::MouseOutEvent* New_ctor() ;
+  static inline ::UnityEngine::UIElements::MouseOutEvent* New_ctor();
 
-/// @brief Method PreDispatch, addr 0x6bd5110, size 0x88, virtual true, abstract: false, final false
-inline void PreDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
+  /// @brief Method PreDispatch, addr 0x6c47358, size 0x88, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-/// @brief Method .ctor, addr 0x6bd5198, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c473e0, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MouseOutEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseOutEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MouseOutEvent(MouseOutEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MouseOutEvent(MouseOutEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MouseOutEvent(MouseOutEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MouseOutEvent(MouseOutEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4506 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4506};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseOutEvent, 0x98>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MouseOutEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseOutEvent*, "UnityEngine.UIElements", "MouseOutEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::MouseOutEvent___c);

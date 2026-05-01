@@ -26,37 +26,37 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlNodeChangedEventHandler
 class CORDL_TYPE XmlNodeChangedEventHandler : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x6114358, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::System::Object*  sender, ::System::Xml::XmlNodeChangedEventArgs*  e) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x6186364, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::Object* sender, ::System::Xml::XmlNodeChangedEventArgs* e);
 
-static inline ::System::Xml::XmlNodeChangedEventHandler* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Xml::XmlNodeChangedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x6114210, size 0x148, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x618621c, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlNodeChangedEventHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlNodeChangedEventHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlNodeChangedEventHandler(XmlNodeChangedEventHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlNodeChangedEventHandler(XmlNodeChangedEventHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlNodeChangedEventHandler(XmlNodeChangedEventHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlNodeChangedEventHandler(XmlNodeChangedEventHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9390 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9384};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedEventHandler, 0x80>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlNodeChangedEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeChangedEventHandler*, "System.Xml", "XmlNodeChangedEventHandler");

@@ -20,32 +20,32 @@ namespace BGNet::Core {
 // CS Name: BGNet.Core.DefaultTimeProvider
 class CORDL_TYPE DefaultTimeProvider : public ::System::Object {
 public:
-// Declarations
-/// @brief Method get_instance, addr 0x3247994, size 0x564, virtual false, abstract: false, final false
-static inline ::BGNet::Core::ITimeProvider* get_instance() ;
+  // Declarations
+  /// @brief Method get_instance, addr 0x3283e6c, size 0x564, virtual false, abstract: false, final false
+  static inline ::BGNet::Core::ITimeProvider* get_instance();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DefaultTimeProvider() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultTimeProvider();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DefaultTimeProvider(DefaultTimeProvider&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DefaultTimeProvider(DefaultTimeProvider && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DefaultTimeProvider(DefaultTimeProvider const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DefaultTimeProvider(DefaultTimeProvider const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18292 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18282};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGNet::Core::DefaultTimeProvider, 0x10>, "Size mismatch!");
 
-} // namespace end def BGNet::Core
+} // namespace BGNet::Core
 NEED_NO_BOX(::BGNet::Core::DefaultTimeProvider);
 DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::DefaultTimeProvider*, "BGNet.Core", "DefaultTimeProvider");

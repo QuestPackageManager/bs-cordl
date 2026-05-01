@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Reflection/Emit/AssemblyBuilder.hpp"
 #include "System/Reflection/Emit/ConstructorBuilder.hpp"
@@ -20,6 +20,5 @@
 #include "System/Reflection/Emit/TypeBuilder.hpp"
 #include "System/Reflection/Emit/UnmanagedMarshal.hpp"
 #ifdef __cpp_modules
-                    export module Emit;
-                    #endif
-                
+export module Emit;
+#endif

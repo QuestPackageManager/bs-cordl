@@ -24,60 +24,60 @@ namespace Org::BouncyCastle::Crypto::Operators {
 // CS Name: Org.BouncyCastle.Crypto.Operators.DefaultSignatureResult
 class CORDL_TYPE DefaultSignatureResult : public ::System::Object {
 public:
-// Declarations
-/// @brief Field mSigner, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_mSigner, put=__cordl_internal_set_mSigner)) ::Org::BouncyCastle::Crypto::ISigner*  mSigner;
+  // Declarations
+  /// @brief Field mSigner, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner)) ::Org::BouncyCastle::Crypto::ISigner* mSigner;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
+  constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-/// @brief Method Collect, addr 0x330f6b8, size 0xa8, virtual true, abstract: false, final true
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Collect() ;
+  /// @brief Method Collect, addr 0x334bcfc, size 0xa8, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-/// @brief Method Collect, addr 0x330f760, size 0x40, virtual true, abstract: false, final true
-inline int32_t Collect(::ArrayW<uint8_t,::Array<uint8_t>*>  sig, int32_t  sigOff) ;
+  /// @brief Method Collect, addr 0x334bda4, size 0x40, virtual true, abstract: false, final true
+  inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner*  signer) ;
+  static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_mSigner() const;
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_mSigner() const;
 
-constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_mSigner() ;
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_mSigner();
 
-constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner*  value) ;
+  constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-/// @brief Method .ctor, addr 0x330f6b0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Crypto::ISigner*  signer) ;
+  /// @brief Method .ctor, addr 0x334bcf4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
-constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DefaultSignatureResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultSignatureResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DefaultSignatureResult(DefaultSignatureResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DefaultSignatureResult(DefaultSignatureResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DefaultSignatureResult(DefaultSignatureResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DefaultSignatureResult(DefaultSignatureResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1000 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1000};
+  /// @brief Field mSigner, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::ISigner* ___mSigner;
 
-/// @brief Field mSigner, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::ISigner*  ___mSigner;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult, ___mSigner) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Operators
+} // namespace Org::BouncyCastle::Crypto::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult*, "Org.BouncyCastle.Crypto.Operators", "DefaultSignatureResult");

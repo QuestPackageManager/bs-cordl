@@ -30,54 +30,54 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.ByRefUpdater
 class CORDL_TYPE ByRefUpdater : public ::System::Object {
 public:
-// Declarations
-/// @brief Field ArgumentIndex, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_ArgumentIndex, put=__cordl_internal_set_ArgumentIndex)) int32_t  ArgumentIndex;
+  // Declarations
+  /// @brief Field ArgumentIndex, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_ArgumentIndex, put = __cordl_internal_set_ArgumentIndex)) int32_t ArgumentIndex;
 
-static inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* New_ctor(int32_t  argumentIndex) ;
+  static inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* New_ctor(int32_t argumentIndex);
 
-/// @brief Method UndefineTemps, addr 0x5dfa19c, size 0x4, virtual true, abstract: false, final false
-inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList*  instructions, ::System::Linq::Expressions::Interpreter::LocalVariables*  locals) ;
+  /// @brief Method UndefineTemps, addr 0x5e6c1a8, size 0x4, virtual true, abstract: false, final false
+  inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-/// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame, ::System::Object*  value) ;
+  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
-constexpr int32_t const& __cordl_internal_get_ArgumentIndex() const;
+  constexpr int32_t const& __cordl_internal_get_ArgumentIndex() const;
 
-constexpr int32_t& __cordl_internal_get_ArgumentIndex() ;
+  constexpr int32_t& __cordl_internal_get_ArgumentIndex();
 
-constexpr void __cordl_internal_set_ArgumentIndex(int32_t  value) ;
+  constexpr void __cordl_internal_set_ArgumentIndex(int32_t value);
 
-/// @brief Method .ctor, addr 0x5dfa194, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  argumentIndex) ;
+  /// @brief Method .ctor, addr 0x5e6c1a0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t argumentIndex);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ByRefUpdater() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ByRefUpdater();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ByRefUpdater(ByRefUpdater&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ByRefUpdater(ByRefUpdater && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ByRefUpdater(ByRefUpdater const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ByRefUpdater", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ByRefUpdater(ByRefUpdater const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16424 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16416};
+  /// @brief Field ArgumentIndex, offset: 0x10, size: 0x4, def value: None
+  int32_t ___ArgumentIndex;
 
-/// @brief Field ArgumentIndex, offset: 0x10, size: 0x4, def value: None
- int32_t  ___ArgumentIndex;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ByRefUpdater, ___ArgumentIndex) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ByRefUpdater, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ByRefUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ByRefUpdater*, "System.Linq.Expressions.Interpreter", "ByRefUpdater");

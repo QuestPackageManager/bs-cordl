@@ -6,139 +6,127 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)(
+    ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3314798;
+  constexpr static std::size_t addrs = 0x3350ddc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)(
+    ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33147e4;
+  constexpr static std::size_t addrs = 0x3350e28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters.get_DomainParameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* (::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_DomainParameters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* (
+    ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_DomainParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3314968;
+  constexpr static std::size_t addrs = 0x3350fac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        "get_DomainParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
+                                                 "get_DomainParameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters.get_PublicKeyParamSet
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_PublicKeyParamSet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (
+    ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_PublicKeyParamSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3314970;
+  constexpr static std::size_t addrs = 0x3350fb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        "get_PublicKeyParamSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
+                                                 "get_PublicKeyParamSet", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_get_domainParams()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___domainParams;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_get_domainParams() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___domainParams;
 }
 constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* const& Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_get_domainParams() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___domainParams;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___domainParams;
 }
-constexpr void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_set_domainParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___domainParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_set_domainParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___domainParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_get_publicKeyParamSet()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___publicKeyParamSet;
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_get_publicKeyParamSet() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___publicKeyParamSet;
 }
 constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_get_publicKeyParamSet() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___publicKeyParamSet;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___publicKeyParamSet;
 }
-constexpr void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicKeyParamSet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicKeyParamSet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  domainParameters, ::Org::BouncyCastle::Security::SecureRandom*  random)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, domainParameters, random);
+inline void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters,
+                                                                                    ::Org::BouncyCastle::Security::SecureRandom* random) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, domainParameters, random);
 }
-inline void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet, ::Org::BouncyCastle::Security::SecureRandom*  random)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, publicKeyParamSet, random);
+inline void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
+                                                                                    ::Org::BouncyCastle::Security::SecureRandom* random) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, publicKeyParamSet, random);
 }
-inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_DomainParameters()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        "get_DomainParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_DomainParameters() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
+                                               "get_DomainParameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_PublicKeyParamSet()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
-                        "get_PublicKeyParamSet",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::get_PublicKeyParamSet() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>::get(),
+                                               "get_PublicKeyParamSet", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters* Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  domainParameters, ::Org::BouncyCastle::Security::SecureRandom*  random)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>(domainParameters, random));
+inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*
+Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters,
+                                                                           ::Org::BouncyCastle::Security::SecureRandom* random) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>(domainParameters, random));
 }
-inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters* Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet, ::Org::BouncyCastle::Security::SecureRandom*  random)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>(publicKeyParamSet, random));
+inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*
+Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Security::SecureRandom* random) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters*>(publicKeyParamSet, random));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::ECKeyGenerationParameters()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::ECKeyGenerationParameters() {}

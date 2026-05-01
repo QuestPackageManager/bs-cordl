@@ -35,95 +35,95 @@ namespace Org::BouncyCastle::Asn1::Cms {
 // CS Name: Org.BouncyCastle.Asn1.Cms.EnvelopedDataParser
 class CORDL_TYPE EnvelopedDataParser : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Version)) ::Org::BouncyCastle::Asn1::DerInteger*  Version;
+  // Declarations
+  __declspec(property(get = get_Version)) ::Org::BouncyCastle::Asn1::DerInteger* Version;
 
-/// @brief Field _nextObject, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__nextObject, put=__cordl_internal_set__nextObject)) ::Org::BouncyCastle::Asn1::IAsn1Convertible*  _nextObject;
+  /// @brief Field _nextObject, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__nextObject, put = __cordl_internal_set__nextObject)) ::Org::BouncyCastle::Asn1::IAsn1Convertible* _nextObject;
 
-/// @brief Field _originatorInfoCalled, offset 0x28, size 0x1 
- __declspec(property(get=__cordl_internal_get__originatorInfoCalled, put=__cordl_internal_set__originatorInfoCalled)) bool  _originatorInfoCalled;
+  /// @brief Field _originatorInfoCalled, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__originatorInfoCalled, put = __cordl_internal_set__originatorInfoCalled)) bool _originatorInfoCalled;
 
-/// @brief Field _seq, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__seq, put=__cordl_internal_set__seq)) ::Org::BouncyCastle::Asn1::Asn1SequenceParser*  _seq;
+  /// @brief Field _seq, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__seq, put = __cordl_internal_set__seq)) ::Org::BouncyCastle::Asn1::Asn1SequenceParser* _seq;
 
-/// @brief Field _version, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__version, put=__cordl_internal_set__version)) ::Org::BouncyCastle::Asn1::DerInteger*  _version;
+  /// @brief Field _version, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::Org::BouncyCastle::Asn1::DerInteger* _version;
 
-/// @brief Method GetEncryptedContentInfo, addr 0x325e9c8, size 0x124, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetEncryptedContentInfo() ;
+  /// @brief Method GetEncryptedContentInfo, addr 0x329b00c, size 0x124, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetEncryptedContentInfo();
 
-/// @brief Method GetOriginatorInfo, addr 0x325e5dc, size 0x2e4, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo() ;
+  /// @brief Method GetOriginatorInfo, addr 0x329ac20, size 0x2e4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-/// @brief Method GetRecipientInfos, addr 0x325e8c0, size 0x108, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos() ;
+  /// @brief Method GetRecipientInfos, addr 0x329af04, size 0x108, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-/// @brief Method GetUnprotectedAttrs, addr 0x325eaec, size 0x1b4, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnprotectedAttrs() ;
+  /// @brief Method GetUnprotectedAttrs, addr 0x329b130, size 0x1b4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnprotectedAttrs();
 
-static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser*  seq) ;
+  static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* const& __cordl_internal_get__nextObject() const;
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* const& __cordl_internal_get__nextObject() const;
 
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get__nextObject() ;
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get__nextObject();
 
-constexpr bool const& __cordl_internal_get__originatorInfoCalled() const;
+  constexpr bool const& __cordl_internal_get__originatorInfoCalled() const;
 
-constexpr bool& __cordl_internal_get__originatorInfoCalled() ;
+  constexpr bool& __cordl_internal_get__originatorInfoCalled();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* const& __cordl_internal_get__seq() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* const& __cordl_internal_get__seq() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get__seq() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get__seq();
 
-constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get__version() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get__version() const;
 
-constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get__version() ;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get__version();
 
-constexpr void __cordl_internal_set__nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible*  value) ;
+  constexpr void __cordl_internal_set__nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible* value);
 
-constexpr void __cordl_internal_set__originatorInfoCalled(bool  value) ;
+  constexpr void __cordl_internal_set__originatorInfoCalled(bool value);
 
-constexpr void __cordl_internal_set__seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser*  value) ;
+  constexpr void __cordl_internal_set__seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value);
 
-constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
+  constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-/// @brief Method .ctor, addr 0x325e4a8, size 0x12c, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser*  seq) ;
+  /// @brief Method .ctor, addr 0x329aaec, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-/// @brief Method get_Version, addr 0x325e5d4, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version() ;
+  /// @brief Method get_Version, addr 0x329ac18, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EnvelopedDataParser() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvelopedDataParser();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataParser", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EnvelopedDataParser(EnvelopedDataParser&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataParser", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EnvelopedDataParser(EnvelopedDataParser && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataParser", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EnvelopedDataParser(EnvelopedDataParser const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataParser", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EnvelopedDataParser(EnvelopedDataParser const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 72 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{72};
+  /// @brief Field _seq, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1SequenceParser* ____seq;
 
-/// @brief Field _seq, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1SequenceParser*  ____seq;
+  /// @brief Field _version, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::DerInteger* ____version;
 
-/// @brief Field _version, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::DerInteger*  ____version;
+  /// @brief Field _nextObject, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::IAsn1Convertible* ____nextObject;
 
-/// @brief Field _nextObject, offset: 0x20, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::IAsn1Convertible*  ____nextObject;
+  /// @brief Field _originatorInfoCalled, offset: 0x28, size: 0x1, def value: None
+  bool ____originatorInfoCalled;
 
-/// @brief Field _originatorInfoCalled, offset: 0x28, size: 0x1, def value: None
- bool  ____originatorInfoCalled;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, ____seq) == 0x10, "Offset mismatch!");
@@ -136,6 +136,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, ____
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::Cms
+} // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*, "Org.BouncyCastle.Asn1.Cms", "EnvelopedDataParser");

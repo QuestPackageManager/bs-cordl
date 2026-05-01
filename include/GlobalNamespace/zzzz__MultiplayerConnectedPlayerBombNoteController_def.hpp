@@ -31,75 +31,75 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerConnectedPlayerBombNoteController/Pool
 class CORDL_TYPE MultiplayerConnectedPlayerBombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>> {
 public:
-// Declarations
-static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* New_ctor();
 
-/// @brief Method .ctor, addr 0x5812ea8, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5884df4, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MultiplayerConnectedPlayerBombNoteController_Pool() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerBombNoteController_Pool();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController_Pool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MultiplayerConnectedPlayerBombNoteController_Pool(MultiplayerConnectedPlayerBombNoteController_Pool&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController_Pool", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MultiplayerConnectedPlayerBombNoteController_Pool(MultiplayerConnectedPlayerBombNoteController_Pool && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController_Pool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MultiplayerConnectedPlayerBombNoteController_Pool(MultiplayerConnectedPlayerBombNoteController_Pool const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController_Pool", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MultiplayerConnectedPlayerBombNoteController_Pool(MultiplayerConnectedPlayerBombNoteController_Pool const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6077 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6076};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool, 0x40>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies MultiplayerConnectedPlayerNoteController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerBombNoteController
 class CORDL_TYPE MultiplayerConnectedPlayerBombNoteController : public ::GlobalNamespace::MultiplayerConnectedPlayerNoteController {
 public:
-// Declarations
-using Pool = ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool;
+  // Declarations
+  using Pool = ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool;
 
-/// @brief Method Init, addr 0x580f1e0, size 0x18, virtual false, abstract: false, final false
-inline void Init(::GlobalNamespace::NoteData*  noteData, ::ByRef<::GlobalNamespace::NoteSpawnData>  noteSpawnData) ;
+  /// @brief Method Init, addr 0x588112c, size 0x18, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData);
 
-static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor() ;
+  static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-/// @brief Method .ctor, addr 0x5812e98, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5884de4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MultiplayerConnectedPlayerBombNoteController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerBombNoteController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6078 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6077};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController, 0x90>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*, "", "MultiplayerConnectedPlayerBombNoteController");
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool);

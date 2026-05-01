@@ -40,97 +40,97 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.NegateInstruction
 class CORDL_TYPE NegateInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-// Declarations
-using NegateDouble = ::GlobalNamespace::NegateInstruction_NegateDouble;
+  // Declarations
+  using NegateDouble = ::GlobalNamespace::NegateInstruction_NegateDouble;
 
-using NegateInt16 = ::GlobalNamespace::NegateInstruction_NegateInt16;
+  using NegateInt16 = ::GlobalNamespace::NegateInstruction_NegateInt16;
 
-using NegateInt32 = ::GlobalNamespace::NegateInstruction_NegateInt32;
+  using NegateInt32 = ::GlobalNamespace::NegateInstruction_NegateInt32;
 
-using NegateInt64 = ::GlobalNamespace::NegateInstruction_NegateInt64;
+  using NegateInt64 = ::GlobalNamespace::NegateInstruction_NegateInt64;
 
-using NegateSingle = ::GlobalNamespace::NegateInstruction_NegateSingle;
+  using NegateSingle = ::GlobalNamespace::NegateInstruction_NegateSingle;
 
- __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
+  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
- __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
- __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
+  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
-/// @brief Field s_Double, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_Double, put=setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Double;
+  /// @brief Field s_Double, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction* s_Double;
 
-/// @brief Field s_Int16, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_Int16, put=setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int16;
+  /// @brief Field s_Int16, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
-/// @brief Field s_Int32, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_Int32, put=setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int32;
+  /// @brief Field s_Int32, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
-/// @brief Field s_Int64, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_Int64, put=setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int64;
+  /// @brief Field s_Int64, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
-/// @brief Field s_Single, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_Single, put=setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Single;
+  /// @brief Field s_Single, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction* s_Single;
 
-/// @brief Method Create, addr 0x5e022fc, size 0x254, virtual false, abstract: false, final false
-static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type*  type) ;
+  /// @brief Method Create, addr 0x5e74308, size 0x254, virtual false, abstract: false, final false
+  static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
-static inline ::System::Linq::Expressions::Interpreter::NegateInstruction* New_ctor() ;
+  static inline ::System::Linq::Expressions::Interpreter::NegateInstruction* New_ctor();
 
-/// @brief Method .ctor, addr 0x5e022f8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e74304, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Double() ;
+  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Double();
 
-static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int16() ;
+  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int16();
 
-static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int32() ;
+  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int32();
 
-static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int64() ;
+  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int64();
 
-static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Single() ;
+  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Single();
 
-/// @brief Method get_ConsumedStack, addr 0x5e022a4, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ConsumedStack() ;
+  /// @brief Method get_ConsumedStack, addr 0x5e742b0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ConsumedStack();
 
-/// @brief Method get_InstructionName, addr 0x5e022b4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_InstructionName() ;
+  /// @brief Method get_InstructionName, addr 0x5e742c0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_InstructionName();
 
-/// @brief Method get_ProducedStack, addr 0x5e022ac, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ProducedStack() ;
+  /// @brief Method get_ProducedStack, addr 0x5e742b8, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ProducedStack();
 
-static inline void setStaticF_s_Double(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
+  static inline void setStaticF_s_Double(::System::Linq::Expressions::Interpreter::Instruction* value);
 
-static inline void setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
+  static inline void setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction* value);
 
-static inline void setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
+  static inline void setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction* value);
 
-static inline void setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
+  static inline void setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction* value);
 
-static inline void setStaticF_s_Single(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
+  static inline void setStaticF_s_Single(::System::Linq::Expressions::Interpreter::Instruction* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NegateInstruction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NegateInstruction();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NegateInstruction", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NegateInstruction(NegateInstruction&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NegateInstruction", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NegateInstruction(NegateInstruction && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NegateInstruction", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NegateInstruction(NegateInstruction const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NegateInstruction", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NegateInstruction(NegateInstruction const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16490 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16482};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NegateInstruction, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NegateInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::NegateInstruction*, "System.Linq.Expressions.Interpreter", "NegateInstruction");

@@ -20,51 +20,51 @@ namespace GlobalNamespace {
 // CS Name: MainMenuMissionInstaller
 class CORDL_TYPE MainMenuMissionInstaller : public ::Zenject::MonoInstaller {
 public:
-// Declarations
-/// @brief Field _missionNodesManager, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__missionNodesManager, put=__cordl_internal_set__missionNodesManager)) ::UnityW<::GlobalNamespace::MissionNodesManager>  _missionNodesManager;
+  // Declarations
+  /// @brief Field _missionNodesManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager)) ::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
-/// @brief Method InstallBindings, addr 0x5850634, size 0x98, virtual true, abstract: false, final false
-inline void InstallBindings() ;
+  /// @brief Method InstallBindings, addr 0x58c4de8, size 0x98, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-static inline ::GlobalNamespace::MainMenuMissionInstaller* New_ctor() ;
+  static inline ::GlobalNamespace::MainMenuMissionInstaller* New_ctor();
 
-constexpr ::UnityW<::GlobalNamespace::MissionNodesManager> const& __cordl_internal_get__missionNodesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager> const& __cordl_internal_get__missionNodesManager() const;
 
-constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager() ;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager();
 
-constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager>  value) ;
+  constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
-/// @brief Method .ctor, addr 0x58506cc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58c4e80, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MainMenuMissionInstaller() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainMenuMissionInstaller();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuMissionInstaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MainMenuMissionInstaller(MainMenuMissionInstaller&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainMenuMissionInstaller", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MainMenuMissionInstaller(MainMenuMissionInstaller && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuMissionInstaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MainMenuMissionInstaller(MainMenuMissionInstaller const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainMenuMissionInstaller", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MainMenuMissionInstaller(MainMenuMissionInstaller const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6315 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6305};
+  /// @brief Field _missionNodesManager, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
-/// @brief Field _missionNodesManager, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MissionNodesManager>  ____missionNodesManager;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MainMenuMissionInstaller, ____missionNodesManager) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuMissionInstaller, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainMenuMissionInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainMenuMissionInstaller*, "", "MainMenuMissionInstaller");

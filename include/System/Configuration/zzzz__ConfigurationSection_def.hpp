@@ -27,41 +27,41 @@ namespace System::Configuration {
 // CS Name: System.Configuration.ConfigurationSection
 class CORDL_TYPE ConfigurationSection : public ::System::Configuration::ConfigurationElement {
 public:
-// Declarations
-/// @brief Method DeserializeSection, addr 0x5da3460, size 0x3c, virtual true, abstract: false, final false
-inline void DeserializeSection(::System::Xml::XmlReader*  reader) ;
+  // Declarations
+  /// @brief Method DeserializeSection, addr 0x5e1546c, size 0x3c, virtual true, abstract: false, final false
+  inline void DeserializeSection(::System::Xml::XmlReader* reader);
 
-/// @brief Method IsModified, addr 0x5da349c, size 0x3c, virtual true, abstract: false, final false
-inline bool IsModified() ;
+  /// @brief Method IsModified, addr 0x5e154a8, size 0x3c, virtual true, abstract: false, final false
+  inline bool IsModified();
 
-/// @brief Method ResetModified, addr 0x5da34d8, size 0x3c, virtual true, abstract: false, final false
-inline void ResetModified() ;
+  /// @brief Method ResetModified, addr 0x5e154e4, size 0x3c, virtual true, abstract: false, final false
+  inline void ResetModified();
 
-/// @brief Method SerializeSection, addr 0x5da3514, size 0x3c, virtual true, abstract: false, final false
-inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement*  parentElement, ::StringW  name, ::System::Configuration::ConfigurationSaveMode  saveMode) ;
+  /// @brief Method SerializeSection, addr 0x5e15520, size 0x3c, virtual true, abstract: false, final false
+  inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentElement, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConfigurationSection() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConfigurationSection();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigurationSection", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConfigurationSection(ConfigurationSection&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConfigurationSection", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConfigurationSection(ConfigurationSection && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigurationSection", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConfigurationSection(ConfigurationSection const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConfigurationSection", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConfigurationSection(ConfigurationSection const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23522 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23413};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Configuration::ConfigurationSection, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Configuration
+} // namespace System::Configuration
 NEED_NO_BOX(::System::Configuration::ConfigurationSection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationSection*, "System.Configuration", "ConfigurationSection");

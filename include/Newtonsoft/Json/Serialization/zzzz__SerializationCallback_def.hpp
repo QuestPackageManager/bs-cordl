@@ -32,43 +32,43 @@ namespace Newtonsoft::Json::Serialization {
 // CS Name: Newtonsoft.Json.Serialization.SerializationCallback
 class CORDL_TYPE SerializationCallback : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5b93bdc, size 0x98, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::Object*  o, ::System::Runtime::Serialization::StreamingContext  context, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5c05bc4, size 0x98, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5b93c74, size 0xc, virtual true, abstract: false, final false
-inline void EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5c05c5c, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5b93bc8, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::System::Object*  o, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method Invoke, addr 0x5c05bb0, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::Newtonsoft::Json::Serialization::SerializationCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::Newtonsoft::Json::Serialization::SerializationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5b8a214, size 0x148, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5bfc1fc, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SerializationCallback() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerializationCallback();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SerializationCallback(SerializationCallback&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SerializationCallback(SerializationCallback && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SerializationCallback(SerializationCallback const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SerializationCallback", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SerializationCallback(SerializationCallback const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13483 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13476};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::SerializationCallback, 0x80>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Serialization
+} // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::SerializationCallback);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::SerializationCallback*, "Newtonsoft.Json.Serialization", "SerializationCallback");

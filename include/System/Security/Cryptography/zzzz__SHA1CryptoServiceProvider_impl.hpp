@@ -4,171 +4,150 @@
 #include "System/Security/Cryptography/zzzz__SHA1CryptoServiceProvider_def.hpp"
 #include "System/Security/Cryptography/zzzz__SHA1Internal_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1CryptoServiceProvider._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
+    &::System::Security::Cryptography::SHA1CryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5961514;
+  constexpr static std::size_t addrs = 0x59d3480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1CryptoServiceProvider.Finalize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::Finalize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
+    &::System::Security::Cryptography::SHA1CryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5961574;
+  constexpr static std::size_t addrs = 0x59d34e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                  1
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 1));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1CryptoServiceProvider.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)(bool)>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)(bool)>(
+    &::System::Security::Cryptography::SHA1CryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59615c4;
+  constexpr static std::size_t addrs = 0x59d3530;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1CryptoServiceProvider.HashCore
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59615d4;
+  constexpr static std::size_t addrs = 0x59d3540;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1CryptoServiceProvider.HashFinal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
+    &::System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59615f4;
+  constexpr static std::size_t addrs = 0x59d3560;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 17));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1CryptoServiceProvider.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
+    &::System::Security::Cryptography::SHA1CryptoServiceProvider::Initialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5961610;
+  constexpr static std::size_t addrs = 0x59d357c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 18));
     return ___internal_method;
   }
 };
-constexpr ::System::Security::Cryptography::SHA1Internal*& System::Security::Cryptography::SHA1CryptoServiceProvider::__cordl_internal_get_sha()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sha;
+constexpr ::System::Security::Cryptography::SHA1Internal*& System::Security::Cryptography::SHA1CryptoServiceProvider::__cordl_internal_get_sha() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sha;
 }
 constexpr ::System::Security::Cryptography::SHA1Internal* const& System::Security::Cryptography::SHA1CryptoServiceProvider::__cordl_internal_get_sha() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sha;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sha;
 }
-constexpr void System::Security::Cryptography::SHA1CryptoServiceProvider::__cordl_internal_set_sha(::System::Security::Cryptography::SHA1Internal*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sha)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Security::Cryptography::SHA1CryptoServiceProvider::__cordl_internal_set_sha(::System::Security::Cryptography::SHA1Internal* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sha)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Security::Cryptography::SHA1CryptoServiceProvider::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Security::Cryptography::SHA1CryptoServiceProvider::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Security::Cryptography::SHA1CryptoServiceProvider::Finalize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                            1
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Security::Cryptography::SHA1CryptoServiceProvider::Finalize() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 1)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Security::Cryptography::SHA1CryptoServiceProvider::Dispose(bool  disposing)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+inline void System::Security::Cryptography::SHA1CryptoServiceProvider::Dispose(bool disposing) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline void System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore(::ArrayW<uint8_t,::Array<uint8_t>*>  rgb, int32_t  ibStart, int32_t  cbSize)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rgb, ibStart, cbSize);
+inline void System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rgb, ibStart, cbSize);
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method);
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 17)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline void System::Security::Cryptography::SHA1CryptoServiceProvider::Initialize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Security::Cryptography::SHA1CryptoServiceProvider::Initialize() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1CryptoServiceProvider*>::get(), 18)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* System::Security::Cryptography::SHA1CryptoServiceProvider::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::SHA1CryptoServiceProvider*>());
+inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* System::Security::Cryptography::SHA1CryptoServiceProvider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::SHA1CryptoServiceProvider*>());
 }
 // Ctor Parameters []
-constexpr ::System::Security::Cryptography::SHA1CryptoServiceProvider::SHA1CryptoServiceProvider()   {
-}
+constexpr ::System::Security::Cryptography::SHA1CryptoServiceProvider::SHA1CryptoServiceProvider() {}

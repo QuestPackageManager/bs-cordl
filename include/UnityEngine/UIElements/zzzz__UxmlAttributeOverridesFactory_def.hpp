@@ -28,49 +28,49 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesFactory);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlAttributeOverridesFactory
-class CORDL_TYPE UxmlAttributeOverridesFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*,::UnityEngine::UIElements::UxmlAttributeOverridesTraits*> {
+class CORDL_TYPE UxmlAttributeOverridesFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlAttributeOverridesTraits*> {
 public:
-// Declarations
- __declspec(property(get=get_uxmlName)) ::StringW  uxmlName;
+  // Declarations
+  __declspec(property(get = get_uxmlName)) ::StringW uxmlName;
 
- __declspec(property(get=get_uxmlQualifiedName)) ::StringW  uxmlQualifiedName;
+  __declspec(property(get = get_uxmlQualifiedName)) ::StringW uxmlQualifiedName;
 
-/// @brief Method Create, addr 0x6af0830, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
+  /// @brief Method Create, addr 0x6b62a78, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-static inline ::UnityEngine::UIElements::UxmlAttributeOverridesFactory* New_ctor() ;
+  static inline ::UnityEngine::UIElements::UxmlAttributeOverridesFactory* New_ctor();
 
-/// @brief Method .ctor, addr 0x6af0838, size 0x68, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b62a80, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_uxmlName, addr 0x6af0774, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_uxmlName() ;
+  /// @brief Method get_uxmlName, addr 0x6b629bc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlName();
 
-/// @brief Method get_uxmlQualifiedName, addr 0x6af07b8, size 0x78, virtual true, abstract: false, final false
-inline ::StringW get_uxmlQualifiedName() ;
+  /// @brief Method get_uxmlQualifiedName, addr 0x6b62a00, size 0x78, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlQualifiedName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UxmlAttributeOverridesFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlAttributeOverridesFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeOverridesFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeOverridesFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeOverridesFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeOverridesFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5141 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5141};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlAttributeOverridesFactory, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlAttributeOverridesFactory);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlAttributeOverridesFactory*, "UnityEngine.UIElements", "UxmlAttributeOverridesFactory");

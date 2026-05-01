@@ -15,8 +15,7 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template<typename T>
-struct ScriptPlayable_1;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -36,71 +35,72 @@ namespace UnityEngine::Timeline {
 // CS Name: UnityEngine.Timeline.PrefabControlPlayable
 class CORDL_TYPE PrefabControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
-// Declarations
-/// @brief Field m_Instance, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Instance, put=__cordl_internal_set_m_Instance)) ::UnityW<::UnityEngine::GameObject>  m_Instance;
+  // Declarations
+  /// @brief Field m_Instance, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Instance, put = __cordl_internal_set_m_Instance)) ::UnityW<::UnityEngine::GameObject> m_Instance;
 
- __declspec(property(get=get_prefabInstance)) ::UnityW<::UnityEngine::GameObject>  prefabInstance;
+  __declspec(property(get = get_prefabInstance)) ::UnityW<::UnityEngine::GameObject> prefabInstance;
 
-/// @brief Method Create, addr 0x68118c0, size 0x154, virtual false, abstract: false, final false
-static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::PrefabControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  prefabGameObject, ::UnityEngine::Transform*  parentTransform) ;
+  /// @brief Method Create, addr 0x68838cc, size 0x154, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::PrefabControlPlayable*>
+  Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
 
-/// @brief Method Initialize, addr 0x6811a14, size 0x28c, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::GameObject> Initialize(::UnityEngine::GameObject*  prefabGameObject, ::UnityEngine::Transform*  parentTransform) ;
+  /// @brief Method Initialize, addr 0x6883a20, size 0x28c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> Initialize(::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
 
-static inline ::UnityEngine::Timeline::PrefabControlPlayable* New_ctor() ;
+  static inline ::UnityEngine::Timeline::PrefabControlPlayable* New_ctor();
 
-/// @brief Method OnBehaviourPause, addr 0x6812194, size 0xa8, virtual true, abstract: false, final false
-inline void OnBehaviourPause(::UnityEngine::Playables::Playable  playable, ::UnityEngine::Playables::FrameData  info) ;
+  /// @brief Method OnBehaviourPause, addr 0x68841a0, size 0xa8, virtual true, abstract: false, final false
+  inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-/// @brief Method OnBehaviourPlay, addr 0x6812108, size 0x8c, virtual true, abstract: false, final false
-inline void OnBehaviourPlay(::UnityEngine::Playables::Playable  playable, ::UnityEngine::Playables::FrameData  info) ;
+  /// @brief Method OnBehaviourPlay, addr 0x6884114, size 0x8c, virtual true, abstract: false, final false
+  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-/// @brief Method OnPlayableDestroy, addr 0x681200c, size 0xfc, virtual true, abstract: false, final false
-inline void OnPlayableDestroy(::UnityEngine::Playables::Playable  playable) ;
+  /// @brief Method OnPlayableDestroy, addr 0x6884018, size 0xfc, virtual true, abstract: false, final false
+  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-/// @brief Method SetHideFlagsRecursive, addr 0x6811ca8, size 0x364, virtual false, abstract: false, final false
-static inline void SetHideFlagsRecursive(::UnityEngine::GameObject*  gameObject) ;
+  /// @brief Method SetHideFlagsRecursive, addr 0x6883cb4, size 0x364, virtual false, abstract: false, final false
+  static inline void SetHideFlagsRecursive(::UnityEngine::GameObject* gameObject);
 
-constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Instance() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Instance() const;
 
-constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Instance() ;
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Instance();
 
-constexpr void __cordl_internal_set_m_Instance(::UnityW<::UnityEngine::GameObject>  value) ;
+  constexpr void __cordl_internal_set_m_Instance(::UnityW<::UnityEngine::GameObject> value);
 
-/// @brief Method .ctor, addr 0x681223c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6884248, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_prefabInstance, addr 0x6811ca0, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::GameObject> get_prefabInstance() ;
+  /// @brief Method get_prefabInstance, addr 0x6883cac, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> get_prefabInstance();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PrefabControlPlayable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrefabControlPlayable();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabControlPlayable", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PrefabControlPlayable(PrefabControlPlayable&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PrefabControlPlayable", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PrefabControlPlayable(PrefabControlPlayable && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabControlPlayable", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PrefabControlPlayable(PrefabControlPlayable const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PrefabControlPlayable", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PrefabControlPlayable(PrefabControlPlayable const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19071 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19061};
+  /// @brief Field m_Instance, offset: 0x10, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::GameObject> ___m_Instance;
 
-/// @brief Field m_Instance, offset: 0x10, size: 0x8, def value: None
- ::UnityW<::UnityEngine::GameObject>  ___m_Instance;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Timeline::PrefabControlPlayable, ___m_Instance) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::PrefabControlPlayable, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Timeline
+} // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::PrefabControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::PrefabControlPlayable*, "UnityEngine.Timeline", "PrefabControlPlayable");

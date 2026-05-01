@@ -23,33 +23,32 @@ namespace System::Collections {
 // CS Name: System.Collections.HashtableExtensions
 class CORDL_TYPE HashtableExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline bool TryGetValue(::System::Collections::Hashtable*  table, ::System::Object*  key, ::ByRef<T>  value) ;
+  // Declarations
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline bool TryGetValue(::System::Collections::Hashtable* table, ::System::Object* key, ::ByRef<T> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HashtableExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HashtableExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HashtableExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HashtableExtensions(HashtableExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashtableExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HashtableExtensions(HashtableExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HashtableExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HashtableExtensions(HashtableExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HashtableExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HashtableExtensions(HashtableExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11348 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11341};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::HashtableExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Collections
+} // namespace System::Collections
 NEED_NO_BOX(::System::Collections::HashtableExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::HashtableExtensions*, "System.Collections", "HashtableExtensions");

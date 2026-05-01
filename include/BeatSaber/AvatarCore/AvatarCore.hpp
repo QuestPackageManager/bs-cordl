@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatSaber/AvatarCore/AbstractAdapterInstallerSO.hpp"
 #include "BeatSaber/AvatarCore/Avatar.hpp"
@@ -42,6 +42,5 @@
 #include "BeatSaber/AvatarCore/OptionalAvatarDataSyncHandler.hpp"
 #include "BeatSaber/AvatarCore/StaticAvatarVisualDataProvider.hpp"
 #ifdef __cpp_modules
-                    export module AvatarCore;
-                    #endif
-                
+export module AvatarCore;
+#endif

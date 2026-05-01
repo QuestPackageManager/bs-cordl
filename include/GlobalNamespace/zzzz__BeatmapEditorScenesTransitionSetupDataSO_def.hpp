@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEditorScenesTransitionSetupDataSO)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,74 +20,75 @@ namespace GlobalNamespace {
 // CS Name: BeatmapEditorScenesTransitionSetupDataSO
 class CORDL_TYPE BeatmapEditorScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
-// Declarations
-/// @brief Field <goStraightToEditor>k__BackingField, offset 0x30, size 0x1 
- __declspec(property(get=__cordl_internal_get__goStraightToEditor_k__BackingField, put=__cordl_internal_set__goStraightToEditor_k__BackingField)) bool  _goStraightToEditor_k__BackingField;
+  // Declarations
+  /// @brief Field <goStraightToEditor>k__BackingField, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__goStraightToEditor_k__BackingField, put = __cordl_internal_set__goStraightToEditor_k__BackingField)) bool _goStraightToEditor_k__BackingField;
 
-/// @brief Field didFinishEvent, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_didFinishEvent, put=__cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*  didFinishEvent;
+  /// @brief Field didFinishEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* didFinishEvent;
 
- __declspec(property(get=get_goStraightToEditor, put=set_goStraightToEditor)) bool  goStraightToEditor;
+  __declspec(property(get = get_goStraightToEditor, put = set_goStraightToEditor)) bool goStraightToEditor;
 
-/// @brief Method Finish, addr 0x577d0e0, size 0x20, virtual false, abstract: false, final false
-inline void Finish() ;
+  /// @brief Method Finish, addr 0x57ed160, size 0x20, virtual false, abstract: false, final false
+  inline void Finish();
 
-/// @brief Method Init, addr 0x577d090, size 0x50, virtual false, abstract: false, final false
-inline void Init(bool  goStraightToEditor) ;
+  /// @brief Method Init, addr 0x57ed110, size 0x50, virtual false, abstract: false, final false
+  inline void Init(bool goStraightToEditor);
 
-static inline ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* New_ctor();
 
-constexpr bool const& __cordl_internal_get__goStraightToEditor_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__goStraightToEditor_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__goStraightToEditor_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__goStraightToEditor_k__BackingField();
 
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* const& __cordl_internal_get_didFinishEvent() const;
 
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*& __cordl_internal_get_didFinishEvent() ;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*& __cordl_internal_get_didFinishEvent();
 
-constexpr void __cordl_internal_set__goStraightToEditor_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__goStraightToEditor_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*  value) ;
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
-/// @brief Method .ctor, addr 0x577d100, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57ed180, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_didFinishEvent, addr 0x577cf00, size 0xc0, virtual false, abstract: false, final false
-inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*  value) ;
+  /// @brief Method add_didFinishEvent, addr 0x57ecf80, size 0xc0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
-/// @brief Method get_goStraightToEditor, addr 0x577d080, size 0x8, virtual false, abstract: false, final false
-inline bool get_goStraightToEditor() ;
+  /// @brief Method get_goStraightToEditor, addr 0x57ed100, size 0x8, virtual false, abstract: false, final false
+  inline bool get_goStraightToEditor();
 
-/// @brief Method remove_didFinishEvent, addr 0x577cfc0, size 0xc0, virtual false, abstract: false, final false
-inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*  value) ;
+  /// @brief Method remove_didFinishEvent, addr 0x57ed040, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
-/// @brief Method set_goStraightToEditor, addr 0x577d088, size 0x8, virtual false, abstract: false, final false
-inline void set_goStraightToEditor(bool  value) ;
+  /// @brief Method set_goStraightToEditor, addr 0x57ed108, size 0x8, virtual false, abstract: false, final false
+  inline void set_goStraightToEditor(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapEditorScenesTransitionSetupDataSO() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapEditorScenesTransitionSetupDataSO();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapEditorScenesTransitionSetupDataSO(BeatmapEditorScenesTransitionSetupDataSO&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapEditorScenesTransitionSetupDataSO(BeatmapEditorScenesTransitionSetupDataSO && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapEditorScenesTransitionSetupDataSO(BeatmapEditorScenesTransitionSetupDataSO const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapEditorScenesTransitionSetupDataSO(BeatmapEditorScenesTransitionSetupDataSO const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6834 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6825};
+  /// @brief Field didFinishEvent, offset: 0x28, size: 0x8, def value: None
+  ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* ___didFinishEvent;
 
-/// @brief Field didFinishEvent, offset: 0x28, size: 0x8, def value: None
- ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*  ___didFinishEvent;
+  /// @brief Field <goStraightToEditor>k__BackingField, offset: 0x30, size: 0x1, def value: None
+  bool ____goStraightToEditor_k__BackingField;
 
-/// @brief Field <goStraightToEditor>k__BackingField, offset: 0x30, size: 0x1, def value: None
- bool  ____goStraightToEditor_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO, ___didFinishEvent) == 0x28, "Offset mismatch!");
@@ -97,6 +97,6 @@ static_assert(offsetof(::GlobalNamespace::BeatmapEditorScenesTransitionSetupData
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*, "", "BeatmapEditorScenesTransitionSetupDataSO");

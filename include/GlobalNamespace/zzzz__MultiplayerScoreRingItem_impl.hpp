@@ -5,66 +5,49 @@
 #include "GlobalNamespace/zzzz__MultiplayerScoreRingItem_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreRingItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerScoreRingItem_Pool._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingItem_Pool::*)()>(&::GlobalNamespace::MultiplayerScoreRingItem_Pool::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingItem_Pool::*)()>(
+    &::GlobalNamespace::MultiplayerScoreRingItem_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x583b2e4;
+  constexpr static std::size_t addrs = 0x58ad230;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem_Pool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem_Pool*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MultiplayerScoreRingItem_Pool::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem_Pool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MultiplayerScoreRingItem_Pool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem_Pool*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerScoreRingItem_Pool* GlobalNamespace::MultiplayerScoreRingItem_Pool::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerScoreRingItem_Pool*>());
+inline ::GlobalNamespace::MultiplayerScoreRingItem_Pool* GlobalNamespace::MultiplayerScoreRingItem_Pool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerScoreRingItem_Pool*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerScoreRingItem_Pool::MultiplayerScoreRingItem_Pool()   {
-}
+constexpr ::GlobalNamespace::MultiplayerScoreRingItem_Pool::MultiplayerScoreRingItem_Pool() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerScoreRingItem._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingItem::*)()>(&::GlobalNamespace::MultiplayerScoreRingItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x583b2e0;
+  constexpr static std::size_t addrs = 0x58ad22c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MultiplayerScoreRingItem::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MultiplayerScoreRingItem::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerScoreRingItem* GlobalNamespace::MultiplayerScoreRingItem::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerScoreRingItem*>());
+inline ::GlobalNamespace::MultiplayerScoreRingItem* GlobalNamespace::MultiplayerScoreRingItem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerScoreRingItem*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerScoreRingItem::MultiplayerScoreRingItem()   {
-}
+constexpr ::GlobalNamespace::MultiplayerScoreRingItem::MultiplayerScoreRingItem() {}

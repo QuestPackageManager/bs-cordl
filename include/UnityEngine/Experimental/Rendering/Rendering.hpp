@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/Experimental/Rendering/BuiltinRuntimeReflectionSystem.hpp"
 #include "UnityEngine/Experimental/Rendering/DefaultFormat.hpp"
@@ -24,6 +24,5 @@
 #include "UnityEngine/Experimental/Rendering/XRSystem.hpp"
 #include "UnityEngine/Experimental/Rendering/XRView.hpp"
 #ifdef __cpp_modules
-                    export module Rendering;
-                    #endif
-                
+export module Rendering;
+#endif

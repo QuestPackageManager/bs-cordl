@@ -13,336 +13,310 @@
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__TextureWrapMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.get_staleResourceCapacity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::get_staleResourceCapacity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::get_staleResourceCapacity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6700600;
+  constexpr static std::size_t addrs = 0x677260c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "get_staleResourceCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "get_staleResourceCapacity",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.set_staleResourceCapacity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleResourceCapacity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleResourceCapacity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x670065c;
+  constexpr static std::size_t addrs = 0x6772668;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "set_staleResourceCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "set_staleResourceCapacity",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.AddResourceToPool
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::UnityEngine::Rendering::RTHandle*, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
+    ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::UnityEngine::Rendering::RTHandle*, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6700bb8;
+  constexpr static std::size_t addrs = 0x6772bc4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "AddResourceToPool",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RTHandle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "AddResourceToPool", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RTHandle*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.TryGetResource
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::ByRef<::UnityEngine::Rendering::RTHandle*>, bool)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
+    ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::ByRef<::UnityEngine::Rendering::RTHandle*>, bool)>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6700e24;
+  constexpr static std::size_t addrs = 0x6772e30;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "TryGetResource",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RTHandle*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "TryGetResource", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RTHandle*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.Cleanup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::Cleanup)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::Cleanup)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x67006fc;
+  constexpr static std::size_t addrs = 0x6772708;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "Cleanup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "Cleanup",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.ShouldReleaseResource
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::ShouldReleaseResource)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x670100c;
+  constexpr static std::size_t addrs = 0x6773018;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "ShouldReleaseResource",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "ShouldReleaseResource", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.PurgeUnusedResources
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::PurgeUnusedResources)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::PurgeUnusedResources)> {
   constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x6701084;
+  constexpr static std::size_t addrs = 0x6773090;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "PurgeUnusedResources",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "PurgeUnusedResources",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.LogDebugInfo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInfo)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x670168c;
+  constexpr static std::size_t addrs = 0x6773698;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "LogDebugInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "LogDebugInfo",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.GetHashCodeWithNameHash
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
+    ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6700dcc;
+  constexpr static std::size_t addrs = 0x6772dd8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "GetHashCodeWithNameHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "GetHashCodeWithNameHash", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool.CreateTextureDesc
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureDesc (*)(::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode, int32_t, float_t, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::StringW)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::CreateTextureDesc)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureDesc (*)(
+    ::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode, int32_t, float_t, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::StringW)>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::CreateTextureDesc)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6701f28;
+  constexpr static std::size_t addrs = 0x6773f34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "CreateTextureDesc",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FilterMode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureWrapMode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "CreateTextureDesc", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FilterMode>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureWrapMode>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::RTHandleResourcePool._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
+    &::UnityEngine::Rendering::Universal::RTHandleResourcePool::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6702068;
+  constexpr static std::size_t addrs = 0x6774074;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::SortedList_2<int32_t,::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*,int32_t>>*>*& UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_get_m_ResourcePool()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ResourcePool;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*, int32_t>>*>*&
+UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_get_m_ResourcePool() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ResourcePool;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::SortedList_2<int32_t,::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*,int32_t>>*>* const& UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_get_m_ResourcePool() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ResourcePool;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*, int32_t>>*>* const&
+UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_get_m_ResourcePool() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ResourcePool;
 }
-constexpr void UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_set_m_ResourcePool(::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::SortedList_2<int32_t,::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*,int32_t>>*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourcePool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_set_m_ResourcePool(
+    ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<::UnityEngine::Rendering::RTHandle*, int32_t>>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourcePool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_get_m_RemoveList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RemoveList;
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_get_m_RemoveList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RemoveList;
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_get_m_RemoveList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RemoveList;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RemoveList;
 }
-constexpr void UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_set_m_RemoveList(::System::Collections::Generic::List_1<int32_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RemoveList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::RTHandleResourcePool::__cordl_internal_set_m_RemoveList(::System::Collections::Generic::List_1<int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RemoveList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::setStaticF_s_CurrentStaleResourceCount(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "s_CurrentStaleResourceCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>(std::forward<int32_t>(value));
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::setStaticF_s_CurrentStaleResourceCount(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "s_CurrentStaleResourceCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>(
+      std::forward<int32_t>(value));
 }
-inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::getStaticF_s_CurrentStaleResourceCount()  {
-return ::cordl_internals::getStaticField<int32_t, "s_CurrentStaleResourceCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>();
+inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::getStaticF_s_CurrentStaleResourceCount() {
+  return ::cordl_internals::getStaticField<int32_t, "s_CurrentStaleResourceCount",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>();
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::setStaticF_s_StaleResourceLifetime(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "s_StaleResourceLifetime", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>(std::forward<int32_t>(value));
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::setStaticF_s_StaleResourceLifetime(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "s_StaleResourceLifetime", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>(
+      std::forward<int32_t>(value));
 }
-inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::getStaticF_s_StaleResourceLifetime()  {
-return ::cordl_internals::getStaticField<int32_t, "s_StaleResourceLifetime", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>();
+inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::getStaticF_s_StaleResourceLifetime() {
+  return ::cordl_internals::getStaticField<int32_t, "s_StaleResourceLifetime",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>();
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::setStaticF_s_StaleResourceMaxCapacity(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "s_StaleResourceMaxCapacity", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>(std::forward<int32_t>(value));
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::setStaticF_s_StaleResourceMaxCapacity(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "s_StaleResourceMaxCapacity", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>(
+      std::forward<int32_t>(value));
 }
-inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::getStaticF_s_StaleResourceMaxCapacity()  {
-return ::cordl_internals::getStaticField<int32_t, "s_StaleResourceMaxCapacity", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>();
+inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::getStaticF_s_StaleResourceMaxCapacity() {
+  return ::cordl_internals::getStaticField<int32_t, "s_StaleResourceMaxCapacity",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get>();
 }
-inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::get_staleResourceCapacity()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "get_staleResourceCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::get_staleResourceCapacity() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
+                                                                             "get_staleResourceCapacity", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleResourceCapacity(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "set_staleResourceCapacity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleResourceCapacity(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "set_staleResourceCapacity",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>  texDesc, ::UnityEngine::Rendering::RTHandle*  resource, int32_t  currentFrameIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "AddResourceToPool",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RTHandle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, texDesc, resource, currentFrameIndex);
+inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
+                                                                                       ::UnityEngine::Rendering::RTHandle* resource, int32_t currentFrameIndex) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "AddResourceToPool", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RTHandle*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, texDesc, resource, currentFrameIndex);
 }
-inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>  texDesc, ::ByRef<::UnityEngine::Rendering::RTHandle*>  resource, bool  usepool)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "TryGetResource",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RTHandle*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, texDesc, resource, usepool);
+inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc,
+                                                                                    ::ByRef<::UnityEngine::Rendering::RTHandle*> resource, bool usepool) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "TryGetResource", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RTHandle*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, texDesc, resource, usepool);
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::Cleanup()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "Cleanup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::Cleanup() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
+                                                                             "Cleanup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::ShouldReleaseResource(int32_t  lastUsedFrameIndex, int32_t  currentFrameIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "ShouldReleaseResource",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lastUsedFrameIndex, currentFrameIndex);
+inline bool UnityEngine::Rendering::Universal::RTHandleResourcePool::ShouldReleaseResource(int32_t lastUsedFrameIndex, int32_t currentFrameIndex) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "ShouldReleaseResource", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lastUsedFrameIndex, currentFrameIndex);
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::PurgeUnusedResources(int32_t  currentFrameIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "PurgeUnusedResources",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentFrameIndex);
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::PurgeUnusedResources(int32_t currentFrameIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "PurgeUnusedResources",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentFrameIndex);
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInfo()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "LogDebugInfo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
+                                                                             "LogDebugInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>  texDesc)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "GetHashCodeWithNameHash",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, texDesc);
+inline int32_t UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> texDesc) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "GetHashCodeWithNameHash", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, texDesc);
 }
-inline ::UnityEngine::Rendering::RenderGraphModule::TextureDesc UnityEngine::Rendering::Universal::RTHandleResourcePool::CreateTextureDesc(::UnityEngine::RenderTextureDescriptor  desc, ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode  textureSizeMode, int32_t  anisoLevel, float_t  mipMapBias, ::UnityEngine::FilterMode  filterMode, ::UnityEngine::TextureWrapMode  wrapMode, ::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        "CreateTextureDesc",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FilterMode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureWrapMode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureDesc, false>(nullptr, ___internal_method, desc, textureSizeMode, anisoLevel, mipMapBias, filterMode, wrapMode, name);
+inline ::UnityEngine::Rendering::RenderGraphModule::TextureDesc
+UnityEngine::Rendering::Universal::RTHandleResourcePool::CreateTextureDesc(::UnityEngine::RenderTextureDescriptor desc, ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode textureSizeMode,
+                                                                           int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
+                                                                           ::StringW name) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(), "CreateTextureDesc", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FilterMode>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureWrapMode>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureDesc, false>(nullptr, ___internal_method, desc, textureSizeMode, anisoLevel, mipMapBias, filterMode,
+                                                                                                              wrapMode, name);
 }
-inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::Universal::RTHandleResourcePool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::Universal::RTHandleResourcePool* UnityEngine::Rendering::Universal::RTHandleResourcePool::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>());
+inline ::UnityEngine::Rendering::Universal::RTHandleResourcePool* UnityEngine::Rendering::Universal::RTHandleResourcePool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::RTHandleResourcePool::RTHandleResourcePool()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::RTHandleResourcePool::RTHandleResourcePool() {}

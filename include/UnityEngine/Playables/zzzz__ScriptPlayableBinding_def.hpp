@@ -33,35 +33,35 @@ namespace UnityEngine::Playables {
 // CS Name: UnityEngine.Playables.ScriptPlayableBinding
 class CORDL_TYPE ScriptPlayableBinding : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Create, addr 0x693bdd4, size 0xc0, virtual false, abstract: false, final false
-static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW  name, ::UnityEngine::Object*  key, ::System::Type*  type) ;
+  // Declarations
+  /// @brief Method Create, addr 0x69adff0, size 0xc0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key, ::System::Type* type);
 
-/// @brief Method CreateScriptOutput, addr 0x693be94, size 0x4, virtual false, abstract: false, final false
-static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph  graph, ::StringW  name) ;
+  /// @brief Method CreateScriptOutput, addr 0x69ae0b0, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ScriptPlayableBinding() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptPlayableBinding();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptPlayableBinding", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ScriptPlayableBinding(ScriptPlayableBinding&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ScriptPlayableBinding", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ScriptPlayableBinding(ScriptPlayableBinding && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptPlayableBinding", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ScriptPlayableBinding(ScriptPlayableBinding const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ScriptPlayableBinding", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ScriptPlayableBinding(ScriptPlayableBinding const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10675 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10669};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::ScriptPlayableBinding, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Playables
+} // namespace UnityEngine::Playables
 NEED_NO_BOX(::UnityEngine::Playables::ScriptPlayableBinding);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::ScriptPlayableBinding*, "UnityEngine.Playables", "ScriptPlayableBinding");

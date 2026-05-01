@@ -61,15 +61,13 @@ namespace HMUI {
 class ViewController;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Threading::Tasks {
-template<typename TResult>
-class TaskCompletionSource_1;
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -142,72 +140,72 @@ namespace HMUI {
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass39_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass39_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field flowCoordinator, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_flowCoordinator, put=__cordl_internal_set_flowCoordinator)) ::UnityW<::HMUI::FlowCoordinator>  flowCoordinator;
+  /// @brief Field flowCoordinator, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_flowCoordinator, put = __cordl_internal_set_flowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> flowCoordinator;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass39_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass39_0* New_ctor();
 
-/// @brief Method <PresentFlowCoordinator>b__0, addr 0x31fdcf4, size 0x78, virtual false, abstract: false, final false
-inline void _PresentFlowCoordinator_b__0() ;
+  /// @brief Method <PresentFlowCoordinator>b__0, addr 0x3239a24, size 0x78, virtual false, abstract: false, final false
+  inline void _PresentFlowCoordinator_b__0();
 
-/// @brief Method <PresentFlowCoordinator>b__1, addr 0x31fdc7c, size 0x78, virtual false, abstract: false, final false
-inline void _PresentFlowCoordinator_b__1() ;
+  /// @brief Method <PresentFlowCoordinator>b__1, addr 0x32399ac, size 0x78, virtual false, abstract: false, final false
+  inline void _PresentFlowCoordinator_b__1();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinator() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinator() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinator();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-/// @brief Method .ctor, addr 0x31fbc60, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3237990, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass39_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass39_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20449 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20439};
+  /// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field flowCoordinator, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> ___flowCoordinator;
 
-/// @brief Field flowCoordinator, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  ___flowCoordinator;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass39_0, ___finishedCallback) == 0x10, "Offset mismatch!");
@@ -218,100 +216,100 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass39_0, _____4__th
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass39_0, 0x28>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass40_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass40_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field flowCoordinator, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_flowCoordinator, put=__cordl_internal_set_flowCoordinator)) ::UnityW<::HMUI::FlowCoordinator>  flowCoordinator;
+  /// @brief Field flowCoordinator, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_flowCoordinator, put = __cordl_internal_set_flowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> flowCoordinator;
 
-/// @brief Field immediately, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_immediately, put=__cordl_internal_set_immediately)) bool  immediately;
+  /// @brief Field immediately, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
-/// @brief Field viewController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_viewController, put=__cordl_internal_set_viewController)) ::UnityW<::HMUI::ViewController>  viewController;
+  /// @brief Field viewController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_viewController, put = __cordl_internal_set_viewController)) ::UnityW<::HMUI::ViewController> viewController;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass40_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass40_0* New_ctor();
 
-/// @brief Method <DismissFlowCoordinator>b__0, addr 0x31fdd6c, size 0x9c, virtual false, abstract: false, final false
-inline void _DismissFlowCoordinator_b__0() ;
+  /// @brief Method <DismissFlowCoordinator>b__0, addr 0x3239a9c, size 0x9c, virtual false, abstract: false, final false
+  inline void _DismissFlowCoordinator_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinator() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinator() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinator();
 
-constexpr bool const& __cordl_internal_get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-constexpr bool& __cordl_internal_get_immediately() ;
+  constexpr bool& __cordl_internal_get_immediately();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_viewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_viewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_viewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_viewController();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_immediately(bool  value) ;
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
 
-/// @brief Method .ctor, addr 0x31fc304, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3238034, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass40_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass40_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20450 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20440};
+  /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
+  bool ___immediately;
 
-/// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
- bool  ___immediately;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field viewController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ___viewController;
 
-/// @brief Field viewController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ___viewController;
+  /// @brief Field flowCoordinator, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> ___flowCoordinator;
 
-/// @brief Field flowCoordinator, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  ___flowCoordinator;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass40_0, ___immediately) == 0x10, "Offset mismatch!");
@@ -326,88 +324,88 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass40_0, ___flowCoo
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass40_0, 0x38>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass43_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass43_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field flowCoordinator, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_flowCoordinator, put=__cordl_internal_set_flowCoordinator)) ::UnityW<::HMUI::FlowCoordinator>  flowCoordinator;
+  /// @brief Field flowCoordinator, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_flowCoordinator, put = __cordl_internal_set_flowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> flowCoordinator;
 
-/// @brief Field flowCoordinatorToReplace, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_flowCoordinatorToReplace, put=__cordl_internal_set_flowCoordinatorToReplace)) ::UnityW<::HMUI::FlowCoordinator>  flowCoordinatorToReplace;
+  /// @brief Field flowCoordinatorToReplace, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_flowCoordinatorToReplace, put = __cordl_internal_set_flowCoordinatorToReplace)) ::UnityW<::HMUI::FlowCoordinator> flowCoordinatorToReplace;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass43_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass43_0* New_ctor();
 
-/// @brief Method <ReplaceChildFlowCoordinator>b__0, addr 0x31fde08, size 0xa0, virtual false, abstract: false, final false
-inline void _ReplaceChildFlowCoordinator_b__0() ;
+  /// @brief Method <ReplaceChildFlowCoordinator>b__0, addr 0x3239b38, size 0xa0, virtual false, abstract: false, final false
+  inline void _ReplaceChildFlowCoordinator_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinator() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinator() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinator();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinatorToReplace() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get_flowCoordinatorToReplace() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinatorToReplace() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get_flowCoordinatorToReplace();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_flowCoordinatorToReplace(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set_flowCoordinatorToReplace(::UnityW<::HMUI::FlowCoordinator> value);
 
-/// @brief Method .ctor, addr 0x31fc7fc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x323852c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass43_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass43_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20451 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20441};
+  /// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field flowCoordinator, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> ___flowCoordinator;
 
-/// @brief Field flowCoordinator, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  ___flowCoordinator;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field flowCoordinatorToReplace, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> ___flowCoordinatorToReplace;
 
-/// @brief Field flowCoordinatorToReplace, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  ___flowCoordinatorToReplace;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass43_0, ___finishedCallback) == 0x10, "Offset mismatch!");
@@ -420,88 +418,88 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass43_0, ___flowCoo
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass43_0, 0x30>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass44_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass44_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field immediately, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_immediately, put=__cordl_internal_set_immediately)) bool  immediately;
+  /// @brief Field immediately, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
-/// @brief Field topViewController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_topViewController, put=__cordl_internal_set_topViewController)) ::UnityW<::HMUI::ViewController>  topViewController;
+  /// @brief Field topViewController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_topViewController, put = __cordl_internal_set_topViewController)) ::UnityW<::HMUI::ViewController> topViewController;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass44_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass44_0* New_ctor();
 
-/// @brief Method <PresentViewController>b__0, addr 0x31fdea8, size 0x80, virtual false, abstract: false, final false
-inline void _PresentViewController_b__0() ;
+  /// @brief Method <PresentViewController>b__0, addr 0x3239bd8, size 0x80, virtual false, abstract: false, final false
+  inline void _PresentViewController_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr bool const& __cordl_internal_get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-constexpr bool& __cordl_internal_get_immediately() ;
+  constexpr bool& __cordl_internal_get_immediately();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_topViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_topViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_topViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_topViewController();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_immediately(bool  value) ;
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-constexpr void __cordl_internal_set_topViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set_topViewController(::UnityW<::HMUI::ViewController> value);
 
-/// @brief Method .ctor, addr 0x31fc800, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3238530, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass44_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass44_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20452 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20442};
+  /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
+  bool ___immediately;
 
-/// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
- bool  ___immediately;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field topViewController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ___topViewController;
 
-/// @brief Field topViewController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ___topViewController;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass44_0, ___immediately) == 0x10, "Offset mismatch!");
@@ -514,100 +512,101 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass44_0, ___topView
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass44_0, 0x30>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass45_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass45_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field immediately, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_immediately, put=__cordl_internal_set_immediately)) bool  immediately;
+  /// @brief Field immediately, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
-/// @brief Field newTopViewController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_newTopViewController, put=__cordl_internal_set_newTopViewController)) ::UnityW<::HMUI::ViewController>  newTopViewController;
+  /// @brief Field newTopViewController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_newTopViewController, put = __cordl_internal_set_newTopViewController)) ::UnityW<::HMUI::ViewController> newTopViewController;
 
-/// @brief Field taskCompletionSource, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_taskCompletionSource, put=__cordl_internal_set_taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*  taskCompletionSource;
+  /// @brief Field taskCompletionSource, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_taskCompletionSource,
+                      put = __cordl_internal_set_taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* taskCompletionSource;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass45_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass45_0* New_ctor();
 
-/// @brief Method <DismissViewController>b__0, addr 0x31fdf28, size 0xc0, virtual false, abstract: false, final false
-inline void _DismissViewController_b__0() ;
+  /// @brief Method <DismissViewController>b__0, addr 0x3239c58, size 0xc0, virtual false, abstract: false, final false
+  inline void _DismissViewController_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr bool const& __cordl_internal_get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-constexpr bool& __cordl_internal_get_immediately() ;
+  constexpr bool& __cordl_internal_get_immediately();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_newTopViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_newTopViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_newTopViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_newTopViewController();
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* const& __cordl_internal_get_taskCompletionSource() const;
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* const& __cordl_internal_get_taskCompletionSource() const;
 
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*& __cordl_internal_get_taskCompletionSource() ;
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*& __cordl_internal_get_taskCompletionSource();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_immediately(bool  value) ;
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-constexpr void __cordl_internal_set_newTopViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set_newTopViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*  value) ;
+  constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* value);
 
-/// @brief Method .ctor, addr 0x31fcb80, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32388b0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass45_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass45_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20453 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20443};
+  /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
+  bool ___immediately;
 
-/// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
- bool  ___immediately;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field newTopViewController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ___newTopViewController;
 
-/// @brief Field newTopViewController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ___newTopViewController;
+  /// @brief Field taskCompletionSource, offset: 0x30, size: 0x8, def value: None
+  ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* ___taskCompletionSource;
 
-/// @brief Field taskCompletionSource, offset: 0x30, size: 0x8, def value: None
- ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*  ___taskCompletionSource;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass45_0, ___immediately) == 0x10, "Offset mismatch!");
@@ -622,88 +621,88 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass45_0, ___taskCom
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass45_0, 0x38>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies HMUI.ViewController::AnimationType, System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass47_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass47_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field animationType, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_animationType, put=__cordl_internal_set_animationType)) ::HMUI::ViewController_AnimationType  animationType;
+  /// @brief Field animationType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_animationType, put = __cordl_internal_set_animationType)) ::HMUI::ViewController_AnimationType animationType;
 
-/// @brief Field finishedCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field originalTopViewController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_originalTopViewController, put=__cordl_internal_set_originalTopViewController)) ::UnityW<::HMUI::ViewController>  originalTopViewController;
+  /// @brief Field originalTopViewController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_originalTopViewController, put = __cordl_internal_set_originalTopViewController)) ::UnityW<::HMUI::ViewController> originalTopViewController;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass47_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass47_0* New_ctor();
 
-/// @brief Method <ReplaceTopViewController>b__0, addr 0x31fdfe8, size 0x80, virtual false, abstract: false, final false
-inline void _ReplaceTopViewController_b__0() ;
+  /// @brief Method <ReplaceTopViewController>b__0, addr 0x3239d18, size 0x80, virtual false, abstract: false, final false
+  inline void _ReplaceTopViewController_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::HMUI::ViewController_AnimationType const& __cordl_internal_get_animationType() const;
+  constexpr ::HMUI::ViewController_AnimationType const& __cordl_internal_get_animationType() const;
 
-constexpr ::HMUI::ViewController_AnimationType& __cordl_internal_get_animationType() ;
+  constexpr ::HMUI::ViewController_AnimationType& __cordl_internal_get_animationType();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_originalTopViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_originalTopViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_originalTopViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_originalTopViewController();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_animationType(::HMUI::ViewController_AnimationType  value) ;
+  constexpr void __cordl_internal_set_animationType(::HMUI::ViewController_AnimationType value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_originalTopViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set_originalTopViewController(::UnityW<::HMUI::ViewController> value);
 
-/// @brief Method .ctor, addr 0x31fcc64, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3238994, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass47_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass47_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20454 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20444};
+  /// @brief Field animationType, offset: 0x10, size: 0x4, def value: None
+  ::HMUI::ViewController_AnimationType ___animationType;
 
-/// @brief Field animationType, offset: 0x10, size: 0x4, def value: None
- ::HMUI::ViewController_AnimationType  ___animationType;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field originalTopViewController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ___originalTopViewController;
 
-/// @brief Field originalTopViewController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ___originalTopViewController;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass47_0, ___animationType) == 0x10, "Offset mismatch!");
@@ -716,88 +715,88 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass47_0, ___origina
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass47_0, 0x30>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass48_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass48_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field immediately, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_immediately, put=__cordl_internal_set_immediately)) bool  immediately;
+  /// @brief Field immediately, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
-/// @brief Field viewController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_viewController, put=__cordl_internal_set_viewController)) ::UnityW<::HMUI::ViewController>  viewController;
+  /// @brief Field viewController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_viewController, put = __cordl_internal_set_viewController)) ::UnityW<::HMUI::ViewController> viewController;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass48_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass48_0* New_ctor();
 
-/// @brief Method <PushViewControllerToNavigationController>b__0, addr 0x31fe068, size 0x80, virtual false, abstract: false, final false
-inline void _PushViewControllerToNavigationController_b__0() ;
+  /// @brief Method <PushViewControllerToNavigationController>b__0, addr 0x3239d98, size 0x80, virtual false, abstract: false, final false
+  inline void _PushViewControllerToNavigationController_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr bool const& __cordl_internal_get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-constexpr bool& __cordl_internal_get_immediately() ;
+  constexpr bool& __cordl_internal_get_immediately();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_viewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_viewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_viewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_viewController();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_immediately(bool  value) ;
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
 
-/// @brief Method .ctor, addr 0x31fcde8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3238b18, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass48_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass48_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20455 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20445};
+  /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
+  bool ___immediately;
 
-/// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
- bool  ___immediately;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field viewController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ___viewController;
 
-/// @brief Field viewController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ___viewController;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass48_0, ___immediately) == 0x10, "Offset mismatch!");
@@ -810,88 +809,88 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass48_0, ___viewCon
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass48_0, 0x30>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass51_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass51_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field immediately, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_immediately, put=__cordl_internal_set_immediately)) bool  immediately;
+  /// @brief Field immediately, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
-/// @brief Field navigationController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_navigationController, put=__cordl_internal_set_navigationController)) ::UnityW<::HMUI::NavigationController>  navigationController;
+  /// @brief Field navigationController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_navigationController, put = __cordl_internal_set_navigationController)) ::UnityW<::HMUI::NavigationController> navigationController;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass51_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass51_0* New_ctor();
 
-/// @brief Method <PopViewControllerFromNavigationController>b__0, addr 0x31fe0e8, size 0x80, virtual false, abstract: false, final false
-inline void _PopViewControllerFromNavigationController_b__0() ;
+  /// @brief Method <PopViewControllerFromNavigationController>b__0, addr 0x3239e18, size 0x80, virtual false, abstract: false, final false
+  inline void _PopViewControllerFromNavigationController_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr bool const& __cordl_internal_get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-constexpr bool& __cordl_internal_get_immediately() ;
+  constexpr bool& __cordl_internal_get_immediately();
 
-constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get_navigationController() const;
+  constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get_navigationController() const;
 
-constexpr ::UnityW<::HMUI::NavigationController>& __cordl_internal_get_navigationController() ;
+  constexpr ::UnityW<::HMUI::NavigationController>& __cordl_internal_get_navigationController();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_immediately(bool  value) ;
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-constexpr void __cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController>  value) ;
+  constexpr void __cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController> value);
 
-/// @brief Method .ctor, addr 0x31fd08c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3238dbc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass51_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass51_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20456 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20446};
+  /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
+  bool ___immediately;
 
-/// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
- bool  ___immediately;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field navigationController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::NavigationController> ___navigationController;
 
-/// @brief Field navigationController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::NavigationController>  ___navigationController;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass51_0, ___immediately) == 0x10, "Offset mismatch!");
@@ -904,88 +903,88 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass51_0, ___navigat
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass51_0, 0x30>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator/<>c__DisplayClass52_0
 class CORDL_TYPE FlowCoordinator___c__DisplayClass52_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field finishedCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_finishedCallback, put=__cordl_internal_set_finishedCallback)) ::System::Action*  finishedCallback;
+  /// @brief Field finishedCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-/// @brief Field immediately, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_immediately, put=__cordl_internal_set_immediately)) bool  immediately;
+  /// @brief Field immediately, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_immediately, put = __cordl_internal_set_immediately)) bool immediately;
 
-/// @brief Field navigationController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_navigationController, put=__cordl_internal_set_navigationController)) ::UnityW<::HMUI::NavigationController>  navigationController;
+  /// @brief Field navigationController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_navigationController, put = __cordl_internal_set_navigationController)) ::UnityW<::HMUI::NavigationController> navigationController;
 
-static inline ::HMUI::FlowCoordinator___c__DisplayClass52_0* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator___c__DisplayClass52_0* New_ctor();
 
-/// @brief Method <PopViewControllersFromNavigationController>b__0, addr 0x31fe168, size 0x80, virtual false, abstract: false, final false
-inline void _PopViewControllersFromNavigationController_b__0() ;
+  /// @brief Method <PopViewControllersFromNavigationController>b__0, addr 0x3239e98, size 0x80, virtual false, abstract: false, final false
+  inline void _PopViewControllersFromNavigationController_b__0();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get___4__this();
 
-constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-constexpr ::System::Action*& __cordl_internal_get_finishedCallback() ;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-constexpr bool const& __cordl_internal_get_immediately() const;
+  constexpr bool const& __cordl_internal_get_immediately() const;
 
-constexpr bool& __cordl_internal_get_immediately() ;
+  constexpr bool& __cordl_internal_get_immediately();
 
-constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get_navigationController() const;
+  constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get_navigationController() const;
 
-constexpr ::UnityW<::HMUI::NavigationController>& __cordl_internal_get_navigationController() ;
+  constexpr ::UnityW<::HMUI::NavigationController>& __cordl_internal_get_navigationController();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set_finishedCallback(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-constexpr void __cordl_internal_set_immediately(bool  value) ;
+  constexpr void __cordl_internal_set_immediately(bool value);
 
-constexpr void __cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController>  value) ;
+  constexpr void __cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController> value);
 
-/// @brief Method .ctor, addr 0x31fd200, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3238f30, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator___c__DisplayClass52_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator___c__DisplayClass52_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20457 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20447};
+  /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
+  bool ___immediately;
 
-/// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
- bool  ___immediately;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  _____4__this;
+  /// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
+  ::System::Action* ___finishedCallback;
 
-/// @brief Field finishedCallback, offset: 0x20, size: 0x8, def value: None
- ::System::Action*  ___finishedCallback;
+  /// @brief Field navigationController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::NavigationController> ___navigationController;
 
-/// @brief Field navigationController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::NavigationController>  ___navigationController;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass52_0, ___immediately) == 0x10, "Offset mismatch!");
@@ -998,55 +997,60 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass52_0, ___navigat
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator___c__DisplayClass52_0, 0x30>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace HMUI {
 // Is value type: true
 // CS Name: HMUI.FlowCoordinator/<DismissChildFlowCoordinatorsRecursively>d__41
 struct CORDL_TYPE FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41 {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-/// @brief Method MoveNext, addr 0x31fe1e8, size 0x340, virtual true, abstract: false, final true
-inline void MoveNext() ;
+  /// @brief Method MoveNext, addr 0x3239f18, size 0x340, virtual true, abstract: false, final true
+  inline void MoveNext();
 
-/// @brief Method SetStateMachine, addr 0x31fe528, size 0x6c, virtual true, abstract: false, final true
-inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+  /// @brief Method SetStateMachine, addr 0x323a258, size 0x6c, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41();
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-constexpr FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::UnityW<::HMUI::FlowCoordinator>  __4__this, bool  immediately, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept;
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value:
+  // None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
+  // None }]
+  constexpr FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                           ::UnityW<::HMUI::FlowCoordinator> __4__this, bool immediately,
+                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20448};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20458 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
-/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
- int32_t  __1__state;
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
 
-/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field immediately, offset: 0x28, size: 0x1, def value: None
- bool  immediately;
+  /// @brief Field immediately, offset: 0x28, size: 0x1, def value: None
+  bool immediately;
 
-/// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
- ::System::Runtime::CompilerServices::TaskAwaiter  __u__1;
+  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41, __1__state) == 0x0, "Offset mismatch!");
@@ -1061,55 +1065,60 @@ static_assert(offsetof(::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecu
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41, 0x38>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace HMUI {
 // Is value type: true
 // CS Name: HMUI.FlowCoordinator/<DismissChildViewControllersRecursively>d__42
 struct CORDL_TYPE FlowCoordinator__DismissChildViewControllersRecursively_d__42 {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-/// @brief Method MoveNext, addr 0x31fe594, size 0x250, virtual true, abstract: false, final true
-inline void MoveNext() ;
+  /// @brief Method MoveNext, addr 0x323a2c4, size 0x250, virtual true, abstract: false, final true
+  inline void MoveNext();
 
-/// @brief Method SetStateMachine, addr 0x31fe7e4, size 0x6c, virtual true, abstract: false, final true
-inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+  /// @brief Method SetStateMachine, addr 0x323a514, size 0x6c, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator__DismissChildViewControllersRecursively_d__42() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator__DismissChildViewControllersRecursively_d__42();
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-constexpr FlowCoordinator__DismissChildViewControllersRecursively_d__42(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::UnityW<::HMUI::FlowCoordinator>  __4__this, bool  immediately, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept;
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value:
+  // None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
+  // None }]
+  constexpr FlowCoordinator__DismissChildViewControllersRecursively_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                          ::UnityW<::HMUI::FlowCoordinator> __4__this, bool immediately,
+                                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20449};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20459 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
-/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
- int32_t  __1__state;
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
 
-/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  __4__this;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> __4__this;
 
-/// @brief Field immediately, offset: 0x28, size: 0x1, def value: None
- bool  immediately;
+  /// @brief Field immediately, offset: 0x28, size: 0x1, def value: None
+  bool immediately;
 
-/// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
- ::System::Runtime::CompilerServices::TaskAwaiter  __u__1;
+  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42, __1__state) == 0x0, "Offset mismatch!");
@@ -1124,478 +1133,489 @@ static_assert(offsetof(::HMUI::FlowCoordinator__DismissChildViewControllersRecur
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42, 0x38>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.FlowCoordinator
 class CORDL_TYPE FlowCoordinator : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-using _DismissChildFlowCoordinatorsRecursively_d__41 = ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41;
+  // Declarations
+  using _DismissChildFlowCoordinatorsRecursively_d__41 = ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41;
 
-using _DismissChildViewControllersRecursively_d__42 = ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42;
+  using _DismissChildViewControllersRecursively_d__42 = ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42;
 
-using __c__DisplayClass39_0 = ::HMUI::FlowCoordinator___c__DisplayClass39_0;
+  using __c__DisplayClass39_0 = ::HMUI::FlowCoordinator___c__DisplayClass39_0;
 
-using __c__DisplayClass40_0 = ::HMUI::FlowCoordinator___c__DisplayClass40_0;
+  using __c__DisplayClass40_0 = ::HMUI::FlowCoordinator___c__DisplayClass40_0;
 
-using __c__DisplayClass43_0 = ::HMUI::FlowCoordinator___c__DisplayClass43_0;
+  using __c__DisplayClass43_0 = ::HMUI::FlowCoordinator___c__DisplayClass43_0;
 
-using __c__DisplayClass44_0 = ::HMUI::FlowCoordinator___c__DisplayClass44_0;
+  using __c__DisplayClass44_0 = ::HMUI::FlowCoordinator___c__DisplayClass44_0;
 
-using __c__DisplayClass45_0 = ::HMUI::FlowCoordinator___c__DisplayClass45_0;
+  using __c__DisplayClass45_0 = ::HMUI::FlowCoordinator___c__DisplayClass45_0;
 
-using __c__DisplayClass47_0 = ::HMUI::FlowCoordinator___c__DisplayClass47_0;
+  using __c__DisplayClass47_0 = ::HMUI::FlowCoordinator___c__DisplayClass47_0;
 
-using __c__DisplayClass48_0 = ::HMUI::FlowCoordinator___c__DisplayClass48_0;
+  using __c__DisplayClass48_0 = ::HMUI::FlowCoordinator___c__DisplayClass48_0;
 
-using __c__DisplayClass51_0 = ::HMUI::FlowCoordinator___c__DisplayClass51_0;
+  using __c__DisplayClass51_0 = ::HMUI::FlowCoordinator___c__DisplayClass51_0;
 
-using __c__DisplayClass52_0 = ::HMUI::FlowCoordinator___c__DisplayClass52_0;
+  using __c__DisplayClass52_0 = ::HMUI::FlowCoordinator___c__DisplayClass52_0;
 
-/// @brief Field _baseInputModule, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__baseInputModule, put=__cordl_internal_set__baseInputModule)) ::UnityW<::UnityEngine::EventSystems::BaseInputModule>  _baseInputModule;
+  /// @brief Field _baseInputModule, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__baseInputModule, put = __cordl_internal_set__baseInputModule)) ::UnityW<::UnityEngine::EventSystems::BaseInputModule> _baseInputModule;
 
-/// @brief Field _bottomScreenViewController, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get__bottomScreenViewController, put=__cordl_internal_set__bottomScreenViewController)) ::UnityW<::HMUI::ViewController>  _bottomScreenViewController;
+  /// @brief Field _bottomScreenViewController, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__bottomScreenViewController, put = __cordl_internal_set__bottomScreenViewController)) ::UnityW<::HMUI::ViewController> _bottomScreenViewController;
 
-/// @brief Field _childFlowCoordinator, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__childFlowCoordinator, put=__cordl_internal_set__childFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator>  _childFlowCoordinator;
+  /// @brief Field _childFlowCoordinator, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__childFlowCoordinator, put = __cordl_internal_set__childFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> _childFlowCoordinator;
 
-/// @brief Field _isActivated, offset 0xa2, size 0x1 
- __declspec(property(get=__cordl_internal_get__isActivated, put=__cordl_internal_set__isActivated)) bool  _isActivated;
+  /// @brief Field _isActivated, offset 0xa2, size 0x1
+  __declspec(property(get = __cordl_internal_get__isActivated, put = __cordl_internal_set__isActivated)) bool _isActivated;
 
-/// @brief Field _isInDidActivatePhase, offset 0xa1, size 0x1 
- __declspec(property(get=__cordl_internal_get__isInDidActivatePhase, put=__cordl_internal_set__isInDidActivatePhase)) bool  _isInDidActivatePhase;
+  /// @brief Field _isInDidActivatePhase, offset 0xa1, size 0x1
+  __declspec(property(get = __cordl_internal_get__isInDidActivatePhase, put = __cordl_internal_set__isInDidActivatePhase)) bool _isInDidActivatePhase;
 
-/// @brief Field _isInTransition, offset 0xa3, size 0x1 
- __declspec(property(get=__cordl_internal_get__isInTransition, put=__cordl_internal_set__isInTransition)) bool  _isInTransition;
+  /// @brief Field _isInTransition, offset 0xa3, size 0x1
+  __declspec(property(get = __cordl_internal_get__isInTransition, put = __cordl_internal_set__isInTransition)) bool _isInTransition;
 
-/// @brief Field _leftScreenViewController, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftScreenViewController, put=__cordl_internal_set__leftScreenViewController)) ::UnityW<::HMUI::ViewController>  _leftScreenViewController;
+  /// @brief Field _leftScreenViewController, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftScreenViewController, put = __cordl_internal_set__leftScreenViewController)) ::UnityW<::HMUI::ViewController> _leftScreenViewController;
 
-/// @brief Field _mainScreenViewControllers, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__mainScreenViewControllers, put=__cordl_internal_set__mainScreenViewControllers)) ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*  _mainScreenViewControllers;
+  /// @brief Field _mainScreenViewControllers, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainScreenViewControllers,
+                      put = __cordl_internal_set__mainScreenViewControllers)) ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* _mainScreenViewControllers;
 
-/// @brief Field _parentFlowCoordinator, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__parentFlowCoordinator, put=__cordl_internal_set__parentFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator>  _parentFlowCoordinator;
+  /// @brief Field _parentFlowCoordinator, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__parentFlowCoordinator, put = __cordl_internal_set__parentFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> _parentFlowCoordinator;
 
-/// @brief Field _prevEventSystem, offset 0xa8, size 0x8 
- __declspec(property(get=__cordl_internal_get__prevEventSystem, put=__cordl_internal_set__prevEventSystem)) ::UnityW<::UnityEngine::EventSystems::EventSystem>  _prevEventSystem;
+  /// @brief Field _prevEventSystem, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__prevEventSystem, put = __cordl_internal_set__prevEventSystem)) ::UnityW<::UnityEngine::EventSystems::EventSystem> _prevEventSystem;
 
-/// @brief Field _providedBottomScreenViewController, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get__providedBottomScreenViewController, put=__cordl_internal_set__providedBottomScreenViewController)) ::UnityW<::HMUI::ViewController>  _providedBottomScreenViewController;
+  /// @brief Field _providedBottomScreenViewController, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__providedBottomScreenViewController, put = __cordl_internal_set__providedBottomScreenViewController)) ::UnityW<::HMUI::ViewController>
+      _providedBottomScreenViewController;
 
-/// @brief Field _providedLeftScreenViewController, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get__providedLeftScreenViewController, put=__cordl_internal_set__providedLeftScreenViewController)) ::UnityW<::HMUI::ViewController>  _providedLeftScreenViewController;
+  /// @brief Field _providedLeftScreenViewController, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__providedLeftScreenViewController, put = __cordl_internal_set__providedLeftScreenViewController)) ::UnityW<::HMUI::ViewController>
+      _providedLeftScreenViewController;
 
-/// @brief Field _providedMainViewController, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get__providedMainViewController, put=__cordl_internal_set__providedMainViewController)) ::UnityW<::HMUI::ViewController>  _providedMainViewController;
+  /// @brief Field _providedMainViewController, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__providedMainViewController, put = __cordl_internal_set__providedMainViewController)) ::UnityW<::HMUI::ViewController> _providedMainViewController;
 
-/// @brief Field _providedRightScreenViewController, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get__providedRightScreenViewController, put=__cordl_internal_set__providedRightScreenViewController)) ::UnityW<::HMUI::ViewController>  _providedRightScreenViewController;
+  /// @brief Field _providedRightScreenViewController, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__providedRightScreenViewController, put = __cordl_internal_set__providedRightScreenViewController)) ::UnityW<::HMUI::ViewController>
+      _providedRightScreenViewController;
 
-/// @brief Field _providedTopScreenViewController, offset 0x98, size 0x8 
- __declspec(property(get=__cordl_internal_get__providedTopScreenViewController, put=__cordl_internal_set__providedTopScreenViewController)) ::UnityW<::HMUI::ViewController>  _providedTopScreenViewController;
+  /// @brief Field _providedTopScreenViewController, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__providedTopScreenViewController, put = __cordl_internal_set__providedTopScreenViewController)) ::UnityW<::HMUI::ViewController>
+      _providedTopScreenViewController;
 
-/// @brief Field _rightScreenViewController, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightScreenViewController, put=__cordl_internal_set__rightScreenViewController)) ::UnityW<::HMUI::ViewController>  _rightScreenViewController;
+  /// @brief Field _rightScreenViewController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightScreenViewController, put = __cordl_internal_set__rightScreenViewController)) ::UnityW<::HMUI::ViewController> _rightScreenViewController;
 
-/// @brief Field _screenSystem, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__screenSystem, put=__cordl_internal_set__screenSystem)) ::UnityW<::HMUI::ScreenSystem>  _screenSystem;
+  /// @brief Field _screenSystem, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__screenSystem, put = __cordl_internal_set__screenSystem)) ::UnityW<::HMUI::ScreenSystem> _screenSystem;
 
-/// @brief Field _showBackButton, offset 0xa4, size 0x1 
- __declspec(property(get=__cordl_internal_get__showBackButton, put=__cordl_internal_set__showBackButton)) bool  _showBackButton;
+  /// @brief Field _showBackButton, offset 0xa4, size 0x1
+  __declspec(property(get = __cordl_internal_get__showBackButton, put = __cordl_internal_set__showBackButton)) bool _showBackButton;
 
-/// @brief Field _title, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get__title, put=__cordl_internal_set__title)) ::StringW  _title;
+  /// @brief Field _title, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__title, put = __cordl_internal_set__title)) ::StringW _title;
 
-/// @brief Field _topScreenViewController, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get__topScreenViewController, put=__cordl_internal_set__topScreenViewController)) ::UnityW<::HMUI::ViewController>  _topScreenViewController;
+  /// @brief Field _topScreenViewController, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__topScreenViewController, put = __cordl_internal_set__topScreenViewController)) ::UnityW<::HMUI::ViewController> _topScreenViewController;
 
-/// @brief Field _viewControllersWereProvided, offset 0xa0, size 0x1 
- __declspec(property(get=__cordl_internal_get__viewControllersWereProvided, put=__cordl_internal_set__viewControllersWereProvided)) bool  _viewControllersWereProvided;
+  /// @brief Field _viewControllersWereProvided, offset 0xa0, size 0x1
+  __declspec(property(get = __cordl_internal_get__viewControllersWereProvided, put = __cordl_internal_set__viewControllersWereProvided)) bool _viewControllersWereProvided;
 
-/// @brief Field _wasActivatedBefore, offset 0x68, size 0x1 
- __declspec(property(get=__cordl_internal_get__wasActivatedBefore, put=__cordl_internal_set__wasActivatedBefore)) bool  _wasActivatedBefore;
+  /// @brief Field _wasActivatedBefore, offset 0x68, size 0x1
+  __declspec(property(get = __cordl_internal_get__wasActivatedBefore, put = __cordl_internal_set__wasActivatedBefore)) bool _wasActivatedBefore;
 
- __declspec(property(get=get_childFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator>  childFlowCoordinator;
+  __declspec(property(get = get_childFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> childFlowCoordinator;
 
- __declspec(property(get=get_isActivated)) bool  isActivated;
+  __declspec(property(get = get_isActivated)) bool isActivated;
 
- __declspec(property(get=get_isInTransition)) bool  isInTransition;
+  __declspec(property(get = get_isInTransition)) bool isInTransition;
 
- __declspec(property(get=get_rightScreenViewController)) ::UnityW<::HMUI::ViewController>  rightScreenViewController;
+  __declspec(property(get = get_rightScreenViewController)) ::UnityW<::HMUI::ViewController> rightScreenViewController;
 
- __declspec(property(get=get_showBackButton, put=set_showBackButton)) bool  showBackButton;
+  __declspec(property(get = get_showBackButton, put = set_showBackButton)) bool showBackButton;
 
- __declspec(property(get=get_title)) ::StringW  title;
+  __declspec(property(get = get_title)) ::StringW title;
 
- __declspec(property(get=get_topViewController)) ::UnityW<::HMUI::ViewController>  topViewController;
+  __declspec(property(get = get_topViewController)) ::UnityW<::HMUI::ViewController> topViewController;
 
-/// @brief Method Activate, addr 0x31fb01c, size 0xcc, virtual false, abstract: false, final false
-inline void Activate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
+  /// @brief Method Activate, addr 0x3236d4c, size 0xcc, virtual false, abstract: false, final false
+  inline void Activate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-/// @brief Method BackButtonWasPressed, addr 0x31fdba4, size 0x4, virtual true, abstract: false, final false
-inline void BackButtonWasPressed(::HMUI::ViewController*  topViewController) ;
+  /// @brief Method BackButtonWasPressed, addr 0x32398d4, size 0x4, virtual true, abstract: false, final false
+  inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-/// @brief Method CanPressBackButton, addr 0x31fda90, size 0xf4, virtual false, abstract: false, final false
-inline bool CanPressBackButton() ;
+  /// @brief Method CanPressBackButton, addr 0x32397c0, size 0xf4, virtual false, abstract: false, final false
+  inline bool CanPressBackButton();
 
-/// @brief Method Deactivate, addr 0x31fbc64, size 0xb8, virtual false, abstract: false, final false
-inline void Deactivate(bool  removedFromHierarchy, bool  screenSystemDisabling) ;
+  /// @brief Method Deactivate, addr 0x3237994, size 0xb8, virtual false, abstract: false, final false
+  inline void Deactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-/// @brief Method DidActivate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
+  /// @brief Method DidActivate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-/// @brief Method DidDeactivate, addr 0x31fdb84, size 0x4, virtual true, abstract: false, final false
-inline void DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling) ;
+  /// @brief Method DidDeactivate, addr 0x32398b4, size 0x4, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-/// @brief Method DismissChildFlowCoordinatorsRecursively, addr 0x31fc344, size 0xc8, virtual false, abstract: false, final false
-inline ::System::Threading::Tasks::Task* DismissChildFlowCoordinatorsRecursively(bool  immediately) ;
+  /// @brief Method DismissChildFlowCoordinatorsRecursively, addr 0x3238074, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* DismissChildFlowCoordinatorsRecursively(bool immediately);
 
-/// @brief Method DismissChildViewControllersRecursively, addr 0x31fc40c, size 0xc8, virtual false, abstract: false, final false
-inline ::System::Threading::Tasks::Task* DismissChildViewControllersRecursively(bool  immediately) ;
+  /// @brief Method DismissChildViewControllersRecursively, addr 0x323813c, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* DismissChildViewControllersRecursively(bool immediately);
 
-/// @brief Method DismissFlowCoordinator, addr 0x31fbfbc, size 0x348, virtual false, abstract: false, final false
-inline void DismissFlowCoordinator(::HMUI::FlowCoordinator*  flowCoordinator, ::HMUI::ViewController_AnimationDirection  animationDirection, ::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method DismissFlowCoordinator, addr 0x3237cec, size 0x348, virtual false, abstract: false, final false
+  inline void DismissFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::HMUI::ViewController_AnimationDirection animationDirection, ::System::Action* finishedCallback, bool immediately);
 
-/// @brief Method DismissViewController, addr 0x31fc8f8, size 0x288, virtual false, abstract: false, final false
-inline ::System::Threading::Tasks::Task* DismissViewController(::HMUI::ViewController*  viewController, ::HMUI::ViewController_AnimationDirection  animationDirection, ::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method DismissViewController, addr 0x3238628, size 0x288, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* DismissViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationDirection animationDirection,
+                                                                 ::System::Action* finishedCallback, bool immediately);
 
-/// @brief Method HandleScreenSystemBackButtonWasPressed, addr 0x31fda58, size 0x38, virtual false, abstract: false, final false
-inline void HandleScreenSystemBackButtonWasPressed() ;
+  /// @brief Method HandleScreenSystemBackButtonWasPressed, addr 0x3239788, size 0x38, virtual false, abstract: false, final false
+  inline void HandleScreenSystemBackButtonWasPressed();
 
-/// @brief Method InitialViewControllerWasPresented, addr 0x31fdba0, size 0x4, virtual true, abstract: false, final false
-inline void InitialViewControllerWasPresented() ;
+  /// @brief Method InitialViewControllerWasPresented, addr 0x32398d0, size 0x4, virtual true, abstract: false, final false
+  inline void InitialViewControllerWasPresented();
 
-/// @brief Method IsFlowCoordinatorInHierarchy, addr 0x31fad6c, size 0xa4, virtual false, abstract: false, final false
-inline bool IsFlowCoordinatorInHierarchy(::HMUI::FlowCoordinator*  flowCoordinator) ;
+  /// @brief Method IsFlowCoordinatorInHierarchy, addr 0x3236a9c, size 0xa4, virtual false, abstract: false, final false
+  inline bool IsFlowCoordinatorInHierarchy(::HMUI::FlowCoordinator* flowCoordinator);
 
-/// @brief Method Log, addr 0x31fdba8, size 0x5c, virtual false, abstract: false, final false
-static inline void Log(::StringW  message) ;
+  /// @brief Method Log, addr 0x32398d8, size 0x5c, virtual false, abstract: false, final false
+  static inline void Log(::StringW message);
 
-static inline ::HMUI::FlowCoordinator* New_ctor() ;
+  static inline ::HMUI::FlowCoordinator* New_ctor();
 
-/// @brief Method PopViewControllerFromNavigationController, addr 0x31fcf30, size 0x15c, virtual false, abstract: false, final false
-inline void PopViewControllerFromNavigationController(::HMUI::NavigationController*  navigationController, ::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method PopViewControllerFromNavigationController, addr 0x3238c60, size 0x15c, virtual false, abstract: false, final false
+  inline void PopViewControllerFromNavigationController(::HMUI::NavigationController* navigationController, ::System::Action* finishedCallback, bool immediately);
 
-/// @brief Method PopViewControllersFromNavigationController, addr 0x31fd0a0, size 0x160, virtual false, abstract: false, final false
-inline void PopViewControllersFromNavigationController(::HMUI::NavigationController*  navigationController, int32_t  numberOfControllers, ::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method PopViewControllersFromNavigationController, addr 0x3238dd0, size 0x160, virtual false, abstract: false, final false
+  inline void PopViewControllersFromNavigationController(::HMUI::NavigationController* navigationController, int32_t numberOfControllers, ::System::Action* finishedCallback, bool immediately);
 
-/// @brief Method PresentFlowCoordinator, addr 0x31fb834, size 0x42c, virtual false, abstract: false, final false
-inline void PresentFlowCoordinator(::HMUI::FlowCoordinator*  flowCoordinator, ::System::Action*  finishedCallback, ::HMUI::ViewController_AnimationDirection  animationDirection, bool  immediately, bool  replaceTopViewController) ;
+  /// @brief Method PresentFlowCoordinator, addr 0x3237564, size 0x42c, virtual false, abstract: false, final false
+  inline void PresentFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately,
+                                     bool replaceTopViewController);
 
-/// @brief Method PresentTitle, addr 0x31fae10, size 0x74, virtual false, abstract: false, final false
-inline void PresentTitle(::StringW  title, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method PresentTitle, addr 0x3236b40, size 0x74, virtual false, abstract: false, final false
+  inline void PresentTitle(::StringW title, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method PresentViewController, addr 0x31fb448, size 0x3ec, virtual false, abstract: false, final false
-inline void PresentViewController(::HMUI::ViewController*  viewController, ::System::Action*  finishedCallback, ::HMUI::ViewController_AnimationDirection  animationDirection, bool  immediately) ;
+  /// @brief Method PresentViewController, addr 0x3237178, size 0x3ec, virtual false, abstract: false, final false
+  inline void PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
-/// @brief Method ProvideInitialViewControllers, addr 0x31fd4e0, size 0x18, virtual false, abstract: false, final false
-inline void ProvideInitialViewControllers(::HMUI::ViewController*  mainViewController, ::HMUI::ViewController*  leftScreenViewController, ::HMUI::ViewController*  rightScreenViewController, ::HMUI::ViewController*  bottomScreenViewController, ::HMUI::ViewController*  topScreenViewController) ;
+  /// @brief Method ProvideInitialViewControllers, addr 0x3239210, size 0x18, virtual false, abstract: false, final false
+  inline void ProvideInitialViewControllers(::HMUI::ViewController* mainViewController, ::HMUI::ViewController* leftScreenViewController, ::HMUI::ViewController* rightScreenViewController,
+                                            ::HMUI::ViewController* bottomScreenViewController, ::HMUI::ViewController* topScreenViewController);
 
-/// @brief Method PushViewControllerToNavigationController, addr 0x31fcc88, size 0x160, virtual false, abstract: false, final false
-inline void PushViewControllerToNavigationController(::HMUI::NavigationController*  navigationController, ::HMUI::ViewController*  viewController, ::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method PushViewControllerToNavigationController, addr 0x32389b8, size 0x160, virtual false, abstract: false, final false
+  inline void PushViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
+                                                       bool immediately);
 
-/// @brief Method ReplaceChildFlowCoordinator, addr 0x31fc4d4, size 0x328, virtual false, abstract: false, final false
-inline void ReplaceChildFlowCoordinator(::HMUI::FlowCoordinator*  flowCoordinator, ::System::Action*  finishedCallback, ::HMUI::ViewController_AnimationDirection  animationDirection, bool  immediately) ;
+  /// @brief Method ReplaceChildFlowCoordinator, addr 0x3238204, size 0x328, virtual false, abstract: false, final false
+  inline void ReplaceChildFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
-/// @brief Method ReplaceTopViewController, addr 0x31fcb84, size 0xe0, virtual false, abstract: false, final false
-inline void ReplaceTopViewController(::HMUI::ViewController*  viewController, ::System::Action*  finishedCallback, ::HMUI::ViewController_AnimationType  animationType, ::HMUI::ViewController_AnimationDirection  animationDirection) ;
+  /// @brief Method ReplaceTopViewController, addr 0x32388b4, size 0xe0, virtual false, abstract: false, final false
+  inline void ReplaceTopViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationType animationType,
+                                       ::HMUI::ViewController_AnimationDirection animationDirection);
 
-/// @brief Method ReplaceTopViewController, addr 0x31fbd4c, size 0x270, virtual false, abstract: false, final false
-inline void ReplaceTopViewController(::HMUI::ViewController*  viewController, ::HMUI::FlowCoordinator*  originalOwnerFlowCoordinator, ::HMUI::FlowCoordinator*  newOwnerFlowCoordinator, ::System::Action*  finishedCallback, ::HMUI::ViewController_AnimationType  animationType, ::HMUI::ViewController_AnimationDirection  animationDirection) ;
+  /// @brief Method ReplaceTopViewController, addr 0x3237a7c, size 0x270, virtual false, abstract: false, final false
+  inline void ReplaceTopViewController(::HMUI::ViewController* viewController, ::HMUI::FlowCoordinator* originalOwnerFlowCoordinator, ::HMUI::FlowCoordinator* newOwnerFlowCoordinator,
+                                       ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationType animationType, ::HMUI::ViewController_AnimationDirection animationDirection);
 
-/// @brief Method SetBottomScreenViewController, addr 0x31fb298, size 0xd8, virtual false, abstract: false, final false
-inline void SetBottomScreenViewController(::HMUI::ViewController*  viewController, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method SetBottomScreenViewController, addr 0x3236fc8, size 0xd8, virtual false, abstract: false, final false
+  inline void SetBottomScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method SetGlobalUserInteraction, addr 0x31fc308, size 0x1c, virtual false, abstract: false, final false
-inline void SetGlobalUserInteraction(bool  value) ;
+  /// @brief Method SetGlobalUserInteraction, addr 0x3238038, size 0x1c, virtual false, abstract: false, final false
+  inline void SetGlobalUserInteraction(bool value);
 
-/// @brief Method SetLeftScreenViewController, addr 0x31fb0e8, size 0xd8, virtual false, abstract: false, final false
-inline void SetLeftScreenViewController(::HMUI::ViewController*  viewController, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method SetLeftScreenViewController, addr 0x3236e18, size 0xd8, virtual false, abstract: false, final false
+  inline void SetLeftScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method SetRightScreenViewController, addr 0x31fb1c0, size 0xd8, virtual false, abstract: false, final false
-inline void SetRightScreenViewController(::HMUI::ViewController*  viewController, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method SetRightScreenViewController, addr 0x3236ef0, size 0xd8, virtual false, abstract: false, final false
+  inline void SetRightScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method SetTitle, addr 0x31fad1c, size 0x50, virtual false, abstract: false, final false
-inline void SetTitle(::StringW  value, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method SetTitle, addr 0x3236a4c, size 0x50, virtual false, abstract: false, final false
+  inline void SetTitle(::StringW value, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method SetTopScreenViewController, addr 0x31fb370, size 0xd8, virtual false, abstract: false, final false
-inline void SetTopScreenViewController(::HMUI::ViewController*  viewController, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method SetTopScreenViewController, addr 0x32370a0, size 0xd8, virtual false, abstract: false, final false
+  inline void SetTopScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method SetViewControllerToNavigationController, addr 0x31fcf18, size 0x18, virtual false, abstract: false, final false
-inline void SetViewControllerToNavigationController(::HMUI::NavigationController*  navigationController, ::HMUI::ViewController*  viewController) ;
+  /// @brief Method SetViewControllerToNavigationController, addr 0x3238c48, size 0x18, virtual false, abstract: false, final false
+  inline void SetViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController);
 
-/// @brief Method SetViewControllersToNavigationController, addr 0x31fcf00, size 0x18, virtual false, abstract: false, final false
-inline void SetViewControllersToNavigationController(::HMUI::NavigationController*  navigationController, ::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>  viewControllers) ;
+  /// @brief Method SetViewControllersToNavigationController, addr 0x3238c30, size 0x18, virtual false, abstract: false, final false
+  inline void SetViewControllersToNavigationController(::HMUI::NavigationController* navigationController, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
-/// @brief Method TopViewControllerWillChange, addr 0x31fdb9c, size 0x4, virtual true, abstract: false, final false
-inline void TopViewControllerWillChange(::HMUI::ViewController*  oldViewController, ::HMUI::ViewController*  newViewController, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method TopViewControllerWillChange, addr 0x32398cc, size 0x4, virtual true, abstract: false, final false
+  inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method TransitionDidFinish, addr 0x31fdb94, size 0x8, virtual true, abstract: false, final false
-inline void TransitionDidFinish() ;
+  /// @brief Method TransitionDidFinish, addr 0x32398c4, size 0x8, virtual true, abstract: false, final false
+  inline void TransitionDidFinish();
 
-/// @brief Method TransitionDidStart, addr 0x31fdb88, size 0xc, virtual true, abstract: false, final false
-inline void TransitionDidStart() ;
+  /// @brief Method TransitionDidStart, addr 0x32398b8, size 0xc, virtual true, abstract: false, final false
+  inline void TransitionDidStart();
 
-/// @brief Method YoungestChildFlowCoordinatorOrSelf, addr 0x31fd460, size 0x80, virtual false, abstract: false, final false
-inline ::UnityW<::HMUI::FlowCoordinator> YoungestChildFlowCoordinatorOrSelf() ;
+  /// @brief Method YoungestChildFlowCoordinatorOrSelf, addr 0x3239190, size 0x80, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::FlowCoordinator> YoungestChildFlowCoordinatorOrSelf();
 
-/// @brief Method __ExternalActivate, addr 0x31fd650, size 0x1fc, virtual false, abstract: false, final false
-inline void __ExternalActivate() ;
+  /// @brief Method __ExternalActivate, addr 0x3239380, size 0x1fc, virtual false, abstract: false, final false
+  inline void __ExternalActivate();
 
-/// @brief Method __ExternalDeactivate, addr 0x31fd84c, size 0x20c, virtual false, abstract: false, final false
-inline void __ExternalDeactivate() ;
+  /// @brief Method __ExternalDeactivate, addr 0x323957c, size 0x20c, virtual false, abstract: false, final false
+  inline void __ExternalDeactivate();
 
-/// @brief Method __StartOnScreenSystem, addr 0x31fae94, size 0x188, virtual false, abstract: false, final false
-inline void __StartOnScreenSystem(::HMUI::ScreenSystem*  screenSystem) ;
+  /// @brief Method __StartOnScreenSystem, addr 0x3236bc4, size 0x188, virtual false, abstract: false, final false
+  inline void __StartOnScreenSystem(::HMUI::ScreenSystem* screenSystem);
 
-constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule> const& __cordl_internal_get__baseInputModule() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule> const& __cordl_internal_get__baseInputModule() const;
 
-constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule>& __cordl_internal_get__baseInputModule() ;
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule>& __cordl_internal_get__baseInputModule();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__bottomScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__bottomScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__bottomScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__bottomScreenViewController();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__childFlowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__childFlowCoordinator() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__childFlowCoordinator() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__childFlowCoordinator();
 
-constexpr bool const& __cordl_internal_get__isActivated() const;
+  constexpr bool const& __cordl_internal_get__isActivated() const;
 
-constexpr bool& __cordl_internal_get__isActivated() ;
+  constexpr bool& __cordl_internal_get__isActivated();
 
-constexpr bool const& __cordl_internal_get__isInDidActivatePhase() const;
+  constexpr bool const& __cordl_internal_get__isInDidActivatePhase() const;
 
-constexpr bool& __cordl_internal_get__isInDidActivatePhase() ;
+  constexpr bool& __cordl_internal_get__isInDidActivatePhase();
 
-constexpr bool const& __cordl_internal_get__isInTransition() const;
+  constexpr bool const& __cordl_internal_get__isInTransition() const;
 
-constexpr bool& __cordl_internal_get__isInTransition() ;
+  constexpr bool& __cordl_internal_get__isInTransition();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__leftScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__leftScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__leftScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__leftScreenViewController();
 
-constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* const& __cordl_internal_get__mainScreenViewControllers() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* const& __cordl_internal_get__mainScreenViewControllers() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get__mainScreenViewControllers() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get__mainScreenViewControllers();
 
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__parentFlowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__parentFlowCoordinator() const;
 
-constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__parentFlowCoordinator() ;
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__parentFlowCoordinator();
 
-constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get__prevEventSystem() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get__prevEventSystem() const;
 
-constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get__prevEventSystem() ;
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get__prevEventSystem();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedBottomScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedBottomScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedBottomScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedBottomScreenViewController();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedLeftScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedLeftScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedLeftScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedLeftScreenViewController();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedMainViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedMainViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedMainViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedMainViewController();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedRightScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedRightScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedRightScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedRightScreenViewController();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedTopScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__providedTopScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedTopScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__providedTopScreenViewController();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__rightScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__rightScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__rightScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__rightScreenViewController();
 
-constexpr ::UnityW<::HMUI::ScreenSystem> const& __cordl_internal_get__screenSystem() const;
+  constexpr ::UnityW<::HMUI::ScreenSystem> const& __cordl_internal_get__screenSystem() const;
 
-constexpr ::UnityW<::HMUI::ScreenSystem>& __cordl_internal_get__screenSystem() ;
+  constexpr ::UnityW<::HMUI::ScreenSystem>& __cordl_internal_get__screenSystem();
 
-constexpr bool const& __cordl_internal_get__showBackButton() const;
+  constexpr bool const& __cordl_internal_get__showBackButton() const;
 
-constexpr bool& __cordl_internal_get__showBackButton() ;
+  constexpr bool& __cordl_internal_get__showBackButton();
 
-constexpr ::StringW const& __cordl_internal_get__title() const;
+  constexpr ::StringW const& __cordl_internal_get__title() const;
 
-constexpr ::StringW& __cordl_internal_get__title() ;
+  constexpr ::StringW& __cordl_internal_get__title();
 
-constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__topScreenViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__topScreenViewController() const;
 
-constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__topScreenViewController() ;
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__topScreenViewController();
 
-constexpr bool const& __cordl_internal_get__viewControllersWereProvided() const;
+  constexpr bool const& __cordl_internal_get__viewControllersWereProvided() const;
 
-constexpr bool& __cordl_internal_get__viewControllersWereProvided() ;
+  constexpr bool& __cordl_internal_get__viewControllersWereProvided();
 
-constexpr bool const& __cordl_internal_get__wasActivatedBefore() const;
+  constexpr bool const& __cordl_internal_get__wasActivatedBefore() const;
 
-constexpr bool& __cordl_internal_get__wasActivatedBefore() ;
+  constexpr bool& __cordl_internal_get__wasActivatedBefore();
 
-constexpr void __cordl_internal_set__baseInputModule(::UnityW<::UnityEngine::EventSystems::BaseInputModule>  value) ;
+  constexpr void __cordl_internal_set__baseInputModule(::UnityW<::UnityEngine::EventSystems::BaseInputModule> value);
 
-constexpr void __cordl_internal_set__bottomScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__bottomScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__childFlowCoordinator(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set__childFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set__isActivated(bool  value) ;
+  constexpr void __cordl_internal_set__isActivated(bool value);
 
-constexpr void __cordl_internal_set__isInDidActivatePhase(bool  value) ;
+  constexpr void __cordl_internal_set__isInDidActivatePhase(bool value);
 
-constexpr void __cordl_internal_set__isInTransition(bool  value) ;
+  constexpr void __cordl_internal_set__isInTransition(bool value);
 
-constexpr void __cordl_internal_set__leftScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__leftScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__mainScreenViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*  value) ;
+  constexpr void __cordl_internal_set__mainScreenViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* value);
 
-constexpr void __cordl_internal_set__parentFlowCoordinator(::UnityW<::HMUI::FlowCoordinator>  value) ;
+  constexpr void __cordl_internal_set__parentFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-constexpr void __cordl_internal_set__prevEventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem>  value) ;
+  constexpr void __cordl_internal_set__prevEventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
-constexpr void __cordl_internal_set__providedBottomScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__providedBottomScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__providedLeftScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__providedLeftScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__providedMainViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__providedMainViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__providedRightScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__providedRightScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__providedTopScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__providedTopScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__rightScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__rightScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__screenSystem(::UnityW<::HMUI::ScreenSystem>  value) ;
+  constexpr void __cordl_internal_set__screenSystem(::UnityW<::HMUI::ScreenSystem> value);
 
-constexpr void __cordl_internal_set__showBackButton(bool  value) ;
+  constexpr void __cordl_internal_set__showBackButton(bool value);
 
-constexpr void __cordl_internal_set__title(::StringW  value) ;
+  constexpr void __cordl_internal_set__title(::StringW value);
 
-constexpr void __cordl_internal_set__topScreenViewController(::UnityW<::HMUI::ViewController>  value) ;
+  constexpr void __cordl_internal_set__topScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-constexpr void __cordl_internal_set__viewControllersWereProvided(bool  value) ;
+  constexpr void __cordl_internal_set__viewControllersWereProvided(bool value);
 
-constexpr void __cordl_internal_set__wasActivatedBefore(bool  value) ;
+  constexpr void __cordl_internal_set__wasActivatedBefore(bool value);
 
-/// @brief Method .ctor, addr 0x31fdc04, size 0x78, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3239934, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_childFlowCoordinator, addr 0x31facfc, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::HMUI::FlowCoordinator> get_childFlowCoordinator() ;
+  /// @brief Method get_childFlowCoordinator, addr 0x3236a2c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::FlowCoordinator> get_childFlowCoordinator();
 
-/// @brief Method get_isActivated, addr 0x31fad04, size 0x8, virtual false, abstract: false, final false
-inline bool get_isActivated() ;
+  /// @brief Method get_isActivated, addr 0x3236a34, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isActivated();
 
-/// @brief Method get_isInTransition, addr 0x31fad0c, size 0x8, virtual false, abstract: false, final false
-inline bool get_isInTransition() ;
+  /// @brief Method get_isInTransition, addr 0x3236a3c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isInTransition();
 
-/// @brief Method get_rightScreenViewController, addr 0x31facf4, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::HMUI::ViewController> get_rightScreenViewController() ;
+  /// @brief Method get_rightScreenViewController, addr 0x3236a24, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::ViewController> get_rightScreenViewController();
 
-/// @brief Method get_showBackButton, addr 0x31fae8c, size 0x8, virtual false, abstract: false, final false
-inline bool get_showBackButton() ;
+  /// @brief Method get_showBackButton, addr 0x3236bbc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_showBackButton();
 
-/// @brief Method get_title, addr 0x31fad14, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_title() ;
+  /// @brief Method get_title, addr 0x3236a44, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_title();
 
-/// @brief Method get_topViewController, addr 0x31fac70, size 0x84, virtual false, abstract: false, final false
-inline ::UnityW<::HMUI::ViewController> get_topViewController() ;
+  /// @brief Method get_topViewController, addr 0x32369a0, size 0x84, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::ViewController> get_topViewController();
 
-/// @brief Method set_showBackButton, addr 0x31fae84, size 0x8, virtual false, abstract: false, final false
-inline void set_showBackButton(bool  value) ;
+  /// @brief Method set_showBackButton, addr 0x3236bb4, size 0x8, virtual false, abstract: false, final false
+  inline void set_showBackButton(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FlowCoordinator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlowCoordinator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FlowCoordinator(FlowCoordinator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FlowCoordinator(FlowCoordinator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FlowCoordinator(FlowCoordinator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FlowCoordinator(FlowCoordinator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20460 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20450};
+  /// @brief Field _baseInputModule, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::EventSystems::BaseInputModule> ____baseInputModule;
 
-/// @brief Field _baseInputModule, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::UnityEngine::EventSystems::BaseInputModule>  ____baseInputModule;
+  /// @brief Field _screenSystem, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::ScreenSystem> ____screenSystem;
 
-/// @brief Field _screenSystem, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::ScreenSystem>  ____screenSystem;
+  /// @brief Field _parentFlowCoordinator, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> ____parentFlowCoordinator;
 
-/// @brief Field _parentFlowCoordinator, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  ____parentFlowCoordinator;
+  /// @brief Field _childFlowCoordinator, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::HMUI::FlowCoordinator> ____childFlowCoordinator;
 
-/// @brief Field _childFlowCoordinator, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::HMUI::FlowCoordinator>  ____childFlowCoordinator;
+  /// @brief Field _mainScreenViewControllers, offset: 0x40, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* ____mainScreenViewControllers;
 
-/// @brief Field _mainScreenViewControllers, offset: 0x40, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*  ____mainScreenViewControllers;
+  /// @brief Field _leftScreenViewController, offset: 0x48, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____leftScreenViewController;
 
-/// @brief Field _leftScreenViewController, offset: 0x48, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____leftScreenViewController;
+  /// @brief Field _rightScreenViewController, offset: 0x50, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____rightScreenViewController;
 
-/// @brief Field _rightScreenViewController, offset: 0x50, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____rightScreenViewController;
+  /// @brief Field _bottomScreenViewController, offset: 0x58, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____bottomScreenViewController;
 
-/// @brief Field _bottomScreenViewController, offset: 0x58, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____bottomScreenViewController;
+  /// @brief Field _topScreenViewController, offset: 0x60, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____topScreenViewController;
 
-/// @brief Field _topScreenViewController, offset: 0x60, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____topScreenViewController;
+  /// @brief Field _wasActivatedBefore, offset: 0x68, size: 0x1, def value: None
+  bool ____wasActivatedBefore;
 
-/// @brief Field _wasActivatedBefore, offset: 0x68, size: 0x1, def value: None
- bool  ____wasActivatedBefore;
+  /// @brief Field _title, offset: 0x70, size: 0x8, def value: None
+  ::StringW ____title;
 
-/// @brief Field _title, offset: 0x70, size: 0x8, def value: None
- ::StringW  ____title;
+  /// @brief Field _providedMainViewController, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____providedMainViewController;
 
-/// @brief Field _providedMainViewController, offset: 0x78, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____providedMainViewController;
+  /// @brief Field _providedLeftScreenViewController, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____providedLeftScreenViewController;
 
-/// @brief Field _providedLeftScreenViewController, offset: 0x80, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____providedLeftScreenViewController;
+  /// @brief Field _providedRightScreenViewController, offset: 0x88, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____providedRightScreenViewController;
 
-/// @brief Field _providedRightScreenViewController, offset: 0x88, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____providedRightScreenViewController;
+  /// @brief Field _providedBottomScreenViewController, offset: 0x90, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____providedBottomScreenViewController;
 
-/// @brief Field _providedBottomScreenViewController, offset: 0x90, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____providedBottomScreenViewController;
+  /// @brief Field _providedTopScreenViewController, offset: 0x98, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ____providedTopScreenViewController;
 
-/// @brief Field _providedTopScreenViewController, offset: 0x98, size: 0x8, def value: None
- ::UnityW<::HMUI::ViewController>  ____providedTopScreenViewController;
+  /// @brief Field _viewControllersWereProvided, offset: 0xa0, size: 0x1, def value: None
+  bool ____viewControllersWereProvided;
 
-/// @brief Field _viewControllersWereProvided, offset: 0xa0, size: 0x1, def value: None
- bool  ____viewControllersWereProvided;
+  /// @brief Field _isInDidActivatePhase, offset: 0xa1, size: 0x1, def value: None
+  bool ____isInDidActivatePhase;
 
-/// @brief Field _isInDidActivatePhase, offset: 0xa1, size: 0x1, def value: None
- bool  ____isInDidActivatePhase;
+  /// @brief Field _isActivated, offset: 0xa2, size: 0x1, def value: None
+  bool ____isActivated;
 
-/// @brief Field _isActivated, offset: 0xa2, size: 0x1, def value: None
- bool  ____isActivated;
+  /// @brief Field _isInTransition, offset: 0xa3, size: 0x1, def value: None
+  bool ____isInTransition;
 
-/// @brief Field _isInTransition, offset: 0xa3, size: 0x1, def value: None
- bool  ____isInTransition;
+  /// @brief Field _showBackButton, offset: 0xa4, size: 0x1, def value: None
+  bool ____showBackButton;
 
-/// @brief Field _showBackButton, offset: 0xa4, size: 0x1, def value: None
- bool  ____showBackButton;
+  /// @brief Field _prevEventSystem, offset: 0xa8, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::EventSystems::EventSystem> ____prevEventSystem;
 
-/// @brief Field _prevEventSystem, offset: 0xa8, size: 0x8, def value: None
- ::UnityW<::UnityEngine::EventSystems::EventSystem>  ____prevEventSystem;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::FlowCoordinator, ____baseInputModule) == 0x20, "Offset mismatch!");
@@ -1644,7 +1664,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator, ____prevEventSystem) == 0xa8, "O
 
 static_assert(::cordl_internals::size_check_v<::HMUI::FlowCoordinator, 0xb0>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 NEED_NO_BOX(::HMUI::FlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::FlowCoordinator*, "HMUI", "FlowCoordinator");
 NEED_NO_BOX(::HMUI::FlowCoordinator___c__DisplayClass39_0);

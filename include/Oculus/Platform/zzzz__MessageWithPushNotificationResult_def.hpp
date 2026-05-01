@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithPushNotificationResult
 class CORDL_TYPE MessageWithPushNotificationResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PushNotificationResult*> {
 public:
-// Declarations
-/// @brief Method GetDataFromMessage, addr 0x5c2ec20, size 0x9c, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::PushNotificationResult* GetDataFromMessage(::System::IntPtr  c_message) ;
+  // Declarations
+  /// @brief Method GetDataFromMessage, addr 0x5ca0c08, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::PushNotificationResult* GetDataFromMessage(::System::IntPtr c_message);
 
-/// @brief Method GetPushNotificationResult, addr 0x5c2ebdc, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::PushNotificationResult* GetPushNotificationResult() ;
+  /// @brief Method GetPushNotificationResult, addr 0x5ca0bc4, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::PushNotificationResult* GetPushNotificationResult();
 
-static inline ::Oculus::Platform::MessageWithPushNotificationResult* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithPushNotificationResult* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c29ea8, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5c9be90, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithPushNotificationResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithPushNotificationResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithPushNotificationResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithPushNotificationResult(MessageWithPushNotificationResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithPushNotificationResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithPushNotificationResult(MessageWithPushNotificationResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithPushNotificationResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithPushNotificationResult(MessageWithPushNotificationResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithPushNotificationResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithPushNotificationResult(MessageWithPushNotificationResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17894 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17886};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithPushNotificationResult, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithPushNotificationResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithPushNotificationResult*, "Oculus.Platform", "MessageWithPushNotificationResult");

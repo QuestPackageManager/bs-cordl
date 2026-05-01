@@ -42,201 +42,201 @@ namespace System::Runtime::Remoting {
 // CS Name: System.Runtime.Remoting.ConfigHandler
 class CORDL_TYPE ConfigHandler : public ::System::Object {
 public:
-// Declarations
-/// @brief Field appName, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_appName, put=__cordl_internal_set_appName)) ::StringW  appName;
+  // Declarations
+  /// @brief Field appName, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_appName, put = __cordl_internal_set_appName)) ::StringW appName;
 
-/// @brief Field channelInstances, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_channelInstances, put=__cordl_internal_set_channelInstances)) ::System::Collections::ArrayList*  channelInstances;
+  /// @brief Field channelInstances, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_channelInstances, put = __cordl_internal_set_channelInstances)) ::System::Collections::ArrayList* channelInstances;
 
-/// @brief Field currentChannel, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_currentChannel, put=__cordl_internal_set_currentChannel)) ::System::Runtime::Remoting::ChannelData*  currentChannel;
+  /// @brief Field currentChannel, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_currentChannel, put = __cordl_internal_set_currentChannel)) ::System::Runtime::Remoting::ChannelData* currentChannel;
 
-/// @brief Field currentClientUrl, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_currentClientUrl, put=__cordl_internal_set_currentClientUrl)) ::StringW  currentClientUrl;
+  /// @brief Field currentClientUrl, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_currentClientUrl, put = __cordl_internal_set_currentClientUrl)) ::StringW currentClientUrl;
 
-/// @brief Field currentProviderData, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_currentProviderData, put=__cordl_internal_set_currentProviderData)) ::System::Collections::Stack*  currentProviderData;
+  /// @brief Field currentProviderData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_currentProviderData, put = __cordl_internal_set_currentProviderData)) ::System::Collections::Stack* currentProviderData;
 
-/// @brief Field currentXmlPath, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get_currentXmlPath, put=__cordl_internal_set_currentXmlPath)) ::StringW  currentXmlPath;
+  /// @brief Field currentXmlPath, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_currentXmlPath, put = __cordl_internal_set_currentXmlPath)) ::StringW currentXmlPath;
 
-/// @brief Field onlyDelayedChannels, offset 0x48, size 0x1 
- __declspec(property(get=__cordl_internal_get_onlyDelayedChannels, put=__cordl_internal_set_onlyDelayedChannels)) bool  onlyDelayedChannels;
+  /// @brief Field onlyDelayedChannels, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get_onlyDelayedChannels, put = __cordl_internal_set_onlyDelayedChannels)) bool onlyDelayedChannels;
 
-/// @brief Field typeEntries, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_typeEntries, put=__cordl_internal_set_typeEntries)) ::System::Collections::ArrayList*  typeEntries;
+  /// @brief Field typeEntries, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_typeEntries, put = __cordl_internal_set_typeEntries)) ::System::Collections::ArrayList* typeEntries;
 
-/// @brief Convert operator to "::Mono::Xml::SmallXmlParser_IContentHandler"
-constexpr operator  ::Mono::Xml::SmallXmlParser_IContentHandler*() noexcept;
+  /// @brief Convert operator to "::Mono::Xml::SmallXmlParser_IContentHandler"
+  constexpr operator ::Mono::Xml::SmallXmlParser_IContentHandler*() noexcept;
 
-/// @brief Method CheckPath, addr 0x59754a8, size 0xe4, virtual false, abstract: false, final false
-inline bool CheckPath(::StringW  path) ;
+  /// @brief Method CheckPath, addr 0x59e7414, size 0xe4, virtual false, abstract: false, final false
+  inline bool CheckPath(::StringW path);
 
-/// @brief Method ExtractAssembly, addr 0x5978488, size 0xd0, virtual false, abstract: false, final false
-inline ::StringW ExtractAssembly(::ByRef<::StringW>  type) ;
+  /// @brief Method ExtractAssembly, addr 0x59ea3f4, size 0xd0, virtual false, abstract: false, final false
+  inline ::StringW ExtractAssembly(::ByRef<::StringW> type);
 
-/// @brief Method GetNotNull, addr 0x5978348, size 0x140, virtual false, abstract: false, final false
-inline ::StringW GetNotNull(::Mono::Xml::SmallXmlParser_IAttrList*  attrs, ::StringW  name) ;
+  /// @brief Method GetNotNull, addr 0x59ea2b4, size 0x140, virtual false, abstract: false, final false
+  inline ::StringW GetNotNull(::Mono::Xml::SmallXmlParser_IAttrList* attrs, ::StringW name);
 
-static inline ::System::Runtime::Remoting::ConfigHandler* New_ctor(bool  onlyDelayedChannels) ;
+  static inline ::System::Runtime::Remoting::ConfigHandler* New_ctor(bool onlyDelayedChannels);
 
-/// @brief Method OnChars, addr 0x5978558, size 0x4, virtual true, abstract: false, final true
-inline void OnChars(::StringW  ch) ;
+  /// @brief Method OnChars, addr 0x59ea4c4, size 0x4, virtual true, abstract: false, final true
+  inline void OnChars(::StringW ch);
 
-/// @brief Method OnEndElement, addr 0x5977ef0, size 0x80, virtual true, abstract: false, final true
-inline void OnEndElement(::StringW  name) ;
+  /// @brief Method OnEndElement, addr 0x59e9e5c, size 0x80, virtual true, abstract: false, final true
+  inline void OnEndElement(::StringW name);
 
-/// @brief Method OnEndParsing, addr 0x597855c, size 0x100, virtual true, abstract: false, final true
-inline void OnEndParsing(::Mono::Xml::SmallXmlParser*  parser) ;
+  /// @brief Method OnEndParsing, addr 0x59ea4c8, size 0x100, virtual true, abstract: false, final true
+  inline void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
 
-/// @brief Method OnIgnorableWhitespace, addr 0x5975594, size 0x4, virtual true, abstract: false, final true
-inline void OnIgnorableWhitespace(::StringW  s) ;
+  /// @brief Method OnIgnorableWhitespace, addr 0x59e7500, size 0x4, virtual true, abstract: false, final true
+  inline void OnIgnorableWhitespace(::StringW s);
 
-/// @brief Method OnProcessingInstruction, addr 0x5975590, size 0x4, virtual true, abstract: false, final true
-inline void OnProcessingInstruction(::StringW  name, ::StringW  text) ;
+  /// @brief Method OnProcessingInstruction, addr 0x59e74fc, size 0x4, virtual true, abstract: false, final true
+  inline void OnProcessingInstruction(::StringW name, ::StringW text);
 
-/// @brief Method OnStartElement, addr 0x5975598, size 0x1c0, virtual true, abstract: false, final true
-inline void OnStartElement(::StringW  name, ::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method OnStartElement, addr 0x59e7504, size 0x1c0, virtual true, abstract: false, final true
+  inline void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method OnStartParsing, addr 0x597558c, size 0x4, virtual true, abstract: false, final true
-inline void OnStartParsing(::Mono::Xml::SmallXmlParser*  parser) ;
+  /// @brief Method OnStartParsing, addr 0x59e74f8, size 0x4, virtual true, abstract: false, final true
+  inline void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
 
-/// @brief Method ParseElement, addr 0x5975758, size 0xdb4, virtual false, abstract: false, final false
-inline void ParseElement(::StringW  name, ::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ParseElement, addr 0x59e76c4, size 0xdb4, virtual false, abstract: false, final false
+  inline void ParseElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ParseTime, addr 0x5977f70, size 0x3d8, virtual false, abstract: false, final false
-inline ::System::TimeSpan ParseTime(::StringW  s) ;
+  /// @brief Method ParseTime, addr 0x59e9edc, size 0x3d8, virtual false, abstract: false, final false
+  inline ::System::TimeSpan ParseTime(::StringW s);
 
-/// @brief Method ReadChannel, addr 0x5976df4, size 0x3cc, virtual false, abstract: false, final false
-inline void ReadChannel(::Mono::Xml::SmallXmlParser_IAttrList*  attrs, bool  isTemplate) ;
+  /// @brief Method ReadChannel, addr 0x59e8d60, size 0x3cc, virtual false, abstract: false, final false
+  inline void ReadChannel(::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isTemplate);
 
-/// @brief Method ReadClientActivated, addr 0x59778b4, size 0x148, virtual false, abstract: false, final false
-inline void ReadClientActivated(::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ReadClientActivated, addr 0x59e9820, size 0x148, virtual false, abstract: false, final false
+  inline void ReadClientActivated(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ReadClientWellKnown, addr 0x59775cc, size 0xfc, virtual false, abstract: false, final false
-inline void ReadClientWellKnown(::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ReadClientWellKnown, addr 0x59e9538, size 0xfc, virtual false, abstract: false, final false
+  inline void ReadClientWellKnown(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ReadCustomProviderData, addr 0x597650c, size 0x370, virtual false, abstract: false, final false
-inline void ReadCustomProviderData(::StringW  name, ::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ReadCustomProviderData, addr 0x59e8478, size 0x370, virtual false, abstract: false, final false
+  inline void ReadCustomProviderData(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ReadInteropXml, addr 0x5977ac0, size 0x1ac, virtual false, abstract: false, final false
-inline void ReadInteropXml(::Mono::Xml::SmallXmlParser_IAttrList*  attrs, bool  isElement) ;
+  /// @brief Method ReadInteropXml, addr 0x59e9a2c, size 0x1ac, virtual false, abstract: false, final false
+  inline void ReadInteropXml(::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isElement);
 
-/// @brief Method ReadLifetine, addr 0x597687c, size 0x578, virtual false, abstract: false, final false
-inline void ReadLifetine(::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ReadLifetine, addr 0x59e87e8, size 0x578, virtual false, abstract: false, final false
+  inline void ReadLifetine(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ReadPreload, addr 0x5977c6c, size 0x284, virtual false, abstract: false, final false
-inline void ReadPreload(::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ReadPreload, addr 0x59e9bd8, size 0x284, virtual false, abstract: false, final false
+  inline void ReadPreload(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ReadProvider, addr 0x59771c0, size 0x40c, virtual false, abstract: false, final false
-inline ::System::Runtime::Remoting::ProviderData* ReadProvider(::StringW  name, ::Mono::Xml::SmallXmlParser_IAttrList*  attrs, bool  isTemplate) ;
+  /// @brief Method ReadProvider, addr 0x59e912c, size 0x40c, virtual false, abstract: false, final false
+  inline ::System::Runtime::Remoting::ProviderData* ReadProvider(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isTemplate);
 
-/// @brief Method ReadServiceActivated, addr 0x59779fc, size 0xc4, virtual false, abstract: false, final false
-inline void ReadServiceActivated(::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ReadServiceActivated, addr 0x59e9968, size 0xc4, virtual false, abstract: false, final false
+  inline void ReadServiceActivated(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ReadServiceWellKnown, addr 0x59776c8, size 0x1ec, virtual false, abstract: false, final false
-inline void ReadServiceWellKnown(::Mono::Xml::SmallXmlParser_IAttrList*  attrs) ;
+  /// @brief Method ReadServiceWellKnown, addr 0x59e9634, size 0x1ec, virtual false, abstract: false, final false
+  inline void ReadServiceWellKnown(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-/// @brief Method ValidatePath, addr 0x59753c8, size 0xe0, virtual false, abstract: false, final false
-inline void ValidatePath(::StringW  element, ::ArrayW<::StringW,::Array<::StringW>*>  paths) ;
+  /// @brief Method ValidatePath, addr 0x59e7334, size 0xe0, virtual false, abstract: false, final false
+  inline void ValidatePath(::StringW element, ::ArrayW<::StringW, ::Array<::StringW>*> paths);
 
-constexpr ::StringW const& __cordl_internal_get_appName() const;
+  constexpr ::StringW const& __cordl_internal_get_appName() const;
 
-constexpr ::StringW& __cordl_internal_get_appName() ;
+  constexpr ::StringW& __cordl_internal_get_appName();
 
-constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_channelInstances() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_channelInstances() const;
 
-constexpr ::System::Collections::ArrayList*& __cordl_internal_get_channelInstances() ;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_channelInstances();
 
-constexpr ::System::Runtime::Remoting::ChannelData* const& __cordl_internal_get_currentChannel() const;
+  constexpr ::System::Runtime::Remoting::ChannelData* const& __cordl_internal_get_currentChannel() const;
 
-constexpr ::System::Runtime::Remoting::ChannelData*& __cordl_internal_get_currentChannel() ;
+  constexpr ::System::Runtime::Remoting::ChannelData*& __cordl_internal_get_currentChannel();
 
-constexpr ::StringW const& __cordl_internal_get_currentClientUrl() const;
+  constexpr ::StringW const& __cordl_internal_get_currentClientUrl() const;
 
-constexpr ::StringW& __cordl_internal_get_currentClientUrl() ;
+  constexpr ::StringW& __cordl_internal_get_currentClientUrl();
 
-constexpr ::System::Collections::Stack* const& __cordl_internal_get_currentProviderData() const;
+  constexpr ::System::Collections::Stack* const& __cordl_internal_get_currentProviderData() const;
 
-constexpr ::System::Collections::Stack*& __cordl_internal_get_currentProviderData() ;
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_currentProviderData();
 
-constexpr ::StringW const& __cordl_internal_get_currentXmlPath() const;
+  constexpr ::StringW const& __cordl_internal_get_currentXmlPath() const;
 
-constexpr ::StringW& __cordl_internal_get_currentXmlPath() ;
+  constexpr ::StringW& __cordl_internal_get_currentXmlPath();
 
-constexpr bool const& __cordl_internal_get_onlyDelayedChannels() const;
+  constexpr bool const& __cordl_internal_get_onlyDelayedChannels() const;
 
-constexpr bool& __cordl_internal_get_onlyDelayedChannels() ;
+  constexpr bool& __cordl_internal_get_onlyDelayedChannels();
 
-constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_typeEntries() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_typeEntries() const;
 
-constexpr ::System::Collections::ArrayList*& __cordl_internal_get_typeEntries() ;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_typeEntries();
 
-constexpr void __cordl_internal_set_appName(::StringW  value) ;
+  constexpr void __cordl_internal_set_appName(::StringW value);
 
-constexpr void __cordl_internal_set_channelInstances(::System::Collections::ArrayList*  value) ;
+  constexpr void __cordl_internal_set_channelInstances(::System::Collections::ArrayList* value);
 
-constexpr void __cordl_internal_set_currentChannel(::System::Runtime::Remoting::ChannelData*  value) ;
+  constexpr void __cordl_internal_set_currentChannel(::System::Runtime::Remoting::ChannelData* value);
 
-constexpr void __cordl_internal_set_currentClientUrl(::StringW  value) ;
+  constexpr void __cordl_internal_set_currentClientUrl(::StringW value);
 
-constexpr void __cordl_internal_set_currentProviderData(::System::Collections::Stack*  value) ;
+  constexpr void __cordl_internal_set_currentProviderData(::System::Collections::Stack* value);
 
-constexpr void __cordl_internal_set_currentXmlPath(::StringW  value) ;
+  constexpr void __cordl_internal_set_currentXmlPath(::StringW value);
 
-constexpr void __cordl_internal_set_onlyDelayedChannels(bool  value) ;
+  constexpr void __cordl_internal_set_onlyDelayedChannels(bool value);
 
-constexpr void __cordl_internal_set_typeEntries(::System::Collections::ArrayList*  value) ;
+  constexpr void __cordl_internal_set_typeEntries(::System::Collections::ArrayList* value);
 
-/// @brief Method .ctor, addr 0x5973008, size 0xa8, virtual false, abstract: false, final false
-inline void _ctor(bool  onlyDelayedChannels) ;
+  /// @brief Method .ctor, addr 0x59e4f74, size 0xa8, virtual false, abstract: false, final false
+  inline void _ctor(bool onlyDelayedChannels);
 
-/// @brief Convert to "::Mono::Xml::SmallXmlParser_IContentHandler"
-constexpr ::Mono::Xml::SmallXmlParser_IContentHandler* i___Mono__Xml__SmallXmlParser_IContentHandler() noexcept;
+  /// @brief Convert to "::Mono::Xml::SmallXmlParser_IContentHandler"
+  constexpr ::Mono::Xml::SmallXmlParser_IContentHandler* i___Mono__Xml__SmallXmlParser_IContentHandler() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConfigHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConfigHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConfigHandler(ConfigHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConfigHandler(ConfigHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConfigHandler(ConfigHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConfigHandler(ConfigHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3081 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3081};
+  /// @brief Field typeEntries, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::ArrayList* ___typeEntries;
 
-/// @brief Field typeEntries, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::ArrayList*  ___typeEntries;
+  /// @brief Field channelInstances, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::ArrayList* ___channelInstances;
 
-/// @brief Field channelInstances, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::ArrayList*  ___channelInstances;
+  /// @brief Field currentChannel, offset: 0x20, size: 0x8, def value: None
+  ::System::Runtime::Remoting::ChannelData* ___currentChannel;
 
-/// @brief Field currentChannel, offset: 0x20, size: 0x8, def value: None
- ::System::Runtime::Remoting::ChannelData*  ___currentChannel;
+  /// @brief Field currentProviderData, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Stack* ___currentProviderData;
 
-/// @brief Field currentProviderData, offset: 0x28, size: 0x8, def value: None
- ::System::Collections::Stack*  ___currentProviderData;
+  /// @brief Field currentClientUrl, offset: 0x30, size: 0x8, def value: None
+  ::StringW ___currentClientUrl;
 
-/// @brief Field currentClientUrl, offset: 0x30, size: 0x8, def value: None
- ::StringW  ___currentClientUrl;
+  /// @brief Field appName, offset: 0x38, size: 0x8, def value: None
+  ::StringW ___appName;
 
-/// @brief Field appName, offset: 0x38, size: 0x8, def value: None
- ::StringW  ___appName;
+  /// @brief Field currentXmlPath, offset: 0x40, size: 0x8, def value: None
+  ::StringW ___currentXmlPath;
 
-/// @brief Field currentXmlPath, offset: 0x40, size: 0x8, def value: None
- ::StringW  ___currentXmlPath;
+  /// @brief Field onlyDelayedChannels, offset: 0x48, size: 0x1, def value: None
+  bool ___onlyDelayedChannels;
 
-/// @brief Field onlyDelayedChannels, offset: 0x48, size: 0x1, def value: None
- bool  ___onlyDelayedChannels;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::ConfigHandler, ___typeEntries) == 0x10, "Offset mismatch!");
@@ -257,6 +257,6 @@ static_assert(offsetof(::System::Runtime::Remoting::ConfigHandler, ___onlyDelaye
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ConfigHandler, 0x50>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting
+} // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ConfigHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ConfigHandler*, "System.Runtime.Remoting", "ConfigHandler");

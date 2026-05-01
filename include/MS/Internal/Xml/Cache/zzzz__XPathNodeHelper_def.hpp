@@ -21,47 +21,50 @@ namespace MS::Internal::Xml::Cache {
 // CS Name: MS.Internal.Xml.Cache.XPathNodeHelper
 class CORDL_TYPE XPathNodeHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetInScopeNamespaces, addr 0x60c6a24, size 0xcc, virtual false, abstract: false, final false
-static inline int32_t GetInScopeNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  pageElem, int32_t  idxElem, ::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>>  pageNmsp) ;
+  // Declarations
+  /// @brief Method GetInScopeNamespaces, addr 0x6138a30, size 0xcc, virtual false, abstract: false, final false
+  static inline int32_t GetInScopeNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
+                                             ::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
-/// @brief Method GetLocalNamespaces, addr 0x60c69b4, size 0x70, virtual false, abstract: false, final false
-static inline int32_t GetLocalNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  pageElem, int32_t  idxElem, ::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>>  pageNmsp) ;
+  /// @brief Method GetLocalNamespaces, addr 0x61389c0, size 0x70, virtual false, abstract: false, final false
+  static inline int32_t GetLocalNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
+                                           ::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
-/// @brief Method GetLocation, addr 0x60c70f0, size 0x38, virtual false, abstract: false, final false
-static inline int32_t GetLocation(::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  pageNode, int32_t  idxNode) ;
+  /// @brief Method GetLocation, addr 0x61390fc, size 0x38, virtual false, abstract: false, final false
+  static inline int32_t GetLocation(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageNode, int32_t idxNode);
 
-/// @brief Method GetNonDescendant, addr 0x60c64d4, size 0x7c, virtual false, abstract: false, final false
-static inline bool GetNonDescendant(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>>  pageNode, ::ByRef<int32_t>  idxNode) ;
+  /// @brief Method GetNonDescendant, addr 0x61384e0, size 0x7c, virtual false, abstract: false, final false
+  static inline bool GetNonDescendant(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode, ::ByRef<int32_t> idxNode);
 
-/// @brief Method GetParent, addr 0x60c6d00, size 0x5c, virtual false, abstract: false, final false
-static inline bool GetParent(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>>  pageNode, ::ByRef<int32_t>  idxNode) ;
+  /// @brief Method GetParent, addr 0x6138d0c, size 0x5c, virtual false, abstract: false, final false
+  static inline bool GetParent(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode, ::ByRef<int32_t> idxNode);
 
-/// @brief Method GetTextFollowing, addr 0x60c6550, size 0x168, virtual false, abstract: false, final false
-static inline bool GetTextFollowing(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>>  pageCurrent, ::ByRef<int32_t>  idxCurrent, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  pageEnd, int32_t  idxEnd) ;
+  /// @brief Method GetTextFollowing, addr 0x613855c, size 0x168, virtual false, abstract: false, final false
+  static inline bool GetTextFollowing(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageCurrent, ::ByRef<int32_t> idxCurrent,
+                                      ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageEnd, int32_t idxEnd);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XPathNodeHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XPathNodeHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XPathNodeHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XPathNodeHelper(XPathNodeHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XPathNodeHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XPathNodeHelper(XPathNodeHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XPathNodeHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XPathNodeHelper(XPathNodeHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XPathNodeHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XPathNodeHelper(XPathNodeHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9870 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9864};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathNodeHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def MS::Internal::Xml::Cache
+} // namespace MS::Internal::Xml::Cache
 NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathNodeHelper);
 DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodeHelper*, "MS.Internal.Xml.Cache", "XPathNodeHelper");

@@ -15,8 +15,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRLocatable)
 namespace GlobalNamespace {
-template<typename T>
-class IOVRAnchorComponent_1;
+template <typename T> class IOVRAnchorComponent_1;
 }
 namespace GlobalNamespace {
 struct OVRAnchor;
@@ -49,35 +48,28 @@ namespace GlobalNamespace {
 struct OVRPlugin_SpaceLocationFlags;
 }
 namespace GlobalNamespace {
-template<typename TResult>
-struct OVRTask_1;
+template <typename TResult> struct OVRTask_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
-template<typename T>
-class IEquatable_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template<typename T>
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobFor;
@@ -146,68 +138,74 @@ namespace GlobalNamespace {
 // CS Name: OVRLocatable/TrackingSpacePose
 struct CORDL_TYPE OVRLocatable_TrackingSpacePose {
 public:
-// Declarations
- __declspec(property(get=get_IsPositionTracked)) bool  IsPositionTracked;
+  // Declarations
+  __declspec(property(get = get_IsPositionTracked)) bool IsPositionTracked;
 
- __declspec(property(get=get_IsRotationTracked)) bool  IsRotationTracked;
+  __declspec(property(get = get_IsRotationTracked)) bool IsRotationTracked;
 
- __declspec(property(get=get_Position)) ::System::Nullable_1<::UnityEngine::Vector3>  Position;
+  __declspec(property(get = get_Position)) ::System::Nullable_1<::UnityEngine::Vector3> Position;
 
- __declspec(property(get=get_Rotation)) ::System::Nullable_1<::UnityEngine::Quaternion>  Rotation;
+  __declspec(property(get = get_Rotation)) ::System::Nullable_1<::UnityEngine::Quaternion> Rotation;
 
-/// @brief Method ComputeWorldPosition, addr 0x5c623d8, size 0x288, virtual false, abstract: false, final false
-inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Camera*  camera) ;
+  /// @brief Method ComputeWorldPosition, addr 0x5cd43c0, size 0x288, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Camera* camera);
 
-/// @brief Method ComputeWorldPosition, addr 0x5c62f30, size 0x14c, virtual false, abstract: false, final false
-inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Transform*  trackingSpaceToWorldSpaceTransform) ;
+  /// @brief Method ComputeWorldPosition, addr 0x5cd4f18, size 0x14c, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform);
 
-/// @brief Method ComputeWorldRotation, addr 0x5c62c64, size 0x2cc, virtual false, abstract: false, final false
-inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Camera*  camera) ;
+  /// @brief Method ComputeWorldRotation, addr 0x5cd4c4c, size 0x2cc, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Camera* camera);
 
-/// @brief Method ComputeWorldRotation, addr 0x5c6307c, size 0x1e4, virtual false, abstract: false, final false
-inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Transform*  trackingSpaceToWorldSpaceTransform) ;
+  /// @brief Method ComputeWorldRotation, addr 0x5cd5064, size 0x1e4, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform);
 
-/// @brief Method .ctor, addr 0x5c60fb4, size 0x170, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation, ::GlobalNamespace::OVRPlugin_SpaceLocationFlags  flags) ;
+  /// @brief Method .ctor, addr 0x5cd2f9c, size 0x170, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::GlobalNamespace::OVRPlugin_SpaceLocationFlags flags);
 
-/// @brief Method get_IsPositionTracked, addr 0x5c62320, size 0x5c, virtual false, abstract: false, final false
-inline bool get_IsPositionTracked() ;
+  /// @brief Method get_IsPositionTracked, addr 0x5cd4308, size 0x5c, virtual false, abstract: false, final false
+  inline bool get_IsPositionTracked();
 
-/// @brief Method get_IsRotationTracked, addr 0x5c6237c, size 0x5c, virtual false, abstract: false, final false
-inline bool get_IsRotationTracked() ;
+  /// @brief Method get_IsRotationTracked, addr 0x5cd4364, size 0x5c, virtual false, abstract: false, final false
+  inline bool get_IsRotationTracked();
 
-/// @brief Method get_Position, addr 0x5c62300, size 0xc, virtual false, abstract: false, final false
-inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position() ;
+  /// @brief Method get_Position, addr 0x5cd42e8, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
 
-/// @brief Method get_Rotation, addr 0x5c6230c, size 0x14, virtual false, abstract: false, final false
-inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation() ;
+  /// @brief Method get_Rotation, addr 0x5cd42f4, size 0x14, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable_TrackingSpacePose() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable_TrackingSpacePose();
 
-// Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "_Rotation_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Quaternion>", modifiers: "", def_value: None }, CppParam { name: "Flags", ty: "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: None }]
-constexpr OVRLocatable_TrackingSpacePose(::System::Nullable_1<::UnityEngine::Vector3>  _Position_k__BackingField, ::System::Nullable_1<::UnityEngine::Quaternion>  _Rotation_k__BackingField, ::GlobalNamespace::OVRPlugin_SpaceLocationFlags  Flags) noexcept;
+  // Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "_Rotation_k__BackingField",
+  // ty: "::System::Nullable_1<::UnityEngine::Quaternion>", modifiers: "", def_value: None }, CppParam { name: "Flags", ty: "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value:
+  // None }]
+  constexpr OVRLocatable_TrackingSpacePose(::System::Nullable_1<::UnityEngine::Vector3> _Position_k__BackingField, ::System::Nullable_1<::UnityEngine::Quaternion> _Rotation_k__BackingField,
+                                           ::GlobalNamespace::OVRPlugin_SpaceLocationFlags Flags) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7084};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7090 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field localToWorldPoseDeprecationMessage offset 0xffffffff size 0x8
-static constexpr ::ConstString  localToWorldPoseDeprecationMessage{u"Using this method after \'await locatable.SetEnabledAsync(true);\' is error-prone. OVRTask finishes the execution before OVRCameraRig.Update(), so camera will still use a pose from the previous frame. This results in descrepancy when localizing anchors against the stale camera pose.\nUse an overload with the \'trackingSpaceToWorldSpaceTransform\' parameter instead."};
+  /// @brief Field localToWorldPoseDeprecationMessage offset 0xffffffff size 0x8
+  static constexpr ::ConstString localToWorldPoseDeprecationMessage{
+    u"Using this method after \'await locatable.SetEnabledAsync(true);\' is error-prone. OVRTask finishes the execution before OVRCameraRig.Update(), so camera will still use a pose from the "
+    u"previous frame. This results in descrepancy when localizing anchors against the stale camera pose.\nUse an overload with the \'trackingSpaceToWorldSpaceTransform\' parameter instead."
+  };
 
-/// @brief Field <Position>k__BackingField, offset: 0x0, size: 0x10, def value: None
- ::System::Nullable_1<::UnityEngine::Vector3>  _Position_k__BackingField;
+  /// @brief Field <Position>k__BackingField, offset: 0x0, size: 0x10, def value: None
+  ::System::Nullable_1<::UnityEngine::Vector3> _Position_k__BackingField;
 
-/// @brief Field <Rotation>k__BackingField, offset: 0x10, size: 0x14, def value: None
- ::System::Nullable_1<::UnityEngine::Quaternion>  _Rotation_k__BackingField;
+  /// @brief Field <Rotation>k__BackingField, offset: 0x10, size: 0x14, def value: None
+  ::System::Nullable_1<::UnityEngine::Quaternion> _Rotation_k__BackingField;
 
-/// @brief Field Flags, offset: 0x28, size: 0x8, def value: None
- ::GlobalNamespace::OVRPlugin_SpaceLocationFlags  Flags;
+  /// @brief Field Flags, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::OVRPlugin_SpaceLocationFlags Flags;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable_TrackingSpacePose, _Position_k__BackingField) == 0x0, "Offset mismatch!");
@@ -218,182 +216,189 @@ static_assert(offsetof(::GlobalNamespace::OVRLocatable_TrackingSpacePose, Flags)
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable_TrackingSpacePose, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
-// Dependencies 
+} // namespace GlobalNamespace
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRLocatable
 struct CORDL_TYPE OVRLocatable {
 public:
-// Declarations
-using CopyPosesJob = ::GlobalNamespace::OVRLocatable_CopyPosesJob;
+  // Declarations
+  using CopyPosesJob = ::GlobalNamespace::OVRLocatable_CopyPosesJob;
 
-using GetSceneAnchorPosesJob = ::GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob;
+  using GetSceneAnchorPosesJob = ::GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob;
 
-using GetSpatialAnchorPosesJob = ::GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob;
+  using GetSpatialAnchorPosesJob = ::GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob;
 
-using SetLocalSpaceTransformsJob = ::GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob;
+  using SetLocalSpaceTransformsJob = ::GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob;
 
-using SetWorldSpaceTransformsJob = ::GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob;
+  using SetWorldSpaceTransformsJob = ::GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob;
 
-using TrackingSpacePose = ::GlobalNamespace::OVRLocatable_TrackingSpacePose;
+  using TrackingSpacePose = ::GlobalNamespace::OVRLocatable_TrackingSpacePose;
 
-using TransformPosesJob = ::GlobalNamespace::OVRLocatable_TransformPosesJob;
+  using TransformPosesJob = ::GlobalNamespace::OVRLocatable_TransformPosesJob;
 
- __declspec(property(get=get_Handle)) uint64_t  Handle;
+  __declspec(property(get = get_Handle)) uint64_t Handle;
 
- __declspec(property(get=IOVRAnchorComponent_OVRLocatable__get_Handle)) uint64_t  IOVRAnchorComponent_OVRLocatable__Handle;
+  __declspec(property(get = IOVRAnchorComponent_OVRLocatable__get_Handle)) uint64_t IOVRAnchorComponent_OVRLocatable__Handle;
 
- __declspec(property(get=IOVRAnchorComponent_OVRLocatable__get_Type)) ::GlobalNamespace::OVRPlugin_SpaceComponentType  IOVRAnchorComponent_OVRLocatable__Type;
+  __declspec(property(get = IOVRAnchorComponent_OVRLocatable__get_Type)) ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRLocatable__Type;
 
- __declspec(property(get=get_IsEnabled)) bool  IsEnabled;
+  __declspec(property(get = get_IsEnabled)) bool IsEnabled;
 
- __declspec(property(get=get_IsNull)) bool  IsNull;
+  __declspec(property(get = get_IsNull)) bool IsNull;
 
-/// @brief Field Null, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Null, put=setStaticF_Null)) ::GlobalNamespace::OVRLocatable  Null;
+  /// @brief Field Null, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Null, put = setStaticF_Null)) ::GlobalNamespace::OVRLocatable Null;
 
- __declspec(property(get=get_Type)) ::GlobalNamespace::OVRPlugin_SpaceComponentType  Type;
+  __declspec(property(get = get_Type)) ::GlobalNamespace::OVRPlugin_SpaceComponentType Type;
 
-/// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
-constexpr operator  ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>*() ;
+  /// @brief Convert operator to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
+  constexpr operator ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>*();
 
-/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>*() ;
+  /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
+  constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>*();
 
-/// @brief Method Equals, addr 0x5c60cc8, size 0x90, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x5cd2cb0, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method Equals, addr 0x5c60b78, size 0x6c, virtual true, abstract: false, final true
-inline bool Equals(::GlobalNamespace::OVRLocatable  other) ;
+  /// @brief Method Equals, addr 0x5cd2b60, size 0x6c, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::OVRLocatable other);
 
-/// @brief Method GetHashCode, addr 0x5c60d58, size 0x68, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x5cd2d40, size 0x68, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method IOVRAnchorComponent<OVRLocatable>.FromAnchor, addr 0x5c60684, size 0x30, virtual true, abstract: false, final true
-inline ::GlobalNamespace::OVRLocatable IOVRAnchorComponent_OVRLocatable__FromAnchor(::GlobalNamespace::OVRAnchor  anchor) ;
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.FromAnchor, addr 0x5cd266c, size 0x30, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::OVRLocatable IOVRAnchorComponent_OVRLocatable__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-/// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Handle, addr 0x5c6062c, size 0x58, virtual true, abstract: false, final true
-inline uint64_t IOVRAnchorComponent_OVRLocatable__get_Handle() ;
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Handle, addr 0x5cd2614, size 0x58, virtual true, abstract: false, final true
+  inline uint64_t IOVRAnchorComponent_OVRLocatable__get_Handle();
 
-/// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Type, addr 0x5c605d0, size 0x54, virtual true, abstract: false, final true
-inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRLocatable__get_Type() ;
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Type, addr 0x5cd25b8, size 0x54, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRLocatable__get_Type();
 
-/// @brief Method ScheduleUpdateTransforms, addr 0x5c61254, size 0x5e0, virtual false, abstract: false, final false
-static inline ::Unity::Jobs::JobHandle ScheduleUpdateTransforms(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>  locatables, ::UnityEngine::Jobs::TransformAccessArray  transforms, ::UnityEngine::Transform*  trackingSpaceToWorldSpaceTransform, ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  posesOut, ::Unity::Jobs::JobHandle  inputDeps) ;
+  /// @brief Method ScheduleUpdateTransforms, addr 0x5cd323c, size 0x5e0, virtual false, abstract: false, final false
+  static inline ::Unity::Jobs::JobHandle ScheduleUpdateTransforms(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> locatables, ::UnityEngine::Jobs::TransformAccessArray transforms,
+                                                                  ::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform,
+                                                                  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> posesOut, ::Unity::Jobs::JobHandle inputDeps);
 
-/// @brief Method SetEnabledAsync, addr 0x5c60864, size 0x29c, virtual true, abstract: false, final true
-inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool  enabled, double_t  timeout) ;
+  /// @brief Method SetEnabledAsync, addr 0x5cd284c, size 0x29c, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
-/// @brief Method SetEnabledSafeAsync, addr 0x5c60b00, size 0x78, virtual false, abstract: false, final false
-inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledSafeAsync(bool  enabled, double_t  timeout) ;
+  /// @brief Method SetEnabledSafeAsync, addr 0x5cd2ae8, size 0x78, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledSafeAsync(bool enabled, double_t timeout);
 
-/// @brief Method ToString, addr 0x5c60dc0, size 0xc0, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5cd2da8, size 0xc0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method TryGetSceneAnchorPose, addr 0x5c60e88, size 0x124, virtual false, abstract: false, final false
-inline bool TryGetSceneAnchorPose(::ByRef<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  pose) ;
+  /// @brief Method TryGetSceneAnchorPose, addr 0x5cd2e70, size 0x124, virtual false, abstract: false, final false
+  inline bool TryGetSceneAnchorPose(::ByRef<::GlobalNamespace::OVRLocatable_TrackingSpacePose> pose);
 
-/// @brief Method TryGetSpatialAnchorPose, addr 0x5c61124, size 0x124, virtual false, abstract: false, final false
-inline bool TryGetSpatialAnchorPose(::ByRef<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  pose) ;
+  /// @brief Method TryGetSpatialAnchorPose, addr 0x5cd310c, size 0x124, virtual false, abstract: false, final false
+  inline bool TryGetSpatialAnchorPose(::ByRef<::GlobalNamespace::OVRLocatable_TrackingSpacePose> pose);
 
-/// @brief Method UpdateSceneAnchorTransforms, addr 0x5c61834, size 0xa34, virtual false, abstract: false, final false
-static inline void UpdateSceneAnchorTransforms(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::GlobalNamespace::OVRAnchor,::UnityW<::UnityEngine::Transform>>>*  anchors, ::UnityEngine::Transform*  trackingSpaceToWorldSpaceTransform, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>*  trackingSpacePoses) ;
+  /// @brief Method UpdateSceneAnchorTransforms, addr 0x5cd381c, size 0xa34, virtual false, abstract: false, final false
+  static inline void
+  UpdateSceneAnchorTransforms(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::GlobalNamespace::OVRAnchor, ::UnityW<::UnityEngine::Transform>>>* anchors,
+                              ::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform,
+                              ::System::Collections::Generic::List_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>* trackingSpacePoses);
 
-/// @brief Method <UpdateSceneAnchorTransforms>g__GetLocatableOrDefault|34_0, addr 0x5c62268, size 0x94, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::OVRLocatable _UpdateSceneAnchorTransforms_g__GetLocatableOrDefault_34_0(::GlobalNamespace::OVRAnchor  anchor) ;
+  /// @brief Method <UpdateSceneAnchorTransforms>g__GetLocatableOrDefault|34_0, addr 0x5cd4250, size 0x94, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::OVRLocatable _UpdateSceneAnchorTransforms_g__GetLocatableOrDefault_34_0(::GlobalNamespace::OVRAnchor anchor);
 
-/// @brief Method .ctor, addr 0x5c606b4, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::GlobalNamespace::OVRAnchor  anchor) ;
+  /// @brief Method .ctor, addr 0x5cd269c, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
-static inline ::GlobalNamespace::OVRLocatable getStaticF_Null() ;
+  static inline ::GlobalNamespace::OVRLocatable getStaticF_Null();
 
-/// @brief Method get_Handle, addr 0x5c60e80, size 0x8, virtual false, abstract: false, final false
-inline uint64_t get_Handle() ;
+  /// @brief Method get_Handle, addr 0x5cd2e68, size 0x8, virtual false, abstract: false, final false
+  inline uint64_t get_Handle();
 
-/// @brief Method get_IsEnabled, addr 0x5c6077c, size 0xe8, virtual true, abstract: false, final true
-inline bool get_IsEnabled() ;
+  /// @brief Method get_IsEnabled, addr 0x5cd2764, size 0xe8, virtual true, abstract: false, final true
+  inline bool get_IsEnabled();
 
-/// @brief Method get_IsNull, addr 0x5c6071c, size 0x60, virtual true, abstract: false, final true
-inline bool get_IsNull() ;
+  /// @brief Method get_IsNull, addr 0x5cd2704, size 0x60, virtual true, abstract: false, final true
+  inline bool get_IsNull();
 
-/// @brief Method get_Type, addr 0x5c60624, size 0x8, virtual false, abstract: false, final false
-inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type() ;
+  /// @brief Method get_Type, addr 0x5cd260c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
-/// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
-constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRLocatable_() ;
+  /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
+  constexpr ::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>* i___GlobalNamespace__IOVRAnchorComponent_1___GlobalNamespace__OVRLocatable_();
 
-/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>* i___System__IEquatable_1___GlobalNamespace__OVRLocatable_() ;
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>* i___System__IEquatable_1___GlobalNamespace__OVRLocatable_();
 
-/// @brief Method op_Equality, addr 0x5c60be4, size 0x70, virtual false, abstract: false, final false
-static inline bool op_Equality(::GlobalNamespace::OVRLocatable  lhs, ::GlobalNamespace::OVRLocatable  rhs) ;
+  /// @brief Method op_Equality, addr 0x5cd2bcc, size 0x70, virtual false, abstract: false, final false
+  static inline bool op_Equality(::GlobalNamespace::OVRLocatable lhs, ::GlobalNamespace::OVRLocatable rhs);
 
-/// @brief Method op_Inequality, addr 0x5c60c54, size 0x74, virtual false, abstract: false, final false
-static inline bool op_Inequality(::GlobalNamespace::OVRLocatable  lhs, ::GlobalNamespace::OVRLocatable  rhs) ;
+  /// @brief Method op_Inequality, addr 0x5cd2c3c, size 0x74, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::GlobalNamespace::OVRLocatable lhs, ::GlobalNamespace::OVRLocatable rhs);
 
-static inline void setStaticF_Null(::GlobalNamespace::OVRLocatable  value) ;
+  static inline void setStaticF_Null(::GlobalNamespace::OVRLocatable value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable();
 
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
-constexpr OVRLocatable(uint64_t  _Handle_k__BackingField) noexcept;
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  constexpr OVRLocatable(uint64_t _Handle_k__BackingField) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7091};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7097 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
- uint64_t  _Handle_k__BackingField;
+  /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
+  uint64_t _Handle_k__BackingField;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable, _Handle_k__BackingField) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable, 0x8>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies OVRLocatable, OVRLocatable::TrackingSpacePose, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRLocatable/GetSceneAnchorPosesJob
 struct CORDL_TYPE OVRLocatable_GetSceneAnchorPosesJob {
 public:
-// Declarations
-/// @brief Convert operator to "::Unity::Jobs::IJobFor"
-constexpr operator  ::Unity::Jobs::IJobFor*() ;
+  // Declarations
+  /// @brief Convert operator to "::Unity::Jobs::IJobFor"
+  constexpr operator ::Unity::Jobs::IJobFor*();
 
-/// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5c63260, size 0xf0, virtual true, abstract: false, final true
-inline void Unity_Jobs_IJobFor_Execute(int32_t  index) ;
+  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5cd5248, size 0xf0, virtual true, abstract: false, final true
+  inline void Unity_Jobs_IJobFor_Execute(int32_t index);
 
-/// @brief Convert to "::Unity::Jobs::IJobFor"
-constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor() ;
+  /// @brief Convert to "::Unity::Jobs::IJobFor"
+  constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable_GetSceneAnchorPosesJob() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable_GetSceneAnchorPosesJob();
 
-// Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None }, CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
-constexpr OVRLocatable_GetSceneAnchorPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>  Locatables, ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses) noexcept;
+  // Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None }, CppParam { name: "Poses", ty:
+  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  constexpr OVRLocatable_GetSceneAnchorPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables,
+                                                ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7085};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7091 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field Locatables, offset: 0x0, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>  Locatables;
+  /// @brief Field Locatables, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables;
 
-/// @brief Field Poses, offset: 0x10, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses;
+  /// @brief Field Poses, offset: 0x10, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob, Locatables) == 0x0, "Offset mismatch!");
@@ -402,43 +407,45 @@ static_assert(offsetof(::GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob, P
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies OVRLocatable, OVRLocatable::TrackingSpacePose, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRLocatable/GetSpatialAnchorPosesJob
 struct CORDL_TYPE OVRLocatable_GetSpatialAnchorPosesJob {
 public:
-// Declarations
-/// @brief Convert operator to "::Unity::Jobs::IJobFor"
-constexpr operator  ::Unity::Jobs::IJobFor*() ;
+  // Declarations
+  /// @brief Convert operator to "::Unity::Jobs::IJobFor"
+  constexpr operator ::Unity::Jobs::IJobFor*();
 
-/// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5c63350, size 0xf0, virtual true, abstract: false, final true
-inline void Unity_Jobs_IJobFor_Execute(int32_t  index) ;
+  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5cd5338, size 0xf0, virtual true, abstract: false, final true
+  inline void Unity_Jobs_IJobFor_Execute(int32_t index);
 
-/// @brief Convert to "::Unity::Jobs::IJobFor"
-constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor() ;
+  /// @brief Convert to "::Unity::Jobs::IJobFor"
+  constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable_GetSpatialAnchorPosesJob() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable_GetSpatialAnchorPosesJob();
 
-// Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None }, CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
-constexpr OVRLocatable_GetSpatialAnchorPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>  Locatables, ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses) noexcept;
+  // Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: None }, CppParam { name: "Poses", ty:
+  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  constexpr OVRLocatable_GetSpatialAnchorPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables,
+                                                  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7086};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field Locatables, offset: 0x0, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>  Locatables;
+  /// @brief Field Locatables, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables;
 
-/// @brief Field Poses, offset: 0x10, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses;
+  /// @brief Field Poses, offset: 0x10, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob, Locatables) == 0x0, "Offset mismatch!");
@@ -447,46 +454,48 @@ static_assert(offsetof(::GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob,
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies OVRLocatable::TrackingSpacePose, Unity.Collections.NativeArray`1<T>, UnityEngine.Matrix4x4, UnityEngine.Quaternion
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRLocatable/TransformPosesJob
 struct CORDL_TYPE OVRLocatable_TransformPosesJob {
 public:
-// Declarations
-/// @brief Convert operator to "::Unity::Jobs::IJobFor"
-constexpr operator  ::Unity::Jobs::IJobFor*() ;
+  // Declarations
+  /// @brief Convert operator to "::Unity::Jobs::IJobFor"
+  constexpr operator ::Unity::Jobs::IJobFor*();
 
-/// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5c63440, size 0x284, virtual true, abstract: false, final true
-inline void Unity_Jobs_IJobFor_Execute(int32_t  index) ;
+  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5cd5428, size 0x284, virtual true, abstract: false, final true
+  inline void Unity_Jobs_IJobFor_Execute(int32_t index);
 
-/// @brief Convert to "::Unity::Jobs::IJobFor"
-constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor() ;
+  /// @brief Convert to "::Unity::Jobs::IJobFor"
+  constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable_TransformPosesJob() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable_TransformPosesJob();
 
-// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }, CppParam { name: "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-constexpr OVRLocatable_TransformPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses, ::UnityEngine::Matrix4x4  Transform, ::UnityEngine::Quaternion  Rotation) noexcept;
+  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }, CppParam { name:
+  // "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
+  constexpr OVRLocatable_TransformPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses, ::UnityEngine::Matrix4x4 Transform,
+                                           ::UnityEngine::Quaternion Rotation) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7087};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7093 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
-/// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses;
+  /// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
-/// @brief Field Transform, offset: 0x10, size: 0x40, def value: None
- ::UnityEngine::Matrix4x4  Transform;
+  /// @brief Field Transform, offset: 0x10, size: 0x40, def value: None
+  ::UnityEngine::Matrix4x4 Transform;
 
-/// @brief Field Rotation, offset: 0x50, size: 0x10, def value: None
- ::UnityEngine::Quaternion  Rotation;
+  /// @brief Field Rotation, offset: 0x50, size: 0x10, def value: None
+  ::UnityEngine::Quaternion Rotation;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable_TransformPosesJob, Poses) == 0x0, "Offset mismatch!");
@@ -497,123 +506,125 @@ static_assert(offsetof(::GlobalNamespace::OVRLocatable_TransformPosesJob, Rotati
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable_TransformPosesJob, 0x60>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies OVRLocatable::TrackingSpacePose, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRLocatable/SetWorldSpaceTransformsJob
 struct CORDL_TYPE OVRLocatable_SetWorldSpaceTransformsJob {
 public:
-// Declarations
-/// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
-constexpr operator  ::UnityEngine::Jobs::IJobParallelForTransform*() ;
+  // Declarations
+  /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
+  constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-/// @brief Method UnityEngine.Jobs.IJobParallelForTransform.Execute, addr 0x5c636c4, size 0x148, virtual true, abstract: false, final true
-inline void UnityEngine_Jobs_IJobParallelForTransform_Execute(int32_t  index, ::UnityEngine::Jobs::TransformAccess  transform) ;
+  /// @brief Method UnityEngine.Jobs.IJobParallelForTransform.Execute, addr 0x5cd56ac, size 0x148, virtual true, abstract: false, final true
+  inline void UnityEngine_Jobs_IJobParallelForTransform_Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
-/// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
-constexpr ::UnityEngine::Jobs::IJobParallelForTransform* i___UnityEngine__Jobs__IJobParallelForTransform() ;
+  /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
+  constexpr ::UnityEngine::Jobs::IJobParallelForTransform* i___UnityEngine__Jobs__IJobParallelForTransform();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable_SetWorldSpaceTransformsJob() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable_SetWorldSpaceTransformsJob();
 
-// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
-constexpr OVRLocatable_SetWorldSpaceTransformsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses) noexcept;
+  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  constexpr OVRLocatable_SetWorldSpaceTransformsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7088};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7094 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses;
+  /// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob, Poses) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies OVRLocatable::TrackingSpacePose, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRLocatable/SetLocalSpaceTransformsJob
 struct CORDL_TYPE OVRLocatable_SetLocalSpaceTransformsJob {
 public:
-// Declarations
-/// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
-constexpr operator  ::UnityEngine::Jobs::IJobParallelForTransform*() ;
+  // Declarations
+  /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
+  constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-/// @brief Method Execute, addr 0x5c6380c, size 0x148, virtual true, abstract: false, final true
-inline void Execute(int32_t  index, ::UnityEngine::Jobs::TransformAccess  transform) ;
+  /// @brief Method Execute, addr 0x5cd57f4, size 0x148, virtual true, abstract: false, final true
+  inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
-/// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
-constexpr ::UnityEngine::Jobs::IJobParallelForTransform* i___UnityEngine__Jobs__IJobParallelForTransform() ;
+  /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
+  constexpr ::UnityEngine::Jobs::IJobParallelForTransform* i___UnityEngine__Jobs__IJobParallelForTransform();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable_SetLocalSpaceTransformsJob() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable_SetLocalSpaceTransformsJob();
 
-// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
-constexpr OVRLocatable_SetLocalSpaceTransformsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses) noexcept;
+  // Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  constexpr OVRLocatable_SetLocalSpaceTransformsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7089};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7095 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  Poses;
+  /// @brief Field Poses, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob, Poses) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies OVRLocatable::TrackingSpacePose, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRLocatable/CopyPosesJob
 struct CORDL_TYPE OVRLocatable_CopyPosesJob {
 public:
-// Declarations
-/// @brief Convert operator to "::Unity::Jobs::IJobFor"
-constexpr operator  ::Unity::Jobs::IJobFor*() ;
+  // Declarations
+  /// @brief Convert operator to "::Unity::Jobs::IJobFor"
+  constexpr operator ::Unity::Jobs::IJobFor*();
 
-/// @brief Method Execute, addr 0x5c63954, size 0x2c, virtual true, abstract: false, final true
-inline void Execute(int32_t  index) ;
+  /// @brief Method Execute, addr 0x5cd593c, size 0x2c, virtual true, abstract: false, final true
+  inline void Execute(int32_t index);
 
-/// @brief Convert to "::Unity::Jobs::IJobFor"
-constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor() ;
+  /// @brief Convert to "::Unity::Jobs::IJobFor"
+  constexpr ::Unity::Jobs::IJobFor* i___Unity__Jobs__IJobFor();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRLocatable_CopyPosesJob() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRLocatable_CopyPosesJob();
 
-// Ctor Parameters [CppParam { name: "PosesIn", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }, CppParam { name: "PosesOut", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
-constexpr OVRLocatable_CopyPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  PosesIn, ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  PosesOut) noexcept;
+  // Ctor Parameters [CppParam { name: "PosesIn", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }, CppParam { name:
+  // "PosesOut", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: None }]
+  constexpr OVRLocatable_CopyPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesIn,
+                                      ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesOut) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7090};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7096 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field PosesIn, offset: 0x0, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  PosesIn;
+  /// @brief Field PosesIn, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesIn;
 
-/// @brief Field PosesOut, offset: 0x10, size: 0x10, def value: None
- ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>  PosesOut;
+  /// @brief Field PosesOut, offset: 0x10, size: 0x10, def value: None
+  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesOut;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRLocatable_CopyPosesJob, PosesIn) == 0x0, "Offset mismatch!");
@@ -622,7 +633,7 @@ static_assert(offsetof(::GlobalNamespace::OVRLocatable_CopyPosesJob, PosesOut) =
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRLocatable_CopyPosesJob, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRLocatable, "", "OVRLocatable");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRLocatable_CopyPosesJob, "", "OVRLocatable/CopyPosesJob");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob, "", "OVRLocatable/GetSceneAnchorPosesJob");

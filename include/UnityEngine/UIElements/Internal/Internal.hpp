@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/UIElements/Internal/AutoCompletePathVisitor.hpp"
 #include "UnityEngine/UIElements/Internal/ColumnMover.hpp"
@@ -16,6 +16,5 @@
 #include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnSortIndicator.hpp"
 #include "UnityEngine/UIElements/Internal/TypePathVisitor.hpp"
 #ifdef __cpp_modules
-                    export module Internal;
-                    #endif
-                
+export module Internal;
+#endif

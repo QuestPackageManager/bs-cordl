@@ -25,40 +25,40 @@ namespace UnityEngine::InputSystem::Processors {
 // CS Name: UnityEngine.InputSystem.Processors.NormalizeVector2Processor
 class CORDL_TYPE NormalizeVector2Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
 public:
-// Declarations
-static inline ::UnityEngine::InputSystem::Processors::NormalizeVector2Processor* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::InputSystem::Processors::NormalizeVector2Processor* New_ctor();
 
-/// @brief Method Process, addr 0x6408cbc, size 0xc4, virtual true, abstract: false, final false
-inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2  value, ::UnityEngine::InputSystem::InputControl*  control) ;
+  /// @brief Method Process, addr 0x647acc8, size 0xc4, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-/// @brief Method ToString, addr 0x6408d80, size 0x44, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x647ad8c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x6408dc4, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x647add0, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NormalizeVector2Processor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NormalizeVector2Processor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector2Processor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NormalizeVector2Processor(NormalizeVector2Processor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NormalizeVector2Processor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NormalizeVector2Processor(NormalizeVector2Processor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector2Processor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NormalizeVector2Processor(NormalizeVector2Processor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NormalizeVector2Processor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NormalizeVector2Processor(NormalizeVector2Processor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9070 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9064};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::NormalizeVector2Processor, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::Processors
+} // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::NormalizeVector2Processor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::NormalizeVector2Processor*, "UnityEngine.InputSystem.Processors", "NormalizeVector2Processor");

@@ -26,62 +26,62 @@ namespace System::Runtime::Remoting::Activation {
 // CS Name: System.Runtime.Remoting.Activation.ContextLevelActivator
 class CORDL_TYPE ContextLevelActivator : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator*  NextActivator;
+  // Declarations
+  __declspec(property(get = get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator* NextActivator;
 
-/// @brief Field m_NextActivator, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_NextActivator, put=__cordl_internal_set_m_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator*  m_NextActivator;
+  /// @brief Field m_NextActivator, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_NextActivator, put = __cordl_internal_set_m_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator* m_NextActivator;
 
-/// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
-constexpr operator  ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
+  constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-/// @brief Method Activate, addr 0x598dd54, size 0x1e8, virtual true, abstract: false, final true
-inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage*  ctorCall) ;
+  /// @brief Method Activate, addr 0x59ffcc0, size 0x1e8, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
-static inline ::System::Runtime::Remoting::Activation::ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator*  next) ;
+  static inline ::System::Runtime::Remoting::Activation::ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-constexpr ::System::Runtime::Remoting::Activation::IActivator* const& __cordl_internal_get_m_NextActivator() const;
+  constexpr ::System::Runtime::Remoting::Activation::IActivator* const& __cordl_internal_get_m_NextActivator() const;
 
-constexpr ::System::Runtime::Remoting::Activation::IActivator*& __cordl_internal_get_m_NextActivator() ;
+  constexpr ::System::Runtime::Remoting::Activation::IActivator*& __cordl_internal_get_m_NextActivator();
 
-constexpr void __cordl_internal_set_m_NextActivator(::System::Runtime::Remoting::Activation::IActivator*  value) ;
+  constexpr void __cordl_internal_set_m_NextActivator(::System::Runtime::Remoting::Activation::IActivator* value);
 
-/// @brief Method .ctor, addr 0x598d438, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Remoting::Activation::IActivator*  next) ;
+  /// @brief Method .ctor, addr 0x59ff3a4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-/// @brief Method get_NextActivator, addr 0x598dd4c, size 0x8, virtual true, abstract: false, final true
-inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator() ;
+  /// @brief Method get_NextActivator, addr 0x59ffcb8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-/// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
-constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
+  /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
+  constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ContextLevelActivator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContextLevelActivator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ContextLevelActivator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ContextLevelActivator(ContextLevelActivator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContextLevelActivator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ContextLevelActivator(ContextLevelActivator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ContextLevelActivator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ContextLevelActivator(ContextLevelActivator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContextLevelActivator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ContextLevelActivator(ContextLevelActivator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3148 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3148};
+  /// @brief Field m_NextActivator, offset: 0x10, size: 0x8, def value: None
+  ::System::Runtime::Remoting::Activation::IActivator* ___m_NextActivator;
 
-/// @brief Field m_NextActivator, offset: 0x10, size: 0x8, def value: None
- ::System::Runtime::Remoting::Activation::IActivator*  ___m_NextActivator;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Activation::ContextLevelActivator, ___m_NextActivator) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Activation::ContextLevelActivator, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting::Activation
+} // namespace System::Runtime::Remoting::Activation
 NEED_NO_BOX(::System::Runtime::Remoting::Activation::ContextLevelActivator);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::ContextLevelActivator*, "System.Runtime.Remoting.Activation", "ContextLevelActivator");

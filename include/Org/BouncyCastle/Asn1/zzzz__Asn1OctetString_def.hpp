@@ -37,86 +37,86 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.Asn1OctetString
 class CORDL_TYPE Asn1OctetString : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
-// Declarations
- __declspec(property(get=get_Parser)) ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*  Parser;
+  // Declarations
+  __declspec(property(get = get_Parser)) ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* Parser;
 
-/// @brief Field str, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_str, put=__cordl_internal_set_str)) ::ArrayW<uint8_t,::Array<uint8_t>*>  str;
+  /// @brief Field str, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str)) ::ArrayW<uint8_t, ::Array<uint8_t>*> str;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
-constexpr operator  ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
+  constexpr operator ::Org::BouncyCastle::Asn1::Asn1OctetStringParser*() noexcept;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-/// @brief Method Asn1Equals, addr 0x3589300, size 0xf4, virtual true, abstract: false, final false
-inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object*  asn1Object) ;
+  /// @brief Method Asn1Equals, addr 0x35c5944, size 0xf4, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-/// @brief Method Asn1GetHashCode, addr 0x358928c, size 0x74, virtual true, abstract: false, final false
-inline int32_t Asn1GetHashCode() ;
+  /// @brief Method Asn1GetHashCode, addr 0x35c58d0, size 0x74, virtual true, abstract: false, final false
+  inline int32_t Asn1GetHashCode();
 
-/// @brief Method GetInstance, addr 0x3588fb0, size 0xec, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
+  /// @brief Method GetInstance, addr 0x35c55f4, size 0xec, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-/// @brief Method GetInstance, addr 0x3582394, size 0x2f8, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x35be9d8, size 0x2f8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::System::Object* obj);
 
-/// @brief Method GetOctetStream, addr 0x3589218, size 0x68, virtual true, abstract: false, final true
-inline ::System::IO::Stream* GetOctetStream() ;
+  /// @brief Method GetOctetStream, addr 0x35c585c, size 0x68, virtual true, abstract: false, final true
+  inline ::System::IO::Stream* GetOctetStream();
 
-/// @brief Method GetOctets, addr 0x3589284, size 0x8, virtual true, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetOctets() ;
+  /// @brief Method GetOctets, addr 0x35c58c8, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  str) ;
+  static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-/// @brief Method ToString, addr 0x35893f4, size 0x8c, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x35c5a38, size 0x8c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_str() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_str() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_str() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_str();
 
-constexpr void __cordl_internal_set_str(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x35891c0, size 0x58, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  str) ;
+  /// @brief Method .ctor, addr 0x35c5804, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-/// @brief Method get_Parser, addr 0x3589280, size 0x4, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Parser() ;
+  /// @brief Method get_Parser, addr 0x35c58c4, size 0x4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Parser();
 
-/// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
-constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* i___Org__BouncyCastle__Asn1__Asn1OctetStringParser() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* i___Org__BouncyCastle__Asn1__Asn1OctetStringParser() noexcept;
 
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Asn1OctetString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Asn1OctetString();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Asn1OctetString(Asn1OctetString&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Asn1OctetString(Asn1OctetString && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Asn1OctetString(Asn1OctetString const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Asn1OctetString(Asn1OctetString const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 456 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{456};
+  /// @brief Field str, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___str;
 
-/// @brief Field str, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___str;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1OctetString, ___str) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Asn1OctetString, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1
+} // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1OctetString);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Asn1OctetString*, "Org.BouncyCastle.Asn1", "Asn1OctetString");

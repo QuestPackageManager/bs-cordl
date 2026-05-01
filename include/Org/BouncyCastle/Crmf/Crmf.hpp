@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Org/BouncyCastle/Crmf/AuthenticatorControl.hpp"
 #include "Org/BouncyCastle/Crmf/CertificateRequestMessage.hpp"
@@ -21,6 +21,5 @@
 #include "Org/BouncyCastle/Crmf/ProofOfPossessionSigningKeyBuilder.hpp"
 #include "Org/BouncyCastle/Crmf/RegTokenControl.hpp"
 #ifdef __cpp_modules
-                    export module Crmf;
-                    #endif
-                
+export module Crmf;
+#endif

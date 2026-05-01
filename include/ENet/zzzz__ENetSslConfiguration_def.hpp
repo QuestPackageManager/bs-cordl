@@ -20,48 +20,53 @@ namespace ENet {
 // CS Name: ENet.ENetSslConfiguration
 struct CORDL_TYPE ENetSslConfiguration {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr ENetSslConfiguration() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ENetSslConfiguration();
 
-// Ctor Parameters [CppParam { name: "mode", ty: "::ENet::SslMode", modifiers: "", def_value: None }, CppParam { name: "certificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validateCertificate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rootCertificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rootCertificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ENetSslConfiguration(::ENet::SslMode  mode, ::StringW  certificatePath, ::StringW  certificate, ::StringW  privateKeyPath, ::StringW  privateKey, int32_t  validateCertificate, ::StringW  rootCertificatePath, ::StringW  rootCertificate, ::StringW  hostName) noexcept;
+  // Ctor Parameters [CppParam { name: "mode", ty: "::ENet::SslMode", modifiers: "", def_value: None }, CppParam { name: "certificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam
+  // { name: "certificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty:
+  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "validateCertificate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rootCertificatePath", ty: "::StringW",
+  // modifiers: "", def_value: None }, CppParam { name: "rootCertificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value:
+  // None }]
+  constexpr ENetSslConfiguration(::ENet::SslMode mode, ::StringW certificatePath, ::StringW certificate, ::StringW privateKeyPath, ::StringW privateKey, int32_t validateCertificate,
+                                 ::StringW rootCertificatePath, ::StringW rootCertificate, ::StringW hostName) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21529};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21540 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x48};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
-/// @brief Field mode, offset: 0x0, size: 0x4, def value: None
- ::ENet::SslMode  mode;
+  /// @brief Field mode, offset: 0x0, size: 0x4, def value: None
+  ::ENet::SslMode mode;
 
-/// @brief Field certificatePath, offset: 0x8, size: 0x8, def value: None
- ::StringW  certificatePath;
+  /// @brief Field certificatePath, offset: 0x8, size: 0x8, def value: None
+  ::StringW certificatePath;
 
-/// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
- ::StringW  certificate;
+  /// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
+  ::StringW certificate;
 
-/// @brief Field privateKeyPath, offset: 0x18, size: 0x8, def value: None
- ::StringW  privateKeyPath;
+  /// @brief Field privateKeyPath, offset: 0x18, size: 0x8, def value: None
+  ::StringW privateKeyPath;
 
-/// @brief Field privateKey, offset: 0x20, size: 0x8, def value: None
- ::StringW  privateKey;
+  /// @brief Field privateKey, offset: 0x20, size: 0x8, def value: None
+  ::StringW privateKey;
 
-/// @brief Field validateCertificate, offset: 0x28, size: 0x4, def value: None
- int32_t  validateCertificate;
+  /// @brief Field validateCertificate, offset: 0x28, size: 0x4, def value: None
+  int32_t validateCertificate;
 
-/// @brief Field rootCertificatePath, offset: 0x30, size: 0x8, def value: None
- ::StringW  rootCertificatePath;
+  /// @brief Field rootCertificatePath, offset: 0x30, size: 0x8, def value: None
+  ::StringW rootCertificatePath;
 
-/// @brief Field rootCertificate, offset: 0x38, size: 0x8, def value: None
- ::StringW  rootCertificate;
+  /// @brief Field rootCertificate, offset: 0x38, size: 0x8, def value: None
+  ::StringW rootCertificate;
 
-/// @brief Field hostName, offset: 0x40, size: 0x8, def value: None
- ::StringW  hostName;
+  /// @brief Field hostName, offset: 0x40, size: 0x8, def value: None
+  ::StringW hostName;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::ENet::ENetSslConfiguration, mode) == 0x0, "Offset mismatch!");
@@ -84,5 +89,5 @@ static_assert(offsetof(::ENet::ENetSslConfiguration, hostName) == 0x40, "Offset 
 
 static_assert(::cordl_internals::size_check_v<::ENet::ENetSslConfiguration, 0x48>, "Size mismatch!");
 
-} // namespace end def ENet
+} // namespace ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::ENetSslConfiguration, "ENet", "ENetSslConfiguration");

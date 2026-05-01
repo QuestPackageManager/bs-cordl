@@ -11,8 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockRuntime)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class AsyncCallback;
@@ -102,396 +101,407 @@ MARK_REF_PTR_T(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime);
 MARK_REF_PTR_T(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate);
 MARK_REF_PTR_T(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate);
 MARK_REF_PTR_T(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::XR::OpenXR::Features::Mock {
 // Is value type: true
 // CS Name: UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent
 struct CORDL_TYPE MockRuntime_ScriptEvent {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __MockRuntime_ScriptEvent_Unwrapped
-enum struct __MockRuntime_ScriptEvent_Unwrapped : int32_t {
-__E_Unknown = static_cast<int32_t>(0x0),
-__E_EndFrame = static_cast<int32_t>(0x1),
-__E_HapticImpulse = static_cast<int32_t>(0x2),
-__E_HapticStop = static_cast<int32_t>(0x3),
-};
+  /// @brief Nested struct __MockRuntime_ScriptEvent_Unwrapped
+  enum struct __MockRuntime_ScriptEvent_Unwrapped : int32_t {
+    __E_Unknown = static_cast<int32_t>(0x0),
+    __E_EndFrame = static_cast<int32_t>(0x1),
+    __E_HapticImpulse = static_cast<int32_t>(0x2),
+    __E_HapticStop = static_cast<int32_t>(0x3),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __MockRuntime_ScriptEvent_Unwrapped () const noexcept {
-return static_cast<__MockRuntime_ScriptEvent_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __MockRuntime_ScriptEvent_Unwrapped() const noexcept {
+    return static_cast<__MockRuntime_ScriptEvent_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr MockRuntime_ScriptEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockRuntime_ScriptEvent();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr MockRuntime_ScriptEvent(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr MockRuntime_ScriptEvent(int32_t value__) noexcept;
 
-/// @brief Field EndFrame value: I32(1)
-static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const EndFrame;
+  /// @brief Field EndFrame value: I32(1)
+  static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const EndFrame;
 
-/// @brief Field HapticImpulse value: I32(2)
-static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const HapticImpulse;
+  /// @brief Field HapticImpulse value: I32(2)
+  static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const HapticImpulse;
 
-/// @brief Field HapticStop value: I32(3)
-static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const HapticStop;
+  /// @brief Field HapticStop value: I32(3)
+  static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const HapticStop;
 
-/// @brief Field Unknown value: I32(0)
-static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const Unknown;
+  /// @brief Field Unknown value: I32(0)
+  static ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent const Unknown;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23041};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23149 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features::Mock
+} // namespace UnityEngine::XR::OpenXR::Features::Mock
 // Dependencies System.MulticastDelegate
 namespace UnityEngine::XR::OpenXR::Features::Mock {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEventDelegate
 class CORDL_TYPE MockRuntime_ScriptEventDelegate : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x683e06c, size 0xa4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent  evt, uint64_t  param, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x68b0078, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent evt, uint64_t param, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x683e110, size 0xc, virtual true, abstract: false, final false
-inline void EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x68b011c, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x683e058, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent  evt, uint64_t  param) ;
+  /// @brief Method Invoke, addr 0x68b0064, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent evt, uint64_t param);
 
-static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x683dfec, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x68afff8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MockRuntime_ScriptEventDelegate() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockRuntime_ScriptEventDelegate();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23150 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23042};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate, 0x80>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features::Mock
+} // namespace UnityEngine::XR::OpenXR::Features::Mock
 // Dependencies System.MulticastDelegate
 namespace UnityEngine::XR::OpenXR::Features::Mock {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate
 class CORDL_TYPE MockRuntime_BeforeFunctionDelegate : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x683e130, size 0x20, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::StringW  functionName, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x68b013c, size 0x20, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW functionName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x683e150, size 0x24, virtual true, abstract: false, final false
-inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x68b015c, size 0x24, virtual true, abstract: false, final false
+  inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x683e11c, size 0x14, virtual true, abstract: false, final false
-inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult Invoke(::StringW  functionName) ;
+  /// @brief Method Invoke, addr 0x68b0128, size 0x14, virtual true, abstract: false, final false
+  inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult Invoke(::StringW functionName);
 
-static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x683d250, size 0x7c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x68af25c, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MockRuntime_BeforeFunctionDelegate() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockRuntime_BeforeFunctionDelegate();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23151 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23043};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate, 0x80>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features::Mock
+} // namespace UnityEngine::XR::OpenXR::Features::Mock
 // Dependencies System.MulticastDelegate
 namespace UnityEngine::XR::OpenXR::Features::Mock {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate
 class CORDL_TYPE MockRuntime_AfterFunctionDelegate : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x683e188, size 0x98, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::StringW  functionName, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult  result, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x68b0194, size 0x98, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW functionName, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x683e220, size 0xc, virtual true, abstract: false, final false
-inline void EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x68b022c, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x683e174, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::StringW  functionName, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult  result) ;
+  /// @brief Method Invoke, addr 0x68b0180, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW functionName, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult result);
 
-static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x683d2cc, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x68af2d8, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MockRuntime_AfterFunctionDelegate() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockRuntime_AfterFunctionDelegate();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23152 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23044};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate, 0x80>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features::Mock
+} // namespace UnityEngine::XR::OpenXR::Features::Mock
 // Dependencies UnityEngine.XR.OpenXR.Features.OpenXRFeature
 namespace UnityEngine::XR::OpenXR::Features::Mock {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.Mock.MockRuntime
 class CORDL_TYPE MockRuntime : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
-// Declarations
-using AfterFunctionDelegate = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate;
+  // Declarations
+  using AfterFunctionDelegate = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate;
 
-using BeforeFunctionDelegate = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate;
+  using BeforeFunctionDelegate = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate;
 
-using ScriptEvent = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent;
+  using ScriptEvent = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent;
 
-using ScriptEventDelegate = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate;
+  using ScriptEventDelegate = ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate;
 
-/// @brief Field ignoreValidationErrors, offset 0x4e, size 0x1 
- __declspec(property(get=__cordl_internal_get_ignoreValidationErrors, put=__cordl_internal_set_ignoreValidationErrors)) bool  ignoreValidationErrors;
+  /// @brief Field ignoreValidationErrors, offset 0x4e, size 0x1
+  __declspec(property(get = __cordl_internal_get_ignoreValidationErrors, put = __cordl_internal_set_ignoreValidationErrors)) bool ignoreValidationErrors;
 
-/// @brief Field onScriptEvent, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_onScriptEvent, put=setStaticF_onScriptEvent)) ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*  onScriptEvent;
+  /// @brief Field onScriptEvent, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_onScriptEvent, put = setStaticF_onScriptEvent)) ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* onScriptEvent;
 
-/// @brief Field s_AfterFunctionCallbacks, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_AfterFunctionCallbacks, put=setStaticF_s_AfterFunctionCallbacks)) ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>*  s_AfterFunctionCallbacks;
+  /// @brief Field s_AfterFunctionCallbacks, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_AfterFunctionCallbacks, put = setStaticF_s_AfterFunctionCallbacks)) ::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>* s_AfterFunctionCallbacks;
 
-/// @brief Field s_BeforeFunctionCallbacks, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_BeforeFunctionCallbacks, put=setStaticF_s_BeforeFunctionCallbacks)) ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>*  s_BeforeFunctionCallbacks;
+  /// @brief Field s_BeforeFunctionCallbacks, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_BeforeFunctionCallbacks, put = setStaticF_s_BeforeFunctionCallbacks)) ::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>* s_BeforeFunctionCallbacks;
 
-/// @brief Method ActivateSecondaryView, addr 0x683dcbc, size 0x80, virtual false, abstract: false, final false
-static inline void ActivateSecondaryView(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType  viewConfigurationType, bool  activate) ;
+  /// @brief Method ActivateSecondaryView, addr 0x68afcc8, size 0x80, virtual false, abstract: false, final false
+  static inline void ActivateSecondaryView(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType viewConfigurationType, bool activate);
 
-/// @brief Method AfterFunctionCallback, addr 0x683cb58, size 0x48, virtual false, abstract: false, final false
-static inline void AfterFunctionCallback(::StringW  function, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult  result) ;
+  /// @brief Method AfterFunctionCallback, addr 0x68aeb64, size 0x48, virtual false, abstract: false, final false
+  static inline void AfterFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult result);
 
-/// @brief Method BeforeFunctionCallback, addr 0x683cb24, size 0x34, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult BeforeFunctionCallback(::StringW  function) ;
+  /// @brief Method BeforeFunctionCallback, addr 0x68aeb30, size 0x34, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult BeforeFunctionCallback(::StringW function);
 
-/// @brief Method CauseInstanceLoss, addr 0x683dac4, size 0x64, virtual false, abstract: false, final false
-static inline void CauseInstanceLoss() ;
+  /// @brief Method CauseInstanceLoss, addr 0x68afad0, size 0x64, virtual false, abstract: false, final false
+  static inline void CauseInstanceLoss();
 
-/// @brief Method CauseUserPresenceChange, addr 0x683db28, size 0x7c, virtual false, abstract: false, final false
-static inline void CauseUserPresenceChange(bool  hasUserPresent) ;
+  /// @brief Method CauseUserPresenceChange, addr 0x68afb34, size 0x7c, virtual false, abstract: false, final false
+  static inline void CauseUserPresenceChange(bool hasUserPresent);
 
-/// @brief Method ClearFunctionCallbacks, addr 0x683d43c, size 0x54, virtual false, abstract: false, final false
-static inline void ClearFunctionCallbacks() ;
+  /// @brief Method ClearFunctionCallbacks, addr 0x68af448, size 0x54, virtual false, abstract: false, final false
+  static inline void ClearFunctionCallbacks();
 
-/// @brief Method GetAfterFunctionCallback, addr 0x683ce28, size 0x94, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* GetAfterFunctionCallback(::StringW  function) ;
+  /// @brief Method GetAfterFunctionCallback, addr 0x68aee34, size 0x94, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* GetAfterFunctionCallback(::StringW function);
 
-/// @brief Method GetBeforeFunctionCallback, addr 0x683cd94, size 0x94, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* GetBeforeFunctionCallback(::StringW  function) ;
+  /// @brief Method GetBeforeFunctionCallback, addr 0x68aeda0, size 0x94, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* GetBeforeFunctionCallback(::StringW function);
 
-/// @brief Method GetEndFrameStats, addr 0x683dc38, size 0x84, virtual false, abstract: false, final false
-static inline void GetEndFrameStats(::ByRef<int32_t>  primaryLayerCount, ::ByRef<int32_t>  secondaryLayerCount) ;
+  /// @brief Method GetEndFrameStats, addr 0x68afc44, size 0x84, virtual false, abstract: false, final false
+  static inline void GetEndFrameStats(::ByRef<int32_t> primaryLayerCount, ::ByRef<int32_t> secondaryLayerCount);
 
-/// @brief Method GetRegisteredAndroidThreadsCount, addr 0x683dfe0, size 0x4, virtual false, abstract: false, final false
-static inline uint64_t GetRegisteredAndroidThreadsCount() ;
+  /// @brief Method GetRegisteredAndroidThreadsCount, addr 0x68affec, size 0x4, virtual false, abstract: false, final false
+  static inline uint64_t GetRegisteredAndroidThreadsCount();
 
-/// @brief Method HookCreateInstance, addr 0x683d4e0, size 0x78, virtual false, abstract: false, final false
-static inline ::System::IntPtr HookCreateInstance(::System::IntPtr  func) ;
+  /// @brief Method HookCreateInstance, addr 0x68af4ec, size 0x78, virtual false, abstract: false, final false
+  static inline ::System::IntPtr HookCreateInstance(::System::IntPtr func);
 
-/// @brief Method Internal_GetRegisteredAndroidThreadsCount, addr 0x683df78, size 0x64, virtual false, abstract: false, final false
-static inline uint64_t Internal_GetRegisteredAndroidThreadsCount() ;
+  /// @brief Method Internal_GetRegisteredAndroidThreadsCount, addr 0x68aff84, size 0x64, virtual false, abstract: false, final false
+  static inline uint64_t Internal_GetRegisteredAndroidThreadsCount();
 
-/// @brief Method Internal_GetSessionState, addr 0x683d9fc, size 0x64, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState Internal_GetSessionState() ;
+  /// @brief Method Internal_GetSessionState, addr 0x68afa08, size 0x64, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState Internal_GetSessionState();
 
-/// @brief Method Internal_IsAndroidThreadTypeRegistered, addr 0x683def4, size 0x84, virtual false, abstract: false, final false
-static inline bool Internal_IsAndroidThreadTypeRegistered(uint32_t  threadType) ;
+  /// @brief Method Internal_IsAndroidThreadTypeRegistered, addr 0x68aff00, size 0x84, virtual false, abstract: false, final false
+  static inline bool Internal_IsAndroidThreadTypeRegistered(uint32_t threadType);
 
-/// @brief Method Internal_RegisterScriptEventCallback, addr 0x683d8f8, size 0x7c, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult Internal_RegisterScriptEventCallback(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*  callback) ;
+  /// @brief Method Internal_RegisterScriptEventCallback, addr 0x68af904, size 0x7c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult Internal_RegisterScriptEventCallback(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* callback);
 
-/// @brief Method Internal_TransitionToState, addr 0x683d974, size 0x88, virtual false, abstract: false, final false
-static inline bool Internal_TransitionToState(::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState  state, bool  forceTransition) ;
+  /// @brief Method Internal_TransitionToState, addr 0x68af980, size 0x88, virtual false, abstract: false, final false
+  static inline bool Internal_TransitionToState(::UnityEngine::XR::OpenXR::NativeTypes::XrSessionState state, bool forceTransition);
 
-/// @brief Method IsAndroidThreadTypeRegistered, addr 0x683dfdc, size 0x4, virtual false, abstract: false, final false
-static inline bool IsAndroidThreadTypeRegistered(uint32_t  threadType) ;
+  /// @brief Method IsAndroidThreadTypeRegistered, addr 0x68affe8, size 0x4, virtual false, abstract: false, final false
+  static inline bool IsAndroidThreadTypeRegistered(uint32_t threadType);
 
-/// @brief Method MetaPerformanceMetrics_SeedCounterOnce_Float, addr 0x683dd3c, size 0xa8, virtual false, abstract: false, final false
-static inline void MetaPerformanceMetrics_SeedCounterOnce_Float(::StringW  xrPathString, float_t  value, uint32_t  unit) ;
+  /// @brief Method MetaPerformanceMetrics_SeedCounterOnce_Float, addr 0x68afd48, size 0xa8, virtual false, abstract: false, final false
+  static inline void MetaPerformanceMetrics_SeedCounterOnce_Float(::StringW xrPathString, float_t value, uint32_t unit);
 
-/// @brief Method MockRuntime_RegisterFunctionCallbacks, addr 0x683d34c, size 0x98, virtual false, abstract: false, final false
-static inline void MockRuntime_RegisterFunctionCallbacks(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*  hookBefore, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*  hookAfter) ;
+  /// @brief Method MockRuntime_RegisterFunctionCallbacks, addr 0x68af358, size 0x98, virtual false, abstract: false, final false
+  static inline void MockRuntime_RegisterFunctionCallbacks(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* hookBefore,
+                                                           ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* hookAfter);
 
-static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime* New_ctor() ;
+  static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime* New_ctor();
 
-/// @brief Method OnInstanceDestroy, addr 0x683d4dc, size 0x4, virtual true, abstract: false, final false
-inline void OnInstanceDestroy(uint64_t  instance) ;
+  /// @brief Method OnInstanceDestroy, addr 0x68af4e8, size 0x4, virtual true, abstract: false, final false
+  inline void OnInstanceDestroy(uint64_t instance);
 
-/// @brief Method PerformanceSettings_CauseNotification, addr 0x683dde4, size 0x94, virtual false, abstract: false, final false
-static inline void PerformanceSettings_CauseNotification(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain  domain, ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceSubDomain  subDomain, ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel  level) ;
+  /// @brief Method PerformanceSettings_CauseNotification, addr 0x68afdf0, size 0x94, virtual false, abstract: false, final false
+  static inline void PerformanceSettings_CauseNotification(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain,
+                                                           ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceSubDomain subDomain,
+                                                           ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceNotificationLevel level);
 
-/// @brief Method PerformanceSettings_GetPerformanceLevelHint, addr 0x683de78, size 0x7c, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint PerformanceSettings_GetPerformanceLevelHint(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain  domain) ;
+  /// @brief Method PerformanceSettings_GetPerformanceLevelHint, addr 0x68afe84, size 0x7c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint
+  PerformanceSettings_GetPerformanceLevelHint(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain);
 
-/// @brief Method ReceiveScriptEvent, addr 0x683caa0, size 0x84, virtual false, abstract: false, final false
-static inline void ReceiveScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent  evt, uint64_t  param) ;
+  /// @brief Method ReceiveScriptEvent, addr 0x68aeaac, size 0x84, virtual false, abstract: false, final false
+  static inline void ReceiveScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent evt, uint64_t param);
 
-/// @brief Method RequestExitSession, addr 0x683da60, size 0x64, virtual false, abstract: false, final false
-static inline void RequestExitSession() ;
+  /// @brief Method RequestExitSession, addr 0x68afa6c, size 0x64, virtual false, abstract: false, final false
+  static inline void RequestExitSession();
 
-/// @brief Method ResetDefaults, addr 0x683d490, size 0x4c, virtual false, abstract: false, final false
-static inline void ResetDefaults() ;
+  /// @brief Method ResetDefaults, addr 0x68af49c, size 0x4c, virtual false, abstract: false, final false
+  static inline void ResetDefaults();
 
-/// @brief Method SetFunctionCallback, addr 0x683d410, size 0x2c, virtual false, abstract: false, final false
-static inline void SetFunctionCallback(::StringW  function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*  afterCallback) ;
+  /// @brief Method SetFunctionCallback, addr 0x68af41c, size 0x2c, virtual false, abstract: false, final false
+  static inline void SetFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* afterCallback);
 
-/// @brief Method SetFunctionCallback, addr 0x683d3e4, size 0x2c, virtual false, abstract: false, final false
-static inline void SetFunctionCallback(::StringW  function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*  beforeCallback) ;
+  /// @brief Method SetFunctionCallback, addr 0x68af3f0, size 0x2c, virtual false, abstract: false, final false
+  static inline void SetFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* beforeCallback);
 
-/// @brief Method SetFunctionCallback, addr 0x683cebc, size 0x394, virtual false, abstract: false, final false
-static inline void SetFunctionCallback(::StringW  function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*  beforeCallback, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*  afterCallback) ;
+  /// @brief Method SetFunctionCallback, addr 0x68aeec8, size 0x394, virtual false, abstract: false, final false
+  static inline void SetFunctionCallback(::StringW function, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate* beforeCallback,
+                                         ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate* afterCallback);
 
-/// @brief Method SetKeepFunctionCallbacks, addr 0x683d558, size 0x7c, virtual false, abstract: false, final false
-static inline void SetKeepFunctionCallbacks(bool  value) ;
+  /// @brief Method SetKeepFunctionCallbacks, addr 0x68af564, size 0x7c, virtual false, abstract: false, final false
+  static inline void SetKeepFunctionCallbacks(bool value);
 
-/// @brief Method SetReferenceSpaceBounds, addr 0x683dba4, size 0x94, virtual false, abstract: false, final false
-static inline void SetReferenceSpaceBounds(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType  referenceSpace, ::UnityEngine::Vector2  bounds) ;
+  /// @brief Method SetReferenceSpaceBounds, addr 0x68afbb0, size 0x94, virtual false, abstract: false, final false
+  static inline void SetReferenceSpaceBounds(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType referenceSpace, ::UnityEngine::Vector2 bounds);
 
-/// @brief Method SetSpace, addr 0x683d81c, size 0xdc, virtual false, abstract: false, final false
-static inline void SetSpace(uint64_t  actionHandle, ::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  orientation, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags  locationFlags) ;
+  /// @brief Method SetSpace, addr 0x68af828, size 0xdc, virtual false, abstract: false, final false
+  static inline void SetSpace(uint64_t actionHandle, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
+                              ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags locationFlags);
 
-/// @brief Method SetSpace, addr 0x683d740, size 0xdc, virtual false, abstract: false, final false
-static inline void SetSpace(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType  referenceSpace, ::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  orientation, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags  locationFlags) ;
+  /// @brief Method SetSpace, addr 0x68af74c, size 0xdc, virtual false, abstract: false, final false
+  static inline void SetSpace(::UnityEngine::XR::OpenXR::NativeTypes::XrReferenceSpaceType referenceSpace, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
+                              ::UnityEngine::XR::OpenXR::NativeTypes::XrSpaceLocationFlags locationFlags);
 
-/// @brief Method SetViewPose, addr 0x683d5d4, size 0xec, virtual false, abstract: false, final false
-static inline void SetViewPose(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType  viewConfigurationType, int32_t  viewIndex, ::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  orientation, ::UnityEngine::Vector4  fov) ;
+  /// @brief Method SetViewPose, addr 0x68af5e0, size 0xec, virtual false, abstract: false, final false
+  static inline void SetViewPose(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType viewConfigurationType, int32_t viewIndex, ::UnityEngine::Vector3 position,
+                                 ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector4 fov);
 
-/// @brief Method SetViewState, addr 0x683d6c0, size 0x80, virtual false, abstract: false, final false
-static inline void SetViewState(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType  viewConfigurationType, ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags  viewStateFlags) ;
+  /// @brief Method SetViewState, addr 0x68af6cc, size 0x80, virtual false, abstract: false, final false
+  static inline void SetViewState(::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType viewConfigurationType, ::UnityEngine::XR::OpenXR::NativeTypes::XrViewStateFlags viewStateFlags);
 
-constexpr bool const& __cordl_internal_get_ignoreValidationErrors() const;
+  constexpr bool const& __cordl_internal_get_ignoreValidationErrors() const;
 
-constexpr bool& __cordl_internal_get_ignoreValidationErrors() ;
+  constexpr bool& __cordl_internal_get_ignoreValidationErrors();
 
-constexpr void __cordl_internal_set_ignoreValidationErrors(bool  value) ;
+  constexpr void __cordl_internal_set_ignoreValidationErrors(bool value);
 
-/// @brief Method .ctor, addr 0x683dfe4, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x68afff0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_onScriptEvent, addr 0x683cba0, size 0xd0, virtual false, abstract: false, final false
-static inline void add_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*  value) ;
+  /// @brief Method add_onScriptEvent, addr 0x68aebac, size 0xd0, virtual false, abstract: false, final false
+  static inline void add_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
 
-static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* getStaticF_onScriptEvent() ;
+  static inline ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* getStaticF_onScriptEvent();
 
-static inline ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>* getStaticF_s_AfterFunctionCallbacks() ;
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>* getStaticF_s_AfterFunctionCallbacks();
 
-static inline ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>* getStaticF_s_BeforeFunctionCallbacks() ;
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>* getStaticF_s_BeforeFunctionCallbacks();
 
-/// @brief Method get_Instance, addr 0x683cd40, size 0x54, virtual false, abstract: false, final false
-static inline ::UnityW<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime> get_Instance() ;
+  /// @brief Method get_Instance, addr 0x68aed4c, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime> get_Instance();
 
-/// @brief Method remove_onScriptEvent, addr 0x683cc70, size 0xd0, virtual false, abstract: false, final false
-static inline void remove_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*  value) ;
+  /// @brief Method remove_onScriptEvent, addr 0x68aec7c, size 0xd0, virtual false, abstract: false, final false
+  static inline void remove_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
 
-static inline void setStaticF_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate*  value) ;
+  static inline void setStaticF_onScriptEvent(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEventDelegate* value);
 
-static inline void setStaticF_s_AfterFunctionCallbacks(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>*  value) ;
+  static inline void setStaticF_s_AfterFunctionCallbacks(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_AfterFunctionDelegate*>* value);
 
-static inline void setStaticF_s_BeforeFunctionCallbacks(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>*  value) ;
+  static inline void
+  setStaticF_s_BeforeFunctionCallbacks(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_BeforeFunctionDelegate*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MockRuntime() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockRuntime();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MockRuntime(MockRuntime&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MockRuntime(MockRuntime && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MockRuntime(MockRuntime const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MockRuntime(MockRuntime const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23153 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23045};
+  /// @brief Field extLib offset 0xffffffff size 0x8
+  static constexpr ::ConstString extLib{ u"mock_api" };
 
-/// @brief Field extLib offset 0xffffffff size 0x8
-static constexpr ::ConstString  extLib{u"mock_api"};
+  /// @brief Field featureId offset 0xffffffff size 0x8
+  static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.mockruntime" };
 
-/// @brief Field featureId offset 0xffffffff size 0x8
-static constexpr ::ConstString  featureId{u"com.unity.openxr.feature.mockruntime"};
+  /// @brief Field ignoreValidationErrors, offset: 0x4e, size: 0x1, def value: None
+  bool ___ignoreValidationErrors;
 
-/// @brief Field ignoreValidationErrors, offset: 0x4e, size: 0x1, def value: None
- bool  ___ignoreValidationErrors;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime, ___ignoreValidationErrors) == 0x4e, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime, 0x50>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features::Mock
+} // namespace UnityEngine::XR::OpenXR::Features::Mock
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime_ScriptEvent, "UnityEngine.XR.OpenXR.Features.Mock", "MockRuntime/ScriptEvent");
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Mock::MockRuntime*, "UnityEngine.XR.OpenXR.Features.Mock", "MockRuntime");

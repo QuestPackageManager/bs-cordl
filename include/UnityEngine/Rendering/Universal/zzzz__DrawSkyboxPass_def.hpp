@@ -11,8 +11,7 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template<typename PassData,typename ContextType>
-class BaseRenderFunc_2;
+template <typename PassData, typename ContextType> class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -76,66 +75,67 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.DrawSkyboxPass/PassData
 class CORDL_TYPE DrawSkyboxPass_PassData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field material, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_material, put=__cordl_internal_set_material)) ::UnityW<::UnityEngine::Material>  material;
+  // Declarations
+  /// @brief Field material, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_material, put = __cordl_internal_set_material)) ::UnityW<::UnityEngine::Material> material;
 
-/// @brief Field skyRendererListHandle, offset 0x18, size 0xc 
- __declspec(property(get=__cordl_internal_get_skyRendererListHandle, put=__cordl_internal_set_skyRendererListHandle)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  skyRendererListHandle;
+  /// @brief Field skyRendererListHandle, offset 0x18, size 0xc
+  __declspec(property(get = __cordl_internal_get_skyRendererListHandle,
+                      put = __cordl_internal_set_skyRendererListHandle)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle skyRendererListHandle;
 
-/// @brief Field xr, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_xr, put=__cordl_internal_set_xr)) ::UnityEngine::Experimental::Rendering::XRPass*  xr;
+  /// @brief Field xr, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_xr, put = __cordl_internal_set_xr)) ::UnityEngine::Experimental::Rendering::XRPass* xr;
 
-static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData* New_ctor();
 
-constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_material() const;
 
-constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_material() ;
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_material();
 
-constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_skyRendererListHandle() const;
+  constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_skyRendererListHandle() const;
 
-constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_skyRendererListHandle() ;
+  constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_skyRendererListHandle();
 
-constexpr ::UnityEngine::Experimental::Rendering::XRPass* const& __cordl_internal_get_xr() const;
+  constexpr ::UnityEngine::Experimental::Rendering::XRPass* const& __cordl_internal_get_xr() const;
 
-constexpr ::UnityEngine::Experimental::Rendering::XRPass*& __cordl_internal_get_xr() ;
+  constexpr ::UnityEngine::Experimental::Rendering::XRPass*& __cordl_internal_get_xr();
 
-constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material>  value) ;
+  constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material> value);
 
-constexpr void __cordl_internal_set_skyRendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  value) ;
+  constexpr void __cordl_internal_set_skyRendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass*  value) ;
+  constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-/// @brief Method .ctor, addr 0x66ccf38, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x673ef44, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DrawSkyboxPass_PassData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DrawSkyboxPass_PassData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DrawSkyboxPass_PassData(DrawSkyboxPass_PassData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DrawSkyboxPass_PassData(DrawSkyboxPass_PassData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DrawSkyboxPass_PassData(DrawSkyboxPass_PassData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DrawSkyboxPass_PassData(DrawSkyboxPass_PassData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12816 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12809};
+  /// @brief Field xr, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Experimental::Rendering::XRPass* ___xr;
 
-/// @brief Field xr, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Experimental::Rendering::XRPass*  ___xr;
+  /// @brief Field skyRendererListHandle, offset: 0x18, size: 0xc, def value: None
+  ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___skyRendererListHandle;
 
-/// @brief Field skyRendererListHandle, offset: 0x18, size: 0xc, def value: None
- ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  ___skyRendererListHandle;
+  /// @brief Field material, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Material> ___material;
 
-/// @brief Field material, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Material>  ___material;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData, ___xr) == 0x10, "Offset mismatch!");
@@ -146,116 +146,126 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassD
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData, 0x30>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DrawSkyboxPass/<>c
 class CORDL_TYPE DrawSkyboxPass___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* __9;
 
-/// @brief Field <>9__7_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__7_0, put=setStaticF___9__7_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  __9__7_0;
+  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__7_0,
+                      put = setStaticF___9__7_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
+                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__7_0;
 
-static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* New_ctor();
 
-/// @brief Method <Render>b__7_0, addr 0x66ccf94, size 0x4c, virtual false, abstract: false, final false
-inline void _Render_b__7_0(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context) ;
+  /// @brief Method <Render>b__7_0, addr 0x673efa0, size 0x4c, virtual false, abstract: false, final false
+  inline void _Render_b__7_0(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-/// @brief Method .ctor, addr 0x66ccf90, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x673ef9c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* getStaticF___9() ;
+  static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* getStaticF___9();
 
-static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* getStaticF___9__7_0() ;
+  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
+                                                                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
+  getStaticF___9__7_0();
 
-static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DrawSkyboxPass___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* value);
 
-static inline void setStaticF___9__7_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value) ;
+  static inline void setStaticF___9__7_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*,
+                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DrawSkyboxPass___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DrawSkyboxPass___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DrawSkyboxPass___c(DrawSkyboxPass___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DrawSkyboxPass___c(DrawSkyboxPass___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DrawSkyboxPass___c(DrawSkyboxPass___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DrawSkyboxPass___c(DrawSkyboxPass___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12817 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12810};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DrawSkyboxPass___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies UnityEngine.Rendering.Universal.ScriptableRenderPass
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DrawSkyboxPass
 class CORDL_TYPE DrawSkyboxPass : public ::UnityEngine::Rendering::Universal::ScriptableRenderPass {
 public:
-// Declarations
-using PassData = ::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData;
+  // Declarations
+  using PassData = ::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData;
 
-using __c = ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c;
+  using __c = ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c;
 
-/// @brief Method CreateSkyBoxRendererList, addr 0x66cc6b4, size 0x170, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyBoxRendererList(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData*  cameraData) ;
+  /// @brief Method CreateSkyBoxRendererList, addr 0x673e6c0, size 0x170, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyBoxRendererList(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                                                  ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-/// @brief Method CreateSkyboxRendererList, addr 0x66cc3f4, size 0x1a0, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext  context, ::UnityEngine::Rendering::Universal::UniversalCameraData*  cameraData) ;
+  /// @brief Method CreateSkyboxRendererList, addr 0x673e400, size 0x1a0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                         ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-/// @brief Method Execute, addr 0x66cc2bc, size 0x138, virtual true, abstract: false, final false
-inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext  context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData) ;
+  /// @brief Method Execute, addr 0x673e2c8, size 0x138, virtual true, abstract: false, final false
+  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-/// @brief Method ExecutePass, addr 0x66cc594, size 0x120, virtual false, abstract: false, final false
-static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Experimental::Rendering::XRPass*  xr, ::UnityEngine::Rendering::RendererList  rendererList) ;
+  /// @brief Method ExecutePass, addr 0x673e5a0, size 0x120, virtual false, abstract: false, final false
+  static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::RendererList rendererList);
 
-/// @brief Method InitPassData, addr 0x66cc824, size 0x38, virtual false, abstract: false, final false
-inline void InitPassData(::ByRef<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*>  passData, ::ByRef<::UnityEngine::Experimental::Rendering::XRPass*>  xr, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>  handle) ;
+  /// @brief Method InitPassData, addr 0x673e830, size 0x38, virtual false, abstract: false, final false
+  inline void InitPassData(::ByRef<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData, ::ByRef<::UnityEngine::Experimental::Rendering::XRPass*> xr,
+                           ::ByRef<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle);
 
-static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt) ;
+  static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-/// @brief Method Render, addr 0x66cc85c, size 0x6dc, virtual false, abstract: false, final false
-inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData, ::UnityEngine::Rendering::ScriptableRenderContext  context, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  colorTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  depthTarget, ::UnityEngine::Material*  skyboxMaterial) ;
+  /// @brief Method Render, addr 0x673e868, size 0x6dc, virtual false, abstract: false, final false
+  inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
+                     ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,
+                     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget, ::UnityEngine::Material* skyboxMaterial);
 
-/// @brief Method .ctor, addr 0x66cc228, size 0x94, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt) ;
+  /// @brief Method .ctor, addr 0x673e234, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DrawSkyboxPass() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DrawSkyboxPass();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DrawSkyboxPass(DrawSkyboxPass&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DrawSkyboxPass(DrawSkyboxPass && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DrawSkyboxPass(DrawSkyboxPass const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DrawSkyboxPass(DrawSkyboxPass const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12818 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12811};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DrawSkyboxPass, 0xb8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DrawSkyboxPass);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DrawSkyboxPass*, "UnityEngine.Rendering.Universal", "DrawSkyboxPass");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData);

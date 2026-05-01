@@ -17,29 +17,29 @@ namespace System::Diagnostics {
 // CS Name: System.Diagnostics.ProcessThreadCollection
 class CORDL_TYPE ProcessThreadCollection : public ::System::Collections::ReadOnlyCollectionBase {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProcessThreadCollection() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProcessThreadCollection();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProcessThreadCollection(ProcessThreadCollection&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProcessThreadCollection(ProcessThreadCollection && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProcessThreadCollection(ProcessThreadCollection const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProcessThreadCollection(ProcessThreadCollection const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11140 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11133};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessThreadCollection, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Diagnostics
+} // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::ProcessThreadCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessThreadCollection*, "System.Diagnostics", "ProcessThreadCollection");

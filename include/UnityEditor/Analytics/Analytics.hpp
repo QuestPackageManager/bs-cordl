@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEditor/Analytics/AssetDatabaseRefreshAnalytic.hpp"
 #include "UnityEditor/Analytics/AssetExportAnalytic.hpp"
@@ -28,6 +28,5 @@
 #include "UnityEditor/Analytics/StallSummaryAnalytic.hpp"
 #include "UnityEditor/Analytics/TestAnalytic.hpp"
 #ifdef __cpp_modules
-                    export module Analytics;
-                    #endif
-                
+export module Analytics;
+#endif

@@ -23,35 +23,35 @@ namespace GlobalNamespace {
 // CS Name: UnityPlayerLoopManager
 class CORDL_TYPE UnityPlayerLoopManager : public ::System::Object {
 public:
-// Declarations
-/// @brief Method InitializePlayerLoop, addr 0x569caa0, size 0x1bc, virtual false, abstract: false, final false
-static inline void InitializePlayerLoop() ;
+  // Declarations
+  /// @brief Method InitializePlayerLoop, addr 0x570a968, size 0x1bc, virtual false, abstract: false, final false
+  static inline void InitializePlayerLoop();
 
-/// @brief Method RemoveDisabledSubsystems, addr 0x569cc5c, size 0x250, virtual false, abstract: false, final false
-static inline bool RemoveDisabledSubsystems(::ByRef<::UnityEngine::LowLevel::PlayerLoopSystem>  loop, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  typesToRemove) ;
+  /// @brief Method RemoveDisabledSubsystems, addr 0x570ab24, size 0x250, virtual false, abstract: false, final false
+  static inline bool RemoveDisabledSubsystems(::ByRef<::UnityEngine::LowLevel::PlayerLoopSystem> loop, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typesToRemove);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UnityPlayerLoopManager() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityPlayerLoopManager();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UnityPlayerLoopManager(UnityPlayerLoopManager&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UnityPlayerLoopManager(UnityPlayerLoopManager && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UnityPlayerLoopManager(UnityPlayerLoopManager const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UnityPlayerLoopManager(UnityPlayerLoopManager const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22916 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22808};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityPlayerLoopManager, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::UnityPlayerLoopManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UnityPlayerLoopManager*, "", "UnityPlayerLoopManager");

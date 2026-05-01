@@ -18,43 +18,43 @@ namespace UnityEngine::InputSystem::Controls {
 // CS Name: UnityEngine.InputSystem.Controls.TouchPressControl
 class CORDL_TYPE TouchPressControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
-// Declarations
-/// @brief Method FinishSetup, addr 0x6347194, size 0x100, virtual true, abstract: false, final false
-inline void FinishSetup() ;
+  // Declarations
+  /// @brief Method FinishSetup, addr 0x63b91a0, size 0x100, virtual true, abstract: false, final false
+  inline void FinishSetup();
 
-static inline ::UnityEngine::InputSystem::Controls::TouchPressControl* New_ctor() ;
+  static inline ::UnityEngine::InputSystem::Controls::TouchPressControl* New_ctor();
 
-/// @brief Method ReadUnprocessedValueFromState, addr 0x6347294, size 0x13c, virtual true, abstract: false, final false
-inline float_t ReadUnprocessedValueFromState(void*  statePtr) ;
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x63b92a0, size 0x13c, virtual true, abstract: false, final false
+  inline float_t ReadUnprocessedValueFromState(void* statePtr);
 
-/// @brief Method WriteValueIntoState, addr 0x6347534, size 0x38, virtual true, abstract: false, final false
-inline void WriteValueIntoState(float_t  value, void*  statePtr) ;
+  /// @brief Method WriteValueIntoState, addr 0x63b9540, size 0x38, virtual true, abstract: false, final false
+  inline void WriteValueIntoState(float_t value, void* statePtr);
 
-/// @brief Method .ctor, addr 0x634756c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x63b9578, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TouchPressControl() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TouchPressControl();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TouchPressControl", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TouchPressControl(TouchPressControl&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TouchPressControl", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TouchPressControl(TouchPressControl && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TouchPressControl", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TouchPressControl(TouchPressControl const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TouchPressControl", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TouchPressControl(TouchPressControl const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9125 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9119};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::TouchPressControl, 0x140>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::Controls
+} // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::TouchPressControl);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::TouchPressControl*, "UnityEngine.InputSystem.Controls", "TouchPressControl");

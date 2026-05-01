@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Net/Http/ByteArrayContent.hpp"
 #include "System/Net/Http/ClientCertificateOption.hpp"
@@ -25,6 +25,5 @@
 #include "System/Net/Http/StreamContent.hpp"
 #include "System/Net/Http/StringContent.hpp"
 #ifdef __cpp_modules
-                    export module Http;
-                    #endif
-                
+export module Http;
+#endif

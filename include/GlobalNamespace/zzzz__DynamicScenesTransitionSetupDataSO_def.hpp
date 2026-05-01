@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: DynamicScenesTransitionSetupDataSO
 class CORDL_TYPE DynamicScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
-// Declarations
-static inline ::GlobalNamespace::DynamicScenesTransitionSetupDataSO* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::DynamicScenesTransitionSetupDataSO* New_ctor();
 
-/// @brief Method SetScenes, addr 0x32121ac, size 0x8, virtual false, abstract: false, final false
-inline void SetScenes(::ArrayW<::StringW,::Array<::StringW>*>  scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*,::Array<::GlobalNamespace::SceneSetupData*>*>  sceneSetupData) ;
+  /// @brief Method SetScenes, addr 0x324dedc, size 0x8, virtual false, abstract: false, final false
+  inline void SetScenes(::ArrayW<::StringW, ::Array<::StringW>*> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-/// @brief Method .ctor, addr 0x32121bc, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x324deec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DynamicScenesTransitionSetupDataSO() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DynamicScenesTransitionSetupDataSO();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DynamicScenesTransitionSetupDataSO(DynamicScenesTransitionSetupDataSO&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DynamicScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DynamicScenesTransitionSetupDataSO(DynamicScenesTransitionSetupDataSO && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DynamicScenesTransitionSetupDataSO(DynamicScenesTransitionSetupDataSO const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DynamicScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DynamicScenesTransitionSetupDataSO(DynamicScenesTransitionSetupDataSO const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21385 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21374};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DynamicScenesTransitionSetupDataSO, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DynamicScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DynamicScenesTransitionSetupDataSO*, "", "DynamicScenesTransitionSetupDataSO");

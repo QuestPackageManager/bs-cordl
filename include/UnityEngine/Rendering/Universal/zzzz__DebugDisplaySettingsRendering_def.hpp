@@ -22,16 +22,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugDisplaySettingsRendering)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
-template<typename T1,typename T2>
-class Action_2;
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
-template<typename TResult>
-class Func_1;
+template <typename TResult> class Func_1;
 }
 namespace UnityEngine::Rendering::Universal {
 class DebugDisplaySettingsRendering_SettingsPanel;
@@ -142,8 +139,7 @@ namespace UnityEngine::Rendering::Universal {
 class WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0;
 }
 namespace UnityEngine::Rendering {
-template<typename T>
-class DebugUI_Field_1;
+template <typename T> class DebugUI_Field_1;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_Widget;
@@ -273,2427 +269,2447 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySe
 MARK_REF_PTR_T(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0);
 MARK_REF_PTR_T(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0);
 MARK_REF_PTR_T(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/TaaDebugMode
 struct CORDL_TYPE DebugDisplaySettingsRendering_TaaDebugMode {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped
-enum struct __DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped : int32_t {
-__E_None = static_cast<int32_t>(0x0),
-__E_ShowRawFrame = static_cast<int32_t>(0x1),
-__E_ShowRawFrameNoJitter = static_cast<int32_t>(0x2),
-__E_ShowClampedHistory = static_cast<int32_t>(0x3),
-};
+  /// @brief Nested struct __DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped
+  enum struct __DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped : int32_t {
+    __E_None = static_cast<int32_t>(0x0),
+    __E_ShowRawFrame = static_cast<int32_t>(0x1),
+    __E_ShowRawFrameNoJitter = static_cast<int32_t>(0x2),
+    __E_ShowClampedHistory = static_cast<int32_t>(0x3),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped () const noexcept {
-return static_cast<__DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped() const noexcept {
+    return static_cast<__DebugDisplaySettingsRendering_TaaDebugMode_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr DebugDisplaySettingsRendering_TaaDebugMode() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugDisplaySettingsRendering_TaaDebugMode();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr DebugDisplaySettingsRendering_TaaDebugMode(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr DebugDisplaySettingsRendering_TaaDebugMode(int32_t value__) noexcept;
 
-/// @brief Field None value: I32(0)
-static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const None;
+  /// @brief Field None value: I32(0)
+  static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const None;
 
-/// @brief Field ShowClampedHistory value: I32(3)
-static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const ShowClampedHistory;
+  /// @brief Field ShowClampedHistory value: I32(3)
+  static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const ShowClampedHistory;
 
-/// @brief Field ShowRawFrame value: I32(1)
-static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const ShowRawFrame;
+  /// @brief Field ShowRawFrame value: I32(1)
+  static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const ShowRawFrame;
 
-/// @brief Field ShowRawFrameNoJitter value: I32(2)
-static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const ShowRawFrameNoJitter;
+  /// @brief Field ShowRawFrameNoJitter value: I32(2)
+  static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const ShowRawFrameNoJitter;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12613};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12620 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object, UnityEngine.Rendering.DebugUI::Widget::NameAndTooltip
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/Strings
 class CORDL_TYPE DebugDisplaySettingsRendering_Strings : public ::System::Object {
 public:
-// Declarations
-/// @brief Field AdditionalWireframeModes, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_AdditionalWireframeModes, put=setStaticF_AdditionalWireframeModes)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  AdditionalWireframeModes;
+  // Declarations
+  /// @brief Field AdditionalWireframeModes, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_AdditionalWireframeModes, put = setStaticF_AdditionalWireframeModes)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip AdditionalWireframeModes;
 
-/// @brief Field Channels, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_Channels, put=setStaticF_Channels)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  Channels;
+  /// @brief Field Channels, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_Channels, put = setStaticF_Channels)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip Channels;
 
-/// @brief Field HDR, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_HDR, put=setStaticF_HDR)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  HDR;
+  /// @brief Field HDR, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_HDR, put = setStaticF_HDR)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip HDR;
 
-/// @brief Field MSAA, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MSAA, put=setStaticF_MSAA)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MSAA;
+  /// @brief Field MSAA, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MSAA, put = setStaticF_MSAA)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MSAA;
 
-/// @brief Field MapOverlays, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MapOverlays, put=setStaticF_MapOverlays)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MapOverlays;
+  /// @brief Field MapOverlays, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MapOverlays, put = setStaticF_MapOverlays)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MapOverlays;
 
-/// @brief Field MapSize, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MapSize, put=setStaticF_MapSize)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MapSize;
+  /// @brief Field MapSize, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MapSize, put = setStaticF_MapSize)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MapSize;
 
-/// @brief Field MaxOverdrawCount, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MaxOverdrawCount, put=setStaticF_MaxOverdrawCount)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MaxOverdrawCount;
+  /// @brief Field MaxOverdrawCount, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MaxOverdrawCount, put = setStaticF_MaxOverdrawCount)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MaxOverdrawCount;
 
-/// @brief Field MipMapActivityTimespan, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapActivityTimespan, put=setStaticF_MipMapActivityTimespan)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapActivityTimespan;
+  /// @brief Field MipMapActivityTimespan, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapActivityTimespan, put = setStaticF_MipMapActivityTimespan)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapActivityTimespan;
 
-/// @brief Field MipMapCombinePerMaterial, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapCombinePerMaterial, put=setStaticF_MipMapCombinePerMaterial)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapCombinePerMaterial;
+  /// @brief Field MipMapCombinePerMaterial, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapCombinePerMaterial, put = setStaticF_MipMapCombinePerMaterial)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapCombinePerMaterial;
 
-/// @brief Field MipMapDebugOpacity, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapDebugOpacity, put=setStaticF_MipMapDebugOpacity)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapDebugOpacity;
+  /// @brief Field MipMapDebugOpacity, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapDebugOpacity, put = setStaticF_MipMapDebugOpacity)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapDebugOpacity;
 
-/// @brief Field MipMapDebugView, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapDebugView, put=setStaticF_MipMapDebugView)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapDebugView;
+  /// @brief Field MipMapDebugView, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapDebugView, put = setStaticF_MipMapDebugView)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapDebugView;
 
-/// @brief Field MipMapDisableMipCaching, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapDisableMipCaching, put=setStaticF_MipMapDisableMipCaching)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapDisableMipCaching;
+  /// @brief Field MipMapDisableMipCaching, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapDisableMipCaching, put = setStaticF_MipMapDisableMipCaching)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapDisableMipCaching;
 
-/// @brief Field MipMapDisplayStatusCodes, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapDisplayStatusCodes, put=setStaticF_MipMapDisplayStatusCodes)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapDisplayStatusCodes;
+  /// @brief Field MipMapDisplayStatusCodes, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapDisplayStatusCodes, put = setStaticF_MipMapDisplayStatusCodes)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapDisplayStatusCodes;
 
-/// @brief Field MipMapMaterialTextureSlot, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapMaterialTextureSlot, put=setStaticF_MipMapMaterialTextureSlot)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapMaterialTextureSlot;
+  /// @brief Field MipMapMaterialTextureSlot, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapMaterialTextureSlot, put = setStaticF_MipMapMaterialTextureSlot)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapMaterialTextureSlot;
 
-/// @brief Field MipMapTerrainTexture, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_MipMapTerrainTexture, put=setStaticF_MipMapTerrainTexture)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  MipMapTerrainTexture;
+  /// @brief Field MipMapTerrainTexture, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_MipMapTerrainTexture, put = setStaticF_MipMapTerrainTexture)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip MipMapTerrainTexture;
 
-/// @brief Field OverdrawMode, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_OverdrawMode, put=setStaticF_OverdrawMode)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  OverdrawMode;
+  /// @brief Field OverdrawMode, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_OverdrawMode, put = setStaticF_OverdrawMode)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip OverdrawMode;
 
-/// @brief Field PixelValidationMode, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_PixelValidationMode, put=setStaticF_PixelValidationMode)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  PixelValidationMode;
+  /// @brief Field PixelValidationMode, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_PixelValidationMode, put = setStaticF_PixelValidationMode)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip PixelValidationMode;
 
-/// @brief Field PostProcessing, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_PostProcessing, put=setStaticF_PostProcessing)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  PostProcessing;
+  /// @brief Field PostProcessing, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_PostProcessing, put = setStaticF_PostProcessing)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip PostProcessing;
 
-/// @brief Field StpDebugViews, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_StpDebugViews, put=setStaticF_StpDebugViews)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  StpDebugViews;
+  /// @brief Field StpDebugViews, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_StpDebugViews, put = setStaticF_StpDebugViews)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip StpDebugViews;
 
-/// @brief Field TaaDebugMode, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_TaaDebugMode, put=setStaticF_TaaDebugMode)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  TaaDebugMode;
+  /// @brief Field TaaDebugMode, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_TaaDebugMode, put = setStaticF_TaaDebugMode)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip TaaDebugMode;
 
-/// @brief Field ValueRangeMax, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_ValueRangeMax, put=setStaticF_ValueRangeMax)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  ValueRangeMax;
+  /// @brief Field ValueRangeMax, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_ValueRangeMax, put = setStaticF_ValueRangeMax)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip ValueRangeMax;
 
-/// @brief Field ValueRangeMin, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_ValueRangeMin, put=setStaticF_ValueRangeMin)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  ValueRangeMin;
+  /// @brief Field ValueRangeMin, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_ValueRangeMin, put = setStaticF_ValueRangeMin)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip ValueRangeMin;
 
-/// @brief Field WireframeNotSupportedWarning, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_WireframeNotSupportedWarning, put=setStaticF_WireframeNotSupportedWarning)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  WireframeNotSupportedWarning;
+  /// @brief Field WireframeNotSupportedWarning, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_WireframeNotSupportedWarning,
+                      put = setStaticF_WireframeNotSupportedWarning)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip WireframeNotSupportedWarning;
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_AdditionalWireframeModes() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_AdditionalWireframeModes();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_Channels() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_Channels();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_HDR() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_HDR();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MSAA() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MSAA();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MapOverlays() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MapOverlays();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MapSize() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MapSize();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MaxOverdrawCount() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MaxOverdrawCount();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapActivityTimespan() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapActivityTimespan();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapCombinePerMaterial() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapCombinePerMaterial();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDebugOpacity() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDebugOpacity();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDebugView() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDebugView();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDisableMipCaching() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDisableMipCaching();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDisplayStatusCodes() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapDisplayStatusCodes();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapMaterialTextureSlot() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapMaterialTextureSlot();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapTerrainTexture() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_MipMapTerrainTexture();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_OverdrawMode() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_OverdrawMode();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_PixelValidationMode() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_PixelValidationMode();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_PostProcessing() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_PostProcessing();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_StpDebugViews() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_StpDebugViews();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_TaaDebugMode() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_TaaDebugMode();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_ValueRangeMax() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_ValueRangeMax();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_ValueRangeMin() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_ValueRangeMin();
 
-static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_WireframeNotSupportedWarning() ;
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_WireframeNotSupportedWarning();
 
-static inline void setStaticF_AdditionalWireframeModes(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_AdditionalWireframeModes(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_Channels(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_Channels(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_HDR(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_HDR(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MSAA(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MSAA(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MapOverlays(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MapOverlays(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MapSize(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MapSize(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MaxOverdrawCount(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MaxOverdrawCount(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapActivityTimespan(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapActivityTimespan(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapCombinePerMaterial(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapCombinePerMaterial(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapDebugOpacity(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapDebugOpacity(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapDebugView(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapDebugView(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapDisableMipCaching(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapDisableMipCaching(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapDisplayStatusCodes(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapDisplayStatusCodes(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapMaterialTextureSlot(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapMaterialTextureSlot(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_MipMapTerrainTexture(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_MipMapTerrainTexture(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_OverdrawMode(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_OverdrawMode(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_PixelValidationMode(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_PixelValidationMode(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_PostProcessing(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_PostProcessing(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_StpDebugViews(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_StpDebugViews(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_TaaDebugMode(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_TaaDebugMode(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_ValueRangeMax(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_ValueRangeMax(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_ValueRangeMin(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_ValueRangeMin(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-static inline void setStaticF_WireframeNotSupportedWarning(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip  value) ;
+  static inline void setStaticF_WireframeNotSupportedWarning(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DebugDisplaySettingsRendering_Strings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugDisplaySettingsRendering_Strings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Strings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Strings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Strings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Strings const& ) = delete;
+  /// @brief Field RangeValidationSettingsContainerName offset 0xffffffff size 0x8
+  static constexpr ::ConstString RangeValidationSettingsContainerName{ u"Pixel Range Settings" };
 
-/// @brief Field RangeValidationSettingsContainerName offset 0xffffffff size 0x8
-static constexpr ::ConstString  RangeValidationSettingsContainerName{u"Pixel Range Settings"};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12621 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12614};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_Strings, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* __9;
 
-/// @brief Field <>9__11_3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__11_3, put=setStaticF___9__11_3)) ::System::Func_1<float_t>*  __9__11_3;
+  /// @brief Field <>9__11_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__11_3, put = setStaticF___9__11_3)) ::System::Func_1<float_t>* __9__11_3;
 
-/// @brief Field <>9__11_4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__11_4, put=setStaticF___9__11_4)) ::System::Func_1<float_t>*  __9__11_4;
+  /// @brief Field <>9__11_4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__11_4, put = setStaticF___9__11_4)) ::System::Func_1<float_t>* __9__11_4;
 
-/// @brief Field <>9__16_4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__16_4, put=setStaticF___9__16_4)) ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>*  __9__16_4;
+  /// @brief Field <>9__16_4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__16_4, put = setStaticF___9__16_4)) ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* __9__16_4;
 
-/// @brief Field <>9__17_4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__17_4, put=setStaticF___9__17_4)) ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>*  __9__17_4;
+  /// @brief Field <>9__17_4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__17_4, put = setStaticF___9__17_4)) ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* __9__17_4;
 
-/// @brief Field <>9__2_2, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__2_2, put=setStaticF___9__2_2)) ::System::Func_1<int32_t>*  __9__2_2;
+  /// @brief Field <>9__2_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__2_2, put = setStaticF___9__2_2)) ::System::Func_1<int32_t>* __9__2_2;
 
-/// @brief Field <>9__2_3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__2_3, put=setStaticF___9__2_3)) ::System::Func_1<int32_t>*  __9__2_3;
+  /// @brief Field <>9__2_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__2_3, put = setStaticF___9__2_3)) ::System::Func_1<int32_t>* __9__2_3;
 
-/// @brief Field <>9__3_4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__3_4, put=setStaticF___9__3_4)) ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>*  __9__3_4;
+  /// @brief Field <>9__3_4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__3_4, put = setStaticF___9__3_4)) ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* __9__3_4;
 
-/// @brief Field <>9__6_3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__6_3, put=setStaticF___9__6_3)) ::System::Func_1<int32_t>*  __9__6_3;
+  /// @brief Field <>9__6_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__6_3, put = setStaticF___9__6_3)) ::System::Func_1<int32_t>* __9__6_3;
 
-/// @brief Field <>9__6_4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__6_4, put=setStaticF___9__6_4)) ::System::Func_1<int32_t>*  __9__6_4;
+  /// @brief Field <>9__6_4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__6_4, put = setStaticF___9__6_4)) ::System::Func_1<int32_t>* __9__6_4;
 
-/// @brief Field <>9__7_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__7_0, put=setStaticF___9__7_0)) ::System::Func_1<bool>*  __9__7_0;
+  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_1<bool>* __9__7_0;
 
-/// @brief Field <>9__7_1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__7_1, put=setStaticF___9__7_1)) ::System::Action_1<bool>*  __9__7_1;
+  /// @brief Field <>9__7_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1)) ::System::Action_1<bool>* __9__7_1;
 
-/// @brief Field <>9__9_10, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__9_10, put=setStaticF___9__9_10)) ::System::Func_1<bool>*  __9__9_10;
+  /// @brief Field <>9__9_10, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__9_10, put = setStaticF___9__9_10)) ::System::Func_1<bool>* __9__9_10;
 
-/// @brief Field <>9__9_4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__9_4, put=setStaticF___9__9_4)) ::System::Func_1<float_t>*  __9__9_4;
+  /// @brief Field <>9__9_4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__9_4, put = setStaticF___9__9_4)) ::System::Func_1<float_t>* __9__9_4;
 
-/// @brief Field <>9__9_5, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__9_5, put=setStaticF___9__9_5)) ::System::Func_1<float_t>*  __9__9_5;
+  /// @brief Field <>9__9_5, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__9_5, put = setStaticF___9__9_5)) ::System::Func_1<float_t>* __9__9_5;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* New_ctor();
 
-/// @brief Method <CreateAdditionalWireframeShaderViews>b__3_4, addr 0x6693d74, size 0x7c, virtual false, abstract: false, final false
-inline void _CreateAdditionalWireframeShaderViews_b__3_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*  _, int32_t  __param_1) ;
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__3_4, addr 0x6705d80, size 0x7c, virtual false, abstract: false, final false
+  inline void _CreateAdditionalWireframeShaderViews_b__3_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-/// @brief Method <CreateMapOverlaySize>b__2_2, addr 0x6693d64, size 0x8, virtual false, abstract: false, final false
-inline int32_t _CreateMapOverlaySize_b__2_2() ;
+  /// @brief Method <CreateMapOverlaySize>b__2_2, addr 0x6705d70, size 0x8, virtual false, abstract: false, final false
+  inline int32_t _CreateMapOverlaySize_b__2_2();
 
-/// @brief Method <CreateMapOverlaySize>b__2_3, addr 0x6693d6c, size 0x8, virtual false, abstract: false, final false
-inline int32_t _CreateMapOverlaySize_b__2_3() ;
+  /// @brief Method <CreateMapOverlaySize>b__2_3, addr 0x6705d78, size 0x8, virtual false, abstract: false, final false
+  inline int32_t _CreateMapOverlaySize_b__2_3();
 
-/// @brief Method <CreateMaxOverdrawCount>b__6_3, addr 0x6693df0, size 0x8, virtual false, abstract: false, final false
-inline int32_t _CreateMaxOverdrawCount_b__6_3() ;
+  /// @brief Method <CreateMaxOverdrawCount>b__6_3, addr 0x6705dfc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t _CreateMaxOverdrawCount_b__6_3();
 
-/// @brief Method <CreateMaxOverdrawCount>b__6_4, addr 0x6693df8, size 0x8, virtual false, abstract: false, final false
-inline int32_t _CreateMaxOverdrawCount_b__6_4() ;
+  /// @brief Method <CreateMaxOverdrawCount>b__6_4, addr 0x6705e04, size 0x8, virtual false, abstract: false, final false
+  inline int32_t _CreateMaxOverdrawCount_b__6_4();
 
-/// @brief Method <CreateMipMapDebugCooldownSlider>b__11_3, addr 0x6693efc, size 0x8, virtual false, abstract: false, final false
-inline float_t _CreateMipMapDebugCooldownSlider_b__11_3() ;
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__11_3, addr 0x6705f08, size 0x8, virtual false, abstract: false, final false
+  inline float_t _CreateMipMapDebugCooldownSlider_b__11_3();
 
-/// @brief Method <CreateMipMapDebugCooldownSlider>b__11_4, addr 0x6693f04, size 0xc, virtual false, abstract: false, final false
-inline float_t _CreateMipMapDebugCooldownSlider_b__11_4() ;
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__11_4, addr 0x6705f10, size 0xc, virtual false, abstract: false, final false
+  inline float_t _CreateMipMapDebugCooldownSlider_b__11_4();
 
-/// @brief Method <CreateMipMapDebugSettings>b__9_10, addr 0x6693ef4, size 0x8, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugSettings_b__9_10() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__9_10, addr 0x6705f00, size 0x8, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugSettings_b__9_10();
 
-/// @brief Method <CreateMipMapDebugSettings>b__9_4, addr 0x6693ee4, size 0x8, virtual false, abstract: false, final false
-inline float_t _CreateMipMapDebugSettings_b__9_4() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__9_4, addr 0x6705ef0, size 0x8, virtual false, abstract: false, final false
+  inline float_t _CreateMipMapDebugSettings_b__9_4();
 
-/// @brief Method <CreateMipMapDebugSettings>b__9_5, addr 0x6693eec, size 0x8, virtual false, abstract: false, final false
-inline float_t _CreateMipMapDebugSettings_b__9_5() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__9_5, addr 0x6705ef8, size 0x8, virtual false, abstract: false, final false
+  inline float_t _CreateMipMapDebugSettings_b__9_5();
 
-/// @brief Method <CreateMipMapDebugWidget>b__7_0, addr 0x6693e00, size 0x6c, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugWidget_b__7_0() ;
+  /// @brief Method <CreateMipMapDebugWidget>b__7_0, addr 0x6705e0c, size 0x6c, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugWidget_b__7_0();
 
-/// @brief Method <CreateMipMapDebugWidget>b__7_1, addr 0x6693e6c, size 0x78, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugWidget_b__7_1(bool  value) ;
+  /// @brief Method <CreateMipMapDebugWidget>b__7_1, addr 0x6705e78, size 0x78, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugWidget_b__7_1(bool value);
 
-/// @brief Method <CreatePixelValidationMode>b__17_4, addr 0x6693f8c, size 0x7c, virtual false, abstract: false, final false
-inline void _CreatePixelValidationMode_b__17_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*  _, int32_t  __param_1) ;
+  /// @brief Method <CreatePixelValidationMode>b__17_4, addr 0x6705f98, size 0x7c, virtual false, abstract: false, final false
+  inline void _CreatePixelValidationMode_b__17_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-/// @brief Method <CreateTaaDebugMode>b__16_4, addr 0x6693f10, size 0x7c, virtual false, abstract: false, final false
-inline void _CreateTaaDebugMode_b__16_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*  _, int32_t  __param_1) ;
+  /// @brief Method <CreateTaaDebugMode>b__16_4, addr 0x6705f1c, size 0x7c, virtual false, abstract: false, final false
+  inline void _CreateTaaDebugMode_b__16_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-/// @brief Method .ctor, addr 0x6693d60, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6705d6c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* getStaticF___9() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* getStaticF___9();
 
-static inline ::System::Func_1<float_t>* getStaticF___9__11_3() ;
+  static inline ::System::Func_1<float_t>* getStaticF___9__11_3();
 
-static inline ::System::Func_1<float_t>* getStaticF___9__11_4() ;
+  static inline ::System::Func_1<float_t>* getStaticF___9__11_4();
 
-static inline ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>* getStaticF___9__16_4() ;
+  static inline ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* getStaticF___9__16_4();
 
-static inline ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>* getStaticF___9__17_4() ;
+  static inline ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* getStaticF___9__17_4();
 
-static inline ::System::Func_1<int32_t>* getStaticF___9__2_2() ;
+  static inline ::System::Func_1<int32_t>* getStaticF___9__2_2();
 
-static inline ::System::Func_1<int32_t>* getStaticF___9__2_3() ;
+  static inline ::System::Func_1<int32_t>* getStaticF___9__2_3();
 
-static inline ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>* getStaticF___9__3_4() ;
+  static inline ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* getStaticF___9__3_4();
 
-static inline ::System::Func_1<int32_t>* getStaticF___9__6_3() ;
+  static inline ::System::Func_1<int32_t>* getStaticF___9__6_3();
 
-static inline ::System::Func_1<int32_t>* getStaticF___9__6_4() ;
+  static inline ::System::Func_1<int32_t>* getStaticF___9__6_4();
 
-static inline ::System::Func_1<bool>* getStaticF___9__7_0() ;
+  static inline ::System::Func_1<bool>* getStaticF___9__7_0();
 
-static inline ::System::Action_1<bool>* getStaticF___9__7_1() ;
+  static inline ::System::Action_1<bool>* getStaticF___9__7_1();
 
-static inline ::System::Func_1<bool>* getStaticF___9__9_10() ;
+  static inline ::System::Func_1<bool>* getStaticF___9__9_10();
 
-static inline ::System::Func_1<float_t>* getStaticF___9__9_4() ;
+  static inline ::System::Func_1<float_t>* getStaticF___9__9_4();
 
-static inline ::System::Func_1<float_t>* getStaticF___9__9_5() ;
+  static inline ::System::Func_1<float_t>* getStaticF___9__9_5();
 
-static inline void setStaticF___9(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* value);
 
-static inline void setStaticF___9__11_3(::System::Func_1<float_t>*  value) ;
+  static inline void setStaticF___9__11_3(::System::Func_1<float_t>* value);
 
-static inline void setStaticF___9__11_4(::System::Func_1<float_t>*  value) ;
+  static inline void setStaticF___9__11_4(::System::Func_1<float_t>* value);
 
-static inline void setStaticF___9__16_4(::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>*  value) ;
+  static inline void setStaticF___9__16_4(::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* value);
 
-static inline void setStaticF___9__17_4(::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>*  value) ;
+  static inline void setStaticF___9__17_4(::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* value);
 
-static inline void setStaticF___9__2_2(::System::Func_1<int32_t>*  value) ;
+  static inline void setStaticF___9__2_2(::System::Func_1<int32_t>* value);
 
-static inline void setStaticF___9__2_3(::System::Func_1<int32_t>*  value) ;
+  static inline void setStaticF___9__2_3(::System::Func_1<int32_t>* value);
 
-static inline void setStaticF___9__3_4(::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*,int32_t>*  value) ;
+  static inline void setStaticF___9__3_4(::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* value);
 
-static inline void setStaticF___9__6_3(::System::Func_1<int32_t>*  value) ;
+  static inline void setStaticF___9__6_3(::System::Func_1<int32_t>* value);
 
-static inline void setStaticF___9__6_4(::System::Func_1<int32_t>*  value) ;
+  static inline void setStaticF___9__6_4(::System::Func_1<int32_t>* value);
 
-static inline void setStaticF___9__7_0(::System::Func_1<bool>*  value) ;
+  static inline void setStaticF___9__7_0(::System::Func_1<bool>* value);
 
-static inline void setStaticF___9__7_1(::System::Action_1<bool>*  value) ;
+  static inline void setStaticF___9__7_1(::System::Action_1<bool>* value);
 
-static inline void setStaticF___9__9_10(::System::Func_1<bool>*  value) ;
+  static inline void setStaticF___9__9_10(::System::Func_1<bool>* value);
 
-static inline void setStaticF___9__9_4(::System::Func_1<float_t>*  value) ;
+  static inline void setStaticF___9__9_4(::System::Func_1<float_t>* value);
 
-static inline void setStaticF___9__9_5(::System::Func_1<float_t>*  value) ;
+  static inline void setStaticF___9__9_5(::System::Func_1<float_t>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12622 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12615};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass0_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0* New_ctor();
 
-/// @brief Method <CreateMapOverlays>b__0, addr 0x6694008, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMapOverlays_b__0() ;
+  /// @brief Method <CreateMapOverlays>b__0, addr 0x6706014, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMapOverlays_b__0();
 
-/// @brief Method <CreateMapOverlays>b__1, addr 0x6694060, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMapOverlays_b__1(int32_t  value) ;
+  /// @brief Method <CreateMapOverlays>b__1, addr 0x670606c, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMapOverlays_b__1(int32_t value);
 
-/// @brief Method <CreateMapOverlays>b__2, addr 0x66940c4, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMapOverlays_b__2() ;
+  /// @brief Method <CreateMapOverlays>b__2, addr 0x67060d0, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMapOverlays_b__2();
 
-/// @brief Method <CreateMapOverlays>b__3, addr 0x669411c, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMapOverlays_b__3(int32_t  value) ;
+  /// @brief Method <CreateMapOverlays>b__3, addr 0x6706128, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMapOverlays_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x668f490, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x670149c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12623 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12616};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass10_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0* New_ctor();
 
-/// @brief Method <CreateMipMapDebugSlotSelector>b__0, addr 0x6694180, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMipMapDebugSlotSelector_b__0() ;
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__0, addr 0x670618c, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMipMapDebugSlotSelector_b__0();
 
-/// @brief Method <CreateMipMapDebugSlotSelector>b__1, addr 0x66941d8, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugSlotSelector_b__1(int32_t  value) ;
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__1, addr 0x67061e4, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugSlotSelector_b__1(int32_t value);
 
-/// @brief Method <CreateMipMapDebugSlotSelector>b__2, addr 0x669423c, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMipMapDebugSlotSelector_b__2() ;
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__2, addr 0x6706248, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMipMapDebugSlotSelector_b__2();
 
-/// @brief Method <CreateMipMapDebugSlotSelector>b__3, addr 0x6694294, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugSlotSelector_b__3(int32_t  value) ;
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__3, addr 0x67062a0, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugSlotSelector_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x66925d0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67045dc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12624 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12617};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass11_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0* New_ctor();
 
-/// @brief Method <CreateMipMapDebugCooldownSlider>b__0, addr 0x66942f8, size 0x60, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugCooldownSlider_b__0() ;
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__0, addr 0x6706304, size 0x60, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugCooldownSlider_b__0();
 
-/// @brief Method <CreateMipMapDebugCooldownSlider>b__1, addr 0x6694358, size 0x58, virtual false, abstract: false, final false
-inline float_t _CreateMipMapDebugCooldownSlider_b__1() ;
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__1, addr 0x6706364, size 0x58, virtual false, abstract: false, final false
+  inline float_t _CreateMipMapDebugCooldownSlider_b__1();
 
-/// @brief Method <CreateMipMapDebugCooldownSlider>b__2, addr 0x66943b0, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugCooldownSlider_b__2(float_t  value) ;
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__2, addr 0x67063bc, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugCooldownSlider_b__2(float_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x66925d4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67045e0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12625 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12618};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass12_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0* New_ctor();
 
-/// @brief Method <CreateMipMapShowStatusCodeToggle>b__0, addr 0x6694414, size 0x60, virtual false, abstract: false, final false
-inline bool _CreateMipMapShowStatusCodeToggle_b__0() ;
+  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__0, addr 0x6706420, size 0x60, virtual false, abstract: false, final false
+  inline bool _CreateMipMapShowStatusCodeToggle_b__0();
 
-/// @brief Method <CreateMipMapShowStatusCodeToggle>b__1, addr 0x6694474, size 0x58, virtual false, abstract: false, final false
-inline bool _CreateMipMapShowStatusCodeToggle_b__1() ;
+  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__1, addr 0x6706480, size 0x58, virtual false, abstract: false, final false
+  inline bool _CreateMipMapShowStatusCodeToggle_b__1();
 
-/// @brief Method <CreateMipMapShowStatusCodeToggle>b__2, addr 0x66944cc, size 0x68, virtual false, abstract: false, final false
-inline void _CreateMipMapShowStatusCodeToggle_b__2(bool  value) ;
+  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__2, addr 0x67064d8, size 0x68, virtual false, abstract: false, final false
+  inline void _CreateMipMapShowStatusCodeToggle_b__2(bool value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x66925d8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67045e4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12626 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12619};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass13_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0* New_ctor();
 
-/// @brief Method <CreatePostProcessing>b__0, addr 0x6694534, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreatePostProcessing_b__0() ;
+  /// @brief Method <CreatePostProcessing>b__0, addr 0x6706540, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreatePostProcessing_b__0();
 
-/// @brief Method <CreatePostProcessing>b__1, addr 0x669458c, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePostProcessing_b__1(int32_t  value) ;
+  /// @brief Method <CreatePostProcessing>b__1, addr 0x6706598, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePostProcessing_b__1(int32_t value);
 
-/// @brief Method <CreatePostProcessing>b__2, addr 0x66945f0, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreatePostProcessing_b__2() ;
+  /// @brief Method <CreatePostProcessing>b__2, addr 0x67065fc, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreatePostProcessing_b__2();
 
-/// @brief Method <CreatePostProcessing>b__3, addr 0x6694648, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePostProcessing_b__3(int32_t  value) ;
+  /// @brief Method <CreatePostProcessing>b__3, addr 0x6706654, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePostProcessing_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6692910, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x670491c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12627 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12620};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass14_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0* New_ctor();
 
-/// @brief Method <CreateMSAA>b__0, addr 0x66946ac, size 0x58, virtual false, abstract: false, final false
-inline bool _CreateMSAA_b__0() ;
+  /// @brief Method <CreateMSAA>b__0, addr 0x67066b8, size 0x58, virtual false, abstract: false, final false
+  inline bool _CreateMSAA_b__0();
 
-/// @brief Method <CreateMSAA>b__1, addr 0x6694704, size 0x68, virtual false, abstract: false, final false
-inline void _CreateMSAA_b__1(bool  value) ;
+  /// @brief Method <CreateMSAA>b__1, addr 0x6706710, size 0x68, virtual false, abstract: false, final false
+  inline void _CreateMSAA_b__1(bool value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6692b40, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6704b4c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12628 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12621};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass15_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0* New_ctor();
 
-/// @brief Method <CreateHDR>b__0, addr 0x669476c, size 0x58, virtual false, abstract: false, final false
-inline bool _CreateHDR_b__0() ;
+  /// @brief Method <CreateHDR>b__0, addr 0x6706778, size 0x58, virtual false, abstract: false, final false
+  inline bool _CreateHDR_b__0();
 
-/// @brief Method <CreateHDR>b__1, addr 0x66947c4, size 0x68, virtual false, abstract: false, final false
-inline void _CreateHDR_b__1(bool  value) ;
+  /// @brief Method <CreateHDR>b__1, addr 0x67067d0, size 0x68, virtual false, abstract: false, final false
+  inline void _CreateHDR_b__1(bool value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6692d70, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6704d7c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12629 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12622};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass16_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0* New_ctor();
 
-/// @brief Method <CreateTaaDebugMode>b__0, addr 0x669482c, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateTaaDebugMode_b__0() ;
+  /// @brief Method <CreateTaaDebugMode>b__0, addr 0x6706838, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateTaaDebugMode_b__0();
 
-/// @brief Method <CreateTaaDebugMode>b__1, addr 0x6694884, size 0x64, virtual false, abstract: false, final false
-inline void _CreateTaaDebugMode_b__1(int32_t  value) ;
+  /// @brief Method <CreateTaaDebugMode>b__1, addr 0x6706890, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateTaaDebugMode_b__1(int32_t value);
 
-/// @brief Method <CreateTaaDebugMode>b__2, addr 0x66948e8, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateTaaDebugMode_b__2() ;
+  /// @brief Method <CreateTaaDebugMode>b__2, addr 0x67068f4, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateTaaDebugMode_b__2();
 
-/// @brief Method <CreateTaaDebugMode>b__3, addr 0x6694940, size 0x64, virtual false, abstract: false, final false
-inline void _CreateTaaDebugMode_b__3(int32_t  value) ;
+  /// @brief Method <CreateTaaDebugMode>b__3, addr 0x670694c, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateTaaDebugMode_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6693158, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6705164, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12630 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12623};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass17_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0* New_ctor();
 
-/// @brief Method <CreatePixelValidationMode>b__0, addr 0x66949a4, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreatePixelValidationMode_b__0() ;
+  /// @brief Method <CreatePixelValidationMode>b__0, addr 0x67069b0, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreatePixelValidationMode_b__0();
 
-/// @brief Method <CreatePixelValidationMode>b__1, addr 0x66949fc, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePixelValidationMode_b__1(int32_t  value) ;
+  /// @brief Method <CreatePixelValidationMode>b__1, addr 0x6706a08, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePixelValidationMode_b__1(int32_t value);
 
-/// @brief Method <CreatePixelValidationMode>b__2, addr 0x6694a60, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreatePixelValidationMode_b__2() ;
+  /// @brief Method <CreatePixelValidationMode>b__2, addr 0x6706a6c, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreatePixelValidationMode_b__2();
 
-/// @brief Method <CreatePixelValidationMode>b__3, addr 0x6694ab8, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePixelValidationMode_b__3(int32_t  value) ;
+  /// @brief Method <CreatePixelValidationMode>b__3, addr 0x6706ac4, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePixelValidationMode_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6693540, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x670554c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12631 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12624};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass18_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0* New_ctor();
 
-/// @brief Method <CreatePixelValidationChannels>b__0, addr 0x6694b1c, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreatePixelValidationChannels_b__0() ;
+  /// @brief Method <CreatePixelValidationChannels>b__0, addr 0x6706b28, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreatePixelValidationChannels_b__0();
 
-/// @brief Method <CreatePixelValidationChannels>b__1, addr 0x6694b74, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePixelValidationChannels_b__1(int32_t  value) ;
+  /// @brief Method <CreatePixelValidationChannels>b__1, addr 0x6706b80, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePixelValidationChannels_b__1(int32_t value);
 
-/// @brief Method <CreatePixelValidationChannels>b__2, addr 0x6694bd8, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreatePixelValidationChannels_b__2() ;
+  /// @brief Method <CreatePixelValidationChannels>b__2, addr 0x6706be4, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreatePixelValidationChannels_b__2();
 
-/// @brief Method <CreatePixelValidationChannels>b__3, addr 0x6694c30, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePixelValidationChannels_b__3(int32_t  value) ;
+  /// @brief Method <CreatePixelValidationChannels>b__3, addr 0x6706c3c, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePixelValidationChannels_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6693878, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6705884, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12632 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12625};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass19_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0* New_ctor();
 
-/// @brief Method <CreatePixelValueRangeMin>b__0, addr 0x6694c94, size 0x58, virtual false, abstract: false, final false
-inline float_t _CreatePixelValueRangeMin_b__0() ;
+  /// @brief Method <CreatePixelValueRangeMin>b__0, addr 0x6706ca0, size 0x58, virtual false, abstract: false, final false
+  inline float_t _CreatePixelValueRangeMin_b__0();
 
-/// @brief Method <CreatePixelValueRangeMin>b__1, addr 0x6694cec, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePixelValueRangeMin_b__1(float_t  value) ;
+  /// @brief Method <CreatePixelValueRangeMin>b__1, addr 0x6706cf8, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePixelValueRangeMin_b__1(float_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6693ac0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6705acc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12633 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12626};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass1_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0* New_ctor();
 
-/// @brief Method <CreateStpDebugViews>b__0, addr 0x6694d50, size 0x60, virtual false, abstract: false, final false
-inline bool _CreateStpDebugViews_b__0() ;
+  /// @brief Method <CreateStpDebugViews>b__0, addr 0x6706d5c, size 0x60, virtual false, abstract: false, final false
+  inline bool _CreateStpDebugViews_b__0();
 
-/// @brief Method <CreateStpDebugViews>b__1, addr 0x6694db0, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateStpDebugViews_b__1() ;
+  /// @brief Method <CreateStpDebugViews>b__1, addr 0x6706dbc, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateStpDebugViews_b__1();
 
-/// @brief Method <CreateStpDebugViews>b__2, addr 0x6694e08, size 0x64, virtual false, abstract: false, final false
-inline void _CreateStpDebugViews_b__2(int32_t  value) ;
+  /// @brief Method <CreateStpDebugViews>b__2, addr 0x6706e14, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateStpDebugViews_b__2(int32_t value);
 
-/// @brief Method <CreateStpDebugViews>b__3, addr 0x6694e6c, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateStpDebugViews_b__3() ;
+  /// @brief Method <CreateStpDebugViews>b__3, addr 0x6706e78, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateStpDebugViews_b__3();
 
-/// @brief Method <CreateStpDebugViews>b__4, addr 0x6694ec4, size 0x64, virtual false, abstract: false, final false
-inline void _CreateStpDebugViews_b__4(int32_t  value) ;
+  /// @brief Method <CreateStpDebugViews>b__4, addr 0x6706ed0, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateStpDebugViews_b__4(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x668f8e0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67018ec, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12634 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12627};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass20_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0* New_ctor();
 
-/// @brief Method <CreatePixelValueRangeMax>b__0, addr 0x6694f28, size 0x58, virtual false, abstract: false, final false
-inline float_t _CreatePixelValueRangeMax_b__0() ;
+  /// @brief Method <CreatePixelValueRangeMax>b__0, addr 0x6706f34, size 0x58, virtual false, abstract: false, final false
+  inline float_t _CreatePixelValueRangeMax_b__0();
 
-/// @brief Method <CreatePixelValueRangeMax>b__1, addr 0x6694f80, size 0x64, virtual false, abstract: false, final false
-inline void _CreatePixelValueRangeMax_b__1(float_t  value) ;
+  /// @brief Method <CreatePixelValueRangeMax>b__1, addr 0x6706f8c, size 0x64, virtual false, abstract: false, final false
+  inline void _CreatePixelValueRangeMax_b__1(float_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6693d08, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6705d14, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12635 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12628};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass2_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0* New_ctor();
 
-/// @brief Method <CreateMapOverlaySize>b__0, addr 0x6694fe4, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMapOverlaySize_b__0() ;
+  /// @brief Method <CreateMapOverlaySize>b__0, addr 0x6706ff0, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMapOverlaySize_b__0();
 
-/// @brief Method <CreateMapOverlaySize>b__1, addr 0x669503c, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMapOverlaySize_b__1(int32_t  value) ;
+  /// @brief Method <CreateMapOverlaySize>b__1, addr 0x6707048, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMapOverlaySize_b__1(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x668fc94, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6701ca0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12636 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12629};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass3_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0* New_ctor();
 
-/// @brief Method <CreateAdditionalWireframeShaderViews>b__0, addr 0x66950a0, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateAdditionalWireframeShaderViews_b__0() ;
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__0, addr 0x67070ac, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateAdditionalWireframeShaderViews_b__0();
 
-/// @brief Method <CreateAdditionalWireframeShaderViews>b__1, addr 0x66950f8, size 0x88, virtual false, abstract: false, final false
-inline void _CreateAdditionalWireframeShaderViews_b__1(int32_t  value) ;
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__1, addr 0x6707104, size 0x88, virtual false, abstract: false, final false
+  inline void _CreateAdditionalWireframeShaderViews_b__1(int32_t value);
 
-/// @brief Method <CreateAdditionalWireframeShaderViews>b__2, addr 0x6695180, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateAdditionalWireframeShaderViews_b__2() ;
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__2, addr 0x670718c, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateAdditionalWireframeShaderViews_b__2();
 
-/// @brief Method <CreateAdditionalWireframeShaderViews>b__3, addr 0x66951d8, size 0x88, virtual false, abstract: false, final false
-inline void _CreateAdditionalWireframeShaderViews_b__3(int32_t  value) ;
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__3, addr 0x67071e4, size 0x88, virtual false, abstract: false, final false
+  inline void _CreateAdditionalWireframeShaderViews_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x669007c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6702088, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12637 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12630};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass4_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0* New_ctor();
 
-/// @brief Method <CreateWireframeNotSupportedWarning>b__0, addr 0x6695260, size 0x98, virtual false, abstract: false, final false
-inline bool _CreateWireframeNotSupportedWarning_b__0() ;
+  /// @brief Method <CreateWireframeNotSupportedWarning>b__0, addr 0x670726c, size 0x98, virtual false, abstract: false, final false
+  inline bool _CreateWireframeNotSupportedWarning_b__0();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x66901d4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67021e0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12638 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12631};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass5_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0* New_ctor();
 
-/// @brief Method <CreateOverdrawMode>b__0, addr 0x66952f8, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateOverdrawMode_b__0() ;
+  /// @brief Method <CreateOverdrawMode>b__0, addr 0x6707304, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateOverdrawMode_b__0();
 
-/// @brief Method <CreateOverdrawMode>b__1, addr 0x6695350, size 0x80, virtual false, abstract: false, final false
-inline void _CreateOverdrawMode_b__1(int32_t  value) ;
+  /// @brief Method <CreateOverdrawMode>b__1, addr 0x670735c, size 0x80, virtual false, abstract: false, final false
+  inline void _CreateOverdrawMode_b__1(int32_t value);
 
-/// @brief Method <CreateOverdrawMode>b__2, addr 0x66953d0, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateOverdrawMode_b__2() ;
+  /// @brief Method <CreateOverdrawMode>b__2, addr 0x67073dc, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateOverdrawMode_b__2();
 
-/// @brief Method <CreateOverdrawMode>b__3, addr 0x6695428, size 0x80, virtual false, abstract: false, final false
-inline void _CreateOverdrawMode_b__3(int32_t  value) ;
+  /// @brief Method <CreateOverdrawMode>b__3, addr 0x6707434, size 0x80, virtual false, abstract: false, final false
+  inline void _CreateOverdrawMode_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x669050c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6702518, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12639 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12632};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass6_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0* New_ctor();
 
-/// @brief Method <CreateMaxOverdrawCount>b__0, addr 0x66954a8, size 0x60, virtual false, abstract: false, final false
-inline bool _CreateMaxOverdrawCount_b__0() ;
+  /// @brief Method <CreateMaxOverdrawCount>b__0, addr 0x67074b4, size 0x60, virtual false, abstract: false, final false
+  inline bool _CreateMaxOverdrawCount_b__0();
 
-/// @brief Method <CreateMaxOverdrawCount>b__1, addr 0x6695508, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMaxOverdrawCount_b__1() ;
+  /// @brief Method <CreateMaxOverdrawCount>b__1, addr 0x6707514, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMaxOverdrawCount_b__1();
 
-/// @brief Method <CreateMaxOverdrawCount>b__2, addr 0x6695560, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMaxOverdrawCount_b__2(int32_t  value) ;
+  /// @brief Method <CreateMaxOverdrawCount>b__2, addr 0x670756c, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMaxOverdrawCount_b__2(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6690948, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6702954, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12640 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12633};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass8_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0* New_ctor();
 
-/// @brief Method <CreateMipMapMode>b__0, addr 0x66955c4, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMipMapMode_b__0() ;
+  /// @brief Method <CreateMipMapMode>b__0, addr 0x67075d0, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMipMapMode_b__0();
 
-/// @brief Method <CreateMipMapMode>b__1, addr 0x669561c, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapMode_b__1(int32_t  value) ;
+  /// @brief Method <CreateMipMapMode>b__1, addr 0x6707628, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapMode_b__1(int32_t value);
 
-/// @brief Method <CreateMipMapMode>b__2, addr 0x6695680, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMipMapMode_b__2() ;
+  /// @brief Method <CreateMipMapMode>b__2, addr 0x670768c, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMipMapMode_b__2();
 
-/// @brief Method <CreateMipMapMode>b__3, addr 0x66956d8, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapMode_b__3(int32_t  value) ;
+  /// @brief Method <CreateMipMapMode>b__3, addr 0x67076e4, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapMode_b__3(int32_t value);
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6691c3c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6703c48, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12641 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12634};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass9_0
 class CORDL_TYPE WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field panel, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel;
+  // Declarations
+  /// @brief Field panel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel;
 
-static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0* New_ctor();
 
-/// @brief Method <CreateMipMapDebugSettings>b__0, addr 0x669573c, size 0x60, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugSettings_b__0() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__0, addr 0x6707748, size 0x60, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugSettings_b__0();
 
-/// @brief Method <CreateMipMapDebugSettings>b__1, addr 0x6695858, size 0x64, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugSettings_b__1() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__1, addr 0x6707864, size 0x64, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugSettings_b__1();
 
-/// @brief Method <CreateMipMapDebugSettings>b__11, addr 0x6695a64, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMipMapDebugSettings_b__11() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__11, addr 0x6707a70, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMipMapDebugSettings_b__11();
 
-/// @brief Method <CreateMipMapDebugSettings>b__12, addr 0x6695abc, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugSettings_b__12(int32_t  value) ;
+  /// @brief Method <CreateMipMapDebugSettings>b__12, addr 0x6707ac8, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugSettings_b__12(int32_t value);
 
-/// @brief Method <CreateMipMapDebugSettings>b__13, addr 0x6695b20, size 0x58, virtual false, abstract: false, final false
-inline int32_t _CreateMipMapDebugSettings_b__13() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__13, addr 0x6707b2c, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _CreateMipMapDebugSettings_b__13();
 
-/// @brief Method <CreateMipMapDebugSettings>b__14, addr 0x6695b78, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugSettings_b__14(int32_t  value) ;
+  /// @brief Method <CreateMipMapDebugSettings>b__14, addr 0x6707b84, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugSettings_b__14(int32_t value);
 
-/// @brief Method <CreateMipMapDebugSettings>b__2, addr 0x669579c, size 0x58, virtual false, abstract: false, final false
-inline float_t _CreateMipMapDebugSettings_b__2() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__2, addr 0x67077a8, size 0x58, virtual false, abstract: false, final false
+  inline float_t _CreateMipMapDebugSettings_b__2();
 
-/// @brief Method <CreateMipMapDebugSettings>b__3, addr 0x66957f4, size 0x64, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugSettings_b__3(float_t  value) ;
+  /// @brief Method <CreateMipMapDebugSettings>b__3, addr 0x6707800, size 0x64, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugSettings_b__3(float_t value);
 
-/// @brief Method <CreateMipMapDebugSettings>b__6, addr 0x66958bc, size 0x64, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugSettings_b__6() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__6, addr 0x67078c8, size 0x64, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugSettings_b__6();
 
-/// @brief Method <CreateMipMapDebugSettings>b__7, addr 0x6695920, size 0x58, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugSettings_b__7() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__7, addr 0x670792c, size 0x58, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugSettings_b__7();
 
-/// @brief Method <CreateMipMapDebugSettings>b__8, addr 0x6695978, size 0x74, virtual false, abstract: false, final false
-inline void _CreateMipMapDebugSettings_b__8(bool  value) ;
+  /// @brief Method <CreateMipMapDebugSettings>b__8, addr 0x6707984, size 0x74, virtual false, abstract: false, final false
+  inline void _CreateMipMapDebugSettings_b__8(bool value);
 
-/// @brief Method <CreateMipMapDebugSettings>b__9, addr 0x66959ec, size 0x78, virtual false, abstract: false, final false
-inline bool _CreateMipMapDebugSettings_b__9() ;
+  /// @brief Method <CreateMipMapDebugSettings>b__9, addr 0x67079f8, size 0x78, virtual false, abstract: false, final false
+  inline bool _CreateMipMapDebugSettings_b__9();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*& __cordl_internal_get_panel();
 
-constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  value) ;
+  constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-/// @brief Method .ctor, addr 0x6691c40, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6703c4c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12642 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12635};
+  /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* ___panel;
 
-/// @brief Field panel, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  ___panel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0, ___panel) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/WidgetFactory
 class CORDL_TYPE DebugDisplaySettingsRendering_WidgetFactory : public ::System::Object {
 public:
-// Declarations
-using __c = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c;
+  // Declarations
+  using __c = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c;
 
-using __c__DisplayClass0_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0;
+  using __c__DisplayClass0_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0;
 
-using __c__DisplayClass10_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0;
+  using __c__DisplayClass10_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0;
 
-using __c__DisplayClass11_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0;
+  using __c__DisplayClass11_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0;
 
-using __c__DisplayClass12_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0;
+  using __c__DisplayClass12_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0;
 
-using __c__DisplayClass13_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0;
+  using __c__DisplayClass13_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0;
 
-using __c__DisplayClass14_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0;
+  using __c__DisplayClass14_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0;
 
-using __c__DisplayClass15_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0;
+  using __c__DisplayClass15_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0;
 
-using __c__DisplayClass16_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0;
+  using __c__DisplayClass16_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0;
 
-using __c__DisplayClass17_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0;
+  using __c__DisplayClass17_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0;
 
-using __c__DisplayClass18_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0;
+  using __c__DisplayClass18_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0;
 
-using __c__DisplayClass19_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0;
+  using __c__DisplayClass19_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0;
 
-using __c__DisplayClass1_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0;
+  using __c__DisplayClass1_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0;
 
-using __c__DisplayClass20_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0;
+  using __c__DisplayClass20_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0;
 
-using __c__DisplayClass2_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0;
+  using __c__DisplayClass2_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0;
 
-using __c__DisplayClass3_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0;
+  using __c__DisplayClass3_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0;
 
-using __c__DisplayClass4_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0;
+  using __c__DisplayClass4_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0;
 
-using __c__DisplayClass5_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0;
+  using __c__DisplayClass5_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0;
 
-using __c__DisplayClass6_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0;
+  using __c__DisplayClass6_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0;
 
-using __c__DisplayClass8_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0;
+  using __c__DisplayClass8_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0;
 
-using __c__DisplayClass9_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0;
+  using __c__DisplayClass9_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0;
 
-/// @brief Method CreateAdditionalWireframeShaderViews, addr 0x668fc98, size 0x3e4, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAdditionalWireframeShaderViews(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateAdditionalWireframeShaderViews, addr 0x6701ca4, size 0x3e4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAdditionalWireframeShaderViews(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateHDR, addr 0x6692b44, size 0x22c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateHDR(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateHDR, addr 0x6704b50, size 0x22c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateHDR(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMSAA, addr 0x6692914, size 0x22c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMSAA(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMSAA, addr 0x6704920, size 0x22c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMSAA(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMapOverlaySize, addr 0x668f8e4, size 0x3b0, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMapOverlaySize(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMapOverlaySize, addr 0x67018f0, size 0x3b0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMapOverlaySize(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMapOverlays, addr 0x668f15c, size 0x334, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMapOverlays(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMapOverlays, addr 0x6701168, size 0x334, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMapOverlays(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMaxOverdrawCount, addr 0x6690510, size 0x438, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMaxOverdrawCount(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMaxOverdrawCount, addr 0x670251c, size 0x438, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMaxOverdrawCount(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMipMapDebugCooldownSlider, addr 0x6692200, size 0x3d0, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugCooldownSlider(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMipMapDebugCooldownSlider, addr 0x670420c, size 0x3d0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugCooldownSlider(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMipMapDebugSettings, addr 0x6690f70, size 0xccc, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMipMapDebugSettings, addr 0x6702f7c, size 0xccc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMipMapDebugSlotSelector, addr 0x6691c44, size 0x328, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugSlotSelector(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel, ::System::Func_1<bool>*  hiddenCB, ::ArrayW<::UnityEngine::GUIContent*,::Array<::UnityEngine::GUIContent*>*>  texSlotStrings, ::ArrayW<int32_t,::Array<int32_t>*>  texSlotValues) ;
+  /// @brief Method CreateMipMapDebugSlotSelector, addr 0x6703c50, size 0x328, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugSlotSelector(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel,
+                                                                                        ::System::Func_1<bool>* hiddenCB,
+                                                                                        ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> texSlotStrings,
+                                                                                        ::ArrayW<int32_t, ::Array<int32_t>*> texSlotValues);
 
-/// @brief Method CreateMipMapDebugWidget, addr 0x669094c, size 0x2f0, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugWidget(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMipMapDebugWidget, addr 0x6702958, size 0x2f0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugWidget(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMipMapMode, addr 0x6690c3c, size 0x334, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMipMapMode, addr 0x6702c48, size 0x334, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateMipMapShowStatusCodeToggle, addr 0x6691f6c, size 0x294, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapShowStatusCodeToggle(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateMipMapShowStatusCodeToggle, addr 0x6703f78, size 0x294, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapShowStatusCodeToggle(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateOverdrawMode, addr 0x66901d8, size 0x334, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateOverdrawMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateOverdrawMode, addr 0x67021e4, size 0x334, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateOverdrawMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreatePixelValidationChannels, addr 0x6693544, size 0x334, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValidationChannels(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreatePixelValidationChannels, addr 0x6705550, size 0x334, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValidationChannels(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreatePixelValidationMode, addr 0x669315c, size 0x3e4, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValidationMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreatePixelValidationMode, addr 0x6705168, size 0x3e4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValidationMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreatePixelValueRangeMax, addr 0x6693ac4, size 0x244, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValueRangeMax(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreatePixelValueRangeMax, addr 0x6705ad0, size 0x244, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValueRangeMax(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreatePixelValueRangeMin, addr 0x669387c, size 0x244, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValueRangeMin(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreatePixelValueRangeMin, addr 0x6705888, size 0x244, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValueRangeMin(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreatePostProcessing, addr 0x66925dc, size 0x334, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePostProcessing(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreatePostProcessing, addr 0x67045e8, size 0x334, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePostProcessing(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateStpDebugViews, addr 0x668f494, size 0x44c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateStpDebugViews(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateStpDebugViews, addr 0x67014a0, size 0x44c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateStpDebugViews(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateTaaDebugMode, addr 0x6692d74, size 0x3e4, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateTaaDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateTaaDebugMode, addr 0x6704d80, size 0x3e4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateTaaDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-/// @brief Method CreateWireframeNotSupportedWarning, addr 0x6690080, size 0x154, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateWireframeNotSupportedWarning(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel*  panel) ;
+  /// @brief Method CreateWireframeNotSupportedWarning, addr 0x670208c, size 0x154, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateWireframeNotSupportedWarning(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DebugDisplaySettingsRendering_WidgetFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugDisplaySettingsRendering_WidgetFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12643 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12636};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_WidgetFactory, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/SettingsPanel/<>c__DisplayClass0_0
 class CORDL_TYPE SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field data, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_data, put=__cordl_internal_set_data)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*  data;
+  // Declarations
+  /// @brief Field data, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* data;
 
-static inline ::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0* New_ctor();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* const& __cordl_internal_get_data() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* const& __cordl_internal_get_data() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*& __cordl_internal_get_data() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*& __cordl_internal_get_data();
 
-constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*  value) ;
+  constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* value);
 
-/// @brief Method <.ctor>b__0, addr 0x6695be0, size 0x20, virtual false, abstract: false, final false
-inline bool __ctor_b__0() ;
+  /// @brief Method <.ctor>b__0, addr 0x6707bec, size 0x20, virtual false, abstract: false, final false
+  inline bool __ctor_b__0();
 
-/// @brief Method .ctor, addr 0x6695bdc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6707be8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12644 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12637};
+  /// @brief Field data, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* ___data;
 
-/// @brief Field data, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*  ___data;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0, ___data) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel`1<T>
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering/SettingsPanel
 class CORDL_TYPE DebugDisplaySettingsRendering_SettingsPanel : public ::UnityEngine::Rendering::DebugDisplaySettingsPanel_1<::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*> {
 public:
-// Declarations
-using __c__DisplayClass0_0 = ::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0;
+  // Declarations
+  using __c__DisplayClass0_0 = ::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0;
 
-static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* New_ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*  data) ;
+  static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* New_ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* data);
 
-/// @brief Method .ctor, addr 0x668e5b4, size 0x564, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*  data) ;
+  /// @brief Method .ctor, addr 0x67005c0, size 0x564, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* data);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DebugDisplaySettingsRendering_SettingsPanel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugDisplaySettingsRendering_SettingsPanel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12645 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12638};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
-// Dependencies System.Object, UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering::TaaDebugMode, UnityEngine.Rendering.Universal.DebugFullScreenMode, UnityEngine.Rendering.Universal.DebugMipInfoMode, UnityEngine.Rendering.Universal.DebugMipMapModeTerrainTexture, UnityEngine.Rendering.Universal.DebugMipMapStatusMode, UnityEngine.Rendering.Universal.DebugOverdrawMode, UnityEngine.Rendering.Universal.DebugPostProcessingMode, UnityEngine.Rendering.Universal.DebugSceneOverrideMode, UnityEngine.Rendering.Universal.DebugValidationMode, UnityEngine.Rendering.Universal.DebugWireframeMode, UnityEngine.Rendering.Universal.PixelValidationChannels
+} // namespace UnityEngine::Rendering::Universal
+// Dependencies System.Object, UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering::TaaDebugMode, UnityEngine.Rendering.Universal.DebugFullScreenMode,
+// UnityEngine.Rendering.Universal.DebugMipInfoMode, UnityEngine.Rendering.Universal.DebugMipMapModeTerrainTexture, UnityEngine.Rendering.Universal.DebugMipMapStatusMode,
+// UnityEngine.Rendering.Universal.DebugOverdrawMode, UnityEngine.Rendering.Universal.DebugPostProcessingMode, UnityEngine.Rendering.Universal.DebugSceneOverrideMode,
+// UnityEngine.Rendering.Universal.DebugValidationMode, UnityEngine.Rendering.Universal.DebugWireframeMode, UnityEngine.Rendering.Universal.PixelValidationChannels
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DebugDisplaySettingsRendering
 class CORDL_TYPE DebugDisplaySettingsRendering : public ::System::Object {
 public:
-// Declarations
-using SettingsPanel = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel;
+  // Declarations
+  using SettingsPanel = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel;
 
-using Strings = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_Strings;
+  using Strings = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_Strings;
 
-using TaaDebugMode = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode;
+  using TaaDebugMode = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode;
 
-using WidgetFactory = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_WidgetFactory;
+  using WidgetFactory = ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_WidgetFactory;
 
- __declspec(property(get=get_AreAnySettingsActive)) bool  AreAnySettingsActive;
+  __declspec(property(get = get_AreAnySettingsActive)) bool AreAnySettingsActive;
 
- __declspec(property(get=get_IsLightingActive)) bool  IsLightingActive;
+  __declspec(property(get = get_IsLightingActive)) bool IsLightingActive;
 
- __declspec(property(get=get_IsPostProcessingAllowed)) bool  IsPostProcessingAllowed;
+  __declspec(property(get = get_IsPostProcessingAllowed)) bool IsPostProcessingAllowed;
 
-/// @brief Field <enableHDR>k__BackingField, offset 0x55, size 0x1 
- __declspec(property(get=__cordl_internal_get__enableHDR_k__BackingField, put=__cordl_internal_set__enableHDR_k__BackingField)) bool  _enableHDR_k__BackingField;
+  /// @brief Field <enableHDR>k__BackingField, offset 0x55, size 0x1
+  __declspec(property(get = __cordl_internal_get__enableHDR_k__BackingField, put = __cordl_internal_set__enableHDR_k__BackingField)) bool _enableHDR_k__BackingField;
 
-/// @brief Field <enableMsaa>k__BackingField, offset 0x54, size 0x1 
- __declspec(property(get=__cordl_internal_get__enableMsaa_k__BackingField, put=__cordl_internal_set__enableMsaa_k__BackingField)) bool  _enableMsaa_k__BackingField;
+  /// @brief Field <enableMsaa>k__BackingField, offset 0x54, size 0x1
+  __declspec(property(get = __cordl_internal_get__enableMsaa_k__BackingField, put = __cordl_internal_set__enableMsaa_k__BackingField)) bool _enableMsaa_k__BackingField;
 
-/// @brief Field <fullScreenDebugModeOutputSizeScreenPercent>k__BackingField, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField, put=__cordl_internal_set__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField)) int32_t  _fullScreenDebugModeOutputSizeScreenPercent_k__BackingField;
+  /// @brief Field <fullScreenDebugModeOutputSizeScreenPercent>k__BackingField, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField,
+                      put = __cordl_internal_set__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField)) int32_t _fullScreenDebugModeOutputSizeScreenPercent_k__BackingField;
 
-/// @brief Field <fullScreenDebugMode>k__BackingField, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__fullScreenDebugMode_k__BackingField, put=__cordl_internal_set__fullScreenDebugMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugFullScreenMode  _fullScreenDebugMode_k__BackingField;
+  /// @brief Field <fullScreenDebugMode>k__BackingField, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__fullScreenDebugMode_k__BackingField,
+                      put = __cordl_internal_set__fullScreenDebugMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugFullScreenMode _fullScreenDebugMode_k__BackingField;
 
-/// @brief Field <maxOverdrawCount>k__BackingField, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get__maxOverdrawCount_k__BackingField, put=__cordl_internal_set__maxOverdrawCount_k__BackingField)) int32_t  _maxOverdrawCount_k__BackingField;
+  /// @brief Field <maxOverdrawCount>k__BackingField, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxOverdrawCount_k__BackingField, put = __cordl_internal_set__maxOverdrawCount_k__BackingField)) int32_t _maxOverdrawCount_k__BackingField;
 
-/// @brief Field <mipDebugMaterialTextureSlot>k__BackingField, offset 0x44, size 0x4 
- __declspec(property(get=__cordl_internal_get__mipDebugMaterialTextureSlot_k__BackingField, put=__cordl_internal_set__mipDebugMaterialTextureSlot_k__BackingField)) int32_t  _mipDebugMaterialTextureSlot_k__BackingField;
+  /// @brief Field <mipDebugMaterialTextureSlot>k__BackingField, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__mipDebugMaterialTextureSlot_k__BackingField,
+                      put = __cordl_internal_set__mipDebugMaterialTextureSlot_k__BackingField)) int32_t _mipDebugMaterialTextureSlot_k__BackingField;
 
-/// @brief Field <mipDebugOpacity>k__BackingField, offset 0x3c, size 0x4 
- __declspec(property(get=__cordl_internal_get__mipDebugOpacity_k__BackingField, put=__cordl_internal_set__mipDebugOpacity_k__BackingField)) float_t  _mipDebugOpacity_k__BackingField;
+  /// @brief Field <mipDebugOpacity>k__BackingField, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__mipDebugOpacity_k__BackingField, put = __cordl_internal_set__mipDebugOpacity_k__BackingField)) float_t _mipDebugOpacity_k__BackingField;
 
-/// @brief Field <mipDebugRecentUpdateCooldown>k__BackingField, offset 0x40, size 0x4 
- __declspec(property(get=__cordl_internal_get__mipDebugRecentUpdateCooldown_k__BackingField, put=__cordl_internal_set__mipDebugRecentUpdateCooldown_k__BackingField)) float_t  _mipDebugRecentUpdateCooldown_k__BackingField;
+  /// @brief Field <mipDebugRecentUpdateCooldown>k__BackingField, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__mipDebugRecentUpdateCooldown_k__BackingField,
+                      put = __cordl_internal_set__mipDebugRecentUpdateCooldown_k__BackingField)) float_t _mipDebugRecentUpdateCooldown_k__BackingField;
 
-/// @brief Field <mipDebugStatusMode>k__BackingField, offset 0x38, size 0x4 
- __declspec(property(get=__cordl_internal_get__mipDebugStatusMode_k__BackingField, put=__cordl_internal_set__mipDebugStatusMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode  _mipDebugStatusMode_k__BackingField;
+  /// @brief Field <mipDebugStatusMode>k__BackingField, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__mipDebugStatusMode_k__BackingField,
+                      put = __cordl_internal_set__mipDebugStatusMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode _mipDebugStatusMode_k__BackingField;
 
-/// @brief Field <mipDebugStatusShowCode>k__BackingField, offset 0x34, size 0x1 
- __declspec(property(get=__cordl_internal_get__mipDebugStatusShowCode_k__BackingField, put=__cordl_internal_set__mipDebugStatusShowCode_k__BackingField)) bool  _mipDebugStatusShowCode_k__BackingField;
+  /// @brief Field <mipDebugStatusShowCode>k__BackingField, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get__mipDebugStatusShowCode_k__BackingField,
+                      put = __cordl_internal_set__mipDebugStatusShowCode_k__BackingField)) bool _mipDebugStatusShowCode_k__BackingField;
 
-/// @brief Field <mipDebugTerrainTexture>k__BackingField, offset 0x4c, size 0x4 
- __declspec(property(get=__cordl_internal_get__mipDebugTerrainTexture_k__BackingField, put=__cordl_internal_set__mipDebugTerrainTexture_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture  _mipDebugTerrainTexture_k__BackingField;
+  /// @brief Field <mipDebugTerrainTexture>k__BackingField, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get__mipDebugTerrainTexture_k__BackingField,
+                      put = __cordl_internal_set__mipDebugTerrainTexture_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture _mipDebugTerrainTexture_k__BackingField;
 
-/// @brief Field <mipInfoMode>k__BackingField, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get__mipInfoMode_k__BackingField, put=__cordl_internal_set__mipInfoMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugMipInfoMode  _mipInfoMode_k__BackingField;
+  /// @brief Field <mipInfoMode>k__BackingField, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__mipInfoMode_k__BackingField,
+                      put = __cordl_internal_set__mipInfoMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugMipInfoMode _mipInfoMode_k__BackingField;
 
-/// @brief Field <postProcessingDebugMode>k__BackingField, offset 0x50, size 0x4 
- __declspec(property(get=__cordl_internal_get__postProcessingDebugMode_k__BackingField, put=__cordl_internal_set__postProcessingDebugMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugPostProcessingMode  _postProcessingDebugMode_k__BackingField;
+  /// @brief Field <postProcessingDebugMode>k__BackingField, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__postProcessingDebugMode_k__BackingField,
+                      put = __cordl_internal_set__postProcessingDebugMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugPostProcessingMode _postProcessingDebugMode_k__BackingField;
 
-/// @brief Field <sceneOverrideMode>k__BackingField, offset 0x2c, size 0x4 
- __declspec(property(get=__cordl_internal_get__sceneOverrideMode_k__BackingField, put=__cordl_internal_set__sceneOverrideMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode  _sceneOverrideMode_k__BackingField;
+  /// @brief Field <sceneOverrideMode>k__BackingField, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__sceneOverrideMode_k__BackingField,
+                      put = __cordl_internal_set__sceneOverrideMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode _sceneOverrideMode_k__BackingField;
 
-/// @brief Field <showInfoForAllSlots>k__BackingField, offset 0x48, size 0x1 
- __declspec(property(get=__cordl_internal_get__showInfoForAllSlots_k__BackingField, put=__cordl_internal_set__showInfoForAllSlots_k__BackingField)) bool  _showInfoForAllSlots_k__BackingField;
+  /// @brief Field <showInfoForAllSlots>k__BackingField, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__showInfoForAllSlots_k__BackingField, put = __cordl_internal_set__showInfoForAllSlots_k__BackingField)) bool _showInfoForAllSlots_k__BackingField;
 
-/// @brief Field <stpDebugViewIndex>k__BackingField, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get__stpDebugViewIndex_k__BackingField, put=__cordl_internal_set__stpDebugViewIndex_k__BackingField)) int32_t  _stpDebugViewIndex_k__BackingField;
+  /// @brief Field <stpDebugViewIndex>k__BackingField, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__stpDebugViewIndex_k__BackingField, put = __cordl_internal_set__stpDebugViewIndex_k__BackingField)) int32_t _stpDebugViewIndex_k__BackingField;
 
-/// @brief Field <taaDebugMode>k__BackingField, offset 0x58, size 0x4 
- __declspec(property(get=__cordl_internal_get__taaDebugMode_k__BackingField, put=__cordl_internal_set__taaDebugMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode  _taaDebugMode_k__BackingField;
+  /// @brief Field <taaDebugMode>k__BackingField, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__taaDebugMode_k__BackingField,
+                      put = __cordl_internal_set__taaDebugMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode _taaDebugMode_k__BackingField;
 
-/// @brief Field <validationChannels>k__BackingField, offset 0x60, size 0x4 
- __declspec(property(get=__cordl_internal_get__validationChannels_k__BackingField, put=__cordl_internal_set__validationChannels_k__BackingField)) ::UnityEngine::Rendering::Universal::PixelValidationChannels  _validationChannels_k__BackingField;
+  /// @brief Field <validationChannels>k__BackingField, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get__validationChannels_k__BackingField,
+                      put = __cordl_internal_set__validationChannels_k__BackingField)) ::UnityEngine::Rendering::Universal::PixelValidationChannels _validationChannels_k__BackingField;
 
-/// @brief Field <validationMode>k__BackingField, offset 0x5c, size 0x4 
- __declspec(property(get=__cordl_internal_get__validationMode_k__BackingField, put=__cordl_internal_set__validationMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugValidationMode  _validationMode_k__BackingField;
+  /// @brief Field <validationMode>k__BackingField, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get__validationMode_k__BackingField,
+                      put = __cordl_internal_set__validationMode_k__BackingField)) ::UnityEngine::Rendering::Universal::DebugValidationMode _validationMode_k__BackingField;
 
-/// @brief Field <validationRangeMax>k__BackingField, offset 0x68, size 0x4 
- __declspec(property(get=__cordl_internal_get__validationRangeMax_k__BackingField, put=__cordl_internal_set__validationRangeMax_k__BackingField)) float_t  _validationRangeMax_k__BackingField;
+  /// @brief Field <validationRangeMax>k__BackingField, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get__validationRangeMax_k__BackingField, put = __cordl_internal_set__validationRangeMax_k__BackingField)) float_t _validationRangeMax_k__BackingField;
 
-/// @brief Field <validationRangeMin>k__BackingField, offset 0x64, size 0x4 
- __declspec(property(get=__cordl_internal_get__validationRangeMin_k__BackingField, put=__cordl_internal_set__validationRangeMin_k__BackingField)) float_t  _validationRangeMin_k__BackingField;
+  /// @brief Field <validationRangeMin>k__BackingField, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get__validationRangeMin_k__BackingField, put = __cordl_internal_set__validationRangeMin_k__BackingField)) float_t _validationRangeMin_k__BackingField;
 
- __declspec(property(get=get_canAggregateData)) bool  canAggregateData;
+  __declspec(property(get = get_canAggregateData)) bool canAggregateData;
 
- __declspec(property(get=get_enableHDR, put=set_enableHDR)) bool  enableHDR;
+  __declspec(property(get = get_enableHDR, put = set_enableHDR)) bool enableHDR;
 
- __declspec(property(get=get_enableMsaa, put=set_enableMsaa)) bool  enableMsaa;
+  __declspec(property(get = get_enableMsaa, put = set_enableMsaa)) bool enableMsaa;
 
- __declspec(property(get=get_fullScreenDebugMode, put=set_fullScreenDebugMode)) ::UnityEngine::Rendering::Universal::DebugFullScreenMode  fullScreenDebugMode;
+  __declspec(property(get = get_fullScreenDebugMode, put = set_fullScreenDebugMode)) ::UnityEngine::Rendering::Universal::DebugFullScreenMode fullScreenDebugMode;
 
- __declspec(property(get=get_fullScreenDebugModeOutputSizeScreenPercent, put=set_fullScreenDebugModeOutputSizeScreenPercent)) int32_t  fullScreenDebugModeOutputSizeScreenPercent;
+  __declspec(property(get = get_fullScreenDebugModeOutputSizeScreenPercent, put = set_fullScreenDebugModeOutputSizeScreenPercent)) int32_t fullScreenDebugModeOutputSizeScreenPercent;
 
-/// @brief Field m_Overdraw, offset 0x14, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_Overdraw, put=__cordl_internal_set_m_Overdraw)) bool  m_Overdraw;
+  /// @brief Field m_Overdraw, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_Overdraw, put = __cordl_internal_set_m_Overdraw)) bool m_Overdraw;
 
-/// @brief Field m_OverdrawMode, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_OverdrawMode, put=__cordl_internal_set_m_OverdrawMode)) ::UnityEngine::Rendering::Universal::DebugOverdrawMode  m_OverdrawMode;
+  /// @brief Field m_OverdrawMode, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_OverdrawMode, put = __cordl_internal_set_m_OverdrawMode)) ::UnityEngine::Rendering::Universal::DebugOverdrawMode m_OverdrawMode;
 
-/// @brief Field m_WireframeMode, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_WireframeMode, put=__cordl_internal_set_m_WireframeMode)) ::UnityEngine::Rendering::Universal::DebugWireframeMode  m_WireframeMode;
+  /// @brief Field m_WireframeMode, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_WireframeMode, put = __cordl_internal_set_m_WireframeMode)) ::UnityEngine::Rendering::Universal::DebugWireframeMode m_WireframeMode;
 
- __declspec(property(get=get_maxOverdrawCount, put=set_maxOverdrawCount)) int32_t  maxOverdrawCount;
+  __declspec(property(get = get_maxOverdrawCount, put = set_maxOverdrawCount)) int32_t maxOverdrawCount;
 
- __declspec(property(get=get_mipDebugMaterialTextureSlot, put=set_mipDebugMaterialTextureSlot)) int32_t  mipDebugMaterialTextureSlot;
+  __declspec(property(get = get_mipDebugMaterialTextureSlot, put = set_mipDebugMaterialTextureSlot)) int32_t mipDebugMaterialTextureSlot;
 
- __declspec(property(get=get_mipDebugOpacity, put=set_mipDebugOpacity)) float_t  mipDebugOpacity;
+  __declspec(property(get = get_mipDebugOpacity, put = set_mipDebugOpacity)) float_t mipDebugOpacity;
 
- __declspec(property(get=get_mipDebugRecentUpdateCooldown, put=set_mipDebugRecentUpdateCooldown)) float_t  mipDebugRecentUpdateCooldown;
+  __declspec(property(get = get_mipDebugRecentUpdateCooldown, put = set_mipDebugRecentUpdateCooldown)) float_t mipDebugRecentUpdateCooldown;
 
- __declspec(property(get=get_mipDebugStatusMode, put=set_mipDebugStatusMode)) ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode  mipDebugStatusMode;
+  __declspec(property(get = get_mipDebugStatusMode, put = set_mipDebugStatusMode)) ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode mipDebugStatusMode;
 
- __declspec(property(get=get_mipDebugStatusShowCode, put=set_mipDebugStatusShowCode)) bool  mipDebugStatusShowCode;
+  __declspec(property(get = get_mipDebugStatusShowCode, put = set_mipDebugStatusShowCode)) bool mipDebugStatusShowCode;
 
- __declspec(property(get=get_mipDebugTerrainTexture, put=set_mipDebugTerrainTexture)) ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture  mipDebugTerrainTexture;
+  __declspec(property(get = get_mipDebugTerrainTexture, put = set_mipDebugTerrainTexture)) ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture mipDebugTerrainTexture;
 
- __declspec(property(get=get_mipInfoMode, put=set_mipInfoMode)) ::UnityEngine::Rendering::Universal::DebugMipInfoMode  mipInfoMode;
+  __declspec(property(get = get_mipInfoMode, put = set_mipInfoMode)) ::UnityEngine::Rendering::Universal::DebugMipInfoMode mipInfoMode;
 
- __declspec(property(get=get_overdraw, put=set_overdraw)) bool  overdraw;
+  __declspec(property(get = get_overdraw, put = set_overdraw)) bool overdraw;
 
- __declspec(property(get=get_overdrawMode, put=set_overdrawMode)) ::UnityEngine::Rendering::Universal::DebugOverdrawMode  overdrawMode;
+  __declspec(property(get = get_overdrawMode, put = set_overdrawMode)) ::UnityEngine::Rendering::Universal::DebugOverdrawMode overdrawMode;
 
- __declspec(property(get=get_postProcessingDebugMode, put=set_postProcessingDebugMode)) ::UnityEngine::Rendering::Universal::DebugPostProcessingMode  postProcessingDebugMode;
+  __declspec(property(get = get_postProcessingDebugMode, put = set_postProcessingDebugMode)) ::UnityEngine::Rendering::Universal::DebugPostProcessingMode postProcessingDebugMode;
 
- __declspec(property(get=get_sceneOverrideMode, put=set_sceneOverrideMode)) ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode  sceneOverrideMode;
+  __declspec(property(get = get_sceneOverrideMode, put = set_sceneOverrideMode)) ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode sceneOverrideMode;
 
- __declspec(property(get=get_showInfoForAllSlots, put=set_showInfoForAllSlots)) bool  showInfoForAllSlots;
+  __declspec(property(get = get_showInfoForAllSlots, put = set_showInfoForAllSlots)) bool showInfoForAllSlots;
 
- __declspec(property(get=get_stpDebugViewIndex, put=set_stpDebugViewIndex)) int32_t  stpDebugViewIndex;
+  __declspec(property(get = get_stpDebugViewIndex, put = set_stpDebugViewIndex)) int32_t stpDebugViewIndex;
 
- __declspec(property(get=get_taaDebugMode, put=set_taaDebugMode)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode  taaDebugMode;
+  __declspec(property(get = get_taaDebugMode, put = set_taaDebugMode)) ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode taaDebugMode;
 
- __declspec(property(get=get_validationChannels, put=set_validationChannels)) ::UnityEngine::Rendering::Universal::PixelValidationChannels  validationChannels;
+  __declspec(property(get = get_validationChannels, put = set_validationChannels)) ::UnityEngine::Rendering::Universal::PixelValidationChannels validationChannels;
 
- __declspec(property(get=get_validationMode, put=set_validationMode)) ::UnityEngine::Rendering::Universal::DebugValidationMode  validationMode;
+  __declspec(property(get = get_validationMode, put = set_validationMode)) ::UnityEngine::Rendering::Universal::DebugValidationMode validationMode;
 
- __declspec(property(get=get_validationRangeMax, put=set_validationRangeMax)) float_t  validationRangeMax;
+  __declspec(property(get = get_validationRangeMax, put = set_validationRangeMax)) float_t validationRangeMax;
 
- __declspec(property(get=get_validationRangeMin, put=set_validationRangeMin)) float_t  validationRangeMin;
+  __declspec(property(get = get_validationRangeMin, put = set_validationRangeMin)) float_t validationRangeMin;
 
- __declspec(property(get=get_wireframeMode, put=set_wireframeMode)) ::UnityEngine::Rendering::Universal::DebugWireframeMode  wireframeMode;
+  __declspec(property(get = get_wireframeMode, put = set_wireframeMode)) ::UnityEngine::Rendering::Universal::DebugWireframeMode wireframeMode;
 
-/// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
-constexpr operator  ::UnityEngine::Rendering::IDebugDisplaySettingsData*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
+  constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsData*() noexcept;
 
-/// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
-constexpr operator  ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
+  constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* New_ctor();
 
-/// @brief Method TryGetScreenClearColor, addr 0x668e4a4, size 0xb4, virtual true, abstract: false, final true
-inline bool TryGetScreenClearColor(::ByRef<::UnityEngine::Color>  color) ;
+  /// @brief Method TryGetScreenClearColor, addr 0x67004b0, size 0xb4, virtual true, abstract: false, final true
+  inline bool TryGetScreenClearColor(::ByRef<::UnityEngine::Color> color);
 
-/// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x668e558, size 0x5c, virtual true, abstract: false, final true
-inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel() ;
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6700564, size 0x5c, virtual true, abstract: false, final true
+  inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
-/// @brief Method UpdateDebugSceneOverrideMode, addr 0x668e214, size 0x2c, virtual false, abstract: false, final false
-inline void UpdateDebugSceneOverrideMode() ;
+  /// @brief Method UpdateDebugSceneOverrideMode, addr 0x6700220, size 0x2c, virtual false, abstract: false, final false
+  inline void UpdateDebugSceneOverrideMode();
 
-constexpr bool const& __cordl_internal_get__enableHDR_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enableHDR_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__enableHDR_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__enableHDR_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__enableMsaa_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enableMsaa_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__enableMsaa_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__enableMsaa_k__BackingField();
 
-constexpr int32_t const& __cordl_internal_get__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugFullScreenMode const& __cordl_internal_get__fullScreenDebugMode_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugFullScreenMode const& __cordl_internal_get__fullScreenDebugMode_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugFullScreenMode& __cordl_internal_get__fullScreenDebugMode_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugFullScreenMode& __cordl_internal_get__fullScreenDebugMode_k__BackingField();
 
-constexpr int32_t const& __cordl_internal_get__maxOverdrawCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__maxOverdrawCount_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__maxOverdrawCount_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__maxOverdrawCount_k__BackingField();
 
-constexpr int32_t const& __cordl_internal_get__mipDebugMaterialTextureSlot_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__mipDebugMaterialTextureSlot_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__mipDebugMaterialTextureSlot_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__mipDebugMaterialTextureSlot_k__BackingField();
 
-constexpr float_t const& __cordl_internal_get__mipDebugOpacity_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__mipDebugOpacity_k__BackingField() const;
 
-constexpr float_t& __cordl_internal_get__mipDebugOpacity_k__BackingField() ;
+  constexpr float_t& __cordl_internal_get__mipDebugOpacity_k__BackingField();
 
-constexpr float_t const& __cordl_internal_get__mipDebugRecentUpdateCooldown_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__mipDebugRecentUpdateCooldown_k__BackingField() const;
 
-constexpr float_t& __cordl_internal_get__mipDebugRecentUpdateCooldown_k__BackingField() ;
+  constexpr float_t& __cordl_internal_get__mipDebugRecentUpdateCooldown_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode const& __cordl_internal_get__mipDebugStatusMode_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode const& __cordl_internal_get__mipDebugStatusMode_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode& __cordl_internal_get__mipDebugStatusMode_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode& __cordl_internal_get__mipDebugStatusMode_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__mipDebugStatusShowCode_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__mipDebugStatusShowCode_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__mipDebugStatusShowCode_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__mipDebugStatusShowCode_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture const& __cordl_internal_get__mipDebugTerrainTexture_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture const& __cordl_internal_get__mipDebugTerrainTexture_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture& __cordl_internal_get__mipDebugTerrainTexture_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture& __cordl_internal_get__mipDebugTerrainTexture_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugMipInfoMode const& __cordl_internal_get__mipInfoMode_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugMipInfoMode const& __cordl_internal_get__mipInfoMode_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugMipInfoMode& __cordl_internal_get__mipInfoMode_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugMipInfoMode& __cordl_internal_get__mipInfoMode_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugPostProcessingMode const& __cordl_internal_get__postProcessingDebugMode_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugPostProcessingMode const& __cordl_internal_get__postProcessingDebugMode_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugPostProcessingMode& __cordl_internal_get__postProcessingDebugMode_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugPostProcessingMode& __cordl_internal_get__postProcessingDebugMode_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode const& __cordl_internal_get__sceneOverrideMode_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode const& __cordl_internal_get__sceneOverrideMode_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode& __cordl_internal_get__sceneOverrideMode_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode& __cordl_internal_get__sceneOverrideMode_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__showInfoForAllSlots_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__showInfoForAllSlots_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__showInfoForAllSlots_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__showInfoForAllSlots_k__BackingField();
 
-constexpr int32_t const& __cordl_internal_get__stpDebugViewIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__stpDebugViewIndex_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__stpDebugViewIndex_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__stpDebugViewIndex_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const& __cordl_internal_get__taaDebugMode_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode const& __cordl_internal_get__taaDebugMode_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode& __cordl_internal_get__taaDebugMode_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode& __cordl_internal_get__taaDebugMode_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::PixelValidationChannels const& __cordl_internal_get__validationChannels_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::PixelValidationChannels const& __cordl_internal_get__validationChannels_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::PixelValidationChannels& __cordl_internal_get__validationChannels_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::PixelValidationChannels& __cordl_internal_get__validationChannels_k__BackingField();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugValidationMode const& __cordl_internal_get__validationMode_k__BackingField() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugValidationMode const& __cordl_internal_get__validationMode_k__BackingField() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugValidationMode& __cordl_internal_get__validationMode_k__BackingField() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugValidationMode& __cordl_internal_get__validationMode_k__BackingField();
 
-constexpr float_t const& __cordl_internal_get__validationRangeMax_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__validationRangeMax_k__BackingField() const;
 
-constexpr float_t& __cordl_internal_get__validationRangeMax_k__BackingField() ;
+  constexpr float_t& __cordl_internal_get__validationRangeMax_k__BackingField();
 
-constexpr float_t const& __cordl_internal_get__validationRangeMin_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__validationRangeMin_k__BackingField() const;
 
-constexpr float_t& __cordl_internal_get__validationRangeMin_k__BackingField() ;
+  constexpr float_t& __cordl_internal_get__validationRangeMin_k__BackingField();
 
-constexpr bool const& __cordl_internal_get_m_Overdraw() const;
+  constexpr bool const& __cordl_internal_get_m_Overdraw() const;
 
-constexpr bool& __cordl_internal_get_m_Overdraw() ;
+  constexpr bool& __cordl_internal_get_m_Overdraw();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugOverdrawMode const& __cordl_internal_get_m_OverdrawMode() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugOverdrawMode const& __cordl_internal_get_m_OverdrawMode() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugOverdrawMode& __cordl_internal_get_m_OverdrawMode() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugOverdrawMode& __cordl_internal_get_m_OverdrawMode();
 
-constexpr ::UnityEngine::Rendering::Universal::DebugWireframeMode const& __cordl_internal_get_m_WireframeMode() const;
+  constexpr ::UnityEngine::Rendering::Universal::DebugWireframeMode const& __cordl_internal_get_m_WireframeMode() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DebugWireframeMode& __cordl_internal_get_m_WireframeMode() ;
+  constexpr ::UnityEngine::Rendering::Universal::DebugWireframeMode& __cordl_internal_get_m_WireframeMode();
 
-constexpr void __cordl_internal_set__enableHDR_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__enableHDR_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__enableMsaa_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__enableMsaa_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__fullScreenDebugModeOutputSizeScreenPercent_k__BackingField(int32_t value);
 
-constexpr void __cordl_internal_set__fullScreenDebugMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugFullScreenMode  value) ;
+  constexpr void __cordl_internal_set__fullScreenDebugMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugFullScreenMode value);
 
-constexpr void __cordl_internal_set__maxOverdrawCount_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__maxOverdrawCount_k__BackingField(int32_t value);
 
-constexpr void __cordl_internal_set__mipDebugMaterialTextureSlot_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__mipDebugMaterialTextureSlot_k__BackingField(int32_t value);
 
-constexpr void __cordl_internal_set__mipDebugOpacity_k__BackingField(float_t  value) ;
+  constexpr void __cordl_internal_set__mipDebugOpacity_k__BackingField(float_t value);
 
-constexpr void __cordl_internal_set__mipDebugRecentUpdateCooldown_k__BackingField(float_t  value) ;
+  constexpr void __cordl_internal_set__mipDebugRecentUpdateCooldown_k__BackingField(float_t value);
 
-constexpr void __cordl_internal_set__mipDebugStatusMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode  value) ;
+  constexpr void __cordl_internal_set__mipDebugStatusMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode value);
 
-constexpr void __cordl_internal_set__mipDebugStatusShowCode_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__mipDebugStatusShowCode_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__mipDebugTerrainTexture_k__BackingField(::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture  value) ;
+  constexpr void __cordl_internal_set__mipDebugTerrainTexture_k__BackingField(::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture value);
 
-constexpr void __cordl_internal_set__mipInfoMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugMipInfoMode  value) ;
+  constexpr void __cordl_internal_set__mipInfoMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugMipInfoMode value);
 
-constexpr void __cordl_internal_set__postProcessingDebugMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugPostProcessingMode  value) ;
+  constexpr void __cordl_internal_set__postProcessingDebugMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugPostProcessingMode value);
 
-constexpr void __cordl_internal_set__sceneOverrideMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugSceneOverrideMode  value) ;
+  constexpr void __cordl_internal_set__sceneOverrideMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugSceneOverrideMode value);
 
-constexpr void __cordl_internal_set__showInfoForAllSlots_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__showInfoForAllSlots_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__stpDebugViewIndex_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__stpDebugViewIndex_k__BackingField(int32_t value);
 
-constexpr void __cordl_internal_set__taaDebugMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode  value) ;
+  constexpr void __cordl_internal_set__taaDebugMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode value);
 
-constexpr void __cordl_internal_set__validationChannels_k__BackingField(::UnityEngine::Rendering::Universal::PixelValidationChannels  value) ;
+  constexpr void __cordl_internal_set__validationChannels_k__BackingField(::UnityEngine::Rendering::Universal::PixelValidationChannels value);
 
-constexpr void __cordl_internal_set__validationMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugValidationMode  value) ;
+  constexpr void __cordl_internal_set__validationMode_k__BackingField(::UnityEngine::Rendering::Universal::DebugValidationMode value);
 
-constexpr void __cordl_internal_set__validationRangeMax_k__BackingField(float_t  value) ;
+  constexpr void __cordl_internal_set__validationRangeMax_k__BackingField(float_t value);
 
-constexpr void __cordl_internal_set__validationRangeMin_k__BackingField(float_t  value) ;
+  constexpr void __cordl_internal_set__validationRangeMin_k__BackingField(float_t value);
 
-constexpr void __cordl_internal_set_m_Overdraw(bool  value) ;
+  constexpr void __cordl_internal_set_m_Overdraw(bool value);
 
-constexpr void __cordl_internal_set_m_OverdrawMode(::UnityEngine::Rendering::Universal::DebugOverdrawMode  value) ;
+  constexpr void __cordl_internal_set_m_OverdrawMode(::UnityEngine::Rendering::Universal::DebugOverdrawMode value);
 
-constexpr void __cordl_internal_set_m_WireframeMode(::UnityEngine::Rendering::Universal::DebugWireframeMode  value) ;
+  constexpr void __cordl_internal_set_m_WireframeMode(::UnityEngine::Rendering::Universal::DebugWireframeMode value);
 
-/// @brief Method .ctor, addr 0x668eb18, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6700b24, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_AreAnySettingsActive, addr 0x668e408, size 0x54, virtual true, abstract: false, final true
-inline bool get_AreAnySettingsActive() ;
+  /// @brief Method get_AreAnySettingsActive, addr 0x6700414, size 0x54, virtual true, abstract: false, final true
+  inline bool get_AreAnySettingsActive();
 
-/// @brief Method get_IsLightingActive, addr 0x668e484, size 0x20, virtual true, abstract: false, final true
-inline bool get_IsLightingActive() ;
+  /// @brief Method get_IsLightingActive, addr 0x6700490, size 0x20, virtual true, abstract: false, final true
+  inline bool get_IsLightingActive();
 
-/// @brief Method get_IsPostProcessingAllowed, addr 0x668e45c, size 0x28, virtual true, abstract: false, final true
-inline bool get_IsPostProcessingAllowed() ;
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x6700468, size 0x28, virtual true, abstract: false, final true
+  inline bool get_IsPostProcessingAllowed();
 
-/// @brief Method get_canAggregateData, addr 0x668e364, size 0x14, virtual false, abstract: false, final false
-inline bool get_canAggregateData() ;
+  /// @brief Method get_canAggregateData, addr 0x6700370, size 0x14, virtual false, abstract: false, final false
+  inline bool get_canAggregateData();
 
-/// @brief Method get_enableHDR, addr 0x668e3a8, size 0x8, virtual false, abstract: false, final false
-inline bool get_enableHDR() ;
+  /// @brief Method get_enableHDR, addr 0x67003b4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_enableHDR();
 
-/// @brief Method get_enableMsaa, addr 0x668e398, size 0x8, virtual false, abstract: false, final false
-inline bool get_enableMsaa() ;
+  /// @brief Method get_enableMsaa, addr 0x67003a4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_enableMsaa();
 
-/// @brief Method get_fullScreenDebugMode, addr 0x668e2b4, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugFullScreenMode get_fullScreenDebugMode() ;
+  /// @brief Method get_fullScreenDebugMode, addr 0x67002c0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugFullScreenMode get_fullScreenDebugMode();
 
-/// @brief Method get_fullScreenDebugModeOutputSizeScreenPercent, addr 0x668e2d4, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_fullScreenDebugModeOutputSizeScreenPercent() ;
+  /// @brief Method get_fullScreenDebugModeOutputSizeScreenPercent, addr 0x67002e0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_fullScreenDebugModeOutputSizeScreenPercent();
 
-/// @brief Method get_maxOverdrawCount, addr 0x668e2a4, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_maxOverdrawCount() ;
+  /// @brief Method get_maxOverdrawCount, addr 0x67002b0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxOverdrawCount();
 
-/// @brief Method get_mipDebugMaterialTextureSlot, addr 0x668e344, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_mipDebugMaterialTextureSlot() ;
+  /// @brief Method get_mipDebugMaterialTextureSlot, addr 0x6700350, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_mipDebugMaterialTextureSlot();
 
-/// @brief Method get_mipDebugOpacity, addr 0x668e324, size 0x8, virtual false, abstract: false, final false
-inline float_t get_mipDebugOpacity() ;
+  /// @brief Method get_mipDebugOpacity, addr 0x6700330, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_mipDebugOpacity();
 
-/// @brief Method get_mipDebugRecentUpdateCooldown, addr 0x668e334, size 0x8, virtual false, abstract: false, final false
-inline float_t get_mipDebugRecentUpdateCooldown() ;
+  /// @brief Method get_mipDebugRecentUpdateCooldown, addr 0x6700340, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_mipDebugRecentUpdateCooldown();
 
-/// @brief Method get_mipDebugStatusMode, addr 0x668e314, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode get_mipDebugStatusMode() ;
+  /// @brief Method get_mipDebugStatusMode, addr 0x6700320, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode get_mipDebugStatusMode();
 
-/// @brief Method get_mipDebugStatusShowCode, addr 0x668e304, size 0x8, virtual false, abstract: false, final false
-inline bool get_mipDebugStatusShowCode() ;
+  /// @brief Method get_mipDebugStatusShowCode, addr 0x6700310, size 0x8, virtual false, abstract: false, final false
+  inline bool get_mipDebugStatusShowCode();
 
-/// @brief Method get_mipDebugTerrainTexture, addr 0x668e378, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture get_mipDebugTerrainTexture() ;
+  /// @brief Method get_mipDebugTerrainTexture, addr 0x6700384, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture get_mipDebugTerrainTexture();
 
-/// @brief Method get_mipInfoMode, addr 0x668e2f4, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugMipInfoMode get_mipInfoMode() ;
+  /// @brief Method get_mipInfoMode, addr 0x6700300, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugMipInfoMode get_mipInfoMode();
 
-/// @brief Method get_overdraw, addr 0x668e240, size 0x8, virtual false, abstract: false, final false
-inline bool get_overdraw() ;
+  /// @brief Method get_overdraw, addr 0x670024c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_overdraw();
 
-/// @brief Method get_overdrawMode, addr 0x668e278, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugOverdrawMode get_overdrawMode() ;
+  /// @brief Method get_overdrawMode, addr 0x6700284, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugOverdrawMode get_overdrawMode();
 
-/// @brief Method get_postProcessingDebugMode, addr 0x668e388, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugPostProcessingMode get_postProcessingDebugMode() ;
+  /// @brief Method get_postProcessingDebugMode, addr 0x6700394, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugPostProcessingMode get_postProcessingDebugMode();
 
-/// @brief Method get_sceneOverrideMode, addr 0x668e2e4, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode get_sceneOverrideMode() ;
+  /// @brief Method get_sceneOverrideMode, addr 0x67002f0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode get_sceneOverrideMode();
 
-/// @brief Method get_showInfoForAllSlots, addr 0x668e354, size 0x8, virtual false, abstract: false, final false
-inline bool get_showInfoForAllSlots() ;
+  /// @brief Method get_showInfoForAllSlots, addr 0x6700360, size 0x8, virtual false, abstract: false, final false
+  inline bool get_showInfoForAllSlots();
 
-/// @brief Method get_stpDebugViewIndex, addr 0x668e2c4, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_stpDebugViewIndex() ;
+  /// @brief Method get_stpDebugViewIndex, addr 0x67002d0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_stpDebugViewIndex();
 
-/// @brief Method get_taaDebugMode, addr 0x668e3b8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode get_taaDebugMode() ;
+  /// @brief Method get_taaDebugMode, addr 0x67003c4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode get_taaDebugMode();
 
-/// @brief Method get_validationChannels, addr 0x668e3d8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::PixelValidationChannels get_validationChannels() ;
+  /// @brief Method get_validationChannels, addr 0x67003e4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::PixelValidationChannels get_validationChannels();
 
-/// @brief Method get_validationMode, addr 0x668e3c8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugValidationMode get_validationMode() ;
+  /// @brief Method get_validationMode, addr 0x67003d4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugValidationMode get_validationMode();
 
-/// @brief Method get_validationRangeMax, addr 0x668e3f8, size 0x8, virtual false, abstract: false, final false
-inline float_t get_validationRangeMax() ;
+  /// @brief Method get_validationRangeMax, addr 0x6700404, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_validationRangeMax();
 
-/// @brief Method get_validationRangeMin, addr 0x668e3e8, size 0x8, virtual false, abstract: false, final false
-inline float_t get_validationRangeMin() ;
+  /// @brief Method get_validationRangeMin, addr 0x67003f4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_validationRangeMin();
 
-/// @brief Method get_wireframeMode, addr 0x668e1e0, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::DebugWireframeMode get_wireframeMode() ;
+  /// @brief Method get_wireframeMode, addr 0x67001ec, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::DebugWireframeMode get_wireframeMode();
 
-/// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
-constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsData* i___UnityEngine__Rendering__IDebugDisplaySettingsData() noexcept;
+  /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
+  constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsData* i___UnityEngine__Rendering__IDebugDisplaySettingsData() noexcept;
 
-/// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
-constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
+  /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
+  constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
-/// @brief Method set_enableHDR, addr 0x668e3b0, size 0x8, virtual false, abstract: false, final false
-inline void set_enableHDR(bool  value) ;
+  /// @brief Method set_enableHDR, addr 0x67003bc, size 0x8, virtual false, abstract: false, final false
+  inline void set_enableHDR(bool value);
 
-/// @brief Method set_enableMsaa, addr 0x668e3a0, size 0x8, virtual false, abstract: false, final false
-inline void set_enableMsaa(bool  value) ;
+  /// @brief Method set_enableMsaa, addr 0x67003ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_enableMsaa(bool value);
 
-/// @brief Method set_fullScreenDebugMode, addr 0x668e2bc, size 0x8, virtual false, abstract: false, final false
-inline void set_fullScreenDebugMode(::UnityEngine::Rendering::Universal::DebugFullScreenMode  value) ;
+  /// @brief Method set_fullScreenDebugMode, addr 0x67002c8, size 0x8, virtual false, abstract: false, final false
+  inline void set_fullScreenDebugMode(::UnityEngine::Rendering::Universal::DebugFullScreenMode value);
 
-/// @brief Method set_fullScreenDebugModeOutputSizeScreenPercent, addr 0x668e2dc, size 0x8, virtual false, abstract: false, final false
-inline void set_fullScreenDebugModeOutputSizeScreenPercent(int32_t  value) ;
+  /// @brief Method set_fullScreenDebugModeOutputSizeScreenPercent, addr 0x67002e8, size 0x8, virtual false, abstract: false, final false
+  inline void set_fullScreenDebugModeOutputSizeScreenPercent(int32_t value);
 
-/// @brief Method set_maxOverdrawCount, addr 0x668e2ac, size 0x8, virtual false, abstract: false, final false
-inline void set_maxOverdrawCount(int32_t  value) ;
+  /// @brief Method set_maxOverdrawCount, addr 0x67002b8, size 0x8, virtual false, abstract: false, final false
+  inline void set_maxOverdrawCount(int32_t value);
 
-/// @brief Method set_mipDebugMaterialTextureSlot, addr 0x668e34c, size 0x8, virtual false, abstract: false, final false
-inline void set_mipDebugMaterialTextureSlot(int32_t  value) ;
+  /// @brief Method set_mipDebugMaterialTextureSlot, addr 0x6700358, size 0x8, virtual false, abstract: false, final false
+  inline void set_mipDebugMaterialTextureSlot(int32_t value);
 
-/// @brief Method set_mipDebugOpacity, addr 0x668e32c, size 0x8, virtual false, abstract: false, final false
-inline void set_mipDebugOpacity(float_t  value) ;
+  /// @brief Method set_mipDebugOpacity, addr 0x6700338, size 0x8, virtual false, abstract: false, final false
+  inline void set_mipDebugOpacity(float_t value);
 
-/// @brief Method set_mipDebugRecentUpdateCooldown, addr 0x668e33c, size 0x8, virtual false, abstract: false, final false
-inline void set_mipDebugRecentUpdateCooldown(float_t  value) ;
+  /// @brief Method set_mipDebugRecentUpdateCooldown, addr 0x6700348, size 0x8, virtual false, abstract: false, final false
+  inline void set_mipDebugRecentUpdateCooldown(float_t value);
 
-/// @brief Method set_mipDebugStatusMode, addr 0x668e31c, size 0x8, virtual false, abstract: false, final false
-inline void set_mipDebugStatusMode(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode  value) ;
+  /// @brief Method set_mipDebugStatusMode, addr 0x6700328, size 0x8, virtual false, abstract: false, final false
+  inline void set_mipDebugStatusMode(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode value);
 
-/// @brief Method set_mipDebugStatusShowCode, addr 0x668e30c, size 0x8, virtual false, abstract: false, final false
-inline void set_mipDebugStatusShowCode(bool  value) ;
+  /// @brief Method set_mipDebugStatusShowCode, addr 0x6700318, size 0x8, virtual false, abstract: false, final false
+  inline void set_mipDebugStatusShowCode(bool value);
 
-/// @brief Method set_mipDebugTerrainTexture, addr 0x668e380, size 0x8, virtual false, abstract: false, final false
-inline void set_mipDebugTerrainTexture(::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture  value) ;
+  /// @brief Method set_mipDebugTerrainTexture, addr 0x670038c, size 0x8, virtual false, abstract: false, final false
+  inline void set_mipDebugTerrainTexture(::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture value);
 
-/// @brief Method set_mipInfoMode, addr 0x668e2fc, size 0x8, virtual false, abstract: false, final false
-inline void set_mipInfoMode(::UnityEngine::Rendering::Universal::DebugMipInfoMode  value) ;
+  /// @brief Method set_mipInfoMode, addr 0x6700308, size 0x8, virtual false, abstract: false, final false
+  inline void set_mipInfoMode(::UnityEngine::Rendering::Universal::DebugMipInfoMode value);
 
-/// @brief Method set_overdraw, addr 0x668e248, size 0x30, virtual false, abstract: false, final false
-inline void set_overdraw(bool  value) ;
+  /// @brief Method set_overdraw, addr 0x6700254, size 0x30, virtual false, abstract: false, final false
+  inline void set_overdraw(bool value);
 
-/// @brief Method set_overdrawMode, addr 0x668e280, size 0x24, virtual false, abstract: false, final false
-inline void set_overdrawMode(::UnityEngine::Rendering::Universal::DebugOverdrawMode  value) ;
+  /// @brief Method set_overdrawMode, addr 0x670028c, size 0x24, virtual false, abstract: false, final false
+  inline void set_overdrawMode(::UnityEngine::Rendering::Universal::DebugOverdrawMode value);
 
-/// @brief Method set_postProcessingDebugMode, addr 0x668e390, size 0x8, virtual false, abstract: false, final false
-inline void set_postProcessingDebugMode(::UnityEngine::Rendering::Universal::DebugPostProcessingMode  value) ;
+  /// @brief Method set_postProcessingDebugMode, addr 0x670039c, size 0x8, virtual false, abstract: false, final false
+  inline void set_postProcessingDebugMode(::UnityEngine::Rendering::Universal::DebugPostProcessingMode value);
 
-/// @brief Method set_sceneOverrideMode, addr 0x668e2ec, size 0x8, virtual false, abstract: false, final false
-inline void set_sceneOverrideMode(::UnityEngine::Rendering::Universal::DebugSceneOverrideMode  value) ;
+  /// @brief Method set_sceneOverrideMode, addr 0x67002f8, size 0x8, virtual false, abstract: false, final false
+  inline void set_sceneOverrideMode(::UnityEngine::Rendering::Universal::DebugSceneOverrideMode value);
 
-/// @brief Method set_showInfoForAllSlots, addr 0x668e35c, size 0x8, virtual false, abstract: false, final false
-inline void set_showInfoForAllSlots(bool  value) ;
+  /// @brief Method set_showInfoForAllSlots, addr 0x6700368, size 0x8, virtual false, abstract: false, final false
+  inline void set_showInfoForAllSlots(bool value);
 
-/// @brief Method set_stpDebugViewIndex, addr 0x668e2cc, size 0x8, virtual false, abstract: false, final false
-inline void set_stpDebugViewIndex(int32_t  value) ;
+  /// @brief Method set_stpDebugViewIndex, addr 0x67002d8, size 0x8, virtual false, abstract: false, final false
+  inline void set_stpDebugViewIndex(int32_t value);
 
-/// @brief Method set_taaDebugMode, addr 0x668e3c0, size 0x8, virtual false, abstract: false, final false
-inline void set_taaDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode  value) ;
+  /// @brief Method set_taaDebugMode, addr 0x67003cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_taaDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode value);
 
-/// @brief Method set_validationChannels, addr 0x668e3e0, size 0x8, virtual false, abstract: false, final false
-inline void set_validationChannels(::UnityEngine::Rendering::Universal::PixelValidationChannels  value) ;
+  /// @brief Method set_validationChannels, addr 0x67003ec, size 0x8, virtual false, abstract: false, final false
+  inline void set_validationChannels(::UnityEngine::Rendering::Universal::PixelValidationChannels value);
 
-/// @brief Method set_validationMode, addr 0x668e3d0, size 0x8, virtual false, abstract: false, final false
-inline void set_validationMode(::UnityEngine::Rendering::Universal::DebugValidationMode  value) ;
+  /// @brief Method set_validationMode, addr 0x67003dc, size 0x8, virtual false, abstract: false, final false
+  inline void set_validationMode(::UnityEngine::Rendering::Universal::DebugValidationMode value);
 
-/// @brief Method set_validationRangeMax, addr 0x668e400, size 0x8, virtual false, abstract: false, final false
-inline void set_validationRangeMax(float_t  value) ;
+  /// @brief Method set_validationRangeMax, addr 0x670040c, size 0x8, virtual false, abstract: false, final false
+  inline void set_validationRangeMax(float_t value);
 
-/// @brief Method set_validationRangeMin, addr 0x668e3f0, size 0x8, virtual false, abstract: false, final false
-inline void set_validationRangeMin(float_t  value) ;
+  /// @brief Method set_validationRangeMin, addr 0x67003fc, size 0x8, virtual false, abstract: false, final false
+  inline void set_validationRangeMin(float_t value);
 
-/// @brief Method set_wireframeMode, addr 0x668e1e8, size 0x2c, virtual false, abstract: false, final false
-inline void set_wireframeMode(::UnityEngine::Rendering::Universal::DebugWireframeMode  value) ;
+  /// @brief Method set_wireframeMode, addr 0x67001f4, size 0x2c, virtual false, abstract: false, final false
+  inline void set_wireframeMode(::UnityEngine::Rendering::Universal::DebugWireframeMode value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DebugDisplaySettingsRendering() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugDisplaySettingsRendering();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugDisplaySettingsRendering(DebugDisplaySettingsRendering&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DebugDisplaySettingsRendering(DebugDisplaySettingsRendering && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugDisplaySettingsRendering(DebugDisplaySettingsRendering const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DebugDisplaySettingsRendering(DebugDisplaySettingsRendering const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12646 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12639};
+  /// @brief Field m_WireframeMode, offset: 0x10, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugWireframeMode ___m_WireframeMode;
 
-/// @brief Field m_WireframeMode, offset: 0x10, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugWireframeMode  ___m_WireframeMode;
+  /// @brief Field m_Overdraw, offset: 0x14, size: 0x1, def value: None
+  bool ___m_Overdraw;
 
-/// @brief Field m_Overdraw, offset: 0x14, size: 0x1, def value: None
- bool  ___m_Overdraw;
+  /// @brief Field m_OverdrawMode, offset: 0x18, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugOverdrawMode ___m_OverdrawMode;
 
-/// @brief Field m_OverdrawMode, offset: 0x18, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugOverdrawMode  ___m_OverdrawMode;
+  /// @brief Field <maxOverdrawCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
+  int32_t ____maxOverdrawCount_k__BackingField;
 
-/// @brief Field <maxOverdrawCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
- int32_t  ____maxOverdrawCount_k__BackingField;
+  /// @brief Field <fullScreenDebugMode>k__BackingField, offset: 0x20, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugFullScreenMode ____fullScreenDebugMode_k__BackingField;
 
-/// @brief Field <fullScreenDebugMode>k__BackingField, offset: 0x20, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugFullScreenMode  ____fullScreenDebugMode_k__BackingField;
+  /// @brief Field <stpDebugViewIndex>k__BackingField, offset: 0x24, size: 0x4, def value: None
+  int32_t ____stpDebugViewIndex_k__BackingField;
 
-/// @brief Field <stpDebugViewIndex>k__BackingField, offset: 0x24, size: 0x4, def value: None
- int32_t  ____stpDebugViewIndex_k__BackingField;
+  /// @brief Field <fullScreenDebugModeOutputSizeScreenPercent>k__BackingField, offset: 0x28, size: 0x4, def value: None
+  int32_t ____fullScreenDebugModeOutputSizeScreenPercent_k__BackingField;
 
-/// @brief Field <fullScreenDebugModeOutputSizeScreenPercent>k__BackingField, offset: 0x28, size: 0x4, def value: None
- int32_t  ____fullScreenDebugModeOutputSizeScreenPercent_k__BackingField;
+  /// @brief Field <sceneOverrideMode>k__BackingField, offset: 0x2c, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode ____sceneOverrideMode_k__BackingField;
 
-/// @brief Field <sceneOverrideMode>k__BackingField, offset: 0x2c, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode  ____sceneOverrideMode_k__BackingField;
+  /// @brief Field <mipInfoMode>k__BackingField, offset: 0x30, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugMipInfoMode ____mipInfoMode_k__BackingField;
 
-/// @brief Field <mipInfoMode>k__BackingField, offset: 0x30, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugMipInfoMode  ____mipInfoMode_k__BackingField;
+  /// @brief Field <mipDebugStatusShowCode>k__BackingField, offset: 0x34, size: 0x1, def value: None
+  bool ____mipDebugStatusShowCode_k__BackingField;
 
-/// @brief Field <mipDebugStatusShowCode>k__BackingField, offset: 0x34, size: 0x1, def value: None
- bool  ____mipDebugStatusShowCode_k__BackingField;
+  /// @brief Field <mipDebugStatusMode>k__BackingField, offset: 0x38, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode ____mipDebugStatusMode_k__BackingField;
 
-/// @brief Field <mipDebugStatusMode>k__BackingField, offset: 0x38, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode  ____mipDebugStatusMode_k__BackingField;
+  /// @brief Field <mipDebugOpacity>k__BackingField, offset: 0x3c, size: 0x4, def value: None
+  float_t ____mipDebugOpacity_k__BackingField;
 
-/// @brief Field <mipDebugOpacity>k__BackingField, offset: 0x3c, size: 0x4, def value: None
- float_t  ____mipDebugOpacity_k__BackingField;
+  /// @brief Field <mipDebugRecentUpdateCooldown>k__BackingField, offset: 0x40, size: 0x4, def value: None
+  float_t ____mipDebugRecentUpdateCooldown_k__BackingField;
 
-/// @brief Field <mipDebugRecentUpdateCooldown>k__BackingField, offset: 0x40, size: 0x4, def value: None
- float_t  ____mipDebugRecentUpdateCooldown_k__BackingField;
+  /// @brief Field <mipDebugMaterialTextureSlot>k__BackingField, offset: 0x44, size: 0x4, def value: None
+  int32_t ____mipDebugMaterialTextureSlot_k__BackingField;
 
-/// @brief Field <mipDebugMaterialTextureSlot>k__BackingField, offset: 0x44, size: 0x4, def value: None
- int32_t  ____mipDebugMaterialTextureSlot_k__BackingField;
+  /// @brief Field <showInfoForAllSlots>k__BackingField, offset: 0x48, size: 0x1, def value: None
+  bool ____showInfoForAllSlots_k__BackingField;
 
-/// @brief Field <showInfoForAllSlots>k__BackingField, offset: 0x48, size: 0x1, def value: None
- bool  ____showInfoForAllSlots_k__BackingField;
+  /// @brief Field <mipDebugTerrainTexture>k__BackingField, offset: 0x4c, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture ____mipDebugTerrainTexture_k__BackingField;
 
-/// @brief Field <mipDebugTerrainTexture>k__BackingField, offset: 0x4c, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture  ____mipDebugTerrainTexture_k__BackingField;
+  /// @brief Field <postProcessingDebugMode>k__BackingField, offset: 0x50, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugPostProcessingMode ____postProcessingDebugMode_k__BackingField;
 
-/// @brief Field <postProcessingDebugMode>k__BackingField, offset: 0x50, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugPostProcessingMode  ____postProcessingDebugMode_k__BackingField;
+  /// @brief Field <enableMsaa>k__BackingField, offset: 0x54, size: 0x1, def value: None
+  bool ____enableMsaa_k__BackingField;
 
-/// @brief Field <enableMsaa>k__BackingField, offset: 0x54, size: 0x1, def value: None
- bool  ____enableMsaa_k__BackingField;
+  /// @brief Field <enableHDR>k__BackingField, offset: 0x55, size: 0x1, def value: None
+  bool ____enableHDR_k__BackingField;
 
-/// @brief Field <enableHDR>k__BackingField, offset: 0x55, size: 0x1, def value: None
- bool  ____enableHDR_k__BackingField;
+  /// @brief Field <taaDebugMode>k__BackingField, offset: 0x58, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode ____taaDebugMode_k__BackingField;
 
-/// @brief Field <taaDebugMode>k__BackingField, offset: 0x58, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode  ____taaDebugMode_k__BackingField;
+  /// @brief Field <validationMode>k__BackingField, offset: 0x5c, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::DebugValidationMode ____validationMode_k__BackingField;
 
-/// @brief Field <validationMode>k__BackingField, offset: 0x5c, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::DebugValidationMode  ____validationMode_k__BackingField;
+  /// @brief Field <validationChannels>k__BackingField, offset: 0x60, size: 0x4, def value: None
+  ::UnityEngine::Rendering::Universal::PixelValidationChannels ____validationChannels_k__BackingField;
 
-/// @brief Field <validationChannels>k__BackingField, offset: 0x60, size: 0x4, def value: None
- ::UnityEngine::Rendering::Universal::PixelValidationChannels  ____validationChannels_k__BackingField;
+  /// @brief Field <validationRangeMin>k__BackingField, offset: 0x64, size: 0x4, def value: None
+  float_t ____validationRangeMin_k__BackingField;
 
-/// @brief Field <validationRangeMin>k__BackingField, offset: 0x64, size: 0x4, def value: None
- float_t  ____validationRangeMin_k__BackingField;
+  /// @brief Field <validationRangeMax>k__BackingField, offset: 0x68, size: 0x4, def value: None
+  float_t ____validationRangeMax_k__BackingField;
 
-/// @brief Field <validationRangeMax>k__BackingField, offset: 0x68, size: 0x4, def value: None
- float_t  ____validationRangeMax_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering, ___m_WireframeMode) == 0x10, "Offset mismatch!");
@@ -2746,7 +2762,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DebugDisplaySettings
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering, 0x70>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/TaaDebugMode");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering");
@@ -2757,46 +2773,67 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DebugDisplaySettings
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_WidgetFactory);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_WidgetFactory*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/SettingsPanel/<>c__DisplayClass0_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/SettingsPanel/<>c__DisplayClass0_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass0_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass0_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass10_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass10_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass11_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass11_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass12_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass12_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass13_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass13_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass14_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass14_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass15_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass15_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass16_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass16_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass17_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass17_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass18_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass18_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass19_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass19_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass1_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass1_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass20_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass20_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass2_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass2_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass3_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass3_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass4_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass4_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass5_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass5_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass6_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass6_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass8_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass8_0");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0*, "UnityEngine.Rendering.Universal", "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass9_0");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0*, "UnityEngine.Rendering.Universal",
+                       "DebugDisplaySettingsRendering/WidgetFactory/<>c__DisplayClass9_0");

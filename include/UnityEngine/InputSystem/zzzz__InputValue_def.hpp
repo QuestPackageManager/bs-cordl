@@ -22,60 +22,59 @@ namespace UnityEngine::InputSystem {
 // CS Name: UnityEngine.InputSystem.InputValue
 class CORDL_TYPE InputValue : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_isPressed)) bool  isPressed;
+  // Declarations
+  __declspec(property(get = get_isPressed)) bool isPressed;
 
-/// @brief Field m_Context, offset 0x10, size 0x18 
- __declspec(property(get=__cordl_internal_get_m_Context, put=__cordl_internal_set_m_Context)) ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext>  m_Context;
+  /// @brief Field m_Context, offset 0x10, size 0x18
+  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context)) ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> m_Context;
 
-/// @brief Method Get, addr 0x63c6a78, size 0x6c, virtual false, abstract: false, final false
-inline ::System::Object* Get() ;
+  /// @brief Method Get, addr 0x6438a84, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Object* Get();
 
-/// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TValue>
-inline TValue Get() ;
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue> inline TValue Get();
 
-static inline ::UnityEngine::InputSystem::InputValue* New_ctor() ;
+  static inline ::UnityEngine::InputSystem::InputValue* New_ctor();
 
-constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> const& __cordl_internal_get_m_Context() const;
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> const& __cordl_internal_get_m_Context() const;
 
-constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext>& __cordl_internal_get_m_Context() ;
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext>& __cordl_internal_get_m_Context();
 
-constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext>  value) ;
+  constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> value);
 
-/// @brief Method .ctor, addr 0x63c6b60, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6438b6c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_isPressed, addr 0x63c6ae4, size 0x7c, virtual false, abstract: false, final false
-inline bool get_isPressed() ;
+  /// @brief Method get_isPressed, addr 0x6438af0, size 0x7c, virtual false, abstract: false, final false
+  inline bool get_isPressed();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputValue() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputValue();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputValue(InputValue&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InputValue(InputValue && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputValue(InputValue const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputValue", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InputValue(InputValue const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8788 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8782};
+  /// @brief Field m_Context, offset: 0x10, size: 0x18, def value: None
+  ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> ___m_Context;
 
-/// @brief Field m_Context, offset: 0x10, size: 0x18, def value: None
- ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext>  ___m_Context;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::InputValue, ___m_Context) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputValue, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem
+} // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::InputValue);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputValue*, "UnityEngine.InputSystem", "InputValue");

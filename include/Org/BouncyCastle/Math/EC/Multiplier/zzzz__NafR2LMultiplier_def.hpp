@@ -23,37 +23,37 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.NafR2LMultiplier
 class CORDL_TYPE NafR2LMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
-// Declarations
-/// @brief Method MultiplyPositive, addr 0x3412f9c, size 0x14c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint*  p, ::Org::BouncyCastle::Math::BigInteger*  k) ;
+  // Declarations
+  /// @brief Method MultiplyPositive, addr 0x344f5e0, size 0x14c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-static inline ::Org::BouncyCastle::Math::EC::Multiplier::NafR2LMultiplier* New_ctor() ;
+  static inline ::Org::BouncyCastle::Math::EC::Multiplier::NafR2LMultiplier* New_ctor();
 
-/// @brief Method .ctor, addr 0x34130e8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x344f72c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NafR2LMultiplier() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NafR2LMultiplier();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NafR2LMultiplier", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NafR2LMultiplier(NafR2LMultiplier&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NafR2LMultiplier", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NafR2LMultiplier(NafR2LMultiplier && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NafR2LMultiplier", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NafR2LMultiplier(NafR2LMultiplier const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NafR2LMultiplier", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NafR2LMultiplier(NafR2LMultiplier const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1537 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1537};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::NafR2LMultiplier, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Math::EC::Multiplier
+} // namespace Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::NafR2LMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::NafR2LMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "NafR2LMultiplier");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Org/BouncyCastle/Utilities/Zlib/Adler32.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/Deflate.hpp"
@@ -18,6 +18,5 @@
 #include "Org/BouncyCastle/Utilities/Zlib/ZOutputStream.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/ZStream.hpp"
 #ifdef __cpp_modules
-                    export module Zlib;
-                    #endif
-                
+export module Zlib;
+#endif

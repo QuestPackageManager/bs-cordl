@@ -23,48 +23,48 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlCachedStream
 class CORDL_TYPE XmlCachedStream : public ::System::IO::MemoryStream {
 public:
-// Declarations
-/// @brief Field uri, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get_uri, put=__cordl_internal_set_uri)) ::System::Uri*  uri;
+  // Declarations
+  /// @brief Field uri, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri)) ::System::Uri* uri;
 
-static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri*  uri, ::System::IO::Stream*  stream) ;
+  static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
-constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
+  constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
 
-constexpr ::System::Uri*& __cordl_internal_get_uri() ;
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
 
-constexpr void __cordl_internal_set_uri(::System::Uri*  value) ;
+  constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-/// @brief Method .ctor, addr 0x612d8a0, size 0x164, virtual false, abstract: false, final false
-inline void _ctor(::System::Uri*  uri, ::System::IO::Stream*  stream) ;
+  /// @brief Method .ctor, addr 0x619f8ac, size 0x164, virtual false, abstract: false, final false
+  inline void _ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlCachedStream() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlCachedStream();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlCachedStream", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlCachedStream(XmlCachedStream&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlCachedStream", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlCachedStream(XmlCachedStream && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlCachedStream", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlCachedStream(XmlCachedStream const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlCachedStream", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlCachedStream(XmlCachedStream const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9429 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9423};
+  /// @brief Field uri, offset: 0x50, size: 0x8, def value: None
+  ::System::Uri* ___uri;
 
-/// @brief Field uri, offset: 0x50, size: 0x8, def value: None
- ::System::Uri*  ___uri;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlCachedStream, ___uri) == 0x50, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCachedStream, 0x58>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlCachedStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlCachedStream*, "System.Xml", "XmlCachedStream");

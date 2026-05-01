@@ -24,73 +24,73 @@ namespace UnityEngine {
 // CS Name: UnityEngine.MeshRenderer
 class CORDL_TYPE MeshRenderer : public ::UnityEngine::Renderer {
 public:
-// Declarations
- __declspec(property(get=get_additionalVertexStreams, put=set_additionalVertexStreams)) ::UnityW<::UnityEngine::Mesh>  additionalVertexStreams;
+  // Declarations
+  __declspec(property(get = get_additionalVertexStreams, put = set_additionalVertexStreams)) ::UnityW<::UnityEngine::Mesh> additionalVertexStreams;
 
- __declspec(property(get=get_enlightenVertexStream, put=set_enlightenVertexStream)) ::UnityW<::UnityEngine::Mesh>  enlightenVertexStream;
+  __declspec(property(get = get_enlightenVertexStream, put = set_enlightenVertexStream)) ::UnityW<::UnityEngine::Mesh> enlightenVertexStream;
 
- __declspec(property(get=get_subMeshStartIndex)) int32_t  subMeshStartIndex;
+  __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
-/// @brief Method DontStripMeshRenderer, addr 0x68dc044, size 0x4, virtual false, abstract: false, final false
-inline void DontStripMeshRenderer() ;
+  /// @brief Method DontStripMeshRenderer, addr 0x694e260, size 0x4, virtual false, abstract: false, final false
+  inline void DontStripMeshRenderer();
 
-static inline ::UnityEngine::MeshRenderer* New_ctor() ;
+  static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-/// @brief Method .ctor, addr 0x68dc624, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x694e840, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_additionalVertexStreams, addr 0x68dc048, size 0x150, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams() ;
+  /// @brief Method get_additionalVertexStreams, addr 0x694e264, size 0x150, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-/// @brief Method get_additionalVertexStreams_Injected, addr 0x68dc198, size 0x3c, virtual false, abstract: false, final false
-static inline ::System::IntPtr get_additionalVertexStreams_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_additionalVertexStreams_Injected, addr 0x694e3b4, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_additionalVertexStreams_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_enlightenVertexStream, addr 0x68dc2d8, size 0x150, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream() ;
+  /// @brief Method get_enlightenVertexStream, addr 0x694e4f4, size 0x150, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-/// @brief Method get_enlightenVertexStream_Injected, addr 0x68dc428, size 0x3c, virtual false, abstract: false, final false
-static inline ::System::IntPtr get_enlightenVertexStream_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_enlightenVertexStream_Injected, addr 0x694e644, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_enlightenVertexStream_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_subMeshStartIndex, addr 0x68dc568, size 0x80, virtual false, abstract: false, final false
-inline int32_t get_subMeshStartIndex() ;
+  /// @brief Method get_subMeshStartIndex, addr 0x694e784, size 0x80, virtual false, abstract: false, final false
+  inline int32_t get_subMeshStartIndex();
 
-/// @brief Method get_subMeshStartIndex_Injected, addr 0x68dc5e8, size 0x3c, virtual false, abstract: false, final false
-static inline int32_t get_subMeshStartIndex_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_subMeshStartIndex_Injected, addr 0x694e804, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_subMeshStartIndex_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method set_additionalVertexStreams, addr 0x68dc1d4, size 0xc0, virtual false, abstract: false, final false
-inline void set_additionalVertexStreams(::UnityEngine::Mesh*  value) ;
+  /// @brief Method set_additionalVertexStreams, addr 0x694e3f0, size 0xc0, virtual false, abstract: false, final false
+  inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-/// @brief Method set_additionalVertexStreams_Injected, addr 0x68dc294, size 0x44, virtual false, abstract: false, final false
-static inline void set_additionalVertexStreams_Injected(::System::IntPtr  _unity_self, ::System::IntPtr  value) ;
+  /// @brief Method set_additionalVertexStreams_Injected, addr 0x694e4b0, size 0x44, virtual false, abstract: false, final false
+  static inline void set_additionalVertexStreams_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-/// @brief Method set_enlightenVertexStream, addr 0x68dc464, size 0xc0, virtual false, abstract: false, final false
-inline void set_enlightenVertexStream(::UnityEngine::Mesh*  value) ;
+  /// @brief Method set_enlightenVertexStream, addr 0x694e680, size 0xc0, virtual false, abstract: false, final false
+  inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
 
-/// @brief Method set_enlightenVertexStream_Injected, addr 0x68dc524, size 0x44, virtual false, abstract: false, final false
-static inline void set_enlightenVertexStream_Injected(::System::IntPtr  _unity_self, ::System::IntPtr  value) ;
+  /// @brief Method set_enlightenVertexStream_Injected, addr 0x694e740, size 0x44, virtual false, abstract: false, final false
+  static inline void set_enlightenVertexStream_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MeshRenderer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeshRenderer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MeshRenderer(MeshRenderer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MeshRenderer(MeshRenderer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MeshRenderer(MeshRenderer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MeshRenderer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MeshRenderer(MeshRenderer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10201 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10195};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::MeshRenderer, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::MeshRenderer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MeshRenderer*, "UnityEngine", "MeshRenderer");

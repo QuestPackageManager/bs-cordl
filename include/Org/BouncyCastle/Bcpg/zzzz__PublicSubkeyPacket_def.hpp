@@ -32,42 +32,42 @@ namespace Org::BouncyCastle::Bcpg {
 // CS Name: Org.BouncyCastle.Bcpg.PublicSubkeyPacket
 class CORDL_TYPE PublicSubkeyPacket : public ::Org::BouncyCastle::Bcpg::PublicKeyPacket {
 public:
-// Declarations
-/// @brief Method Encode, addr 0x35a3674, size 0x38, virtual true, abstract: false, final false
-inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream*  bcpgOut) ;
+  // Declarations
+  /// @brief Method Encode, addr 0x35dfcb8, size 0x38, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  algorithm, ::System::DateTime  time, ::Org::BouncyCastle::Bcpg::IBcpgKey*  key) ;
+  static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn) ;
+  static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-/// @brief Method .ctor, addr 0x35a3670, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  algorithm, ::System::DateTime  time, ::Org::BouncyCastle::Bcpg::IBcpgKey*  key) ;
+  /// @brief Method .ctor, addr 0x35dfcb4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-/// @brief Method .ctor, addr 0x35a01b0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn) ;
+  /// @brief Method .ctor, addr 0x35dc7f4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PublicSubkeyPacket() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PublicSubkeyPacket();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PublicSubkeyPacket", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PublicSubkeyPacket(PublicSubkeyPacket&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PublicSubkeyPacket", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PublicSubkeyPacket(PublicSubkeyPacket && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PublicSubkeyPacket", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PublicSubkeyPacket(PublicSubkeyPacket const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PublicSubkeyPacket", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PublicSubkeyPacket(PublicSubkeyPacket const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 583 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{583};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::PublicSubkeyPacket, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Bcpg
+} // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::PublicSubkeyPacket);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::PublicSubkeyPacket*, "Org.BouncyCastle.Bcpg", "PublicSubkeyPacket");

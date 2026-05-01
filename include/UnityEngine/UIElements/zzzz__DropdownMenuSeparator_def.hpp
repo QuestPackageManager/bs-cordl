@@ -18,53 +18,53 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.DropdownMenuSeparator
 class CORDL_TYPE DropdownMenuSeparator : public ::UnityEngine::UIElements::DropdownMenuItem {
 public:
-// Declarations
-/// @brief Field <subMenuPath>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__subMenuPath_k__BackingField, put=__cordl_internal_set__subMenuPath_k__BackingField)) ::StringW  _subMenuPath_k__BackingField;
+  // Declarations
+  /// @brief Field <subMenuPath>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__subMenuPath_k__BackingField, put = __cordl_internal_set__subMenuPath_k__BackingField)) ::StringW _subMenuPath_k__BackingField;
 
- __declspec(property(get=get_subMenuPath)) ::StringW  subMenuPath;
+  __declspec(property(get = get_subMenuPath)) ::StringW subMenuPath;
 
-static inline ::UnityEngine::UIElements::DropdownMenuSeparator* New_ctor(::StringW  subMenuPath) ;
+  static inline ::UnityEngine::UIElements::DropdownMenuSeparator* New_ctor(::StringW subMenuPath);
 
-constexpr ::StringW const& __cordl_internal_get__subMenuPath_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__subMenuPath_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__subMenuPath_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__subMenuPath_k__BackingField();
 
-constexpr void __cordl_internal_set__subMenuPath_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__subMenuPath_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6bc8c50, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  subMenuPath) ;
+  /// @brief Method .ctor, addr 0x6c3ae98, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW subMenuPath);
 
-/// @brief Method get_subMenuPath, addr 0x6bc8c48, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_subMenuPath() ;
+  /// @brief Method get_subMenuPath, addr 0x6c3ae90, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_subMenuPath();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DropdownMenuSeparator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DropdownMenuSeparator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuSeparator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DropdownMenuSeparator(DropdownMenuSeparator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DropdownMenuSeparator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DropdownMenuSeparator(DropdownMenuSeparator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuSeparator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DropdownMenuSeparator(DropdownMenuSeparator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DropdownMenuSeparator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DropdownMenuSeparator(DropdownMenuSeparator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4415 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4415};
+  /// @brief Field <subMenuPath>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____subMenuPath_k__BackingField;
 
-/// @brief Field <subMenuPath>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____subMenuPath_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuSeparator, ____subMenuPath_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DropdownMenuSeparator, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DropdownMenuSeparator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DropdownMenuSeparator*, "UnityEngine.UIElements", "DropdownMenuSeparator");

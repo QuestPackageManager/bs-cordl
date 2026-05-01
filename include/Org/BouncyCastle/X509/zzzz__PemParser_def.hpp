@@ -24,84 +24,84 @@ namespace Org::BouncyCastle::X509 {
 // CS Name: Org.BouncyCastle.X509.PemParser
 class CORDL_TYPE PemParser : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _footer1, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__footer1, put=__cordl_internal_set__footer1)) ::StringW  _footer1;
+  // Declarations
+  /// @brief Field _footer1, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__footer1, put = __cordl_internal_set__footer1)) ::StringW _footer1;
 
-/// @brief Field _footer2, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__footer2, put=__cordl_internal_set__footer2)) ::StringW  _footer2;
+  /// @brief Field _footer2, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__footer2, put = __cordl_internal_set__footer2)) ::StringW _footer2;
 
-/// @brief Field _header1, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__header1, put=__cordl_internal_set__header1)) ::StringW  _header1;
+  /// @brief Field _header1, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__header1, put = __cordl_internal_set__header1)) ::StringW _header1;
 
-/// @brief Field _header2, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__header2, put=__cordl_internal_set__header2)) ::StringW  _header2;
+  /// @brief Field _header2, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__header2, put = __cordl_internal_set__header2)) ::StringW _header2;
 
-static inline ::Org::BouncyCastle::X509::PemParser* New_ctor(::StringW  type) ;
+  static inline ::Org::BouncyCastle::X509::PemParser* New_ctor(::StringW type);
 
-/// @brief Method ReadLine, addr 0x354913c, size 0xe4, virtual false, abstract: false, final false
-inline ::StringW ReadLine(::System::IO::Stream*  inStream) ;
+  /// @brief Method ReadLine, addr 0x3585780, size 0xe4, virtual false, abstract: false, final false
+  inline ::StringW ReadLine(::System::IO::Stream* inStream);
 
-/// @brief Method ReadPemObject, addr 0x3549220, size 0x224, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream*  inStream) ;
+  /// @brief Method ReadPemObject, addr 0x3585864, size 0x224, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
 
-constexpr ::StringW const& __cordl_internal_get__footer1() const;
+  constexpr ::StringW const& __cordl_internal_get__footer1() const;
 
-constexpr ::StringW& __cordl_internal_get__footer1() ;
+  constexpr ::StringW& __cordl_internal_get__footer1();
 
-constexpr ::StringW const& __cordl_internal_get__footer2() const;
+  constexpr ::StringW const& __cordl_internal_get__footer2() const;
 
-constexpr ::StringW& __cordl_internal_get__footer2() ;
+  constexpr ::StringW& __cordl_internal_get__footer2();
 
-constexpr ::StringW const& __cordl_internal_get__header1() const;
+  constexpr ::StringW const& __cordl_internal_get__header1() const;
 
-constexpr ::StringW& __cordl_internal_get__header1() ;
+  constexpr ::StringW& __cordl_internal_get__header1();
 
-constexpr ::StringW const& __cordl_internal_get__header2() const;
+  constexpr ::StringW const& __cordl_internal_get__header2() const;
 
-constexpr ::StringW& __cordl_internal_get__header2() ;
+  constexpr ::StringW& __cordl_internal_get__header2();
 
-constexpr void __cordl_internal_set__footer1(::StringW  value) ;
+  constexpr void __cordl_internal_set__footer1(::StringW value);
 
-constexpr void __cordl_internal_set__footer2(::StringW  value) ;
+  constexpr void __cordl_internal_set__footer2(::StringW value);
 
-constexpr void __cordl_internal_set__header1(::StringW  value) ;
+  constexpr void __cordl_internal_set__header1(::StringW value);
 
-constexpr void __cordl_internal_set__header2(::StringW  value) ;
+  constexpr void __cordl_internal_set__header2(::StringW value);
 
-/// @brief Method .ctor, addr 0x3549020, size 0x11c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  type) ;
+  /// @brief Method .ctor, addr 0x3585664, size 0x11c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW type);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PemParser() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PemParser();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PemParser(PemParser&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PemParser(PemParser && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PemParser(PemParser const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PemParser(PemParser const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1855 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1855};
+  /// @brief Field _header1, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____header1;
 
-/// @brief Field _header1, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____header1;
+  /// @brief Field _header2, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____header2;
 
-/// @brief Field _header2, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____header2;
+  /// @brief Field _footer1, offset: 0x20, size: 0x8, def value: None
+  ::StringW ____footer1;
 
-/// @brief Field _footer1, offset: 0x20, size: 0x8, def value: None
- ::StringW  ____footer1;
+  /// @brief Field _footer2, offset: 0x28, size: 0x8, def value: None
+  ::StringW ____footer2;
 
-/// @brief Field _footer2, offset: 0x28, size: 0x8, def value: None
- ::StringW  ____footer2;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::X509::PemParser, ____header1) == 0x10, "Offset mismatch!");
@@ -114,6 +114,6 @@ static_assert(offsetof(::Org::BouncyCastle::X509::PemParser, ____footer2) == 0x2
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::PemParser, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::X509
+} // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::PemParser);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X509", "PemParser");

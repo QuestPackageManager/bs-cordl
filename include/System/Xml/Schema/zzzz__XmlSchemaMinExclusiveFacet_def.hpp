@@ -17,34 +17,34 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaMinExclusiveFacet
 class CORDL_TYPE XmlSchemaMinExclusiveFacet : public ::System::Xml::Schema::XmlSchemaFacet {
 public:
-// Declarations
-static inline ::System::Xml::Schema::XmlSchemaMinExclusiveFacet* New_ctor() ;
+  // Declarations
+  static inline ::System::Xml::Schema::XmlSchemaMinExclusiveFacet* New_ctor();
 
-/// @brief Method .ctor, addr 0x607d244, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60ef250, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSchemaMinExclusiveFacet() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaMinExclusiveFacet();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMinExclusiveFacet", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSchemaMinExclusiveFacet(XmlSchemaMinExclusiveFacet&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMinExclusiveFacet", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSchemaMinExclusiveFacet(XmlSchemaMinExclusiveFacet && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMinExclusiveFacet", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSchemaMinExclusiveFacet(XmlSchemaMinExclusiveFacet const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMinExclusiveFacet", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSchemaMinExclusiveFacet(XmlSchemaMinExclusiveFacet const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9764 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9758};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaMinExclusiveFacet, 0x60>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaMinExclusiveFacet);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaMinExclusiveFacet*, "System.Xml.Schema", "XmlSchemaMinExclusiveFacet");

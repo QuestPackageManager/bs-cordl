@@ -24,69 +24,69 @@ namespace Mono::Security::Interface {
 // CS Name: Mono.Security.Interface.MonoTlsProvider
 class CORDL_TYPE MonoTlsProvider : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Name)) ::StringW  Name;
+  // Declarations
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_SupportedProtocols)) ::System::Security::Authentication::SslProtocols  SupportedProtocols;
+  __declspec(property(get = get_SupportedProtocols)) ::System::Security::Authentication::SslProtocols SupportedProtocols;
 
- __declspec(property(get=get_SupportsCleanShutdown)) bool  SupportsCleanShutdown;
+  __declspec(property(get = get_SupportsCleanShutdown)) bool SupportsCleanShutdown;
 
- __declspec(property(get=get_SupportsConnectionInfo)) bool  SupportsConnectionInfo;
+  __declspec(property(get = get_SupportsConnectionInfo)) bool SupportsConnectionInfo;
 
- __declspec(property(get=get_SupportsMonoExtensions)) bool  SupportsMonoExtensions;
+  __declspec(property(get = get_SupportsMonoExtensions)) bool SupportsMonoExtensions;
 
- __declspec(property(get=get_SupportsSslStream)) bool  SupportsSslStream;
+  __declspec(property(get = get_SupportsSslStream)) bool SupportsSslStream;
 
- __declspec(property(get=get_ID)) ::System::Guid  _cordl_ID;
+  __declspec(property(get = get_ID)) ::System::Guid _cordl_ID;
 
-static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor() ;
+  static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor();
 
-/// @brief Method .ctor, addr 0x58efa1c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5961988, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_ID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Guid get_ID() ;
+  /// @brief Method get_ID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Guid get_ID();
 
-/// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_SupportedProtocols, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols() ;
+  /// @brief Method get_SupportedProtocols, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
 
-/// @brief Method get_SupportsCleanShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_SupportsCleanShutdown() ;
+  /// @brief Method get_SupportsCleanShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_SupportsCleanShutdown();
 
-/// @brief Method get_SupportsConnectionInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_SupportsConnectionInfo() ;
+  /// @brief Method get_SupportsConnectionInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_SupportsConnectionInfo();
 
-/// @brief Method get_SupportsMonoExtensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_SupportsMonoExtensions() ;
+  /// @brief Method get_SupportsMonoExtensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_SupportsMonoExtensions();
 
-/// @brief Method get_SupportsSslStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_SupportsSslStream() ;
+  /// @brief Method get_SupportsSslStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_SupportsSslStream();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MonoTlsProvider() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoTlsProvider();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MonoTlsProvider(MonoTlsProvider&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MonoTlsProvider(MonoTlsProvider && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MonoTlsProvider(MonoTlsProvider const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MonoTlsProvider(MonoTlsProvider const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19292 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19282};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::MonoTlsProvider, 0x10>, "Size mismatch!");
 
-} // namespace end def Mono::Security::Interface
+} // namespace Mono::Security::Interface
 NEED_NO_BOX(::Mono::Security::Interface::MonoTlsProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::MonoTlsProvider*, "Mono.Security.Interface", "MonoTlsProvider");

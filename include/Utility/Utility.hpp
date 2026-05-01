@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Utility/DateTimeExtensions.hpp"
 #ifdef __cpp_modules
-                    export module Utility;
-                    #endif
-                
+export module Utility;
+#endif

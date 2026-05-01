@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/InputSystem/Controls/AnyKeyControl.hpp"
 #include "UnityEngine/InputSystem/Controls/AxisControl.hpp"
@@ -20,6 +20,5 @@
 #include "UnityEngine/InputSystem/Controls/Vector2Control.hpp"
 #include "UnityEngine/InputSystem/Controls/Vector3Control.hpp"
 #ifdef __cpp_modules
-                    export module Controls;
-                    #endif
-                
+export module Controls;
+#endif

@@ -22,90 +22,91 @@ namespace GlobalNamespace {
 // CS Name: GameplayAdditionalInformation
 class CORDL_TYPE GameplayAdditionalInformation : public ::System::Object {
 public:
-// Declarations
-/// @brief Field backButtonText, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_backButtonText, put=__cordl_internal_set_backButtonText)) ::StringW  backButtonText;
+  // Declarations
+  /// @brief Field backButtonText, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText)) ::StringW backButtonText;
 
-/// @brief Field playmodeOptions, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get_playmodeOptions, put=__cordl_internal_set_playmodeOptions)) ::GlobalNamespace::PlaymodeOptions  playmodeOptions;
+  /// @brief Field playmodeOptions, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_playmodeOptions, put = __cordl_internal_set_playmodeOptions)) ::GlobalNamespace::PlaymodeOptions playmodeOptions;
 
-/// @brief Field recordingRelativePath, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_recordingRelativePath, put=__cordl_internal_set_recordingRelativePath)) ::StringW  recordingRelativePath;
+  /// @brief Field recordingRelativePath, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_recordingRelativePath, put = __cordl_internal_set_recordingRelativePath)) ::StringW recordingRelativePath;
 
-/// @brief Field startPaused, offset 0x19, size 0x1 
- __declspec(property(get=__cordl_internal_get_startPaused, put=__cordl_internal_set_startPaused)) bool  startPaused;
+  /// @brief Field startPaused, offset 0x19, size 0x1
+  __declspec(property(get = __cordl_internal_get_startPaused, put = __cordl_internal_set_startPaused)) bool startPaused;
 
-/// @brief Field useTestNoteCutSoundEffects, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get_useTestNoteCutSoundEffects, put=__cordl_internal_set_useTestNoteCutSoundEffects)) bool  useTestNoteCutSoundEffects;
+  /// @brief Field useTestNoteCutSoundEffects, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_useTestNoteCutSoundEffects, put = __cordl_internal_set_useTestNoteCutSoundEffects)) bool useTestNoteCutSoundEffects;
 
-static inline ::GlobalNamespace::GameplayAdditionalInformation* New_ctor(::StringW  backButtonText, bool  useTestNoteCutSoundEffects, bool  startPaused, ::GlobalNamespace::PlaymodeOptions  playmodeOptions, ::StringW  recordingRelativePath) ;
+  static inline ::GlobalNamespace::GameplayAdditionalInformation* New_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
+                                                                           ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath);
 
-constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
+  constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
 
-constexpr ::StringW& __cordl_internal_get_backButtonText() ;
+  constexpr ::StringW& __cordl_internal_get_backButtonText();
 
-constexpr ::GlobalNamespace::PlaymodeOptions const& __cordl_internal_get_playmodeOptions() const;
+  constexpr ::GlobalNamespace::PlaymodeOptions const& __cordl_internal_get_playmodeOptions() const;
 
-constexpr ::GlobalNamespace::PlaymodeOptions& __cordl_internal_get_playmodeOptions() ;
+  constexpr ::GlobalNamespace::PlaymodeOptions& __cordl_internal_get_playmodeOptions();
 
-constexpr ::StringW const& __cordl_internal_get_recordingRelativePath() const;
+  constexpr ::StringW const& __cordl_internal_get_recordingRelativePath() const;
 
-constexpr ::StringW& __cordl_internal_get_recordingRelativePath() ;
+  constexpr ::StringW& __cordl_internal_get_recordingRelativePath();
 
-constexpr bool const& __cordl_internal_get_startPaused() const;
+  constexpr bool const& __cordl_internal_get_startPaused() const;
 
-constexpr bool& __cordl_internal_get_startPaused() ;
+  constexpr bool& __cordl_internal_get_startPaused();
 
-constexpr bool const& __cordl_internal_get_useTestNoteCutSoundEffects() const;
+  constexpr bool const& __cordl_internal_get_useTestNoteCutSoundEffects() const;
 
-constexpr bool& __cordl_internal_get_useTestNoteCutSoundEffects() ;
+  constexpr bool& __cordl_internal_get_useTestNoteCutSoundEffects();
 
-constexpr void __cordl_internal_set_backButtonText(::StringW  value) ;
+  constexpr void __cordl_internal_set_backButtonText(::StringW value);
 
-constexpr void __cordl_internal_set_playmodeOptions(::GlobalNamespace::PlaymodeOptions  value) ;
+  constexpr void __cordl_internal_set_playmodeOptions(::GlobalNamespace::PlaymodeOptions value);
 
-constexpr void __cordl_internal_set_recordingRelativePath(::StringW  value) ;
+  constexpr void __cordl_internal_set_recordingRelativePath(::StringW value);
 
-constexpr void __cordl_internal_set_startPaused(bool  value) ;
+  constexpr void __cordl_internal_set_startPaused(bool value);
 
-constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool  value) ;
+  constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool value);
 
-/// @brief Method .ctor, addr 0x360f90c, size 0xc4, virtual false, abstract: false, final false
-inline void _ctor(::StringW  backButtonText, bool  useTestNoteCutSoundEffects, bool  startPaused, ::GlobalNamespace::PlaymodeOptions  playmodeOptions, ::StringW  recordingRelativePath) ;
+  /// @brief Method .ctor, addr 0x364c00c, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GameplayAdditionalInformation() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameplayAdditionalInformation();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayAdditionalInformation", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GameplayAdditionalInformation(GameplayAdditionalInformation&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GameplayAdditionalInformation", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GameplayAdditionalInformation(GameplayAdditionalInformation && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayAdditionalInformation", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GameplayAdditionalInformation(GameplayAdditionalInformation const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GameplayAdditionalInformation", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GameplayAdditionalInformation(GameplayAdditionalInformation const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14846 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14839};
+  /// @brief Field backButtonText, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___backButtonText;
 
-/// @brief Field backButtonText, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___backButtonText;
+  /// @brief Field useTestNoteCutSoundEffects, offset: 0x18, size: 0x1, def value: None
+  bool ___useTestNoteCutSoundEffects;
 
-/// @brief Field useTestNoteCutSoundEffects, offset: 0x18, size: 0x1, def value: None
- bool  ___useTestNoteCutSoundEffects;
+  /// @brief Field startPaused, offset: 0x19, size: 0x1, def value: None
+  bool ___startPaused;
 
-/// @brief Field startPaused, offset: 0x19, size: 0x1, def value: None
- bool  ___startPaused;
+  /// @brief Field playmodeOptions, offset: 0x1c, size: 0x4, def value: None
+  ::GlobalNamespace::PlaymodeOptions ___playmodeOptions;
 
-/// @brief Field playmodeOptions, offset: 0x1c, size: 0x4, def value: None
- ::GlobalNamespace::PlaymodeOptions  ___playmodeOptions;
+  /// @brief Field recordingRelativePath, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___recordingRelativePath;
 
-/// @brief Field recordingRelativePath, offset: 0x20, size: 0x8, def value: None
- ::StringW  ___recordingRelativePath;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___backButtonText) == 0x10, "Offset mismatch!");
@@ -120,6 +121,6 @@ static_assert(offsetof(::GlobalNamespace::GameplayAdditionalInformation, ___reco
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayAdditionalInformation, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayAdditionalInformation);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayAdditionalInformation*, "", "GameplayAdditionalInformation");

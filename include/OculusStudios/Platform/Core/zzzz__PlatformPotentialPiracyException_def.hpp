@@ -21,44 +21,44 @@ namespace OculusStudios::Platform::Core {
 // CS Name: OculusStudios.Platform.Core.PlatformPotentialPiracyException
 class CORDL_TYPE PlatformPotentialPiracyException : public ::System::Exception {
 public:
-// Declarations
-static inline ::OculusStudios::Platform::Core::PlatformPotentialPiracyException* New_ctor() ;
+  // Declarations
+  static inline ::OculusStudios::Platform::Core::PlatformPotentialPiracyException* New_ctor();
 
-static inline ::OculusStudios::Platform::Core::PlatformPotentialPiracyException* New_ctor(::StringW  message) ;
+  static inline ::OculusStudios::Platform::Core::PlatformPotentialPiracyException* New_ctor(::StringW message);
 
-static inline ::OculusStudios::Platform::Core::PlatformPotentialPiracyException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
+  static inline ::OculusStudios::Platform::Core::PlatformPotentialPiracyException* New_ctor(::StringW message, ::System::Exception* inner);
 
-/// @brief Method .ctor, addr 0x5d80728, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5df2710, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5d80780, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5df2768, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5d807ec, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
+  /// @brief Method .ctor, addr 0x5df27d4, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PlatformPotentialPiracyException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformPotentialPiracyException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformPotentialPiracyException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PlatformPotentialPiracyException(PlatformPotentialPiracyException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlatformPotentialPiracyException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PlatformPotentialPiracyException(PlatformPotentialPiracyException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformPotentialPiracyException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PlatformPotentialPiracyException(PlatformPotentialPiracyException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlatformPotentialPiracyException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PlatformPotentialPiracyException(PlatformPotentialPiracyException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22240 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22186};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::Platform::Core::PlatformPotentialPiracyException, 0x90>, "Size mismatch!");
 
-} // namespace end def OculusStudios::Platform::Core
+} // namespace OculusStudios::Platform::Core
 NEED_NO_BOX(::OculusStudios::Platform::Core::PlatformPotentialPiracyException);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::Platform::Core::PlatformPotentialPiracyException*, "OculusStudios.Platform.Core", "PlatformPotentialPiracyException");

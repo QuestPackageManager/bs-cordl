@@ -17,34 +17,34 @@ namespace UnityEngine {
 // CS Name: UnityEngine.SerializeField
 class CORDL_TYPE SerializeField : public ::System::Attribute {
 public:
-// Declarations
-static inline ::UnityEngine::SerializeField* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::SerializeField* New_ctor();
 
-/// @brief Method .ctor, addr 0x69220d0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69942ec, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SerializeField() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerializeField();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SerializeField(SerializeField&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SerializeField(SerializeField && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SerializeField(SerializeField const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SerializeField", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SerializeField(SerializeField const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10380 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10374};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SerializeField, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::SerializeField);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SerializeField*, "UnityEngine", "SerializeField");

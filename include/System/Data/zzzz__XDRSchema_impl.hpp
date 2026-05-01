@@ -12,554 +12,492 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Data::XDRSchema_NameType._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema_NameType::*)(::StringW, ::System::Type*)>(&::System::Data::XDRSchema_NameType::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema_NameType::*)(::StringW, ::System::Type*)>(
+    &::System::Data::XDRSchema_NameType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ea2034;
+  constexpr static std::size_t addrs = 0x5f14040;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema_NameType.CompareTo
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::XDRSchema_NameType::*)(::System::Object*)>(&::System::Data::XDRSchema_NameType::CompareTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ea203c;
+  constexpr static std::size_t addrs = 0x5f14048;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(),
-                        "CompareTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Data::XDRSchema_NameType::__cordl_internal_get_name()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+constexpr ::StringW& System::Data::XDRSchema_NameType::__cordl_internal_get_name() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
 constexpr ::StringW const& System::Data::XDRSchema_NameType::__cordl_internal_get_name() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
-constexpr void System::Data::XDRSchema_NameType::__cordl_internal_set_name(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::XDRSchema_NameType::__cordl_internal_set_name(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Data::XDRSchema_NameType::__cordl_internal_get_type()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___type;
+constexpr ::System::Type*& System::Data::XDRSchema_NameType::__cordl_internal_get_type() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
 }
 constexpr ::System::Type* const& System::Data::XDRSchema_NameType::__cordl_internal_get_type() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___type;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
 }
-constexpr void System::Data::XDRSchema_NameType::__cordl_internal_set_type(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::XDRSchema_NameType::__cordl_internal_set_type(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Data::XDRSchema_NameType::_ctor(::StringW  n, ::System::Type*  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, n, t);
+inline void System::Data::XDRSchema_NameType::_ctor(::StringW n, ::System::Type* t) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, n, t);
 }
-inline int32_t System::Data::XDRSchema_NameType::CompareTo(::System::Object*  obj)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(),
-                        "CompareTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
+inline int32_t System::Data::XDRSchema_NameType::CompareTo(::System::Object* obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema_NameType*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
 }
-inline ::System::Data::XDRSchema_NameType* System::Data::XDRSchema_NameType::New_ctor(::StringW  n, ::System::Type*  t)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::XDRSchema_NameType*>(n, t));
+inline ::System::Data::XDRSchema_NameType* System::Data::XDRSchema_NameType::New_ctor(::StringW n, ::System::Type* t) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::XDRSchema_NameType*>(n, t));
 }
 /// @brief Convert operator to "::System::IComparable"
-constexpr  System::Data::XDRSchema_NameType::operator ::System::IComparable*() noexcept {
-return static_cast<::System::IComparable*>(static_cast<void*>(this));
+constexpr System::Data::XDRSchema_NameType::operator ::System::IComparable*() noexcept {
+  return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IComparable"
 constexpr ::System::IComparable* System::Data::XDRSchema_NameType::i___System__IComparable() noexcept {
-return static_cast<::System::IComparable*>(static_cast<void*>(this));
+  return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Data::XDRSchema_NameType::XDRSchema_NameType()   {
-}
+constexpr ::System::Data::XDRSchema_NameType::XDRSchema_NameType() {}
 //  Writing Method size for method: ::System::Data::XDRSchema._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Data::DataSet*, bool)>(&::System::Data::XDRSchema::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e9e908;
+  constexpr static std::size_t addrs = 0x5f10914;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.LoadSchema
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Data::DataSet*)>(&::System::Data::XDRSchema::LoadSchema)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Data::DataSet*)>(
+    &::System::Data::XDRSchema::LoadSchema)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5e9e928;
+  constexpr static std::size_t addrs = 0x5f10934;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "LoadSchema",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "LoadSchema", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.FindTypeNode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::FindTypeNode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*)>(
+    &::System::Data::XDRSchema::FindTypeNode)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x5e9ed7c;
+  constexpr static std::size_t addrs = 0x5f10d88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "FindTypeNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "FindTypeNode", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.IsTextOnlyContent
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::IsTextOnlyContent)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5e9f0ac;
+  constexpr static std::size_t addrs = 0x5f110b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "IsTextOnlyContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "IsTextOnlyContent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.IsXDRField
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::IsXDRField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Xml::XmlElement*)>(
+    &::System::Data::XDRSchema::IsXDRField)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5e9f280;
+  constexpr static std::size_t addrs = 0x5f1128c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "IsXDRField",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "IsXDRField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.HandleTable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::HandleTable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*)>(
+    &::System::Data::XDRSchema::HandleTable)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5e9eba8;
+  constexpr static std::size_t addrs = 0x5f10bb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "HandleTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "HandleTable", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.FindNameType
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XDRSchema_NameType* (*)(::StringW)>(&::System::Data::XDRSchema::FindNameType)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5e9fca8;
+  constexpr static std::size_t addrs = 0x5f11cb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "FindNameType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "FindNameType", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.ParseDataType
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::XDRSchema::*)(::StringW, ::StringW)>(&::System::Data::XDRSchema::ParseDataType)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5e9fd80;
+  constexpr static std::size_t addrs = 0x5f11d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "ParseDataType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "ParseDataType", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.GetInstanceName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::GetInstanceName)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5e9fed0;
+  constexpr static std::size_t addrs = 0x5f11edc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "GetInstanceName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "GetInstanceName", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.HandleColumn
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Data::DataTable*)>(&::System::Data::XDRSchema::HandleColumn)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Data::DataTable*)>(
+    &::System::Data::XDRSchema::HandleColumn)> {
   constexpr static std::size_t size = 0x87c;
-  constexpr static std::size_t addrs = 0x5ea0054;
+  constexpr static std::size_t addrs = 0x5f12060;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "HandleColumn",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "HandleColumn", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.GetMinMax
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::System::Data::XDRSchema::GetMinMax)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
+    &::System::Data::XDRSchema::GetMinMax)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e9f3d0;
+  constexpr static std::size_t addrs = 0x5f113dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "GetMinMax",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "GetMinMax", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.GetMinMax
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, bool, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::System::Data::XDRSchema::GetMinMax)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, bool, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
+    &::System::Data::XDRSchema::GetMinMax)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x5ea09f8;
+  constexpr static std::size_t addrs = 0x5f12a04;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "GetMinMax",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "GetMinMax", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.HandleTypeNode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Data::DataTable*, ::System::Collections::ArrayList*)>(&::System::Data::XDRSchema::HandleTypeNode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::System::Data::XDRSchema::*)(::System::Xml::XmlElement*, ::System::Data::DataTable*, ::System::Collections::ArrayList*)>(&::System::Data::XDRSchema::HandleTypeNode)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x5ea1164;
+  constexpr static std::size_t addrs = 0x5f13170;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "HandleTypeNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "HandleTypeNode", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.InstantiateTable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XDRSchema::*)(::System::Data::DataSet*, ::System::Xml::XmlElement*, ::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::InstantiateTable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (
+    ::System::Data::XDRSchema::*)(::System::Data::DataSet*, ::System::Xml::XmlElement*, ::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::InstantiateTable)> {
   constexpr static std::size_t size = 0x68c;
-  constexpr static std::size_t addrs = 0x5e9f61c;
+  constexpr static std::size_t addrs = 0x5f11628;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "InstantiateTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "InstantiateTable", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::XDRSchema.InstantiateSimpleTable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XDRSchema::*)(::System::Data::DataSet*, ::System::Xml::XmlElement*)>(&::System::Data::XDRSchema::InstantiateSimpleTable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XDRSchema::*)(::System::Data::DataSet*, ::System::Xml::XmlElement*)>(
+    &::System::Data::XDRSchema::InstantiateSimpleTable)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5e9f3e0;
+  constexpr static std::size_t addrs = 0x5f113ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "InstantiateSimpleTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "InstantiateSimpleTable", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Data::XDRSchema::__cordl_internal_get__schemaName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____schemaName;
+constexpr ::StringW& System::Data::XDRSchema::__cordl_internal_get__schemaName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____schemaName;
 }
 constexpr ::StringW const& System::Data::XDRSchema::__cordl_internal_get__schemaName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____schemaName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____schemaName;
 }
-constexpr void System::Data::XDRSchema::__cordl_internal_set__schemaName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____schemaName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::XDRSchema::__cordl_internal_set__schemaName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____schemaName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Data::XDRSchema::__cordl_internal_get__schemaUri()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____schemaUri;
+constexpr ::StringW& System::Data::XDRSchema::__cordl_internal_get__schemaUri() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____schemaUri;
 }
 constexpr ::StringW const& System::Data::XDRSchema::__cordl_internal_get__schemaUri() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____schemaUri;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____schemaUri;
 }
-constexpr void System::Data::XDRSchema::__cordl_internal_set__schemaUri(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____schemaUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::XDRSchema::__cordl_internal_set__schemaUri(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____schemaUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlElement*& System::Data::XDRSchema::__cordl_internal_get__schemaRoot()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____schemaRoot;
+constexpr ::System::Xml::XmlElement*& System::Data::XDRSchema::__cordl_internal_get__schemaRoot() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____schemaRoot;
 }
 constexpr ::System::Xml::XmlElement* const& System::Data::XDRSchema::__cordl_internal_get__schemaRoot() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____schemaRoot;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____schemaRoot;
 }
-constexpr void System::Data::XDRSchema::__cordl_internal_set__schemaRoot(::System::Xml::XmlElement*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____schemaRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::XDRSchema::__cordl_internal_set__schemaRoot(::System::Xml::XmlElement* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____schemaRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Data::DataSet*& System::Data::XDRSchema::__cordl_internal_get__ds()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____ds;
+constexpr ::System::Data::DataSet*& System::Data::XDRSchema::__cordl_internal_get__ds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ds;
 }
 constexpr ::System::Data::DataSet* const& System::Data::XDRSchema::__cordl_internal_get__ds() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____ds;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ds;
 }
-constexpr void System::Data::XDRSchema::__cordl_internal_set__ds(::System::Data::DataSet*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::XDRSchema::__cordl_internal_set__ds(::System::Data::DataSet* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Data::XDRSchema::setStaticF_s_colonArray(::ArrayW<char16_t,::Array<char16_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<char16_t,::Array<char16_t>*>, "s_colonArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>(std::forward<::ArrayW<char16_t,::Array<char16_t>*>>(value));
+inline void System::Data::XDRSchema::setStaticF_s_colonArray(::ArrayW<char16_t, ::Array<char16_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "s_colonArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>(
+      std::forward<::ArrayW<char16_t, ::Array<char16_t>*>>(value));
 }
-inline ::ArrayW<char16_t,::Array<char16_t>*> System::Data::XDRSchema::getStaticF_s_colonArray()  {
-return ::cordl_internals::getStaticField<::ArrayW<char16_t,::Array<char16_t>*>, "s_colonArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>();
+inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Data::XDRSchema::getStaticF_s_colonArray() {
+  return ::cordl_internals::getStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "s_colonArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>();
 }
-inline void System::Data::XDRSchema::setStaticF_s_mapNameTypeXdr(::ArrayW<::System::Data::XDRSchema_NameType*,::Array<::System::Data::XDRSchema_NameType*>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::System::Data::XDRSchema_NameType*,::Array<::System::Data::XDRSchema_NameType*>*>, "s_mapNameTypeXdr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>(std::forward<::ArrayW<::System::Data::XDRSchema_NameType*,::Array<::System::Data::XDRSchema_NameType*>*>>(value));
+inline void System::Data::XDRSchema::setStaticF_s_mapNameTypeXdr(::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*>, "s_mapNameTypeXdr",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>(
+      std::forward<::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*>>(value));
 }
-inline ::ArrayW<::System::Data::XDRSchema_NameType*,::Array<::System::Data::XDRSchema_NameType*>*> System::Data::XDRSchema::getStaticF_s_mapNameTypeXdr()  {
-return ::cordl_internals::getStaticField<::ArrayW<::System::Data::XDRSchema_NameType*,::Array<::System::Data::XDRSchema_NameType*>*>, "s_mapNameTypeXdr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>();
+inline ::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*> System::Data::XDRSchema::getStaticF_s_mapNameTypeXdr() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*>, "s_mapNameTypeXdr",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>();
 }
-inline void System::Data::XDRSchema::setStaticF_s_enumerationNameType(::System::Data::XDRSchema_NameType*  value)  {
-::cordl_internals::setStaticField<::System::Data::XDRSchema_NameType*, "s_enumerationNameType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>(std::forward<::System::Data::XDRSchema_NameType*>(value));
+inline void System::Data::XDRSchema::setStaticF_s_enumerationNameType(::System::Data::XDRSchema_NameType* value) {
+  ::cordl_internals::setStaticField<::System::Data::XDRSchema_NameType*, "s_enumerationNameType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>(
+      std::forward<::System::Data::XDRSchema_NameType*>(value));
 }
-inline ::System::Data::XDRSchema_NameType* System::Data::XDRSchema::getStaticF_s_enumerationNameType()  {
-return ::cordl_internals::getStaticField<::System::Data::XDRSchema_NameType*, "s_enumerationNameType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>();
+inline ::System::Data::XDRSchema_NameType* System::Data::XDRSchema::getStaticF_s_enumerationNameType() {
+  return ::cordl_internals::getStaticField<::System::Data::XDRSchema_NameType*, "s_enumerationNameType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get>();
 }
-inline void System::Data::XDRSchema::_ctor(::System::Data::DataSet*  ds, bool  fInline)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ds, fInline);
+inline void System::Data::XDRSchema::_ctor(::System::Data::DataSet* ds, bool fInline) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ds, fInline);
 }
-inline void System::Data::XDRSchema::LoadSchema(::System::Xml::XmlElement*  schemaRoot, ::System::Data::DataSet*  ds)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "LoadSchema",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, schemaRoot, ds);
+inline void System::Data::XDRSchema::LoadSchema(::System::Xml::XmlElement* schemaRoot, ::System::Data::DataSet* ds) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "LoadSchema", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, schemaRoot, ds);
 }
-inline ::System::Xml::XmlElement* System::Data::XDRSchema::FindTypeNode(::System::Xml::XmlElement*  node)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "FindTypeNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlElement*, false>(this, ___internal_method, node);
+inline ::System::Xml::XmlElement* System::Data::XDRSchema::FindTypeNode(::System::Xml::XmlElement* node) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "FindTypeNode", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlElement*, false>(this, ___internal_method, node);
 }
-inline bool System::Data::XDRSchema::IsTextOnlyContent(::System::Xml::XmlElement*  node)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "IsTextOnlyContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, node);
+inline bool System::Data::XDRSchema::IsTextOnlyContent(::System::Xml::XmlElement* node) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "IsTextOnlyContent", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, node);
 }
-inline bool System::Data::XDRSchema::IsXDRField(::System::Xml::XmlElement*  node, ::System::Xml::XmlElement*  typeNode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "IsXDRField",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, node, typeNode);
+inline bool System::Data::XDRSchema::IsXDRField(::System::Xml::XmlElement* node, ::System::Xml::XmlElement* typeNode) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "IsXDRField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, node, typeNode);
 }
-inline ::System::Data::DataTable* System::Data::XDRSchema::HandleTable(::System::Xml::XmlElement*  node)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "HandleTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method, node);
+inline ::System::Data::DataTable* System::Data::XDRSchema::HandleTable(::System::Xml::XmlElement* node) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "HandleTable", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method, node);
 }
-inline ::System::Data::XDRSchema_NameType* System::Data::XDRSchema::FindNameType(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "FindNameType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::XDRSchema_NameType*, false>(nullptr, ___internal_method, name);
+inline ::System::Data::XDRSchema_NameType* System::Data::XDRSchema::FindNameType(::StringW name) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "FindNameType", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::XDRSchema_NameType*, false>(nullptr, ___internal_method, name);
 }
-inline ::System::Type* System::Data::XDRSchema::ParseDataType(::StringW  dt, ::StringW  dtValues)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "ParseDataType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, dt, dtValues);
+inline ::System::Type* System::Data::XDRSchema::ParseDataType(::StringW dt, ::StringW dtValues) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "ParseDataType", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, dt, dtValues);
 }
-inline ::StringW System::Data::XDRSchema::GetInstanceName(::System::Xml::XmlElement*  node)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "GetInstanceName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, node);
+inline ::StringW System::Data::XDRSchema::GetInstanceName(::System::Xml::XmlElement* node) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "GetInstanceName", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, node);
 }
-inline void System::Data::XDRSchema::HandleColumn(::System::Xml::XmlElement*  node, ::System::Data::DataTable*  table)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "HandleColumn",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, table);
+inline void System::Data::XDRSchema::HandleColumn(::System::Xml::XmlElement* node, ::System::Data::DataTable* table) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "HandleColumn", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, table);
 }
-inline void System::Data::XDRSchema::GetMinMax(::System::Xml::XmlElement*  elNode, ::ByRef<int32_t>  minOccurs, ::ByRef<int32_t>  maxOccurs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "GetMinMax",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elNode, minOccurs, maxOccurs);
+inline void System::Data::XDRSchema::GetMinMax(::System::Xml::XmlElement* elNode, ::ByRef<int32_t> minOccurs, ::ByRef<int32_t> maxOccurs) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "GetMinMax", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elNode, minOccurs, maxOccurs);
 }
-inline void System::Data::XDRSchema::GetMinMax(::System::Xml::XmlElement*  elNode, bool  isAttribute, ::ByRef<int32_t>  minOccurs, ::ByRef<int32_t>  maxOccurs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "GetMinMax",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elNode, isAttribute, minOccurs, maxOccurs);
+inline void System::Data::XDRSchema::GetMinMax(::System::Xml::XmlElement* elNode, bool isAttribute, ::ByRef<int32_t> minOccurs, ::ByRef<int32_t> maxOccurs) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "GetMinMax", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elNode, isAttribute, minOccurs, maxOccurs);
 }
-inline void System::Data::XDRSchema::HandleTypeNode(::System::Xml::XmlElement*  typeNode, ::System::Data::DataTable*  table, ::System::Collections::ArrayList*  tableChildren)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "HandleTypeNode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, typeNode, table, tableChildren);
+inline void System::Data::XDRSchema::HandleTypeNode(::System::Xml::XmlElement* typeNode, ::System::Data::DataTable* table, ::System::Collections::ArrayList* tableChildren) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "HandleTypeNode", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataTable*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, typeNode, table, tableChildren);
 }
-inline ::System::Data::DataTable* System::Data::XDRSchema::InstantiateTable(::System::Data::DataSet*  dataSet, ::System::Xml::XmlElement*  node, ::System::Xml::XmlElement*  typeNode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "InstantiateTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method, dataSet, node, typeNode);
+inline ::System::Data::DataTable* System::Data::XDRSchema::InstantiateTable(::System::Data::DataSet* dataSet, ::System::Xml::XmlElement* node, ::System::Xml::XmlElement* typeNode) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "InstantiateTable", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method, dataSet, node, typeNode);
 }
-inline ::System::Data::DataTable* System::Data::XDRSchema::InstantiateSimpleTable(::System::Data::DataSet*  dataSet, ::System::Xml::XmlElement*  node)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(),
-                        "InstantiateSimpleTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method, dataSet, node);
+inline ::System::Data::DataTable* System::Data::XDRSchema::InstantiateSimpleTable(::System::Data::DataSet* dataSet, ::System::Xml::XmlElement* node) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XDRSchema*>::get(), "InstantiateSimpleTable", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataSet*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method, dataSet, node);
 }
-inline ::System::Data::XDRSchema* System::Data::XDRSchema::New_ctor(::System::Data::DataSet*  ds, bool  fInline)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::XDRSchema*>(ds, fInline));
+inline ::System::Data::XDRSchema* System::Data::XDRSchema::New_ctor(::System::Data::DataSet* ds, bool fInline) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::XDRSchema*>(ds, fInline));
 }
 // Ctor Parameters []
-constexpr ::System::Data::XDRSchema::XDRSchema()   {
-}
+constexpr ::System::Data::XDRSchema::XDRSchema() {}

@@ -26,55 +26,56 @@ MARK_REF_PTR_T(::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem);
 namespace Meta::XR::ImmersiveDebugger::Hierarchy {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Hierarchy.SceneItem
-class CORDL_TYPE SceneItem : public ::Meta::XR::ImmersiveDebugger::Hierarchy::ItemWithChildren_3<::UnityEngine::SceneManagement::Scene,::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*,::UnityW<::UnityEngine::GameObject>> {
+class CORDL_TYPE SceneItem : public ::Meta::XR::ImmersiveDebugger::Hierarchy::ItemWithChildren_3<::UnityEngine::SceneManagement::Scene, ::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*,
+                                                                                                 ::UnityW<::UnityEngine::GameObject>> {
 public:
-// Declarations
- __declspec(property(get=get_Label)) ::StringW  Label;
+  // Declarations
+  __declspec(property(get = get_Label)) ::StringW Label;
 
- __declspec(property(get=get_Valid)) bool  Valid;
+  __declspec(property(get = get_Valid)) bool Valid;
 
-/// @brief Method BuildHandle, addr 0x58bb4e4, size 0x18, virtual true, abstract: false, final false
-inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle() ;
+  /// @brief Method BuildHandle, addr 0x592d450, size 0x18, virtual true, abstract: false, final false
+  inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
-/// @brief Method CompareChildren, addr 0x58bb3d0, size 0x6c, virtual true, abstract: false, final false
-inline bool CompareChildren(::UnityEngine::GameObject*  lhs, ::UnityEngine::GameObject*  rhs) ;
+  /// @brief Method CompareChildren, addr 0x592d33c, size 0x6c, virtual true, abstract: false, final false
+  inline bool CompareChildren(::UnityEngine::GameObject* lhs, ::UnityEngine::GameObject* rhs);
 
-/// @brief Method FetchExpectedChildren, addr 0x58bb4fc, size 0xc, virtual true, abstract: false, final false
-inline ::ArrayW<::UnityW<::UnityEngine::GameObject>,::Array<::UnityW<::UnityEngine::GameObject>>*> FetchExpectedChildren() ;
+  /// @brief Method FetchExpectedChildren, addr 0x592d468, size 0xc, virtual true, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> FetchExpectedChildren();
 
-static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem* New_ctor() ;
+  static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem* New_ctor();
 
-/// @brief Method .ctor, addr 0x58bb508, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x592d474, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Label, addr 0x58bb43c, size 0x6c, virtual true, abstract: false, final false
-inline ::StringW get_Label() ;
+  /// @brief Method get_Label, addr 0x592d3a8, size 0x6c, virtual true, abstract: false, final false
+  inline ::StringW get_Label();
 
-/// @brief Method get_Valid, addr 0x58bb4a8, size 0x3c, virtual true, abstract: false, final false
-inline bool get_Valid() ;
+  /// @brief Method get_Valid, addr 0x592d414, size 0x3c, virtual true, abstract: false, final false
+  inline bool get_Valid();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SceneItem() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SceneItem();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SceneItem", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SceneItem(SceneItem&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SceneItem", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SceneItem(SceneItem && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SceneItem", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SceneItem(SceneItem const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SceneItem", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SceneItem(SceneItem const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18451 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18441};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem, 0x48>, "Size mismatch!");
 
-} // namespace end def Meta::XR::ImmersiveDebugger::Hierarchy
+} // namespace Meta::XR::ImmersiveDebugger::Hierarchy
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem*, "Meta.XR.ImmersiveDebugger.Hierarchy", "SceneItem");

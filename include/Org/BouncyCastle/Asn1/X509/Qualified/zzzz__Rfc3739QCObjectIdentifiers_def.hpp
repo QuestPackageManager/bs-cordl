@@ -20,55 +20,55 @@ namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // CS Name: Org.BouncyCastle.Asn1.X509.Qualified.Rfc3739QCObjectIdentifiers
 class CORDL_TYPE Rfc3739QCObjectIdentifiers : public ::System::Object {
 public:
-// Declarations
-/// @brief Field IdQcs, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_IdQcs, put=setStaticF_IdQcs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  IdQcs;
+  // Declarations
+  /// @brief Field IdQcs, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_IdQcs, put = setStaticF_IdQcs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdQcs;
 
-/// @brief Field IdQcsPkixQCSyntaxV1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_IdQcsPkixQCSyntaxV1, put=setStaticF_IdQcsPkixQCSyntaxV1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  IdQcsPkixQCSyntaxV1;
+  /// @brief Field IdQcsPkixQCSyntaxV1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_IdQcsPkixQCSyntaxV1, put = setStaticF_IdQcsPkixQCSyntaxV1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdQcsPkixQCSyntaxV1;
 
-/// @brief Field IdQcsPkixQCSyntaxV2, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_IdQcsPkixQCSyntaxV2, put=setStaticF_IdQcsPkixQCSyntaxV2)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  IdQcsPkixQCSyntaxV2;
+  /// @brief Field IdQcsPkixQCSyntaxV2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_IdQcsPkixQCSyntaxV2, put = setStaticF_IdQcsPkixQCSyntaxV2)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdQcsPkixQCSyntaxV2;
 
-static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers* New_ctor() ;
+  static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers* New_ctor();
 
-/// @brief Method .ctor, addr 0x345d44c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3499a90, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdQcs() ;
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdQcs();
 
-static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdQcsPkixQCSyntaxV1() ;
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdQcsPkixQCSyntaxV1();
 
-static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdQcsPkixQCSyntaxV2() ;
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdQcsPkixQCSyntaxV2();
 
-static inline void setStaticF_IdQcs(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+  static inline void setStaticF_IdQcs(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-static inline void setStaticF_IdQcsPkixQCSyntaxV1(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+  static inline void setStaticF_IdQcsPkixQCSyntaxV1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-static inline void setStaticF_IdQcsPkixQCSyntaxV2(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+  static inline void setStaticF_IdQcsPkixQCSyntaxV2(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Rfc3739QCObjectIdentifiers() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Rfc3739QCObjectIdentifiers();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Rfc3739QCObjectIdentifiers(Rfc3739QCObjectIdentifiers&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Rfc3739QCObjectIdentifiers(Rfc3739QCObjectIdentifiers && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Rfc3739QCObjectIdentifiers(Rfc3739QCObjectIdentifiers const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Rfc3739QCObjectIdentifiers", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Rfc3739QCObjectIdentifiers(Rfc3739QCObjectIdentifiers const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 332 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{332};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::X509::Qualified
+} // namespace Org::BouncyCastle::Asn1::X509::Qualified
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers*, "Org.BouncyCastle.Asn1.X509.Qualified", "Rfc3739QCObjectIdentifiers");

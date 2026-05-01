@@ -16,986 +16,836 @@
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_selectBeatmapEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x57317d8;
+  constexpr static std::size_t addrs = 0x57a1c44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_selectBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_selectBeatmapEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.remove_selectBeatmapEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::remove_selectBeatmapEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::remove_selectBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731884;
+  constexpr static std::size_t addrs = 0x57a1cf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_selectBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_selectBeatmapEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_selectModifiersEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::add_selectModifiersEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::add_selectModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731930;
+  constexpr static std::size_t addrs = 0x57a1d9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_selectModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_selectModifiersEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.remove_selectModifiersEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::remove_selectModifiersEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::remove_selectModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x57319dc;
+  constexpr static std::size_t addrs = 0x57a1e48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_selectModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_selectModifiersEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_startGameOrReadyEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::add_startGameOrReadyEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::add_startGameOrReadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731a88;
+  constexpr static std::size_t addrs = 0x57a1ef4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_startGameOrReadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_startGameOrReadyEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.remove_startGameOrReadyEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::remove_startGameOrReadyEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::remove_startGameOrReadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731b34;
+  constexpr static std::size_t addrs = 0x57a1fa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_startGameOrReadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_startGameOrReadyEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_cancelGameOrUnreadyEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::add_cancelGameOrUnreadyEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::add_cancelGameOrUnreadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731be0;
+  constexpr static std::size_t addrs = 0x57a204c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_cancelGameOrUnreadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_cancelGameOrUnreadyEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.remove_cancelGameOrUnreadyEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::remove_cancelGameOrUnreadyEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::remove_cancelGameOrUnreadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731c8c;
+  constexpr static std::size_t addrs = 0x57a20f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_cancelGameOrUnreadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_cancelGameOrUnreadyEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_clearSuggestedBeatmapEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::add_clearSuggestedBeatmapEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::add_clearSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731d38;
+  constexpr static std::size_t addrs = 0x57a21a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_clearSuggestedBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_clearSuggestedBeatmapEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.remove_clearSuggestedBeatmapEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedBeatmapEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731de4;
+  constexpr static std::size_t addrs = 0x57a2250;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_clearSuggestedBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_clearSuggestedBeatmapEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_clearSuggestedModifiersEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::add_clearSuggestedModifiersEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::add_clearSuggestedModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731e90;
+  constexpr static std::size_t addrs = 0x57a22fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_clearSuggestedModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_clearSuggestedModifiersEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.remove_clearSuggestedModifiersEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(&::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedModifiersEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::System::Action*)>(
+    &::GlobalNamespace::LobbySetupViewController::remove_clearSuggestedModifiersEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5731f3c;
+  constexpr static std::size_t addrs = 0x57a23a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_clearSuggestedModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_clearSuggestedModifiersEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.Setup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::BeatmapLevelSelectionMask, bool, bool, bool, bool, bool)>(&::GlobalNamespace::LobbySetupViewController::Setup)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(
+    ::GlobalNamespace::BeatmapLevelSelectionMask, bool, bool, bool, bool, bool)>(&::GlobalNamespace::LobbySetupViewController::Setup)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x5731fe8;
+  constexpr static std::size_t addrs = 0x57a2454;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "Setup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "Setup", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.SetLobbyPlayerData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::ILobbyPlayerData*)>(&::GlobalNamespace::LobbySetupViewController::SetLobbyPlayerData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::ILobbyPlayerData*)>(
+    &::GlobalNamespace::LobbySetupViewController::SetLobbyPlayerData)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x5732524;
+  constexpr static std::size_t addrs = 0x57a2990;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetLobbyPlayerData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetLobbyPlayerData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.SetPlayersMissingLevelText
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::StringW)>(&::GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::StringW)>(
+    &::GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5732910;
+  constexpr static std::size_t addrs = 0x57a2d7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetPlayersMissingLevelText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetPlayersMissingLevelText",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.SetPlayerActiveState
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool)>(&::GlobalNamespace::LobbySetupViewController::SetPlayerActiveState)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool)>(
+    &::GlobalNamespace::LobbySetupViewController::SetPlayerActiveState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x57328f0;
+  constexpr static std::size_t addrs = 0x57a2d5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetPlayerActiveState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetPlayerActiveState",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.SetStartGameEnabled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::CannotStartGameReason)>(&::GlobalNamespace::LobbySetupViewController::SetStartGameEnabled)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::CannotStartGameReason)>(
+    &::GlobalNamespace::LobbySetupViewController::SetStartGameEnabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5732970;
+  constexpr static std::size_t addrs = 0x57a2ddc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetStartGameEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CannotStartGameReason>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetStartGameEnabled", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CannotStartGameReason>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.SetLobbyState
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::MultiplayerLobbyState)>(&::GlobalNamespace::LobbySetupViewController::SetLobbyState)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(::GlobalNamespace::MultiplayerLobbyState)>(
+    &::GlobalNamespace::LobbySetupViewController::SetLobbyState)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x57329d8;
+  constexpr static std::size_t addrs = 0x57a2e44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetLobbyState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLobbyState>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetLobbyState", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLobbyState>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.DidActivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool, bool, bool)>(&::GlobalNamespace::LobbySetupViewController::DidActivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool, bool, bool)>(
+    &::GlobalNamespace::LobbySetupViewController::DidActivate)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x5732b78;
+  constexpr static std::size_t addrs = 0x57a2fe4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.OnDestroy
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5732f04;
+  constexpr static std::size_t addrs = 0x57a3370;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.SetReadyButtonActive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool)>(&::GlobalNamespace::LobbySetupViewController::SetReadyButtonActive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)(bool)>(
+    &::GlobalNamespace::LobbySetupViewController::SetReadyButtonActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x57324f4;
+  constexpr static std::size_t addrs = 0x57a2960;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetReadyButtonActive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetReadyButtonActive",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5732f1c;
+  constexpr static std::size_t addrs = 0x57a3388;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController._DidActivate_b__44_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
+    &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5732f80;
+  constexpr static std::size_t addrs = 0x57a33ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                               "<DidActivate>b__44_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController._DidActivate_b__44_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
+    &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5732f9c;
+  constexpr static std::size_t addrs = 0x57a3408;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                               "<DidActivate>b__44_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController._DidActivate_b__44_2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
+    &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5732fb8;
+  constexpr static std::size_t addrs = 0x57a3424;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                               "<DidActivate>b__44_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController._DidActivate_b__44_3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
+    &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5732fd4;
+  constexpr static std::size_t addrs = 0x57a3440;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                               "<DidActivate>b__44_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController._DidActivate_b__44_4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
+    &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_4)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5732ff0;
+  constexpr static std::size_t addrs = 0x57a345c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                               "<DidActivate>b__44_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController._DidActivate_b__44_5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(&::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbySetupViewController::*)()>(
+    &::GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_5)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x573300c;
+  constexpr static std::size_t addrs = 0x57a3478;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                               "<DidActivate>b__44_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__startGameReadyButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____startGameReadyButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__startGameReadyButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startGameReadyButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__startGameReadyButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____startGameReadyButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startGameReadyButton;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__startGameReadyButton(::UnityW<::UnityEngine::UI::Button>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startGameReadyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__startGameReadyButton(::UnityW<::UnityEngine::UI::Button> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startGameReadyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cancelGameUnreadyButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cancelGameUnreadyButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cancelGameUnreadyButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancelGameUnreadyButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cancelGameUnreadyButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cancelGameUnreadyButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancelGameUnreadyButton;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__cancelGameUnreadyButton(::UnityW<::UnityEngine::UI::Button>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelGameUnreadyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__cancelGameUnreadyButton(::UnityW<::UnityEngine::UI::Button> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelGameUnreadyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__startReadyText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____startReadyText;
+constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__startReadyText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startReadyText;
 }
 constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__startReadyText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____startReadyText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startReadyText;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__startReadyText(::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startReadyText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__startReadyText(::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startReadyText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cancelUnreadyText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cancelUnreadyText;
+constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cancelUnreadyText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancelUnreadyText;
 }
 constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cancelUnreadyText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cancelUnreadyText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancelUnreadyText;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__cancelUnreadyText(::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelUnreadyText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__cancelUnreadyText(::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelUnreadyText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::GameServersFilterText>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__serverSettings()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____serverSettings;
+constexpr ::UnityW<::GlobalNamespace::GameServersFilterText>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__serverSettings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____serverSettings;
 }
 constexpr ::UnityW<::GlobalNamespace::GameServersFilterText> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__serverSettings() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____serverSettings;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____serverSettings;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__serverSettings(::UnityW<::GlobalNamespace::GameServersFilterText>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serverSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__serverSettings(::UnityW<::GlobalNamespace::GameServersFilterText> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serverSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__suggestionHeader()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____suggestionHeader;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__suggestionHeader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____suggestionHeader;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__suggestionHeader() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____suggestionHeader;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____suggestionHeader;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__suggestionHeader(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____suggestionHeader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__suggestionHeader(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____suggestionHeader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__beatmapSelectionView()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapSelectionView;
+constexpr ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__beatmapSelectionView() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapSelectionView;
 }
 constexpr ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__beatmapSelectionView() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapSelectionView;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapSelectionView;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::EditableBeatmapSelectionView>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::EditableModifiersSelectionView>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__modifiersSelectionView()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____modifiersSelectionView;
+constexpr ::UnityW<::GlobalNamespace::EditableModifiersSelectionView>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__modifiersSelectionView() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____modifiersSelectionView;
 }
 constexpr ::UnityW<::GlobalNamespace::EditableModifiersSelectionView> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__modifiersSelectionView() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____modifiersSelectionView;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____modifiersSelectionView;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::EditableModifiersSelectionView>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____modifiersSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::EditableModifiersSelectionView> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____modifiersSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::HoverHint>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cantStartGameHoverHint()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cantStartGameHoverHint;
+constexpr ::UnityW<::HMUI::HoverHint>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cantStartGameHoverHint() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cantStartGameHoverHint;
 }
 constexpr ::UnityW<::HMUI::HoverHint> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__cantStartGameHoverHint() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cantStartGameHoverHint;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cantStartGameHoverHint;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__cantStartGameHoverHint(::UnityW<::HMUI::HoverHint>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cantStartGameHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__cantStartGameHoverHint(::UnityW<::HMUI::HoverHint> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cantStartGameHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__playerMissingLevelHoverHintWrapper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerMissingLevelHoverHintWrapper;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__playerMissingLevelHoverHintWrapper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerMissingLevelHoverHintWrapper;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__playerMissingLevelHoverHintWrapper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerMissingLevelHoverHintWrapper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerMissingLevelHoverHintWrapper;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__playerMissingLevelHoverHintWrapper(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerMissingLevelHoverHintWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__playerMissingLevelHoverHintWrapper(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerMissingLevelHoverHintWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::HoverHint>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__playersMissingLevelHoverHint()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playersMissingLevelHoverHint;
+constexpr ::UnityW<::HMUI::HoverHint>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__playersMissingLevelHoverHint() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playersMissingLevelHoverHint;
 }
 constexpr ::UnityW<::HMUI::HoverHint> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__playersMissingLevelHoverHint() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playersMissingLevelHoverHint;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playersMissingLevelHoverHint;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__playersMissingLevelHoverHint(::UnityW<::HMUI::HoverHint>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersMissingLevelHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__playersMissingLevelHoverHint(::UnityW<::HMUI::HoverHint> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersMissingLevelHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__spectatorWarningTextWrapper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spectatorWarningTextWrapper;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__spectatorWarningTextWrapper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spectatorWarningTextWrapper;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__spectatorWarningTextWrapper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spectatorWarningTextWrapper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spectatorWarningTextWrapper;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__spectatorWarningTextWrapper(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectatorWarningTextWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__spectatorWarningTextWrapper(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectatorWarningTextWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ToggleBinder*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__toggleBinder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____toggleBinder;
+constexpr ::HMUI::ToggleBinder*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__toggleBinder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleBinder;
 }
 constexpr ::HMUI::ToggleBinder* const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__toggleBinder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____toggleBinder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleBinder;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__toggleBinder(::HMUI::ToggleBinder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_selectBeatmapEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___selectBeatmapEvent;
+constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_selectBeatmapEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___selectBeatmapEvent;
 }
 constexpr ::System::Action* const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_selectBeatmapEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___selectBeatmapEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___selectBeatmapEvent;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_selectBeatmapEvent(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_selectBeatmapEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_selectModifiersEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___selectModifiersEvent;
+constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_selectModifiersEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___selectModifiersEvent;
 }
 constexpr ::System::Action* const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_selectModifiersEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___selectModifiersEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___selectModifiersEvent;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_selectModifiersEvent(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_selectModifiersEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_startGameOrReadyEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___startGameOrReadyEvent;
+constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_startGameOrReadyEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startGameOrReadyEvent;
 }
 constexpr ::System::Action* const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_startGameOrReadyEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___startGameOrReadyEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startGameOrReadyEvent;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_startGameOrReadyEvent(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___startGameOrReadyEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_startGameOrReadyEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___startGameOrReadyEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_cancelGameOrUnreadyEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cancelGameOrUnreadyEvent;
+constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_cancelGameOrUnreadyEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cancelGameOrUnreadyEvent;
 }
 constexpr ::System::Action* const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_cancelGameOrUnreadyEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cancelGameOrUnreadyEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cancelGameOrUnreadyEvent;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_cancelGameOrUnreadyEvent(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cancelGameOrUnreadyEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_cancelGameOrUnreadyEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cancelGameOrUnreadyEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_clearSuggestedBeatmapEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___clearSuggestedBeatmapEvent;
+constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_clearSuggestedBeatmapEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___clearSuggestedBeatmapEvent;
 }
 constexpr ::System::Action* const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_clearSuggestedBeatmapEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___clearSuggestedBeatmapEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___clearSuggestedBeatmapEvent;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_clearSuggestedBeatmapEvent(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clearSuggestedBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_clearSuggestedBeatmapEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clearSuggestedBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_clearSuggestedModifiersEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___clearSuggestedModifiersEvent;
+constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_clearSuggestedModifiersEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___clearSuggestedModifiersEvent;
 }
 constexpr ::System::Action* const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get_clearSuggestedModifiersEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___clearSuggestedModifiersEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___clearSuggestedModifiersEvent;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_clearSuggestedModifiersEvent(::System::Action*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clearSuggestedModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set_clearSuggestedModifiersEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clearSuggestedModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__isPartyOwner()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isPartyOwner;
+constexpr bool& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__isPartyOwner() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isPartyOwner;
 }
 constexpr bool const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__isPartyOwner() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isPartyOwner;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isPartyOwner;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__isPartyOwner(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____isPartyOwner = value;
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__isPartyOwner(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isPartyOwner = value;
 }
-constexpr bool& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__isQuickStart()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isQuickStart;
+constexpr bool& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__isQuickStart() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isQuickStart;
 }
 constexpr bool const& GlobalNamespace::LobbySetupViewController::__cordl_internal_get__isQuickStart() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isQuickStart;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isQuickStart;
 }
-constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__isQuickStart(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____isQuickStart = value;
+constexpr void GlobalNamespace::LobbySetupViewController::__cordl_internal_set__isQuickStart(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isQuickStart = value;
 }
-inline void GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_selectBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_selectBeatmapEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::remove_selectBeatmapEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_selectBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::remove_selectBeatmapEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_selectBeatmapEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::add_selectModifiersEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_selectModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::add_selectModifiersEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_selectModifiersEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::remove_selectModifiersEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_selectModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::remove_selectModifiersEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_selectModifiersEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::add_startGameOrReadyEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_startGameOrReadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::add_startGameOrReadyEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_startGameOrReadyEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::remove_startGameOrReadyEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_startGameOrReadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::remove_startGameOrReadyEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_startGameOrReadyEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::add_cancelGameOrUnreadyEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_cancelGameOrUnreadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::add_cancelGameOrUnreadyEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_cancelGameOrUnreadyEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::remove_cancelGameOrUnreadyEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_cancelGameOrUnreadyEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::remove_cancelGameOrUnreadyEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_cancelGameOrUnreadyEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::add_clearSuggestedBeatmapEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_clearSuggestedBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::add_clearSuggestedBeatmapEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_clearSuggestedBeatmapEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::remove_clearSuggestedBeatmapEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_clearSuggestedBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::remove_clearSuggestedBeatmapEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_clearSuggestedBeatmapEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::add_clearSuggestedModifiersEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "add_clearSuggestedModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::add_clearSuggestedModifiersEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "add_clearSuggestedModifiersEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::remove_clearSuggestedModifiersEvent(::System::Action*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "remove_clearSuggestedModifiersEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::LobbySetupViewController::remove_clearSuggestedModifiersEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "remove_clearSuggestedModifiersEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LobbySetupViewController::Setup(::GlobalNamespace::BeatmapLevelSelectionMask  selectionMask, bool  isPartyOwner, bool  allowSongSelection, bool  allowModifierSelection, bool  isManaged, bool  isQuickStart)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "Setup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, selectionMask, isPartyOwner, allowSongSelection, allowModifierSelection, isManaged, isQuickStart);
+inline void GlobalNamespace::LobbySetupViewController::Setup(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, bool isPartyOwner, bool allowSongSelection, bool allowModifierSelection,
+                                                             bool isManaged, bool isQuickStart) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "Setup", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, selectionMask, isPartyOwner, allowSongSelection, allowModifierSelection, isManaged, isQuickStart);
 }
-inline void GlobalNamespace::LobbySetupViewController::SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData*  lobbyPlayerData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetLobbyPlayerData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lobbyPlayerData);
+inline void GlobalNamespace::LobbySetupViewController::SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetLobbyPlayerData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lobbyPlayerData);
 }
-inline void GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText(::StringW  playersMissingLevelText)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetPlayersMissingLevelText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playersMissingLevelText);
+inline void GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText(::StringW playersMissingLevelText) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetPlayersMissingLevelText",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playersMissingLevelText);
 }
-inline void GlobalNamespace::LobbySetupViewController::SetPlayerActiveState(bool  isActive)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetPlayerActiveState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isActive);
+inline void GlobalNamespace::LobbySetupViewController::SetPlayerActiveState(bool isActive) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetPlayerActiveState",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isActive);
 }
-inline void GlobalNamespace::LobbySetupViewController::SetStartGameEnabled(::GlobalNamespace::CannotStartGameReason  cannotStartGameReason)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetStartGameEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CannotStartGameReason>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cannotStartGameReason);
+inline void GlobalNamespace::LobbySetupViewController::SetStartGameEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetStartGameEnabled", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CannotStartGameReason>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cannotStartGameReason);
 }
-inline void GlobalNamespace::LobbySetupViewController::SetLobbyState(::GlobalNamespace::MultiplayerLobbyState  lobbyState)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetLobbyState",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLobbyState>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lobbyState);
+inline void GlobalNamespace::LobbySetupViewController::SetLobbyState(::GlobalNamespace::MultiplayerLobbyState lobbyState) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetLobbyState", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLobbyState>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lobbyState);
 }
-inline void GlobalNamespace::LobbySetupViewController::DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
+inline void GlobalNamespace::LobbySetupViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void GlobalNamespace::LobbySetupViewController::OnDestroy()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::OnDestroy() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbySetupViewController::SetReadyButtonActive(bool  active)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "SetReadyButtonActive",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, active);
+inline void GlobalNamespace::LobbySetupViewController::SetReadyButtonActive(bool active) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), "SetReadyButtonActive",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, active);
 }
-inline void GlobalNamespace::LobbySetupViewController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                             "<DidActivate>b__44_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                             "<DidActivate>b__44_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_2() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                             "<DidActivate>b__44_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_3() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                             "<DidActivate>b__44_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_4()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_4() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                             "<DidActivate>b__44_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_5()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
-                        "<DidActivate>b__44_5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_5() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbySetupViewController*>::get(),
+                                                                             "<DidActivate>b__44_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LobbySetupViewController* GlobalNamespace::LobbySetupViewController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LobbySetupViewController*>());
+inline ::GlobalNamespace::LobbySetupViewController* GlobalNamespace::LobbySetupViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LobbySetupViewController*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LobbySetupViewController::LobbySetupViewController()   {
-}
+constexpr ::GlobalNamespace::LobbySetupViewController::LobbySetupViewController() {}

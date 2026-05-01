@@ -27,65 +27,65 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.MixedNafR2LMultiplier
 class CORDL_TYPE MixedNafR2LMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
-// Declarations
-/// @brief Field additionCoord, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_additionCoord, put=__cordl_internal_set_additionCoord)) int32_t  additionCoord;
+  // Declarations
+  /// @brief Field additionCoord, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_additionCoord, put = __cordl_internal_set_additionCoord)) int32_t additionCoord;
 
-/// @brief Field doublingCoord, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_doublingCoord, put=__cordl_internal_set_doublingCoord)) int32_t  doublingCoord;
+  /// @brief Field doublingCoord, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_doublingCoord, put = __cordl_internal_set_doublingCoord)) int32_t doublingCoord;
 
-/// @brief Method ConfigureCurve, addr 0x3412b38, size 0x120, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve*  c, int32_t  coord) ;
+  /// @brief Method ConfigureCurve, addr 0x344f17c, size 0x120, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* c, int32_t coord);
 
-/// @brief Method MultiplyPositive, addr 0x34126d4, size 0x1ec, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint*  p, ::Org::BouncyCastle::Math::BigInteger*  k) ;
+  /// @brief Method MultiplyPositive, addr 0x344ed18, size 0x1ec, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor() ;
+  static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor();
 
-static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor(int32_t  additionCoord, int32_t  doublingCoord) ;
+  static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor(int32_t additionCoord, int32_t doublingCoord);
 
-constexpr int32_t const& __cordl_internal_get_additionCoord() const;
+  constexpr int32_t const& __cordl_internal_get_additionCoord() const;
 
-constexpr int32_t& __cordl_internal_get_additionCoord() ;
+  constexpr int32_t& __cordl_internal_get_additionCoord();
 
-constexpr int32_t const& __cordl_internal_get_doublingCoord() const;
+  constexpr int32_t const& __cordl_internal_get_doublingCoord() const;
 
-constexpr int32_t& __cordl_internal_get_doublingCoord() ;
+  constexpr int32_t& __cordl_internal_get_doublingCoord();
 
-constexpr void __cordl_internal_set_additionCoord(int32_t  value) ;
+  constexpr void __cordl_internal_set_additionCoord(int32_t value);
 
-constexpr void __cordl_internal_set_doublingCoord(int32_t  value) ;
+  constexpr void __cordl_internal_set_doublingCoord(int32_t value);
 
-/// @brief Method .ctor, addr 0x34126bc, size 0x10, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x344ed00, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x34126cc, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  additionCoord, int32_t  doublingCoord) ;
+  /// @brief Method .ctor, addr 0x344ed10, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t additionCoord, int32_t doublingCoord);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MixedNafR2LMultiplier() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MixedNafR2LMultiplier();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MixedNafR2LMultiplier(MixedNafR2LMultiplier&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MixedNafR2LMultiplier(MixedNafR2LMultiplier && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MixedNafR2LMultiplier(MixedNafR2LMultiplier const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MixedNafR2LMultiplier(MixedNafR2LMultiplier const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1534 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1534};
+  /// @brief Field additionCoord, offset: 0x10, size: 0x4, def value: None
+  int32_t ___additionCoord;
 
-/// @brief Field additionCoord, offset: 0x10, size: 0x4, def value: None
- int32_t  ___additionCoord;
+  /// @brief Field doublingCoord, offset: 0x14, size: 0x4, def value: None
+  int32_t ___doublingCoord;
 
-/// @brief Field doublingCoord, offset: 0x14, size: 0x4, def value: None
- int32_t  ___doublingCoord;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier, ___additionCoord) == 0x10, "Offset mismatch!");
@@ -94,6 +94,6 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMul
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Math::EC::Multiplier
+} // namespace Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "MixedNafR2LMultiplier");

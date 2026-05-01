@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Net/Http/Headers/AuthenticationHeaderValue.hpp"
 #include "System/Net/Http/Headers/CacheControlHeaderValue.hpp"
@@ -42,6 +42,5 @@
 #include "System/Net/Http/Headers/ViaHeaderValue.hpp"
 #include "System/Net/Http/Headers/WarningHeaderValue.hpp"
 #ifdef __cpp_modules
-                    export module Headers;
-                    #endif
-                
+export module Headers;
+#endif

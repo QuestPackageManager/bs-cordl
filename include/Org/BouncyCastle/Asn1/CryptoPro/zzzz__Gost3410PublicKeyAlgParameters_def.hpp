@@ -32,100 +32,104 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
 // CS Name: Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters
 class CORDL_TYPE Gost3410PublicKeyAlgParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
- __declspec(property(get=get_DigestParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  DigestParamSet;
+  // Declarations
+  __declspec(property(get = get_DigestParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DigestParamSet;
 
- __declspec(property(get=get_EncryptionParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  EncryptionParamSet;
+  __declspec(property(get = get_EncryptionParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EncryptionParamSet;
 
- __declspec(property(get=get_PublicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  PublicKeyParamSet;
+  __declspec(property(get = get_PublicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PublicKeyParamSet;
 
-/// @brief Field digestParamSet, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_digestParamSet, put=__cordl_internal_set_digestParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  digestParamSet;
+  /// @brief Field digestParamSet, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_digestParamSet, put = __cordl_internal_set_digestParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet;
 
-/// @brief Field encryptionParamSet, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_encryptionParamSet, put=__cordl_internal_set_encryptionParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  encryptionParamSet;
+  /// @brief Field encryptionParamSet, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_encryptionParamSet, put = __cordl_internal_set_encryptionParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet;
 
-/// @brief Field publicKeyParamSet, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_publicKeyParamSet, put=__cordl_internal_set_publicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet;
+  /// @brief Field publicKeyParamSet, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
 
-/// @brief Method GetInstance, addr 0x327301c, size 0x14, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
+  /// @brief Method GetInstance, addr 0x32af660, size 0x14, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-/// @brief Method GetInstance, addr 0x3273030, size 0xa0, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x32af674, size 0xa0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  digestParamSet) ;
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
+                                                                                               ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet);
 
-static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  encryptionParamSet) ;
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
+                                                                                               ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
+                                                                                               ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method ToAsn1Object, addr 0x3273344, size 0x180, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x32af988, size 0x180, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_digestParamSet() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_digestParamSet() const;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_digestParamSet() ;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_digestParamSet();
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_encryptionParamSet() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_encryptionParamSet() const;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_encryptionParamSet() ;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_encryptionParamSet();
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_publicKeyParamSet() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_publicKeyParamSet() const;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_publicKeyParamSet() ;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_publicKeyParamSet();
 
-constexpr void __cordl_internal_set_digestParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+  constexpr void __cordl_internal_set_digestParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-constexpr void __cordl_internal_set_encryptionParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+  constexpr void __cordl_internal_set_encryptionParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+  constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-/// @brief Method .ctor, addr 0x32732a0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  digestParamSet) ;
+  /// @brief Method .ctor, addr 0x32af8e4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet);
 
-/// @brief Method .ctor, addr 0x32732a8, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  encryptionParamSet) ;
+  /// @brief Method .ctor, addr 0x32af8ec, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
+                    ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-/// @brief Method .ctor, addr 0x32730d0, size 0x1d0, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  /// @brief Method .ctor, addr 0x32af714, size 0x1d0, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method get_DigestParamSet, addr 0x3273334, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet() ;
+  /// @brief Method get_DigestParamSet, addr 0x32af978, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
 
-/// @brief Method get_EncryptionParamSet, addr 0x327333c, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet() ;
+  /// @brief Method get_EncryptionParamSet, addr 0x32af980, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
 
-/// @brief Method get_PublicKeyParamSet, addr 0x327332c, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet() ;
+  /// @brief Method get_PublicKeyParamSet, addr 0x32af970, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Gost3410PublicKeyAlgParameters() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Gost3410PublicKeyAlgParameters();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Gost3410PublicKeyAlgParameters(Gost3410PublicKeyAlgParameters&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Gost3410PublicKeyAlgParameters(Gost3410PublicKeyAlgParameters && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Gost3410PublicKeyAlgParameters(Gost3410PublicKeyAlgParameters const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Gost3410PublicKeyAlgParameters(Gost3410PublicKeyAlgParameters const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 131 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{131};
+  /// @brief Field publicKeyParamSet, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___publicKeyParamSet;
 
-/// @brief Field publicKeyParamSet, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___publicKeyParamSet;
+  /// @brief Field digestParamSet, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___digestParamSet;
 
-/// @brief Field digestParamSet, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___digestParamSet;
+  /// @brief Field encryptionParamSet, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___encryptionParamSet;
 
-/// @brief Field encryptionParamSet, offset: 0x20, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___encryptionParamSet;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters, ___publicKeyParamSet) == 0x10, "Offset mismatch!");
@@ -136,6 +140,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAl
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters, 0x28>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::CryptoPro
+} // namespace Org::BouncyCastle::Asn1::CryptoPro
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410PublicKeyAlgParameters");

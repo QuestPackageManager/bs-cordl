@@ -7,371 +7,297 @@
 #include "System/Data/zzzz__DataColumn_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Data::Common::SByteStorage._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::SByteStorage::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(::System::Data::DataColumn*)>(
+    &::System::Data::Common::SByteStorage::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5ef1e2c;
+  constexpr static std::size_t addrs = 0x5f63e38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.Aggregate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(::ArrayW<int32_t,::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::SByteStorage::Aggregate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::SByteStorage::Aggregate)> {
   constexpr static std::size_t size = 0x7d8;
-  constexpr static std::size_t addrs = 0x5efbecc;
+  constexpr static std::size_t addrs = 0x5f6ded8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.Compare
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SByteStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SByteStorage::Compare)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SByteStorage::*)(int32_t, int32_t)>(
+    &::System::Data::Common::SByteStorage::Compare)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5efc6a4;
+  constexpr static std::size_t addrs = 0x5f6e6b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.CompareValueTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SByteStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SByteStorage::CompareValueTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SByteStorage::*)(int32_t, ::System::Object*)>(
+    &::System::Data::Common::SByteStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5efc704;
+  constexpr static std::size_t addrs = 0x5f6e710;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.ConvertValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(::System::Object*)>(&::System::Data::Common::SByteStorage::ConvertValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(::System::Object*)>(
+    &::System::Data::Common::SByteStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5efc7b0;
+  constexpr static std::size_t addrs = 0x5f6e7bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 7));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.Copy
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SByteStorage::Copy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5efc8f4;
+  constexpr static std::size_t addrs = 0x5f6e900;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 8));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.Get
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(int32_t)>(&::System::Data::Common::SByteStorage::Get)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5efc948;
+  constexpr static std::size_t addrs = 0x5f6e954;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 9));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.Set
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SByteStorage::Set)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(int32_t, ::System::Object*)>(
+    &::System::Data::Common::SByteStorage::Set)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5efc998;
+  constexpr static std::size_t addrs = 0x5f6e9a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.SetCapacity
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(int32_t)>(&::System::Data::Common::SByteStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5efcb20;
+  constexpr static std::size_t addrs = 0x5f6eb2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.ConvertXmlToObject
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(::StringW)>(&::System::Data::Common::SByteStorage::ConvertXmlToObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(::StringW)>(
+    &::System::Data::Common::SByteStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5efcbe0;
+  constexpr static std::size_t addrs = 0x5f6ebec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.ConvertObjectToXml
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::SByteStorage::*)(::System::Object*)>(&::System::Data::Common::SByteStorage::ConvertObjectToXml)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::SByteStorage::*)(::System::Object*)>(
+    &::System::Data::Common::SByteStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5efcc70;
+  constexpr static std::size_t addrs = 0x5f6ec7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.GetEmptyStorage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(int32_t)>(&::System::Data::Common::SByteStorage::GetEmptyStorage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SByteStorage::*)(int32_t)>(
+    &::System::Data::Common::SByteStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5efcd1c;
+  constexpr static std::size_t addrs = 0x5f6ed28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 18));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.CopyValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::SByteStorage::CopyValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::System::Data::Common::SByteStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::SByteStorage::CopyValue)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5efcd68;
+  constexpr static std::size_t addrs = 0x5f6ed74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 19));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::SByteStorage.SetStorage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(&::System::Data::Common::SByteStorage::SetStorage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SByteStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
+    &::System::Data::Common::SByteStorage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5efce6c;
+  constexpr static std::size_t addrs = 0x5f6ee78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                                  20
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 20));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<int8_t,::Array<int8_t>*>& System::Data::Common::SByteStorage::__cordl_internal_get__values()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____values;
+constexpr ::ArrayW<int8_t, ::Array<int8_t>*>& System::Data::Common::SByteStorage::__cordl_internal_get__values() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____values;
 }
-constexpr ::ArrayW<int8_t,::Array<int8_t>*> const& System::Data::Common::SByteStorage::__cordl_internal_get__values() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____values;
+constexpr ::ArrayW<int8_t, ::Array<int8_t>*> const& System::Data::Common::SByteStorage::__cordl_internal_get__values() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____values;
 }
-constexpr void System::Data::Common::SByteStorage::__cordl_internal_set__values(::ArrayW<int8_t,::Array<int8_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Data::Common::SByteStorage::__cordl_internal_set__values(::ArrayW<int8_t, ::Array<int8_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Data::Common::SByteStorage::_ctor(::System::Data::DataColumn*  column)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
+inline void System::Data::Common::SByteStorage::_ctor(::System::Data::DataColumn* column) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
 }
-inline ::System::Object* System::Data::Common::SByteStorage::Aggregate(::ArrayW<int32_t,::Array<int32_t>*>  records, ::System::Data::AggregateType  kind)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, records, kind);
+inline ::System::Object* System::Data::Common::SByteStorage::Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, records, kind);
 }
-inline int32_t System::Data::Common::SByteStorage::Compare(int32_t  recordNo1, int32_t  recordNo2)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo1, recordNo2);
+inline int32_t System::Data::Common::SByteStorage::Compare(int32_t recordNo1, int32_t recordNo2) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo1, recordNo2);
 }
-inline int32_t System::Data::Common::SByteStorage::CompareValueTo(int32_t  recordNo, ::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo, value);
+inline int32_t System::Data::Common::SByteStorage::CompareValueTo(int32_t recordNo, ::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, recordNo, value);
 }
-inline ::System::Object* System::Data::Common::SByteStorage::ConvertValue(::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, value);
+inline ::System::Object* System::Data::Common::SByteStorage::ConvertValue(::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, value);
 }
-inline void System::Data::Common::SByteStorage::Copy(int32_t  recordNo1, int32_t  recordNo2)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, recordNo1, recordNo2);
+inline void System::Data::Common::SByteStorage::Copy(int32_t recordNo1, int32_t recordNo2) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, recordNo1, recordNo2);
 }
-inline ::System::Object* System::Data::Common::SByteStorage::Get(int32_t  record)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, record);
+inline ::System::Object* System::Data::Common::SByteStorage::Get(int32_t record) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, record);
 }
-inline void System::Data::Common::SByteStorage::Set(int32_t  record, ::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, value);
+inline void System::Data::Common::SByteStorage::Set(int32_t record, ::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, value);
 }
-inline void System::Data::Common::SByteStorage::SetCapacity(int32_t  capacity)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
+inline void System::Data::Common::SByteStorage::SetCapacity(int32_t capacity) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
 }
-inline ::System::Object* System::Data::Common::SByteStorage::ConvertXmlToObject(::StringW  s)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, s);
+inline ::System::Object* System::Data::Common::SByteStorage::ConvertXmlToObject(::StringW s) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, s);
 }
-inline ::StringW System::Data::Common::SByteStorage::ConvertObjectToXml(::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
+inline ::StringW System::Data::Common::SByteStorage::ConvertObjectToXml(::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
-inline ::System::Object* System::Data::Common::SByteStorage::GetEmptyStorage(int32_t  recordCount)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, recordCount);
+inline ::System::Object* System::Data::Common::SByteStorage::GetEmptyStorage(int32_t recordCount) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 18)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, recordCount);
 }
-inline void System::Data::Common::SByteStorage::CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, store, nullbits, storeIndex);
+inline void System::Data::Common::SByteStorage::CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 19)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record, store, nullbits, storeIndex);
 }
-inline void System::Data::Common::SByteStorage::SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(),
-                            20
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, store, nullbits);
+inline void System::Data::Common::SByteStorage::SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::SByteStorage*>::get(), 20)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, store, nullbits);
 }
-inline ::System::Data::Common::SByteStorage* System::Data::Common::SByteStorage::New_ctor(::System::Data::DataColumn*  column)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::SByteStorage*>(column));
+inline ::System::Data::Common::SByteStorage* System::Data::Common::SByteStorage::New_ctor(::System::Data::DataColumn* column) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::SByteStorage*>(column));
 }
 // Ctor Parameters []
-constexpr ::System::Data::Common::SByteStorage::SByteStorage()   {
-}
+constexpr ::System::Data::Common::SByteStorage::SByteStorage() {}

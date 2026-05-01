@@ -17,546 +17,513 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::OVRGLTFAnimatinonNode_ThumbstickDirection(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::OVRGLTFAnimatinonNode_ThumbstickDirection(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::OVRGLTFAnimatinonNode_ThumbstickDirection()   {
-}
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::None{static_cast<int32_t>(0x0)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::North{static_cast<int32_t>(0x1)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::NorthEast{static_cast<int32_t>(0x2)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::East{static_cast<int32_t>(0x3)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::SouthEast{static_cast<int32_t>(0x4)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::South{static_cast<int32_t>(0x5)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::SouthWest{static_cast<int32_t>(0x6)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::West{static_cast<int32_t>(0x7)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection  GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::NorthWest{static_cast<int32_t>(0x8)};
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::OVRGLTFAnimatinonNode_ThumbstickDirection() {}
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::North{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::NorthEast{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::East{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::SouthEast{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::South{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::SouthWest{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::West{ static_cast<int32_t>(0x7) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::NorthWest{ static_cast<int32_t>(0x8) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::OVRGLTFAnimatinonNode_OVRGLTFTransformType(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::OVRGLTFAnimatinonNode_OVRGLTFTransformType(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::OVRGLTFAnimatinonNode_OVRGLTFTransformType()   {
-}
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::None{static_cast<int32_t>(0x0)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Translation{static_cast<int32_t>(0x1)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Rotation{static_cast<int32_t>(0x2)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Scale{static_cast<int32_t>(0x3)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Weights{static_cast<int32_t>(0x4)};
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::OVRGLTFAnimatinonNode_OVRGLTFTransformType() {}
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Translation{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Rotation{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Scale{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Weights{ static_cast<int32_t>(0x4) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::OVRGLTFAnimatinonNode_OVRInterpolationType(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::OVRGLTFAnimatinonNode_OVRInterpolationType(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::OVRGLTFAnimatinonNode_OVRInterpolationType()   {
-}
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::None{static_cast<int32_t>(0x0)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::LINEAR{static_cast<int32_t>(0x1)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::STEP{static_cast<int32_t>(0x2)};
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType  GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::CUBICSPLINE{static_cast<int32_t>(0x3)};
-// Ctor Parameters [CppParam { name: "down", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "t", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vecT", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState::OVRGLTFAnimatinonNode_InputNodeState(bool  down, float_t  t, ::UnityEngine::Vector2  vecT) noexcept  {
-this->down = down;
-this->t = t;
-this->vecT = vecT;
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::OVRGLTFAnimatinonNode_OVRInterpolationType() {}
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::LINEAR{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::STEP{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::CUBICSPLINE{ static_cast<int32_t>(0x3) };
+// Ctor Parameters [CppParam { name: "down", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "t", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vecT",
+// ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState::OVRGLTFAnimatinonNode_InputNodeState(bool down, float_t t, ::UnityEngine::Vector2 vecT) noexcept {
+  this->down = down;
+  this->t = t;
+  this->vecT = vecT;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState::OVRGLTFAnimatinonNode_InputNodeState()   {
-}
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState::OVRGLTFAnimatinonNode_InputNodeState() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::GlobalNamespace::OVRGLTFInputNode, ::UnityEngine::GameObject*, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(
+    ::GlobalNamespace::OVRGLTFInputNode, ::UnityEngine::GameObject*, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::_ctor)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x5c76564;
+  constexpr static std::size_t addrs = 0x5ce854c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFInputNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFInputNode>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.AddChannel
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*, ::GlobalNamespace::OVRGLTFAccessor*)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::AddChannel)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(
+    ::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*, ::GlobalNamespace::OVRGLTFAccessor*)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::AddChannel)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5c7686c;
+  constexpr static std::size_t addrs = 0x5ce8854;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "AddChannel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "AddChannel", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.UpdatePose
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(bool)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5c77114;
+  constexpr static std::size_t addrs = 0x5ce90fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "UpdatePose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "UpdatePose",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.UpdatePose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(float_t, bool)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(float_t, bool)>(
+    &::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x5c773b4;
+  constexpr static std::size_t addrs = 0x5ce939c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "UpdatePose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "UpdatePose", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.UpdatePose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector2)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector2)>(
+    &::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x5c77800;
+  constexpr static std::size_t addrs = 0x5ce97e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "UpdatePose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "UpdatePose", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.GetCardinalThumbsticks
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection,::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>* (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector2)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalThumbsticks)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>* (
+        ::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector2)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalThumbsticks)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5c77b98;
+  constexpr static std::size_t addrs = 0x5ce9b80;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "GetCardinalThumbsticks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "GetCardinalThumbsticks", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.GetCardinalWeights
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector2, ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection,::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalWeights)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(
+    ::UnityEngine::Vector2, ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*)>(
+    &::GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalWeights)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5c77d38;
+  constexpr static std::size_t addrs = 0x5ce9d20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "GetCardinalWeights",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection,::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "GetCardinalWeights", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.ProcessAnimationSampler
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::OVRSimpleJSON::JSONNode*, int32_t, ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType, ::OVRSimpleJSON::JSONNode*, ::GlobalNamespace::OVRGLTFAccessor*)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::ProcessAnimationSampler)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(
+    ::OVRSimpleJSON::JSONNode*, int32_t, ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType, ::OVRSimpleJSON::JSONNode*, ::GlobalNamespace::OVRGLTFAccessor*)>(
+    &::GlobalNamespace::OVRGLTFAnimatinonNode::ProcessAnimationSampler)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x5c76b94;
+  constexpr static std::size_t addrs = 0x5ce8b7c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "ProcessAnimationSampler",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "ProcessAnimationSampler", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.GetTransformType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::StringW)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::GetTransformType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::StringW)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::GetTransformType)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5c76a18;
+  constexpr static std::size_t addrs = 0x5ce8a00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "GetTransformType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "GetTransformType",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.ToOVRInterpolationType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::StringW)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::ToOVRInterpolationType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(
+    ::StringW)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::ToOVRInterpolationType)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5c77ea0;
+  constexpr static std::size_t addrs = 0x5ce9e88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "ToOVRInterpolationType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "ToOVRInterpolationType",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.CloneVector3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::CloneVector3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector3)>(
+    &::GlobalNamespace::OVRGLTFAnimatinonNode::CloneVector3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c76864;
+  constexpr static std::size_t addrs = 0x5ce884c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "CloneVector3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "CloneVector3", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.CloneQuaternion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Quaternion)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::CloneQuaternion)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Quaternion)>(
+    &::GlobalNamespace::OVRGLTFAnimatinonNode::CloneQuaternion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c76868;
+  constexpr static std::size_t addrs = 0x5ce8850;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "CloneQuaternion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "CloneQuaternion", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAnimatinonNode.SetScale
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::SetScale)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector3)>(
+    &::GlobalNamespace::OVRGLTFAnimatinonNode::SetScale)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5c772b4;
+  constexpr static std::size_t addrs = 0x5ce929c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "SetScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "SetScale", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::OVRGLTFInputNode& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_intputNodeType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_intputNodeType;
+constexpr ::GlobalNamespace::OVRGLTFInputNode& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_intputNodeType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_intputNodeType;
 }
 constexpr ::GlobalNamespace::OVRGLTFInputNode const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_intputNodeType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_intputNodeType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_intputNodeType;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_intputNodeType(::GlobalNamespace::OVRGLTFInputNode  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_intputNodeType = value;
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_intputNodeType(::GlobalNamespace::OVRGLTFInputNode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_intputNodeType = value;
 }
-constexpr ::OVRSimpleJSON::JSONNode*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_jsonData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_jsonData;
+constexpr ::OVRSimpleJSON::JSONNode*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_jsonData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_jsonData;
 }
 constexpr ::OVRSimpleJSON::JSONNode* const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_jsonData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_jsonData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_jsonData;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_jsonData(::OVRSimpleJSON::JSONNode*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_jsonData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_jsonData(::OVRSimpleJSON::JSONNode* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_jsonData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_gameObj()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_gameObj;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_gameObj() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_gameObj;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_gameObj() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_gameObj;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_gameObj;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_gameObj(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_gameObj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_gameObj(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_gameObj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_inputNodeState()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_inputNodeState;
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_inputNodeState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_inputNodeState;
 }
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_inputNodeState() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_inputNodeState;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_inputNodeState;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_inputNodeState(::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_inputNodeState = value;
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_inputNodeState(::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_inputNodeState = value;
 }
-constexpr ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_morphTargetHandler()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_morphTargetHandler;
+constexpr ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_morphTargetHandler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_morphTargetHandler;
 }
 constexpr ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_morphTargetHandler() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_morphTargetHandler;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_morphTargetHandler;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_morphTargetHandler(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_morphTargetHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_morphTargetHandler(::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_morphTargetHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_translations()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_translations;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_translations() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_translations;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_translations() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_translations;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_translations;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_translations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_translations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_translations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_translations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_rotations()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_rotations;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_rotations() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_rotations;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_rotations() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_rotations;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_rotations;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_rotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_rotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_scales()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_scales;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_scales() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_scales;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_scales() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_scales;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_scales;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_scales)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_scales)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_weights()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_weights;
+constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_weights() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_weights;
 }
 constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_weights() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_weights;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_weights;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_weights(::System::Collections::Generic::List_1<float_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_weights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_weights(::System::Collections::Generic::List_1<float_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_weights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_additiveWeightIndex()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_additiveWeightIndex;
+constexpr int32_t& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_additiveWeightIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_additiveWeightIndex;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_get_m_additiveWeightIndex() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_additiveWeightIndex;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_additiveWeightIndex;
 }
-constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_additiveWeightIndex(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_additiveWeightIndex = value;
+constexpr void GlobalNamespace::OVRGLTFAnimatinonNode::__cordl_internal_set_m_additiveWeightIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_additiveWeightIndex = value;
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::setStaticF_InputNodeKeyFrames(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,int32_t>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,int32_t>*, "InputNodeKeyFrames", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,int32_t>*>(value));
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::setStaticF_InputNodeKeyFrames(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, int32_t>*, "InputNodeKeyFrames",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, int32_t>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,int32_t>* GlobalNamespace::OVRGLTFAnimatinonNode::getStaticF_InputNodeKeyFrames()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,int32_t>*, "InputNodeKeyFrames", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, int32_t>* GlobalNamespace::OVRGLTFAnimatinonNode::getStaticF_InputNodeKeyFrames() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, int32_t>*, "InputNodeKeyFrames",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>();
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::setStaticF_ThumbStickKeyFrames(::System::Collections::Generic::List_1<int32_t>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<int32_t>*, "ThumbStickKeyFrames", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>(std::forward<::System::Collections::Generic::List_1<int32_t>*>(value));
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::setStaticF_ThumbStickKeyFrames(::System::Collections::Generic::List_1<int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<int32_t>*, "ThumbStickKeyFrames",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>(
+      std::forward<::System::Collections::Generic::List_1<int32_t>*>(value));
 }
-inline ::System::Collections::Generic::List_1<int32_t>* GlobalNamespace::OVRGLTFAnimatinonNode::getStaticF_ThumbStickKeyFrames()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<int32_t>*, "ThumbStickKeyFrames", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>();
+inline ::System::Collections::Generic::List_1<int32_t>* GlobalNamespace::OVRGLTFAnimatinonNode::getStaticF_ThumbStickKeyFrames() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<int32_t>*, "ThumbStickKeyFrames",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>();
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::setStaticF_CardDirections(::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>, "CardDirections", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>(std::forward<::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>>(value));
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::setStaticF_CardDirections(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>, "CardDirections",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>(
+      std::forward<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>(value));
 }
-inline ::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*> GlobalNamespace::OVRGLTFAnimatinonNode::getStaticF_CardDirections()  {
-return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>, "CardDirections", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>();
+inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GlobalNamespace::OVRGLTFAnimatinonNode::getStaticF_CardDirections() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>, "CardDirections",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get>();
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::_ctor(::GlobalNamespace::OVRGLTFInputNode  inputNodeType, ::UnityEngine::GameObject*  gameObj, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*  morphTargetHandler)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFInputNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inputNodeType, gameObj, morphTargetHandler);
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::_ctor(::GlobalNamespace::OVRGLTFInputNode inputNodeType, ::UnityEngine::GameObject* gameObj,
+                                                          ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* morphTargetHandler) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFInputNode>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inputNodeType, gameObj, morphTargetHandler);
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::AddChannel(::OVRSimpleJSON::JSONNode*  channel, ::OVRSimpleJSON::JSONNode*  samplers, ::GlobalNamespace::OVRGLTFAccessor*  dataAccessor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "AddChannel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, channel, samplers, dataAccessor);
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::AddChannel(::OVRSimpleJSON::JSONNode* channel, ::OVRSimpleJSON::JSONNode* samplers, ::GlobalNamespace::OVRGLTFAccessor* dataAccessor) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "AddChannel", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, channel, samplers, dataAccessor);
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose(bool  down)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "UpdatePose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, down);
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose(bool down) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "UpdatePose",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, down);
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose(float_t  t, bool  applyDeadZone)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "UpdatePose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, applyDeadZone);
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose(float_t t, bool applyDeadZone) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "UpdatePose", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, applyDeadZone);
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose(::UnityEngine::Vector2  joystick)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "UpdatePose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, joystick);
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose(::UnityEngine::Vector2 joystick) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "UpdatePose", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, joystick);
 }
-inline ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection,::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>* GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalThumbsticks(::UnityEngine::Vector2  joystick)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "GetCardinalThumbsticks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection,::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*, false>(this, ___internal_method, joystick);
+inline ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*
+GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalThumbsticks(::UnityEngine::Vector2 joystick) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "GetCardinalThumbsticks", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*, false>(
+      this, ___internal_method, joystick);
 }
-inline ::UnityEngine::Vector2 GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalWeights(::UnityEngine::Vector2  joystick, ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection,::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*  cardinals)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "GetCardinalWeights",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection,::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, joystick, cardinals);
+inline ::UnityEngine::Vector2 GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalWeights(
+    ::UnityEngine::Vector2 joystick, ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>* cardinals) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "GetCardinalWeights", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, joystick, cardinals);
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::ProcessAnimationSampler(::OVRSimpleJSON::JSONNode*  samplerNode, int32_t  nodeId, ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType  transformType, ::OVRSimpleJSON::JSONNode*  extras, ::GlobalNamespace::OVRGLTFAccessor*  _dataAccessor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "ProcessAnimationSampler",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, samplerNode, nodeId, transformType, extras, _dataAccessor);
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::ProcessAnimationSampler(::OVRSimpleJSON::JSONNode* samplerNode, int32_t nodeId,
+                                                                            ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType transformType, ::OVRSimpleJSON::JSONNode* extras,
+                                                                            ::GlobalNamespace::OVRGLTFAccessor* _dataAccessor) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "ProcessAnimationSampler", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVRSimpleJSON::JSONNode*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRGLTFAccessor*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, samplerNode, nodeId, transformType, extras, _dataAccessor);
 }
-inline ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode::GetTransformType(::StringW  transform)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "GetTransformType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType, false>(this, ___internal_method, transform);
+inline ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode::GetTransformType(::StringW transform) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "GetTransformType",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType, false>(this, ___internal_method, transform);
 }
-inline ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode::ToOVRInterpolationType(::StringW  interpolationType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "ToOVRInterpolationType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType, false>(this, ___internal_method, interpolationType);
+inline ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode::ToOVRInterpolationType(::StringW interpolationType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "ToOVRInterpolationType",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType, false>(this, ___internal_method, interpolationType);
 }
-template<typename T>
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::CopyData(::ByRef<::System::Collections::Generic::List_1<T>*>  dest, ::ArrayW<T,::Array<T>*>  src)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                    "CopyData",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T,::Array<T>*>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dest, src);
+template <typename T> inline void GlobalNamespace::OVRGLTFAnimatinonNode::CopyData(::ByRef<::System::Collections::Generic::List_1<T>*> dest, ::ArrayW<T, ::Array<T>*> src) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "CopyData",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<T>*>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dest, src);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::OVRGLTFAnimatinonNode::CloneVector3(::UnityEngine::Vector3  v)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "CloneVector3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, v);
+inline ::UnityEngine::Vector3 GlobalNamespace::OVRGLTFAnimatinonNode::CloneVector3(::UnityEngine::Vector3 v) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "CloneVector3", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, v);
 }
-inline ::UnityEngine::Quaternion GlobalNamespace::OVRGLTFAnimatinonNode::CloneQuaternion(::UnityEngine::Quaternion  q)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "CloneQuaternion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion, false>(this, ___internal_method, q);
+inline ::UnityEngine::Quaternion GlobalNamespace::OVRGLTFAnimatinonNode::CloneQuaternion(::UnityEngine::Quaternion q) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "CloneQuaternion", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion, false>(this, ___internal_method, q);
 }
-inline void GlobalNamespace::OVRGLTFAnimatinonNode::SetScale(::UnityEngine::Vector3  scale)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(),
-                        "SetScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scale);
+inline void GlobalNamespace::OVRGLTFAnimatinonNode::SetScale(::UnityEngine::Vector3 scale) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimatinonNode*>::get(), "SetScale", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scale);
 }
-inline ::GlobalNamespace::OVRGLTFAnimatinonNode* GlobalNamespace::OVRGLTFAnimatinonNode::New_ctor(::GlobalNamespace::OVRGLTFInputNode  inputNodeType, ::UnityEngine::GameObject*  gameObj, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*  morphTargetHandler)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRGLTFAnimatinonNode*>(inputNodeType, gameObj, morphTargetHandler));
+inline ::GlobalNamespace::OVRGLTFAnimatinonNode* GlobalNamespace::OVRGLTFAnimatinonNode::New_ctor(::GlobalNamespace::OVRGLTFInputNode inputNodeType, ::UnityEngine::GameObject* gameObj,
+                                                                                                  ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* morphTargetHandler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRGLTFAnimatinonNode*>(inputNodeType, gameObj, morphTargetHandler));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode::OVRGLTFAnimatinonNode()   {
-}
+constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode::OVRGLTFAnimatinonNode() {}

@@ -21,40 +21,40 @@ namespace GlobalNamespace {
 // CS Name: DepthTextureController
 class CORDL_TYPE DepthTextureController : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Method Init, addr 0x576d9fc, size 0xd0, virtual false, abstract: false, final false
-inline void Init(::GlobalNamespace::SettingsManager*  settingsManager) ;
+  // Declarations
+  /// @brief Method Init, addr 0x57ddaa8, size 0xd0, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::SettingsManager* settingsManager);
 
-static inline ::GlobalNamespace::DepthTextureController* New_ctor() ;
+  static inline ::GlobalNamespace::DepthTextureController* New_ctor();
 
-/// @brief Method .ctor, addr 0x576dacc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57ddb78, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DepthTextureController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DepthTextureController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DepthTextureController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DepthTextureController(DepthTextureController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DepthTextureController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DepthTextureController(DepthTextureController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DepthTextureController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DepthTextureController(DepthTextureController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DepthTextureController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DepthTextureController(DepthTextureController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6753 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6744};
+  /// @brief Field kDepthTextureEnabledKeyword offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDepthTextureEnabledKeyword{ u"DEPTH_TEXTURE_ENABLED" };
 
-/// @brief Field kDepthTextureEnabledKeyword offset 0xffffffff size 0x8
-static constexpr ::ConstString  kDepthTextureEnabledKeyword{u"DEPTH_TEXTURE_ENABLED"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DepthTextureController, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DepthTextureController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DepthTextureController*, "", "DepthTextureController");

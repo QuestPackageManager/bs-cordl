@@ -21,73 +21,73 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ProbeVolumeGlobalSettings
 class CORDL_TYPE ProbeVolumeGlobalSettings : public ::System::Object {
 public:
-// Declarations
-/// @brief Field m_ProbeVolumeDisableStreamingAssets, offset 0x14, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_ProbeVolumeDisableStreamingAssets, put=__cordl_internal_set_m_ProbeVolumeDisableStreamingAssets)) bool  m_ProbeVolumeDisableStreamingAssets;
+  // Declarations
+  /// @brief Field m_ProbeVolumeDisableStreamingAssets, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_ProbeVolumeDisableStreamingAssets, put = __cordl_internal_set_m_ProbeVolumeDisableStreamingAssets)) bool m_ProbeVolumeDisableStreamingAssets;
 
-/// @brief Field m_Version, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_Version, put=__cordl_internal_set_m_Version)) int32_t  m_Version;
+  /// @brief Field m_Version, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) int32_t m_Version;
 
- __declspec(property(get=get_probeVolumeDisableStreamingAssets, put=set_probeVolumeDisableStreamingAssets)) bool  probeVolumeDisableStreamingAssets;
+  __declspec(property(get = get_probeVolumeDisableStreamingAssets, put = set_probeVolumeDisableStreamingAssets)) bool probeVolumeDisableStreamingAssets;
 
- __declspec(property(get=get_version)) int32_t  version;
+  __declspec(property(get = get_version)) int32_t version;
 
-/// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
-constexpr operator  ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+  constexpr operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept;
 
-static inline ::UnityEngine::Rendering::ProbeVolumeGlobalSettings* New_ctor() ;
+  static inline ::UnityEngine::Rendering::ProbeVolumeGlobalSettings* New_ctor();
 
-constexpr bool const& __cordl_internal_get_m_ProbeVolumeDisableStreamingAssets() const;
+  constexpr bool const& __cordl_internal_get_m_ProbeVolumeDisableStreamingAssets() const;
 
-constexpr bool& __cordl_internal_get_m_ProbeVolumeDisableStreamingAssets() ;
+  constexpr bool& __cordl_internal_get_m_ProbeVolumeDisableStreamingAssets();
 
-constexpr int32_t const& __cordl_internal_get_m_Version() const;
+  constexpr int32_t const& __cordl_internal_get_m_Version() const;
 
-constexpr int32_t& __cordl_internal_get_m_Version() ;
+  constexpr int32_t& __cordl_internal_get_m_Version();
 
-constexpr void __cordl_internal_set_m_ProbeVolumeDisableStreamingAssets(bool  value) ;
+  constexpr void __cordl_internal_set_m_ProbeVolumeDisableStreamingAssets(bool value);
 
-constexpr void __cordl_internal_set_m_Version(int32_t  value) ;
+  constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-/// @brief Method .ctor, addr 0x65dff14, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6651f20, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_probeVolumeDisableStreamingAssets, addr 0x65dfe9c, size 0x8, virtual false, abstract: false, final false
-inline bool get_probeVolumeDisableStreamingAssets() ;
+  /// @brief Method get_probeVolumeDisableStreamingAssets, addr 0x6651ea8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_probeVolumeDisableStreamingAssets();
 
-/// @brief Method get_version, addr 0x65dfe94, size 0x8, virtual true, abstract: false, final true
-inline int32_t get_version() ;
+  /// @brief Method get_version, addr 0x6651ea0, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_version();
 
-/// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
-constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
+  /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+  constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-/// @brief Method set_probeVolumeDisableStreamingAssets, addr 0x65dfea4, size 0x70, virtual false, abstract: false, final false
-inline void set_probeVolumeDisableStreamingAssets(bool  value) ;
+  /// @brief Method set_probeVolumeDisableStreamingAssets, addr 0x6651eb0, size 0x70, virtual false, abstract: false, final false
+  inline void set_probeVolumeDisableStreamingAssets(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProbeVolumeGlobalSettings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProbeVolumeGlobalSettings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProbeVolumeGlobalSettings(ProbeVolumeGlobalSettings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProbeVolumeGlobalSettings(ProbeVolumeGlobalSettings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProbeVolumeGlobalSettings(ProbeVolumeGlobalSettings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProbeVolumeGlobalSettings(ProbeVolumeGlobalSettings const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12130 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12123};
+  /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
+  int32_t ___m_Version;
 
-/// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
- int32_t  ___m_Version;
+  /// @brief Field m_ProbeVolumeDisableStreamingAssets, offset: 0x14, size: 0x1, def value: None
+  bool ___m_ProbeVolumeDisableStreamingAssets;
 
-/// @brief Field m_ProbeVolumeDisableStreamingAssets, offset: 0x14, size: 0x1, def value: None
- bool  ___m_ProbeVolumeDisableStreamingAssets;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeGlobalSettings, ___m_Version) == 0x10, "Offset mismatch!");
@@ -96,6 +96,6 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeGlobalSettings, ___m
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeGlobalSettings, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ProbeVolumeGlobalSettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ProbeVolumeGlobalSettings*, "UnityEngine.Rendering", "ProbeVolumeGlobalSettings");

@@ -21,90 +21,90 @@ namespace System::Net {
 // CS Name: System.Net.HeaderInfo
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
-// Declarations
-/// @brief Field AllowMultiValues, offset 0x28, size 0x1 
- __declspec(property(get=__cordl_internal_get_AllowMultiValues, put=__cordl_internal_set_AllowMultiValues)) bool  AllowMultiValues;
+  // Declarations
+  /// @brief Field AllowMultiValues, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_AllowMultiValues, put = __cordl_internal_set_AllowMultiValues)) bool AllowMultiValues;
 
-/// @brief Field HeaderName, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_HeaderName, put=__cordl_internal_set_HeaderName)) ::StringW  HeaderName;
+  /// @brief Field HeaderName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_HeaderName, put = __cordl_internal_set_HeaderName)) ::StringW HeaderName;
 
-/// @brief Field IsRequestRestricted, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_IsRequestRestricted, put=__cordl_internal_set_IsRequestRestricted)) bool  IsRequestRestricted;
+  /// @brief Field IsRequestRestricted, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_IsRequestRestricted, put = __cordl_internal_set_IsRequestRestricted)) bool IsRequestRestricted;
 
-/// @brief Field IsResponseRestricted, offset 0x11, size 0x1 
- __declspec(property(get=__cordl_internal_get_IsResponseRestricted, put=__cordl_internal_set_IsResponseRestricted)) bool  IsResponseRestricted;
+  /// @brief Field IsResponseRestricted, offset 0x11, size 0x1
+  __declspec(property(get = __cordl_internal_get_IsResponseRestricted, put = __cordl_internal_set_IsResponseRestricted)) bool IsResponseRestricted;
 
-/// @brief Field Parser, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_Parser, put=__cordl_internal_set_Parser)) ::System::Net::HeaderParser*  Parser;
+  /// @brief Field Parser, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Parser, put = __cordl_internal_set_Parser)) ::System::Net::HeaderParser* Parser;
 
-static inline ::System::Net::HeaderInfo* New_ctor(::StringW  name, bool  requestRestricted, bool  responseRestricted, bool  multi, ::System::Net::HeaderParser*  p) ;
+  static inline ::System::Net::HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
-constexpr bool const& __cordl_internal_get_AllowMultiValues() const;
+  constexpr bool const& __cordl_internal_get_AllowMultiValues() const;
 
-constexpr bool& __cordl_internal_get_AllowMultiValues() ;
+  constexpr bool& __cordl_internal_get_AllowMultiValues();
 
-constexpr ::StringW const& __cordl_internal_get_HeaderName() const;
+  constexpr ::StringW const& __cordl_internal_get_HeaderName() const;
 
-constexpr ::StringW& __cordl_internal_get_HeaderName() ;
+  constexpr ::StringW& __cordl_internal_get_HeaderName();
 
-constexpr bool const& __cordl_internal_get_IsRequestRestricted() const;
+  constexpr bool const& __cordl_internal_get_IsRequestRestricted() const;
 
-constexpr bool& __cordl_internal_get_IsRequestRestricted() ;
+  constexpr bool& __cordl_internal_get_IsRequestRestricted();
 
-constexpr bool const& __cordl_internal_get_IsResponseRestricted() const;
+  constexpr bool const& __cordl_internal_get_IsResponseRestricted() const;
 
-constexpr bool& __cordl_internal_get_IsResponseRestricted() ;
+  constexpr bool& __cordl_internal_get_IsResponseRestricted();
 
-constexpr ::System::Net::HeaderParser* const& __cordl_internal_get_Parser() const;
+  constexpr ::System::Net::HeaderParser* const& __cordl_internal_get_Parser() const;
 
-constexpr ::System::Net::HeaderParser*& __cordl_internal_get_Parser() ;
+  constexpr ::System::Net::HeaderParser*& __cordl_internal_get_Parser();
 
-constexpr void __cordl_internal_set_AllowMultiValues(bool  value) ;
+  constexpr void __cordl_internal_set_AllowMultiValues(bool value);
 
-constexpr void __cordl_internal_set_HeaderName(::StringW  value) ;
+  constexpr void __cordl_internal_set_HeaderName(::StringW value);
 
-constexpr void __cordl_internal_set_IsRequestRestricted(bool  value) ;
+  constexpr void __cordl_internal_set_IsRequestRestricted(bool value);
 
-constexpr void __cordl_internal_set_IsResponseRestricted(bool  value) ;
+  constexpr void __cordl_internal_set_IsResponseRestricted(bool value);
 
-constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser*  value) ;
+  constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-/// @brief Method .ctor, addr 0x62603b4, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::StringW  name, bool  requestRestricted, bool  responseRestricted, bool  multi, ::System::Net::HeaderParser*  p) ;
+  /// @brief Method .ctor, addr 0x62d23c0, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HeaderInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HeaderInfo();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HeaderInfo(HeaderInfo&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HeaderInfo(HeaderInfo && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HeaderInfo(HeaderInfo const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HeaderInfo(HeaderInfo const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11512 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11505};
+  /// @brief Field IsRequestRestricted, offset: 0x10, size: 0x1, def value: None
+  bool ___IsRequestRestricted;
 
-/// @brief Field IsRequestRestricted, offset: 0x10, size: 0x1, def value: None
- bool  ___IsRequestRestricted;
+  /// @brief Field IsResponseRestricted, offset: 0x11, size: 0x1, def value: None
+  bool ___IsResponseRestricted;
 
-/// @brief Field IsResponseRestricted, offset: 0x11, size: 0x1, def value: None
- bool  ___IsResponseRestricted;
+  /// @brief Field Parser, offset: 0x18, size: 0x8, def value: None
+  ::System::Net::HeaderParser* ___Parser;
 
-/// @brief Field Parser, offset: 0x18, size: 0x8, def value: None
- ::System::Net::HeaderParser*  ___Parser;
+  /// @brief Field HeaderName, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___HeaderName;
 
-/// @brief Field HeaderName, offset: 0x20, size: 0x8, def value: None
- ::StringW  ___HeaderName;
+  /// @brief Field AllowMultiValues, offset: 0x28, size: 0x1, def value: None
+  bool ___AllowMultiValues;
 
-/// @brief Field AllowMultiValues, offset: 0x28, size: 0x1, def value: None
- bool  ___AllowMultiValues;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::HeaderInfo, ___IsRequestRestricted) == 0x10, "Offset mismatch!");
@@ -119,6 +119,6 @@ static_assert(offsetof(::System::Net::HeaderInfo, ___AllowMultiValues) == 0x28, 
 
 static_assert(::cordl_internals::size_check_v<::System::Net::HeaderInfo, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 NEED_NO_BOX(::System::Net::HeaderInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HeaderInfo*, "System.Net", "HeaderInfo");

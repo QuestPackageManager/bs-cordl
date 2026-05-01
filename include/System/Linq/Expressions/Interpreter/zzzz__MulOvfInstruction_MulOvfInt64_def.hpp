@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.MulOvfInstruction/MulOvfInt64
 class CORDL_TYPE MulOvfInstruction_MulOvfInt64 : public ::System::Linq::Expressions::Interpreter::MulOvfInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::MulOvfInstruction_MulOvfInt64* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::MulOvfInstruction_MulOvfInt64* New_ctor();
 
-/// @brief Method Run, addr 0x5e01d2c, size 0x184, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e73d38, size 0x184, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5e01a80, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e73a8c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MulOvfInstruction_MulOvfInt64() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MulOvfInstruction_MulOvfInt64();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MulOvfInstruction_MulOvfInt64", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MulOvfInstruction_MulOvfInt64(MulOvfInstruction_MulOvfInt64&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MulOvfInstruction_MulOvfInt64", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MulOvfInstruction_MulOvfInt64(MulOvfInstruction_MulOvfInt64 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MulOvfInstruction_MulOvfInt64", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MulOvfInstruction_MulOvfInt64(MulOvfInstruction_MulOvfInt64 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MulOvfInstruction_MulOvfInt64", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MulOvfInstruction_MulOvfInt64(MulOvfInstruction_MulOvfInt64 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16480 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16472};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MulOvfInstruction_MulOvfInt64, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MulOvfInstruction_MulOvfInt64);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MulOvfInstruction_MulOvfInt64*, "System.Linq.Expressions.Interpreter", "MulOvfInstruction/MulOvfInt64");

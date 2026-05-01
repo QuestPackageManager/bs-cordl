@@ -17,29 +17,29 @@ namespace System::Runtime::ExceptionServices {
 // CS Name: System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs
 class CORDL_TYPE FirstChanceExceptionEventArgs : public ::System::EventArgs {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FirstChanceExceptionEventArgs() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FirstChanceExceptionEventArgs();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FirstChanceExceptionEventArgs", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FirstChanceExceptionEventArgs", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FirstChanceExceptionEventArgs", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FirstChanceExceptionEventArgs", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3360 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3360};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Runtime::ExceptionServices
+} // namespace System::Runtime::ExceptionServices
 NEED_NO_BOX(::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*, "System.Runtime.ExceptionServices", "FirstChanceExceptionEventArgs");

@@ -30,52 +30,52 @@ namespace Org::BouncyCastle::Math::EC {
 // CS Name: Org.BouncyCastle.Math.EC.AbstractFpCurve
 class CORDL_TYPE AbstractFpCurve : public ::Org::BouncyCastle::Math::EC::ECCurve {
 public:
-// Declarations
-/// @brief Method DecompressPoint, addr 0x33a9a88, size 0x17c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t  yTilde, ::Org::BouncyCastle::Math::BigInteger*  X1) ;
+  // Declarations
+  /// @brief Method DecompressPoint, addr 0x33e60cc, size 0x17c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
 
-/// @brief Method ImplRandomFieldElement, addr 0x33a9884, size 0x58, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElement(::Org::BouncyCastle::Security::SecureRandom*  r, ::Org::BouncyCastle::Math::BigInteger*  p) ;
+  /// @brief Method ImplRandomFieldElement, addr 0x33e5ec8, size 0x58, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r, ::Org::BouncyCastle::Math::BigInteger* p);
 
-/// @brief Method ImplRandomFieldElementMult, addr 0x33a9a00, size 0x88, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom*  r, ::Org::BouncyCastle::Math::BigInteger*  p) ;
+  /// @brief Method ImplRandomFieldElementMult, addr 0x33e6044, size 0x88, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r, ::Org::BouncyCastle::Math::BigInteger* p);
 
-/// @brief Method IsValidFieldElement, addr 0x33a9670, size 0xf0, virtual true, abstract: false, final false
-inline bool IsValidFieldElement(::Org::BouncyCastle::Math::BigInteger*  x) ;
+  /// @brief Method IsValidFieldElement, addr 0x33e5cb4, size 0xf0, virtual true, abstract: false, final false
+  inline bool IsValidFieldElement(::Org::BouncyCastle::Math::BigInteger* x);
 
-static inline ::Org::BouncyCastle::Math::EC::AbstractFpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger*  q) ;
+  static inline ::Org::BouncyCastle::Math::EC::AbstractFpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q);
 
-/// @brief Method RandomFieldElement, addr 0x33a9760, size 0x124, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom*  r) ;
+  /// @brief Method RandomFieldElement, addr 0x33e5da4, size 0x124, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-/// @brief Method RandomFieldElementMult, addr 0x33a98dc, size 0x124, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom*  r) ;
+  /// @brief Method RandomFieldElementMult, addr 0x33e5f20, size 0x124, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
-/// @brief Method .ctor, addr 0x33a95f8, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Math::BigInteger*  q) ;
+  /// @brief Method .ctor, addr 0x33e5c3c, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AbstractFpCurve() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AbstractFpCurve();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractFpCurve", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AbstractFpCurve(AbstractFpCurve&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AbstractFpCurve", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AbstractFpCurve(AbstractFpCurve && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractFpCurve", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AbstractFpCurve(AbstractFpCurve const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AbstractFpCurve", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AbstractFpCurve(AbstractFpCurve const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1364 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1364};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::AbstractFpCurve, 0x50>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Math::EC
+} // namespace Org::BouncyCastle::Math::EC
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::AbstractFpCurve);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::AbstractFpCurve*, "Org.BouncyCastle.Math.EC", "AbstractFpCurve");

@@ -20,51 +20,51 @@ namespace GlobalNamespace {
 // CS Name: MaterialPropertyBlockLocalScaleAnimator
 class CORDL_TYPE MaterialPropertyBlockLocalScaleAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
-// Declarations
-/// @brief Field _targetTransform, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__targetTransform, put=__cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform>  _targetTransform;
+  // Declarations
+  /// @brief Field _targetTransform, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform> _targetTransform;
 
-static inline ::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator* New_ctor() ;
+  static inline ::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator* New_ctor();
 
-/// @brief Method SetProperty, addr 0x56be2f0, size 0x54, virtual true, abstract: false, final false
-inline void SetProperty() ;
+  /// @brief Method SetProperty, addr 0x572c1dc, size 0x54, virtual true, abstract: false, final false
+  inline void SetProperty();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
 
-constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-/// @brief Method .ctor, addr 0x56be344, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x572c230, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MaterialPropertyBlockLocalScaleAnimator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyBlockLocalScaleAnimator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19778 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19768};
+  /// @brief Field _targetTransform, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
-/// @brief Field _targetTransform, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____targetTransform;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator, ____targetTransform) == 0x38, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator, 0x40>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator*, "", "MaterialPropertyBlockLocalScaleAnimator");

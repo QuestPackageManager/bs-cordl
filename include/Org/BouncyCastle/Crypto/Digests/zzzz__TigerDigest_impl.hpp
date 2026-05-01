@@ -5,667 +5,566 @@
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x328e2d4;
+  constexpr static std::size_t addrs = 0x32ca918;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Org::BouncyCastle::Crypto::Digests::TigerDigest*)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Org::BouncyCastle::Crypto::Digests::TigerDigest*)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x328e400;
+  constexpr static std::size_t addrs = 0x32caa44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.get_AlgorithmName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::get_AlgorithmName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x328e58c;
+  constexpr static std::size_t addrs = 0x32cabd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "get_AlgorithmName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "get_AlgorithmName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.GetDigestSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::GetDigestSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::GetDigestSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328e5d0;
+  constexpr static std::size_t addrs = 0x32cac14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "GetDigestSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "GetDigestSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.GetByteLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::GetByteLength)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::GetByteLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328e5d8;
+  constexpr static std::size_t addrs = 0x32cac1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "GetByteLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "GetByteLength", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.ProcessWord
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x328e5e0;
+  constexpr static std::size_t addrs = 0x32cac24;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "ProcessWord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "ProcessWord", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.Update
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::Update)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(uint8_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Update)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x328eae0;
+  constexpr static std::size_t addrs = 0x32cb124;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "Update",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.BlockUpdate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x328eb50;
+  constexpr static std::size_t addrs = 0x32cb194;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "BlockUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "BlockUpdate", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.RoundABC
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundABC)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundABC)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x328ec54;
+  constexpr static std::size_t addrs = 0x32cb298;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "RoundABC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "RoundABC", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.RoundBCA
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundBCA)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundBCA)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x328eddc;
+  constexpr static std::size_t addrs = 0x32cb420;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "RoundBCA",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "RoundBCA", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.RoundCAB
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundCAB)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundCAB)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x328ef60;
+  constexpr static std::size_t addrs = 0x32cb5a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "RoundCAB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "RoundCAB", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.KeySchedule
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::KeySchedule)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::KeySchedule)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x328f0e4;
+  constexpr static std::size_t addrs = 0x32cb728;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "KeySchedule",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "KeySchedule", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.ProcessBlock
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessBlock)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessBlock)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x328e6fc;
+  constexpr static std::size_t addrs = 0x32cad40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "ProcessBlock",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "ProcessBlock", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.UnpackWord
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, ::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x328f1b0;
+  constexpr static std::size_t addrs = 0x32cb7f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "UnpackWord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "UnpackWord", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.ProcessLength
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessLength)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessLength)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x328f2a0;
+  constexpr static std::size_t addrs = 0x32cb8e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "ProcessLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "ProcessLength",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.Finish
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::Finish)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Finish)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x328f2cc;
+  constexpr static std::size_t addrs = 0x32cb910;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Finish",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "Finish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.DoFinal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x328f314;
+  constexpr static std::size_t addrs = 0x32cb958;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "DoFinal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "DoFinal", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x328e35c;
+  constexpr static std::size_t addrs = 0x32ca9a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.Copy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::Copy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Copy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x328f374;
+  constexpr static std::size_t addrs = 0x32cb9b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Copy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                               "Copy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(&::Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(
+    &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x328e498;
+  constexpr static std::size_t addrs = 0x32caadc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::IMemoable*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "Reset", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::IMemoable*>::get() })));
     return ___internal_method;
   }
 };
-constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_a()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___a;
+constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_a() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___a;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_a() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___a;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___a;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_a(int64_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___a = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_a(int64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___a = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_b()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___b;
+constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_b() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___b;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_b() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___b;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___b;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_b(int64_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___b = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_b(int64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___b = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_c()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___c;
+constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_c() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___c;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_c() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___c;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___c;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_c(int64_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___c = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_c(int64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___c = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_byteCount()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___byteCount;
+constexpr int64_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_byteCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___byteCount;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_byteCount() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___byteCount;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___byteCount;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_byteCount(int64_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___byteCount = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_byteCount(int64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___byteCount = value;
 }
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_Buffer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Buffer;
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_Buffer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Buffer;
 }
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_Buffer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Buffer;
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_Buffer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Buffer;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_Buffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_bOff()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bOff;
+constexpr int32_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_bOff() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bOff;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_bOff() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bOff;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bOff;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_bOff(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bOff = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_bOff(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bOff = value;
 }
-constexpr ::ArrayW<int64_t,::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_x()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___x;
+constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_x() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___x;
 }
-constexpr ::ArrayW<int64_t,::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_x() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___x;
+constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_x() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___x;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_x(::ArrayW<int64_t,::Array<int64_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_x(::ArrayW<int64_t, ::Array<int64_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_xOff()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xOff;
+constexpr int32_t& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_xOff() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xOff;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_get_xOff() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___xOff;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___xOff;
 }
-constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_xOff(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___xOff = value;
+constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__cordl_internal_set_xOff(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___xOff = value;
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t1(::ArrayW<int64_t,::Array<int64_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(std::forward<::ArrayW<int64_t,::Array<int64_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t1(::ArrayW<int64_t, ::Array<int64_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(
+      std::forward<::ArrayW<int64_t, ::Array<int64_t>*>>(value));
 }
-inline ::ArrayW<int64_t,::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t1()  {
-return ::cordl_internals::getStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
+inline ::ArrayW<int64_t, ::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t1() {
+  return ::cordl_internals::getStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t1",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t2(::ArrayW<int64_t,::Array<int64_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(std::forward<::ArrayW<int64_t,::Array<int64_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t2(::ArrayW<int64_t, ::Array<int64_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(
+      std::forward<::ArrayW<int64_t, ::Array<int64_t>*>>(value));
 }
-inline ::ArrayW<int64_t,::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t2()  {
-return ::cordl_internals::getStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
+inline ::ArrayW<int64_t, ::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t2() {
+  return ::cordl_internals::getStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t2",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t3(::ArrayW<int64_t,::Array<int64_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(std::forward<::ArrayW<int64_t,::Array<int64_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t3(::ArrayW<int64_t, ::Array<int64_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(
+      std::forward<::ArrayW<int64_t, ::Array<int64_t>*>>(value));
 }
-inline ::ArrayW<int64_t,::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t3()  {
-return ::cordl_internals::getStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
+inline ::ArrayW<int64_t, ::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t3() {
+  return ::cordl_internals::getStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t3",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t4(::ArrayW<int64_t,::Array<int64_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(std::forward<::ArrayW<int64_t,::Array<int64_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::setStaticF_t4(::ArrayW<int64_t, ::Array<int64_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>(
+      std::forward<::ArrayW<int64_t, ::Array<int64_t>*>>(value));
 }
-inline ::ArrayW<int64_t,::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t4()  {
-return ::cordl_internals::getStaticField<::ArrayW<int64_t,::Array<int64_t>*>, "t4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
+inline ::ArrayW<int64_t, ::Array<int64_t>*> Org::BouncyCastle::Crypto::Digests::TigerDigest::getStaticF_t4() {
+  return ::cordl_internals::getStaticField<::ArrayW<int64_t, ::Array<int64_t>*>, "t4",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest*  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
 }
-inline ::StringW Org::BouncyCastle::Crypto::Digests::TigerDigest::get_AlgorithmName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "get_AlgorithmName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Org::BouncyCastle::Crypto::Digests::TigerDigest::get_AlgorithmName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                             "get_AlgorithmName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Crypto::Digests::TigerDigest::GetDigestSize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "GetDigestSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Crypto::Digests::TigerDigest::GetDigestSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                             "GetDigestSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Crypto::Digests::TigerDigest::GetByteLength()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "GetByteLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Crypto::Digests::TigerDigest::GetByteLength() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                             "GetByteLength", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord(::ArrayW<uint8_t,::Array<uint8_t>*>  b, int32_t  off)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "ProcessWord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, b, off);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "ProcessWord", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, b, off);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Update(uint8_t  input)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Update(uint8_t input) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "Update",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "BlockUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input, inOff, length);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "BlockUpdate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input, inOff, length);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundABC(int64_t  x, int64_t  mul)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "RoundABC",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, mul);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundABC(int64_t x, int64_t mul) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "RoundABC", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, mul);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundBCA(int64_t  x, int64_t  mul)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "RoundBCA",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, mul);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundBCA(int64_t x, int64_t mul) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "RoundBCA", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, mul);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundCAB(int64_t  x, int64_t  mul)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "RoundCAB",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, mul);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundCAB(int64_t x, int64_t mul) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "RoundCAB", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, mul);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::KeySchedule()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "KeySchedule",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::KeySchedule() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                             "KeySchedule", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessBlock()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "ProcessBlock",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessBlock() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                             "ProcessBlock", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord(int64_t  r, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "UnpackWord",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, r, output, outOff);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord(int64_t r, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "UnpackWord", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, r, output, outOff);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessLength(int64_t  bitLength)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "ProcessLength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bitLength);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessLength(int64_t bitLength) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "ProcessLength",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bitLength);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Finish()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Finish",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Finish() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
+                                                                             "Finish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal(::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "DoFinal",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, output, outOff);
+inline int32_t Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "DoFinal", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, output, outOff);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "Reset",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Digests::TigerDigest::Copy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Copy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Utilities::IMemoable*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Digests::TigerDigest::Copy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "Copy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Utilities::IMemoable*, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset(::Org::BouncyCastle::Utilities::IMemoable*  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::IMemoable*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset(::Org::BouncyCastle::Utilities::IMemoable* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(), "Reset", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Utilities::IMemoable*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
-inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* Org::BouncyCastle::Crypto::Digests::TigerDigest::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>());
+inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* Org::BouncyCastle::Crypto::Digests::TigerDigest::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>());
 }
-inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* Org::BouncyCastle::Crypto::Digests::TigerDigest::New_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest*  t)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>(t));
+inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* Org::BouncyCastle::Crypto::Digests::TigerDigest::New_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>(t));
 }
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
-constexpr  Org::BouncyCastle::Crypto::Digests::TigerDigest::operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
+constexpr Org::BouncyCastle::Crypto::Digests::TigerDigest::operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
 constexpr ::Org::BouncyCastle::Crypto::IDigest* Org::BouncyCastle::Crypto::Digests::TigerDigest::i___Org__BouncyCastle__Crypto__IDigest() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
+  return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
-constexpr  Org::BouncyCastle::Crypto::Digests::TigerDigest::operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept {
-return static_cast<::Org::BouncyCastle::Utilities::IMemoable*>(static_cast<void*>(this));
+constexpr Org::BouncyCastle::Crypto::Digests::TigerDigest::operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept {
+  return static_cast<::Org::BouncyCastle::Utilities::IMemoable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
 constexpr ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Digests::TigerDigest::i___Org__BouncyCastle__Utilities__IMemoable() noexcept {
-return static_cast<::Org::BouncyCastle::Utilities::IMemoable*>(static_cast<void*>(this));
+  return static_cast<::Org::BouncyCastle::Utilities::IMemoable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Digests::TigerDigest::TigerDigest()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Digests::TigerDigest::TigerDigest() {}

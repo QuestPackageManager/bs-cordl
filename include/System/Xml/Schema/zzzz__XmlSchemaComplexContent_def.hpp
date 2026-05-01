@@ -20,87 +20,87 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaComplexContent
 class CORDL_TYPE XmlSchemaComplexContent : public ::System::Xml::Schema::XmlSchemaContentModel {
 public:
-// Declarations
- __declspec(property(get=get_Content, put=set_Content)) ::System::Xml::Schema::XmlSchemaContent*  Content;
+  // Declarations
+  __declspec(property(get = get_Content, put = set_Content)) ::System::Xml::Schema::XmlSchemaContent* Content;
 
- __declspec(property(get=get_HasMixedAttribute)) bool  HasMixedAttribute;
+  __declspec(property(get = get_HasMixedAttribute)) bool HasMixedAttribute;
 
- __declspec(property(get=get_IsMixed, put=set_IsMixed)) bool  IsMixed;
+  __declspec(property(get = get_IsMixed, put = set_IsMixed)) bool IsMixed;
 
-/// @brief Field content, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get_content, put=__cordl_internal_set_content)) ::System::Xml::Schema::XmlSchemaContent*  content;
+  /// @brief Field content, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::System::Xml::Schema::XmlSchemaContent* content;
 
-/// @brief Field hasMixedAttribute, offset 0x59, size 0x1 
- __declspec(property(get=__cordl_internal_get_hasMixedAttribute, put=__cordl_internal_set_hasMixedAttribute)) bool  hasMixedAttribute;
+  /// @brief Field hasMixedAttribute, offset 0x59, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasMixedAttribute, put = __cordl_internal_set_hasMixedAttribute)) bool hasMixedAttribute;
 
-/// @brief Field isMixed, offset 0x58, size 0x1 
- __declspec(property(get=__cordl_internal_get_isMixed, put=__cordl_internal_set_isMixed)) bool  isMixed;
+  /// @brief Field isMixed, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get_isMixed, put = __cordl_internal_set_isMixed)) bool isMixed;
 
-static inline ::System::Xml::Schema::XmlSchemaComplexContent* New_ctor() ;
+  static inline ::System::Xml::Schema::XmlSchemaComplexContent* New_ctor();
 
-constexpr ::System::Xml::Schema::XmlSchemaContent* const& __cordl_internal_get_content() const;
+  constexpr ::System::Xml::Schema::XmlSchemaContent* const& __cordl_internal_get_content() const;
 
-constexpr ::System::Xml::Schema::XmlSchemaContent*& __cordl_internal_get_content() ;
+  constexpr ::System::Xml::Schema::XmlSchemaContent*& __cordl_internal_get_content();
 
-constexpr bool const& __cordl_internal_get_hasMixedAttribute() const;
+  constexpr bool const& __cordl_internal_get_hasMixedAttribute() const;
 
-constexpr bool& __cordl_internal_get_hasMixedAttribute() ;
+  constexpr bool& __cordl_internal_get_hasMixedAttribute();
 
-constexpr bool const& __cordl_internal_get_isMixed() const;
+  constexpr bool const& __cordl_internal_get_isMixed() const;
 
-constexpr bool& __cordl_internal_get_isMixed() ;
+  constexpr bool& __cordl_internal_get_isMixed();
 
-constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaContent*  value) ;
+  constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaContent* value);
 
-constexpr void __cordl_internal_set_hasMixedAttribute(bool  value) ;
+  constexpr void __cordl_internal_set_hasMixedAttribute(bool value);
 
-constexpr void __cordl_internal_set_isMixed(bool  value) ;
+  constexpr void __cordl_internal_set_isMixed(bool value);
 
-/// @brief Method .ctor, addr 0x6079ac4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60ebad0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Content, addr 0x6079aac, size 0x8, virtual true, abstract: false, final false
-inline ::System::Xml::Schema::XmlSchemaContent* get_Content() ;
+  /// @brief Method get_Content, addr 0x60ebab8, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-/// @brief Method get_HasMixedAttribute, addr 0x6079abc, size 0x8, virtual false, abstract: false, final false
-inline bool get_HasMixedAttribute() ;
+  /// @brief Method get_HasMixedAttribute, addr 0x60ebac8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_HasMixedAttribute();
 
-/// @brief Method get_IsMixed, addr 0x6079a94, size 0x8, virtual false, abstract: false, final false
-inline bool get_IsMixed() ;
+  /// @brief Method get_IsMixed, addr 0x60ebaa0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsMixed();
 
-/// @brief Method set_Content, addr 0x6079ab4, size 0x8, virtual true, abstract: false, final false
-inline void set_Content(::System::Xml::Schema::XmlSchemaContent*  value) ;
+  /// @brief Method set_Content, addr 0x60ebac0, size 0x8, virtual true, abstract: false, final false
+  inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
-/// @brief Method set_IsMixed, addr 0x6079a9c, size 0x10, virtual false, abstract: false, final false
-inline void set_IsMixed(bool  value) ;
+  /// @brief Method set_IsMixed, addr 0x60ebaa8, size 0x10, virtual false, abstract: false, final false
+  inline void set_IsMixed(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSchemaComplexContent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaComplexContent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSchemaComplexContent(XmlSchemaComplexContent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSchemaComplexContent(XmlSchemaComplexContent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSchemaComplexContent(XmlSchemaComplexContent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSchemaComplexContent(XmlSchemaComplexContent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9742 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9736};
+  /// @brief Field content, offset: 0x50, size: 0x8, def value: None
+  ::System::Xml::Schema::XmlSchemaContent* ___content;
 
-/// @brief Field content, offset: 0x50, size: 0x8, def value: None
- ::System::Xml::Schema::XmlSchemaContent*  ___content;
+  /// @brief Field isMixed, offset: 0x58, size: 0x1, def value: None
+  bool ___isMixed;
 
-/// @brief Field isMixed, offset: 0x58, size: 0x1, def value: None
- bool  ___isMixed;
+  /// @brief Field hasMixedAttribute, offset: 0x59, size: 0x1, def value: None
+  bool ___hasMixedAttribute;
 
-/// @brief Field hasMixedAttribute, offset: 0x59, size: 0x1, def value: None
- bool  ___hasMixedAttribute;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaComplexContent, ___content) == 0x50, "Offset mismatch!");
@@ -111,6 +111,6 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaComplexContent, ___hasMix
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaComplexContent, 0x60>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaComplexContent);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaComplexContent*, "System.Xml.Schema", "XmlSchemaComplexContent");

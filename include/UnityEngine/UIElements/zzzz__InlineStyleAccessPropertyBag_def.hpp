@@ -61,28 +61,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InlineStyleAccessPropertyBag)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace Unity::Properties {
-template<typename TContainer>
-class INamedProperties_1;
+template <typename TContainer> class INamedProperties_1;
 }
 namespace Unity::Properties {
-template<typename TContainer>
-class IProperty_1;
+template <typename TContainer> class IProperty_1;
 }
 namespace Unity::Properties {
-template<typename TContainer>
-struct PropertyCollection_1;
+template <typename TContainer> struct PropertyCollection_1;
 }
 namespace Unity::Properties {
-template<typename TSource,typename TDestination>
-class TypeConverter_2;
+template <typename TSource, typename TDestination> class TypeConverter_2;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
@@ -217,8 +211,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleCursorProperty;
 }
 namespace UnityEngine::UIElements {
-template<typename TValue>
-class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
+template <typename TValue> class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleFloatProperty;
@@ -236,12 +229,10 @@ namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleLengthProperty;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class InlineStyleAccessPropertyBag_InlineStyleListProperty_1;
+template <typename T> class InlineStyleAccessPropertyBag_InlineStyleListProperty_1;
 }
 namespace UnityEngine::UIElements {
-template<typename TStyleValue,typename TValue>
-class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
+template <typename TStyleValue, typename TValue> class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleRotateProperty;
@@ -430,8 +421,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c;
 }
 namespace UnityEngine::UIElements {
-template<typename TStyleValue,typename TValue>
-class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
+template <typename TStyleValue, typename TValue> class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
 }
 namespace UnityEngine::UIElements {
 struct Justify;
@@ -464,8 +454,7 @@ namespace UnityEngine::UIElements {
 struct StyleCursor;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-struct StyleEnum_1;
+template <typename T> struct StyleEnum_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
@@ -486,8 +475,7 @@ namespace UnityEngine::UIElements {
 struct StyleLength;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-struct StyleList_1;
+template <typename T> struct StyleList_1;
 }
 namespace UnityEngine::UIElements {
 struct StylePropertyName;
@@ -671,8 +659,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleCursorProperty;
 }
 namespace UnityEngine::UIElements {
-template<typename TValue>
-class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
+template <typename TValue> class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleFloatProperty;
@@ -690,12 +677,10 @@ namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleLengthProperty;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class InlineStyleAccessPropertyBag_InlineStyleListProperty_1;
+template <typename T> class InlineStyleAccessPropertyBag_InlineStyleListProperty_1;
 }
 namespace UnityEngine::UIElements {
-template<typename TStyleValue,typename TValue>
-class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
+template <typename TStyleValue, typename TValue> class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleRotateProperty;
@@ -881,8 +866,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c;
 }
 namespace UnityEngine::UIElements {
-template<typename TStyleValue,typename TValue>
-class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
+template <typename TStyleValue, typename TValue> class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::InlineStyleAccessPropertyBag);
@@ -997,6095 +981,6134 @@ MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleA
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace UnityEngine::UIElements {
 // cpp template
-template<typename TStyleValue,typename TValue>
+template <typename TStyleValue, typename TValue>
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleProperty`2<TStyleValue,TValue>
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleProperty_2 : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::InlineStyleAccess*,TStyleValue> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleProperty_2 : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::InlineStyleAccess*, TStyleValue> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue,TValue>* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>* New_ctor();
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_ussName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleProperty_2() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleProperty_2();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleProperty_2", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleProperty_2(InlineStyleAccessPropertyBag_InlineStyleProperty_2&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleProperty_2", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleProperty_2(InlineStyleAccessPropertyBag_InlineStyleProperty_2 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleProperty_2", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleProperty_2(InlineStyleAccessPropertyBag_InlineStyleProperty_2 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleProperty_2", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleProperty_2(InlineStyleAccessPropertyBag_InlineStyleProperty_2 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4806 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4806};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleEnum`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
-template<typename TValue>
+template <typename TValue>
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleEnumProperty`1<TValue>
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1 : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleEnum_1<TValue>,TValue> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleEnum_1<TValue>, TValue> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>* New_ctor();
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1(InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1(InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1(InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1(InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4807 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4807};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.Align, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/AlignContentProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_AlignContentProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Align> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a93de4, size 0xa4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0602c, size 0xa4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a93e88, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align>  value) ;
+  /// @brief Method SetValue, addr 0x6b060d0, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-/// @brief Method .ctor, addr 0x6a9339c, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b055e4, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a93ddc, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b06024, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a93d54, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b05f9c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a93d98, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b05fe0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_AlignContentProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_AlignContentProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignContentProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_AlignContentProperty(InlineStyleAccessPropertyBag_AlignContentProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignContentProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_AlignContentProperty(InlineStyleAccessPropertyBag_AlignContentProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignContentProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_AlignContentProperty(InlineStyleAccessPropertyBag_AlignContentProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignContentProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_AlignContentProperty(InlineStyleAccessPropertyBag_AlignContentProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4722 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4722};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.Align, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/AlignItemsProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_AlignItemsProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Align> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a93fd0, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b06218, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignItemsProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignItemsProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a94078, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align>  value) ;
+  /// @brief Method SetValue, addr 0x6b062c0, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-/// @brief Method .ctor, addr 0x6a933f4, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0563c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a93fc8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b06210, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a93f40, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b06188, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a93f84, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b061cc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_AlignItemsProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_AlignItemsProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignItemsProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_AlignItemsProperty(InlineStyleAccessPropertyBag_AlignItemsProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignItemsProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_AlignItemsProperty(InlineStyleAccessPropertyBag_AlignItemsProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignItemsProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_AlignItemsProperty(InlineStyleAccessPropertyBag_AlignItemsProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignItemsProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_AlignItemsProperty(InlineStyleAccessPropertyBag_AlignItemsProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4723 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4723};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignItemsProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.Align, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/AlignSelfProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_AlignSelfProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Align> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a941c0, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b06408, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignSelfProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignSelfProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a94268, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align>  value) ;
+  /// @brief Method SetValue, addr 0x6b064b0, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-/// @brief Method .ctor, addr 0x6a9344c, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05694, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a941b8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b06400, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a94130, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b06378, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a94174, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b063bc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_AlignSelfProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_AlignSelfProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignSelfProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_AlignSelfProperty(InlineStyleAccessPropertyBag_AlignSelfProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignSelfProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_AlignSelfProperty(InlineStyleAccessPropertyBag_AlignSelfProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignSelfProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_AlignSelfProperty(InlineStyleAccessPropertyBag_AlignSelfProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignSelfProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_AlignSelfProperty(InlineStyleAccessPropertyBag_AlignSelfProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4724 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4724};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignSelfProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.Color, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleColor
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleColorProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleColor,::UnityEngine::Color> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleColorProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleColor, ::UnityEngine::Color> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c;
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9456c, size 0x20c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b067b4, size 0x20c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleColorProperty(InlineStyleAccessPropertyBag_InlineStyleColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleColorProperty(InlineStyleAccessPropertyBag_InlineStyleColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleColorProperty(InlineStyleAccessPropertyBag_InlineStyleColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleColorProperty(InlineStyleAccessPropertyBag_InlineStyleColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4809 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4809};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BackgroundColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BackgroundColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a943b0, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b065f8, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a94484, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b066cc, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a934a4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b056ec, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a943a8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b065f0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a94320, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b06568, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a94364, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b065ac, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BackgroundColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BackgroundColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BackgroundColorProperty(InlineStyleAccessPropertyBag_BackgroundColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BackgroundColorProperty(InlineStyleAccessPropertyBag_BackgroundColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BackgroundColorProperty(InlineStyleAccessPropertyBag_BackgroundColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BackgroundColorProperty(InlineStyleAccessPropertyBag_BackgroundColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4725 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4725};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.Background, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleBackground
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleBackgroundProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackground,::UnityEngine::UIElements::Background> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackground, ::UnityEngine::UIElements::Background> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c;
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a949c4, size 0x5e0, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b06c0c, size 0x5e0, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4811 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4811};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleBackgroundProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BackgroundImageProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BackgroundImageProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a94808, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackground GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b06a50, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackground GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundImageProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundImageProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a948dc, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleBackground  value) ;
+  /// @brief Method SetValue, addr 0x6b06b24, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackground value);
 
-/// @brief Method .ctor, addr 0x6a934a8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b056f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a94800, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b06a48, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a94778, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b069c0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a947bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b06a04, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BackgroundImageProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BackgroundImageProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundImageProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BackgroundImageProperty(InlineStyleAccessPropertyBag_BackgroundImageProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundImageProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BackgroundImageProperty(InlineStyleAccessPropertyBag_BackgroundImageProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundImageProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BackgroundImageProperty(InlineStyleAccessPropertyBag_BackgroundImageProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundImageProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BackgroundImageProperty(InlineStyleAccessPropertyBag_BackgroundImageProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4726 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4726};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundImageProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleBackgroundPosition
+} // namespace UnityEngine::UIElements
+// Dependencies UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>,
+// UnityEngine.UIElements.StyleBackgroundPosition
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleBackgroundPositionProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackgroundPosition,::UnityEngine::UIElements::BackgroundPosition> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9519c, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b073e4, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4827 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4827};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleBackgroundPositionProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BackgroundPositionXProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BackgroundPositionXProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a95034, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackgroundPosition GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0727c, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackgroundPosition GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionXProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionXProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a950dc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleBackgroundPosition  value) ;
+  /// @brief Method SetValue, addr 0x6b07324, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundPosition value);
 
-/// @brief Method .ctor, addr 0x6a934ac, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b056f4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9502c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b07274, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a94fa4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b071ec, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a94fe8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b07230, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BackgroundPositionXProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BackgroundPositionXProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionXProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BackgroundPositionXProperty(InlineStyleAccessPropertyBag_BackgroundPositionXProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionXProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BackgroundPositionXProperty(InlineStyleAccessPropertyBag_BackgroundPositionXProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionXProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BackgroundPositionXProperty(InlineStyleAccessPropertyBag_BackgroundPositionXProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionXProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BackgroundPositionXProperty(InlineStyleAccessPropertyBag_BackgroundPositionXProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4727 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4727};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionXProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleBackgroundPositionProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BackgroundPositionYProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BackgroundPositionYProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a95278, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackgroundPosition GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b074c0, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackgroundPosition GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionYProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionYProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a95320, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleBackgroundPosition  value) ;
+  /// @brief Method SetValue, addr 0x6b07568, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundPosition value);
 
-/// @brief Method .ctor, addr 0x6a934b0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b056f8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a95270, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b074b8, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a951e8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b07430, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9522c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b07474, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BackgroundPositionYProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BackgroundPositionYProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionYProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BackgroundPositionYProperty(InlineStyleAccessPropertyBag_BackgroundPositionYProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionYProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BackgroundPositionYProperty(InlineStyleAccessPropertyBag_BackgroundPositionYProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionYProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BackgroundPositionYProperty(InlineStyleAccessPropertyBag_BackgroundPositionYProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionYProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BackgroundPositionYProperty(InlineStyleAccessPropertyBag_BackgroundPositionYProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4728 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4728};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionYProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BackgroundRepeat, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleBackgroundRepeat
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleBackgroundRepeatProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackgroundRepeat,::UnityEngine::UIElements::BackgroundRepeat> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a955e0, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b07828, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4828 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4828};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleBackgroundRepeatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BackgroundRepeatProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BackgroundRepeatProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a95470, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackgroundRepeat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b076b8, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackgroundRepeat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundRepeatProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundRepeatProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a95520, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleBackgroundRepeat  value) ;
+  /// @brief Method SetValue, addr 0x6b07768, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundRepeat value);
 
-/// @brief Method .ctor, addr 0x6a934b4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b056fc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a95468, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b076b0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a953e0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b07628, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a95424, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0766c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BackgroundRepeatProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BackgroundRepeatProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundRepeatProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BackgroundRepeatProperty(InlineStyleAccessPropertyBag_BackgroundRepeatProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundRepeatProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BackgroundRepeatProperty(InlineStyleAccessPropertyBag_BackgroundRepeatProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundRepeatProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BackgroundRepeatProperty(InlineStyleAccessPropertyBag_BackgroundRepeatProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundRepeatProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BackgroundRepeatProperty(InlineStyleAccessPropertyBag_BackgroundRepeatProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4729 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4729};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundRepeatProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleBackgroundSize
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleBackgroundSizeProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackgroundSize,::UnityEngine::UIElements::BackgroundSize> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleBackgroundSize, ::UnityEngine::UIElements::BackgroundSize> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a95874, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b07abc, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4829 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4829};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleBackgroundSizeProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BackgroundSizeProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BackgroundSizeProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a956bc, size 0xd0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackgroundSize GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b07904, size 0xd0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackgroundSize GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundSizeProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundSizeProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9578c, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleBackgroundSize  value) ;
+  /// @brief Method SetValue, addr 0x6b079d4, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleBackgroundSize value);
 
-/// @brief Method .ctor, addr 0x6a934b8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05700, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a956b4, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b078fc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9562c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b07874, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a95670, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b078b8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BackgroundSizeProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BackgroundSizeProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundSizeProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BackgroundSizeProperty(InlineStyleAccessPropertyBag_BackgroundSizeProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundSizeProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BackgroundSizeProperty(InlineStyleAccessPropertyBag_BackgroundSizeProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundSizeProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BackgroundSizeProperty(InlineStyleAccessPropertyBag_BackgroundSizeProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundSizeProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BackgroundSizeProperty(InlineStyleAccessPropertyBag_BackgroundSizeProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4730 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4730};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundSizeProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderBottomColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderBottomColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a95950, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b07b98, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a95a24, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b07c6c, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a934bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05704, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a95948, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b07b90, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a958c0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b07b08, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a95904, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b07b4c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderBottomColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderBottomColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderBottomColorProperty(InlineStyleAccessPropertyBag_BorderBottomColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderBottomColorProperty(InlineStyleAccessPropertyBag_BorderBottomColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderBottomColorProperty(InlineStyleAccessPropertyBag_BorderBottomColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderBottomColorProperty(InlineStyleAccessPropertyBag_BorderBottomColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4731 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4731};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.Length, UnityEngine.UIElements.StyleLength
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleLengthProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleLengthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleLength,::UnityEngine::UIElements::Length> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleLengthProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleLength, ::UnityEngine::UIElements::Length> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c;
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a95d0c, size 0x394, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b07f54, size 0x394, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleLengthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleLengthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleLengthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleLengthProperty(InlineStyleAccessPropertyBag_InlineStyleLengthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleLengthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleLengthProperty(InlineStyleAccessPropertyBag_InlineStyleLengthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleLengthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleLengthProperty(InlineStyleAccessPropertyBag_InlineStyleLengthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleLengthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleLengthProperty(InlineStyleAccessPropertyBag_InlineStyleLengthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4813 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4813};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderBottomLeftRadiusProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a95b9c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b07de4, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a95c4c, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b07e94, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a934c0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05708, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a95b94, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b07ddc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a95b0c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b07d54, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a95b50, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b07d98, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4732 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4732};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderBottomRightRadiusProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a96130, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b08378, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a961e0, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b08428, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a934c4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0570c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a96128, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b08370, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a960a0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b082e8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a960e4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0832c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4733 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4733};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleFloat
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleFloatProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleFloatProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleFloat,float_t> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleFloatProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleFloat, float_t> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c;
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a96490, size 0x20c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b086d8, size 0x20c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleFloatProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleFloatProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFloatProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleFloatProperty(InlineStyleAccessPropertyBag_InlineStyleFloatProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFloatProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleFloatProperty(InlineStyleAccessPropertyBag_InlineStyleFloatProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFloatProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleFloatProperty(InlineStyleAccessPropertyBag_InlineStyleFloatProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFloatProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleFloatProperty(InlineStyleAccessPropertyBag_InlineStyleFloatProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4815 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4815};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderBottomWidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderBottomWidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a96330, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b08578, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a963d8, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b08620, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a934c8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05710, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a96328, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b08570, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a962a0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b084e8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a962e4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0852c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderBottomWidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderBottomWidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomWidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderBottomWidthProperty(InlineStyleAccessPropertyBag_BorderBottomWidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomWidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderBottomWidthProperty(InlineStyleAccessPropertyBag_BorderBottomWidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomWidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderBottomWidthProperty(InlineStyleAccessPropertyBag_BorderBottomWidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomWidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderBottomWidthProperty(InlineStyleAccessPropertyBag_BorderBottomWidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4734 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4734};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderLeftColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderLeftColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9672c, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b08974, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a96800, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b08a48, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a934cc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05714, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a96724, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0896c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9669c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b088e4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a966e0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b08928, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderLeftColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderLeftColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderLeftColorProperty(InlineStyleAccessPropertyBag_BorderLeftColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderLeftColorProperty(InlineStyleAccessPropertyBag_BorderLeftColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderLeftColorProperty(InlineStyleAccessPropertyBag_BorderLeftColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderLeftColorProperty(InlineStyleAccessPropertyBag_BorderLeftColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4735};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderLeftWidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderLeftWidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a96978, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b08bc0, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftWidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftWidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a96a20, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b08c68, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a934d0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05718, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a96970, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b08bb8, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a968e8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b08b30, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9692c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b08b74, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderLeftWidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderLeftWidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftWidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderLeftWidthProperty(InlineStyleAccessPropertyBag_BorderLeftWidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftWidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderLeftWidthProperty(InlineStyleAccessPropertyBag_BorderLeftWidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftWidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderLeftWidthProperty(InlineStyleAccessPropertyBag_BorderLeftWidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftWidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderLeftWidthProperty(InlineStyleAccessPropertyBag_BorderLeftWidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4736 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4736};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftWidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderRightColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderRightColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a96b68, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b08db0, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a96c3c, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b08e84, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a934d4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0571c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a96b60, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b08da8, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a96ad8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b08d20, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a96b1c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b08d64, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderRightColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderRightColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderRightColorProperty(InlineStyleAccessPropertyBag_BorderRightColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderRightColorProperty(InlineStyleAccessPropertyBag_BorderRightColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderRightColorProperty(InlineStyleAccessPropertyBag_BorderRightColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderRightColorProperty(InlineStyleAccessPropertyBag_BorderRightColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4737 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4737};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderRightWidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderRightWidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a96db4, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b08ffc, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightWidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightWidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a96e5c, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b090a4, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a934d8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05720, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a96dac, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b08ff4, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a96d24, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b08f6c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a96d68, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b08fb0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderRightWidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderRightWidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightWidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderRightWidthProperty(InlineStyleAccessPropertyBag_BorderRightWidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightWidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderRightWidthProperty(InlineStyleAccessPropertyBag_BorderRightWidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightWidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderRightWidthProperty(InlineStyleAccessPropertyBag_BorderRightWidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightWidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderRightWidthProperty(InlineStyleAccessPropertyBag_BorderRightWidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4738 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4738};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightWidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderTopColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderTopColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a96fa4, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b091ec, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a97078, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b092c0, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a934dc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05724, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a96f9c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b091e4, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a96f14, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0915c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a96f58, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b091a0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderTopColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderTopColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderTopColorProperty(InlineStyleAccessPropertyBag_BorderTopColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderTopColorProperty(InlineStyleAccessPropertyBag_BorderTopColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderTopColorProperty(InlineStyleAccessPropertyBag_BorderTopColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderTopColorProperty(InlineStyleAccessPropertyBag_BorderTopColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4739 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4739};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderTopLeftRadiusProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a971f0, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b09438, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a972a0, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b094e8, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a934e0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05728, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a971e8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b09430, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a97160, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b093a8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a971a4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b093ec, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4740 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4740};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderTopRightRadiusProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a973f0, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b09638, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a974a0, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b096e8, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a934e4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0572c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a973e8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b09630, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a97360, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b095a8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a973a4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b095ec, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty(InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty(InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty(InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty(InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4741 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4741};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BorderTopWidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BorderTopWidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a975f0, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b09838, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopWidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopWidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a97698, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b098e0, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a934e8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05730, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a975e8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b09830, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a97560, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b097a8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a975a4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b097ec, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BorderTopWidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BorderTopWidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopWidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BorderTopWidthProperty(InlineStyleAccessPropertyBag_BorderTopWidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopWidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BorderTopWidthProperty(InlineStyleAccessPropertyBag_BorderTopWidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopWidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BorderTopWidthProperty(InlineStyleAccessPropertyBag_BorderTopWidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopWidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BorderTopWidthProperty(InlineStyleAccessPropertyBag_BorderTopWidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4742 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4742};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopWidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/BottomProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_BottomProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a977e0, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b09a28, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BottomProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BottomProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a97890, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b09ad8, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a934ec, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05734, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a977d8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b09a20, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a97750, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b09998, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a97794, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b099dc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_BottomProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_BottomProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BottomProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_BottomProperty(InlineStyleAccessPropertyBag_BottomProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BottomProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_BottomProperty(InlineStyleAccessPropertyBag_BottomProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BottomProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_BottomProperty(InlineStyleAccessPropertyBag_BottomProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BottomProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_BottomProperty(InlineStyleAccessPropertyBag_BottomProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4743 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4743};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BottomProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/ColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_ColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a979e0, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b09c28, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a97ab4, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b09cfc, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a934f0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05738, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a979d8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b09c20, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a97950, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b09b98, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a97994, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b09bdc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_ColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_ColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_ColorProperty(InlineStyleAccessPropertyBag_ColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_ColorProperty(InlineStyleAccessPropertyBag_ColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_ColorProperty(InlineStyleAccessPropertyBag_ColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_ColorProperty(InlineStyleAccessPropertyBag_ColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4744 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4744};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.Cursor, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleCursor
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleCursorProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleCursorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleCursor,::UnityEngine::UIElements::Cursor> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleCursorProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleCursor, ::UnityEngine::UIElements::Cursor> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a97dd0, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0a018, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleCursorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleCursorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleCursorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleCursorProperty(InlineStyleAccessPropertyBag_InlineStyleCursorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleCursorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleCursorProperty(InlineStyleAccessPropertyBag_InlineStyleCursorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleCursorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleCursorProperty(InlineStyleAccessPropertyBag_InlineStyleCursorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleCursorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleCursorProperty(InlineStyleAccessPropertyBag_InlineStyleCursorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4823 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4823};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleCursorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/CursorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_CursorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a97c2c, size 0xcc, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleCursor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b09e74, size 0xcc, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleCursor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_CursorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_CursorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a97cf8, size 0xd8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleCursor  value) ;
+  /// @brief Method SetValue, addr 0x6b09f40, size 0xd8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleCursor value);
 
-/// @brief Method .ctor, addr 0x6a934f4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0573c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a97c24, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b09e6c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a97b9c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b09de4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a97be0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b09e28, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_CursorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_CursorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_CursorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_CursorProperty(InlineStyleAccessPropertyBag_CursorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_CursorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_CursorProperty(InlineStyleAccessPropertyBag_CursorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_CursorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_CursorProperty(InlineStyleAccessPropertyBag_CursorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_CursorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_CursorProperty(InlineStyleAccessPropertyBag_CursorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4745 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4745};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_CursorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.DisplayStyle, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/DisplayProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_DisplayProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::DisplayStyle> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a97eac, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0a0f4, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_DisplayProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_DisplayProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a97f54, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle>  value) ;
+  /// @brief Method SetValue, addr 0x6b0a19c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> value);
 
-/// @brief Method .ctor, addr 0x6a934f8, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05740, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a97ea4, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0a0ec, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a97e1c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0a064, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a97e60, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0a0a8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_DisplayProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_DisplayProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_DisplayProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_DisplayProperty(InlineStyleAccessPropertyBag_DisplayProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_DisplayProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_DisplayProperty(InlineStyleAccessPropertyBag_DisplayProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_DisplayProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_DisplayProperty(InlineStyleAccessPropertyBag_DisplayProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_DisplayProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_DisplayProperty(InlineStyleAccessPropertyBag_DisplayProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4746 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4746};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_DisplayProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/FlexBasisProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_FlexBasisProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9809c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0a2e4, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexBasisProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexBasisProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9814c, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0a394, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93550, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05798, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98094, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0a2dc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9800c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0a254, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98050, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0a298, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_FlexBasisProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_FlexBasisProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexBasisProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_FlexBasisProperty(InlineStyleAccessPropertyBag_FlexBasisProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexBasisProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_FlexBasisProperty(InlineStyleAccessPropertyBag_FlexBasisProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexBasisProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_FlexBasisProperty(InlineStyleAccessPropertyBag_FlexBasisProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexBasisProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_FlexBasisProperty(InlineStyleAccessPropertyBag_FlexBasisProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4747 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4747};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexBasisProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.FlexDirection, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/FlexDirectionProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_FlexDirectionProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::FlexDirection> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_FlexDirectionProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::FlexDirection> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9829c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0a4e4, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexDirectionProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexDirectionProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a98344, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection>  value) ;
+  /// @brief Method SetValue, addr 0x6b0a58c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> value);
 
-/// @brief Method .ctor, addr 0x6a93554, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0579c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98294, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0a4dc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9820c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0a454, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98250, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0a498, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_FlexDirectionProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_FlexDirectionProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexDirectionProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_FlexDirectionProperty(InlineStyleAccessPropertyBag_FlexDirectionProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexDirectionProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_FlexDirectionProperty(InlineStyleAccessPropertyBag_FlexDirectionProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexDirectionProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_FlexDirectionProperty(InlineStyleAccessPropertyBag_FlexDirectionProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexDirectionProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_FlexDirectionProperty(InlineStyleAccessPropertyBag_FlexDirectionProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4748 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4748};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexDirectionProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/FlexGrowProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_FlexGrowProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9848c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0a6d4, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexGrowProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexGrowProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a98534, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b0a77c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a935ac, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b057f4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98484, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0a6cc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a983fc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0a644, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98440, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0a688, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_FlexGrowProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_FlexGrowProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexGrowProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_FlexGrowProperty(InlineStyleAccessPropertyBag_FlexGrowProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexGrowProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_FlexGrowProperty(InlineStyleAccessPropertyBag_FlexGrowProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexGrowProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_FlexGrowProperty(InlineStyleAccessPropertyBag_FlexGrowProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexGrowProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_FlexGrowProperty(InlineStyleAccessPropertyBag_FlexGrowProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4749 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4749};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexGrowProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/FlexShrinkProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_FlexShrinkProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9867c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0a8c4, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexShrinkProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexShrinkProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a98724, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b0a96c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a935b0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b057f8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98674, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0a8bc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a985ec, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0a834, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98630, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0a878, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_FlexShrinkProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_FlexShrinkProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexShrinkProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_FlexShrinkProperty(InlineStyleAccessPropertyBag_FlexShrinkProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexShrinkProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_FlexShrinkProperty(InlineStyleAccessPropertyBag_FlexShrinkProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexShrinkProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_FlexShrinkProperty(InlineStyleAccessPropertyBag_FlexShrinkProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexShrinkProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_FlexShrinkProperty(InlineStyleAccessPropertyBag_FlexShrinkProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4750 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4750};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexShrinkProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.Wrap
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/FlexWrapProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_FlexWrapProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Wrap> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9886c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0aab4, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexWrapProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexWrapProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a98914, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap>  value) ;
+  /// @brief Method SetValue, addr 0x6b0ab5c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap> value);
 
-/// @brief Method .ctor, addr 0x6a935b4, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b057fc, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98864, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0aaac, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a987dc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0aa24, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98820, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0aa68, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_FlexWrapProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_FlexWrapProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexWrapProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_FlexWrapProperty(InlineStyleAccessPropertyBag_FlexWrapProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexWrapProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_FlexWrapProperty(InlineStyleAccessPropertyBag_FlexWrapProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexWrapProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_FlexWrapProperty(InlineStyleAccessPropertyBag_FlexWrapProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexWrapProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_FlexWrapProperty(InlineStyleAccessPropertyBag_FlexWrapProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4751 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4751};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexWrapProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/FontSizeProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_FontSizeProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a98a5c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0aca4, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FontSizeProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FontSizeProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a98b0c, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0ad54, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a9360c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05854, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98a54, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ac9c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a989cc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0ac14, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98a10, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ac58, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_FontSizeProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_FontSizeProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FontSizeProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_FontSizeProperty(InlineStyleAccessPropertyBag_FontSizeProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FontSizeProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_FontSizeProperty(InlineStyleAccessPropertyBag_FontSizeProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FontSizeProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_FontSizeProperty(InlineStyleAccessPropertyBag_FontSizeProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FontSizeProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_FontSizeProperty(InlineStyleAccessPropertyBag_FontSizeProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4752 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4752};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FontSizeProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/HeightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_HeightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a98c5c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0aea4, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a98d0c, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0af54, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93610, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05858, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98c54, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ae9c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a98bcc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0ae14, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98c10, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ae58, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_HeightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_HeightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_HeightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_HeightProperty(InlineStyleAccessPropertyBag_HeightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_HeightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_HeightProperty(InlineStyleAccessPropertyBag_HeightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_HeightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_HeightProperty(InlineStyleAccessPropertyBag_HeightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_HeightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_HeightProperty(InlineStyleAccessPropertyBag_HeightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4753 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4753};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.Justify
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/JustifyContentProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_JustifyContentProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Justify> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a98e5c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0b0a4, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_JustifyContentProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_JustifyContentProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a98f04, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify>  value) ;
+  /// @brief Method SetValue, addr 0x6b0b14c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify> value);
 
-/// @brief Method .ctor, addr 0x6a93614, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0585c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a98e54, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0b09c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a98dcc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0b014, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a98e10, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0b058, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_JustifyContentProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_JustifyContentProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_JustifyContentProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_JustifyContentProperty(InlineStyleAccessPropertyBag_JustifyContentProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_JustifyContentProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_JustifyContentProperty(InlineStyleAccessPropertyBag_JustifyContentProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_JustifyContentProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_JustifyContentProperty(InlineStyleAccessPropertyBag_JustifyContentProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_JustifyContentProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_JustifyContentProperty(InlineStyleAccessPropertyBag_JustifyContentProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4754 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4754};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_JustifyContentProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/LeftProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_LeftProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9904c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0b294, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LeftProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LeftProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a990fc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0b344, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a9366c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058b4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99044, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0b28c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a98fbc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0b204, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99000, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0b248, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_LeftProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_LeftProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LeftProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_LeftProperty(InlineStyleAccessPropertyBag_LeftProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LeftProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_LeftProperty(InlineStyleAccessPropertyBag_LeftProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LeftProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_LeftProperty(InlineStyleAccessPropertyBag_LeftProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LeftProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_LeftProperty(InlineStyleAccessPropertyBag_LeftProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4755 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4755};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LeftProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/LetterSpacingProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_LetterSpacingProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9924c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0b494, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LetterSpacingProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LetterSpacingProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a992fc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0b544, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93670, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058b8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99244, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0b48c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a991bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0b404, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99200, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0b448, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_LetterSpacingProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_LetterSpacingProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LetterSpacingProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_LetterSpacingProperty(InlineStyleAccessPropertyBag_LetterSpacingProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LetterSpacingProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_LetterSpacingProperty(InlineStyleAccessPropertyBag_LetterSpacingProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LetterSpacingProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_LetterSpacingProperty(InlineStyleAccessPropertyBag_LetterSpacingProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LetterSpacingProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_LetterSpacingProperty(InlineStyleAccessPropertyBag_LetterSpacingProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4756 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4756};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LetterSpacingProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MarginBottomProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MarginBottomProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9944c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0b694, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginBottomProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginBottomProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a994fc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0b744, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93674, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058bc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99444, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0b68c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a993bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0b604, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99400, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0b648, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MarginBottomProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MarginBottomProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginBottomProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MarginBottomProperty(InlineStyleAccessPropertyBag_MarginBottomProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginBottomProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MarginBottomProperty(InlineStyleAccessPropertyBag_MarginBottomProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginBottomProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MarginBottomProperty(InlineStyleAccessPropertyBag_MarginBottomProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginBottomProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MarginBottomProperty(InlineStyleAccessPropertyBag_MarginBottomProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4757 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4757};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginBottomProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MarginLeftProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MarginLeftProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9964c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0b894, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginLeftProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginLeftProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a996fc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0b944, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93678, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058c0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99644, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0b88c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a995bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0b804, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99600, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0b848, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MarginLeftProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MarginLeftProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginLeftProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MarginLeftProperty(InlineStyleAccessPropertyBag_MarginLeftProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginLeftProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MarginLeftProperty(InlineStyleAccessPropertyBag_MarginLeftProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginLeftProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MarginLeftProperty(InlineStyleAccessPropertyBag_MarginLeftProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginLeftProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MarginLeftProperty(InlineStyleAccessPropertyBag_MarginLeftProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4758 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4758};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginLeftProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MarginRightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MarginRightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9984c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0ba94, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginRightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginRightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a998fc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0bb44, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a9367c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058c4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99844, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ba8c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a997bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0ba04, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99800, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ba48, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MarginRightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MarginRightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginRightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MarginRightProperty(InlineStyleAccessPropertyBag_MarginRightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginRightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MarginRightProperty(InlineStyleAccessPropertyBag_MarginRightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginRightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MarginRightProperty(InlineStyleAccessPropertyBag_MarginRightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginRightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MarginRightProperty(InlineStyleAccessPropertyBag_MarginRightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4759 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4759};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginRightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MarginTopProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MarginTopProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a99a4c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0bc94, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginTopProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginTopProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a99afc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0bd44, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93680, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058c8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99a44, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0bc8c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a999bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0bc04, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99a00, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0bc48, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MarginTopProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MarginTopProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginTopProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MarginTopProperty(InlineStyleAccessPropertyBag_MarginTopProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginTopProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MarginTopProperty(InlineStyleAccessPropertyBag_MarginTopProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginTopProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MarginTopProperty(InlineStyleAccessPropertyBag_MarginTopProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginTopProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MarginTopProperty(InlineStyleAccessPropertyBag_MarginTopProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4760 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4760};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginTopProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MaxHeightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MaxHeightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a99c4c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0be94, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxHeightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxHeightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a99cfc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0bf44, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93684, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058cc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99c44, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0be8c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a99bbc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0be04, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99c00, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0be48, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MaxHeightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MaxHeightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxHeightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MaxHeightProperty(InlineStyleAccessPropertyBag_MaxHeightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxHeightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MaxHeightProperty(InlineStyleAccessPropertyBag_MaxHeightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxHeightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MaxHeightProperty(InlineStyleAccessPropertyBag_MaxHeightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxHeightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MaxHeightProperty(InlineStyleAccessPropertyBag_MaxHeightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4761 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4761};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxHeightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MaxWidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MaxWidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a99e4c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0c094, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxWidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxWidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a99efc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0c144, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93688, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058d0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a99e44, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0c08c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a99dbc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0c004, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a99e00, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0c048, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MaxWidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MaxWidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxWidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MaxWidthProperty(InlineStyleAccessPropertyBag_MaxWidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxWidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MaxWidthProperty(InlineStyleAccessPropertyBag_MaxWidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxWidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MaxWidthProperty(InlineStyleAccessPropertyBag_MaxWidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxWidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MaxWidthProperty(InlineStyleAccessPropertyBag_MaxWidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4762 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4762};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxWidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MinHeightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MinHeightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9a04c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0c294, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinHeightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinHeightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9a0fc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0c344, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a9368c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058d4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9a044, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0c28c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a99fbc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0c204, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9a000, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0c248, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MinHeightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MinHeightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinHeightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MinHeightProperty(InlineStyleAccessPropertyBag_MinHeightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinHeightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MinHeightProperty(InlineStyleAccessPropertyBag_MinHeightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinHeightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MinHeightProperty(InlineStyleAccessPropertyBag_MinHeightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinHeightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MinHeightProperty(InlineStyleAccessPropertyBag_MinHeightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4763 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4763};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinHeightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/MinWidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_MinWidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9a24c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0c494, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinWidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinWidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9a2fc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0c544, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93690, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058d8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9a244, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0c48c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9a1bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0c404, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9a200, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0c448, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_MinWidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_MinWidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinWidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_MinWidthProperty(InlineStyleAccessPropertyBag_MinWidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinWidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_MinWidthProperty(InlineStyleAccessPropertyBag_MinWidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinWidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_MinWidthProperty(InlineStyleAccessPropertyBag_MinWidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinWidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_MinWidthProperty(InlineStyleAccessPropertyBag_MinWidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4764 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4764};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinWidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/OpacityProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_OpacityProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9a44c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0c694, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OpacityProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OpacityProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9a4f4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b0c73c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a93694, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058dc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9a444, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0c68c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9a3bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0c604, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9a400, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0c648, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_OpacityProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_OpacityProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OpacityProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_OpacityProperty(InlineStyleAccessPropertyBag_OpacityProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OpacityProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_OpacityProperty(InlineStyleAccessPropertyBag_OpacityProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OpacityProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_OpacityProperty(InlineStyleAccessPropertyBag_OpacityProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OpacityProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_OpacityProperty(InlineStyleAccessPropertyBag_OpacityProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4765 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4765};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OpacityProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.Overflow
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/OverflowProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_OverflowProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Overflow> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9a63c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0c884, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OverflowProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OverflowProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9a6e4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow>  value) ;
+  /// @brief Method SetValue, addr 0x6b0c92c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> value);
 
-/// @brief Method .ctor, addr 0x6a93698, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b058e0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9a634, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0c87c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9a5ac, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0c7f4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9a5f0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0c838, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_OverflowProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_OverflowProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OverflowProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_OverflowProperty(InlineStyleAccessPropertyBag_OverflowProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OverflowProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_OverflowProperty(InlineStyleAccessPropertyBag_OverflowProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OverflowProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_OverflowProperty(InlineStyleAccessPropertyBag_OverflowProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OverflowProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_OverflowProperty(InlineStyleAccessPropertyBag_OverflowProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4766 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4766};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OverflowProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/PaddingBottomProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_PaddingBottomProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9a82c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0ca74, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingBottomProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingBottomProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9a8dc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0cb24, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a936f0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05938, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9a824, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ca6c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9a79c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0c9e4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9a7e0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ca28, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_PaddingBottomProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_PaddingBottomProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingBottomProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_PaddingBottomProperty(InlineStyleAccessPropertyBag_PaddingBottomProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingBottomProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_PaddingBottomProperty(InlineStyleAccessPropertyBag_PaddingBottomProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingBottomProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_PaddingBottomProperty(InlineStyleAccessPropertyBag_PaddingBottomProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingBottomProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_PaddingBottomProperty(InlineStyleAccessPropertyBag_PaddingBottomProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4767 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4767};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingBottomProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/PaddingLeftProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_PaddingLeftProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9aa2c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0cc74, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingLeftProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingLeftProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9aadc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0cd24, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a936f4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0593c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9aa24, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0cc6c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9a99c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0cbe4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9a9e0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0cc28, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_PaddingLeftProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_PaddingLeftProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingLeftProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_PaddingLeftProperty(InlineStyleAccessPropertyBag_PaddingLeftProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingLeftProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_PaddingLeftProperty(InlineStyleAccessPropertyBag_PaddingLeftProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingLeftProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_PaddingLeftProperty(InlineStyleAccessPropertyBag_PaddingLeftProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingLeftProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_PaddingLeftProperty(InlineStyleAccessPropertyBag_PaddingLeftProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4768 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4768};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingLeftProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/PaddingRightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_PaddingRightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9ac2c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0ce74, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingRightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingRightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9acdc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0cf24, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a936f8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05940, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9ac24, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ce6c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9ab9c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0cde4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9abe0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ce28, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_PaddingRightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_PaddingRightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingRightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_PaddingRightProperty(InlineStyleAccessPropertyBag_PaddingRightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingRightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_PaddingRightProperty(InlineStyleAccessPropertyBag_PaddingRightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingRightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_PaddingRightProperty(InlineStyleAccessPropertyBag_PaddingRightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingRightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_PaddingRightProperty(InlineStyleAccessPropertyBag_PaddingRightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4769 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4769};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingRightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/PaddingTopProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_PaddingTopProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9ae2c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0d074, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingTopProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingTopProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9aedc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0d124, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a936fc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05944, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9ae24, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0d06c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9ad9c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0cfe4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9ade0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0d028, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_PaddingTopProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_PaddingTopProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingTopProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_PaddingTopProperty(InlineStyleAccessPropertyBag_PaddingTopProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingTopProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_PaddingTopProperty(InlineStyleAccessPropertyBag_PaddingTopProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingTopProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_PaddingTopProperty(InlineStyleAccessPropertyBag_PaddingTopProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingTopProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_PaddingTopProperty(InlineStyleAccessPropertyBag_PaddingTopProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4770 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4770};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingTopProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.Position
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/PositionProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_PositionProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Position> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9b02c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0d274, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PositionProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PositionProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9b0d4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position>  value) ;
+  /// @brief Method SetValue, addr 0x6b0d31c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> value);
 
-/// @brief Method .ctor, addr 0x6a93700, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05948, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9b024, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0d26c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9af9c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0d1e4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9afe0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0d228, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_PositionProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_PositionProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PositionProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_PositionProperty(InlineStyleAccessPropertyBag_PositionProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PositionProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_PositionProperty(InlineStyleAccessPropertyBag_PositionProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PositionProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_PositionProperty(InlineStyleAccessPropertyBag_PositionProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PositionProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_PositionProperty(InlineStyleAccessPropertyBag_PositionProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4771 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4771};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PositionProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/RightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_RightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9b21c, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0d464, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9b2cc, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0d514, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93758, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b059a0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9b214, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0d45c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9b18c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0d3d4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9b1d0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0d418, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_RightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_RightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_RightProperty(InlineStyleAccessPropertyBag_RightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_RightProperty(InlineStyleAccessPropertyBag_RightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_RightProperty(InlineStyleAccessPropertyBag_RightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_RightProperty(InlineStyleAccessPropertyBag_RightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4772 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4772};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.Rotate, UnityEngine.UIElements.StyleRotate
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleRotateProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleRotateProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleRotate,::UnityEngine::UIElements::Rotate> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleRotateProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleRotate, ::UnityEngine::UIElements::Rotate> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9b5d8, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0d820, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleRotateProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleRotateProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleRotateProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleRotateProperty(InlineStyleAccessPropertyBag_InlineStyleRotateProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleRotateProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleRotateProperty(InlineStyleAccessPropertyBag_InlineStyleRotateProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleRotateProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleRotateProperty(InlineStyleAccessPropertyBag_InlineStyleRotateProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleRotateProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleRotateProperty(InlineStyleAccessPropertyBag_InlineStyleRotateProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4821 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4821};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleRotateProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/RotateProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_RotateProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9b41c, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleRotate GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0d664, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleRotate GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RotateProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RotateProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9b4f0, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleRotate  value) ;
+  /// @brief Method SetValue, addr 0x6b0d738, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleRotate value);
 
-/// @brief Method .ctor, addr 0x6a9375c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b059a4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9b414, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0d65c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9b38c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0d5d4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9b3d0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0d618, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_RotateProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_RotateProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RotateProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_RotateProperty(InlineStyleAccessPropertyBag_RotateProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RotateProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_RotateProperty(InlineStyleAccessPropertyBag_RotateProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RotateProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_RotateProperty(InlineStyleAccessPropertyBag_RotateProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RotateProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_RotateProperty(InlineStyleAccessPropertyBag_RotateProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4773 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4773};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RotateProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.Scale, UnityEngine.UIElements.StyleScale
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleScaleProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleScaleProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleScale,::UnityEngine::UIElements::Scale> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleScaleProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleScale, ::UnityEngine::UIElements::Scale> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleScaleProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleScaleProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9b870, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0dab8, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleScaleProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleScaleProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleScaleProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleScaleProperty(InlineStyleAccessPropertyBag_InlineStyleScaleProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleScaleProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleScaleProperty(InlineStyleAccessPropertyBag_InlineStyleScaleProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleScaleProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleScaleProperty(InlineStyleAccessPropertyBag_InlineStyleScaleProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleScaleProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleScaleProperty(InlineStyleAccessPropertyBag_InlineStyleScaleProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4822 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4822};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleScaleProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleScaleProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/ScaleProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_ScaleProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleScaleProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9b6b4, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleScale GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0d8fc, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleScale GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ScaleProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ScaleProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9b788, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleScale  value) ;
+  /// @brief Method SetValue, addr 0x6b0d9d0, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleScale value);
 
-/// @brief Method .ctor, addr 0x6a93760, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b059a8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9b6ac, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0d8f4, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9b624, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0d86c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9b668, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0d8b0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_ScaleProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_ScaleProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ScaleProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_ScaleProperty(InlineStyleAccessPropertyBag_ScaleProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ScaleProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_ScaleProperty(InlineStyleAccessPropertyBag_ScaleProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ScaleProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_ScaleProperty(InlineStyleAccessPropertyBag_ScaleProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ScaleProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_ScaleProperty(InlineStyleAccessPropertyBag_ScaleProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4774 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4774};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ScaleProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.TextOverflow
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TextOverflowProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_TextOverflowProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::TextOverflow> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9b94c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0db94, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextOverflowProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextOverflowProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9b9f4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow>  value) ;
+  /// @brief Method SetValue, addr 0x6b0dc3c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow> value);
 
-/// @brief Method .ctor, addr 0x6a93764, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b059ac, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9b944, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0db8c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9b8bc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0db04, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9b900, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0db48, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TextOverflowProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TextOverflowProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextOverflowProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TextOverflowProperty(InlineStyleAccessPropertyBag_TextOverflowProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextOverflowProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TextOverflowProperty(InlineStyleAccessPropertyBag_TextOverflowProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextOverflowProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TextOverflowProperty(InlineStyleAccessPropertyBag_TextOverflowProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextOverflowProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TextOverflowProperty(InlineStyleAccessPropertyBag_TextOverflowProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4775 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4775};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextOverflowProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleTextShadow, UnityEngine.UIElements.TextShadow
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleTextShadowProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleTextShadow,::UnityEngine::UIElements::TextShadow> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleTextShadow, ::UnityEngine::UIElements::TextShadow> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9bce0, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0df28, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty(InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty(InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty(InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty(InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4824 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4824};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleTextShadowProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TextShadowProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_TextShadowProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9bb3c, size 0xcc, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleTextShadow GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0dd84, size 0xcc, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleTextShadow GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextShadowProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextShadowProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9bc08, size 0xd8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleTextShadow  value) ;
+  /// @brief Method SetValue, addr 0x6b0de50, size 0xd8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleTextShadow value);
 
-/// @brief Method .ctor, addr 0x6a937bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05a04, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9bb34, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0dd7c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9baac, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0dcf4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9baf0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0dd38, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TextShadowProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TextShadowProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextShadowProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TextShadowProperty(InlineStyleAccessPropertyBag_TextShadowProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextShadowProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TextShadowProperty(InlineStyleAccessPropertyBag_TextShadowProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextShadowProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TextShadowProperty(InlineStyleAccessPropertyBag_TextShadowProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextShadowProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TextShadowProperty(InlineStyleAccessPropertyBag_TextShadowProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4776 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4776};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextShadowProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TopProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_TopProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9bdbc, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0e004, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TopProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TopProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9be6c, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0e0b4, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a937c0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05a08, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9bdb4, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0dffc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9bd2c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0df74, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9bd70, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0dfb8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TopProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TopProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TopProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TopProperty(InlineStyleAccessPropertyBag_TopProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TopProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TopProperty(InlineStyleAccessPropertyBag_TopProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TopProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TopProperty(InlineStyleAccessPropertyBag_TopProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TopProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TopProperty(InlineStyleAccessPropertyBag_TopProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4777 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4777};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TopProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleTransformOrigin, UnityEngine.UIElements.TransformOrigin
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleTransformOriginProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleTransformOrigin,::UnityEngine::UIElements::TransformOrigin> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleTransformOrigin, ::UnityEngine::UIElements::TransformOrigin> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9c174, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0e3bc, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty(InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty(InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty(InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty(InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4825 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4825};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleTransformOriginProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TransformOriginProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_TransformOriginProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9bfbc, size 0xd0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleTransformOrigin GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0e204, size 0xd0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleTransformOrigin GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransformOriginProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransformOriginProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9c08c, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleTransformOrigin  value) ;
+  /// @brief Method SetValue, addr 0x6b0e2d4, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleTransformOrigin value);
 
-/// @brief Method .ctor, addr 0x6a937c4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05a0c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9bfb4, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0e1fc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9bf2c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0e174, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9bf70, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0e1b8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TransformOriginProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TransformOriginProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransformOriginProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TransformOriginProperty(InlineStyleAccessPropertyBag_TransformOriginProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransformOriginProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TransformOriginProperty(InlineStyleAccessPropertyBag_TransformOriginProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransformOriginProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TransformOriginProperty(InlineStyleAccessPropertyBag_TransformOriginProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransformOriginProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TransformOriginProperty(InlineStyleAccessPropertyBag_TransformOriginProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4778 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4778};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransformOriginProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleList`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
-template<typename T>
+template <typename T>
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleListProperty`1<T>
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleListProperty_1 : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleList_1<T>,::System::Collections::Generic::List_1<T>*> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleListProperty_1
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleList_1<T>, ::System::Collections::Generic::List_1<T>*> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<T>* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<T>* New_ctor();
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleListProperty_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleListProperty_1();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleListProperty_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleListProperty_1(InlineStyleAccessPropertyBag_InlineStyleListProperty_1&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleListProperty_1", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleListProperty_1(InlineStyleAccessPropertyBag_InlineStyleListProperty_1 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleListProperty_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleListProperty_1(InlineStyleAccessPropertyBag_InlineStyleListProperty_1 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleListProperty_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleListProperty_1(InlineStyleAccessPropertyBag_InlineStyleListProperty_1 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4816 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4816};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleListProperty`1<T>, UnityEngine.UIElements.TimeValue
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TransitionDelayProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_TransitionDelayProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<::UnityEngine::UIElements::TimeValue> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9c250, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0e498, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDelayProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDelayProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9c2f8, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue>  value) ;
+  /// @brief Method SetValue, addr 0x6b0e540, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> value);
 
-/// @brief Method .ctor, addr 0x6a937c8, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05a10, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9c248, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0e490, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9c1c0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0e408, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9c204, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0e44c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TransitionDelayProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TransitionDelayProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDelayProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TransitionDelayProperty(InlineStyleAccessPropertyBag_TransitionDelayProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDelayProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TransitionDelayProperty(InlineStyleAccessPropertyBag_TransitionDelayProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDelayProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TransitionDelayProperty(InlineStyleAccessPropertyBag_TransitionDelayProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDelayProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TransitionDelayProperty(InlineStyleAccessPropertyBag_TransitionDelayProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4779 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4779};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDelayProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleListProperty`1<T>, UnityEngine.UIElements.TimeValue
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TransitionDurationProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_TransitionDurationProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<::UnityEngine::UIElements::TimeValue> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_TransitionDurationProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<::UnityEngine::UIElements::TimeValue> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9c448, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0e690, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDurationProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDurationProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9c4f0, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue>  value) ;
+  /// @brief Method SetValue, addr 0x6b0e738, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> value);
 
-/// @brief Method .ctor, addr 0x6a93820, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05a68, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9c440, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0e688, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9c3b8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0e600, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9c3fc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0e644, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TransitionDurationProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TransitionDurationProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDurationProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TransitionDurationProperty(InlineStyleAccessPropertyBag_TransitionDurationProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDurationProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TransitionDurationProperty(InlineStyleAccessPropertyBag_TransitionDurationProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDurationProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TransitionDurationProperty(InlineStyleAccessPropertyBag_TransitionDurationProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDurationProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TransitionDurationProperty(InlineStyleAccessPropertyBag_TransitionDurationProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4780 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4780};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDurationProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleListProperty`1<T>, UnityEngine.UIElements.StylePropertyName
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TransitionPropertyProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_TransitionPropertyProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<::UnityEngine::UIElements::StylePropertyName> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_TransitionPropertyProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<::UnityEngine::UIElements::StylePropertyName> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9c640, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0e888, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9c6e8, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName>  value) ;
+  /// @brief Method SetValue, addr 0x6b0e930, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName> value);
 
-/// @brief Method .ctor, addr 0x6a93878, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05ac0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9c638, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0e880, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9c5b0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0e7f8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9c5f4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0e83c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TransitionPropertyProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TransitionPropertyProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionPropertyProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TransitionPropertyProperty(InlineStyleAccessPropertyBag_TransitionPropertyProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionPropertyProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TransitionPropertyProperty(InlineStyleAccessPropertyBag_TransitionPropertyProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionPropertyProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TransitionPropertyProperty(InlineStyleAccessPropertyBag_TransitionPropertyProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionPropertyProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TransitionPropertyProperty(InlineStyleAccessPropertyBag_TransitionPropertyProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4781 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4781};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.EasingFunction, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleListProperty`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TransitionTimingFunctionProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<::UnityEngine::UIElements::EasingFunction> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<::UnityEngine::UIElements::EasingFunction> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9c838, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0ea80, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9c8e0, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction>  value) ;
+  /// @brief Method SetValue, addr 0x6b0eb28, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction> value);
 
-/// @brief Method .ctor, addr 0x6a938d0, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05b18, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9c830, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ea78, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9c7a8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0e9f0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9c7ec, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ea34, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty(InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty(InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty(InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty(InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4782 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4782};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleTranslate, UnityEngine.UIElements.Translate
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleTranslateProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleTranslateProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleTranslate,::UnityEngine::UIElements::Translate> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleTranslateProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleTranslate, ::UnityEngine::UIElements::Translate> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9cbec, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0ee34, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleTranslateProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleTranslateProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTranslateProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleTranslateProperty(InlineStyleAccessPropertyBag_InlineStyleTranslateProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTranslateProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleTranslateProperty(InlineStyleAccessPropertyBag_InlineStyleTranslateProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTranslateProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleTranslateProperty(InlineStyleAccessPropertyBag_InlineStyleTranslateProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTranslateProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleTranslateProperty(InlineStyleAccessPropertyBag_InlineStyleTranslateProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4826 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4826};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleTranslateProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/TranslateProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_TranslateProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9ca30, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleTranslate GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0ec78, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleTranslate GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9cb04, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleTranslate  value) ;
+  /// @brief Method SetValue, addr 0x6b0ed4c, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleTranslate value);
 
-/// @brief Method .ctor, addr 0x6a93928, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05b70, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9ca28, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ec70, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9c9a0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0ebe8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9c9e4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ec2c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_TranslateProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_TranslateProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TranslateProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_TranslateProperty(InlineStyleAccessPropertyBag_TranslateProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TranslateProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_TranslateProperty(InlineStyleAccessPropertyBag_TranslateProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TranslateProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_TranslateProperty(InlineStyleAccessPropertyBag_TranslateProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TranslateProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_TranslateProperty(InlineStyleAccessPropertyBag_TranslateProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4783 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4783};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityBackgroundImageTintColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9ccc8, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0ef10, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9cd9c, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b0efe4, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a9392c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05b74, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9ccc0, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ef08, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9cc38, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0ee80, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9cc7c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0eec4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty(InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty(InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty(InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty(InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4784 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4784};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.EditorTextRenderingMode, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityEditorTextRenderingModeProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::EditorTextRenderingMode> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::EditorTextRenderingMode> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9cf14, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0f15c, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9cfbc, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode>  value) ;
+  /// @brief Method SetValue, addr 0x6b0f204, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode> value);
 
-/// @brief Method .ctor, addr 0x6a93930, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05b78, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9cf0c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0f154, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9ce84, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0f0cc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9cec8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0f110, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty(InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty(InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty(InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty(InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4785 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4785};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleFont
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleFontProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleFontProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleFont,::UnityW<::UnityEngine::Font>> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleFontProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleFont, ::UnityW<::UnityEngine::Font>> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9d26c, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0f4b4, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleFontProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleFontProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleFontProperty(InlineStyleAccessPropertyBag_InlineStyleFontProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleFontProperty(InlineStyleAccessPropertyBag_InlineStyleFontProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleFontProperty(InlineStyleAccessPropertyBag_InlineStyleFontProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleFontProperty(InlineStyleAccessPropertyBag_InlineStyleFontProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4817 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4817};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFontProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityFontProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityFontProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9d104, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFont GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0f34c, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFont GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9d1ac, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFont  value) ;
+  /// @brief Method SetValue, addr 0x6b0f3f4, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFont value);
 
-/// @brief Method .ctor, addr 0x6a93988, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05bd0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9d0fc, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0f344, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9d074, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0f2bc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9d0b8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0f300, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityFontProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityFontProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityFontProperty(InlineStyleAccessPropertyBag_UnityFontProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityFontProperty(InlineStyleAccessPropertyBag_UnityFontProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityFontProperty(InlineStyleAccessPropertyBag_UnityFontProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityFontProperty(InlineStyleAccessPropertyBag_UnityFontProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4786 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4786};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.FontDefinition, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleFontDefinition
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleFontDefinitionProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleFontDefinition,::UnityEngine::UIElements::FontDefinition> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleFontDefinition, ::UnityEngine::UIElements::FontDefinition> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c;
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9d500, size 0x394, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b0f748, size 0x394, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty(InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty(InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty(InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty(InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4819 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4819};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFontDefinitionProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityFontDefinitionProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityFontDefinitionProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9d348, size 0xd0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFontDefinition GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0f590, size 0xd0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFontDefinition GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9d418, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFontDefinition  value) ;
+  /// @brief Method SetValue, addr 0x6b0f660, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFontDefinition value);
 
-/// @brief Method .ctor, addr 0x6a9398c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05bd4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9d340, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0f588, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9d2b8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0f500, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9d2fc, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0f544, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityFontDefinitionProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityFontDefinitionProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontDefinitionProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityFontDefinitionProperty(InlineStyleAccessPropertyBag_UnityFontDefinitionProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontDefinitionProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityFontDefinitionProperty(InlineStyleAccessPropertyBag_UnityFontDefinitionProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontDefinitionProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityFontDefinitionProperty(InlineStyleAccessPropertyBag_UnityFontDefinitionProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontDefinitionProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityFontDefinitionProperty(InlineStyleAccessPropertyBag_UnityFontDefinitionProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4787 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4787};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.FontStyle, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityFontStyleAndWeightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::FontStyle> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9d924, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0fb6c, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9d9cc, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle>  value) ;
+  /// @brief Method SetValue, addr 0x6b0fc14, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> value);
 
-/// @brief Method .ctor, addr 0x6a93990, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05bd8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9d91c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0fb64, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9d894, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0fadc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9d8d8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0fb20, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty(InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty(InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty(InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty(InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4788 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4788};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.OverflowClipBox
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityOverflowClipBoxProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::OverflowClipBox> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::OverflowClipBox> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9db14, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0fd5c, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9dbbc, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox>  value) ;
+  /// @brief Method SetValue, addr 0x6b0fe04, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> value);
 
-/// @brief Method .ctor, addr 0x6a939e8, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05c30, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9db0c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0fd54, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9da84, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0fccc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9dac8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0fd10, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty(InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty(InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty(InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty(InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4789 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4789};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityParagraphSpacingProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9dd04, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b0ff4c, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9ddb4, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b0fffc, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93a40, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05c88, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9dcfc, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b0ff44, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9dc74, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b0febc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9dcb8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b0ff00, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty(InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty(InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty(InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty(InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4790 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4790};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleInt
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleIntProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleIntProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleInt,int32_t> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleIntProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<::UnityEngine::UIElements::StyleInt, int32_t> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a9e064, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b102ac, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_InlineStyleIntProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_InlineStyleIntProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleIntProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_InlineStyleIntProperty(InlineStyleAccessPropertyBag_InlineStyleIntProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleIntProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_InlineStyleIntProperty(InlineStyleAccessPropertyBag_InlineStyleIntProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleIntProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_InlineStyleIntProperty(InlineStyleAccessPropertyBag_InlineStyleIntProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleIntProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_InlineStyleIntProperty(InlineStyleAccessPropertyBag_InlineStyleIntProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4820 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4820};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleIntProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnitySliceBottomProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnitySliceBottomProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9df04, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b1014c, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceBottomProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceBottomProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9dfac, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleInt  value) ;
+  /// @brief Method SetValue, addr 0x6b101f4, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-/// @brief Method .ctor, addr 0x6a93a44, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05c8c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9defc, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10144, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9de74, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b100bc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9deb8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b10100, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnitySliceBottomProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnitySliceBottomProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceBottomProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnitySliceBottomProperty(InlineStyleAccessPropertyBag_UnitySliceBottomProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceBottomProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnitySliceBottomProperty(InlineStyleAccessPropertyBag_UnitySliceBottomProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceBottomProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnitySliceBottomProperty(InlineStyleAccessPropertyBag_UnitySliceBottomProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceBottomProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnitySliceBottomProperty(InlineStyleAccessPropertyBag_UnitySliceBottomProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4791 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4791};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceBottomProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleIntProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnitySliceLeftProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnitySliceLeftProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9e140, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b10388, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceLeftProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceLeftProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9e1e8, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleInt  value) ;
+  /// @brief Method SetValue, addr 0x6b10430, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-/// @brief Method .ctor, addr 0x6a93a48, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05c90, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9e138, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10380, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9e0b0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b102f8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9e0f4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b1033c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnitySliceLeftProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnitySliceLeftProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceLeftProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnitySliceLeftProperty(InlineStyleAccessPropertyBag_UnitySliceLeftProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceLeftProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnitySliceLeftProperty(InlineStyleAccessPropertyBag_UnitySliceLeftProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceLeftProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnitySliceLeftProperty(InlineStyleAccessPropertyBag_UnitySliceLeftProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceLeftProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnitySliceLeftProperty(InlineStyleAccessPropertyBag_UnitySliceLeftProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4792 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4792};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceLeftProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleIntProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnitySliceRightProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnitySliceRightProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9e330, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b10578, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceRightProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceRightProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9e3d8, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleInt  value) ;
+  /// @brief Method SetValue, addr 0x6b10620, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-/// @brief Method .ctor, addr 0x6a93a4c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05c94, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9e328, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10570, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9e2a0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b104e8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9e2e4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b1052c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnitySliceRightProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnitySliceRightProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceRightProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnitySliceRightProperty(InlineStyleAccessPropertyBag_UnitySliceRightProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceRightProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnitySliceRightProperty(InlineStyleAccessPropertyBag_UnitySliceRightProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceRightProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnitySliceRightProperty(InlineStyleAccessPropertyBag_UnitySliceRightProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceRightProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnitySliceRightProperty(InlineStyleAccessPropertyBag_UnitySliceRightProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4793 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4793};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceRightProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnitySliceScaleProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnitySliceScaleProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9e520, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b10768, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceScaleProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceScaleProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9e5c8, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b10810, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a93a50, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05c98, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9e518, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10760, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9e490, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b106d8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9e4d4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b1071c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnitySliceScaleProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnitySliceScaleProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceScaleProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnitySliceScaleProperty(InlineStyleAccessPropertyBag_UnitySliceScaleProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceScaleProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnitySliceScaleProperty(InlineStyleAccessPropertyBag_UnitySliceScaleProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceScaleProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnitySliceScaleProperty(InlineStyleAccessPropertyBag_UnitySliceScaleProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceScaleProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnitySliceScaleProperty(InlineStyleAccessPropertyBag_UnitySliceScaleProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4794 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4794};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceScaleProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleIntProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnitySliceTopProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnitySliceTopProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9e710, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b10958, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleInt GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceTopProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceTopProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9e7b8, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleInt  value) ;
+  /// @brief Method SetValue, addr 0x6b10a00, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleInt value);
 
-/// @brief Method .ctor, addr 0x6a93a54, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05c9c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9e708, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10950, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9e680, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b108c8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9e6c4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b1090c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnitySliceTopProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnitySliceTopProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceTopProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnitySliceTopProperty(InlineStyleAccessPropertyBag_UnitySliceTopProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceTopProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnitySliceTopProperty(InlineStyleAccessPropertyBag_UnitySliceTopProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceTopProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnitySliceTopProperty(InlineStyleAccessPropertyBag_UnitySliceTopProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceTopProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnitySliceTopProperty(InlineStyleAccessPropertyBag_UnitySliceTopProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4795 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4795};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceTopProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.TextAnchor, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityTextAlignProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityTextAlignProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::TextAnchor> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9e900, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b10b48, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextAlignProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextAlignProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9e9a8, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor>  value) ;
+  /// @brief Method SetValue, addr 0x6b10bf0, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> value);
 
-/// @brief Method .ctor, addr 0x6a93a58, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05ca0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9e8f8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10b40, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9e870, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b10ab8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9e8b4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b10afc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityTextAlignProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityTextAlignProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextAlignProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityTextAlignProperty(InlineStyleAccessPropertyBag_UnityTextAlignProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextAlignProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityTextAlignProperty(InlineStyleAccessPropertyBag_UnityTextAlignProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextAlignProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityTextAlignProperty(InlineStyleAccessPropertyBag_UnityTextAlignProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextAlignProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityTextAlignProperty(InlineStyleAccessPropertyBag_UnityTextAlignProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4796 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4796};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextAlignProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.TextGeneratorType, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityTextGeneratorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityTextGeneratorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::TextGeneratorType> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9eaf0, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b10d38, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextGeneratorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextGeneratorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9eb98, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType>  value) ;
+  /// @brief Method SetValue, addr 0x6b10de0, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> value);
 
-/// @brief Method .ctor, addr 0x6a93ab0, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05cf8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9eae8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10d30, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9ea60, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b10ca8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9eaa4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b10cec, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityTextGeneratorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityTextGeneratorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextGeneratorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityTextGeneratorProperty(InlineStyleAccessPropertyBag_UnityTextGeneratorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextGeneratorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityTextGeneratorProperty(InlineStyleAccessPropertyBag_UnityTextGeneratorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextGeneratorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityTextGeneratorProperty(InlineStyleAccessPropertyBag_UnityTextGeneratorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextGeneratorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityTextGeneratorProperty(InlineStyleAccessPropertyBag_UnityTextGeneratorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4797 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4797};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextGeneratorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleColorProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityTextOutlineColorProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9ece0, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b10f28, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9edb4, size 0xe8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleColor  value) ;
+  /// @brief Method SetValue, addr 0x6b10ffc, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleColor value);
 
-/// @brief Method .ctor, addr 0x6a93b08, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05d50, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9ecd8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b10f20, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9ec50, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b10e98, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9ec94, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b10edc, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty(InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty(InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty(InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty(InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4798 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4798};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleFloatProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityTextOutlineWidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9ef2c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b11174, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9efd4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleFloat  value) ;
+  /// @brief Method SetValue, addr 0x6b1121c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleFloat value);
 
-/// @brief Method .ctor, addr 0x6a93b0c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05d54, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9ef24, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b1116c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9ee9c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b110e4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9eee0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b11128, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty(InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty(InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty(InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty(InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4799 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4799};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.TextOverflowPosition
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/UnityTextOverflowPositionProperty
-class CORDL_TYPE InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::TextOverflowPosition> {
+class CORDL_TYPE InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty
+    : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::TextOverflowPosition> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9f11c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b11364, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9f1c4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition>  value) ;
+  /// @brief Method SetValue, addr 0x6b1140c, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition> value);
 
-/// @brief Method .ctor, addr 0x6a93b10, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05d58, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9f114, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b1135c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9f08c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b112d4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9f0d0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b11318, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty(InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty(InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty(InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty(InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4800 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4800};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.Visibility
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/VisibilityProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_VisibilityProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::Visibility> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9f30c, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b11554, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9f3b4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility>  value) ;
+  /// @brief Method SetValue, addr 0x6b115fc, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> value);
 
-/// @brief Method .ctor, addr 0x6a93b68, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05db0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9f304, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b1154c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9f27c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b114c4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9f2c0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b11508, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_VisibilityProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_VisibilityProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_VisibilityProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_VisibilityProperty(InlineStyleAccessPropertyBag_VisibilityProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_VisibilityProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_VisibilityProperty(InlineStyleAccessPropertyBag_VisibilityProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_VisibilityProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_VisibilityProperty(InlineStyleAccessPropertyBag_VisibilityProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_VisibilityProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_VisibilityProperty(InlineStyleAccessPropertyBag_VisibilityProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4801 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4801};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleEnumProperty`1<TValue>, UnityEngine.UIElements.WhiteSpace
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/WhiteSpaceProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_WhiteSpaceProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<::UnityEngine::UIElements::WhiteSpace> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9f4fc, size 0xa8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b11744, size 0xa8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace> GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WhiteSpaceProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WhiteSpaceProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9f5a4, size 0xb8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace>  value) ;
+  /// @brief Method SetValue, addr 0x6b117ec, size 0xb8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace> value);
 
-/// @brief Method .ctor, addr 0x6a93bc0, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05e08, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9f4f4, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b1173c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9f46c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b116b4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9f4b0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b116f8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_WhiteSpaceProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_WhiteSpaceProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WhiteSpaceProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_WhiteSpaceProperty(InlineStyleAccessPropertyBag_WhiteSpaceProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WhiteSpaceProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_WhiteSpaceProperty(InlineStyleAccessPropertyBag_WhiteSpaceProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WhiteSpaceProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_WhiteSpaceProperty(InlineStyleAccessPropertyBag_WhiteSpaceProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WhiteSpaceProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_WhiteSpaceProperty(InlineStyleAccessPropertyBag_WhiteSpaceProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4802 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4802};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WhiteSpaceProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/WidthProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_WidthProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9f6ec, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b11934, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WidthProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WidthProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9f79c, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b119e4, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93c18, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05e60, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9f6e4, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b1192c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9f65c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b118a4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9f6a0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b118e8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_WidthProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_WidthProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WidthProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_WidthProperty(InlineStyleAccessPropertyBag_WidthProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WidthProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_WidthProperty(InlineStyleAccessPropertyBag_WidthProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WidthProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_WidthProperty(InlineStyleAccessPropertyBag_WidthProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WidthProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_WidthProperty(InlineStyleAccessPropertyBag_WidthProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4803 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4803};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WidthProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleLengthProperty
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/WordSpacingProperty
 class CORDL_TYPE InlineStyleAccessPropertyBag_WordSpacingProperty : public ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
- __declspec(property(get=get_ussName)) ::StringW  ussName;
+  __declspec(property(get = get_ussName)) ::StringW ussName;
 
-/// @brief Method GetValue, addr 0x6a9f8ec, size 0xb0, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetValue, addr 0x6b11b34, size 0xb0, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength GetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a9f99c, size 0xc0, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::UnityEngine::UIElements::StyleLength  value) ;
+  /// @brief Method SetValue, addr 0x6b11be4, size 0xc0, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::UnityEngine::UIElements::StyleLength value);
 
-/// @brief Method .ctor, addr 0x6a93c1c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b05e64, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a9f8e4, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6b11b2c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a9f85c, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6b11aa4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_ussName, addr 0x6a9f8a0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_ussName() ;
+  /// @brief Method get_ussName, addr 0x6b11ae8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_ussName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag_WordSpacingProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag_WordSpacingProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WordSpacingProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag_WordSpacingProperty(InlineStyleAccessPropertyBag_WordSpacingProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WordSpacingProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag_WordSpacingProperty(InlineStyleAccessPropertyBag_WordSpacingProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WordSpacingProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag_WordSpacingProperty(InlineStyleAccessPropertyBag_WordSpacingProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WordSpacingProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag_WordSpacingProperty(InlineStyleAccessPropertyBag_WordSpacingProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4804 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4804};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
-template<typename TStyleValue,typename TValue>
+template <typename TStyleValue, typename TValue>
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleProperty`2/<>c<TStyleValue,TValue>
 class CORDL_TYPE InlineStyleProperty_2_InlineStyleAccessPropertyBag___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue,TValue>*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>* __9;
 
-/// @brief Field <>9__0_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_0, put=setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<TStyleValue,TValue>*  __9__0_0;
+  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<TStyleValue, TValue>* __9__0_0;
 
-/// @brief Field <>9__0_1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_1, put=setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<TValue,TStyleValue>*  __9__0_1;
+  /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<TValue, TStyleValue>* __9__0_1;
 
-/// @brief Field <>9__0_2, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_2, put=setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<TStyleValue,::UnityEngine::UIElements::StyleKeyword>*  __9__0_2;
+  /// @brief Field <>9__0_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_2, put = setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>* __9__0_2;
 
-/// @brief Field <>9__0_3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_3, put=setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword,TStyleValue>*  __9__0_3;
+  /// @brief Field <>9__0_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_3, put = setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>* __9__0_3;
 
-static inline ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue,TValue>* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>* New_ctor();
 
-/// @brief Method <.ctor>b__0_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline TValue __ctor_b__0_0(::ByRef<TStyleValue>  sv) ;
+  /// @brief Method <.ctor>b__0_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TValue __ctor_b__0_0(::ByRef<TStyleValue> sv);
 
-/// @brief Method <.ctor>b__0_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline TStyleValue __ctor_b__0_1(::ByRef<TValue>  v) ;
+  /// @brief Method <.ctor>b__0_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TStyleValue __ctor_b__0_1(::ByRef<TValue> v);
 
-/// @brief Method <.ctor>b__0_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleKeyword __ctor_b__0_2(::ByRef<TStyleValue>  sv) ;
+  /// @brief Method <.ctor>b__0_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleKeyword __ctor_b__0_2(::ByRef<TStyleValue> sv);
 
-/// @brief Method <.ctor>b__0_3, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline TStyleValue __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleKeyword>  kw) ;
+  /// @brief Method <.ctor>b__0_3, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TStyleValue __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleKeyword> kw);
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue,TValue>* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>* getStaticF___9();
 
-static inline ::Unity::Properties::TypeConverter_2<TStyleValue,TValue>* getStaticF___9__0_0() ;
+  static inline ::Unity::Properties::TypeConverter_2<TStyleValue, TValue>* getStaticF___9__0_0();
 
-static inline ::Unity::Properties::TypeConverter_2<TValue,TStyleValue>* getStaticF___9__0_1() ;
+  static inline ::Unity::Properties::TypeConverter_2<TValue, TStyleValue>* getStaticF___9__0_1();
 
-static inline ::Unity::Properties::TypeConverter_2<TStyleValue,::UnityEngine::UIElements::StyleKeyword>* getStaticF___9__0_2() ;
+  static inline ::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>* getStaticF___9__0_2();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword,TStyleValue>* getStaticF___9__0_3() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>* getStaticF___9__0_3();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue,TValue>*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>* value);
 
-static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<TStyleValue,TValue>*  value) ;
+  static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<TStyleValue, TValue>* value);
 
-static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<TValue,TStyleValue>*  value) ;
+  static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<TValue, TStyleValue>* value);
 
-static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<TStyleValue,::UnityEngine::UIElements::StyleKeyword>*  value) ;
+  static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>* value);
 
-static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword,TStyleValue>*  value) ;
+  static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleProperty_2_InlineStyleAccessPropertyBag___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleProperty_2_InlineStyleAccessPropertyBag___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleProperty_2_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleProperty_2_InlineStyleAccessPropertyBag___c(InlineStyleProperty_2_InlineStyleAccessPropertyBag___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleProperty_2_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleProperty_2_InlineStyleAccessPropertyBag___c(InlineStyleProperty_2_InlineStyleAccessPropertyBag___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleProperty_2_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleProperty_2_InlineStyleAccessPropertyBag___c(InlineStyleProperty_2_InlineStyleAccessPropertyBag___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleProperty_2_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleProperty_2_InlineStyleAccessPropertyBag___c(InlineStyleProperty_2_InlineStyleAccessPropertyBag___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4805 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4805};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleColorProperty/<>c
 class CORDL_TYPE InlineStyleColorProperty_InlineStyleAccessPropertyBag___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* __9;
 
-/// @brief Field <>9__0_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_0, put=setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<::UnityEngine::Color32,::UnityEngine::UIElements::StyleColor>*  __9__0_0;
+  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<::UnityEngine::Color32, ::UnityEngine::UIElements::StyleColor>* __9__0_0;
 
-/// @brief Field <>9__0_1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_1, put=setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleColor,::UnityEngine::Color32>*  __9__0_1;
+  /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleColor, ::UnityEngine::Color32>* __9__0_1;
 
-static inline ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-/// @brief Method <.ctor>b__0_0, addr 0x6a9fab4, size 0x4c, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleColor __ctor_b__0_0(::ByRef<::UnityEngine::Color32>  v) ;
+  /// @brief Method <.ctor>b__0_0, addr 0x6b11cfc, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleColor __ctor_b__0_0(::ByRef<::UnityEngine::Color32> v);
 
-/// @brief Method <.ctor>b__0_1, addr 0x6a9fb00, size 0x28, virtual false, abstract: false, final false
-inline ::UnityEngine::Color32 __ctor_b__0_1(::ByRef<::UnityEngine::UIElements::StyleColor>  sv) ;
+  /// @brief Method <.ctor>b__0_1, addr 0x6b11d48, size 0x28, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color32 __ctor_b__0_1(::ByRef<::UnityEngine::UIElements::StyleColor> sv);
 
-/// @brief Method .ctor, addr 0x6a9fab0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b11cf8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::Color32,::UnityEngine::UIElements::StyleColor>* getStaticF___9__0_0() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::Color32, ::UnityEngine::UIElements::StyleColor>* getStaticF___9__0_0();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleColor,::UnityEngine::Color32>* getStaticF___9__0_1() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleColor, ::UnityEngine::Color32>* getStaticF___9__0_1();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c* value);
 
-static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<::UnityEngine::Color32,::UnityEngine::UIElements::StyleColor>*  value) ;
+  static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<::UnityEngine::Color32, ::UnityEngine::UIElements::StyleColor>* value);
 
-static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleColor,::UnityEngine::Color32>*  value) ;
+  static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleColor, ::UnityEngine::Color32>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleColorProperty_InlineStyleAccessPropertyBag___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleColorProperty_InlineStyleAccessPropertyBag___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleColorProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleColorProperty_InlineStyleAccessPropertyBag___c(InlineStyleColorProperty_InlineStyleAccessPropertyBag___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleColorProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleColorProperty_InlineStyleAccessPropertyBag___c(InlineStyleColorProperty_InlineStyleAccessPropertyBag___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleColorProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleColorProperty_InlineStyleAccessPropertyBag___c(InlineStyleColorProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleColorProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleColorProperty_InlineStyleAccessPropertyBag___c(InlineStyleColorProperty_InlineStyleAccessPropertyBag___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4808 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4808};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleBackgroundProperty/<>c
 class CORDL_TYPE InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* __9;
 
-/// @brief Field <>9__0_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_0, put=setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Texture2D>,::UnityEngine::UIElements::StyleBackground>*  __9__0_0;
+  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_0,
+                      put = setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Texture2D>, ::UnityEngine::UIElements::StyleBackground>* __9__0_0;
 
-/// @brief Field <>9__0_1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_1, put=setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Sprite>,::UnityEngine::UIElements::StyleBackground>*  __9__0_1;
+  /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_1,
+                      put = setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Sprite>, ::UnityEngine::UIElements::StyleBackground>* __9__0_1;
 
-/// @brief Field <>9__0_2, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_2, put=setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::UIElements::VectorImage>,::UnityEngine::UIElements::StyleBackground>*  __9__0_2;
+  /// @brief Field <>9__0_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_2,
+                      put = setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::UIElements::VectorImage>, ::UnityEngine::UIElements::StyleBackground>* __9__0_2;
 
-/// @brief Field <>9__0_3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_3, put=setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::Texture2D>>*  __9__0_3;
+  /// @brief Field <>9__0_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_3,
+                      put = setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::Texture2D>>* __9__0_3;
 
-/// @brief Field <>9__0_4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_4, put=setStaticF___9__0_4)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::Sprite>>*  __9__0_4;
+  /// @brief Field <>9__0_4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_4,
+                      put = setStaticF___9__0_4)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::Sprite>>* __9__0_4;
 
-/// @brief Field <>9__0_5, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_5, put=setStaticF___9__0_5)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::RenderTexture>>*  __9__0_5;
+  /// @brief Field <>9__0_5, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_5,
+                      put = setStaticF___9__0_5)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::RenderTexture>>* __9__0_5;
 
-/// @brief Field <>9__0_6, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_6, put=setStaticF___9__0_6)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::UIElements::VectorImage>>*  __9__0_6;
+  /// @brief Field <>9__0_6, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_6,
+                      put = setStaticF___9__0_6)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::UIElements::VectorImage>>* __9__0_6;
 
-static inline ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-/// @brief Method <.ctor>b__0_0, addr 0x6a9fb80, size 0x40, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_0(::ByRef<::UnityEngine::Texture2D*>  v) ;
+  /// @brief Method <.ctor>b__0_0, addr 0x6b11dc8, size 0x40, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_0(::ByRef<::UnityEngine::Texture2D*> v);
 
-/// @brief Method <.ctor>b__0_1, addr 0x6a9fbc0, size 0x40, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_1(::ByRef<::UnityEngine::Sprite*>  v) ;
+  /// @brief Method <.ctor>b__0_1, addr 0x6b11e08, size 0x40, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_1(::ByRef<::UnityEngine::Sprite*> v);
 
-/// @brief Method <.ctor>b__0_2, addr 0x6a9fc00, size 0x40, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_2(::ByRef<::UnityEngine::UIElements::VectorImage*>  v) ;
+  /// @brief Method <.ctor>b__0_2, addr 0x6b11e48, size 0x40, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleBackground __ctor_b__0_2(::ByRef<::UnityEngine::UIElements::VectorImage*> v);
 
-/// @brief Method <.ctor>b__0_3, addr 0x6a9fc40, size 0x18, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Texture2D> __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleBackground>  sv) ;
+  /// @brief Method <.ctor>b__0_3, addr 0x6b11e88, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Texture2D> __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleBackground> sv);
 
-/// @brief Method <.ctor>b__0_4, addr 0x6a9fc58, size 0x18, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Sprite> __ctor_b__0_4(::ByRef<::UnityEngine::UIElements::StyleBackground>  sv) ;
+  /// @brief Method <.ctor>b__0_4, addr 0x6b11ea0, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Sprite> __ctor_b__0_4(::ByRef<::UnityEngine::UIElements::StyleBackground> sv);
 
-/// @brief Method <.ctor>b__0_5, addr 0x6a9fc70, size 0x18, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::RenderTexture> __ctor_b__0_5(::ByRef<::UnityEngine::UIElements::StyleBackground>  sv) ;
+  /// @brief Method <.ctor>b__0_5, addr 0x6b11eb8, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RenderTexture> __ctor_b__0_5(::ByRef<::UnityEngine::UIElements::StyleBackground> sv);
 
-/// @brief Method <.ctor>b__0_6, addr 0x6a9fc88, size 0x18, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::UIElements::VectorImage> __ctor_b__0_6(::ByRef<::UnityEngine::UIElements::StyleBackground>  sv) ;
+  /// @brief Method <.ctor>b__0_6, addr 0x6b11ed0, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UIElements::VectorImage> __ctor_b__0_6(::ByRef<::UnityEngine::UIElements::StyleBackground> sv);
 
-/// @brief Method .ctor, addr 0x6a9fb7c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b11dc4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Texture2D>,::UnityEngine::UIElements::StyleBackground>* getStaticF___9__0_0() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Texture2D>, ::UnityEngine::UIElements::StyleBackground>* getStaticF___9__0_0();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Sprite>,::UnityEngine::UIElements::StyleBackground>* getStaticF___9__0_1() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Sprite>, ::UnityEngine::UIElements::StyleBackground>* getStaticF___9__0_1();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::UIElements::VectorImage>,::UnityEngine::UIElements::StyleBackground>* getStaticF___9__0_2() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::UIElements::VectorImage>, ::UnityEngine::UIElements::StyleBackground>* getStaticF___9__0_2();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::Texture2D>>* getStaticF___9__0_3() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::Texture2D>>* getStaticF___9__0_3();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::Sprite>>* getStaticF___9__0_4() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::Sprite>>* getStaticF___9__0_4();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::RenderTexture>>* getStaticF___9__0_5() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::RenderTexture>>* getStaticF___9__0_5();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::UIElements::VectorImage>>* getStaticF___9__0_6() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::UIElements::VectorImage>>* getStaticF___9__0_6();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c* value);
 
-static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Texture2D>,::UnityEngine::UIElements::StyleBackground>*  value) ;
+  static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Texture2D>, ::UnityEngine::UIElements::StyleBackground>* value);
 
-static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Sprite>,::UnityEngine::UIElements::StyleBackground>*  value) ;
+  static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Sprite>, ::UnityEngine::UIElements::StyleBackground>* value);
 
-static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::UIElements::VectorImage>,::UnityEngine::UIElements::StyleBackground>*  value) ;
+  static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::UIElements::VectorImage>, ::UnityEngine::UIElements::StyleBackground>* value);
 
-static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::Texture2D>>*  value) ;
+  static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-static inline void setStaticF___9__0_4(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::Sprite>>*  value) ;
+  static inline void setStaticF___9__0_4(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::Sprite>>* value);
 
-static inline void setStaticF___9__0_5(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::RenderTexture>>*  value) ;
+  static inline void setStaticF___9__0_5(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::RenderTexture>>* value);
 
-static inline void setStaticF___9__0_6(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground,::UnityW<::UnityEngine::UIElements::VectorImage>>*  value) ;
+  static inline void setStaticF___9__0_6(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleBackground, ::UnityW<::UnityEngine::UIElements::VectorImage>>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c(InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c(InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c(InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c(InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4810 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4810};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleLengthProperty/<>c
 class CORDL_TYPE InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* __9;
 
-/// @brief Field <>9__0_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_0, put=setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<float_t,::UnityEngine::UIElements::StyleLength>*  __9__0_0;
+  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<float_t, ::UnityEngine::UIElements::StyleLength>* __9__0_0;
 
-/// @brief Field <>9__0_1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_1, put=setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<int32_t,::UnityEngine::UIElements::StyleLength>*  __9__0_1;
+  /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<int32_t, ::UnityEngine::UIElements::StyleLength>* __9__0_1;
 
-/// @brief Field <>9__0_2, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_2, put=setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength,float_t>*  __9__0_2;
+  /// @brief Field <>9__0_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_2, put = setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength, float_t>* __9__0_2;
 
-/// @brief Field <>9__0_3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_3, put=setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength,int32_t>*  __9__0_3;
+  /// @brief Field <>9__0_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_3, put = setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength, int32_t>* __9__0_3;
 
-static inline ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-/// @brief Method <.ctor>b__0_0, addr 0x6a9fcf8, size 0x28, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength __ctor_b__0_0(::ByRef<float_t>  v) ;
+  /// @brief Method <.ctor>b__0_0, addr 0x6b11f40, size 0x28, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength __ctor_b__0_0(::ByRef<float_t> v);
 
-/// @brief Method <.ctor>b__0_1, addr 0x6a9fd20, size 0x2c, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleLength __ctor_b__0_1(::ByRef<int32_t>  v) ;
+  /// @brief Method <.ctor>b__0_1, addr 0x6b11f68, size 0x2c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleLength __ctor_b__0_1(::ByRef<int32_t> v);
 
-/// @brief Method <.ctor>b__0_2, addr 0x6a9fd4c, size 0x28, virtual false, abstract: false, final false
-inline float_t __ctor_b__0_2(::ByRef<::UnityEngine::UIElements::StyleLength>  sv) ;
+  /// @brief Method <.ctor>b__0_2, addr 0x6b11f94, size 0x28, virtual false, abstract: false, final false
+  inline float_t __ctor_b__0_2(::ByRef<::UnityEngine::UIElements::StyleLength> sv);
 
-/// @brief Method <.ctor>b__0_3, addr 0x6a9fd74, size 0x40, virtual false, abstract: false, final false
-inline int32_t __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleLength>  sv) ;
+  /// @brief Method <.ctor>b__0_3, addr 0x6b11fbc, size 0x40, virtual false, abstract: false, final false
+  inline int32_t __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleLength> sv);
 
-/// @brief Method .ctor, addr 0x6a9fcf4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b11f3c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
 
-static inline ::Unity::Properties::TypeConverter_2<float_t,::UnityEngine::UIElements::StyleLength>* getStaticF___9__0_0() ;
+  static inline ::Unity::Properties::TypeConverter_2<float_t, ::UnityEngine::UIElements::StyleLength>* getStaticF___9__0_0();
 
-static inline ::Unity::Properties::TypeConverter_2<int32_t,::UnityEngine::UIElements::StyleLength>* getStaticF___9__0_1() ;
+  static inline ::Unity::Properties::TypeConverter_2<int32_t, ::UnityEngine::UIElements::StyleLength>* getStaticF___9__0_1();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength,float_t>* getStaticF___9__0_2() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength, float_t>* getStaticF___9__0_2();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength,int32_t>* getStaticF___9__0_3() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength, int32_t>* getStaticF___9__0_3();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c* value);
 
-static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<float_t,::UnityEngine::UIElements::StyleLength>*  value) ;
+  static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<float_t, ::UnityEngine::UIElements::StyleLength>* value);
 
-static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<int32_t,::UnityEngine::UIElements::StyleLength>*  value) ;
+  static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<int32_t, ::UnityEngine::UIElements::StyleLength>* value);
 
-static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength,float_t>*  value) ;
+  static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength, float_t>* value);
 
-static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength,int32_t>*  value) ;
+  static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleLength, int32_t>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c(InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c(InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c(InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c(InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4812 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4812};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleFloatProperty/<>c
 class CORDL_TYPE InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* __9;
 
-/// @brief Field <>9__0_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_0, put=setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<int32_t,::UnityEngine::UIElements::StyleFloat>*  __9__0_0;
+  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<int32_t, ::UnityEngine::UIElements::StyleFloat>* __9__0_0;
 
-/// @brief Field <>9__0_1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_1, put=setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFloat,int32_t>*  __9__0_1;
+  /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFloat, int32_t>* __9__0_1;
 
-static inline ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-/// @brief Method <.ctor>b__0_0, addr 0x6a9fe0c, size 0x10, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFloat __ctor_b__0_0(::ByRef<int32_t>  v) ;
+  /// @brief Method <.ctor>b__0_0, addr 0x6b12054, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFloat __ctor_b__0_0(::ByRef<int32_t> v);
 
-/// @brief Method <.ctor>b__0_1, addr 0x6a9fe1c, size 0x2c, virtual false, abstract: false, final false
-inline int32_t __ctor_b__0_1(::ByRef<::UnityEngine::UIElements::StyleFloat>  sv) ;
+  /// @brief Method <.ctor>b__0_1, addr 0x6b12064, size 0x2c, virtual false, abstract: false, final false
+  inline int32_t __ctor_b__0_1(::ByRef<::UnityEngine::UIElements::StyleFloat> sv);
 
-/// @brief Method .ctor, addr 0x6a9fe08, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b12050, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
 
-static inline ::Unity::Properties::TypeConverter_2<int32_t,::UnityEngine::UIElements::StyleFloat>* getStaticF___9__0_0() ;
+  static inline ::Unity::Properties::TypeConverter_2<int32_t, ::UnityEngine::UIElements::StyleFloat>* getStaticF___9__0_0();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFloat,int32_t>* getStaticF___9__0_1() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFloat, int32_t>* getStaticF___9__0_1();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c* value);
 
-static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<int32_t,::UnityEngine::UIElements::StyleFloat>*  value) ;
+  static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<int32_t, ::UnityEngine::UIElements::StyleFloat>* value);
 
-static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFloat,int32_t>*  value) ;
+  static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFloat, int32_t>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c(InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c(InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c(InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c(InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4814 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4814};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleFontDefinitionProperty/<>c
 class CORDL_TYPE InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* __9;
 
-/// @brief Field <>9__0_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_0, put=setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Font>,::UnityEngine::UIElements::StyleFontDefinition>*  __9__0_0;
+  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_0,
+                      put = setStaticF___9__0_0)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Font>, ::UnityEngine::UIElements::StyleFontDefinition>* __9__0_0;
 
-/// @brief Field <>9__0_1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_1, put=setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::TextCore::Text::FontAsset>,::UnityEngine::UIElements::StyleFontDefinition>*  __9__0_1;
+  /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_1,
+                      put = setStaticF___9__0_1)) ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, ::UnityEngine::UIElements::StyleFontDefinition>* __9__0_1;
 
-/// @brief Field <>9__0_2, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_2, put=setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition,::UnityW<::UnityEngine::Font>>*  __9__0_2;
+  /// @brief Field <>9__0_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_2,
+                      put = setStaticF___9__0_2)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition, ::UnityW<::UnityEngine::Font>>* __9__0_2;
 
-/// @brief Field <>9__0_3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__0_3, put=setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition,::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*  __9__0_3;
+  /// @brief Field <>9__0_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__0_3,
+                      put = setStaticF___9__0_3)) ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* __9__0_3;
 
-static inline ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* New_ctor();
 
-/// @brief Method <.ctor>b__0_0, addr 0x6a9fea0, size 0x10, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFontDefinition __ctor_b__0_0(::ByRef<::UnityEngine::Font*>  v) ;
+  /// @brief Method <.ctor>b__0_0, addr 0x6b120e8, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFontDefinition __ctor_b__0_0(::ByRef<::UnityEngine::Font*> v);
 
-/// @brief Method <.ctor>b__0_1, addr 0x6a9feb0, size 0x10, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::StyleFontDefinition __ctor_b__0_1(::ByRef<::UnityEngine::TextCore::Text::FontAsset*>  v) ;
+  /// @brief Method <.ctor>b__0_1, addr 0x6b120f8, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleFontDefinition __ctor_b__0_1(::ByRef<::UnityEngine::TextCore::Text::FontAsset*> v);
 
-/// @brief Method <.ctor>b__0_2, addr 0x6a9fec0, size 0x18, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Font> __ctor_b__0_2(::ByRef<::UnityEngine::UIElements::StyleFontDefinition>  sv) ;
+  /// @brief Method <.ctor>b__0_2, addr 0x6b12108, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Font> __ctor_b__0_2(::ByRef<::UnityEngine::UIElements::StyleFontDefinition> sv);
 
-/// @brief Method <.ctor>b__0_3, addr 0x6a9fed8, size 0x18, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleFontDefinition>  sv) ;
+  /// @brief Method <.ctor>b__0_3, addr 0x6b12120, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> __ctor_b__0_3(::ByRef<::UnityEngine::UIElements::StyleFontDefinition> sv);
 
-/// @brief Method .ctor, addr 0x6a9fe9c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b120e4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* getStaticF___9();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Font>,::UnityEngine::UIElements::StyleFontDefinition>* getStaticF___9__0_0() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Font>, ::UnityEngine::UIElements::StyleFontDefinition>* getStaticF___9__0_0();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::TextCore::Text::FontAsset>,::UnityEngine::UIElements::StyleFontDefinition>* getStaticF___9__0_1() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, ::UnityEngine::UIElements::StyleFontDefinition>* getStaticF___9__0_1();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition,::UnityW<::UnityEngine::Font>>* getStaticF___9__0_2() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition, ::UnityW<::UnityEngine::Font>>* getStaticF___9__0_2();
 
-static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition,::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF___9__0_3() ;
+  static inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF___9__0_3();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c* value);
 
-static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Font>,::UnityEngine::UIElements::StyleFontDefinition>*  value) ;
+  static inline void setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::Font>, ::UnityEngine::UIElements::StyleFontDefinition>* value);
 
-static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::TextCore::Text::FontAsset>,::UnityEngine::UIElements::StyleFontDefinition>*  value) ;
+  static inline void setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, ::UnityEngine::UIElements::StyleFontDefinition>* value);
 
-static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition,::UnityW<::UnityEngine::Font>>*  value) ;
+  static inline void setStaticF___9__0_2(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition, ::UnityW<::UnityEngine::Font>>* value);
 
-static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition,::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*  value) ;
+  static inline void setStaticF___9__0_3(::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleFontDefinition, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c(InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c(InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c(InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c(InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4818 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4818};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.PropertyBag`1<TContainer>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag
 class CORDL_TYPE InlineStyleAccessPropertyBag : public ::Unity::Properties::PropertyBag_1<::UnityEngine::UIElements::InlineStyleAccess*> {
 public:
-// Declarations
-using AlignContentProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty;
+  // Declarations
+  using AlignContentProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty;
 
-using AlignItemsProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignItemsProperty;
+  using AlignItemsProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignItemsProperty;
 
-using AlignSelfProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignSelfProperty;
+  using AlignSelfProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignSelfProperty;
 
-using BackgroundColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundColorProperty;
+  using BackgroundColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundColorProperty;
 
-using BackgroundImageProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundImageProperty;
+  using BackgroundImageProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundImageProperty;
 
-using BackgroundPositionXProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionXProperty;
+  using BackgroundPositionXProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionXProperty;
 
-using BackgroundPositionYProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionYProperty;
+  using BackgroundPositionYProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundPositionYProperty;
 
-using BackgroundRepeatProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundRepeatProperty;
+  using BackgroundRepeatProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundRepeatProperty;
 
-using BackgroundSizeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundSizeProperty;
+  using BackgroundSizeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BackgroundSizeProperty;
 
-using BorderBottomColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty;
+  using BorderBottomColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty;
 
-using BorderBottomLeftRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty;
+  using BorderBottomLeftRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty;
 
-using BorderBottomRightRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty;
+  using BorderBottomRightRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty;
 
-using BorderBottomWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty;
+  using BorderBottomWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty;
 
-using BorderLeftColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftColorProperty;
+  using BorderLeftColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftColorProperty;
 
-using BorderLeftWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftWidthProperty;
+  using BorderLeftWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftWidthProperty;
 
-using BorderRightColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightColorProperty;
+  using BorderRightColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightColorProperty;
 
-using BorderRightWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightWidthProperty;
+  using BorderRightWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderRightWidthProperty;
 
-using BorderTopColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopColorProperty;
+  using BorderTopColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopColorProperty;
 
-using BorderTopLeftRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty;
+  using BorderTopLeftRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty;
 
-using BorderTopRightRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty;
+  using BorderTopRightRadiusProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty;
 
-using BorderTopWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopWidthProperty;
+  using BorderTopWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderTopWidthProperty;
 
-using BottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BottomProperty;
+  using BottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BottomProperty;
 
-using ColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ColorProperty;
+  using ColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ColorProperty;
 
-using CursorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_CursorProperty;
+  using CursorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_CursorProperty;
 
-using DisplayProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_DisplayProperty;
+  using DisplayProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_DisplayProperty;
 
-using FlexBasisProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexBasisProperty;
+  using FlexBasisProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexBasisProperty;
 
-using FlexDirectionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexDirectionProperty;
+  using FlexDirectionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexDirectionProperty;
 
-using FlexGrowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexGrowProperty;
+  using FlexGrowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexGrowProperty;
 
-using FlexShrinkProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexShrinkProperty;
+  using FlexShrinkProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexShrinkProperty;
 
-using FlexWrapProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexWrapProperty;
+  using FlexWrapProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FlexWrapProperty;
 
-using FontSizeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FontSizeProperty;
+  using FontSizeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_FontSizeProperty;
 
-using HeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty;
+  using HeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty;
 
-using InlineStyleBackgroundPositionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty;
+  using InlineStyleBackgroundPositionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty;
 
-using InlineStyleBackgroundProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty;
+  using InlineStyleBackgroundProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty;
 
-using InlineStyleBackgroundRepeatProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty;
+  using InlineStyleBackgroundRepeatProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty;
 
-using InlineStyleBackgroundSizeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty;
+  using InlineStyleBackgroundSizeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty;
 
-using InlineStyleColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty;
+  using InlineStyleColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty;
 
-using InlineStyleCursorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty;
+  using InlineStyleCursorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty;
 
-template<typename TValue>
-using InlineStyleEnumProperty_1 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>;
+  template <typename TValue> using InlineStyleEnumProperty_1 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>;
 
-using InlineStyleFloatProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty;
+  using InlineStyleFloatProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty;
 
-using InlineStyleFontDefinitionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty;
+  using InlineStyleFontDefinitionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty;
 
-using InlineStyleFontProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty;
+  using InlineStyleFontProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty;
 
-using InlineStyleIntProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty;
+  using InlineStyleIntProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty;
 
-using InlineStyleLengthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty;
+  using InlineStyleLengthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty;
 
-template<typename T>
-using InlineStyleListProperty_1 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<T>;
+  template <typename T> using InlineStyleListProperty_1 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<T>;
 
-template<typename TStyleValue,typename TValue>
-using InlineStyleProperty_2 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>;
+  template <typename TStyleValue, typename TValue> using InlineStyleProperty_2 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>;
 
-using InlineStyleRotateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty;
+  using InlineStyleRotateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty;
 
-using InlineStyleScaleProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleScaleProperty;
+  using InlineStyleScaleProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleScaleProperty;
 
-using InlineStyleTextShadowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty;
+  using InlineStyleTextShadowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty;
 
-using InlineStyleTransformOriginProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty;
+  using InlineStyleTransformOriginProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty;
 
-using InlineStyleTranslateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty;
+  using InlineStyleTranslateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty;
 
-using JustifyContentProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_JustifyContentProperty;
+  using JustifyContentProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_JustifyContentProperty;
 
-using LeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LeftProperty;
+  using LeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LeftProperty;
 
-using LetterSpacingProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LetterSpacingProperty;
+  using LetterSpacingProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_LetterSpacingProperty;
 
-using MarginBottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginBottomProperty;
+  using MarginBottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginBottomProperty;
 
-using MarginLeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginLeftProperty;
+  using MarginLeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginLeftProperty;
 
-using MarginRightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginRightProperty;
+  using MarginRightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginRightProperty;
 
-using MarginTopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginTopProperty;
+  using MarginTopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MarginTopProperty;
 
-using MaxHeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxHeightProperty;
+  using MaxHeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxHeightProperty;
 
-using MaxWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxWidthProperty;
+  using MaxWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MaxWidthProperty;
 
-using MinHeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinHeightProperty;
+  using MinHeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinHeightProperty;
 
-using MinWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinWidthProperty;
+  using MinWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_MinWidthProperty;
 
-using OpacityProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OpacityProperty;
+  using OpacityProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OpacityProperty;
 
-using OverflowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OverflowProperty;
+  using OverflowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_OverflowProperty;
 
-using PaddingBottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingBottomProperty;
+  using PaddingBottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingBottomProperty;
 
-using PaddingLeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingLeftProperty;
+  using PaddingLeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingLeftProperty;
 
-using PaddingRightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingRightProperty;
+  using PaddingRightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingRightProperty;
 
-using PaddingTopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingTopProperty;
+  using PaddingTopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PaddingTopProperty;
 
-using PositionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PositionProperty;
+  using PositionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_PositionProperty;
 
-using RightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RightProperty;
+  using RightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RightProperty;
 
-using RotateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RotateProperty;
+  using RotateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_RotateProperty;
 
-using ScaleProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ScaleProperty;
+  using ScaleProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_ScaleProperty;
 
-using TextOverflowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextOverflowProperty;
+  using TextOverflowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextOverflowProperty;
 
-using TextShadowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextShadowProperty;
+  using TextShadowProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TextShadowProperty;
 
-using TopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TopProperty;
+  using TopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TopProperty;
 
-using TransformOriginProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransformOriginProperty;
+  using TransformOriginProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransformOriginProperty;
 
-using TransitionDelayProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDelayProperty;
+  using TransitionDelayProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDelayProperty;
 
-using TransitionDurationProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDurationProperty;
+  using TransitionDurationProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionDurationProperty;
 
-using TransitionPropertyProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty;
+  using TransitionPropertyProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty;
 
-using TransitionTimingFunctionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty;
+  using TransitionTimingFunctionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty;
 
-using TranslateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty;
+  using TranslateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty;
 
-using UnityBackgroundImageTintColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty;
+  using UnityBackgroundImageTintColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty;
 
-using UnityEditorTextRenderingModeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty;
+  using UnityEditorTextRenderingModeProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty;
 
-using UnityFontDefinitionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty;
+  using UnityFontDefinitionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty;
 
-using UnityFontProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty;
+  using UnityFontProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty;
 
-using UnityFontStyleAndWeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty;
+  using UnityFontStyleAndWeightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty;
 
-using UnityOverflowClipBoxProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty;
+  using UnityOverflowClipBoxProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty;
 
-using UnityParagraphSpacingProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty;
+  using UnityParagraphSpacingProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty;
 
-using UnitySliceBottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceBottomProperty;
+  using UnitySliceBottomProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceBottomProperty;
 
-using UnitySliceLeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceLeftProperty;
+  using UnitySliceLeftProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceLeftProperty;
 
-using UnitySliceRightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceRightProperty;
+  using UnitySliceRightProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceRightProperty;
 
-using UnitySliceScaleProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceScaleProperty;
+  using UnitySliceScaleProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceScaleProperty;
 
-using UnitySliceTopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceTopProperty;
+  using UnitySliceTopProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnitySliceTopProperty;
 
-using UnityTextAlignProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextAlignProperty;
+  using UnityTextAlignProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextAlignProperty;
 
-using UnityTextGeneratorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextGeneratorProperty;
+  using UnityTextGeneratorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextGeneratorProperty;
 
-using UnityTextOutlineColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty;
+  using UnityTextOutlineColorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty;
 
-using UnityTextOutlineWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty;
+  using UnityTextOutlineWidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty;
 
-using UnityTextOverflowPositionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty;
+  using UnityTextOverflowPositionProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty;
 
-using VisibilityProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty;
+  using VisibilityProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty;
 
-using WhiteSpaceProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WhiteSpaceProperty;
+  using WhiteSpaceProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WhiteSpaceProperty;
 
-using WidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WidthProperty;
+  using WidthProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WidthProperty;
 
-using WordSpacingProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty;
+  using WordSpacingProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty;
 
-/// @brief Field m_PropertiesHash, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_PropertiesHash, put=__cordl_internal_set_m_PropertiesHash)) ::System::Collections::Generic::Dictionary_2<::StringW,::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*  m_PropertiesHash;
+  /// @brief Field m_PropertiesHash, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PropertiesHash, put = __cordl_internal_set_m_PropertiesHash)) ::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* m_PropertiesHash;
 
-/// @brief Field m_PropertiesList, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_PropertiesList, put=__cordl_internal_set_m_PropertiesList)) ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*  m_PropertiesList;
+  /// @brief Field m_PropertiesList, offset 0x18, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get_m_PropertiesList,
+      put = __cordl_internal_set_m_PropertiesList)) ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* m_PropertiesList;
 
-/// @brief Convert operator to "::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>"
-constexpr operator  ::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>*() noexcept;
+  /// @brief Convert operator to "::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>"
+  constexpr operator ::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>*() noexcept;
 
-/// @brief Method AddProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TStyleValue,typename TValue>
-inline void AddProperty(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue,TValue>*  property) ;
+  /// @brief Method AddProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TStyleValue, typename TValue> inline void AddProperty(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>* property);
 
-/// @brief Method GetProperties, addr 0x6a93c20, size 0x64, virtual true, abstract: false, final false
-inline ::Unity::Properties::PropertyCollection_1<::UnityEngine::UIElements::InlineStyleAccess*> GetProperties() ;
+  /// @brief Method GetProperties, addr 0x6b05e68, size 0x64, virtual true, abstract: false, final false
+  inline ::Unity::Properties::PropertyCollection_1<::UnityEngine::UIElements::InlineStyleAccess*> GetProperties();
 
-/// @brief Method GetProperties, addr 0x6a93c84, size 0x64, virtual true, abstract: false, final false
-inline ::Unity::Properties::PropertyCollection_1<::UnityEngine::UIElements::InlineStyleAccess*> GetProperties(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container) ;
+  /// @brief Method GetProperties, addr 0x6b05ecc, size 0x64, virtual true, abstract: false, final false
+  inline ::Unity::Properties::PropertyCollection_1<::UnityEngine::UIElements::InlineStyleAccess*> GetProperties(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container);
 
-static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag* New_ctor() ;
+  static inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag* New_ctor();
 
-/// @brief Method TryGetProperty, addr 0x6a93ce8, size 0x6c, virtual true, abstract: false, final true
-inline bool TryGetProperty(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*>  container, ::StringW  name, ::ByRef<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>  property) ;
+  /// @brief Method TryGetProperty, addr 0x6b05f30, size 0x6c, virtual true, abstract: false, final true
+  inline bool TryGetProperty(::ByRef<::UnityEngine::UIElements::InlineStyleAccess*> container, ::StringW name,
+                             ::ByRef<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*> property);
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* const& __cordl_internal_get_m_PropertiesHash() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* const&
+  __cordl_internal_get_m_PropertiesHash() const;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*& __cordl_internal_get_m_PropertiesHash() ;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*& __cordl_internal_get_m_PropertiesHash();
 
-constexpr ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* const& __cordl_internal_get_m_PropertiesList() const;
+  constexpr ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* const& __cordl_internal_get_m_PropertiesList() const;
 
-constexpr ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*& __cordl_internal_get_m_PropertiesList() ;
+  constexpr ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*& __cordl_internal_get_m_PropertiesList();
 
-constexpr void __cordl_internal_set_m_PropertiesHash(::System::Collections::Generic::Dictionary_2<::StringW,::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*  value) ;
+  constexpr void
+  __cordl_internal_set_m_PropertiesHash(::System::Collections::Generic::Dictionary_2<::StringW, ::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* value);
 
-constexpr void __cordl_internal_set_m_PropertiesList(::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*  value) ;
+  constexpr void __cordl_internal_set_m_PropertiesList(::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* value);
 
-/// @brief Method .ctor, addr 0x6a91d0c, size 0x1690, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b03f54, size 0x1690, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>"
-constexpr ::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>* i___Unity__Properties__INamedProperties_1___UnityEngine__UIElements__InlineStyleAccess__() noexcept;
+  /// @brief Convert to "::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>"
+  constexpr ::Unity::Properties::INamedProperties_1<::UnityEngine::UIElements::InlineStyleAccess*>* i___Unity__Properties__INamedProperties_1___UnityEngine__UIElements__InlineStyleAccess__() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InlineStyleAccessPropertyBag() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InlineStyleAccessPropertyBag();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InlineStyleAccessPropertyBag(InlineStyleAccessPropertyBag&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InlineStyleAccessPropertyBag(InlineStyleAccessPropertyBag && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InlineStyleAccessPropertyBag(InlineStyleAccessPropertyBag const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InlineStyleAccessPropertyBag(InlineStyleAccessPropertyBag const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4830 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4830};
+  /// @brief Field m_PropertiesList, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* ___m_PropertiesList;
 
-/// @brief Field m_PropertiesList, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*  ___m_PropertiesList;
+  /// @brief Field m_PropertiesHash, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>* ___m_PropertiesHash;
 
-/// @brief Field m_PropertiesHash, offset: 0x20, size: 0x8, def value: None
- ::System::Collections::Generic::Dictionary_2<::StringW,::Unity::Properties::IProperty_1<::UnityEngine::UIElements::InlineStyleAccess*>*>*  ___m_PropertiesHash;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::InlineStyleAccessPropertyBag, ___m_PropertiesList) == 0x18, "Offset mismatch!");
@@ -7094,7 +7117,7 @@ static_assert(offsetof(::UnityEngine::UIElements::InlineStyleAccessPropertyBag, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InlineStyleAccessPropertyBag, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty);
@@ -7118,9 +7141,11 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_B
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomColorProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/BorderBottomColorProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/BorderBottomLeftRadiusProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/BorderBottomLeftRadiusProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/BorderBottomRightRadiusProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/BorderBottomRightRadiusProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderBottomWidthProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/BorderBottomWidthProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_BorderLeftColorProperty);
@@ -7162,29 +7187,35 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_F
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_HeightProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/HeightProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleBackgroundPositionProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/InlineStyleBackgroundPositionProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleBackgroundProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleBackgroundRepeatProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/InlineStyleBackgroundRepeatProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleBackgroundSizeProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/InlineStyleBackgroundSizeProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleColorProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleColorProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleCursorProperty");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleEnumProperty`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1, "UnityEngine.UIElements",
+                                     "InlineStyleAccessPropertyBag/InlineStyleEnumProperty`1");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleFloatProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleFontDefinitionProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/InlineStyleFontDefinitionProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFontProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleFontProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleIntProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleIntProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleLengthProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleLengthProperty");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleListProperty`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1, "UnityEngine.UIElements",
+                                     "InlineStyleAccessPropertyBag/InlineStyleListProperty`1");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleProperty`2");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleRotateProperty");
@@ -7193,7 +7224,8 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_I
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleTextShadowProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleTransformOriginProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/InlineStyleTransformOriginProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleTranslateProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleTranslateProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_JustifyContentProperty);
@@ -7253,19 +7285,23 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_T
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionPropertyProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/TransitionPropertyProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/TransitionTimingFunctionProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/TransitionTimingFunctionProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_TranslateProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/TranslateProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityBackgroundImageTintColorProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/UnityBackgroundImageTintColorProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityEditorTextRenderingModeProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/UnityEditorTextRenderingModeProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontDefinitionProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityFontDefinitionProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityFontProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityFontStyleAndWeightProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/UnityFontStyleAndWeightProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityOverflowClipBoxProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty);
@@ -7289,7 +7325,8 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_U
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityTextOutlineWidthProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/UnityTextOverflowPositionProperty");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/UnityTextOverflowPositionProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_VisibilityProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/VisibilityProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WhiteSpaceProperty);
@@ -7299,13 +7336,16 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_W
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/WordSpacingProperty");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleBackgroundProperty/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/InlineStyleBackgroundProperty/<>c");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleColorProperty/<>c");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleFloatProperty/<>c");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleFontDefinitionProperty/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements",
+                       "InlineStyleAccessPropertyBag/InlineStyleFontDefinitionProperty/<>c");
 NEED_NO_BOX(::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleLengthProperty/<>c");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleProperty`2/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c, "UnityEngine.UIElements",
+                                     "InlineStyleAccessPropertyBag/InlineStyleProperty`2/<>c");

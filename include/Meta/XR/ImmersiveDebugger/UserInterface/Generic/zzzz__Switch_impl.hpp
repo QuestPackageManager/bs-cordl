@@ -6,341 +6,289 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.get_Tweak
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::Tweak* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_Tweak)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::Tweak* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_Tweak)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aed54;
+  constexpr static std::size_t addrs = 0x5920cc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "get_Tweak",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "get_Tweak",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.set_Tweak
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(::Meta::XR::ImmersiveDebugger::Manager::Tweak*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_Tweak)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(
+    ::Meta::XR::ImmersiveDebugger::Manager::Tweak*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_Tweak)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aed5c;
+  constexpr static std::size_t addrs = 0x5920cc8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "set_Tweak",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Manager::Tweak*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "set_Tweak", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Manager::Tweak*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.get_State
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_State)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_State)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58aed64;
+  constexpr static std::size_t addrs = 0x5920cd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "get_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "get_State",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.set_State
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(bool)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_State)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(bool)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_State)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58aee10;
+  constexpr static std::size_t addrs = 0x5920d7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "set_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "set_State",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.get_StateChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_1<bool>* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_StateChanged)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_1<bool>* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_StateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aeea8;
+  constexpr static std::size_t addrs = 0x5920e14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "get_StateChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "get_StateChanged",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.set_StateChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(::System::Action_1<bool>*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_StateChanged)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(::System::Action_1<bool>*)>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_StateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aeeb0;
+  constexpr static std::size_t addrs = 0x5920e1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "set_StateChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "set_StateChanged", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.OnStateChanged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::OnStateChanged)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::OnStateChanged)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x58aee4c;
+  constexpr static std::size_t addrs = 0x5920db8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "OnStateChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "OnStateChanged",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.Start
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::Start)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58aeeb8;
+  constexpr static std::size_t addrs = 0x5920e24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "Start",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.SetToggleIcons
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(::UnityEngine::Texture2D*, ::UnityEngine::Texture2D*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::SetToggleIcons)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)(
+    ::UnityEngine::Texture2D*, ::UnityEngine::Texture2D*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::SetToggleIcons)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aeefc;
+  constexpr static std::size_t addrs = 0x5920e68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "SetToggleIcons",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "SetToggleIcons", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch.UpdateIcon
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::UpdateIcon)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::UpdateIcon)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x58aef04;
+  constexpr static std::size_t addrs = 0x5920e70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::*)()>(
+    &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58af070;
+  constexpr static std::size_t addrs = 0x5920fdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Texture2D>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__toggleIconOn()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____toggleIconOn;
+constexpr ::UnityW<::UnityEngine::Texture2D>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__toggleIconOn() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleIconOn;
 }
 constexpr ::UnityW<::UnityEngine::Texture2D> const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__toggleIconOn() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____toggleIconOn;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleIconOn;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__toggleIconOn(::UnityW<::UnityEngine::Texture2D>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleIconOn)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__toggleIconOn(::UnityW<::UnityEngine::Texture2D> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleIconOn)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Texture2D>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__toggleIconOff()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____toggleIconOff;
+constexpr ::UnityW<::UnityEngine::Texture2D>& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__toggleIconOff() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleIconOff;
 }
 constexpr ::UnityW<::UnityEngine::Texture2D> const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__toggleIconOff() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____toggleIconOff;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleIconOff;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__toggleIconOff(::UnityW<::UnityEngine::Texture2D>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleIconOff)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__toggleIconOff(::UnityW<::UnityEngine::Texture2D> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleIconOff)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak*& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__Tweak_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Tweak_k__BackingField;
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak*& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__Tweak_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Tweak_k__BackingField;
 }
 constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak* const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__Tweak_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____Tweak_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Tweak_k__BackingField;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__Tweak_k__BackingField(::Meta::XR::ImmersiveDebugger::Manager::Tweak*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Tweak_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__Tweak_k__BackingField(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Tweak_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<bool>*& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__StateChanged_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____StateChanged_k__BackingField;
+constexpr ::System::Action_1<bool>*& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__StateChanged_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____StateChanged_k__BackingField;
 }
 constexpr ::System::Action_1<bool>* const& Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_get__StateChanged_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____StateChanged_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____StateChanged_k__BackingField;
 }
-constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__StateChanged_k__BackingField(::System::Action_1<bool>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____StateChanged_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::__cordl_internal_set__StateChanged_k__BackingField(::System::Action_1<bool>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____StateChanged_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_Tweak()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "get_Tweak",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Meta::XR::ImmersiveDebugger::Manager::Tweak*, false>(this, ___internal_method);
+inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_Tweak() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "get_Tweak",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Meta::XR::ImmersiveDebugger::Manager::Tweak*, false>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "set_Tweak",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Manager::Tweak*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "set_Tweak", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::ImmersiveDebugger::Manager::Tweak*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_State()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "get_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_State() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "get_State",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_State(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "set_State",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_State(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "set_State",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Action_1<bool>* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_StateChanged()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "get_StateChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Action_1<bool>*, false>(this, ___internal_method);
+inline ::System::Action_1<bool>* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::get_StateChanged() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "get_StateChanged",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Action_1<bool>*, false>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_StateChanged(::System::Action_1<bool>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "set_StateChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::set_StateChanged(::System::Action_1<bool>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "set_StateChanged", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::OnStateChanged()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "OnStateChanged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::OnStateChanged() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "OnStateChanged",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::Start() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "Start",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::SetToggleIcons(::UnityEngine::Texture2D*  onState, ::UnityEngine::Texture2D*  offState)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        "SetToggleIcons",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, onState, offState);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::SetToggleIcons(::UnityEngine::Texture2D* onState, ::UnityEngine::Texture2D* offState) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), "SetToggleIcons", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, onState, offState);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::UpdateIcon()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::UpdateIcon() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>());
+inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch* Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch*>());
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::Switch()   {
-}
+constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch::Switch() {}

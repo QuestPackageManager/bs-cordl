@@ -9,127 +9,117 @@
 #include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::AuthenticationManager.EnsureModules
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::AuthenticationManager::EnsureModules)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x6271e5c;
+  constexpr static std::size_t addrs = 0x62e3e68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "EnsureModules",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "EnsureModules",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::AuthenticationManager.Authenticate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::AuthenticationManager::Authenticate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
+    &::System::Net::AuthenticationManager::Authenticate)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x62720c8;
+  constexpr static std::size_t addrs = 0x62e40d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "Authenticate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "Authenticate", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::AuthenticationManager.DoAuthenticate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::AuthenticationManager::DoAuthenticate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
+    &::System::Net::AuthenticationManager::DoAuthenticate)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x62721cc;
+  constexpr static std::size_t addrs = 0x62e41d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "DoAuthenticate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "DoAuthenticate", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::AuthenticationManager.PreAuthenticate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::AuthenticationManager::PreAuthenticate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
+    &::System::Net::AuthenticationManager::PreAuthenticate)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x627264c;
+  constexpr static std::size_t addrs = 0x62e4658;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "PreAuthenticate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "PreAuthenticate", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Net::AuthenticationManager::setStaticF_modules(::System::Collections::ArrayList*  value)  {
-::cordl_internals::setStaticField<::System::Collections::ArrayList*, "modules", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>(std::forward<::System::Collections::ArrayList*>(value));
+inline void System::Net::AuthenticationManager::setStaticF_modules(::System::Collections::ArrayList* value) {
+  ::cordl_internals::setStaticField<::System::Collections::ArrayList*, "modules", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>(
+      std::forward<::System::Collections::ArrayList*>(value));
 }
-inline ::System::Collections::ArrayList* System::Net::AuthenticationManager::getStaticF_modules()  {
-return ::cordl_internals::getStaticField<::System::Collections::ArrayList*, "modules", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>();
+inline ::System::Collections::ArrayList* System::Net::AuthenticationManager::getStaticF_modules() {
+  return ::cordl_internals::getStaticField<::System::Collections::ArrayList*, "modules", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>();
 }
-inline void System::Net::AuthenticationManager::setStaticF_locker(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "locker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>(std::forward<::System::Object*>(value));
+inline void System::Net::AuthenticationManager::setStaticF_locker(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "locker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>(
+      std::forward<::System::Object*>(value));
 }
-inline ::System::Object* System::Net::AuthenticationManager::getStaticF_locker()  {
-return ::cordl_internals::getStaticField<::System::Object*, "locker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>();
+inline ::System::Object* System::Net::AuthenticationManager::getStaticF_locker() {
+  return ::cordl_internals::getStaticField<::System::Object*, "locker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>();
 }
-inline void System::Net::AuthenticationManager::setStaticF_credential_policy(::System::Net::ICredentialPolicy*  value)  {
-::cordl_internals::setStaticField<::System::Net::ICredentialPolicy*, "credential_policy", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>(std::forward<::System::Net::ICredentialPolicy*>(value));
+inline void System::Net::AuthenticationManager::setStaticF_credential_policy(::System::Net::ICredentialPolicy* value) {
+  ::cordl_internals::setStaticField<::System::Net::ICredentialPolicy*, "credential_policy", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>(
+      std::forward<::System::Net::ICredentialPolicy*>(value));
 }
-inline ::System::Net::ICredentialPolicy* System::Net::AuthenticationManager::getStaticF_credential_policy()  {
-return ::cordl_internals::getStaticField<::System::Net::ICredentialPolicy*, "credential_policy", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>();
+inline ::System::Net::ICredentialPolicy* System::Net::AuthenticationManager::getStaticF_credential_policy() {
+  return ::cordl_internals::getStaticField<::System::Net::ICredentialPolicy*, "credential_policy",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get>();
 }
-inline void System::Net::AuthenticationManager::EnsureModules()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "EnsureModules",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::Net::AuthenticationManager::EnsureModules() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "EnsureModules",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline ::System::Net::Authorization* System::Net::AuthenticationManager::Authenticate(::StringW  challenge, ::System::Net::WebRequest*  request, ::System::Net::ICredentials*  credentials)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "Authenticate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*, false>(nullptr, ___internal_method, challenge, request, credentials);
+inline ::System::Net::Authorization* System::Net::AuthenticationManager::Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "Authenticate", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*, false>(nullptr, ___internal_method, challenge, request, credentials);
 }
-inline ::System::Net::Authorization* System::Net::AuthenticationManager::DoAuthenticate(::StringW  challenge, ::System::Net::WebRequest*  request, ::System::Net::ICredentials*  credentials)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "DoAuthenticate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*, false>(nullptr, ___internal_method, challenge, request, credentials);
+inline ::System::Net::Authorization* System::Net::AuthenticationManager::DoAuthenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "DoAuthenticate", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*, false>(nullptr, ___internal_method, challenge, request, credentials);
 }
-inline ::System::Net::Authorization* System::Net::AuthenticationManager::PreAuthenticate(::System::Net::WebRequest*  request, ::System::Net::ICredentials*  credentials)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(),
-                        "PreAuthenticate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*, false>(nullptr, ___internal_method, request, credentials);
+inline ::System::Net::Authorization* System::Net::AuthenticationManager::PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "PreAuthenticate", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebRequest*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::ICredentials*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*, false>(nullptr, ___internal_method, request, credentials);
 }
 // Ctor Parameters []
-constexpr ::System::Net::AuthenticationManager::AuthenticationManager()   {
-}
+constexpr ::System::Net::AuthenticationManager::AuthenticationManager() {}

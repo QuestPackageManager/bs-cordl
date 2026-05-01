@@ -24,50 +24,50 @@ namespace ModestTree {
 // CS Name: ModestTree.Log
 class CORDL_TYPE Log : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Debug, addr 0x6c74590, size 0x4, virtual false, abstract: false, final false
-static inline void Debug(::StringW  message, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  // Declarations
+  /// @brief Method Debug, addr 0x6ce67d4, size 0x4, virtual false, abstract: false, final false
+  static inline void Debug(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method Error, addr 0x6c7475c, size 0x7c, virtual false, abstract: false, final false
-static inline void Error(::StringW  message, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method Error, addr 0x6ce69a0, size 0x7c, virtual false, abstract: false, final false
+  static inline void Error(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method ErrorException, addr 0x6c7468c, size 0x5c, virtual false, abstract: false, final false
-static inline void ErrorException(::System::Exception*  e) ;
+  /// @brief Method ErrorException, addr 0x6ce68d0, size 0x5c, virtual false, abstract: false, final false
+  static inline void ErrorException(::System::Exception* e);
 
-/// @brief Method ErrorException, addr 0x6c746e8, size 0x74, virtual false, abstract: false, final false
-static inline void ErrorException(::StringW  message, ::System::Exception*  e) ;
+  /// @brief Method ErrorException, addr 0x6ce692c, size 0x74, virtual false, abstract: false, final false
+  static inline void ErrorException(::StringW message, ::System::Exception* e);
 
-/// @brief Method Info, addr 0x6c74594, size 0x7c, virtual false, abstract: false, final false
-static inline void Info(::StringW  message, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method Info, addr 0x6ce67d8, size 0x7c, virtual false, abstract: false, final false
+  static inline void Info(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method Trace, addr 0x6c74610, size 0x7c, virtual false, abstract: false, final false
-static inline void Trace(::StringW  message, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method Trace, addr 0x6ce6854, size 0x7c, virtual false, abstract: false, final false
+  static inline void Trace(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method Warn, addr 0x6c73f60, size 0x7c, virtual false, abstract: false, final false
-static inline void Warn(::StringW  message, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method Warn, addr 0x6ce61a4, size 0x7c, virtual false, abstract: false, final false
+  static inline void Warn(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Log() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Log();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Log(Log&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Log(Log && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Log(Log const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Log(Log const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13951 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13944};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ModestTree::Log, 0x10>, "Size mismatch!");
 
-} // namespace end def ModestTree
+} // namespace ModestTree
 NEED_NO_BOX(::ModestTree::Log);
 DEFINE_IL2CPP_ARG_TYPE(::ModestTree::Log*, "ModestTree", "Log");

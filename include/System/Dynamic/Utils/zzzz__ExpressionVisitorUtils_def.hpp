@@ -36,38 +36,41 @@ namespace System::Dynamic::Utils {
 // CS Name: System.Dynamic.Utils.ExpressionVisitorUtils
 class CORDL_TYPE ExpressionVisitorUtils : public ::System::Object {
 public:
-// Declarations
-/// @brief Method VisitArguments, addr 0x5e15da0, size 0x298, virtual false, abstract: false, final false
-static inline ::ArrayW<::System::Linq::Expressions::Expression*,::Array<::System::Linq::Expressions::Expression*>*> VisitArguments(::System::Linq::Expressions::ExpressionVisitor*  visitor, ::System::Linq::Expressions::IArgumentProvider*  nodes) ;
+  // Declarations
+  /// @brief Method VisitArguments, addr 0x5e87dac, size 0x298, virtual false, abstract: false, final false
+  static inline ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> VisitArguments(::System::Linq::Expressions::ExpressionVisitor* visitor,
+                                                                                                                                      ::System::Linq::Expressions::IArgumentProvider* nodes);
 
-/// @brief Method VisitBlockExpressions, addr 0x5e15950, size 0x19c, virtual false, abstract: false, final false
-static inline ::ArrayW<::System::Linq::Expressions::Expression*,::Array<::System::Linq::Expressions::Expression*>*> VisitBlockExpressions(::System::Linq::Expressions::ExpressionVisitor*  visitor, ::System::Linq::Expressions::BlockExpression*  block) ;
+  /// @brief Method VisitBlockExpressions, addr 0x5e8795c, size 0x19c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> VisitBlockExpressions(::System::Linq::Expressions::ExpressionVisitor* visitor,
+                                                                                                                                             ::System::Linq::Expressions::BlockExpression* block);
 
-/// @brief Method VisitParameters, addr 0x5e15aec, size 0x2b4, virtual false, abstract: false, final false
-static inline ::ArrayW<::System::Linq::Expressions::ParameterExpression*,::Array<::System::Linq::Expressions::ParameterExpression*>*> VisitParameters(::System::Linq::Expressions::ExpressionVisitor*  visitor, ::System::Linq::Expressions::IParameterProvider*  nodes, ::StringW  callerName) ;
+  /// @brief Method VisitParameters, addr 0x5e87af8, size 0x2b4, virtual false, abstract: false, final false
+  static inline ::ArrayW<::System::Linq::Expressions::ParameterExpression*, ::Array<::System::Linq::Expressions::ParameterExpression*>*>
+  VisitParameters(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::IParameterProvider* nodes, ::StringW callerName);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ExpressionVisitorUtils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExpressionVisitorUtils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitorUtils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExpressionVisitorUtils(ExpressionVisitorUtils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitorUtils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ExpressionVisitorUtils(ExpressionVisitorUtils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitorUtils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExpressionVisitorUtils(ExpressionVisitorUtils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitorUtils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ExpressionVisitorUtils(ExpressionVisitorUtils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16652};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Dynamic::Utils::ExpressionVisitorUtils, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Dynamic::Utils
+} // namespace System::Dynamic::Utils
 NEED_NO_BOX(::System::Dynamic::Utils::ExpressionVisitorUtils);
 DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::ExpressionVisitorUtils*, "System.Dynamic.Utils", "ExpressionVisitorUtils");

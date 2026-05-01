@@ -39,73 +39,73 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlDateTimeConverter
 class CORDL_TYPE XmlDateTimeConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
-// Declarations
-/// @brief Method ChangeType, addr 0x609f08c, size 0x33c, virtual true, abstract: false, final false
-inline ::System::Object* ChangeType(::StringW  value, ::System::Type*  destinationType, ::System::Xml::IXmlNamespaceResolver*  nsResolver) ;
+  // Declarations
+  /// @brief Method ChangeType, addr 0x6111098, size 0x33c, virtual true, abstract: false, final false
+  inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-/// @brief Method ChangeType, addr 0x609ed50, size 0x33c, virtual true, abstract: false, final false
-inline ::System::Object* ChangeType(::System::DateTime  value, ::System::Type*  destinationType) ;
+  /// @brief Method ChangeType, addr 0x6110d5c, size 0x33c, virtual true, abstract: false, final false
+  inline ::System::Object* ChangeType(::System::DateTime value, ::System::Type* destinationType);
 
-/// @brief Method ChangeType, addr 0x609f3c8, size 0x634, virtual true, abstract: false, final false
-inline ::System::Object* ChangeType(::System::Object*  value, ::System::Type*  destinationType, ::System::Xml::IXmlNamespaceResolver*  nsResolver) ;
+  /// @brief Method ChangeType, addr 0x61113d4, size 0x634, virtual true, abstract: false, final false
+  inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-/// @brief Method Create, addr 0x609dc1c, size 0x5c, virtual false, abstract: false, final false
-static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType*  schemaType) ;
+  /// @brief Method Create, addr 0x610fc28, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-static inline ::System::Xml::Schema::XmlDateTimeConverter* New_ctor(::System::Xml::Schema::XmlSchemaType*  schemaType) ;
+  static inline ::System::Xml::Schema::XmlDateTimeConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-/// @brief Method ToDateTime, addr 0x609dce4, size 0x1e0, virtual true, abstract: false, final false
-inline ::System::DateTime ToDateTime(::StringW  value) ;
+  /// @brief Method ToDateTime, addr 0x610fcf0, size 0x1e0, virtual true, abstract: false, final false
+  inline ::System::DateTime ToDateTime(::StringW value);
 
-/// @brief Method ToDateTime, addr 0x609dc78, size 0x6c, virtual true, abstract: false, final false
-inline ::System::DateTime ToDateTime(::System::DateTimeOffset  value) ;
+  /// @brief Method ToDateTime, addr 0x610fc84, size 0x6c, virtual true, abstract: false, final false
+  inline ::System::DateTime ToDateTime(::System::DateTimeOffset value);
 
-/// @brief Method ToDateTime, addr 0x609dec4, size 0x318, virtual true, abstract: false, final false
-inline ::System::DateTime ToDateTime(::System::Object*  value) ;
+  /// @brief Method ToDateTime, addr 0x610fed0, size 0x318, virtual true, abstract: false, final false
+  inline ::System::DateTime ToDateTime(::System::Object* value);
 
-/// @brief Method ToDateTimeOffset, addr 0x609e204, size 0x1e0, virtual true, abstract: false, final false
-inline ::System::DateTimeOffset ToDateTimeOffset(::StringW  value) ;
+  /// @brief Method ToDateTimeOffset, addr 0x6110210, size 0x1e0, virtual true, abstract: false, final false
+  inline ::System::DateTimeOffset ToDateTimeOffset(::StringW value);
 
-/// @brief Method ToDateTimeOffset, addr 0x609e1dc, size 0x28, virtual true, abstract: false, final false
-inline ::System::DateTimeOffset ToDateTimeOffset(::System::DateTime  value) ;
+  /// @brief Method ToDateTimeOffset, addr 0x61101e8, size 0x28, virtual true, abstract: false, final false
+  inline ::System::DateTimeOffset ToDateTimeOffset(::System::DateTime value);
 
-/// @brief Method ToDateTimeOffset, addr 0x609e3e4, size 0x32c, virtual true, abstract: false, final false
-inline ::System::DateTimeOffset ToDateTimeOffset(::System::Object*  value) ;
+  /// @brief Method ToDateTimeOffset, addr 0x61103f0, size 0x32c, virtual true, abstract: false, final false
+  inline ::System::DateTimeOffset ToDateTimeOffset(::System::Object* value);
 
-/// @brief Method ToString, addr 0x609e710, size 0x194, virtual true, abstract: false, final false
-inline ::StringW ToString(::System::DateTime  value) ;
+  /// @brief Method ToString, addr 0x611071c, size 0x194, virtual true, abstract: false, final false
+  inline ::StringW ToString(::System::DateTime value);
 
-/// @brief Method ToString, addr 0x609e8a4, size 0x1b8, virtual true, abstract: false, final false
-inline ::StringW ToString(::System::DateTimeOffset  value) ;
+  /// @brief Method ToString, addr 0x61108b0, size 0x1b8, virtual true, abstract: false, final false
+  inline ::StringW ToString(::System::DateTimeOffset value);
 
-/// @brief Method ToString, addr 0x609ea5c, size 0x2f4, virtual true, abstract: false, final false
-inline ::StringW ToString(::System::Object*  value, ::System::Xml::IXmlNamespaceResolver*  nsResolver) ;
+  /// @brief Method ToString, addr 0x6110a68, size 0x2f4, virtual true, abstract: false, final false
+  inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-/// @brief Method .ctor, addr 0x609dbb0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::Schema::XmlSchemaType*  schemaType) ;
+  /// @brief Method .ctor, addr 0x610fbbc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlDateTimeConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlDateTimeConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDateTimeConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlDateTimeConverter(XmlDateTimeConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDateTimeConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlDateTimeConverter(XmlDateTimeConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDateTimeConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlDateTimeConverter(XmlDateTimeConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDateTimeConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlDateTimeConverter(XmlDateTimeConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9824 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9818};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlDateTimeConverter, 0x28>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlDateTimeConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlDateTimeConverter*, "System.Xml.Schema", "XmlDateTimeConverter");

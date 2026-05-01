@@ -31,68 +31,68 @@ namespace System::IO {
 // CS Name: System.IO.FileInfo
 class CORDL_TYPE FileInfo : public ::System::IO::FileSystemInfo {
 public:
-// Declarations
- __declspec(property(get=get_Length)) int64_t  Length;
+  // Declarations
+  __declspec(property(get = get_Length)) int64_t Length;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Method AppendText, addr 0x5a59f78, size 0x64, virtual false, abstract: false, final false
-inline ::System::IO::StreamWriter* AppendText() ;
+  /// @brief Method AppendText, addr 0x5acbf60, size 0x64, virtual false, abstract: false, final false
+  inline ::System::IO::StreamWriter* AppendText();
 
-/// @brief Method CreateText, addr 0x5a59f14, size 0x64, virtual false, abstract: false, final false
-inline ::System::IO::StreamWriter* CreateText() ;
+  /// @brief Method CreateText, addr 0x5acbefc, size 0x64, virtual false, abstract: false, final false
+  inline ::System::IO::StreamWriter* CreateText();
 
-static inline ::System::IO::FileInfo* New_ctor() ;
+  static inline ::System::IO::FileInfo* New_ctor();
 
-static inline ::System::IO::FileInfo* New_ctor(::StringW  fileName) ;
+  static inline ::System::IO::FileInfo* New_ctor(::StringW fileName);
 
-static inline ::System::IO::FileInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::IO::FileInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::IO::FileInfo* New_ctor(::StringW  originalPath, ::StringW  fullPath, ::StringW  fileName, bool  isNormalized) ;
+  static inline ::System::IO::FileInfo* New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-/// @brief Method OpenRead, addr 0x5a59fdc, size 0x80, virtual false, abstract: false, final false
-inline ::System::IO::FileStream* OpenRead() ;
+  /// @brief Method OpenRead, addr 0x5acbfc4, size 0x80, virtual false, abstract: false, final false
+  inline ::System::IO::FileStream* OpenRead();
 
-/// @brief Method .ctor, addr 0x5a59e74, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5acbe5c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5a59e7c, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::StringW  fileName) ;
+  /// @brief Method .ctor, addr 0x5acbe64, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::StringW fileName);
 
-/// @brief Method .ctor, addr 0x5a5a05c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5acc044, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5a46880, size 0x124, virtual false, abstract: false, final false
-inline void _ctor(::StringW  originalPath, ::StringW  fullPath, ::StringW  fileName, bool  isNormalized) ;
+  /// @brief Method .ctor, addr 0x5ab8868, size 0x124, virtual false, abstract: false, final false
+  inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-/// @brief Method get_Length, addr 0x5a59e8c, size 0x88, virtual false, abstract: false, final false
-inline int64_t get_Length() ;
+  /// @brief Method get_Length, addr 0x5acbe74, size 0x88, virtual false, abstract: false, final false
+  inline int64_t get_Length();
 
-/// @brief Method get_Name, addr 0x5a5a064, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x5acc04c, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FileInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileInfo();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FileInfo", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FileInfo(FileInfo&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FileInfo", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FileInfo(FileInfo && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FileInfo", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FileInfo(FileInfo const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FileInfo", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FileInfo(FileInfo const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3878 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3878};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::FileInfo, 0xa8>, "Size mismatch!");
 
-} // namespace end def System::IO
+} // namespace System::IO
 NEED_NO_BOX(::System::IO::FileInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileInfo*, "System.IO", "FileInfo");

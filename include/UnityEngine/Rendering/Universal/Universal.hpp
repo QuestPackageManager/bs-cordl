@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/Rendering/Universal/AdditionalLightsShadowAtlasLayout.hpp"
 #include "UnityEngine/Rendering/Universal/AntialiasingMode.hpp"
@@ -271,6 +271,5 @@
 #include "UnityEngine/Rendering/Universal/XRSystemUniversal.hpp"
 #include "UnityEngine/Rendering/Universal/ZBinningJob.hpp"
 #ifdef __cpp_modules
-                    export module Universal;
-                    #endif
-                
+export module Universal;
+#endif

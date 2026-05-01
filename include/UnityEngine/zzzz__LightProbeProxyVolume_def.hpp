@@ -17,29 +17,29 @@ namespace UnityEngine {
 // CS Name: UnityEngine.LightProbeProxyVolume
 class CORDL_TYPE LightProbeProxyVolume : public ::UnityEngine::Behaviour {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LightProbeProxyVolume() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightProbeProxyVolume();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LightProbeProxyVolume(LightProbeProxyVolume&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LightProbeProxyVolume(LightProbeProxyVolume && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LightProbeProxyVolume(LightProbeProxyVolume const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LightProbeProxyVolume(LightProbeProxyVolume const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10196 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10190};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LightProbeProxyVolume, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::LightProbeProxyVolume);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightProbeProxyVolume*, "UnityEngine", "LightProbeProxyVolume");

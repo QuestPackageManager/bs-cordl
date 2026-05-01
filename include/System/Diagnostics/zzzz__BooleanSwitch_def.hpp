@@ -18,37 +18,37 @@ namespace System::Diagnostics {
 // CS Name: System.Diagnostics.BooleanSwitch
 class CORDL_TYPE BooleanSwitch : public ::System::Diagnostics::Switch {
 public:
-// Declarations
-static inline ::System::Diagnostics::BooleanSwitch* New_ctor(::StringW  displayName, ::StringW  description) ;
+  // Declarations
+  static inline ::System::Diagnostics::BooleanSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-/// @brief Method OnValueChanged, addr 0x61e1ab8, size 0x68, virtual true, abstract: false, final false
-inline void OnValueChanged() ;
+  /// @brief Method OnValueChanged, addr 0x6253ac4, size 0x68, virtual true, abstract: false, final false
+  inline void OnValueChanged();
 
-/// @brief Method .ctor, addr 0x61e19e4, size 0x70, virtual false, abstract: false, final false
-inline void _ctor(::StringW  displayName, ::StringW  description) ;
+  /// @brief Method .ctor, addr 0x62539f0, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BooleanSwitch() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BooleanSwitch();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BooleanSwitch", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BooleanSwitch(BooleanSwitch&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BooleanSwitch", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BooleanSwitch(BooleanSwitch && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BooleanSwitch", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BooleanSwitch(BooleanSwitch const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BooleanSwitch", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BooleanSwitch(BooleanSwitch const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11114 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11107};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::BooleanSwitch, 0x48>, "Size mismatch!");
 
-} // namespace end def System::Diagnostics
+} // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::BooleanSwitch);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::BooleanSwitch*, "System.Diagnostics", "BooleanSwitch");

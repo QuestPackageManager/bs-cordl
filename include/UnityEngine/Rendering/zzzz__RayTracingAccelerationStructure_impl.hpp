@@ -11,244 +11,206 @@
 #include "UnityEngine/Rendering/zzzz__RayTracingAccelerationStructure_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings.set_buildFlags
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::*)(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_buildFlags)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::*)(
+    ::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_buildFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69409cc;
+  constexpr static std::size_t addrs = 0x69b2c14;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(),
-                        "set_buildFlags",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(), "set_buildFlags",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings.set_relativeOrigin
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::*)(::UnityEngine::Vector3)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_relativeOrigin)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::*)(::UnityEngine::Vector3)>(
+    &::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_relativeOrigin)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69409d4;
+  constexpr static std::size_t addrs = 0x69b2c1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(),
-                        "set_relativeOrigin",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(), "set_relativeOrigin",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::*)()>(&::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::*)()>(
+    &::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69409e0;
+  constexpr static std::size_t addrs = 0x69b2c28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_buildFlags(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(),
-                        "set_buildFlags",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_buildFlags(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(), "set_buildFlags",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_relativeOrigin(::UnityEngine::Vector3  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(),
-                        "set_relativeOrigin",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::set_relativeOrigin(::UnityEngine::Vector3 value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(), "set_relativeOrigin",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_buildFlags_k__BackingField", ty: "::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "_relativeOrigin_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::RayTracingAccelerationStructure_BuildSettings(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags  _buildFlags_k__BackingField, ::UnityEngine::Vector3  _relativeOrigin_k__BackingField) noexcept  {
-this->_buildFlags_k__BackingField = _buildFlags_k__BackingField;
-this->_relativeOrigin_k__BackingField = _relativeOrigin_k__BackingField;
+// Ctor Parameters [CppParam { name: "_buildFlags_k__BackingField", ty: "::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_relativeOrigin_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::RayTracingAccelerationStructure_BuildSettings(
+    ::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags _buildFlags_k__BackingField, ::UnityEngine::Vector3 _relativeOrigin_k__BackingField) noexcept {
+  this->_buildFlags_k__BackingField = _buildFlags_k__BackingField;
+  this->_relativeOrigin_k__BackingField = _relativeOrigin_k__BackingField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::RayTracingAccelerationStructure_BuildSettings()   {
-}
+constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings::RayTracingAccelerationStructure_BuildSettings() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller.ConvertToNative
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::Rendering::RayTracingAccelerationStructure*)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller::ConvertToNative)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::Rendering::RayTracingAccelerationStructure*)>(
+    &::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6940a40;
+  constexpr static std::size_t addrs = 0x69b2c88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller*>::get(),
-                        "ConvertToNative",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller*>::get(), "ConvertToNative",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get() })));
     return ___internal_method;
   }
 };
-inline ::System::IntPtr UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller::ConvertToNative(::UnityEngine::Rendering::RayTracingAccelerationStructure*  rayTracingAccelerationStructure)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller*>::get(),
-                        "ConvertToNative",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, rayTracingAccelerationStructure);
+inline ::System::IntPtr
+UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller::ConvertToNative(::UnityEngine::Rendering::RayTracingAccelerationStructure* rayTracingAccelerationStructure) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller*>::get(), "ConvertToNative",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, rayTracingAccelerationStructure);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller::RayTracingAccelerationStructure_BindingsMarshaller()   {
-}
+constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure_BindingsMarshaller::RayTracingAccelerationStructure_BindingsMarshaller() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure::*)()>(&::UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure::*)()>(
+    &::UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6940858;
+  constexpr static std::size_t addrs = 0x69b2aa0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(), "Dispose",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure::*)(bool)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RayTracingAccelerationStructure::*)(bool)>(
+    &::UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69408f0;
+  constexpr static std::size_t addrs = 0x69b2b38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(), "Dispose",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure.Destroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::RayTracingAccelerationStructure*)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::RayTracingAccelerationStructure*)>(
+    &::UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6940948;
+  constexpr static std::size_t addrs = 0x69b2b90;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Destroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(), "Destroy", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingAccelerationStructure.Destroy_Injected
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6940990;
+  constexpr static std::size_t addrs = 0x69b2bd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Destroy_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(), "Destroy_Injected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::IntPtr& UnityEngine::Rendering::RayTracingAccelerationStructure::__cordl_internal_get_m_Ptr()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Ptr;
+constexpr ::System::IntPtr& UnityEngine::Rendering::RayTracingAccelerationStructure::__cordl_internal_get_m_Ptr() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Ptr;
 }
 constexpr ::System::IntPtr const& UnityEngine::Rendering::RayTracingAccelerationStructure::__cordl_internal_get_m_Ptr() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Ptr;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Ptr;
 }
-constexpr void UnityEngine::Rendering::RayTracingAccelerationStructure::__cordl_internal_set_m_Ptr(::System::IntPtr  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Ptr = value;
+constexpr void UnityEngine::Rendering::RayTracingAccelerationStructure::__cordl_internal_set_m_Ptr(::System::IntPtr value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Ptr = value;
 }
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
+                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose(bool  disposing)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Dispose(bool disposing) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(), "Dispose",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy(::UnityEngine::Rendering::RayTracingAccelerationStructure*  accelStruct)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Destroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, accelStruct);
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy(::UnityEngine::Rendering::RayTracingAccelerationStructure* accelStruct) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(), "Destroy", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, accelStruct);
 }
-inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy_Injected(::System::IntPtr  accelStruct)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(),
-                        "Destroy_Injected",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, accelStruct);
+inline void UnityEngine::Rendering::RayTracingAccelerationStructure::Destroy_Injected(::System::IntPtr accelStruct) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RayTracingAccelerationStructure*>::get(), "Destroy_Injected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, accelStruct);
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  UnityEngine::Rendering::RayTracingAccelerationStructure::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::RayTracingAccelerationStructure::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* UnityEngine::Rendering::RayTracingAccelerationStructure::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure::RayTracingAccelerationStructure()   {
-}
+constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure::RayTracingAccelerationStructure() {}

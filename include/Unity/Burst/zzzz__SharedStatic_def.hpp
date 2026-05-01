@@ -26,76 +26,76 @@ namespace Unity::Burst {
 // CS Name: Unity.Burst.SharedStatic/PreserveAttribute
 class CORDL_TYPE SharedStatic_PreserveAttribute : public ::System::Attribute {
 public:
-// Declarations
-static inline ::Unity::Burst::SharedStatic_PreserveAttribute* New_ctor() ;
+  // Declarations
+  static inline ::Unity::Burst::SharedStatic_PreserveAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x62c2600, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x633460c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SharedStatic_PreserveAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SharedStatic_PreserveAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17314 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17306};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::SharedStatic_PreserveAttribute, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Burst
+} // namespace Unity::Burst
 // Dependencies System.Object
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: Unity.Burst.SharedStatic
 class CORDL_TYPE SharedStatic : public ::System::Object {
 public:
-// Declarations
-using PreserveAttribute = ::Unity::Burst::SharedStatic_PreserveAttribute;
+  // Declarations
+  using PreserveAttribute = ::Unity::Burst::SharedStatic_PreserveAttribute;
 
-/// @brief Method CheckResult, addr 0x62c2554, size 0x54, virtual false, abstract: false, final false
-static inline void CheckResult(void*  result) ;
+  /// @brief Method CheckResult, addr 0x6334560, size 0x54, virtual false, abstract: false, final false
+  static inline void CheckResult(void* result);
 
-/// @brief Method CheckSizeOf, addr 0x62c24e8, size 0x6c, virtual false, abstract: false, final false
-static inline void CheckSizeOf(uint32_t  sizeOf) ;
+  /// @brief Method CheckSizeOf, addr 0x63344f4, size 0x6c, virtual false, abstract: false, final false
+  static inline void CheckSizeOf(uint32_t sizeOf);
 
-/// @brief Method GetOrCreateSharedStaticInternal, addr 0x62c25a8, size 0x58, virtual false, abstract: false, final false
-static inline void* GetOrCreateSharedStaticInternal(int64_t  getHashCode64, int64_t  getSubHashCode64, uint32_t  sizeOf, uint32_t  alignment) ;
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x63345b4, size 0x58, virtual false, abstract: false, final false
+  static inline void* GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SharedStatic() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SharedStatic();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SharedStatic(SharedStatic&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SharedStatic(SharedStatic && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SharedStatic(SharedStatic const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SharedStatic(SharedStatic const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17307};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::SharedStatic, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Burst
+} // namespace Unity::Burst
 NEED_NO_BOX(::Unity::Burst::SharedStatic);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::SharedStatic*, "Unity.Burst", "SharedStatic");
 NEED_NO_BOX(::Unity::Burst::SharedStatic_PreserveAttribute);

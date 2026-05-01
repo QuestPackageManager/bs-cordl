@@ -21,57 +21,58 @@ namespace GlobalNamespace {
 // CS Name: VariableMovementDataProviderDebugWindow
 class CORDL_TYPE VariableMovementDataProviderDebugWindow : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _njs, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get__njs, put=__cordl_internal_set__njs)) float_t  _njs;
+  // Declarations
+  /// @brief Field _njs, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__njs, put = __cordl_internal_set__njs)) float_t _njs;
 
-/// @brief Field _variableMovementDataProvider, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__variableMovementDataProvider, put=__cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::VariableMovementDataProvider*  _variableMovementDataProvider;
+  /// @brief Field _variableMovementDataProvider, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
+                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::VariableMovementDataProvider* _variableMovementDataProvider;
 
-static inline ::GlobalNamespace::VariableMovementDataProviderDebugWindow* New_ctor() ;
+  static inline ::GlobalNamespace::VariableMovementDataProviderDebugWindow* New_ctor();
 
-/// @brief Method OnGUI, addr 0x5721b60, size 0xbf8, virtual false, abstract: false, final false
-inline void OnGUI() ;
+  /// @brief Method OnGUI, addr 0x57914d4, size 0xbf8, virtual false, abstract: false, final false
+  inline void OnGUI();
 
-constexpr float_t const& __cordl_internal_get__njs() const;
+  constexpr float_t const& __cordl_internal_get__njs() const;
 
-constexpr float_t& __cordl_internal_get__njs() ;
+  constexpr float_t& __cordl_internal_get__njs();
 
-constexpr ::GlobalNamespace::VariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
+  constexpr ::GlobalNamespace::VariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
 
-constexpr ::GlobalNamespace::VariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider() ;
+  constexpr ::GlobalNamespace::VariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
 
-constexpr void __cordl_internal_set__njs(float_t  value) ;
+  constexpr void __cordl_internal_set__njs(float_t value);
 
-constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider*  value) ;
+  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-/// @brief Method .ctor, addr 0x5722758, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57920cc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr VariableMovementDataProviderDebugWindow() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VariableMovementDataProviderDebugWindow();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProviderDebugWindow", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  VariableMovementDataProviderDebugWindow(VariableMovementDataProviderDebugWindow&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProviderDebugWindow", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-VariableMovementDataProviderDebugWindow(VariableMovementDataProviderDebugWindow && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProviderDebugWindow", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  VariableMovementDataProviderDebugWindow(VariableMovementDataProviderDebugWindow const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VariableMovementDataProviderDebugWindow", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-VariableMovementDataProviderDebugWindow(VariableMovementDataProviderDebugWindow const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5653 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5652};
+  /// @brief Field _variableMovementDataProvider, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::VariableMovementDataProvider* ____variableMovementDataProvider;
 
-/// @brief Field _variableMovementDataProvider, offset: 0x20, size: 0x8, def value: None
- ::GlobalNamespace::VariableMovementDataProvider*  ____variableMovementDataProvider;
+  /// @brief Field _njs, offset: 0x28, size: 0x4, def value: None
+  float_t ____njs;
 
-/// @brief Field _njs, offset: 0x28, size: 0x4, def value: None
- float_t  ____njs;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::VariableMovementDataProviderDebugWindow, ____variableMovementDataProvider) == 0x20, "Offset mismatch!");
@@ -80,6 +81,6 @@ static_assert(offsetof(::GlobalNamespace::VariableMovementDataProviderDebugWindo
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VariableMovementDataProviderDebugWindow, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VariableMovementDataProviderDebugWindow);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VariableMovementDataProviderDebugWindow*, "", "VariableMovementDataProviderDebugWindow");

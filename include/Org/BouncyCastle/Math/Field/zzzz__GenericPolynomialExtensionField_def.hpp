@@ -36,103 +36,104 @@ namespace Org::BouncyCastle::Math::Field {
 // CS Name: Org.BouncyCastle.Math.Field.GenericPolynomialExtensionField
 class CORDL_TYPE GenericPolynomialExtensionField : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Characteristic)) ::Org::BouncyCastle::Math::BigInteger*  Characteristic;
+  // Declarations
+  __declspec(property(get = get_Characteristic)) ::Org::BouncyCastle::Math::BigInteger* Characteristic;
 
- __declspec(property(get=get_Degree)) int32_t  Degree;
+  __declspec(property(get = get_Degree)) int32_t Degree;
 
- __declspec(property(get=get_Dimension)) int32_t  Dimension;
+  __declspec(property(get = get_Dimension)) int32_t Dimension;
 
- __declspec(property(get=get_MinimalPolynomial)) ::Org::BouncyCastle::Math::Field::IPolynomial*  MinimalPolynomial;
+  __declspec(property(get = get_MinimalPolynomial)) ::Org::BouncyCastle::Math::Field::IPolynomial* MinimalPolynomial;
 
- __declspec(property(get=get_Subfield)) ::Org::BouncyCastle::Math::Field::IFiniteField*  Subfield;
+  __declspec(property(get = get_Subfield)) ::Org::BouncyCastle::Math::Field::IFiniteField* Subfield;
 
-/// @brief Field minimalPolynomial, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_minimalPolynomial, put=__cordl_internal_set_minimalPolynomial)) ::Org::BouncyCastle::Math::Field::IPolynomial*  minimalPolynomial;
+  /// @brief Field minimalPolynomial, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_minimalPolynomial, put = __cordl_internal_set_minimalPolynomial)) ::Org::BouncyCastle::Math::Field::IPolynomial* minimalPolynomial;
 
-/// @brief Field subfield, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_subfield, put=__cordl_internal_set_subfield)) ::Org::BouncyCastle::Math::Field::IFiniteField*  subfield;
+  /// @brief Field subfield, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_subfield, put = __cordl_internal_set_subfield)) ::Org::BouncyCastle::Math::Field::IFiniteField* subfield;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IExtensionField"
-constexpr operator  ::Org::BouncyCastle::Math::Field::IExtensionField*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IExtensionField"
+  constexpr operator ::Org::BouncyCastle::Math::Field::IExtensionField*() noexcept;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
-constexpr operator  ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
+  constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomialExtensionField"
-constexpr operator  ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomialExtensionField"
+  constexpr operator ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField*() noexcept;
 
-/// @brief Method Equals, addr 0x3437328, size 0xd8, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x347396c, size 0xd8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method GetHashCode, addr 0x3437400, size 0x48, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x3473a44, size 0x48, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-static inline ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField*  subfield, ::Org::BouncyCastle::Math::Field::IPolynomial*  polynomial) ;
+  static inline ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField* subfield,
+                                                                                            ::Org::BouncyCastle::Math::Field::IPolynomial* polynomial);
 
-constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* const& __cordl_internal_get_minimalPolynomial() const;
+  constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* const& __cordl_internal_get_minimalPolynomial() const;
 
-constexpr ::Org::BouncyCastle::Math::Field::IPolynomial*& __cordl_internal_get_minimalPolynomial() ;
+  constexpr ::Org::BouncyCastle::Math::Field::IPolynomial*& __cordl_internal_get_minimalPolynomial();
 
-constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* const& __cordl_internal_get_subfield() const;
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* const& __cordl_internal_get_subfield() const;
 
-constexpr ::Org::BouncyCastle::Math::Field::IFiniteField*& __cordl_internal_get_subfield() ;
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField*& __cordl_internal_get_subfield();
 
-constexpr void __cordl_internal_set_minimalPolynomial(::Org::BouncyCastle::Math::Field::IPolynomial*  value) ;
+  constexpr void __cordl_internal_set_minimalPolynomial(::Org::BouncyCastle::Math::Field::IPolynomial* value);
 
-constexpr void __cordl_internal_set_subfield(::Org::BouncyCastle::Math::Field::IFiniteField*  value) ;
+  constexpr void __cordl_internal_set_subfield(::Org::BouncyCastle::Math::Field::IFiniteField* value);
 
-/// @brief Method .ctor, addr 0x3436e44, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Math::Field::IFiniteField*  subfield, ::Org::BouncyCastle::Math::Field::IPolynomial*  polynomial) ;
+  /// @brief Method .ctor, addr 0x3473488, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Math::Field::IFiniteField* subfield, ::Org::BouncyCastle::Math::Field::IPolynomial* polynomial);
 
-/// @brief Method get_Characteristic, addr 0x34370a4, size 0xa4, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic() ;
+  /// @brief Method get_Characteristic, addr 0x34736e8, size 0xa4, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-/// @brief Method get_Degree, addr 0x343727c, size 0xa4, virtual true, abstract: false, final false
-inline int32_t get_Degree() ;
+  /// @brief Method get_Degree, addr 0x34738c0, size 0xa4, virtual true, abstract: false, final false
+  inline int32_t get_Degree();
 
-/// @brief Method get_Dimension, addr 0x3437148, size 0x12c, virtual true, abstract: false, final false
-inline int32_t get_Dimension() ;
+  /// @brief Method get_Dimension, addr 0x347378c, size 0x12c, virtual true, abstract: false, final false
+  inline int32_t get_Dimension();
 
-/// @brief Method get_MinimalPolynomial, addr 0x3437320, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial() ;
+  /// @brief Method get_MinimalPolynomial, addr 0x3473964, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
 
-/// @brief Method get_Subfield, addr 0x3437274, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Subfield() ;
+  /// @brief Method get_Subfield, addr 0x34738b8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Subfield();
 
-/// @brief Convert to "::Org::BouncyCastle::Math::Field::IExtensionField"
-constexpr ::Org::BouncyCastle::Math::Field::IExtensionField* i___Org__BouncyCastle__Math__Field__IExtensionField() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IExtensionField"
+  constexpr ::Org::BouncyCastle::Math::Field::IExtensionField* i___Org__BouncyCastle__Math__Field__IExtensionField() noexcept;
 
-/// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
-constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
 
-/// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomialExtensionField"
-constexpr ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* i___Org__BouncyCastle__Math__Field__IPolynomialExtensionField() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomialExtensionField"
+  constexpr ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* i___Org__BouncyCastle__Math__Field__IPolynomialExtensionField() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GenericPolynomialExtensionField() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GenericPolynomialExtensionField();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPolynomialExtensionField", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GenericPolynomialExtensionField(GenericPolynomialExtensionField&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GenericPolynomialExtensionField", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GenericPolynomialExtensionField(GenericPolynomialExtensionField && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPolynomialExtensionField", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GenericPolynomialExtensionField(GenericPolynomialExtensionField const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GenericPolynomialExtensionField", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GenericPolynomialExtensionField(GenericPolynomialExtensionField const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1584 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1584};
+  /// @brief Field subfield, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Math::Field::IFiniteField* ___subfield;
 
-/// @brief Field subfield, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Math::Field::IFiniteField*  ___subfield;
+  /// @brief Field minimalPolynomial, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Math::Field::IPolynomial* ___minimalPolynomial;
 
-/// @brief Field minimalPolynomial, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Math::Field::IPolynomial*  ___minimalPolynomial;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField, ___subfield) == 0x10, "Offset mismatch!");
@@ -141,6 +142,6 @@ static_assert(offsetof(::Org::BouncyCastle::Math::Field::GenericPolynomialExtens
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Math::Field
+} // namespace Org::BouncyCastle::Math::Field
 NEED_NO_BOX(::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "GenericPolynomialExtensionField");

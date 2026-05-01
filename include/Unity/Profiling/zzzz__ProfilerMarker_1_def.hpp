@@ -13,99 +13,96 @@ namespace Unity::Profiling {
 struct ProfilerCategory;
 }
 namespace Unity::Profiling {
-template<typename TP1>
-struct ProfilerMarker_1_AutoScope;
+template <typename TP1> struct ProfilerMarker_1_AutoScope;
 }
 // Forward declare root types
 namespace Unity::Profiling {
-template<typename TP1>
-struct ProfilerMarker_1;
+template <typename TP1> struct ProfilerMarker_1;
 }
 namespace Unity::Profiling {
-template<typename TP1>
-struct ProfilerMarker_1_AutoScope;
+template <typename TP1> struct ProfilerMarker_1_AutoScope;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_1);
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_1_AutoScope);
-// Dependencies 
+// Dependencies
 namespace Unity::Profiling {
 // cpp template
-template<typename TP1>
+template <typename TP1>
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`1/AutoScope<TP1>
 #pragma pack(push, 0)
 struct CORDL_TYPE ProfilerMarker_1_AutoScope {
 public:
-// Declarations
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
 
-/// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Profiling::ProfilerMarker_1<TP1>  marker, TP1  p1) ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Profiling::ProfilerMarker_1<TP1> marker, TP1 p1);
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() ;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProfilerMarker_1_AutoScope() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProfilerMarker_1_AutoScope();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23092};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23200 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-} // namespace end def Unity::Profiling
-// Dependencies 
+} // namespace Unity::Profiling
+// Dependencies
 namespace Unity::Profiling {
 // cpp template
-template<typename TP1>
+template <typename TP1>
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`1<TP1>
 #pragma pack(push, 0)
 struct CORDL_TYPE ProfilerMarker_1 {
 public:
-// Declarations
-using AutoScope = ::Unity::Profiling::ProfilerMarker_1_AutoScope<TP1>;
+  // Declarations
+  using AutoScope = ::Unity::Profiling::ProfilerMarker_1_AutoScope<TP1>;
 
-/// @brief Method Auto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline ::Unity::Profiling::ProfilerMarker_1_AutoScope<TP1> Auto(TP1  p1) ;
+  /// @brief Method Auto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Unity::Profiling::ProfilerMarker_1_AutoScope<TP1> Auto(TP1 p1);
 
-/// @brief Method Begin, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void Begin(TP1  p1) ;
+  /// @brief Method Begin, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Begin(TP1 p1);
 
-/// @brief Method End, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void End() ;
+  /// @brief Method End, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void End();
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Profiling::ProfilerCategory  category, ::StringW  name, ::StringW  param1Name) ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Profiling::ProfilerCategory category, ::StringW name, ::StringW param1Name);
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor(::StringW  name, ::StringW  param1Name) ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, ::StringW param1Name);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProfilerMarker_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProfilerMarker_1();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23093};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23201 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-} // namespace end def Unity::Profiling
+} // namespace Unity::Profiling
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Profiling::ProfilerMarker_1, "Unity.Profiling", "ProfilerMarker`1");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Profiling::ProfilerMarker_1_AutoScope, "Unity.Profiling", "ProfilerMarker`1/AutoScope");

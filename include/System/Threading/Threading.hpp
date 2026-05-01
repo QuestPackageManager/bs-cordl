@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Threading/AbandonedMutexException.hpp"
 #include "System/Threading/AsyncLocalValueChangedArgs_1.hpp"
@@ -83,6 +83,5 @@
 #include "System/Threading/WaitHandleCannotBeOpenedException.hpp"
 #include "System/Threading/WaitOrTimerCallback.hpp"
 #ifdef __cpp_modules
-                    export module Threading;
-                    #endif
-                
+export module Threading;
+#endif

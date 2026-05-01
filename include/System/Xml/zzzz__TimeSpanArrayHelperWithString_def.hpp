@@ -27,49 +27,51 @@ MARK_REF_PTR_T(::System::Xml::TimeSpanArrayHelperWithString);
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.TimeSpanArrayHelperWithString
-class CORDL_TYPE TimeSpanArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW,::System::TimeSpan> {
+class CORDL_TYPE TimeSpanArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW, ::System::TimeSpan> {
 public:
-// Declarations
-/// @brief Field Instance, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::System::Xml::TimeSpanArrayHelperWithString*  Instance;
+  // Declarations
+  /// @brief Field Instance, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Xml::TimeSpanArrayHelperWithString* Instance;
 
-static inline ::System::Xml::TimeSpanArrayHelperWithString* New_ctor() ;
+  static inline ::System::Xml::TimeSpanArrayHelperWithString* New_ctor();
 
-/// @brief Method ReadArray, addr 0x5f4b184, size 0x38, virtual true, abstract: false, final false
-inline int32_t ReadArray(::System::Xml::XmlDictionaryReader*  reader, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<::System::TimeSpan,::Array<::System::TimeSpan>*>  array, int32_t  offset, int32_t  count) ;
+  /// @brief Method ReadArray, addr 0x5fbd190, size 0x38, virtual true, abstract: false, final false
+  inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::TimeSpan, ::Array<::System::TimeSpan>*> array, int32_t offset,
+                           int32_t count);
 
-/// @brief Method WriteArray, addr 0x5f4b1bc, size 0x3c, virtual true, abstract: false, final false
-inline void WriteArray(::System::Xml::XmlDictionaryWriter*  writer, ::StringW  prefix, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<::System::TimeSpan,::Array<::System::TimeSpan>*>  array, int32_t  offset, int32_t  count) ;
+  /// @brief Method WriteArray, addr 0x5fbd1c8, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::TimeSpan, ::Array<::System::TimeSpan>*> array,
+                         int32_t offset, int32_t count);
 
-/// @brief Method .ctor, addr 0x5f4b1f8, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5fbd204, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Xml::TimeSpanArrayHelperWithString* getStaticF_Instance() ;
+  static inline ::System::Xml::TimeSpanArrayHelperWithString* getStaticF_Instance();
 
-static inline void setStaticF_Instance(::System::Xml::TimeSpanArrayHelperWithString*  value) ;
+  static inline void setStaticF_Instance(::System::Xml::TimeSpanArrayHelperWithString* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TimeSpanArrayHelperWithString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimeSpanArrayHelperWithString();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanArrayHelperWithString", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TimeSpanArrayHelperWithString(TimeSpanArrayHelperWithString&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TimeSpanArrayHelperWithString", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TimeSpanArrayHelperWithString(TimeSpanArrayHelperWithString && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanArrayHelperWithString", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TimeSpanArrayHelperWithString(TimeSpanArrayHelperWithString const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TimeSpanArrayHelperWithString", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TimeSpanArrayHelperWithString(TimeSpanArrayHelperWithString const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16909 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16901};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::TimeSpanArrayHelperWithString, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::TimeSpanArrayHelperWithString);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::TimeSpanArrayHelperWithString*, "System.Xml", "TimeSpanArrayHelperWithString");

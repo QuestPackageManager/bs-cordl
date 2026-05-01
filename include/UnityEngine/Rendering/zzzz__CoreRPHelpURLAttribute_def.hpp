@@ -18,39 +18,39 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.CoreRPHelpURLAttribute
 class CORDL_TYPE CoreRPHelpURLAttribute : public ::UnityEngine::HelpURLAttribute {
 public:
-// Declarations
-static inline ::UnityEngine::Rendering::CoreRPHelpURLAttribute* New_ctor(::StringW  pageName, ::StringW  packageName) ;
+  // Declarations
+  static inline ::UnityEngine::Rendering::CoreRPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW packageName);
 
-static inline ::UnityEngine::Rendering::CoreRPHelpURLAttribute* New_ctor(::StringW  pageName, ::StringW  pageHash, ::StringW  packageName) ;
+  static inline ::UnityEngine::Rendering::CoreRPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
-/// @brief Method .ctor, addr 0x65d0e80, size 0xa0, virtual false, abstract: false, final false
-inline void _ctor(::StringW  pageName, ::StringW  packageName) ;
+  /// @brief Method .ctor, addr 0x6642e8c, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor(::StringW pageName, ::StringW packageName);
 
-/// @brief Method .ctor, addr 0x65d10d8, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::StringW  pageName, ::StringW  pageHash, ::StringW  packageName) ;
+  /// @brief Method .ctor, addr 0x66430e4, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CoreRPHelpURLAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CoreRPHelpURLAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CoreRPHelpURLAttribute(CoreRPHelpURLAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CoreRPHelpURLAttribute(CoreRPHelpURLAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CoreRPHelpURLAttribute(CoreRPHelpURLAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CoreRPHelpURLAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CoreRPHelpURLAttribute(CoreRPHelpURLAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12054 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12047};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CoreRPHelpURLAttribute, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::CoreRPHelpURLAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CoreRPHelpURLAttribute*, "UnityEngine.Rendering", "CoreRPHelpURLAttribute");

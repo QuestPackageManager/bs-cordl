@@ -21,32 +21,32 @@ namespace OVRSimpleJSON {
 // CS Name: OVRSimpleJSON.JSON
 class CORDL_TYPE JSON : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Parse, addr 0x5c7d980, size 0x5c, virtual false, abstract: false, final false
-static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW  aJSON) ;
+  // Declarations
+  /// @brief Method Parse, addr 0x5cef968, size 0x5c, virtual false, abstract: false, final false
+  static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr JSON() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JSON();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  JSON(JSON&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-JSON(JSON && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  JSON(JSON const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-JSON(JSON const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8024 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8018};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVRSimpleJSON::JSON, 0x10>, "Size mismatch!");
 
-} // namespace end def OVRSimpleJSON
+} // namespace OVRSimpleJSON
 NEED_NO_BOX(::OVRSimpleJSON::JSON);
 DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSON*, "OVRSimpleJSON", "JSON");

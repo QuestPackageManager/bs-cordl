@@ -27,56 +27,56 @@ namespace UnityEngine {
 // CS Name: UnityEngine.TextMesh
 class CORDL_TYPE TextMesh : public ::UnityEngine::Component {
 public:
-// Declarations
- __declspec(property(get=get_alignment, put=set_alignment)) ::UnityEngine::TextAlignment  alignment;
+  // Declarations
+  __declspec(property(get = get_alignment, put = set_alignment)) ::UnityEngine::TextAlignment alignment;
 
- __declspec(property(put=set_text)) ::StringW  text;
+  __declspec(property(put = set_text)) ::StringW text;
 
-static inline ::UnityEngine::TextMesh* New_ctor() ;
+  static inline ::UnityEngine::TextMesh* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a4bb3c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6abdd84, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_alignment, addr 0x6a4b9ac, size 0x80, virtual false, abstract: false, final false
-inline ::UnityEngine::TextAlignment get_alignment() ;
+  /// @brief Method get_alignment, addr 0x6abdbf4, size 0x80, virtual false, abstract: false, final false
+  inline ::UnityEngine::TextAlignment get_alignment();
 
-/// @brief Method get_alignment_Injected, addr 0x6a4ba2c, size 0x3c, virtual false, abstract: false, final false
-static inline ::UnityEngine::TextAlignment get_alignment_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_alignment_Injected, addr 0x6abdc74, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextAlignment get_alignment_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method set_alignment, addr 0x6a4ba68, size 0x90, virtual false, abstract: false, final false
-inline void set_alignment(::UnityEngine::TextAlignment  value) ;
+  /// @brief Method set_alignment, addr 0x6abdcb0, size 0x90, virtual false, abstract: false, final false
+  inline void set_alignment(::UnityEngine::TextAlignment value);
 
-/// @brief Method set_alignment_Injected, addr 0x6a4baf8, size 0x44, virtual false, abstract: false, final false
-static inline void set_alignment_Injected(::System::IntPtr  _unity_self, ::UnityEngine::TextAlignment  value) ;
+  /// @brief Method set_alignment_Injected, addr 0x6abdd40, size 0x44, virtual false, abstract: false, final false
+  static inline void set_alignment_Injected(::System::IntPtr _unity_self, ::UnityEngine::TextAlignment value);
 
-/// @brief Method set_text, addr 0x6a4b800, size 0x168, virtual false, abstract: false, final false
-inline void set_text(::StringW  value) ;
+  /// @brief Method set_text, addr 0x6abda48, size 0x168, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
 
-/// @brief Method set_text_Injected, addr 0x6a4b968, size 0x44, virtual false, abstract: false, final false
-static inline void set_text_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  value) ;
+  /// @brief Method set_text_Injected, addr 0x6abdbb0, size 0x44, virtual false, abstract: false, final false
+  static inline void set_text_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TextMesh() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextMesh();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TextMesh(TextMesh&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TextMesh(TextMesh && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TextMesh(TextMesh const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TextMesh(TextMesh const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22211 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22157};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextMesh, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::TextMesh);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextMesh*, "UnityEngine", "TextMesh");

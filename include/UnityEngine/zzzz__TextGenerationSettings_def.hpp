@@ -34,84 +34,95 @@ namespace UnityEngine {
 // CS Name: UnityEngine.TextGenerationSettings
 struct CORDL_TYPE TextGenerationSettings {
 public:
-// Declarations
-/// @brief Method CompareColors, addr 0x6a49fbc, size 0x144, virtual false, abstract: false, final false
-inline bool CompareColors(::UnityEngine::Color  left, ::UnityEngine::Color  right) ;
+  // Declarations
+  /// @brief Method CompareColors, addr 0x6abc204, size 0x144, virtual false, abstract: false, final false
+  inline bool CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right);
 
-/// @brief Method CompareVector2, addr 0x6a4a100, size 0xd4, virtual false, abstract: false, final false
-inline bool CompareVector2(::UnityEngine::Vector2  left, ::UnityEngine::Vector2  right) ;
+  /// @brief Method CompareVector2, addr 0x6abc348, size 0xd4, virtual false, abstract: false, final false
+  inline bool CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right);
 
-/// @brief Method Equals, addr 0x6a4a1d4, size 0x234, virtual false, abstract: false, final false
-inline bool Equals(::UnityEngine::TextGenerationSettings  other) ;
+  /// @brief Method Equals, addr 0x6abc41c, size 0x234, virtual false, abstract: false, final false
+  inline bool Equals(::UnityEngine::TextGenerationSettings other);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr TextGenerationSettings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextGenerationSettings();
 
-// Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineSpacing", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "scaleFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "textAnchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "alignByGeometry", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resizeTextForBestFit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resizeTextMinSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "resizeTextMaxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateBounds", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "verticalOverflow", ty: "::UnityEngine::VerticalWrapMode", modifiers: "", def_value: None }, CppParam { name: "horizontalOverflow", ty: "::UnityEngine::HorizontalWrapMode", modifiers: "", def_value: None }, CppParam { name: "generationExtents", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "generateOutOfBounds", ty: "bool", modifiers: "", def_value: None }]
-constexpr TextGenerationSettings(::UnityW<::UnityEngine::Font>  font, ::UnityEngine::Color  color, int32_t  fontSize, float_t  lineSpacing, bool  richText, float_t  scaleFactor, ::UnityEngine::FontStyle  fontStyle, ::UnityEngine::TextAnchor  textAnchor, bool  alignByGeometry, bool  resizeTextForBestFit, int32_t  resizeTextMinSize, int32_t  resizeTextMaxSize, bool  updateBounds, ::UnityEngine::VerticalWrapMode  verticalOverflow, ::UnityEngine::HorizontalWrapMode  horizontalOverflow, ::UnityEngine::Vector2  generationExtents, ::UnityEngine::Vector2  pivot, bool  generateOutOfBounds) noexcept;
+  // Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value:
+  // None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineSpacing", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText",
+  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "scaleFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::FontStyle",
+  // modifiers: "", def_value: None }, CppParam { name: "textAnchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "alignByGeometry", ty: "bool", modifiers: "",
+  // def_value: None }, CppParam { name: "resizeTextForBestFit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resizeTextMinSize", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "resizeTextMaxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateBounds", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // "verticalOverflow", ty: "::UnityEngine::VerticalWrapMode", modifiers: "", def_value: None }, CppParam { name: "horizontalOverflow", ty: "::UnityEngine::HorizontalWrapMode", modifiers: "",
+  // def_value: None }, CppParam { name: "generationExtents", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "",
+  // def_value: None }, CppParam { name: "generateOutOfBounds", ty: "bool", modifiers: "", def_value: None }]
+  constexpr TextGenerationSettings(::UnityW<::UnityEngine::Font> font, ::UnityEngine::Color color, int32_t fontSize, float_t lineSpacing, bool richText, float_t scaleFactor,
+                                   ::UnityEngine::FontStyle fontStyle, ::UnityEngine::TextAnchor textAnchor, bool alignByGeometry, bool resizeTextForBestFit, int32_t resizeTextMinSize,
+                                   int32_t resizeTextMaxSize, bool updateBounds, ::UnityEngine::VerticalWrapMode verticalOverflow, ::UnityEngine::HorizontalWrapMode horizontalOverflow,
+                                   ::UnityEngine::Vector2 generationExtents, ::UnityEngine::Vector2 pivot, bool generateOutOfBounds) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22149};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22203 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
-/// @brief Field font, offset: 0x0, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Font>  font;
+  /// @brief Field font, offset: 0x0, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Font> font;
 
-/// @brief Field color, offset: 0x8, size: 0x10, def value: None
- ::UnityEngine::Color  color;
+  /// @brief Field color, offset: 0x8, size: 0x10, def value: None
+  ::UnityEngine::Color color;
 
-/// @brief Field fontSize, offset: 0x18, size: 0x4, def value: None
- int32_t  fontSize;
+  /// @brief Field fontSize, offset: 0x18, size: 0x4, def value: None
+  int32_t fontSize;
 
-/// @brief Field lineSpacing, offset: 0x1c, size: 0x4, def value: None
- float_t  lineSpacing;
+  /// @brief Field lineSpacing, offset: 0x1c, size: 0x4, def value: None
+  float_t lineSpacing;
 
-/// @brief Field richText, offset: 0x20, size: 0x1, def value: None
- bool  richText;
+  /// @brief Field richText, offset: 0x20, size: 0x1, def value: None
+  bool richText;
 
-/// @brief Field scaleFactor, offset: 0x24, size: 0x4, def value: None
- float_t  scaleFactor;
+  /// @brief Field scaleFactor, offset: 0x24, size: 0x4, def value: None
+  float_t scaleFactor;
 
-/// @brief Field fontStyle, offset: 0x28, size: 0x4, def value: None
- ::UnityEngine::FontStyle  fontStyle;
+  /// @brief Field fontStyle, offset: 0x28, size: 0x4, def value: None
+  ::UnityEngine::FontStyle fontStyle;
 
-/// @brief Field textAnchor, offset: 0x2c, size: 0x4, def value: None
- ::UnityEngine::TextAnchor  textAnchor;
+  /// @brief Field textAnchor, offset: 0x2c, size: 0x4, def value: None
+  ::UnityEngine::TextAnchor textAnchor;
 
-/// @brief Field alignByGeometry, offset: 0x30, size: 0x1, def value: None
- bool  alignByGeometry;
+  /// @brief Field alignByGeometry, offset: 0x30, size: 0x1, def value: None
+  bool alignByGeometry;
 
-/// @brief Field resizeTextForBestFit, offset: 0x31, size: 0x1, def value: None
- bool  resizeTextForBestFit;
+  /// @brief Field resizeTextForBestFit, offset: 0x31, size: 0x1, def value: None
+  bool resizeTextForBestFit;
 
-/// @brief Field resizeTextMinSize, offset: 0x34, size: 0x4, def value: None
- int32_t  resizeTextMinSize;
+  /// @brief Field resizeTextMinSize, offset: 0x34, size: 0x4, def value: None
+  int32_t resizeTextMinSize;
 
-/// @brief Field resizeTextMaxSize, offset: 0x38, size: 0x4, def value: None
- int32_t  resizeTextMaxSize;
+  /// @brief Field resizeTextMaxSize, offset: 0x38, size: 0x4, def value: None
+  int32_t resizeTextMaxSize;
 
-/// @brief Field updateBounds, offset: 0x3c, size: 0x1, def value: None
- bool  updateBounds;
+  /// @brief Field updateBounds, offset: 0x3c, size: 0x1, def value: None
+  bool updateBounds;
 
-/// @brief Field verticalOverflow, offset: 0x40, size: 0x4, def value: None
- ::UnityEngine::VerticalWrapMode  verticalOverflow;
+  /// @brief Field verticalOverflow, offset: 0x40, size: 0x4, def value: None
+  ::UnityEngine::VerticalWrapMode verticalOverflow;
 
-/// @brief Field horizontalOverflow, offset: 0x44, size: 0x4, def value: None
- ::UnityEngine::HorizontalWrapMode  horizontalOverflow;
+  /// @brief Field horizontalOverflow, offset: 0x44, size: 0x4, def value: None
+  ::UnityEngine::HorizontalWrapMode horizontalOverflow;
 
-/// @brief Field generationExtents, offset: 0x48, size: 0x8, def value: None
- ::UnityEngine::Vector2  generationExtents;
+  /// @brief Field generationExtents, offset: 0x48, size: 0x8, def value: None
+  ::UnityEngine::Vector2 generationExtents;
 
-/// @brief Field pivot, offset: 0x50, size: 0x8, def value: None
- ::UnityEngine::Vector2  pivot;
+  /// @brief Field pivot, offset: 0x50, size: 0x8, def value: None
+  ::UnityEngine::Vector2 pivot;
 
-/// @brief Field generateOutOfBounds, offset: 0x58, size: 0x1, def value: None
- bool  generateOutOfBounds;
+  /// @brief Field generateOutOfBounds, offset: 0x58, size: 0x1, def value: None
+  bool generateOutOfBounds;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextGenerationSettings, font) == 0x0, "Offset mismatch!");
@@ -152,5 +163,5 @@ static_assert(offsetof(::UnityEngine::TextGenerationSettings, generateOutOfBound
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextGenerationSettings, 0x60>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");

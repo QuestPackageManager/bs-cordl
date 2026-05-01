@@ -18,54 +18,54 @@ namespace Mono::Globalization::Unicode {
 // CS Name: Mono.Globalization.Unicode.Level2Map
 class CORDL_TYPE Level2Map : public ::System::Object {
 public:
-// Declarations
-/// @brief Field Replace, offset 0x11, size 0x1 
- __declspec(property(get=__cordl_internal_get_Replace, put=__cordl_internal_set_Replace)) uint8_t  Replace;
+  // Declarations
+  /// @brief Field Replace, offset 0x11, size 0x1
+  __declspec(property(get = __cordl_internal_get_Replace, put = __cordl_internal_set_Replace)) uint8_t Replace;
 
-/// @brief Field Source, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_Source, put=__cordl_internal_set_Source)) uint8_t  Source;
+  /// @brief Field Source, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source)) uint8_t Source;
 
-static inline ::Mono::Globalization::Unicode::Level2Map* New_ctor(uint8_t  source, uint8_t  replace) ;
+  static inline ::Mono::Globalization::Unicode::Level2Map* New_ctor(uint8_t source, uint8_t replace);
 
-constexpr uint8_t const& __cordl_internal_get_Replace() const;
+  constexpr uint8_t const& __cordl_internal_get_Replace() const;
 
-constexpr uint8_t& __cordl_internal_get_Replace() ;
+  constexpr uint8_t& __cordl_internal_get_Replace();
 
-constexpr uint8_t const& __cordl_internal_get_Source() const;
+  constexpr uint8_t const& __cordl_internal_get_Source() const;
 
-constexpr uint8_t& __cordl_internal_get_Source() ;
+  constexpr uint8_t& __cordl_internal_get_Source();
 
-constexpr void __cordl_internal_set_Replace(uint8_t  value) ;
+  constexpr void __cordl_internal_set_Replace(uint8_t value);
 
-constexpr void __cordl_internal_set_Source(uint8_t  value) ;
+  constexpr void __cordl_internal_set_Source(uint8_t value);
 
-/// @brief Method .ctor, addr 0x5902148, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(uint8_t  source, uint8_t  replace) ;
+  /// @brief Method .ctor, addr 0x59740b4, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(uint8_t source, uint8_t replace);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Level2Map() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Level2Map();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Level2Map", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Level2Map(Level2Map&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Level2Map", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Level2Map(Level2Map && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Level2Map", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Level2Map(Level2Map const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Level2Map", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Level2Map(Level2Map const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2262 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2262};
+  /// @brief Field Source, offset: 0x10, size: 0x1, def value: None
+  uint8_t ___Source;
 
-/// @brief Field Source, offset: 0x10, size: 0x1, def value: None
- uint8_t  ___Source;
+  /// @brief Field Replace, offset: 0x11, size: 0x1, def value: None
+  uint8_t ___Replace;
 
-/// @brief Field Replace, offset: 0x11, size: 0x1, def value: None
- uint8_t  ___Replace;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Globalization::Unicode::Level2Map, ___Source) == 0x10, "Offset mismatch!");
@@ -74,6 +74,6 @@ static_assert(offsetof(::Mono::Globalization::Unicode::Level2Map, ___Replace) ==
 
 static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::Level2Map, 0x18>, "Size mismatch!");
 
-} // namespace end def Mono::Globalization::Unicode
+} // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::Level2Map);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");

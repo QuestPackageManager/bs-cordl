@@ -23,37 +23,37 @@ namespace Mono::Net::Security {
 // CS Name: Mono.Net.Security.AsyncHandshakeRequest
 class CORDL_TYPE AsyncHandshakeRequest : public ::Mono::Net::Security::AsyncProtocolRequest {
 public:
-// Declarations
-static inline ::Mono::Net::Security::AsyncHandshakeRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, bool  sync) ;
+  // Declarations
+  static inline ::Mono::Net::Security::AsyncHandshakeRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-/// @brief Method Run, addr 0x5e23c14, size 0x18, virtual true, abstract: false, final false
-inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus  status) ;
+  /// @brief Method Run, addr 0x5e95c20, size 0x18, virtual true, abstract: false, final false
+  inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-/// @brief Method .ctor, addr 0x5e23c10, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, bool  sync) ;
+  /// @brief Method .ctor, addr 0x5e95c1c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AsyncHandshakeRequest() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncHandshakeRequest();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncHandshakeRequest", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AsyncHandshakeRequest(AsyncHandshakeRequest&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncHandshakeRequest", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AsyncHandshakeRequest(AsyncHandshakeRequest && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncHandshakeRequest", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AsyncHandshakeRequest(AsyncHandshakeRequest const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncHandshakeRequest", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AsyncHandshakeRequest(AsyncHandshakeRequest const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11002 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10995};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::AsyncHandshakeRequest, 0x38>, "Size mismatch!");
 
-} // namespace end def Mono::Net::Security
+} // namespace Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::AsyncHandshakeRequest);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::AsyncHandshakeRequest*, "Mono.Net.Security", "AsyncHandshakeRequest");

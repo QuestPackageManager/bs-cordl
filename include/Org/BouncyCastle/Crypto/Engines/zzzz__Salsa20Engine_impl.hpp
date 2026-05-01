@@ -5,583 +5,518 @@
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.PackTauOrSigma
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(int32_t, ::ArrayW<uint32_t,::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(
+    int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x32acce8;
+  constexpr static std::size_t addrs = 0x32e932c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "PackTauOrSigma",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), "PackTauOrSigma", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32ace20;
+  constexpr static std::size_t addrs = 0x32e9464;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(int32_t)>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x32ace84;
+  constexpr static std::size_t addrs = 0x32e94c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Init)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x32acf84;
+  constexpr static std::size_t addrs = 0x32e95c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 9));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.get_NonceSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_NonceSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_NonceSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32ad310;
+  constexpr static std::size_t addrs = 0x32e9954;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 10));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.get_AlgorithmName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_AlgorithmName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x32ad318;
+  constexpr static std::size_t addrs = 0x32e995c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 11));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.ReturnByte
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ReturnByte)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(uint8_t)>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ReturnByte)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x32ad3fc;
+  constexpr static std::size_t addrs = 0x32e9a40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.AdvanceCounter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::AdvanceCounter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::AdvanceCounter)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32ad53c;
+  constexpr static std::size_t addrs = 0x32e9b80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.ProcessBytes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x32ad588;
+  constexpr static std::size_t addrs = 0x32e9bcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Reset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32ad844;
+  constexpr static std::size_t addrs = 0x32e9e88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.ResetCounter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetCounter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetCounter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x32ad86c;
+  constexpr static std::size_t addrs = 0x32e9eb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.SetKey
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, ::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x32ad898;
+  constexpr static std::size_t addrs = 0x32e9edc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 17));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.GenerateKeyStream
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32ada8c;
+  constexpr static std::size_t addrs = 0x32ea0d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 18));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.SalsaCore
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::ArrayW<uint32_t,::Array<uint32_t>*>, ::ArrayW<uint32_t,::Array<uint32_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x32adb14;
+  constexpr static std::size_t addrs = 0x32ea158;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "SalsaCore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), "SalsaCore", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.ResetLimitCounter
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetLimitCounter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetLimitCounter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32ad860;
+  constexpr static std::size_t addrs = 0x32e9ea4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "ResetLimitCounter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                                               "ResetLimitCounter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.LimitExceeded
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x32ad4fc;
+  constexpr static std::size_t addrs = 0x32e9b40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "LimitExceeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                                               "LimitExceeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine.LimitExceeded
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(uint32_t)>(
+    &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x32ad804;
+  constexpr static std::size_t addrs = 0x32e9e48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "LimitExceeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), "LimitExceeded",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_rounds()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___rounds;
+constexpr int32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_rounds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rounds;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_rounds() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___rounds;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rounds;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_rounds(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___rounds = value;
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_rounds(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___rounds = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_index()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___index;
+constexpr int32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_index() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___index;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_index() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___index;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___index;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_index(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___index = value;
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_index(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___index = value;
 }
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_engineState()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___engineState;
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_engineState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___engineState;
 }
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_engineState() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___engineState;
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_engineState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___engineState;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_engineState(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___engineState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_engineState(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___engineState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_x()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___x;
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_x() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___x;
 }
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_x() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___x;
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_x() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___x;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_x(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_keyStream()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___keyStream;
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_keyStream() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___keyStream;
 }
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_keyStream() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___keyStream;
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_keyStream() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___keyStream;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_keyStream(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_keyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_initialised()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___initialised;
+constexpr bool& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_initialised() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___initialised;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_initialised() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___initialised;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___initialised;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_initialised(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___initialised = value;
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_initialised(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___initialised = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW0()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cW0;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW0() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cW0;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW0() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cW0;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cW0;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_cW0(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___cW0 = value;
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_cW0(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___cW0 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW1()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cW1;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cW1;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW1() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cW1;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cW1;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_cW1(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___cW1 = value;
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_cW1(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___cW1 = value;
 }
-constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW2()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cW2;
+constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cW2;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_get_cW2() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cW2;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cW2;
 }
-constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_cW2(uint32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___cW2 = value;
+constexpr void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::__cordl_internal_set_cW2(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___cW2 = value;
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_DEFAULT_ROUNDS(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "DEFAULT_ROUNDS", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(std::forward<int32_t>(value));
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_DEFAULT_ROUNDS(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "DEFAULT_ROUNDS", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(
+      std::forward<int32_t>(value));
 }
-inline int32_t Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_DEFAULT_ROUNDS()  {
-return ::cordl_internals::getStaticField<int32_t, "DEFAULT_ROUNDS", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
+inline int32_t Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_DEFAULT_ROUNDS() {
+  return ::cordl_internals::getStaticField<int32_t, "DEFAULT_ROUNDS", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_TAU_SIGMA(::ArrayW<uint32_t,::Array<uint32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "TAU_SIGMA", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(std::forward<::ArrayW<uint32_t,::Array<uint32_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_TAU_SIGMA(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint32_t, ::Array<uint32_t>*>, "TAU_SIGMA",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(
+      std::forward<::ArrayW<uint32_t, ::Array<uint32_t>*>>(value));
 }
-inline ::ArrayW<uint32_t,::Array<uint32_t>*> Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_TAU_SIGMA()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint32_t,::Array<uint32_t>*>, "TAU_SIGMA", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
+inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_TAU_SIGMA() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint32_t, ::Array<uint32_t>*>, "TAU_SIGMA",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_sigma(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "sigma", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(std::forward<::ArrayW<uint8_t,::Array<uint8_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_sigma(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "sigma", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(
+      std::forward<::ArrayW<uint8_t, ::Array<uint8_t>*>>(value));
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_sigma()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "sigma", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_sigma() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "sigma",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_tau(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "tau", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(std::forward<::ArrayW<uint8_t,::Array<uint8_t>*>>(value));
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::setStaticF_tau(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "tau", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>(
+      std::forward<::ArrayW<uint8_t, ::Array<uint8_t>*>>(value));
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_tau()  {
-return ::cordl_internals::getStaticField<::ArrayW<uint8_t,::Array<uint8_t>*>, "tau", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::Salsa20Engine::getStaticF_tau() {
+  return ::cordl_internals::getStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "tau",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get>();
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma(int32_t  keyLength, ::ArrayW<uint32_t,::Array<uint32_t>*>  state, int32_t  stateOffset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "PackTauOrSigma",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyLength, state, stateOffset);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma(int32_t keyLength, ::ArrayW<uint32_t, ::Array<uint32_t>*> state, int32_t stateOffset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), "PackTauOrSigma", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyLength, state, stateOffset);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor(int32_t  rounds)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rounds);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor(int32_t rounds) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rounds);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, forEncryption, parameters);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, forEncryption, parameters);
 }
-inline int32_t Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_NonceSize()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_NonceSize() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::StringW Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_AlgorithmName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_AlgorithmName() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline uint8_t Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ReturnByte(uint8_t  input)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method, input);
+inline uint8_t Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ReturnByte(uint8_t input) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method, input);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::AdvanceCounter()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::AdvanceCounter() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, int32_t  len, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inBytes, inOff, len, outBytes, outOff);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes,
+                                                                            int32_t outOff) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inBytes, inOff, len, outBytes, outOff);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Reset()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Reset() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetCounter()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetCounter() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey(::ArrayW<uint8_t,::Array<uint8_t>*>  keyBytes, ::ArrayW<uint8_t,::Array<uint8_t>*>  ivBytes)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyBytes, ivBytes);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 17)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyBytes, ivBytes);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream(::ArrayW<uint8_t,::Array<uint8_t>*>  output)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, output);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> output) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), 18)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, output);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore(int32_t  rounds, ::ArrayW<uint32_t,::Array<uint32_t>*>  input, ::ArrayW<uint32_t,::Array<uint32_t>*>  x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "SalsaCore",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t,::Array<uint32_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rounds, input, x);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore(int32_t rounds, ::ArrayW<uint32_t, ::Array<uint32_t>*> input, ::ArrayW<uint32_t, ::Array<uint32_t>*> x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), "SalsaCore", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rounds, input, x);
 }
-inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetLimitCounter()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "ResetLimitCounter",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetLimitCounter() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                                             "ResetLimitCounter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "LimitExceeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
+                                                                             "LimitExceeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded(uint32_t  len)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(),
-                        "LimitExceeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, len);
+inline bool Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded(uint32_t len) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>::get(), "LimitExceeded",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, len);
 }
-inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>());
+inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>());
 }
-inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor(int32_t  rounds)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(rounds));
+inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor(int32_t rounds) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(rounds));
 }
 /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
-constexpr  Org::BouncyCastle::Crypto::Engines::Salsa20Engine::operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(static_cast<void*>(this));
+constexpr Org::BouncyCastle::Crypto::Engines::Salsa20Engine::operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
 constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* Org::BouncyCastle::Crypto::Engines::Salsa20Engine::i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept {
-return static_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(static_cast<void*>(this));
+  return static_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Salsa20Engine()   {
-}
+constexpr ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Salsa20Engine() {}

@@ -21,39 +21,39 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.BerSequenceGenerator
 class CORDL_TYPE BerSequenceGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream*  outStream) ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
 
-static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream*  outStream, int32_t  tagNo, bool  isExplicit) ;
+  static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-/// @brief Method .ctor, addr 0x358fba0, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::Stream*  outStream) ;
+  /// @brief Method .ctor, addr 0x35cc1e4, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStream);
 
-/// @brief Method .ctor, addr 0x358fbb4, size 0x1c, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::Stream*  outStream, int32_t  tagNo, bool  isExplicit) ;
+  /// @brief Method .ctor, addr 0x35cc1f8, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BerSequenceGenerator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerSequenceGenerator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BerSequenceGenerator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BerSequenceGenerator(BerSequenceGenerator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BerSequenceGenerator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BerSequenceGenerator(BerSequenceGenerator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BerSequenceGenerator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BerSequenceGenerator(BerSequenceGenerator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BerSequenceGenerator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BerSequenceGenerator(BerSequenceGenerator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 489 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{489};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerSequenceGenerator, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1
+} // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerSequenceGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerSequenceGenerator*, "Org.BouncyCastle.Asn1", "BerSequenceGenerator");

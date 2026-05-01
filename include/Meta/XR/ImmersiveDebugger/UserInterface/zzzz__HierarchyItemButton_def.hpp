@@ -30,131 +30,131 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.HierarchyItemButton
 class CORDL_TYPE HierarchyItemButton : public ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex {
 public:
-// Declarations
- __declspec(property(get=get_Counter, put=set_Counter)) int32_t  Counter;
+  // Declarations
+  __declspec(property(get = get_Counter, put = set_Counter)) int32_t Counter;
 
- __declspec(property(get=get_Foldout)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle>  Foldout;
+  __declspec(property(get = get_Foldout)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> Foldout;
 
- __declspec(property(get=get_Item, put=set_Item)) ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*  Item;
+  __declspec(property(get = get_Item, put = set_Item)) ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* Item;
 
- __declspec(property(get=get_Label)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel>  Label;
+  __declspec(property(get = get_Label)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> Label;
 
-/// @brief Field _counter, offset 0x98, size 0x4 
- __declspec(property(get=__cordl_internal_get__counter, put=__cordl_internal_set__counter)) int32_t  _counter;
+  /// @brief Field _counter, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get__counter, put = __cordl_internal_set__counter)) int32_t _counter;
 
-/// @brief Field _foldout, offset 0xa8, size 0x8 
- __declspec(property(get=__cordl_internal_get__foldout, put=__cordl_internal_set__foldout)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle>  _foldout;
+  /// @brief Field _foldout, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__foldout, put = __cordl_internal_set__foldout)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> _foldout;
 
-/// @brief Field _item, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get__item, put=__cordl_internal_set__item)) ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*  _item;
+  /// @brief Field _item, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__item, put = __cordl_internal_set__item)) ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* _item;
 
-/// @brief Field _label, offset 0xa0, size 0x8 
- __declspec(property(get=__cordl_internal_get__label, put=__cordl_internal_set__label)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel>  _label;
+  /// @brief Field _label, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__label, put = __cordl_internal_set__label)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> _label;
 
-/// @brief Field _previousEnabledState, offset 0xb0, size 0x1 
- __declspec(property(get=__cordl_internal_get__previousEnabledState, put=__cordl_internal_set__previousEnabledState)) bool  _previousEnabledState;
+  /// @brief Field _previousEnabledState, offset 0xb0, size 0x1
+  __declspec(property(get = __cordl_internal_get__previousEnabledState, put = __cordl_internal_set__previousEnabledState)) bool _previousEnabledState;
 
-static inline ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton* New_ctor() ;
+  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton* New_ctor();
 
-/// @brief Method OnStateChanged, addr 0x58a0944, size 0xfc, virtual false, abstract: false, final false
-inline void OnStateChanged(bool  state) ;
+  /// @brief Method OnStateChanged, addr 0x59128b0, size 0xfc, virtual false, abstract: false, final false
+  inline void OnStateChanged(bool state);
 
-/// @brief Method Setup, addr 0x58a03b4, size 0x374, virtual true, abstract: false, final false
-inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  owner) ;
+  /// @brief Method Setup, addr 0x5912320, size 0x374, virtual true, abstract: false, final false
+  inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-/// @brief Method Update, addr 0x58a0a40, size 0xbc, virtual false, abstract: false, final false
-inline void Update() ;
+  /// @brief Method Update, addr 0x59129ac, size 0xbc, virtual false, abstract: false, final false
+  inline void Update();
 
-/// @brief Method UpdateGameObjectState, addr 0x58a0298, size 0x98, virtual false, abstract: false, final false
-inline void UpdateGameObjectState(bool  force) ;
+  /// @brief Method UpdateGameObjectState, addr 0x5912204, size 0x98, virtual false, abstract: false, final false
+  inline void UpdateGameObjectState(bool force);
 
-/// @brief Method UpdateGameObjectState, addr 0x58a0afc, size 0xdc, virtual false, abstract: false, final false
-inline void UpdateGameObjectState(bool  state, bool  force) ;
+  /// @brief Method UpdateGameObjectState, addr 0x5912a68, size 0xdc, virtual false, abstract: false, final false
+  inline void UpdateGameObjectState(bool state, bool force);
 
-constexpr int32_t const& __cordl_internal_get__counter() const;
+  constexpr int32_t const& __cordl_internal_get__counter() const;
 
-constexpr int32_t& __cordl_internal_get__counter() ;
+  constexpr int32_t& __cordl_internal_get__counter();
 
-constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> const& __cordl_internal_get__foldout() const;
+  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> const& __cordl_internal_get__foldout() const;
 
-constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle>& __cordl_internal_get__foldout() ;
+  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle>& __cordl_internal_get__foldout();
 
-constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* const& __cordl_internal_get__item() const;
+  constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* const& __cordl_internal_get__item() const;
 
-constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*& __cordl_internal_get__item() ;
+  constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*& __cordl_internal_get__item();
 
-constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> const& __cordl_internal_get__label() const;
+  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> const& __cordl_internal_get__label() const;
 
-constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel>& __cordl_internal_get__label() ;
+  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel>& __cordl_internal_get__label();
 
-constexpr bool const& __cordl_internal_get__previousEnabledState() const;
+  constexpr bool const& __cordl_internal_get__previousEnabledState() const;
 
-constexpr bool& __cordl_internal_get__previousEnabledState() ;
+  constexpr bool& __cordl_internal_get__previousEnabledState();
 
-constexpr void __cordl_internal_set__counter(int32_t  value) ;
+  constexpr void __cordl_internal_set__counter(int32_t value);
 
-constexpr void __cordl_internal_set__foldout(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle>  value) ;
+  constexpr void __cordl_internal_set__foldout(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> value);
 
-constexpr void __cordl_internal_set__item(::Meta::XR::ImmersiveDebugger::Hierarchy::Item*  value) ;
+  constexpr void __cordl_internal_set__item(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* value);
 
-constexpr void __cordl_internal_set__label(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel>  value) ;
+  constexpr void __cordl_internal_set__label(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> value);
 
-constexpr void __cordl_internal_set__previousEnabledState(bool  value) ;
+  constexpr void __cordl_internal_set__previousEnabledState(bool value);
 
-/// @brief Method .ctor, addr 0x58a0bd8, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5912b44, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Counter, addr 0x58a0330, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_Counter() ;
+  /// @brief Method get_Counter, addr 0x591229c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Counter();
 
-/// @brief Method get_Foldout, addr 0x58a03a4, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> get_Foldout() ;
+  /// @brief Method get_Foldout, addr 0x5912310, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> get_Foldout();
 
-/// @brief Method get_Item, addr 0x58a0178, size 0x8, virtual false, abstract: false, final false
-inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* get_Item() ;
+  /// @brief Method get_Item, addr 0x59120e4, size 0x8, virtual false, abstract: false, final false
+  inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* get_Item();
 
-/// @brief Method get_Label, addr 0x58a03ac, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> get_Label() ;
+  /// @brief Method get_Label, addr 0x5912318, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> get_Label();
 
-/// @brief Method set_Counter, addr 0x58a0338, size 0x6c, virtual false, abstract: false, final false
-inline void set_Counter(int32_t  value) ;
+  /// @brief Method set_Counter, addr 0x59122a4, size 0x6c, virtual false, abstract: false, final false
+  inline void set_Counter(int32_t value);
 
-/// @brief Method set_Item, addr 0x58a0180, size 0x118, virtual false, abstract: false, final false
-inline void set_Item(::Meta::XR::ImmersiveDebugger::Hierarchy::Item*  value) ;
+  /// @brief Method set_Item, addr 0x59120ec, size 0x118, virtual false, abstract: false, final false
+  inline void set_Item(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HierarchyItemButton() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HierarchyItemButton();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HierarchyItemButton(HierarchyItemButton&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HierarchyItemButton(HierarchyItemButton && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HierarchyItemButton(HierarchyItemButton const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HierarchyItemButton", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HierarchyItemButton(HierarchyItemButton const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18347 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18337};
+  /// @brief Field _item, offset: 0x90, size: 0x8, def value: None
+  ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* ____item;
 
-/// @brief Field _item, offset: 0x90, size: 0x8, def value: None
- ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*  ____item;
+  /// @brief Field _counter, offset: 0x98, size: 0x4, def value: None
+  int32_t ____counter;
 
-/// @brief Field _counter, offset: 0x98, size: 0x4, def value: None
- int32_t  ____counter;
+  /// @brief Field _label, offset: 0xa0, size: 0x8, def value: None
+  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> ____label;
 
-/// @brief Field _label, offset: 0xa0, size: 0x8, def value: None
- ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel>  ____label;
+  /// @brief Field _foldout, offset: 0xa8, size: 0x8, def value: None
+  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> ____foldout;
 
-/// @brief Field _foldout, offset: 0xa8, size: 0x8, def value: None
- ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle>  ____foldout;
+  /// @brief Field _previousEnabledState, offset: 0xb0, size: 0x1, def value: None
+  bool ____previousEnabledState;
 
-/// @brief Field _previousEnabledState, offset: 0xb0, size: 0x1, def value: None
- bool  ____previousEnabledState;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton, ____item) == 0x90, "Offset mismatch!");
@@ -169,6 +169,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyIt
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton, 0xb8>, "Size mismatch!");
 
-} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface
+} // namespace Meta::XR::ImmersiveDebugger::UserInterface
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton*, "Meta.XR.ImmersiveDebugger.UserInterface", "HierarchyItemButton");

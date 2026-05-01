@@ -18,44 +18,44 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.RenderPipelineResources
 class CORDL_TYPE RenderPipelineResources : public ::UnityEngine::ScriptableObject {
 public:
-// Declarations
- __declspec(property(get=get_packagePath)) ::StringW  packagePath;
+  // Declarations
+  __declspec(property(get = get_packagePath)) ::StringW packagePath;
 
- __declspec(property(get=get_packagePath_Internal)) ::StringW  packagePath_Internal;
+  __declspec(property(get = get_packagePath_Internal)) ::StringW packagePath_Internal;
 
-static inline ::UnityEngine::Rendering::RenderPipelineResources* New_ctor() ;
+  static inline ::UnityEngine::Rendering::RenderPipelineResources* New_ctor();
 
-/// @brief Method .ctor, addr 0x65ec488, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x665e494, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_packagePath, addr 0x65ec474, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_packagePath() ;
+  /// @brief Method get_packagePath, addr 0x665e480, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_packagePath();
 
-/// @brief Method get_packagePath_Internal, addr 0x65ec47c, size 0xc, virtual false, abstract: false, final false
-inline ::StringW get_packagePath_Internal() ;
+  /// @brief Method get_packagePath_Internal, addr 0x665e488, size 0xc, virtual false, abstract: false, final false
+  inline ::StringW get_packagePath_Internal();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RenderPipelineResources() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderPipelineResources();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineResources", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RenderPipelineResources(RenderPipelineResources&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RenderPipelineResources", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RenderPipelineResources(RenderPipelineResources && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineResources", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RenderPipelineResources(RenderPipelineResources const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RenderPipelineResources", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RenderPipelineResources(RenderPipelineResources const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12176 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12169};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderPipelineResources, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::RenderPipelineResources);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderPipelineResources*, "UnityEngine.Rendering", "RenderPipelineResources");

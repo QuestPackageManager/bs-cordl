@@ -6,198 +6,172 @@
 #include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition.Awake
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
+    &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x583490c;
+  constexpr static std::size_t addrs = 0x58a6850;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), "Awake",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition.Update
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
+    &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x583495c;
+  constexpr static std::size_t addrs = 0x58a68a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), "Update",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition.SetEnabled
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)(bool)>(&::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)(bool)>(
+    &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582f8dc;
+  constexpr static std::size_t addrs = 0x58a1820;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "SetEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), "SetEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition.UpdatePositionAndRotationIfNeeded
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
+    &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5834960;
+  constexpr static std::size_t addrs = 0x58a68a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "UpdatePositionAndRotationIfNeeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
+                                                 "UpdatePositionAndRotationIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
+    &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5834bec;
+  constexpr static std::size_t addrs = 0x58a6b30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__multiplayerPlayersManager()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____multiplayerPlayersManager;
+constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__multiplayerPlayersManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplayerPlayersManager;
 }
 constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__multiplayerPlayersManager() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____multiplayerPlayersManager;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplayerPlayersManager;
 }
-constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerPlayersManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerPlayersManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__positionOffset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____positionOffset;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__positionOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____positionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__positionOffset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____positionOffset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____positionOffset;
 }
-constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__positionOffset(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____positionOffset = value;
+constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__positionOffset(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____positionOffset = value;
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__rotationOffset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____rotationOffset;
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__rotationOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__rotationOffset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____rotationOffset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rotationOffset;
 }
-constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__rotationOffset(::UnityEngine::Quaternion  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____rotationOffset = value;
+constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____rotationOffset = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__lastParentPosition()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastParentPosition;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__lastParentPosition() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastParentPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__lastParentPosition() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastParentPosition;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastParentPosition;
 }
-constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__lastParentPosition(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____lastParentPosition = value;
+constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__lastParentPosition(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastParentPosition = value;
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__lastParentRotation()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastParentRotation;
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__lastParentRotation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastParentRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_get__lastParentRotation() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastParentRotation;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastParentRotation;
 }
-constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__lastParentRotation(::UnityEngine::Quaternion  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____lastParentRotation = value;
+constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__cordl_internal_set__lastParentRotation(::UnityEngine::Quaternion value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastParentRotation = value;
 }
-inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), "Awake",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), "Update",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled(bool  isEnabled)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "SetEnabled",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isEnabled);
+inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled(bool isEnabled) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), "SetEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isEnabled);
 }
-inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        "UpdatePositionAndRotationIfNeeded",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
+                                               "UpdatePositionAndRotationIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>());
+inline ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::MultiplayerOffsetPositionByLocalPlayerPosition()   {
-}
+constexpr ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::MultiplayerOffsetPositionByLocalPlayerPosition() {}

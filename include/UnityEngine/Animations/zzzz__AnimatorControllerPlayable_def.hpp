@@ -7,8 +7,7 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimatorControllerPlayable)
 namespace System {
-template<typename T>
-class IEquatable_1;
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
@@ -28,60 +27,60 @@ namespace UnityEngine::Animations {
 // CS Name: UnityEngine.Animations.AnimatorControllerPlayable
 struct CORDL_TYPE AnimatorControllerPlayable {
 public:
-// Declarations
-/// @brief Field m_NullPlayable, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF_m_NullPlayable, put=setStaticF_m_NullPlayable)) ::UnityEngine::Animations::AnimatorControllerPlayable  m_NullPlayable;
+  // Declarations
+  /// @brief Field m_NullPlayable, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_m_NullPlayable, put = setStaticF_m_NullPlayable)) ::UnityEngine::Animations::AnimatorControllerPlayable m_NullPlayable;
 
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>"
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>*() ;
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>*();
 
-/// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
-constexpr operator  ::UnityEngine::Playables::IPlayable*() ;
+  /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
+  constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-/// @brief Method Equals, addr 0x687a44c, size 0xa4, virtual true, abstract: false, final true
-inline bool Equals(::UnityEngine::Animations::AnimatorControllerPlayable  other) ;
+  /// @brief Method Equals, addr 0x68ec458, size 0xa4, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Animations::AnimatorControllerPlayable other);
 
-/// @brief Method GetHandle, addr 0x687a440, size 0xc, virtual true, abstract: false, final true
-inline ::UnityEngine::Playables::PlayableHandle GetHandle() ;
+  /// @brief Method GetHandle, addr 0x68ec44c, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-/// @brief Method SetHandle, addr 0x687a2c0, size 0x180, virtual false, abstract: false, final false
-inline void SetHandle(::UnityEngine::Playables::PlayableHandle  handle) ;
+  /// @brief Method SetHandle, addr 0x68ec2cc, size 0x180, virtual false, abstract: false, final false
+  inline void SetHandle(::UnityEngine::Playables::PlayableHandle handle);
 
-/// @brief Method .ctor, addr 0x687a21c, size 0xa4, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Playables::PlayableHandle  handle) ;
+  /// @brief Method .ctor, addr 0x68ec228, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-static inline ::UnityEngine::Animations::AnimatorControllerPlayable getStaticF_m_NullPlayable() ;
+  static inline ::UnityEngine::Animations::AnimatorControllerPlayable getStaticF_m_NullPlayable();
 
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>"
-constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimatorControllerPlayable_() ;
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimatorControllerPlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimatorControllerPlayable_();
 
-/// @brief Convert to "::UnityEngine::Playables::IPlayable"
-constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable() ;
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimatorControllerPlayable  value) ;
+  static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimatorControllerPlayable value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AnimatorControllerPlayable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimatorControllerPlayable();
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-constexpr AnimatorControllerPlayable(::UnityEngine::Playables::PlayableHandle  m_Handle) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  constexpr AnimatorControllerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20032};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20042 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
- ::UnityEngine::Playables::PlayableHandle  m_Handle;
+  /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
+  ::UnityEngine::Playables::PlayableHandle m_Handle;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Animations::AnimatorControllerPlayable, m_Handle) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimatorControllerPlayable, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Animations
+} // namespace UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");

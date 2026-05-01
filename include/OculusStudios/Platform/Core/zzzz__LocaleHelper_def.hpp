@@ -21,35 +21,35 @@ namespace OculusStudios::Platform::Core {
 // CS Name: OculusStudios.Platform.Core.LocaleHelper
 class CORDL_TYPE LocaleHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetSystemLocale, addr 0x5d80998, size 0x70, virtual false, abstract: false, final false
-static inline ::StringW GetSystemLocale() ;
+  // Declarations
+  /// @brief Method GetSystemLocale, addr 0x5df2980, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW GetSystemLocale();
 
-/// @brief Method ToLocale, addr 0x5d80a08, size 0x398, virtual false, abstract: false, final false
-static inline ::StringW ToLocale(::UnityEngine::SystemLanguage  lang) ;
+  /// @brief Method ToLocale, addr 0x5df29f0, size 0x398, virtual false, abstract: false, final false
+  static inline ::StringW ToLocale(::UnityEngine::SystemLanguage lang);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LocaleHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocaleHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LocaleHelper(LocaleHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LocaleHelper(LocaleHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LocaleHelper(LocaleHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocaleHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LocaleHelper(LocaleHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22244 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22190};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::Platform::Core::LocaleHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def OculusStudios::Platform::Core
+} // namespace OculusStudios::Platform::Core
 NEED_NO_BOX(::OculusStudios::Platform::Core::LocaleHelper);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::Platform::Core::LocaleHelper*, "OculusStudios.Platform.Core", "LocaleHelper");

@@ -25,84 +25,86 @@ namespace Mono::Security::Cryptography {
 // CS Name: Mono.Security.Cryptography.PKCS1
 class CORDL_TYPE PKCS1 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field emptySHA1, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_emptySHA1, put=setStaticF_emptySHA1)) ::ArrayW<uint8_t,::Array<uint8_t>*>  emptySHA1;
+  // Declarations
+  /// @brief Field emptySHA1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_emptySHA1, put = setStaticF_emptySHA1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA1;
 
-/// @brief Field emptySHA256, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_emptySHA256, put=setStaticF_emptySHA256)) ::ArrayW<uint8_t,::Array<uint8_t>*>  emptySHA256;
+  /// @brief Field emptySHA256, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_emptySHA256, put = setStaticF_emptySHA256)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA256;
 
-/// @brief Field emptySHA384, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_emptySHA384, put=setStaticF_emptySHA384)) ::ArrayW<uint8_t,::Array<uint8_t>*>  emptySHA384;
+  /// @brief Field emptySHA384, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_emptySHA384, put = setStaticF_emptySHA384)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA384;
 
-/// @brief Field emptySHA512, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_emptySHA512, put=setStaticF_emptySHA512)) ::ArrayW<uint8_t,::Array<uint8_t>*>  emptySHA512;
+  /// @brief Field emptySHA512, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_emptySHA512, put = setStaticF_emptySHA512)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA512;
 
-/// @brief Method Compare, addr 0x58f2b08, size 0x70, virtual false, abstract: false, final false
-static inline bool Compare(::ArrayW<uint8_t,::Array<uint8_t>*>  array1, ::ArrayW<uint8_t,::Array<uint8_t>*>  array2) ;
+  /// @brief Method Compare, addr 0x5980948, size 0x70, virtual false, abstract: false, final false
+  static inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-/// @brief Method CreateFromName, addr 0x58f36e0, size 0x43c, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW  name) ;
+  /// @brief Method CreateFromName, addr 0x5980f60, size 0x43c, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
 
-/// @brief Method CreateFromOid, addr 0x58f3680, size 0x60, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromOid(::StringW  oid) ;
+  /// @brief Method Encode_v15, addr 0x598139c, size 0x308, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode_v15(::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, int32_t emLength);
 
-/// @brief Method Encode_v15, addr 0x58f2f08, size 0x31c, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Encode_v15(::System::Security::Cryptography::HashAlgorithm*  hash, ::ArrayW<uint8_t,::Array<uint8_t>*>  hashValue, int32_t  emLength) ;
+  /// @brief Method I2OSP, addr 0x59809b8, size 0x90, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> I2OSP(::ArrayW<uint8_t, ::Array<uint8_t>*> x, int32_t size);
 
-/// @brief Method HashNameFromOid, addr 0x58f3224, size 0x41c, virtual false, abstract: false, final false
-static inline ::StringW HashNameFromOid(::StringW  oid, bool  throwOnError) ;
+  /// @brief Method OS2IP, addr 0x5980a48, size 0xd0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> OS2IP(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-/// @brief Method I2OSP, addr 0x58f2b78, size 0x90, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> I2OSP(::ArrayW<uint8_t,::Array<uint8_t>*>  x, int32_t  size) ;
+  /// @brief Method RSAVP1, addr 0x5980b18, size 0x18, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RSAVP1(::System::Security::Cryptography::RSA* rsa, ::ArrayW<uint8_t, ::Array<uint8_t>*> s);
 
-/// @brief Method OS2IP, addr 0x58f2c08, size 0xd0, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> OS2IP(::ArrayW<uint8_t,::Array<uint8_t>*>  x) ;
+  /// @brief Method Verify_v15, addr 0x5980b30, size 0x84, virtual false, abstract: false, final false
+  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
+                                ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-/// @brief Method RSAVP1, addr 0x58f2cd8, size 0x18, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> RSAVP1(::System::Security::Cryptography::RSA*  rsa, ::ArrayW<uint8_t,::Array<uint8_t>*>  s) ;
+  /// @brief Method Verify_v15, addr 0x5980bb4, size 0x218, virtual false, abstract: false, final false
+  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
+                                ::ArrayW<uint8_t, ::Array<uint8_t>*> signature, bool tryNonStandardEncoding);
 
-/// @brief Method Verify_v15, addr 0x58f2cf0, size 0x218, virtual false, abstract: false, final false
-static inline bool Verify_v15(::System::Security::Cryptography::RSA*  rsa, ::System::Security::Cryptography::HashAlgorithm*  hash, ::ArrayW<uint8_t,::Array<uint8_t>*>  hashValue, ::ArrayW<uint8_t,::Array<uint8_t>*>  signature, bool  tryNonStandardEncoding) ;
+  /// @brief Method Verify_v15, addr 0x5980dcc, size 0x194, virtual false, abstract: false, final false
+  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_emptySHA1() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA1();
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_emptySHA256() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA256();
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_emptySHA384() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA384();
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_emptySHA512() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA512();
 
-static inline void setStaticF_emptySHA1(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_emptySHA1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-static inline void setStaticF_emptySHA256(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_emptySHA256(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-static inline void setStaticF_emptySHA384(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_emptySHA384(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-static inline void setStaticF_emptySHA512(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_emptySHA512(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PKCS1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PKCS1();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PKCS1(PKCS1&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PKCS1", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PKCS1(PKCS1 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PKCS1(PKCS1 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PKCS1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PKCS1(PKCS1 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2281 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19294};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::PKCS1, 0x10>, "Size mismatch!");
 
-} // namespace end def Mono::Security::Cryptography
+} // namespace Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::PKCS1);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");

@@ -12,35 +12,35 @@ struct RayTracingAccelerationStructureDesc;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RayTracingAccelerationStructureDesc
 struct CORDL_TYPE RayTracingAccelerationStructureDesc {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr RayTracingAccelerationStructureDesc() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RayTracingAccelerationStructureDesc();
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr RayTracingAccelerationStructureDesc(::StringW  name) noexcept;
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr RayTracingAccelerationStructureDesc(::StringW name) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12416};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12423 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field name, offset: 0x0, size: 0x8, def value: None
- ::StringW  name;
+  /// @brief Field name, offset: 0x0, size: 0x8, def value: None
+  ::StringW name;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc, name) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc, 0x8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::RenderGraphModule
+} // namespace UnityEngine::Rendering::RenderGraphModule
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc, "UnityEngine.Rendering.RenderGraphModule", "RayTracingAccelerationStructureDesc");

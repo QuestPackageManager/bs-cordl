@@ -38,79 +38,79 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // CS Name: Org.BouncyCastle.Asn1.X509.AttCertIssuer
 class CORDL_TYPE AttCertIssuer : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
- __declspec(property(get=get_Issuer)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  Issuer;
+  // Declarations
+  __declspec(property(get = get_Issuer)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Issuer;
 
-/// @brief Field choiceObj, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_choiceObj, put=__cordl_internal_set_choiceObj)) ::Org::BouncyCastle::Asn1::Asn1Object*  choiceObj;
+  /// @brief Field choiceObj, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_choiceObj, put = __cordl_internal_set_choiceObj)) ::Org::BouncyCastle::Asn1::Asn1Object* choiceObj;
 
-/// @brief Field obj, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_obj, put=__cordl_internal_set_obj)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  obj;
+  /// @brief Field obj, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-/// @brief Method GetInstance, addr 0x345f8a4, size 0x28, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
+  /// @brief Method GetInstance, addr 0x349bee8, size 0x28, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-/// @brief Method GetInstance, addr 0x345f530, size 0x2cc, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x349bb74, size 0x2cc, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames*  names) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
-static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::V2Form*  v2Form) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-/// @brief Method ToAsn1Object, addr 0x345f8d4, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x349bf18, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& __cordl_internal_get_choiceObj() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& __cordl_internal_get_choiceObj() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_choiceObj() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_choiceObj();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_obj() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_obj() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj();
 
-constexpr void __cordl_internal_set_choiceObj(::Org::BouncyCastle::Asn1::Asn1Object*  value) ;
+  constexpr void __cordl_internal_set_choiceObj(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable*  value) ;
+  constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-/// @brief Method .ctor, addr 0x345f870, size 0x34, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames*  names) ;
+  /// @brief Method .ctor, addr 0x349beb4, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
-/// @brief Method .ctor, addr 0x345f7fc, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::X509::V2Form*  v2Form) ;
+  /// @brief Method .ctor, addr 0x349be40, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-/// @brief Method get_Issuer, addr 0x345f8cc, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Issuer() ;
+  /// @brief Method get_Issuer, addr 0x349bf10, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Issuer();
 
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AttCertIssuer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AttCertIssuer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AttCertIssuer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AttCertIssuer(AttCertIssuer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AttCertIssuer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AttCertIssuer(AttCertIssuer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AttCertIssuer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AttCertIssuer(AttCertIssuer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AttCertIssuer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AttCertIssuer(AttCertIssuer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 339 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{339};
+  /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___obj;
 
-/// @brief Field obj, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1Encodable*  ___obj;
+  /// @brief Field choiceObj, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Object* ___choiceObj;
 
-/// @brief Field choiceObj, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1Object*  ___choiceObj;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::AttCertIssuer, ___obj) == 0x10, "Offset mismatch!");
@@ -119,6 +119,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::AttCertIssuer, ___choice
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::AttCertIssuer, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::X509
+} // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::AttCertIssuer);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::AttCertIssuer*, "Org.BouncyCastle.Asn1.X509", "AttCertIssuer");

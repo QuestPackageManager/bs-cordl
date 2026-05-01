@@ -17,34 +17,35 @@ namespace Unity::Collections::LowLevel::Unsafe {
 // CS Name: Unity.Collections.LowLevel.Unsafe.NativeDisableContainerSafetyRestrictionAttribute
 class CORDL_TYPE NativeDisableContainerSafetyRestrictionAttribute : public ::System::Attribute {
 public:
-// Declarations
-static inline ::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute* New_ctor() ;
+  // Declarations
+  static inline ::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x6893730, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x690573c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NativeDisableContainerSafetyRestrictionAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeDisableContainerSafetyRestrictionAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NativeDisableContainerSafetyRestrictionAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NativeDisableContainerSafetyRestrictionAttribute(NativeDisableContainerSafetyRestrictionAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NativeDisableContainerSafetyRestrictionAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NativeDisableContainerSafetyRestrictionAttribute(NativeDisableContainerSafetyRestrictionAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NativeDisableContainerSafetyRestrictionAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NativeDisableContainerSafetyRestrictionAttribute(NativeDisableContainerSafetyRestrictionAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NativeDisableContainerSafetyRestrictionAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NativeDisableContainerSafetyRestrictionAttribute(NativeDisableContainerSafetyRestrictionAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10008 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10002};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Collections::LowLevel::Unsafe
+} // namespace Unity::Collections::LowLevel::Unsafe
 NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeDisableContainerSafetyRestrictionAttribute");
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe",
+                       "NativeDisableContainerSafetyRestrictionAttribute");

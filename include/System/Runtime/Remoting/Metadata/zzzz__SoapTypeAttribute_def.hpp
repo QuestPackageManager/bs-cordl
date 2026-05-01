@@ -21,152 +21,152 @@ namespace System::Runtime::Remoting::Metadata {
 // CS Name: System.Runtime.Remoting.Metadata.SoapTypeAttribute
 class CORDL_TYPE SoapTypeAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
-// Declarations
- __declspec(property(get=get_IsInteropXmlElement)) bool  IsInteropXmlElement;
+  // Declarations
+  __declspec(property(get = get_IsInteropXmlElement)) bool IsInteropXmlElement;
 
- __declspec(property(get=get_IsInteropXmlType)) bool  IsInteropXmlType;
+  __declspec(property(get = get_IsInteropXmlType)) bool IsInteropXmlType;
 
- __declspec(property(get=get_UseAttribute)) bool  UseAttribute;
+  __declspec(property(get = get_UseAttribute)) bool UseAttribute;
 
- __declspec(property(get=get_XmlElementName)) ::StringW  XmlElementName;
+  __declspec(property(get = get_XmlElementName)) ::StringW XmlElementName;
 
- __declspec(property(get=get_XmlNamespace)) ::StringW  XmlNamespace;
+  __declspec(property(get = get_XmlNamespace)) ::StringW XmlNamespace;
 
- __declspec(property(get=get_XmlTypeName)) ::StringW  XmlTypeName;
+  __declspec(property(get = get_XmlTypeName)) ::StringW XmlTypeName;
 
- __declspec(property(get=get_XmlTypeNamespace)) ::StringW  XmlTypeNamespace;
+  __declspec(property(get = get_XmlTypeNamespace)) ::StringW XmlTypeNamespace;
 
-/// @brief Field _isElement, offset 0x51, size 0x1 
- __declspec(property(get=__cordl_internal_get__isElement, put=__cordl_internal_set__isElement)) bool  _isElement;
+  /// @brief Field _isElement, offset 0x51, size 0x1
+  __declspec(property(get = __cordl_internal_get__isElement, put = __cordl_internal_set__isElement)) bool _isElement;
 
-/// @brief Field _isType, offset 0x50, size 0x1 
- __declspec(property(get=__cordl_internal_get__isType, put=__cordl_internal_set__isType)) bool  _isType;
+  /// @brief Field _isType, offset 0x50, size 0x1
+  __declspec(property(get = __cordl_internal_get__isType, put = __cordl_internal_set__isType)) bool _isType;
 
-/// @brief Field _useAttribute, offset 0x28, size 0x1 
- __declspec(property(get=__cordl_internal_get__useAttribute, put=__cordl_internal_set__useAttribute)) bool  _useAttribute;
+  /// @brief Field _useAttribute, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
 
-/// @brief Field _xmlElementName, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__xmlElementName, put=__cordl_internal_set__xmlElementName)) ::StringW  _xmlElementName;
+  /// @brief Field _xmlElementName, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__xmlElementName, put = __cordl_internal_set__xmlElementName)) ::StringW _xmlElementName;
 
-/// @brief Field _xmlNamespace, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__xmlNamespace, put=__cordl_internal_set__xmlNamespace)) ::StringW  _xmlNamespace;
+  /// @brief Field _xmlNamespace, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__xmlNamespace, put = __cordl_internal_set__xmlNamespace)) ::StringW _xmlNamespace;
 
-/// @brief Field _xmlTypeName, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__xmlTypeName, put=__cordl_internal_set__xmlTypeName)) ::StringW  _xmlTypeName;
+  /// @brief Field _xmlTypeName, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__xmlTypeName, put = __cordl_internal_set__xmlTypeName)) ::StringW _xmlTypeName;
 
-/// @brief Field _xmlTypeNamespace, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__xmlTypeNamespace, put=__cordl_internal_set__xmlTypeNamespace)) ::StringW  _xmlTypeNamespace;
+  /// @brief Field _xmlTypeNamespace, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__xmlTypeNamespace, put = __cordl_internal_set__xmlTypeNamespace)) ::StringW _xmlTypeNamespace;
 
-static inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* New_ctor() ;
+  static inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* New_ctor();
 
-/// @brief Method SetReflectionObject, addr 0x598ea90, size 0x1f8, virtual true, abstract: false, final false
-inline void SetReflectionObject(::System::Object*  reflectionObject) ;
+  /// @brief Method SetReflectionObject, addr 0x5a009fc, size 0x1f8, virtual true, abstract: false, final false
+  inline void SetReflectionObject(::System::Object* reflectionObject);
 
-constexpr bool const& __cordl_internal_get__isElement() const;
+  constexpr bool const& __cordl_internal_get__isElement() const;
 
-constexpr bool& __cordl_internal_get__isElement() ;
+  constexpr bool& __cordl_internal_get__isElement();
 
-constexpr bool const& __cordl_internal_get__isType() const;
+  constexpr bool const& __cordl_internal_get__isType() const;
 
-constexpr bool& __cordl_internal_get__isType() ;
+  constexpr bool& __cordl_internal_get__isType();
 
-constexpr bool const& __cordl_internal_get__useAttribute() const;
+  constexpr bool const& __cordl_internal_get__useAttribute() const;
 
-constexpr bool& __cordl_internal_get__useAttribute() ;
+  constexpr bool& __cordl_internal_get__useAttribute();
 
-constexpr ::StringW const& __cordl_internal_get__xmlElementName() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlElementName() const;
 
-constexpr ::StringW& __cordl_internal_get__xmlElementName() ;
+  constexpr ::StringW& __cordl_internal_get__xmlElementName();
 
-constexpr ::StringW const& __cordl_internal_get__xmlNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlNamespace() const;
 
-constexpr ::StringW& __cordl_internal_get__xmlNamespace() ;
+  constexpr ::StringW& __cordl_internal_get__xmlNamespace();
 
-constexpr ::StringW const& __cordl_internal_get__xmlTypeName() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlTypeName() const;
 
-constexpr ::StringW& __cordl_internal_get__xmlTypeName() ;
+  constexpr ::StringW& __cordl_internal_get__xmlTypeName();
 
-constexpr ::StringW const& __cordl_internal_get__xmlTypeNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlTypeNamespace() const;
 
-constexpr ::StringW& __cordl_internal_get__xmlTypeNamespace() ;
+  constexpr ::StringW& __cordl_internal_get__xmlTypeNamespace();
 
-constexpr void __cordl_internal_set__isElement(bool  value) ;
+  constexpr void __cordl_internal_set__isElement(bool value);
 
-constexpr void __cordl_internal_set__isType(bool  value) ;
+  constexpr void __cordl_internal_set__isType(bool value);
 
-constexpr void __cordl_internal_set__useAttribute(bool  value) ;
+  constexpr void __cordl_internal_set__useAttribute(bool value);
 
-constexpr void __cordl_internal_set__xmlElementName(::StringW  value) ;
+  constexpr void __cordl_internal_set__xmlElementName(::StringW value);
 
-constexpr void __cordl_internal_set__xmlNamespace(::StringW  value) ;
+  constexpr void __cordl_internal_set__xmlNamespace(::StringW value);
 
-constexpr void __cordl_internal_set__xmlTypeName(::StringW  value) ;
+  constexpr void __cordl_internal_set__xmlTypeName(::StringW value);
 
-constexpr void __cordl_internal_set__xmlTypeNamespace(::StringW  value) ;
+  constexpr void __cordl_internal_set__xmlTypeNamespace(::StringW value);
 
-/// @brief Method .ctor, addr 0x598ea54, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5a009c0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsInteropXmlElement, addr 0x598ea80, size 0x8, virtual false, abstract: false, final false
-inline bool get_IsInteropXmlElement() ;
+  /// @brief Method get_IsInteropXmlElement, addr 0x5a009ec, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsInteropXmlElement();
 
-/// @brief Method get_IsInteropXmlType, addr 0x598ea88, size 0x8, virtual false, abstract: false, final false
-inline bool get_IsInteropXmlType() ;
+  /// @brief Method get_IsInteropXmlType, addr 0x5a009f4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsInteropXmlType();
 
-/// @brief Method get_UseAttribute, addr 0x598ea58, size 0x8, virtual true, abstract: false, final false
-inline bool get_UseAttribute() ;
+  /// @brief Method get_UseAttribute, addr 0x5a009c4, size 0x8, virtual true, abstract: false, final false
+  inline bool get_UseAttribute();
 
-/// @brief Method get_XmlElementName, addr 0x598ea60, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_XmlElementName() ;
+  /// @brief Method get_XmlElementName, addr 0x5a009cc, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_XmlElementName();
 
-/// @brief Method get_XmlNamespace, addr 0x598ea68, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_XmlNamespace() ;
+  /// @brief Method get_XmlNamespace, addr 0x5a009d4, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_XmlNamespace();
 
-/// @brief Method get_XmlTypeName, addr 0x598ea70, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_XmlTypeName() ;
+  /// @brief Method get_XmlTypeName, addr 0x5a009dc, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_XmlTypeName();
 
-/// @brief Method get_XmlTypeNamespace, addr 0x598ea78, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_XmlTypeNamespace() ;
+  /// @brief Method get_XmlTypeNamespace, addr 0x5a009e4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_XmlTypeNamespace();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SoapTypeAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SoapTypeAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SoapTypeAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SoapTypeAttribute(SoapTypeAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SoapTypeAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SoapTypeAttribute(SoapTypeAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SoapTypeAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SoapTypeAttribute(SoapTypeAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SoapTypeAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SoapTypeAttribute(SoapTypeAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3158 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3158};
+  /// @brief Field _useAttribute, offset: 0x28, size: 0x1, def value: None
+  bool ____useAttribute;
 
-/// @brief Field _useAttribute, offset: 0x28, size: 0x1, def value: None
- bool  ____useAttribute;
+  /// @brief Field _xmlElementName, offset: 0x30, size: 0x8, def value: None
+  ::StringW ____xmlElementName;
 
-/// @brief Field _xmlElementName, offset: 0x30, size: 0x8, def value: None
- ::StringW  ____xmlElementName;
+  /// @brief Field _xmlNamespace, offset: 0x38, size: 0x8, def value: None
+  ::StringW ____xmlNamespace;
 
-/// @brief Field _xmlNamespace, offset: 0x38, size: 0x8, def value: None
- ::StringW  ____xmlNamespace;
+  /// @brief Field _xmlTypeName, offset: 0x40, size: 0x8, def value: None
+  ::StringW ____xmlTypeName;
 
-/// @brief Field _xmlTypeName, offset: 0x40, size: 0x8, def value: None
- ::StringW  ____xmlTypeName;
+  /// @brief Field _xmlTypeNamespace, offset: 0x48, size: 0x8, def value: None
+  ::StringW ____xmlTypeNamespace;
 
-/// @brief Field _xmlTypeNamespace, offset: 0x48, size: 0x8, def value: None
- ::StringW  ____xmlTypeNamespace;
+  /// @brief Field _isType, offset: 0x50, size: 0x1, def value: None
+  bool ____isType;
 
-/// @brief Field _isType, offset: 0x50, size: 0x1, def value: None
- bool  ____isType;
+  /// @brief Field _isElement, offset: 0x51, size: 0x1, def value: None
+  bool ____isElement;
 
-/// @brief Field _isElement, offset: 0x51, size: 0x1, def value: None
- bool  ____isElement;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute, ____useAttribute) == 0x28, "Offset mismatch!");
@@ -185,6 +185,6 @@ static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapTypeAttribute,
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Metadata::SoapTypeAttribute, 0x58>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting::Metadata
+} // namespace System::Runtime::Remoting::Metadata
 NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Metadata::SoapTypeAttribute*, "System.Runtime.Remoting.Metadata", "SoapTypeAttribute");

@@ -22,59 +22,58 @@ class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template<typename TCreatedType,typename TTraits>
-class UxmlFactory_2;
+template <typename TCreatedType, typename TTraits> class UxmlFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UxmlFactory_2);
 // Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // cpp template
-template<typename TCreatedType,typename TTraits>
+template <typename TCreatedType, typename TTraits>
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlFactory`2<TCreatedType,TTraits>
-class CORDL_TYPE UxmlFactory_2 : public ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType,TTraits> {
+class CORDL_TYPE UxmlFactory_2 : public ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits> {
 public:
-// Declarations
-/// @brief Convert operator to "::UnityEngine::UIElements::IBaseUxmlFactory"
-constexpr operator  ::UnityEngine::UIElements::IBaseUxmlFactory*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::UnityEngine::UIElements::IBaseUxmlFactory"
+  constexpr operator ::UnityEngine::UIElements::IBaseUxmlFactory*() noexcept;
 
-/// @brief Convert operator to "::UnityEngine::UIElements::IUxmlFactory"
-constexpr operator  ::UnityEngine::UIElements::IUxmlFactory*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::UIElements::IUxmlFactory"
+  constexpr operator ::UnityEngine::UIElements::IUxmlFactory*() noexcept;
 
-/// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-static inline ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType,TTraits>* New_ctor() ;
+  static inline ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>* New_ctor();
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::UnityEngine::UIElements::IBaseUxmlFactory"
-constexpr ::UnityEngine::UIElements::IBaseUxmlFactory* i___UnityEngine__UIElements__IBaseUxmlFactory() noexcept;
+  /// @brief Convert to "::UnityEngine::UIElements::IBaseUxmlFactory"
+  constexpr ::UnityEngine::UIElements::IBaseUxmlFactory* i___UnityEngine__UIElements__IBaseUxmlFactory() noexcept;
 
-/// @brief Convert to "::UnityEngine::UIElements::IUxmlFactory"
-constexpr ::UnityEngine::UIElements::IUxmlFactory* i___UnityEngine__UIElements__IUxmlFactory() noexcept;
+  /// @brief Convert to "::UnityEngine::UIElements::IUxmlFactory"
+  constexpr ::UnityEngine::UIElements::IUxmlFactory* i___UnityEngine__UIElements__IUxmlFactory() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UxmlFactory_2() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlFactory_2();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_2", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UxmlFactory_2(UxmlFactory_2&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_2", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UxmlFactory_2(UxmlFactory_2 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_2", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UxmlFactory_2(UxmlFactory_2 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_2", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UxmlFactory_2(UxmlFactory_2 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5184 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5184};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::UxmlFactory_2, "UnityEngine.UIElements", "UxmlFactory`2");

@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerBadgeDataSaberMovementSO
 class CORDL_TYPE MultiplayerBadgeDataSaberMovementSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
 public:
-// Declarations
-/// @brief Method GetValue, addr 0x36377a8, size 0x2c, virtual true, abstract: false, final false
-inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData*  result) ;
+  // Declarations
+  /// @brief Method GetValue, addr 0x3674194, size 0x2c, virtual true, abstract: false, final false
+  inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-static inline ::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO* New_ctor() ;
+  static inline ::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO* New_ctor();
 
-/// @brief Method .ctor, addr 0x36377d4, size 0x10, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36741c0, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MultiplayerBadgeDataSaberMovementSO() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerBadgeDataSaberMovementSO();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSaberMovementSO", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MultiplayerBadgeDataSaberMovementSO(MultiplayerBadgeDataSaberMovementSO&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSaberMovementSO", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MultiplayerBadgeDataSaberMovementSO(MultiplayerBadgeDataSaberMovementSO && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSaberMovementSO", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MultiplayerBadgeDataSaberMovementSO(MultiplayerBadgeDataSaberMovementSO const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSaberMovementSO", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MultiplayerBadgeDataSaberMovementSO(MultiplayerBadgeDataSaberMovementSO const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15072 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15065};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO*, "", "MultiplayerBadgeDataSaberMovementSO");

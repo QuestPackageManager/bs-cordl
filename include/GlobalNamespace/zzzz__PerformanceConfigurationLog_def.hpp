@@ -36,72 +36,72 @@ namespace GlobalNamespace {
 // CS Name: PerformanceConfigurationLog
 class CORDL_TYPE PerformanceConfigurationLog : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Create, addr 0x57603e4, size 0x260, virtual false, abstract: false, final false
-static inline ::StringW Create(::ByRef<::BeatSaber::Settings::Settings>  settings, ::GlobalNamespace::PlayerSpecificSettings*  playerSettings, ::GlobalNamespace::GameplayModifierMask  modifiers, ::GlobalNamespace::RecPlayBehaviour_State*  recPlayState, ::GlobalNamespace::PerformanceConfigurationStats*  stats, ::StringW  warning) ;
+  // Declarations
+  /// @brief Method Create, addr 0x57d050c, size 0x260, virtual false, abstract: false, final false
+  static inline ::StringW Create(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
+                                 ::GlobalNamespace::RecPlayBehaviour_State* recPlayState, ::GlobalNamespace::PerformanceConfigurationStats* stats, ::StringW warning);
 
-/// @brief Method LogApplicationInfo, addr 0x5760bf4, size 0x588, virtual false, abstract: false, final false
-static inline void LogApplicationInfo(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogApplicationInfo, addr 0x57d0d1c, size 0x588, virtual false, abstract: false, final false
+  static inline void LogApplicationInfo(::System::Text::StringBuilder* sb);
 
-/// @brief Method LogApplicationState, addr 0x576117c, size 0x2b0, virtual false, abstract: false, final false
-static inline void LogApplicationState(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogApplicationState, addr 0x57d12a4, size 0x2b0, virtual false, abstract: false, final false
+  static inline void LogApplicationState(::System::Text::StringBuilder* sb);
 
-/// @brief Method LogDynamicStates, addr 0x5762a1c, size 0x1d4, virtual false, abstract: false, final false
-static inline void LogDynamicStates(::System::Text::StringBuilder*  sb, ::GlobalNamespace::PerformanceConfigurationStats*  stats) ;
+  /// @brief Method LogDynamicStates, addr 0x57d2b44, size 0x1d4, virtual false, abstract: false, final false
+  static inline void LogDynamicStates(::System::Text::StringBuilder* sb, ::GlobalNamespace::PerformanceConfigurationStats* stats);
 
-/// @brief Method LogEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline void LogEntry(::System::Text::StringBuilder*  sb, ::StringW  category, ::StringW  name, T  value) ;
+  /// @brief Method LogEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void LogEntry(::System::Text::StringBuilder* sb, ::StringW category, ::StringW name, T value);
 
-/// @brief Method LogGraphicsInfo, addr 0x576142c, size 0x140, virtual false, abstract: false, final false
-static inline void LogGraphicsInfo(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogGraphicsInfo, addr 0x57d1554, size 0x140, virtual false, abstract: false, final false
+  static inline void LogGraphicsInfo(::System::Text::StringBuilder* sb);
 
-/// @brief Method LogLevelSettings, addr 0x5762988, size 0x94, virtual false, abstract: false, final false
-static inline void LogLevelSettings(::System::Text::StringBuilder*  sb, ::GlobalNamespace::GameplayModifierMask  modifiers) ;
+  /// @brief Method LogLevelSettings, addr 0x57d2ab0, size 0x94, virtual false, abstract: false, final false
+  static inline void LogLevelSettings(::System::Text::StringBuilder* sb, ::GlobalNamespace::GameplayModifierMask modifiers);
 
-/// @brief Method LogOculusXrInfo, addr 0x5761994, size 0x4, virtual false, abstract: false, final false
-static inline void LogOculusXrInfo(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogOculusXrInfo, addr 0x57d1abc, size 0x4, virtual false, abstract: false, final false
+  static inline void LogOculusXrInfo(::System::Text::StringBuilder* sb);
 
-/// @brief Method LogOpenXrInfo, addr 0x5761998, size 0x138, virtual false, abstract: false, final false
-static inline void LogOpenXrInfo(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogOpenXrInfo, addr 0x57d1ac0, size 0x138, virtual false, abstract: false, final false
+  static inline void LogOpenXrInfo(::System::Text::StringBuilder* sb);
 
-/// @brief Method LogOvrInfo, addr 0x5761990, size 0x4, virtual false, abstract: false, final false
-static inline void LogOvrInfo(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogOvrInfo, addr 0x57d1ab8, size 0x4, virtual false, abstract: false, final false
+  static inline void LogOvrInfo(::System::Text::StringBuilder* sb);
 
-/// @brief Method LogPlayerSettings, addr 0x57624fc, size 0x48c, virtual false, abstract: false, final false
-static inline void LogPlayerSettings(::System::Text::StringBuilder*  sb, ::GlobalNamespace::PlayerSpecificSettings*  playerSettings) ;
+  /// @brief Method LogPlayerSettings, addr 0x57d2624, size 0x48c, virtual false, abstract: false, final false
+  static inline void LogPlayerSettings(::System::Text::StringBuilder* sb, ::GlobalNamespace::PlayerSpecificSettings* playerSettings);
 
-/// @brief Method LogSettings, addr 0x5761ad0, size 0xa2c, virtual false, abstract: false, final false
-static inline void LogSettings(::System::Text::StringBuilder*  sb, ::ByRef<::BeatSaber::Settings::Settings>  settings, ::GlobalNamespace::RecPlayBehaviour_State*  recPlayState) ;
+  /// @brief Method LogSettings, addr 0x57d1bf8, size 0xa2c, virtual false, abstract: false, final false
+  static inline void LogSettings(::System::Text::StringBuilder* sb, ::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
-/// @brief Method LogSystemInfo, addr 0x5760644, size 0x5b0, virtual false, abstract: false, final false
-static inline void LogSystemInfo(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogSystemInfo, addr 0x57d076c, size 0x5b0, virtual false, abstract: false, final false
+  static inline void LogSystemInfo(::System::Text::StringBuilder* sb);
 
-/// @brief Method LogXrInfo, addr 0x576156c, size 0x424, virtual false, abstract: false, final false
-static inline void LogXrInfo(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method LogXrInfo, addr 0x57d1694, size 0x424, virtual false, abstract: false, final false
+  static inline void LogXrInfo(::System::Text::StringBuilder* sb);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PerformanceConfigurationLog() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PerformanceConfigurationLog();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PerformanceConfigurationLog(PerformanceConfigurationLog&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PerformanceConfigurationLog(PerformanceConfigurationLog && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PerformanceConfigurationLog(PerformanceConfigurationLog const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PerformanceConfigurationLog(PerformanceConfigurationLog const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6708 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6699};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationLog, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceConfigurationLog);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationLog*, "", "PerformanceConfigurationLog");

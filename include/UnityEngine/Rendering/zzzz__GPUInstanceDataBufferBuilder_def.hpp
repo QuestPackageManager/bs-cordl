@@ -38,51 +38,53 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.GPUInstanceDataBufferBuilder
 struct CORDL_TYPE GPUInstanceDataBufferBuilder {
 public:
-// Declarations
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
 
-/// @brief Method AddComponent, addr 0x666a3d4, size 0x12c, virtual false, abstract: false, final false
-inline void AddComponent(int32_t  propertyID, bool  isOverriden, int32_t  byteSize, bool  isPerInstance, ::UnityEngine::Rendering::InstanceType  instanceType, ::UnityEngine::Rendering::InstanceComponentGroup  componentGroup) ;
+  /// @brief Method AddComponent, addr 0x66dc3e0, size 0x12c, virtual false, abstract: false, final false
+  inline void AddComponent(int32_t propertyID, bool isOverriden, int32_t byteSize, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
+                           ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
-/// @brief Method AddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-inline void AddComponent(int32_t  propertyID, bool  isOverriden, bool  isPerInstance, ::UnityEngine::Rendering::InstanceType  instanceType, ::UnityEngine::Rendering::InstanceComponentGroup  componentGroup) ;
+  /// @brief Method AddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+  inline void AddComponent(int32_t propertyID, bool isOverriden, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
+                           ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
-/// @brief Method Build, addr 0x666a500, size 0x88c, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(::ByRef<::UnityEngine::Rendering::InstanceNumInfo>  instanceNumInfo) ;
+  /// @brief Method Build, addr 0x66dc50c, size 0x88c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(::ByRef<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
-/// @brief Method CreateMetadataValue, addr 0x666a3b8, size 0x1c, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::MetadataValue CreateMetadataValue(int32_t  nameID, int32_t  gpuAddress, bool  isOverridden) ;
+  /// @brief Method CreateMetadataValue, addr 0x66dc3c4, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::MetadataValue CreateMetadataValue(int32_t nameID, int32_t gpuAddress, bool isOverridden);
 
-/// @brief Method Dispose, addr 0x666ad8c, size 0x74, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x66dcd98, size 0x74, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() ;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr GPUInstanceDataBufferBuilder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GPUInstanceDataBufferBuilder();
 
-// Ctor Parameters [CppParam { name: "m_Components", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>", modifiers: "", def_value: None }]
-constexpr GPUInstanceDataBufferBuilder(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>  m_Components) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Components", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>", modifiers: "", def_value: None }]
+  constexpr GPUInstanceDataBufferBuilder(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> m_Components) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17653};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17661 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field m_Components, offset: 0x0, size: 0x8, def value: None
- ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>  m_Components;
+  /// @brief Field m_Components, offset: 0x0, size: 0x8, def value: None
+  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> m_Components;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::GPUInstanceDataBufferBuilder, m_Components) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::GPUInstanceDataBufferBuilder, 0x8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::GPUInstanceDataBufferBuilder, "UnityEngine.Rendering", "GPUInstanceDataBufferBuilder");

@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.AddOvfInstruction/AddOvfInt32
 class CORDL_TYPE AddOvfInstruction_AddOvfInt32 : public ::System::Linq::Expressions::Interpreter::AddOvfInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::AddOvfInstruction_AddOvfInt32* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::AddOvfInstruction_AddOvfInt32* New_ctor();
 
-/// @brief Method Run, addr 0x5dd7c2c, size 0x148, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e49c38, size 0x148, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5dd7ac0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e49acc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AddOvfInstruction_AddOvfInt32() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AddOvfInstruction_AddOvfInt32();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt32", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AddOvfInstruction_AddOvfInt32(AddOvfInstruction_AddOvfInt32&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt32", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AddOvfInstruction_AddOvfInt32(AddOvfInstruction_AddOvfInt32 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt32", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AddOvfInstruction_AddOvfInt32(AddOvfInstruction_AddOvfInt32 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt32", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AddOvfInstruction_AddOvfInt32(AddOvfInstruction_AddOvfInt32 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16226 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16218};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AddOvfInstruction_AddOvfInt32, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AddOvfInstruction_AddOvfInt32);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AddOvfInstruction_AddOvfInt32*, "System.Linq.Expressions.Interpreter", "AddOvfInstruction/AddOvfInt32");

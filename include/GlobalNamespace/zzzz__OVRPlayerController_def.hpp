@@ -14,8 +14,7 @@ namespace GlobalNamespace {
 class OVRCameraRig;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
@@ -41,629 +40,629 @@ namespace GlobalNamespace {
 // CS Name: OVRPlayerController
 class CORDL_TYPE OVRPlayerController : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field Acceleration, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_Acceleration, put=__cordl_internal_set_Acceleration)) float_t  Acceleration;
+  // Declarations
+  /// @brief Field Acceleration, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_Acceleration, put = __cordl_internal_set_Acceleration)) float_t Acceleration;
 
-/// @brief Field BackAndSideDampen, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get_BackAndSideDampen, put=__cordl_internal_set_BackAndSideDampen)) float_t  BackAndSideDampen;
+  /// @brief Field BackAndSideDampen, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_BackAndSideDampen, put = __cordl_internal_set_BackAndSideDampen)) float_t BackAndSideDampen;
 
-/// @brief Field CameraHeight, offset 0x4c, size 0x4 
- __declspec(property(get=__cordl_internal_get_CameraHeight, put=__cordl_internal_set_CameraHeight)) float_t  CameraHeight;
+  /// @brief Field CameraHeight, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_CameraHeight, put = __cordl_internal_set_CameraHeight)) float_t CameraHeight;
 
-/// @brief Field CameraRig, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get_CameraRig, put=__cordl_internal_set_CameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig>  CameraRig;
+  /// @brief Field CameraRig, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_CameraRig, put = __cordl_internal_set_CameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> CameraRig;
 
-/// @brief Field CameraUpdated, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get_CameraUpdated, put=__cordl_internal_set_CameraUpdated)) ::System::Action*  CameraUpdated;
+  /// @brief Field CameraUpdated, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_CameraUpdated, put = __cordl_internal_set_CameraUpdated)) ::System::Action* CameraUpdated;
 
-/// @brief Field Controller, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get_Controller, put=__cordl_internal_set_Controller)) ::UnityW<::UnityEngine::CharacterController>  Controller;
+  /// @brief Field Controller, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_Controller, put = __cordl_internal_set_Controller)) ::UnityW<::UnityEngine::CharacterController> Controller;
 
-/// @brief Field Damping, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get_Damping, put=__cordl_internal_set_Damping)) float_t  Damping;
+  /// @brief Field Damping, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_Damping, put = __cordl_internal_set_Damping)) float_t Damping;
 
-/// @brief Field EnableLinearMovement, offset 0x70, size 0x1 
- __declspec(property(get=__cordl_internal_get_EnableLinearMovement, put=__cordl_internal_set_EnableLinearMovement)) bool  EnableLinearMovement;
+  /// @brief Field EnableLinearMovement, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get_EnableLinearMovement, put = __cordl_internal_set_EnableLinearMovement)) bool EnableLinearMovement;
 
-/// @brief Field EnableRotation, offset 0x71, size 0x1 
- __declspec(property(get=__cordl_internal_get_EnableRotation, put=__cordl_internal_set_EnableRotation)) bool  EnableRotation;
+  /// @brief Field EnableRotation, offset 0x71, size 0x1
+  __declspec(property(get = __cordl_internal_get_EnableRotation, put = __cordl_internal_set_EnableRotation)) bool EnableRotation;
 
-/// @brief Field FallSpeed, offset 0x98, size 0x4 
- __declspec(property(get=__cordl_internal_get_FallSpeed, put=__cordl_internal_set_FallSpeed)) float_t  FallSpeed;
+  /// @brief Field FallSpeed, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get_FallSpeed, put = __cordl_internal_set_FallSpeed)) float_t FallSpeed;
 
-/// @brief Field FixedSpeedSteps, offset 0x3c, size 0x4 
- __declspec(property(get=__cordl_internal_get_FixedSpeedSteps, put=__cordl_internal_set_FixedSpeedSteps)) int32_t  FixedSpeedSteps;
+  /// @brief Field FixedSpeedSteps, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_FixedSpeedSteps, put = __cordl_internal_set_FixedSpeedSteps)) int32_t FixedSpeedSteps;
 
-/// @brief Field GravityModifier, offset 0x44, size 0x4 
- __declspec(property(get=__cordl_internal_get_GravityModifier, put=__cordl_internal_set_GravityModifier)) float_t  GravityModifier;
+  /// @brief Field GravityModifier, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_GravityModifier, put = __cordl_internal_set_GravityModifier)) float_t GravityModifier;
 
-/// @brief Field HaltUpdateMovement, offset 0xc9, size 0x1 
- __declspec(property(get=__cordl_internal_get_HaltUpdateMovement, put=__cordl_internal_set_HaltUpdateMovement)) bool  HaltUpdateMovement;
+  /// @brief Field HaltUpdateMovement, offset 0xc9, size 0x1
+  __declspec(property(get = __cordl_internal_get_HaltUpdateMovement, put = __cordl_internal_set_HaltUpdateMovement)) bool HaltUpdateMovement;
 
-/// @brief Field HmdResetsY, offset 0x40, size 0x1 
- __declspec(property(get=__cordl_internal_get_HmdResetsY, put=__cordl_internal_set_HmdResetsY)) bool  HmdResetsY;
+  /// @brief Field HmdResetsY, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get_HmdResetsY, put = __cordl_internal_set_HmdResetsY)) bool HmdResetsY;
 
-/// @brief Field HmdRotatesY, offset 0x41, size 0x1 
- __declspec(property(get=__cordl_internal_get_HmdRotatesY, put=__cordl_internal_set_HmdRotatesY)) bool  HmdRotatesY;
+  /// @brief Field HmdRotatesY, offset 0x41, size 0x1
+  __declspec(property(get = __cordl_internal_get_HmdRotatesY, put = __cordl_internal_set_HmdRotatesY)) bool HmdRotatesY;
 
-/// @brief Field InitialPose, offset 0x9c, size 0x20 
- __declspec(property(get=__cordl_internal_get_InitialPose, put=__cordl_internal_set_InitialPose)) ::System::Nullable_1<::GlobalNamespace::OVRPose>  InitialPose;
+  /// @brief Field InitialPose, offset 0x9c, size 0x20
+  __declspec(property(get = __cordl_internal_get_InitialPose, put = __cordl_internal_set_InitialPose)) ::System::Nullable_1<::GlobalNamespace::OVRPose> InitialPose;
 
- __declspec(property(get=get_InitialYRotation, put=set_InitialYRotation)) float_t  InitialYRotation;
+  __declspec(property(get = get_InitialYRotation, put = set_InitialYRotation)) float_t InitialYRotation;
 
-/// @brief Field JumpForce, offset 0x2c, size 0x4 
- __declspec(property(get=__cordl_internal_get_JumpForce, put=__cordl_internal_set_JumpForce)) float_t  JumpForce;
+  /// @brief Field JumpForce, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_JumpForce, put = __cordl_internal_set_JumpForce)) float_t JumpForce;
 
-/// @brief Field MoveScale, offset 0x88, size 0x4 
- __declspec(property(get=__cordl_internal_get_MoveScale, put=__cordl_internal_set_MoveScale)) float_t  MoveScale;
+  /// @brief Field MoveScale, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get_MoveScale, put = __cordl_internal_set_MoveScale)) float_t MoveScale;
 
-/// @brief Field MoveScaleMultiplier, offset 0xc0, size 0x4 
- __declspec(property(get=__cordl_internal_get_MoveScaleMultiplier, put=__cordl_internal_set_MoveScaleMultiplier)) float_t  MoveScaleMultiplier;
+  /// @brief Field MoveScaleMultiplier, offset 0xc0, size 0x4
+  __declspec(property(get = __cordl_internal_get_MoveScaleMultiplier, put = __cordl_internal_set_MoveScaleMultiplier)) float_t MoveScaleMultiplier;
 
-/// @brief Field MoveThrottle, offset 0x8c, size 0xc 
- __declspec(property(get=__cordl_internal_get_MoveThrottle, put=__cordl_internal_set_MoveThrottle)) ::UnityEngine::Vector3  MoveThrottle;
+  /// @brief Field MoveThrottle, offset 0x8c, size 0xc
+  __declspec(property(get = __cordl_internal_get_MoveThrottle, put = __cordl_internal_set_MoveThrottle)) ::UnityEngine::Vector3 MoveThrottle;
 
-/// @brief Field PreCharacterMove, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get_PreCharacterMove, put=__cordl_internal_set_PreCharacterMove)) ::System::Action*  PreCharacterMove;
+  /// @brief Field PreCharacterMove, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_PreCharacterMove, put = __cordl_internal_set_PreCharacterMove)) ::System::Action* PreCharacterMove;
 
-/// @brief Field ReadyToSnapTurn, offset 0xd4, size 0x1 
- __declspec(property(get=__cordl_internal_get_ReadyToSnapTurn, put=__cordl_internal_set_ReadyToSnapTurn)) bool  ReadyToSnapTurn;
+  /// @brief Field ReadyToSnapTurn, offset 0xd4, size 0x1
+  __declspec(property(get = __cordl_internal_get_ReadyToSnapTurn, put = __cordl_internal_set_ReadyToSnapTurn)) bool ReadyToSnapTurn;
 
-/// @brief Field RotateAroundGuardianCenter, offset 0x39, size 0x1 
- __declspec(property(get=__cordl_internal_get_RotateAroundGuardianCenter, put=__cordl_internal_set_RotateAroundGuardianCenter)) bool  RotateAroundGuardianCenter;
+  /// @brief Field RotateAroundGuardianCenter, offset 0x39, size 0x1
+  __declspec(property(get = __cordl_internal_get_RotateAroundGuardianCenter, put = __cordl_internal_set_RotateAroundGuardianCenter)) bool RotateAroundGuardianCenter;
 
-/// @brief Field RotationAmount, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get_RotationAmount, put=__cordl_internal_set_RotationAmount)) float_t  RotationAmount;
+  /// @brief Field RotationAmount, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_RotationAmount, put = __cordl_internal_set_RotationAmount)) float_t RotationAmount;
 
-/// @brief Field RotationEitherThumbstick, offset 0x72, size 0x1 
- __declspec(property(get=__cordl_internal_get_RotationEitherThumbstick, put=__cordl_internal_set_RotationEitherThumbstick)) bool  RotationEitherThumbstick;
+  /// @brief Field RotationEitherThumbstick, offset 0x72, size 0x1
+  __declspec(property(get = __cordl_internal_get_RotationEitherThumbstick, put = __cordl_internal_set_RotationEitherThumbstick)) bool RotationEitherThumbstick;
 
-/// @brief Field RotationRatchet, offset 0x34, size 0x4 
- __declspec(property(get=__cordl_internal_get_RotationRatchet, put=__cordl_internal_set_RotationRatchet)) float_t  RotationRatchet;
+  /// @brief Field RotationRatchet, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_RotationRatchet, put = __cordl_internal_set_RotationRatchet)) float_t RotationRatchet;
 
-/// @brief Field RotationScaleMultiplier, offset 0xc4, size 0x4 
- __declspec(property(get=__cordl_internal_get_RotationScaleMultiplier, put=__cordl_internal_set_RotationScaleMultiplier)) float_t  RotationScaleMultiplier;
+  /// @brief Field RotationScaleMultiplier, offset 0xc4, size 0x4
+  __declspec(property(get = __cordl_internal_get_RotationScaleMultiplier, put = __cordl_internal_set_RotationScaleMultiplier)) float_t RotationScaleMultiplier;
 
-/// @brief Field SimulationRate, offset 0xcc, size 0x4 
- __declspec(property(get=__cordl_internal_get_SimulationRate, put=__cordl_internal_set_SimulationRate)) float_t  SimulationRate;
+  /// @brief Field SimulationRate, offset 0xcc, size 0x4
+  __declspec(property(get = __cordl_internal_get_SimulationRate, put = __cordl_internal_set_SimulationRate)) float_t SimulationRate;
 
-/// @brief Field SkipMouseRotation, offset 0xc8, size 0x1 
- __declspec(property(get=__cordl_internal_get_SkipMouseRotation, put=__cordl_internal_set_SkipMouseRotation)) bool  SkipMouseRotation;
+  /// @brief Field SkipMouseRotation, offset 0xc8, size 0x1
+  __declspec(property(get = __cordl_internal_get_SkipMouseRotation, put = __cordl_internal_set_SkipMouseRotation)) bool SkipMouseRotation;
 
-/// @brief Field SnapRotation, offset 0x38, size 0x1 
- __declspec(property(get=__cordl_internal_get_SnapRotation, put=__cordl_internal_set_SnapRotation)) bool  SnapRotation;
+  /// @brief Field SnapRotation, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_SnapRotation, put = __cordl_internal_set_SnapRotation)) bool SnapRotation;
 
-/// @brief Field Teleported, offset 0x58, size 0x1 
- __declspec(property(get=__cordl_internal_get_Teleported, put=__cordl_internal_set_Teleported)) bool  Teleported;
+  /// @brief Field Teleported, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get_Teleported, put = __cordl_internal_set_Teleported)) bool Teleported;
 
-/// @brief Field TransformUpdated, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get_TransformUpdated, put=__cordl_internal_set_TransformUpdated)) ::System::Action_1<::UnityW<::UnityEngine::Transform>>*  TransformUpdated;
+  /// @brief Field TransformUpdated, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_TransformUpdated, put = __cordl_internal_set_TransformUpdated)) ::System::Action_1<::UnityW<::UnityEngine::Transform>>* TransformUpdated;
 
-/// @brief Field <InitialYRotation>k__BackingField, offset 0xbc, size 0x4 
- __declspec(property(get=__cordl_internal_get__InitialYRotation_k__BackingField, put=__cordl_internal_set__InitialYRotation_k__BackingField)) float_t  _InitialYRotation_k__BackingField;
+  /// @brief Field <InitialYRotation>k__BackingField, offset 0xbc, size 0x4
+  __declspec(property(get = __cordl_internal_get__InitialYRotation_k__BackingField, put = __cordl_internal_set__InitialYRotation_k__BackingField)) float_t _InitialYRotation_k__BackingField;
 
-/// @brief Field buttonRotation, offset 0xd0, size 0x4 
- __declspec(property(get=__cordl_internal_get_buttonRotation, put=__cordl_internal_set_buttonRotation)) float_t  buttonRotation;
+  /// @brief Field buttonRotation, offset 0xd0, size 0x4
+  __declspec(property(get = __cordl_internal_get_buttonRotation, put = __cordl_internal_set_buttonRotation)) float_t buttonRotation;
 
-/// @brief Field moveBackAction, offset 0xf0, size 0x8 
- __declspec(property(get=__cordl_internal_get_moveBackAction, put=__cordl_internal_set_moveBackAction)) ::UnityEngine::InputSystem::InputAction*  moveBackAction;
+  /// @brief Field moveBackAction, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveBackAction, put = __cordl_internal_set_moveBackAction)) ::UnityEngine::InputSystem::InputAction* moveBackAction;
 
-/// @brief Field moveForwardAction, offset 0xd8, size 0x8 
- __declspec(property(get=__cordl_internal_get_moveForwardAction, put=__cordl_internal_set_moveForwardAction)) ::UnityEngine::InputSystem::InputAction*  moveForwardAction;
+  /// @brief Field moveForwardAction, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveForwardAction, put = __cordl_internal_set_moveForwardAction)) ::UnityEngine::InputSystem::InputAction* moveForwardAction;
 
-/// @brief Field moveLeftAction, offset 0xe0, size 0x8 
- __declspec(property(get=__cordl_internal_get_moveLeftAction, put=__cordl_internal_set_moveLeftAction)) ::UnityEngine::InputSystem::InputAction*  moveLeftAction;
+  /// @brief Field moveLeftAction, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveLeftAction, put = __cordl_internal_set_moveLeftAction)) ::UnityEngine::InputSystem::InputAction* moveLeftAction;
 
-/// @brief Field moveRightAction, offset 0xe8, size 0x8 
- __declspec(property(get=__cordl_internal_get_moveRightAction, put=__cordl_internal_set_moveRightAction)) ::UnityEngine::InputSystem::InputAction*  moveRightAction;
+  /// @brief Field moveRightAction, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveRightAction, put = __cordl_internal_set_moveRightAction)) ::UnityEngine::InputSystem::InputAction* moveRightAction;
 
-/// @brief Field playerControllerEnabled, offset 0xd5, size 0x1 
- __declspec(property(get=__cordl_internal_get_playerControllerEnabled, put=__cordl_internal_set_playerControllerEnabled)) bool  playerControllerEnabled;
+  /// @brief Field playerControllerEnabled, offset 0xd5, size 0x1
+  __declspec(property(get = __cordl_internal_get_playerControllerEnabled, put = __cordl_internal_set_playerControllerEnabled)) bool playerControllerEnabled;
 
-/// @brief Field prevHatLeft, offset 0xca, size 0x1 
- __declspec(property(get=__cordl_internal_get_prevHatLeft, put=__cordl_internal_set_prevHatLeft)) bool  prevHatLeft;
+  /// @brief Field prevHatLeft, offset 0xca, size 0x1
+  __declspec(property(get = __cordl_internal_get_prevHatLeft, put = __cordl_internal_set_prevHatLeft)) bool prevHatLeft;
 
-/// @brief Field prevHatRight, offset 0xcb, size 0x1 
- __declspec(property(get=__cordl_internal_get_prevHatRight, put=__cordl_internal_set_prevHatRight)) bool  prevHatRight;
+  /// @brief Field prevHatRight, offset 0xcb, size 0x1
+  __declspec(property(get = __cordl_internal_get_prevHatRight, put = __cordl_internal_set_prevHatRight)) bool prevHatRight;
 
-/// @brief Field runAction, offset 0xf8, size 0x8 
- __declspec(property(get=__cordl_internal_get_runAction, put=__cordl_internal_set_runAction)) ::UnityEngine::InputSystem::InputAction*  runAction;
+  /// @brief Field runAction, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_runAction, put = __cordl_internal_set_runAction)) ::UnityEngine::InputSystem::InputAction* runAction;
 
-/// @brief Field useProfileData, offset 0x48, size 0x1 
- __declspec(property(get=__cordl_internal_get_useProfileData, put=__cordl_internal_set_useProfileData)) bool  useProfileData;
+  /// @brief Field useProfileData, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get_useProfileData, put = __cordl_internal_set_useProfileData)) bool useProfileData;
 
-/// @brief Method Awake, addr 0x5d59e54, size 0x1f8, virtual false, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x5dcbe3c, size 0x1f8, virtual false, abstract: false, final false
+  inline void Awake();
 
-/// @brief Method GetHaltUpdateMovement, addr 0x5d5bdd4, size 0xc, virtual false, abstract: false, final false
-inline void GetHaltUpdateMovement(::ByRef<bool>  haltUpdateMovement) ;
+  /// @brief Method GetHaltUpdateMovement, addr 0x5dcddbc, size 0xc, virtual false, abstract: false, final false
+  inline void GetHaltUpdateMovement(::ByRef<bool> haltUpdateMovement);
 
-/// @brief Method GetMoveScaleMultiplier, addr 0x5d5bd98, size 0xc, virtual false, abstract: false, final false
-inline void GetMoveScaleMultiplier(::ByRef<float_t>  moveScaleMultiplier) ;
+  /// @brief Method GetMoveScaleMultiplier, addr 0x5dcdd80, size 0xc, virtual false, abstract: false, final false
+  inline void GetMoveScaleMultiplier(::ByRef<float_t> moveScaleMultiplier);
 
-/// @brief Method GetRotationScaleMultiplier, addr 0x5d5bdac, size 0xc, virtual false, abstract: false, final false
-inline void GetRotationScaleMultiplier(::ByRef<float_t>  rotationScaleMultiplier) ;
+  /// @brief Method GetRotationScaleMultiplier, addr 0x5dcdd94, size 0xc, virtual false, abstract: false, final false
+  inline void GetRotationScaleMultiplier(::ByRef<float_t> rotationScaleMultiplier);
 
-/// @brief Method GetSkipMouseRotation, addr 0x5d5bdc0, size 0xc, virtual false, abstract: false, final false
-inline void GetSkipMouseRotation(::ByRef<bool>  skipMouseRotation) ;
+  /// @brief Method GetSkipMouseRotation, addr 0x5dcdda8, size 0xc, virtual false, abstract: false, final false
+  inline void GetSkipMouseRotation(::ByRef<bool> skipMouseRotation);
 
-/// @brief Method Jump, addr 0x5d5bc60, size 0x84, virtual false, abstract: false, final false
-inline bool Jump() ;
+  /// @brief Method Jump, addr 0x5dcdc48, size 0x84, virtual false, abstract: false, final false
+  inline bool Jump();
 
-static inline ::GlobalNamespace::OVRPlayerController* New_ctor() ;
+  static inline ::GlobalNamespace::OVRPlayerController* New_ctor();
 
-/// @brief Method OnDisable, addr 0x5d5a050, size 0x234, virtual false, abstract: false, final false
-inline void OnDisable() ;
+  /// @brief Method OnDisable, addr 0x5dcc038, size 0x234, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-/// @brief Method OnEnable, addr 0x5d5a04c, size 0x4, virtual false, abstract: false, final false
-inline void OnEnable() ;
+  /// @brief Method OnEnable, addr 0x5dcc034, size 0x4, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-/// @brief Method ResetOrientation, addr 0x5d5bde8, size 0xc4, virtual false, abstract: false, final false
-inline void ResetOrientation() ;
+  /// @brief Method ResetOrientation, addr 0x5dcddd0, size 0xc4, virtual false, abstract: false, final false
+  inline void ResetOrientation();
 
-/// @brief Method SetHaltUpdateMovement, addr 0x5d5bde0, size 0x8, virtual false, abstract: false, final false
-inline void SetHaltUpdateMovement(bool  haltUpdateMovement) ;
+  /// @brief Method SetHaltUpdateMovement, addr 0x5dcddc8, size 0x8, virtual false, abstract: false, final false
+  inline void SetHaltUpdateMovement(bool haltUpdateMovement);
 
-/// @brief Method SetMoveScaleMultiplier, addr 0x5d5bda4, size 0x8, virtual false, abstract: false, final false
-inline void SetMoveScaleMultiplier(float_t  moveScaleMultiplier) ;
+  /// @brief Method SetMoveScaleMultiplier, addr 0x5dcdd8c, size 0x8, virtual false, abstract: false, final false
+  inline void SetMoveScaleMultiplier(float_t moveScaleMultiplier);
 
-/// @brief Method SetRotationScaleMultiplier, addr 0x5d5bdb8, size 0x8, virtual false, abstract: false, final false
-inline void SetRotationScaleMultiplier(float_t  rotationScaleMultiplier) ;
+  /// @brief Method SetRotationScaleMultiplier, addr 0x5dcdda0, size 0x8, virtual false, abstract: false, final false
+  inline void SetRotationScaleMultiplier(float_t rotationScaleMultiplier);
 
-/// @brief Method SetSkipMouseRotation, addr 0x5d5bdcc, size 0x8, virtual false, abstract: false, final false
-inline void SetSkipMouseRotation(bool  skipMouseRotation) ;
+  /// @brief Method SetSkipMouseRotation, addr 0x5dcddb4, size 0x8, virtual false, abstract: false, final false
+  inline void SetSkipMouseRotation(bool skipMouseRotation);
 
-/// @brief Method Start, addr 0x5d59a60, size 0x3f4, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x5dcba48, size 0x3f4, virtual false, abstract: false, final false
+  inline void Start();
 
-/// @brief Method Stop, addr 0x5d5bce4, size 0xb4, virtual false, abstract: false, final false
-inline void Stop() ;
+  /// @brief Method Stop, addr 0x5dcdccc, size 0xb4, virtual false, abstract: false, final false
+  inline void Stop();
 
-/// @brief Method Update, addr 0x5d5a284, size 0x27c, virtual false, abstract: false, final false
-inline void Update() ;
+  /// @brief Method Update, addr 0x5dcc26c, size 0x27c, virtual false, abstract: false, final false
+  inline void Update();
 
-/// @brief Method UpdateController, addr 0x5d5a500, size 0x790, virtual true, abstract: false, final false
-inline void UpdateController() ;
+  /// @brief Method UpdateController, addr 0x5dcc4e8, size 0x790, virtual true, abstract: false, final false
+  inline void UpdateController();
 
-/// @brief Method UpdateMovement, addr 0x5d5ac90, size 0xe48, virtual true, abstract: false, final false
-inline void UpdateMovement() ;
+  /// @brief Method UpdateMovement, addr 0x5dccc78, size 0xe48, virtual true, abstract: false, final false
+  inline void UpdateMovement();
 
-/// @brief Method UpdateTransform, addr 0x5d5bad8, size 0x188, virtual false, abstract: false, final false
-inline void UpdateTransform(::GlobalNamespace::OVRCameraRig*  rig) ;
+  /// @brief Method UpdateTransform, addr 0x5dcdac0, size 0x188, virtual false, abstract: false, final false
+  inline void UpdateTransform(::GlobalNamespace::OVRCameraRig* rig);
 
-constexpr float_t const& __cordl_internal_get_Acceleration() const;
+  constexpr float_t const& __cordl_internal_get_Acceleration() const;
 
-constexpr float_t& __cordl_internal_get_Acceleration() ;
+  constexpr float_t& __cordl_internal_get_Acceleration();
 
-constexpr float_t const& __cordl_internal_get_BackAndSideDampen() const;
+  constexpr float_t const& __cordl_internal_get_BackAndSideDampen() const;
 
-constexpr float_t& __cordl_internal_get_BackAndSideDampen() ;
+  constexpr float_t& __cordl_internal_get_BackAndSideDampen();
 
-constexpr float_t const& __cordl_internal_get_CameraHeight() const;
+  constexpr float_t const& __cordl_internal_get_CameraHeight() const;
 
-constexpr float_t& __cordl_internal_get_CameraHeight() ;
+  constexpr float_t& __cordl_internal_get_CameraHeight();
 
-constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraRig() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraRig() const;
 
-constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_CameraRig() ;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_CameraRig();
 
-constexpr ::System::Action* const& __cordl_internal_get_CameraUpdated() const;
+  constexpr ::System::Action* const& __cordl_internal_get_CameraUpdated() const;
 
-constexpr ::System::Action*& __cordl_internal_get_CameraUpdated() ;
+  constexpr ::System::Action*& __cordl_internal_get_CameraUpdated();
 
-constexpr ::UnityW<::UnityEngine::CharacterController> const& __cordl_internal_get_Controller() const;
+  constexpr ::UnityW<::UnityEngine::CharacterController> const& __cordl_internal_get_Controller() const;
 
-constexpr ::UnityW<::UnityEngine::CharacterController>& __cordl_internal_get_Controller() ;
+  constexpr ::UnityW<::UnityEngine::CharacterController>& __cordl_internal_get_Controller();
 
-constexpr float_t const& __cordl_internal_get_Damping() const;
+  constexpr float_t const& __cordl_internal_get_Damping() const;
 
-constexpr float_t& __cordl_internal_get_Damping() ;
+  constexpr float_t& __cordl_internal_get_Damping();
 
-constexpr bool const& __cordl_internal_get_EnableLinearMovement() const;
+  constexpr bool const& __cordl_internal_get_EnableLinearMovement() const;
 
-constexpr bool& __cordl_internal_get_EnableLinearMovement() ;
+  constexpr bool& __cordl_internal_get_EnableLinearMovement();
 
-constexpr bool const& __cordl_internal_get_EnableRotation() const;
+  constexpr bool const& __cordl_internal_get_EnableRotation() const;
 
-constexpr bool& __cordl_internal_get_EnableRotation() ;
+  constexpr bool& __cordl_internal_get_EnableRotation();
 
-constexpr float_t const& __cordl_internal_get_FallSpeed() const;
+  constexpr float_t const& __cordl_internal_get_FallSpeed() const;
 
-constexpr float_t& __cordl_internal_get_FallSpeed() ;
+  constexpr float_t& __cordl_internal_get_FallSpeed();
 
-constexpr int32_t const& __cordl_internal_get_FixedSpeedSteps() const;
+  constexpr int32_t const& __cordl_internal_get_FixedSpeedSteps() const;
 
-constexpr int32_t& __cordl_internal_get_FixedSpeedSteps() ;
+  constexpr int32_t& __cordl_internal_get_FixedSpeedSteps();
 
-constexpr float_t const& __cordl_internal_get_GravityModifier() const;
+  constexpr float_t const& __cordl_internal_get_GravityModifier() const;
 
-constexpr float_t& __cordl_internal_get_GravityModifier() ;
+  constexpr float_t& __cordl_internal_get_GravityModifier();
 
-constexpr bool const& __cordl_internal_get_HaltUpdateMovement() const;
+  constexpr bool const& __cordl_internal_get_HaltUpdateMovement() const;
 
-constexpr bool& __cordl_internal_get_HaltUpdateMovement() ;
+  constexpr bool& __cordl_internal_get_HaltUpdateMovement();
 
-constexpr bool const& __cordl_internal_get_HmdResetsY() const;
+  constexpr bool const& __cordl_internal_get_HmdResetsY() const;
 
-constexpr bool& __cordl_internal_get_HmdResetsY() ;
+  constexpr bool& __cordl_internal_get_HmdResetsY();
 
-constexpr bool const& __cordl_internal_get_HmdRotatesY() const;
+  constexpr bool const& __cordl_internal_get_HmdRotatesY() const;
 
-constexpr bool& __cordl_internal_get_HmdRotatesY() ;
+  constexpr bool& __cordl_internal_get_HmdRotatesY();
 
-constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose> const& __cordl_internal_get_InitialPose() const;
+  constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose> const& __cordl_internal_get_InitialPose() const;
 
-constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose>& __cordl_internal_get_InitialPose() ;
+  constexpr ::System::Nullable_1<::GlobalNamespace::OVRPose>& __cordl_internal_get_InitialPose();
 
-constexpr float_t const& __cordl_internal_get_JumpForce() const;
+  constexpr float_t const& __cordl_internal_get_JumpForce() const;
 
-constexpr float_t& __cordl_internal_get_JumpForce() ;
+  constexpr float_t& __cordl_internal_get_JumpForce();
 
-constexpr float_t const& __cordl_internal_get_MoveScale() const;
+  constexpr float_t const& __cordl_internal_get_MoveScale() const;
 
-constexpr float_t& __cordl_internal_get_MoveScale() ;
+  constexpr float_t& __cordl_internal_get_MoveScale();
 
-constexpr float_t const& __cordl_internal_get_MoveScaleMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_MoveScaleMultiplier() const;
 
-constexpr float_t& __cordl_internal_get_MoveScaleMultiplier() ;
+  constexpr float_t& __cordl_internal_get_MoveScaleMultiplier();
 
-constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_MoveThrottle() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_MoveThrottle() const;
 
-constexpr ::UnityEngine::Vector3& __cordl_internal_get_MoveThrottle() ;
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_MoveThrottle();
 
-constexpr ::System::Action* const& __cordl_internal_get_PreCharacterMove() const;
+  constexpr ::System::Action* const& __cordl_internal_get_PreCharacterMove() const;
 
-constexpr ::System::Action*& __cordl_internal_get_PreCharacterMove() ;
+  constexpr ::System::Action*& __cordl_internal_get_PreCharacterMove();
 
-constexpr bool const& __cordl_internal_get_ReadyToSnapTurn() const;
+  constexpr bool const& __cordl_internal_get_ReadyToSnapTurn() const;
 
-constexpr bool& __cordl_internal_get_ReadyToSnapTurn() ;
+  constexpr bool& __cordl_internal_get_ReadyToSnapTurn();
 
-constexpr bool const& __cordl_internal_get_RotateAroundGuardianCenter() const;
+  constexpr bool const& __cordl_internal_get_RotateAroundGuardianCenter() const;
 
-constexpr bool& __cordl_internal_get_RotateAroundGuardianCenter() ;
+  constexpr bool& __cordl_internal_get_RotateAroundGuardianCenter();
 
-constexpr float_t const& __cordl_internal_get_RotationAmount() const;
+  constexpr float_t const& __cordl_internal_get_RotationAmount() const;
 
-constexpr float_t& __cordl_internal_get_RotationAmount() ;
+  constexpr float_t& __cordl_internal_get_RotationAmount();
 
-constexpr bool const& __cordl_internal_get_RotationEitherThumbstick() const;
+  constexpr bool const& __cordl_internal_get_RotationEitherThumbstick() const;
 
-constexpr bool& __cordl_internal_get_RotationEitherThumbstick() ;
+  constexpr bool& __cordl_internal_get_RotationEitherThumbstick();
 
-constexpr float_t const& __cordl_internal_get_RotationRatchet() const;
+  constexpr float_t const& __cordl_internal_get_RotationRatchet() const;
 
-constexpr float_t& __cordl_internal_get_RotationRatchet() ;
+  constexpr float_t& __cordl_internal_get_RotationRatchet();
 
-constexpr float_t const& __cordl_internal_get_RotationScaleMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_RotationScaleMultiplier() const;
 
-constexpr float_t& __cordl_internal_get_RotationScaleMultiplier() ;
+  constexpr float_t& __cordl_internal_get_RotationScaleMultiplier();
 
-constexpr float_t const& __cordl_internal_get_SimulationRate() const;
+  constexpr float_t const& __cordl_internal_get_SimulationRate() const;
 
-constexpr float_t& __cordl_internal_get_SimulationRate() ;
+  constexpr float_t& __cordl_internal_get_SimulationRate();
 
-constexpr bool const& __cordl_internal_get_SkipMouseRotation() const;
+  constexpr bool const& __cordl_internal_get_SkipMouseRotation() const;
 
-constexpr bool& __cordl_internal_get_SkipMouseRotation() ;
+  constexpr bool& __cordl_internal_get_SkipMouseRotation();
 
-constexpr bool const& __cordl_internal_get_SnapRotation() const;
+  constexpr bool const& __cordl_internal_get_SnapRotation() const;
 
-constexpr bool& __cordl_internal_get_SnapRotation() ;
+  constexpr bool& __cordl_internal_get_SnapRotation();
 
-constexpr bool const& __cordl_internal_get_Teleported() const;
+  constexpr bool const& __cordl_internal_get_Teleported() const;
 
-constexpr bool& __cordl_internal_get_Teleported() ;
+  constexpr bool& __cordl_internal_get_Teleported();
 
-constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get_TransformUpdated() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get_TransformUpdated() const;
 
-constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get_TransformUpdated() ;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get_TransformUpdated();
 
-constexpr float_t const& __cordl_internal_get__InitialYRotation_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__InitialYRotation_k__BackingField() const;
 
-constexpr float_t& __cordl_internal_get__InitialYRotation_k__BackingField() ;
+  constexpr float_t& __cordl_internal_get__InitialYRotation_k__BackingField();
 
-constexpr float_t const& __cordl_internal_get_buttonRotation() const;
+  constexpr float_t const& __cordl_internal_get_buttonRotation() const;
 
-constexpr float_t& __cordl_internal_get_buttonRotation() ;
+  constexpr float_t& __cordl_internal_get_buttonRotation();
 
-constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveBackAction() const;
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveBackAction() const;
 
-constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveBackAction() ;
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveBackAction();
 
-constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveForwardAction() const;
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveForwardAction() const;
 
-constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveForwardAction() ;
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveForwardAction();
 
-constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveLeftAction() const;
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveLeftAction() const;
 
-constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveLeftAction() ;
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveLeftAction();
 
-constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveRightAction() const;
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveRightAction() const;
 
-constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveRightAction() ;
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveRightAction();
 
-constexpr bool const& __cordl_internal_get_playerControllerEnabled() const;
+  constexpr bool const& __cordl_internal_get_playerControllerEnabled() const;
 
-constexpr bool& __cordl_internal_get_playerControllerEnabled() ;
+  constexpr bool& __cordl_internal_get_playerControllerEnabled();
 
-constexpr bool const& __cordl_internal_get_prevHatLeft() const;
+  constexpr bool const& __cordl_internal_get_prevHatLeft() const;
 
-constexpr bool& __cordl_internal_get_prevHatLeft() ;
+  constexpr bool& __cordl_internal_get_prevHatLeft();
 
-constexpr bool const& __cordl_internal_get_prevHatRight() const;
+  constexpr bool const& __cordl_internal_get_prevHatRight() const;
 
-constexpr bool& __cordl_internal_get_prevHatRight() ;
+  constexpr bool& __cordl_internal_get_prevHatRight();
 
-constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_runAction() const;
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_runAction() const;
 
-constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_runAction() ;
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_runAction();
 
-constexpr bool const& __cordl_internal_get_useProfileData() const;
+  constexpr bool const& __cordl_internal_get_useProfileData() const;
 
-constexpr bool& __cordl_internal_get_useProfileData() ;
+  constexpr bool& __cordl_internal_get_useProfileData();
 
-constexpr void __cordl_internal_set_Acceleration(float_t  value) ;
+  constexpr void __cordl_internal_set_Acceleration(float_t value);
 
-constexpr void __cordl_internal_set_BackAndSideDampen(float_t  value) ;
+  constexpr void __cordl_internal_set_BackAndSideDampen(float_t value);
 
-constexpr void __cordl_internal_set_CameraHeight(float_t  value) ;
+  constexpr void __cordl_internal_set_CameraHeight(float_t value);
 
-constexpr void __cordl_internal_set_CameraRig(::UnityW<::GlobalNamespace::OVRCameraRig>  value) ;
+  constexpr void __cordl_internal_set_CameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-constexpr void __cordl_internal_set_CameraUpdated(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_CameraUpdated(::System::Action* value);
 
-constexpr void __cordl_internal_set_Controller(::UnityW<::UnityEngine::CharacterController>  value) ;
+  constexpr void __cordl_internal_set_Controller(::UnityW<::UnityEngine::CharacterController> value);
 
-constexpr void __cordl_internal_set_Damping(float_t  value) ;
+  constexpr void __cordl_internal_set_Damping(float_t value);
 
-constexpr void __cordl_internal_set_EnableLinearMovement(bool  value) ;
+  constexpr void __cordl_internal_set_EnableLinearMovement(bool value);
 
-constexpr void __cordl_internal_set_EnableRotation(bool  value) ;
+  constexpr void __cordl_internal_set_EnableRotation(bool value);
 
-constexpr void __cordl_internal_set_FallSpeed(float_t  value) ;
+  constexpr void __cordl_internal_set_FallSpeed(float_t value);
 
-constexpr void __cordl_internal_set_FixedSpeedSteps(int32_t  value) ;
+  constexpr void __cordl_internal_set_FixedSpeedSteps(int32_t value);
 
-constexpr void __cordl_internal_set_GravityModifier(float_t  value) ;
+  constexpr void __cordl_internal_set_GravityModifier(float_t value);
 
-constexpr void __cordl_internal_set_HaltUpdateMovement(bool  value) ;
+  constexpr void __cordl_internal_set_HaltUpdateMovement(bool value);
 
-constexpr void __cordl_internal_set_HmdResetsY(bool  value) ;
+  constexpr void __cordl_internal_set_HmdResetsY(bool value);
 
-constexpr void __cordl_internal_set_HmdRotatesY(bool  value) ;
+  constexpr void __cordl_internal_set_HmdRotatesY(bool value);
 
-constexpr void __cordl_internal_set_InitialPose(::System::Nullable_1<::GlobalNamespace::OVRPose>  value) ;
+  constexpr void __cordl_internal_set_InitialPose(::System::Nullable_1<::GlobalNamespace::OVRPose> value);
 
-constexpr void __cordl_internal_set_JumpForce(float_t  value) ;
+  constexpr void __cordl_internal_set_JumpForce(float_t value);
 
-constexpr void __cordl_internal_set_MoveScale(float_t  value) ;
+  constexpr void __cordl_internal_set_MoveScale(float_t value);
 
-constexpr void __cordl_internal_set_MoveScaleMultiplier(float_t  value) ;
+  constexpr void __cordl_internal_set_MoveScaleMultiplier(float_t value);
 
-constexpr void __cordl_internal_set_MoveThrottle(::UnityEngine::Vector3  value) ;
+  constexpr void __cordl_internal_set_MoveThrottle(::UnityEngine::Vector3 value);
 
-constexpr void __cordl_internal_set_PreCharacterMove(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_PreCharacterMove(::System::Action* value);
 
-constexpr void __cordl_internal_set_ReadyToSnapTurn(bool  value) ;
+  constexpr void __cordl_internal_set_ReadyToSnapTurn(bool value);
 
-constexpr void __cordl_internal_set_RotateAroundGuardianCenter(bool  value) ;
+  constexpr void __cordl_internal_set_RotateAroundGuardianCenter(bool value);
 
-constexpr void __cordl_internal_set_RotationAmount(float_t  value) ;
+  constexpr void __cordl_internal_set_RotationAmount(float_t value);
 
-constexpr void __cordl_internal_set_RotationEitherThumbstick(bool  value) ;
+  constexpr void __cordl_internal_set_RotationEitherThumbstick(bool value);
 
-constexpr void __cordl_internal_set_RotationRatchet(float_t  value) ;
+  constexpr void __cordl_internal_set_RotationRatchet(float_t value);
 
-constexpr void __cordl_internal_set_RotationScaleMultiplier(float_t  value) ;
+  constexpr void __cordl_internal_set_RotationScaleMultiplier(float_t value);
 
-constexpr void __cordl_internal_set_SimulationRate(float_t  value) ;
+  constexpr void __cordl_internal_set_SimulationRate(float_t value);
 
-constexpr void __cordl_internal_set_SkipMouseRotation(bool  value) ;
+  constexpr void __cordl_internal_set_SkipMouseRotation(bool value);
 
-constexpr void __cordl_internal_set_SnapRotation(bool  value) ;
+  constexpr void __cordl_internal_set_SnapRotation(bool value);
 
-constexpr void __cordl_internal_set_Teleported(bool  value) ;
+  constexpr void __cordl_internal_set_Teleported(bool value);
 
-constexpr void __cordl_internal_set_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>*  value) ;
+  constexpr void __cordl_internal_set_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-constexpr void __cordl_internal_set__InitialYRotation_k__BackingField(float_t  value) ;
+  constexpr void __cordl_internal_set__InitialYRotation_k__BackingField(float_t value);
 
-constexpr void __cordl_internal_set_buttonRotation(float_t  value) ;
+  constexpr void __cordl_internal_set_buttonRotation(float_t value);
 
-constexpr void __cordl_internal_set_moveBackAction(::UnityEngine::InputSystem::InputAction*  value) ;
+  constexpr void __cordl_internal_set_moveBackAction(::UnityEngine::InputSystem::InputAction* value);
 
-constexpr void __cordl_internal_set_moveForwardAction(::UnityEngine::InputSystem::InputAction*  value) ;
+  constexpr void __cordl_internal_set_moveForwardAction(::UnityEngine::InputSystem::InputAction* value);
 
-constexpr void __cordl_internal_set_moveLeftAction(::UnityEngine::InputSystem::InputAction*  value) ;
+  constexpr void __cordl_internal_set_moveLeftAction(::UnityEngine::InputSystem::InputAction* value);
 
-constexpr void __cordl_internal_set_moveRightAction(::UnityEngine::InputSystem::InputAction*  value) ;
+  constexpr void __cordl_internal_set_moveRightAction(::UnityEngine::InputSystem::InputAction* value);
 
-constexpr void __cordl_internal_set_playerControllerEnabled(bool  value) ;
+  constexpr void __cordl_internal_set_playerControllerEnabled(bool value);
 
-constexpr void __cordl_internal_set_prevHatLeft(bool  value) ;
+  constexpr void __cordl_internal_set_prevHatLeft(bool value);
 
-constexpr void __cordl_internal_set_prevHatRight(bool  value) ;
+  constexpr void __cordl_internal_set_prevHatRight(bool value);
 
-constexpr void __cordl_internal_set_runAction(::UnityEngine::InputSystem::InputAction*  value) ;
+  constexpr void __cordl_internal_set_runAction(::UnityEngine::InputSystem::InputAction* value);
 
-constexpr void __cordl_internal_set_useProfileData(bool  value) ;
+  constexpr void __cordl_internal_set_useProfileData(bool value);
 
-/// @brief Method .ctor, addr 0x5d5beac, size 0xb4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5dcde94, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_CameraUpdated, addr 0x5d597a0, size 0xac, virtual false, abstract: false, final false
-inline void add_CameraUpdated(::System::Action*  value) ;
+  /// @brief Method add_CameraUpdated, addr 0x5dcb788, size 0xac, virtual false, abstract: false, final false
+  inline void add_CameraUpdated(::System::Action* value);
 
-/// @brief Method add_PreCharacterMove, addr 0x5d598f8, size 0xac, virtual false, abstract: false, final false
-inline void add_PreCharacterMove(::System::Action*  value) ;
+  /// @brief Method add_PreCharacterMove, addr 0x5dcb8e0, size 0xac, virtual false, abstract: false, final false
+  inline void add_PreCharacterMove(::System::Action* value);
 
-/// @brief Method add_TransformUpdated, addr 0x5d59620, size 0xc0, virtual false, abstract: false, final false
-inline void add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>*  value) ;
+  /// @brief Method add_TransformUpdated, addr 0x5dcb608, size 0xc0, virtual false, abstract: false, final false
+  inline void add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-/// @brief Method get_InitialYRotation, addr 0x5d59a50, size 0x8, virtual false, abstract: false, final false
-inline float_t get_InitialYRotation() ;
+  /// @brief Method get_InitialYRotation, addr 0x5dcba38, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_InitialYRotation();
 
-/// @brief Method remove_CameraUpdated, addr 0x5d5984c, size 0xac, virtual false, abstract: false, final false
-inline void remove_CameraUpdated(::System::Action*  value) ;
+  /// @brief Method remove_CameraUpdated, addr 0x5dcb834, size 0xac, virtual false, abstract: false, final false
+  inline void remove_CameraUpdated(::System::Action* value);
 
-/// @brief Method remove_PreCharacterMove, addr 0x5d599a4, size 0xac, virtual false, abstract: false, final false
-inline void remove_PreCharacterMove(::System::Action*  value) ;
+  /// @brief Method remove_PreCharacterMove, addr 0x5dcb98c, size 0xac, virtual false, abstract: false, final false
+  inline void remove_PreCharacterMove(::System::Action* value);
 
-/// @brief Method remove_TransformUpdated, addr 0x5d596e0, size 0xc0, virtual false, abstract: false, final false
-inline void remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>*  value) ;
+  /// @brief Method remove_TransformUpdated, addr 0x5dcb6c8, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-/// @brief Method set_InitialYRotation, addr 0x5d59a58, size 0x8, virtual false, abstract: false, final false
-inline void set_InitialYRotation(float_t  value) ;
+  /// @brief Method set_InitialYRotation, addr 0x5dcba40, size 0x8, virtual false, abstract: false, final false
+  inline void set_InitialYRotation(float_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRPlayerController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRPlayerController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRPlayerController(OVRPlayerController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRPlayerController(OVRPlayerController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRPlayerController(OVRPlayerController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRPlayerController(OVRPlayerController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7955 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7949};
+  /// @brief Field Acceleration, offset: 0x20, size: 0x4, def value: None
+  float_t ___Acceleration;
 
-/// @brief Field Acceleration, offset: 0x20, size: 0x4, def value: None
- float_t  ___Acceleration;
+  /// @brief Field Damping, offset: 0x24, size: 0x4, def value: None
+  float_t ___Damping;
 
-/// @brief Field Damping, offset: 0x24, size: 0x4, def value: None
- float_t  ___Damping;
+  /// @brief Field BackAndSideDampen, offset: 0x28, size: 0x4, def value: None
+  float_t ___BackAndSideDampen;
 
-/// @brief Field BackAndSideDampen, offset: 0x28, size: 0x4, def value: None
- float_t  ___BackAndSideDampen;
+  /// @brief Field JumpForce, offset: 0x2c, size: 0x4, def value: None
+  float_t ___JumpForce;
 
-/// @brief Field JumpForce, offset: 0x2c, size: 0x4, def value: None
- float_t  ___JumpForce;
+  /// @brief Field RotationAmount, offset: 0x30, size: 0x4, def value: None
+  float_t ___RotationAmount;
 
-/// @brief Field RotationAmount, offset: 0x30, size: 0x4, def value: None
- float_t  ___RotationAmount;
+  /// @brief Field RotationRatchet, offset: 0x34, size: 0x4, def value: None
+  float_t ___RotationRatchet;
 
-/// @brief Field RotationRatchet, offset: 0x34, size: 0x4, def value: None
- float_t  ___RotationRatchet;
+  /// @brief Field SnapRotation, offset: 0x38, size: 0x1, def value: None
+  bool ___SnapRotation;
 
-/// @brief Field SnapRotation, offset: 0x38, size: 0x1, def value: None
- bool  ___SnapRotation;
+  /// @brief Field RotateAroundGuardianCenter, offset: 0x39, size: 0x1, def value: None
+  bool ___RotateAroundGuardianCenter;
 
-/// @brief Field RotateAroundGuardianCenter, offset: 0x39, size: 0x1, def value: None
- bool  ___RotateAroundGuardianCenter;
+  /// @brief Field FixedSpeedSteps, offset: 0x3c, size: 0x4, def value: None
+  int32_t ___FixedSpeedSteps;
 
-/// @brief Field FixedSpeedSteps, offset: 0x3c, size: 0x4, def value: None
- int32_t  ___FixedSpeedSteps;
+  /// @brief Field HmdResetsY, offset: 0x40, size: 0x1, def value: None
+  bool ___HmdResetsY;
 
-/// @brief Field HmdResetsY, offset: 0x40, size: 0x1, def value: None
- bool  ___HmdResetsY;
+  /// @brief Field HmdRotatesY, offset: 0x41, size: 0x1, def value: None
+  bool ___HmdRotatesY;
 
-/// @brief Field HmdRotatesY, offset: 0x41, size: 0x1, def value: None
- bool  ___HmdRotatesY;
+  /// @brief Field GravityModifier, offset: 0x44, size: 0x4, def value: None
+  float_t ___GravityModifier;
 
-/// @brief Field GravityModifier, offset: 0x44, size: 0x4, def value: None
- float_t  ___GravityModifier;
+  /// @brief Field useProfileData, offset: 0x48, size: 0x1, def value: None
+  bool ___useProfileData;
 
-/// @brief Field useProfileData, offset: 0x48, size: 0x1, def value: None
- bool  ___useProfileData;
+  /// @brief Field CameraHeight, offset: 0x4c, size: 0x4, def value: None
+  float_t ___CameraHeight;
 
-/// @brief Field CameraHeight, offset: 0x4c, size: 0x4, def value: None
- float_t  ___CameraHeight;
+  /// @brief Field TransformUpdated, offset: 0x50, size: 0x8, def value: None
+  ::System::Action_1<::UnityW<::UnityEngine::Transform>>* ___TransformUpdated;
 
-/// @brief Field TransformUpdated, offset: 0x50, size: 0x8, def value: None
- ::System::Action_1<::UnityW<::UnityEngine::Transform>>*  ___TransformUpdated;
+  /// @brief Field Teleported, offset: 0x58, size: 0x1, def value: None
+  bool ___Teleported;
 
-/// @brief Field Teleported, offset: 0x58, size: 0x1, def value: None
- bool  ___Teleported;
+  /// @brief Field CameraUpdated, offset: 0x60, size: 0x8, def value: None
+  ::System::Action* ___CameraUpdated;
 
-/// @brief Field CameraUpdated, offset: 0x60, size: 0x8, def value: None
- ::System::Action*  ___CameraUpdated;
+  /// @brief Field PreCharacterMove, offset: 0x68, size: 0x8, def value: None
+  ::System::Action* ___PreCharacterMove;
 
-/// @brief Field PreCharacterMove, offset: 0x68, size: 0x8, def value: None
- ::System::Action*  ___PreCharacterMove;
+  /// @brief Field EnableLinearMovement, offset: 0x70, size: 0x1, def value: None
+  bool ___EnableLinearMovement;
 
-/// @brief Field EnableLinearMovement, offset: 0x70, size: 0x1, def value: None
- bool  ___EnableLinearMovement;
+  /// @brief Field EnableRotation, offset: 0x71, size: 0x1, def value: None
+  bool ___EnableRotation;
 
-/// @brief Field EnableRotation, offset: 0x71, size: 0x1, def value: None
- bool  ___EnableRotation;
+  /// @brief Field RotationEitherThumbstick, offset: 0x72, size: 0x1, def value: None
+  bool ___RotationEitherThumbstick;
 
-/// @brief Field RotationEitherThumbstick, offset: 0x72, size: 0x1, def value: None
- bool  ___RotationEitherThumbstick;
+  /// @brief Field Controller, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::CharacterController> ___Controller;
 
-/// @brief Field Controller, offset: 0x78, size: 0x8, def value: None
- ::UnityW<::UnityEngine::CharacterController>  ___Controller;
+  /// @brief Field CameraRig, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::OVRCameraRig> ___CameraRig;
 
-/// @brief Field CameraRig, offset: 0x80, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::OVRCameraRig>  ___CameraRig;
+  /// @brief Field MoveScale, offset: 0x88, size: 0x4, def value: None
+  float_t ___MoveScale;
 
-/// @brief Field MoveScale, offset: 0x88, size: 0x4, def value: None
- float_t  ___MoveScale;
+  /// @brief Field MoveThrottle, offset: 0x8c, size: 0xc, def value: None
+  ::UnityEngine::Vector3 ___MoveThrottle;
 
-/// @brief Field MoveThrottle, offset: 0x8c, size: 0xc, def value: None
- ::UnityEngine::Vector3  ___MoveThrottle;
+  /// @brief Field FallSpeed, offset: 0x98, size: 0x4, def value: None
+  float_t ___FallSpeed;
 
-/// @brief Field FallSpeed, offset: 0x98, size: 0x4, def value: None
- float_t  ___FallSpeed;
+  /// @brief Field InitialPose, offset: 0x9c, size: 0x20, def value: None
+  ::System::Nullable_1<::GlobalNamespace::OVRPose> ___InitialPose;
 
-/// @brief Field InitialPose, offset: 0x9c, size: 0x20, def value: None
- ::System::Nullable_1<::GlobalNamespace::OVRPose>  ___InitialPose;
+  /// @brief Field <InitialYRotation>k__BackingField, offset: 0xbc, size: 0x4, def value: None
+  float_t ____InitialYRotation_k__BackingField;
 
-/// @brief Field <InitialYRotation>k__BackingField, offset: 0xbc, size: 0x4, def value: None
- float_t  ____InitialYRotation_k__BackingField;
+  /// @brief Field MoveScaleMultiplier, offset: 0xc0, size: 0x4, def value: None
+  float_t ___MoveScaleMultiplier;
 
-/// @brief Field MoveScaleMultiplier, offset: 0xc0, size: 0x4, def value: None
- float_t  ___MoveScaleMultiplier;
+  /// @brief Field RotationScaleMultiplier, offset: 0xc4, size: 0x4, def value: None
+  float_t ___RotationScaleMultiplier;
 
-/// @brief Field RotationScaleMultiplier, offset: 0xc4, size: 0x4, def value: None
- float_t  ___RotationScaleMultiplier;
+  /// @brief Field SkipMouseRotation, offset: 0xc8, size: 0x1, def value: None
+  bool ___SkipMouseRotation;
 
-/// @brief Field SkipMouseRotation, offset: 0xc8, size: 0x1, def value: None
- bool  ___SkipMouseRotation;
+  /// @brief Field HaltUpdateMovement, offset: 0xc9, size: 0x1, def value: None
+  bool ___HaltUpdateMovement;
 
-/// @brief Field HaltUpdateMovement, offset: 0xc9, size: 0x1, def value: None
- bool  ___HaltUpdateMovement;
+  /// @brief Field prevHatLeft, offset: 0xca, size: 0x1, def value: None
+  bool ___prevHatLeft;
 
-/// @brief Field prevHatLeft, offset: 0xca, size: 0x1, def value: None
- bool  ___prevHatLeft;
+  /// @brief Field prevHatRight, offset: 0xcb, size: 0x1, def value: None
+  bool ___prevHatRight;
 
-/// @brief Field prevHatRight, offset: 0xcb, size: 0x1, def value: None
- bool  ___prevHatRight;
+  /// @brief Field SimulationRate, offset: 0xcc, size: 0x4, def value: None
+  float_t ___SimulationRate;
 
-/// @brief Field SimulationRate, offset: 0xcc, size: 0x4, def value: None
- float_t  ___SimulationRate;
+  /// @brief Field buttonRotation, offset: 0xd0, size: 0x4, def value: None
+  float_t ___buttonRotation;
 
-/// @brief Field buttonRotation, offset: 0xd0, size: 0x4, def value: None
- float_t  ___buttonRotation;
+  /// @brief Field ReadyToSnapTurn, offset: 0xd4, size: 0x1, def value: None
+  bool ___ReadyToSnapTurn;
 
-/// @brief Field ReadyToSnapTurn, offset: 0xd4, size: 0x1, def value: None
- bool  ___ReadyToSnapTurn;
+  /// @brief Field playerControllerEnabled, offset: 0xd5, size: 0x1, def value: None
+  bool ___playerControllerEnabled;
 
-/// @brief Field playerControllerEnabled, offset: 0xd5, size: 0x1, def value: None
- bool  ___playerControllerEnabled;
+  /// @brief Field moveForwardAction, offset: 0xd8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveForwardAction;
 
-/// @brief Field moveForwardAction, offset: 0xd8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::InputAction*  ___moveForwardAction;
+  /// @brief Field moveLeftAction, offset: 0xe0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveLeftAction;
 
-/// @brief Field moveLeftAction, offset: 0xe0, size: 0x8, def value: None
- ::UnityEngine::InputSystem::InputAction*  ___moveLeftAction;
+  /// @brief Field moveRightAction, offset: 0xe8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveRightAction;
 
-/// @brief Field moveRightAction, offset: 0xe8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::InputAction*  ___moveRightAction;
+  /// @brief Field moveBackAction, offset: 0xf0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveBackAction;
 
-/// @brief Field moveBackAction, offset: 0xf0, size: 0x8, def value: None
- ::UnityEngine::InputSystem::InputAction*  ___moveBackAction;
+  /// @brief Field runAction, offset: 0xf8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___runAction;
 
-/// @brief Field runAction, offset: 0xf8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::InputAction*  ___runAction;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Acceleration) == 0x20, "Offset mismatch!");
@@ -754,6 +753,6 @@ static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___runAction) == 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPlayerController, 0x100>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRPlayerController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlayerController*, "", "OVRPlayerController");

@@ -22,107 +22,110 @@ namespace OculusStudios::HierarchyIcons {
 // CS Name: OculusStudios.HierarchyIcons.HierarchyIconAttribute
 class CORDL_TYPE HierarchyIconAttribute : public ::System::Attribute {
 public:
-// Declarations
-/// @brief Field gameObjectIconPath, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_gameObjectIconPath, put=__cordl_internal_set_gameObjectIconPath)) ::StringW  gameObjectIconPath;
+  // Declarations
+  /// @brief Field gameObjectIconPath, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_gameObjectIconPath, put = __cordl_internal_set_gameObjectIconPath)) ::StringW gameObjectIconPath;
 
-/// @brief Field gameObjectIconTint, offset 0x20, size 0x10 
- __declspec(property(get=__cordl_internal_get_gameObjectIconTint, put=__cordl_internal_set_gameObjectIconTint)) ::UnityEngine::Color  gameObjectIconTint;
+  /// @brief Field gameObjectIconTint, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get_gameObjectIconTint, put = __cordl_internal_set_gameObjectIconTint)) ::UnityEngine::Color gameObjectIconTint;
 
-/// @brief Field gameObjectTooltip, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_gameObjectTooltip, put=__cordl_internal_set_gameObjectTooltip)) ::StringW  gameObjectTooltip;
+  /// @brief Field gameObjectTooltip, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_gameObjectTooltip, put = __cordl_internal_set_gameObjectTooltip)) ::StringW gameObjectTooltip;
 
-/// @brief Field parentIconPath, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_parentIconPath, put=__cordl_internal_set_parentIconPath)) ::StringW  parentIconPath;
+  /// @brief Field parentIconPath, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_parentIconPath, put = __cordl_internal_set_parentIconPath)) ::StringW parentIconPath;
 
-/// @brief Field parentIconTint, offset 0x40, size 0x10 
- __declspec(property(get=__cordl_internal_get_parentIconTint, put=__cordl_internal_set_parentIconTint)) ::UnityEngine::Color  parentIconTint;
+  /// @brief Field parentIconTint, offset 0x40, size 0x10
+  __declspec(property(get = __cordl_internal_get_parentIconTint, put = __cordl_internal_set_parentIconTint)) ::UnityEngine::Color parentIconTint;
 
-/// @brief Field parentTooltip, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_parentTooltip, put=__cordl_internal_set_parentTooltip)) ::StringW  parentTooltip;
+  /// @brief Field parentTooltip, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_parentTooltip, put = __cordl_internal_set_parentTooltip)) ::StringW parentTooltip;
 
-static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(::StringW  gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon  gameObjectIconPath, ::StringW  gameObjectIconHex, ::StringW  parentTooltip, ::OculusStudios::HierarchyIcons::Icon  parentIconPath, ::StringW  parentIconHex) ;
+  static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex,
+                                                                                  ::StringW parentTooltip, ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex);
 
-static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(::StringW  gameObjectTooltip, ::StringW  gameObjectIconPath, ::StringW  gameObjectIconHex, ::StringW  parentTooltip, ::StringW  parentIconPath, ::StringW  parentIconHex) ;
+  static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(::StringW gameObjectTooltip, ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
+                                                                                  ::StringW parentIconPath, ::StringW parentIconHex);
 
-constexpr ::StringW const& __cordl_internal_get_gameObjectIconPath() const;
+  constexpr ::StringW const& __cordl_internal_get_gameObjectIconPath() const;
 
-constexpr ::StringW& __cordl_internal_get_gameObjectIconPath() ;
+  constexpr ::StringW& __cordl_internal_get_gameObjectIconPath();
 
-constexpr ::UnityEngine::Color const& __cordl_internal_get_gameObjectIconTint() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_gameObjectIconTint() const;
 
-constexpr ::UnityEngine::Color& __cordl_internal_get_gameObjectIconTint() ;
+  constexpr ::UnityEngine::Color& __cordl_internal_get_gameObjectIconTint();
 
-constexpr ::StringW const& __cordl_internal_get_gameObjectTooltip() const;
+  constexpr ::StringW const& __cordl_internal_get_gameObjectTooltip() const;
 
-constexpr ::StringW& __cordl_internal_get_gameObjectTooltip() ;
+  constexpr ::StringW& __cordl_internal_get_gameObjectTooltip();
 
-constexpr ::StringW const& __cordl_internal_get_parentIconPath() const;
+  constexpr ::StringW const& __cordl_internal_get_parentIconPath() const;
 
-constexpr ::StringW& __cordl_internal_get_parentIconPath() ;
+  constexpr ::StringW& __cordl_internal_get_parentIconPath();
 
-constexpr ::UnityEngine::Color const& __cordl_internal_get_parentIconTint() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_parentIconTint() const;
 
-constexpr ::UnityEngine::Color& __cordl_internal_get_parentIconTint() ;
+  constexpr ::UnityEngine::Color& __cordl_internal_get_parentIconTint();
 
-constexpr ::StringW const& __cordl_internal_get_parentTooltip() const;
+  constexpr ::StringW const& __cordl_internal_get_parentTooltip() const;
 
-constexpr ::StringW& __cordl_internal_get_parentTooltip() ;
+  constexpr ::StringW& __cordl_internal_get_parentTooltip();
 
-constexpr void __cordl_internal_set_gameObjectIconPath(::StringW  value) ;
+  constexpr void __cordl_internal_set_gameObjectIconPath(::StringW value);
 
-constexpr void __cordl_internal_set_gameObjectIconTint(::UnityEngine::Color  value) ;
+  constexpr void __cordl_internal_set_gameObjectIconTint(::UnityEngine::Color value);
 
-constexpr void __cordl_internal_set_gameObjectTooltip(::StringW  value) ;
+  constexpr void __cordl_internal_set_gameObjectTooltip(::StringW value);
 
-constexpr void __cordl_internal_set_parentIconPath(::StringW  value) ;
+  constexpr void __cordl_internal_set_parentIconPath(::StringW value);
 
-constexpr void __cordl_internal_set_parentIconTint(::UnityEngine::Color  value) ;
+  constexpr void __cordl_internal_set_parentIconTint(::UnityEngine::Color value);
 
-constexpr void __cordl_internal_set_parentTooltip(::StringW  value) ;
+  constexpr void __cordl_internal_set_parentTooltip(::StringW value);
 
-/// @brief Method .ctor, addr 0x5d7fc70, size 0x194, virtual false, abstract: false, final false
-inline void _ctor(::StringW  gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon  gameObjectIconPath, ::StringW  gameObjectIconHex, ::StringW  parentTooltip, ::OculusStudios::HierarchyIcons::Icon  parentIconPath, ::StringW  parentIconHex) ;
+  /// @brief Method .ctor, addr 0x5df1c58, size 0x194, virtual false, abstract: false, final false
+  inline void _ctor(::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
+                    ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex);
 
-/// @brief Method .ctor, addr 0x5d7fb9c, size 0xd4, virtual false, abstract: false, final false
-inline void _ctor(::StringW  gameObjectTooltip, ::StringW  gameObjectIconPath, ::StringW  gameObjectIconHex, ::StringW  parentTooltip, ::StringW  parentIconPath, ::StringW  parentIconHex) ;
+  /// @brief Method .ctor, addr 0x5df1b84, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW gameObjectTooltip, ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip, ::StringW parentIconPath, ::StringW parentIconHex);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HierarchyIconAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HierarchyIconAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HierarchyIconAttribute(HierarchyIconAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HierarchyIconAttribute(HierarchyIconAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HierarchyIconAttribute(HierarchyIconAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HierarchyIconAttribute(HierarchyIconAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23363 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23243};
+  /// @brief Field gameObjectTooltip, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___gameObjectTooltip;
 
-/// @brief Field gameObjectTooltip, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___gameObjectTooltip;
+  /// @brief Field gameObjectIconPath, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___gameObjectIconPath;
 
-/// @brief Field gameObjectIconPath, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___gameObjectIconPath;
+  /// @brief Field gameObjectIconTint, offset: 0x20, size: 0x10, def value: None
+  ::UnityEngine::Color ___gameObjectIconTint;
 
-/// @brief Field gameObjectIconTint, offset: 0x20, size: 0x10, def value: None
- ::UnityEngine::Color  ___gameObjectIconTint;
+  /// @brief Field parentTooltip, offset: 0x30, size: 0x8, def value: None
+  ::StringW ___parentTooltip;
 
-/// @brief Field parentTooltip, offset: 0x30, size: 0x8, def value: None
- ::StringW  ___parentTooltip;
+  /// @brief Field parentIconPath, offset: 0x38, size: 0x8, def value: None
+  ::StringW ___parentIconPath;
 
-/// @brief Field parentIconPath, offset: 0x38, size: 0x8, def value: None
- ::StringW  ___parentIconPath;
+  /// @brief Field parentIconTint, offset: 0x40, size: 0x10, def value: None
+  ::UnityEngine::Color ___parentIconTint;
 
-/// @brief Field parentIconTint, offset: 0x40, size: 0x10, def value: None
- ::UnityEngine::Color  ___parentIconTint;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::OculusStudios::HierarchyIcons::HierarchyIconAttribute, ___gameObjectTooltip) == 0x10, "Offset mismatch!");
@@ -139,6 +142,6 @@ static_assert(offsetof(::OculusStudios::HierarchyIcons::HierarchyIconAttribute, 
 
 static_assert(::cordl_internals::size_check_v<::OculusStudios::HierarchyIcons::HierarchyIconAttribute, 0x50>, "Size mismatch!");
 
-} // namespace end def OculusStudios::HierarchyIcons
+} // namespace OculusStudios::HierarchyIcons
 NEED_NO_BOX(::OculusStudios::HierarchyIcons::HierarchyIconAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::HierarchyIcons::HierarchyIconAttribute*, "OculusStudios.HierarchyIcons", "HierarchyIconAttribute");

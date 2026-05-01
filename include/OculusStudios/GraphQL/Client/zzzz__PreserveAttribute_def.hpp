@@ -17,34 +17,34 @@ namespace OculusStudios::GraphQL::Client {
 // CS Name: OculusStudios.GraphQL.Client.PreserveAttribute
 class CORDL_TYPE PreserveAttribute : public ::System::Attribute {
 public:
-// Declarations
-static inline ::OculusStudios::GraphQL::Client::PreserveAttribute* New_ctor() ;
+  // Declarations
+  static inline ::OculusStudios::GraphQL::Client::PreserveAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x5d74c4c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5de6c34, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PreserveAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PreserveAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PreserveAttribute(PreserveAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PreserveAttribute(PreserveAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PreserveAttribute(PreserveAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PreserveAttribute(PreserveAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20190 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20180};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::Client::PreserveAttribute, 0x10>, "Size mismatch!");
 
-} // namespace end def OculusStudios::GraphQL::Client
+} // namespace OculusStudios::GraphQL::Client
 NEED_NO_BOX(::OculusStudios::GraphQL::Client::PreserveAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::Client::PreserveAttribute*, "OculusStudios.GraphQL.Client", "PreserveAttribute");

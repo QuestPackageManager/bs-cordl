@@ -16,47 +16,47 @@ struct BinXmlSqlMoney;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::BinXmlSqlMoney);
-// Dependencies 
+// Dependencies
 namespace System::Xml {
 // Is value type: true
 // CS Name: System.Xml.BinXmlSqlMoney
 struct CORDL_TYPE BinXmlSqlMoney {
 public:
-// Declarations
-/// @brief Method ToDecimal, addr 0x5fdfda0, size 0x1c, virtual false, abstract: false, final false
-inline ::System::Decimal ToDecimal() ;
+  // Declarations
+  /// @brief Method ToDecimal, addr 0x6051dac, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Decimal ToDecimal();
 
-/// @brief Method ToString, addr 0x5fdfdbc, size 0x104, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6051dc8, size 0x104, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x5fdfd8c, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(int32_t  v) ;
+  /// @brief Method .ctor, addr 0x6051d98, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t v);
 
-/// @brief Method .ctor, addr 0x5fdfd98, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int64_t  v) ;
+  /// @brief Method .ctor, addr 0x6051da4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int64_t v);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BinXmlSqlMoney() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinXmlSqlMoney();
 
-// Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: None }]
-constexpr BinXmlSqlMoney(int64_t  data) noexcept;
+  // Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr BinXmlSqlMoney(int64_t data) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9232};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9238 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field data, offset: 0x0, size: 0x8, def value: None
- int64_t  data;
+  /// @brief Field data, offset: 0x0, size: 0x8, def value: None
+  int64_t data;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::BinXmlSqlMoney, data) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::BinXmlSqlMoney, 0x8>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BinXmlSqlMoney, "System.Xml", "BinXmlSqlMoney");

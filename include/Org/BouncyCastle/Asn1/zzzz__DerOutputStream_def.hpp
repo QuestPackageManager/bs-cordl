@@ -30,64 +30,64 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.DerOutputStream
 class CORDL_TYPE DerOutputStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Asn1::DerOutputStream* New_ctor(::System::IO::Stream*  os) ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Asn1::DerOutputStream* New_ctor(::System::IO::Stream* os);
 
-/// @brief Method WriteEncoded, addr 0x3589794, size 0x50, virtual false, abstract: false, final false
-inline void WriteEncoded(int32_t  flags, int32_t  tagNo, ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
+  /// @brief Method WriteEncoded, addr 0x35c5dd8, size 0x50, virtual false, abstract: false, final false
+  inline void WriteEncoded(int32_t flags, int32_t tagNo, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-/// @brief Method WriteEncoded, addr 0x3589534, size 0x5c, virtual false, abstract: false, final false
-inline void WriteEncoded(int32_t  tag, ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
+  /// @brief Method WriteEncoded, addr 0x35c5b78, size 0x5c, virtual false, abstract: false, final false
+  inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-/// @brief Method WriteEncoded, addr 0x358960c, size 0x64, virtual false, abstract: false, final false
-inline void WriteEncoded(int32_t  tag, ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes, int32_t  offset, int32_t  length) ;
+  /// @brief Method WriteEncoded, addr 0x35c5c50, size 0x64, virtual false, abstract: false, final false
+  inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset, int32_t length);
 
-/// @brief Method WriteEncoded, addr 0x3589590, size 0x7c, virtual false, abstract: false, final false
-inline void WriteEncoded(int32_t  tag, uint8_t  first, ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
+  /// @brief Method WriteEncoded, addr 0x35c5bd4, size 0x7c, virtual false, abstract: false, final false
+  inline void WriteEncoded(int32_t tag, uint8_t first, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-/// @brief Method WriteLength, addr 0x3589484, size 0xb0, virtual false, abstract: false, final false
-inline void WriteLength(int32_t  length) ;
+  /// @brief Method WriteLength, addr 0x35c5ac8, size 0xb0, virtual false, abstract: false, final false
+  inline void WriteLength(int32_t length);
 
-/// @brief Method WriteNull, addr 0x35897e4, size 0x38, virtual false, abstract: false, final false
-inline void WriteNull() ;
+  /// @brief Method WriteNull, addr 0x35c5e28, size 0x38, virtual false, abstract: false, final false
+  inline void WriteNull();
 
-/// @brief Method WriteObject, addr 0x3589988, size 0x70, virtual true, abstract: false, final false
-inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Encodable*  obj) ;
+  /// @brief Method WriteObject, addr 0x35c5fcc, size 0x70, virtual true, abstract: false, final false
+  inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-/// @brief Method WriteObject, addr 0x35899f8, size 0x58, virtual true, abstract: false, final false
-inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object*  obj) ;
+  /// @brief Method WriteObject, addr 0x35c603c, size 0x58, virtual true, abstract: false, final false
+  inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-/// @brief Method WriteObject, addr 0x358981c, size 0x16c, virtual true, abstract: false, final false
-inline void WriteObject(::System::Object*  obj) ;
+  /// @brief Method WriteObject, addr 0x35c5e60, size 0x16c, virtual true, abstract: false, final false
+  inline void WriteObject(::System::Object* obj);
 
-/// @brief Method WriteTag, addr 0x3589670, size 0x124, virtual false, abstract: false, final false
-inline void WriteTag(int32_t  flags, int32_t  tagNo) ;
+  /// @brief Method WriteTag, addr 0x35c5cb4, size 0x124, virtual false, abstract: false, final false
+  inline void WriteTag(int32_t flags, int32_t tagNo);
 
-/// @brief Method .ctor, addr 0x3589480, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::Stream*  os) ;
+  /// @brief Method .ctor, addr 0x35c5ac4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* os);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DerOutputStream() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerOutputStream();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DerOutputStream(DerOutputStream&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DerOutputStream(DerOutputStream && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DerOutputStream(DerOutputStream const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DerOutputStream(DerOutputStream const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 457 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{457};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerOutputStream, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1
+} // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerOutputStream);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerOutputStream*, "Org.BouncyCastle.Asn1", "DerOutputStream");

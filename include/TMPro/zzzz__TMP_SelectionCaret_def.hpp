@@ -20,40 +20,40 @@ namespace TMPro {
 // CS Name: TMPro.TMP_SelectionCaret
 class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {
 public:
-// Declarations
-/// @brief Method Cull, addr 0x67e3f98, size 0xa4, virtual true, abstract: false, final false
-inline void Cull(::UnityEngine::Rect  clipRect, bool  validRect) ;
+  // Declarations
+  /// @brief Method Cull, addr 0x6855fa4, size 0xa4, virtual true, abstract: false, final false
+  inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
-static inline ::TMPro::TMP_SelectionCaret* New_ctor() ;
+  static inline ::TMPro::TMP_SelectionCaret* New_ctor();
 
-/// @brief Method UpdateGeometry, addr 0x67e403c, size 0x4, virtual true, abstract: false, final false
-inline void UpdateGeometry() ;
+  /// @brief Method UpdateGeometry, addr 0x6856048, size 0x4, virtual true, abstract: false, final false
+  inline void UpdateGeometry();
 
-/// @brief Method .ctor, addr 0x67e4040, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x685604c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TMP_SelectionCaret() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_SelectionCaret();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SelectionCaret", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TMP_SelectionCaret(TMP_SelectionCaret&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TMP_SelectionCaret", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TMP_SelectionCaret(TMP_SelectionCaret && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SelectionCaret", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TMP_SelectionCaret(TMP_SelectionCaret const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TMP_SelectionCaret", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TMP_SelectionCaret(TMP_SelectionCaret const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15953 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15946};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SelectionCaret, 0xd8>, "Size mismatch!");
 
-} // namespace end def TMPro
+} // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_SelectionCaret);
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SelectionCaret*, "TMPro", "TMP_SelectionCaret");

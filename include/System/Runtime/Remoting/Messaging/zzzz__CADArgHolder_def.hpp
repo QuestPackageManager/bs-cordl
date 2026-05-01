@@ -18,48 +18,48 @@ namespace System::Runtime::Remoting::Messaging {
 // CS Name: System.Runtime.Remoting.Messaging.CADArgHolder
 class CORDL_TYPE CADArgHolder : public ::System::Object {
 public:
-// Declarations
-/// @brief Field index, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_index, put=__cordl_internal_set_index)) int32_t  index;
+  // Declarations
+  /// @brief Field index, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
-static inline ::System::Runtime::Remoting::Messaging::CADArgHolder* New_ctor(int32_t  i) ;
+  static inline ::System::Runtime::Remoting::Messaging::CADArgHolder* New_ctor(int32_t i);
 
-constexpr int32_t const& __cordl_internal_get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-constexpr int32_t& __cordl_internal_get_index() ;
+  constexpr int32_t& __cordl_internal_get_index();
 
-constexpr void __cordl_internal_set_index(int32_t  value) ;
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-/// @brief Method .ctor, addr 0x5990644, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  i) ;
+  /// @brief Method .ctor, addr 0x5a025b0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t i);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CADArgHolder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CADArgHolder();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CADArgHolder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CADArgHolder(CADArgHolder&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CADArgHolder", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CADArgHolder(CADArgHolder && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CADArgHolder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CADArgHolder(CADArgHolder const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CADArgHolder", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CADArgHolder(CADArgHolder const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3168 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3168};
+  /// @brief Field index, offset: 0x10, size: 0x4, def value: None
+  int32_t ___index;
 
-/// @brief Field index, offset: 0x10, size: 0x4, def value: None
- int32_t  ___index;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADArgHolder, ___index) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADArgHolder, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting::Messaging
+} // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADArgHolder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");

@@ -18,32 +18,32 @@ namespace UnityEngine::Android {
 // CS Name: UnityEngine.Android.AndroidGame
 class CORDL_TYPE AndroidGame : public ::System::Object {
 public:
-// Declarations
-/// @brief Method StopLoading, addr 0x6863774, size 0x3c, virtual false, abstract: false, final false
-static inline void StopLoading(int32_t  label) ;
+  // Declarations
+  /// @brief Method StopLoading, addr 0x68d5780, size 0x3c, virtual false, abstract: false, final false
+  static inline void StopLoading(int32_t label);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AndroidGame() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidGame();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AndroidGame(AndroidGame&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AndroidGame(AndroidGame && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AndroidGame(AndroidGame const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AndroidGame(AndroidGame const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19959 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19949};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidGame, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Android
+} // namespace UnityEngine::Android
 NEED_NO_BOX(::UnityEngine::Android::AndroidGame);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidGame*, "UnityEngine.Android", "AndroidGame");

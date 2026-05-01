@@ -19,42 +19,42 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.VmpcKsa3Engine
 class CORDL_TYPE VmpcKsa3Engine : public ::Org::BouncyCastle::Crypto::Engines::VmpcEngine {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-/// @brief Method InitKey, addr 0x32d728c, size 0x298, virtual true, abstract: false, final false
-inline void InitKey(::ArrayW<uint8_t,::Array<uint8_t>*>  keyBytes, ::ArrayW<uint8_t,::Array<uint8_t>*>  ivBytes) ;
+  /// @brief Method InitKey, addr 0x33138d0, size 0x298, virtual true, abstract: false, final false
+  inline void InitKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-static inline ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine* New_ctor();
 
-/// @brief Method .ctor, addr 0x32d7524, size 0x10, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3313b68, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_AlgorithmName, addr 0x32d7248, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x331388c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr VmpcKsa3Engine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VmpcKsa3Engine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "VmpcKsa3Engine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  VmpcKsa3Engine(VmpcKsa3Engine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VmpcKsa3Engine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-VmpcKsa3Engine(VmpcKsa3Engine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "VmpcKsa3Engine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  VmpcKsa3Engine(VmpcKsa3Engine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VmpcKsa3Engine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-VmpcKsa3Engine(VmpcKsa3Engine const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 883 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{883};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine, 0x38>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Engines
+} // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*, "Org.BouncyCastle.Crypto.Engines", "VmpcKsa3Engine");

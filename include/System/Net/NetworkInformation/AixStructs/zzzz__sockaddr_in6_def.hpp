@@ -19,39 +19,42 @@ namespace System::Net::NetworkInformation::AixStructs {
 // CS Name: System.Net.NetworkInformation.AixStructs.sockaddr_in6
 struct CORDL_TYPE sockaddr_in6 {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr sockaddr_in6() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr sockaddr_in6();
 
-// Ctor Parameters [CppParam { name: "sin6_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sin6_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sin6_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sin6_addr", ty: "::System::Net::NetworkInformation::AixStructs::in6_addr", modifiers: "", def_value: None }, CppParam { name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr sockaddr_in6(uint8_t  sin6_len, uint8_t  sin6_family, uint16_t  sin6_port, uint32_t  sin6_flowinfo, ::System::Net::NetworkInformation::AixStructs::in6_addr  sin6_addr, uint32_t  sin6_scope_id) noexcept;
+  // Ctor Parameters [CppParam { name: "sin6_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sin6_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
+  // "sin6_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sin6_addr", ty:
+  // "::System::Net::NetworkInformation::AixStructs::in6_addr", modifiers: "", def_value: None }, CppParam { name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr sockaddr_in6(uint8_t sin6_len, uint8_t sin6_family, uint16_t sin6_port, uint32_t sin6_flowinfo, ::System::Net::NetworkInformation::AixStructs::in6_addr sin6_addr,
+                         uint32_t sin6_scope_id) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11713};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11720 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
-/// @brief Field sin6_len, offset: 0x0, size: 0x1, def value: None
- uint8_t  sin6_len;
+  /// @brief Field sin6_len, offset: 0x0, size: 0x1, def value: None
+  uint8_t sin6_len;
 
-/// @brief Field sin6_family, offset: 0x1, size: 0x1, def value: None
- uint8_t  sin6_family;
+  /// @brief Field sin6_family, offset: 0x1, size: 0x1, def value: None
+  uint8_t sin6_family;
 
-/// @brief Field sin6_port, offset: 0x2, size: 0x2, def value: None
- uint16_t  sin6_port;
+  /// @brief Field sin6_port, offset: 0x2, size: 0x2, def value: None
+  uint16_t sin6_port;
 
-/// @brief Field sin6_flowinfo, offset: 0x4, size: 0x4, def value: None
- uint32_t  sin6_flowinfo;
+  /// @brief Field sin6_flowinfo, offset: 0x4, size: 0x4, def value: None
+  uint32_t sin6_flowinfo;
 
-/// @brief Field sin6_addr, offset: 0x8, size: 0x8, def value: None
- ::System::Net::NetworkInformation::AixStructs::in6_addr  sin6_addr;
+  /// @brief Field sin6_addr, offset: 0x8, size: 0x8, def value: None
+  ::System::Net::NetworkInformation::AixStructs::in6_addr sin6_addr;
 
-/// @brief Field sin6_scope_id, offset: 0x10, size: 0x4, def value: None
- uint32_t  sin6_scope_id;
+  /// @brief Field sin6_scope_id, offset: 0x10, size: 0x4, def value: None
+  uint32_t sin6_scope_id;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::sockaddr_in6, sin6_len) == 0x0, "Offset mismatch!");
@@ -68,5 +71,5 @@ static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::sockaddr_i
 
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixStructs::sockaddr_in6, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Net::NetworkInformation::AixStructs
+} // namespace System::Net::NetworkInformation::AixStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixStructs::sockaddr_in6, "System.Net.NetworkInformation.AixStructs", "sockaddr_in6");

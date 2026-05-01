@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatmapSaveDataCommon/Axis.hpp"
 #include "BeatmapSaveDataCommon/BasicEventTypesWithKeywords.hpp"
@@ -23,6 +23,5 @@
 #include "BeatmapSaveDataCommon/RotationDirection.hpp"
 #include "BeatmapSaveDataCommon/SliderMidAnchorMode.hpp"
 #ifdef __cpp_modules
-                    export module BeatmapSaveDataCommon;
-                    #endif
-                
+export module BeatmapSaveDataCommon;
+#endif

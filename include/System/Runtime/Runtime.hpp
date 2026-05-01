@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Runtime/AmbiguousImplementationException.hpp"
 #include "System/Runtime/CallbackException.hpp"
@@ -19,6 +19,5 @@
 #include "System/Runtime/TraceLevelHelper.hpp"
 #include "System/Runtime/TracePayload.hpp"
 #ifdef __cpp_modules
-                    export module Runtime;
-                    #endif
-                
+export module Runtime;
+#endif

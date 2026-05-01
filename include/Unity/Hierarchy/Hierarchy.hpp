@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Unity/Hierarchy/DefaultHierarchySearchQueryParser.hpp"
 #include "Unity/Hierarchy/Hierarchy.hpp"
@@ -28,6 +28,5 @@
 #include "Unity/Hierarchy/IHierarchyProperty_1.hpp"
 #include "Unity/Hierarchy/IHierarchySearchQueryParser.hpp"
 #ifdef __cpp_modules
-                    export module Hierarchy;
-                    #endif
-                
+export module Hierarchy;
+#endif

@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.EqualInstruction/EqualInt16LiftedToNull
 class CORDL_TYPE EqualInstruction_EqualInt16LiftedToNull : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::EqualInstruction_EqualInt16LiftedToNull* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::EqualInstruction_EqualInt16LiftedToNull* New_ctor();
 
-/// @brief Method Run, addr 0x5ddf7f4, size 0xb0, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e51800, size 0xb0, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5ddee04, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e50e10, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EqualInstruction_EqualInt16LiftedToNull() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EqualInstruction_EqualInt16LiftedToNull();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualInt16LiftedToNull", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EqualInstruction_EqualInt16LiftedToNull(EqualInstruction_EqualInt16LiftedToNull&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualInt16LiftedToNull", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EqualInstruction_EqualInt16LiftedToNull(EqualInstruction_EqualInt16LiftedToNull && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualInt16LiftedToNull", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EqualInstruction_EqualInt16LiftedToNull(EqualInstruction_EqualInt16LiftedToNull const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualInt16LiftedToNull", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EqualInstruction_EqualInt16LiftedToNull(EqualInstruction_EqualInt16LiftedToNull const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16308 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16300};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EqualInstruction_EqualInt16LiftedToNull, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EqualInstruction_EqualInt16LiftedToNull);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EqualInstruction_EqualInt16LiftedToNull*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualInt16LiftedToNull");

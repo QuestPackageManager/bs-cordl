@@ -26,37 +26,37 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.RefreshEventHandler
 class CORDL_TYPE RefreshEventHandler : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x6213328, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::System::ComponentModel::RefreshEventArgs*  e) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x6285334, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::ComponentModel::RefreshEventArgs* e);
 
-static inline ::System::ComponentModel::RefreshEventHandler* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::ComponentModel::RefreshEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x62131e4, size 0x144, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x62851f0, size 0x144, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RefreshEventHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RefreshEventHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RefreshEventHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RefreshEventHandler(RefreshEventHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RefreshEventHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RefreshEventHandler(RefreshEventHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RefreshEventHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RefreshEventHandler(RefreshEventHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RefreshEventHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RefreshEventHandler(RefreshEventHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11280 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11273};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::RefreshEventHandler, 0x80>, "Size mismatch!");
 
-} // namespace end def System::ComponentModel
+} // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::RefreshEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::RefreshEventHandler*, "System.ComponentModel", "RefreshEventHandler");

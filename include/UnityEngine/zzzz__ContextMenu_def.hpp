@@ -19,76 +19,76 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ContextMenu
 class CORDL_TYPE ContextMenu : public ::System::Attribute {
 public:
-// Declarations
-/// @brief Field menuItem, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_menuItem, put=__cordl_internal_set_menuItem)) ::StringW  menuItem;
+  // Declarations
+  /// @brief Field menuItem, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_menuItem, put = __cordl_internal_set_menuItem)) ::StringW menuItem;
 
-/// @brief Field priority, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get_priority, put=__cordl_internal_set_priority)) int32_t  priority;
+  /// @brief Field priority, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_priority, put = __cordl_internal_set_priority)) int32_t priority;
 
-/// @brief Field validate, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get_validate, put=__cordl_internal_set_validate)) bool  validate;
+  /// @brief Field validate, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_validate, put = __cordl_internal_set_validate)) bool validate;
 
-static inline ::UnityEngine::ContextMenu* New_ctor(::StringW  itemName) ;
+  static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName);
 
-static inline ::UnityEngine::ContextMenu* New_ctor(::StringW  itemName, bool  isValidateFunction) ;
+  static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction);
 
-static inline ::UnityEngine::ContextMenu* New_ctor(::StringW  itemName, bool  isValidateFunction, int32_t  priority) ;
+  static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
-constexpr ::StringW const& __cordl_internal_get_menuItem() const;
+  constexpr ::StringW const& __cordl_internal_get_menuItem() const;
 
-constexpr ::StringW& __cordl_internal_get_menuItem() ;
+  constexpr ::StringW& __cordl_internal_get_menuItem();
 
-constexpr int32_t const& __cordl_internal_get_priority() const;
+  constexpr int32_t const& __cordl_internal_get_priority() const;
 
-constexpr int32_t& __cordl_internal_get_priority() ;
+  constexpr int32_t& __cordl_internal_get_priority();
 
-constexpr bool const& __cordl_internal_get_validate() const;
+  constexpr bool const& __cordl_internal_get_validate() const;
 
-constexpr bool& __cordl_internal_get_validate() ;
+  constexpr bool& __cordl_internal_get_validate();
 
-constexpr void __cordl_internal_set_menuItem(::StringW  value) ;
+  constexpr void __cordl_internal_set_menuItem(::StringW value);
 
-constexpr void __cordl_internal_set_priority(int32_t  value) ;
+  constexpr void __cordl_internal_set_priority(int32_t value);
 
-constexpr void __cordl_internal_set_validate(bool  value) ;
+  constexpr void __cordl_internal_set_validate(bool value);
 
-/// @brief Method .ctor, addr 0x69106a0, size 0x18, virtual false, abstract: false, final false
-inline void _ctor(::StringW  itemName) ;
+  /// @brief Method .ctor, addr 0x69828bc, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::StringW itemName);
 
-/// @brief Method .ctor, addr 0x69106b8, size 0x18, virtual false, abstract: false, final false
-inline void _ctor(::StringW  itemName, bool  isValidateFunction) ;
+  /// @brief Method .ctor, addr 0x69828d4, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-/// @brief Method .ctor, addr 0x69106d0, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::StringW  itemName, bool  isValidateFunction, int32_t  priority) ;
+  /// @brief Method .ctor, addr 0x69828ec, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ContextMenu() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContextMenu();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ContextMenu", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ContextMenu(ContextMenu&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContextMenu", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ContextMenu(ContextMenu && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ContextMenu", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ContextMenu(ContextMenu const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContextMenu", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ContextMenu(ContextMenu const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10296 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10290};
+  /// @brief Field menuItem, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___menuItem;
 
-/// @brief Field menuItem, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___menuItem;
+  /// @brief Field validate, offset: 0x18, size: 0x1, def value: None
+  bool ___validate;
 
-/// @brief Field validate, offset: 0x18, size: 0x1, def value: None
- bool  ___validate;
+  /// @brief Field priority, offset: 0x1c, size: 0x4, def value: None
+  int32_t ___priority;
 
-/// @brief Field priority, offset: 0x1c, size: 0x4, def value: None
- int32_t  ___priority;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ContextMenu, ___menuItem) == 0x10, "Offset mismatch!");
@@ -99,6 +99,6 @@ static_assert(offsetof(::UnityEngine::ContextMenu, ___priority) == 0x1c, "Offset
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ContextMenu, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ContextMenu);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContextMenu*, "UnityEngine", "ContextMenu");

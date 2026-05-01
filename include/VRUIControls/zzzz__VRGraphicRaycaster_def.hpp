@@ -16,12 +16,10 @@ namespace HMUI {
 class CurvedCanvasSettingsHelper;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
-template<typename T>
-class Comparison_1;
+template <typename T> class Comparison_1;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -76,36 +74,39 @@ namespace VRUIControls {
 // CS Name: VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult
 struct CORDL_TYPE VRGraphicRaycaster_VRGraphicRaycastResult {
 public:
-// Declarations
-/// @brief Method .ctor, addr 0x6c6de94, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::UI::Graphic*  graphic, float_t  distance, ::UnityEngine::Vector3  position, ::UnityEngine::Vector2  insideRootCanvasPosition) ;
+  // Declarations
+  /// @brief Method .ctor, addr 0x6ce00d4, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UI::Graphic* graphic, float_t distance, ::UnityEngine::Vector3 position, ::UnityEngine::Vector2 insideRootCanvasPosition);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr VRGraphicRaycaster_VRGraphicRaycastResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRGraphicRaycaster_VRGraphicRaycastResult();
 
-// Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "insideRootCanvasPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-constexpr VRGraphicRaycaster_VRGraphicRaycastResult(::UnityW<::UnityEngine::UI::Graphic>  graphic, float_t  distance, ::UnityEngine::Vector3  position, ::UnityEngine::Vector2  insideRootCanvasPosition) noexcept;
+  // Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value:
+  // None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "insideRootCanvasPosition", ty: "::UnityEngine::Vector2", modifiers: "",
+  // def_value: None }]
+  constexpr VRGraphicRaycaster_VRGraphicRaycastResult(::UnityW<::UnityEngine::UI::Graphic> graphic, float_t distance, ::UnityEngine::Vector3 position,
+                                                      ::UnityEngine::Vector2 insideRootCanvasPosition) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22102};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22156 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field graphic, offset: 0x0, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Graphic>  graphic;
+  /// @brief Field graphic, offset: 0x0, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Graphic> graphic;
 
-/// @brief Field distance, offset: 0x8, size: 0x4, def value: None
- float_t  distance;
+  /// @brief Field distance, offset: 0x8, size: 0x4, def value: None
+  float_t distance;
 
-/// @brief Field position, offset: 0xc, size: 0xc, def value: None
- ::UnityEngine::Vector3  position;
+  /// @brief Field position, offset: 0xc, size: 0xc, def value: None
+  ::UnityEngine::Vector3 position;
 
-/// @brief Field insideRootCanvasPosition, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::Vector2  insideRootCanvasPosition;
+  /// @brief Field insideRootCanvasPosition, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Vector2 insideRootCanvasPosition;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult, graphic) == 0x0, "Offset mismatch!");
@@ -118,177 +119,179 @@ static_assert(offsetof(::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult
 
 static_assert(::cordl_internals::size_check_v<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult, 0x20>, "Size mismatch!");
 
-} // namespace end def VRUIControls
+} // namespace VRUIControls
 // Dependencies System.Object
 namespace VRUIControls {
 // Is value type: false
 // CS Name: VRUIControls.VRGraphicRaycaster/<>c
 class CORDL_TYPE VRGraphicRaycaster___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::VRUIControls::VRGraphicRaycaster___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::VRUIControls::VRGraphicRaycaster___c* __9;
 
-/// @brief Field <>9__12_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__12_0, put=setStaticF___9__12_0)) ::System::Comparison_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*  __9__12_0;
+  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0)) ::System::Comparison_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* __9__12_0;
 
-static inline ::VRUIControls::VRGraphicRaycaster___c* New_ctor() ;
+  static inline ::VRUIControls::VRGraphicRaycaster___c* New_ctor();
 
-/// @brief Method <RaycastCanvas>b__12_0, addr 0x6c6e018, size 0x48, virtual false, abstract: false, final false
-inline int32_t _RaycastCanvas_b__12_0(::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult  g1, ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult  g2) ;
+  /// @brief Method <RaycastCanvas>b__12_0, addr 0x6ce0258, size 0x48, virtual false, abstract: false, final false
+  inline int32_t _RaycastCanvas_b__12_0(::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult g1, ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult g2);
 
-/// @brief Method .ctor, addr 0x6c6e014, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ce0254, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::VRUIControls::VRGraphicRaycaster___c* getStaticF___9() ;
+  static inline ::VRUIControls::VRGraphicRaycaster___c* getStaticF___9();
 
-static inline ::System::Comparison_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* getStaticF___9__12_0() ;
+  static inline ::System::Comparison_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* getStaticF___9__12_0();
 
-static inline void setStaticF___9(::VRUIControls::VRGraphicRaycaster___c*  value) ;
+  static inline void setStaticF___9(::VRUIControls::VRGraphicRaycaster___c* value);
 
-static inline void setStaticF___9__12_0(::System::Comparison_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*  value) ;
+  static inline void setStaticF___9__12_0(::System::Comparison_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr VRGraphicRaycaster___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRGraphicRaycaster___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  VRGraphicRaycaster___c(VRGraphicRaycaster___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-VRGraphicRaycaster___c(VRGraphicRaycaster___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  VRGraphicRaycaster___c(VRGraphicRaycaster___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-VRGraphicRaycaster___c(VRGraphicRaycaster___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22157 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22103};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::VRUIControls::VRGraphicRaycaster___c, 0x10>, "Size mismatch!");
 
-} // namespace end def VRUIControls
+} // namespace VRUIControls
 // Dependencies UnityEngine.EventSystems.BaseRaycaster, UnityEngine.LayerMask
 namespace VRUIControls {
 // Is value type: false
 // CS Name: VRUIControls.VRGraphicRaycaster
 class CORDL_TYPE VRGraphicRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
 public:
-// Declarations
-using VRGraphicRaycastResult = ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult;
+  // Declarations
+  using VRGraphicRaycastResult = ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult;
 
-using __c = ::VRUIControls::VRGraphicRaycaster___c;
+  using __c = ::VRUIControls::VRGraphicRaycaster___c;
 
-/// @brief Field _blockingMask, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get__blockingMask, put=__cordl_internal_set__blockingMask)) ::UnityEngine::LayerMask  _blockingMask;
+  /// @brief Field _blockingMask, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__blockingMask, put = __cordl_internal_set__blockingMask)) ::UnityEngine::LayerMask _blockingMask;
 
-/// @brief Field _canvas, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__canvas, put=__cordl_internal_set__canvas)) ::UnityW<::UnityEngine::Canvas>  _canvas;
+  /// @brief Field _canvas, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__canvas, put = __cordl_internal_set__canvas)) ::UnityW<::UnityEngine::Canvas> _canvas;
 
-/// @brief Field _curvedCanvasSettingsHelper, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__curvedCanvasSettingsHelper, put=__cordl_internal_set__curvedCanvasSettingsHelper)) ::HMUI::CurvedCanvasSettingsHelper*  _curvedCanvasSettingsHelper;
+  /// @brief Field _curvedCanvasSettingsHelper, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__curvedCanvasSettingsHelper, put = __cordl_internal_set__curvedCanvasSettingsHelper)) ::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
 
-/// @brief Field _physicsRaycaster, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__physicsRaycaster, put=__cordl_internal_set__physicsRaycaster)) ::VRUIControls::PhysicsRaycasterWithCache*  _physicsRaycaster;
+  /// @brief Field _physicsRaycaster, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__physicsRaycaster, put = __cordl_internal_set__physicsRaycaster)) ::VRUIControls::PhysicsRaycasterWithCache* _physicsRaycaster;
 
-/// @brief Field _ray2DCircleIntersectionDistances, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__ray2DCircleIntersectionDistances, put=setStaticF__ray2DCircleIntersectionDistances)) ::ArrayW<float_t,::Array<float_t>*>  _ray2DCircleIntersectionDistances;
+  /// @brief Field _ray2DCircleIntersectionDistances, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__ray2DCircleIntersectionDistances, put = setStaticF__ray2DCircleIntersectionDistances)) ::ArrayW<float_t, ::Array<float_t>*> _ray2DCircleIntersectionDistances;
 
-/// @brief Field _raycastResults, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__raycastResults, put=__cordl_internal_set__raycastResults)) ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*  _raycastResults;
+  /// @brief Field _raycastResults, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__raycastResults,
+                      put = __cordl_internal_set__raycastResults)) ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* _raycastResults;
 
- __declspec(property(get=get_eventCamera)) ::UnityW<::UnityEngine::Camera>  eventCamera;
+  __declspec(property(get = get_eventCamera)) ::UnityW<::UnityEngine::Camera> eventCamera;
 
-static inline ::VRUIControls::VRGraphicRaycaster* New_ctor() ;
+  static inline ::VRUIControls::VRGraphicRaycaster* New_ctor();
 
-/// @brief Method OnEnable, addr 0x6c6cc28, size 0x7c, virtual true, abstract: false, final false
-inline void OnEnable() ;
+  /// @brief Method OnEnable, addr 0x6cdee70, size 0x7c, virtual true, abstract: false, final false
+  inline void OnEnable();
 
-/// @brief Method Raycast, addr 0x6c6cca4, size 0x638, virtual true, abstract: false, final false
-inline void Raycast(::UnityEngine::EventSystems::PointerEventData*  eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*  resultAppendList) ;
+  /// @brief Method Raycast, addr 0x6cdeeec, size 0x638, virtual true, abstract: false, final false
+  inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-/// @brief Method RaycastCanvas, addr 0x6c6d2dc, size 0xbb8, virtual false, abstract: false, final false
-static inline void RaycastCanvas(::UnityEngine::Canvas*  canvas, ::UnityEngine::Ray  ray, float_t  hitDistance, float_t  curvedUIRadius, ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*  results) ;
+  /// @brief Method RaycastCanvas, addr 0x6cdf524, size 0xbb0, virtual false, abstract: false, final false
+  static inline void RaycastCanvas(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, float_t hitDistance, float_t curvedUIRadius,
+                                   ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* results);
 
-constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__blockingMask() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__blockingMask() const;
 
-constexpr ::UnityEngine::LayerMask& __cordl_internal_get__blockingMask() ;
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get__blockingMask();
 
-constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__canvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__canvas() const;
 
-constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get__canvas() ;
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get__canvas();
 
-constexpr ::HMUI::CurvedCanvasSettingsHelper* const& __cordl_internal_get__curvedCanvasSettingsHelper() const;
+  constexpr ::HMUI::CurvedCanvasSettingsHelper* const& __cordl_internal_get__curvedCanvasSettingsHelper() const;
 
-constexpr ::HMUI::CurvedCanvasSettingsHelper*& __cordl_internal_get__curvedCanvasSettingsHelper() ;
+  constexpr ::HMUI::CurvedCanvasSettingsHelper*& __cordl_internal_get__curvedCanvasSettingsHelper();
 
-constexpr ::VRUIControls::PhysicsRaycasterWithCache* const& __cordl_internal_get__physicsRaycaster() const;
+  constexpr ::VRUIControls::PhysicsRaycasterWithCache* const& __cordl_internal_get__physicsRaycaster() const;
 
-constexpr ::VRUIControls::PhysicsRaycasterWithCache*& __cordl_internal_get__physicsRaycaster() ;
+  constexpr ::VRUIControls::PhysicsRaycasterWithCache*& __cordl_internal_get__physicsRaycaster();
 
-constexpr ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* const& __cordl_internal_get__raycastResults() const;
+  constexpr ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* const& __cordl_internal_get__raycastResults() const;
 
-constexpr ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*& __cordl_internal_get__raycastResults() ;
+  constexpr ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*& __cordl_internal_get__raycastResults();
 
-constexpr void __cordl_internal_set__blockingMask(::UnityEngine::LayerMask  value) ;
+  constexpr void __cordl_internal_set__blockingMask(::UnityEngine::LayerMask value);
 
-constexpr void __cordl_internal_set__canvas(::UnityW<::UnityEngine::Canvas>  value) ;
+  constexpr void __cordl_internal_set__canvas(::UnityW<::UnityEngine::Canvas> value);
 
-constexpr void __cordl_internal_set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper*  value) ;
+  constexpr void __cordl_internal_set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
 
-constexpr void __cordl_internal_set__physicsRaycaster(::VRUIControls::PhysicsRaycasterWithCache*  value) ;
+  constexpr void __cordl_internal_set__physicsRaycaster(::VRUIControls::PhysicsRaycasterWithCache* value);
 
-constexpr void __cordl_internal_set__raycastResults(::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*  value) ;
+  constexpr void __cordl_internal_set__raycastResults(::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* value);
 
-/// @brief Method .ctor, addr 0x6c6dea8, size 0xa8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ce00e8, size 0xa8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::ArrayW<float_t,::Array<float_t>*> getStaticF__ray2DCircleIntersectionDistances() ;
+  static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF__ray2DCircleIntersectionDistances();
 
-/// @brief Method get_eventCamera, addr 0x6c6cc20, size 0x8, virtual true, abstract: false, final false
-inline ::UnityW<::UnityEngine::Camera> get_eventCamera() ;
+  /// @brief Method get_eventCamera, addr 0x6cdee68, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-static inline void setStaticF__ray2DCircleIntersectionDistances(::ArrayW<float_t,::Array<float_t>*>  value) ;
+  static inline void setStaticF__ray2DCircleIntersectionDistances(::ArrayW<float_t, ::Array<float_t>*> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr VRGraphicRaycaster() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRGraphicRaycaster();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  VRGraphicRaycaster(VRGraphicRaycaster&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-VRGraphicRaycaster(VRGraphicRaycaster && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  VRGraphicRaycaster(VRGraphicRaycaster const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-VRGraphicRaycaster(VRGraphicRaycaster const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22158 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22104};
+  /// @brief Field kPhysics3DRaycastDistance offset 0xffffffff size 0x4
+  static constexpr float_t kPhysics3DRaycastDistance{ static_cast<float_t>(6.0f) };
 
-/// @brief Field kPhysics3DRaycastDistance offset 0xffffffff size 0x4
-static constexpr float_t  kPhysics3DRaycastDistance{static_cast<float_t>(6.0f)};
+  /// @brief Field _blockingMask, offset: 0x28, size: 0x4, def value: None
+  ::UnityEngine::LayerMask ____blockingMask;
 
-/// @brief Field _blockingMask, offset: 0x28, size: 0x4, def value: None
- ::UnityEngine::LayerMask  ____blockingMask;
+  /// @brief Field _physicsRaycaster, offset: 0x30, size: 0x8, def value: None
+  ::VRUIControls::PhysicsRaycasterWithCache* ____physicsRaycaster;
 
-/// @brief Field _physicsRaycaster, offset: 0x30, size: 0x8, def value: None
- ::VRUIControls::PhysicsRaycasterWithCache*  ____physicsRaycaster;
+  /// @brief Field _canvas, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Canvas> ____canvas;
 
-/// @brief Field _canvas, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Canvas>  ____canvas;
+  /// @brief Field _raycastResults, offset: 0x40, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* ____raycastResults;
 
-/// @brief Field _raycastResults, offset: 0x40, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*  ____raycastResults;
+  /// @brief Field _curvedCanvasSettingsHelper, offset: 0x48, size: 0x8, def value: None
+  ::HMUI::CurvedCanvasSettingsHelper* ____curvedCanvasSettingsHelper;
 
-/// @brief Field _curvedCanvasSettingsHelper, offset: 0x48, size: 0x8, def value: None
- ::HMUI::CurvedCanvasSettingsHelper*  ____curvedCanvasSettingsHelper;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::VRUIControls::VRGraphicRaycaster, ____blockingMask) == 0x28, "Offset mismatch!");
@@ -303,7 +306,7 @@ static_assert(offsetof(::VRUIControls::VRGraphicRaycaster, ____curvedCanvasSetti
 
 static_assert(::cordl_internals::size_check_v<::VRUIControls::VRGraphicRaycaster, 0x50>, "Size mismatch!");
 
-} // namespace end def VRUIControls
+} // namespace VRUIControls
 NEED_NO_BOX(::VRUIControls::VRGraphicRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");
 NEED_NO_BOX(::VRUIControls::VRGraphicRaycaster___c);

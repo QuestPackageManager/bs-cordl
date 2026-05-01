@@ -3,34 +3,28 @@
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterfaceAPI_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__FreeBSDNetworkInterfaceAPI_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::*)()>(&::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::*)()>(
+    &::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61a009c;
+  constexpr static std::size_t addrs = 0x62120a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI* System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI*>());
+inline ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI* System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI*>());
 }
 // Ctor Parameters []
-constexpr ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::FreeBSDNetworkInterfaceAPI()   {
-}
+constexpr ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::FreeBSDNetworkInterfaceAPI() {}

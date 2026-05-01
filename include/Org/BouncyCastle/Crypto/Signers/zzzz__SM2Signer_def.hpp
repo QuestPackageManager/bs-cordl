@@ -52,176 +52,176 @@ namespace Org::BouncyCastle::Crypto::Signers {
 // CS Name: Org.BouncyCastle.Crypto.Signers.SM2Signer
 class CORDL_TYPE SM2Signer : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-/// @brief Field digest, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_digest, put=__cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest*  digest;
+  /// @brief Field digest, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest* digest;
 
-/// @brief Field ecKey, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_ecKey, put=__cordl_internal_set_ecKey)) ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*  ecKey;
+  /// @brief Field ecKey, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_ecKey, put = __cordl_internal_set_ecKey)) ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ecKey;
 
-/// @brief Field ecParams, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_ecParams, put=__cordl_internal_set_ecParams)) ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  ecParams;
+  /// @brief Field ecParams, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_ecParams, put = __cordl_internal_set_ecParams)) ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams;
 
-/// @brief Field encoding, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_encoding, put=__cordl_internal_set_encoding)) ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*  encoding;
+  /// @brief Field encoding, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding)) ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding;
 
-/// @brief Field kCalculator, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_kCalculator, put=__cordl_internal_set_kCalculator)) ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  kCalculator;
+  /// @brief Field kCalculator, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_kCalculator, put = __cordl_internal_set_kCalculator)) ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator;
 
-/// @brief Field pubPoint, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_pubPoint, put=__cordl_internal_set_pubPoint)) ::Org::BouncyCastle::Math::EC::ECPoint*  pubPoint;
+  /// @brief Field pubPoint, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_pubPoint, put = __cordl_internal_set_pubPoint)) ::Org::BouncyCastle::Math::EC::ECPoint* pubPoint;
 
-/// @brief Field z, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get_z, put=__cordl_internal_set_z)) ::ArrayW<uint8_t,::Array<uint8_t>*>  z;
+  /// @brief Field z, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) ::ArrayW<uint8_t, ::Array<uint8_t>*> z;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
-constexpr operator  ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-/// @brief Method AddFieldElement, addr 0x3338194, size 0xe0, virtual false, abstract: false, final false
-inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest*  digest, ::Org::BouncyCastle::Math::EC::ECFieldElement*  v) ;
+  /// @brief Method AddFieldElement, addr 0x33747d8, size 0xe0, virtual false, abstract: false, final false
+  inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
 
-/// @brief Method AddUserID, addr 0x3338008, size 0x18c, virtual false, abstract: false, final false
-inline void AddUserID(::Org::BouncyCastle::Crypto::IDigest*  digest, ::ArrayW<uint8_t,::Array<uint8_t>*>  userID) ;
+  /// @brief Method AddUserID, addr 0x337464c, size 0x18c, virtual false, abstract: false, final false
+  inline void AddUserID(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID);
 
-/// @brief Method BlockUpdate, addr 0x33374f8, size 0xd0, virtual true, abstract: false, final false
-inline void BlockUpdate(::ArrayW<uint8_t,::Array<uint8_t>*>  buf, int32_t  off, int32_t  len) ;
+  /// @brief Method BlockUpdate, addr 0x3373b3c, size 0xd0, virtual true, abstract: false, final false
+  inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-/// @brief Method CalculateE, addr 0x3338274, size 0x64, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger*  n, ::ArrayW<uint8_t,::Array<uint8_t>*>  message) ;
+  /// @brief Method CalculateE, addr 0x33748b8, size 0x64, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-/// @brief Method CreateBasePointMultiplier, addr 0x33382d8, size 0x44, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier() ;
+  /// @brief Method CreateBasePointMultiplier, addr 0x337491c, size 0x44, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
 
-/// @brief Method GenerateSignature, addr 0x3337af8, size 0x510, virtual true, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateSignature() ;
+  /// @brief Method GenerateSignature, addr 0x337413c, size 0x510, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-/// @brief Method GetZ, addr 0x33372c4, size 0x17c, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetZ(::ArrayW<uint8_t,::Array<uint8_t>*>  userID) ;
+  /// @brief Method GetZ, addr 0x3373908, size 0x17c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ(::ArrayW<uint8_t, ::Array<uint8_t>*> userID);
 
-/// @brief Method Init, addr 0x3336c68, size 0x65c, virtual true, abstract: false, final false
-inline void Init(bool  forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
+  /// @brief Method Init, addr 0x33732ac, size 0x65c, virtual true, abstract: false, final false
+  inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor();
 
-static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
+  static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*  encoding) ;
+  static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding);
 
-static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*  encoding, ::Org::BouncyCastle::Crypto::IDigest*  digest) ;
+  static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-/// @brief Method Reset, addr 0x33379c0, size 0x138, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x3374004, size 0x138, virtual true, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method Update, addr 0x3337440, size 0xb8, virtual true, abstract: false, final false
-inline void Update(uint8_t  b) ;
+  /// @brief Method Update, addr 0x3373a84, size 0xb8, virtual true, abstract: false, final false
+  inline void Update(uint8_t b);
 
-/// @brief Method VerifySignature, addr 0x3337754, size 0x26c, virtual false, abstract: false, final false
-inline bool VerifySignature(::Org::BouncyCastle::Math::BigInteger*  r, ::Org::BouncyCastle::Math::BigInteger*  s) ;
+  /// @brief Method VerifySignature, addr 0x3373d98, size 0x26c, virtual false, abstract: false, final false
+  inline bool VerifySignature(::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
-/// @brief Method VerifySignature, addr 0x33375c8, size 0x18c, virtual true, abstract: false, final false
-inline bool VerifySignature(::ArrayW<uint8_t,::Array<uint8_t>*>  signature) ;
+  /// @brief Method VerifySignature, addr 0x3373c0c, size 0x18c, virtual true, abstract: false, final false
+  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest() ;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* const& __cordl_internal_get_ecKey() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* const& __cordl_internal_get_ecKey() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __cordl_internal_get_ecKey() ;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __cordl_internal_get_ecKey();
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* const& __cordl_internal_get_ecParams() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* const& __cordl_internal_get_ecParams() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_ecParams() ;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_ecParams();
 
-constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* const& __cordl_internal_get_encoding() const;
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* const& __cordl_internal_get_encoding() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*& __cordl_internal_get_encoding() ;
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*& __cordl_internal_get_encoding();
 
-constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* const& __cordl_internal_get_kCalculator() const;
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* const& __cordl_internal_get_kCalculator() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __cordl_internal_get_kCalculator() ;
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __cordl_internal_get_kCalculator();
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_pubPoint() const;
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_pubPoint() const;
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_pubPoint() ;
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_pubPoint();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_z() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_z() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_z() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_z();
 
-constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest*  value) ;
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-constexpr void __cordl_internal_set_ecKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*  value) ;
+  constexpr void __cordl_internal_set_ecKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
 
-constexpr void __cordl_internal_set_ecParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  value) ;
+  constexpr void __cordl_internal_set_ecParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
 
-constexpr void __cordl_internal_set_encoding(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*  value) ;
+  constexpr void __cordl_internal_set_encoding(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* value);
 
-constexpr void __cordl_internal_set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  value) ;
+  constexpr void __cordl_internal_set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
 
-constexpr void __cordl_internal_set_pubPoint(::Org::BouncyCastle::Math::EC::ECPoint*  value) ;
+  constexpr void __cordl_internal_set_pubPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-constexpr void __cordl_internal_set_z(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x3336a44, size 0x98, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3373088, size 0x98, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x3336b40, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
+  /// @brief Method .ctor, addr 0x3373184, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-/// @brief Method .ctor, addr 0x3336bb4, size 0x70, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*  encoding) ;
+  /// @brief Method .ctor, addr 0x33731f8, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding);
 
-/// @brief Method .ctor, addr 0x3336adc, size 0x64, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*  encoding, ::Org::BouncyCastle::Crypto::IDigest*  digest) ;
+  /// @brief Method .ctor, addr 0x3373120, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-/// @brief Method get_AlgorithmName, addr 0x3336c24, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x3373268, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
-constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SM2Signer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SM2Signer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SM2Signer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SM2Signer(SM2Signer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SM2Signer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SM2Signer(SM2Signer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SM2Signer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SM2Signer(SM2Signer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SM2Signer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SM2Signer(SM2Signer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1153 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1153};
+  /// @brief Field kCalculator, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* ___kCalculator;
 
-/// @brief Field kCalculator, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  ___kCalculator;
+  /// @brief Field digest, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::IDigest* ___digest;
 
-/// @brief Field digest, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::IDigest*  ___digest;
+  /// @brief Field encoding, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* ___encoding;
 
-/// @brief Field encoding, offset: 0x20, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*  ___encoding;
+  /// @brief Field ecParams, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ___ecParams;
 
-/// @brief Field ecParams, offset: 0x28, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  ___ecParams;
+  /// @brief Field pubPoint, offset: 0x30, size: 0x8, def value: None
+  ::Org::BouncyCastle::Math::EC::ECPoint* ___pubPoint;
 
-/// @brief Field pubPoint, offset: 0x30, size: 0x8, def value: None
- ::Org::BouncyCastle::Math::EC::ECPoint*  ___pubPoint;
+  /// @brief Field ecKey, offset: 0x38, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ___ecKey;
 
-/// @brief Field ecKey, offset: 0x38, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*  ___ecKey;
+  /// @brief Field z, offset: 0x40, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___z;
 
-/// @brief Field z, offset: 0x40, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___z;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___kCalculator) == 0x10, "Offset mismatch!");
@@ -240,6 +240,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::SM2Signer, ___z) ==
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::SM2Signer, 0x48>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Signers
+} // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::SM2Signer);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::SM2Signer*, "Org.BouncyCastle.Crypto.Signers", "SM2Signer");

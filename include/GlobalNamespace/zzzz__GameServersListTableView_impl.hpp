@@ -12,450 +12,379 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.add_joinButtonPressedEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(&::GlobalNamespace::GameServersListTableView::add_joinButtonPressedEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
+    &::GlobalNamespace::GameServersListTableView::add_joinButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5741324;
+  constexpr static std::size_t addrs = 0x57b0e48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "add_joinButtonPressedEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "add_joinButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.remove_joinButtonPressedEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(&::GlobalNamespace::GameServersListTableView::remove_joinButtonPressedEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
+    &::GlobalNamespace::GameServersListTableView::remove_joinButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x57413e4;
+  constexpr static std::size_t addrs = 0x57b0f08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "remove_joinButtonPressedEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "remove_joinButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.CellSize
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameServersListTableView::*)()>(&::GlobalNamespace::GameServersListTableView::CellSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57414a4;
+  constexpr static std::size_t addrs = 0x57b0fc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "CellSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "CellSize",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.NumberOfCells
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameServersListTableView::*)()>(&::GlobalNamespace::GameServersListTableView::NumberOfCells)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameServersListTableView::*)()>(
+    &::GlobalNamespace::GameServersListTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x57414b0;
+  constexpr static std::size_t addrs = 0x57b0fd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "NumberOfCells",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
+                                                                               "NumberOfCells", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.Init
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)()>(&::GlobalNamespace::GameServersListTableView::Init)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x57414c8;
+  constexpr static std::size_t addrs = 0x57b0fec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "Init",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.CellForContent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::GameServersListTableView::*)(::GlobalNamespace::TableViewWithDetailCell*, int32_t, bool)>(&::GlobalNamespace::GameServersListTableView::CellForContent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::GameServersListTableView::*)(
+    ::GlobalNamespace::TableViewWithDetailCell*, int32_t, bool)>(&::GlobalNamespace::GameServersListTableView::CellForContent)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x57415fc;
+  constexpr static std::size_t addrs = 0x57b1120;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "CellForContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "CellForContent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.CellForDetail
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::GameServersListTableView::*)(::GlobalNamespace::TableViewWithDetailCell*, int32_t)>(&::GlobalNamespace::GameServersListTableView::CellForDetail)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::GameServersListTableView::*)(
+    ::GlobalNamespace::TableViewWithDetailCell*, int32_t)>(&::GlobalNamespace::GameServersListTableView::CellForDetail)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5741770;
+  constexpr static std::size_t addrs = 0x57b1294;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "CellForDetail",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "CellForDetail", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.SetData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, bool)>(&::GlobalNamespace::GameServersListTableView::SetData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, bool)>(&::GlobalNamespace::GameServersListTableView::SetData)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x574193c;
+  constexpr static std::size_t addrs = 0x57b1460;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "SetData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.HandleGameServerListDetailTableCellJoinServerButtonWasPressed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)()>(&::GlobalNamespace::GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)()>(
+    &::GlobalNamespace::GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5741a6c;
+  constexpr static std::size_t addrs = 0x57b1590;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "HandleGameServerListDetailTableCellJoinServerButtonWasPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
+                                    "HandleGameServerListDetailTableCellJoinServerButtonWasPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.HandleTableViewDidSelectCellWithIdx
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::HMUI::TableView*, int32_t)>(&::GlobalNamespace::GameServersListTableView::HandleTableViewDidSelectCellWithIdx)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::HMUI::TableView*, int32_t)>(
+    &::GlobalNamespace::GameServersListTableView::HandleTableViewDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5741a90;
+  constexpr static std::size_t addrs = 0x57b15b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "HandleTableViewDidSelectCellWithIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::TableView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
+                                                                               "HandleTableViewDidSelectCellWithIdx", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::TableView*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.HandleTableViewDidDeselectCellWithIdx
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::GlobalNamespace::TableViewWithDetailCell*, int32_t)>(&::GlobalNamespace::GameServersListTableView::HandleTableViewDidDeselectCellWithIdx)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)(::GlobalNamespace::TableViewWithDetailCell*, int32_t)>(
+    &::GlobalNamespace::GameServersListTableView::HandleTableViewDidDeselectCellWithIdx)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5741ac4;
+  constexpr static std::size_t addrs = 0x57b15e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "HandleTableViewDidDeselectCellWithIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "HandleTableViewDidDeselectCellWithIdx", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView.OnDestroy
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)()>(&::GlobalNamespace::GameServersListTableView::OnDestroy)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5741acc;
+  constexpr static std::size_t addrs = 0x57b15f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "OnDestroy",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameServersListTableView._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersListTableView::*)()>(&::GlobalNamespace::GameServersListTableView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5741bc0;
+  constexpr static std::size_t addrs = 0x57b16e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::TableViewWithDetailCell>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__tableView()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____tableView;
+constexpr ::UnityW<::GlobalNamespace::TableViewWithDetailCell>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__tableView() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____tableView;
 }
 constexpr ::UnityW<::GlobalNamespace::TableViewWithDetailCell> const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__tableView() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____tableView;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____tableView;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__tableView(::UnityW<::GlobalNamespace::TableViewWithDetailCell>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__tableView(::UnityW<::GlobalNamespace::TableViewWithDetailCell> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::GameServerListTableCell>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gameServerListCellPrefab()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____gameServerListCellPrefab;
+constexpr ::UnityW<::GlobalNamespace::GameServerListTableCell>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gameServerListCellPrefab() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameServerListCellPrefab;
 }
 constexpr ::UnityW<::GlobalNamespace::GameServerListTableCell> const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gameServerListCellPrefab() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____gameServerListCellPrefab;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameServerListCellPrefab;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__gameServerListCellPrefab(::UnityW<::GlobalNamespace::GameServerListTableCell>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameServerListCellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__gameServerListCellPrefab(::UnityW<::GlobalNamespace::GameServerListTableCell> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameServerListCellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::GameServerListDetailTableCell>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gameServerDetailCellPrefab()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____gameServerDetailCellPrefab;
+constexpr ::UnityW<::GlobalNamespace::GameServerListDetailTableCell>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gameServerDetailCellPrefab() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameServerDetailCellPrefab;
 }
 constexpr ::UnityW<::GlobalNamespace::GameServerListDetailTableCell> const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gameServerDetailCellPrefab() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____gameServerDetailCellPrefab;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameServerDetailCellPrefab;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__gameServerDetailCellPrefab(::UnityW<::GlobalNamespace::GameServerListDetailTableCell>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameServerDetailCellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__gameServerDetailCellPrefab(::UnityW<::GlobalNamespace::GameServerListDetailTableCell> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameServerDetailCellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Zenject::DiContainer*& GlobalNamespace::GameServersListTableView::__cordl_internal_get__container()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____container;
+constexpr ::Zenject::DiContainer*& GlobalNamespace::GameServersListTableView::__cordl_internal_get__container() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____container;
 }
 constexpr ::Zenject::DiContainer* const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__container() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____container;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____container;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__container(::Zenject::DiContainer*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__container(::Zenject::DiContainer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::GameServersListTableView::__cordl_internal_get_joinButtonPressedEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___joinButtonPressedEvent;
+constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::GameServersListTableView::__cordl_internal_get_joinButtonPressedEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___joinButtonPressedEvent;
 }
 constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* const& GlobalNamespace::GameServersListTableView::__cordl_internal_get_joinButtonPressedEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___joinButtonPressedEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___joinButtonPressedEvent;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___joinButtonPressedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___joinButtonPressedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::GameServersListTableView::__cordl_internal_get__isInitialized()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isInitialized;
+constexpr bool& GlobalNamespace::GameServersListTableView::__cordl_internal_get__isInitialized() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isInitialized;
 }
 constexpr bool const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__isInitialized() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isInitialized;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isInitialized;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__isInitialized(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____isInitialized = value;
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__isInitialized(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isInitialized = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*,::Array<::GlobalNamespace::INetworkPlayer*>*>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gamesList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____gamesList;
+constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*>& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gamesList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gamesList;
 }
-constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*,::Array<::GlobalNamespace::INetworkPlayer*>*> const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gamesList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____gamesList;
+constexpr ::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__gamesList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gamesList;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__gamesList(::ArrayW<::GlobalNamespace::INetworkPlayer*,::Array<::GlobalNamespace::INetworkPlayer*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gamesList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__gamesList(::ArrayW<::GlobalNamespace::INetworkPlayer*, ::Array<::GlobalNamespace::INetworkPlayer*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gamesList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::GameServersListTableView::__cordl_internal_get__selectedServer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____selectedServer;
+constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::GameServersListTableView::__cordl_internal_get__selectedServer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____selectedServer;
 }
 constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::GameServersListTableView::__cordl_internal_get__selectedServer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____selectedServer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____selectedServer;
 }
-constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__selectedServer(::GlobalNamespace::INetworkPlayer*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedServer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::GameServersListTableView::__cordl_internal_set__selectedServer(::GlobalNamespace::INetworkPlayer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedServer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::GameServersListTableView::add_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "add_joinButtonPressedEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::GameServersListTableView::add_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "add_joinButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::GameServersListTableView::remove_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "remove_joinButtonPressedEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::GameServersListTableView::remove_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "remove_joinButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::GameServersListTableView::CellSize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "CellSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::GameServersListTableView::CellSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "CellSize",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::GameServersListTableView::NumberOfCells()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "NumberOfCells",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::GameServersListTableView::NumberOfCells() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
+                                                                             "NumberOfCells", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameServersListTableView::Init()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::GameServersListTableView::Init() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "Init",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityW<::HMUI::TableCell> GlobalNamespace::GameServersListTableView::CellForContent(::GlobalNamespace::TableViewWithDetailCell*  tableView, int32_t  idx, bool  detailOpened)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "CellForContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::TableCell>, false>(this, ___internal_method, tableView, idx, detailOpened);
+inline ::UnityW<::HMUI::TableCell> GlobalNamespace::GameServersListTableView::CellForContent(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t idx, bool detailOpened) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "CellForContent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::TableCell>, false>(this, ___internal_method, tableView, idx, detailOpened);
 }
-inline ::UnityW<::HMUI::TableCell> GlobalNamespace::GameServersListTableView::CellForDetail(::GlobalNamespace::TableViewWithDetailCell*  tableView, int32_t  contentIdx)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "CellForDetail",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::TableCell>, false>(this, ___internal_method, tableView, contentIdx);
+inline ::UnityW<::HMUI::TableCell> GlobalNamespace::GameServersListTableView::CellForDetail(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t contentIdx) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "CellForDetail", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::TableCell>, false>(this, ___internal_method, tableView, contentIdx);
 }
-inline void GlobalNamespace::GameServersListTableView::SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*  servers, bool  clearSelection)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "SetData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, servers, clearSelection);
+inline void GlobalNamespace::GameServersListTableView::SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* servers, bool clearSelection) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, servers, clearSelection);
 }
-inline void GlobalNamespace::GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "HandleGameServerListDetailTableCellJoinServerButtonWasPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::GameServersListTableView::HandleGameServerListDetailTableCellJoinServerButtonWasPressed() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
+                                               "HandleGameServerListDetailTableCellJoinServerButtonWasPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameServersListTableView::HandleTableViewDidSelectCellWithIdx(::HMUI::TableView*  tableView, int32_t  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "HandleTableViewDidSelectCellWithIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::TableView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tableView, id);
+inline void GlobalNamespace::GameServersListTableView::HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int32_t id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "HandleTableViewDidSelectCellWithIdx", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::TableView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tableView, id);
 }
-inline void GlobalNamespace::GameServersListTableView::HandleTableViewDidDeselectCellWithIdx(::GlobalNamespace::TableViewWithDetailCell*  arg1, int32_t  arg2)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "HandleTableViewDidDeselectCellWithIdx",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg1, arg2);
+inline void GlobalNamespace::GameServersListTableView::HandleTableViewDidDeselectCellWithIdx(::GlobalNamespace::TableViewWithDetailCell* arg1, int32_t arg2) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "HandleTableViewDidDeselectCellWithIdx", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TableViewWithDetailCell*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg1, arg2);
 }
-inline void GlobalNamespace::GameServersListTableView::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::GameServersListTableView::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), "OnDestroy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameServersListTableView::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::GameServersListTableView::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersListTableView*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameServersListTableView* GlobalNamespace::GameServersListTableView::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServersListTableView*>());
+inline ::GlobalNamespace::GameServersListTableView* GlobalNamespace::GameServersListTableView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServersListTableView*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::TableViewWithDetailCell_IDataSource"
-constexpr  GlobalNamespace::GameServersListTableView::operator ::GlobalNamespace::TableViewWithDetailCell_IDataSource*() noexcept {
-return static_cast<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>(static_cast<void*>(this));
+constexpr GlobalNamespace::GameServersListTableView::operator ::GlobalNamespace::TableViewWithDetailCell_IDataSource*() noexcept {
+  return static_cast<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::TableViewWithDetailCell_IDataSource"
 constexpr ::GlobalNamespace::TableViewWithDetailCell_IDataSource* GlobalNamespace::GameServersListTableView::i___GlobalNamespace__TableViewWithDetailCell_IDataSource() noexcept {
-return static_cast<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>(static_cast<void*>(this));
+  return static_cast<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::GameServersListTableView::GameServersListTableView()   {
-}
+constexpr ::GlobalNamespace::GameServersListTableView::GameServersListTableView() {}

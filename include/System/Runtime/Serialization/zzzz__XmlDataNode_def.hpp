@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/zzzz__DataNode_1_def.hpp"
 CORDL_MODULE_EXPORT(XmlDataNode)
 namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+template <typename T> class IList_1;
 }
 namespace System::Xml {
 class XmlAttribute;
@@ -33,93 +32,93 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.XmlDataNode
 class CORDL_TYPE XmlDataNode : public ::System::Runtime::Serialization::DataNode_1<::System::Object*> {
 public:
-// Declarations
- __declspec(property(get=get_OwnerDocument, put=set_OwnerDocument)) ::System::Xml::XmlDocument*  OwnerDocument;
+  // Declarations
+  __declspec(property(get = get_OwnerDocument, put = set_OwnerDocument)) ::System::Xml::XmlDocument* OwnerDocument;
 
- __declspec(property(get=get_XmlAttributes, put=set_XmlAttributes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*  XmlAttributes;
+  __declspec(property(get = get_XmlAttributes, put = set_XmlAttributes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* XmlAttributes;
 
- __declspec(property(get=get_XmlChildNodes, put=set_XmlChildNodes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*  XmlChildNodes;
+  __declspec(property(get = get_XmlChildNodes, put = set_XmlChildNodes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* XmlChildNodes;
 
-/// @brief Field ownerDocument, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get_ownerDocument, put=__cordl_internal_set_ownerDocument)) ::System::Xml::XmlDocument*  ownerDocument;
+  /// @brief Field ownerDocument, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_ownerDocument, put = __cordl_internal_set_ownerDocument)) ::System::Xml::XmlDocument* ownerDocument;
 
-/// @brief Field xmlAttributes, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get_xmlAttributes, put=__cordl_internal_set_xmlAttributes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*  xmlAttributes;
+  /// @brief Field xmlAttributes, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_xmlAttributes, put = __cordl_internal_set_xmlAttributes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* xmlAttributes;
 
-/// @brief Field xmlChildNodes, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get_xmlChildNodes, put=__cordl_internal_set_xmlChildNodes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*  xmlChildNodes;
+  /// @brief Field xmlChildNodes, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_xmlChildNodes, put = __cordl_internal_set_xmlChildNodes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* xmlChildNodes;
 
-/// @brief Method Clear, addr 0x5f9c7f8, size 0x4c, virtual true, abstract: false, final false
-inline void Clear() ;
+  /// @brief Method Clear, addr 0x600e804, size 0x4c, virtual true, abstract: false, final false
+  inline void Clear();
 
-static inline ::System::Runtime::Serialization::XmlDataNode* New_ctor() ;
+  static inline ::System::Runtime::Serialization::XmlDataNode* New_ctor();
 
-constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get_ownerDocument() const;
+  constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get_ownerDocument() const;
 
-constexpr ::System::Xml::XmlDocument*& __cordl_internal_get_ownerDocument() ;
+  constexpr ::System::Xml::XmlDocument*& __cordl_internal_get_ownerDocument();
 
-constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* const& __cordl_internal_get_xmlAttributes() const;
+  constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* const& __cordl_internal_get_xmlAttributes() const;
 
-constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*& __cordl_internal_get_xmlAttributes() ;
+  constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*& __cordl_internal_get_xmlAttributes();
 
-constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* const& __cordl_internal_get_xmlChildNodes() const;
+  constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* const& __cordl_internal_get_xmlChildNodes() const;
 
-constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*& __cordl_internal_get_xmlChildNodes() ;
+  constexpr ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*& __cordl_internal_get_xmlChildNodes();
 
-constexpr void __cordl_internal_set_ownerDocument(::System::Xml::XmlDocument*  value) ;
+  constexpr void __cordl_internal_set_ownerDocument(::System::Xml::XmlDocument* value);
 
-constexpr void __cordl_internal_set_xmlAttributes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*  value) ;
+  constexpr void __cordl_internal_set_xmlAttributes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* value);
 
-constexpr void __cordl_internal_set_xmlChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*  value) ;
+  constexpr void __cordl_internal_set_xmlChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* value);
 
-/// @brief Method .ctor, addr 0x5f9c64c, size 0x80, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x600e658, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_OwnerDocument, addr 0x5f9c7e8, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlDocument* get_OwnerDocument() ;
+  /// @brief Method get_OwnerDocument, addr 0x600e7f4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlDocument* get_OwnerDocument();
 
-/// @brief Method get_XmlAttributes, addr 0x5f9c7c8, size 0x8, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* get_XmlAttributes() ;
+  /// @brief Method get_XmlAttributes, addr 0x600e7d4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* get_XmlAttributes();
 
-/// @brief Method get_XmlChildNodes, addr 0x5f9c7d8, size 0x8, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* get_XmlChildNodes() ;
+  /// @brief Method get_XmlChildNodes, addr 0x600e7e4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* get_XmlChildNodes();
 
-/// @brief Method set_OwnerDocument, addr 0x5f9c7f0, size 0x8, virtual false, abstract: false, final false
-inline void set_OwnerDocument(::System::Xml::XmlDocument*  value) ;
+  /// @brief Method set_OwnerDocument, addr 0x600e7fc, size 0x8, virtual false, abstract: false, final false
+  inline void set_OwnerDocument(::System::Xml::XmlDocument* value);
 
-/// @brief Method set_XmlAttributes, addr 0x5f9c7d0, size 0x8, virtual false, abstract: false, final false
-inline void set_XmlAttributes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*  value) ;
+  /// @brief Method set_XmlAttributes, addr 0x600e7dc, size 0x8, virtual false, abstract: false, final false
+  inline void set_XmlAttributes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* value);
 
-/// @brief Method set_XmlChildNodes, addr 0x5f9c7e0, size 0x8, virtual false, abstract: false, final false
-inline void set_XmlChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*  value) ;
+  /// @brief Method set_XmlChildNodes, addr 0x600e7ec, size 0x8, virtual false, abstract: false, final false
+  inline void set_XmlChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlDataNode() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlDataNode();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDataNode", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlDataNode(XmlDataNode&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDataNode", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlDataNode(XmlDataNode && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDataNode", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlDataNode(XmlDataNode const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDataNode", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlDataNode(XmlDataNode const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17019 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17011};
+  /// @brief Field xmlAttributes, offset: 0x50, size: 0x8, def value: None
+  ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* ___xmlAttributes;
 
-/// @brief Field xmlAttributes, offset: 0x50, size: 0x8, def value: None
- ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>*  ___xmlAttributes;
+  /// @brief Field xmlChildNodes, offset: 0x58, size: 0x8, def value: None
+  ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* ___xmlChildNodes;
 
-/// @brief Field xmlChildNodes, offset: 0x58, size: 0x8, def value: None
- ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>*  ___xmlChildNodes;
+  /// @brief Field ownerDocument, offset: 0x60, size: 0x8, def value: None
+  ::System::Xml::XmlDocument* ___ownerDocument;
 
-/// @brief Field ownerDocument, offset: 0x60, size: 0x8, def value: None
- ::System::Xml::XmlDocument*  ___ownerDocument;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::XmlDataNode, ___xmlAttributes) == 0x50, "Offset mismatch!");
@@ -130,6 +129,6 @@ static_assert(offsetof(::System::Runtime::Serialization::XmlDataNode, ___ownerDo
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::XmlDataNode, 0x68>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::XmlDataNode);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::XmlDataNode*, "System.Runtime.Serialization", "XmlDataNode");

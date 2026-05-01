@@ -13,8 +13,7 @@ namespace GlobalNamespace {
 class OVRSpatialAnchor;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -31,87 +30,88 @@ namespace GlobalNamespace {
 // CS Name: SharedSpatialAnchorErrorHandler
 class CORDL_TYPE SharedSpatialAnchorErrorHandler : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field AlertViewHUDPrefab, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_AlertViewHUDPrefab, put=__cordl_internal_set_AlertViewHUDPrefab)) ::UnityW<::UnityEngine::GameObject>  AlertViewHUDPrefab;
+  // Declarations
+  /// @brief Field AlertViewHUDPrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_AlertViewHUDPrefab, put = __cordl_internal_set_AlertViewHUDPrefab)) ::UnityW<::UnityEngine::GameObject> AlertViewHUDPrefab;
 
-/// @brief Field DisableRuntimeGUIAlerts, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get_DisableRuntimeGUIAlerts, put=__cordl_internal_set_DisableRuntimeGUIAlerts)) bool  DisableRuntimeGUIAlerts;
+  /// @brief Field DisableRuntimeGUIAlerts, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_DisableRuntimeGUIAlerts, put = __cordl_internal_set_DisableRuntimeGUIAlerts)) bool DisableRuntimeGUIAlerts;
 
-/// @brief Field cloudPermissionMsg, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_cloudPermissionMsg, put=__cordl_internal_set_cloudPermissionMsg)) ::StringW  cloudPermissionMsg;
+  /// @brief Field cloudPermissionMsg, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_cloudPermissionMsg, put = __cordl_internal_set_cloudPermissionMsg)) ::StringW cloudPermissionMsg;
 
-/// @brief Method Awake, addr 0x5883d84, size 0xa8, virtual false, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x58f5cf0, size 0xa8, virtual false, abstract: false, final false
+  inline void Awake();
 
-/// @brief Method LogWarning, addr 0x5883ea8, size 0xac, virtual false, abstract: false, final false
-inline void LogWarning(::StringW  msg) ;
+  /// @brief Method LogWarning, addr 0x58f5e14, size 0xac, virtual false, abstract: false, final false
+  inline void LogWarning(::StringW msg);
 
-static inline ::GlobalNamespace::SharedSpatialAnchorErrorHandler* New_ctor() ;
+  static inline ::GlobalNamespace::SharedSpatialAnchorErrorHandler* New_ctor();
 
-/// @brief Method OnAnchorCreate, addr 0x5883e2c, size 0x7c, virtual false, abstract: false, final false
-inline void OnAnchorCreate(::GlobalNamespace::OVRSpatialAnchor*  _, ::GlobalNamespace::OVRSpatialAnchor_OperationResult  result) ;
+  /// @brief Method OnAnchorCreate, addr 0x58f5d98, size 0x7c, virtual false, abstract: false, final false
+  inline void OnAnchorCreate(::GlobalNamespace::OVRSpatialAnchor* _, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-/// @brief Method OnAnchorErase, addr 0x58840e0, size 0xb4, virtual false, abstract: false, final false
-inline void OnAnchorErase(::GlobalNamespace::OVRSpatialAnchor*  anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult  result) ;
+  /// @brief Method OnAnchorErase, addr 0x58f604c, size 0xb4, virtual false, abstract: false, final false
+  inline void OnAnchorErase(::GlobalNamespace::OVRSpatialAnchor* anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-/// @brief Method OnAnchorEraseAll, addr 0x5884070, size 0x70, virtual false, abstract: false, final false
-inline void OnAnchorEraseAll(::GlobalNamespace::OVRSpatialAnchor_OperationResult  result) ;
+  /// @brief Method OnAnchorEraseAll, addr 0x58f5fdc, size 0x70, virtual false, abstract: false, final false
+  inline void OnAnchorEraseAll(::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-/// @brief Method OnAnchorShare, addr 0x5883f54, size 0x7c, virtual false, abstract: false, final false
-inline void OnAnchorShare(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*  _, ::GlobalNamespace::OVRSpatialAnchor_OperationResult  result) ;
+  /// @brief Method OnAnchorShare, addr 0x58f5ec0, size 0x7c, virtual false, abstract: false, final false
+  inline void OnAnchorShare(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* _, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-/// @brief Method OnSharedSpatialAnchorLoad, addr 0x5883fd0, size 0xa0, virtual false, abstract: false, final false
-inline void OnSharedSpatialAnchorLoad(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*  loadedAnchors, ::GlobalNamespace::OVRSpatialAnchor_OperationResult  result) ;
+  /// @brief Method OnSharedSpatialAnchorLoad, addr 0x58f5f3c, size 0xa0, virtual false, abstract: false, final false
+  inline void OnSharedSpatialAnchorLoad(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* loadedAnchors,
+                                        ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_AlertViewHUDPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_AlertViewHUDPrefab() const;
 
-constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_AlertViewHUDPrefab() ;
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_AlertViewHUDPrefab();
 
-constexpr bool const& __cordl_internal_get_DisableRuntimeGUIAlerts() const;
+  constexpr bool const& __cordl_internal_get_DisableRuntimeGUIAlerts() const;
 
-constexpr bool& __cordl_internal_get_DisableRuntimeGUIAlerts() ;
+  constexpr bool& __cordl_internal_get_DisableRuntimeGUIAlerts();
 
-constexpr ::StringW const& __cordl_internal_get_cloudPermissionMsg() const;
+  constexpr ::StringW const& __cordl_internal_get_cloudPermissionMsg() const;
 
-constexpr ::StringW& __cordl_internal_get_cloudPermissionMsg() ;
+  constexpr ::StringW& __cordl_internal_get_cloudPermissionMsg();
 
-constexpr void __cordl_internal_set_AlertViewHUDPrefab(::UnityW<::UnityEngine::GameObject>  value) ;
+  constexpr void __cordl_internal_set_AlertViewHUDPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-constexpr void __cordl_internal_set_DisableRuntimeGUIAlerts(bool  value) ;
+  constexpr void __cordl_internal_set_DisableRuntimeGUIAlerts(bool value);
 
-constexpr void __cordl_internal_set_cloudPermissionMsg(::StringW  value) ;
+  constexpr void __cordl_internal_set_cloudPermissionMsg(::StringW value);
 
-/// @brief Method .ctor, addr 0x5884194, size 0x50, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58f6100, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SharedSpatialAnchorErrorHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SharedSpatialAnchorErrorHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorErrorHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SharedSpatialAnchorErrorHandler(SharedSpatialAnchorErrorHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorErrorHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SharedSpatialAnchorErrorHandler(SharedSpatialAnchorErrorHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorErrorHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SharedSpatialAnchorErrorHandler(SharedSpatialAnchorErrorHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SharedSpatialAnchorErrorHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SharedSpatialAnchorErrorHandler(SharedSpatialAnchorErrorHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21171 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21160};
+  /// @brief Field DisableRuntimeGUIAlerts, offset: 0x20, size: 0x1, def value: None
+  bool ___DisableRuntimeGUIAlerts;
 
-/// @brief Field DisableRuntimeGUIAlerts, offset: 0x20, size: 0x1, def value: None
- bool  ___DisableRuntimeGUIAlerts;
+  /// @brief Field AlertViewHUDPrefab, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::GameObject> ___AlertViewHUDPrefab;
 
-/// @brief Field AlertViewHUDPrefab, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::UnityEngine::GameObject>  ___AlertViewHUDPrefab;
+  /// @brief Field cloudPermissionMsg, offset: 0x30, size: 0x8, def value: None
+  ::StringW ___cloudPermissionMsg;
 
-/// @brief Field cloudPermissionMsg, offset: 0x30, size: 0x8, def value: None
- ::StringW  ___cloudPermissionMsg;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SharedSpatialAnchorErrorHandler, ___DisableRuntimeGUIAlerts) == 0x20, "Offset mismatch!");
@@ -122,6 +122,6 @@ static_assert(offsetof(::GlobalNamespace::SharedSpatialAnchorErrorHandler, ___cl
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SharedSpatialAnchorErrorHandler, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SharedSpatialAnchorErrorHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SharedSpatialAnchorErrorHandler*, "", "SharedSpatialAnchorErrorHandler");

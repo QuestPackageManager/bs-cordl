@@ -17,34 +17,34 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.GMonthDataContract
 class CORDL_TYPE GMonthDataContract : public ::System::Runtime::Serialization::StringDataContract {
 public:
-// Declarations
-static inline ::System::Runtime::Serialization::GMonthDataContract* New_ctor() ;
+  // Declarations
+  static inline ::System::Runtime::Serialization::GMonthDataContract* New_ctor();
 
-/// @brief Method .ctor, addr 0x5fa96dc, size 0x68, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x601b6e8, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GMonthDataContract() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GMonthDataContract();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GMonthDataContract", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GMonthDataContract(GMonthDataContract&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GMonthDataContract", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GMonthDataContract(GMonthDataContract && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GMonthDataContract", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GMonthDataContract(GMonthDataContract const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GMonthDataContract", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GMonthDataContract(GMonthDataContract const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17070 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17062};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::GMonthDataContract, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::GMonthDataContract);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::GMonthDataContract*, "System.Runtime.Serialization", "GMonthDataContract");

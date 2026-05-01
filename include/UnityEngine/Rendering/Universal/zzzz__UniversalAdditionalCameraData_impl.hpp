@@ -32,2106 +32,1801 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67117c8;
+  constexpr static std::size_t addrs = 0x67837d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c._UpdateCameraStack_b__53_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_UpdateCameraStack_b__53_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::*)(::UnityEngine::Camera*)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_UpdateCameraStack_b__53_0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67117cc;
+  constexpr static std::size_t addrs = 0x67837d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(),
-                        "<UpdateCameraStack>b__53_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(), "<UpdateCameraStack>b__53_0",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::setStaticF___9(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>(std::forward<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>(value));
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::setStaticF___9(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>(
+      std::forward<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>(value));
 }
-inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>();
+inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>();
 }
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::setStaticF___9__53_0(::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*  value)  {
-::cordl_internals::setStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*, "<>9__53_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>(std::forward<::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*>(value));
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::setStaticF___9__53_0(::System::Predicate_1<::UnityW<::UnityEngine::Camera>>* value) {
+  ::cordl_internals::setStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*, "<>9__53_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>(
+      std::forward<::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*>(value));
 }
-inline ::System::Predicate_1<::UnityW<::UnityEngine::Camera>>* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::getStaticF___9__53_0()  {
-return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*, "<>9__53_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>();
+inline ::System::Predicate_1<::UnityW<::UnityEngine::Camera>>* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::getStaticF___9__53_0() {
+  return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*, "<>9__53_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get>();
 }
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_UpdateCameraStack_b__53_0(::UnityEngine::Camera*  cam)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(),
-                        "<UpdateCameraStack>b__53_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cam);
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_UpdateCameraStack_b__53_0(::UnityEngine::Camera* cam) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>::get(), "<UpdateCameraStack>b__53_0",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cam);
 }
-inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>());
+inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::UniversalAdditionalCameraData___c()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::UniversalAdditionalCameraData___c() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_version
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_version)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67108d8;
+  constexpr static std::size_t addrs = 0x67828e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_version",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_defaultAdditionalCameraData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> (*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_defaultAdditionalCameraData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> (*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_defaultAdditionalCameraData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x67108e0;
+  constexpr static std::size_t addrs = 0x67828ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_defaultAdditionalCameraData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_defaultAdditionalCameraData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_camera
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_camera)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_camera)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6710ac0;
+  constexpr static std::size_t addrs = 0x6782acc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_camera",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_camera",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.Start
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::Start)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6710b68;
+  constexpr static std::size_t addrs = 0x6782b74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "Start",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_renderShadows
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderShadows)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderShadows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710b9c;
+  constexpr static std::size_t addrs = 0x6782ba8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_renderShadows",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_renderShadows", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_renderShadows
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderShadows)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderShadows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710ba4;
+  constexpr static std::size_t addrs = 0x6782bb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_renderShadows",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_renderShadows",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_requiresDepthOption
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::CameraOverrideOption (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthOption)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::CameraOverrideOption (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710bac;
+  constexpr static std::size_t addrs = 0x6782bb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresDepthOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_requiresDepthOption", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_requiresDepthOption
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::CameraOverrideOption)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthOption)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(
+    ::UnityEngine::Rendering::Universal::CameraOverrideOption)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710bb4;
+  constexpr static std::size_t addrs = 0x6782bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresDepthOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresDepthOption",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_requiresColorOption
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::CameraOverrideOption (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorOption)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::CameraOverrideOption (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710bbc;
+  constexpr static std::size_t addrs = 0x6782bc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresColorOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_requiresColorOption", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_requiresColorOption
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::CameraOverrideOption)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorOption)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(
+    ::UnityEngine::Rendering::Universal::CameraOverrideOption)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710bc4;
+  constexpr static std::size_t addrs = 0x6782bd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresColorOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresColorOption",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_renderType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::CameraRenderType (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::CameraRenderType (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710bcc;
+  constexpr static std::size_t addrs = 0x6782bd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_renderType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_renderType",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_renderType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::CameraRenderType)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(
+    ::UnityEngine::Rendering::Universal::CameraRenderType)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6710bd4;
+  constexpr static std::size_t addrs = 0x6782be0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_renderType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraRenderType>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_renderType", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraRenderType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_cameraStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_cameraStack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_cameraStack)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6707d88;
+  constexpr static std::size_t addrs = 0x6779d94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_cameraStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_cameraStack",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.UpdateCameraStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::UpdateCameraStack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::UpdateCameraStack)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x6710e70;
+  constexpr static std::size_t addrs = 0x6782e7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "UpdateCameraStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "UpdateCameraStack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_clearDepth
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_clearDepth)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_clearDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711138;
+  constexpr static std::size_t addrs = 0x6783144;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_clearDepth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_clearDepth",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_requiresDepthTexture
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthTexture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthTexture)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6711140;
+  constexpr static std::size_t addrs = 0x678314c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresDepthTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_requiresDepthTexture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_requiresDepthTexture
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthTexture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthTexture)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67111c8;
+  constexpr static std::size_t addrs = 0x67831d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresDepthTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresDepthTexture",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_requiresColorTexture
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorTexture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorTexture)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67111e0;
+  constexpr static std::size_t addrs = 0x67831ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresColorTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_requiresColorTexture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_requiresColorTexture
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorTexture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorTexture)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6711268;
+  constexpr static std::size_t addrs = 0x6783274;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresColorTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresColorTexture",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_scriptableRenderer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_scriptableRenderer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_scriptableRenderer)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6710bdc;
+  constexpr static std::size_t addrs = 0x6782be8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_scriptableRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_scriptableRenderer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.SetRenderer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(int32_t)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::SetRenderer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(int32_t)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::SetRenderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711280;
+  constexpr static std::size_t addrs = 0x678328c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "SetRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "SetRenderer",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_volumeLayerMask
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeLayerMask)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711288;
+  constexpr static std::size_t addrs = 0x6783294;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeLayerMask",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_volumeLayerMask", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_volumeLayerMask
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::LayerMask)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeLayerMask)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::LayerMask)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711290;
+  constexpr static std::size_t addrs = 0x678329c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeLayerMask",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeLayerMask",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_volumeTrigger
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeTrigger)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711298;
+  constexpr static std::size_t addrs = 0x67832a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeTrigger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_volumeTrigger", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_volumeTrigger
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Transform*)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeTrigger)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Transform*)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112a0;
+  constexpr static std::size_t addrs = 0x67832ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeTrigger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeTrigger",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_volumeFrameworkUpdateMode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeFrameworkUpdateMode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeFrameworkUpdateMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112a8;
+  constexpr static std::size_t addrs = 0x67832b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeFrameworkUpdateMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_volumeFrameworkUpdateMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_volumeFrameworkUpdateMode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeFrameworkUpdateMode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(
+    ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeFrameworkUpdateMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112b0;
+  constexpr static std::size_t addrs = 0x67832bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeFrameworkUpdateMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeFrameworkUpdateMode",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_requiresVolumeFrameworkUpdate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresVolumeFrameworkUpdate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresVolumeFrameworkUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6710054;
+  constexpr static std::size_t addrs = 0x6782060;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresVolumeFrameworkUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_requiresVolumeFrameworkUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_volumeStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::VolumeStack* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeStack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::VolumeStack* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112b8;
+  constexpr static std::size_t addrs = 0x67832c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_volumeStack",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_volumeStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::VolumeStack*)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeStack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::VolumeStack*)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeStack)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6710610;
+  constexpr static std::size_t addrs = 0x678261c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::VolumeStack*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeStack", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::VolumeStack*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.GetOrCreateVolumeStack
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetOrCreateVolumeStack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetOrCreateVolumeStack)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x671024c;
+  constexpr static std::size_t addrs = 0x6782258;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "GetOrCreateVolumeStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "GetOrCreateVolumeStack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_renderPostProcessing
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderPostProcessing)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderPostProcessing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112c0;
+  constexpr static std::size_t addrs = 0x67832cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_renderPostProcessing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_renderPostProcessing", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_renderPostProcessing
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderPostProcessing)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderPostProcessing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112c8;
+  constexpr static std::size_t addrs = 0x67832d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_renderPostProcessing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_renderPostProcessing",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_antialiasing
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::AntialiasingMode (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasing)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::AntialiasingMode (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112d0;
+  constexpr static std::size_t addrs = 0x67832dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_antialiasing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_antialiasing",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_antialiasing
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::AntialiasingMode)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasing)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(
+    ::UnityEngine::Rendering::Universal::AntialiasingMode)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112d8;
+  constexpr static std::size_t addrs = 0x67832e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_antialiasing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingMode>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_antialiasing",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingMode>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_antialiasingQuality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::AntialiasingQuality (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasingQuality)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::AntialiasingQuality (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasingQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112e0;
+  constexpr static std::size_t addrs = 0x67832ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_antialiasingQuality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_antialiasingQuality", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_antialiasingQuality
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::AntialiasingQuality)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasingQuality)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(
+    ::UnityEngine::Rendering::Universal::AntialiasingQuality)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasingQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112e8;
+  constexpr static std::size_t addrs = 0x67832f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_antialiasingQuality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingQuality>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_antialiasingQuality",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingQuality>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_taaSettings
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_taaSettings)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_taaSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112f0;
+  constexpr static std::size_t addrs = 0x67832fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_taaSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_taaSettings",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_history
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ICameraHistoryReadAccess* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_history)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ICameraHistoryReadAccess* (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_history)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67112f8;
+  constexpr static std::size_t addrs = 0x6783304;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_history",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_history",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_historyManager
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::UniversalCameraHistory* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_historyManager)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::UniversalCameraHistory* (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_historyManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711300;
+  constexpr static std::size_t addrs = 0x678330c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_historyManager",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_historyManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_motionVectorsPersistentData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_motionVectorsPersistentData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_motionVectorsPersistentData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711308;
+  constexpr static std::size_t addrs = 0x6783314;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_motionVectorsPersistentData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_motionVectorsPersistentData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_resetHistory
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_resetHistory)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_resetHistory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6711310;
+  constexpr static std::size_t addrs = 0x678331c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_resetHistory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_resetHistory",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_resetHistory
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_resetHistory)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_resetHistory)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6711320;
+  constexpr static std::size_t addrs = 0x678332c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_resetHistory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_resetHistory",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_stopNaN
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_stopNaN)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_stopNaN)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711384;
+  constexpr static std::size_t addrs = 0x6783390;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_stopNaN",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_stopNaN",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_stopNaN
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_stopNaN)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_stopNaN)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x671138c;
+  constexpr static std::size_t addrs = 0x6783398;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_stopNaN",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_stopNaN",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_dithering
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_dithering)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_dithering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6711394;
+  constexpr static std::size_t addrs = 0x67833a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_dithering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_dithering",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_dithering
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_dithering)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_dithering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x671139c;
+  constexpr static std::size_t addrs = 0x67833a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_dithering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_dithering",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_allowXRRendering
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowXRRendering)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowXRRendering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67113a4;
+  constexpr static std::size_t addrs = 0x67833b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_allowXRRendering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_allowXRRendering", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_allowXRRendering
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowXRRendering)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowXRRendering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67113ac;
+  constexpr static std::size_t addrs = 0x67833b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_allowXRRendering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_allowXRRendering",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_useScreenCoordOverride
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_useScreenCoordOverride)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_useScreenCoordOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67113b4;
+  constexpr static std::size_t addrs = 0x67833c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_useScreenCoordOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_useScreenCoordOverride", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_useScreenCoordOverride
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_useScreenCoordOverride)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_useScreenCoordOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67113bc;
+  constexpr static std::size_t addrs = 0x67833c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_useScreenCoordOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_useScreenCoordOverride",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_screenSizeOverride
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenSizeOverride)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenSizeOverride)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67113c4;
+  constexpr static std::size_t addrs = 0x67833d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_screenSizeOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_screenSizeOverride", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_screenSizeOverride
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Vector4)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenSizeOverride)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Vector4)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenSizeOverride)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67113d0;
+  constexpr static std::size_t addrs = 0x67833dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_screenSizeOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_screenSizeOverride",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_screenCoordScaleBias
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenCoordScaleBias)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenCoordScaleBias)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67113dc;
+  constexpr static std::size_t addrs = 0x67833e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_screenCoordScaleBias",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_screenCoordScaleBias", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_screenCoordScaleBias
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Vector4)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenCoordScaleBias)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Vector4)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenCoordScaleBias)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67113e8;
+  constexpr static std::size_t addrs = 0x67833f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_screenCoordScaleBias",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_screenCoordScaleBias",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.get_allowHDROutput
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowHDROutput)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowHDROutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67113f4;
+  constexpr static std::size_t addrs = 0x6783400;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_allowHDROutput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "get_allowHDROutput", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.set_allowHDROutput
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowHDROutput)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowHDROutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67113fc;
+  constexpr static std::size_t addrs = 0x6783408;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_allowHDROutput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_allowHDROutput",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.OnBeforeSerialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnBeforeSerialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6711404;
+  constexpr static std::size_t addrs = 0x6783410;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnBeforeSerialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "OnBeforeSerialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.OnAfterDeserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnAfterDeserialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6711408;
+  constexpr static std::size_t addrs = 0x6783414;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnAfterDeserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                                 "OnAfterDeserialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.OnValidate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnValidate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnValidate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6711430;
+  constexpr static std::size_t addrs = 0x678343c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnValidate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnValidate",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.OnDrawGizmos
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDrawGizmos)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDrawGizmos)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x67114c8;
+  constexpr static std::size_t addrs = 0x67834d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnDrawGizmos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnDrawGizmos",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDestroy)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67115f0;
+  constexpr static std::size_t addrs = 0x67835fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnDestroy",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData.GetRawRenderer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetRawRenderer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (
+    ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetRawRenderer)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6711654;
+  constexpr static std::size_t addrs = 0x6783660;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "GetRawRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "GetRawRenderer",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6710990;
+  constexpr static std::size_t addrs = 0x678299c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RenderShadows()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RenderShadows;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RenderShadows() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderShadows;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RenderShadows() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RenderShadows;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderShadows;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RenderShadows(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RenderShadows = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RenderShadows(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RenderShadows = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresDepthTextureOption()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresDepthTextureOption;
+constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresDepthTextureOption() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresDepthTextureOption;
 }
 constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresDepthTextureOption() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresDepthTextureOption;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresDepthTextureOption;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresDepthTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RequiresDepthTextureOption = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresDepthTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RequiresDepthTextureOption = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresOpaqueTextureOption()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresOpaqueTextureOption;
+constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresOpaqueTextureOption() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresOpaqueTextureOption;
 }
-constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresOpaqueTextureOption() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresOpaqueTextureOption;
+constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption const&
+UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresOpaqueTextureOption() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresOpaqueTextureOption;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresOpaqueTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RequiresOpaqueTextureOption = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresOpaqueTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RequiresOpaqueTextureOption = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::CameraRenderType& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_CameraType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_CameraType;
+constexpr ::UnityEngine::Rendering::Universal::CameraRenderType& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_CameraType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CameraType;
 }
 constexpr ::UnityEngine::Rendering::Universal::CameraRenderType const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_CameraType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_CameraType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CameraType;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_CameraType(::UnityEngine::Rendering::Universal::CameraRenderType  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_CameraType = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_CameraType(::UnityEngine::Rendering::Universal::CameraRenderType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CameraType = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Cameras()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Cameras;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Cameras() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Cameras;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Cameras() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Cameras;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Cameras;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Cameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Cameras)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Cameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Cameras)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RendererIndex()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RendererIndex;
+constexpr int32_t& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RendererIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RendererIndex;
 }
 constexpr int32_t const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RendererIndex() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RendererIndex;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RendererIndex;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RendererIndex(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RendererIndex = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RendererIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RendererIndex = value;
 }
-constexpr ::UnityEngine::LayerMask& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeLayerMask()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeLayerMask;
+constexpr ::UnityEngine::LayerMask& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeLayerMask() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeLayerMask;
 }
 constexpr ::UnityEngine::LayerMask const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeLayerMask() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeLayerMask;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeLayerMask;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeLayerMask(::UnityEngine::LayerMask  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_VolumeLayerMask = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeLayerMask(::UnityEngine::LayerMask value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_VolumeLayerMask = value;
 }
-constexpr ::UnityW<::UnityEngine::Transform>& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeTrigger()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeTrigger;
+constexpr ::UnityW<::UnityEngine::Transform>& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeTrigger() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeTrigger;
 }
 constexpr ::UnityW<::UnityEngine::Transform> const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeTrigger() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeTrigger;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeTrigger;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeTrigger(::UnityW<::UnityEngine::Transform>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VolumeTrigger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeTrigger(::UnityW<::UnityEngine::Transform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VolumeTrigger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeFrameworkUpdateModeOption()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeFrameworkUpdateModeOption;
+constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeFrameworkUpdateModeOption() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeFrameworkUpdateModeOption;
 }
-constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeFrameworkUpdateModeOption() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeFrameworkUpdateModeOption;
+constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode const&
+UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeFrameworkUpdateModeOption() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeFrameworkUpdateModeOption;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeFrameworkUpdateModeOption(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_VolumeFrameworkUpdateModeOption = value;
+constexpr void
+UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeFrameworkUpdateModeOption(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_VolumeFrameworkUpdateModeOption = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RenderPostProcessing()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RenderPostProcessing;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RenderPostProcessing() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderPostProcessing;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RenderPostProcessing() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RenderPostProcessing;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderPostProcessing;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RenderPostProcessing(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RenderPostProcessing = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RenderPostProcessing(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RenderPostProcessing = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::AntialiasingMode& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Antialiasing()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Antialiasing;
+constexpr ::UnityEngine::Rendering::Universal::AntialiasingMode& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Antialiasing() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Antialiasing;
 }
 constexpr ::UnityEngine::Rendering::Universal::AntialiasingMode const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Antialiasing() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Antialiasing;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Antialiasing;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Antialiasing = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Antialiasing = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::AntialiasingQuality& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AntialiasingQuality()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_AntialiasingQuality;
+constexpr ::UnityEngine::Rendering::Universal::AntialiasingQuality& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AntialiasingQuality() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AntialiasingQuality;
 }
 constexpr ::UnityEngine::Rendering::Universal::AntialiasingQuality const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AntialiasingQuality() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_AntialiasingQuality;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AntialiasingQuality;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_AntialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_AntialiasingQuality = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_AntialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AntialiasingQuality = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_StopNaN()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_StopNaN;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_StopNaN() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StopNaN;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_StopNaN() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_StopNaN;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StopNaN;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_StopNaN(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_StopNaN = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_StopNaN(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_StopNaN = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Dithering()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Dithering;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Dithering() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Dithering;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Dithering() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Dithering;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Dithering;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Dithering(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Dithering = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Dithering(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Dithering = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ClearDepth()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ClearDepth;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ClearDepth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClearDepth;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ClearDepth() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ClearDepth;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ClearDepth;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_ClearDepth(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_ClearDepth = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_ClearDepth(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ClearDepth = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AllowXRRendering()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_AllowXRRendering;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AllowXRRendering() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AllowXRRendering;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AllowXRRendering() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_AllowXRRendering;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AllowXRRendering;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_AllowXRRendering(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_AllowXRRendering = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_AllowXRRendering(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AllowXRRendering = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AllowHDROutput()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_AllowHDROutput;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AllowHDROutput() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AllowHDROutput;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_AllowHDROutput() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_AllowHDROutput;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AllowHDROutput;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_AllowHDROutput(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_AllowHDROutput = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_AllowHDROutput(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AllowHDROutput = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_UseScreenCoordOverride()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UseScreenCoordOverride;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_UseScreenCoordOverride() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UseScreenCoordOverride;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_UseScreenCoordOverride() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UseScreenCoordOverride;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UseScreenCoordOverride;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_UseScreenCoordOverride(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_UseScreenCoordOverride = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_UseScreenCoordOverride(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_UseScreenCoordOverride = value;
 }
-constexpr ::UnityEngine::Vector4& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ScreenSizeOverride()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ScreenSizeOverride;
+constexpr ::UnityEngine::Vector4& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ScreenSizeOverride() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScreenSizeOverride;
 }
 constexpr ::UnityEngine::Vector4 const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ScreenSizeOverride() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ScreenSizeOverride;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScreenSizeOverride;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_ScreenSizeOverride(::UnityEngine::Vector4  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_ScreenSizeOverride = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_ScreenSizeOverride(::UnityEngine::Vector4 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ScreenSizeOverride = value;
 }
-constexpr ::UnityEngine::Vector4& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ScreenCoordScaleBias()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ScreenCoordScaleBias;
+constexpr ::UnityEngine::Vector4& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ScreenCoordScaleBias() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScreenCoordScaleBias;
 }
 constexpr ::UnityEngine::Vector4 const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_ScreenCoordScaleBias() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ScreenCoordScaleBias;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScreenCoordScaleBias;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_ScreenCoordScaleBias(::UnityEngine::Vector4  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_ScreenCoordScaleBias = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_ScreenCoordScaleBias(::UnityEngine::Vector4 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ScreenCoordScaleBias = value;
 }
-constexpr ::UnityW<::UnityEngine::Camera>& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Camera()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Camera;
+constexpr ::UnityW<::UnityEngine::Camera>& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Camera() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Camera;
 }
 constexpr ::UnityW<::UnityEngine::Camera> const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Camera() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Camera;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Camera;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Camera(::UnityW<::UnityEngine::Camera>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Camera(::UnityW<::UnityEngine::Camera> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresDepthTexture()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresDepthTexture;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresDepthTexture() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresDepthTexture;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresDepthTexture() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresDepthTexture;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresDepthTexture;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresDepthTexture(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RequiresDepthTexture = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresDepthTexture(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RequiresDepthTexture = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresColorTexture()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresColorTexture;
+constexpr bool& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresColorTexture() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresColorTexture;
 }
 constexpr bool const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_RequiresColorTexture() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequiresColorTexture;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequiresColorTexture;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresColorTexture(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_RequiresColorTexture = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_RequiresColorTexture(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RequiresColorTexture = value;
 }
-constexpr float_t& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Version;
+constexpr float_t& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Version;
 }
 constexpr float_t const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_Version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Version;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Version(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Version = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_Version(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Version = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_MotionVectorsPersistentData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_MotionVectorsPersistentData;
+constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_MotionVectorsPersistentData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MotionVectorsPersistentData;
 }
-constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_MotionVectorsPersistentData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_MotionVectorsPersistentData;
+constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* const&
+UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_MotionVectorsPersistentData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MotionVectorsPersistentData;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_MotionVectorsPersistentData(::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MotionVectorsPersistentData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_MotionVectorsPersistentData(::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MotionVectorsPersistentData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::Universal::UniversalCameraHistory*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_History()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_History;
+constexpr ::UnityEngine::Rendering::Universal::UniversalCameraHistory*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_History() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_History;
 }
 constexpr ::UnityEngine::Rendering::Universal::UniversalCameraHistory* const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_History() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_History;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_History;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_History(::UnityEngine::Rendering::Universal::UniversalCameraHistory*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_History)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_History(::UnityEngine::Rendering::Universal::UniversalCameraHistory* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_History)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_TaaSettings()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_TaaSettings;
+constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_TaaSettings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TaaSettings;
 }
 constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_TaaSettings() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_TaaSettings;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TaaSettings;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_TaaSettings(::UnityEngine::Rendering::Universal::TemporalAA_Settings  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_TaaSettings = value;
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_TaaSettings(::UnityEngine::Rendering::Universal::TemporalAA_Settings value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TaaSettings = value;
 }
-constexpr ::UnityEngine::Rendering::VolumeStack*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeStack()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeStack;
+constexpr ::UnityEngine::Rendering::VolumeStack*& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeStack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeStack;
 }
 constexpr ::UnityEngine::Rendering::VolumeStack* const& UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_get_m_VolumeStack() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_VolumeStack;
-}
-constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeStack(::UnityEngine::Rendering::VolumeStack*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VolumeStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::setStaticF_s_DefaultAdditionalCameraData(::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>  value)  {
-::cordl_internals::setStaticField<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>, "s_DefaultAdditionalCameraData", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>(std::forward<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>>(value));
-}
-inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::getStaticF_s_DefaultAdditionalCameraData()  {
-return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>, "s_DefaultAdditionalCameraData", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>();
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::setStaticF_s_CachedVolumeStacks(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*, "s_CachedVolumeStacks", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*>(value));
-}
-inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::getStaticF_s_CachedVolumeStacks()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*, "s_CachedVolumeStacks", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>();
-}
-inline float_t UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_version()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_version",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_defaultAdditionalCameraData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_defaultAdditionalCameraData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>, false>(nullptr, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Camera> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_camera()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_camera",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Camera>, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderShadows()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_renderShadows",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderShadows(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_renderShadows",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::Universal::CameraOverrideOption UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthOption()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresDepthOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::CameraOverrideOption, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresDepthOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::Universal::CameraOverrideOption UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorOption()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresColorOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::CameraOverrideOption, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresColorOption",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::Universal::CameraRenderType UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_renderType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::CameraRenderType, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderType(::UnityEngine::Rendering::Universal::CameraRenderType  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_renderType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraRenderType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_cameraStack()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_cameraStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::UpdateCameraStack()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "UpdateCameraStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_clearDepth()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_clearDepth",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthTexture()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresDepthTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthTexture(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresDepthTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorTexture()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresColorTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorTexture(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_requiresColorTexture",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_scriptableRenderer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_scriptableRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::ScriptableRenderer*, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::SetRenderer(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "SetRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
-}
-inline ::UnityEngine::LayerMask UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeLayerMask()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeLayerMask",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeLayerMask(::UnityEngine::LayerMask  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeLayerMask",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityW<::UnityEngine::Transform> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeTrigger()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeTrigger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeTrigger(::UnityEngine::Transform*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeTrigger",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeFrameworkUpdateMode()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeFrameworkUpdateMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeFrameworkUpdateMode(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeFrameworkUpdateMode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresVolumeFrameworkUpdate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_requiresVolumeFrameworkUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::VolumeStack* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeStack()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_volumeStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::VolumeStack*, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeStack(::UnityEngine::Rendering::VolumeStack*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_volumeStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::VolumeStack*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetOrCreateVolumeStack()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "GetOrCreateVolumeStack",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderPostProcessing()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_renderPostProcessing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderPostProcessing(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_renderPostProcessing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::Universal::AntialiasingMode UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasing()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_antialiasing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::AntialiasingMode, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_antialiasing",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingMode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::Universal::AntialiasingQuality UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasingQuality()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_antialiasingQuality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::AntialiasingQuality, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_antialiasingQuality",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingQuality>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_taaSettings()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_taaSettings",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings>, false>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::ICameraHistoryReadAccess* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_history()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_history",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ICameraHistoryReadAccess*, false>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_historyManager()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_historyManager",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalCameraHistory*, false>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_motionVectorsPersistentData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_motionVectorsPersistentData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*, false>(this, ___internal_method);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_resetHistory()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_resetHistory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_resetHistory(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_resetHistory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_stopNaN()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_stopNaN",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_stopNaN(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_stopNaN",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_dithering()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_dithering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_dithering(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_dithering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowXRRendering()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_allowXRRendering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowXRRendering(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_allowXRRendering",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_useScreenCoordOverride()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_useScreenCoordOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_useScreenCoordOverride(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_useScreenCoordOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Vector4 UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenSizeOverride()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_screenSizeOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenSizeOverride(::UnityEngine::Vector4  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_screenSizeOverride",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Vector4 UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenCoordScaleBias()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_screenCoordScaleBias",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenCoordScaleBias(::UnityEngine::Vector4  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_screenCoordScaleBias",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowHDROutput()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "get_allowHDROutput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowHDROutput(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "set_allowHDROutput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnBeforeSerialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnBeforeSerialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnAfterDeserialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnAfterDeserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnValidate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnValidate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDrawGizmos()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnDrawGizmos",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetRawRenderer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        "GetRawRenderer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::ScriptableRenderer*, false>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>());
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VolumeStack;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::__cordl_internal_set_m_VolumeStack(::UnityEngine::Rendering::VolumeStack* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VolumeStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void
+UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::setStaticF_s_DefaultAdditionalCameraData(::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>, "s_DefaultAdditionalCameraData",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>(
+      std::forward<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>>(value));
+}
+inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::getStaticF_s_DefaultAdditionalCameraData() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>, "s_DefaultAdditionalCameraData",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>();
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::setStaticF_s_CachedVolumeStacks(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*, "s_CachedVolumeStacks",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>(
+      std::forward<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::getStaticF_s_CachedVolumeStacks() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*, "s_CachedVolumeStacks",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get>();
+}
+inline float_t UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_version() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_version",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_defaultAdditionalCameraData() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_defaultAdditionalCameraData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>, false>(nullptr, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Camera> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_camera() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_camera",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Camera>, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::Start() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "Start",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderShadows() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_renderShadows",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderShadows(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_renderShadows",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::CameraOverrideOption UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthOption() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_requiresDepthOption", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::CameraOverrideOption, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresDepthOption",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::CameraOverrideOption UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorOption() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_requiresColorOption", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::CameraOverrideOption, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresColorOption",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraOverrideOption>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::CameraRenderType UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderType() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_renderType",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::CameraRenderType, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderType(::UnityEngine::Rendering::Universal::CameraRenderType value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_renderType", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::CameraRenderType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_cameraStack() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_cameraStack",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::UpdateCameraStack() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "UpdateCameraStack",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_clearDepth() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_clearDepth",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthTexture() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_requiresDepthTexture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthTexture(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresDepthTexture",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorTexture() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_requiresColorTexture", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorTexture(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_requiresColorTexture",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_scriptableRenderer() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_scriptableRenderer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::ScriptableRenderer*, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::SetRenderer(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "SetRenderer",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
+}
+inline ::UnityEngine::LayerMask UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeLayerMask() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_volumeLayerMask", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeLayerMask(::UnityEngine::LayerMask value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeLayerMask",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::Transform> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeTrigger() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_volumeTrigger",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeTrigger(::UnityEngine::Transform* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeTrigger", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeFrameworkUpdateMode() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_volumeFrameworkUpdateMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeFrameworkUpdateMode(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeFrameworkUpdateMode",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresVolumeFrameworkUpdate() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_requiresVolumeFrameworkUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::VolumeStack* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeStack() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_volumeStack",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::VolumeStack*, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeStack(::UnityEngine::Rendering::VolumeStack* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_volumeStack", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::VolumeStack*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetOrCreateVolumeStack() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "GetOrCreateVolumeStack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderPostProcessing() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_renderPostProcessing", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderPostProcessing(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_renderPostProcessing",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::AntialiasingMode UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasing() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_antialiasing",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::AntialiasingMode, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_antialiasing", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::AntialiasingQuality UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasingQuality() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_antialiasingQuality", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::AntialiasingQuality, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_antialiasingQuality",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::Universal::AntialiasingQuality>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_taaSettings() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_taaSettings",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings>, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::ICameraHistoryReadAccess* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_history() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_history",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ICameraHistoryReadAccess*, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_historyManager() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_historyManager",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalCameraHistory*, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_motionVectorsPersistentData() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_motionVectorsPersistentData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*, false>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_resetHistory() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_resetHistory",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_resetHistory(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_resetHistory",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_stopNaN() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_stopNaN",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_stopNaN(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_stopNaN",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_dithering() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_dithering",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_dithering(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_dithering",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowXRRendering() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_allowXRRendering", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowXRRendering(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_allowXRRendering",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_useScreenCoordOverride() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_useScreenCoordOverride", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_useScreenCoordOverride(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_useScreenCoordOverride",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenSizeOverride() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_screenSizeOverride", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenSizeOverride(::UnityEngine::Vector4 value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_screenSizeOverride",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenCoordScaleBias() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(),
+                                               "get_screenCoordScaleBias", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenCoordScaleBias(::UnityEngine::Vector4 value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_screenCoordScaleBias",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowHDROutput() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "get_allowHDROutput",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowHDROutput(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "set_allowHDROutput",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnBeforeSerialize() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnBeforeSerialize",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnAfterDeserialize() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnAfterDeserialize",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnValidate() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnValidate",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDrawGizmos() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnDrawGizmos",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDestroy() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "OnDestroy",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetRawRenderer() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), "GetRawRenderer",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::ScriptableRenderer*, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>());
 }
 /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-constexpr  UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
-return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
 constexpr ::UnityEngine::ISerializationCallbackReceiver* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::i___UnityEngine__ISerializationCallbackReceiver() noexcept {
-return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::IAdditionalData"
-constexpr  UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::operator ::UnityEngine::Rendering::IAdditionalData*() noexcept {
-return static_cast<::UnityEngine::Rendering::IAdditionalData*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::operator ::UnityEngine::Rendering::IAdditionalData*() noexcept {
+  return static_cast<::UnityEngine::Rendering::IAdditionalData*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Rendering::IAdditionalData"
 constexpr ::UnityEngine::Rendering::IAdditionalData* UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::i___UnityEngine__Rendering__IAdditionalData() noexcept {
-return static_cast<::UnityEngine::Rendering::IAdditionalData*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::Rendering::IAdditionalData*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::UniversalAdditionalCameraData()   {
-}
+constexpr ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::UniversalAdditionalCameraData() {}

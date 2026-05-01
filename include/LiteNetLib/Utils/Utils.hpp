@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "LiteNetLib/Utils/CRC32C.hpp"
 #include "LiteNetLib/Utils/FastBitConverter.hpp"
@@ -19,6 +19,5 @@
 #include "LiteNetLib/Utils/NtpRequest.hpp"
 #include "LiteNetLib/Utils/ParseException.hpp"
 #ifdef __cpp_modules
-                    export module Utils;
-                    #endif
-                
+export module Utils;
+#endif

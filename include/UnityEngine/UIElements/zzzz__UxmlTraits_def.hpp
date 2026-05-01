@@ -26,37 +26,37 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UxmlTraits
 class CORDL_TYPE UxmlTraits : public ::UnityEngine::UIElements::BaseUxmlTraits {
 public:
-// Declarations
-/// @brief Method Init, addr 0x6af4b90, size 0x4, virtual true, abstract: false, final false
-inline void Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
+  // Declarations
+  /// @brief Method Init, addr 0x6b66dd8, size 0x4, virtual true, abstract: false, final false
+  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor() ;
+  static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 
-/// @brief Method .ctor, addr 0x6af0318, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b62560, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UxmlTraits() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlTraits();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlTraits", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UxmlTraits(UxmlTraits&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlTraits", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UxmlTraits(UxmlTraits && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlTraits", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UxmlTraits(UxmlTraits const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UxmlTraits", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UxmlTraits(UxmlTraits const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5177 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5177};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlTraits, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlTraits);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlTraits*, "UnityEngine.UIElements", "UxmlTraits");

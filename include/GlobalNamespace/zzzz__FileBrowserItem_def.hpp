@@ -18,90 +18,90 @@ namespace GlobalNamespace {
 // CS Name: FileBrowserItem
 class CORDL_TYPE FileBrowserItem : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <displayName>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__displayName_k__BackingField, put=__cordl_internal_set__displayName_k__BackingField)) ::StringW  _displayName_k__BackingField;
+  // Declarations
+  /// @brief Field <displayName>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField)) ::StringW _displayName_k__BackingField;
 
-/// @brief Field <fullPath>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__fullPath_k__BackingField, put=__cordl_internal_set__fullPath_k__BackingField)) ::StringW  _fullPath_k__BackingField;
+  /// @brief Field <fullPath>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__fullPath_k__BackingField, put = __cordl_internal_set__fullPath_k__BackingField)) ::StringW _fullPath_k__BackingField;
 
-/// @brief Field <isDirectory>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__isDirectory_k__BackingField, put=__cordl_internal_set__isDirectory_k__BackingField)) bool  _isDirectory_k__BackingField;
+  /// @brief Field <isDirectory>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__isDirectory_k__BackingField, put = __cordl_internal_set__isDirectory_k__BackingField)) bool _isDirectory_k__BackingField;
 
- __declspec(property(get=get_displayName, put=set_displayName)) ::StringW  displayName;
+  __declspec(property(get = get_displayName, put = set_displayName)) ::StringW displayName;
 
- __declspec(property(get=get_fullPath, put=set_fullPath)) ::StringW  fullPath;
+  __declspec(property(get = get_fullPath, put = set_fullPath)) ::StringW fullPath;
 
- __declspec(property(get=get_isDirectory, put=set_isDirectory)) bool  isDirectory;
+  __declspec(property(get = get_isDirectory, put = set_isDirectory)) bool isDirectory;
 
-static inline ::GlobalNamespace::FileBrowserItem* New_ctor(::StringW  displayName, ::StringW  fullPath, bool  isDirectory) ;
+  static inline ::GlobalNamespace::FileBrowserItem* New_ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
-constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__displayName_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__displayName_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__fullPath_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__fullPath_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__fullPath_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__fullPath_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__isDirectory_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isDirectory_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__isDirectory_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__isDirectory_k__BackingField();
 
-constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-constexpr void __cordl_internal_set__fullPath_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__fullPath_k__BackingField(::StringW value);
 
-constexpr void __cordl_internal_set__isDirectory_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__isDirectory_k__BackingField(bool value);
 
-/// @brief Method .ctor, addr 0x360b178, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::StringW  displayName, ::StringW  fullPath, bool  isDirectory) ;
+  /// @brief Method .ctor, addr 0x36477bc, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
-/// @brief Method get_displayName, addr 0x360d45c, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_displayName() ;
+  /// @brief Method get_displayName, addr 0x3649b5c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_displayName();
 
-/// @brief Method get_fullPath, addr 0x360d46c, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_fullPath() ;
+  /// @brief Method get_fullPath, addr 0x3649b6c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_fullPath();
 
-/// @brief Method get_isDirectory, addr 0x360d47c, size 0x8, virtual false, abstract: false, final false
-inline bool get_isDirectory() ;
+  /// @brief Method get_isDirectory, addr 0x3649b7c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isDirectory();
 
-/// @brief Method set_displayName, addr 0x360d464, size 0x8, virtual false, abstract: false, final false
-inline void set_displayName(::StringW  value) ;
+  /// @brief Method set_displayName, addr 0x3649b64, size 0x8, virtual false, abstract: false, final false
+  inline void set_displayName(::StringW value);
 
-/// @brief Method set_fullPath, addr 0x360d474, size 0x8, virtual false, abstract: false, final false
-inline void set_fullPath(::StringW  value) ;
+  /// @brief Method set_fullPath, addr 0x3649b74, size 0x8, virtual false, abstract: false, final false
+  inline void set_fullPath(::StringW value);
 
-/// @brief Method set_isDirectory, addr 0x360d484, size 0x8, virtual false, abstract: false, final false
-inline void set_isDirectory(bool  value) ;
+  /// @brief Method set_isDirectory, addr 0x3649b84, size 0x8, virtual false, abstract: false, final false
+  inline void set_isDirectory(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FileBrowserItem() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileBrowserItem();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FileBrowserItem(FileBrowserItem&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FileBrowserItem(FileBrowserItem && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FileBrowserItem(FileBrowserItem const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FileBrowserItem", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FileBrowserItem(FileBrowserItem const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14842 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14835};
+  /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____displayName_k__BackingField;
 
-/// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____displayName_k__BackingField;
+  /// @brief Field <fullPath>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____fullPath_k__BackingField;
 
-/// @brief Field <fullPath>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____fullPath_k__BackingField;
+  /// @brief Field <isDirectory>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____isDirectory_k__BackingField;
 
-/// @brief Field <isDirectory>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____isDirectory_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::FileBrowserItem, ____displayName_k__BackingField) == 0x10, "Offset mismatch!");
@@ -112,6 +112,6 @@ static_assert(offsetof(::GlobalNamespace::FileBrowserItem, ____isDirectory_k__Ba
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileBrowserItem, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileBrowserItem);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileBrowserItem*, "", "FileBrowserItem");

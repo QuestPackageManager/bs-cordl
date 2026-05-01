@@ -36,43 +36,44 @@ namespace System::Runtime::Remoting {
 // CS Name: System.Runtime.Remoting.SingletonIdentity
 class CORDL_TYPE SingletonIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
-// Declarations
-/// @brief Method AsyncObjectProcessMessage, addr 0x597fb3c, size 0xe8, virtual true, abstract: false, final false
-inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg, ::System::Runtime::Remoting::Messaging::IMessageSink*  replySink) ;
+  // Declarations
+  /// @brief Method AsyncObjectProcessMessage, addr 0x59f1aa8, size 0xe8, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
+                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-/// @brief Method GetServerObject, addr 0x597f8b8, size 0x1a8, virtual false, abstract: false, final false
-inline ::System::MarshalByRefObject* GetServerObject() ;
+  /// @brief Method GetServerObject, addr 0x59f1824, size 0x1a8, virtual false, abstract: false, final false
+  inline ::System::MarshalByRefObject* GetServerObject();
 
-static inline ::System::Runtime::Remoting::SingletonIdentity* New_ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType) ;
+  static inline ::System::Runtime::Remoting::SingletonIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-/// @brief Method SyncObjectProcessMessage, addr 0x597fa60, size 0xdc, virtual true, abstract: false, final false
-inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg) ;
+  /// @brief Method SyncObjectProcessMessage, addr 0x59f19cc, size 0xdc, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-/// @brief Method .ctor, addr 0x597d938, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType) ;
+  /// @brief Method .ctor, addr 0x59ef8a4, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SingletonIdentity() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SingletonIdentity();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SingletonIdentity", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SingletonIdentity(SingletonIdentity&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SingletonIdentity", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SingletonIdentity(SingletonIdentity && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SingletonIdentity", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SingletonIdentity(SingletonIdentity const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SingletonIdentity", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SingletonIdentity(SingletonIdentity const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3090 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3090};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::SingletonIdentity, 0x70>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting
+} // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::SingletonIdentity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::SingletonIdentity*, "System.Runtime.Remoting", "SingletonIdentity");

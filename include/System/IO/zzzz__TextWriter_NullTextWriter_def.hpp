@@ -22,54 +22,54 @@ namespace GlobalNamespace {
 // CS Name: System.IO.TextWriter/NullTextWriter
 class CORDL_TYPE TextWriter_NullTextWriter : public ::System::IO::TextWriter {
 public:
-// Declarations
- __declspec(property(get=get_Encoding)) ::System::Text::Encoding*  Encoding;
+  // Declarations
+  __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
 
-static inline ::GlobalNamespace::TextWriter_NullTextWriter* New_ctor() ;
+  static inline ::GlobalNamespace::TextWriter_NullTextWriter* New_ctor();
 
-/// @brief Method Write, addr 0x5a548f4, size 0x4, virtual true, abstract: false, final false
-inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
+  /// @brief Method Write, addr 0x5ac68dc, size 0x4, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-/// @brief Method Write, addr 0x5a548f8, size 0x4, virtual true, abstract: false, final false
-inline void Write(::StringW  value) ;
+  /// @brief Method Write, addr 0x5ac68e0, size 0x4, virtual true, abstract: false, final false
+  inline void Write(::StringW value);
 
-/// @brief Method Write, addr 0x5a54904, size 0x4, virtual true, abstract: false, final false
-inline void Write(char16_t  value) ;
+  /// @brief Method Write, addr 0x5ac68ec, size 0x4, virtual true, abstract: false, final false
+  inline void Write(char16_t value);
 
-/// @brief Method WriteLine, addr 0x5a548fc, size 0x4, virtual true, abstract: false, final false
-inline void WriteLine() ;
+  /// @brief Method WriteLine, addr 0x5ac68e4, size 0x4, virtual true, abstract: false, final false
+  inline void WriteLine();
 
-/// @brief Method WriteLine, addr 0x5a54900, size 0x4, virtual true, abstract: false, final false
-inline void WriteLine(::StringW  value) ;
+  /// @brief Method WriteLine, addr 0x5ac68e8, size 0x4, virtual true, abstract: false, final false
+  inline void WriteLine(::StringW value);
 
-/// @brief Method .ctor, addr 0x5a54858, size 0x94, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5ac6840, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Encoding, addr 0x5a548ec, size 0x8, virtual true, abstract: false, final false
-inline ::System::Text::Encoding* get_Encoding() ;
+  /// @brief Method get_Encoding, addr 0x5ac68d4, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Text::Encoding* get_Encoding();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TextWriter_NullTextWriter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextWriter_NullTextWriter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_NullTextWriter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TextWriter_NullTextWriter(TextWriter_NullTextWriter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextWriter_NullTextWriter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TextWriter_NullTextWriter(TextWriter_NullTextWriter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_NullTextWriter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TextWriter_NullTextWriter(TextWriter_NullTextWriter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextWriter_NullTextWriter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TextWriter_NullTextWriter(TextWriter_NullTextWriter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3868 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3868};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextWriter_NullTextWriter, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextWriter_NullTextWriter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextWriter_NullTextWriter*, "System.IO", "TextWriter/NullTextWriter");

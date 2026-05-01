@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithPartyID
 class CORDL_TYPE MessageWithPartyID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyID*> {
 public:
-// Declarations
-/// @brief Method GetDataFromMessage, addr 0x5c2e6e0, size 0x9c, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::PartyID* GetDataFromMessage(::System::IntPtr  c_message) ;
+  // Declarations
+  /// @brief Method GetDataFromMessage, addr 0x5ca06c8, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::PartyID* GetDataFromMessage(::System::IntPtr c_message);
 
-/// @brief Method GetPartyID, addr 0x5c2e69c, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::PartyID* GetPartyID() ;
+  /// @brief Method GetPartyID, addr 0x5ca0684, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::PartyID* GetPartyID();
 
-static inline ::Oculus::Platform::MessageWithPartyID* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithPartyID* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c2e640, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5ca0628, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithPartyID() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithPartyID();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyID", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithPartyID(MessageWithPartyID&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyID", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithPartyID(MessageWithPartyID && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyID", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithPartyID(MessageWithPartyID const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyID", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithPartyID(MessageWithPartyID const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17888 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17880};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithPartyID, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithPartyID);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithPartyID*, "Oculus.Platform", "MessageWithPartyID");

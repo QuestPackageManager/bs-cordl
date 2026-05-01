@@ -10,8 +10,7 @@ namespace Mono::Globalization::Unicode {
 class Contraction;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IComparer_1;
+template <typename T> class IComparer_1;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -25,50 +24,51 @@ namespace Mono::Globalization::Unicode {
 // CS Name: Mono.Globalization.Unicode.ContractionComparer
 class CORDL_TYPE ContractionComparer : public ::System::Object {
 public:
-// Declarations
-/// @brief Field Instance, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::Mono::Globalization::Unicode::ContractionComparer*  Instance;
+  // Declarations
+  /// @brief Field Instance, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Mono::Globalization::Unicode::ContractionComparer* Instance;
 
-/// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
-constexpr operator  ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
+  constexpr operator ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*() noexcept;
 
-/// @brief Method Compare, addr 0x5902054, size 0x9c, virtual true, abstract: false, final true
-inline int32_t Compare(::Mono::Globalization::Unicode::Contraction*  c1, ::Mono::Globalization::Unicode::Contraction*  c2) ;
+  /// @brief Method Compare, addr 0x5973fc0, size 0x9c, virtual true, abstract: false, final true
+  inline int32_t Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
 
-static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor() ;
+  static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor();
 
-/// @brief Method .ctor, addr 0x59020f0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x597405c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance() ;
+  static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();
 
-/// @brief Convert to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
-constexpr ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>* i___System__Collections__Generic__IComparer_1___Mono__Globalization__Unicode__Contraction__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
+  constexpr ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*
+  i___System__Collections__Generic__IComparer_1___Mono__Globalization__Unicode__Contraction__() noexcept;
 
-static inline void setStaticF_Instance(::Mono::Globalization::Unicode::ContractionComparer*  value) ;
+  static inline void setStaticF_Instance(::Mono::Globalization::Unicode::ContractionComparer* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ContractionComparer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContractionComparer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ContractionComparer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ContractionComparer(ContractionComparer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContractionComparer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ContractionComparer(ContractionComparer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ContractionComparer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ContractionComparer(ContractionComparer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ContractionComparer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ContractionComparer(ContractionComparer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2261 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2261};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::ContractionComparer, 0x10>, "Size mismatch!");
 
-} // namespace end def Mono::Globalization::Unicode
+} // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::ContractionComparer);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::ContractionComparer*, "Mono.Globalization.Unicode", "ContractionComparer");

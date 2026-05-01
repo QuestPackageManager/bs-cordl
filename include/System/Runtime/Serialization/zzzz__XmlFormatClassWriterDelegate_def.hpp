@@ -32,37 +32,38 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.XmlFormatClassWriterDelegate
 class CORDL_TYPE XmlFormatClassWriterDelegate : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x5fb0174, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::System::Runtime::Serialization::XmlWriterDelegator*  xmlWriter, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context, ::System::Runtime::Serialization::ClassDataContract*  dataContract) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x6022180, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context,
+                     ::System::Runtime::Serialization::ClassDataContract* dataContract);
 
-static inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5fb002c, size 0x148, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x6022038, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlFormatClassWriterDelegate() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlFormatClassWriterDelegate();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatClassWriterDelegate", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlFormatClassWriterDelegate(XmlFormatClassWriterDelegate&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatClassWriterDelegate", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlFormatClassWriterDelegate(XmlFormatClassWriterDelegate && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatClassWriterDelegate", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlFormatClassWriterDelegate(XmlFormatClassWriterDelegate const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlFormatClassWriterDelegate", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlFormatClassWriterDelegate(XmlFormatClassWriterDelegate const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17110 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17102};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::XmlFormatClassWriterDelegate, 0x80>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::XmlFormatClassWriterDelegate);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::XmlFormatClassWriterDelegate*, "System.Runtime.Serialization", "XmlFormatClassWriterDelegate");

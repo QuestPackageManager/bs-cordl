@@ -10,23 +10,23 @@ class _Assembly;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::_Assembly);
-// Dependencies 
+// Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: System.Runtime.InteropServices._Assembly
 class CORDL_TYPE _Assembly {
 public:
-// Declarations
-// Ctor Parameters [CppParam { name: "", ty: "_Assembly", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-_Assembly(_Assembly const& ) = delete;
+  // Declarations
+  // Ctor Parameters [CppParam { name: "", ty: "_Assembly", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  _Assembly(_Assembly const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3356};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3356 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def System::Runtime::InteropServices
+} // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::_Assembly);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::_Assembly*, "System.Runtime.InteropServices", "_Assembly");

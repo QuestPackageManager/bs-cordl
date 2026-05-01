@@ -18,979 +18,796 @@
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
 #include "Unity/Collections/zzzz__RewindableAllocator_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Union.get_m_current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator_Union::*)()>(&::Unity::Collections::RewindableAllocator_Union::get_m_current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator_Union::*)()>(
+    &::Unity::Collections::RewindableAllocator_Union::get_m_current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6311a68;
+  constexpr static std::size_t addrs = 0x6383a74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "get_m_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
+                                                                               "get_m_current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Union.set_m_current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_Union::*)(int64_t)>(&::Unity::Collections::RewindableAllocator_Union::set_m_current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_Union::*)(int64_t)>(
+    &::Unity::Collections::RewindableAllocator_Union::set_m_current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6311a74;
+  constexpr static std::size_t addrs = 0x6383a80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "set_m_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(), "set_m_current",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Union.get_m_allocCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator_Union::*)()>(&::Unity::Collections::RewindableAllocator_Union::get_m_allocCount)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator_Union::*)()>(
+    &::Unity::Collections::RewindableAllocator_Union::get_m_allocCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6311a84;
+  constexpr static std::size_t addrs = 0x6383a90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "get_m_allocCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
+                                                                               "get_m_allocCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Union.set_m_allocCount
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_Union::*)(int64_t)>(&::Unity::Collections::RewindableAllocator_Union::set_m_allocCount)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_Union::*)(int64_t)>(
+    &::Unity::Collections::RewindableAllocator_Union::set_m_allocCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6311a90;
+  constexpr static std::size_t addrs = 0x6383a9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "set_m_allocCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(), "set_m_allocCount",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-inline int64_t Unity::Collections::RewindableAllocator_Union::get_m_current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "get_m_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+inline int64_t Unity::Collections::RewindableAllocator_Union::get_m_current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
+                                                                             "get_m_current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline void Unity::Collections::RewindableAllocator_Union::set_m_current(int64_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "set_m_current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Unity::Collections::RewindableAllocator_Union::set_m_current(int64_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(), "set_m_current",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int64_t Unity::Collections::RewindableAllocator_Union::get_m_allocCount()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "get_m_allocCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+inline int64_t Unity::Collections::RewindableAllocator_Union::get_m_allocCount() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
+                                                                             "get_m_allocCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline void Unity::Collections::RewindableAllocator_Union::set_m_allocCount(int64_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(),
-                        "set_m_allocCount",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Unity::Collections::RewindableAllocator_Union::set_m_allocCount(int64_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Union>::get(), "set_m_allocCount",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 // Ctor Parameters [CppParam { name: "m_long", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::RewindableAllocator_Union::RewindableAllocator_Union(int64_t  m_long) noexcept  {
-this->m_long = m_long;
+constexpr ::Unity::Collections::RewindableAllocator_Union::RewindableAllocator_Union(int64_t m_long) noexcept {
+  this->m_long = m_long;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::RewindableAllocator_Union::RewindableAllocator_Union()   {
-}
+constexpr ::Unity::Collections::RewindableAllocator_Union::RewindableAllocator_Union() {}
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_MemoryBlock._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)(int64_t)>(&::Unity::Collections::RewindableAllocator_MemoryBlock::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)(int64_t)>(
+    &::Unity::Collections::RewindableAllocator_MemoryBlock::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x631115c;
+  constexpr static std::size_t addrs = 0x6383168;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_MemoryBlock.Rewind
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)()>(&::Unity::Collections::RewindableAllocator_MemoryBlock::Rewind)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)()>(
+    &::Unity::Collections::RewindableAllocator_MemoryBlock::Rewind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6311400;
+  constexpr static std::size_t addrs = 0x638340c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        "Rewind",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
+                                                                               "Rewind", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_MemoryBlock.Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)()>(&::Unity::Collections::RewindableAllocator_MemoryBlock::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)()>(
+    &::Unity::Collections::RewindableAllocator_MemoryBlock::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63113a4;
+  constexpr static std::size_t addrs = 0x63833b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
+                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_MemoryBlock.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator_MemoryBlock::*)(::System::IntPtr)>(&::Unity::Collections::RewindableAllocator_MemoryBlock::Contains)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator_MemoryBlock::*)(::System::IntPtr)>(
+    &::Unity::Collections::RewindableAllocator_MemoryBlock::Contains)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6311968;
+  constexpr static std::size_t addrs = 0x6383974;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(), "Contains",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::RewindableAllocator_MemoryBlock::_ctor(int64_t  bytes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bytes);
+inline void Unity::Collections::RewindableAllocator_MemoryBlock::_ctor(int64_t bytes) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bytes);
 }
-inline void Unity::Collections::RewindableAllocator_MemoryBlock::Rewind()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        "Rewind",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::RewindableAllocator_MemoryBlock::Rewind() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
+                                                                             "Rewind", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Unity::Collections::RewindableAllocator_MemoryBlock::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::RewindableAllocator_MemoryBlock::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
+                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Unity::Collections::RewindableAllocator_MemoryBlock::Contains(::System::IntPtr  ptr)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ptr);
+inline bool Unity::Collections::RewindableAllocator_MemoryBlock::Contains(::System::IntPtr ptr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_MemoryBlock>::get(), "Contains",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ptr);
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  Unity::Collections::RewindableAllocator_MemoryBlock::operator ::System::IDisposable*()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr Unity::Collections::RewindableAllocator_MemoryBlock::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Unity::Collections::RewindableAllocator_MemoryBlock::i___System__IDisposable()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IDisposable* Unity::Collections::RewindableAllocator_MemoryBlock::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "m_pointer", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_bytes", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_union", ty: "::Unity::Collections::RewindableAllocator_Union", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::RewindableAllocator_MemoryBlock::RewindableAllocator_MemoryBlock(uint8_t*  m_pointer, int64_t  m_bytes, ::Unity::Collections::RewindableAllocator_Union  m_union) noexcept  {
-this->m_pointer = m_pointer;
-this->m_bytes = m_bytes;
-this->m_union = m_union;
+// Ctor Parameters [CppParam { name: "m_pointer", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_bytes", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_union", ty: "::Unity::Collections::RewindableAllocator_Union", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Collections::RewindableAllocator_MemoryBlock::RewindableAllocator_MemoryBlock(uint8_t* m_pointer, int64_t m_bytes,
+                                                                                                 ::Unity::Collections::RewindableAllocator_Union m_union) noexcept {
+  this->m_pointer = m_pointer;
+  this->m_bytes = m_bytes;
+  this->m_union = m_union;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::RewindableAllocator_MemoryBlock::RewindableAllocator_MemoryBlock()   {
-}
+constexpr ::Unity::Collections::RewindableAllocator_MemoryBlock::RewindableAllocator_MemoryBlock() {}
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(
+    ::System::Object*, ::System::IntPtr)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6311aa0;
+  constexpr static std::size_t addrs = 0x6383aac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(
+    ::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6311b0c;
+  constexpr static std::size_t addrs = 0x6383b18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>, ::System::AsyncCallback*, ::System::Object*)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>, ::System::AsyncCallback*,
+                                                                                    ::System::Object*)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6311b20;
+  constexpr static std::size_t addrs = 0x6383b2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
+    &::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6311bc8;
+  constexpr static std::size_t addrs = 0x6383bd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::_ctor(::System::Object*  _cordl_fixed_empty_name_whitespace, ::System::IntPtr  _cordl_fixed_empty_name_whitespace_param_1)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
+inline void Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
+                                                                                             ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
-inline int32_t Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::Invoke(::System::IntPtr  state, ::ByRef<::Unity::Collections::AllocatorManager_Block>  block)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, state, block);
+inline int32_t Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::Invoke(::System::IntPtr state, ::ByRef<::Unity::Collections::AllocatorManager_Block> block) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, state, block);
 }
-inline ::System::IAsyncResult* Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::BeginInvoke(::System::IntPtr  state, ::ByRef<::Unity::Collections::AllocatorManager_Block>  block, ::System::AsyncCallback*  _cordl_fixed_empty_name_whitespace, ::System::Object*  _cordl_fixed_empty_name_whitespace_param_3)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, state, block, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_3);
+inline ::System::IAsyncResult* Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::BeginInvoke(::System::IntPtr state,
+                                                                                                                      ::ByRef<::Unity::Collections::AllocatorManager_Block> block,
+                                                                                                                      ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
+                                                                                                                      ::System::Object* _cordl_fixed_empty_name_whitespace_param_3) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, state, block, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_3);
 }
-inline int32_t Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::EndInvoke(::System::IAsyncResult*  _cordl_fixed_empty_name_whitespace)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, _cordl_fixed_empty_name_whitespace);
+inline int32_t Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
-inline ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate* Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::New_ctor(::System::Object*  _cordl_fixed_empty_name_whitespace, ::System::IntPtr  _cordl_fixed_empty_name_whitespace_param_1)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>(_cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1));
+inline ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*
+Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>(_cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1));
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::RewindableAllocator_Try_000009DE$PostfixBurstDelegate()   {
-}
+constexpr ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::RewindableAllocator_Try_000009DE$PostfixBurstDelegate() {}
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall.GetFunctionPointerDiscard
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::System::IntPtr>)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointerDiscard)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::System::IntPtr>)>(
+    &::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6311bec;
+  constexpr static std::size_t addrs = 0x6383bf8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
-                        "GetFunctionPointerDiscard",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::IntPtr>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(), "GetFunctionPointerDiscard",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::IntPtr>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall.GetFunctionPointer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(
+    &::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6311cf8;
+  constexpr static std::size_t addrs = 0x6383d04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
-                        "GetFunctionPointer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
+                                                 "GetFunctionPointer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(
+    &::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6311994;
+  constexpr static std::size_t addrs = 0x63839a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
-                        "Invoke",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(), "Invoke", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::setStaticF_Pointer(::System::IntPtr  value)  {
-::cordl_internals::setStaticField<::System::IntPtr, "Pointer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get>(std::forward<::System::IntPtr>(value));
+inline void Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::setStaticF_Pointer(::System::IntPtr value) {
+  ::cordl_internals::setStaticField<::System::IntPtr, "Pointer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get>(
+      std::forward<::System::IntPtr>(value));
 }
-inline ::System::IntPtr Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::getStaticF_Pointer()  {
-return ::cordl_internals::getStaticField<::System::IntPtr, "Pointer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get>();
+inline ::System::IntPtr Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::getStaticF_Pointer() {
+  return ::cordl_internals::getStaticField<::System::IntPtr, "Pointer",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get>();
 }
-inline void Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointerDiscard(::ByRef<::System::IntPtr>  _cordl_fixed_empty_name_whitespace)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
-                        "GetFunctionPointerDiscard",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::IntPtr>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
+inline void Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointerDiscard(::ByRef<::System::IntPtr> _cordl_fixed_empty_name_whitespace) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(), "GetFunctionPointerDiscard",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::IntPtr>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
-inline ::System::IntPtr Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
-                        "GetFunctionPointer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method);
+inline ::System::IntPtr Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointer() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
+                                               "GetFunctionPointer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method);
 }
-inline int32_t Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::Invoke(::System::IntPtr  state, ::ByRef<::Unity::Collections::AllocatorManager_Block>  block)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(),
-                        "Invoke",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, state, block);
+inline int32_t Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::Invoke(::System::IntPtr state, ::ByRef<::Unity::Collections::AllocatorManager_Block> block) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>::get(), "Invoke", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, state, block);
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::RewindableAllocator_Try_000009DE$BurstDirectCall()   {
-}
+constexpr ::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::RewindableAllocator_Try_000009DE$BurstDirectCall() {}
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(int32_t, bool)>(&::Unity::Collections::RewindableAllocator::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(int32_t, bool)>(
+    &::Unity::Collections::RewindableAllocator::Initialize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6311078;
+  constexpr static std::size_t addrs = 0x6383084;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_EnableBlockFree
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_EnableBlockFree)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_EnableBlockFree)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x631119c;
+  constexpr static std::size_t addrs = 0x63831a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_EnableBlockFree",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_EnableBlockFree", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.set_EnableBlockFree
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(bool)>(&::Unity::Collections::RewindableAllocator::set_EnableBlockFree)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(bool)>(
+    &::Unity::Collections::RewindableAllocator::set_EnableBlockFree)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63111ac;
+  constexpr static std::size_t addrs = 0x63831b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "set_EnableBlockFree",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "set_EnableBlockFree",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_BlocksAllocated
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_BlocksAllocated)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_BlocksAllocated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63111b4;
+  constexpr static std::size_t addrs = 0x63831c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_BlocksAllocated",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_BlocksAllocated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_InitialSizeInBytes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_InitialSizeInBytes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_InitialSizeInBytes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x63111c0;
+  constexpr static std::size_t addrs = 0x63831cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_InitialSizeInBytes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_InitialSizeInBytes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_MaxMemoryBlockSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_MaxMemoryBlockSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_MaxMemoryBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6311208;
+  constexpr static std::size_t addrs = 0x6383214;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_MaxMemoryBlockSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_MaxMemoryBlockSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_BytesAllocated
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_BytesAllocated)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_BytesAllocated)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6311210;
+  constexpr static std::size_t addrs = 0x638321c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_BytesAllocated",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_BytesAllocated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.Rewind
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::Rewind)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x631128c;
+  constexpr static std::size_t addrs = 0x6383298;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Rewind",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Rewind",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.Dispose
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::Dispose)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6311408;
+  constexpr static std::size_t addrs = 0x6383414;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Dispose",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_Function
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::AllocatorManager_TryFunction* (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_Function)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::AllocatorManager_TryFunction* (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_Function)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63114f8;
+  constexpr static std::size_t addrs = 0x6383504;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_Function",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "get_Function",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.TryAllocate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)(::ByRef<::Unity::Collections::AllocatorManager_Block>, int32_t, int32_t, int64_t, int64_t)>(&::Unity::Collections::RewindableAllocator::TryAllocate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)(
+    ::ByRef<::Unity::Collections::AllocatorManager_Block>, int32_t, int32_t, int64_t, int64_t)>(&::Unity::Collections::RewindableAllocator::TryAllocate)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6311570;
+  constexpr static std::size_t addrs = 0x638357c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "TryAllocate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "TryAllocate", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.Try
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)(::ByRef<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator::Try)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)(::ByRef<::Unity::Collections::AllocatorManager_Block>)>(
+    &::Unity::Collections::RewindableAllocator::Try)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x63116e4;
+  constexpr static std::size_t addrs = 0x63836f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Try",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Try", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.Try
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator::Try)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(
+    &::Unity::Collections::RewindableAllocator::Try)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6311074;
+  constexpr static std::size_t addrs = 0x6383080;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Try",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Try", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_Handle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::AllocatorManager_AllocatorHandle (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_Handle)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::AllocatorManager_AllocatorHandle (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6311a34;
+  constexpr static std::size_t addrs = 0x6383a40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_Handle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "get_Handle",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.set_Handle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::RewindableAllocator::set_Handle)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(
+    &::Unity::Collections::RewindableAllocator::set_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6311a3c;
+  constexpr static std::size_t addrs = 0x6383a48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "set_Handle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::AllocatorManager_AllocatorHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "set_Handle", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::AllocatorManager_AllocatorHandle>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_ToAllocator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::Allocator (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_ToAllocator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::Allocator (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_ToAllocator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6311a44;
+  constexpr static std::size_t addrs = 0x6383a50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_ToAllocator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_ToAllocator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_IsCustomAllocator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_IsCustomAllocator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_IsCustomAllocator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6311a4c;
+  constexpr static std::size_t addrs = 0x6383a58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_IsCustomAllocator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_IsCustomAllocator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.get_IsAutoDispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_IsAutoDispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(
+    &::Unity::Collections::RewindableAllocator::get_IsAutoDispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6311a5c;
+  constexpr static std::size_t addrs = 0x6383a68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_IsAutoDispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                               "get_IsAutoDispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::RewindableAllocator.Try$BurstManaged
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator::Try$BurstManaged)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::ByRef<::Unity::Collections::AllocatorManager_Block>)>(
+    &::Unity::Collections::RewindableAllocator::Try$BurstManaged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6311a64;
+  constexpr static std::size_t addrs = 0x6383a70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Try$BurstManaged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Try$BurstManaged", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::RewindableAllocator::Initialize(int32_t  initialSizeInBytes, bool  enableBlockFree)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initialSizeInBytes, enableBlockFree);
+inline void Unity::Collections::RewindableAllocator::Initialize(int32_t initialSizeInBytes, bool enableBlockFree) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initialSizeInBytes, enableBlockFree);
 }
-inline bool Unity::Collections::RewindableAllocator::get_EnableBlockFree()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_EnableBlockFree",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::RewindableAllocator::get_EnableBlockFree() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_EnableBlockFree", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void Unity::Collections::RewindableAllocator::set_EnableBlockFree(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "set_EnableBlockFree",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Unity::Collections::RewindableAllocator::set_EnableBlockFree(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "set_EnableBlockFree",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int32_t Unity::Collections::RewindableAllocator::get_BlocksAllocated()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_BlocksAllocated",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Unity::Collections::RewindableAllocator::get_BlocksAllocated() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_BlocksAllocated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t Unity::Collections::RewindableAllocator::get_InitialSizeInBytes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_InitialSizeInBytes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Unity::Collections::RewindableAllocator::get_InitialSizeInBytes() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_InitialSizeInBytes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int64_t Unity::Collections::RewindableAllocator::get_MaxMemoryBlockSize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_MaxMemoryBlockSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+inline int64_t Unity::Collections::RewindableAllocator::get_MaxMemoryBlockSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_MaxMemoryBlockSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline int64_t Unity::Collections::RewindableAllocator::get_BytesAllocated()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_BytesAllocated",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+inline int64_t Unity::Collections::RewindableAllocator::get_BytesAllocated() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_BytesAllocated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline void Unity::Collections::RewindableAllocator::Rewind()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Rewind",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::RewindableAllocator::Rewind() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Rewind",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Unity::Collections::RewindableAllocator::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::RewindableAllocator::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Dispose",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Unity::Collections::AllocatorManager_TryFunction* Unity::Collections::RewindableAllocator::get_Function()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_Function",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::AllocatorManager_TryFunction*, false>(this, ___internal_method);
+inline ::Unity::Collections::AllocatorManager_TryFunction* Unity::Collections::RewindableAllocator::get_Function() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "get_Function",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::AllocatorManager_TryFunction*, false>(this, ___internal_method);
 }
-inline int32_t Unity::Collections::RewindableAllocator::TryAllocate(::ByRef<::Unity::Collections::AllocatorManager_Block>  block, int32_t  startIndex, int32_t  lastIndex, int64_t  alignedSize, int64_t  alignmentMask)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "TryAllocate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, block, startIndex, lastIndex, alignedSize, alignmentMask);
+inline int32_t Unity::Collections::RewindableAllocator::TryAllocate(::ByRef<::Unity::Collections::AllocatorManager_Block> block, int32_t startIndex, int32_t lastIndex, int64_t alignedSize,
+                                                                    int64_t alignmentMask) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "TryAllocate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, block, startIndex, lastIndex, alignedSize, alignmentMask);
 }
-inline int32_t Unity::Collections::RewindableAllocator::Try(::ByRef<::Unity::Collections::AllocatorManager_Block>  block)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Try",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, block);
+inline int32_t Unity::Collections::RewindableAllocator::Try(::ByRef<::Unity::Collections::AllocatorManager_Block> block) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Try", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, block);
 }
-inline int32_t Unity::Collections::RewindableAllocator::Try(::System::IntPtr  state, ::ByRef<::Unity::Collections::AllocatorManager_Block>  block)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Try",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, state, block);
+inline int32_t Unity::Collections::RewindableAllocator::Try(::System::IntPtr state, ::ByRef<::Unity::Collections::AllocatorManager_Block> block) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Try", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, state, block);
 }
-inline ::Unity::Collections::AllocatorManager_AllocatorHandle Unity::Collections::RewindableAllocator::get_Handle()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_Handle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::AllocatorManager_AllocatorHandle, false>(this, ___internal_method);
+inline ::Unity::Collections::AllocatorManager_AllocatorHandle Unity::Collections::RewindableAllocator::get_Handle() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "get_Handle",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::AllocatorManager_AllocatorHandle, false>(this, ___internal_method);
 }
-inline void Unity::Collections::RewindableAllocator::set_Handle(::Unity::Collections::AllocatorManager_AllocatorHandle  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "set_Handle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::AllocatorManager_AllocatorHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Unity::Collections::RewindableAllocator::set_Handle(::Unity::Collections::AllocatorManager_AllocatorHandle value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "set_Handle", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::AllocatorManager_AllocatorHandle>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Unity::Collections::Allocator Unity::Collections::RewindableAllocator::get_ToAllocator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_ToAllocator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Allocator, false>(this, ___internal_method);
+inline ::Unity::Collections::Allocator Unity::Collections::RewindableAllocator::get_ToAllocator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_ToAllocator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::Allocator, false>(this, ___internal_method);
 }
-inline bool Unity::Collections::RewindableAllocator::get_IsCustomAllocator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_IsCustomAllocator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::RewindableAllocator::get_IsCustomAllocator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_IsCustomAllocator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool Unity::Collections::RewindableAllocator::get_IsAutoDispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "get_IsAutoDispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Collections::RewindableAllocator::get_IsAutoDispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
+                                                                             "get_IsAutoDispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template<typename T>
-inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::RewindableAllocator::AllocateNativeArray(int32_t  length)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                    "AllocateNativeArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(this, ___internal_method, length);
+template <typename T> inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::RewindableAllocator::AllocateNativeArray(int32_t length) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "AllocateNativeArray",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(this, ___internal_method, length);
 }
-template<typename T>
-inline ::Unity::Collections::NativeList_1<T> Unity::Collections::RewindableAllocator::AllocateNativeList(int32_t  capacity)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                    "AllocateNativeList",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<T>, false>(this, ___internal_method, capacity);
+template <typename T> inline ::Unity::Collections::NativeList_1<T> Unity::Collections::RewindableAllocator::AllocateNativeList(int32_t capacity) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "AllocateNativeList",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<T>, false>(this, ___internal_method, capacity);
 }
-inline int32_t Unity::Collections::RewindableAllocator::Try$BurstManaged(::System::IntPtr  state, ::ByRef<::Unity::Collections::AllocatorManager_Block>  block)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(),
-                        "Try$BurstManaged",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, state, block);
+inline int32_t Unity::Collections::RewindableAllocator::Try$BurstManaged(::System::IntPtr state, ::ByRef<::Unity::Collections::AllocatorManager_Block> block) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::RewindableAllocator>::get(), "Try$BurstManaged", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Collections::AllocatorManager_Block>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, state, block);
 }
 /// @brief Convert operator to "::Unity::Collections::AllocatorManager_IAllocator"
-constexpr  Unity::Collections::RewindableAllocator::operator ::Unity::Collections::AllocatorManager_IAllocator*()  {
-return static_cast<::Unity::Collections::AllocatorManager_IAllocator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr Unity::Collections::RewindableAllocator::operator ::Unity::Collections::AllocatorManager_IAllocator*() {
+  return static_cast<::Unity::Collections::AllocatorManager_IAllocator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::Unity::Collections::AllocatorManager_IAllocator"
-constexpr ::Unity::Collections::AllocatorManager_IAllocator* Unity::Collections::RewindableAllocator::i___Unity__Collections__AllocatorManager_IAllocator()  {
-return static_cast<::Unity::Collections::AllocatorManager_IAllocator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::Unity::Collections::AllocatorManager_IAllocator* Unity::Collections::RewindableAllocator::i___Unity__Collections__AllocatorManager_IAllocator() {
+  return static_cast<::Unity::Collections::AllocatorManager_IAllocator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  Unity::Collections::RewindableAllocator::operator ::System::IDisposable*()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr Unity::Collections::RewindableAllocator::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Unity::Collections::RewindableAllocator::i___System__IDisposable()  {
-return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IDisposable* Unity::Collections::RewindableAllocator::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "m_spinner", ty: "::Unity::Collections::Spinner", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_handle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_block", ty: "::Unity::Collections::UnmanagedArray_1<::Unity::Collections::RewindableAllocator_MemoryBlock>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_last", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_used", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_enableBlockFree", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_reachMaxBlockSize", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::RewindableAllocator::RewindableAllocator(::Unity::Collections::Spinner  m_spinner, ::Unity::Collections::AllocatorManager_AllocatorHandle  m_handle, ::Unity::Collections::UnmanagedArray_1<::Unity::Collections::RewindableAllocator_MemoryBlock>  m_block, int32_t  m_last, int32_t  m_used, uint8_t  m_enableBlockFree, uint8_t  m_reachMaxBlockSize) noexcept  {
-this->m_spinner = m_spinner;
-this->m_handle = m_handle;
-this->m_block = m_block;
-this->m_last = m_last;
-this->m_used = m_used;
-this->m_enableBlockFree = m_enableBlockFree;
-this->m_reachMaxBlockSize = m_reachMaxBlockSize;
+// Ctor Parameters [CppParam { name: "m_spinner", ty: "::Unity::Collections::Spinner", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_handle", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_block", ty:
+// "::Unity::Collections::UnmanagedArray_1<::Unity::Collections::RewindableAllocator_MemoryBlock>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_last", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "m_used", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_enableBlockFree", ty: "uint8_t", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "m_reachMaxBlockSize", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Collections::RewindableAllocator::RewindableAllocator(::Unity::Collections::Spinner m_spinner, ::Unity::Collections::AllocatorManager_AllocatorHandle m_handle,
+                                                                         ::Unity::Collections::UnmanagedArray_1<::Unity::Collections::RewindableAllocator_MemoryBlock> m_block, int32_t m_last,
+                                                                         int32_t m_used, uint8_t m_enableBlockFree, uint8_t m_reachMaxBlockSize) noexcept {
+  this->m_spinner = m_spinner;
+  this->m_handle = m_handle;
+  this->m_block = m_block;
+  this->m_last = m_last;
+  this->m_used = m_used;
+  this->m_enableBlockFree = m_enableBlockFree;
+  this->m_reachMaxBlockSize = m_reachMaxBlockSize;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::RewindableAllocator::RewindableAllocator()   {
-}
+constexpr ::Unity::Collections::RewindableAllocator::RewindableAllocator() {}

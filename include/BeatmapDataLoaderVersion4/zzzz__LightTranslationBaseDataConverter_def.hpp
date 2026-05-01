@@ -24,32 +24,32 @@ namespace BeatmapDataLoaderVersion4 {
 // CS Name: BeatmapDataLoaderVersion4.LightTranslationBaseDataConverter
 class CORDL_TYPE LightTranslationBaseDataConverter : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Convert, addr 0x3666b30, size 0x8c, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::LightTranslationBaseData* Convert(float_t  beat, ::BeatmapSaveDataVersion4::LightTranslationEvent  lightTranslationEvent) ;
+  // Declarations
+  /// @brief Method Convert, addr 0x36a358c, size 0x8c, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::LightTranslationBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightTranslationEvent lightTranslationEvent);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LightTranslationBaseDataConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationBaseDataConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseDataConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LightTranslationBaseDataConverter(LightTranslationBaseDataConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseDataConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LightTranslationBaseDataConverter(LightTranslationBaseDataConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseDataConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LightTranslationBaseDataConverter(LightTranslationBaseDataConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseDataConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LightTranslationBaseDataConverter(LightTranslationBaseDataConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15426 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15419};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter, 0x10>, "Size mismatch!");
 
-} // namespace end def BeatmapDataLoaderVersion4
+} // namespace BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter*, "BeatmapDataLoaderVersion4", "LightTranslationBaseDataConverter");

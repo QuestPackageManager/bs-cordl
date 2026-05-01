@@ -18,44 +18,44 @@ namespace Org::BouncyCastle::Utilities {
 // CS Name: Org.BouncyCastle.Utilities.Times
 class CORDL_TYPE Times : public ::System::Object {
 public:
-// Declarations
-/// @brief Field NanosecondsPerTick, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_NanosecondsPerTick, put=setStaticF_NanosecondsPerTick)) int64_t  NanosecondsPerTick;
+  // Declarations
+  /// @brief Field NanosecondsPerTick, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_NanosecondsPerTick, put = setStaticF_NanosecondsPerTick)) int64_t NanosecondsPerTick;
 
-/// @brief Method NanoTime, addr 0x35431c4, size 0xa8, virtual false, abstract: false, final false
-static inline int64_t NanoTime() ;
+  /// @brief Method NanoTime, addr 0x357f808, size 0xa8, virtual false, abstract: false, final false
+  static inline int64_t NanoTime();
 
-static inline ::Org::BouncyCastle::Utilities::Times* New_ctor() ;
+  static inline ::Org::BouncyCastle::Utilities::Times* New_ctor();
 
-/// @brief Method .ctor, addr 0x35432bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x357f900, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline int64_t getStaticF_NanosecondsPerTick() ;
+  static inline int64_t getStaticF_NanosecondsPerTick();
 
-static inline void setStaticF_NanosecondsPerTick(int64_t  value) ;
+  static inline void setStaticF_NanosecondsPerTick(int64_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Times() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Times();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Times", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Times(Times&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Times", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Times(Times && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Times", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Times(Times const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Times", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Times(Times const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1838 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1838};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Times, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Utilities
+} // namespace Org::BouncyCastle::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Times);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Times*, "Org.BouncyCastle.Utilities", "Times");

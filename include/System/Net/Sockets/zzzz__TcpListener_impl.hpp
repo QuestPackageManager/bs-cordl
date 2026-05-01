@@ -11,238 +11,197 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::TcpListener._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)(::System::Net::IPAddress*, int32_t)>(&::System::Net::Sockets::TcpListener::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)(::System::Net::IPAddress*, int32_t)>(
+    &::System::Net::Sockets::TcpListener::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x61b6b68;
+  constexpr static std::size_t addrs = 0x6228b74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IPAddress*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IPAddress*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Sockets::TcpListener.get_LocalEndpoint
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::EndPoint* (::System::Net::Sockets::TcpListener::*)()>(&::System::Net::Sockets::TcpListener::get_LocalEndpoint)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::EndPoint* (::System::Net::Sockets::TcpListener::*)()>(
+    &::System::Net::Sockets::TcpListener::get_LocalEndpoint)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61b6ce8;
+  constexpr static std::size_t addrs = 0x6228cf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "get_LocalEndpoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "get_LocalEndpoint",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Sockets::TcpListener.Start
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)()>(&::System::Net::Sockets::TcpListener::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b6d10;
+  constexpr static std::size_t addrs = 0x6228d1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Start",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Sockets::TcpListener.Start
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)(int32_t)>(&::System::Net::Sockets::TcpListener::Start)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x61b6d18;
+  constexpr static std::size_t addrs = 0x6228d24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Start", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Sockets::TcpListener.Stop
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)()>(&::System::Net::Sockets::TcpListener::Stop)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x61b6e88;
+  constexpr static std::size_t addrs = 0x6228e94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "Stop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Stop",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Sockets::TcpListener.BeginAcceptTcpClient
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::System::Net::Sockets::TcpListener::*)(::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Sockets::TcpListener::BeginAcceptTcpClient)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::System::Net::Sockets::TcpListener::*)(::System::AsyncCallback*, ::System::Object*)>(
+    &::System::Net::Sockets::TcpListener::BeginAcceptTcpClient)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61b6f4c;
+  constexpr static std::size_t addrs = 0x6228f58;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "BeginAcceptTcpClient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AsyncCallback*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "BeginAcceptTcpClient", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AsyncCallback*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::Sockets::TcpListener.EndAcceptTcpClient
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::TcpClient* (::System::Net::Sockets::TcpListener::*)(::System::IAsyncResult*)>(&::System::Net::Sockets::TcpListener::EndAcceptTcpClient)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::TcpClient* (::System::Net::Sockets::TcpListener::*)(::System::IAsyncResult*)>(
+    &::System::Net::Sockets::TcpListener::EndAcceptTcpClient)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x61b6fc0;
+  constexpr static std::size_t addrs = 0x6228fcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "EndAcceptTcpClient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IAsyncResult*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "EndAcceptTcpClient", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IAsyncResult*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Net::IPEndPoint*& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ServerSocketEP()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ServerSocketEP;
+constexpr ::System::Net::IPEndPoint*& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ServerSocketEP() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ServerSocketEP;
 }
 constexpr ::System::Net::IPEndPoint* const& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ServerSocketEP() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ServerSocketEP;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ServerSocketEP;
 }
-constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_ServerSocketEP(::System::Net::IPEndPoint*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ServerSocketEP)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_ServerSocketEP(::System::Net::IPEndPoint* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ServerSocketEP)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Net::Sockets::Socket*& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ServerSocket()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ServerSocket;
+constexpr ::System::Net::Sockets::Socket*& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ServerSocket() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ServerSocket;
 }
 constexpr ::System::Net::Sockets::Socket* const& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ServerSocket() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ServerSocket;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ServerSocket;
 }
-constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_ServerSocket(::System::Net::Sockets::Socket*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ServerSocket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_ServerSocket(::System::Net::Sockets::Socket* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ServerSocket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Net::Sockets::TcpListener::__cordl_internal_get_m_Active()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Active;
+constexpr bool& System::Net::Sockets::TcpListener::__cordl_internal_get_m_Active() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Active;
 }
 constexpr bool const& System::Net::Sockets::TcpListener::__cordl_internal_get_m_Active() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Active;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Active;
 }
-constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_Active(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Active = value;
+constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_Active(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Active = value;
 }
-constexpr bool& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ExclusiveAddressUse()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ExclusiveAddressUse;
+constexpr bool& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ExclusiveAddressUse() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ExclusiveAddressUse;
 }
 constexpr bool const& System::Net::Sockets::TcpListener::__cordl_internal_get_m_ExclusiveAddressUse() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ExclusiveAddressUse;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ExclusiveAddressUse;
 }
-constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_ExclusiveAddressUse(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_ExclusiveAddressUse = value;
+constexpr void System::Net::Sockets::TcpListener::__cordl_internal_set_m_ExclusiveAddressUse(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ExclusiveAddressUse = value;
 }
-inline void System::Net::Sockets::TcpListener::_ctor(::System::Net::IPAddress*  localaddr, int32_t  port)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IPAddress*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localaddr, port);
+inline void System::Net::Sockets::TcpListener::_ctor(::System::Net::IPAddress* localaddr, int32_t port) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IPAddress*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localaddr, port);
 }
-inline ::System::Net::EndPoint* System::Net::Sockets::TcpListener::get_LocalEndpoint()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "get_LocalEndpoint",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::EndPoint*, false>(this, ___internal_method);
+inline ::System::Net::EndPoint* System::Net::Sockets::TcpListener::get_LocalEndpoint() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "get_LocalEndpoint",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::EndPoint*, false>(this, ___internal_method);
 }
-inline void System::Net::Sockets::TcpListener::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Net::Sockets::TcpListener::Start() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Start",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Net::Sockets::TcpListener::Start(int32_t  backlog)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, backlog);
+inline void System::Net::Sockets::TcpListener::Start(int32_t backlog) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Start", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, backlog);
 }
-inline void System::Net::Sockets::TcpListener::Stop()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "Stop",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Net::Sockets::TcpListener::Stop() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Stop",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::IAsyncResult* System::Net::Sockets::TcpListener::BeginAcceptTcpClient(::System::AsyncCallback*  callback, ::System::Object*  state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "BeginAcceptTcpClient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AsyncCallback*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, callback, state);
+inline ::System::IAsyncResult* System::Net::Sockets::TcpListener::BeginAcceptTcpClient(::System::AsyncCallback* callback, ::System::Object* state) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "BeginAcceptTcpClient", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AsyncCallback*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, callback, state);
 }
-inline ::System::Net::Sockets::TcpClient* System::Net::Sockets::TcpListener::EndAcceptTcpClient(::System::IAsyncResult*  asyncResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(),
-                        "EndAcceptTcpClient",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IAsyncResult*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::Sockets::TcpClient*, false>(this, ___internal_method, asyncResult);
+inline ::System::Net::Sockets::TcpClient* System::Net::Sockets::TcpListener::EndAcceptTcpClient(::System::IAsyncResult* asyncResult) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "EndAcceptTcpClient", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IAsyncResult*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::Sockets::TcpClient*, false>(this, ___internal_method, asyncResult);
 }
-inline ::System::Net::Sockets::TcpListener* System::Net::Sockets::TcpListener::New_ctor(::System::Net::IPAddress*  localaddr, int32_t  port)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::TcpListener*>(localaddr, port));
+inline ::System::Net::Sockets::TcpListener* System::Net::Sockets::TcpListener::New_ctor(::System::Net::IPAddress* localaddr, int32_t port) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::TcpListener*>(localaddr, port));
 }
 // Ctor Parameters []
-constexpr ::System::Net::Sockets::TcpListener::TcpListener()   {
-}
+constexpr ::System::Net::Sockets::TcpListener::TcpListener() {}

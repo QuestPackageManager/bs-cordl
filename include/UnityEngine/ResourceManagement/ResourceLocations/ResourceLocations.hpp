@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceLocations/ILocationSizeData.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
@@ -9,6 +9,5 @@
 #include "UnityEngine/ResourceManagement/ResourceLocations/ResourceLocationBase.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/ResourceLocationComparer.hpp"
 #ifdef __cpp_modules
-                    export module ResourceLocations;
-                    #endif
-                
+export module ResourceLocations;
+#endif

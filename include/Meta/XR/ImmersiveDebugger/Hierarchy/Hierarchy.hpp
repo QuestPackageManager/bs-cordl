@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/ComponentItem.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/GameObjectItem.hpp"
@@ -12,6 +12,5 @@
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/SceneItem.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/SceneRegistry.hpp"
 #ifdef __cpp_modules
-                    export module Hierarchy;
-                    #endif
-                
+export module Hierarchy;
+#endif

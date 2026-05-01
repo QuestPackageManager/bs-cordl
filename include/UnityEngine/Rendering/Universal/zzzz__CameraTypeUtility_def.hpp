@@ -21,39 +21,39 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.CameraTypeUtility
 class CORDL_TYPE CameraTypeUtility : public ::System::Object {
 public:
-// Declarations
-/// @brief Field s_CameraTypeNames, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_CameraTypeNames, put=setStaticF_s_CameraTypeNames)) ::ArrayW<::StringW,::Array<::StringW>*>  s_CameraTypeNames;
+  // Declarations
+  /// @brief Field s_CameraTypeNames, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_CameraTypeNames, put = setStaticF_s_CameraTypeNames)) ::ArrayW<::StringW, ::Array<::StringW>*> s_CameraTypeNames;
 
-/// @brief Method GetName, addr 0x6710754, size 0xb4, virtual false, abstract: false, final false
-static inline ::StringW GetName(::UnityEngine::Rendering::Universal::CameraRenderType  type) ;
+  /// @brief Method GetName, addr 0x6782760, size 0xb4, virtual false, abstract: false, final false
+  static inline ::StringW GetName(::UnityEngine::Rendering::Universal::CameraRenderType type);
 
-static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_s_CameraTypeNames() ;
+  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_CameraTypeNames();
 
-static inline void setStaticF_s_CameraTypeNames(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
+  static inline void setStaticF_s_CameraTypeNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CameraTypeUtility() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CameraTypeUtility();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CameraTypeUtility(CameraTypeUtility&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CameraTypeUtility(CameraTypeUtility && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CameraTypeUtility(CameraTypeUtility const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CameraTypeUtility", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CameraTypeUtility(CameraTypeUtility const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12975 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12968};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::CameraTypeUtility, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::CameraTypeUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::CameraTypeUtility*, "UnityEngine.Rendering.Universal", "CameraTypeUtility");

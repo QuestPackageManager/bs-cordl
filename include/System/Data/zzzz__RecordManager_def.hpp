@@ -7,8 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordManager)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System::Data {
 class DataRow;
@@ -28,158 +27,158 @@ namespace System::Data {
 // CS Name: System.Data.RecordManager
 class CORDL_TYPE RecordManager : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Item, put=set_Item)) ::System::Data::DataRow*  Item[];
+  // Declarations
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Data::DataRow* Item[];
 
- __declspec(property(get=get_LastFreeRecord)) int32_t  LastFreeRecord;
+  __declspec(property(get = get_LastFreeRecord)) int32_t LastFreeRecord;
 
- __declspec(property(get=get_MinimumCapacity, put=set_MinimumCapacity)) int32_t  MinimumCapacity;
+  __declspec(property(get = get_MinimumCapacity, put = set_MinimumCapacity)) int32_t MinimumCapacity;
 
- __declspec(property(get=get_RecordCapacity, put=set_RecordCapacity)) int32_t  RecordCapacity;
+  __declspec(property(get = get_RecordCapacity, put = set_RecordCapacity)) int32_t RecordCapacity;
 
-/// @brief Field _freeRecordList, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__freeRecordList, put=__cordl_internal_set__freeRecordList)) ::System::Collections::Generic::List_1<int32_t>*  _freeRecordList;
+  /// @brief Field _freeRecordList, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__freeRecordList, put = __cordl_internal_set__freeRecordList)) ::System::Collections::Generic::List_1<int32_t>* _freeRecordList;
 
-/// @brief Field _lastFreeRecord, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get__lastFreeRecord, put=__cordl_internal_set__lastFreeRecord)) int32_t  _lastFreeRecord;
+  /// @brief Field _lastFreeRecord, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastFreeRecord, put = __cordl_internal_set__lastFreeRecord)) int32_t _lastFreeRecord;
 
-/// @brief Field _minimumCapacity, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get__minimumCapacity, put=__cordl_internal_set__minimumCapacity)) int32_t  _minimumCapacity;
+  /// @brief Field _minimumCapacity, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__minimumCapacity, put = __cordl_internal_set__minimumCapacity)) int32_t _minimumCapacity;
 
-/// @brief Field _recordCapacity, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__recordCapacity, put=__cordl_internal_set__recordCapacity)) int32_t  _recordCapacity;
+  /// @brief Field _recordCapacity, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__recordCapacity, put = __cordl_internal_set__recordCapacity)) int32_t _recordCapacity;
 
-/// @brief Field _rows, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__rows, put=__cordl_internal_set__rows)) ::ArrayW<::System::Data::DataRow*,::Array<::System::Data::DataRow*>*>  _rows;
+  /// @brief Field _rows, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__rows, put = __cordl_internal_set__rows)) ::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> _rows;
 
-/// @brief Field _table, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__table, put=__cordl_internal_set__table)) ::System::Data::DataTable*  _table;
+  /// @brief Field _table, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-/// @brief Method Clear, addr 0x5e975e8, size 0x20c, virtual false, abstract: false, final false
-inline void Clear(bool  clearAll) ;
+  /// @brief Method Clear, addr 0x5f095f4, size 0x20c, virtual false, abstract: false, final false
+  inline void Clear(bool clearAll);
 
-/// @brief Method CopyRecord, addr 0x5e9782c, size 0x33c, virtual false, abstract: false, final false
-inline int32_t CopyRecord(::System::Data::DataTable*  src, int32_t  record, int32_t  copy) ;
+  /// @brief Method CopyRecord, addr 0x5f09838, size 0x33c, virtual false, abstract: false, final false
+  inline int32_t CopyRecord(::System::Data::DataTable* src, int32_t record, int32_t copy);
 
-/// @brief Method FreeRecord, addr 0x5e97420, size 0x164, virtual false, abstract: false, final false
-inline void FreeRecord(::ByRef<int32_t>  record) ;
+  /// @brief Method FreeRecord, addr 0x5f0942c, size 0x164, virtual false, abstract: false, final false
+  inline void FreeRecord(::ByRef<int32_t> record);
 
-/// @brief Method GrowRecordCapacity, addr 0x5e97114, size 0x100, virtual false, abstract: false, final false
-inline void GrowRecordCapacity() ;
+  /// @brief Method GrowRecordCapacity, addr 0x5f09120, size 0x100, virtual false, abstract: false, final false
+  inline void GrowRecordCapacity();
 
-/// @brief Method ImportRecord, addr 0x5e97824, size 0x8, virtual false, abstract: false, final false
-inline int32_t ImportRecord(::System::Data::DataTable*  src, int32_t  record) ;
+  /// @brief Method ImportRecord, addr 0x5f09830, size 0x8, virtual false, abstract: false, final false
+  inline int32_t ImportRecord(::System::Data::DataTable* src, int32_t record);
 
-/// @brief Method NewCapacity, addr 0x5e97214, size 0x14, virtual false, abstract: false, final false
-static inline int32_t NewCapacity(int32_t  capacity) ;
+  /// @brief Method NewCapacity, addr 0x5f09220, size 0x14, virtual false, abstract: false, final false
+  static inline int32_t NewCapacity(int32_t capacity);
 
-/// @brief Method NewRecordBase, addr 0x5e97344, size 0xdc, virtual false, abstract: false, final false
-inline int32_t NewRecordBase() ;
+  /// @brief Method NewRecordBase, addr 0x5f09350, size 0xdc, virtual false, abstract: false, final false
+  inline int32_t NewRecordBase();
 
-static inline ::System::Data::RecordManager* New_ctor(::System::Data::DataTable*  table) ;
+  static inline ::System::Data::RecordManager* New_ctor(::System::Data::DataTable* table);
 
-/// @brief Method NormalizedMinimumCapacity, addr 0x5e97228, size 0x34, virtual false, abstract: false, final false
-inline int32_t NormalizedMinimumCapacity(int32_t  capacity) ;
+  /// @brief Method NormalizedMinimumCapacity, addr 0x5f09234, size 0x34, virtual false, abstract: false, final false
+  inline int32_t NormalizedMinimumCapacity(int32_t capacity);
 
-/// @brief Method SetRowCache, addr 0x5e97b68, size 0x20, virtual false, abstract: false, final false
-inline void SetRowCache(::ArrayW<::System::Data::DataRow*,::Array<::System::Data::DataRow*>*>  newRows) ;
+  /// @brief Method SetRowCache, addr 0x5f09b74, size 0x20, virtual false, abstract: false, final false
+  inline void SetRowCache(::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> newRows);
 
-constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get__freeRecordList() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get__freeRecordList() const;
 
-constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__freeRecordList() ;
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__freeRecordList();
 
-constexpr int32_t const& __cordl_internal_get__lastFreeRecord() const;
+  constexpr int32_t const& __cordl_internal_get__lastFreeRecord() const;
 
-constexpr int32_t& __cordl_internal_get__lastFreeRecord() ;
+  constexpr int32_t& __cordl_internal_get__lastFreeRecord();
 
-constexpr int32_t const& __cordl_internal_get__minimumCapacity() const;
+  constexpr int32_t const& __cordl_internal_get__minimumCapacity() const;
 
-constexpr int32_t& __cordl_internal_get__minimumCapacity() ;
+  constexpr int32_t& __cordl_internal_get__minimumCapacity();
 
-constexpr int32_t const& __cordl_internal_get__recordCapacity() const;
+  constexpr int32_t const& __cordl_internal_get__recordCapacity() const;
 
-constexpr int32_t& __cordl_internal_get__recordCapacity() ;
+  constexpr int32_t& __cordl_internal_get__recordCapacity();
 
-constexpr ::ArrayW<::System::Data::DataRow*,::Array<::System::Data::DataRow*>*> const& __cordl_internal_get__rows() const;
+  constexpr ::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> const& __cordl_internal_get__rows() const;
 
-constexpr ::ArrayW<::System::Data::DataRow*,::Array<::System::Data::DataRow*>*>& __cordl_internal_get__rows() ;
+  constexpr ::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*>& __cordl_internal_get__rows();
 
-constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
 
-constexpr ::System::Data::DataTable*& __cordl_internal_get__table() ;
+  constexpr ::System::Data::DataTable*& __cordl_internal_get__table();
 
-constexpr void __cordl_internal_set__freeRecordList(::System::Collections::Generic::List_1<int32_t>*  value) ;
+  constexpr void __cordl_internal_set__freeRecordList(::System::Collections::Generic::List_1<int32_t>* value);
 
-constexpr void __cordl_internal_set__lastFreeRecord(int32_t  value) ;
+  constexpr void __cordl_internal_set__lastFreeRecord(int32_t value);
 
-constexpr void __cordl_internal_set__minimumCapacity(int32_t  value) ;
+  constexpr void __cordl_internal_set__minimumCapacity(int32_t value);
 
-constexpr void __cordl_internal_set__recordCapacity(int32_t  value) ;
+  constexpr void __cordl_internal_set__recordCapacity(int32_t value);
 
-constexpr void __cordl_internal_set__rows(::ArrayW<::System::Data::DataRow*,::Array<::System::Data::DataRow*>*>  value) ;
+  constexpr void __cordl_internal_set__rows(::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> value);
 
-constexpr void __cordl_internal_set__table(::System::Data::DataTable*  value) ;
+  constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-/// @brief Method .ctor, addr 0x5e97054, size 0xc0, virtual false, abstract: false, final false
-inline void _ctor(::System::Data::DataTable*  table) ;
+  /// @brief Method .ctor, addr 0x5f09060, size 0xc0, virtual false, abstract: false, final false
+  inline void _ctor(::System::Data::DataTable* table);
 
-/// @brief Method get_Item, addr 0x5e977f4, size 0x30, virtual false, abstract: false, final false
-inline ::System::Data::DataRow* get_Item(int32_t  record) ;
+  /// @brief Method get_Item, addr 0x5f09800, size 0x30, virtual false, abstract: false, final false
+  inline ::System::Data::DataRow* get_Item(int32_t record);
 
-/// @brief Method get_LastFreeRecord, addr 0x5e972ec, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_LastFreeRecord() ;
+  /// @brief Method get_LastFreeRecord, addr 0x5f092f8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_LastFreeRecord();
 
-/// @brief Method get_MinimumCapacity, addr 0x5e972f4, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_MinimumCapacity() ;
+  /// @brief Method get_MinimumCapacity, addr 0x5f09300, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_MinimumCapacity();
 
-/// @brief Method get_RecordCapacity, addr 0x5e9733c, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_RecordCapacity() ;
+  /// @brief Method get_RecordCapacity, addr 0x5f09348, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_RecordCapacity();
 
-/// @brief Method set_Item, addr 0x5e97584, size 0x64, virtual false, abstract: false, final false
-inline void set_Item(int32_t  record, ::System::Data::DataRow*  value) ;
+  /// @brief Method set_Item, addr 0x5f09590, size 0x64, virtual false, abstract: false, final false
+  inline void set_Item(int32_t record, ::System::Data::DataRow* value);
 
-/// @brief Method set_MinimumCapacity, addr 0x5e972fc, size 0x40, virtual false, abstract: false, final false
-inline void set_MinimumCapacity(int32_t  value) ;
+  /// @brief Method set_MinimumCapacity, addr 0x5f09308, size 0x40, virtual false, abstract: false, final false
+  inline void set_MinimumCapacity(int32_t value);
 
-/// @brief Method set_RecordCapacity, addr 0x5e9725c, size 0x90, virtual false, abstract: false, final false
-inline void set_RecordCapacity(int32_t  value) ;
+  /// @brief Method set_RecordCapacity, addr 0x5f09268, size 0x90, virtual false, abstract: false, final false
+  inline void set_RecordCapacity(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RecordManager() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RecordManager();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RecordManager(RecordManager&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RecordManager(RecordManager && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RecordManager(RecordManager const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RecordManager(RecordManager const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13832 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13825};
+  /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
+  ::System::Data::DataTable* ____table;
 
-/// @brief Field _table, offset: 0x10, size: 0x8, def value: None
- ::System::Data::DataTable*  ____table;
+  /// @brief Field _lastFreeRecord, offset: 0x18, size: 0x4, def value: None
+  int32_t ____lastFreeRecord;
 
-/// @brief Field _lastFreeRecord, offset: 0x18, size: 0x4, def value: None
- int32_t  ____lastFreeRecord;
+  /// @brief Field _minimumCapacity, offset: 0x1c, size: 0x4, def value: None
+  int32_t ____minimumCapacity;
 
-/// @brief Field _minimumCapacity, offset: 0x1c, size: 0x4, def value: None
- int32_t  ____minimumCapacity;
+  /// @brief Field _recordCapacity, offset: 0x20, size: 0x4, def value: None
+  int32_t ____recordCapacity;
 
-/// @brief Field _recordCapacity, offset: 0x20, size: 0x4, def value: None
- int32_t  ____recordCapacity;
+  /// @brief Field _freeRecordList, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<int32_t>* ____freeRecordList;
 
-/// @brief Field _freeRecordList, offset: 0x28, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<int32_t>*  ____freeRecordList;
+  /// @brief Field _rows, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> ____rows;
 
-/// @brief Field _rows, offset: 0x30, size: 0x8, def value: None
- ::ArrayW<::System::Data::DataRow*,::Array<::System::Data::DataRow*>*>  ____rows;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::RecordManager, ____table) == 0x10, "Offset mismatch!");
@@ -196,6 +195,6 @@ static_assert(offsetof(::System::Data::RecordManager, ____rows) == 0x30, "Offset
 
 static_assert(::cordl_internals::size_check_v<::System::Data::RecordManager, 0x38>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::RecordManager);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::RecordManager*, "System.Data", "RecordManager");

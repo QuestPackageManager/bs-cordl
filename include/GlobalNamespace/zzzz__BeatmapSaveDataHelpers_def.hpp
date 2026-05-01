@@ -13,8 +13,7 @@ namespace GlobalNamespace {
 class BeatmapSaveDataHelpers___c__DisplayClass6_0;
 }
 namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+template <typename TResult> class Task_1;
 }
 namespace System {
 class Version;
@@ -39,59 +38,59 @@ namespace GlobalNamespace {
 // CS Name: BeatmapSaveDataHelpers/VersionSerializedData
 class CORDL_TYPE BeatmapSaveDataHelpers_VersionSerializedData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _version, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__version, put=__cordl_internal_set__version)) ::StringW  _version;
+  // Declarations
+  /// @brief Field _version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::StringW _version;
 
- __declspec(property(get=get_v)) ::StringW  v;
+  __declspec(property(get = get_v)) ::StringW v;
 
-/// @brief Field version, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::StringW  version;
+  /// @brief Field version, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
-static inline ::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializedData* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializedData* New_ctor();
 
-constexpr ::StringW const& __cordl_internal_get__version() const;
+  constexpr ::StringW const& __cordl_internal_get__version() const;
 
-constexpr ::StringW& __cordl_internal_get__version() ;
+  constexpr ::StringW& __cordl_internal_get__version();
 
-constexpr ::StringW const& __cordl_internal_get_version() const;
+  constexpr ::StringW const& __cordl_internal_get_version() const;
 
-constexpr ::StringW& __cordl_internal_get_version() ;
+  constexpr ::StringW& __cordl_internal_get_version();
 
-constexpr void __cordl_internal_set__version(::StringW  value) ;
+  constexpr void __cordl_internal_set__version(::StringW value);
 
-constexpr void __cordl_internal_set_version(::StringW  value) ;
+  constexpr void __cordl_internal_set_version(::StringW value);
 
-/// @brief Method .ctor, addr 0x3657668, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36935dc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_v, addr 0x36573ec, size 0x20, virtual false, abstract: false, final false
-inline ::StringW get_v() ;
+  /// @brief Method get_v, addr 0x3693360, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW get_v();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapSaveDataHelpers_VersionSerializedData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapSaveDataHelpers_VersionSerializedData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers_VersionSerializedData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapSaveDataHelpers_VersionSerializedData(BeatmapSaveDataHelpers_VersionSerializedData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers_VersionSerializedData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapSaveDataHelpers_VersionSerializedData(BeatmapSaveDataHelpers_VersionSerializedData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers_VersionSerializedData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapSaveDataHelpers_VersionSerializedData(BeatmapSaveDataHelpers_VersionSerializedData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers_VersionSerializedData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapSaveDataHelpers_VersionSerializedData(BeatmapSaveDataHelpers_VersionSerializedData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15201 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15196};
+  /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____version;
 
-/// @brief Field _version, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____version;
+  /// @brief Field version, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___version;
 
-/// @brief Field version, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___version;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializedData, ____version) == 0x10, "Offset mismatch!");
@@ -100,127 +99,127 @@ static_assert(offsetof(::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializ
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializedData, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapSaveDataHelpers/<>c__DisplayClass6_0
 class CORDL_TYPE BeatmapSaveDataHelpers___c__DisplayClass6_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field data, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_data, put=__cordl_internal_set_data)) ::StringW  data;
+  // Declarations
+  /// @brief Field data, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
 
-static inline ::GlobalNamespace::BeatmapSaveDataHelpers___c__DisplayClass6_0* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapSaveDataHelpers___c__DisplayClass6_0* New_ctor();
 
-/// @brief Method <GetVersionAsync>b__0, addr 0x365766c, size 0x5c, virtual false, abstract: false, final false
-inline ::System::Version* _GetVersionAsync_b__0() ;
+  /// @brief Method <GetVersionAsync>b__0, addr 0x36935e0, size 0x5c, virtual false, abstract: false, final false
+  inline ::System::Version* _GetVersionAsync_b__0();
 
-constexpr ::StringW const& __cordl_internal_get_data() const;
+  constexpr ::StringW const& __cordl_internal_get_data() const;
 
-constexpr ::StringW& __cordl_internal_get_data() ;
+  constexpr ::StringW& __cordl_internal_get_data();
 
-constexpr void __cordl_internal_set_data(::StringW  value) ;
+  constexpr void __cordl_internal_set_data(::StringW value);
 
-/// @brief Method .ctor, addr 0x3657534, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36934a8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapSaveDataHelpers___c__DisplayClass6_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapSaveDataHelpers___c__DisplayClass6_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapSaveDataHelpers___c__DisplayClass6_0(BeatmapSaveDataHelpers___c__DisplayClass6_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapSaveDataHelpers___c__DisplayClass6_0(BeatmapSaveDataHelpers___c__DisplayClass6_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapSaveDataHelpers___c__DisplayClass6_0(BeatmapSaveDataHelpers___c__DisplayClass6_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapSaveDataHelpers___c__DisplayClass6_0(BeatmapSaveDataHelpers___c__DisplayClass6_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15202 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15197};
+  /// @brief Field data, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___data;
 
-/// @brief Field data, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___data;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapSaveDataHelpers___c__DisplayClass6_0, ___data) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSaveDataHelpers___c__DisplayClass6_0, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapSaveDataHelpers
 class CORDL_TYPE BeatmapSaveDataHelpers : public ::System::Object {
 public:
-// Declarations
-using VersionSerializedData = ::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializedData;
+  // Declarations
+  using VersionSerializedData = ::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializedData;
 
-using __c__DisplayClass6_0 = ::GlobalNamespace::BeatmapSaveDataHelpers___c__DisplayClass6_0;
+  using __c__DisplayClass6_0 = ::GlobalNamespace::BeatmapSaveDataHelpers___c__DisplayClass6_0;
 
-/// @brief Field noVersion, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_noVersion, put=setStaticF_noVersion)) ::System::Version*  noVersion;
+  /// @brief Field noVersion, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_noVersion, put = setStaticF_noVersion)) ::System::Version* noVersion;
 
-/// @brief Field version2, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_version2, put=setStaticF_version2)) ::System::Version*  version2;
+  /// @brief Field version2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_version2, put = setStaticF_version2)) ::System::Version* version2;
 
-/// @brief Field version3, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_version3, put=setStaticF_version3)) ::System::Version*  version3;
+  /// @brief Field version3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_version3, put = setStaticF_version3)) ::System::Version* version3;
 
-/// @brief Field version4, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_version4, put=setStaticF_version4)) ::System::Version*  version4;
+  /// @brief Field version4, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_version4, put = setStaticF_version4)) ::System::Version* version4;
 
-/// @brief Method GetVersion, addr 0x36570b0, size 0x218, virtual false, abstract: false, final false
-static inline ::System::Version* GetVersion(::StringW  data) ;
+  /// @brief Method GetVersion, addr 0x3693024, size 0x218, virtual false, abstract: false, final false
+  static inline ::System::Version* GetVersion(::StringW data);
 
-/// @brief Method GetVersionAsync, addr 0x365740c, size 0x128, virtual false, abstract: false, final false
-static inline ::System::Threading::Tasks::Task_1<::System::Version*>* GetVersionAsync(::StringW  data) ;
+  /// @brief Method GetVersionAsync, addr 0x3693380, size 0x128, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::System::Version*>* GetVersionAsync(::StringW data);
 
-static inline ::System::Version* getStaticF_noVersion() ;
+  static inline ::System::Version* getStaticF_noVersion();
 
-static inline ::System::Version* getStaticF_version2() ;
+  static inline ::System::Version* getStaticF_version2();
 
-static inline ::System::Version* getStaticF_version3() ;
+  static inline ::System::Version* getStaticF_version3();
 
-static inline ::System::Version* getStaticF_version4() ;
+  static inline ::System::Version* getStaticF_version4();
 
-static inline void setStaticF_noVersion(::System::Version*  value) ;
+  static inline void setStaticF_noVersion(::System::Version* value);
 
-static inline void setStaticF_version2(::System::Version*  value) ;
+  static inline void setStaticF_version2(::System::Version* value);
 
-static inline void setStaticF_version3(::System::Version*  value) ;
+  static inline void setStaticF_version3(::System::Version* value);
 
-static inline void setStaticF_version4(::System::Version*  value) ;
+  static inline void setStaticF_version4(::System::Version* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapSaveDataHelpers() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapSaveDataHelpers();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapSaveDataHelpers(BeatmapSaveDataHelpers&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapSaveDataHelpers(BeatmapSaveDataHelpers && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapSaveDataHelpers(BeatmapSaveDataHelpers const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapSaveDataHelpers(BeatmapSaveDataHelpers const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15203 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15198};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSaveDataHelpers, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapSaveDataHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapSaveDataHelpers*, "", "BeatmapSaveDataHelpers");
 NEED_NO_BOX(::GlobalNamespace::BeatmapSaveDataHelpers_VersionSerializedData);

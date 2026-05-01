@@ -17,32 +17,32 @@ namespace GlobalNamespace {
 // CS Name: $BurstDirectCallInitializer
 class CORDL_TYPE $BurstDirectCallInitializer : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Initialize, addr 0x631a3d4, size 0x294, virtual false, abstract: false, final false
-static inline void Initialize() ;
+  // Declarations
+  /// @brief Method Initialize, addr 0x638c3e0, size 0x294, virtual false, abstract: false, final false
+  static inline void Initialize();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr $BurstDirectCallInitializer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr $BurstDirectCallInitializer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "$BurstDirectCallInitializer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  $BurstDirectCallInitializer($BurstDirectCallInitializer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "$BurstDirectCallInitializer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-$BurstDirectCallInitializer($BurstDirectCallInitializer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "$BurstDirectCallInitializer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  $BurstDirectCallInitializer($BurstDirectCallInitializer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "$BurstDirectCallInitializer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-$BurstDirectCallInitializer($BurstDirectCallInitializer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15820 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15813};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::$BurstDirectCallInitializer, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::$BurstDirectCallInitializer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::$BurstDirectCallInitializer*, "", "$BurstDirectCallInitializer");

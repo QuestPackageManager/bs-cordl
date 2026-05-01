@@ -11,28 +11,28 @@ class IExperimentData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IExperimentData);
-// Dependencies 
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IExperimentData
 class CORDL_TYPE IExperimentData {
 public:
-// Declarations
- __declspec(property(get=get_experimentPlatformKey)) ::StringW  experimentPlatformKey;
+  // Declarations
+  __declspec(property(get = get_experimentPlatformKey)) ::StringW experimentPlatformKey;
 
-/// @brief Method get_experimentPlatformKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::StringW get_experimentPlatformKey() ;
+  /// @brief Method get_experimentPlatformKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_experimentPlatformKey();
 
-// Ctor Parameters [CppParam { name: "", ty: "IExperimentData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IExperimentData(IExperimentData const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IExperimentData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IExperimentData(IExperimentData const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14830};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14837 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IExperimentData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IExperimentData*, "", "IExperimentData");

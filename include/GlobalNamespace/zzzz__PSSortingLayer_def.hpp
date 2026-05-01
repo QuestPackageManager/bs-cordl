@@ -17,34 +17,34 @@ namespace GlobalNamespace {
 // CS Name: PSSortingLayer
 class CORDL_TYPE PSSortingLayer : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-static inline ::GlobalNamespace::PSSortingLayer* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::PSSortingLayer* New_ctor();
 
-/// @brief Method .ctor, addr 0x56a44ec, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57123b4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PSSortingLayer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PSSortingLayer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PSSortingLayer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PSSortingLayer(PSSortingLayer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PSSortingLayer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PSSortingLayer(PSSortingLayer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PSSortingLayer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PSSortingLayer(PSSortingLayer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PSSortingLayer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PSSortingLayer(PSSortingLayer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20305 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20295};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PSSortingLayer, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PSSortingLayer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PSSortingLayer*, "", "PSSortingLayer");

@@ -32,56 +32,56 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.BooleanConverter
 class CORDL_TYPE BooleanConverter : public ::System::ComponentModel::TypeConverter {
 public:
-// Declarations
-/// @brief Field s_values, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_values, put=setStaticF_s_values)) ::System::ComponentModel::TypeConverter_StandardValuesCollection*  s_values;
+  // Declarations
+  /// @brief Field s_values, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_values, put = setStaticF_s_values)) ::System::ComponentModel::TypeConverter_StandardValuesCollection* s_values;
 
-/// @brief Method CanConvertFrom, addr 0x62017d0, size 0x80, virtual true, abstract: false, final false
-inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
+  /// @brief Method CanConvertFrom, addr 0x62737dc, size 0x80, virtual true, abstract: false, final false
+  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-/// @brief Method ConvertFrom, addr 0x6201850, size 0x194, virtual true, abstract: false, final false
-inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
+  /// @brief Method ConvertFrom, addr 0x627385c, size 0x194, virtual true, abstract: false, final false
+  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-/// @brief Method GetStandardValues, addr 0x62019e4, size 0x15c, virtual true, abstract: false, final false
-inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext*  context) ;
+  /// @brief Method GetStandardValues, addr 0x62739f0, size 0x15c, virtual true, abstract: false, final false
+  inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-/// @brief Method GetStandardValuesExclusive, addr 0x6201b40, size 0x8, virtual true, abstract: false, final false
-inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext*  context) ;
+  /// @brief Method GetStandardValuesExclusive, addr 0x6273b4c, size 0x8, virtual true, abstract: false, final false
+  inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-/// @brief Method GetStandardValuesSupported, addr 0x6201b48, size 0x8, virtual true, abstract: false, final false
-inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext*  context) ;
+  /// @brief Method GetStandardValuesSupported, addr 0x6273b54, size 0x8, virtual true, abstract: false, final false
+  inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-static inline ::System::ComponentModel::BooleanConverter* New_ctor() ;
+  static inline ::System::ComponentModel::BooleanConverter* New_ctor();
 
-/// @brief Method .ctor, addr 0x6201b50, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6273b5c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* getStaticF_s_values() ;
+  static inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* getStaticF_s_values();
 
-static inline void setStaticF_s_values(::System::ComponentModel::TypeConverter_StandardValuesCollection*  value) ;
+  static inline void setStaticF_s_values(::System::ComponentModel::TypeConverter_StandardValuesCollection* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BooleanConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BooleanConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BooleanConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BooleanConverter(BooleanConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BooleanConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BooleanConverter(BooleanConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BooleanConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BooleanConverter(BooleanConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BooleanConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BooleanConverter(BooleanConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11229 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11222};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::BooleanConverter, 0x10>, "Size mismatch!");
 
-} // namespace end def System::ComponentModel
+} // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::BooleanConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::BooleanConverter*, "System.ComponentModel", "BooleanConverter");

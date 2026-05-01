@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Net/Security/AuthenticatedStream.hpp"
 #include "System/Net/Security/AuthenticationLevel.hpp"
@@ -16,6 +16,5 @@
 #include "System/Net/Security/SslServerAuthenticationOptions.hpp"
 #include "System/Net/Security/SslStream.hpp"
 #ifdef __cpp_modules
-                    export module Security;
-                    #endif
-                
+export module Security;
+#endif

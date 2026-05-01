@@ -12,8 +12,7 @@ namespace System {
 struct IntPtr;
 }
 namespace System {
-template<typename T>
-struct Span_1;
+template <typename T> struct Span_1;
 }
 namespace UnityEngine {
 struct jvalue;
@@ -30,332 +29,332 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AndroidJNISafe
 class CORDL_TYPE AndroidJNISafe : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CallBooleanMethod, addr 0x6853178, size 0x70, virtual false, abstract: false, final false
-static inline bool CallBooleanMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  // Declarations
+  /// @brief Method CallBooleanMethod, addr 0x68c5184, size 0x70, virtual false, abstract: false, final false
+  static inline bool CallBooleanMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallCharMethod, addr 0x6853074, size 0x70, virtual false, abstract: false, final false
-static inline char16_t CallCharMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallCharMethod, addr 0x68c5080, size 0x70, virtual false, abstract: false, final false
+  static inline char16_t CallCharMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallDoubleMethod, addr 0x6852f68, size 0x7c, virtual false, abstract: false, final false
-static inline double_t CallDoubleMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallDoubleMethod, addr 0x68c4f74, size 0x7c, virtual false, abstract: false, final false
+  static inline double_t CallDoubleMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallFloatMethod, addr 0x6852e5c, size 0x7c, virtual false, abstract: false, final false
-static inline float_t CallFloatMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallFloatMethod, addr 0x68c4e68, size 0x7c, virtual false, abstract: false, final false
+  static inline float_t CallFloatMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallIntMethod, addr 0x6852c5c, size 0x70, virtual false, abstract: false, final false
-static inline int32_t CallIntMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallIntMethod, addr 0x68c4c68, size 0x70, virtual false, abstract: false, final false
+  static inline int32_t CallIntMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallLongMethod, addr 0x6852d5c, size 0x70, virtual false, abstract: false, final false
-static inline int64_t CallLongMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallLongMethod, addr 0x68c4d68, size 0x70, virtual false, abstract: false, final false
+  static inline int64_t CallLongMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallObjectMethod, addr 0x685c5d0, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr CallObjectMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::ArrayW<::UnityEngine::jvalue,::Array<::UnityEngine::jvalue>*>  args) ;
+  /// @brief Method CallObjectMethod, addr 0x68ce5dc, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CallObjectMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args);
 
-/// @brief Method CallObjectMethod, addr 0x685c640, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr CallObjectMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallObjectMethod, addr 0x68ce64c, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CallObjectMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallSByteMethod, addr 0x6852a5c, size 0x70, virtual false, abstract: false, final false
-static inline int8_t CallSByteMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallSByteMethod, addr 0x68c4a68, size 0x70, virtual false, abstract: false, final false
+  static inline int8_t CallSByteMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallShortMethod, addr 0x6852b5c, size 0x70, virtual false, abstract: false, final false
-static inline int16_t CallShortMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallShortMethod, addr 0x68c4b68, size 0x70, virtual false, abstract: false, final false
+  static inline int16_t CallShortMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticBooleanMethod, addr 0x685b6e0, size 0x70, virtual false, abstract: false, final false
-static inline bool CallStaticBooleanMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticBooleanMethod, addr 0x68cd6ec, size 0x70, virtual false, abstract: false, final false
+  static inline bool CallStaticBooleanMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticCharMethod, addr 0x685b428, size 0x70, virtual false, abstract: false, final false
-static inline char16_t CallStaticCharMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticCharMethod, addr 0x68cd434, size 0x70, virtual false, abstract: false, final false
+  static inline char16_t CallStaticCharMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticDoubleMethod, addr 0x685b498, size 0x7c, virtual false, abstract: false, final false
-static inline double_t CallStaticDoubleMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticDoubleMethod, addr 0x68cd4a4, size 0x7c, virtual false, abstract: false, final false
+  static inline double_t CallStaticDoubleMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticFloatMethod, addr 0x685b514, size 0x7c, virtual false, abstract: false, final false
-static inline float_t CallStaticFloatMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticFloatMethod, addr 0x68cd520, size 0x7c, virtual false, abstract: false, final false
+  static inline float_t CallStaticFloatMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticIntMethod, addr 0x685b750, size 0x70, virtual false, abstract: false, final false
-static inline int32_t CallStaticIntMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticIntMethod, addr 0x68cd75c, size 0x70, virtual false, abstract: false, final false
+  static inline int32_t CallStaticIntMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticLongMethod, addr 0x685b590, size 0x70, virtual false, abstract: false, final false
-static inline int64_t CallStaticLongMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticLongMethod, addr 0x68cd59c, size 0x70, virtual false, abstract: false, final false
+  static inline int64_t CallStaticLongMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticObjectMethod, addr 0x685b298, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr CallStaticObjectMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::ArrayW<::UnityEngine::jvalue,::Array<::UnityEngine::jvalue>*>  args) ;
+  /// @brief Method CallStaticObjectMethod, addr 0x68cd2a4, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CallStaticObjectMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args);
 
-/// @brief Method CallStaticObjectMethod, addr 0x6852428, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr CallStaticObjectMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticObjectMethod, addr 0x68c4434, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CallStaticObjectMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticSByteMethod, addr 0x685b670, size 0x70, virtual false, abstract: false, final false
-static inline int8_t CallStaticSByteMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticSByteMethod, addr 0x68cd67c, size 0x70, virtual false, abstract: false, final false
+  static inline int8_t CallStaticSByteMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticShortMethod, addr 0x685b600, size 0x70, virtual false, abstract: false, final false
-static inline int16_t CallStaticShortMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticShortMethod, addr 0x68cd60c, size 0x70, virtual false, abstract: false, final false
+  static inline int16_t CallStaticShortMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticStringMethod, addr 0x685b308, size 0x70, virtual false, abstract: false, final false
-static inline ::StringW CallStaticStringMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::ArrayW<::UnityEngine::jvalue,::Array<::UnityEngine::jvalue>*>  args) ;
+  /// @brief Method CallStaticStringMethod, addr 0x68cd314, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW CallStaticStringMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args);
 
-/// @brief Method CallStaticStringMethod, addr 0x685b378, size 0xb0, virtual false, abstract: false, final false
-static inline ::StringW CallStaticStringMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticStringMethod, addr 0x68cd384, size 0xb0, virtual false, abstract: false, final false
+  static inline ::StringW CallStaticStringMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStaticVoidMethod, addr 0x685b228, size 0x70, virtual false, abstract: false, final false
-static inline void CallStaticVoidMethod(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStaticVoidMethod, addr 0x68cd234, size 0x70, virtual false, abstract: false, final false
+  static inline void CallStaticVoidMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallStringMethod, addr 0x685c6b0, size 0xb0, virtual false, abstract: false, final false
-static inline ::StringW CallStringMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallStringMethod, addr 0x68ce6bc, size 0xb0, virtual false, abstract: false, final false
+  static inline ::StringW CallStringMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CallVoidMethod, addr 0x685c560, size 0x70, virtual false, abstract: false, final false
-static inline void CallVoidMethod(::System::IntPtr  obj, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method CallVoidMethod, addr 0x68ce56c, size 0x70, virtual false, abstract: false, final false
+  static inline void CallVoidMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method CheckException, addr 0x6859dec, size 0x23c, virtual false, abstract: false, final false
-static inline void CheckException() ;
+  /// @brief Method CheckException, addr 0x68cbdf8, size 0x23c, virtual false, abstract: false, final false
+  static inline void CheckException();
 
-/// @brief Method DeleteLocalRef, addr 0x685a124, size 0x44, virtual false, abstract: false, final false
-static inline void DeleteLocalRef(::System::IntPtr  localref) ;
+  /// @brief Method DeleteLocalRef, addr 0x68cc130, size 0x44, virtual false, abstract: false, final false
+  static inline void DeleteLocalRef(::System::IntPtr localref);
 
-/// @brief Method DeleteWeakGlobalRef, addr 0x685a0e0, size 0x44, virtual false, abstract: false, final false
-static inline void DeleteWeakGlobalRef(::System::IntPtr  globalref) ;
+  /// @brief Method DeleteWeakGlobalRef, addr 0x68cc0ec, size 0x44, virtual false, abstract: false, final false
+  static inline void DeleteWeakGlobalRef(::System::IntPtr globalref);
 
-/// @brief Method FindClass, addr 0x6852348, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr FindClass(::StringW  name) ;
+  /// @brief Method FindClass, addr 0x68c4354, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr FindClass(::StringW name);
 
-/// @brief Method FromBooleanArray, addr 0x685cb90, size 0x70, virtual false, abstract: false, final false
-static inline ::ArrayW<bool,::Array<bool>*> FromBooleanArray(::System::IntPtr  array) ;
+  /// @brief Method FromBooleanArray, addr 0x68ceb9c, size 0x70, virtual false, abstract: false, final false
+  static inline ::ArrayW<bool, ::Array<bool>*> FromBooleanArray(::System::IntPtr array);
 
-/// @brief Method FromByteArray, addr 0x685ca80, size 0x70, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> FromByteArray(::System::IntPtr  array) ;
+  /// @brief Method FromByteArray, addr 0x68cea8c, size 0x70, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromByteArray(::System::IntPtr array);
 
-/// @brief Method FromCharArray, addr 0x685c760, size 0xa0, virtual false, abstract: false, final false
-static inline ::ArrayW<char16_t,::Array<char16_t>*> FromCharArray(::System::IntPtr  array) ;
+  /// @brief Method FromCharArray, addr 0x68ce76c, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> FromCharArray(::System::IntPtr array);
 
-/// @brief Method FromDoubleArray, addr 0x685c800, size 0xa0, virtual false, abstract: false, final false
-static inline ::ArrayW<double_t,::Array<double_t>*> FromDoubleArray(::System::IntPtr  array) ;
+  /// @brief Method FromDoubleArray, addr 0x68ce80c, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<double_t, ::Array<double_t>*> FromDoubleArray(::System::IntPtr array);
 
-/// @brief Method FromFloatArray, addr 0x685c8a0, size 0xa0, virtual false, abstract: false, final false
-static inline ::ArrayW<float_t,::Array<float_t>*> FromFloatArray(::System::IntPtr  array) ;
+  /// @brief Method FromFloatArray, addr 0x68ce8ac, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<float_t, ::Array<float_t>*> FromFloatArray(::System::IntPtr array);
 
-/// @brief Method FromIntArray, addr 0x685cc00, size 0xa0, virtual false, abstract: false, final false
-static inline ::ArrayW<int32_t,::Array<int32_t>*> FromIntArray(::System::IntPtr  array) ;
+  /// @brief Method FromIntArray, addr 0x68cec0c, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> FromIntArray(::System::IntPtr array);
 
-/// @brief Method FromLongArray, addr 0x685c940, size 0xa0, virtual false, abstract: false, final false
-static inline ::ArrayW<int64_t,::Array<int64_t>*> FromLongArray(::System::IntPtr  array) ;
+  /// @brief Method FromLongArray, addr 0x68ce94c, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<int64_t, ::Array<int64_t>*> FromLongArray(::System::IntPtr array);
 
-/// @brief Method FromReflectedMethod, addr 0x685a328, size 0xa0, virtual false, abstract: false, final false
-static inline ::System::IntPtr FromReflectedMethod(::System::IntPtr  refMethod) ;
+  /// @brief Method FromReflectedMethod, addr 0x68cc334, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::IntPtr FromReflectedMethod(::System::IntPtr refMethod);
 
-/// @brief Method FromSByteArray, addr 0x685caf0, size 0xa0, virtual false, abstract: false, final false
-static inline ::ArrayW<int8_t,::Array<int8_t>*> FromSByteArray(::System::IntPtr  array) ;
+  /// @brief Method FromSByteArray, addr 0x68ceafc, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<int8_t, ::Array<int8_t>*> FromSByteArray(::System::IntPtr array);
 
-/// @brief Method FromShortArray, addr 0x685c9e0, size 0xa0, virtual false, abstract: false, final false
-static inline ::ArrayW<int16_t,::Array<int16_t>*> FromShortArray(::System::IntPtr  array) ;
+  /// @brief Method FromShortArray, addr 0x68ce9ec, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<int16_t, ::Array<int16_t>*> FromShortArray(::System::IntPtr array);
 
-/// @brief Method GetArrayLength, addr 0x685d1a8, size 0xa0, virtual false, abstract: false, final false
-static inline int32_t GetArrayLength(::System::IntPtr  array) ;
+  /// @brief Method GetArrayLength, addr 0x68cf1b4, size 0xa0, virtual false, abstract: false, final false
+  static inline int32_t GetArrayLength(::System::IntPtr array);
 
-/// @brief Method GetBooleanField, addr 0x685c410, size 0xa8, virtual false, abstract: false, final false
-static inline bool GetBooleanField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetBooleanField, addr 0x68ce41c, size 0xa8, virtual false, abstract: false, final false
+  static inline bool GetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetCharField, addr 0x685c008, size 0xa8, virtual false, abstract: false, final false
-static inline char16_t GetCharField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetCharField, addr 0x68ce014, size 0xa8, virtual false, abstract: false, final false
+  static inline char16_t GetCharField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetDoubleField, addr 0x685c0b0, size 0xb4, virtual false, abstract: false, final false
-static inline double_t GetDoubleField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetDoubleField, addr 0x68ce0bc, size 0xb4, virtual false, abstract: false, final false
+  static inline double_t GetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetFieldID, addr 0x685a248, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetFieldID(::System::IntPtr  clazz, ::StringW  name, ::StringW  sig) ;
+  /// @brief Method GetFieldID, addr 0x68cc254, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
 
-/// @brief Method GetFloatField, addr 0x685c164, size 0xb4, virtual false, abstract: false, final false
-static inline float_t GetFloatField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetFloatField, addr 0x68ce170, size 0xb4, virtual false, abstract: false, final false
+  static inline float_t GetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetIntField, addr 0x685c4b8, size 0xa8, virtual false, abstract: false, final false
-static inline int32_t GetIntField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetIntField, addr 0x68ce4c4, size 0xa8, virtual false, abstract: false, final false
+  static inline int32_t GetIntField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetLongField, addr 0x685c218, size 0xa8, virtual false, abstract: false, final false
-static inline int64_t GetLongField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetLongField, addr 0x68ce224, size 0xa8, virtual false, abstract: false, final false
+  static inline int64_t GetLongField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetMethodID, addr 0x685295c, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetMethodID(::System::IntPtr  obj, ::StringW  name, ::StringW  sig) ;
+  /// @brief Method GetMethodID, addr 0x68c4968, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetMethodID(::System::IntPtr obj, ::StringW name, ::StringW sig);
 
-/// @brief Method GetObjectArrayElement, addr 0x685d100, size 0xa8, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetObjectArrayElement(::System::IntPtr  array, int32_t  index) ;
+  /// @brief Method GetObjectArrayElement, addr 0x68cf10c, size 0xa8, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetObjectArrayElement(::System::IntPtr array, int32_t index);
 
-/// @brief Method GetObjectClass, addr 0x68528bc, size 0xa0, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetObjectClass(::System::IntPtr  ptr) ;
+  /// @brief Method GetObjectClass, addr 0x68c48c8, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetObjectClass(::System::IntPtr ptr);
 
-/// @brief Method GetObjectField, addr 0x685bef0, size 0xa8, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetObjectField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetObjectField, addr 0x68cdefc, size 0xa8, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetSByteField, addr 0x685c368, size 0xa8, virtual false, abstract: false, final false
-static inline int8_t GetSByteField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetSByteField, addr 0x68ce374, size 0xa8, virtual false, abstract: false, final false
+  static inline int8_t GetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetShortField, addr 0x685c2c0, size 0xa8, virtual false, abstract: false, final false
-static inline int16_t GetShortField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetShortField, addr 0x68ce2cc, size 0xa8, virtual false, abstract: false, final false
+  static inline int16_t GetShortField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticBooleanField, addr 0x685b0d8, size 0xa8, virtual false, abstract: false, final false
-static inline bool GetStaticBooleanField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticBooleanField, addr 0x68cd0e4, size 0xa8, virtual false, abstract: false, final false
+  static inline bool GetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticCharField, addr 0x685acd0, size 0xa8, virtual false, abstract: false, final false
-static inline char16_t GetStaticCharField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticCharField, addr 0x68cccdc, size 0xa8, virtual false, abstract: false, final false
+  static inline char16_t GetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticDoubleField, addr 0x685ad78, size 0xb4, virtual false, abstract: false, final false
-static inline double_t GetStaticDoubleField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticDoubleField, addr 0x68ccd84, size 0xb4, virtual false, abstract: false, final false
+  static inline double_t GetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticFieldID, addr 0x685a2b8, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetStaticFieldID(::System::IntPtr  clazz, ::StringW  name, ::StringW  sig) ;
+  /// @brief Method GetStaticFieldID, addr 0x68cc2c4, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetStaticFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
 
-/// @brief Method GetStaticFloatField, addr 0x685ae2c, size 0xb4, virtual false, abstract: false, final false
-static inline float_t GetStaticFloatField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticFloatField, addr 0x68cce38, size 0xb4, virtual false, abstract: false, final false
+  static inline float_t GetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticIntField, addr 0x685b180, size 0xa8, virtual false, abstract: false, final false
-static inline int32_t GetStaticIntField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticIntField, addr 0x68cd18c, size 0xa8, virtual false, abstract: false, final false
+  static inline int32_t GetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticLongField, addr 0x685aee0, size 0xa8, virtual false, abstract: false, final false
-static inline int64_t GetStaticLongField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticLongField, addr 0x68cceec, size 0xa8, virtual false, abstract: false, final false
+  static inline int64_t GetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticMethodID, addr 0x68523b8, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetStaticMethodID(::System::IntPtr  clazz, ::StringW  name, ::StringW  sig) ;
+  /// @brief Method GetStaticMethodID, addr 0x68c43c4, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetStaticMethodID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
 
-/// @brief Method GetStaticObjectField, addr 0x685abb8, size 0xa8, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetStaticObjectField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticObjectField, addr 0x68ccbc4, size 0xa8, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticSByteField, addr 0x685b030, size 0xa8, virtual false, abstract: false, final false
-static inline int8_t GetStaticSByteField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticSByteField, addr 0x68cd03c, size 0xa8, virtual false, abstract: false, final false
+  static inline int8_t GetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticShortField, addr 0x685af88, size 0xa8, virtual false, abstract: false, final false
-static inline int16_t GetStaticShortField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticShortField, addr 0x68ccf94, size 0xa8, virtual false, abstract: false, final false
+  static inline int16_t GetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStaticStringField, addr 0x685ac60, size 0x70, virtual false, abstract: false, final false
-static inline ::StringW GetStaticStringField(::System::IntPtr  clazz, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStaticStringField, addr 0x68ccc6c, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW GetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID);
 
-/// @brief Method GetStringChars, addr 0x685a1d8, size 0x70, virtual false, abstract: false, final false
-static inline ::StringW GetStringChars(::System::IntPtr  str) ;
+  /// @brief Method GetStringChars, addr 0x68cc1e4, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW GetStringChars(::System::IntPtr str);
 
-/// @brief Method GetStringField, addr 0x685bf98, size 0x70, virtual false, abstract: false, final false
-static inline ::StringW GetStringField(::System::IntPtr  obj, ::System::IntPtr  fieldID) ;
+  /// @brief Method GetStringField, addr 0x68cdfa4, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW GetStringField(::System::IntPtr obj, ::System::IntPtr fieldID);
 
-/// @brief Method NewObject, addr 0x685a418, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr NewObject(::System::IntPtr  clazz, ::System::IntPtr  methodID, ::System::Span_1<::UnityEngine::jvalue>  args) ;
+  /// @brief Method NewObject, addr 0x68cc424, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr NewObject(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args);
 
-/// @brief Method NewString, addr 0x685a168, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr NewString(::StringW  chars) ;
+  /// @brief Method NewString, addr 0x68cc174, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr NewString(::StringW chars);
 
-/// @brief Method PushLocalFrame, addr 0x685a3c8, size 0x50, virtual false, abstract: false, final false
-static inline void PushLocalFrame(int32_t  capacity) ;
+  /// @brief Method PushLocalFrame, addr 0x68cc3d4, size 0x50, virtual false, abstract: false, final false
+  static inline void PushLocalFrame(int32_t capacity);
 
-/// @brief Method QueueDeleteGlobalRef, addr 0x685a09c, size 0x44, virtual false, abstract: false, final false
-static inline void QueueDeleteGlobalRef(::System::IntPtr  globalref) ;
+  /// @brief Method QueueDeleteGlobalRef, addr 0x68cc0a8, size 0x44, virtual false, abstract: false, final false
+  static inline void QueueDeleteGlobalRef(::System::IntPtr globalref);
 
-/// @brief Method SetBooleanField, addr 0x685bd70, size 0xc0, virtual false, abstract: false, final false
-static inline void SetBooleanField(::System::IntPtr  obj, ::System::IntPtr  fieldID, bool  val) ;
+  /// @brief Method SetBooleanField, addr 0x68cdd7c, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID, bool val);
 
-/// @brief Method SetCharField, addr 0x685b8f0, size 0xc0, virtual false, abstract: false, final false
-static inline void SetCharField(::System::IntPtr  obj, ::System::IntPtr  fieldID, char16_t  val) ;
+  /// @brief Method SetCharField, addr 0x68cd8fc, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetCharField(::System::IntPtr obj, ::System::IntPtr fieldID, char16_t val);
 
-/// @brief Method SetDoubleField, addr 0x685b9b0, size 0xc0, virtual false, abstract: false, final false
-static inline void SetDoubleField(::System::IntPtr  obj, ::System::IntPtr  fieldID, double_t  val) ;
+  /// @brief Method SetDoubleField, addr 0x68cd9bc, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID, double_t val);
 
-/// @brief Method SetFloatField, addr 0x685ba70, size 0xc0, virtual false, abstract: false, final false
-static inline void SetFloatField(::System::IntPtr  obj, ::System::IntPtr  fieldID, float_t  val) ;
+  /// @brief Method SetFloatField, addr 0x68cda7c, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID, float_t val);
 
-/// @brief Method SetIntField, addr 0x685be30, size 0xc0, virtual false, abstract: false, final false
-static inline void SetIntField(::System::IntPtr  obj, ::System::IntPtr  fieldID, int32_t  val) ;
+  /// @brief Method SetIntField, addr 0x68cde3c, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetIntField(::System::IntPtr obj, ::System::IntPtr fieldID, int32_t val);
 
-/// @brief Method SetLongField, addr 0x685bb30, size 0xc0, virtual false, abstract: false, final false
-static inline void SetLongField(::System::IntPtr  obj, ::System::IntPtr  fieldID, int64_t  val) ;
+  /// @brief Method SetLongField, addr 0x68cdb3c, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetLongField(::System::IntPtr obj, ::System::IntPtr fieldID, int64_t val);
 
-/// @brief Method SetObjectField, addr 0x685b7c0, size 0xc0, virtual false, abstract: false, final false
-static inline void SetObjectField(::System::IntPtr  obj, ::System::IntPtr  fieldID, ::System::IntPtr  val) ;
+  /// @brief Method SetObjectField, addr 0x68cd7cc, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID, ::System::IntPtr val);
 
-/// @brief Method SetSByteField, addr 0x685bcb0, size 0xc0, virtual false, abstract: false, final false
-static inline void SetSByteField(::System::IntPtr  obj, ::System::IntPtr  fieldID, int8_t  val) ;
+  /// @brief Method SetSByteField, addr 0x68cdcbc, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID, int8_t val);
 
-/// @brief Method SetShortField, addr 0x685bbf0, size 0xc0, virtual false, abstract: false, final false
-static inline void SetShortField(::System::IntPtr  obj, ::System::IntPtr  fieldID, int16_t  val) ;
+  /// @brief Method SetShortField, addr 0x68cdbfc, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetShortField(::System::IntPtr obj, ::System::IntPtr fieldID, int16_t val);
 
-/// @brief Method SetStaticBooleanField, addr 0x685aa38, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticBooleanField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, bool  val) ;
+  /// @brief Method SetStaticBooleanField, addr 0x68cca44, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID, bool val);
 
-/// @brief Method SetStaticCharField, addr 0x685a5b8, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticCharField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, char16_t  val) ;
+  /// @brief Method SetStaticCharField, addr 0x68cc5c4, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID, char16_t val);
 
-/// @brief Method SetStaticDoubleField, addr 0x685a678, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticDoubleField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, double_t  val) ;
+  /// @brief Method SetStaticDoubleField, addr 0x68cc684, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID, double_t val);
 
-/// @brief Method SetStaticFloatField, addr 0x685a738, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticFloatField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, float_t  val) ;
+  /// @brief Method SetStaticFloatField, addr 0x68cc744, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID, float_t val);
 
-/// @brief Method SetStaticIntField, addr 0x685aaf8, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticIntField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, int32_t  val) ;
+  /// @brief Method SetStaticIntField, addr 0x68ccb04, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID, int32_t val);
 
-/// @brief Method SetStaticLongField, addr 0x685a7f8, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticLongField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, int64_t  val) ;
+  /// @brief Method SetStaticLongField, addr 0x68cc804, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID, int64_t val);
 
-/// @brief Method SetStaticObjectField, addr 0x685a488, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticObjectField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, ::System::IntPtr  val) ;
+  /// @brief Method SetStaticObjectField, addr 0x68cc494, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::System::IntPtr val);
 
-/// @brief Method SetStaticSByteField, addr 0x685a978, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticSByteField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, int8_t  val) ;
+  /// @brief Method SetStaticSByteField, addr 0x68cc984, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID, int8_t val);
 
-/// @brief Method SetStaticShortField, addr 0x685a8b8, size 0xc0, virtual false, abstract: false, final false
-static inline void SetStaticShortField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, int16_t  val) ;
+  /// @brief Method SetStaticShortField, addr 0x68cc8c4, size 0xc0, virtual false, abstract: false, final false
+  static inline void SetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID, int16_t val);
 
-/// @brief Method SetStaticStringField, addr 0x685a548, size 0x70, virtual false, abstract: false, final false
-static inline void SetStaticStringField(::System::IntPtr  clazz, ::System::IntPtr  fieldID, ::StringW  val) ;
+  /// @brief Method SetStaticStringField, addr 0x68cc554, size 0x70, virtual false, abstract: false, final false
+  static inline void SetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::StringW val);
 
-/// @brief Method SetStringField, addr 0x685b880, size 0x70, virtual false, abstract: false, final false
-static inline void SetStringField(::System::IntPtr  obj, ::System::IntPtr  fieldID, ::StringW  val) ;
+  /// @brief Method SetStringField, addr 0x68cd88c, size 0x70, virtual false, abstract: false, final false
+  static inline void SetStringField(::System::IntPtr obj, ::System::IntPtr fieldID, ::StringW val);
 
-/// @brief Method ToBooleanArray, addr 0x685d020, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToBooleanArray(::ArrayW<bool,::Array<bool>*>  array) ;
+  /// @brief Method ToBooleanArray, addr 0x68cf02c, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToBooleanArray(::ArrayW<bool, ::Array<bool>*> array);
 
-/// @brief Method ToByteArray, addr 0x685cf40, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  array) ;
+  /// @brief Method ToByteArray, addr 0x68cef4c, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-/// @brief Method ToCharArray, addr 0x685cd10, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToCharArray(::ArrayW<char16_t,::Array<char16_t>*>  array) ;
+  /// @brief Method ToCharArray, addr 0x68ced1c, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToCharArray(::ArrayW<char16_t, ::Array<char16_t>*> array);
 
-/// @brief Method ToDoubleArray, addr 0x685cd80, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToDoubleArray(::ArrayW<double_t,::Array<double_t>*>  array) ;
+  /// @brief Method ToDoubleArray, addr 0x68ced8c, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToDoubleArray(::ArrayW<double_t, ::Array<double_t>*> array);
 
-/// @brief Method ToFloatArray, addr 0x685cdf0, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToFloatArray(::ArrayW<float_t,::Array<float_t>*>  array) ;
+  /// @brief Method ToFloatArray, addr 0x68cedfc, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToFloatArray(::ArrayW<float_t, ::Array<float_t>*> array);
 
-/// @brief Method ToIntArray, addr 0x685d090, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToIntArray(::ArrayW<int32_t,::Array<int32_t>*>  array) ;
+  /// @brief Method ToIntArray, addr 0x68cf09c, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToIntArray(::ArrayW<int32_t, ::Array<int32_t>*> array);
 
-/// @brief Method ToLongArray, addr 0x685ce60, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToLongArray(::ArrayW<int64_t,::Array<int64_t>*>  array) ;
+  /// @brief Method ToLongArray, addr 0x68cee6c, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToLongArray(::ArrayW<int64_t, ::Array<int64_t>*> array);
 
-/// @brief Method ToObjectArray, addr 0x685cca0, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToObjectArray(::ArrayW<::System::IntPtr,::Array<::System::IntPtr>*>  array, ::System::IntPtr  type) ;
+  /// @brief Method ToObjectArray, addr 0x68cecac, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToObjectArray(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> array, ::System::IntPtr type);
 
-/// @brief Method ToSByteArray, addr 0x685cfb0, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToSByteArray(::ArrayW<int8_t,::Array<int8_t>*>  array) ;
+  /// @brief Method ToSByteArray, addr 0x68cefbc, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToSByteArray(::ArrayW<int8_t, ::Array<int8_t>*> array);
 
-/// @brief Method ToShortArray, addr 0x685ced0, size 0x70, virtual false, abstract: false, final false
-static inline ::System::IntPtr ToShortArray(::ArrayW<int16_t,::Array<int16_t>*>  array) ;
+  /// @brief Method ToShortArray, addr 0x68ceedc, size 0x70, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ToShortArray(::ArrayW<int16_t, ::Array<int16_t>*> array);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AndroidJNISafe() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidJNISafe();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJNISafe", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AndroidJNISafe(AndroidJNISafe&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AndroidJNISafe", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AndroidJNISafe(AndroidJNISafe && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJNISafe", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AndroidJNISafe(AndroidJNISafe const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AndroidJNISafe", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AndroidJNISafe(AndroidJNISafe const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19937 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19927};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AndroidJNISafe, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AndroidJNISafe);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJNISafe*, "UnityEngine", "AndroidJNISafe");

@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Unity/Burst/LowLevel/BurstCompilerService.hpp"
 #ifdef __cpp_modules
-                    export module LowLevel;
-                    #endif
-                
+export module LowLevel;
+#endif

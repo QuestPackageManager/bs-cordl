@@ -44,144 +44,145 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpV3SignatureGenerator
 class CORDL_TYPE PgpV3SignatureGenerator : public ::System::Object {
 public:
-// Declarations
-/// @brief Field dig, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_dig, put=__cordl_internal_set_dig)) ::Org::BouncyCastle::Crypto::IDigest*  dig;
+  // Declarations
+  /// @brief Field dig, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_dig, put = __cordl_internal_set_dig)) ::Org::BouncyCastle::Crypto::IDigest* dig;
 
-/// @brief Field hashAlgorithm, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_hashAlgorithm, put=__cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  hashAlgorithm;
+  /// @brief Field hashAlgorithm, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm;
 
-/// @brief Field keyAlgorithm, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_keyAlgorithm, put=__cordl_internal_set_keyAlgorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  keyAlgorithm;
+  /// @brief Field keyAlgorithm, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_keyAlgorithm, put = __cordl_internal_set_keyAlgorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm;
 
-/// @brief Field lastb, offset 0x34, size 0x1 
- __declspec(property(get=__cordl_internal_get_lastb, put=__cordl_internal_set_lastb)) uint8_t  lastb;
+  /// @brief Field lastb, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get_lastb, put = __cordl_internal_set_lastb)) uint8_t lastb;
 
-/// @brief Field privKey, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_privKey, put=__cordl_internal_set_privKey)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*  privKey;
+  /// @brief Field privKey, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_privKey, put = __cordl_internal_set_privKey)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* privKey;
 
-/// @brief Field sig, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_sig, put=__cordl_internal_set_sig)) ::Org::BouncyCastle::Crypto::ISigner*  sig;
+  /// @brief Field sig, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_sig, put = __cordl_internal_set_sig)) ::Org::BouncyCastle::Crypto::ISigner* sig;
 
-/// @brief Field signatureType, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get_signatureType, put=__cordl_internal_set_signatureType)) int32_t  signatureType;
+  /// @brief Field signatureType, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_signatureType, put = __cordl_internal_set_signatureType)) int32_t signatureType;
 
-/// @brief Method Generate, addr 0x34a8ae4, size 0x3d4, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* Generate() ;
+  /// @brief Method Generate, addr 0x34e5128, size 0x3d4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* Generate();
 
-/// @brief Method GenerateOnePassVersion, addr 0x34a8a1c, size 0xc8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* GenerateOnePassVersion(bool  isNested) ;
+  /// @brief Method GenerateOnePassVersion, addr 0x34e5060, size 0xc8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* GenerateOnePassVersion(bool isNested);
 
-/// @brief Method InitSign, addr 0x34a8280, size 0x8, virtual false, abstract: false, final false
-inline void InitSign(int32_t  sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*  key) ;
+  /// @brief Method InitSign, addr 0x34e48c4, size 0x8, virtual false, abstract: false, final false
+  inline void InitSign(int32_t sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* key);
 
-/// @brief Method InitSign, addr 0x34a8288, size 0x26c, virtual false, abstract: false, final false
-inline void InitSign(int32_t  sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*  key, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
+  /// @brief Method InitSign, addr 0x34e48cc, size 0x26c, virtual false, abstract: false, final false
+  inline void InitSign(int32_t sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* key, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  hashAlgorithm) ;
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
+                                                                                      ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-/// @brief Method Update, addr 0x34a86c4, size 0x1ac, virtual false, abstract: false, final false
-inline void Update(::ArrayW<uint8_t,::Array<uint8_t>*>  b) ;
+  /// @brief Method Update, addr 0x34e4d08, size 0x1ac, virtual false, abstract: false, final false
+  inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-/// @brief Method Update, addr 0x34a8870, size 0x1ac, virtual false, abstract: false, final false
-inline void Update(::ArrayW<uint8_t,::Array<uint8_t>*>  b, int32_t  off, int32_t  len) ;
+  /// @brief Method Update, addr 0x34e4eb4, size 0x1ac, virtual false, abstract: false, final false
+  inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
 
-/// @brief Method Update, addr 0x34a84f4, size 0x14, virtual false, abstract: false, final false
-inline void Update(uint8_t  b) ;
+  /// @brief Method Update, addr 0x34e4b38, size 0x14, virtual false, abstract: false, final false
+  inline void Update(uint8_t b);
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_dig() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_dig() const;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_dig() ;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_dig();
 
-constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
 
-constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm() ;
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm();
 
-constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_keyAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_keyAlgorithm() const;
 
-constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_keyAlgorithm() ;
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_keyAlgorithm();
 
-constexpr uint8_t const& __cordl_internal_get_lastb() const;
+  constexpr uint8_t const& __cordl_internal_get_lastb() const;
 
-constexpr uint8_t& __cordl_internal_get_lastb() ;
+  constexpr uint8_t& __cordl_internal_get_lastb();
 
-constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* const& __cordl_internal_get_privKey() const;
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* const& __cordl_internal_get_privKey() const;
 
-constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*& __cordl_internal_get_privKey() ;
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*& __cordl_internal_get_privKey();
 
-constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_sig() const;
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_sig() const;
 
-constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_sig() ;
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_sig();
 
-constexpr int32_t const& __cordl_internal_get_signatureType() const;
+  constexpr int32_t const& __cordl_internal_get_signatureType() const;
 
-constexpr int32_t& __cordl_internal_get_signatureType() ;
+  constexpr int32_t& __cordl_internal_get_signatureType();
 
-constexpr void __cordl_internal_set_dig(::Org::BouncyCastle::Crypto::IDigest*  value) ;
+  constexpr void __cordl_internal_set_dig(::Org::BouncyCastle::Crypto::IDigest* value);
 
-constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag  value) ;
+  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
 
-constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  value) ;
+  constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
 
-constexpr void __cordl_internal_set_lastb(uint8_t  value) ;
+  constexpr void __cordl_internal_set_lastb(uint8_t value);
 
-constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*  value) ;
+  constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* value);
 
-constexpr void __cordl_internal_set_sig(::Org::BouncyCastle::Crypto::ISigner*  value) ;
+  constexpr void __cordl_internal_set_sig(::Org::BouncyCastle::Crypto::ISigner* value);
 
-constexpr void __cordl_internal_set_signatureType(int32_t  value) ;
+  constexpr void __cordl_internal_set_signatureType(int32_t value);
 
-/// @brief Method .ctor, addr 0x34a81ac, size 0xd4, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  hashAlgorithm) ;
+  /// @brief Method .ctor, addr 0x34e47f0, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-/// @brief Method doCanonicalUpdateByte, addr 0x34a8508, size 0x64, virtual false, abstract: false, final false
-inline void doCanonicalUpdateByte(uint8_t  b) ;
+  /// @brief Method doCanonicalUpdateByte, addr 0x34e4b4c, size 0x64, virtual false, abstract: false, final false
+  inline void doCanonicalUpdateByte(uint8_t b);
 
-/// @brief Method doUpdateByte, addr 0x34a856c, size 0x138, virtual false, abstract: false, final false
-inline void doUpdateByte(uint8_t  b) ;
+  /// @brief Method doUpdateByte, addr 0x34e4bb0, size 0x138, virtual false, abstract: false, final false
+  inline void doUpdateByte(uint8_t b);
 
-/// @brief Method doUpdateCRLF, addr 0x34a86a4, size 0x20, virtual false, abstract: false, final false
-inline void doUpdateCRLF() ;
+  /// @brief Method doUpdateCRLF, addr 0x34e4ce8, size 0x20, virtual false, abstract: false, final false
+  inline void doUpdateCRLF();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PgpV3SignatureGenerator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PgpV3SignatureGenerator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PgpV3SignatureGenerator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PgpV3SignatureGenerator(PgpV3SignatureGenerator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PgpV3SignatureGenerator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PgpV3SignatureGenerator(PgpV3SignatureGenerator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PgpV3SignatureGenerator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PgpV3SignatureGenerator(PgpV3SignatureGenerator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PgpV3SignatureGenerator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PgpV3SignatureGenerator(PgpV3SignatureGenerator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1674 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1674};
+  /// @brief Field keyAlgorithm, offset: 0x10, size: 0x4, def value: None
+  ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag ___keyAlgorithm;
 
-/// @brief Field keyAlgorithm, offset: 0x10, size: 0x4, def value: None
- ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  ___keyAlgorithm;
+  /// @brief Field hashAlgorithm, offset: 0x14, size: 0x4, def value: None
+  ::Org::BouncyCastle::Bcpg::HashAlgorithmTag ___hashAlgorithm;
 
-/// @brief Field hashAlgorithm, offset: 0x14, size: 0x4, def value: None
- ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  ___hashAlgorithm;
+  /// @brief Field privKey, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* ___privKey;
 
-/// @brief Field privKey, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*  ___privKey;
+  /// @brief Field sig, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::ISigner* ___sig;
 
-/// @brief Field sig, offset: 0x20, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::ISigner*  ___sig;
+  /// @brief Field dig, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::IDigest* ___dig;
 
-/// @brief Field dig, offset: 0x28, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::IDigest*  ___dig;
+  /// @brief Field signatureType, offset: 0x30, size: 0x4, def value: None
+  int32_t ___signatureType;
 
-/// @brief Field signatureType, offset: 0x30, size: 0x4, def value: None
- int32_t  ___signatureType;
+  /// @brief Field lastb, offset: 0x34, size: 0x1, def value: None
+  uint8_t ___lastb;
 
-/// @brief Field lastb, offset: 0x34, size: 0x1, def value: None
- uint8_t  ___lastb;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, ___keyAlgorithm) == 0x10, "Offset mismatch!");
@@ -200,6 +201,6 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerat
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, 0x38>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
+} // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator*, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpV3SignatureGenerator");

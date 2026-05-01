@@ -22,44 +22,44 @@ namespace GlobalNamespace {
 // CS Name: ScoreFormatter
 class CORDL_TYPE ScoreFormatter : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _numberFormatInfo, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__numberFormatInfo, put=setStaticF__numberFormatInfo)) ::System::Globalization::NumberFormatInfo*  _numberFormatInfo;
+  // Declarations
+  /// @brief Field _numberFormatInfo, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__numberFormatInfo, put = setStaticF__numberFormatInfo)) ::System::Globalization::NumberFormatInfo* _numberFormatInfo;
 
-/// @brief Method Format, addr 0x36578ec, size 0x88, virtual false, abstract: false, final false
-static inline ::StringW Format(int32_t  score) ;
+  /// @brief Method Format, addr 0x3693860, size 0x88, virtual false, abstract: false, final false
+  static inline ::StringW Format(int32_t score);
 
-static inline ::GlobalNamespace::ScoreFormatter* New_ctor() ;
+  static inline ::GlobalNamespace::ScoreFormatter* New_ctor();
 
-/// @brief Method .ctor, addr 0x3657974, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36938e8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Globalization::NumberFormatInfo* getStaticF__numberFormatInfo() ;
+  static inline ::System::Globalization::NumberFormatInfo* getStaticF__numberFormatInfo();
 
-static inline void setStaticF__numberFormatInfo(::System::Globalization::NumberFormatInfo*  value) ;
+  static inline void setStaticF__numberFormatInfo(::System::Globalization::NumberFormatInfo* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ScoreFormatter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScoreFormatter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreFormatter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ScoreFormatter(ScoreFormatter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ScoreFormatter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ScoreFormatter(ScoreFormatter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ScoreFormatter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ScoreFormatter(ScoreFormatter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ScoreFormatter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ScoreFormatter(ScoreFormatter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15243 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15238};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreFormatter, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScoreFormatter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreFormatter*, "", "ScoreFormatter");

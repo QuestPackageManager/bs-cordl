@@ -37,64 +37,66 @@ namespace Org::BouncyCastle::Security {
 // CS Name: Org.BouncyCastle.Security.PrivateKeyFactory
 class CORDL_TYPE PrivateKeyFactory : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CreateKey, addr 0x3513824, size 0x1c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::System::IO::Stream*  inStr) ;
+  // Declarations
+  /// @brief Method CreateKey, addr 0x354fe68, size 0x1c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::System::IO::Stream* inStr);
 
-/// @brief Method CreateKey, addr 0x351243c, size 0x13e8, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  keyInfo) ;
+  /// @brief Method CreateKey, addr 0x354ea80, size 0x13e8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
 
-/// @brief Method CreateKey, addr 0x3512420, size 0x1c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::ArrayW<uint8_t,::Array<uint8_t>*>  privateKeyInfoData) ;
+  /// @brief Method CreateKey, addr 0x354ea64, size 0x1c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfoData);
 
-/// @brief Method DecryptKey, addr 0x3513910, size 0x2c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t,::Array<char16_t>*>  passPhrase, ::Org::BouncyCastle::Asn1::Asn1Object*  asn1Object) ;
+  /// @brief Method DecryptKey, addr 0x354ff54, size 0x2c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-/// @brief Method DecryptKey, addr 0x35138d4, size 0x18, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t,::Array<char16_t>*>  passPhrase, ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*  encInfo) ;
+  /// @brief Method DecryptKey, addr 0x354ff18, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
 
-/// @brief Method DecryptKey, addr 0x35138ec, size 0x24, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t,::Array<char16_t>*>  passPhrase, ::ArrayW<uint8_t,::Array<uint8_t>*>  encryptedPrivateKeyInfoData) ;
+  /// @brief Method DecryptKey, addr 0x354ff30, size 0x24, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPrivateKeyInfoData);
 
-/// @brief Method DecryptKey, addr 0x351393c, size 0x24, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t,::Array<char16_t>*>  passPhrase, ::System::IO::Stream*  encryptedPrivateKeyInfoStream) ;
+  /// @brief Method DecryptKey, addr 0x354ff80, size 0x24, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::System::IO::Stream* encryptedPrivateKeyInfoStream);
 
-/// @brief Method EncryptKey, addr 0x3513960, size 0x20, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> EncryptKey(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  algorithm, ::ArrayW<char16_t,::Array<char16_t>*>  passPhrase, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  key) ;
+  /// @brief Method EncryptKey, addr 0x354ffa4, size 0x20, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptKey(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
+                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-/// @brief Method EncryptKey, addr 0x3513980, size 0x5c, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> EncryptKey(::StringW  algorithm, ::ArrayW<char16_t,::Array<char16_t>*>  passPhrase, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  key) ;
+  /// @brief Method EncryptKey, addr 0x354ffc4, size 0x5c, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptKey(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
+                                                                int32_t iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-/// @brief Method GetRawKey, addr 0x3513840, size 0x94, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetRawKey(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  keyInfo, int32_t  expectedSize) ;
+  /// @brief Method GetRawKey, addr 0x354fe84, size 0x94, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawKey(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo, int32_t expectedSize);
 
-static inline ::Org::BouncyCastle::Security::PrivateKeyFactory* New_ctor() ;
+  static inline ::Org::BouncyCastle::Security::PrivateKeyFactory* New_ctor();
 
-/// @brief Method .ctor, addr 0x351241c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x354ea60, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PrivateKeyFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrivateKeyFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PrivateKeyFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PrivateKeyFactory(PrivateKeyFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PrivateKeyFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PrivateKeyFactory(PrivateKeyFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PrivateKeyFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PrivateKeyFactory(PrivateKeyFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PrivateKeyFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PrivateKeyFactory(PrivateKeyFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1755 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1755};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Security::PrivateKeyFactory, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Security
+} // namespace Org::BouncyCastle::Security
 NEED_NO_BOX(::Org::BouncyCastle::Security::PrivateKeyFactory);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::PrivateKeyFactory*, "Org.BouncyCastle.Security", "PrivateKeyFactory");

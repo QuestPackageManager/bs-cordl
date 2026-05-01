@@ -27,40 +27,43 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsRsaUtilities
 class CORDL_TYPE TlsRsaUtilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GenerateEncryptedPreMasterSecret, addr 0x338e2a4, size 0x3fc, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateEncryptedPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  rsaServerPublicKey, ::System::IO::Stream*  output) ;
+  // Declarations
+  /// @brief Method GenerateEncryptedPreMasterSecret, addr 0x33ca8e8, size 0x3fc, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateEncryptedPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
+                                                                                      ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaServerPublicKey, ::System::IO::Stream* output);
 
-static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities* New_ctor();
 
-/// @brief Method SafeDecryptPreMasterSecret, addr 0x338ff48, size 0x410, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> SafeDecryptPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  rsaServerPrivateKey, ::ArrayW<uint8_t,::Array<uint8_t>*>  encryptedPreMasterSecret) ;
+  /// @brief Method SafeDecryptPreMasterSecret, addr 0x33cc58c, size 0x410, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SafeDecryptPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
+                                                                                ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaServerPrivateKey,
+                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPreMasterSecret);
 
-/// @brief Method .ctor, addr 0x3390358, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x33cc99c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TlsRsaUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsRsaUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TlsRsaUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TlsRsaUtilities(TlsRsaUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TlsRsaUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TlsRsaUtilities(TlsRsaUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TlsRsaUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TlsRsaUtilities(TlsRsaUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TlsRsaUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TlsRsaUtilities(TlsRsaUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1320 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1320};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsRsaUtilities");

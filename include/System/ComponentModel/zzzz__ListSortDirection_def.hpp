@@ -12,59 +12,59 @@ struct ListSortDirection;
 }
 // Write type traits
 MARK_VAL_T(::System::ComponentModel::ListSortDirection);
-// Dependencies 
+// Dependencies
 namespace System::ComponentModel {
 // Is value type: true
 // CS Name: System.ComponentModel.ListSortDirection
 struct CORDL_TYPE ListSortDirection {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __ListSortDirection_Unwrapped
-enum struct __ListSortDirection_Unwrapped : int32_t {
-__E_Ascending = static_cast<int32_t>(0x0),
-__E_Descending = static_cast<int32_t>(0x1),
-};
+  /// @brief Nested struct __ListSortDirection_Unwrapped
+  enum struct __ListSortDirection_Unwrapped : int32_t {
+    __E_Ascending = static_cast<int32_t>(0x0),
+    __E_Descending = static_cast<int32_t>(0x1),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __ListSortDirection_Unwrapped () const noexcept {
-return static_cast<__ListSortDirection_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __ListSortDirection_Unwrapped() const noexcept {
+    return static_cast<__ListSortDirection_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ListSortDirection() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListSortDirection();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ListSortDirection(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ListSortDirection(int32_t value__) noexcept;
 
-/// @brief Field Ascending value: I32(0)
-static ::System::ComponentModel::ListSortDirection const Ascending;
+  /// @brief Field Ascending value: I32(0)
+  static ::System::ComponentModel::ListSortDirection const Ascending;
 
-/// @brief Field Descending value: I32(1)
-static ::System::ComponentModel::ListSortDirection const Descending;
+  /// @brief Field Descending value: I32(1)
+  static ::System::ComponentModel::ListSortDirection const Descending;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11261};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11268 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::ListSortDirection, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ListSortDirection, 0x4>, "Size mismatch!");
 
-} // namespace end def System::ComponentModel
+} // namespace System::ComponentModel
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ListSortDirection, "System.ComponentModel", "ListSortDirection");

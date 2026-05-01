@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/InputForUI/CommandEvent.hpp"
 #include "UnityEngine/InputForUI/Event.hpp"
@@ -22,6 +22,5 @@
 #include "UnityEngine/InputForUI/PointerState.hpp"
 #include "UnityEngine/InputForUI/TextInputEvent.hpp"
 #ifdef __cpp_modules
-                    export module InputForUI;
-                    #endif
-                
+export module InputForUI;
+#endif

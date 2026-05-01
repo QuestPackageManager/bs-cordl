@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/UIElements/Layout/ComponentType.hpp"
 #include "UnityEngine/UIElements/Layout/FixedBuffer16_1.hpp"
@@ -48,6 +48,5 @@
 #include "UnityEngine/UIElements/Layout/LayoutWrap.hpp"
 #include "UnityEngine/UIElements/Layout/ManagedObjectStore_1.hpp"
 #ifdef __cpp_modules
-                    export module Layout;
-                    #endif
-                
+export module Layout;
+#endif

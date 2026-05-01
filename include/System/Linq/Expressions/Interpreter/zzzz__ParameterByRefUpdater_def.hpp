@@ -27,51 +27,51 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.ParameterByRefUpdater
 class CORDL_TYPE ParameterByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater {
 public:
-// Declarations
-/// @brief Field _parameter, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__parameter, put=__cordl_internal_set__parameter)) ::System::Linq::Expressions::Interpreter::LocalVariable*  _parameter;
+  // Declarations
+  /// @brief Field _parameter, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__parameter, put = __cordl_internal_set__parameter)) ::System::Linq::Expressions::Interpreter::LocalVariable* _parameter;
 
-static inline ::System::Linq::Expressions::Interpreter::ParameterByRefUpdater* New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable*  parameter, int32_t  argumentIndex) ;
+  static inline ::System::Linq::Expressions::Interpreter::ParameterByRefUpdater* New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex);
 
-/// @brief Method Update, addr 0x5dfa1ac, size 0x1f4, virtual true, abstract: false, final false
-inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame, ::System::Object*  value) ;
+  /// @brief Method Update, addr 0x5e6c1b8, size 0x1f4, virtual true, abstract: false, final false
+  inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
-constexpr ::System::Linq::Expressions::Interpreter::LocalVariable* const& __cordl_internal_get__parameter() const;
+  constexpr ::System::Linq::Expressions::Interpreter::LocalVariable* const& __cordl_internal_get__parameter() const;
 
-constexpr ::System::Linq::Expressions::Interpreter::LocalVariable*& __cordl_internal_get__parameter() ;
+  constexpr ::System::Linq::Expressions::Interpreter::LocalVariable*& __cordl_internal_get__parameter();
 
-constexpr void __cordl_internal_set__parameter(::System::Linq::Expressions::Interpreter::LocalVariable*  value) ;
+  constexpr void __cordl_internal_set__parameter(::System::Linq::Expressions::Interpreter::LocalVariable* value);
 
-/// @brief Method .ctor, addr 0x5dfa1a0, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::System::Linq::Expressions::Interpreter::LocalVariable*  parameter, int32_t  argumentIndex) ;
+  /// @brief Method .ctor, addr 0x5e6c1ac, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ParameterByRefUpdater() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParameterByRefUpdater();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterByRefUpdater", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ParameterByRefUpdater(ParameterByRefUpdater&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ParameterByRefUpdater", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ParameterByRefUpdater(ParameterByRefUpdater && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterByRefUpdater", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ParameterByRefUpdater(ParameterByRefUpdater const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ParameterByRefUpdater", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ParameterByRefUpdater(ParameterByRefUpdater const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16425 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16417};
+  /// @brief Field _parameter, offset: 0x18, size: 0x8, def value: None
+  ::System::Linq::Expressions::Interpreter::LocalVariable* ____parameter;
 
-/// @brief Field _parameter, offset: 0x18, size: 0x8, def value: None
- ::System::Linq::Expressions::Interpreter::LocalVariable*  ____parameter;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ParameterByRefUpdater, ____parameter) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ParameterByRefUpdater, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ParameterByRefUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ParameterByRefUpdater*, "System.Linq.Expressions.Interpreter", "ParameterByRefUpdater");

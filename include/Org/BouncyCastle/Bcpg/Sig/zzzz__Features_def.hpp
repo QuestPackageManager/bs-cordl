@@ -18,60 +18,60 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 // CS Name: Org.BouncyCastle.Bcpg.Sig.Features
 class CORDL_TYPE Features : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
-// Declarations
-/// @brief Field FEATURE_MODIFICATION_DETECTION, offset 0xffffffff, size 0x1 
- __declspec(property(get=getStaticF_FEATURE_MODIFICATION_DETECTION, put=setStaticF_FEATURE_MODIFICATION_DETECTION)) uint8_t  FEATURE_MODIFICATION_DETECTION;
+  // Declarations
+  /// @brief Field FEATURE_MODIFICATION_DETECTION, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF_FEATURE_MODIFICATION_DETECTION, put = setStaticF_FEATURE_MODIFICATION_DETECTION)) uint8_t FEATURE_MODIFICATION_DETECTION;
 
- __declspec(property(get=get_SupportsModificationDetection)) bool  SupportsModificationDetection;
+  __declspec(property(get = get_SupportsModificationDetection)) bool SupportsModificationDetection;
 
-/// @brief Method FeatureToByteArray, addr 0x35989dc, size 0x68, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> FeatureToByteArray(uint8_t  feature) ;
+  /// @brief Method FeatureToByteArray, addr 0x35d5020, size 0x68, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FeatureToByteArray(uint8_t feature);
 
-static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool  critical, uint8_t  feature) ;
+  static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, uint8_t feature);
 
-static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
+  static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-/// @brief Method SetSupportsFeature, addr 0x3598bbc, size 0x1ac, virtual false, abstract: false, final false
-inline void SetSupportsFeature(uint8_t  feature, bool  support) ;
+  /// @brief Method SetSupportsFeature, addr 0x35d5200, size 0x1ac, virtual false, abstract: false, final false
+  inline void SetSupportsFeature(uint8_t feature, bool support);
 
-/// @brief Method SupportsFeature, addr 0x3598b78, size 0x44, virtual false, abstract: false, final false
-inline bool SupportsFeature(uint8_t  feature) ;
+  /// @brief Method SupportsFeature, addr 0x35d51bc, size 0x44, virtual false, abstract: false, final false
+  inline bool SupportsFeature(uint8_t feature);
 
-/// @brief Method .ctor, addr 0x3598a5c, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(bool  critical, uint8_t  feature) ;
+  /// @brief Method .ctor, addr 0x35d50a0, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(bool critical, uint8_t feature);
 
-/// @brief Method .ctor, addr 0x3598a44, size 0x18, virtual false, abstract: false, final false
-inline void _ctor(bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
+  /// @brief Method .ctor, addr 0x35d5088, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-static inline uint8_t getStaticF_FEATURE_MODIFICATION_DETECTION() ;
+  static inline uint8_t getStaticF_FEATURE_MODIFICATION_DETECTION();
 
-/// @brief Method get_SupportsModificationDetection, addr 0x3598ae0, size 0x98, virtual false, abstract: false, final false
-inline bool get_SupportsModificationDetection() ;
+  /// @brief Method get_SupportsModificationDetection, addr 0x35d5124, size 0x98, virtual false, abstract: false, final false
+  inline bool get_SupportsModificationDetection();
 
-static inline void setStaticF_FEATURE_MODIFICATION_DETECTION(uint8_t  value) ;
+  static inline void setStaticF_FEATURE_MODIFICATION_DETECTION(uint8_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Features() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Features();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Features", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Features(Features&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Features", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Features(Features && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Features", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Features(Features const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Features", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Features(Features const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 534 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{534};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Sig::Features, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Bcpg::Sig
+} // namespace Org::BouncyCastle::Bcpg::Sig
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::Features);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::Features*, "Org.BouncyCastle.Bcpg.Sig", "Features");

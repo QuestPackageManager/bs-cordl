@@ -17,34 +17,34 @@ namespace GlobalNamespace {
 // CS Name: OVRReadOnlyAttribute
 class CORDL_TYPE OVRReadOnlyAttribute : public ::UnityEngine::PropertyAttribute {
 public:
-// Declarations
-static inline ::GlobalNamespace::OVRReadOnlyAttribute* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::OVRReadOnlyAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x5d5dfd0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5dcffb8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRReadOnlyAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRReadOnlyAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRReadOnlyAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRReadOnlyAttribute(OVRReadOnlyAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRReadOnlyAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRReadOnlyAttribute(OVRReadOnlyAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRReadOnlyAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRReadOnlyAttribute(OVRReadOnlyAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRReadOnlyAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRReadOnlyAttribute(OVRReadOnlyAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7964 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7958};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRReadOnlyAttribute, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRReadOnlyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRReadOnlyAttribute*, "", "OVRReadOnlyAttribute");

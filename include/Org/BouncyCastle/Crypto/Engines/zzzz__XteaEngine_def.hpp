@@ -25,136 +25,136 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.XteaEngine
 class CORDL_TYPE XteaEngine : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
- __declspec(property(get=get_IsPartialBlockOkay)) bool  IsPartialBlockOkay;
+  __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
 
-/// @brief Field _S, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__S, put=__cordl_internal_set__S)) ::ArrayW<uint32_t,::Array<uint32_t>*>  _S;
+  /// @brief Field _S, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__S, put = __cordl_internal_set__S)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _S;
 
-/// @brief Field _forEncryption, offset 0x29, size 0x1 
- __declspec(property(get=__cordl_internal_get__forEncryption, put=__cordl_internal_set__forEncryption)) bool  _forEncryption;
+  /// @brief Field _forEncryption, offset 0x29, size 0x1
+  __declspec(property(get = __cordl_internal_get__forEncryption, put = __cordl_internal_set__forEncryption)) bool _forEncryption;
 
-/// @brief Field _initialised, offset 0x28, size 0x1 
- __declspec(property(get=__cordl_internal_get__initialised, put=__cordl_internal_set__initialised)) bool  _initialised;
+  /// @brief Field _initialised, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__initialised, put = __cordl_internal_set__initialised)) bool _initialised;
 
-/// @brief Field _sum0, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__sum0, put=__cordl_internal_set__sum0)) ::ArrayW<uint32_t,::Array<uint32_t>*>  _sum0;
+  /// @brief Field _sum0, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__sum0, put = __cordl_internal_set__sum0)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _sum0;
 
-/// @brief Field _sum1, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__sum1, put=__cordl_internal_set__sum1)) ::ArrayW<uint32_t,::Array<uint32_t>*>  _sum1;
+  /// @brief Field _sum1, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__sum1, put = __cordl_internal_set__sum1)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _sum1;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
-constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-/// @brief Method GetBlockSize, addr 0x32d790c, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetBlockSize() ;
+  /// @brief Method GetBlockSize, addr 0x3313f50, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetBlockSize();
 
-/// @brief Method Init, addr 0x32d7914, size 0x148, virtual true, abstract: false, final false
-inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
+  /// @brief Method Init, addr 0x3313f58, size 0x148, virtual true, abstract: false, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-static inline ::Org::BouncyCastle::Crypto::Engines::XteaEngine* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::XteaEngine* New_ctor();
 
-/// @brief Method ProcessBlock, addr 0x32d7b68, size 0x160, virtual true, abstract: false, final false
-inline int32_t ProcessBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
+  /// @brief Method ProcessBlock, addr 0x33141ac, size 0x160, virtual true, abstract: false, final false
+  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-/// @brief Method Reset, addr 0x32d7ec8, size 0x4, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x331450c, size 0x4, virtual true, abstract: false, final false
+  inline void Reset();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get__S() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__S() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get__S() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__S();
 
-constexpr bool const& __cordl_internal_get__forEncryption() const;
+  constexpr bool const& __cordl_internal_get__forEncryption() const;
 
-constexpr bool& __cordl_internal_get__forEncryption() ;
+  constexpr bool& __cordl_internal_get__forEncryption();
 
-constexpr bool const& __cordl_internal_get__initialised() const;
+  constexpr bool const& __cordl_internal_get__initialised() const;
 
-constexpr bool& __cordl_internal_get__initialised() ;
+  constexpr bool& __cordl_internal_get__initialised();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get__sum0() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__sum0() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get__sum0() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__sum0();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get__sum1() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__sum1() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get__sum1() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__sum1();
 
-constexpr void __cordl_internal_set__S(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set__S(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-constexpr void __cordl_internal_set__forEncryption(bool  value) ;
+  constexpr void __cordl_internal_set__forEncryption(bool value);
 
-constexpr void __cordl_internal_set__initialised(bool  value) ;
+  constexpr void __cordl_internal_set__initialised(bool value);
 
-constexpr void __cordl_internal_set__sum0(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set__sum0(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-constexpr void __cordl_internal_set__sum1(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set__sum1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-/// @brief Method .ctor, addr 0x32d7840, size 0x80, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3313e84, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method decryptBlock, addr 0x32d7cc8, size 0xfc, virtual false, abstract: false, final false
-inline int32_t decryptBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
+  /// @brief Method decryptBlock, addr 0x331430c, size 0xfc, virtual false, abstract: false, final false
+  inline int32_t decryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-/// @brief Method encryptBlock, addr 0x32d7dc4, size 0x104, virtual false, abstract: false, final false
-inline int32_t encryptBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
+  /// @brief Method encryptBlock, addr 0x3314408, size 0x104, virtual false, abstract: false, final false
+  inline int32_t encryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-/// @brief Method get_AlgorithmName, addr 0x32d78c0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x3313f04, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
-/// @brief Method get_IsPartialBlockOkay, addr 0x32d7904, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsPartialBlockOkay() ;
+  /// @brief Method get_IsPartialBlockOkay, addr 0x3313f48, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsPartialBlockOkay();
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
-constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-/// @brief Method setKey, addr 0x32d7a5c, size 0x10c, virtual false, abstract: false, final false
-inline void setKey(::ArrayW<uint8_t,::Array<uint8_t>*>  key) ;
+  /// @brief Method setKey, addr 0x33140a0, size 0x10c, virtual false, abstract: false, final false
+  inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XteaEngine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XteaEngine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XteaEngine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XteaEngine(XteaEngine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XteaEngine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XteaEngine(XteaEngine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XteaEngine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XteaEngine(XteaEngine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XteaEngine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XteaEngine(XteaEngine const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 885 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{885};
+  /// @brief Field block_size offset 0xffffffff size 0x4
+  static constexpr int32_t block_size{ static_cast<int32_t>(0x8) };
 
-/// @brief Field block_size offset 0xffffffff size 0x4
-static constexpr int32_t  block_size{static_cast<int32_t>(0x8)};
+  /// @brief Field delta offset 0xffffffff size 0x4
+  static constexpr int32_t delta{ static_cast<int32_t>(0x9e3779b9) };
 
-/// @brief Field delta offset 0xffffffff size 0x4
-static constexpr int32_t  delta{static_cast<int32_t>(0x9e3779b9)};
+  /// @brief Field rounds offset 0xffffffff size 0x4
+  static constexpr int32_t rounds{ static_cast<int32_t>(0x20) };
 
-/// @brief Field rounds offset 0xffffffff size 0x4
-static constexpr int32_t  rounds{static_cast<int32_t>(0x20)};
+  /// @brief Field _S, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ____S;
 
-/// @brief Field _S, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ____S;
+  /// @brief Field _sum0, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ____sum0;
 
-/// @brief Field _sum0, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ____sum0;
+  /// @brief Field _sum1, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ____sum1;
 
-/// @brief Field _sum1, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ____sum1;
+  /// @brief Field _initialised, offset: 0x28, size: 0x1, def value: None
+  bool ____initialised;
 
-/// @brief Field _initialised, offset: 0x28, size: 0x1, def value: None
- bool  ____initialised;
+  /// @brief Field _forEncryption, offset: 0x29, size: 0x1, def value: None
+  bool ____forEncryption;
 
-/// @brief Field _forEncryption, offset: 0x29, size: 0x1, def value: None
- bool  ____forEncryption;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::XteaEngine, ____S) == 0x10, "Offset mismatch!");
@@ -169,6 +169,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::XteaEngine, ____for
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::XteaEngine, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Engines
+} // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::XteaEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::XteaEngine*, "Org.BouncyCastle.Crypto.Engines", "XteaEngine");

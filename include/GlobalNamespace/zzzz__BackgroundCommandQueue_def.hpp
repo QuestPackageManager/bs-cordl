@@ -16,8 +16,7 @@ namespace GlobalNamespace {
 class IBackgroundCommand;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
+template <typename T> class Queue_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -44,45 +43,48 @@ namespace GlobalNamespace {
 // CS Name: BackgroundCommandQueue/<RunInternal>d__4
 struct CORDL_TYPE BackgroundCommandQueue__RunInternal_d__4 {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-/// @brief Method MoveNext, addr 0x3229b9c, size 0x454, virtual true, abstract: false, final true
-inline void MoveNext() ;
+  /// @brief Method MoveNext, addr 0x3266074, size 0x454, virtual true, abstract: false, final true
+  inline void MoveNext();
 
-/// @brief Method SetStateMachine, addr 0x3229ff0, size 0x6c, virtual true, abstract: false, final true
-inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+  /// @brief Method SetStateMachine, addr 0x32664c8, size 0x6c, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BackgroundCommandQueue__RunInternal_d__4() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BackgroundCommandQueue__RunInternal_d__4();
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BackgroundCommandQueue*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-constexpr BackgroundCommandQueue__RunInternal_d__4(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::GlobalNamespace::BackgroundCommandQueue*  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept;
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BackgroundCommandQueue*", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  constexpr BackgroundCommandQueue__RunInternal_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::BackgroundCommandQueue* __4__this,
+                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20676};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20688 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
- int32_t  __1__state;
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
 
-/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::GlobalNamespace::BackgroundCommandQueue*  __4__this;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::BackgroundCommandQueue* __4__this;
 
-/// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
- ::System::Runtime::CompilerServices::TaskAwaiter  __u__1;
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4, __1__state) == 0x0, "Offset mismatch!");
@@ -95,81 +97,82 @@ static_assert(offsetof(::GlobalNamespace::BackgroundCommandQueue__RunInternal_d_
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BackgroundCommandQueue
 class CORDL_TYPE BackgroundCommandQueue : public ::System::Object {
 public:
-// Declarations
-using _RunInternal_d__4 = ::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4;
+  // Declarations
+  using _RunInternal_d__4 = ::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4;
 
-/// @brief Field _commandsQueue, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__commandsQueue, put=__cordl_internal_set__commandsQueue)) ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>*  _commandsQueue;
+  /// @brief Field _commandsQueue, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__commandsQueue,
+                      put = __cordl_internal_set__commandsQueue)) ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>* _commandsQueue;
 
-/// @brief Field _isRunning, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__isRunning, put=__cordl_internal_set__isRunning)) bool  _isRunning;
+  /// @brief Field _isRunning, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__isRunning, put = __cordl_internal_set__isRunning)) bool _isRunning;
 
-/// @brief Field _sync, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__sync, put=__cordl_internal_set__sync)) ::System::Object*  _sync;
+  /// @brief Field _sync, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__sync, put = __cordl_internal_set__sync)) ::System::Object* _sync;
 
-/// @brief Method Enqueue, addr 0x322987c, size 0x1d4, virtual false, abstract: false, final false
-inline void Enqueue(::GlobalNamespace::IBackgroundCommand*  command) ;
+  /// @brief Method Enqueue, addr 0x3265d54, size 0x1d4, virtual false, abstract: false, final false
+  inline void Enqueue(::GlobalNamespace::IBackgroundCommand* command);
 
-static inline ::GlobalNamespace::BackgroundCommandQueue* New_ctor() ;
+  static inline ::GlobalNamespace::BackgroundCommandQueue* New_ctor();
 
-/// @brief Method RunInternal, addr 0x3229a50, size 0xb0, virtual false, abstract: false, final false
-inline ::System::Threading::Tasks::Task* RunInternal() ;
+  /// @brief Method RunInternal, addr 0x3265f28, size 0xb0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* RunInternal();
 
-constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>* const& __cordl_internal_get__commandsQueue() const;
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>* const& __cordl_internal_get__commandsQueue() const;
 
-constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>*& __cordl_internal_get__commandsQueue() ;
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>*& __cordl_internal_get__commandsQueue();
 
-constexpr bool const& __cordl_internal_get__isRunning() const;
+  constexpr bool const& __cordl_internal_get__isRunning() const;
 
-constexpr bool& __cordl_internal_get__isRunning() ;
+  constexpr bool& __cordl_internal_get__isRunning();
 
-constexpr ::System::Object* const& __cordl_internal_get__sync() const;
+  constexpr ::System::Object* const& __cordl_internal_get__sync() const;
 
-constexpr ::System::Object*& __cordl_internal_get__sync() ;
+  constexpr ::System::Object*& __cordl_internal_get__sync();
 
-constexpr void __cordl_internal_set__commandsQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>*  value) ;
+  constexpr void __cordl_internal_set__commandsQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>* value);
 
-constexpr void __cordl_internal_set__isRunning(bool  value) ;
+  constexpr void __cordl_internal_set__isRunning(bool value);
 
-constexpr void __cordl_internal_set__sync(::System::Object*  value) ;
+  constexpr void __cordl_internal_set__sync(::System::Object* value);
 
-/// @brief Method .ctor, addr 0x3229b00, size 0x9c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3265fd8, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BackgroundCommandQueue() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BackgroundCommandQueue();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundCommandQueue", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BackgroundCommandQueue(BackgroundCommandQueue&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BackgroundCommandQueue", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BackgroundCommandQueue(BackgroundCommandQueue && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundCommandQueue", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BackgroundCommandQueue(BackgroundCommandQueue const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BackgroundCommandQueue", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BackgroundCommandQueue(BackgroundCommandQueue const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20689 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20677};
+  /// @brief Field _sync, offset: 0x10, size: 0x8, def value: None
+  ::System::Object* ____sync;
 
-/// @brief Field _sync, offset: 0x10, size: 0x8, def value: None
- ::System::Object*  ____sync;
+  /// @brief Field _commandsQueue, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>* ____commandsQueue;
 
-/// @brief Field _commandsQueue, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>*  ____commandsQueue;
+  /// @brief Field _isRunning, offset: 0x20, size: 0x1, def value: None
+  bool ____isRunning;
 
-/// @brief Field _isRunning, offset: 0x20, size: 0x1, def value: None
- bool  ____isRunning;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BackgroundCommandQueue, ____sync) == 0x10, "Offset mismatch!");
@@ -180,7 +183,7 @@ static_assert(offsetof(::GlobalNamespace::BackgroundCommandQueue, ____isRunning)
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BackgroundCommandQueue, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BackgroundCommandQueue);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BackgroundCommandQueue*, "", "BackgroundCommandQueue");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4, "", "BackgroundCommandQueue/<RunInternal>d__4");

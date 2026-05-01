@@ -9,12 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Bounds2D)
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
@@ -43,142 +41,143 @@ namespace UnityEngine::ProBuilder {
 // CS Name: UnityEngine.ProBuilder.Bounds2D
 class CORDL_TYPE Bounds2D : public ::System::Object {
 public:
-// Declarations
-/// @brief Field center, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_center, put=__cordl_internal_set_center)) ::UnityEngine::Vector2  center;
+  // Declarations
+  /// @brief Field center, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_center, put = __cordl_internal_set_center)) ::UnityEngine::Vector2 center;
 
- __declspec(property(get=get_corners)) ::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  corners;
+  __declspec(property(get = get_corners)) ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> corners;
 
- __declspec(property(get=get_extents)) ::UnityEngine::Vector2  extents;
+  __declspec(property(get = get_extents)) ::UnityEngine::Vector2 extents;
 
-/// @brief Field m_Extents, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Extents, put=__cordl_internal_set_m_Extents)) ::UnityEngine::Vector2  m_Extents;
+  /// @brief Field m_Extents, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Extents, put = __cordl_internal_set_m_Extents)) ::UnityEngine::Vector2 m_Extents;
 
-/// @brief Field m_Size, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Size, put=__cordl_internal_set_m_Size)) ::UnityEngine::Vector2  m_Size;
+  /// @brief Field m_Size, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Size, put = __cordl_internal_set_m_Size)) ::UnityEngine::Vector2 m_Size;
 
- __declspec(property(get=get_size, put=set_size)) ::UnityEngine::Vector2  size;
+  __declspec(property(get = get_size, put = set_size)) ::UnityEngine::Vector2 size;
 
-/// @brief Method Center, addr 0x64ff214, size 0x2a8, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector2 Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points) ;
+  /// @brief Method Center, addr 0x6571220, size 0x2a8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector2 Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points);
 
-/// @brief Method Center, addr 0x64ff4bc, size 0x450, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector2 Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes) ;
+  /// @brief Method Center, addr 0x65714c8, size 0x450, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector2 Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-/// @brief Method Center, addr 0x64ffd64, size 0x4f0, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector2 Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>*  points, ::System::Collections::Generic::IEnumerable_1<int32_t>*  indexes) ;
+  /// @brief Method Center, addr 0x6571d70, size 0x4f0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector2 Center(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* points, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-/// @brief Method ContainsPoint, addr 0x64fef64, size 0x48, virtual false, abstract: false, final false
-inline bool ContainsPoint(::UnityEngine::Vector2  point) ;
+  /// @brief Method ContainsPoint, addr 0x6570f70, size 0x48, virtual false, abstract: false, final false
+  inline bool ContainsPoint(::UnityEngine::Vector2 point);
 
-/// @brief Method Intersects, addr 0x64ff1a0, size 0x38, virtual false, abstract: false, final false
-inline bool Intersects(::UnityEngine::ProBuilder::Bounds2D*  bounds) ;
+  /// @brief Method Intersects, addr 0x65711ac, size 0x38, virtual false, abstract: false, final false
+  inline bool Intersects(::UnityEngine::ProBuilder::Bounds2D* bounds);
 
-/// @brief Method Intersects, addr 0x64ff1d8, size 0x3c, virtual false, abstract: false, final false
-inline bool Intersects(::UnityEngine::Rect  rect) ;
+  /// @brief Method Intersects, addr 0x65711e4, size 0x3c, virtual false, abstract: false, final false
+  inline bool Intersects(::UnityEngine::Rect rect);
 
-/// @brief Method IntersectsLineSegment, addr 0x64fefac, size 0x180, virtual false, abstract: false, final false
-inline bool IntersectsLineSegment(::UnityEngine::Vector2  lineStart, ::UnityEngine::Vector2  lineEnd) ;
+  /// @brief Method IntersectsLineSegment, addr 0x6570fb8, size 0x180, virtual false, abstract: false, final false
+  inline bool IntersectsLineSegment(::UnityEngine::Vector2 lineStart, ::UnityEngine::Vector2 lineEnd);
 
-static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor() ;
+  static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor();
 
-static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::UnityEngine::Vector2  center, ::UnityEngine::Vector2  size) ;
+  static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 size);
 
-static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  points, int32_t  length) ;
+  static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> points, int32_t length);
 
-static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  points, ::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>  edges) ;
+  static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
+                                                              ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> edges);
 
-static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points) ;
+  static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points);
 
-static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes) ;
+  static inline ::UnityEngine::ProBuilder::Bounds2D* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-/// @brief Method SetWithPoints, addr 0x64fe404, size 0x304, virtual false, abstract: false, final false
-inline void SetWithPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points) ;
+  /// @brief Method SetWithPoints, addr 0x6570410, size 0x304, virtual false, abstract: false, final false
+  inline void SetWithPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points);
 
-/// @brief Method SetWithPoints, addr 0x64fe790, size 0x570, virtual false, abstract: false, final false
-inline void SetWithPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes) ;
+  /// @brief Method SetWithPoints, addr 0x657079c, size 0x570, virtual false, abstract: false, final false
+  inline void SetWithPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-/// @brief Method Size, addr 0x64ff90c, size 0x458, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector2 Size(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes) ;
+  /// @brief Method Size, addr 0x6571918, size 0x458, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector2 Size(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-/// @brief Method ToString, addr 0x6500254, size 0x144, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6572260, size 0x144, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_center() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_center() const;
 
-constexpr ::UnityEngine::Vector2& __cordl_internal_get_center() ;
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_center();
 
-constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Extents() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Extents() const;
 
-constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Extents() ;
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Extents();
 
-constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Size() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Size() const;
 
-constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Size() ;
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Size();
 
-constexpr void __cordl_internal_set_center(::UnityEngine::Vector2  value) ;
+  constexpr void __cordl_internal_set_center(::UnityEngine::Vector2 value);
 
-constexpr void __cordl_internal_set_m_Extents(::UnityEngine::Vector2  value) ;
+  constexpr void __cordl_internal_set_m_Extents(::UnityEngine::Vector2 value);
 
-constexpr void __cordl_internal_set_m_Size(::UnityEngine::Vector2  value) ;
+  constexpr void __cordl_internal_set_m_Size(::UnityEngine::Vector2 value);
 
-/// @brief Method .ctor, addr 0x64fe27c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6570288, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x64fe2e8, size 0x9c, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Vector2  center, ::UnityEngine::Vector2  size) ;
+  /// @brief Method .ctor, addr 0x65702f4, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 size);
 
-/// @brief Method .ctor, addr 0x64fee5c, size 0x108, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  points, int32_t  length) ;
+  /// @brief Method .ctor, addr 0x6570e68, size 0x108, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> points, int32_t length);
 
-/// @brief Method .ctor, addr 0x64fed00, size 0x15c, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  points, ::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>  edges) ;
+  /// @brief Method .ctor, addr 0x6570d0c, size 0x15c, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points, ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> edges);
 
-/// @brief Method .ctor, addr 0x64fe384, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points) ;
+  /// @brief Method .ctor, addr 0x6570390, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points);
 
-/// @brief Method .ctor, addr 0x64fe708, size 0x88, virtual false, abstract: false, final false
-inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*  points, ::System::Collections::Generic::IList_1<int32_t>*  indexes) ;
+  /// @brief Method .ctor, addr 0x6570714, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-/// @brief Method get_corners, addr 0x64fe1b0, size 0xcc, virtual false, abstract: false, final false
-inline ::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*> get_corners() ;
+  /// @brief Method get_corners, addr 0x65701bc, size 0xcc, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> get_corners();
 
-/// @brief Method get_extents, addr 0x64fe1a8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector2 get_extents() ;
+  /// @brief Method get_extents, addr 0x65701b4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_extents();
 
-/// @brief Method get_size, addr 0x64fe188, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector2 get_size() ;
+  /// @brief Method get_size, addr 0x6570194, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_size();
 
-/// @brief Method set_size, addr 0x64fe190, size 0x18, virtual false, abstract: false, final false
-inline void set_size(::UnityEngine::Vector2  value) ;
+  /// @brief Method set_size, addr 0x657019c, size 0x18, virtual false, abstract: false, final false
+  inline void set_size(::UnityEngine::Vector2 value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Bounds2D() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Bounds2D();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Bounds2D(Bounds2D&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Bounds2D(Bounds2D && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Bounds2D(Bounds2D const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Bounds2D(Bounds2D const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16696 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16688};
+  /// @brief Field center, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Vector2 ___center;
 
-/// @brief Field center, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Vector2  ___center;
+  /// @brief Field m_Size, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Vector2 ___m_Size;
 
-/// @brief Field m_Size, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::Vector2  ___m_Size;
+  /// @brief Field m_Extents, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::Vector2 ___m_Extents;
 
-/// @brief Field m_Extents, offset: 0x20, size: 0x8, def value: None
- ::UnityEngine::Vector2  ___m_Extents;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ProBuilder::Bounds2D, ___center) == 0x10, "Offset mismatch!");
@@ -189,6 +188,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Bounds2D, ___m_Extents) == 0x2
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Bounds2D, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder
+} // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Bounds2D);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Bounds2D*, "UnityEngine.ProBuilder", "Bounds2D");

@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Tayx/Graphy/Graph/G_Graph.hpp"
 #ifdef __cpp_modules
-                    export module Graph;
-                    #endif
-                
+export module Graph;
+#endif

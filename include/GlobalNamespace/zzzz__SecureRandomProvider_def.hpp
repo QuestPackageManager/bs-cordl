@@ -28,90 +28,90 @@ namespace GlobalNamespace {
 // CS Name: SecureRandomProvider/SecureRandomState
 class CORDL_TYPE SecureRandomProvider_SecureRandomState : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _index, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get__index, put=__cordl_internal_set__index)) int32_t  _index;
+  // Declarations
+  /// @brief Field _index, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-/// @brief Field _random, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__random, put=__cordl_internal_set__random)) ::System::Security::Cryptography::RandomNumberGenerator*  _random;
+  /// @brief Field _random, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Security::Cryptography::RandomNumberGenerator* _random;
 
-/// @brief Field _randomBuffer0, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__randomBuffer0, put=__cordl_internal_set__randomBuffer0)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _randomBuffer0;
+  /// @brief Field _randomBuffer0, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__randomBuffer0, put = __cordl_internal_set__randomBuffer0)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer0;
 
-/// @brief Field _randomBuffer1, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__randomBuffer1, put=__cordl_internal_set__randomBuffer1)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _randomBuffer1;
+  /// @brief Field _randomBuffer1, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__randomBuffer1, put = __cordl_internal_set__randomBuffer1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer1;
 
-/// @brief Method FillBuffer, addr 0x3245180, size 0x104, virtual false, abstract: false, final false
-inline void FillBuffer() ;
+  /// @brief Method FillBuffer, addr 0x3281658, size 0x104, virtual false, abstract: false, final false
+  inline void FillBuffer();
 
-/// @brief Method GetByte, addr 0x3244f80, size 0x94, virtual false, abstract: false, final false
-inline uint8_t GetByte() ;
+  /// @brief Method GetByte, addr 0x3281458, size 0x94, virtual false, abstract: false, final false
+  inline uint8_t GetByte();
 
-/// @brief Method GetBytes, addr 0x3244e6c, size 0xb0, virtual false, abstract: false, final false
-inline void GetBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  length) ;
+  /// @brief Method GetBytes, addr 0x3281344, size 0xb0, virtual false, abstract: false, final false
+  inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* New_ctor() ;
+  static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* New_ctor();
 
-constexpr int32_t const& __cordl_internal_get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-constexpr int32_t& __cordl_internal_get__index() ;
+  constexpr int32_t& __cordl_internal_get__index();
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator* const& __cordl_internal_get__random() const;
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator* const& __cordl_internal_get__random() const;
 
-constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get__random() ;
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get__random();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__randomBuffer0() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__randomBuffer0() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__randomBuffer0() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__randomBuffer0();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__randomBuffer1() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__randomBuffer1() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__randomBuffer1() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__randomBuffer1();
 
-constexpr void __cordl_internal_set__index(int32_t  value) ;
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-constexpr void __cordl_internal_set__random(::System::Security::Cryptography::RandomNumberGenerator*  value) ;
+  constexpr void __cordl_internal_set__random(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-constexpr void __cordl_internal_set__randomBuffer0(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set__randomBuffer0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set__randomBuffer1(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set__randomBuffer1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x3245100, size 0x80, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32815d8, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SecureRandomProvider_SecureRandomState() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecureRandomProvider_SecureRandomState();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18261 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18251};
+  /// @brief Field kBufferSize offset 0xffffffff size 0x4
+  static constexpr int32_t kBufferSize{ static_cast<int32_t>(0x4000) };
 
-/// @brief Field kBufferSize offset 0xffffffff size 0x4
-static constexpr int32_t  kBufferSize{static_cast<int32_t>(0x4000)};
+  /// @brief Field _random, offset: 0x10, size: 0x8, def value: None
+  ::System::Security::Cryptography::RandomNumberGenerator* ____random;
 
-/// @brief Field _random, offset: 0x10, size: 0x8, def value: None
- ::System::Security::Cryptography::RandomNumberGenerator*  ____random;
+  /// @brief Field _randomBuffer0, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____randomBuffer0;
 
-/// @brief Field _randomBuffer0, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ____randomBuffer0;
+  /// @brief Field _randomBuffer1, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____randomBuffer1;
 
-/// @brief Field _randomBuffer1, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ____randomBuffer1;
+  /// @brief Field _index, offset: 0x28, size: 0x4, def value: None
+  int32_t ____index;
 
-/// @brief Field _index, offset: 0x28, size: 0x4, def value: None
- int32_t  ____index;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SecureRandomProvider_SecureRandomState, ____random) == 0x10, "Offset mismatch!");
@@ -124,58 +124,58 @@ static_assert(offsetof(::GlobalNamespace::SecureRandomProvider_SecureRandomState
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SecureRandomProvider_SecureRandomState, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SecureRandomProvider
 class CORDL_TYPE SecureRandomProvider : public ::System::Object {
 public:
-// Declarations
-using SecureRandomState = ::GlobalNamespace::SecureRandomProvider_SecureRandomState;
+  // Declarations
+  using SecureRandomState = ::GlobalNamespace::SecureRandomProvider_SecureRandomState;
 
-/// @brief Field _secureRandomState, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__secureRandomState, put=setStaticF__secureRandomState)) ::GlobalNamespace::SecureRandomProvider_SecureRandomState*  _secureRandomState;
+  /// @brief Field _secureRandomState, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__secureRandomState, put = setStaticF__secureRandomState)) ::GlobalNamespace::SecureRandomProvider_SecureRandomState* _secureRandomState;
 
-/// @brief Method GetByte, addr 0x3244f1c, size 0x64, virtual false, abstract: false, final false
-static inline uint8_t GetByte() ;
+  /// @brief Method GetByte, addr 0x32813f4, size 0x64, virtual false, abstract: false, final false
+  static inline uint8_t GetByte();
 
-/// @brief Method GetBytes, addr 0x3244dc4, size 0xa8, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetBytes(int32_t  length) ;
+  /// @brief Method GetBytes, addr 0x328129c, size 0xa8, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t length);
 
-/// @brief Method GetBytes, addr 0x3245014, size 0x78, virtual false, abstract: false, final false
-static inline void GetBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer) ;
+  /// @brief Method GetBytes, addr 0x32814ec, size 0x78, virtual false, abstract: false, final false
+  static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-/// @brief Method GetBytes, addr 0x3235268, size 0x84, virtual false, abstract: false, final false
-static inline void GetBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  length) ;
+  /// @brief Method GetBytes, addr 0x3271740, size 0x84, virtual false, abstract: false, final false
+  static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* getStaticF__secureRandomState() ;
+  static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* getStaticF__secureRandomState();
 
-static inline void setStaticF__secureRandomState(::GlobalNamespace::SecureRandomProvider_SecureRandomState*  value) ;
+  static inline void setStaticF__secureRandomState(::GlobalNamespace::SecureRandomProvider_SecureRandomState* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SecureRandomProvider() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecureRandomProvider();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SecureRandomProvider(SecureRandomProvider&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SecureRandomProvider(SecureRandomProvider && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SecureRandomProvider(SecureRandomProvider const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SecureRandomProvider(SecureRandomProvider const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18262 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18252};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SecureRandomProvider, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SecureRandomProvider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SecureRandomProvider*, "", "SecureRandomProvider");
 NEED_NO_BOX(::GlobalNamespace::SecureRandomProvider_SecureRandomState);

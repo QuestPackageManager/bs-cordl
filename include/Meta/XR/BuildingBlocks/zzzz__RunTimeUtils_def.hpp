@@ -22,36 +22,35 @@ namespace Meta::XR::BuildingBlocks {
 // CS Name: Meta.XR.BuildingBlocks.RunTimeUtils
 class CORDL_TYPE RunTimeUtils : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GenerateRandomString, addr 0x58863fc, size 0x200, virtual false, abstract: false, final false
-static inline ::StringW GenerateRandomString(int32_t  size, bool  includeLowercase, bool  includeUppercase, bool  includeNumeric, bool  includeSpecial) ;
+  // Declarations
+  /// @brief Method GenerateRandomString, addr 0x58f8368, size 0x200, virtual false, abstract: false, final false
+  static inline ::StringW GenerateRandomString(int32_t size, bool includeLowercase, bool includeUppercase, bool includeNumeric, bool includeSpecial);
 
-/// @brief Method GetInterfaceComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline T GetInterfaceComponent(::UnityEngine::MonoBehaviour*  monoBehaviour) ;
+  /// @brief Method GetInterfaceComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T GetInterfaceComponent(::UnityEngine::MonoBehaviour* monoBehaviour);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RunTimeUtils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RunTimeUtils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RunTimeUtils(RunTimeUtils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RunTimeUtils(RunTimeUtils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RunTimeUtils(RunTimeUtils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RunTimeUtils(RunTimeUtils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21184 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21173};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::BuildingBlocks::RunTimeUtils, 0x10>, "Size mismatch!");
 
-} // namespace end def Meta::XR::BuildingBlocks
+} // namespace Meta::XR::BuildingBlocks
 NEED_NO_BOX(::Meta::XR::BuildingBlocks::RunTimeUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::BuildingBlocks::RunTimeUtils*, "Meta.XR.BuildingBlocks", "RunTimeUtils");

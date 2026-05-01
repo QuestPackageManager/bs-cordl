@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Oculus/Platform/BuildingBlocks/EntitlementCheck.hpp"
 #ifdef __cpp_modules
-                    export module BuildingBlocks;
-                    #endif
-                
+export module BuildingBlocks;
+#endif

@@ -24,44 +24,44 @@ namespace System::Resources {
 // CS Name: System.Resources.MissingManifestResourceException
 class CORDL_TYPE MissingManifestResourceException : public ::System::SystemException {
 public:
-// Declarations
-static inline ::System::Resources::MissingManifestResourceException* New_ctor() ;
+  // Declarations
+  static inline ::System::Resources::MissingManifestResourceException* New_ctor();
 
-static inline ::System::Resources::MissingManifestResourceException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::Resources::MissingManifestResourceException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Resources::MissingManifestResourceException* New_ctor(::StringW  message) ;
+  static inline ::System::Resources::MissingManifestResourceException* New_ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x59c3514, size 0x60, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5a35480, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x59c3598, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5a35504, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x59c3574, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5a354e0, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissingManifestResourceException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissingManifestResourceException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissingManifestResourceException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissingManifestResourceException(MissingManifestResourceException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissingManifestResourceException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissingManifestResourceException(MissingManifestResourceException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissingManifestResourceException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissingManifestResourceException(MissingManifestResourceException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissingManifestResourceException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissingManifestResourceException(MissingManifestResourceException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3442 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3442};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Resources::MissingManifestResourceException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Resources
+} // namespace System::Resources
 NEED_NO_BOX(::System::Resources::MissingManifestResourceException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::MissingManifestResourceException*, "System.Resources", "MissingManifestResourceException");

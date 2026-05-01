@@ -19,38 +19,38 @@ namespace System::Net::Mail {
 // CS Name: System.Net.Mail.QuotedStringFormatReader
 class CORDL_TYPE QuotedStringFormatReader : public ::System::Object {
 public:
-// Declarations
-/// @brief Method IsValidQtext, addr 0x61bb6cc, size 0xbc, virtual false, abstract: false, final false
-static inline bool IsValidQtext(bool  allowUnicode, char16_t  ch) ;
+  // Declarations
+  /// @brief Method IsValidQtext, addr 0x622d6d8, size 0xbc, virtual false, abstract: false, final false
+  static inline bool IsValidQtext(bool allowUnicode, char16_t ch);
 
-/// @brief Method ReadReverseQuoted, addr 0x61bb2a8, size 0x1bc, virtual false, abstract: false, final false
-static inline int32_t ReadReverseQuoted(::StringW  data, int32_t  index, bool  permitUnicode) ;
+  /// @brief Method ReadReverseQuoted, addr 0x622d2b4, size 0x1bc, virtual false, abstract: false, final false
+  static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
 
-/// @brief Method ReadReverseUnQuoted, addr 0x61bb464, size 0x19c, virtual false, abstract: false, final false
-static inline int32_t ReadReverseUnQuoted(::StringW  data, int32_t  index, bool  permitUnicode, bool  expectCommaDelimiter) ;
+  /// @brief Method ReadReverseUnQuoted, addr 0x622d470, size 0x19c, virtual false, abstract: false, final false
+  static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr QuotedStringFormatReader() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuotedStringFormatReader();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "QuotedStringFormatReader", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  QuotedStringFormatReader(QuotedStringFormatReader&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QuotedStringFormatReader", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-QuotedStringFormatReader(QuotedStringFormatReader && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "QuotedStringFormatReader", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  QuotedStringFormatReader(QuotedStringFormatReader const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QuotedStringFormatReader", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-QuotedStringFormatReader(QuotedStringFormatReader const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11780 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11773};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Mail::QuotedStringFormatReader, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net::Mail
+} // namespace System::Net::Mail
 NEED_NO_BOX(::System::Net::Mail::QuotedStringFormatReader);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Mail::QuotedStringFormatReader*, "System.Net.Mail", "QuotedStringFormatReader");

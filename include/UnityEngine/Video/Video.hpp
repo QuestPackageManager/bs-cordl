@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/Video/Video3DLayout.hpp"
 #include "UnityEngine/Video/VideoAspectRatio.hpp"
@@ -14,6 +14,5 @@
 #include "UnityEngine/Video/VideoTimeSource.hpp"
 #include "UnityEngine/Video/VideoTimeUpdateMode.hpp"
 #ifdef __cpp_modules
-                    export module Video;
-                    #endif
-                
+export module Video;
+#endif

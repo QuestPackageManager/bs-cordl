@@ -19,41 +19,41 @@ namespace Internal::Cryptography {
 // CS Name: Internal.Cryptography.Helpers
 class CORDL_TYPE Helpers : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CloneByteArray, addr 0x591937c, size 0x78, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CloneByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  src) ;
+  // Declarations
+  /// @brief Method CloneByteArray, addr 0x598b2e8, size 0x78, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CloneByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> src);
 
-/// @brief Method NibbleToHex, addr 0x59194d4, size 0x1c, virtual false, abstract: false, final false
-static inline char16_t NibbleToHex(uint8_t  b) ;
+  /// @brief Method NibbleToHex, addr 0x598b440, size 0x1c, virtual false, abstract: false, final false
+  static inline char16_t NibbleToHex(uint8_t b);
 
-/// @brief Method ToHexArrayUpper, addr 0x59193f4, size 0xe0, virtual false, abstract: false, final false
-static inline ::ArrayW<char16_t,::Array<char16_t>*> ToHexArrayUpper(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
+  /// @brief Method ToHexArrayUpper, addr 0x598b360, size 0xe0, virtual false, abstract: false, final false
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> ToHexArrayUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-/// @brief Method ToHexStringUpper, addr 0x59194f0, size 0x10, virtual false, abstract: false, final false
-static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
+  /// @brief Method ToHexStringUpper, addr 0x598b45c, size 0x10, virtual false, abstract: false, final false
+  static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Helpers() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Helpers();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Helpers", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Helpers(Helpers&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Helpers", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Helpers(Helpers && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Helpers", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Helpers(Helpers const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Helpers", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Helpers(Helpers const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2309 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2309};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Helpers, 0x10>, "Size mismatch!");
 
-} // namespace end def Internal::Cryptography
+} // namespace Internal::Cryptography
 NEED_NO_BOX(::Internal::Cryptography::Helpers);
 DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::Helpers*, "Internal.Cryptography", "Helpers");

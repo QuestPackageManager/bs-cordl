@@ -21,32 +21,32 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.ConvertHelper
 class CORDL_TYPE ConvertHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ToInt32NoNull, addr 0x5dd8f68, size 0x154, virtual false, abstract: false, final false
-static inline int32_t ToInt32NoNull(::System::Object*  val) ;
+  // Declarations
+  /// @brief Method ToInt32NoNull, addr 0x5e4af74, size 0x154, virtual false, abstract: false, final false
+  static inline int32_t ToInt32NoNull(::System::Object* val);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConvertHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConvertHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConvertHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConvertHelper(ConvertHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConvertHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConvertHelper(ConvertHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConvertHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConvertHelper(ConvertHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConvertHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConvertHelper(ConvertHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16248 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16240};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ConvertHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ConvertHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ConvertHelper*, "System.Linq.Expressions.Interpreter", "ConvertHelper");

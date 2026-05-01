@@ -23,32 +23,32 @@ namespace BeatmapSaveDataCommon {
 // CS Name: BeatmapSaveDataCommon.EaseTypeConvertor
 class CORDL_TYPE EaseTypeConvertor : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Convert, addr 0x3662364, size 0x24, virtual false, abstract: false, final false
-static inline ::BeatmapSaveDataCommon::EaseType Convert(::GlobalNamespace::EaseType  easeType) ;
+  // Declarations
+  /// @brief Method Convert, addr 0x369e314, size 0x24, virtual false, abstract: false, final false
+  static inline ::BeatmapSaveDataCommon::EaseType Convert(::GlobalNamespace::EaseType easeType);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EaseTypeConvertor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EaseTypeConvertor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EaseTypeConvertor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EaseTypeConvertor(EaseTypeConvertor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EaseTypeConvertor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EaseTypeConvertor(EaseTypeConvertor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EaseTypeConvertor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EaseTypeConvertor(EaseTypeConvertor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EaseTypeConvertor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EaseTypeConvertor(EaseTypeConvertor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15380 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15375};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::EaseTypeConvertor, 0x10>, "Size mismatch!");
 
-} // namespace end def BeatmapSaveDataCommon
+} // namespace BeatmapSaveDataCommon
 NEED_NO_BOX(::BeatmapSaveDataCommon::EaseTypeConvertor);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataCommon::EaseTypeConvertor*, "BeatmapSaveDataCommon", "EaseTypeConvertor");

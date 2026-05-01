@@ -19,144 +19,144 @@ namespace LiteNetLib {
 // CS Name: LiteNetLib.NetStatistics
 class CORDL_TYPE NetStatistics : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_BytesReceived)) int64_t  BytesReceived;
+  // Declarations
+  __declspec(property(get = get_BytesReceived)) int64_t BytesReceived;
 
- __declspec(property(get=get_BytesSent)) int64_t  BytesSent;
+  __declspec(property(get = get_BytesSent)) int64_t BytesSent;
 
- __declspec(property(get=get_PacketLoss)) int64_t  PacketLoss;
+  __declspec(property(get = get_PacketLoss)) int64_t PacketLoss;
 
- __declspec(property(get=get_PacketLossPercent)) int64_t  PacketLossPercent;
+  __declspec(property(get = get_PacketLossPercent)) int64_t PacketLossPercent;
 
- __declspec(property(get=get_PacketsReceived)) int64_t  PacketsReceived;
+  __declspec(property(get = get_PacketsReceived)) int64_t PacketsReceived;
 
- __declspec(property(get=get_PacketsSent)) int64_t  PacketsSent;
+  __declspec(property(get = get_PacketsSent)) int64_t PacketsSent;
 
-/// @brief Field _bytesReceived, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__bytesReceived, put=__cordl_internal_set__bytesReceived)) int64_t  _bytesReceived;
+  /// @brief Field _bytesReceived, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__bytesReceived, put = __cordl_internal_set__bytesReceived)) int64_t _bytesReceived;
 
-/// @brief Field _bytesSent, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__bytesSent, put=__cordl_internal_set__bytesSent)) int64_t  _bytesSent;
+  /// @brief Field _bytesSent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__bytesSent, put = __cordl_internal_set__bytesSent)) int64_t _bytesSent;
 
-/// @brief Field _packetLoss, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__packetLoss, put=__cordl_internal_set__packetLoss)) int64_t  _packetLoss;
+  /// @brief Field _packetLoss, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__packetLoss, put = __cordl_internal_set__packetLoss)) int64_t _packetLoss;
 
-/// @brief Field _packetsReceived, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__packetsReceived, put=__cordl_internal_set__packetsReceived)) int64_t  _packetsReceived;
+  /// @brief Field _packetsReceived, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__packetsReceived, put = __cordl_internal_set__packetsReceived)) int64_t _packetsReceived;
 
-/// @brief Field _packetsSent, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__packetsSent, put=__cordl_internal_set__packetsSent)) int64_t  _packetsSent;
+  /// @brief Field _packetsSent, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__packetsSent, put = __cordl_internal_set__packetsSent)) int64_t _packetsSent;
 
-/// @brief Method AddBytesReceived, addr 0x56ed714, size 0x20, virtual false, abstract: false, final false
-inline void AddBytesReceived(int64_t  bytesReceived) ;
+  /// @brief Method AddBytesReceived, addr 0x575b600, size 0x20, virtual false, abstract: false, final false
+  inline void AddBytesReceived(int64_t bytesReceived);
 
-/// @brief Method AddBytesSent, addr 0x56eb6ec, size 0x20, virtual false, abstract: false, final false
-inline void AddBytesSent(int64_t  bytesSent) ;
+  /// @brief Method AddBytesSent, addr 0x57595d8, size 0x20, virtual false, abstract: false, final false
+  inline void AddBytesSent(int64_t bytesSent);
 
-/// @brief Method AddPacketLoss, addr 0x56f35f0, size 0x20, virtual false, abstract: false, final false
-inline void AddPacketLoss(int64_t  packetLoss) ;
+  /// @brief Method AddPacketLoss, addr 0x57614dc, size 0x20, virtual false, abstract: false, final false
+  inline void AddPacketLoss(int64_t packetLoss);
 
-/// @brief Method IncrementPacketLoss, addr 0x56f35d4, size 0x1c, virtual false, abstract: false, final false
-inline void IncrementPacketLoss() ;
+  /// @brief Method IncrementPacketLoss, addr 0x57614c0, size 0x1c, virtual false, abstract: false, final false
+  inline void IncrementPacketLoss();
 
-/// @brief Method IncrementPacketsReceived, addr 0x56ed6f8, size 0x1c, virtual false, abstract: false, final false
-inline void IncrementPacketsReceived() ;
+  /// @brief Method IncrementPacketsReceived, addr 0x575b5e4, size 0x1c, virtual false, abstract: false, final false
+  inline void IncrementPacketsReceived();
 
-/// @brief Method IncrementPacketsSent, addr 0x56eb6d0, size 0x1c, virtual false, abstract: false, final false
-inline void IncrementPacketsSent() ;
+  /// @brief Method IncrementPacketsSent, addr 0x57595bc, size 0x1c, virtual false, abstract: false, final false
+  inline void IncrementPacketsSent();
 
-static inline ::LiteNetLib::NetStatistics* New_ctor() ;
+  static inline ::LiteNetLib::NetStatistics* New_ctor();
 
-/// @brief Method Reset, addr 0x56f3574, size 0x60, virtual false, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x5761460, size 0x60, virtual false, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method ToString, addr 0x56f3610, size 0x2a8, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x57614fc, size 0x2a8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr int64_t const& __cordl_internal_get__bytesReceived() const;
+  constexpr int64_t const& __cordl_internal_get__bytesReceived() const;
 
-constexpr int64_t& __cordl_internal_get__bytesReceived() ;
+  constexpr int64_t& __cordl_internal_get__bytesReceived();
 
-constexpr int64_t const& __cordl_internal_get__bytesSent() const;
+  constexpr int64_t const& __cordl_internal_get__bytesSent() const;
 
-constexpr int64_t& __cordl_internal_get__bytesSent() ;
+  constexpr int64_t& __cordl_internal_get__bytesSent();
 
-constexpr int64_t const& __cordl_internal_get__packetLoss() const;
+  constexpr int64_t const& __cordl_internal_get__packetLoss() const;
 
-constexpr int64_t& __cordl_internal_get__packetLoss() ;
+  constexpr int64_t& __cordl_internal_get__packetLoss();
 
-constexpr int64_t const& __cordl_internal_get__packetsReceived() const;
+  constexpr int64_t const& __cordl_internal_get__packetsReceived() const;
 
-constexpr int64_t& __cordl_internal_get__packetsReceived() ;
+  constexpr int64_t& __cordl_internal_get__packetsReceived();
 
-constexpr int64_t const& __cordl_internal_get__packetsSent() const;
+  constexpr int64_t const& __cordl_internal_get__packetsSent() const;
 
-constexpr int64_t& __cordl_internal_get__packetsSent() ;
+  constexpr int64_t& __cordl_internal_get__packetsSent();
 
-constexpr void __cordl_internal_set__bytesReceived(int64_t  value) ;
+  constexpr void __cordl_internal_set__bytesReceived(int64_t value);
 
-constexpr void __cordl_internal_set__bytesSent(int64_t  value) ;
+  constexpr void __cordl_internal_set__bytesSent(int64_t value);
 
-constexpr void __cordl_internal_set__packetLoss(int64_t  value) ;
+  constexpr void __cordl_internal_set__packetLoss(int64_t value);
 
-constexpr void __cordl_internal_set__packetsReceived(int64_t  value) ;
+  constexpr void __cordl_internal_set__packetsReceived(int64_t value);
 
-constexpr void __cordl_internal_set__packetsSent(int64_t  value) ;
+  constexpr void __cordl_internal_set__packetsSent(int64_t value);
 
-/// @brief Method .ctor, addr 0x56eae64, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5758d50, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_BytesReceived, addr 0x56f34e8, size 0x1c, virtual false, abstract: false, final false
-inline int64_t get_BytesReceived() ;
+  /// @brief Method get_BytesReceived, addr 0x57613d4, size 0x1c, virtual false, abstract: false, final false
+  inline int64_t get_BytesReceived();
 
-/// @brief Method get_BytesSent, addr 0x56f34cc, size 0x1c, virtual false, abstract: false, final false
-inline int64_t get_BytesSent() ;
+  /// @brief Method get_BytesSent, addr 0x57613b8, size 0x1c, virtual false, abstract: false, final false
+  inline int64_t get_BytesSent();
 
-/// @brief Method get_PacketLoss, addr 0x56f3504, size 0x1c, virtual false, abstract: false, final false
-inline int64_t get_PacketLoss() ;
+  /// @brief Method get_PacketLoss, addr 0x57613f0, size 0x1c, virtual false, abstract: false, final false
+  inline int64_t get_PacketLoss();
 
-/// @brief Method get_PacketLossPercent, addr 0x56f3520, size 0x54, virtual false, abstract: false, final false
-inline int64_t get_PacketLossPercent() ;
+  /// @brief Method get_PacketLossPercent, addr 0x576140c, size 0x54, virtual false, abstract: false, final false
+  inline int64_t get_PacketLossPercent();
 
-/// @brief Method get_PacketsReceived, addr 0x56f34b0, size 0x1c, virtual false, abstract: false, final false
-inline int64_t get_PacketsReceived() ;
+  /// @brief Method get_PacketsReceived, addr 0x576139c, size 0x1c, virtual false, abstract: false, final false
+  inline int64_t get_PacketsReceived();
 
-/// @brief Method get_PacketsSent, addr 0x56f3494, size 0x1c, virtual false, abstract: false, final false
-inline int64_t get_PacketsSent() ;
+  /// @brief Method get_PacketsSent, addr 0x5761380, size 0x1c, virtual false, abstract: false, final false
+  inline int64_t get_PacketsSent();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NetStatistics() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetStatistics();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NetStatistics", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NetStatistics(NetStatistics&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetStatistics", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NetStatistics(NetStatistics && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NetStatistics", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NetStatistics(NetStatistics const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetStatistics", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NetStatistics(NetStatistics const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19863 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19853};
+  /// @brief Field _packetsSent, offset: 0x10, size: 0x8, def value: None
+  int64_t ____packetsSent;
 
-/// @brief Field _packetsSent, offset: 0x10, size: 0x8, def value: None
- int64_t  ____packetsSent;
+  /// @brief Field _packetsReceived, offset: 0x18, size: 0x8, def value: None
+  int64_t ____packetsReceived;
 
-/// @brief Field _packetsReceived, offset: 0x18, size: 0x8, def value: None
- int64_t  ____packetsReceived;
+  /// @brief Field _bytesSent, offset: 0x20, size: 0x8, def value: None
+  int64_t ____bytesSent;
 
-/// @brief Field _bytesSent, offset: 0x20, size: 0x8, def value: None
- int64_t  ____bytesSent;
+  /// @brief Field _bytesReceived, offset: 0x28, size: 0x8, def value: None
+  int64_t ____bytesReceived;
 
-/// @brief Field _bytesReceived, offset: 0x28, size: 0x8, def value: None
- int64_t  ____bytesReceived;
+  /// @brief Field _packetLoss, offset: 0x30, size: 0x8, def value: None
+  int64_t ____packetLoss;
 
-/// @brief Field _packetLoss, offset: 0x30, size: 0x8, def value: None
- int64_t  ____packetLoss;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::LiteNetLib::NetStatistics, ____packetsSent) == 0x10, "Offset mismatch!");
@@ -171,6 +171,6 @@ static_assert(offsetof(::LiteNetLib::NetStatistics, ____packetLoss) == 0x30, "Of
 
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetStatistics, 0x38>, "Size mismatch!");
 
-} // namespace end def LiteNetLib
+} // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetStatistics);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");

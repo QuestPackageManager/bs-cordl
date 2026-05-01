@@ -31,47 +31,50 @@ namespace BeatSaber::Main::Leaderboards {
 // CS Name: BeatSaber.Main.Leaderboards.QueryLeaderboardFriends
 class CORDL_TYPE QueryLeaderboardFriends : public ::OculusStudios::GraphQL::Client::QueryRequest {
 public:
-// Declarations
-/// @brief Field kDefaultOrder, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_kDefaultOrder, put=setStaticF_kDefaultOrder)) ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*  kDefaultOrder;
+  // Declarations
+  /// @brief Field kDefaultOrder, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_kDefaultOrder, put = setStaticF_kDefaultOrder)) ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* kDefaultOrder;
 
-/// @brief Method CreateQuery, addr 0x31d0fb8, size 0x18c, virtual false, abstract: false, final false
-static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends* CreateQuery(::StringW  userId, ::GlobalNamespace::BeatmapKey  key, ::GlobalNamespace::GameplayModifierMask  modifiers, int64_t  amountEntries, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*  order) ;
+  /// @brief Method CreateQuery, addr 0x320cbd0, size 0x18c, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends* CreateQuery(::StringW userId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers,
+                                                                                       int64_t amountEntries, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
-static inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends* New_ctor(::StringW  userId, ::GlobalNamespace::BeatmapKey  key, ::GlobalNamespace::GameplayModifierMask  modifiers, int64_t  amountEntries, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*  order) ;
+  static inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends* New_ctor(::StringW userId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers,
+                                                                                   int64_t amountEntries, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
-/// @brief Method .ctor, addr 0x31ce07c, size 0xb8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  userId, ::GlobalNamespace::BeatmapKey  key, ::GlobalNamespace::GameplayModifierMask  modifiers, int64_t  amountEntries, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*  order) ;
+  /// @brief Method .ctor, addr 0x3209ee8, size 0xb8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW userId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
+                    ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
-static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* getStaticF_kDefaultOrder() ;
+  static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* getStaticF_kDefaultOrder();
 
-static inline void setStaticF_kDefaultOrder(::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*  value) ;
+  static inline void setStaticF_kDefaultOrder(::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr QueryLeaderboardFriends() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QueryLeaderboardFriends();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardFriends", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  QueryLeaderboardFriends(QueryLeaderboardFriends&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardFriends", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-QueryLeaderboardFriends(QueryLeaderboardFriends && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardFriends", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  QueryLeaderboardFriends(QueryLeaderboardFriends const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardFriends", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-QueryLeaderboardFriends(QueryLeaderboardFriends const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21111 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20977};
+  /// @brief Field kDefaultAmountEntries offset 0xffffffff size 0x8
+  static constexpr int64_t kDefaultAmountEntries{ static_cast<int64_t>(0xa) };
 
-/// @brief Field kDefaultAmountEntries offset 0xffffffff size 0x8
-static constexpr int64_t  kDefaultAmountEntries{static_cast<int64_t>(0xa)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends, 0x68>, "Size mismatch!");
 
-} // namespace end def BeatSaber::Main::Leaderboards
+} // namespace BeatSaber::Main::Leaderboards
 NEED_NO_BOX(::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*, "BeatSaber.Main.Leaderboards", "QueryLeaderboardFriends");

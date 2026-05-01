@@ -18,52 +18,52 @@ namespace Org::BouncyCastle::Ocsp {
 // CS Name: Org.BouncyCastle.Ocsp.OcspRespStatus
 class CORDL_TYPE OcspRespStatus : public ::System::Object {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Ocsp::OcspRespStatus* New_ctor() ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Ocsp::OcspRespStatus* New_ctor();
 
-/// @brief Method .ctor, addr 0x347c8bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x34b8f00, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OcspRespStatus() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OcspRespStatus();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OcspRespStatus", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OcspRespStatus(OcspRespStatus&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OcspRespStatus", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OcspRespStatus(OcspRespStatus && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OcspRespStatus", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OcspRespStatus(OcspRespStatus const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OcspRespStatus", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OcspRespStatus(OcspRespStatus const& ) = delete;
+  /// @brief Field InternalError offset 0xffffffff size 0x4
+  static constexpr int32_t InternalError{ static_cast<int32_t>(0x2) };
 
-/// @brief Field InternalError offset 0xffffffff size 0x4
-static constexpr int32_t  InternalError{static_cast<int32_t>(0x2)};
+  /// @brief Field MalformedRequest offset 0xffffffff size 0x4
+  static constexpr int32_t MalformedRequest{ static_cast<int32_t>(0x1) };
 
-/// @brief Field MalformedRequest offset 0xffffffff size 0x4
-static constexpr int32_t  MalformedRequest{static_cast<int32_t>(0x1)};
+  /// @brief Field SigRequired offset 0xffffffff size 0x4
+  static constexpr int32_t SigRequired{ static_cast<int32_t>(0x5) };
 
-/// @brief Field SigRequired offset 0xffffffff size 0x4
-static constexpr int32_t  SigRequired{static_cast<int32_t>(0x5)};
+  /// @brief Field Successful offset 0xffffffff size 0x4
+  static constexpr int32_t Successful{ static_cast<int32_t>(0x0) };
 
-/// @brief Field Successful offset 0xffffffff size 0x4
-static constexpr int32_t  Successful{static_cast<int32_t>(0x0)};
+  /// @brief Field TryLater offset 0xffffffff size 0x4
+  static constexpr int32_t TryLater{ static_cast<int32_t>(0x3) };
 
-/// @brief Field TryLater offset 0xffffffff size 0x4
-static constexpr int32_t  TryLater{static_cast<int32_t>(0x3)};
+  /// @brief Field Unauthorized offset 0xffffffff size 0x4
+  static constexpr int32_t Unauthorized{ static_cast<int32_t>(0x6) };
 
-/// @brief Field Unauthorized offset 0xffffffff size 0x4
-static constexpr int32_t  Unauthorized{static_cast<int32_t>(0x6)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1618 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1618};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::OcspRespStatus, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Ocsp
+} // namespace Org::BouncyCastle::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Ocsp::OcspRespStatus);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::OcspRespStatus*, "Org.BouncyCastle.Ocsp", "OcspRespStatus");

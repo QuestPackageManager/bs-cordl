@@ -32,154 +32,157 @@ namespace System::Runtime::InteropServices {
 // CS Name: System.Runtime.InteropServices.DllImportAttribute
 class CORDL_TYPE DllImportAttribute : public ::System::Attribute {
 public:
-// Declarations
-/// @brief Field BestFitMapping, offset 0x2c, size 0x1 
- __declspec(property(get=__cordl_internal_get_BestFitMapping, put=__cordl_internal_set_BestFitMapping)) bool  BestFitMapping;
+  // Declarations
+  /// @brief Field BestFitMapping, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get_BestFitMapping, put = __cordl_internal_set_BestFitMapping)) bool BestFitMapping;
 
-/// @brief Field CallingConvention, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get_CallingConvention, put=__cordl_internal_set_CallingConvention)) ::System::Runtime::InteropServices::CallingConvention  CallingConvention;
+  /// @brief Field CallingConvention, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_CallingConvention, put = __cordl_internal_set_CallingConvention)) ::System::Runtime::InteropServices::CallingConvention CallingConvention;
 
-/// @brief Field CharSet, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_CharSet, put=__cordl_internal_set_CharSet)) ::System::Runtime::InteropServices::CharSet  CharSet;
+  /// @brief Field CharSet, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_CharSet, put = __cordl_internal_set_CharSet)) ::System::Runtime::InteropServices::CharSet CharSet;
 
-/// @brief Field EntryPoint, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_EntryPoint, put=__cordl_internal_set_EntryPoint)) ::StringW  EntryPoint;
+  /// @brief Field EntryPoint, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_EntryPoint, put = __cordl_internal_set_EntryPoint)) ::StringW EntryPoint;
 
-/// @brief Field ExactSpelling, offset 0x25, size 0x1 
- __declspec(property(get=__cordl_internal_get_ExactSpelling, put=__cordl_internal_set_ExactSpelling)) bool  ExactSpelling;
+  /// @brief Field ExactSpelling, offset 0x25, size 0x1
+  __declspec(property(get = __cordl_internal_get_ExactSpelling, put = __cordl_internal_set_ExactSpelling)) bool ExactSpelling;
 
-/// @brief Field PreserveSig, offset 0x26, size 0x1 
- __declspec(property(get=__cordl_internal_get_PreserveSig, put=__cordl_internal_set_PreserveSig)) bool  PreserveSig;
+  /// @brief Field PreserveSig, offset 0x26, size 0x1
+  __declspec(property(get = __cordl_internal_get_PreserveSig, put = __cordl_internal_set_PreserveSig)) bool PreserveSig;
 
-/// @brief Field SetLastError, offset 0x24, size 0x1 
- __declspec(property(get=__cordl_internal_get_SetLastError, put=__cordl_internal_set_SetLastError)) bool  SetLastError;
+  /// @brief Field SetLastError, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get_SetLastError, put = __cordl_internal_set_SetLastError)) bool SetLastError;
 
-/// @brief Field ThrowOnUnmappableChar, offset 0x2d, size 0x1 
- __declspec(property(get=__cordl_internal_get_ThrowOnUnmappableChar, put=__cordl_internal_set_ThrowOnUnmappableChar)) bool  ThrowOnUnmappableChar;
+  /// @brief Field ThrowOnUnmappableChar, offset 0x2d, size 0x1
+  __declspec(property(get = __cordl_internal_get_ThrowOnUnmappableChar, put = __cordl_internal_set_ThrowOnUnmappableChar)) bool ThrowOnUnmappableChar;
 
- __declspec(property(get=get_Value)) ::StringW  Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
-/// @brief Field _val, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__val, put=__cordl_internal_set__val)) ::StringW  _val;
+  /// @brief Field _val, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) ::StringW _val;
 
-/// @brief Method GetCustomAttribute, addr 0x59bc9f8, size 0xc8, virtual false, abstract: false, final false
-static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo*  method) ;
+  /// @brief Method GetCustomAttribute, addr 0x5a2e964, size 0xc8, virtual false, abstract: false, final false
+  static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method);
 
-/// @brief Method IsDefined, addr 0x59bcaec, size 0x28, virtual false, abstract: false, final false
-static inline bool IsDefined(::System::Reflection::RuntimeMethodInfo*  method) ;
+  /// @brief Method IsDefined, addr 0x5a2ea58, size 0x28, virtual false, abstract: false, final false
+  static inline bool IsDefined(::System::Reflection::RuntimeMethodInfo* method);
 
-static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW  dllName) ;
+  static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName);
 
-static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW  dllName, ::StringW  entryPoint, ::System::Runtime::InteropServices::CharSet  charSet, bool  exactSpelling, bool  setLastError, bool  preserveSig, ::System::Runtime::InteropServices::CallingConvention  callingConvention, bool  bestFitMapping, bool  throwOnUnmappableChar) ;
+  static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling,
+                                                                                 bool setLastError, bool preserveSig, ::System::Runtime::InteropServices::CallingConvention callingConvention,
+                                                                                 bool bestFitMapping, bool throwOnUnmappableChar);
 
-constexpr bool const& __cordl_internal_get_BestFitMapping() const;
+  constexpr bool const& __cordl_internal_get_BestFitMapping() const;
 
-constexpr bool& __cordl_internal_get_BestFitMapping() ;
+  constexpr bool& __cordl_internal_get_BestFitMapping();
 
-constexpr ::System::Runtime::InteropServices::CallingConvention const& __cordl_internal_get_CallingConvention() const;
+  constexpr ::System::Runtime::InteropServices::CallingConvention const& __cordl_internal_get_CallingConvention() const;
 
-constexpr ::System::Runtime::InteropServices::CallingConvention& __cordl_internal_get_CallingConvention() ;
+  constexpr ::System::Runtime::InteropServices::CallingConvention& __cordl_internal_get_CallingConvention();
 
-constexpr ::System::Runtime::InteropServices::CharSet const& __cordl_internal_get_CharSet() const;
+  constexpr ::System::Runtime::InteropServices::CharSet const& __cordl_internal_get_CharSet() const;
 
-constexpr ::System::Runtime::InteropServices::CharSet& __cordl_internal_get_CharSet() ;
+  constexpr ::System::Runtime::InteropServices::CharSet& __cordl_internal_get_CharSet();
 
-constexpr ::StringW const& __cordl_internal_get_EntryPoint() const;
+  constexpr ::StringW const& __cordl_internal_get_EntryPoint() const;
 
-constexpr ::StringW& __cordl_internal_get_EntryPoint() ;
+  constexpr ::StringW& __cordl_internal_get_EntryPoint();
 
-constexpr bool const& __cordl_internal_get_ExactSpelling() const;
+  constexpr bool const& __cordl_internal_get_ExactSpelling() const;
 
-constexpr bool& __cordl_internal_get_ExactSpelling() ;
+  constexpr bool& __cordl_internal_get_ExactSpelling();
 
-constexpr bool const& __cordl_internal_get_PreserveSig() const;
+  constexpr bool const& __cordl_internal_get_PreserveSig() const;
 
-constexpr bool& __cordl_internal_get_PreserveSig() ;
+  constexpr bool& __cordl_internal_get_PreserveSig();
 
-constexpr bool const& __cordl_internal_get_SetLastError() const;
+  constexpr bool const& __cordl_internal_get_SetLastError() const;
 
-constexpr bool& __cordl_internal_get_SetLastError() ;
+  constexpr bool& __cordl_internal_get_SetLastError();
 
-constexpr bool const& __cordl_internal_get_ThrowOnUnmappableChar() const;
+  constexpr bool const& __cordl_internal_get_ThrowOnUnmappableChar() const;
 
-constexpr bool& __cordl_internal_get_ThrowOnUnmappableChar() ;
+  constexpr bool& __cordl_internal_get_ThrowOnUnmappableChar();
 
-constexpr ::StringW const& __cordl_internal_get__val() const;
+  constexpr ::StringW const& __cordl_internal_get__val() const;
 
-constexpr ::StringW& __cordl_internal_get__val() ;
+  constexpr ::StringW& __cordl_internal_get__val();
 
-constexpr void __cordl_internal_set_BestFitMapping(bool  value) ;
+  constexpr void __cordl_internal_set_BestFitMapping(bool value);
 
-constexpr void __cordl_internal_set_CallingConvention(::System::Runtime::InteropServices::CallingConvention  value) ;
+  constexpr void __cordl_internal_set_CallingConvention(::System::Runtime::InteropServices::CallingConvention value);
 
-constexpr void __cordl_internal_set_CharSet(::System::Runtime::InteropServices::CharSet  value) ;
+  constexpr void __cordl_internal_set_CharSet(::System::Runtime::InteropServices::CharSet value);
 
-constexpr void __cordl_internal_set_EntryPoint(::StringW  value) ;
+  constexpr void __cordl_internal_set_EntryPoint(::StringW value);
 
-constexpr void __cordl_internal_set_ExactSpelling(bool  value) ;
+  constexpr void __cordl_internal_set_ExactSpelling(bool value);
 
-constexpr void __cordl_internal_set_PreserveSig(bool  value) ;
+  constexpr void __cordl_internal_set_PreserveSig(bool value);
 
-constexpr void __cordl_internal_set_SetLastError(bool  value) ;
+  constexpr void __cordl_internal_set_SetLastError(bool value);
 
-constexpr void __cordl_internal_set_ThrowOnUnmappableChar(bool  value) ;
+  constexpr void __cordl_internal_set_ThrowOnUnmappableChar(bool value);
 
-constexpr void __cordl_internal_set__val(::StringW  value) ;
+  constexpr void __cordl_internal_set__val(::StringW value);
 
-/// @brief Method .ctor, addr 0x59bcb14, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  dllName) ;
+  /// @brief Method .ctor, addr 0x5a2ea80, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW dllName);
 
-/// @brief Method .ctor, addr 0x59bcac0, size 0x2c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  dllName, ::StringW  entryPoint, ::System::Runtime::InteropServices::CharSet  charSet, bool  exactSpelling, bool  setLastError, bool  preserveSig, ::System::Runtime::InteropServices::CallingConvention  callingConvention, bool  bestFitMapping, bool  throwOnUnmappableChar) ;
+  /// @brief Method .ctor, addr 0x5a2ea2c, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig,
+                    ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
 
-/// @brief Method get_Value, addr 0x59bcb1c, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Value() ;
+  /// @brief Method get_Value, addr 0x5a2ea88, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Value();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DllImportAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DllImportAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DllImportAttribute(DllImportAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DllImportAttribute(DllImportAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DllImportAttribute(DllImportAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DllImportAttribute(DllImportAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3343 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3343};
+  /// @brief Field _val, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____val;
 
-/// @brief Field _val, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____val;
+  /// @brief Field EntryPoint, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___EntryPoint;
 
-/// @brief Field EntryPoint, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___EntryPoint;
+  /// @brief Field CharSet, offset: 0x20, size: 0x4, def value: None
+  ::System::Runtime::InteropServices::CharSet ___CharSet;
 
-/// @brief Field CharSet, offset: 0x20, size: 0x4, def value: None
- ::System::Runtime::InteropServices::CharSet  ___CharSet;
+  /// @brief Field SetLastError, offset: 0x24, size: 0x1, def value: None
+  bool ___SetLastError;
 
-/// @brief Field SetLastError, offset: 0x24, size: 0x1, def value: None
- bool  ___SetLastError;
+  /// @brief Field ExactSpelling, offset: 0x25, size: 0x1, def value: None
+  bool ___ExactSpelling;
 
-/// @brief Field ExactSpelling, offset: 0x25, size: 0x1, def value: None
- bool  ___ExactSpelling;
+  /// @brief Field PreserveSig, offset: 0x26, size: 0x1, def value: None
+  bool ___PreserveSig;
 
-/// @brief Field PreserveSig, offset: 0x26, size: 0x1, def value: None
- bool  ___PreserveSig;
+  /// @brief Field CallingConvention, offset: 0x28, size: 0x4, def value: None
+  ::System::Runtime::InteropServices::CallingConvention ___CallingConvention;
 
-/// @brief Field CallingConvention, offset: 0x28, size: 0x4, def value: None
- ::System::Runtime::InteropServices::CallingConvention  ___CallingConvention;
+  /// @brief Field BestFitMapping, offset: 0x2c, size: 0x1, def value: None
+  bool ___BestFitMapping;
 
-/// @brief Field BestFitMapping, offset: 0x2c, size: 0x1, def value: None
- bool  ___BestFitMapping;
+  /// @brief Field ThrowOnUnmappableChar, offset: 0x2d, size: 0x1, def value: None
+  bool ___ThrowOnUnmappableChar;
 
-/// @brief Field ThrowOnUnmappableChar, offset: 0x2d, size: 0x1, def value: None
- bool  ___ThrowOnUnmappableChar;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, ____val) == 0x10, "Offset mismatch!");
@@ -202,6 +205,6 @@ static_assert(offsetof(::System::Runtime::InteropServices::DllImportAttribute, _
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::DllImportAttribute, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Runtime::InteropServices
+} // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::DllImportAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");

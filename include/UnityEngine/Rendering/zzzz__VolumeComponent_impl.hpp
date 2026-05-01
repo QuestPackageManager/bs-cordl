@@ -13,529 +13,438 @@
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent_Indent._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent_Indent::*)(int32_t)>(&::UnityEngine::Rendering::VolumeComponent_Indent::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent_Indent::*)(int32_t)>(
+    &::UnityEngine::Rendering::VolumeComponent_Indent::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6615b68;
+  constexpr static std::size_t addrs = 0x6687b74;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent_Indent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent_Indent*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Rendering::VolumeComponent_Indent::__cordl_internal_get_relativeAmount()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___relativeAmount;
+constexpr int32_t& UnityEngine::Rendering::VolumeComponent_Indent::__cordl_internal_get_relativeAmount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___relativeAmount;
 }
 constexpr int32_t const& UnityEngine::Rendering::VolumeComponent_Indent::__cordl_internal_get_relativeAmount() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___relativeAmount;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___relativeAmount;
 }
-constexpr void UnityEngine::Rendering::VolumeComponent_Indent::__cordl_internal_set_relativeAmount(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___relativeAmount = value;
+constexpr void UnityEngine::Rendering::VolumeComponent_Indent::__cordl_internal_set_relativeAmount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___relativeAmount = value;
 }
-inline void UnityEngine::Rendering::VolumeComponent_Indent::_ctor(int32_t  relativeAmount)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent_Indent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, relativeAmount);
+inline void UnityEngine::Rendering::VolumeComponent_Indent::_ctor(int32_t relativeAmount) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent_Indent*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, relativeAmount);
 }
-inline ::UnityEngine::Rendering::VolumeComponent_Indent* UnityEngine::Rendering::VolumeComponent_Indent::New_ctor(int32_t  relativeAmount)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::VolumeComponent_Indent*>(relativeAmount));
+inline ::UnityEngine::Rendering::VolumeComponent_Indent* UnityEngine::Rendering::VolumeComponent_Indent::New_ctor(int32_t relativeAmount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::VolumeComponent_Indent*>(relativeAmount));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::VolumeComponent_Indent::VolumeComponent_Indent()   {
-}
+constexpr ::UnityEngine::Rendering::VolumeComponent_Indent::VolumeComponent_Indent() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent___c._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent___c::*)()>(&::UnityEngine::Rendering::VolumeComponent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6615bc8;
+  constexpr static std::size_t addrs = 0x6687bd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent___c._FindParameters_b__10_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::VolumeComponent___c::*)(::System::Reflection::FieldInfo*)>(&::UnityEngine::Rendering::VolumeComponent___c::_FindParameters_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::VolumeComponent___c::*)(::System::Reflection::FieldInfo*)>(
+    &::UnityEngine::Rendering::VolumeComponent___c::_FindParameters_b__10_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6615bcc;
+  constexpr static std::size_t addrs = 0x6687bd8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(),
-                        "<FindParameters>b__10_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(), "<FindParameters>b__10_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::VolumeComponent___c::setStaticF___9(::UnityEngine::Rendering::VolumeComponent___c*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Rendering::VolumeComponent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>(std::forward<::UnityEngine::Rendering::VolumeComponent___c*>(value));
+inline void UnityEngine::Rendering::VolumeComponent___c::setStaticF___9(::UnityEngine::Rendering::VolumeComponent___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::VolumeComponent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>(
+      std::forward<::UnityEngine::Rendering::VolumeComponent___c*>(value));
 }
-inline ::UnityEngine::Rendering::VolumeComponent___c* UnityEngine::Rendering::VolumeComponent___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Rendering::VolumeComponent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>();
+inline ::UnityEngine::Rendering::VolumeComponent___c* UnityEngine::Rendering::VolumeComponent___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::VolumeComponent___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>();
 }
-inline void UnityEngine::Rendering::VolumeComponent___c::setStaticF___9__10_0(::System::Func_2<::System::Reflection::FieldInfo*,int32_t>*  value)  {
-::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::FieldInfo*,int32_t>*, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>(std::forward<::System::Func_2<::System::Reflection::FieldInfo*,int32_t>*>(value));
+inline void UnityEngine::Rendering::VolumeComponent___c::setStaticF___9__10_0(::System::Func_2<::System::Reflection::FieldInfo*, int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::FieldInfo*, int32_t>*, "<>9__10_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>(
+      std::forward<::System::Func_2<::System::Reflection::FieldInfo*, int32_t>*>(value));
 }
-inline ::System::Func_2<::System::Reflection::FieldInfo*,int32_t>* UnityEngine::Rendering::VolumeComponent___c::getStaticF___9__10_0()  {
-return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::FieldInfo*,int32_t>*, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>();
+inline ::System::Func_2<::System::Reflection::FieldInfo*, int32_t>* UnityEngine::Rendering::VolumeComponent___c::getStaticF___9__10_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::FieldInfo*, int32_t>*, "<>9__10_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get>();
 }
-inline void UnityEngine::Rendering::VolumeComponent___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::VolumeComponent___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::VolumeComponent___c::_FindParameters_b__10_0(::System::Reflection::FieldInfo*  t)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(),
-                        "<FindParameters>b__10_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, t);
+inline int32_t UnityEngine::Rendering::VolumeComponent___c::_FindParameters_b__10_0(::System::Reflection::FieldInfo* t) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent___c*>::get(), "<FindParameters>b__10_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::FieldInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, t);
 }
-inline ::UnityEngine::Rendering::VolumeComponent___c* UnityEngine::Rendering::VolumeComponent___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::VolumeComponent___c*>());
+inline ::UnityEngine::Rendering::VolumeComponent___c* UnityEngine::Rendering::VolumeComponent___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::VolumeComponent___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::VolumeComponent___c::VolumeComponent___c()   {
-}
+constexpr ::UnityEngine::Rendering::VolumeComponent___c::VolumeComponent___c() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.get_displayName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::get_displayName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::VolumeComponent::*)()>(
+    &::UnityEngine::Rendering::VolumeComponent::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66148b0;
+  constexpr static std::size_t addrs = 0x66868bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "get_displayName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                               "get_displayName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.set_displayName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::StringW)>(&::UnityEngine::Rendering::VolumeComponent::set_displayName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::StringW)>(
+    &::UnityEngine::Rendering::VolumeComponent::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66148b8;
+  constexpr static std::size_t addrs = 0x66868c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "set_displayName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "set_displayName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.get_parameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::get_parameters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* (
+    ::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::get_parameters)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66148c0;
+  constexpr static std::size_t addrs = 0x66868cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "get_parameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                               "get_parameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.FindParameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*, ::System::Func_2<::System::Reflection::FieldInfo*,bool>*)>(&::UnityEngine::Rendering::VolumeComponent::FindParameters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::System::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*, ::System::Func_2<::System::Reflection::FieldInfo*, bool>*)>(
+        &::UnityEngine::Rendering::VolumeComponent::FindParameters)> {
   constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x6614924;
+  constexpr static std::size_t addrs = 0x6686930;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "FindParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::Reflection::FieldInfo*,bool>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "FindParameters", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::Reflection::FieldInfo*, bool>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.OnEnable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::OnEnable)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6614f60;
+  constexpr static std::size_t addrs = 0x6686f6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.OnDisable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::OnDisable)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6615174;
+  constexpr static std::size_t addrs = 0x6687180;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.Override
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::UnityEngine::Rendering::VolumeComponent*, float_t)>(&::UnityEngine::Rendering::VolumeComponent::Override)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::UnityEngine::Rendering::VolumeComponent*, float_t)>(
+    &::UnityEngine::Rendering::VolumeComponent::Override)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6615278;
+  constexpr static std::size_t addrs = 0x6687284;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.SetAllOverridesTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(bool)>(&::UnityEngine::Rendering::VolumeComponent::SetAllOverridesTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(bool)>(
+    &::UnityEngine::Rendering::VolumeComponent::SetAllOverridesTo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66153a8;
+  constexpr static std::size_t addrs = 0x66873b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "SetAllOverridesTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "SetAllOverridesTo",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.SetOverridesTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*, bool)>(&::UnityEngine::Rendering::VolumeComponent::SetOverridesTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*, bool)>(&::UnityEngine::Rendering::VolumeComponent::SetOverridesTo)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x66153b8;
+  constexpr static std::size_t addrs = 0x66873c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "SetOverridesTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "SetOverridesTo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.GetHashCode
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::GetHashCode)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x66158a8;
+  constexpr static std::size_t addrs = 0x66878b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 2));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.AnyPropertiesIsOverridden
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::AnyPropertiesIsOverridden)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::VolumeComponent::*)()>(
+    &::UnityEngine::Rendering::VolumeComponent::AnyPropertiesIsOverridden)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x661595c;
+  constexpr static std::size_t addrs = 0x6687968;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "AnyPropertiesIsOverridden",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                               "AnyPropertiesIsOverridden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.OnDestroy
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6615a0c;
+  constexpr static std::size_t addrs = 0x6687a18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 7));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.Release
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::Release)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6615a10;
+  constexpr static std::size_t addrs = 0x6687a1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "Release",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "Release",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6615ac4;
+  constexpr static std::size_t addrs = 0x6687ad0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_active()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___active;
+constexpr bool& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_active() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___active;
 }
 constexpr bool const& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_active() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___active;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___active;
 }
-constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_active(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___active = value;
+constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_active(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___active = value;
 }
-constexpr ::StringW& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get__displayName_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____displayName_k__BackingField;
+constexpr ::StringW& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get__displayName_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____displayName_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get__displayName_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____displayName_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____displayName_k__BackingField;
 }
-constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set__displayName_k__BackingField(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____displayName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set__displayName_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____displayName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_parameterList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___parameterList;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_parameterList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___parameterList;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* const& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_parameterList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___parameterList;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___parameterList;
 }
-constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_parameterList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parameterList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_parameterList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parameterList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_m_ParameterReadOnlyCollection()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ParameterReadOnlyCollection;
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*&
+UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_m_ParameterReadOnlyCollection() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ParameterReadOnlyCollection;
 }
-constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* const& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_m_ParameterReadOnlyCollection() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ParameterReadOnlyCollection;
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* const&
+UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_m_ParameterReadOnlyCollection() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ParameterReadOnlyCollection;
 }
-constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_m_ParameterReadOnlyCollection(::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ParameterReadOnlyCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_m_ParameterReadOnlyCollection(
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ParameterReadOnlyCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::StringW UnityEngine::Rendering::VolumeComponent::get_displayName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "get_displayName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::Rendering::VolumeComponent::get_displayName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                             "get_displayName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponent::set_displayName(::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "set_displayName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::VolumeComponent::set_displayName(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "set_displayName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* UnityEngine::Rendering::VolumeComponent::get_parameters()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "get_parameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*, false>(this, ___internal_method);
+inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* UnityEngine::Rendering::VolumeComponent::get_parameters() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                             "get_parameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponent::FindParameters(::System::Object*  o, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*  parameters, ::System::Func_2<::System::Reflection::FieldInfo*,bool>*  filter)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "FindParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::Reflection::FieldInfo*,bool>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, o, parameters, filter);
+inline void UnityEngine::Rendering::VolumeComponent::FindParameters(::System::Object* o, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* parameters,
+                                                                    ::System::Func_2<::System::Reflection::FieldInfo*, bool>* filter) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "FindParameters", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::Reflection::FieldInfo*, bool>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, o, parameters, filter);
 }
-inline void UnityEngine::Rendering::VolumeComponent::OnEnable()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::VolumeComponent::OnEnable() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponent::OnDisable()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::VolumeComponent::OnDisable() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponent::Override(::UnityEngine::Rendering::VolumeComponent*  state, float_t  interpFactor)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, interpFactor);
+inline void UnityEngine::Rendering::VolumeComponent::Override(::UnityEngine::Rendering::VolumeComponent* state, float_t interpFactor) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, interpFactor);
 }
-inline void UnityEngine::Rendering::VolumeComponent::SetAllOverridesTo(bool  state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "SetAllOverridesTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
+inline void UnityEngine::Rendering::VolumeComponent::SetAllOverridesTo(bool state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "SetAllOverridesTo",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
-inline void UnityEngine::Rendering::VolumeComponent::SetOverridesTo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*  enumerable, bool  state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "SetOverridesTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, enumerable, state);
+inline void UnityEngine::Rendering::VolumeComponent::SetOverridesTo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>* enumerable, bool state) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "SetOverridesTo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, enumerable, state);
 }
-inline int32_t UnityEngine::Rendering::VolumeComponent::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::VolumeComponent::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::VolumeComponent::AnyPropertiesIsOverridden()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "AnyPropertiesIsOverridden",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::VolumeComponent::AnyPropertiesIsOverridden() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
+                                                                             "AnyPropertiesIsOverridden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponent::OnDestroy()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::VolumeComponent::OnDestroy() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponent::Release()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        "Release",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::VolumeComponent::Release() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), "Release",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponent::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::VolumeComponent::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeComponent*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::VolumeComponent* UnityEngine::Rendering::VolumeComponent::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::VolumeComponent*>());
+inline ::UnityEngine::Rendering::VolumeComponent* UnityEngine::Rendering::VolumeComponent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::VolumeComponent*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::VolumeComponent::VolumeComponent()   {
-}
+constexpr ::UnityEngine::Rendering::VolumeComponent::VolumeComponent() {}

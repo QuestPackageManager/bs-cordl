@@ -7,39 +7,38 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(NativeSliceDebugView_1)
 // Forward declare root types
 namespace Unity::Collections {
-template<typename T>
-class NativeSliceDebugView_1;
+template <typename T> class NativeSliceDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Collections::NativeSliceDebugView_1);
 // Dependencies System.Object
 namespace Unity::Collections {
 // cpp template
-template<typename T>
+template <typename T>
 // Is value type: false
 // CS Name: Unity.Collections.NativeSliceDebugView`1<T>
 class CORDL_TYPE NativeSliceDebugView_1 : public ::System::Object {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NativeSliceDebugView_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeSliceDebugView_1();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSliceDebugView_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NativeSliceDebugView_1(NativeSliceDebugView_1&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NativeSliceDebugView_1", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NativeSliceDebugView_1(NativeSliceDebugView_1 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSliceDebugView_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NativeSliceDebugView_1(NativeSliceDebugView_1 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NativeSliceDebugView_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NativeSliceDebugView_1(NativeSliceDebugView_1 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9992 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9986};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def Unity::Collections
+} // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Collections::NativeSliceDebugView_1, "Unity.Collections", "NativeSliceDebugView`1");

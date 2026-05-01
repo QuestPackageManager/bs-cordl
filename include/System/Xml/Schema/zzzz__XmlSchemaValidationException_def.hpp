@@ -28,57 +28,59 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaValidationException
 class CORDL_TYPE XmlSchemaValidationException : public ::System::Xml::Schema::XmlSchemaException {
 public:
-// Declarations
-/// @brief Method GetObjectData, addr 0x6088788, size 0x8, virtual true, abstract: false, final false
-inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  // Declarations
+  /// @brief Method GetObjectData, addr 0x60fa794, size 0x8, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor() ;
+  static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor();
 
-static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW  res, ::StringW  arg, ::StringW  sourceUri, int32_t  lineNumber, int32_t  linePosition) ;
+  static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW  res, ::ArrayW<::StringW,::Array<::StringW>*>  args, ::System::Exception*  innerException, ::StringW  sourceUri, int32_t  lineNumber, int32_t  linePosition) ;
+  static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri,
+                                                                              int32_t lineNumber, int32_t linePosition);
 
-static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW  res, ::ArrayW<::StringW,::Array<::StringW>*>  args, ::StringW  sourceUri, int32_t  lineNumber, int32_t  linePosition) ;
+  static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::StringW sourceUri, int32_t lineNumber,
+                                                                              int32_t linePosition);
 
-/// @brief Method .ctor, addr 0x6088790, size 0x14, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60fa79c, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x6088780, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x60fa78c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x60887a4, size 0xd4, virtual false, abstract: false, final false
-inline void _ctor(::StringW  res, ::StringW  arg, ::StringW  sourceUri, int32_t  lineNumber, int32_t  linePosition) ;
+  /// @brief Method .ctor, addr 0x60fa7b0, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-/// @brief Method .ctor, addr 0x60888f0, size 0x7c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  res, ::ArrayW<::StringW,::Array<::StringW>*>  args, ::System::Exception*  innerException, ::StringW  sourceUri, int32_t  lineNumber, int32_t  linePosition) ;
+  /// @brief Method .ctor, addr 0x60fa8fc, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-/// @brief Method .ctor, addr 0x6088878, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(::StringW  res, ::ArrayW<::StringW,::Array<::StringW>*>  args, ::StringW  sourceUri, int32_t  lineNumber, int32_t  linePosition) ;
+  /// @brief Method .ctor, addr 0x60fa884, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSchemaValidationException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaValidationException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaValidationException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSchemaValidationException(XmlSchemaValidationException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaValidationException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSchemaValidationException(XmlSchemaValidationException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaValidationException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSchemaValidationException(XmlSchemaValidationException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaValidationException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSchemaValidationException(XmlSchemaValidationException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9811 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9805};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaValidationException, 0xc0>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaValidationException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaValidationException*, "System.Xml.Schema", "XmlSchemaValidationException");

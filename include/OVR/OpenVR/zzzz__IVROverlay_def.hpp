@@ -670,4039 +670,4185 @@ namespace OVR::OpenVR {
 // CS Name: OVR.OpenVR.IVROverlay/_FindOverlay
 class CORDL_TYPE IVROverlay__FindOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c88dac, size 0x58, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::StringW  pchOverlayKey, ::ByRef<uint64_t>  pOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfad94, size 0x58, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayKey, ::ByRef<uint64_t> pOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c88e04, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t>  pOverlayHandle, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfadec, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t> pOverlayHandle, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c88d98, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW  pchOverlayKey, ::ByRef<uint64_t>  pOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfad80, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW pchOverlayKey, ::ByRef<uint64_t> pOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__FindOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__FindOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c88d18, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfad00, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__FindOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__FindOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__FindOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__FindOverlay(IVROverlay__FindOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__FindOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__FindOverlay(IVROverlay__FindOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__FindOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__FindOverlay(IVROverlay__FindOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__FindOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__FindOverlay(IVROverlay__FindOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8197 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8191};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__FindOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_CreateOverlay
 class CORDL_TYPE IVROverlay__CreateOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c88ebc, size 0x58, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::StringW  pchOverlayKey, ::StringW  pchOverlayName, ::ByRef<uint64_t>  pOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfaea4, size 0x58, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayKey, ::StringW pchOverlayName, ::ByRef<uint64_t> pOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c88f14, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t>  pOverlayHandle, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfaefc, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t> pOverlayHandle, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c88ea8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW  pchOverlayKey, ::StringW  pchOverlayName, ::ByRef<uint64_t>  pOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfae90, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW pchOverlayKey, ::StringW pchOverlayName, ::ByRef<uint64_t> pOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__CreateOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__CreateOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c88e28, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfae10, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__CreateOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__CreateOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__CreateOverlay(IVROverlay__CreateOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__CreateOverlay(IVROverlay__CreateOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__CreateOverlay(IVROverlay__CreateOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__CreateOverlay(IVROverlay__CreateOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8198 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8192};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__CreateOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_DestroyOverlay
 class CORDL_TYPE IVROverlay__DestroyOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c88fb8, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfafa0, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8900c, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfaff4, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c88fa4, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfaf8c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__DestroyOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__DestroyOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c88f38, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfaf20, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__DestroyOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__DestroyOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__DestroyOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__DestroyOverlay(IVROverlay__DestroyOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__DestroyOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__DestroyOverlay(IVROverlay__DestroyOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__DestroyOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__DestroyOverlay(IVROverlay__DestroyOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__DestroyOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__DestroyOverlay(IVROverlay__DestroyOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8199 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8193};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__DestroyOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetHighQualityOverlay
 class CORDL_TYPE IVROverlay__SetHighQualityOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c890b0, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb098, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89104, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb0ec, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8909c, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfb084, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89030, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb018, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetHighQualityOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetHighQualityOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetHighQualityOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetHighQualityOverlay(IVROverlay__SetHighQualityOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetHighQualityOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetHighQualityOverlay(IVROverlay__SetHighQualityOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetHighQualityOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetHighQualityOverlay(IVROverlay__SetHighQualityOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetHighQualityOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetHighQualityOverlay(IVROverlay__SetHighQualityOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8200 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8194};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetHighQualityOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetHighQualityOverlay
 class CORDL_TYPE IVROverlay__GetHighQualityOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c891a4, size 0x1c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb18c, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c891c0, size 0x24, virtual true, abstract: false, final false
-inline uint64_t EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb1a8, size 0x24, virtual true, abstract: false, final false
+  inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89190, size 0x14, virtual true, abstract: false, final false
-inline uint64_t Invoke() ;
+  /// @brief Method Invoke, addr 0x5cfb178, size 0x14, virtual true, abstract: false, final false
+  inline uint64_t Invoke();
 
-static inline ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89128, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb110, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetHighQualityOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetHighQualityOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetHighQualityOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetHighQualityOverlay(IVROverlay__GetHighQualityOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetHighQualityOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetHighQualityOverlay(IVROverlay__GetHighQualityOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetHighQualityOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetHighQualityOverlay(IVROverlay__GetHighQualityOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetHighQualityOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetHighQualityOverlay(IVROverlay__GetHighQualityOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8201 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8195};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetHighQualityOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayKey
 class CORDL_TYPE IVROverlay__GetOverlayKey : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89264, size 0xcc, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb24c, size 0xcc, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError> pError,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89330, size 0x24, virtual true, abstract: false, final false
-inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVROverlayError>  pError, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb318, size 0x24, virtual true, abstract: false, final false
+  inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89250, size 0x14, virtual true, abstract: false, final false
-inline uint32_t Invoke(uint64_t  ulOverlayHandle, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError>  pError) ;
+  /// @brief Method Invoke, addr 0x5cfb238, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayKey* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayKey* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c891e4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb1cc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayKey() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayKey();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayKey", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayKey(IVROverlay__GetOverlayKey&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayKey", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayKey(IVROverlay__GetOverlayKey && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayKey", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayKey(IVROverlay__GetOverlayKey const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayKey", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayKey(IVROverlay__GetOverlayKey const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8202 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8196};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayKey, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayName
 class CORDL_TYPE IVROverlay__GetOverlayName : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c893d4, size 0xcc, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb3bc, size 0xcc, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError> pError,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c894a0, size 0x24, virtual true, abstract: false, final false
-inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVROverlayError>  pError, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb488, size 0x24, virtual true, abstract: false, final false
+  inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c893c0, size 0x14, virtual true, abstract: false, final false
-inline uint32_t Invoke(uint64_t  ulOverlayHandle, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError>  pError) ;
+  /// @brief Method Invoke, addr 0x5cfb3a8, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayName* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89354, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb33c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayName() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayName();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayName", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayName(IVROverlay__GetOverlayName&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayName", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayName(IVROverlay__GetOverlayName && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayName", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayName(IVROverlay__GetOverlayName const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayName", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayName(IVROverlay__GetOverlayName const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8203 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8197};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayName, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayName
 class CORDL_TYPE IVROverlay__SetOverlayName : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89544, size 0x60, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::StringW  pchName, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb52c, size 0x60, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::StringW pchName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c895a4, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb58c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89530, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::StringW  pchName) ;
+  /// @brief Method Invoke, addr 0x5cfb518, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::StringW pchName);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayName* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c894c4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb4ac, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayName() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayName();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayName", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayName(IVROverlay__SetOverlayName&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayName", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayName(IVROverlay__SetOverlayName && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayName", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayName(IVROverlay__SetOverlayName const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayName", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayName(IVROverlay__SetOverlayName const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8204 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8198};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayName, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayImageData
 class CORDL_TYPE IVROverlay__GetOverlayImageData : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89648, size 0xc8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::IntPtr  pvBuffer, uint32_t  unBufferSize, ::ByRef<uint32_t>  punWidth, ::ByRef<uint32_t>  punHeight, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb630, size 0xc8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unBufferSize, ::ByRef<uint32_t> punWidth, ::ByRef<uint32_t> punHeight,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89710, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t>  punWidth, ::ByRef<uint32_t>  punHeight, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb6f8, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t> punWidth, ::ByRef<uint32_t> punHeight, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89634, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::System::IntPtr  pvBuffer, uint32_t  unBufferSize, ::ByRef<uint32_t>  punWidth, ::ByRef<uint32_t>  punHeight) ;
+  /// @brief Method Invoke, addr 0x5cfb61c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unBufferSize, ::ByRef<uint32_t> punWidth, ::ByRef<uint32_t> punHeight);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayImageData* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayImageData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c895c8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb5b0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayImageData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayImageData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayImageData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayImageData(IVROverlay__GetOverlayImageData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayImageData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayImageData(IVROverlay__GetOverlayImageData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayImageData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayImageData(IVROverlay__GetOverlayImageData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayImageData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayImageData(IVROverlay__GetOverlayImageData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8205 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8199};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayImageData, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayErrorNameFromEnum
 class CORDL_TYPE IVROverlay__GetOverlayErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c897c0, size 0x88, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVROverlayError  error, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb7a8, size 0x88, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVROverlayError error, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89848, size 0x24, virtual true, abstract: false, final false
-inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb830, size 0x24, virtual true, abstract: false, final false
+  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c897ac, size 0x14, virtual true, abstract: false, final false
-inline ::System::IntPtr Invoke(::OVR::OpenVR::EVROverlayError  error) ;
+  /// @brief Method Invoke, addr 0x5cfb794, size 0x14, virtual true, abstract: false, final false
+  inline ::System::IntPtr Invoke(::OVR::OpenVR::EVROverlayError error);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89740, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb728, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayErrorNameFromEnum() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayErrorNameFromEnum();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayErrorNameFromEnum", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayErrorNameFromEnum(IVROverlay__GetOverlayErrorNameFromEnum&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayErrorNameFromEnum", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayErrorNameFromEnum(IVROverlay__GetOverlayErrorNameFromEnum && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayErrorNameFromEnum", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayErrorNameFromEnum(IVROverlay__GetOverlayErrorNameFromEnum const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayErrorNameFromEnum", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayErrorNameFromEnum(IVROverlay__GetOverlayErrorNameFromEnum const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8206 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8200};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayRenderingPid
 class CORDL_TYPE IVROverlay__SetOverlayRenderingPid : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c898ec, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, uint32_t  unPID, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb8d4, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unPID, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89964, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfb94c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c898d8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, uint32_t  unPID) ;
+  /// @brief Method Invoke, addr 0x5cfb8c0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unPID);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8986c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb854, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayRenderingPid() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayRenderingPid();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderingPid", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayRenderingPid(IVROverlay__SetOverlayRenderingPid&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderingPid", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayRenderingPid(IVROverlay__SetOverlayRenderingPid && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderingPid", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayRenderingPid(IVROverlay__SetOverlayRenderingPid const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderingPid", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayRenderingPid(IVROverlay__SetOverlayRenderingPid const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8207 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8201};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayRenderingPid
 class CORDL_TYPE IVROverlay__GetOverlayRenderingPid : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89a08, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfb9f0, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89a5c, size 0x24, virtual true, abstract: false, final false
-inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfba44, size 0x24, virtual true, abstract: false, final false
+  inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c899f4, size 0x14, virtual true, abstract: false, final false
-inline uint32_t Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfb9dc, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89988, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfb970, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayRenderingPid() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayRenderingPid();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderingPid", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayRenderingPid(IVROverlay__GetOverlayRenderingPid&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderingPid", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayRenderingPid(IVROverlay__GetOverlayRenderingPid && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderingPid", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayRenderingPid(IVROverlay__GetOverlayRenderingPid const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderingPid", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayRenderingPid(IVROverlay__GetOverlayRenderingPid const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8208 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8202};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayFlag
 class CORDL_TYPE IVROverlay__SetOverlayFlag : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89b00, size 0xc0, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags  eOverlayFlag, bool  bEnabled, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfbae8, size 0xc0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89bc0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfbba8, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89aec, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags  eOverlayFlag, bool  bEnabled) ;
+  /// @brief Method Invoke, addr 0x5cfbad4, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayFlag* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayFlag* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89a80, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfba68, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayFlag() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayFlag();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFlag", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayFlag(IVROverlay__SetOverlayFlag&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFlag", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayFlag(IVROverlay__SetOverlayFlag && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFlag", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayFlag(IVROverlay__SetOverlayFlag const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFlag", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayFlag(IVROverlay__SetOverlayFlag const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8209 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8203};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayFlag, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayFlag
 class CORDL_TYPE IVROverlay__GetOverlayFlag : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89c64, size 0xc4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags  eOverlayFlag, ::ByRef<bool>  pbEnabled, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfbc4c, size 0xc4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, ::ByRef<bool> pbEnabled, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89d28, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<bool>  pbEnabled, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfbd10, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<bool> pbEnabled, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89c50, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags  eOverlayFlag, ::ByRef<bool>  pbEnabled) ;
+  /// @brief Method Invoke, addr 0x5cfbc38, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, ::ByRef<bool> pbEnabled);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayFlag* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayFlag* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89be4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfbbcc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayFlag() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayFlag();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlag", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayFlag(IVROverlay__GetOverlayFlag&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlag", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayFlag(IVROverlay__GetOverlayFlag && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlag", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayFlag(IVROverlay__GetOverlayFlag const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlag", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayFlag(IVROverlay__GetOverlayFlag const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8210 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8204};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayFlag, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayColor
 class CORDL_TYPE IVROverlay__SetOverlayColor : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89dcc, size 0xa4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, float_t  fRed, float_t  fGreen, float_t  fBlue, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfbdb4, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fRed, float_t fGreen, float_t fBlue, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89e70, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfbe58, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89db8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, float_t  fRed, float_t  fGreen, float_t  fBlue) ;
+  /// @brief Method Invoke, addr 0x5cfbda0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fRed, float_t fGreen, float_t fBlue);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayColor* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89d4c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfbd34, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayColor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayColor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayColor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayColor(IVROverlay__SetOverlayColor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayColor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayColor(IVROverlay__SetOverlayColor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayColor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayColor(IVROverlay__SetOverlayColor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayColor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayColor(IVROverlay__SetOverlayColor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8211 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8205};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayColor, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayColor
 class CORDL_TYPE IVROverlay__GetOverlayColor : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c89f14, size 0xb0, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfRed, ::ByRef<float_t>  pfGreen, ::ByRef<float_t>  pfBlue, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfbefc, size 0xb0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfRed, ::ByRef<float_t> pfGreen, ::ByRef<float_t> pfBlue, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c89fc4, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t>  pfRed, ::ByRef<float_t>  pfGreen, ::ByRef<float_t>  pfBlue, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfbfac, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t> pfRed, ::ByRef<float_t> pfGreen, ::ByRef<float_t> pfBlue, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c89f00, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfRed, ::ByRef<float_t>  pfGreen, ::ByRef<float_t>  pfBlue) ;
+  /// @brief Method Invoke, addr 0x5cfbee8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfRed, ::ByRef<float_t> pfGreen, ::ByRef<float_t> pfBlue);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayColor* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89e94, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfbe7c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayColor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayColor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayColor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayColor(IVROverlay__GetOverlayColor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayColor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayColor(IVROverlay__GetOverlayColor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayColor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayColor(IVROverlay__GetOverlayColor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayColor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayColor(IVROverlay__GetOverlayColor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8212 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8206};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayColor, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayAlpha
 class CORDL_TYPE IVROverlay__SetOverlayAlpha : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a074, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, float_t  fAlpha, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc05c, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fAlpha, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a0ec, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc0d4, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a060, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, float_t  fAlpha) ;
+  /// @brief Method Invoke, addr 0x5cfc048, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fAlpha);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayAlpha* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayAlpha* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c89ff4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfbfdc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayAlpha() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayAlpha();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAlpha", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayAlpha(IVROverlay__SetOverlayAlpha&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAlpha", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayAlpha(IVROverlay__SetOverlayAlpha && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAlpha", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayAlpha(IVROverlay__SetOverlayAlpha const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAlpha", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayAlpha(IVROverlay__SetOverlayAlpha const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8213 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8207};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayAlpha, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayAlpha
 class CORDL_TYPE IVROverlay__GetOverlayAlpha : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a190, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfAlpha, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc178, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfAlpha, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a208, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t>  pfAlpha, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc1f0, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t> pfAlpha, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a17c, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfAlpha) ;
+  /// @brief Method Invoke, addr 0x5cfc164, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfAlpha);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayAlpha* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayAlpha* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a110, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc0f8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayAlpha() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayAlpha();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAlpha", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayAlpha(IVROverlay__GetOverlayAlpha&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAlpha", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayAlpha(IVROverlay__GetOverlayAlpha && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAlpha", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayAlpha(IVROverlay__GetOverlayAlpha const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAlpha", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayAlpha(IVROverlay__GetOverlayAlpha const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8214 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8208};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayAlpha, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTexelAspect
 class CORDL_TYPE IVROverlay__SetOverlayTexelAspect : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a2ac, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, float_t  fTexelAspect, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc294, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fTexelAspect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a324, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc30c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a298, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, float_t  fTexelAspect) ;
+  /// @brief Method Invoke, addr 0x5cfc280, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fTexelAspect);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a22c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc214, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTexelAspect() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTexelAspect();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexelAspect", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTexelAspect(IVROverlay__SetOverlayTexelAspect&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexelAspect", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTexelAspect(IVROverlay__SetOverlayTexelAspect && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexelAspect", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTexelAspect(IVROverlay__SetOverlayTexelAspect const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexelAspect", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTexelAspect(IVROverlay__SetOverlayTexelAspect const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8215 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8209};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTexelAspect
 class CORDL_TYPE IVROverlay__GetOverlayTexelAspect : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a3c8, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfTexelAspect, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc3b0, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfTexelAspect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a440, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t>  pfTexelAspect, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc428, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t> pfTexelAspect, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a3b4, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfTexelAspect) ;
+  /// @brief Method Invoke, addr 0x5cfc39c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfTexelAspect);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a348, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc330, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTexelAspect() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTexelAspect();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexelAspect", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTexelAspect(IVROverlay__GetOverlayTexelAspect&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexelAspect", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTexelAspect(IVROverlay__GetOverlayTexelAspect && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexelAspect", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTexelAspect(IVROverlay__GetOverlayTexelAspect const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexelAspect", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTexelAspect(IVROverlay__GetOverlayTexelAspect const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8216 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8210};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlaySortOrder
 class CORDL_TYPE IVROverlay__SetOverlaySortOrder : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a4e4, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, uint32_t  unSortOrder, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc4cc, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unSortOrder, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a55c, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc544, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a4d0, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, uint32_t  unSortOrder) ;
+  /// @brief Method Invoke, addr 0x5cfc4b8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unSortOrder);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a464, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc44c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlaySortOrder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlaySortOrder();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlaySortOrder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlaySortOrder(IVROverlay__SetOverlaySortOrder&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlaySortOrder", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlaySortOrder(IVROverlay__SetOverlaySortOrder && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlaySortOrder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlaySortOrder(IVROverlay__SetOverlaySortOrder const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlaySortOrder", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlaySortOrder(IVROverlay__SetOverlaySortOrder const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8217 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8211};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlaySortOrder, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlaySortOrder
 class CORDL_TYPE IVROverlay__GetOverlaySortOrder : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a600, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punSortOrder, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc5e8, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punSortOrder, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a678, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t>  punSortOrder, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc660, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t> punSortOrder, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a5ec, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punSortOrder) ;
+  /// @brief Method Invoke, addr 0x5cfc5d4, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punSortOrder);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a580, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc568, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlaySortOrder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlaySortOrder();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlaySortOrder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlaySortOrder(IVROverlay__GetOverlaySortOrder&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlaySortOrder", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlaySortOrder(IVROverlay__GetOverlaySortOrder && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlaySortOrder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlaySortOrder(IVROverlay__GetOverlaySortOrder const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlaySortOrder", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlaySortOrder(IVROverlay__GetOverlaySortOrder const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8218 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8212};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlaySortOrder, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayWidthInMeters
 class CORDL_TYPE IVROverlay__SetOverlayWidthInMeters : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a71c, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, float_t  fWidthInMeters, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc704, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fWidthInMeters, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a794, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc77c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a708, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, float_t  fWidthInMeters) ;
+  /// @brief Method Invoke, addr 0x5cfc6f0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fWidthInMeters);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a69c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc684, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayWidthInMeters() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayWidthInMeters();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayWidthInMeters", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayWidthInMeters(IVROverlay__SetOverlayWidthInMeters&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayWidthInMeters", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayWidthInMeters(IVROverlay__SetOverlayWidthInMeters && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayWidthInMeters", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayWidthInMeters(IVROverlay__SetOverlayWidthInMeters const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayWidthInMeters", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayWidthInMeters(IVROverlay__SetOverlayWidthInMeters const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8219 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8213};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayWidthInMeters
 class CORDL_TYPE IVROverlay__GetOverlayWidthInMeters : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a838, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfWidthInMeters, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc820, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfWidthInMeters, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a8b0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t>  pfWidthInMeters, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc898, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t> pfWidthInMeters, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a824, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfWidthInMeters) ;
+  /// @brief Method Invoke, addr 0x5cfc80c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfWidthInMeters);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a7b8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc7a0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayWidthInMeters() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayWidthInMeters();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayWidthInMeters", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayWidthInMeters(IVROverlay__GetOverlayWidthInMeters&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayWidthInMeters", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayWidthInMeters(IVROverlay__GetOverlayWidthInMeters && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayWidthInMeters", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayWidthInMeters(IVROverlay__GetOverlayWidthInMeters const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayWidthInMeters", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayWidthInMeters(IVROverlay__GetOverlayWidthInMeters const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8220 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8214};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayAutoCurveDistanceRangeInMeters
 class CORDL_TYPE IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8a954, size 0x8c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, float_t  fMinDistanceInMeters, float_t  fMaxDistanceInMeters, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfc93c, size 0x8c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fMinDistanceInMeters, float_t fMaxDistanceInMeters, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8a9e0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfc9c8, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8a940, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, float_t  fMinDistanceInMeters, float_t  fMaxDistanceInMeters) ;
+  /// @brief Method Invoke, addr 0x5cfc928, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fMinDistanceInMeters, float_t fMaxDistanceInMeters);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8a8d4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc8bc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8221 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8215};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayAutoCurveDistanceRangeInMeters
 class CORDL_TYPE IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8aa84, size 0x98, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfMinDistanceInMeters, ::ByRef<float_t>  pfMaxDistanceInMeters, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfca6c, size 0x98, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfMinDistanceInMeters, ::ByRef<float_t> pfMaxDistanceInMeters, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8ab1c, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t>  pfMinDistanceInMeters, ::ByRef<float_t>  pfMaxDistanceInMeters, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfcb04, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<float_t> pfMinDistanceInMeters, ::ByRef<float_t> pfMaxDistanceInMeters, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8aa70, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<float_t>  pfMinDistanceInMeters, ::ByRef<float_t>  pfMaxDistanceInMeters) ;
+  /// @brief Method Invoke, addr 0x5cfca58, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<float_t> pfMinDistanceInMeters, ::ByRef<float_t> pfMaxDistanceInMeters);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8aa04, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfc9ec, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8222 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8216};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTextureColorSpace
 class CORDL_TYPE IVROverlay__SetOverlayTextureColorSpace : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8abcc, size 0xa4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::EColorSpace  eTextureColorSpace, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfcbb4, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::EColorSpace eTextureColorSpace, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8ac70, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfcc58, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8abb8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::EColorSpace  eTextureColorSpace) ;
+  /// @brief Method Invoke, addr 0x5cfcba0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::EColorSpace eTextureColorSpace);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8ab4c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfcb34, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTextureColorSpace() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTextureColorSpace();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureColorSpace", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTextureColorSpace(IVROverlay__SetOverlayTextureColorSpace&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureColorSpace", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTextureColorSpace(IVROverlay__SetOverlayTextureColorSpace && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureColorSpace", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTextureColorSpace(IVROverlay__SetOverlayTextureColorSpace const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureColorSpace", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTextureColorSpace(IVROverlay__SetOverlayTextureColorSpace const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8223 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8217};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTextureColorSpace
 class CORDL_TYPE IVROverlay__GetOverlayTextureColorSpace : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ad14, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::EColorSpace>  peTextureColorSpace, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfccfc, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8adbc, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::EColorSpace>  peTextureColorSpace, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfcda4, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ad00, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::EColorSpace>  peTextureColorSpace) ;
+  /// @brief Method Invoke, addr 0x5cfcce8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8ac94, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfcc7c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTextureColorSpace() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTextureColorSpace();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureColorSpace", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTextureColorSpace(IVROverlay__GetOverlayTextureColorSpace&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureColorSpace", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTextureColorSpace(IVROverlay__GetOverlayTextureColorSpace && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureColorSpace", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTextureColorSpace(IVROverlay__GetOverlayTextureColorSpace const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureColorSpace", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTextureColorSpace(IVROverlay__GetOverlayTextureColorSpace const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8224 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8218};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTextureBounds
 class CORDL_TYPE IVROverlay__SetOverlayTextureBounds : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ae60, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pOverlayTextureBounds, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfce48, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8af08, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pOverlayTextureBounds, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfcef0, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ae4c, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pOverlayTextureBounds) ;
+  /// @brief Method Invoke, addr 0x5cfce34, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8ade0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfcdc8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTextureBounds() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTextureBounds();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureBounds", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTextureBounds(IVROverlay__SetOverlayTextureBounds&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureBounds", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTextureBounds(IVROverlay__SetOverlayTextureBounds && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureBounds", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTextureBounds(IVROverlay__SetOverlayTextureBounds const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureBounds", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTextureBounds(IVROverlay__SetOverlayTextureBounds const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8225 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8219};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTextureBounds
 class CORDL_TYPE IVROverlay__GetOverlayTextureBounds : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8afac, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pOverlayTextureBounds, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfcf94, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8b054, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pOverlayTextureBounds, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfd03c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8af98, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pOverlayTextureBounds) ;
+  /// @brief Method Invoke, addr 0x5cfcf80, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8af2c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfcf14, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTextureBounds() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTextureBounds();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureBounds", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTextureBounds(IVROverlay__GetOverlayTextureBounds&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureBounds", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTextureBounds(IVROverlay__GetOverlayTextureBounds && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureBounds", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTextureBounds(IVROverlay__GetOverlayTextureBounds const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureBounds", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTextureBounds(IVROverlay__GetOverlayTextureBounds const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8226 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8220};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayRenderModel
 class CORDL_TYPE IVROverlay__GetOverlayRenderModel : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8b0f8, size 0x100, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ::ByRef<::OVR::OpenVR::HmdColor_t>  pColor, ::ByRef<::OVR::OpenVR::EVROverlayError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfd0e0, size 0x100, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::HmdColor_t> pColor,
+                                             ::ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8b1f8, size 0x30, virtual true, abstract: false, final false
-inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::HmdColor_t>  pColor, ::ByRef<::OVR::OpenVR::EVROverlayError>  pError, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfd1e0, size 0x30, virtual true, abstract: false, final false
+  inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::HmdColor_t> pColor, ::ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8b0e4, size 0x14, virtual true, abstract: false, final false
-inline uint32_t Invoke(uint64_t  ulOverlayHandle, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ::ByRef<::OVR::OpenVR::HmdColor_t>  pColor, ::ByRef<::OVR::OpenVR::EVROverlayError>  pError) ;
+  /// @brief Method Invoke, addr 0x5cfd0cc, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::HmdColor_t> pColor,
+                         ::ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8b078, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfd060, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayRenderModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayRenderModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderModel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayRenderModel(IVROverlay__GetOverlayRenderModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayRenderModel(IVROverlay__GetOverlayRenderModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayRenderModel(IVROverlay__GetOverlayRenderModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayRenderModel(IVROverlay__GetOverlayRenderModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8227 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8221};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayRenderModel, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayRenderModel
 class CORDL_TYPE IVROverlay__SetOverlayRenderModel : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8b2a8, size 0xb0, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::StringW  pchRenderModel, ::ByRef<::OVR::OpenVR::HmdColor_t>  pColor, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfd290, size 0xb0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ::ByRef<::OVR::OpenVR::HmdColor_t> pColor, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8b358, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdColor_t>  pColor, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfd340, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdColor_t> pColor, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8b294, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::StringW  pchRenderModel, ::ByRef<::OVR::OpenVR::HmdColor_t>  pColor) ;
+  /// @brief Method Invoke, addr 0x5cfd27c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ::ByRef<::OVR::OpenVR::HmdColor_t> pColor);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8b228, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfd210, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayRenderModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayRenderModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderModel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayRenderModel(IVROverlay__SetOverlayRenderModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayRenderModel(IVROverlay__SetOverlayRenderModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayRenderModel(IVROverlay__SetOverlayRenderModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayRenderModel(IVROverlay__SetOverlayRenderModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8228 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8222};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayRenderModel, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTransformType
 class CORDL_TYPE IVROverlay__GetOverlayTransformType : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8b3fc, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayTransformType>  peTransformType, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfd3e4, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8b4a4, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VROverlayTransformType>  peTransformType, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfd48c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8b3e8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayTransformType>  peTransformType) ;
+  /// @brief Method Invoke, addr 0x5cfd3d0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformType* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformType* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8b37c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfd364, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTransformType() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTransformType();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformType", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTransformType(IVROverlay__GetOverlayTransformType&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformType", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTransformType(IVROverlay__GetOverlayTransformType && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformType", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTransformType(IVROverlay__GetOverlayTransformType const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformType", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTransformType(IVROverlay__GetOverlayTransformType const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8229 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8223};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTransformType, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTransformAbsolute
 class CORDL_TYPE IVROverlay__SetOverlayTransformAbsolute : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8b548, size 0xd8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin  eTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToOverlayTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfd530, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin,
+                                             ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8b620, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToOverlayTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfd608, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8b534, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin  eTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToOverlayTransform) ;
+  /// @brief Method Invoke, addr 0x5cfd51c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin,
+                                               ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8b4c8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfd4b0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTransformAbsolute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTransformAbsolute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformAbsolute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTransformAbsolute(IVROverlay__SetOverlayTransformAbsolute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformAbsolute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTransformAbsolute(IVROverlay__SetOverlayTransformAbsolute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformAbsolute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTransformAbsolute(IVROverlay__SetOverlayTransformAbsolute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformAbsolute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTransformAbsolute(IVROverlay__SetOverlayTransformAbsolute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8230 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8224};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTransformAbsolute
 class CORDL_TYPE IVROverlay__GetOverlayTransformAbsolute : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8b6c4, size 0xdc, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::ETrackingUniverseOrigin>  peTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToOverlayTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfd6ac, size 0xdc, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin,
+                                             ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8b7a0, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::ETrackingUniverseOrigin>  peTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToOverlayTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfd788, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform,
+                                                  ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8b6b0, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::ETrackingUniverseOrigin>  peTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToOverlayTransform) ;
+  /// @brief Method Invoke, addr 0x5cfd698, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin,
+                                               ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8b644, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfd62c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTransformAbsolute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTransformAbsolute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformAbsolute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTransformAbsolute(IVROverlay__GetOverlayTransformAbsolute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformAbsolute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTransformAbsolute(IVROverlay__GetOverlayTransformAbsolute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformAbsolute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTransformAbsolute(IVROverlay__GetOverlayTransformAbsolute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformAbsolute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTransformAbsolute(IVROverlay__GetOverlayTransformAbsolute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8231 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8225};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTransformTrackedDeviceRelative
 class CORDL_TYPE IVROverlay__SetOverlayTransformTrackedDeviceRelative : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8b850, size 0xc4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, uint32_t  unTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackedDeviceToOverlayTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfd838, size 0xc4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8b914, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackedDeviceToOverlayTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfd8fc, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8b83c, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, uint32_t  unTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackedDeviceToOverlayTransform) ;
+  /// @brief Method Invoke, addr 0x5cfd824, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8b7d0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfd7b8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTransformTrackedDeviceRelative() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTransformTrackedDeviceRelative();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceRelative", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTransformTrackedDeviceRelative(IVROverlay__SetOverlayTransformTrackedDeviceRelative&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceRelative", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTransformTrackedDeviceRelative(IVROverlay__SetOverlayTransformTrackedDeviceRelative && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceRelative", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTransformTrackedDeviceRelative(IVROverlay__SetOverlayTransformTrackedDeviceRelative const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceRelative", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTransformTrackedDeviceRelative(IVROverlay__SetOverlayTransformTrackedDeviceRelative const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8232 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8226};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTransformTrackedDeviceRelative
 class CORDL_TYPE IVROverlay__GetOverlayTransformTrackedDeviceRelative : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8b9b8, size 0xc8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackedDeviceToOverlayTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfd9a0, size 0xc8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8ba80, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t>  punTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackedDeviceToOverlayTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfda68, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t> punTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8b9a4, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackedDeviceToOverlayTransform) ;
+  /// @brief Method Invoke, addr 0x5cfd98c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punTrackedDevice, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8b938, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfd920, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTransformTrackedDeviceRelative() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTransformTrackedDeviceRelative();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceRelative", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTransformTrackedDeviceRelative(IVROverlay__GetOverlayTransformTrackedDeviceRelative&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceRelative", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTransformTrackedDeviceRelative(IVROverlay__GetOverlayTransformTrackedDeviceRelative && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceRelative", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTransformTrackedDeviceRelative(IVROverlay__GetOverlayTransformTrackedDeviceRelative const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceRelative", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTransformTrackedDeviceRelative(IVROverlay__GetOverlayTransformTrackedDeviceRelative const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8233 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8227};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTransformTrackedDeviceComponent
 class CORDL_TYPE IVROverlay__SetOverlayTransformTrackedDeviceComponent : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8bb30, size 0x80, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, uint32_t  unDeviceIndex, ::StringW  pchComponentName, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfdb18, size 0x80, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unDeviceIndex, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8bbb0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfdb98, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8bb1c, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, uint32_t  unDeviceIndex, ::StringW  pchComponentName) ;
+  /// @brief Method Invoke, addr 0x5cfdb04, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unDeviceIndex, ::StringW pchComponentName);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8bab0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfda98, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTransformTrackedDeviceComponent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTransformTrackedDeviceComponent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceComponent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTransformTrackedDeviceComponent(IVROverlay__SetOverlayTransformTrackedDeviceComponent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceComponent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTransformTrackedDeviceComponent(IVROverlay__SetOverlayTransformTrackedDeviceComponent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceComponent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTransformTrackedDeviceComponent(IVROverlay__SetOverlayTransformTrackedDeviceComponent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceComponent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTransformTrackedDeviceComponent(IVROverlay__SetOverlayTransformTrackedDeviceComponent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8234 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8228};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTransformTrackedDeviceComponent
 class CORDL_TYPE IVROverlay__GetOverlayTransformTrackedDeviceComponent : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8bc54, size 0x9c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punDeviceIndex, ::System::Text::StringBuilder*  pchComponentName, uint32_t  unComponentNameSize, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfdc3c, size 0x9c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punDeviceIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameSize,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8bcf0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t>  punDeviceIndex, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfdcd8, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t> punDeviceIndex, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8bc40, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punDeviceIndex, ::System::Text::StringBuilder*  pchComponentName, uint32_t  unComponentNameSize) ;
+  /// @brief Method Invoke, addr 0x5cfdc28, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punDeviceIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameSize);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8bbd4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfdbbc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTransformTrackedDeviceComponent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTransformTrackedDeviceComponent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceComponent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTransformTrackedDeviceComponent(IVROverlay__GetOverlayTransformTrackedDeviceComponent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceComponent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTransformTrackedDeviceComponent(IVROverlay__GetOverlayTransformTrackedDeviceComponent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceComponent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTransformTrackedDeviceComponent(IVROverlay__GetOverlayTransformTrackedDeviceComponent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceComponent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTransformTrackedDeviceComponent(IVROverlay__GetOverlayTransformTrackedDeviceComponent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8235 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8229};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTransformOverlayRelative
 class CORDL_TYPE IVROverlay__GetOverlayTransformOverlayRelative : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8bd94, size 0xc4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<uint64_t>  ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatParentOverlayToOverlayTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfdd7c, size 0xc4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<uint64_t> ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8be58, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t>  ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatParentOverlayToOverlayTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfde40, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t> ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8bd80, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<uint64_t>  ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatParentOverlayToOverlayTransform) ;
+  /// @brief Method Invoke, addr 0x5cfdd68, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<uint64_t> ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8bd14, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfdcfc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTransformOverlayRelative() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTransformOverlayRelative();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformOverlayRelative", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTransformOverlayRelative(IVROverlay__GetOverlayTransformOverlayRelative&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformOverlayRelative", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTransformOverlayRelative(IVROverlay__GetOverlayTransformOverlayRelative && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformOverlayRelative", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTransformOverlayRelative(IVROverlay__GetOverlayTransformOverlayRelative const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformOverlayRelative", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTransformOverlayRelative(IVROverlay__GetOverlayTransformOverlayRelative const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8236 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8230};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTransformOverlayRelative
 class CORDL_TYPE IVROverlay__SetOverlayTransformOverlayRelative : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8bf08, size 0xc0, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, uint64_t  ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatParentOverlayToOverlayTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfdef0, size 0xc0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8bfc8, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatParentOverlayToOverlayTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfdfb0, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8bef4, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, uint64_t  ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatParentOverlayToOverlayTransform) ;
+  /// @brief Method Invoke, addr 0x5cfdedc, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8be88, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfde70, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTransformOverlayRelative() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTransformOverlayRelative();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformOverlayRelative", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTransformOverlayRelative(IVROverlay__SetOverlayTransformOverlayRelative&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformOverlayRelative", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTransformOverlayRelative(IVROverlay__SetOverlayTransformOverlayRelative && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformOverlayRelative", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTransformOverlayRelative(IVROverlay__SetOverlayTransformOverlayRelative const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformOverlayRelative", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTransformOverlayRelative(IVROverlay__SetOverlayTransformOverlayRelative const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8237 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8231};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ShowOverlay
 class CORDL_TYPE IVROverlay__ShowOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c06c, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe054, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c0c0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe0a8, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c058, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfe040, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__ShowOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ShowOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8bfec, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfdfd4, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ShowOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ShowOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ShowOverlay(IVROverlay__ShowOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ShowOverlay(IVROverlay__ShowOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ShowOverlay(IVROverlay__ShowOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ShowOverlay(IVROverlay__ShowOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8238 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8232};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ShowOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_HideOverlay
 class CORDL_TYPE IVROverlay__HideOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c164, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe14c, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c1b8, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe1a0, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c150, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfe138, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__HideOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__HideOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c0e4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe0cc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__HideOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__HideOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__HideOverlay(IVROverlay__HideOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__HideOverlay(IVROverlay__HideOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__HideOverlay(IVROverlay__HideOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__HideOverlay(IVROverlay__HideOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8239 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8233};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__HideOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_IsOverlayVisible
 class CORDL_TYPE IVROverlay__IsOverlayVisible : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c25c, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe244, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c2b0, size 0x24, virtual true, abstract: false, final false
-inline bool EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe298, size 0x24, virtual true, abstract: false, final false
+  inline bool EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c248, size 0x14, virtual true, abstract: false, final false
-inline bool Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfe230, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__IsOverlayVisible* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__IsOverlayVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c1dc, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe1c4, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__IsOverlayVisible() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__IsOverlayVisible();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsOverlayVisible", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__IsOverlayVisible(IVROverlay__IsOverlayVisible&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsOverlayVisible", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__IsOverlayVisible(IVROverlay__IsOverlayVisible && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsOverlayVisible", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__IsOverlayVisible(IVROverlay__IsOverlayVisible const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsOverlayVisible", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__IsOverlayVisible(IVROverlay__IsOverlayVisible const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8240 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8234};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__IsOverlayVisible, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetTransformForOverlayCoordinates
 class CORDL_TYPE IVROverlay__GetTransformForOverlayCoordinates : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c354, size 0x108, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin  eTrackingOrigin, ::OVR::OpenVR::HmdVector2_t  coordinatesInOverlay, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe33c, size 0x108, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::OVR::OpenVR::HmdVector2_t coordinatesInOverlay,
+                                             ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c45c, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe444, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c340, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin  eTrackingOrigin, ::OVR::OpenVR::HmdVector2_t  coordinatesInOverlay, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTransform) ;
+  /// @brief Method Invoke, addr 0x5cfe328, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::OVR::OpenVR::HmdVector2_t coordinatesInOverlay,
+                                               ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c2d4, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe2bc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetTransformForOverlayCoordinates() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetTransformForOverlayCoordinates();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetTransformForOverlayCoordinates", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetTransformForOverlayCoordinates(IVROverlay__GetTransformForOverlayCoordinates&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetTransformForOverlayCoordinates", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetTransformForOverlayCoordinates(IVROverlay__GetTransformForOverlayCoordinates && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetTransformForOverlayCoordinates", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetTransformForOverlayCoordinates(IVROverlay__GetTransformForOverlayCoordinates const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetTransformForOverlayCoordinates", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetTransformForOverlayCoordinates(IVROverlay__GetTransformForOverlayCoordinates const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8241 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8235};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_PollNextOverlayEvent
 class CORDL_TYPE IVROverlay__PollNextOverlayEvent : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c500, size 0xc4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VREvent_t>  pEvent, uint32_t  uncbVREvent, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe4e8, size 0xc4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c5c4, size 0x24, virtual true, abstract: false, final false
-inline bool EndInvoke(::ByRef<::OVR::OpenVR::VREvent_t>  pEvent, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe5ac, size 0x24, virtual true, abstract: false, final false
+  inline bool EndInvoke(::ByRef<::OVR::OpenVR::VREvent_t> pEvent, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c4ec, size 0x14, virtual true, abstract: false, final false
-inline bool Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VREvent_t>  pEvent, uint32_t  uncbVREvent) ;
+  /// @brief Method Invoke, addr 0x5cfe4d4, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent);
 
-static inline ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c480, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe468, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__PollNextOverlayEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__PollNextOverlayEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__PollNextOverlayEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__PollNextOverlayEvent(IVROverlay__PollNextOverlayEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__PollNextOverlayEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__PollNextOverlayEvent(IVROverlay__PollNextOverlayEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__PollNextOverlayEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__PollNextOverlayEvent(IVROverlay__PollNextOverlayEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__PollNextOverlayEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__PollNextOverlayEvent(IVROverlay__PollNextOverlayEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8242 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8236};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__PollNextOverlayEvent, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayInputMethod
 class CORDL_TYPE IVROverlay__GetOverlayInputMethod : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c668, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayInputMethod>  peInputMethod, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe650, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c710, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VROverlayInputMethod>  peInputMethod, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe6f8, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c654, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayInputMethod>  peInputMethod) ;
+  /// @brief Method Invoke, addr 0x5cfe63c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c5e8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe5d0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayInputMethod() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayInputMethod();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayInputMethod", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayInputMethod(IVROverlay__GetOverlayInputMethod&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayInputMethod", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayInputMethod(IVROverlay__GetOverlayInputMethod && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayInputMethod", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayInputMethod(IVROverlay__GetOverlayInputMethod const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayInputMethod", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayInputMethod(IVROverlay__GetOverlayInputMethod const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8243 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8237};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayInputMethod, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayInputMethod
 class CORDL_TYPE IVROverlay__SetOverlayInputMethod : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c7b4, size 0xa4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod  eInputMethod, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe79c, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod eInputMethod, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c858, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe840, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c7a0, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod  eInputMethod) ;
+  /// @brief Method Invoke, addr 0x5cfe788, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod eInputMethod);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c734, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe71c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayInputMethod() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayInputMethod();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayInputMethod", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayInputMethod(IVROverlay__SetOverlayInputMethod&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayInputMethod", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayInputMethod(IVROverlay__SetOverlayInputMethod && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayInputMethod", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayInputMethod(IVROverlay__SetOverlayInputMethod const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayInputMethod", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayInputMethod(IVROverlay__SetOverlayInputMethod const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8244 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8238};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayInputMethod, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayMouseScale
 class CORDL_TYPE IVROverlay__GetOverlayMouseScale : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8c8fc, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pvecMouseScale, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfe8e4, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8c9a4, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdVector2_t>  pvecMouseScale, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfe98c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8c8e8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pvecMouseScale) ;
+  /// @brief Method Invoke, addr 0x5cfe8d0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c87c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe864, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayMouseScale() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayMouseScale();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayMouseScale", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayMouseScale(IVROverlay__GetOverlayMouseScale&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayMouseScale", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayMouseScale(IVROverlay__GetOverlayMouseScale && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayMouseScale", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayMouseScale(IVROverlay__GetOverlayMouseScale const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayMouseScale", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayMouseScale(IVROverlay__GetOverlayMouseScale const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8245 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8239};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayMouseScale, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayMouseScale
 class CORDL_TYPE IVROverlay__SetOverlayMouseScale : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ca48, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pvecMouseScale, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfea30, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8caf0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdVector2_t>  pvecMouseScale, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfead8, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ca34, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pvecMouseScale) ;
+  /// @brief Method Invoke, addr 0x5cfea1c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8c9c8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfe9b0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayMouseScale() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayMouseScale();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayMouseScale", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayMouseScale(IVROverlay__SetOverlayMouseScale&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayMouseScale", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayMouseScale(IVROverlay__SetOverlayMouseScale && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayMouseScale", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayMouseScale(IVROverlay__SetOverlayMouseScale const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayMouseScale", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayMouseScale(IVROverlay__SetOverlayMouseScale const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8246 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8240};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayMouseScale, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ComputeOverlayIntersection
 class CORDL_TYPE IVROverlay__ComputeOverlayIntersection : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8cb94, size 0xdc, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t>  pParams, ::ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t>  pResults, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfeb7c, size 0xdc, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ::ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8cc70, size 0x30, virtual true, abstract: false, final false
-inline bool EndInvoke(::ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t>  pParams, ::ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t>  pResults, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfec58, size 0x30, virtual true, abstract: false, final false
+  inline bool EndInvoke(::ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ::ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8cb80, size 0x14, virtual true, abstract: false, final false
-inline bool Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t>  pParams, ::ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t>  pResults) ;
+  /// @brief Method Invoke, addr 0x5cfeb68, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ::ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults);
 
-static inline ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8cb14, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfeafc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ComputeOverlayIntersection() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ComputeOverlayIntersection();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ComputeOverlayIntersection", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ComputeOverlayIntersection(IVROverlay__ComputeOverlayIntersection&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ComputeOverlayIntersection", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ComputeOverlayIntersection(IVROverlay__ComputeOverlayIntersection && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ComputeOverlayIntersection", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ComputeOverlayIntersection(IVROverlay__ComputeOverlayIntersection const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ComputeOverlayIntersection", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ComputeOverlayIntersection(IVROverlay__ComputeOverlayIntersection const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8247 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8241};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_IsHoverTargetOverlay
 class CORDL_TYPE IVROverlay__IsHoverTargetOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8cd20, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfed08, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8cd74, size 0x24, virtual true, abstract: false, final false
-inline bool EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfed5c, size 0x24, virtual true, abstract: false, final false
+  inline bool EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8cd0c, size 0x14, virtual true, abstract: false, final false
-inline bool Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cfecf4, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8cca0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfec88, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__IsHoverTargetOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__IsHoverTargetOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsHoverTargetOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__IsHoverTargetOverlay(IVROverlay__IsHoverTargetOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsHoverTargetOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__IsHoverTargetOverlay(IVROverlay__IsHoverTargetOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsHoverTargetOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__IsHoverTargetOverlay(IVROverlay__IsHoverTargetOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsHoverTargetOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__IsHoverTargetOverlay(IVROverlay__IsHoverTargetOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8248 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8242};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetGamepadFocusOverlay
 class CORDL_TYPE IVROverlay__GetGamepadFocusOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ce14, size 0x1c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfedfc, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8ce30, size 0x24, virtual true, abstract: false, final false
-inline uint64_t EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfee18, size 0x24, virtual true, abstract: false, final false
+  inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ce00, size 0x14, virtual true, abstract: false, final false
-inline uint64_t Invoke() ;
+  /// @brief Method Invoke, addr 0x5cfede8, size 0x14, virtual true, abstract: false, final false
+  inline uint64_t Invoke();
 
-static inline ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8cd98, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfed80, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetGamepadFocusOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetGamepadFocusOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetGamepadFocusOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetGamepadFocusOverlay(IVROverlay__GetGamepadFocusOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetGamepadFocusOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetGamepadFocusOverlay(IVROverlay__GetGamepadFocusOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetGamepadFocusOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetGamepadFocusOverlay(IVROverlay__GetGamepadFocusOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetGamepadFocusOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetGamepadFocusOverlay(IVROverlay__GetGamepadFocusOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8249 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8243};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetGamepadFocusOverlay
 class CORDL_TYPE IVROverlay__SetGamepadFocusOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ced4, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulNewFocusOverlay, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfeebc, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulNewFocusOverlay, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8cf28, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfef10, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8cec0, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulNewFocusOverlay) ;
+  /// @brief Method Invoke, addr 0x5cfeea8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulNewFocusOverlay);
 
-static inline ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8ce54, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfee3c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetGamepadFocusOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetGamepadFocusOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetGamepadFocusOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetGamepadFocusOverlay(IVROverlay__SetGamepadFocusOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetGamepadFocusOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetGamepadFocusOverlay(IVROverlay__SetGamepadFocusOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetGamepadFocusOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetGamepadFocusOverlay(IVROverlay__SetGamepadFocusOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetGamepadFocusOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetGamepadFocusOverlay(IVROverlay__SetGamepadFocusOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8250 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8244};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayNeighbor
 class CORDL_TYPE IVROverlay__SetOverlayNeighbor : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8cfcc, size 0xb8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EOverlayDirection  eDirection, uint64_t  ulFrom, uint64_t  ulTo, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cfefb4, size 0xb8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d084, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff06c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8cfb8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(::OVR::OpenVR::EOverlayDirection  eDirection, uint64_t  ulFrom, uint64_t  ulTo) ;
+  /// @brief Method Invoke, addr 0x5cfefa0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8cf4c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfef34, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayNeighbor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayNeighbor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayNeighbor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayNeighbor(IVROverlay__SetOverlayNeighbor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayNeighbor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayNeighbor(IVROverlay__SetOverlayNeighbor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayNeighbor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayNeighbor(IVROverlay__SetOverlayNeighbor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayNeighbor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayNeighbor(IVROverlay__SetOverlayNeighbor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8251 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8245};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayNeighbor, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_MoveGamepadFocusToNeighbor
 class CORDL_TYPE IVROverlay__MoveGamepadFocusToNeighbor : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8d128, size 0xa4, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EOverlayDirection  eDirection, uint64_t  ulFrom, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cff110, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d1cc, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff1b4, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8d114, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(::OVR::OpenVR::EOverlayDirection  eDirection, uint64_t  ulFrom) ;
+  /// @brief Method Invoke, addr 0x5cff0fc, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom);
 
-static inline ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d0a8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff090, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__MoveGamepadFocusToNeighbor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__MoveGamepadFocusToNeighbor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__MoveGamepadFocusToNeighbor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__MoveGamepadFocusToNeighbor(IVROverlay__MoveGamepadFocusToNeighbor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__MoveGamepadFocusToNeighbor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__MoveGamepadFocusToNeighbor(IVROverlay__MoveGamepadFocusToNeighbor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__MoveGamepadFocusToNeighbor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__MoveGamepadFocusToNeighbor(IVROverlay__MoveGamepadFocusToNeighbor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__MoveGamepadFocusToNeighbor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__MoveGamepadFocusToNeighbor(IVROverlay__MoveGamepadFocusToNeighbor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8252 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8246};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayDualAnalogTransform
 class CORDL_TYPE IVROverlay__SetOverlayDualAnalogTransform : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8d270, size 0xd8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlay, ::OVR::OpenVR::EDualAnalogWhich  eWhich, ::System::IntPtr  vCenter, float_t  fRadius, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cff258, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::System::IntPtr vCenter, float_t fRadius, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d348, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff330, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8d25c, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlay, ::OVR::OpenVR::EDualAnalogWhich  eWhich, ::System::IntPtr  vCenter, float_t  fRadius) ;
+  /// @brief Method Invoke, addr 0x5cff244, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::System::IntPtr vCenter, float_t fRadius);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d1f0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff1d8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayDualAnalogTransform() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayDualAnalogTransform();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayDualAnalogTransform", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayDualAnalogTransform(IVROverlay__SetOverlayDualAnalogTransform&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayDualAnalogTransform", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayDualAnalogTransform(IVROverlay__SetOverlayDualAnalogTransform && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayDualAnalogTransform", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayDualAnalogTransform(IVROverlay__SetOverlayDualAnalogTransform const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayDualAnalogTransform", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayDualAnalogTransform(IVROverlay__SetOverlayDualAnalogTransform const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8253 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8247};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayDualAnalogTransform
 class CORDL_TYPE IVROverlay__GetOverlayDualAnalogTransform : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8d3ec, size 0xf8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlay, ::OVR::OpenVR::EDualAnalogWhich  eWhich, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pvCenter, ::ByRef<float_t>  pfRadius, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cff3d4, size 0xf8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter, ::ByRef<float_t> pfRadius,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d4e4, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdVector2_t>  pvCenter, ::ByRef<float_t>  pfRadius, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff4cc, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter, ::ByRef<float_t> pfRadius, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8d3d8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlay, ::OVR::OpenVR::EDualAnalogWhich  eWhich, ::ByRef<::OVR::OpenVR::HmdVector2_t>  pvCenter, ::ByRef<float_t>  pfRadius) ;
+  /// @brief Method Invoke, addr 0x5cff3c0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter, ::ByRef<float_t> pfRadius);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d36c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff354, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayDualAnalogTransform() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayDualAnalogTransform();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayDualAnalogTransform", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayDualAnalogTransform(IVROverlay__GetOverlayDualAnalogTransform&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayDualAnalogTransform", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayDualAnalogTransform(IVROverlay__GetOverlayDualAnalogTransform && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayDualAnalogTransform", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayDualAnalogTransform(IVROverlay__GetOverlayDualAnalogTransform const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayDualAnalogTransform", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayDualAnalogTransform(IVROverlay__GetOverlayDualAnalogTransform const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8254 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8248};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayTexture
 class CORDL_TYPE IVROverlay__SetOverlayTexture : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8d594, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::Texture_t>  pTexture, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cff57c, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::Texture_t> pTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d63c, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::Texture_t>  pTexture, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff624, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::Texture_t> pTexture, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8d580, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::Texture_t>  pTexture) ;
+  /// @brief Method Invoke, addr 0x5cff568, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::Texture_t> pTexture);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayTexture* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d514, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff4fc, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayTexture() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayTexture();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexture", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayTexture(IVROverlay__SetOverlayTexture&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexture", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayTexture(IVROverlay__SetOverlayTexture && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexture", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayTexture(IVROverlay__SetOverlayTexture const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexture", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayTexture(IVROverlay__SetOverlayTexture const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8255 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8249};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayTexture, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ClearOverlayTexture
 class CORDL_TYPE IVROverlay__ClearOverlayTexture : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8d6e0, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cff6c8, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d734, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff71c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8d6cc, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5cff6b4, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__ClearOverlayTexture* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ClearOverlayTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d660, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff648, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ClearOverlayTexture() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ClearOverlayTexture();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ClearOverlayTexture", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ClearOverlayTexture(IVROverlay__ClearOverlayTexture&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ClearOverlayTexture", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ClearOverlayTexture(IVROverlay__ClearOverlayTexture && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ClearOverlayTexture", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ClearOverlayTexture(IVROverlay__ClearOverlayTexture const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ClearOverlayTexture", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ClearOverlayTexture(IVROverlay__ClearOverlayTexture const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8256 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8250};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ClearOverlayTexture, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayRaw
 class CORDL_TYPE IVROverlay__SetOverlayRaw : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8d7d8, size 0xbc, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::IntPtr  pvBuffer, uint32_t  unWidth, uint32_t  unHeight, uint32_t  unDepth, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cff7c0, size 0xbc, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unWidth, uint32_t unHeight, uint32_t unDepth, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d894, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff87c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8d7c4, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::System::IntPtr  pvBuffer, uint32_t  unWidth, uint32_t  unHeight, uint32_t  unDepth) ;
+  /// @brief Method Invoke, addr 0x5cff7ac, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unWidth, uint32_t unHeight, uint32_t unDepth);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayRaw* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayRaw* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d758, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff740, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayRaw() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayRaw();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRaw", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayRaw(IVROverlay__SetOverlayRaw&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRaw", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayRaw(IVROverlay__SetOverlayRaw && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRaw", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayRaw(IVROverlay__SetOverlayRaw const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRaw", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayRaw(IVROverlay__SetOverlayRaw const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8257 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8251};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayRaw, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayFromFile
 class CORDL_TYPE IVROverlay__SetOverlayFromFile : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8d938, size 0x60, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::StringW  pchFilePath, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cff920, size 0x60, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::StringW pchFilePath, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8d998, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cff980, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8d924, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::StringW  pchFilePath) ;
+  /// @brief Method Invoke, addr 0x5cff90c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::StringW pchFilePath);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayFromFile* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayFromFile* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d8b8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff8a0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayFromFile() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayFromFile();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFromFile", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayFromFile(IVROverlay__SetOverlayFromFile&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFromFile", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayFromFile(IVROverlay__SetOverlayFromFile && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFromFile", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayFromFile(IVROverlay__SetOverlayFromFile const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFromFile", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayFromFile(IVROverlay__SetOverlayFromFile const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8258 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8252};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayFromFile, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTexture
 class CORDL_TYPE IVROverlay__GetOverlayTexture : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8da48, size 0x18c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::System::IntPtr>  pNativeTextureHandle, ::System::IntPtr  pNativeTextureRef, ::ByRef<uint32_t>  pWidth, ::ByRef<uint32_t>  pHeight, ::ByRef<uint32_t>  pNativeFormat, ::ByRef<::OVR::OpenVR::ETextureType>  pAPIType, ::ByRef<::OVR::OpenVR::EColorSpace>  pColorSpace, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pTextureBounds, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cffa30, size 0x18c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::System::IntPtr> pNativeTextureHandle, ::System::IntPtr pNativeTextureRef, ::ByRef<uint32_t> pWidth,
+                                             ::ByRef<uint32_t> pHeight, ::ByRef<uint32_t> pNativeFormat, ::ByRef<::OVR::OpenVR::ETextureType> pAPIType, ::ByRef<::OVR::OpenVR::EColorSpace> pColorSpace,
+                                             ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8dbd4, size 0x38, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::System::IntPtr>  pNativeTextureHandle, ::ByRef<uint32_t>  pWidth, ::ByRef<uint32_t>  pHeight, ::ByRef<uint32_t>  pNativeFormat, ::ByRef<::OVR::OpenVR::ETextureType>  pAPIType, ::ByRef<::OVR::OpenVR::EColorSpace>  pColorSpace, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pTextureBounds, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cffbbc, size 0x38, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::System::IntPtr> pNativeTextureHandle, ::ByRef<uint32_t> pWidth, ::ByRef<uint32_t> pHeight, ::ByRef<uint32_t> pNativeFormat,
+                                                  ::ByRef<::OVR::OpenVR::ETextureType> pAPIType, ::ByRef<::OVR::OpenVR::EColorSpace> pColorSpace,
+                                                  ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8da28, size 0x20, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::System::IntPtr>  pNativeTextureHandle, ::System::IntPtr  pNativeTextureRef, ::ByRef<uint32_t>  pWidth, ::ByRef<uint32_t>  pHeight, ::ByRef<uint32_t>  pNativeFormat, ::ByRef<::OVR::OpenVR::ETextureType>  pAPIType, ::ByRef<::OVR::OpenVR::EColorSpace>  pColorSpace, ::ByRef<::OVR::OpenVR::VRTextureBounds_t>  pTextureBounds) ;
+  /// @brief Method Invoke, addr 0x5cffa10, size 0x20, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::System::IntPtr> pNativeTextureHandle, ::System::IntPtr pNativeTextureRef, ::ByRef<uint32_t> pWidth,
+                                               ::ByRef<uint32_t> pHeight, ::ByRef<uint32_t> pNativeFormat, ::ByRef<::OVR::OpenVR::ETextureType> pAPIType,
+                                               ::ByRef<::OVR::OpenVR::EColorSpace> pColorSpace, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTexture* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8d9bc, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cff9a4, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTexture() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTexture();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexture", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTexture(IVROverlay__GetOverlayTexture&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexture", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTexture(IVROverlay__GetOverlayTexture && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexture", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTexture(IVROverlay__GetOverlayTexture const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexture", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTexture(IVROverlay__GetOverlayTexture const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8259 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8253};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTexture, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ReleaseNativeOverlayHandle
 class CORDL_TYPE IVROverlay__ReleaseNativeOverlayHandle : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8dc8c, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::IntPtr  pNativeTextureHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cffc74, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::IntPtr pNativeTextureHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8dd04, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cffcec, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8dc78, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::System::IntPtr  pNativeTextureHandle) ;
+  /// @brief Method Invoke, addr 0x5cffc60, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::System::IntPtr pNativeTextureHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8dc0c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cffbf4, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ReleaseNativeOverlayHandle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ReleaseNativeOverlayHandle();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ReleaseNativeOverlayHandle", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ReleaseNativeOverlayHandle(IVROverlay__ReleaseNativeOverlayHandle&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ReleaseNativeOverlayHandle", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ReleaseNativeOverlayHandle(IVROverlay__ReleaseNativeOverlayHandle && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ReleaseNativeOverlayHandle", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ReleaseNativeOverlayHandle(IVROverlay__ReleaseNativeOverlayHandle const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ReleaseNativeOverlayHandle", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ReleaseNativeOverlayHandle(IVROverlay__ReleaseNativeOverlayHandle const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8260 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8254};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayTextureSize
 class CORDL_TYPE IVROverlay__GetOverlayTextureSize : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8dda8, size 0x98, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  pWidth, ::ByRef<uint32_t>  pHeight, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cffd90, size 0x98, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> pWidth, ::ByRef<uint32_t> pHeight, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8de40, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t>  pWidth, ::ByRef<uint32_t>  pHeight, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cffe28, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t> pWidth, ::ByRef<uint32_t> pHeight, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8dd94, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  pWidth, ::ByRef<uint32_t>  pHeight) ;
+  /// @brief Method Invoke, addr 0x5cffd7c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> pWidth, ::ByRef<uint32_t> pHeight);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8dd28, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cffd10, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayTextureSize() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayTextureSize();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureSize", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayTextureSize(IVROverlay__GetOverlayTextureSize&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureSize", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayTextureSize(IVROverlay__GetOverlayTextureSize && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureSize", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayTextureSize(IVROverlay__GetOverlayTextureSize const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureSize", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayTextureSize(IVROverlay__GetOverlayTextureSize const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8261 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8255};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayTextureSize, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_CreateDashboardOverlay
 class CORDL_TYPE IVROverlay__CreateDashboardOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8df04, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::StringW  pchOverlayKey, ::StringW  pchOverlayFriendlyName, ::ByRef<uint64_t>  pMainHandle, ::ByRef<uint64_t>  pThumbnailHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5cffeec, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ::ByRef<uint64_t> pMainHandle, ::ByRef<uint64_t> pThumbnailHandle,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8df7c, size 0x30, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t>  pMainHandle, ::ByRef<uint64_t>  pThumbnailHandle, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5cfff64, size 0x30, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint64_t> pMainHandle, ::ByRef<uint64_t> pThumbnailHandle, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8def0, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW  pchOverlayKey, ::StringW  pchOverlayFriendlyName, ::ByRef<uint64_t>  pMainHandle, ::ByRef<uint64_t>  pThumbnailHandle) ;
+  /// @brief Method Invoke, addr 0x5cffed8, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ::ByRef<uint64_t> pMainHandle, ::ByRef<uint64_t> pThumbnailHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8de70, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cffe58, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__CreateDashboardOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__CreateDashboardOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateDashboardOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__CreateDashboardOverlay(IVROverlay__CreateDashboardOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateDashboardOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__CreateDashboardOverlay(IVROverlay__CreateDashboardOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateDashboardOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__CreateDashboardOverlay(IVROverlay__CreateDashboardOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateDashboardOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__CreateDashboardOverlay(IVROverlay__CreateDashboardOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8262 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8256};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__CreateDashboardOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_IsDashboardVisible
 class CORDL_TYPE IVROverlay__IsDashboardVisible : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e028, size 0x1c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00010, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e044, size 0x24, virtual true, abstract: false, final false
-inline bool EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d0002c, size 0x24, virtual true, abstract: false, final false
+  inline bool EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e014, size 0x14, virtual true, abstract: false, final false
-inline bool Invoke() ;
+  /// @brief Method Invoke, addr 0x5cffffc, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke();
 
-static inline ::OVR::OpenVR::IVROverlay__IsDashboardVisible* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__IsDashboardVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8dfac, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5cfff94, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__IsDashboardVisible() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__IsDashboardVisible();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsDashboardVisible", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__IsDashboardVisible(IVROverlay__IsDashboardVisible&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsDashboardVisible", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__IsDashboardVisible(IVROverlay__IsDashboardVisible && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsDashboardVisible", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__IsDashboardVisible(IVROverlay__IsDashboardVisible const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsDashboardVisible", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__IsDashboardVisible(IVROverlay__IsDashboardVisible const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8263 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8257};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__IsDashboardVisible, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_IsActiveDashboardOverlay
 class CORDL_TYPE IVROverlay__IsActiveDashboardOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e0e8, size 0x54, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d000d0, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e13c, size 0x24, virtual true, abstract: false, final false
-inline bool EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00124, size 0x24, virtual true, abstract: false, final false
+  inline bool EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e0d4, size 0x14, virtual true, abstract: false, final false
-inline bool Invoke(uint64_t  ulOverlayHandle) ;
+  /// @brief Method Invoke, addr 0x5d000bc, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(uint64_t ulOverlayHandle);
 
-static inline ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e068, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00050, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__IsActiveDashboardOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__IsActiveDashboardOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsActiveDashboardOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__IsActiveDashboardOverlay(IVROverlay__IsActiveDashboardOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsActiveDashboardOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__IsActiveDashboardOverlay(IVROverlay__IsActiveDashboardOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsActiveDashboardOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__IsActiveDashboardOverlay(IVROverlay__IsActiveDashboardOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsActiveDashboardOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__IsActiveDashboardOverlay(IVROverlay__IsActiveDashboardOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8264 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8258};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetDashboardOverlaySceneProcess
 class CORDL_TYPE IVROverlay__SetDashboardOverlaySceneProcess : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e1e0, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, uint32_t  unProcessId, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d001c8, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unProcessId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e258, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00240, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e1cc, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, uint32_t  unProcessId) ;
+  /// @brief Method Invoke, addr 0x5d001b4, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unProcessId);
 
-static inline ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e160, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00148, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetDashboardOverlaySceneProcess() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetDashboardOverlaySceneProcess();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetDashboardOverlaySceneProcess", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetDashboardOverlaySceneProcess(IVROverlay__SetDashboardOverlaySceneProcess&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetDashboardOverlaySceneProcess", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetDashboardOverlaySceneProcess(IVROverlay__SetDashboardOverlaySceneProcess && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetDashboardOverlaySceneProcess", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetDashboardOverlaySceneProcess(IVROverlay__SetDashboardOverlaySceneProcess const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetDashboardOverlaySceneProcess", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetDashboardOverlaySceneProcess(IVROverlay__SetDashboardOverlaySceneProcess const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8265 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8259};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetDashboardOverlaySceneProcess
 class CORDL_TYPE IVROverlay__GetDashboardOverlaySceneProcess : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e2fc, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punProcessId, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d002e4, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punProcessId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e374, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t>  punProcessId, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d0035c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t> punProcessId, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e2e8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  punProcessId) ;
+  /// @brief Method Invoke, addr 0x5d002d0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punProcessId);
 
-static inline ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e27c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00264, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetDashboardOverlaySceneProcess() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetDashboardOverlaySceneProcess();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetDashboardOverlaySceneProcess", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetDashboardOverlaySceneProcess(IVROverlay__GetDashboardOverlaySceneProcess&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetDashboardOverlaySceneProcess", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetDashboardOverlaySceneProcess(IVROverlay__GetDashboardOverlaySceneProcess && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetDashboardOverlaySceneProcess", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetDashboardOverlaySceneProcess(IVROverlay__GetDashboardOverlaySceneProcess const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetDashboardOverlaySceneProcess", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetDashboardOverlaySceneProcess(IVROverlay__GetDashboardOverlaySceneProcess const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8266 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8260};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ShowDashboard
 class CORDL_TYPE IVROverlay__ShowDashboard : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e428, size 0x20, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::StringW  pchOverlayToShow, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00410, size 0x20, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayToShow, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e448, size 0xc, virtual true, abstract: false, final false
-inline void EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00430, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e414, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::StringW  pchOverlayToShow) ;
+  /// @brief Method Invoke, addr 0x5d003fc, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::StringW pchOverlayToShow);
 
-static inline ::OVR::OpenVR::IVROverlay__ShowDashboard* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ShowDashboard* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e398, size 0x7c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00380, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ShowDashboard() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ShowDashboard();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowDashboard", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ShowDashboard(IVROverlay__ShowDashboard&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowDashboard", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ShowDashboard(IVROverlay__ShowDashboard && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowDashboard", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ShowDashboard(IVROverlay__ShowDashboard const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowDashboard", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ShowDashboard(IVROverlay__ShowDashboard const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8267 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8261};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ShowDashboard, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetPrimaryDashboardDevice
 class CORDL_TYPE IVROverlay__GetPrimaryDashboardDevice : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e4d0, size 0x1c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d004b8, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e4ec, size 0x24, virtual true, abstract: false, final false
-inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d004d4, size 0x24, virtual true, abstract: false, final false
+  inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e4bc, size 0x14, virtual true, abstract: false, final false
-inline uint32_t Invoke() ;
+  /// @brief Method Invoke, addr 0x5d004a4, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke();
 
-static inline ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e454, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d0043c, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetPrimaryDashboardDevice() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetPrimaryDashboardDevice();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetPrimaryDashboardDevice", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetPrimaryDashboardDevice(IVROverlay__GetPrimaryDashboardDevice&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetPrimaryDashboardDevice", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetPrimaryDashboardDevice(IVROverlay__GetPrimaryDashboardDevice && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetPrimaryDashboardDevice", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetPrimaryDashboardDevice(IVROverlay__GetPrimaryDashboardDevice const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetPrimaryDashboardDevice", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetPrimaryDashboardDevice(IVROverlay__GetPrimaryDashboardDevice const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8268 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8262};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ShowKeyboard
 class CORDL_TYPE IVROverlay__ShowKeyboard : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e594, size 0xc8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(int32_t  eInputMode, int32_t  eLineInputMode, ::StringW  pchDescription, uint32_t  unCharMax, ::StringW  pchExistingText, bool  bUseMinimalMode, uint64_t  uUserValue, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d0057c, size 0xc8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText, bool bUseMinimalMode,
+                                             uint64_t uUserValue, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e65c, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00644, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e57c, size 0x18, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(int32_t  eInputMode, int32_t  eLineInputMode, ::StringW  pchDescription, uint32_t  unCharMax, ::StringW  pchExistingText, bool  bUseMinimalMode, uint64_t  uUserValue) ;
+  /// @brief Method Invoke, addr 0x5d00564, size 0x18, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText, bool bUseMinimalMode,
+                                               uint64_t uUserValue);
 
-static inline ::OVR::OpenVR::IVROverlay__ShowKeyboard* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ShowKeyboard* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e510, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d004f8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ShowKeyboard() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ShowKeyboard();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboard", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ShowKeyboard(IVROverlay__ShowKeyboard&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboard", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ShowKeyboard(IVROverlay__ShowKeyboard && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboard", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ShowKeyboard(IVROverlay__ShowKeyboard const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboard", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ShowKeyboard(IVROverlay__ShowKeyboard const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8269 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8263};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ShowKeyboard, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ShowKeyboardForOverlay
 class CORDL_TYPE IVROverlay__ShowKeyboardForOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e708, size 0xdc, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, int32_t  eInputMode, int32_t  eLineInputMode, ::StringW  pchDescription, uint32_t  unCharMax, ::StringW  pchExistingText, bool  bUseMinimalMode, uint64_t  uUserValue, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d006f0, size 0xdc, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText,
+                                             bool bUseMinimalMode, uint64_t uUserValue, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e7e4, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d007cc, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e6ec, size 0x1c, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, int32_t  eInputMode, int32_t  eLineInputMode, ::StringW  pchDescription, uint32_t  unCharMax, ::StringW  pchExistingText, bool  bUseMinimalMode, uint64_t  uUserValue) ;
+  /// @brief Method Invoke, addr 0x5d006d4, size 0x1c, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText,
+                                               bool bUseMinimalMode, uint64_t uUserValue);
 
-static inline ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e680, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00668, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ShowKeyboardForOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ShowKeyboardForOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboardForOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ShowKeyboardForOverlay(IVROverlay__ShowKeyboardForOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboardForOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ShowKeyboardForOverlay(IVROverlay__ShowKeyboardForOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboardForOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ShowKeyboardForOverlay(IVROverlay__ShowKeyboardForOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboardForOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ShowKeyboardForOverlay(IVROverlay__ShowKeyboardForOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8270 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8264};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetKeyboardText
 class CORDL_TYPE IVROverlay__GetKeyboardText : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e89c, size 0x5c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder*  pchText, uint32_t  cchText, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00884, size 0x5c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pchText, uint32_t cchText, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e8f8, size 0x24, virtual true, abstract: false, final false
-inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d008e0, size 0x24, virtual true, abstract: false, final false
+  inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e888, size 0x14, virtual true, abstract: false, final false
-inline uint32_t Invoke(::System::Text::StringBuilder*  pchText, uint32_t  cchText) ;
+  /// @brief Method Invoke, addr 0x5d00870, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke(::System::Text::StringBuilder* pchText, uint32_t cchText);
 
-static inline ::OVR::OpenVR::IVROverlay__GetKeyboardText* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetKeyboardText* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e808, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d007f0, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetKeyboardText() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetKeyboardText();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetKeyboardText", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetKeyboardText(IVROverlay__GetKeyboardText&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetKeyboardText", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetKeyboardText(IVROverlay__GetKeyboardText && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetKeyboardText", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetKeyboardText(IVROverlay__GetKeyboardText const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetKeyboardText", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetKeyboardText(IVROverlay__GetKeyboardText const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8271 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8265};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetKeyboardText, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_HideKeyboard
 class CORDL_TYPE IVROverlay__HideKeyboard : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8e998, size 0x1c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00980, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8e9b4, size 0xc, virtual true, abstract: false, final false
-inline void EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d0099c, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8e984, size 0x14, virtual true, abstract: false, final false
-inline void Invoke() ;
+  /// @brief Method Invoke, addr 0x5d0096c, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke();
 
-static inline ::OVR::OpenVR::IVROverlay__HideKeyboard* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__HideKeyboard* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e91c, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00904, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__HideKeyboard() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__HideKeyboard();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideKeyboard", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__HideKeyboard(IVROverlay__HideKeyboard&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideKeyboard", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__HideKeyboard(IVROverlay__HideKeyboard && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideKeyboard", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__HideKeyboard(IVROverlay__HideKeyboard const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideKeyboard", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__HideKeyboard(IVROverlay__HideKeyboard const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8272 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8266};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__HideKeyboard, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetKeyboardTransformAbsolute
 class CORDL_TYPE IVROverlay__SetKeyboardTransformAbsolute : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ea40, size 0xc0, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin  eTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToKeyboardTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00a28, size 0xc0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8eb00, size 0x18, virtual true, abstract: false, final false
-inline void EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToKeyboardTransform, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00ae8, size 0x18, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ea2c, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::OVR::OpenVR::ETrackingUniverseOrigin  eTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatTrackingOriginToKeyboardTransform) ;
+  /// @brief Method Invoke, addr 0x5d00a14, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform);
 
-static inline ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8e9c0, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d009a8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetKeyboardTransformAbsolute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetKeyboardTransformAbsolute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardTransformAbsolute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetKeyboardTransformAbsolute(IVROverlay__SetKeyboardTransformAbsolute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardTransformAbsolute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetKeyboardTransformAbsolute(IVROverlay__SetKeyboardTransformAbsolute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardTransformAbsolute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetKeyboardTransformAbsolute(IVROverlay__SetKeyboardTransformAbsolute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardTransformAbsolute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetKeyboardTransformAbsolute(IVROverlay__SetKeyboardTransformAbsolute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8273 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8267};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetKeyboardPositionForOverlay
 class CORDL_TYPE IVROverlay__SetKeyboardPositionForOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8eb98, size 0xa8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t  avoidRect, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00b80, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t avoidRect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8ec40, size 0xc, virtual true, abstract: false, final false
-inline void EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00c28, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8eb84, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(uint64_t  ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t  avoidRect) ;
+  /// @brief Method Invoke, addr 0x5d00b6c, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t avoidRect);
 
-static inline ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8eb18, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00b00, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetKeyboardPositionForOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetKeyboardPositionForOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardPositionForOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetKeyboardPositionForOverlay(IVROverlay__SetKeyboardPositionForOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardPositionForOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetKeyboardPositionForOverlay(IVROverlay__SetKeyboardPositionForOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardPositionForOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetKeyboardPositionForOverlay(IVROverlay__SetKeyboardPositionForOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardPositionForOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetKeyboardPositionForOverlay(IVROverlay__SetKeyboardPositionForOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8274 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8268};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_SetOverlayIntersectionMask
 class CORDL_TYPE IVROverlay__SetOverlayIntersectionMask : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8eccc, size 0xd8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t>  pMaskPrimitives, uint32_t  unNumMaskPrimitives, uint32_t  unPrimitiveSize, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00cb4, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint32_t unNumMaskPrimitives,
+                                             uint32_t unPrimitiveSize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8eda4, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t>  pMaskPrimitives, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00d8c, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ecb8, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t>  pMaskPrimitives, uint32_t  unNumMaskPrimitives, uint32_t  unPrimitiveSize) ;
+  /// @brief Method Invoke, addr 0x5d00ca0, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint32_t unNumMaskPrimitives,
+                                               uint32_t unPrimitiveSize);
 
-static inline ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8ec4c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00c34, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__SetOverlayIntersectionMask() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__SetOverlayIntersectionMask();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayIntersectionMask", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__SetOverlayIntersectionMask(IVROverlay__SetOverlayIntersectionMask&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayIntersectionMask", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__SetOverlayIntersectionMask(IVROverlay__SetOverlayIntersectionMask && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayIntersectionMask", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__SetOverlayIntersectionMask(IVROverlay__SetOverlayIntersectionMask const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayIntersectionMask", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__SetOverlayIntersectionMask(IVROverlay__SetOverlayIntersectionMask const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8275 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8269};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_GetOverlayFlags
 class CORDL_TYPE IVROverlay__GetOverlayFlags : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ee48, size 0x78, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  pFlags, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00e30, size 0x78, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> pFlags, ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8eec0, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t>  pFlags, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00ea8, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError EndInvoke(::ByRef<uint32_t> pFlags, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ee34, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t  ulOverlayHandle, ::ByRef<uint32_t>  pFlags) ;
+  /// @brief Method Invoke, addr 0x5d00e1c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::ByRef<uint32_t> pFlags);
 
-static inline ::OVR::OpenVR::IVROverlay__GetOverlayFlags* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__GetOverlayFlags* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8edc8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00db0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__GetOverlayFlags() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__GetOverlayFlags();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlags", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__GetOverlayFlags(IVROverlay__GetOverlayFlags&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlags", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__GetOverlayFlags(IVROverlay__GetOverlayFlags && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlags", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__GetOverlayFlags(IVROverlay__GetOverlayFlags const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlags", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__GetOverlayFlags(IVROverlay__GetOverlayFlags const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8276 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8270};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__GetOverlayFlags, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_ShowMessageOverlay
 class CORDL_TYPE IVROverlay__ShowMessageOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8ef78, size 0x30, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::StringW  pchText, ::StringW  pchCaption, ::StringW  pchButton0Text, ::StringW  pchButton1Text, ::StringW  pchButton2Text, ::StringW  pchButton3Text, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d00f60, size 0x30, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text, ::StringW pchButton3Text,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8efa8, size 0x24, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::VRMessageOverlayResponse EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d00f90, size 0x24, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::VRMessageOverlayResponse EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8ef64, size 0x14, virtual true, abstract: false, final false
-inline ::OVR::OpenVR::VRMessageOverlayResponse Invoke(::StringW  pchText, ::StringW  pchCaption, ::StringW  pchButton0Text, ::StringW  pchButton1Text, ::StringW  pchButton2Text, ::StringW  pchButton3Text) ;
+  /// @brief Method Invoke, addr 0x5d00f4c, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::VRMessageOverlayResponse Invoke(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text,
+                                                        ::StringW pchButton3Text);
 
-static inline ::OVR::OpenVR::IVROverlay__ShowMessageOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__ShowMessageOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8eee4, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00ecc, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__ShowMessageOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__ShowMessageOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowMessageOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__ShowMessageOverlay(IVROverlay__ShowMessageOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowMessageOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__ShowMessageOverlay(IVROverlay__ShowMessageOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowMessageOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__ShowMessageOverlay(IVROverlay__ShowMessageOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowMessageOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__ShowMessageOverlay(IVROverlay__ShowMessageOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8277 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8271};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__ShowMessageOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVROverlay/_CloseMessageOverlay
 class CORDL_TYPE IVROverlay__CloseMessageOverlay : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x5c8f048, size 0x1c, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x5d01030, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x5c8f064, size 0xc, virtual true, abstract: false, final false
-inline void EndInvoke(::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x5d0104c, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x5c8f034, size 0x14, virtual true, abstract: false, final false
-inline void Invoke() ;
+  /// @brief Method Invoke, addr 0x5d0101c, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke();
 
-static inline ::OVR::OpenVR::IVROverlay__CloseMessageOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::OVR::OpenVR::IVROverlay__CloseMessageOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5c8efcc, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5d00fb4, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay__CloseMessageOverlay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay__CloseMessageOverlay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CloseMessageOverlay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IVROverlay__CloseMessageOverlay(IVROverlay__CloseMessageOverlay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CloseMessageOverlay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IVROverlay__CloseMessageOverlay(IVROverlay__CloseMessageOverlay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CloseMessageOverlay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IVROverlay__CloseMessageOverlay(IVROverlay__CloseMessageOverlay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CloseMessageOverlay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IVROverlay__CloseMessageOverlay(IVROverlay__CloseMessageOverlay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8278 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8272};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay__CloseMessageOverlay, 0x80>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
-// Dependencies 
+} // namespace OVR::OpenVR
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: OVR.OpenVR.IVROverlay
 struct CORDL_TYPE IVROverlay {
 public:
-// Declarations
-using _ClearOverlayTexture = ::OVR::OpenVR::IVROverlay__ClearOverlayTexture;
+  // Declarations
+  using _ClearOverlayTexture = ::OVR::OpenVR::IVROverlay__ClearOverlayTexture;
 
-using _CloseMessageOverlay = ::OVR::OpenVR::IVROverlay__CloseMessageOverlay;
+  using _CloseMessageOverlay = ::OVR::OpenVR::IVROverlay__CloseMessageOverlay;
 
-using _ComputeOverlayIntersection = ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection;
+  using _ComputeOverlayIntersection = ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection;
 
-using _CreateDashboardOverlay = ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay;
+  using _CreateDashboardOverlay = ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay;
 
-using _CreateOverlay = ::OVR::OpenVR::IVROverlay__CreateOverlay;
+  using _CreateOverlay = ::OVR::OpenVR::IVROverlay__CreateOverlay;
 
-using _DestroyOverlay = ::OVR::OpenVR::IVROverlay__DestroyOverlay;
+  using _DestroyOverlay = ::OVR::OpenVR::IVROverlay__DestroyOverlay;
 
-using _FindOverlay = ::OVR::OpenVR::IVROverlay__FindOverlay;
+  using _FindOverlay = ::OVR::OpenVR::IVROverlay__FindOverlay;
 
-using _GetDashboardOverlaySceneProcess = ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess;
+  using _GetDashboardOverlaySceneProcess = ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess;
 
-using _GetGamepadFocusOverlay = ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay;
+  using _GetGamepadFocusOverlay = ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay;
 
-using _GetHighQualityOverlay = ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay;
+  using _GetHighQualityOverlay = ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay;
 
-using _GetKeyboardText = ::OVR::OpenVR::IVROverlay__GetKeyboardText;
+  using _GetKeyboardText = ::OVR::OpenVR::IVROverlay__GetKeyboardText;
 
-using _GetOverlayAlpha = ::OVR::OpenVR::IVROverlay__GetOverlayAlpha;
+  using _GetOverlayAlpha = ::OVR::OpenVR::IVROverlay__GetOverlayAlpha;
 
-using _GetOverlayAutoCurveDistanceRangeInMeters = ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters;
+  using _GetOverlayAutoCurveDistanceRangeInMeters = ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters;
 
-using _GetOverlayColor = ::OVR::OpenVR::IVROverlay__GetOverlayColor;
+  using _GetOverlayColor = ::OVR::OpenVR::IVROverlay__GetOverlayColor;
 
-using _GetOverlayDualAnalogTransform = ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform;
+  using _GetOverlayDualAnalogTransform = ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform;
 
-using _GetOverlayErrorNameFromEnum = ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum;
+  using _GetOverlayErrorNameFromEnum = ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum;
 
-using _GetOverlayFlag = ::OVR::OpenVR::IVROverlay__GetOverlayFlag;
+  using _GetOverlayFlag = ::OVR::OpenVR::IVROverlay__GetOverlayFlag;
 
-using _GetOverlayFlags = ::OVR::OpenVR::IVROverlay__GetOverlayFlags;
+  using _GetOverlayFlags = ::OVR::OpenVR::IVROverlay__GetOverlayFlags;
 
-using _GetOverlayImageData = ::OVR::OpenVR::IVROverlay__GetOverlayImageData;
+  using _GetOverlayImageData = ::OVR::OpenVR::IVROverlay__GetOverlayImageData;
 
-using _GetOverlayInputMethod = ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod;
+  using _GetOverlayInputMethod = ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod;
 
-using _GetOverlayKey = ::OVR::OpenVR::IVROverlay__GetOverlayKey;
+  using _GetOverlayKey = ::OVR::OpenVR::IVROverlay__GetOverlayKey;
 
-using _GetOverlayMouseScale = ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale;
+  using _GetOverlayMouseScale = ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale;
 
-using _GetOverlayName = ::OVR::OpenVR::IVROverlay__GetOverlayName;
+  using _GetOverlayName = ::OVR::OpenVR::IVROverlay__GetOverlayName;
 
-using _GetOverlayRenderModel = ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel;
+  using _GetOverlayRenderModel = ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel;
 
-using _GetOverlayRenderingPid = ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid;
+  using _GetOverlayRenderingPid = ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid;
 
-using _GetOverlaySortOrder = ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder;
+  using _GetOverlaySortOrder = ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder;
 
-using _GetOverlayTexelAspect = ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect;
+  using _GetOverlayTexelAspect = ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect;
 
-using _GetOverlayTexture = ::OVR::OpenVR::IVROverlay__GetOverlayTexture;
+  using _GetOverlayTexture = ::OVR::OpenVR::IVROverlay__GetOverlayTexture;
 
-using _GetOverlayTextureBounds = ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds;
+  using _GetOverlayTextureBounds = ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds;
 
-using _GetOverlayTextureColorSpace = ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace;
+  using _GetOverlayTextureColorSpace = ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace;
 
-using _GetOverlayTextureSize = ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize;
+  using _GetOverlayTextureSize = ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize;
 
-using _GetOverlayTransformAbsolute = ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute;
+  using _GetOverlayTransformAbsolute = ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute;
 
-using _GetOverlayTransformOverlayRelative = ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative;
+  using _GetOverlayTransformOverlayRelative = ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative;
 
-using _GetOverlayTransformTrackedDeviceComponent = ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent;
+  using _GetOverlayTransformTrackedDeviceComponent = ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent;
 
-using _GetOverlayTransformTrackedDeviceRelative = ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative;
+  using _GetOverlayTransformTrackedDeviceRelative = ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative;
 
-using _GetOverlayTransformType = ::OVR::OpenVR::IVROverlay__GetOverlayTransformType;
+  using _GetOverlayTransformType = ::OVR::OpenVR::IVROverlay__GetOverlayTransformType;
 
-using _GetOverlayWidthInMeters = ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters;
+  using _GetOverlayWidthInMeters = ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters;
 
-using _GetPrimaryDashboardDevice = ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice;
+  using _GetPrimaryDashboardDevice = ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice;
 
-using _GetTransformForOverlayCoordinates = ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates;
+  using _GetTransformForOverlayCoordinates = ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates;
 
-using _HideKeyboard = ::OVR::OpenVR::IVROverlay__HideKeyboard;
+  using _HideKeyboard = ::OVR::OpenVR::IVROverlay__HideKeyboard;
 
-using _HideOverlay = ::OVR::OpenVR::IVROverlay__HideOverlay;
+  using _HideOverlay = ::OVR::OpenVR::IVROverlay__HideOverlay;
 
-using _IsActiveDashboardOverlay = ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay;
+  using _IsActiveDashboardOverlay = ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay;
 
-using _IsDashboardVisible = ::OVR::OpenVR::IVROverlay__IsDashboardVisible;
+  using _IsDashboardVisible = ::OVR::OpenVR::IVROverlay__IsDashboardVisible;
 
-using _IsHoverTargetOverlay = ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay;
+  using _IsHoverTargetOverlay = ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay;
 
-using _IsOverlayVisible = ::OVR::OpenVR::IVROverlay__IsOverlayVisible;
+  using _IsOverlayVisible = ::OVR::OpenVR::IVROverlay__IsOverlayVisible;
 
-using _MoveGamepadFocusToNeighbor = ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor;
+  using _MoveGamepadFocusToNeighbor = ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor;
 
-using _PollNextOverlayEvent = ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent;
+  using _PollNextOverlayEvent = ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent;
 
-using _ReleaseNativeOverlayHandle = ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle;
+  using _ReleaseNativeOverlayHandle = ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle;
 
-using _SetDashboardOverlaySceneProcess = ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess;
+  using _SetDashboardOverlaySceneProcess = ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess;
 
-using _SetGamepadFocusOverlay = ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay;
+  using _SetGamepadFocusOverlay = ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay;
 
-using _SetHighQualityOverlay = ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay;
+  using _SetHighQualityOverlay = ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay;
 
-using _SetKeyboardPositionForOverlay = ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay;
+  using _SetKeyboardPositionForOverlay = ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay;
 
-using _SetKeyboardTransformAbsolute = ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute;
+  using _SetKeyboardTransformAbsolute = ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute;
 
-using _SetOverlayAlpha = ::OVR::OpenVR::IVROverlay__SetOverlayAlpha;
+  using _SetOverlayAlpha = ::OVR::OpenVR::IVROverlay__SetOverlayAlpha;
 
-using _SetOverlayAutoCurveDistanceRangeInMeters = ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters;
+  using _SetOverlayAutoCurveDistanceRangeInMeters = ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters;
 
-using _SetOverlayColor = ::OVR::OpenVR::IVROverlay__SetOverlayColor;
+  using _SetOverlayColor = ::OVR::OpenVR::IVROverlay__SetOverlayColor;
 
-using _SetOverlayDualAnalogTransform = ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform;
+  using _SetOverlayDualAnalogTransform = ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform;
 
-using _SetOverlayFlag = ::OVR::OpenVR::IVROverlay__SetOverlayFlag;
+  using _SetOverlayFlag = ::OVR::OpenVR::IVROverlay__SetOverlayFlag;
 
-using _SetOverlayFromFile = ::OVR::OpenVR::IVROverlay__SetOverlayFromFile;
+  using _SetOverlayFromFile = ::OVR::OpenVR::IVROverlay__SetOverlayFromFile;
 
-using _SetOverlayInputMethod = ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod;
+  using _SetOverlayInputMethod = ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod;
 
-using _SetOverlayIntersectionMask = ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask;
+  using _SetOverlayIntersectionMask = ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask;
 
-using _SetOverlayMouseScale = ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale;
+  using _SetOverlayMouseScale = ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale;
 
-using _SetOverlayName = ::OVR::OpenVR::IVROverlay__SetOverlayName;
+  using _SetOverlayName = ::OVR::OpenVR::IVROverlay__SetOverlayName;
 
-using _SetOverlayNeighbor = ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor;
+  using _SetOverlayNeighbor = ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor;
 
-using _SetOverlayRaw = ::OVR::OpenVR::IVROverlay__SetOverlayRaw;
+  using _SetOverlayRaw = ::OVR::OpenVR::IVROverlay__SetOverlayRaw;
 
-using _SetOverlayRenderModel = ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel;
+  using _SetOverlayRenderModel = ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel;
 
-using _SetOverlayRenderingPid = ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid;
+  using _SetOverlayRenderingPid = ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid;
 
-using _SetOverlaySortOrder = ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder;
+  using _SetOverlaySortOrder = ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder;
 
-using _SetOverlayTexelAspect = ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect;
+  using _SetOverlayTexelAspect = ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect;
+
+  using _SetOverlayTexture = ::OVR::OpenVR::IVROverlay__SetOverlayTexture;
+
+  using _SetOverlayTextureBounds = ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds;
+
+  using _SetOverlayTextureColorSpace = ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace;
+
+  using _SetOverlayTransformAbsolute = ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute;
+
+  using _SetOverlayTransformOverlayRelative = ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative;
+
+  using _SetOverlayTransformTrackedDeviceComponent = ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent;
+
+  using _SetOverlayTransformTrackedDeviceRelative = ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative;
+
+  using _SetOverlayWidthInMeters = ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters;
+
+  using _ShowDashboard = ::OVR::OpenVR::IVROverlay__ShowDashboard;
+
+  using _ShowKeyboard = ::OVR::OpenVR::IVROverlay__ShowKeyboard;
+
+  using _ShowKeyboardForOverlay = ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay;
+
+  using _ShowMessageOverlay = ::OVR::OpenVR::IVROverlay__ShowMessageOverlay;
+
+  using _ShowOverlay = ::OVR::OpenVR::IVROverlay__ShowOverlay;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IVROverlay();
+
+  // Ctor Parameters [CppParam { name: "FindOverlay", ty: "::OVR::OpenVR::IVROverlay__FindOverlay*", modifiers: "", def_value: None }, CppParam { name: "CreateOverlay", ty:
+  // "::OVR::OpenVR::IVROverlay__CreateOverlay*", modifiers: "", def_value: None }, CppParam { name: "DestroyOverlay", ty: "::OVR::OpenVR::IVROverlay__DestroyOverlay*", modifiers: "", def_value: None
+  // }, CppParam { name: "SetHighQualityOverlay", ty: "::OVR::OpenVR::IVROverlay__SetHighQualityOverlay*", modifiers: "", def_value: None }, CppParam { name: "GetHighQualityOverlay", ty:
+  // "::OVR::OpenVR::IVROverlay__GetHighQualityOverlay*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayKey", ty: "::OVR::OpenVR::IVROverlay__GetOverlayKey*", modifiers: "", def_value:
+  // None }, CppParam { name: "GetOverlayName", ty: "::OVR::OpenVR::IVROverlay__GetOverlayName*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayName", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayName*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayImageData", ty: "::OVR::OpenVR::IVROverlay__GetOverlayImageData*", modifiers: "",
+  // def_value: None }, CppParam { name: "GetOverlayErrorNameFromEnum", ty: "::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name:
+  // "SetOverlayRenderingPid", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayRenderingPid", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__SetOverlayFlag*", modifiers: "",
+  // def_value: None }, CppParam { name: "GetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__GetOverlayFlag*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayColor", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayColor*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayColor", ty: "::OVR::OpenVR::IVROverlay__GetOverlayColor*", modifiers: "", def_value:
+  // None }, CppParam { name: "SetOverlayAlpha", ty: "::OVR::OpenVR::IVROverlay__SetOverlayAlpha*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayAlpha", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayAlpha*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTexelAspect", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect*", modifiers: "",
+  // def_value: None }, CppParam { name: "GetOverlayTexelAspect", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect*", modifiers: "", def_value: None }, CppParam { name: "SetOverlaySortOrder", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlaySortOrder*", modifiers: "", def_value: None }, CppParam { name: "GetOverlaySortOrder", ty: "::OVR::OpenVR::IVROverlay__GetOverlaySortOrder*", modifiers: "",
+  // def_value: None }, CppParam { name: "SetOverlayWidthInMeters", ty: "::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters*", modifiers: "", def_value: None }, CppParam { name:
+  // "GetOverlayWidthInMeters", ty: "::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayAutoCurveDistanceRangeInMeters", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayAutoCurveDistanceRangeInMeters", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTextureColorSpace", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTextureColorSpace", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTextureBounds", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds*",
+  // modifiers: "", def_value: None }, CppParam { name: "GetOverlayTextureBounds", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds*", modifiers: "", def_value: None }, CppParam { name:
+  // "GetOverlayRenderModel", ty: "::OVR::OpenVR::IVROverlay__GetOverlayRenderModel*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayRenderModel", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayRenderModel*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformType", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTransformType*",
+  // modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformAbsolute", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute*", modifiers: "", def_value: None }, CppParam { name:
+  // "GetOverlayTransformAbsolute", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformTrackedDeviceRelative", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformTrackedDeviceRelative", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformTrackedDeviceComponent", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformTrackedDeviceComponent", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformOverlayRelative", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformOverlayRelative", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative*", modifiers: "", def_value: None }, CppParam { name: "ShowOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowOverlay*", modifiers: "",
+  // def_value: None }, CppParam { name: "HideOverlay", ty: "::OVR::OpenVR::IVROverlay__HideOverlay*", modifiers: "", def_value: None }, CppParam { name: "IsOverlayVisible", ty:
+  // "::OVR::OpenVR::IVROverlay__IsOverlayVisible*", modifiers: "", def_value: None }, CppParam { name: "GetTransformForOverlayCoordinates", ty:
+  // "::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates*", modifiers: "", def_value: None }, CppParam { name: "PollNextOverlayEvent", ty: "::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*",
+  // modifiers: "", def_value: None }, CppParam { name: "GetOverlayInputMethod", ty: "::OVR::OpenVR::IVROverlay__GetOverlayInputMethod*", modifiers: "", def_value: None }, CppParam { name:
+  // "SetOverlayInputMethod", ty: "::OVR::OpenVR::IVROverlay__SetOverlayInputMethod*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayMouseScale", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayMouseScale*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayMouseScale", ty: "::OVR::OpenVR::IVROverlay__SetOverlayMouseScale*", modifiers:
+  // "", def_value: None }, CppParam { name: "ComputeOverlayIntersection", ty: "::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection*", modifiers: "", def_value: None }, CppParam { name:
+  // "IsHoverTargetOverlay", ty: "::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay*", modifiers: "", def_value: None }, CppParam { name: "GetGamepadFocusOverlay", ty:
+  // "::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay*", modifiers: "", def_value: None }, CppParam { name: "SetGamepadFocusOverlay", ty: "::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay*",
+  // modifiers: "", def_value: None }, CppParam { name: "SetOverlayNeighbor", ty: "::OVR::OpenVR::IVROverlay__SetOverlayNeighbor*", modifiers: "", def_value: None }, CppParam { name:
+  // "MoveGamepadFocusToNeighbor", ty: "::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayDualAnalogTransform", ty:
+  // "::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayDualAnalogTransform", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTexture*",
+  // modifiers: "", def_value: None }, CppParam { name: "ClearOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__ClearOverlayTexture*", modifiers: "", def_value: None }, CppParam { name:
+  // "SetOverlayRaw", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRaw*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayFromFile", ty: "::OVR::OpenVR::IVROverlay__SetOverlayFromFile*",
+  // modifiers: "", def_value: None }, CppParam { name: "GetOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexture*", modifiers: "", def_value: None }, CppParam { name:
+  // "ReleaseNativeOverlayHandle", ty: "::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTextureSize", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayTextureSize*", modifiers: "", def_value: None }, CppParam { name: "CreateDashboardOverlay", ty: "::OVR::OpenVR::IVROverlay__CreateDashboardOverlay*",
+  // modifiers: "", def_value: None }, CppParam { name: "IsDashboardVisible", ty: "::OVR::OpenVR::IVROverlay__IsDashboardVisible*", modifiers: "", def_value: None }, CppParam { name:
+  // "IsActiveDashboardOverlay", ty: "::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay*", modifiers: "", def_value: None }, CppParam { name: "SetDashboardOverlaySceneProcess", ty:
+  // "::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess*", modifiers: "", def_value: None }, CppParam { name: "GetDashboardOverlaySceneProcess", ty:
+  // "::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess*", modifiers: "", def_value: None }, CppParam { name: "ShowDashboard", ty: "::OVR::OpenVR::IVROverlay__ShowDashboard*", modifiers: "",
+  // def_value: None }, CppParam { name: "GetPrimaryDashboardDevice", ty: "::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice*", modifiers: "", def_value: None }, CppParam { name: "ShowKeyboard",
+  // ty: "::OVR::OpenVR::IVROverlay__ShowKeyboard*", modifiers: "", def_value: None }, CppParam { name: "ShowKeyboardForOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay*", modifiers:
+  // "", def_value: None }, CppParam { name: "GetKeyboardText", ty: "::OVR::OpenVR::IVROverlay__GetKeyboardText*", modifiers: "", def_value: None }, CppParam { name: "HideKeyboard", ty:
+  // "::OVR::OpenVR::IVROverlay__HideKeyboard*", modifiers: "", def_value: None }, CppParam { name: "SetKeyboardTransformAbsolute", ty: "::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute*",
+  // modifiers: "", def_value: None }, CppParam { name: "SetKeyboardPositionForOverlay", ty: "::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay*", modifiers: "", def_value: None }, CppParam {
+  // name: "SetOverlayIntersectionMask", ty: "::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayFlags", ty:
+  // "::OVR::OpenVR::IVROverlay__GetOverlayFlags*", modifiers: "", def_value: None }, CppParam { name: "ShowMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowMessageOverlay*", modifiers: "",
+  // def_value: None }, CppParam { name: "CloseMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__CloseMessageOverlay*", modifiers: "", def_value: None }]
+  constexpr IVROverlay(::OVR::OpenVR::IVROverlay__FindOverlay* FindOverlay, ::OVR::OpenVR::IVROverlay__CreateOverlay* CreateOverlay, ::OVR::OpenVR::IVROverlay__DestroyOverlay* DestroyOverlay,
+                       ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay* SetHighQualityOverlay, ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay* GetHighQualityOverlay,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayKey* GetOverlayKey, ::OVR::OpenVR::IVROverlay__GetOverlayName* GetOverlayName, ::OVR::OpenVR::IVROverlay__SetOverlayName* SetOverlayName,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayImageData* GetOverlayImageData, ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum* GetOverlayErrorNameFromEnum,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid* SetOverlayRenderingPid, ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid* GetOverlayRenderingPid,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayFlag* SetOverlayFlag, ::OVR::OpenVR::IVROverlay__GetOverlayFlag* GetOverlayFlag,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayColor* SetOverlayColor, ::OVR::OpenVR::IVROverlay__GetOverlayColor* GetOverlayColor,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayAlpha* SetOverlayAlpha, ::OVR::OpenVR::IVROverlay__GetOverlayAlpha* GetOverlayAlpha,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect* SetOverlayTexelAspect, ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect* GetOverlayTexelAspect,
+                       ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder* SetOverlaySortOrder, ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder* GetOverlaySortOrder,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters* SetOverlayWidthInMeters, ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters* GetOverlayWidthInMeters,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters* SetOverlayAutoCurveDistanceRangeInMeters,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters* GetOverlayAutoCurveDistanceRangeInMeters,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace* SetOverlayTextureColorSpace, ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace* GetOverlayTextureColorSpace,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds* SetOverlayTextureBounds, ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds* GetOverlayTextureBounds,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel* GetOverlayRenderModel, ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel* SetOverlayRenderModel,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayTransformType* GetOverlayTransformType, ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute* SetOverlayTransformAbsolute,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute* GetOverlayTransformAbsolute,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative* SetOverlayTransformTrackedDeviceRelative,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative* GetOverlayTransformTrackedDeviceRelative,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent* SetOverlayTransformTrackedDeviceComponent,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent* GetOverlayTransformTrackedDeviceComponent,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative* GetOverlayTransformOverlayRelative,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative* SetOverlayTransformOverlayRelative, ::OVR::OpenVR::IVROverlay__ShowOverlay* ShowOverlay,
+                       ::OVR::OpenVR::IVROverlay__HideOverlay* HideOverlay, ::OVR::OpenVR::IVROverlay__IsOverlayVisible* IsOverlayVisible,
+                       ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates* GetTransformForOverlayCoordinates, ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent* PollNextOverlayEvent,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod* GetOverlayInputMethod, ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod* SetOverlayInputMethod,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale* GetOverlayMouseScale, ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale* SetOverlayMouseScale,
+                       ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection* ComputeOverlayIntersection, ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay* IsHoverTargetOverlay,
+                       ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay* GetGamepadFocusOverlay, ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay* SetGamepadFocusOverlay,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor* SetOverlayNeighbor, ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor* MoveGamepadFocusToNeighbor,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform* SetOverlayDualAnalogTransform, ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform* GetOverlayDualAnalogTransform,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayTexture* SetOverlayTexture, ::OVR::OpenVR::IVROverlay__ClearOverlayTexture* ClearOverlayTexture,
+                       ::OVR::OpenVR::IVROverlay__SetOverlayRaw* SetOverlayRaw, ::OVR::OpenVR::IVROverlay__SetOverlayFromFile* SetOverlayFromFile,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayTexture* GetOverlayTexture, ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle* ReleaseNativeOverlayHandle,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize* GetOverlayTextureSize, ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay* CreateDashboardOverlay,
+                       ::OVR::OpenVR::IVROverlay__IsDashboardVisible* IsDashboardVisible, ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay* IsActiveDashboardOverlay,
+                       ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess* SetDashboardOverlaySceneProcess,
+                       ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess* GetDashboardOverlaySceneProcess, ::OVR::OpenVR::IVROverlay__ShowDashboard* ShowDashboard,
+                       ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice* GetPrimaryDashboardDevice, ::OVR::OpenVR::IVROverlay__ShowKeyboard* ShowKeyboard,
+                       ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay* ShowKeyboardForOverlay, ::OVR::OpenVR::IVROverlay__GetKeyboardText* GetKeyboardText,
+                       ::OVR::OpenVR::IVROverlay__HideKeyboard* HideKeyboard, ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute* SetKeyboardTransformAbsolute,
+                       ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay* SetKeyboardPositionForOverlay, ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask* SetOverlayIntersectionMask,
+                       ::OVR::OpenVR::IVROverlay__GetOverlayFlags* GetOverlayFlags, ::OVR::OpenVR::IVROverlay__ShowMessageOverlay* ShowMessageOverlay,
+                       ::OVR::OpenVR::IVROverlay__CloseMessageOverlay* CloseMessageOverlay) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8279 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x290 };
+
+  /// @brief Field FindOverlay, offset: 0x0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__FindOverlay* FindOverlay;
+
+  /// @brief Field CreateOverlay, offset: 0x8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__CreateOverlay* CreateOverlay;
 
-using _SetOverlayTexture = ::OVR::OpenVR::IVROverlay__SetOverlayTexture;
+  /// @brief Field DestroyOverlay, offset: 0x10, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__DestroyOverlay* DestroyOverlay;
 
-using _SetOverlayTextureBounds = ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds;
+  /// @brief Field SetHighQualityOverlay, offset: 0x18, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay* SetHighQualityOverlay;
 
-using _SetOverlayTextureColorSpace = ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace;
+  /// @brief Field GetHighQualityOverlay, offset: 0x20, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay* GetHighQualityOverlay;
 
-using _SetOverlayTransformAbsolute = ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute;
+  /// @brief Field GetOverlayKey, offset: 0x28, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayKey* GetOverlayKey;
 
-using _SetOverlayTransformOverlayRelative = ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative;
+  /// @brief Field GetOverlayName, offset: 0x30, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayName* GetOverlayName;
 
-using _SetOverlayTransformTrackedDeviceComponent = ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent;
+  /// @brief Field SetOverlayName, offset: 0x38, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayName* SetOverlayName;
 
-using _SetOverlayTransformTrackedDeviceRelative = ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative;
+  /// @brief Field GetOverlayImageData, offset: 0x40, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayImageData* GetOverlayImageData;
 
-using _SetOverlayWidthInMeters = ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters;
+  /// @brief Field GetOverlayErrorNameFromEnum, offset: 0x48, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum* GetOverlayErrorNameFromEnum;
 
-using _ShowDashboard = ::OVR::OpenVR::IVROverlay__ShowDashboard;
+  /// @brief Field SetOverlayRenderingPid, offset: 0x50, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid* SetOverlayRenderingPid;
 
-using _ShowKeyboard = ::OVR::OpenVR::IVROverlay__ShowKeyboard;
+  /// @brief Field GetOverlayRenderingPid, offset: 0x58, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid* GetOverlayRenderingPid;
 
-using _ShowKeyboardForOverlay = ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay;
+  /// @brief Field SetOverlayFlag, offset: 0x60, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayFlag* SetOverlayFlag;
 
-using _ShowMessageOverlay = ::OVR::OpenVR::IVROverlay__ShowMessageOverlay;
+  /// @brief Field GetOverlayFlag, offset: 0x68, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayFlag* GetOverlayFlag;
 
-using _ShowOverlay = ::OVR::OpenVR::IVROverlay__ShowOverlay;
+  /// @brief Field SetOverlayColor, offset: 0x70, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayColor* SetOverlayColor;
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr IVROverlay() ;
+  /// @brief Field GetOverlayColor, offset: 0x78, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayColor* GetOverlayColor;
 
-// Ctor Parameters [CppParam { name: "FindOverlay", ty: "::OVR::OpenVR::IVROverlay__FindOverlay*", modifiers: "", def_value: None }, CppParam { name: "CreateOverlay", ty: "::OVR::OpenVR::IVROverlay__CreateOverlay*", modifiers: "", def_value: None }, CppParam { name: "DestroyOverlay", ty: "::OVR::OpenVR::IVROverlay__DestroyOverlay*", modifiers: "", def_value: None }, CppParam { name: "SetHighQualityOverlay", ty: "::OVR::OpenVR::IVROverlay__SetHighQualityOverlay*", modifiers: "", def_value: None }, CppParam { name: "GetHighQualityOverlay", ty: "::OVR::OpenVR::IVROverlay__GetHighQualityOverlay*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayKey", ty: "::OVR::OpenVR::IVROverlay__GetOverlayKey*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayName", ty: "::OVR::OpenVR::IVROverlay__GetOverlayName*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayName", ty: "::OVR::OpenVR::IVROverlay__SetOverlayName*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayImageData", ty: "::OVR::OpenVR::IVROverlay__GetOverlayImageData*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayErrorNameFromEnum", ty: "::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayRenderingPid", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayRenderingPid", ty: "::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__SetOverlayFlag*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayFlag", ty: "::OVR::OpenVR::IVROverlay__GetOverlayFlag*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayColor", ty: "::OVR::OpenVR::IVROverlay__SetOverlayColor*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayColor", ty: "::OVR::OpenVR::IVROverlay__GetOverlayColor*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayAlpha", ty: "::OVR::OpenVR::IVROverlay__SetOverlayAlpha*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayAlpha", ty: "::OVR::OpenVR::IVROverlay__GetOverlayAlpha*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTexelAspect", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTexelAspect", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect*", modifiers: "", def_value: None }, CppParam { name: "SetOverlaySortOrder", ty: "::OVR::OpenVR::IVROverlay__SetOverlaySortOrder*", modifiers: "", def_value: None }, CppParam { name: "GetOverlaySortOrder", ty: "::OVR::OpenVR::IVROverlay__GetOverlaySortOrder*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayWidthInMeters", ty: "::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayWidthInMeters", ty: "::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayAutoCurveDistanceRangeInMeters", ty: "::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayAutoCurveDistanceRangeInMeters", ty: "::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTextureColorSpace", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTextureColorSpace", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTextureBounds", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTextureBounds", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayRenderModel", ty: "::OVR::OpenVR::IVROverlay__GetOverlayRenderModel*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayRenderModel", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRenderModel*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformType", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTransformType*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformAbsolute", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformAbsolute", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformTrackedDeviceRelative", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformTrackedDeviceRelative", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformTrackedDeviceComponent", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformTrackedDeviceComponent", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTransformOverlayRelative", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTransformOverlayRelative", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative*", modifiers: "", def_value: None }, CppParam { name: "ShowOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowOverlay*", modifiers: "", def_value: None }, CppParam { name: "HideOverlay", ty: "::OVR::OpenVR::IVROverlay__HideOverlay*", modifiers: "", def_value: None }, CppParam { name: "IsOverlayVisible", ty: "::OVR::OpenVR::IVROverlay__IsOverlayVisible*", modifiers: "", def_value: None }, CppParam { name: "GetTransformForOverlayCoordinates", ty: "::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates*", modifiers: "", def_value: None }, CppParam { name: "PollNextOverlayEvent", ty: "::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayInputMethod", ty: "::OVR::OpenVR::IVROverlay__GetOverlayInputMethod*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayInputMethod", ty: "::OVR::OpenVR::IVROverlay__SetOverlayInputMethod*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayMouseScale", ty: "::OVR::OpenVR::IVROverlay__GetOverlayMouseScale*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayMouseScale", ty: "::OVR::OpenVR::IVROverlay__SetOverlayMouseScale*", modifiers: "", def_value: None }, CppParam { name: "ComputeOverlayIntersection", ty: "::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection*", modifiers: "", def_value: None }, CppParam { name: "IsHoverTargetOverlay", ty: "::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay*", modifiers: "", def_value: None }, CppParam { name: "GetGamepadFocusOverlay", ty: "::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay*", modifiers: "", def_value: None }, CppParam { name: "SetGamepadFocusOverlay", ty: "::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayNeighbor", ty: "::OVR::OpenVR::IVROverlay__SetOverlayNeighbor*", modifiers: "", def_value: None }, CppParam { name: "MoveGamepadFocusToNeighbor", ty: "::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayDualAnalogTransform", ty: "::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayDualAnalogTransform", ty: "::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__SetOverlayTexture*", modifiers: "", def_value: None }, CppParam { name: "ClearOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__ClearOverlayTexture*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayRaw", ty: "::OVR::OpenVR::IVROverlay__SetOverlayRaw*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayFromFile", ty: "::OVR::OpenVR::IVROverlay__SetOverlayFromFile*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTexture", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTexture*", modifiers: "", def_value: None }, CppParam { name: "ReleaseNativeOverlayHandle", ty: "::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayTextureSize", ty: "::OVR::OpenVR::IVROverlay__GetOverlayTextureSize*", modifiers: "", def_value: None }, CppParam { name: "CreateDashboardOverlay", ty: "::OVR::OpenVR::IVROverlay__CreateDashboardOverlay*", modifiers: "", def_value: None }, CppParam { name: "IsDashboardVisible", ty: "::OVR::OpenVR::IVROverlay__IsDashboardVisible*", modifiers: "", def_value: None }, CppParam { name: "IsActiveDashboardOverlay", ty: "::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay*", modifiers: "", def_value: None }, CppParam { name: "SetDashboardOverlaySceneProcess", ty: "::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess*", modifiers: "", def_value: None }, CppParam { name: "GetDashboardOverlaySceneProcess", ty: "::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess*", modifiers: "", def_value: None }, CppParam { name: "ShowDashboard", ty: "::OVR::OpenVR::IVROverlay__ShowDashboard*", modifiers: "", def_value: None }, CppParam { name: "GetPrimaryDashboardDevice", ty: "::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice*", modifiers: "", def_value: None }, CppParam { name: "ShowKeyboard", ty: "::OVR::OpenVR::IVROverlay__ShowKeyboard*", modifiers: "", def_value: None }, CppParam { name: "ShowKeyboardForOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay*", modifiers: "", def_value: None }, CppParam { name: "GetKeyboardText", ty: "::OVR::OpenVR::IVROverlay__GetKeyboardText*", modifiers: "", def_value: None }, CppParam { name: "HideKeyboard", ty: "::OVR::OpenVR::IVROverlay__HideKeyboard*", modifiers: "", def_value: None }, CppParam { name: "SetKeyboardTransformAbsolute", ty: "::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute*", modifiers: "", def_value: None }, CppParam { name: "SetKeyboardPositionForOverlay", ty: "::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay*", modifiers: "", def_value: None }, CppParam { name: "SetOverlayIntersectionMask", ty: "::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask*", modifiers: "", def_value: None }, CppParam { name: "GetOverlayFlags", ty: "::OVR::OpenVR::IVROverlay__GetOverlayFlags*", modifiers: "", def_value: None }, CppParam { name: "ShowMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__ShowMessageOverlay*", modifiers: "", def_value: None }, CppParam { name: "CloseMessageOverlay", ty: "::OVR::OpenVR::IVROverlay__CloseMessageOverlay*", modifiers: "", def_value: None }]
-constexpr IVROverlay(::OVR::OpenVR::IVROverlay__FindOverlay*  FindOverlay, ::OVR::OpenVR::IVROverlay__CreateOverlay*  CreateOverlay, ::OVR::OpenVR::IVROverlay__DestroyOverlay*  DestroyOverlay, ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay*  SetHighQualityOverlay, ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay*  GetHighQualityOverlay, ::OVR::OpenVR::IVROverlay__GetOverlayKey*  GetOverlayKey, ::OVR::OpenVR::IVROverlay__GetOverlayName*  GetOverlayName, ::OVR::OpenVR::IVROverlay__SetOverlayName*  SetOverlayName, ::OVR::OpenVR::IVROverlay__GetOverlayImageData*  GetOverlayImageData, ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum*  GetOverlayErrorNameFromEnum, ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid*  SetOverlayRenderingPid, ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid*  GetOverlayRenderingPid, ::OVR::OpenVR::IVROverlay__SetOverlayFlag*  SetOverlayFlag, ::OVR::OpenVR::IVROverlay__GetOverlayFlag*  GetOverlayFlag, ::OVR::OpenVR::IVROverlay__SetOverlayColor*  SetOverlayColor, ::OVR::OpenVR::IVROverlay__GetOverlayColor*  GetOverlayColor, ::OVR::OpenVR::IVROverlay__SetOverlayAlpha*  SetOverlayAlpha, ::OVR::OpenVR::IVROverlay__GetOverlayAlpha*  GetOverlayAlpha, ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect*  SetOverlayTexelAspect, ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect*  GetOverlayTexelAspect, ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder*  SetOverlaySortOrder, ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder*  GetOverlaySortOrder, ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters*  SetOverlayWidthInMeters, ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters*  GetOverlayWidthInMeters, ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters*  SetOverlayAutoCurveDistanceRangeInMeters, ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters*  GetOverlayAutoCurveDistanceRangeInMeters, ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace*  SetOverlayTextureColorSpace, ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace*  GetOverlayTextureColorSpace, ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds*  SetOverlayTextureBounds, ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds*  GetOverlayTextureBounds, ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel*  GetOverlayRenderModel, ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel*  SetOverlayRenderModel, ::OVR::OpenVR::IVROverlay__GetOverlayTransformType*  GetOverlayTransformType, ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute*  SetOverlayTransformAbsolute, ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute*  GetOverlayTransformAbsolute, ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative*  SetOverlayTransformTrackedDeviceRelative, ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative*  GetOverlayTransformTrackedDeviceRelative, ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent*  SetOverlayTransformTrackedDeviceComponent, ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent*  GetOverlayTransformTrackedDeviceComponent, ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative*  GetOverlayTransformOverlayRelative, ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative*  SetOverlayTransformOverlayRelative, ::OVR::OpenVR::IVROverlay__ShowOverlay*  ShowOverlay, ::OVR::OpenVR::IVROverlay__HideOverlay*  HideOverlay, ::OVR::OpenVR::IVROverlay__IsOverlayVisible*  IsOverlayVisible, ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates*  GetTransformForOverlayCoordinates, ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*  PollNextOverlayEvent, ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod*  GetOverlayInputMethod, ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod*  SetOverlayInputMethod, ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale*  GetOverlayMouseScale, ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale*  SetOverlayMouseScale, ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection*  ComputeOverlayIntersection, ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay*  IsHoverTargetOverlay, ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay*  GetGamepadFocusOverlay, ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay*  SetGamepadFocusOverlay, ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor*  SetOverlayNeighbor, ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor*  MoveGamepadFocusToNeighbor, ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform*  SetOverlayDualAnalogTransform, ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform*  GetOverlayDualAnalogTransform, ::OVR::OpenVR::IVROverlay__SetOverlayTexture*  SetOverlayTexture, ::OVR::OpenVR::IVROverlay__ClearOverlayTexture*  ClearOverlayTexture, ::OVR::OpenVR::IVROverlay__SetOverlayRaw*  SetOverlayRaw, ::OVR::OpenVR::IVROverlay__SetOverlayFromFile*  SetOverlayFromFile, ::OVR::OpenVR::IVROverlay__GetOverlayTexture*  GetOverlayTexture, ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle*  ReleaseNativeOverlayHandle, ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize*  GetOverlayTextureSize, ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay*  CreateDashboardOverlay, ::OVR::OpenVR::IVROverlay__IsDashboardVisible*  IsDashboardVisible, ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay*  IsActiveDashboardOverlay, ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess*  SetDashboardOverlaySceneProcess, ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess*  GetDashboardOverlaySceneProcess, ::OVR::OpenVR::IVROverlay__ShowDashboard*  ShowDashboard, ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice*  GetPrimaryDashboardDevice, ::OVR::OpenVR::IVROverlay__ShowKeyboard*  ShowKeyboard, ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay*  ShowKeyboardForOverlay, ::OVR::OpenVR::IVROverlay__GetKeyboardText*  GetKeyboardText, ::OVR::OpenVR::IVROverlay__HideKeyboard*  HideKeyboard, ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute*  SetKeyboardTransformAbsolute, ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay*  SetKeyboardPositionForOverlay, ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask*  SetOverlayIntersectionMask, ::OVR::OpenVR::IVROverlay__GetOverlayFlags*  GetOverlayFlags, ::OVR::OpenVR::IVROverlay__ShowMessageOverlay*  ShowMessageOverlay, ::OVR::OpenVR::IVROverlay__CloseMessageOverlay*  CloseMessageOverlay) noexcept;
+  /// @brief Field SetOverlayAlpha, offset: 0x80, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayAlpha* SetOverlayAlpha;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8273};
+  /// @brief Field GetOverlayAlpha, offset: 0x88, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayAlpha* GetOverlayAlpha;
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x290};
+  /// @brief Field SetOverlayTexelAspect, offset: 0x90, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect* SetOverlayTexelAspect;
 
-/// @brief Field FindOverlay, offset: 0x0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__FindOverlay*  FindOverlay;
+  /// @brief Field GetOverlayTexelAspect, offset: 0x98, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect* GetOverlayTexelAspect;
 
-/// @brief Field CreateOverlay, offset: 0x8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__CreateOverlay*  CreateOverlay;
+  /// @brief Field SetOverlaySortOrder, offset: 0xa0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder* SetOverlaySortOrder;
 
-/// @brief Field DestroyOverlay, offset: 0x10, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__DestroyOverlay*  DestroyOverlay;
+  /// @brief Field GetOverlaySortOrder, offset: 0xa8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder* GetOverlaySortOrder;
 
-/// @brief Field SetHighQualityOverlay, offset: 0x18, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetHighQualityOverlay*  SetHighQualityOverlay;
+  /// @brief Field SetOverlayWidthInMeters, offset: 0xb0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters* SetOverlayWidthInMeters;
 
-/// @brief Field GetHighQualityOverlay, offset: 0x20, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetHighQualityOverlay*  GetHighQualityOverlay;
+  /// @brief Field GetOverlayWidthInMeters, offset: 0xb8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters* GetOverlayWidthInMeters;
 
-/// @brief Field GetOverlayKey, offset: 0x28, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayKey*  GetOverlayKey;
+  /// @brief Field SetOverlayAutoCurveDistanceRangeInMeters, offset: 0xc0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters* SetOverlayAutoCurveDistanceRangeInMeters;
 
-/// @brief Field GetOverlayName, offset: 0x30, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayName*  GetOverlayName;
+  /// @brief Field GetOverlayAutoCurveDistanceRangeInMeters, offset: 0xc8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters* GetOverlayAutoCurveDistanceRangeInMeters;
 
-/// @brief Field SetOverlayName, offset: 0x38, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayName*  SetOverlayName;
+  /// @brief Field SetOverlayTextureColorSpace, offset: 0xd0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace* SetOverlayTextureColorSpace;
 
-/// @brief Field GetOverlayImageData, offset: 0x40, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayImageData*  GetOverlayImageData;
+  /// @brief Field GetOverlayTextureColorSpace, offset: 0xd8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace* GetOverlayTextureColorSpace;
 
-/// @brief Field GetOverlayErrorNameFromEnum, offset: 0x48, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayErrorNameFromEnum*  GetOverlayErrorNameFromEnum;
+  /// @brief Field SetOverlayTextureBounds, offset: 0xe0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds* SetOverlayTextureBounds;
 
-/// @brief Field SetOverlayRenderingPid, offset: 0x50, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayRenderingPid*  SetOverlayRenderingPid;
+  /// @brief Field GetOverlayTextureBounds, offset: 0xe8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds* GetOverlayTextureBounds;
 
-/// @brief Field GetOverlayRenderingPid, offset: 0x58, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayRenderingPid*  GetOverlayRenderingPid;
+  /// @brief Field GetOverlayRenderModel, offset: 0xf0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel* GetOverlayRenderModel;
 
-/// @brief Field SetOverlayFlag, offset: 0x60, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayFlag*  SetOverlayFlag;
+  /// @brief Field SetOverlayRenderModel, offset: 0xf8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel* SetOverlayRenderModel;
 
-/// @brief Field GetOverlayFlag, offset: 0x68, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayFlag*  GetOverlayFlag;
+  /// @brief Field GetOverlayTransformType, offset: 0x100, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTransformType* GetOverlayTransformType;
 
-/// @brief Field SetOverlayColor, offset: 0x70, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayColor*  SetOverlayColor;
+  /// @brief Field SetOverlayTransformAbsolute, offset: 0x108, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute* SetOverlayTransformAbsolute;
 
-/// @brief Field GetOverlayColor, offset: 0x78, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayColor*  GetOverlayColor;
+  /// @brief Field GetOverlayTransformAbsolute, offset: 0x110, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute* GetOverlayTransformAbsolute;
 
-/// @brief Field SetOverlayAlpha, offset: 0x80, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayAlpha*  SetOverlayAlpha;
+  /// @brief Field SetOverlayTransformTrackedDeviceRelative, offset: 0x118, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative* SetOverlayTransformTrackedDeviceRelative;
 
-/// @brief Field GetOverlayAlpha, offset: 0x88, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayAlpha*  GetOverlayAlpha;
+  /// @brief Field GetOverlayTransformTrackedDeviceRelative, offset: 0x120, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative* GetOverlayTransformTrackedDeviceRelative;
 
-/// @brief Field SetOverlayTexelAspect, offset: 0x90, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTexelAspect*  SetOverlayTexelAspect;
+  /// @brief Field SetOverlayTransformTrackedDeviceComponent, offset: 0x128, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent* SetOverlayTransformTrackedDeviceComponent;
 
-/// @brief Field GetOverlayTexelAspect, offset: 0x98, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTexelAspect*  GetOverlayTexelAspect;
+  /// @brief Field GetOverlayTransformTrackedDeviceComponent, offset: 0x130, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent* GetOverlayTransformTrackedDeviceComponent;
 
-/// @brief Field SetOverlaySortOrder, offset: 0xa0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlaySortOrder*  SetOverlaySortOrder;
+  /// @brief Field GetOverlayTransformOverlayRelative, offset: 0x138, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative* GetOverlayTransformOverlayRelative;
 
-/// @brief Field GetOverlaySortOrder, offset: 0xa8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlaySortOrder*  GetOverlaySortOrder;
+  /// @brief Field SetOverlayTransformOverlayRelative, offset: 0x140, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative* SetOverlayTransformOverlayRelative;
 
-/// @brief Field SetOverlayWidthInMeters, offset: 0xb0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayWidthInMeters*  SetOverlayWidthInMeters;
+  /// @brief Field ShowOverlay, offset: 0x148, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ShowOverlay* ShowOverlay;
 
-/// @brief Field GetOverlayWidthInMeters, offset: 0xb8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayWidthInMeters*  GetOverlayWidthInMeters;
+  /// @brief Field HideOverlay, offset: 0x150, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__HideOverlay* HideOverlay;
 
-/// @brief Field SetOverlayAutoCurveDistanceRangeInMeters, offset: 0xc0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters*  SetOverlayAutoCurveDistanceRangeInMeters;
+  /// @brief Field IsOverlayVisible, offset: 0x158, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__IsOverlayVisible* IsOverlayVisible;
 
-/// @brief Field GetOverlayAutoCurveDistanceRangeInMeters, offset: 0xc8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters*  GetOverlayAutoCurveDistanceRangeInMeters;
+  /// @brief Field GetTransformForOverlayCoordinates, offset: 0x160, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates* GetTransformForOverlayCoordinates;
 
-/// @brief Field SetOverlayTextureColorSpace, offset: 0xd0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTextureColorSpace*  SetOverlayTextureColorSpace;
+  /// @brief Field PollNextOverlayEvent, offset: 0x168, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent* PollNextOverlayEvent;
 
-/// @brief Field GetOverlayTextureColorSpace, offset: 0xd8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTextureColorSpace*  GetOverlayTextureColorSpace;
+  /// @brief Field GetOverlayInputMethod, offset: 0x170, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod* GetOverlayInputMethod;
 
-/// @brief Field SetOverlayTextureBounds, offset: 0xe0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTextureBounds*  SetOverlayTextureBounds;
+  /// @brief Field SetOverlayInputMethod, offset: 0x178, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod* SetOverlayInputMethod;
 
-/// @brief Field GetOverlayTextureBounds, offset: 0xe8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTextureBounds*  GetOverlayTextureBounds;
+  /// @brief Field GetOverlayMouseScale, offset: 0x180, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale* GetOverlayMouseScale;
 
-/// @brief Field GetOverlayRenderModel, offset: 0xf0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayRenderModel*  GetOverlayRenderModel;
+  /// @brief Field SetOverlayMouseScale, offset: 0x188, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale* SetOverlayMouseScale;
 
-/// @brief Field SetOverlayRenderModel, offset: 0xf8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayRenderModel*  SetOverlayRenderModel;
+  /// @brief Field ComputeOverlayIntersection, offset: 0x190, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection* ComputeOverlayIntersection;
 
-/// @brief Field GetOverlayTransformType, offset: 0x100, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTransformType*  GetOverlayTransformType;
+  /// @brief Field IsHoverTargetOverlay, offset: 0x198, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay* IsHoverTargetOverlay;
 
-/// @brief Field SetOverlayTransformAbsolute, offset: 0x108, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTransformAbsolute*  SetOverlayTransformAbsolute;
+  /// @brief Field GetGamepadFocusOverlay, offset: 0x1a0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay* GetGamepadFocusOverlay;
 
-/// @brief Field GetOverlayTransformAbsolute, offset: 0x110, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTransformAbsolute*  GetOverlayTransformAbsolute;
+  /// @brief Field SetGamepadFocusOverlay, offset: 0x1a8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay* SetGamepadFocusOverlay;
 
-/// @brief Field SetOverlayTransformTrackedDeviceRelative, offset: 0x118, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceRelative*  SetOverlayTransformTrackedDeviceRelative;
+  /// @brief Field SetOverlayNeighbor, offset: 0x1b0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor* SetOverlayNeighbor;
 
-/// @brief Field GetOverlayTransformTrackedDeviceRelative, offset: 0x120, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceRelative*  GetOverlayTransformTrackedDeviceRelative;
+  /// @brief Field MoveGamepadFocusToNeighbor, offset: 0x1b8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor* MoveGamepadFocusToNeighbor;
 
-/// @brief Field SetOverlayTransformTrackedDeviceComponent, offset: 0x128, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTransformTrackedDeviceComponent*  SetOverlayTransformTrackedDeviceComponent;
+  /// @brief Field SetOverlayDualAnalogTransform, offset: 0x1c0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform* SetOverlayDualAnalogTransform;
 
-/// @brief Field GetOverlayTransformTrackedDeviceComponent, offset: 0x130, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTransformTrackedDeviceComponent*  GetOverlayTransformTrackedDeviceComponent;
+  /// @brief Field GetOverlayDualAnalogTransform, offset: 0x1c8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform* GetOverlayDualAnalogTransform;
 
-/// @brief Field GetOverlayTransformOverlayRelative, offset: 0x138, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTransformOverlayRelative*  GetOverlayTransformOverlayRelative;
+  /// @brief Field SetOverlayTexture, offset: 0x1d0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayTexture* SetOverlayTexture;
 
-/// @brief Field SetOverlayTransformOverlayRelative, offset: 0x140, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTransformOverlayRelative*  SetOverlayTransformOverlayRelative;
+  /// @brief Field ClearOverlayTexture, offset: 0x1d8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ClearOverlayTexture* ClearOverlayTexture;
 
-/// @brief Field ShowOverlay, offset: 0x148, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ShowOverlay*  ShowOverlay;
+  /// @brief Field SetOverlayRaw, offset: 0x1e0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayRaw* SetOverlayRaw;
 
-/// @brief Field HideOverlay, offset: 0x150, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__HideOverlay*  HideOverlay;
+  /// @brief Field SetOverlayFromFile, offset: 0x1e8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayFromFile* SetOverlayFromFile;
 
-/// @brief Field IsOverlayVisible, offset: 0x158, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__IsOverlayVisible*  IsOverlayVisible;
+  /// @brief Field GetOverlayTexture, offset: 0x1f0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTexture* GetOverlayTexture;
 
-/// @brief Field GetTransformForOverlayCoordinates, offset: 0x160, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetTransformForOverlayCoordinates*  GetTransformForOverlayCoordinates;
+  /// @brief Field ReleaseNativeOverlayHandle, offset: 0x1f8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle* ReleaseNativeOverlayHandle;
 
-/// @brief Field PollNextOverlayEvent, offset: 0x168, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*  PollNextOverlayEvent;
+  /// @brief Field GetOverlayTextureSize, offset: 0x200, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize* GetOverlayTextureSize;
 
-/// @brief Field GetOverlayInputMethod, offset: 0x170, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayInputMethod*  GetOverlayInputMethod;
+  /// @brief Field CreateDashboardOverlay, offset: 0x208, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay* CreateDashboardOverlay;
 
-/// @brief Field SetOverlayInputMethod, offset: 0x178, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayInputMethod*  SetOverlayInputMethod;
+  /// @brief Field IsDashboardVisible, offset: 0x210, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__IsDashboardVisible* IsDashboardVisible;
 
-/// @brief Field GetOverlayMouseScale, offset: 0x180, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayMouseScale*  GetOverlayMouseScale;
+  /// @brief Field IsActiveDashboardOverlay, offset: 0x218, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay* IsActiveDashboardOverlay;
 
-/// @brief Field SetOverlayMouseScale, offset: 0x188, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayMouseScale*  SetOverlayMouseScale;
+  /// @brief Field SetDashboardOverlaySceneProcess, offset: 0x220, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess* SetDashboardOverlaySceneProcess;
 
-/// @brief Field ComputeOverlayIntersection, offset: 0x190, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ComputeOverlayIntersection*  ComputeOverlayIntersection;
+  /// @brief Field GetDashboardOverlaySceneProcess, offset: 0x228, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess* GetDashboardOverlaySceneProcess;
 
-/// @brief Field IsHoverTargetOverlay, offset: 0x198, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__IsHoverTargetOverlay*  IsHoverTargetOverlay;
+  /// @brief Field ShowDashboard, offset: 0x230, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ShowDashboard* ShowDashboard;
 
-/// @brief Field GetGamepadFocusOverlay, offset: 0x1a0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetGamepadFocusOverlay*  GetGamepadFocusOverlay;
+  /// @brief Field GetPrimaryDashboardDevice, offset: 0x238, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice* GetPrimaryDashboardDevice;
 
-/// @brief Field SetGamepadFocusOverlay, offset: 0x1a8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetGamepadFocusOverlay*  SetGamepadFocusOverlay;
+  /// @brief Field ShowKeyboard, offset: 0x240, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ShowKeyboard* ShowKeyboard;
 
-/// @brief Field SetOverlayNeighbor, offset: 0x1b0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayNeighbor*  SetOverlayNeighbor;
+  /// @brief Field ShowKeyboardForOverlay, offset: 0x248, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay* ShowKeyboardForOverlay;
 
-/// @brief Field MoveGamepadFocusToNeighbor, offset: 0x1b8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__MoveGamepadFocusToNeighbor*  MoveGamepadFocusToNeighbor;
+  /// @brief Field GetKeyboardText, offset: 0x250, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetKeyboardText* GetKeyboardText;
 
-/// @brief Field SetOverlayDualAnalogTransform, offset: 0x1c0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayDualAnalogTransform*  SetOverlayDualAnalogTransform;
+  /// @brief Field HideKeyboard, offset: 0x258, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__HideKeyboard* HideKeyboard;
 
-/// @brief Field GetOverlayDualAnalogTransform, offset: 0x1c8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayDualAnalogTransform*  GetOverlayDualAnalogTransform;
+  /// @brief Field SetKeyboardTransformAbsolute, offset: 0x260, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute* SetKeyboardTransformAbsolute;
 
-/// @brief Field SetOverlayTexture, offset: 0x1d0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayTexture*  SetOverlayTexture;
+  /// @brief Field SetKeyboardPositionForOverlay, offset: 0x268, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay* SetKeyboardPositionForOverlay;
 
-/// @brief Field ClearOverlayTexture, offset: 0x1d8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ClearOverlayTexture*  ClearOverlayTexture;
+  /// @brief Field SetOverlayIntersectionMask, offset: 0x270, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask* SetOverlayIntersectionMask;
 
-/// @brief Field SetOverlayRaw, offset: 0x1e0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayRaw*  SetOverlayRaw;
+  /// @brief Field GetOverlayFlags, offset: 0x278, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__GetOverlayFlags* GetOverlayFlags;
 
-/// @brief Field SetOverlayFromFile, offset: 0x1e8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayFromFile*  SetOverlayFromFile;
+  /// @brief Field ShowMessageOverlay, offset: 0x280, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__ShowMessageOverlay* ShowMessageOverlay;
 
-/// @brief Field GetOverlayTexture, offset: 0x1f0, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTexture*  GetOverlayTexture;
+  /// @brief Field CloseMessageOverlay, offset: 0x288, size: 0x8, def value: None
+  ::OVR::OpenVR::IVROverlay__CloseMessageOverlay* CloseMessageOverlay;
 
-/// @brief Field ReleaseNativeOverlayHandle, offset: 0x1f8, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ReleaseNativeOverlayHandle*  ReleaseNativeOverlayHandle;
-
-/// @brief Field GetOverlayTextureSize, offset: 0x200, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayTextureSize*  GetOverlayTextureSize;
-
-/// @brief Field CreateDashboardOverlay, offset: 0x208, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__CreateDashboardOverlay*  CreateDashboardOverlay;
-
-/// @brief Field IsDashboardVisible, offset: 0x210, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__IsDashboardVisible*  IsDashboardVisible;
-
-/// @brief Field IsActiveDashboardOverlay, offset: 0x218, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__IsActiveDashboardOverlay*  IsActiveDashboardOverlay;
-
-/// @brief Field SetDashboardOverlaySceneProcess, offset: 0x220, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetDashboardOverlaySceneProcess*  SetDashboardOverlaySceneProcess;
-
-/// @brief Field GetDashboardOverlaySceneProcess, offset: 0x228, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetDashboardOverlaySceneProcess*  GetDashboardOverlaySceneProcess;
-
-/// @brief Field ShowDashboard, offset: 0x230, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ShowDashboard*  ShowDashboard;
-
-/// @brief Field GetPrimaryDashboardDevice, offset: 0x238, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetPrimaryDashboardDevice*  GetPrimaryDashboardDevice;
-
-/// @brief Field ShowKeyboard, offset: 0x240, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ShowKeyboard*  ShowKeyboard;
-
-/// @brief Field ShowKeyboardForOverlay, offset: 0x248, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ShowKeyboardForOverlay*  ShowKeyboardForOverlay;
-
-/// @brief Field GetKeyboardText, offset: 0x250, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetKeyboardText*  GetKeyboardText;
-
-/// @brief Field HideKeyboard, offset: 0x258, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__HideKeyboard*  HideKeyboard;
-
-/// @brief Field SetKeyboardTransformAbsolute, offset: 0x260, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetKeyboardTransformAbsolute*  SetKeyboardTransformAbsolute;
-
-/// @brief Field SetKeyboardPositionForOverlay, offset: 0x268, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetKeyboardPositionForOverlay*  SetKeyboardPositionForOverlay;
-
-/// @brief Field SetOverlayIntersectionMask, offset: 0x270, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__SetOverlayIntersectionMask*  SetOverlayIntersectionMask;
-
-/// @brief Field GetOverlayFlags, offset: 0x278, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__GetOverlayFlags*  GetOverlayFlags;
-
-/// @brief Field ShowMessageOverlay, offset: 0x280, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__ShowMessageOverlay*  ShowMessageOverlay;
-
-/// @brief Field CloseMessageOverlay, offset: 0x288, size: 0x8, def value: None
- ::OVR::OpenVR::IVROverlay__CloseMessageOverlay*  CloseMessageOverlay;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::IVROverlay, FindOverlay) == 0x0, "Offset mismatch!");
@@ -4871,7 +5017,7 @@ static_assert(offsetof(::OVR::OpenVR::IVROverlay, CloseMessageOverlay) == 0x288,
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVROverlay, 0x290>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::IVROverlay__ClearOverlayTexture);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVROverlay__ClearOverlayTexture*, "OVR.OpenVR", "IVROverlay/_ClearOverlayTexture");
 NEED_NO_BOX(::OVR::OpenVR::IVROverlay__CloseMessageOverlay);

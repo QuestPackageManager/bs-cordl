@@ -22,66 +22,66 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.AppDownloadProgressResult
 class CORDL_TYPE AppDownloadProgressResult : public ::System::Object {
 public:
-// Declarations
-/// @brief Field DownloadBytes, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_DownloadBytes, put=__cordl_internal_set_DownloadBytes)) int64_t  DownloadBytes;
+  // Declarations
+  /// @brief Field DownloadBytes, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_DownloadBytes, put = __cordl_internal_set_DownloadBytes)) int64_t DownloadBytes;
 
-/// @brief Field DownloadedBytes, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_DownloadedBytes, put=__cordl_internal_set_DownloadedBytes)) int64_t  DownloadedBytes;
+  /// @brief Field DownloadedBytes, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_DownloadedBytes, put = __cordl_internal_set_DownloadedBytes)) int64_t DownloadedBytes;
 
-/// @brief Field StatusCode, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_StatusCode, put=__cordl_internal_set_StatusCode)) ::Oculus::Platform::AppStatus  StatusCode;
+  /// @brief Field StatusCode, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_StatusCode, put = __cordl_internal_set_StatusCode)) ::Oculus::Platform::AppStatus StatusCode;
 
-static inline ::Oculus::Platform::Models::AppDownloadProgressResult* New_ctor(::System::IntPtr  o) ;
+  static inline ::Oculus::Platform::Models::AppDownloadProgressResult* New_ctor(::System::IntPtr o);
 
-constexpr int64_t const& __cordl_internal_get_DownloadBytes() const;
+  constexpr int64_t const& __cordl_internal_get_DownloadBytes() const;
 
-constexpr int64_t& __cordl_internal_get_DownloadBytes() ;
+  constexpr int64_t& __cordl_internal_get_DownloadBytes();
 
-constexpr int64_t const& __cordl_internal_get_DownloadedBytes() const;
+  constexpr int64_t const& __cordl_internal_get_DownloadedBytes() const;
 
-constexpr int64_t& __cordl_internal_get_DownloadedBytes() ;
+  constexpr int64_t& __cordl_internal_get_DownloadedBytes();
 
-constexpr ::Oculus::Platform::AppStatus const& __cordl_internal_get_StatusCode() const;
+  constexpr ::Oculus::Platform::AppStatus const& __cordl_internal_get_StatusCode() const;
 
-constexpr ::Oculus::Platform::AppStatus& __cordl_internal_get_StatusCode() ;
+  constexpr ::Oculus::Platform::AppStatus& __cordl_internal_get_StatusCode();
 
-constexpr void __cordl_internal_set_DownloadBytes(int64_t  value) ;
+  constexpr void __cordl_internal_set_DownloadBytes(int64_t value);
 
-constexpr void __cordl_internal_set_DownloadedBytes(int64_t  value) ;
+  constexpr void __cordl_internal_set_DownloadedBytes(int64_t value);
 
-constexpr void __cordl_internal_set_StatusCode(::Oculus::Platform::AppStatus  value) ;
+  constexpr void __cordl_internal_set_StatusCode(::Oculus::Platform::AppStatus value);
 
-/// @brief Method .ctor, addr 0x5c2b8d8, size 0x84, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  o) ;
+  /// @brief Method .ctor, addr 0x5c9d8c0, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AppDownloadProgressResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AppDownloadProgressResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AppDownloadProgressResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AppDownloadProgressResult(AppDownloadProgressResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AppDownloadProgressResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AppDownloadProgressResult(AppDownloadProgressResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AppDownloadProgressResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AppDownloadProgressResult(AppDownloadProgressResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AppDownloadProgressResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AppDownloadProgressResult(AppDownloadProgressResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17994 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17986};
+  /// @brief Field DownloadBytes, offset: 0x10, size: 0x8, def value: None
+  int64_t ___DownloadBytes;
 
-/// @brief Field DownloadBytes, offset: 0x10, size: 0x8, def value: None
- int64_t  ___DownloadBytes;
+  /// @brief Field DownloadedBytes, offset: 0x18, size: 0x8, def value: None
+  int64_t ___DownloadedBytes;
 
-/// @brief Field DownloadedBytes, offset: 0x18, size: 0x8, def value: None
- int64_t  ___DownloadedBytes;
+  /// @brief Field StatusCode, offset: 0x20, size: 0x4, def value: None
+  ::Oculus::Platform::AppStatus ___StatusCode;
 
-/// @brief Field StatusCode, offset: 0x20, size: 0x4, def value: None
- ::Oculus::Platform::AppStatus  ___StatusCode;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::AppDownloadProgressResult, ___DownloadBytes) == 0x10, "Offset mismatch!");
@@ -92,6 +92,6 @@ static_assert(offsetof(::Oculus::Platform::Models::AppDownloadProgressResult, __
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AppDownloadProgressResult, 0x28>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AppDownloadProgressResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AppDownloadProgressResult*, "Oculus.Platform.Models", "AppDownloadProgressResult");

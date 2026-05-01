@@ -20,8 +20,7 @@ namespace GlobalNamespace {
 class NoteData;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,43 +34,44 @@ namespace GlobalNamespace {
 // CS Name: BeatmapDataAddTestSlidersTransform
 class CORDL_TYPE BeatmapDataAddTestSlidersTransform : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CreateTransformedData, addr 0x3608184, size 0x334, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData*  beatmapData) ;
+  // Declarations
+  /// @brief Method CreateTransformedData, addr 0x36447c8, size 0x334, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-/// @brief Method FindNextSameColorTypeNote, addr 0x3608904, size 0x1f8, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*  beatmapDataItems, int32_t  startIndex, ::GlobalNamespace::ColorType  colorType) ;
+  /// @brief Method FindNextSameColorTypeNote, addr 0x3644f48, size 0x1f8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int32_t startIndex,
+                                                                       ::GlobalNamespace::ColorType colorType);
 
-static inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* New_ctor();
 
-/// @brief Method .ctor, addr 0x3608afc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3645140, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapDataAddTestSlidersTransform() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataAddTestSlidersTransform();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAddTestSlidersTransform", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAddTestSlidersTransform", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAddTestSlidersTransform", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAddTestSlidersTransform", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14780 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14773};
+  /// @brief Field kMaxTimeDiff offset 0xffffffff size 0x4
+  static constexpr float_t kMaxTimeDiff{ static_cast<float_t>(2.0f) };
 
-/// @brief Field kMaxTimeDiff offset 0xffffffff size 0x4
-static constexpr float_t  kMaxTimeDiff{static_cast<float_t>(2.0f)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataAddTestSlidersTransform, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataAddTestSlidersTransform);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataAddTestSlidersTransform*, "", "BeatmapDataAddTestSlidersTransform");

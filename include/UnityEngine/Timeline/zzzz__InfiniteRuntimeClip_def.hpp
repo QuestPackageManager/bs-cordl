@@ -26,76 +26,76 @@ namespace UnityEngine::Timeline {
 // CS Name: UnityEngine.Timeline.InfiniteRuntimeClip
 class CORDL_TYPE InfiniteRuntimeClip : public ::UnityEngine::Timeline::RuntimeElement {
 public:
-// Declarations
- __declspec(property(put=set_enable)) bool  enable;
+  // Declarations
+  __declspec(property(put = set_enable)) bool enable;
 
- __declspec(property(get=get_intervalEnd)) int64_t  intervalEnd;
+  __declspec(property(get = get_intervalEnd)) int64_t intervalEnd;
 
- __declspec(property(get=get_intervalStart)) int64_t  intervalStart;
+  __declspec(property(get = get_intervalStart)) int64_t intervalStart;
 
-/// @brief Field kIntervalEnd, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_kIntervalEnd, put=setStaticF_kIntervalEnd)) int64_t  kIntervalEnd;
+  /// @brief Field kIntervalEnd, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_kIntervalEnd, put = setStaticF_kIntervalEnd)) int64_t kIntervalEnd;
 
-/// @brief Field m_Playable, offset 0x18, size 0x10 
- __declspec(property(get=__cordl_internal_get_m_Playable, put=__cordl_internal_set_m_Playable)) ::UnityEngine::Playables::Playable  m_Playable;
+  /// @brief Field m_Playable, offset 0x18, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Playable, put = __cordl_internal_set_m_Playable)) ::UnityEngine::Playables::Playable m_Playable;
 
-/// @brief Method DisableAt, addr 0x680d42c, size 0x70, virtual true, abstract: false, final false
-inline void DisableAt(double_t  localTime, double_t  rootDuration, ::UnityEngine::Playables::FrameData  frameData) ;
+  /// @brief Method DisableAt, addr 0x687f438, size 0x70, virtual true, abstract: false, final false
+  inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
-/// @brief Method EvaluateAt, addr 0x680d3d0, size 0x5c, virtual true, abstract: false, final false
-inline void EvaluateAt(double_t  localTime, ::UnityEngine::Playables::FrameData  frameData) ;
+  /// @brief Method EvaluateAt, addr 0x687f3dc, size 0x5c, virtual true, abstract: false, final false
+  inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
-static inline ::UnityEngine::Timeline::InfiniteRuntimeClip* New_ctor(::UnityEngine::Playables::Playable  playable) ;
+  static inline ::UnityEngine::Timeline::InfiniteRuntimeClip* New_ctor(::UnityEngine::Playables::Playable playable);
 
-constexpr ::UnityEngine::Playables::Playable const& __cordl_internal_get_m_Playable() const;
+  constexpr ::UnityEngine::Playables::Playable const& __cordl_internal_get_m_Playable() const;
 
-constexpr ::UnityEngine::Playables::Playable& __cordl_internal_get_m_Playable() ;
+  constexpr ::UnityEngine::Playables::Playable& __cordl_internal_get_m_Playable();
 
-constexpr void __cordl_internal_set_m_Playable(::UnityEngine::Playables::Playable  value) ;
+  constexpr void __cordl_internal_set_m_Playable(::UnityEngine::Playables::Playable value);
 
-/// @brief Method .ctor, addr 0x67f9b70, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Playables::Playable  playable) ;
+  /// @brief Method .ctor, addr 0x686bb7c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Playables::Playable playable);
 
-static inline int64_t getStaticF_kIntervalEnd() ;
+  static inline int64_t getStaticF_kIntervalEnd();
 
-/// @brief Method get_intervalEnd, addr 0x680d2ec, size 0x5c, virtual true, abstract: false, final false
-inline int64_t get_intervalEnd() ;
+  /// @brief Method get_intervalEnd, addr 0x687f2f8, size 0x5c, virtual true, abstract: false, final false
+  inline int64_t get_intervalEnd();
 
-/// @brief Method get_intervalStart, addr 0x680d2e4, size 0x8, virtual true, abstract: false, final false
-inline int64_t get_intervalStart() ;
+  /// @brief Method get_intervalStart, addr 0x687f2f0, size 0x8, virtual true, abstract: false, final false
+  inline int64_t get_intervalStart();
 
-static inline void setStaticF_kIntervalEnd(int64_t  value) ;
+  static inline void setStaticF_kIntervalEnd(int64_t value);
 
-/// @brief Method set_enable, addr 0x680d348, size 0x88, virtual true, abstract: false, final false
-inline void set_enable(bool  value) ;
+  /// @brief Method set_enable, addr 0x687f354, size 0x88, virtual true, abstract: false, final false
+  inline void set_enable(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InfiniteRuntimeClip() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InfiniteRuntimeClip();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InfiniteRuntimeClip", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InfiniteRuntimeClip(InfiniteRuntimeClip&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InfiniteRuntimeClip", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InfiniteRuntimeClip(InfiniteRuntimeClip && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InfiniteRuntimeClip", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InfiniteRuntimeClip(InfiniteRuntimeClip const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InfiniteRuntimeClip", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InfiniteRuntimeClip(InfiniteRuntimeClip const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19039 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19029};
+  /// @brief Field m_Playable, offset: 0x18, size: 0x10, def value: None
+  ::UnityEngine::Playables::Playable ___m_Playable;
 
-/// @brief Field m_Playable, offset: 0x18, size: 0x10, def value: None
- ::UnityEngine::Playables::Playable  ___m_Playable;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Timeline::InfiniteRuntimeClip, ___m_Playable) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::InfiniteRuntimeClip, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Timeline
+} // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::InfiniteRuntimeClip);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");

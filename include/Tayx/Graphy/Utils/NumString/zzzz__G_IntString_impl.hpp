@@ -3,147 +3,116 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Tayx/Graphy/Utils/NumString/zzzz__G_IntString_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Utils::NumString::G_IntString.get_MinValue
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Tayx::Graphy::Utils::NumString::G_IntString::get_MinValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x628948c;
+  constexpr static std::size_t addrs = 0x62fb498;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "get_MinValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
+                                                                               "get_MinValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tayx::Graphy::Utils::NumString::G_IntString.get_MaxValue
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Tayx::Graphy::Utils::NumString::G_IntString::get_MaxValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62894fc;
+  constexpr static std::size_t addrs = 0x62fb508;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "get_MaxValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
+                                                                               "get_MaxValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tayx::Graphy::Utils::NumString::G_IntString.Init
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::Tayx::Graphy::Utils::NumString::G_IntString::Init)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6289564;
+  constexpr static std::size_t addrs = 0x62fb570;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tayx::Graphy::Utils::NumString::G_IntString.Dispose
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Tayx::Graphy::Utils::NumString::G_IntString::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6285338;
+  constexpr static std::size_t addrs = 0x62f7344;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(), "Dispose",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tayx::Graphy::Utils::NumString::G_IntString.ToStringNonAlloc
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::Tayx::Graphy::Utils::NumString::G_IntString::ToStringNonAlloc)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6289794;
+  constexpr static std::size_t addrs = 0x62fb7a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "ToStringNonAlloc",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(), "ToStringNonAlloc",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-inline void Tayx::Graphy::Utils::NumString::G_IntString::setStaticF_m_negativeBuffer(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "m_negativeBuffer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>(std::forward<::ArrayW<::StringW,::Array<::StringW>*>>(value));
+inline void Tayx::Graphy::Utils::NumString::G_IntString::setStaticF_m_negativeBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "m_negativeBuffer",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>(
+      std::forward<::ArrayW<::StringW, ::Array<::StringW>*>>(value));
 }
-inline ::ArrayW<::StringW,::Array<::StringW>*> Tayx::Graphy::Utils::NumString::G_IntString::getStaticF_m_negativeBuffer()  {
-return ::cordl_internals::getStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "m_negativeBuffer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>();
+inline ::ArrayW<::StringW, ::Array<::StringW>*> Tayx::Graphy::Utils::NumString::G_IntString::getStaticF_m_negativeBuffer() {
+  return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "m_negativeBuffer",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>();
 }
-inline void Tayx::Graphy::Utils::NumString::G_IntString::setStaticF_m_positiveBuffer(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "m_positiveBuffer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>(std::forward<::ArrayW<::StringW,::Array<::StringW>*>>(value));
+inline void Tayx::Graphy::Utils::NumString::G_IntString::setStaticF_m_positiveBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "m_positiveBuffer",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>(
+      std::forward<::ArrayW<::StringW, ::Array<::StringW>*>>(value));
 }
-inline ::ArrayW<::StringW,::Array<::StringW>*> Tayx::Graphy::Utils::NumString::G_IntString::getStaticF_m_positiveBuffer()  {
-return ::cordl_internals::getStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "m_positiveBuffer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>();
+inline ::ArrayW<::StringW, ::Array<::StringW>*> Tayx::Graphy::Utils::NumString::G_IntString::getStaticF_m_positiveBuffer() {
+  return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "m_positiveBuffer",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get>();
 }
-inline int32_t Tayx::Graphy::Utils::NumString::G_IntString::get_MinValue()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "get_MinValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t Tayx::Graphy::Utils::NumString::G_IntString::get_MinValue() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
+                                                                             "get_MinValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline int32_t Tayx::Graphy::Utils::NumString::G_IntString::get_MaxValue()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "get_MaxValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t Tayx::Graphy::Utils::NumString::G_IntString::get_MaxValue() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
+                                                                             "get_MaxValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline void Tayx::Graphy::Utils::NumString::G_IntString::Init(int32_t  minNegativeValue, int32_t  maxPositiveValue)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, minNegativeValue, maxPositiveValue);
+inline void Tayx::Graphy::Utils::NumString::G_IntString::Init(int32_t minNegativeValue, int32_t maxPositiveValue) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, minNegativeValue, maxPositiveValue);
 }
-inline void Tayx::Graphy::Utils::NumString::G_IntString::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void Tayx::Graphy::Utils::NumString::G_IntString::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(), "Dispose",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline ::StringW Tayx::Graphy::Utils::NumString::G_IntString::ToStringNonAlloc(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(),
-                        "ToStringNonAlloc",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value);
+inline ::StringW Tayx::Graphy::Utils::NumString::G_IntString::ToStringNonAlloc(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_IntString*>::get(), "ToStringNonAlloc",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value);
 }
 // Ctor Parameters []
-constexpr ::Tayx::Graphy::Utils::NumString::G_IntString::G_IntString()   {
-}
+constexpr ::Tayx::Graphy::Utils::NumString::G_IntString::G_IntString() {}

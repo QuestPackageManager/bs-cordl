@@ -23,44 +23,44 @@ namespace MS::Internal::Xml::XPath {
 // CS Name: MS.Internal.Xml.XPath.Root
 class CORDL_TYPE Root : public ::MS::Internal::Xml::XPath::AstNode {
 public:
-// Declarations
- __declspec(property(get=get_ReturnType)) ::System::Xml::XPath::XPathResultType  ReturnType;
+  // Declarations
+  __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
- __declspec(property(get=get_Type)) ::MS::Internal::Xml::XPath::AstNode_AstType  Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::AstNode_AstType Type;
 
-static inline ::MS::Internal::Xml::XPath::Root* New_ctor() ;
+  static inline ::MS::Internal::Xml::XPath::Root* New_ctor();
 
-/// @brief Method .ctor, addr 0x60c2a8c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6134a98, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_ReturnType, addr 0x60c2a98, size 0x8, virtual true, abstract: false, final false
-inline ::System::Xml::XPath::XPathResultType get_ReturnType() ;
+  /// @brief Method get_ReturnType, addr 0x6134aa4, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-/// @brief Method get_Type, addr 0x60c2a90, size 0x8, virtual true, abstract: false, final false
-inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type() ;
+  /// @brief Method get_Type, addr 0x6134a9c, size 0x8, virtual true, abstract: false, final false
+  inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Root() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Root();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Root", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Root(Root&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Root", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Root(Root && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Root", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Root(Root const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Root", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Root(Root const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9861 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9855};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::Root, 0x10>, "Size mismatch!");
 
-} // namespace end def MS::Internal::Xml::XPath
+} // namespace MS::Internal::Xml::XPath
 NEED_NO_BOX(::MS::Internal::Xml::XPath::Root);
 DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::Root*, "MS.Internal.Xml.XPath", "Root");

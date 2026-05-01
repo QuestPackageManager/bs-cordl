@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "ModestTree/Assert.hpp"
 #include "ModestTree/LinqExtensions.hpp"
@@ -11,6 +11,5 @@
 #include "ModestTree/TypeExtensions.hpp"
 #include "ModestTree/TypeStringFormatter.hpp"
 #ifdef __cpp_modules
-                    export module ModestTree;
-                    #endif
-                
+export module ModestTree;
+#endif

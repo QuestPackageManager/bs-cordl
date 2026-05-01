@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::X509::Store {
 // CS Name: Org.BouncyCastle.X509.Store.X509StoreException
 class CORDL_TYPE X509StoreException : public ::System::Exception {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor() ;
+  // Declarations
+  static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor();
 
-static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor(::StringW  message) ;
+  static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor(::StringW message);
 
-static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor(::StringW  message, ::System::Exception*  e) ;
+  static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor(::StringW message, ::System::Exception* e);
 
-/// @brief Method .ctor, addr 0x35446d8, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3580d1c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x3544730, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x3580d74, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x354479c, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  e) ;
+  /// @brief Method .ctor, addr 0x3580de0, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr X509StoreException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509StoreException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "X509StoreException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  X509StoreException(X509StoreException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "X509StoreException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-X509StoreException(X509StoreException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "X509StoreException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  X509StoreException(X509StoreException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "X509StoreException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-X509StoreException(X509StoreException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1844 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1844};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::Store::X509StoreException, 0x90>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::X509::Store
+} // namespace Org::BouncyCastle::X509::Store
 NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509StoreException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::X509StoreException*, "Org.BouncyCastle.X509.Store", "X509StoreException");

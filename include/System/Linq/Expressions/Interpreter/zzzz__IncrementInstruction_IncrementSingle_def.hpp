@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.IncrementInstruction/IncrementSingle
 class CORDL_TYPE IncrementInstruction_IncrementSingle : public ::System::Linq::Expressions::Interpreter::IncrementInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::IncrementInstruction_IncrementSingle* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::IncrementInstruction_IncrementSingle* New_ctor();
 
-/// @brief Method Run, addr 0x5de3730, size 0x88, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e5573c, size 0x88, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5de3360, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e5536c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IncrementInstruction_IncrementSingle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IncrementInstruction_IncrementSingle();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction_IncrementSingle", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IncrementInstruction_IncrementSingle(IncrementInstruction_IncrementSingle&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction_IncrementSingle", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IncrementInstruction_IncrementSingle(IncrementInstruction_IncrementSingle && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction_IncrementSingle", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IncrementInstruction_IncrementSingle(IncrementInstruction_IncrementSingle const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction_IncrementSingle", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IncrementInstruction_IncrementSingle(IncrementInstruction_IncrementSingle const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16364 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16356};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IncrementInstruction_IncrementSingle, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IncrementInstruction_IncrementSingle);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IncrementInstruction_IncrementSingle*, "System.Linq.Expressions.Interpreter", "IncrementInstruction/IncrementSingle");

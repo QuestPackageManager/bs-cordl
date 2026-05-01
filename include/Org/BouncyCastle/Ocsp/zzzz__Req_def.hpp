@@ -26,59 +26,59 @@ namespace Org::BouncyCastle::Ocsp {
 // CS Name: Org.BouncyCastle.Ocsp.Req
 class CORDL_TYPE Req : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
-// Declarations
- __declspec(property(get=get_SingleRequestExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions*  SingleRequestExtensions;
+  // Declarations
+  __declspec(property(get = get_SingleRequestExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* SingleRequestExtensions;
 
-/// @brief Field req, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_req, put=__cordl_internal_set_req)) ::Org::BouncyCastle::Asn1::Ocsp::Request*  req;
+  /// @brief Field req, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req)) ::Org::BouncyCastle::Asn1::Ocsp::Request* req;
 
-/// @brief Method GetCertID, addr 0x347ee38, size 0x6c, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID() ;
+  /// @brief Method GetCertID, addr 0x34bb47c, size 0x6c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-/// @brief Method GetX509Extensions, addr 0x347eebc, size 0x18, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions() ;
+  /// @brief Method GetX509Extensions, addr 0x34bb500, size 0x18, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request*  req) ;
+  static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request* const& __cordl_internal_get_req() const;
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request* const& __cordl_internal_get_req() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request*& __cordl_internal_get_req() ;
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request*& __cordl_internal_get_req();
 
-constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::Request*  value) ;
+  constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::Request* value);
 
-/// @brief Method .ctor, addr 0x3479f50, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::Request*  req) ;
+  /// @brief Method .ctor, addr 0x34b6594, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-/// @brief Method get_SingleRequestExtensions, addr 0x347eea4, size 0x18, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions() ;
+  /// @brief Method get_SingleRequestExtensions, addr 0x34bb4e8, size 0x18, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Req() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Req();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Req", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Req(Req&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Req", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Req(Req && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Req", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Req(Req const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Req", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Req(Req const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1621 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1621};
+  /// @brief Field req, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Ocsp::Request* ___req;
 
-/// @brief Field req, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Ocsp::Request*  ___req;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Ocsp::Req, ___req) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::Req, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Ocsp
+} // namespace Org::BouncyCastle::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Ocsp::Req);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::Req*, "Org.BouncyCastle.Ocsp", "Req");

@@ -17,29 +17,30 @@ class ITypedList;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ITypedList);
-// Dependencies 
+// Dependencies
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.ITypedList
 class CORDL_TYPE ITypedList {
 public:
-// Declarations
-/// @brief Method GetItemProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::ComponentModel::PropertyDescriptorCollection* GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  listAccessors) ;
+  // Declarations
+  /// @brief Method GetItemProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::ComponentModel::PropertyDescriptorCollection*
+  GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
 
-/// @brief Method GetListName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::StringW GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  listAccessors) ;
+  /// @brief Method GetListName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
 
-// Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ITypedList(ITypedList const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ITypedList(ITypedList const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11253};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11260 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def System::ComponentModel
+} // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::ITypedList);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ITypedList*, "System.ComponentModel", "ITypedList");

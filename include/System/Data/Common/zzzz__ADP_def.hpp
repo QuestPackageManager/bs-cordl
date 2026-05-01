@@ -47,147 +47,147 @@ namespace System::Data::Common {
 // CS Name: System.Data.Common.ADP
 class CORDL_TYPE ADP : public ::System::Object {
 public:
-// Declarations
-/// @brief Field AzureSqlServerEndpoints, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_AzureSqlServerEndpoints, put=setStaticF_AzureSqlServerEndpoints)) ::ArrayW<::StringW,::Array<::StringW>*>  AzureSqlServerEndpoints;
+  // Declarations
+  /// @brief Field AzureSqlServerEndpoints, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_AzureSqlServerEndpoints, put = setStaticF_AzureSqlServerEndpoints)) ::ArrayW<::StringW, ::Array<::StringW>*> AzureSqlServerEndpoints;
 
-/// @brief Field PtrSize, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_PtrSize, put=setStaticF_PtrSize)) int32_t  PtrSize;
+  /// @brief Field PtrSize, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_PtrSize, put = setStaticF_PtrSize)) int32_t PtrSize;
 
-/// @brief Field PtrZero, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_PtrZero, put=setStaticF_PtrZero)) ::System::IntPtr  PtrZero;
+  /// @brief Field PtrZero, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_PtrZero, put = setStaticF_PtrZero)) ::System::IntPtr PtrZero;
 
-/// @brief Field StrEmpty, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_StrEmpty, put=setStaticF_StrEmpty)) ::StringW  StrEmpty;
+  /// @brief Field StrEmpty, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_StrEmpty, put = setStaticF_StrEmpty)) ::StringW StrEmpty;
 
-/// @brief Field s_accessViolationType, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_accessViolationType, put=setStaticF_s_accessViolationType)) ::System::Type*  s_accessViolationType;
+  /// @brief Field s_accessViolationType, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_accessViolationType, put = setStaticF_s_accessViolationType)) ::System::Type* s_accessViolationType;
 
-/// @brief Field s_nullReferenceType, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_nullReferenceType, put=setStaticF_s_nullReferenceType)) ::System::Type*  s_nullReferenceType;
+  /// @brief Field s_nullReferenceType, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_nullReferenceType, put = setStaticF_s_nullReferenceType)) ::System::Type* s_nullReferenceType;
 
-/// @brief Field s_outOfMemoryType, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_outOfMemoryType, put=setStaticF_s_outOfMemoryType)) ::System::Type*  s_outOfMemoryType;
+  /// @brief Field s_outOfMemoryType, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_outOfMemoryType, put = setStaticF_s_outOfMemoryType)) ::System::Type* s_outOfMemoryType;
 
-/// @brief Field s_securityType, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_securityType, put=setStaticF_s_securityType)) ::System::Type*  s_securityType;
+  /// @brief Field s_securityType, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_securityType, put = setStaticF_s_securityType)) ::System::Type* s_securityType;
 
-/// @brief Field s_stackOverflowType, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_stackOverflowType, put=setStaticF_s_stackOverflowType)) ::System::Type*  s_stackOverflowType;
+  /// @brief Field s_stackOverflowType, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_stackOverflowType, put = setStaticF_s_stackOverflowType)) ::System::Type* s_stackOverflowType;
 
-/// @brief Field s_threadAbortType, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_threadAbortType, put=setStaticF_s_threadAbortType)) ::System::Type*  s_threadAbortType;
+  /// @brief Field s_threadAbortType, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_threadAbortType, put = setStaticF_s_threadAbortType)) ::System::Type* s_threadAbortType;
 
-/// @brief Method Argument, addr 0x5eec294, size 0x9c, virtual false, abstract: false, final false
-static inline ::System::ArgumentException* Argument(::StringW  error) ;
+  /// @brief Method Argument, addr 0x5f5e2a0, size 0x9c, virtual false, abstract: false, final false
+  static inline ::System::ArgumentException* Argument(::StringW error);
 
-/// @brief Method ArgumentOutOfRange, addr 0x5eec3c0, size 0xac, virtual false, abstract: false, final false
-static inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW  message, ::StringW  parameterName) ;
+  /// @brief Method ArgumentOutOfRange, addr 0x5f5e3cc, size 0xac, virtual false, abstract: false, final false
+  static inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW message, ::StringW parameterName);
 
-/// @brief Method ArgumentOutOfRange, addr 0x5eec330, size 0x90, virtual false, abstract: false, final false
-static inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW  parameterName) ;
+  /// @brief Method ArgumentOutOfRange, addr 0x5f5e33c, size 0x90, virtual false, abstract: false, final false
+  static inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW parameterName);
 
-/// @brief Method InvalidAcceptRejectRule, addr 0x5eeca78, size 0xa0, virtual false, abstract: false, final false
-static inline ::System::ArgumentOutOfRangeException* InvalidAcceptRejectRule(::System::Data::AcceptRejectRule  value) ;
+  /// @brief Method InvalidAcceptRejectRule, addr 0x5f5ea84, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::ArgumentOutOfRangeException* InvalidAcceptRejectRule(::System::Data::AcceptRejectRule value);
 
-/// @brief Method InvalidEnumerationValue, addr 0x5eec8f0, size 0x114, virtual false, abstract: false, final false
-static inline ::System::ArgumentOutOfRangeException* InvalidEnumerationValue(::System::Type*  type, int32_t  value) ;
+  /// @brief Method InvalidEnumerationValue, addr 0x5f5e8fc, size 0x114, virtual false, abstract: false, final false
+  static inline ::System::ArgumentOutOfRangeException* InvalidEnumerationValue(::System::Type* type, int32_t value);
 
-/// @brief Method InvalidMissingSchemaAction, addr 0x5eecb18, size 0xa0, virtual false, abstract: false, final false
-static inline ::System::ArgumentOutOfRangeException* InvalidMissingSchemaAction(::System::Data::MissingSchemaAction  value) ;
+  /// @brief Method InvalidMissingSchemaAction, addr 0x5f5eb24, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::ArgumentOutOfRangeException* InvalidMissingSchemaAction(::System::Data::MissingSchemaAction value);
 
-/// @brief Method InvalidOperation, addr 0x5eec46c, size 0x9c, virtual false, abstract: false, final false
-static inline ::System::InvalidOperationException* InvalidOperation(::StringW  error) ;
+  /// @brief Method InvalidOperation, addr 0x5f5e478, size 0x9c, virtual false, abstract: false, final false
+  static inline ::System::InvalidOperationException* InvalidOperation(::StringW error);
 
-/// @brief Method InvalidRule, addr 0x5eecbb8, size 0xa0, virtual false, abstract: false, final false
-static inline ::System::ArgumentOutOfRangeException* InvalidRule(::System::Data::Rule  value) ;
+  /// @brief Method InvalidRule, addr 0x5f5ebc4, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::ArgumentOutOfRangeException* InvalidRule(::System::Data::Rule value);
 
-/// @brief Method InvalidSeekOrigin, addr 0x5eeca04, size 0x74, virtual false, abstract: false, final false
-static inline ::System::Exception* InvalidSeekOrigin(::StringW  parameterName) ;
+  /// @brief Method InvalidSeekOrigin, addr 0x5f5ea10, size 0x74, virtual false, abstract: false, final false
+  static inline ::System::Exception* InvalidSeekOrigin(::StringW parameterName);
 
-/// @brief Method IsCatchableExceptionType, addr 0x5eec5a4, size 0x1c4, virtual false, abstract: false, final false
-static inline bool IsCatchableExceptionType(::System::Exception*  e) ;
+  /// @brief Method IsCatchableExceptionType, addr 0x5f5e5b0, size 0x1c4, virtual false, abstract: false, final false
+  static inline bool IsCatchableExceptionType(::System::Exception* e);
 
-/// @brief Method IsCatchableOrSecurityExceptionType, addr 0x5eec768, size 0x188, virtual false, abstract: false, final false
-static inline bool IsCatchableOrSecurityExceptionType(::System::Exception*  e) ;
+  /// @brief Method IsCatchableOrSecurityExceptionType, addr 0x5f5e774, size 0x188, virtual false, abstract: false, final false
+  static inline bool IsCatchableOrSecurityExceptionType(::System::Exception* e);
 
-/// @brief Method NotSupported, addr 0x5eec508, size 0x9c, virtual false, abstract: false, final false
-static inline ::System::NotSupportedException* NotSupported(::StringW  error) ;
+  /// @brief Method NotSupported, addr 0x5f5e514, size 0x9c, virtual false, abstract: false, final false
+  static inline ::System::NotSupportedException* NotSupported(::StringW error);
 
-/// @brief Method TraceException, addr 0x5eec100, size 0xac, virtual false, abstract: false, final false
-static inline void TraceException(::StringW  trace, ::System::Exception*  e) ;
+  /// @brief Method TraceException, addr 0x5f5e10c, size 0xac, virtual false, abstract: false, final false
+  static inline void TraceException(::StringW trace, ::System::Exception* e);
 
-/// @brief Method TraceExceptionAsReturnValue, addr 0x5eec1ac, size 0x74, virtual false, abstract: false, final false
-static inline void TraceExceptionAsReturnValue(::System::Exception*  e) ;
+  /// @brief Method TraceExceptionAsReturnValue, addr 0x5f5e1b8, size 0x74, virtual false, abstract: false, final false
+  static inline void TraceExceptionAsReturnValue(::System::Exception* e);
 
-/// @brief Method TraceExceptionWithoutRethrow, addr 0x5eec220, size 0x74, virtual false, abstract: false, final false
-static inline void TraceExceptionWithoutRethrow(::System::Exception*  e) ;
+  /// @brief Method TraceExceptionWithoutRethrow, addr 0x5f5e22c, size 0x74, virtual false, abstract: false, final false
+  static inline void TraceExceptionWithoutRethrow(::System::Exception* e);
 
-/// @brief Method WrongType, addr 0x5eecc58, size 0xcc, virtual false, abstract: false, final false
-static inline ::System::Exception* WrongType(::System::Type*  got, ::System::Type*  expected) ;
+  /// @brief Method WrongType, addr 0x5f5ec64, size 0xcc, virtual false, abstract: false, final false
+  static inline ::System::Exception* WrongType(::System::Type* got, ::System::Type* expected);
 
-static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_AzureSqlServerEndpoints() ;
+  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_AzureSqlServerEndpoints();
 
-static inline int32_t getStaticF_PtrSize() ;
+  static inline int32_t getStaticF_PtrSize();
 
-static inline ::System::IntPtr getStaticF_PtrZero() ;
+  static inline ::System::IntPtr getStaticF_PtrZero();
 
-static inline ::StringW getStaticF_StrEmpty() ;
+  static inline ::StringW getStaticF_StrEmpty();
 
-static inline ::System::Type* getStaticF_s_accessViolationType() ;
+  static inline ::System::Type* getStaticF_s_accessViolationType();
 
-static inline ::System::Type* getStaticF_s_nullReferenceType() ;
+  static inline ::System::Type* getStaticF_s_nullReferenceType();
 
-static inline ::System::Type* getStaticF_s_outOfMemoryType() ;
+  static inline ::System::Type* getStaticF_s_outOfMemoryType();
 
-static inline ::System::Type* getStaticF_s_securityType() ;
+  static inline ::System::Type* getStaticF_s_securityType();
 
-static inline ::System::Type* getStaticF_s_stackOverflowType() ;
+  static inline ::System::Type* getStaticF_s_stackOverflowType();
 
-static inline ::System::Type* getStaticF_s_threadAbortType() ;
+  static inline ::System::Type* getStaticF_s_threadAbortType();
 
-static inline void setStaticF_AzureSqlServerEndpoints(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
+  static inline void setStaticF_AzureSqlServerEndpoints(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-static inline void setStaticF_PtrSize(int32_t  value) ;
+  static inline void setStaticF_PtrSize(int32_t value);
 
-static inline void setStaticF_PtrZero(::System::IntPtr  value) ;
+  static inline void setStaticF_PtrZero(::System::IntPtr value);
 
-static inline void setStaticF_StrEmpty(::StringW  value) ;
+  static inline void setStaticF_StrEmpty(::StringW value);
 
-static inline void setStaticF_s_accessViolationType(::System::Type*  value) ;
+  static inline void setStaticF_s_accessViolationType(::System::Type* value);
 
-static inline void setStaticF_s_nullReferenceType(::System::Type*  value) ;
+  static inline void setStaticF_s_nullReferenceType(::System::Type* value);
 
-static inline void setStaticF_s_outOfMemoryType(::System::Type*  value) ;
+  static inline void setStaticF_s_outOfMemoryType(::System::Type* value);
 
-static inline void setStaticF_s_securityType(::System::Type*  value) ;
+  static inline void setStaticF_s_securityType(::System::Type* value);
 
-static inline void setStaticF_s_stackOverflowType(::System::Type*  value) ;
+  static inline void setStaticF_s_stackOverflowType(::System::Type* value);
 
-static inline void setStaticF_s_threadAbortType(::System::Type*  value) ;
+  static inline void setStaticF_s_threadAbortType(::System::Type* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ADP() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ADP();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ADP", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ADP(ADP&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ADP", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ADP(ADP && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ADP", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ADP(ADP const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ADP", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ADP(ADP const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13897 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13890};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::Common::ADP, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Data::Common
+} // namespace System::Data::Common
 NEED_NO_BOX(::System::Data::Common::ADP);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::ADP*, "System.Data.Common", "ADP");

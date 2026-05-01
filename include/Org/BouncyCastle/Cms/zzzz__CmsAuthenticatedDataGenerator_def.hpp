@@ -30,45 +30,45 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.CmsAuthenticatedDataGenerator
 class CORDL_TYPE CmsAuthenticatedDataGenerator : public ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator {
 public:
-// Declarations
-/// @brief Method Generate, addr 0x35aad6c, size 0x1b0, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable*  content, ::StringW  encryptionOid) ;
+  // Declarations
+  /// @brief Method Generate, addr 0x35e73b0, size 0x1b0, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-/// @brief Method Generate, addr 0x35aa244, size 0xb28, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable*  content, ::StringW  macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator*  keyGen) ;
+  /// @brief Method Generate, addr 0x35e6888, size 0xb28, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor() ;
+  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor();
 
-static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom*  rand) ;
+  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-/// @brief Method .ctor, addr 0x35aa23c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x35e6880, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x35aa240, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Security::SecureRandom*  rand) ;
+  /// @brief Method .ctor, addr 0x35e6884, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CmsAuthenticatedDataGenerator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsAuthenticatedDataGenerator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataGenerator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CmsAuthenticatedDataGenerator(CmsAuthenticatedDataGenerator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataGenerator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CmsAuthenticatedDataGenerator(CmsAuthenticatedDataGenerator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataGenerator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CmsAuthenticatedDataGenerator(CmsAuthenticatedDataGenerator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataGenerator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CmsAuthenticatedDataGenerator(CmsAuthenticatedDataGenerator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 619 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{619};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator, 0x28>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Cms
+} // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator*, "Org.BouncyCastle.Cms", "CmsAuthenticatedDataGenerator");

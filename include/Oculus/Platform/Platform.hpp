@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Oculus/Platform/AbuseReport.hpp"
 #include "Oculus/Platform/AbuseReportOptions.hpp"
@@ -180,6 +180,5 @@
 #include "Oculus/Platform/Vrcamera.hpp"
 #include "Oculus/Platform/WindowsPlatform.hpp"
 #ifdef __cpp_modules
-                    export module Platform;
-                    #endif
-                
+export module Platform;
+#endif

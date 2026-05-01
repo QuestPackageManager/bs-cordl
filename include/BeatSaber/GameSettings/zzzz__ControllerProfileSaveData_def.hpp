@@ -21,66 +21,67 @@ namespace BeatSaber::GameSettings {
 // CS Name: BeatSaber.GameSettings.ControllerProfileSaveData
 class CORDL_TYPE ControllerProfileSaveData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field alternativeHandling, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_alternativeHandling, put=__cordl_internal_set_alternativeHandling)) bool  alternativeHandling;
+  // Declarations
+  /// @brief Field alternativeHandling, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_alternativeHandling, put = __cordl_internal_set_alternativeHandling)) bool alternativeHandling;
 
-/// @brief Field leftController, offset 0x14, size 0x18 
- __declspec(property(get=__cordl_internal_get_leftController, put=__cordl_internal_set_leftController)) ::BeatSaber::GameSettings::Controller  leftController;
+  /// @brief Field leftController, offset 0x14, size 0x18
+  __declspec(property(get = __cordl_internal_get_leftController, put = __cordl_internal_set_leftController)) ::BeatSaber::GameSettings::Controller leftController;
 
-/// @brief Field rightController, offset 0x2c, size 0x18 
- __declspec(property(get=__cordl_internal_get_rightController, put=__cordl_internal_set_rightController)) ::BeatSaber::GameSettings::Controller  rightController;
+  /// @brief Field rightController, offset 0x2c, size 0x18
+  __declspec(property(get = __cordl_internal_get_rightController, put = __cordl_internal_set_rightController)) ::BeatSaber::GameSettings::Controller rightController;
 
-static inline ::BeatSaber::GameSettings::ControllerProfileSaveData* New_ctor(bool  alternativeHandling, ::BeatSaber::GameSettings::Controller  leftController, ::BeatSaber::GameSettings::Controller  rightController) ;
+  static inline ::BeatSaber::GameSettings::ControllerProfileSaveData* New_ctor(bool alternativeHandling, ::BeatSaber::GameSettings::Controller leftController,
+                                                                               ::BeatSaber::GameSettings::Controller rightController);
 
-constexpr bool const& __cordl_internal_get_alternativeHandling() const;
+  constexpr bool const& __cordl_internal_get_alternativeHandling() const;
 
-constexpr bool& __cordl_internal_get_alternativeHandling() ;
+  constexpr bool& __cordl_internal_get_alternativeHandling();
 
-constexpr ::BeatSaber::GameSettings::Controller const& __cordl_internal_get_leftController() const;
+  constexpr ::BeatSaber::GameSettings::Controller const& __cordl_internal_get_leftController() const;
 
-constexpr ::BeatSaber::GameSettings::Controller& __cordl_internal_get_leftController() ;
+  constexpr ::BeatSaber::GameSettings::Controller& __cordl_internal_get_leftController();
 
-constexpr ::BeatSaber::GameSettings::Controller const& __cordl_internal_get_rightController() const;
+  constexpr ::BeatSaber::GameSettings::Controller const& __cordl_internal_get_rightController() const;
 
-constexpr ::BeatSaber::GameSettings::Controller& __cordl_internal_get_rightController() ;
+  constexpr ::BeatSaber::GameSettings::Controller& __cordl_internal_get_rightController();
 
-constexpr void __cordl_internal_set_alternativeHandling(bool  value) ;
+  constexpr void __cordl_internal_set_alternativeHandling(bool value);
 
-constexpr void __cordl_internal_set_leftController(::BeatSaber::GameSettings::Controller  value) ;
+  constexpr void __cordl_internal_set_leftController(::BeatSaber::GameSettings::Controller value);
 
-constexpr void __cordl_internal_set_rightController(::BeatSaber::GameSettings::Controller  value) ;
+  constexpr void __cordl_internal_set_rightController(::BeatSaber::GameSettings::Controller value);
 
-/// @brief Method .ctor, addr 0x31c3790, size 0x28, virtual false, abstract: false, final false
-inline void _ctor(bool  alternativeHandling, ::BeatSaber::GameSettings::Controller  leftController, ::BeatSaber::GameSettings::Controller  rightController) ;
+  /// @brief Method .ctor, addr 0x31fcd44, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(bool alternativeHandling, ::BeatSaber::GameSettings::Controller leftController, ::BeatSaber::GameSettings::Controller rightController);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ControllerProfileSaveData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ControllerProfileSaveData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileSaveData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ControllerProfileSaveData(ControllerProfileSaveData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ControllerProfileSaveData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ControllerProfileSaveData(ControllerProfileSaveData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileSaveData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ControllerProfileSaveData(ControllerProfileSaveData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ControllerProfileSaveData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ControllerProfileSaveData(ControllerProfileSaveData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21897 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21886};
+  /// @brief Field alternativeHandling, offset: 0x10, size: 0x1, def value: None
+  bool ___alternativeHandling;
 
-/// @brief Field alternativeHandling, offset: 0x10, size: 0x1, def value: None
- bool  ___alternativeHandling;
+  /// @brief Field leftController, offset: 0x14, size: 0x18, def value: None
+  ::BeatSaber::GameSettings::Controller ___leftController;
 
-/// @brief Field leftController, offset: 0x14, size: 0x18, def value: None
- ::BeatSaber::GameSettings::Controller  ___leftController;
+  /// @brief Field rightController, offset: 0x2c, size: 0x18, def value: None
+  ::BeatSaber::GameSettings::Controller ___rightController;
 
-/// @brief Field rightController, offset: 0x2c, size: 0x18, def value: None
- ::BeatSaber::GameSettings::Controller  ___rightController;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfileSaveData, ___alternativeHandling) == 0x10, "Offset mismatch!");
@@ -91,6 +92,6 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfileSaveData, ___
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::ControllerProfileSaveData, 0x48>, "Size mismatch!");
 
-} // namespace end def BeatSaber::GameSettings
+} // namespace BeatSaber::GameSettings
 NEED_NO_BOX(::BeatSaber::GameSettings::ControllerProfileSaveData);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::GameSettings::ControllerProfileSaveData*, "BeatSaber.GameSettings", "ControllerProfileSaveData");

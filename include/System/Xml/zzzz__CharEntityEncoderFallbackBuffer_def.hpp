@@ -22,89 +22,89 @@ namespace System::Xml {
 // CS Name: System.Xml.CharEntityEncoderFallbackBuffer
 class CORDL_TYPE CharEntityEncoderFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
-// Declarations
- __declspec(property(get=get_Remaining)) int32_t  Remaining;
+  // Declarations
+  __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-/// @brief Field charEntity, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_charEntity, put=__cordl_internal_set_charEntity)) ::StringW  charEntity;
+  /// @brief Field charEntity, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_charEntity, put = __cordl_internal_set_charEntity)) ::StringW charEntity;
 
-/// @brief Field charEntityIndex, offset 0x40, size 0x4 
- __declspec(property(get=__cordl_internal_get_charEntityIndex, put=__cordl_internal_set_charEntityIndex)) int32_t  charEntityIndex;
+  /// @brief Field charEntityIndex, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_charEntityIndex, put = __cordl_internal_set_charEntityIndex)) int32_t charEntityIndex;
 
-/// @brief Field parent, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_parent, put=__cordl_internal_set_parent)) ::System::Xml::CharEntityEncoderFallback*  parent;
+  /// @brief Field parent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent)) ::System::Xml::CharEntityEncoderFallback* parent;
 
-/// @brief Method Fallback, addr 0x5ff876c, size 0x1d0, virtual true, abstract: false, final false
-inline bool Fallback(char16_t  charUnknown, int32_t  index) ;
+  /// @brief Method Fallback, addr 0x606a778, size 0x1d0, virtual true, abstract: false, final false
+  inline bool Fallback(char16_t charUnknown, int32_t index);
 
-/// @brief Method Fallback, addr 0x5ff893c, size 0x25c, virtual true, abstract: false, final false
-inline bool Fallback(char16_t  charUnknownHigh, char16_t  charUnknownLow, int32_t  index) ;
+  /// @brief Method Fallback, addr 0x606a948, size 0x25c, virtual true, abstract: false, final false
+  inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-/// @brief Method GetNextChar, addr 0x5ff8bb4, size 0x6c, virtual true, abstract: false, final false
-inline char16_t GetNextChar() ;
+  /// @brief Method GetNextChar, addr 0x606abc0, size 0x6c, virtual true, abstract: false, final false
+  inline char16_t GetNextChar();
 
-/// @brief Method MovePrevious, addr 0x5ff8c20, size 0x1c, virtual true, abstract: false, final false
-inline bool MovePrevious() ;
+  /// @brief Method MovePrevious, addr 0x606ac2c, size 0x1c, virtual true, abstract: false, final false
+  inline bool MovePrevious();
 
-static inline ::System::Xml::CharEntityEncoderFallbackBuffer* New_ctor(::System::Xml::CharEntityEncoderFallback*  parent) ;
+  static inline ::System::Xml::CharEntityEncoderFallbackBuffer* New_ctor(::System::Xml::CharEntityEncoderFallback* parent);
 
-/// @brief Method Reset, addr 0x5ff8c6c, size 0xc, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x606ac78, size 0xc, virtual true, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method SurrogateCharToUtf32, addr 0x5ff8b98, size 0x1c, virtual false, abstract: false, final false
-inline int32_t SurrogateCharToUtf32(char16_t  highSurrogate, char16_t  lowSurrogate) ;
+  /// @brief Method SurrogateCharToUtf32, addr 0x606aba4, size 0x1c, virtual false, abstract: false, final false
+  inline int32_t SurrogateCharToUtf32(char16_t highSurrogate, char16_t lowSurrogate);
 
-constexpr ::StringW const& __cordl_internal_get_charEntity() const;
+  constexpr ::StringW const& __cordl_internal_get_charEntity() const;
 
-constexpr ::StringW& __cordl_internal_get_charEntity() ;
+  constexpr ::StringW& __cordl_internal_get_charEntity();
 
-constexpr int32_t const& __cordl_internal_get_charEntityIndex() const;
+  constexpr int32_t const& __cordl_internal_get_charEntityIndex() const;
 
-constexpr int32_t& __cordl_internal_get_charEntityIndex() ;
+  constexpr int32_t& __cordl_internal_get_charEntityIndex();
 
-constexpr ::System::Xml::CharEntityEncoderFallback* const& __cordl_internal_get_parent() const;
+  constexpr ::System::Xml::CharEntityEncoderFallback* const& __cordl_internal_get_parent() const;
 
-constexpr ::System::Xml::CharEntityEncoderFallback*& __cordl_internal_get_parent() ;
+  constexpr ::System::Xml::CharEntityEncoderFallback*& __cordl_internal_get_parent();
 
-constexpr void __cordl_internal_set_charEntity(::StringW  value) ;
+  constexpr void __cordl_internal_set_charEntity(::StringW value);
 
-constexpr void __cordl_internal_set_charEntityIndex(int32_t  value) ;
+  constexpr void __cordl_internal_set_charEntityIndex(int32_t value);
 
-constexpr void __cordl_internal_set_parent(::System::Xml::CharEntityEncoderFallback*  value) ;
+  constexpr void __cordl_internal_set_parent(::System::Xml::CharEntityEncoderFallback* value);
 
-/// @brief Method .ctor, addr 0x5ff86b0, size 0x20, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::CharEntityEncoderFallback*  parent) ;
+  /// @brief Method .ctor, addr 0x606a6bc, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::CharEntityEncoderFallback* parent);
 
-/// @brief Method get_Remaining, addr 0x5ff8c3c, size 0x30, virtual true, abstract: false, final false
-inline int32_t get_Remaining() ;
+  /// @brief Method get_Remaining, addr 0x606ac48, size 0x30, virtual true, abstract: false, final false
+  inline int32_t get_Remaining();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CharEntityEncoderFallbackBuffer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CharEntityEncoderFallbackBuffer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallbackBuffer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallbackBuffer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallbackBuffer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallbackBuffer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9252 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9246};
+  /// @brief Field parent, offset: 0x30, size: 0x8, def value: None
+  ::System::Xml::CharEntityEncoderFallback* ___parent;
 
-/// @brief Field parent, offset: 0x30, size: 0x8, def value: None
- ::System::Xml::CharEntityEncoderFallback*  ___parent;
+  /// @brief Field charEntity, offset: 0x38, size: 0x8, def value: None
+  ::StringW ___charEntity;
 
-/// @brief Field charEntity, offset: 0x38, size: 0x8, def value: None
- ::StringW  ___charEntity;
+  /// @brief Field charEntityIndex, offset: 0x40, size: 0x4, def value: None
+  int32_t ___charEntityIndex;
 
-/// @brief Field charEntityIndex, offset: 0x40, size: 0x4, def value: None
- int32_t  ___charEntityIndex;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::CharEntityEncoderFallbackBuffer, ___parent) == 0x30, "Offset mismatch!");
@@ -115,6 +115,6 @@ static_assert(offsetof(::System::Xml::CharEntityEncoderFallbackBuffer, ___charEn
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::CharEntityEncoderFallbackBuffer, 0x48>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::CharEntityEncoderFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");

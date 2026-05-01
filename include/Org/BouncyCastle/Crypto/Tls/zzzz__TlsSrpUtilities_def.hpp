@@ -27,55 +27,55 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsSrpUtilities
 class CORDL_TYPE TlsSrpUtilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Method AddSrpExtension, addr 0x339657c, size 0xe0, virtual false, abstract: false, final false
-static inline void AddSrpExtension(::System::Collections::IDictionary*  extensions, ::ArrayW<uint8_t,::Array<uint8_t>*>  identity) ;
+  // Declarations
+  /// @brief Method AddSrpExtension, addr 0x33d2bc0, size 0xe0, virtual false, abstract: false, final false
+  static inline void AddSrpExtension(::System::Collections::IDictionary* extensions, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-/// @brief Method CreateSrpExtension, addr 0x339665c, size 0x90, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CreateSrpExtension(::ArrayW<uint8_t,::Array<uint8_t>*>  identity) ;
+  /// @brief Method CreateSrpExtension, addr 0x33d2ca0, size 0x90, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateSrpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-/// @brief Method GetSrpExtension, addr 0x33966ec, size 0x70, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetSrpExtension(::System::Collections::IDictionary*  extensions) ;
+  /// @brief Method GetSrpExtension, addr 0x33d2d30, size 0x70, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSrpExtension(::System::Collections::IDictionary* extensions);
 
-/// @brief Method IsSrpCipherSuite, addr 0x33968e4, size 0x14, virtual false, abstract: false, final false
-static inline bool IsSrpCipherSuite(int32_t  cipherSuite) ;
+  /// @brief Method IsSrpCipherSuite, addr 0x33d2f28, size 0x14, virtual false, abstract: false, final false
+  static inline bool IsSrpCipherSuite(int32_t cipherSuite);
 
-static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities* New_ctor();
 
-/// @brief Method ReadSrpExtension, addr 0x339675c, size 0xf0, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ReadSrpExtension(::ArrayW<uint8_t,::Array<uint8_t>*>  extensionData) ;
+  /// @brief Method ReadSrpExtension, addr 0x33d2da0, size 0xf0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadSrpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-/// @brief Method ReadSrpParameter, addr 0x33961c0, size 0x9c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Math::BigInteger* ReadSrpParameter(::System::IO::Stream*  input) ;
+  /// @brief Method ReadSrpParameter, addr 0x33d2804, size 0x9c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* ReadSrpParameter(::System::IO::Stream* input);
 
-/// @brief Method WriteSrpParameter, addr 0x3395f5c, size 0x84, virtual false, abstract: false, final false
-static inline void WriteSrpParameter(::Org::BouncyCastle::Math::BigInteger*  x, ::System::IO::Stream*  output) ;
+  /// @brief Method WriteSrpParameter, addr 0x33d25a0, size 0x84, virtual false, abstract: false, final false
+  static inline void WriteSrpParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
 
-/// @brief Method .ctor, addr 0x33968f8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x33d2f3c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TlsSrpUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsSrpUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TlsSrpUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TlsSrpUtilities(TlsSrpUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TlsSrpUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TlsSrpUtilities(TlsSrpUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TlsSrpUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TlsSrpUtilities(TlsSrpUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TlsSrpUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TlsSrpUtilities(TlsSrpUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1328 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1328};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsSrpUtilities");

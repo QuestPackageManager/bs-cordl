@@ -7,19 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ITextEdition)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
 }
 namespace System {
-template<typename TResult>
-class Func_1;
+template <typename TResult> class Func_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
 struct TouchScreenKeyboardType;
@@ -30,171 +27,171 @@ class ITextEdition;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ITextEdition);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ITextEdition
 class CORDL_TYPE ITextEdition {
 public:
-// Declarations
- __declspec(property(get=get_AcceptCharacter, put=set_AcceptCharacter)) ::System::Func_2<char16_t,bool>*  AcceptCharacter;
+  // Declarations
+  __declspec(property(get = get_AcceptCharacter, put = set_AcceptCharacter)) ::System::Func_2<char16_t, bool>* AcceptCharacter;
 
- __declspec(property(get=get_GetDefaultValueType, put=set_GetDefaultValueType)) ::System::Func_1<::StringW>*  GetDefaultValueType;
+  __declspec(property(get = get_GetDefaultValueType, put = set_GetDefaultValueType)) ::System::Func_1<::StringW>* GetDefaultValueType;
 
- __declspec(property(get=get_MoveFocusToCompositeRoot, put=set_MoveFocusToCompositeRoot)) ::System::Action*  MoveFocusToCompositeRoot;
+  __declspec(property(get = get_MoveFocusToCompositeRoot, put = set_MoveFocusToCompositeRoot)) ::System::Action* MoveFocusToCompositeRoot;
 
- __declspec(property(get=get_UpdateScrollOffset, put=set_UpdateScrollOffset)) ::System::Action_1<bool>*  UpdateScrollOffset;
+  __declspec(property(get = get_UpdateScrollOffset, put = set_UpdateScrollOffset)) ::System::Action_1<bool>* UpdateScrollOffset;
 
- __declspec(property(get=get_UpdateTextFromValue, put=set_UpdateTextFromValue)) ::System::Action*  UpdateTextFromValue;
+  __declspec(property(get = get_UpdateTextFromValue, put = set_UpdateTextFromValue)) ::System::Action* UpdateTextFromValue;
 
- __declspec(property(get=get_UpdateValueFromText, put=set_UpdateValueFromText)) ::System::Action*  UpdateValueFromText;
+  __declspec(property(get = get_UpdateValueFromText, put = set_UpdateValueFromText)) ::System::Action* UpdateValueFromText;
 
- __declspec(property(get=get_autoCorrection, put=set_autoCorrection)) bool  autoCorrection;
+  __declspec(property(get = get_autoCorrection, put = set_autoCorrection)) bool autoCorrection;
 
- __declspec(property(get=get_hideMobileInput, put=set_hideMobileInput)) bool  hideMobileInput;
+  __declspec(property(get = get_hideMobileInput, put = set_hideMobileInput)) bool hideMobileInput;
 
- __declspec(property(get=get_hidePlaceholderOnFocus, put=set_hidePlaceholderOnFocus)) bool  hidePlaceholderOnFocus;
+  __declspec(property(get = get_hidePlaceholderOnFocus, put = set_hidePlaceholderOnFocus)) bool hidePlaceholderOnFocus;
 
- __declspec(property(get=get_isDelayed, put=set_isDelayed)) bool  isDelayed;
+  __declspec(property(get = get_isDelayed, put = set_isDelayed)) bool isDelayed;
 
- __declspec(property(get=get_isPassword, put=set_isPassword)) bool  isPassword;
+  __declspec(property(get = get_isPassword, put = set_isPassword)) bool isPassword;
 
- __declspec(property(get=get_isReadOnly, put=set_isReadOnly)) bool  isReadOnly;
+  __declspec(property(get = get_isReadOnly, put = set_isReadOnly)) bool isReadOnly;
 
- __declspec(property(get=get_keyboardType, put=set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType  keyboardType;
+  __declspec(property(get = get_keyboardType, put = set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType keyboardType;
 
- __declspec(property(get=get_maskChar, put=set_maskChar)) char16_t  maskChar;
+  __declspec(property(get = get_maskChar, put = set_maskChar)) char16_t maskChar;
 
- __declspec(property(get=get_maxLength, put=set_maxLength)) int32_t  maxLength;
+  __declspec(property(get = get_maxLength, put = set_maxLength)) int32_t maxLength;
 
- __declspec(property(get=get_multiline, put=set_multiline)) bool  multiline;
+  __declspec(property(get = get_multiline, put = set_multiline)) bool multiline;
 
- __declspec(property(get=get_placeholder, put=set_placeholder)) ::StringW  placeholder;
+  __declspec(property(get = get_placeholder, put = set_placeholder)) ::StringW placeholder;
 
-/// @brief Method CullString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::StringW CullString(::StringW  s) ;
+  /// @brief Method CullString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW CullString(::StringW s);
 
-/// @brief Method RestoreValueAndText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void RestoreValueAndText() ;
+  /// @brief Method RestoreValueAndText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void RestoreValueAndText();
 
-/// @brief Method SaveValueAndText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void SaveValueAndText() ;
+  /// @brief Method SaveValueAndText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SaveValueAndText();
 
-/// @brief Method UpdateText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void UpdateText(::StringW  value) ;
+  /// @brief Method UpdateText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void UpdateText(::StringW value);
 
-/// @brief Method get_AcceptCharacter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Func_2<char16_t,bool>* get_AcceptCharacter() ;
+  /// @brief Method get_AcceptCharacter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Func_2<char16_t, bool>* get_AcceptCharacter();
 
-/// @brief Method get_GetDefaultValueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Func_1<::StringW>* get_GetDefaultValueType() ;
+  /// @brief Method get_GetDefaultValueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Func_1<::StringW>* get_GetDefaultValueType();
 
-/// @brief Method get_MoveFocusToCompositeRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Action* get_MoveFocusToCompositeRoot() ;
+  /// @brief Method get_MoveFocusToCompositeRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Action* get_MoveFocusToCompositeRoot();
 
-/// @brief Method get_UpdateScrollOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Action_1<bool>* get_UpdateScrollOffset() ;
+  /// @brief Method get_UpdateScrollOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Action_1<bool>* get_UpdateScrollOffset();
 
-/// @brief Method get_UpdateTextFromValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Action* get_UpdateTextFromValue() ;
+  /// @brief Method get_UpdateTextFromValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Action* get_UpdateTextFromValue();
 
-/// @brief Method get_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Action* get_UpdateValueFromText() ;
+  /// @brief Method get_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Action* get_UpdateValueFromText();
 
-/// @brief Method get_autoCorrection, addr 0x6ae778c, size 0xd4, virtual true, abstract: false, final false
-inline bool get_autoCorrection() ;
+  /// @brief Method get_autoCorrection, addr 0x6b599d4, size 0xd4, virtual true, abstract: false, final false
+  inline bool get_autoCorrection();
 
-/// @brief Method get_hideMobileInput, addr 0x6ae792c, size 0xd4, virtual true, abstract: false, final false
-inline bool get_hideMobileInput() ;
+  /// @brief Method get_hideMobileInput, addr 0x6b59b74, size 0xd4, virtual true, abstract: false, final false
+  inline bool get_hideMobileInput();
 
-/// @brief Method get_hidePlaceholderOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_hidePlaceholderOnFocus() ;
+  /// @brief Method get_hidePlaceholderOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_hidePlaceholderOnFocus();
 
-/// @brief Method get_isDelayed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_isDelayed() ;
+  /// @brief Method get_isDelayed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_isDelayed();
 
-/// @brief Method get_isPassword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_isPassword() ;
+  /// @brief Method get_isPassword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_isPassword();
 
-/// @brief Method get_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_isReadOnly() ;
+  /// @brief Method get_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_isReadOnly();
 
-/// @brief Method get_keyboardType, addr 0x6ae7acc, size 0xd4, virtual true, abstract: false, final false
-inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType() ;
+  /// @brief Method get_keyboardType, addr 0x6b59d14, size 0xd4, virtual true, abstract: false, final false
+  inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
 
-/// @brief Method get_maskChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline char16_t get_maskChar() ;
+  /// @brief Method get_maskChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline char16_t get_maskChar();
 
-/// @brief Method get_maxLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline int32_t get_maxLength() ;
+  /// @brief Method get_maxLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_maxLength();
 
-/// @brief Method get_multiline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline bool get_multiline() ;
+  /// @brief Method get_multiline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_multiline();
 
-/// @brief Method get_placeholder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::StringW get_placeholder() ;
+  /// @brief Method get_placeholder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_placeholder();
 
-/// @brief Method set_AcceptCharacter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_AcceptCharacter(::System::Func_2<char16_t,bool>*  value) ;
+  /// @brief Method set_AcceptCharacter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_AcceptCharacter(::System::Func_2<char16_t, bool>* value);
 
-/// @brief Method set_GetDefaultValueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_GetDefaultValueType(::System::Func_1<::StringW>*  value) ;
+  /// @brief Method set_GetDefaultValueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_GetDefaultValueType(::System::Func_1<::StringW>* value);
 
-/// @brief Method set_MoveFocusToCompositeRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_MoveFocusToCompositeRoot(::System::Action*  value) ;
+  /// @brief Method set_MoveFocusToCompositeRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_MoveFocusToCompositeRoot(::System::Action* value);
 
-/// @brief Method set_UpdateScrollOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_UpdateScrollOffset(::System::Action_1<bool>*  value) ;
+  /// @brief Method set_UpdateScrollOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_UpdateScrollOffset(::System::Action_1<bool>* value);
 
-/// @brief Method set_UpdateTextFromValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_UpdateTextFromValue(::System::Action*  value) ;
+  /// @brief Method set_UpdateTextFromValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_UpdateTextFromValue(::System::Action* value);
 
-/// @brief Method set_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_UpdateValueFromText(::System::Action*  value) ;
+  /// @brief Method set_UpdateValueFromText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_UpdateValueFromText(::System::Action* value);
 
-/// @brief Method set_autoCorrection, addr 0x6ae7860, size 0xcc, virtual true, abstract: false, final false
-inline void set_autoCorrection(bool  value) ;
+  /// @brief Method set_autoCorrection, addr 0x6b59aa8, size 0xcc, virtual true, abstract: false, final false
+  inline void set_autoCorrection(bool value);
 
-/// @brief Method set_hideMobileInput, addr 0x6ae7a00, size 0xcc, virtual true, abstract: false, final false
-inline void set_hideMobileInput(bool  value) ;
+  /// @brief Method set_hideMobileInput, addr 0x6b59c48, size 0xcc, virtual true, abstract: false, final false
+  inline void set_hideMobileInput(bool value);
 
-/// @brief Method set_hidePlaceholderOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_hidePlaceholderOnFocus(bool  value) ;
+  /// @brief Method set_hidePlaceholderOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_hidePlaceholderOnFocus(bool value);
 
-/// @brief Method set_isDelayed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_isDelayed(bool  value) ;
+  /// @brief Method set_isDelayed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_isDelayed(bool value);
 
-/// @brief Method set_isPassword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_isPassword(bool  value) ;
+  /// @brief Method set_isPassword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_isPassword(bool value);
 
-/// @brief Method set_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_isReadOnly(bool  value) ;
+  /// @brief Method set_isReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_isReadOnly(bool value);
 
-/// @brief Method set_keyboardType, addr 0x6ae7ba0, size 0xcc, virtual true, abstract: false, final false
-inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType  value) ;
+  /// @brief Method set_keyboardType, addr 0x6b59de8, size 0xcc, virtual true, abstract: false, final false
+  inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
-/// @brief Method set_maskChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_maskChar(char16_t  value) ;
+  /// @brief Method set_maskChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_maskChar(char16_t value);
 
-/// @brief Method set_maxLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_maxLength(int32_t  value) ;
+  /// @brief Method set_maxLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_maxLength(int32_t value);
 
-/// @brief Method set_multiline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_multiline(bool  value) ;
+  /// @brief Method set_multiline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_multiline(bool value);
 
-/// @brief Method set_placeholder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void set_placeholder(::StringW  value) ;
+  /// @brief Method set_placeholder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_placeholder(::StringW value);
 
-// Ctor Parameters [CppParam { name: "", ty: "ITextEdition", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ITextEdition(ITextEdition const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ITextEdition", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ITextEdition(ITextEdition const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5103};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5103 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ITextEdition);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ITextEdition*, "UnityEngine.UIElements", "ITextEdition");

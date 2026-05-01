@@ -17,34 +17,34 @@ namespace Unity::Burst {
 // CS Name: Unity.Burst.NoAliasAttribute
 class CORDL_TYPE NoAliasAttribute : public ::System::Attribute {
 public:
-// Declarations
-static inline ::Unity::Burst::NoAliasAttribute* New_ctor() ;
+  // Declarations
+  static inline ::Unity::Burst::NoAliasAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x62c24e4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x63344f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NoAliasAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoAliasAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NoAliasAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NoAliasAttribute(NoAliasAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoAliasAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NoAliasAttribute(NoAliasAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NoAliasAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NoAliasAttribute(NoAliasAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoAliasAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NoAliasAttribute(NoAliasAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17311 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17303};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::NoAliasAttribute, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Burst
+} // namespace Unity::Burst
 NEED_NO_BOX(::Unity::Burst::NoAliasAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::NoAliasAttribute*, "Unity.Burst", "NoAliasAttribute");

@@ -13,8 +13,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlWriterSettings)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System::IO {
 class Stream;
@@ -61,461 +60,461 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlWriterSettings
 class CORDL_TYPE XmlWriterSettings : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Async)) bool  Async;
+  // Declarations
+  __declspec(property(get = get_Async)) bool Async;
 
- __declspec(property(get=get_AutoXmlDeclaration)) bool  AutoXmlDeclaration;
+  __declspec(property(get = get_AutoXmlDeclaration)) bool AutoXmlDeclaration;
 
- __declspec(property(get=get_CDataSectionElements)) ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*  CDataSectionElements;
+  __declspec(property(get = get_CDataSectionElements)) ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* CDataSectionElements;
 
- __declspec(property(get=get_CheckCharacters)) bool  CheckCharacters;
+  __declspec(property(get = get_CheckCharacters)) bool CheckCharacters;
 
- __declspec(property(get=get_CloseOutput)) bool  CloseOutput;
+  __declspec(property(get = get_CloseOutput)) bool CloseOutput;
 
- __declspec(property(get=get_ConformanceLevel, put=set_ConformanceLevel)) ::System::Xml::ConformanceLevel  ConformanceLevel;
+  __declspec(property(get = get_ConformanceLevel, put = set_ConformanceLevel)) ::System::Xml::ConformanceLevel ConformanceLevel;
 
- __declspec(property(get=get_DoNotEscapeUriAttributes)) bool  DoNotEscapeUriAttributes;
+  __declspec(property(get = get_DoNotEscapeUriAttributes)) bool DoNotEscapeUriAttributes;
 
- __declspec(property(get=get_DocTypePublic)) ::StringW  DocTypePublic;
+  __declspec(property(get = get_DocTypePublic)) ::StringW DocTypePublic;
 
- __declspec(property(get=get_DocTypeSystem)) ::StringW  DocTypeSystem;
+  __declspec(property(get = get_DocTypeSystem)) ::StringW DocTypeSystem;
 
- __declspec(property(get=get_Encoding)) ::System::Text::Encoding*  Encoding;
+  __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
 
- __declspec(property(get=get_Indent, put=set_Indent)) bool  Indent;
+  __declspec(property(get = get_Indent, put = set_Indent)) bool Indent;
 
- __declspec(property(get=get_IndentChars)) ::StringW  IndentChars;
+  __declspec(property(get = get_IndentChars)) ::StringW IndentChars;
 
- __declspec(property(get=get_IndentInternal)) ::System::Xml::TriState  IndentInternal;
+  __declspec(property(get = get_IndentInternal)) ::System::Xml::TriState IndentInternal;
 
- __declspec(property(get=get_IsQuerySpecific)) bool  IsQuerySpecific;
+  __declspec(property(get = get_IsQuerySpecific)) bool IsQuerySpecific;
 
- __declspec(property(get=get_MediaType)) ::StringW  MediaType;
+  __declspec(property(get = get_MediaType)) ::StringW MediaType;
 
- __declspec(property(get=get_MergeCDataSections)) bool  MergeCDataSections;
+  __declspec(property(get = get_MergeCDataSections)) bool MergeCDataSections;
 
- __declspec(property(get=get_NamespaceHandling, put=set_NamespaceHandling)) ::System::Xml::NamespaceHandling  NamespaceHandling;
+  __declspec(property(get = get_NamespaceHandling, put = set_NamespaceHandling)) ::System::Xml::NamespaceHandling NamespaceHandling;
 
- __declspec(property(get=get_NewLineChars)) ::StringW  NewLineChars;
+  __declspec(property(get = get_NewLineChars)) ::StringW NewLineChars;
 
- __declspec(property(get=get_NewLineHandling)) ::System::Xml::NewLineHandling  NewLineHandling;
+  __declspec(property(get = get_NewLineHandling)) ::System::Xml::NewLineHandling NewLineHandling;
 
- __declspec(property(get=get_NewLineOnAttributes)) bool  NewLineOnAttributes;
+  __declspec(property(get = get_NewLineOnAttributes)) bool NewLineOnAttributes;
 
- __declspec(property(get=get_OmitXmlDeclaration, put=set_OmitXmlDeclaration)) bool  OmitXmlDeclaration;
+  __declspec(property(get = get_OmitXmlDeclaration, put = set_OmitXmlDeclaration)) bool OmitXmlDeclaration;
 
- __declspec(property(get=get_OutputMethod, put=set_OutputMethod)) ::System::Xml::XmlOutputMethod  OutputMethod;
+  __declspec(property(get = get_OutputMethod, put = set_OutputMethod)) ::System::Xml::XmlOutputMethod OutputMethod;
 
- __declspec(property(put=set_ReadOnly)) bool  ReadOnly;
+  __declspec(property(put = set_ReadOnly)) bool ReadOnly;
 
- __declspec(property(get=get_Standalone)) ::System::Xml::XmlStandalone  Standalone;
+  __declspec(property(get = get_Standalone)) ::System::Xml::XmlStandalone Standalone;
 
- __declspec(property(get=get_WriteEndDocumentOnClose)) bool  WriteEndDocumentOnClose;
+  __declspec(property(get = get_WriteEndDocumentOnClose)) bool WriteEndDocumentOnClose;
 
-/// @brief Field autoXmlDecl, offset 0x84, size 0x1 
- __declspec(property(get=__cordl_internal_get_autoXmlDecl, put=__cordl_internal_set_autoXmlDecl)) bool  autoXmlDecl;
+  /// @brief Field autoXmlDecl, offset 0x84, size 0x1
+  __declspec(property(get = __cordl_internal_get_autoXmlDecl, put = __cordl_internal_set_autoXmlDecl)) bool autoXmlDecl;
 
-/// @brief Field cdataSections, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get_cdataSections, put=__cordl_internal_set_cdataSections)) ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*  cdataSections;
+  /// @brief Field cdataSections, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_cdataSections, put = __cordl_internal_set_cdataSections)) ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* cdataSections;
 
-/// @brief Field checkCharacters, offset 0x4c, size 0x1 
- __declspec(property(get=__cordl_internal_get_checkCharacters, put=__cordl_internal_set_checkCharacters)) bool  checkCharacters;
+  /// @brief Field checkCharacters, offset 0x4c, size 0x1
+  __declspec(property(get = __cordl_internal_get_checkCharacters, put = __cordl_internal_set_checkCharacters)) bool checkCharacters;
 
-/// @brief Field closeOutput, offset 0x41, size 0x1 
- __declspec(property(get=__cordl_internal_get_closeOutput, put=__cordl_internal_set_closeOutput)) bool  closeOutput;
+  /// @brief Field closeOutput, offset 0x41, size 0x1
+  __declspec(property(get = __cordl_internal_get_closeOutput, put = __cordl_internal_set_closeOutput)) bool closeOutput;
 
-/// @brief Field conformanceLevel, offset 0x48, size 0x4 
- __declspec(property(get=__cordl_internal_get_conformanceLevel, put=__cordl_internal_set_conformanceLevel)) ::System::Xml::ConformanceLevel  conformanceLevel;
+  /// @brief Field conformanceLevel, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_conformanceLevel, put = __cordl_internal_set_conformanceLevel)) ::System::Xml::ConformanceLevel conformanceLevel;
 
-/// @brief Field doNotEscapeUriAttributes, offset 0x60, size 0x1 
- __declspec(property(get=__cordl_internal_get_doNotEscapeUriAttributes, put=__cordl_internal_set_doNotEscapeUriAttributes)) bool  doNotEscapeUriAttributes;
+  /// @brief Field doNotEscapeUriAttributes, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get_doNotEscapeUriAttributes, put = __cordl_internal_set_doNotEscapeUriAttributes)) bool doNotEscapeUriAttributes;
 
-/// @brief Field docTypePublic, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get_docTypePublic, put=__cordl_internal_set_docTypePublic)) ::StringW  docTypePublic;
+  /// @brief Field docTypePublic, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_docTypePublic, put = __cordl_internal_set_docTypePublic)) ::StringW docTypePublic;
 
-/// @brief Field docTypeSystem, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get_docTypeSystem, put=__cordl_internal_set_docTypeSystem)) ::StringW  docTypeSystem;
+  /// @brief Field docTypeSystem, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_docTypeSystem, put = __cordl_internal_set_docTypeSystem)) ::StringW docTypeSystem;
 
-/// @brief Field encoding, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_encoding, put=__cordl_internal_set_encoding)) ::System::Text::Encoding*  encoding;
+  /// @brief Field encoding, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding)) ::System::Text::Encoding* encoding;
 
-/// @brief Field indent, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get_indent, put=__cordl_internal_set_indent)) ::System::Xml::TriState  indent;
+  /// @brief Field indent, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_indent, put = __cordl_internal_set_indent)) ::System::Xml::TriState indent;
 
-/// @brief Field indentChars, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_indentChars, put=__cordl_internal_set_indentChars)) ::StringW  indentChars;
+  /// @brief Field indentChars, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_indentChars, put = __cordl_internal_set_indentChars)) ::StringW indentChars;
 
-/// @brief Field isReadOnly, offset 0x85, size 0x1 
- __declspec(property(get=__cordl_internal_get_isReadOnly, put=__cordl_internal_set_isReadOnly)) bool  isReadOnly;
+  /// @brief Field isReadOnly, offset 0x85, size 0x1
+  __declspec(property(get = __cordl_internal_get_isReadOnly, put = __cordl_internal_set_isReadOnly)) bool isReadOnly;
 
-/// @brief Field mediaType, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get_mediaType, put=__cordl_internal_set_mediaType)) ::StringW  mediaType;
+  /// @brief Field mediaType, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_mediaType, put = __cordl_internal_set_mediaType)) ::StringW mediaType;
 
-/// @brief Field mergeCDataSections, offset 0x61, size 0x1 
- __declspec(property(get=__cordl_internal_get_mergeCDataSections, put=__cordl_internal_set_mergeCDataSections)) bool  mergeCDataSections;
+  /// @brief Field mergeCDataSections, offset 0x61, size 0x1
+  __declspec(property(get = __cordl_internal_get_mergeCDataSections, put = __cordl_internal_set_mergeCDataSections)) bool mergeCDataSections;
 
-/// @brief Field namespaceHandling, offset 0x44, size 0x4 
- __declspec(property(get=__cordl_internal_get_namespaceHandling, put=__cordl_internal_set_namespaceHandling)) ::System::Xml::NamespaceHandling  namespaceHandling;
+  /// @brief Field namespaceHandling, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_namespaceHandling, put = __cordl_internal_set_namespaceHandling)) ::System::Xml::NamespaceHandling namespaceHandling;
 
-/// @brief Field newLineChars, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_newLineChars, put=__cordl_internal_set_newLineChars)) ::StringW  newLineChars;
+  /// @brief Field newLineChars, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_newLineChars, put = __cordl_internal_set_newLineChars)) ::StringW newLineChars;
 
-/// @brief Field newLineHandling, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get_newLineHandling, put=__cordl_internal_set_newLineHandling)) ::System::Xml::NewLineHandling  newLineHandling;
+  /// @brief Field newLineHandling, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_newLineHandling, put = __cordl_internal_set_newLineHandling)) ::System::Xml::NewLineHandling newLineHandling;
 
-/// @brief Field newLineOnAttributes, offset 0x40, size 0x1 
- __declspec(property(get=__cordl_internal_get_newLineOnAttributes, put=__cordl_internal_set_newLineOnAttributes)) bool  newLineOnAttributes;
+  /// @brief Field newLineOnAttributes, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
 
-/// @brief Field omitXmlDecl, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get_omitXmlDecl, put=__cordl_internal_set_omitXmlDecl)) bool  omitXmlDecl;
+  /// @brief Field omitXmlDecl, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_omitXmlDecl, put = __cordl_internal_set_omitXmlDecl)) bool omitXmlDecl;
 
-/// @brief Field outputMethod, offset 0x50, size 0x4 
- __declspec(property(get=__cordl_internal_get_outputMethod, put=__cordl_internal_set_outputMethod)) ::System::Xml::XmlOutputMethod  outputMethod;
+  /// @brief Field outputMethod, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_outputMethod, put = __cordl_internal_set_outputMethod)) ::System::Xml::XmlOutputMethod outputMethod;
 
-/// @brief Field standalone, offset 0x80, size 0x4 
- __declspec(property(get=__cordl_internal_get_standalone, put=__cordl_internal_set_standalone)) ::System::Xml::XmlStandalone  standalone;
+  /// @brief Field standalone, offset 0x80, size 0x4
+  __declspec(property(get = __cordl_internal_get_standalone, put = __cordl_internal_set_standalone)) ::System::Xml::XmlStandalone standalone;
 
-/// @brief Field useAsync, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_useAsync, put=__cordl_internal_set_useAsync)) bool  useAsync;
+  /// @brief Field useAsync, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_useAsync, put = __cordl_internal_set_useAsync)) bool useAsync;
 
-/// @brief Field writeEndDocumentOnClose, offset 0x4d, size 0x1 
- __declspec(property(get=__cordl_internal_get_writeEndDocumentOnClose, put=__cordl_internal_set_writeEndDocumentOnClose)) bool  writeEndDocumentOnClose;
+  /// @brief Field writeEndDocumentOnClose, offset 0x4d, size 0x1
+  __declspec(property(get = __cordl_internal_get_writeEndDocumentOnClose, put = __cordl_internal_set_writeEndDocumentOnClose)) bool writeEndDocumentOnClose;
 
-/// @brief Method CheckReadOnly, addr 0x60f6ab4, size 0xac, virtual false, abstract: false, final false
-inline void CheckReadOnly(::StringW  propertyName) ;
+  /// @brief Method CheckReadOnly, addr 0x6168ac0, size 0xac, virtual false, abstract: false, final false
+  inline void CheckReadOnly(::StringW propertyName);
 
-/// @brief Method Clone, addr 0x60f6d94, size 0xc8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlWriterSettings* Clone() ;
+  /// @brief Method Clone, addr 0x6168da0, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlWriterSettings* Clone();
 
-/// @brief Method CreateWriter, addr 0x60f60a8, size 0x4e8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::Stream*  output) ;
+  /// @brief Method CreateWriter, addr 0x61680b4, size 0x4e8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::Stream* output);
 
-/// @brief Method CreateWriter, addr 0x60f6604, size 0x348, virtual false, abstract: false, final false
-inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::TextWriter*  output) ;
+  /// @brief Method CreateWriter, addr 0x6168610, size 0x348, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::TextWriter* output);
 
-/// @brief Method Initialize, addr 0x60f694c, size 0xec, virtual false, abstract: false, final false
-inline void Initialize() ;
+  /// @brief Method Initialize, addr 0x6168958, size 0xec, virtual false, abstract: false, final false
+  inline void Initialize();
 
-static inline ::System::Xml::XmlWriterSettings* New_ctor() ;
+  static inline ::System::Xml::XmlWriterSettings* New_ctor();
 
-constexpr bool const& __cordl_internal_get_autoXmlDecl() const;
+  constexpr bool const& __cordl_internal_get_autoXmlDecl() const;
 
-constexpr bool& __cordl_internal_get_autoXmlDecl() ;
+  constexpr bool& __cordl_internal_get_autoXmlDecl();
 
-constexpr ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* const& __cordl_internal_get_cdataSections() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* const& __cordl_internal_get_cdataSections() const;
 
-constexpr ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*& __cordl_internal_get_cdataSections() ;
+  constexpr ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*& __cordl_internal_get_cdataSections();
 
-constexpr bool const& __cordl_internal_get_checkCharacters() const;
+  constexpr bool const& __cordl_internal_get_checkCharacters() const;
 
-constexpr bool& __cordl_internal_get_checkCharacters() ;
+  constexpr bool& __cordl_internal_get_checkCharacters();
 
-constexpr bool const& __cordl_internal_get_closeOutput() const;
+  constexpr bool const& __cordl_internal_get_closeOutput() const;
 
-constexpr bool& __cordl_internal_get_closeOutput() ;
+  constexpr bool& __cordl_internal_get_closeOutput();
 
-constexpr ::System::Xml::ConformanceLevel const& __cordl_internal_get_conformanceLevel() const;
+  constexpr ::System::Xml::ConformanceLevel const& __cordl_internal_get_conformanceLevel() const;
 
-constexpr ::System::Xml::ConformanceLevel& __cordl_internal_get_conformanceLevel() ;
+  constexpr ::System::Xml::ConformanceLevel& __cordl_internal_get_conformanceLevel();
 
-constexpr bool const& __cordl_internal_get_doNotEscapeUriAttributes() const;
+  constexpr bool const& __cordl_internal_get_doNotEscapeUriAttributes() const;
 
-constexpr bool& __cordl_internal_get_doNotEscapeUriAttributes() ;
+  constexpr bool& __cordl_internal_get_doNotEscapeUriAttributes();
 
-constexpr ::StringW const& __cordl_internal_get_docTypePublic() const;
+  constexpr ::StringW const& __cordl_internal_get_docTypePublic() const;
 
-constexpr ::StringW& __cordl_internal_get_docTypePublic() ;
+  constexpr ::StringW& __cordl_internal_get_docTypePublic();
 
-constexpr ::StringW const& __cordl_internal_get_docTypeSystem() const;
+  constexpr ::StringW const& __cordl_internal_get_docTypeSystem() const;
 
-constexpr ::StringW& __cordl_internal_get_docTypeSystem() ;
+  constexpr ::StringW& __cordl_internal_get_docTypeSystem();
 
-constexpr ::System::Text::Encoding* const& __cordl_internal_get_encoding() const;
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get_encoding() const;
 
-constexpr ::System::Text::Encoding*& __cordl_internal_get_encoding() ;
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_encoding();
 
-constexpr ::System::Xml::TriState const& __cordl_internal_get_indent() const;
+  constexpr ::System::Xml::TriState const& __cordl_internal_get_indent() const;
 
-constexpr ::System::Xml::TriState& __cordl_internal_get_indent() ;
+  constexpr ::System::Xml::TriState& __cordl_internal_get_indent();
 
-constexpr ::StringW const& __cordl_internal_get_indentChars() const;
+  constexpr ::StringW const& __cordl_internal_get_indentChars() const;
 
-constexpr ::StringW& __cordl_internal_get_indentChars() ;
+  constexpr ::StringW& __cordl_internal_get_indentChars();
 
-constexpr bool const& __cordl_internal_get_isReadOnly() const;
+  constexpr bool const& __cordl_internal_get_isReadOnly() const;
 
-constexpr bool& __cordl_internal_get_isReadOnly() ;
+  constexpr bool& __cordl_internal_get_isReadOnly();
 
-constexpr ::StringW const& __cordl_internal_get_mediaType() const;
+  constexpr ::StringW const& __cordl_internal_get_mediaType() const;
 
-constexpr ::StringW& __cordl_internal_get_mediaType() ;
+  constexpr ::StringW& __cordl_internal_get_mediaType();
 
-constexpr bool const& __cordl_internal_get_mergeCDataSections() const;
+  constexpr bool const& __cordl_internal_get_mergeCDataSections() const;
 
-constexpr bool& __cordl_internal_get_mergeCDataSections() ;
+  constexpr bool& __cordl_internal_get_mergeCDataSections();
 
-constexpr ::System::Xml::NamespaceHandling const& __cordl_internal_get_namespaceHandling() const;
+  constexpr ::System::Xml::NamespaceHandling const& __cordl_internal_get_namespaceHandling() const;
 
-constexpr ::System::Xml::NamespaceHandling& __cordl_internal_get_namespaceHandling() ;
+  constexpr ::System::Xml::NamespaceHandling& __cordl_internal_get_namespaceHandling();
 
-constexpr ::StringW const& __cordl_internal_get_newLineChars() const;
+  constexpr ::StringW const& __cordl_internal_get_newLineChars() const;
 
-constexpr ::StringW& __cordl_internal_get_newLineChars() ;
+  constexpr ::StringW& __cordl_internal_get_newLineChars();
 
-constexpr ::System::Xml::NewLineHandling const& __cordl_internal_get_newLineHandling() const;
+  constexpr ::System::Xml::NewLineHandling const& __cordl_internal_get_newLineHandling() const;
 
-constexpr ::System::Xml::NewLineHandling& __cordl_internal_get_newLineHandling() ;
+  constexpr ::System::Xml::NewLineHandling& __cordl_internal_get_newLineHandling();
 
-constexpr bool const& __cordl_internal_get_newLineOnAttributes() const;
+  constexpr bool const& __cordl_internal_get_newLineOnAttributes() const;
 
-constexpr bool& __cordl_internal_get_newLineOnAttributes() ;
+  constexpr bool& __cordl_internal_get_newLineOnAttributes();
 
-constexpr bool const& __cordl_internal_get_omitXmlDecl() const;
+  constexpr bool const& __cordl_internal_get_omitXmlDecl() const;
 
-constexpr bool& __cordl_internal_get_omitXmlDecl() ;
+  constexpr bool& __cordl_internal_get_omitXmlDecl();
 
-constexpr ::System::Xml::XmlOutputMethod const& __cordl_internal_get_outputMethod() const;
+  constexpr ::System::Xml::XmlOutputMethod const& __cordl_internal_get_outputMethod() const;
 
-constexpr ::System::Xml::XmlOutputMethod& __cordl_internal_get_outputMethod() ;
+  constexpr ::System::Xml::XmlOutputMethod& __cordl_internal_get_outputMethod();
 
-constexpr ::System::Xml::XmlStandalone const& __cordl_internal_get_standalone() const;
+  constexpr ::System::Xml::XmlStandalone const& __cordl_internal_get_standalone() const;
 
-constexpr ::System::Xml::XmlStandalone& __cordl_internal_get_standalone() ;
+  constexpr ::System::Xml::XmlStandalone& __cordl_internal_get_standalone();
 
-constexpr bool const& __cordl_internal_get_useAsync() const;
+  constexpr bool const& __cordl_internal_get_useAsync() const;
 
-constexpr bool& __cordl_internal_get_useAsync() ;
+  constexpr bool& __cordl_internal_get_useAsync();
 
-constexpr bool const& __cordl_internal_get_writeEndDocumentOnClose() const;
+  constexpr bool const& __cordl_internal_get_writeEndDocumentOnClose() const;
 
-constexpr bool& __cordl_internal_get_writeEndDocumentOnClose() ;
+  constexpr bool& __cordl_internal_get_writeEndDocumentOnClose();
 
-constexpr void __cordl_internal_set_autoXmlDecl(bool  value) ;
+  constexpr void __cordl_internal_set_autoXmlDecl(bool value);
 
-constexpr void __cordl_internal_set_cdataSections(::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*  value) ;
+  constexpr void __cordl_internal_set_cdataSections(::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* value);
 
-constexpr void __cordl_internal_set_checkCharacters(bool  value) ;
+  constexpr void __cordl_internal_set_checkCharacters(bool value);
 
-constexpr void __cordl_internal_set_closeOutput(bool  value) ;
+  constexpr void __cordl_internal_set_closeOutput(bool value);
 
-constexpr void __cordl_internal_set_conformanceLevel(::System::Xml::ConformanceLevel  value) ;
+  constexpr void __cordl_internal_set_conformanceLevel(::System::Xml::ConformanceLevel value);
 
-constexpr void __cordl_internal_set_doNotEscapeUriAttributes(bool  value) ;
+  constexpr void __cordl_internal_set_doNotEscapeUriAttributes(bool value);
 
-constexpr void __cordl_internal_set_docTypePublic(::StringW  value) ;
+  constexpr void __cordl_internal_set_docTypePublic(::StringW value);
 
-constexpr void __cordl_internal_set_docTypeSystem(::StringW  value) ;
+  constexpr void __cordl_internal_set_docTypeSystem(::StringW value);
 
-constexpr void __cordl_internal_set_encoding(::System::Text::Encoding*  value) ;
+  constexpr void __cordl_internal_set_encoding(::System::Text::Encoding* value);
 
-constexpr void __cordl_internal_set_indent(::System::Xml::TriState  value) ;
+  constexpr void __cordl_internal_set_indent(::System::Xml::TriState value);
 
-constexpr void __cordl_internal_set_indentChars(::StringW  value) ;
+  constexpr void __cordl_internal_set_indentChars(::StringW value);
 
-constexpr void __cordl_internal_set_isReadOnly(bool  value) ;
+  constexpr void __cordl_internal_set_isReadOnly(bool value);
 
-constexpr void __cordl_internal_set_mediaType(::StringW  value) ;
+  constexpr void __cordl_internal_set_mediaType(::StringW value);
 
-constexpr void __cordl_internal_set_mergeCDataSections(bool  value) ;
+  constexpr void __cordl_internal_set_mergeCDataSections(bool value);
 
-constexpr void __cordl_internal_set_namespaceHandling(::System::Xml::NamespaceHandling  value) ;
+  constexpr void __cordl_internal_set_namespaceHandling(::System::Xml::NamespaceHandling value);
 
-constexpr void __cordl_internal_set_newLineChars(::StringW  value) ;
+  constexpr void __cordl_internal_set_newLineChars(::StringW value);
 
-constexpr void __cordl_internal_set_newLineHandling(::System::Xml::NewLineHandling  value) ;
+  constexpr void __cordl_internal_set_newLineHandling(::System::Xml::NewLineHandling value);
 
-constexpr void __cordl_internal_set_newLineOnAttributes(bool  value) ;
+  constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
 
-constexpr void __cordl_internal_set_omitXmlDecl(bool  value) ;
+  constexpr void __cordl_internal_set_omitXmlDecl(bool value);
 
-constexpr void __cordl_internal_set_outputMethod(::System::Xml::XmlOutputMethod  value) ;
+  constexpr void __cordl_internal_set_outputMethod(::System::Xml::XmlOutputMethod value);
 
-constexpr void __cordl_internal_set_standalone(::System::Xml::XmlStandalone  value) ;
+  constexpr void __cordl_internal_set_standalone(::System::Xml::XmlStandalone value);
 
-constexpr void __cordl_internal_set_useAsync(bool  value) ;
+  constexpr void __cordl_internal_set_useAsync(bool value);
 
-constexpr void __cordl_internal_set_writeEndDocumentOnClose(bool  value) ;
+  constexpr void __cordl_internal_set_writeEndDocumentOnClose(bool value);
 
-/// @brief Method .ctor, addr 0x60f6030, size 0x78, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x616803c, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Async, addr 0x60f6a38, size 0x8, virtual false, abstract: false, final false
-inline bool get_Async() ;
+  /// @brief Method get_Async, addr 0x6168a44, size 0x8, virtual false, abstract: false, final false
+  inline bool get_Async();
 
-/// @brief Method get_AutoXmlDeclaration, addr 0x60f6e94, size 0x8, virtual false, abstract: false, final false
-inline bool get_AutoXmlDeclaration() ;
+  /// @brief Method get_AutoXmlDeclaration, addr 0x6168ea0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_AutoXmlDeclaration();
 
-/// @brief Method get_CDataSectionElements, addr 0x60f6e5c, size 0x8, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* get_CDataSectionElements() ;
+  /// @brief Method get_CDataSectionElements, addr 0x6168e68, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* get_CDataSectionElements();
 
-/// @brief Method get_CheckCharacters, addr 0x60f6cbc, size 0x8, virtual false, abstract: false, final false
-inline bool get_CheckCharacters() ;
+  /// @brief Method get_CheckCharacters, addr 0x6168cc8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_CheckCharacters();
 
-/// @brief Method get_CloseOutput, addr 0x60f6bfc, size 0x8, virtual false, abstract: false, final false
-inline bool get_CloseOutput() ;
+  /// @brief Method get_CloseOutput, addr 0x6168c08, size 0x8, virtual false, abstract: false, final false
+  inline bool get_CloseOutput();
 
-/// @brief Method get_ConformanceLevel, addr 0x60f6c04, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::ConformanceLevel get_ConformanceLevel() ;
+  /// @brief Method get_ConformanceLevel, addr 0x6168c10, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::ConformanceLevel get_ConformanceLevel();
 
-/// @brief Method get_DoNotEscapeUriAttributes, addr 0x60f6e64, size 0x8, virtual false, abstract: false, final false
-inline bool get_DoNotEscapeUriAttributes() ;
+  /// @brief Method get_DoNotEscapeUriAttributes, addr 0x6168e70, size 0x8, virtual false, abstract: false, final false
+  inline bool get_DoNotEscapeUriAttributes();
 
-/// @brief Method get_DocTypePublic, addr 0x60f6e84, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_DocTypePublic() ;
+  /// @brief Method get_DocTypePublic, addr 0x6168e90, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_DocTypePublic();
 
-/// @brief Method get_DocTypeSystem, addr 0x60f6e7c, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_DocTypeSystem() ;
+  /// @brief Method get_DocTypeSystem, addr 0x6168e88, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_DocTypeSystem();
 
-/// @brief Method get_Encoding, addr 0x60f6a40, size 0x8, virtual false, abstract: false, final false
-inline ::System::Text::Encoding* get_Encoding() ;
+  /// @brief Method get_Encoding, addr 0x6168a4c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Text::Encoding* get_Encoding();
 
-/// @brief Method get_Indent, addr 0x60f6b70, size 0x10, virtual false, abstract: false, final false
-inline bool get_Indent() ;
+  /// @brief Method get_Indent, addr 0x6168b7c, size 0x10, virtual false, abstract: false, final false
+  inline bool get_Indent();
 
-/// @brief Method get_IndentChars, addr 0x60f6bec, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_IndentChars() ;
+  /// @brief Method get_IndentChars, addr 0x6168bf8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_IndentChars();
 
-/// @brief Method get_IndentInternal, addr 0x60f6e9c, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::TriState get_IndentInternal() ;
+  /// @brief Method get_IndentInternal, addr 0x6168ea8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::TriState get_IndentInternal();
 
-/// @brief Method get_IsQuerySpecific, addr 0x60f6ea4, size 0x78, virtual false, abstract: false, final false
-inline bool get_IsQuerySpecific() ;
+  /// @brief Method get_IsQuerySpecific, addr 0x6168eb0, size 0x78, virtual false, abstract: false, final false
+  inline bool get_IsQuerySpecific();
 
-/// @brief Method get_MediaType, addr 0x60f6e74, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_MediaType() ;
+  /// @brief Method get_MediaType, addr 0x6168e80, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_MediaType();
 
-/// @brief Method get_MergeCDataSections, addr 0x60f6e6c, size 0x8, virtual false, abstract: false, final false
-inline bool get_MergeCDataSections() ;
+  /// @brief Method get_MergeCDataSections, addr 0x6168e78, size 0x8, virtual false, abstract: false, final false
+  inline bool get_MergeCDataSections();
 
-/// @brief Method get_NamespaceHandling, addr 0x60f6cc4, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::NamespaceHandling get_NamespaceHandling() ;
+  /// @brief Method get_NamespaceHandling, addr 0x6168cd0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::NamespaceHandling get_NamespaceHandling();
 
-/// @brief Method get_NewLineChars, addr 0x60f6b68, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_NewLineChars() ;
+  /// @brief Method get_NewLineChars, addr 0x6168b74, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_NewLineChars();
 
-/// @brief Method get_NewLineHandling, addr 0x60f6b60, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::NewLineHandling get_NewLineHandling() ;
+  /// @brief Method get_NewLineHandling, addr 0x6168b6c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::NewLineHandling get_NewLineHandling();
 
-/// @brief Method get_NewLineOnAttributes, addr 0x60f6bf4, size 0x8, virtual false, abstract: false, final false
-inline bool get_NewLineOnAttributes() ;
+  /// @brief Method get_NewLineOnAttributes, addr 0x6168c00, size 0x8, virtual false, abstract: false, final false
+  inline bool get_NewLineOnAttributes();
 
-/// @brief Method get_OmitXmlDeclaration, addr 0x60f6a48, size 0x8, virtual false, abstract: false, final false
-inline bool get_OmitXmlDeclaration() ;
+  /// @brief Method get_OmitXmlDeclaration, addr 0x6168a54, size 0x8, virtual false, abstract: false, final false
+  inline bool get_OmitXmlDeclaration();
 
-/// @brief Method get_OutputMethod, addr 0x60f6d84, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlOutputMethod get_OutputMethod() ;
+  /// @brief Method get_OutputMethod, addr 0x6168d90, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlOutputMethod get_OutputMethod();
 
-/// @brief Method get_Standalone, addr 0x60f6e8c, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlStandalone get_Standalone() ;
+  /// @brief Method get_Standalone, addr 0x6168e98, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlStandalone get_Standalone();
 
-/// @brief Method get_WriteEndDocumentOnClose, addr 0x60f6d7c, size 0x8, virtual false, abstract: false, final false
-inline bool get_WriteEndDocumentOnClose() ;
+  /// @brief Method get_WriteEndDocumentOnClose, addr 0x6168d88, size 0x8, virtual false, abstract: false, final false
+  inline bool get_WriteEndDocumentOnClose();
 
-/// @brief Method set_ConformanceLevel, addr 0x60f6c0c, size 0xb0, virtual false, abstract: false, final false
-inline void set_ConformanceLevel(::System::Xml::ConformanceLevel  value) ;
+  /// @brief Method set_ConformanceLevel, addr 0x6168c18, size 0xb0, virtual false, abstract: false, final false
+  inline void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
 
-/// @brief Method set_Indent, addr 0x60f6b80, size 0x6c, virtual false, abstract: false, final false
-inline void set_Indent(bool  value) ;
+  /// @brief Method set_Indent, addr 0x6168b8c, size 0x6c, virtual false, abstract: false, final false
+  inline void set_Indent(bool value);
 
-/// @brief Method set_NamespaceHandling, addr 0x60f6ccc, size 0xb0, virtual false, abstract: false, final false
-inline void set_NamespaceHandling(::System::Xml::NamespaceHandling  value) ;
+  /// @brief Method set_NamespaceHandling, addr 0x6168cd8, size 0xb0, virtual false, abstract: false, final false
+  inline void set_NamespaceHandling(::System::Xml::NamespaceHandling value);
 
-/// @brief Method set_OmitXmlDeclaration, addr 0x60f6a50, size 0x64, virtual false, abstract: false, final false
-inline void set_OmitXmlDeclaration(bool  value) ;
+  /// @brief Method set_OmitXmlDeclaration, addr 0x6168a5c, size 0x64, virtual false, abstract: false, final false
+  inline void set_OmitXmlDeclaration(bool value);
 
-/// @brief Method set_OutputMethod, addr 0x60f6d8c, size 0x8, virtual false, abstract: false, final false
-inline void set_OutputMethod(::System::Xml::XmlOutputMethod  value) ;
+  /// @brief Method set_OutputMethod, addr 0x6168d98, size 0x8, virtual false, abstract: false, final false
+  inline void set_OutputMethod(::System::Xml::XmlOutputMethod value);
 
-/// @brief Method set_ReadOnly, addr 0x60f6f1c, size 0x8, virtual false, abstract: false, final false
-inline void set_ReadOnly(bool  value) ;
+  /// @brief Method set_ReadOnly, addr 0x6168f28, size 0x8, virtual false, abstract: false, final false
+  inline void set_ReadOnly(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlWriterSettings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlWriterSettings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlWriterSettings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlWriterSettings(XmlWriterSettings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlWriterSettings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlWriterSettings(XmlWriterSettings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlWriterSettings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlWriterSettings(XmlWriterSettings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlWriterSettings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlWriterSettings(XmlWriterSettings const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9356 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9350};
+  /// @brief Field useAsync, offset: 0x10, size: 0x1, def value: None
+  bool ___useAsync;
 
-/// @brief Field useAsync, offset: 0x10, size: 0x1, def value: None
- bool  ___useAsync;
+  /// @brief Field encoding, offset: 0x18, size: 0x8, def value: None
+  ::System::Text::Encoding* ___encoding;
 
-/// @brief Field encoding, offset: 0x18, size: 0x8, def value: None
- ::System::Text::Encoding*  ___encoding;
+  /// @brief Field omitXmlDecl, offset: 0x20, size: 0x1, def value: None
+  bool ___omitXmlDecl;
 
-/// @brief Field omitXmlDecl, offset: 0x20, size: 0x1, def value: None
- bool  ___omitXmlDecl;
+  /// @brief Field newLineHandling, offset: 0x24, size: 0x4, def value: None
+  ::System::Xml::NewLineHandling ___newLineHandling;
 
-/// @brief Field newLineHandling, offset: 0x24, size: 0x4, def value: None
- ::System::Xml::NewLineHandling  ___newLineHandling;
+  /// @brief Field newLineChars, offset: 0x28, size: 0x8, def value: None
+  ::StringW ___newLineChars;
 
-/// @brief Field newLineChars, offset: 0x28, size: 0x8, def value: None
- ::StringW  ___newLineChars;
+  /// @brief Field indent, offset: 0x30, size: 0x4, def value: None
+  ::System::Xml::TriState ___indent;
 
-/// @brief Field indent, offset: 0x30, size: 0x4, def value: None
- ::System::Xml::TriState  ___indent;
+  /// @brief Field indentChars, offset: 0x38, size: 0x8, def value: None
+  ::StringW ___indentChars;
 
-/// @brief Field indentChars, offset: 0x38, size: 0x8, def value: None
- ::StringW  ___indentChars;
+  /// @brief Field newLineOnAttributes, offset: 0x40, size: 0x1, def value: None
+  bool ___newLineOnAttributes;
 
-/// @brief Field newLineOnAttributes, offset: 0x40, size: 0x1, def value: None
- bool  ___newLineOnAttributes;
+  /// @brief Field closeOutput, offset: 0x41, size: 0x1, def value: None
+  bool ___closeOutput;
 
-/// @brief Field closeOutput, offset: 0x41, size: 0x1, def value: None
- bool  ___closeOutput;
+  /// @brief Field namespaceHandling, offset: 0x44, size: 0x4, def value: None
+  ::System::Xml::NamespaceHandling ___namespaceHandling;
 
-/// @brief Field namespaceHandling, offset: 0x44, size: 0x4, def value: None
- ::System::Xml::NamespaceHandling  ___namespaceHandling;
+  /// @brief Field conformanceLevel, offset: 0x48, size: 0x4, def value: None
+  ::System::Xml::ConformanceLevel ___conformanceLevel;
 
-/// @brief Field conformanceLevel, offset: 0x48, size: 0x4, def value: None
- ::System::Xml::ConformanceLevel  ___conformanceLevel;
+  /// @brief Field checkCharacters, offset: 0x4c, size: 0x1, def value: None
+  bool ___checkCharacters;
 
-/// @brief Field checkCharacters, offset: 0x4c, size: 0x1, def value: None
- bool  ___checkCharacters;
+  /// @brief Field writeEndDocumentOnClose, offset: 0x4d, size: 0x1, def value: None
+  bool ___writeEndDocumentOnClose;
 
-/// @brief Field writeEndDocumentOnClose, offset: 0x4d, size: 0x1, def value: None
- bool  ___writeEndDocumentOnClose;
+  /// @brief Field outputMethod, offset: 0x50, size: 0x4, def value: None
+  ::System::Xml::XmlOutputMethod ___outputMethod;
 
-/// @brief Field outputMethod, offset: 0x50, size: 0x4, def value: None
- ::System::Xml::XmlOutputMethod  ___outputMethod;
+  /// @brief Field cdataSections, offset: 0x58, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* ___cdataSections;
 
-/// @brief Field cdataSections, offset: 0x58, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*  ___cdataSections;
+  /// @brief Field doNotEscapeUriAttributes, offset: 0x60, size: 0x1, def value: None
+  bool ___doNotEscapeUriAttributes;
 
-/// @brief Field doNotEscapeUriAttributes, offset: 0x60, size: 0x1, def value: None
- bool  ___doNotEscapeUriAttributes;
+  /// @brief Field mergeCDataSections, offset: 0x61, size: 0x1, def value: None
+  bool ___mergeCDataSections;
 
-/// @brief Field mergeCDataSections, offset: 0x61, size: 0x1, def value: None
- bool  ___mergeCDataSections;
+  /// @brief Field mediaType, offset: 0x68, size: 0x8, def value: None
+  ::StringW ___mediaType;
 
-/// @brief Field mediaType, offset: 0x68, size: 0x8, def value: None
- ::StringW  ___mediaType;
+  /// @brief Field docTypeSystem, offset: 0x70, size: 0x8, def value: None
+  ::StringW ___docTypeSystem;
 
-/// @brief Field docTypeSystem, offset: 0x70, size: 0x8, def value: None
- ::StringW  ___docTypeSystem;
+  /// @brief Field docTypePublic, offset: 0x78, size: 0x8, def value: None
+  ::StringW ___docTypePublic;
 
-/// @brief Field docTypePublic, offset: 0x78, size: 0x8, def value: None
- ::StringW  ___docTypePublic;
+  /// @brief Field standalone, offset: 0x80, size: 0x4, def value: None
+  ::System::Xml::XmlStandalone ___standalone;
 
-/// @brief Field standalone, offset: 0x80, size: 0x4, def value: None
- ::System::Xml::XmlStandalone  ___standalone;
+  /// @brief Field autoXmlDecl, offset: 0x84, size: 0x1, def value: None
+  bool ___autoXmlDecl;
 
-/// @brief Field autoXmlDecl, offset: 0x84, size: 0x1, def value: None
- bool  ___autoXmlDecl;
+  /// @brief Field isReadOnly, offset: 0x85, size: 0x1, def value: None
+  bool ___isReadOnly;
 
-/// @brief Field isReadOnly, offset: 0x85, size: 0x1, def value: None
- bool  ___isReadOnly;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlWriterSettings, ___useAsync) == 0x10, "Offset mismatch!");
@@ -566,6 +565,6 @@ static_assert(offsetof(::System::Xml::XmlWriterSettings, ___isReadOnly) == 0x85,
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlWriterSettings, 0x88>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlWriterSettings);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlWriterSettings*, "System.Xml", "XmlWriterSettings");

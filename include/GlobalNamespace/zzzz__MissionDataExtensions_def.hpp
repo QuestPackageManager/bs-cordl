@@ -21,32 +21,32 @@ namespace GlobalNamespace {
 // CS Name: MissionDataExtensions
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Name, addr 0x3633a08, size 0xa4, virtual false, abstract: false, final false
-static inline ::StringW Name(::GlobalNamespace::MissionObjective_ReferenceValueComparisonType  comparisonType) ;
+  // Declarations
+  /// @brief Method Name, addr 0x36703f4, size 0xa4, virtual false, abstract: false, final false
+  static inline ::StringW Name(::GlobalNamespace::MissionObjective_ReferenceValueComparisonType comparisonType);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissionDataExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionDataExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissionDataExtensions(MissionDataExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissionDataExtensions(MissionDataExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissionDataExtensions(MissionDataExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissionDataExtensions(MissionDataExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15046 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15039};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionDataExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionDataExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");

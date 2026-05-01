@@ -26,8 +26,7 @@ namespace GlobalNamespace {
 class MissionLevelModifiersViewController___c__DisplayClass7_0;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -51,153 +50,157 @@ namespace GlobalNamespace {
 // CS Name: MissionLevelModifiersViewController/<>c__DisplayClass7_0
 class CORDL_TYPE MissionLevelModifiersViewController___c__DisplayClass7_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field modifierParamsList, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_modifierParamsList, put=__cordl_internal_set_modifierParamsList)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*  modifierParamsList;
+  // Declarations
+  /// @brief Field modifierParamsList, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_modifierParamsList,
+                      put = __cordl_internal_set_modifierParamsList)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParamsList;
 
-static inline ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0* New_ctor() ;
+  static inline ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0* New_ctor();
 
-/// @brief Method <RefreshContent>b__0, addr 0x5879890, size 0x80, virtual false, abstract: false, final false
-inline void _RefreshContent_b__0(int32_t  idx, ::GlobalNamespace::GameplayModifierInfoListItem*  gameplayModifierInfoListItem) ;
+  /// @brief Method <RefreshContent>b__0, addr 0x57a0390, size 0x80, virtual false, abstract: false, final false
+  inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
-constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifierParamsList() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifierParamsList() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*& __cordl_internal_get_modifierParamsList() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*& __cordl_internal_get_modifierParamsList();
 
-constexpr void __cordl_internal_set_modifierParamsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*  value) ;
+  constexpr void __cordl_internal_set_modifierParamsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-/// @brief Method .ctor, addr 0x5879888, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57a0388, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissionLevelModifiersViewController___c__DisplayClass7_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionLevelModifiersViewController___c__DisplayClass7_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6507 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6498};
+  /// @brief Field modifierParamsList, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifierParamsList;
 
-/// @brief Field modifierParamsList, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*  ___modifierParamsList;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0, ___modifierParamsList) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionLevelModifiersViewController
 class CORDL_TYPE MissionLevelModifiersViewController : public ::HMUI::ViewController {
 public:
-// Declarations
-using __c__DisplayClass7_0 = ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0;
+  // Declarations
+  using __c__DisplayClass7_0 = ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0;
 
-/// @brief Field _gameplayModifierInfoListItemsList, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get__gameplayModifierInfoListItemsList, put=__cordl_internal_set__gameplayModifierInfoListItemsList)) ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>  _gameplayModifierInfoListItemsList;
+  /// @brief Field _gameplayModifierInfoListItemsList, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifierInfoListItemsList,
+                      put = __cordl_internal_set__gameplayModifierInfoListItemsList)) ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>
+      _gameplayModifierInfoListItemsList;
 
-/// @brief Field _gameplayModifiers, offset 0x98, size 0x8 
- __declspec(property(get=__cordl_internal_get__gameplayModifiers, put=__cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers*  _gameplayModifiers;
+  /// @brief Field _gameplayModifiers, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
-/// @brief Field _gameplayModifiersModel, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get__gameplayModifiersModel, put=__cordl_internal_set__gameplayModifiersModel)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  _gameplayModifiersModel;
+  /// @brief Field _gameplayModifiersModel, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel, put = __cordl_internal_set__gameplayModifiersModel)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>
+      _gameplayModifiersModel;
 
-/// @brief Field _modifiersPanel, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get__modifiersPanel, put=__cordl_internal_set__modifiersPanel)) ::UnityW<::UnityEngine::GameObject>  _modifiersPanel;
+  /// @brief Field _modifiersPanel, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__modifiersPanel, put = __cordl_internal_set__modifiersPanel)) ::UnityW<::UnityEngine::GameObject> _modifiersPanel;
 
-/// @brief Field _titleText, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get__titleText, put=__cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI>  _titleText;
+  /// @brief Field _titleText, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
-/// @brief Method DidActivate, addr 0x5879884, size 0x4, virtual true, abstract: false, final false
-inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
+  /// @brief Method DidActivate, addr 0x57a0384, size 0x4, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-static inline ::GlobalNamespace::MissionLevelModifiersViewController* New_ctor() ;
+  static inline ::GlobalNamespace::MissionLevelModifiersViewController* New_ctor();
 
-/// @brief Method RefreshContent, addr 0x58796a0, size 0x1e4, virtual false, abstract: false, final false
-inline void RefreshContent() ;
+  /// @brief Method RefreshContent, addr 0x57a01a0, size 0x1e4, virtual false, abstract: false, final false
+  inline void RefreshContent();
 
-/// @brief Method Setup, addr 0x5879674, size 0x2c, virtual false, abstract: false, final false
-inline void Setup(::GlobalNamespace::GameplayModifiers*  gameplayModifiers) ;
+  /// @brief Method Setup, addr 0x57a0174, size 0x2c, virtual false, abstract: false, final false
+  inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__gameplayModifierInfoListItemsList() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__gameplayModifierInfoListItemsList() const;
 
-constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>& __cordl_internal_get__gameplayModifierInfoListItemsList() ;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>& __cordl_internal_get__gameplayModifierInfoListItemsList();
 
-constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
+  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
 
-constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers() ;
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel() ;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
 
-constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__modifiersPanel() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__modifiersPanel() const;
 
-constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__modifiersPanel() ;
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__modifiersPanel();
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText() ;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
 
-constexpr void __cordl_internal_set__gameplayModifierInfoListItemsList(::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>  value) ;
+  constexpr void __cordl_internal_set__gameplayModifierInfoListItemsList(::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> value);
 
-constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers*  value) ;
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  value) ;
+  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-constexpr void __cordl_internal_set__modifiersPanel(::UnityW<::UnityEngine::GameObject>  value) ;
+  constexpr void __cordl_internal_set__modifiersPanel(::UnityW<::UnityEngine::GameObject> value);
 
-constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
+  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-/// @brief Method .ctor, addr 0x587988c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57a038c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissionLevelModifiersViewController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionLevelModifiersViewController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissionLevelModifiersViewController(MissionLevelModifiersViewController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissionLevelModifiersViewController(MissionLevelModifiersViewController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissionLevelModifiersViewController(MissionLevelModifiersViewController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissionLevelModifiersViewController(MissionLevelModifiersViewController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6508 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6499};
+  /// @brief Field _gameplayModifiersModel, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
-/// @brief Field _gameplayModifiersModel, offset: 0x78, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  ____gameplayModifiersModel;
+  /// @brief Field _gameplayModifierInfoListItemsList, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____gameplayModifierInfoListItemsList;
 
-/// @brief Field _gameplayModifierInfoListItemsList, offset: 0x80, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>  ____gameplayModifierInfoListItemsList;
+  /// @brief Field _modifiersPanel, offset: 0x88, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::GameObject> ____modifiersPanel;
 
-/// @brief Field _modifiersPanel, offset: 0x88, size: 0x8, def value: None
- ::UnityW<::UnityEngine::GameObject>  ____modifiersPanel;
+  /// @brief Field _titleText, offset: 0x90, size: 0x8, def value: None
+  ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
-/// @brief Field _titleText, offset: 0x90, size: 0x8, def value: None
- ::UnityW<::TMPro::TextMeshProUGUI>  ____titleText;
+  /// @brief Field _gameplayModifiers, offset: 0x98, size: 0x8, def value: None
+  ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
-/// @brief Field _gameplayModifiers, offset: 0x98, size: 0x8, def value: None
- ::GlobalNamespace::GameplayModifiers*  ____gameplayModifiers;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionLevelModifiersViewController, ____gameplayModifiersModel) == 0x78, "Offset mismatch!");
@@ -212,7 +215,7 @@ static_assert(offsetof(::GlobalNamespace::MissionLevelModifiersViewController, _
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelModifiersViewController, 0xa0>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelModifiersViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");
 NEED_NO_BOX(::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0);

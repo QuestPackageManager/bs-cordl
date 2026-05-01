@@ -18,34 +18,34 @@ namespace GlobalNamespace {
 // CS Name: StringSignal
 class CORDL_TYPE StringSignal : public ::GlobalNamespace::GenericSignal_1<::StringW> {
 public:
-// Declarations
-static inline ::GlobalNamespace::StringSignal* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::StringSignal* New_ctor();
 
-/// @brief Method .ctor, addr 0x56a44a4, size 0x48, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x571236c, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StringSignal() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringSignal();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StringSignal", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StringSignal(StringSignal&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StringSignal", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StringSignal(StringSignal && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StringSignal", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StringSignal(StringSignal const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StringSignal", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StringSignal(StringSignal const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20304 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20294};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StringSignal, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StringSignal);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StringSignal*, "", "StringSignal");

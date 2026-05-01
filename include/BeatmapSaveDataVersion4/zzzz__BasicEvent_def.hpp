@@ -20,30 +20,31 @@ namespace BeatmapSaveDataVersion4 {
 // CS Name: BeatmapSaveDataVersion4.BasicEvent
 struct CORDL_TYPE BasicEvent {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr BasicEvent() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicEvent();
 
-// Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::BeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "f", ty: "float_t", modifiers: "", def_value: None }]
-constexpr BasicEvent(::BeatmapSaveDataCommon::BeatmapEventType  t, int32_t  i, float_t  f) noexcept;
+  // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::BeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "f", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr BasicEvent(::BeatmapSaveDataCommon::BeatmapEventType t, int32_t i, float_t f) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15296};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15301 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
-/// @brief Field t, offset: 0x0, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::BeatmapEventType  t;
+  /// @brief Field t, offset: 0x0, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::BeatmapEventType t;
 
-/// @brief Field i, offset: 0x4, size: 0x4, def value: None
- int32_t  i;
+  /// @brief Field i, offset: 0x4, size: 0x4, def value: None
+  int32_t i;
 
-/// @brief Field f, offset: 0x8, size: 0x4, def value: None
- float_t  f;
+  /// @brief Field f, offset: 0x8, size: 0x4, def value: None
+  float_t f;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion4::BasicEvent, t) == 0x0, "Offset mismatch!");
@@ -54,5 +55,5 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::BasicEvent, f) == 0x8, "Offset
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::BasicEvent, 0xc>, "Size mismatch!");
 
-} // namespace end def BeatmapSaveDataVersion4
+} // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::BasicEvent, "BeatmapSaveDataVersion4", "BasicEvent");

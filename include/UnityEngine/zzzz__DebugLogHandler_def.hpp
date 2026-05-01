@@ -42,61 +42,62 @@ namespace UnityEngine {
 // CS Name: UnityEngine.DebugLogHandler
 class CORDL_TYPE DebugLogHandler : public ::System::Object {
 public:
-// Declarations
-/// @brief Convert operator to "::UnityEngine::ILogHandler"
-constexpr operator  ::UnityEngine::ILogHandler*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::UnityEngine::ILogHandler"
+  constexpr operator ::UnityEngine::ILogHandler*() noexcept;
 
-/// @brief Method Internal_Log, addr 0x68adf98, size 0x17c, virtual false, abstract: false, final false
-static inline void Internal_Log(::UnityEngine::LogType  level, ::UnityEngine::LogOption  options, ::StringW  msg, ::UnityEngine::Object*  obj) ;
+  /// @brief Method Internal_Log, addr 0x69201b4, size 0x17c, virtual false, abstract: false, final false
+  static inline void Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::StringW msg, ::UnityEngine::Object* obj);
 
-/// @brief Method Internal_LogException, addr 0x68ae170, size 0x90, virtual false, abstract: false, final false
-static inline void Internal_LogException(::System::Exception*  ex, ::UnityEngine::Object*  obj) ;
+  /// @brief Method Internal_LogException, addr 0x692038c, size 0x90, virtual false, abstract: false, final false
+  static inline void Internal_LogException(::System::Exception* ex, ::UnityEngine::Object* obj);
 
-/// @brief Method Internal_LogException_Injected, addr 0x68ae200, size 0x44, virtual false, abstract: false, final false
-static inline void Internal_LogException_Injected(::System::Exception*  ex, ::System::IntPtr  obj) ;
+  /// @brief Method Internal_LogException_Injected, addr 0x692041c, size 0x44, virtual false, abstract: false, final false
+  static inline void Internal_LogException_Injected(::System::Exception* ex, ::System::IntPtr obj);
 
-/// @brief Method Internal_Log_Injected, addr 0x68ae114, size 0x5c, virtual false, abstract: false, final false
-static inline void Internal_Log_Injected(::UnityEngine::LogType  level, ::UnityEngine::LogOption  options, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  msg, ::System::IntPtr  obj) ;
+  /// @brief Method Internal_Log_Injected, addr 0x6920330, size 0x5c, virtual false, abstract: false, final false
+  static inline void Internal_Log_Injected(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> msg, ::System::IntPtr obj);
 
-/// @brief Method LogException, addr 0x68ae2c0, size 0x5c, virtual true, abstract: false, final true
-inline void LogException(::System::Exception*  exception, ::UnityEngine::Object*  context) ;
+  /// @brief Method LogException, addr 0x69204dc, size 0x5c, virtual true, abstract: false, final true
+  inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
-/// @brief Method LogFormat, addr 0x68ae244, size 0x3c, virtual true, abstract: false, final true
-inline void LogFormat(::UnityEngine::LogType  logType, ::UnityEngine::Object*  context, ::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method LogFormat, addr 0x6920460, size 0x3c, virtual true, abstract: false, final true
+  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method LogFormat, addr 0x68ae280, size 0x40, virtual false, abstract: false, final false
-inline void LogFormat(::UnityEngine::LogType  logType, ::UnityEngine::LogOption  logOptions, ::UnityEngine::Object*  context, ::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method LogFormat, addr 0x692049c, size 0x40, virtual false, abstract: false, final false
+  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::StringW format,
+                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-static inline ::UnityEngine::DebugLogHandler* New_ctor() ;
+  static inline ::UnityEngine::DebugLogHandler* New_ctor();
 
-/// @brief Method .ctor, addr 0x68ae31c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6920538, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::UnityEngine::ILogHandler"
-constexpr ::UnityEngine::ILogHandler* i___UnityEngine__ILogHandler() noexcept;
+  /// @brief Convert to "::UnityEngine::ILogHandler"
+  constexpr ::UnityEngine::ILogHandler* i___UnityEngine__ILogHandler() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DebugLogHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugLogHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugLogHandler(DebugLogHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DebugLogHandler(DebugLogHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugLogHandler(DebugLogHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DebugLogHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DebugLogHandler(DebugLogHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10090 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10084};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::DebugLogHandler, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::DebugLogHandler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DebugLogHandler*, "UnityEngine", "DebugLogHandler");

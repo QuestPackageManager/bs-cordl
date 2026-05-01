@@ -27,49 +27,49 @@ namespace System {
 // CS Name: System.InvalidOperationException
 class CORDL_TYPE InvalidOperationException : public ::System::SystemException {
 public:
-// Declarations
-static inline ::System::InvalidOperationException* New_ctor() ;
+  // Declarations
+  static inline ::System::InvalidOperationException* New_ctor();
 
-static inline ::System::InvalidOperationException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::InvalidOperationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::InvalidOperationException* New_ctor(::StringW  message) ;
+  static inline ::System::InvalidOperationException* New_ctor(::StringW message);
 
-static inline ::System::InvalidOperationException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
+  static inline ::System::InvalidOperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-/// @brief Method .ctor, addr 0x5a99070, size 0x60, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5b0b058, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5a99118, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5b0b100, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5a990d0, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5b0b0b8, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5a990f4, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x5b0b0dc, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InvalidOperationException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvalidOperationException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidOperationException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InvalidOperationException(InvalidOperationException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InvalidOperationException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InvalidOperationException(InvalidOperationException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidOperationException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InvalidOperationException(InvalidOperationException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InvalidOperationException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InvalidOperationException(InvalidOperationException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2431 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2431};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::InvalidOperationException, 0x90>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::InvalidOperationException);
 DEFINE_IL2CPP_ARG_TYPE(::System::InvalidOperationException*, "System", "InvalidOperationException");

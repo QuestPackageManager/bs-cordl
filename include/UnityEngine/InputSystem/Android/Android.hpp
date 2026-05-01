@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/InputSystem/Android/AndroidAccelerometer.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidAmbientTemperature.hpp"
@@ -25,6 +25,5 @@
 #include "UnityEngine/InputSystem/Android/DualShock4GamepadAndroid.hpp"
 #include "UnityEngine/InputSystem/Android/XboxOneGamepadAndroid.hpp"
 #ifdef __cpp_modules
-                    export module Android;
-                    #endif
-                
+export module Android;
+#endif

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BGLib/AppFlow/Initialization/AddressablesAsyncInstaller_1.hpp"
 #include "BGLib/AppFlow/Initialization/AsyncInstaller.hpp"
@@ -12,6 +12,5 @@
 #include "BGLib/AppFlow/Initialization/FeatureAsyncPreloader.hpp"
 #include "BGLib/AppFlow/Initialization/ScriptableObjectReferenceAsyncInstaller_1.hpp"
 #ifdef __cpp_modules
-                    export module Initialization;
-                    #endif
-                
+export module Initialization;
+#endif

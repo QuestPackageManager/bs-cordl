@@ -22,62 +22,62 @@ namespace Mono::Security::X509::Extensions {
 // CS Name: Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension
 class CORDL_TYPE AuthorityKeyIdentifierExtension : public ::Mono::Security::X509::X509Extension {
 public:
-// Declarations
- __declspec(property(get=get_Identifier)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Identifier;
+  // Declarations
+  __declspec(property(get = get_Identifier)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Identifier;
 
-/// @brief Field aki, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_aki, put=__cordl_internal_set_aki)) ::ArrayW<uint8_t,::Array<uint8_t>*>  aki;
+  /// @brief Field aki, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_aki, put = __cordl_internal_set_aki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> aki;
 
-/// @brief Method Decode, addr 0x58eb158, size 0x118, virtual true, abstract: false, final false
-inline void Decode() ;
+  /// @brief Method Decode, addr 0x595d0c4, size 0x118, virtual true, abstract: false, final false
+  inline void Decode();
 
-/// @brief Method Encode, addr 0x58eb270, size 0xf0, virtual true, abstract: false, final false
-inline void Encode() ;
+  /// @brief Method Encode, addr 0x595d1dc, size 0xf0, virtual true, abstract: false, final false
+  inline void Encode();
 
-static inline ::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension* New_ctor(::Mono::Security::X509::X509Extension*  extension) ;
+  static inline ::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-/// @brief Method ToString, addr 0x58eb3d4, size 0x194, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x595d340, size 0x194, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_aki() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_aki() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_aki() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_aki();
 
-constexpr void __cordl_internal_set_aki(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_aki(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x58eb154, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::Mono::Security::X509::X509Extension*  extension) ;
+  /// @brief Method .ctor, addr 0x595d0c0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-/// @brief Method get_Identifier, addr 0x58eb360, size 0x74, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Identifier() ;
+  /// @brief Method get_Identifier, addr 0x595d2cc, size 0x74, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Identifier();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AuthorityKeyIdentifierExtension() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AuthorityKeyIdentifierExtension();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierExtension", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AuthorityKeyIdentifierExtension(AuthorityKeyIdentifierExtension&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierExtension", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AuthorityKeyIdentifierExtension(AuthorityKeyIdentifierExtension && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierExtension", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AuthorityKeyIdentifierExtension(AuthorityKeyIdentifierExtension const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierExtension", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AuthorityKeyIdentifierExtension(AuthorityKeyIdentifierExtension const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19271 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19261};
+  /// @brief Field aki, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___aki;
 
-/// @brief Field aki, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___aki;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension, ___aki) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension, 0x30>, "Size mismatch!");
 
-} // namespace end def Mono::Security::X509::Extensions
+} // namespace Mono::Security::X509::Extensions
 NEED_NO_BOX(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");

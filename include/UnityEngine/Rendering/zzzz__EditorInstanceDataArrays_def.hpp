@@ -25,87 +25,87 @@ struct EditorInstanceDataArrays_ReadOnly;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::EditorInstanceDataArrays);
 MARK_VAL_T(::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.EditorInstanceDataArrays/ReadOnly
 #pragma pack(push, 0)
 struct CORDL_TYPE EditorInstanceDataArrays_ReadOnly {
 public:
-// Declarations
-/// @brief Method .ctor, addr 0x666e9d8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::ByRef<::UnityEngine::Rendering::CPUInstanceData>  instanceData) ;
+  // Declarations
+  /// @brief Method .ctor, addr 0x66e09e4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::ByRef<::UnityEngine::Rendering::CPUInstanceData> instanceData);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr EditorInstanceDataArrays_ReadOnly() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EditorInstanceDataArrays_ReadOnly();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17672};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17680 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
-// Dependencies 
+} // namespace UnityEngine::Rendering
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.EditorInstanceDataArrays
 #pragma pack(push, 0)
 struct CORDL_TYPE EditorInstanceDataArrays {
 public:
-// Declarations
-using ReadOnly = ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly;
+  // Declarations
+  using ReadOnly = ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly;
 
-/// @brief Convert operator to "::UnityEngine::Rendering::IDataArrays"
-constexpr operator  ::UnityEngine::Rendering::IDataArrays*() ;
+  /// @brief Convert operator to "::UnityEngine::Rendering::IDataArrays"
+  constexpr operator ::UnityEngine::Rendering::IDataArrays*();
 
-/// @brief Method Dispose, addr 0x666d6a8, size 0x4, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x66df6b4, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method Grow, addr 0x666d8d4, size 0x4, virtual true, abstract: false, final true
-inline void Grow(int32_t  newCapacity) ;
+  /// @brief Method Grow, addr 0x66df8e0, size 0x4, virtual true, abstract: false, final true
+  inline void Grow(int32_t newCapacity);
 
-/// @brief Method Initialize, addr 0x666d58c, size 0x4, virtual true, abstract: false, final true
-inline void Initialize(int32_t  initCapacity) ;
+  /// @brief Method Initialize, addr 0x66df598, size 0x4, virtual true, abstract: false, final true
+  inline void Initialize(int32_t initCapacity);
 
-/// @brief Method Remove, addr 0x666e204, size 0x4, virtual true, abstract: false, final true
-inline void Remove(int32_t  index, int32_t  lastIndex) ;
+  /// @brief Method Remove, addr 0x66e0210, size 0x4, virtual true, abstract: false, final true
+  inline void Remove(int32_t index, int32_t lastIndex);
 
-/// @brief Method SetDefault, addr 0x666e2dc, size 0x4, virtual true, abstract: false, final true
-inline void SetDefault(int32_t  index) ;
+  /// @brief Method SetDefault, addr 0x66e02e8, size 0x4, virtual true, abstract: false, final true
+  inline void SetDefault(int32_t index);
 
-/// @brief Convert to "::UnityEngine::Rendering::IDataArrays"
-constexpr ::UnityEngine::Rendering::IDataArrays* i___UnityEngine__Rendering__IDataArrays() ;
+  /// @brief Convert to "::UnityEngine::Rendering::IDataArrays"
+  constexpr ::UnityEngine::Rendering::IDataArrays* i___UnityEngine__Rendering__IDataArrays();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr EditorInstanceDataArrays() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EditorInstanceDataArrays();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17673};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17681 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::EditorInstanceDataArrays, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::EditorInstanceDataArrays, "UnityEngine.Rendering", "EditorInstanceDataArrays");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly, "UnityEngine.Rendering", "EditorInstanceDataArrays/ReadOnly");

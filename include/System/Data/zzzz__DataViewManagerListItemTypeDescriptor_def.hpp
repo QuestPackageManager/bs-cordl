@@ -26,46 +26,46 @@ namespace System::Data {
 // CS Name: System.Data.DataViewManagerListItemTypeDescriptor
 class CORDL_TYPE DataViewManagerListItemTypeDescriptor : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _dataViewManager, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__dataViewManager, put=__cordl_internal_set__dataViewManager)) ::System::Data::DataViewManager*  _dataViewManager;
+  // Declarations
+  /// @brief Field _dataViewManager, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager)) ::System::Data::DataViewManager* _dataViewManager;
 
-/// @brief Method GetDataView, addr 0x5e7ce68, size 0x7c, virtual false, abstract: false, final false
-inline ::System::Data::DataView* GetDataView(::System::Data::DataTable*  table) ;
+  /// @brief Method GetDataView, addr 0x5eeee74, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Data::DataView* GetDataView(::System::Data::DataTable* table);
 
-constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__dataViewManager() const;
+  constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__dataViewManager() const;
 
-constexpr ::System::Data::DataViewManager*& __cordl_internal_get__dataViewManager() ;
+  constexpr ::System::Data::DataViewManager*& __cordl_internal_get__dataViewManager();
 
-constexpr void __cordl_internal_set__dataViewManager(::System::Data::DataViewManager*  value) ;
+  constexpr void __cordl_internal_set__dataViewManager(::System::Data::DataViewManager* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DataViewManagerListItemTypeDescriptor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DataViewManagerListItemTypeDescriptor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DataViewManagerListItemTypeDescriptor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DataViewManagerListItemTypeDescriptor(DataViewManagerListItemTypeDescriptor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataViewManagerListItemTypeDescriptor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DataViewManagerListItemTypeDescriptor(DataViewManagerListItemTypeDescriptor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DataViewManagerListItemTypeDescriptor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DataViewManagerListItemTypeDescriptor(DataViewManagerListItemTypeDescriptor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataViewManagerListItemTypeDescriptor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DataViewManagerListItemTypeDescriptor(DataViewManagerListItemTypeDescriptor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13786 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13779};
+  /// @brief Field _dataViewManager, offset: 0x10, size: 0x8, def value: None
+  ::System::Data::DataViewManager* ____dataViewManager;
 
-/// @brief Field _dataViewManager, offset: 0x10, size: 0x8, def value: None
- ::System::Data::DataViewManager*  ____dataViewManager;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::DataViewManagerListItemTypeDescriptor, ____dataViewManager) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Data::DataViewManagerListItemTypeDescriptor, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::DataViewManagerListItemTypeDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataViewManagerListItemTypeDescriptor*, "System.Data", "DataViewManagerListItemTypeDescriptor");

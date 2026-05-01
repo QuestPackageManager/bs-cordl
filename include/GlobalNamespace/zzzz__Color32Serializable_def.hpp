@@ -18,8 +18,7 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
-template<typename T>
-class IEquatable_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -39,68 +38,68 @@ namespace GlobalNamespace {
 // CS Name: Color32Serializable
 struct CORDL_TYPE Color32Serializable {
 public:
-// Declarations
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr operator  ::LiteNetLib::Utils::INetSerializable*() ;
+  // Declarations
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*() ;
+  /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
+  constexpr operator ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>*();
 
-/// @brief Method Deserialize, addr 0x3683174, size 0x64, virtual true, abstract: false, final true
-inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
+  /// @brief Method Deserialize, addr 0x36bfebc, size 0x64, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-/// @brief Method Equals, addr 0x3683228, size 0xac, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x36bff70, size 0xac, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method Equals, addr 0x36831e0, size 0x48, virtual true, abstract: false, final true
-inline bool Equals(::GlobalNamespace::Color32Serializable  other) ;
+  /// @brief Method Equals, addr 0x36bff28, size 0x48, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::Color32Serializable other);
 
-/// @brief Method GetHashCode, addr 0x36832d4, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x36c001c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method Serialize, addr 0x3683114, size 0x60, virtual true, abstract: false, final true
-inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
+  /// @brief Method Serialize, addr 0x36bfe5c, size 0x60, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-/// @brief Method ToString, addr 0x36832dc, size 0x10, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x36c0024, size 0x10, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x368310c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Color32  color) ;
+  /// @brief Method .ctor, addr 0x36bfe54, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Color32 color);
 
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() ;
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
 
-/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>* i___System__IEquatable_1___GlobalNamespace__Color32Serializable_() ;
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Color32Serializable>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::Color32Serializable>* i___System__IEquatable_1___GlobalNamespace__Color32Serializable_();
 
-/// @brief Method op_Implicit, addr 0x36831dc, size 0x4, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::Color32Serializable op_Implicit___GlobalNamespace__Color32Serializable(::UnityEngine::Color32  c) ;
+  /// @brief Method op_Implicit, addr 0x36bff24, size 0x4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::Color32Serializable op_Implicit___GlobalNamespace__Color32Serializable(::UnityEngine::Color32 c);
 
-/// @brief Method op_Implicit, addr 0x36831d8, size 0x4, virtual false, abstract: false, final false
-static inline ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::GlobalNamespace::Color32Serializable  c) ;
+  /// @brief Method op_Implicit, addr 0x36bff20, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::GlobalNamespace::Color32Serializable c);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Color32Serializable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Color32Serializable();
 
-// Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]
-constexpr Color32Serializable(::UnityEngine::Color32  _color) noexcept;
+  // Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]
+  constexpr Color32Serializable(::UnityEngine::Color32 _color) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20892};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20904 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field _color, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::Color32  _color;
+  /// @brief Field _color, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::Color32 _color;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::Color32Serializable, _color) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Color32Serializable, 0x4>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Color32Serializable, "", "Color32Serializable");

@@ -24,51 +24,51 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ListViewController
 class CORDL_TYPE ListViewController : public ::UnityEngine::UIElements::BaseListViewController {
 public:
-// Declarations
- __declspec(property(get=get_listView)) ::UnityEngine::UIElements::ListView*  listView;
+  // Declarations
+  __declspec(property(get = get_listView)) ::UnityEngine::UIElements::ListView* listView;
 
-/// @brief Method BindItem, addr 0x6a88560, size 0x240, virtual true, abstract: false, final false
-inline void BindItem(::UnityEngine::UIElements::VisualElement*  element, int32_t  index) ;
+  /// @brief Method BindItem, addr 0x6afa7a8, size 0x240, virtual true, abstract: false, final false
+  inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-/// @brief Method DestroyItem, addr 0x6a887f0, size 0x3c, virtual true, abstract: false, final false
-inline void DestroyItem(::UnityEngine::UIElements::VisualElement*  element) ;
+  /// @brief Method DestroyItem, addr 0x6afaa38, size 0x3c, virtual true, abstract: false, final false
+  inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-/// @brief Method MakeItem, addr 0x6a88460, size 0x100, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::VisualElement* MakeItem() ;
+  /// @brief Method MakeItem, addr 0x6afa6a8, size 0x100, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
-static inline ::UnityEngine::UIElements::ListViewController* New_ctor() ;
+  static inline ::UnityEngine::UIElements::ListViewController* New_ctor();
 
-/// @brief Method UnbindItem, addr 0x6a887a0, size 0x50, virtual true, abstract: false, final false
-inline void UnbindItem(::UnityEngine::UIElements::VisualElement*  element, int32_t  index) ;
+  /// @brief Method UnbindItem, addr 0x6afa9e8, size 0x50, virtual true, abstract: false, final false
+  inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-/// @brief Method .ctor, addr 0x6a8882c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6afaa74, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_listView, addr 0x6a883e0, size 0x80, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::ListView* get_listView() ;
+  /// @brief Method get_listView, addr 0x6afa628, size 0x80, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::ListView* get_listView();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ListViewController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListViewController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ListViewController(ListViewController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ListViewController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ListViewController(ListViewController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ListViewController(ListViewController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ListViewController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ListViewController(ListViewController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4082 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4082};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListViewController, 0x48>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ListViewController);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListViewController*, "UnityEngine.UIElements", "ListViewController");

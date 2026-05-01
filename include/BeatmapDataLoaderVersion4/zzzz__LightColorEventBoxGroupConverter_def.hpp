@@ -35,37 +35,38 @@ namespace BeatmapDataLoaderVersion4 {
 // CS Name: BeatmapDataLoaderVersion4.LightColorEventBoxGroupConverter
 class CORDL_TYPE LightColorEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
-// Declarations
-/// @brief Method ConvertEvents, addr 0x366635c, size 0x21c, virtual true, abstract: false, final false
-inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox  eventBox, ::GlobalNamespace::IndexFilter*  indexFilter) ;
+  // Declarations
+  /// @brief Method ConvertEvents, addr 0x36a2db8, size 0x21c, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
-static inline ::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData*  lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups*  lightGroups, ::GlobalNamespace::IBeatmapBoxConverter*  boxConverter) ;
+  static inline ::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
+                                                                                        ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
-/// @brief Method .ctor, addr 0x3665938, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData*  lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups*  lightGroups, ::GlobalNamespace::IBeatmapBoxConverter*  boxConverter) ;
+  /// @brief Method .ctor, addr 0x36a2394, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LightColorEventBoxGroupConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightColorEventBoxGroupConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorEventBoxGroupConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LightColorEventBoxGroupConverter(LightColorEventBoxGroupConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightColorEventBoxGroupConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LightColorEventBoxGroupConverter(LightColorEventBoxGroupConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorEventBoxGroupConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LightColorEventBoxGroupConverter(LightColorEventBoxGroupConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightColorEventBoxGroupConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LightColorEventBoxGroupConverter(LightColorEventBoxGroupConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15422 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15415};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter, 0x28>, "Size mismatch!");
 
-} // namespace end def BeatmapDataLoaderVersion4
+} // namespace BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter*, "BeatmapDataLoaderVersion4", "LightColorEventBoxGroupConverter");

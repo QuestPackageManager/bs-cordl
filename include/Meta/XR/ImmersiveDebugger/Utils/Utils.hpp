@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Meta/XR/ImmersiveDebugger/Utils/AssemblyParser.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/ConsoleLogsCache.hpp"
@@ -15,6 +15,5 @@
 #include "Meta/XR/ImmersiveDebugger/Utils/Vector2Container.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/Vector3Container.hpp"
 #ifdef __cpp_modules
-                    export module Utils;
-                    #endif
-                
+export module Utils;
+#endif

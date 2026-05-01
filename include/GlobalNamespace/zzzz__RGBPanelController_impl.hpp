@@ -8,328 +8,265 @@
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.add_colorDidChangeEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::RGBPanelController::add_colorDidChangeEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(
+    ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::RGBPanelController::add_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587f158;
+  constexpr static std::size_t addrs = 0x58f10c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "add_colorDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "add_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.remove_colorDidChangeEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::RGBPanelController::remove_colorDidChangeEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(
+    ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::RGBPanelController::remove_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587f218;
+  constexpr static std::size_t addrs = 0x58f1184;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "remove_colorDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "remove_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.get_color
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::get_color)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::RGBPanelController::*)()>(
+    &::GlobalNamespace::RGBPanelController::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x587f2d8;
+  constexpr static std::size_t addrs = 0x58f1244;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "get_color",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.set_color
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(::UnityEngine::Color)>(&::GlobalNamespace::RGBPanelController::set_color)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(::UnityEngine::Color)>(
+    &::GlobalNamespace::RGBPanelController::set_color)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x587f2e4;
+  constexpr static std::size_t addrs = 0x58f1250;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "set_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "set_color", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.Awake
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::Awake)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x587f430;
+  constexpr static std::size_t addrs = 0x58f139c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "Awake",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.OnDestroy
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x587f530;
+  constexpr static std::size_t addrs = 0x58f149c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "OnDestroy",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.HandleSliderColorDidChange
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType)>(&::GlobalNamespace::RGBPanelController::HandleSliderColorDidChange)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(
+    ::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType)>(&::GlobalNamespace::RGBPanelController::HandleSliderColorDidChange)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x587f6e0;
+  constexpr static std::size_t addrs = 0x58f164c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "HandleSliderColorDidChange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ColorGradientSlider*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorChangeUIEventType>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "HandleSliderColorDidChange", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ColorGradientSlider*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorChangeUIEventType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.RefreshSlidersValues
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::RefreshSlidersValues)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x587f3e4;
+  constexpr static std::size_t addrs = 0x58f1350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "RefreshSlidersValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
+                                                                               "RefreshSlidersValues", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController.RefreshSlidersColors
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::RefreshSlidersColors)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x587f304;
+  constexpr static std::size_t addrs = 0x58f1270;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "RefreshSlidersColors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
+                                                                               "RefreshSlidersColors", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RGBPanelController._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587f71c;
+  constexpr static std::size_t addrs = 0x58f1688;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::HMUI::ColorGradientSlider>& GlobalNamespace::RGBPanelController::__cordl_internal_get__redSlider()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____redSlider;
+constexpr ::UnityW<::HMUI::ColorGradientSlider>& GlobalNamespace::RGBPanelController::__cordl_internal_get__redSlider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____redSlider;
 }
 constexpr ::UnityW<::HMUI::ColorGradientSlider> const& GlobalNamespace::RGBPanelController::__cordl_internal_get__redSlider() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____redSlider;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____redSlider;
 }
-constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__redSlider(::UnityW<::HMUI::ColorGradientSlider>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____redSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__redSlider(::UnityW<::HMUI::ColorGradientSlider> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____redSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::ColorGradientSlider>& GlobalNamespace::RGBPanelController::__cordl_internal_get__greenSlider()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____greenSlider;
+constexpr ::UnityW<::HMUI::ColorGradientSlider>& GlobalNamespace::RGBPanelController::__cordl_internal_get__greenSlider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____greenSlider;
 }
 constexpr ::UnityW<::HMUI::ColorGradientSlider> const& GlobalNamespace::RGBPanelController::__cordl_internal_get__greenSlider() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____greenSlider;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____greenSlider;
 }
-constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__greenSlider(::UnityW<::HMUI::ColorGradientSlider>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____greenSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__greenSlider(::UnityW<::HMUI::ColorGradientSlider> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____greenSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::ColorGradientSlider>& GlobalNamespace::RGBPanelController::__cordl_internal_get__blueSlider()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blueSlider;
+constexpr ::UnityW<::HMUI::ColorGradientSlider>& GlobalNamespace::RGBPanelController::__cordl_internal_get__blueSlider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blueSlider;
 }
 constexpr ::UnityW<::HMUI::ColorGradientSlider> const& GlobalNamespace::RGBPanelController::__cordl_internal_get__blueSlider() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blueSlider;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blueSlider;
 }
-constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__blueSlider(::UnityW<::HMUI::ColorGradientSlider>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blueSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__blueSlider(::UnityW<::HMUI::ColorGradientSlider> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blueSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*& GlobalNamespace::RGBPanelController::__cordl_internal_get_colorDidChangeEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___colorDidChangeEvent;
+constexpr ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& GlobalNamespace::RGBPanelController::__cordl_internal_get_colorDidChangeEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___colorDidChangeEvent;
 }
-constexpr ::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>* const& GlobalNamespace::RGBPanelController::__cordl_internal_get_colorDidChangeEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___colorDidChangeEvent;
+constexpr ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* const& GlobalNamespace::RGBPanelController::__cordl_internal_get_colorDidChangeEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___colorDidChangeEvent;
 }
-constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::RGBPanelController::__cordl_internal_get__color()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____color;
+constexpr ::UnityEngine::Color& GlobalNamespace::RGBPanelController::__cordl_internal_get__color() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::RGBPanelController::__cordl_internal_get__color() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____color;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____color;
 }
-constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__color(::UnityEngine::Color  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____color = value;
+constexpr void GlobalNamespace::RGBPanelController::__cordl_internal_set__color(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____color = value;
 }
-inline void GlobalNamespace::RGBPanelController::add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "add_colorDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::RGBPanelController::add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "add_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::RGBPanelController::remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "remove_colorDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color,::GlobalNamespace::ColorChangeUIEventType>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::RGBPanelController::remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "remove_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Color GlobalNamespace::RGBPanelController::get_color()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "get_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+inline ::UnityEngine::Color GlobalNamespace::RGBPanelController::get_color() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "get_color",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RGBPanelController::set_color(::UnityEngine::Color  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "set_color",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::RGBPanelController::set_color(::UnityEngine::Color value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "set_color", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::RGBPanelController::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RGBPanelController::Awake() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "Awake",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RGBPanelController::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RGBPanelController::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "OnDestroy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RGBPanelController::HandleSliderColorDidChange(::HMUI::ColorGradientSlider*  slider, ::UnityEngine::Color  color, ::GlobalNamespace::ColorChangeUIEventType  colorChangeUIEventType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "HandleSliderColorDidChange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ColorGradientSlider*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorChangeUIEventType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slider, color, colorChangeUIEventType);
+inline void GlobalNamespace::RGBPanelController::HandleSliderColorDidChange(::HMUI::ColorGradientSlider* slider, ::UnityEngine::Color color,
+                                                                            ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "HandleSliderColorDidChange", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ColorGradientSlider*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorChangeUIEventType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slider, color, colorChangeUIEventType);
 }
-inline void GlobalNamespace::RGBPanelController::RefreshSlidersValues()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "RefreshSlidersValues",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RGBPanelController::RefreshSlidersValues() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
+                                                                             "RefreshSlidersValues", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RGBPanelController::RefreshSlidersColors()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        "RefreshSlidersColors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RGBPanelController::RefreshSlidersColors() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
+                                                                             "RefreshSlidersColors", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RGBPanelController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RGBPanelController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::RGBPanelController* GlobalNamespace::RGBPanelController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RGBPanelController*>());
+inline ::GlobalNamespace::RGBPanelController* GlobalNamespace::RGBPanelController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RGBPanelController*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::RGBPanelController::RGBPanelController()   {
-}
+constexpr ::GlobalNamespace::RGBPanelController::RGBPanelController() {}

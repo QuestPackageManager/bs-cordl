@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "crypto/Security.hpp"
 #ifdef __cpp_modules
-                    export module crypto;
-                    #endif
-                
+export module crypto;
+#endif

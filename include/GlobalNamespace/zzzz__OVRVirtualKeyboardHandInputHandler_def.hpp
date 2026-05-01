@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: OVRVirtualKeyboardHandInputHandler
 class CORDL_TYPE OVRVirtualKeyboardHandInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Method Awake, addr 0x5d3f380, size 0x5c, virtual false, abstract: false, final false
-inline void Awake() ;
+  // Declarations
+  /// @brief Method Awake, addr 0x5db1368, size 0x5c, virtual false, abstract: false, final false
+  inline void Awake();
 
-static inline ::GlobalNamespace::OVRVirtualKeyboardHandInputHandler* New_ctor() ;
+  static inline ::GlobalNamespace::OVRVirtualKeyboardHandInputHandler* New_ctor();
 
-/// @brief Method .ctor, addr 0x5d3f3dc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5db13c4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRVirtualKeyboardHandInputHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRVirtualKeyboardHandInputHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardHandInputHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRVirtualKeyboardHandInputHandler(OVRVirtualKeyboardHandInputHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardHandInputHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRVirtualKeyboardHandInputHandler(OVRVirtualKeyboardHandInputHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardHandInputHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRVirtualKeyboardHandInputHandler(OVRVirtualKeyboardHandInputHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardHandInputHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRVirtualKeyboardHandInputHandler(OVRVirtualKeyboardHandInputHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7807 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7801};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVirtualKeyboardHandInputHandler, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRVirtualKeyboardHandInputHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVirtualKeyboardHandInputHandler*, "", "OVRVirtualKeyboardHandInputHandler");

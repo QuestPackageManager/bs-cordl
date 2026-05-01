@@ -18,37 +18,37 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.RuntimeUIElementsBridge
 class CORDL_TYPE RuntimeUIElementsBridge : public ::UnityEngine::UIElements::UIElementsBridge {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::RuntimeUIElementsBridge* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::RuntimeUIElementsBridge* New_ctor();
 
-/// @brief Method SetWantsMouseJumping, addr 0x6ae830c, size 0x4, virtual true, abstract: false, final false
-inline void SetWantsMouseJumping(int32_t  value) ;
+  /// @brief Method SetWantsMouseJumping, addr 0x6b5a554, size 0x4, virtual true, abstract: false, final false
+  inline void SetWantsMouseJumping(int32_t value);
 
-/// @brief Method .ctor, addr 0x6ae8310, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b5a558, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RuntimeUIElementsBridge() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeUIElementsBridge();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RuntimeUIElementsBridge(RuntimeUIElementsBridge&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RuntimeUIElementsBridge(RuntimeUIElementsBridge && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RuntimeUIElementsBridge(RuntimeUIElementsBridge const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RuntimeUIElementsBridge", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RuntimeUIElementsBridge(RuntimeUIElementsBridge const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5111 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5111};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RuntimeUIElementsBridge, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RuntimeUIElementsBridge);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RuntimeUIElementsBridge*, "UnityEngine.UIElements", "RuntimeUIElementsBridge");

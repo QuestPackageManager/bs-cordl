@@ -6,67 +6,56 @@
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::DiagnosticsConfigurationHandler._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DiagnosticsConfigurationHandler::*)()>(&::System::Diagnostics::DiagnosticsConfigurationHandler::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DiagnosticsConfigurationHandler::*)()>(
+    &::System::Diagnostics::DiagnosticsConfigurationHandler::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61bdd08;
+  constexpr static std::size_t addrs = 0x622fd14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Diagnostics::DiagnosticsConfigurationHandler.Create
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Diagnostics::DiagnosticsConfigurationHandler::*)(::System::Object*, ::System::Object*, ::System::Xml::XmlNode*)>(&::System::Diagnostics::DiagnosticsConfigurationHandler::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::System::Diagnostics::DiagnosticsConfigurationHandler::*)(::System::Object*, ::System::Object*, ::System::Xml::XmlNode*)>(&::System::Diagnostics::DiagnosticsConfigurationHandler::Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61bdd44;
+  constexpr static std::size_t addrs = 0x622fd50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void System::Diagnostics::DiagnosticsConfigurationHandler::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Diagnostics::DiagnosticsConfigurationHandler::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Diagnostics::DiagnosticsConfigurationHandler::Create(::System::Object*  parent, ::System::Object*  configContext, ::System::Xml::XmlNode*  section)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, parent, configContext, section);
+inline ::System::Object* System::Diagnostics::DiagnosticsConfigurationHandler::Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DiagnosticsConfigurationHandler*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, parent, configContext, section);
 }
-inline ::System::Diagnostics::DiagnosticsConfigurationHandler* System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::DiagnosticsConfigurationHandler*>());
+inline ::System::Diagnostics::DiagnosticsConfigurationHandler* System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::DiagnosticsConfigurationHandler*>());
 }
 /// @brief Convert operator to "::System::Configuration::IConfigurationSectionHandler"
-constexpr  System::Diagnostics::DiagnosticsConfigurationHandler::operator ::System::Configuration::IConfigurationSectionHandler*() noexcept {
-return static_cast<::System::Configuration::IConfigurationSectionHandler*>(static_cast<void*>(this));
+constexpr System::Diagnostics::DiagnosticsConfigurationHandler::operator ::System::Configuration::IConfigurationSectionHandler*() noexcept {
+  return static_cast<::System::Configuration::IConfigurationSectionHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"
 constexpr ::System::Configuration::IConfigurationSectionHandler* System::Diagnostics::DiagnosticsConfigurationHandler::i___System__Configuration__IConfigurationSectionHandler() noexcept {
-return static_cast<::System::Configuration::IConfigurationSectionHandler*>(static_cast<void*>(this));
+  return static_cast<::System::Configuration::IConfigurationSectionHandler*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Diagnostics::DiagnosticsConfigurationHandler::DiagnosticsConfigurationHandler()   {
-}
+constexpr ::System::Diagnostics::DiagnosticsConfigurationHandler::DiagnosticsConfigurationHandler() {}

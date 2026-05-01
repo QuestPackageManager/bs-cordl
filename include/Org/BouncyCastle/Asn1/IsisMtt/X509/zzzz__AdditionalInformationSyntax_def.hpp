@@ -27,64 +27,64 @@ namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // CS Name: Org.BouncyCastle.Asn1.IsisMtt.X509.AdditionalInformationSyntax
 class CORDL_TYPE AdditionalInformationSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
- __declspec(property(get=get_Information)) ::Org::BouncyCastle::Asn1::X500::DirectoryString*  Information;
+  // Declarations
+  __declspec(property(get = get_Information)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* Information;
 
-/// @brief Field information, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_information, put=__cordl_internal_set_information)) ::Org::BouncyCastle::Asn1::X500::DirectoryString*  information;
+  /// @brief Field information, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_information, put = __cordl_internal_set_information)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* information;
 
-/// @brief Method GetInstance, addr 0x33552a4, size 0x14c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x33918e8, size 0x14c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString*  information) ;
+  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
 
-static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::StringW  information) ;
+  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::StringW information);
 
-/// @brief Method ToAsn1Object, addr 0x335546c, size 0x1c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x3391ab0, size 0x1c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString* const& __cordl_internal_get_information() const;
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString* const& __cordl_internal_get_information() const;
 
-constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_information() ;
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_information();
 
-constexpr void __cordl_internal_set_information(::Org::BouncyCastle::Asn1::X500::DirectoryString*  value) ;
+  constexpr void __cordl_internal_set_information(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-/// @brief Method .ctor, addr 0x33553f0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString*  information) ;
+  /// @brief Method .ctor, addr 0x3391a34, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
 
-/// @brief Method .ctor, addr 0x33553f8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  information) ;
+  /// @brief Method .ctor, addr 0x3391a3c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW information);
 
-/// @brief Method get_Information, addr 0x3355464, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Information() ;
+  /// @brief Method get_Information, addr 0x3391aa8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Information();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AdditionalInformationSyntax() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AdditionalInformationSyntax();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalInformationSyntax", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AdditionalInformationSyntax(AdditionalInformationSyntax&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AdditionalInformationSyntax", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AdditionalInformationSyntax(AdditionalInformationSyntax && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AdditionalInformationSyntax", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AdditionalInformationSyntax(AdditionalInformationSyntax const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AdditionalInformationSyntax", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AdditionalInformationSyntax(AdditionalInformationSyntax const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 182 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{182};
+  /// @brief Field information, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::X500::DirectoryString* ___information;
 
-/// @brief Field information, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::X500::DirectoryString*  ___information;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax, ___information) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::IsisMtt::X509
+} // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax*, "Org.BouncyCastle.Asn1.IsisMtt.X509", "AdditionalInformationSyntax");

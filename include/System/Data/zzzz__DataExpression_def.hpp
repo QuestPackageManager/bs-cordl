@@ -43,180 +43,180 @@ namespace System::Data {
 // CS Name: System.Data.DataExpression
 class CORDL_TYPE DataExpression : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Expression)) ::StringW  Expression;
+  // Declarations
+  __declspec(property(get = get_Expression)) ::StringW Expression;
 
- __declspec(property(get=get_HasValue)) bool  HasValue;
+  __declspec(property(get = get_HasValue)) bool HasValue;
 
-/// @brief Field _bound, offset 0x19, size 0x1 
- __declspec(property(get=__cordl_internal_get__bound, put=__cordl_internal_set__bound)) bool  _bound;
+  /// @brief Field _bound, offset 0x19, size 0x1
+  __declspec(property(get = __cordl_internal_get__bound, put = __cordl_internal_set__bound)) bool _bound;
 
-/// @brief Field _dataType, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__dataType, put=__cordl_internal_set__dataType)) ::System::Type*  _dataType;
+  /// @brief Field _dataType, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__dataType, put = __cordl_internal_set__dataType)) ::System::Type* _dataType;
 
-/// @brief Field _dependency, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__dependency, put=__cordl_internal_set__dependency)) ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  _dependency;
+  /// @brief Field _dependency, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__dependency, put = __cordl_internal_set__dependency)) ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> _dependency;
 
-/// @brief Field _expr, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__expr, put=__cordl_internal_set__expr)) ::System::Data::ExpressionNode*  _expr;
+  /// @brief Field _expr, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__expr, put = __cordl_internal_set__expr)) ::System::Data::ExpressionNode* _expr;
 
-/// @brief Field _originalExpression, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__originalExpression, put=__cordl_internal_set__originalExpression)) ::StringW  _originalExpression;
+  /// @brief Field _originalExpression, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__originalExpression, put = __cordl_internal_set__originalExpression)) ::StringW _originalExpression;
 
-/// @brief Field _parsed, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get__parsed, put=__cordl_internal_set__parsed)) bool  _parsed;
+  /// @brief Field _parsed, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__parsed, put = __cordl_internal_set__parsed)) bool _parsed;
 
-/// @brief Field _storageType, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get__storageType, put=__cordl_internal_set__storageType)) ::System::Data::Common::StorageType  _storageType;
+  /// @brief Field _storageType, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__storageType, put = __cordl_internal_set__storageType)) ::System::Data::Common::StorageType _storageType;
 
-/// @brief Field _table, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__table, put=__cordl_internal_set__table)) ::System::Data::DataTable*  _table;
+  /// @brief Field _table, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-/// @brief Convert operator to "::System::Data::IFilter"
-constexpr operator  ::System::Data::IFilter*() noexcept;
+  /// @brief Convert operator to "::System::Data::IFilter"
+  constexpr operator ::System::Data::IFilter*() noexcept;
 
-/// @brief Method Bind, addr 0x5e8c550, size 0xfc, virtual false, abstract: false, final false
-inline void Bind(::System::Data::DataTable*  table) ;
+  /// @brief Method Bind, addr 0x5efe55c, size 0xfc, virtual false, abstract: false, final false
+  inline void Bind(::System::Data::DataTable* table);
 
-/// @brief Method DependsOn, addr 0x5e8266c, size 0x1c, virtual false, abstract: false, final false
-inline bool DependsOn(::System::Data::DataColumn*  column) ;
+  /// @brief Method DependsOn, addr 0x5ef4678, size 0x1c, virtual false, abstract: false, final false
+  inline bool DependsOn(::System::Data::DataColumn* column);
 
-/// @brief Method Evaluate, addr 0x5e8c6b0, size 0xc, virtual false, abstract: false, final false
-inline ::System::Object* Evaluate() ;
+  /// @brief Method Evaluate, addr 0x5efe6bc, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Object* Evaluate();
 
-/// @brief Method Evaluate, addr 0x5e8c6bc, size 0x1fc, virtual false, abstract: false, final false
-inline ::System::Object* Evaluate(::System::Data::DataRow*  row, ::System::Data::DataRowVersion  version) ;
+  /// @brief Method Evaluate, addr 0x5efe6c8, size 0x1fc, virtual false, abstract: false, final false
+  inline ::System::Object* Evaluate(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-/// @brief Method GetDependency, addr 0x5e8cacc, size 0x8, virtual false, abstract: false, final false
-inline ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*> GetDependency() ;
+  /// @brief Method GetDependency, addr 0x5efead8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> GetDependency();
 
-/// @brief Method HasLocalAggregate, addr 0x5e8cb48, size 0x18, virtual false, abstract: false, final false
-inline bool HasLocalAggregate() ;
+  /// @brief Method HasLocalAggregate, addr 0x5efeb54, size 0x18, virtual false, abstract: false, final false
+  inline bool HasLocalAggregate();
 
-/// @brief Method HasRemoteAggregate, addr 0x5e8cb60, size 0x18, virtual false, abstract: false, final false
-inline bool HasRemoteAggregate() ;
+  /// @brief Method HasRemoteAggregate, addr 0x5efeb6c, size 0x18, virtual false, abstract: false, final false
+  inline bool HasRemoteAggregate();
 
-/// @brief Method Invoke, addr 0x5e8c950, size 0xe0, virtual true, abstract: false, final true
-inline bool Invoke(::System::Data::DataRow*  row, ::System::Data::DataRowVersion  version) ;
+  /// @brief Method Invoke, addr 0x5efe95c, size 0xe0, virtual true, abstract: false, final true
+  inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-/// @brief Method IsTableAggregate, addr 0x5e8cad4, size 0x18, virtual false, abstract: false, final false
-inline bool IsTableAggregate() ;
+  /// @brief Method IsTableAggregate, addr 0x5efeae0, size 0x18, virtual false, abstract: false, final false
+  inline bool IsTableAggregate();
 
-/// @brief Method IsUnknown, addr 0x5e8caec, size 0x5c, virtual false, abstract: false, final false
-static inline bool IsUnknown(::System::Object*  value) ;
+  /// @brief Method IsUnknown, addr 0x5efeaf8, size 0x5c, virtual false, abstract: false, final false
+  static inline bool IsUnknown(::System::Object* value);
 
-static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable*  table, ::StringW  expression) ;
+  static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression);
 
-static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable*  table, ::StringW  expression, ::System::Type*  type) ;
+  static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-/// @brief Method ToBoolean, addr 0x5e89614, size 0x20c, virtual false, abstract: false, final false
-static inline bool ToBoolean(::System::Object*  value) ;
+  /// @brief Method ToBoolean, addr 0x5efb620, size 0x20c, virtual false, abstract: false, final false
+  static inline bool ToBoolean(::System::Object* value);
 
-constexpr bool const& __cordl_internal_get__bound() const;
+  constexpr bool const& __cordl_internal_get__bound() const;
 
-constexpr bool& __cordl_internal_get__bound() ;
+  constexpr bool& __cordl_internal_get__bound();
 
-constexpr ::System::Type* const& __cordl_internal_get__dataType() const;
+  constexpr ::System::Type* const& __cordl_internal_get__dataType() const;
 
-constexpr ::System::Type*& __cordl_internal_get__dataType() ;
+  constexpr ::System::Type*& __cordl_internal_get__dataType();
 
-constexpr ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*> const& __cordl_internal_get__dependency() const;
+  constexpr ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> const& __cordl_internal_get__dependency() const;
 
-constexpr ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>& __cordl_internal_get__dependency() ;
+  constexpr ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>& __cordl_internal_get__dependency();
 
-constexpr ::System::Data::ExpressionNode* const& __cordl_internal_get__expr() const;
+  constexpr ::System::Data::ExpressionNode* const& __cordl_internal_get__expr() const;
 
-constexpr ::System::Data::ExpressionNode*& __cordl_internal_get__expr() ;
+  constexpr ::System::Data::ExpressionNode*& __cordl_internal_get__expr();
 
-constexpr ::StringW const& __cordl_internal_get__originalExpression() const;
+  constexpr ::StringW const& __cordl_internal_get__originalExpression() const;
 
-constexpr ::StringW& __cordl_internal_get__originalExpression() ;
+  constexpr ::StringW& __cordl_internal_get__originalExpression();
 
-constexpr bool const& __cordl_internal_get__parsed() const;
+  constexpr bool const& __cordl_internal_get__parsed() const;
 
-constexpr bool& __cordl_internal_get__parsed() ;
+  constexpr bool& __cordl_internal_get__parsed();
 
-constexpr ::System::Data::Common::StorageType const& __cordl_internal_get__storageType() const;
+  constexpr ::System::Data::Common::StorageType const& __cordl_internal_get__storageType() const;
 
-constexpr ::System::Data::Common::StorageType& __cordl_internal_get__storageType() ;
+  constexpr ::System::Data::Common::StorageType& __cordl_internal_get__storageType();
 
-constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
 
-constexpr ::System::Data::DataTable*& __cordl_internal_get__table() ;
+  constexpr ::System::Data::DataTable*& __cordl_internal_get__table();
 
-constexpr void __cordl_internal_set__bound(bool  value) ;
+  constexpr void __cordl_internal_set__bound(bool value);
 
-constexpr void __cordl_internal_set__dataType(::System::Type*  value) ;
+  constexpr void __cordl_internal_set__dataType(::System::Type* value);
 
-constexpr void __cordl_internal_set__dependency(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  value) ;
+  constexpr void __cordl_internal_set__dependency(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> value);
 
-constexpr void __cordl_internal_set__expr(::System::Data::ExpressionNode*  value) ;
+  constexpr void __cordl_internal_set__expr(::System::Data::ExpressionNode* value);
 
-constexpr void __cordl_internal_set__originalExpression(::StringW  value) ;
+  constexpr void __cordl_internal_set__originalExpression(::StringW value);
 
-constexpr void __cordl_internal_set__parsed(bool  value) ;
+  constexpr void __cordl_internal_set__parsed(bool value);
 
-constexpr void __cordl_internal_set__storageType(::System::Data::Common::StorageType  value) ;
+  constexpr void __cordl_internal_set__storageType(::System::Data::Common::StorageType value);
 
-constexpr void __cordl_internal_set__table(::System::Data::DataTable*  value) ;
+  constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-/// @brief Method .ctor, addr 0x5e80060, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Data::DataTable*  table, ::StringW  expression) ;
+  /// @brief Method .ctor, addr 0x5ef206c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Data::DataTable* table, ::StringW expression);
 
-/// @brief Method .ctor, addr 0x5e8b570, size 0x1ac, virtual false, abstract: false, final false
-inline void _ctor(::System::Data::DataTable*  table, ::StringW  expression, ::System::Type*  type) ;
+  /// @brief Method .ctor, addr 0x5efd57c, size 0x1ac, virtual false, abstract: false, final false
+  inline void _ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-/// @brief Method get_Expression, addr 0x5e8c64c, size 0x54, virtual false, abstract: false, final false
-inline ::StringW get_Expression() ;
+  /// @brief Method get_Expression, addr 0x5efe658, size 0x54, virtual false, abstract: false, final false
+  inline ::StringW get_Expression();
 
-/// @brief Method get_HasValue, addr 0x5e8c6a0, size 0x10, virtual false, abstract: false, final false
-inline bool get_HasValue() ;
+  /// @brief Method get_HasValue, addr 0x5efe6ac, size 0x10, virtual false, abstract: false, final false
+  inline bool get_HasValue();
 
-/// @brief Convert to "::System::Data::IFilter"
-constexpr ::System::Data::IFilter* i___System__Data__IFilter() noexcept;
+  /// @brief Convert to "::System::Data::IFilter"
+  constexpr ::System::Data::IFilter* i___System__Data__IFilter() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DataExpression() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DataExpression();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DataExpression", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DataExpression(DataExpression&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataExpression", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DataExpression(DataExpression && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DataExpression", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DataExpression(DataExpression const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataExpression", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DataExpression(DataExpression const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13797 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13790};
+  /// @brief Field _originalExpression, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____originalExpression;
 
-/// @brief Field _originalExpression, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____originalExpression;
+  /// @brief Field _parsed, offset: 0x18, size: 0x1, def value: None
+  bool ____parsed;
 
-/// @brief Field _parsed, offset: 0x18, size: 0x1, def value: None
- bool  ____parsed;
+  /// @brief Field _bound, offset: 0x19, size: 0x1, def value: None
+  bool ____bound;
 
-/// @brief Field _bound, offset: 0x19, size: 0x1, def value: None
- bool  ____bound;
+  /// @brief Field _expr, offset: 0x20, size: 0x8, def value: None
+  ::System::Data::ExpressionNode* ____expr;
 
-/// @brief Field _expr, offset: 0x20, size: 0x8, def value: None
- ::System::Data::ExpressionNode*  ____expr;
+  /// @brief Field _table, offset: 0x28, size: 0x8, def value: None
+  ::System::Data::DataTable* ____table;
 
-/// @brief Field _table, offset: 0x28, size: 0x8, def value: None
- ::System::Data::DataTable*  ____table;
+  /// @brief Field _storageType, offset: 0x30, size: 0x4, def value: None
+  ::System::Data::Common::StorageType ____storageType;
 
-/// @brief Field _storageType, offset: 0x30, size: 0x4, def value: None
- ::System::Data::Common::StorageType  ____storageType;
+  /// @brief Field _dataType, offset: 0x38, size: 0x8, def value: None
+  ::System::Type* ____dataType;
 
-/// @brief Field _dataType, offset: 0x38, size: 0x8, def value: None
- ::System::Type*  ____dataType;
+  /// @brief Field _dependency, offset: 0x40, size: 0x8, def value: None
+  ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ____dependency;
 
-/// @brief Field _dependency, offset: 0x40, size: 0x8, def value: None
- ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  ____dependency;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::DataExpression, ____originalExpression) == 0x10, "Offset mismatch!");
@@ -237,6 +237,6 @@ static_assert(offsetof(::System::Data::DataExpression, ____dependency) == 0x40, 
 
 static_assert(::cordl_internals::size_check_v<::System::Data::DataExpression, 0x48>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::DataExpression);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataExpression*, "System.Data", "DataExpression");

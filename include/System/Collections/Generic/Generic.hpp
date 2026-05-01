@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Collections/Generic/ArrayBuilder_1.hpp"
 #include "System/Collections/Generic/ArraySortHelper_1.hpp"
@@ -68,6 +68,5 @@
 #include "System/Collections/Generic/TreeWalkPredicate_1.hpp"
 #include "System/Collections/Generic/ValueListBuilder_1.hpp"
 #ifdef __cpp_modules
-                    export module Generic;
-                    #endif
-                
+export module Generic;
+#endif

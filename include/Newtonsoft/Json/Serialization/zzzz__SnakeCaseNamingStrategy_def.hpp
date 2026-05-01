@@ -18,47 +18,47 @@ namespace Newtonsoft::Json::Serialization {
 // CS Name: Newtonsoft.Json.Serialization.SnakeCaseNamingStrategy
 class CORDL_TYPE SnakeCaseNamingStrategy : public ::Newtonsoft::Json::Serialization::NamingStrategy {
 public:
-// Declarations
-static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor() ;
+  // Declarations
+  static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor();
 
-static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor(bool  processDictionaryKeys, bool  overrideSpecifiedNames) ;
+  static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor(bool  processDictionaryKeys, bool  overrideSpecifiedNames, bool  processExtensionDataNames) ;
+  static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-/// @brief Method ResolvePropertyName, addr 0x5bac690, size 0xc, virtual true, abstract: false, final false
-inline ::StringW ResolvePropertyName(::StringW  name) ;
+  /// @brief Method ResolvePropertyName, addr 0x5c1e678, size 0xc, virtual true, abstract: false, final false
+  inline ::StringW ResolvePropertyName(::StringW name);
 
-/// @brief Method .ctor, addr 0x5bac68c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5c1e674, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5bac670, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(bool  processDictionaryKeys, bool  overrideSpecifiedNames) ;
+  /// @brief Method .ctor, addr 0x5c1e658, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-/// @brief Method .ctor, addr 0x5bac67c, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(bool  processDictionaryKeys, bool  overrideSpecifiedNames, bool  processExtensionDataNames) ;
+  /// @brief Method .ctor, addr 0x5c1e664, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SnakeCaseNamingStrategy() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SnakeCaseNamingStrategy();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SnakeCaseNamingStrategy(SnakeCaseNamingStrategy&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SnakeCaseNamingStrategy(SnakeCaseNamingStrategy && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SnakeCaseNamingStrategy(SnakeCaseNamingStrategy const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SnakeCaseNamingStrategy", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SnakeCaseNamingStrategy(SnakeCaseNamingStrategy const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13520 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13513};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy, 0x18>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Serialization
+} // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy*, "Newtonsoft.Json.Serialization", "SnakeCaseNamingStrategy");

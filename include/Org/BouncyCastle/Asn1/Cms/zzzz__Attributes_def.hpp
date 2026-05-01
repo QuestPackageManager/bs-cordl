@@ -32,62 +32,62 @@ namespace Org::BouncyCastle::Asn1::Cms {
 // CS Name: Org.BouncyCastle.Asn1.Cms.Attributes
 class CORDL_TYPE Attributes : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
-/// @brief Field attributes, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_attributes, put=__cordl_internal_set_attributes)) ::Org::BouncyCastle::Asn1::Asn1Set*  attributes;
+  // Declarations
+  /// @brief Field attributes, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::Org::BouncyCastle::Asn1::Asn1Set* attributes;
 
-/// @brief Method GetAttributes, addr 0x3256d34, size 0xf4, virtual true, abstract: false, final false
-inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::Attribute*,::Array<::Org::BouncyCastle::Asn1::Cms::Attribute*>*> GetAttributes() ;
+  /// @brief Method GetAttributes, addr 0x3293378, size 0xf4, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::Attribute*, ::Array<::Org::BouncyCastle::Asn1::Cms::Attribute*>*> GetAttributes();
 
-/// @brief Method GetInstance, addr 0x3256c98, size 0x9c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x32932dc, size 0x9c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set*  attributes) ;
+  static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector*  v) ;
+  static inline ::Org::BouncyCastle::Asn1::Cms::Attributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-/// @brief Method ToAsn1Object, addr 0x3256e28, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x329346c, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_attributes() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_attributes() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_attributes() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_attributes();
 
-constexpr void __cordl_internal_set_attributes(::Org::BouncyCastle::Asn1::Asn1Set*  value) ;
+  constexpr void __cordl_internal_set_attributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-/// @brief Method .ctor, addr 0x3256c24, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set*  attributes) ;
+  /// @brief Method .ctor, addr 0x3293268, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-/// @brief Method .ctor, addr 0x3256c2c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector*  v) ;
+  /// @brief Method .ctor, addr 0x3293270, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Attributes() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Attributes();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Attributes(Attributes&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Attributes(Attributes && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Attributes(Attributes const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Attributes(Attributes const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 56 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{56};
+  /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Set* ___attributes;
 
-/// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1Set*  ___attributes;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::Attributes, ___attributes) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::Attributes, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::Cms
+} // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::Attributes);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::Attributes*, "Org.BouncyCastle.Asn1.Cms", "Attributes");

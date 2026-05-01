@@ -18,32 +18,32 @@ namespace UnityEngine::XR::OpenXR {
 // CS Name: UnityEngine.XR.OpenXR.Constants
 class CORDL_TYPE Constants : public ::System::Object {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Constants() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Constants();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Constants", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Constants(Constants&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Constants", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Constants(Constants && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Constants", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Constants(Constants const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Constants", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Constants(Constants const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18481 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18471};
+  /// @brief Field k_SettingsKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString k_SettingsKey{ u"com.unity.xr.openxr.settings4" };
 
-/// @brief Field k_SettingsKey offset 0xffffffff size 0x8
-static constexpr ::ConstString  k_SettingsKey{u"com.unity.xr.openxr.settings4"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Constants, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR
+} // namespace UnityEngine::XR::OpenXR
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Constants);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Constants*, "UnityEngine.XR.OpenXR", "Constants");

@@ -36,221 +36,221 @@ namespace BeatSaber::AvatarCore {
 // CS Name: BeatSaber.AvatarCore.AvatarSelectionView
 class CORDL_TYPE AvatarSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _backgroundImageView, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__backgroundImageView, put=__cordl_internal_set__backgroundImageView)) ::UnityW<::HMUI::ImageView>  _backgroundImageView;
+  // Declarations
+  /// @brief Field _backgroundImageView, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__backgroundImageView, put = __cordl_internal_set__backgroundImageView)) ::UnityW<::HMUI::ImageView> _backgroundImageView;
 
-/// @brief Field _buttonBinder, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get__buttonBinder, put=__cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder*  _buttonBinder;
+  /// @brief Field _buttonBinder, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-/// @brief Field _createButton, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__createButton, put=__cordl_internal_set__createButton)) ::UnityW<::UnityEngine::UI::Button>  _createButton;
+  /// @brief Field _createButton, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__createButton, put = __cordl_internal_set__createButton)) ::UnityW<::UnityEngine::UI::Button> _createButton;
 
-/// @brief Field _currentlyPreferredText, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__currentlyPreferredText, put=__cordl_internal_set__currentlyPreferredText)) ::UnityW<::TMPro::TextMeshProUGUI>  _currentlyPreferredText;
+  /// @brief Field _currentlyPreferredText, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__currentlyPreferredText, put = __cordl_internal_set__currentlyPreferredText)) ::UnityW<::TMPro::TextMeshProUGUI> _currentlyPreferredText;
 
-/// @brief Field _editButton, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__editButton, put=__cordl_internal_set__editButton)) ::UnityW<::UnityEngine::UI::Button>  _editButton;
+  /// @brief Field _editButton, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__editButton, put = __cordl_internal_set__editButton)) ::UnityW<::UnityEngine::UI::Button> _editButton;
 
-/// @brief Field _normalColor, offset 0x60, size 0x10 
- __declspec(property(get=__cordl_internal_get__normalColor, put=__cordl_internal_set__normalColor)) ::UnityEngine::Color  _normalColor;
+  /// @brief Field _normalColor, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor)) ::UnityEngine::Color _normalColor;
 
-/// @brief Field _preferredColor, offset 0x50, size 0x10 
- __declspec(property(get=__cordl_internal_get__preferredColor, put=__cordl_internal_set__preferredColor)) ::UnityEngine::Color  _preferredColor;
+  /// @brief Field _preferredColor, offset 0x50, size 0x10
+  __declspec(property(get = __cordl_internal_get__preferredColor, put = __cordl_internal_set__preferredColor)) ::UnityEngine::Color _preferredColor;
 
-/// @brief Field _rectTransform, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__rectTransform, put=__cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform>  _rectTransform;
+  /// @brief Field _rectTransform, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
-/// @brief Field _setAsPreferredButton, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__setAsPreferredButton, put=__cordl_internal_set__setAsPreferredButton)) ::UnityW<::UnityEngine::UI::Button>  _setAsPreferredButton;
+  /// @brief Field _setAsPreferredButton, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__setAsPreferredButton, put = __cordl_internal_set__setAsPreferredButton)) ::UnityW<::UnityEngine::UI::Button> _setAsPreferredButton;
 
-/// @brief Field didPressCreateButtonEvent, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get_didPressCreateButtonEvent, put=__cordl_internal_set_didPressCreateButtonEvent)) ::System::Action*  didPressCreateButtonEvent;
+  /// @brief Field didPressCreateButtonEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_didPressCreateButtonEvent, put = __cordl_internal_set_didPressCreateButtonEvent)) ::System::Action* didPressCreateButtonEvent;
 
-/// @brief Field didPressEditButtonEvent, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get_didPressEditButtonEvent, put=__cordl_internal_set_didPressEditButtonEvent)) ::System::Action*  didPressEditButtonEvent;
+  /// @brief Field didPressEditButtonEvent, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_didPressEditButtonEvent, put = __cordl_internal_set_didPressEditButtonEvent)) ::System::Action* didPressEditButtonEvent;
 
-/// @brief Field didPressPreferredButtonEvent, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get_didPressPreferredButtonEvent, put=__cordl_internal_set_didPressPreferredButtonEvent)) ::System::Action*  didPressPreferredButtonEvent;
+  /// @brief Field didPressPreferredButtonEvent, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_didPressPreferredButtonEvent, put = __cordl_internal_set_didPressPreferredButtonEvent)) ::System::Action* didPressPreferredButtonEvent;
 
- __declspec(property(get=get_rectTransform)) ::UnityW<::UnityEngine::RectTransform>  rectTransform;
+  __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-/// @brief Method Activate, addr 0x319ca18, size 0x4, virtual true, abstract: false, final false
-inline void Activate() ;
+  /// @brief Method Activate, addr 0x31d3520, size 0x4, virtual true, abstract: false, final false
+  inline void Activate();
 
-/// @brief Method Deactivate, addr 0x319ca1c, size 0x4, virtual true, abstract: false, final false
-inline void Deactivate() ;
+  /// @brief Method Deactivate, addr 0x31d3524, size 0x4, virtual true, abstract: false, final false
+  inline void Deactivate();
 
-static inline ::BeatSaber::AvatarCore::AvatarSelectionView* New_ctor() ;
+  static inline ::BeatSaber::AvatarCore::AvatarSelectionView* New_ctor();
 
-/// @brief Method SetCreated, addr 0x319c9a4, size 0x74, virtual true, abstract: false, final false
-inline void SetCreated(bool  isCreated) ;
+  /// @brief Method SetCreated, addr 0x31d34ac, size 0x74, virtual true, abstract: false, final false
+  inline void SetCreated(bool isCreated);
 
-/// @brief Method SetPreferred, addr 0x319c8f4, size 0xb0, virtual true, abstract: false, final false
-inline void SetPreferred(bool  isPreferred) ;
+  /// @brief Method SetPreferred, addr 0x31d33fc, size 0xb0, virtual true, abstract: false, final false
+  inline void SetPreferred(bool isPreferred);
 
-/// @brief Method Start, addr 0x319c74c, size 0x1a8, virtual true, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x31d3254, size 0x1a8, virtual true, abstract: false, final false
+  inline void Start();
 
-/// @brief Method <Start>b__20_0, addr 0x319ca7c, size 0x1c, virtual false, abstract: false, final false
-inline void _Start_b__20_0() ;
+  /// @brief Method <Start>b__20_0, addr 0x31d3584, size 0x1c, virtual false, abstract: false, final false
+  inline void _Start_b__20_0();
 
-/// @brief Method <Start>b__20_1, addr 0x319ca98, size 0x1c, virtual false, abstract: false, final false
-inline void _Start_b__20_1() ;
+  /// @brief Method <Start>b__20_1, addr 0x31d35a0, size 0x1c, virtual false, abstract: false, final false
+  inline void _Start_b__20_1();
 
-/// @brief Method <Start>b__20_2, addr 0x319cab4, size 0x1c, virtual false, abstract: false, final false
-inline void _Start_b__20_2() ;
+  /// @brief Method <Start>b__20_2, addr 0x31d35bc, size 0x1c, virtual false, abstract: false, final false
+  inline void _Start_b__20_2();
 
-constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__backgroundImageView() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__backgroundImageView() const;
 
-constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__backgroundImageView() ;
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__backgroundImageView();
 
-constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder() ;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createButton() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__createButton() ;
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__createButton();
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__currentlyPreferredText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__currentlyPreferredText() const;
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__currentlyPreferredText() ;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__currentlyPreferredText();
 
-constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editButton() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__editButton() ;
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__editButton();
 
-constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
 
-constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor() ;
+  constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor();
 
-constexpr ::UnityEngine::Color const& __cordl_internal_get__preferredColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__preferredColor() const;
 
-constexpr ::UnityEngine::Color& __cordl_internal_get__preferredColor() ;
+  constexpr ::UnityEngine::Color& __cordl_internal_get__preferredColor();
 
-constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform() ;
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__setAsPreferredButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__setAsPreferredButton() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__setAsPreferredButton() ;
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__setAsPreferredButton();
 
-constexpr ::System::Action* const& __cordl_internal_get_didPressCreateButtonEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressCreateButtonEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_didPressCreateButtonEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_didPressCreateButtonEvent();
 
-constexpr ::System::Action* const& __cordl_internal_get_didPressEditButtonEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressEditButtonEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_didPressEditButtonEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_didPressEditButtonEvent();
 
-constexpr ::System::Action* const& __cordl_internal_get_didPressPreferredButtonEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressPreferredButtonEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_didPressPreferredButtonEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_didPressPreferredButtonEvent();
 
-constexpr void __cordl_internal_set__backgroundImageView(::UnityW<::HMUI::ImageView>  value) ;
+  constexpr void __cordl_internal_set__backgroundImageView(::UnityW<::HMUI::ImageView> value);
 
-constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder*  value) ;
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-constexpr void __cordl_internal_set__createButton(::UnityW<::UnityEngine::UI::Button>  value) ;
+  constexpr void __cordl_internal_set__createButton(::UnityW<::UnityEngine::UI::Button> value);
 
-constexpr void __cordl_internal_set__currentlyPreferredText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
+  constexpr void __cordl_internal_set__currentlyPreferredText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-constexpr void __cordl_internal_set__editButton(::UnityW<::UnityEngine::UI::Button>  value) ;
+  constexpr void __cordl_internal_set__editButton(::UnityW<::UnityEngine::UI::Button> value);
 
-constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color  value) ;
+  constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color value);
 
-constexpr void __cordl_internal_set__preferredColor(::UnityEngine::Color  value) ;
+  constexpr void __cordl_internal_set__preferredColor(::UnityEngine::Color value);
 
-constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-constexpr void __cordl_internal_set__setAsPreferredButton(::UnityW<::UnityEngine::UI::Button>  value) ;
+  constexpr void __cordl_internal_set__setAsPreferredButton(::UnityW<::UnityEngine::UI::Button> value);
 
-constexpr void __cordl_internal_set_didPressCreateButtonEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_didPressCreateButtonEvent(::System::Action* value);
 
-constexpr void __cordl_internal_set_didPressEditButtonEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_didPressEditButtonEvent(::System::Action* value);
 
-constexpr void __cordl_internal_set_didPressPreferredButtonEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_didPressPreferredButtonEvent(::System::Action* value);
 
-/// @brief Method .ctor, addr 0x319ca20, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x31d3528, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_didPressCreateButtonEvent, addr 0x319c494, size 0xac, virtual false, abstract: false, final false
-inline void add_didPressCreateButtonEvent(::System::Action*  value) ;
+  /// @brief Method add_didPressCreateButtonEvent, addr 0x31d2f9c, size 0xac, virtual false, abstract: false, final false
+  inline void add_didPressCreateButtonEvent(::System::Action* value);
 
-/// @brief Method add_didPressEditButtonEvent, addr 0x319c33c, size 0xac, virtual false, abstract: false, final false
-inline void add_didPressEditButtonEvent(::System::Action*  value) ;
+  /// @brief Method add_didPressEditButtonEvent, addr 0x31d2e44, size 0xac, virtual false, abstract: false, final false
+  inline void add_didPressEditButtonEvent(::System::Action* value);
 
-/// @brief Method add_didPressPreferredButtonEvent, addr 0x319c5ec, size 0xac, virtual false, abstract: false, final false
-inline void add_didPressPreferredButtonEvent(::System::Action*  value) ;
+  /// @brief Method add_didPressPreferredButtonEvent, addr 0x31d30f4, size 0xac, virtual false, abstract: false, final false
+  inline void add_didPressPreferredButtonEvent(::System::Action* value);
 
-/// @brief Method get_rectTransform, addr 0x319c744, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform() ;
+  /// @brief Method get_rectTransform, addr 0x31d324c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-/// @brief Method remove_didPressCreateButtonEvent, addr 0x319c540, size 0xac, virtual false, abstract: false, final false
-inline void remove_didPressCreateButtonEvent(::System::Action*  value) ;
+  /// @brief Method remove_didPressCreateButtonEvent, addr 0x31d3048, size 0xac, virtual false, abstract: false, final false
+  inline void remove_didPressCreateButtonEvent(::System::Action* value);
 
-/// @brief Method remove_didPressEditButtonEvent, addr 0x319c3e8, size 0xac, virtual false, abstract: false, final false
-inline void remove_didPressEditButtonEvent(::System::Action*  value) ;
+  /// @brief Method remove_didPressEditButtonEvent, addr 0x31d2ef0, size 0xac, virtual false, abstract: false, final false
+  inline void remove_didPressEditButtonEvent(::System::Action* value);
 
-/// @brief Method remove_didPressPreferredButtonEvent, addr 0x319c698, size 0xac, virtual false, abstract: false, final false
-inline void remove_didPressPreferredButtonEvent(::System::Action*  value) ;
+  /// @brief Method remove_didPressPreferredButtonEvent, addr 0x31d31a0, size 0xac, virtual false, abstract: false, final false
+  inline void remove_didPressPreferredButtonEvent(::System::Action* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AvatarSelectionView() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSelectionView();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AvatarSelectionView(AvatarSelectionView&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AvatarSelectionView(AvatarSelectionView && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AvatarSelectionView(AvatarSelectionView const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AvatarSelectionView(AvatarSelectionView const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21430 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21419};
+  /// @brief Field _createButton, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Button> ____createButton;
 
-/// @brief Field _createButton, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Button>  ____createButton;
+  /// @brief Field _editButton, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
-/// @brief Field _editButton, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Button>  ____editButton;
+  /// @brief Field _setAsPreferredButton, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Button> ____setAsPreferredButton;
 
-/// @brief Field _setAsPreferredButton, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Button>  ____setAsPreferredButton;
+  /// @brief Field _currentlyPreferredText, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::TMPro::TextMeshProUGUI> ____currentlyPreferredText;
 
-/// @brief Field _currentlyPreferredText, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::TMPro::TextMeshProUGUI>  ____currentlyPreferredText;
+  /// @brief Field _rectTransform, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
-/// @brief Field _rectTransform, offset: 0x40, size: 0x8, def value: None
- ::UnityW<::UnityEngine::RectTransform>  ____rectTransform;
+  /// @brief Field _backgroundImageView, offset: 0x48, size: 0x8, def value: None
+  ::UnityW<::HMUI::ImageView> ____backgroundImageView;
 
-/// @brief Field _backgroundImageView, offset: 0x48, size: 0x8, def value: None
- ::UnityW<::HMUI::ImageView>  ____backgroundImageView;
+  /// @brief Field _preferredColor, offset: 0x50, size: 0x10, def value: None
+  ::UnityEngine::Color ____preferredColor;
 
-/// @brief Field _preferredColor, offset: 0x50, size: 0x10, def value: None
- ::UnityEngine::Color  ____preferredColor;
+  /// @brief Field _normalColor, offset: 0x60, size: 0x10, def value: None
+  ::UnityEngine::Color ____normalColor;
 
-/// @brief Field _normalColor, offset: 0x60, size: 0x10, def value: None
- ::UnityEngine::Color  ____normalColor;
+  /// @brief Field didPressEditButtonEvent, offset: 0x70, size: 0x8, def value: None
+  ::System::Action* ___didPressEditButtonEvent;
 
-/// @brief Field didPressEditButtonEvent, offset: 0x70, size: 0x8, def value: None
- ::System::Action*  ___didPressEditButtonEvent;
+  /// @brief Field didPressCreateButtonEvent, offset: 0x78, size: 0x8, def value: None
+  ::System::Action* ___didPressCreateButtonEvent;
 
-/// @brief Field didPressCreateButtonEvent, offset: 0x78, size: 0x8, def value: None
- ::System::Action*  ___didPressCreateButtonEvent;
+  /// @brief Field didPressPreferredButtonEvent, offset: 0x80, size: 0x8, def value: None
+  ::System::Action* ___didPressPreferredButtonEvent;
 
-/// @brief Field didPressPreferredButtonEvent, offset: 0x80, size: 0x8, def value: None
- ::System::Action*  ___didPressPreferredButtonEvent;
+  /// @brief Field _buttonBinder, offset: 0x88, size: 0x8, def value: None
+  ::HMUI::ButtonBinder* ____buttonBinder;
 
-/// @brief Field _buttonBinder, offset: 0x88, size: 0x8, def value: None
- ::HMUI::ButtonBinder*  ____buttonBinder;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSelectionView, ____createButton) == 0x20, "Offset mismatch!");
@@ -279,6 +279,6 @@ static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSelectionView, ____buttonB
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarSelectionView, 0x90>, "Size mismatch!");
 
-} // namespace end def BeatSaber::AvatarCore
+} // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarSelectionView);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::AvatarSelectionView*, "BeatSaber.AvatarCore", "AvatarSelectionView");

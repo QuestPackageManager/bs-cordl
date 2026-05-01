@@ -21,8 +21,7 @@ namespace System {
 struct DateTimeKind;
 }
 namespace System {
-template<typename T>
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -36,108 +35,109 @@ namespace Newtonsoft::Json::Bson {
 // CS Name: Newtonsoft.Json.Bson.BsonBinaryWriter
 class CORDL_TYPE BsonBinaryWriter : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_DateTimeKindHandling, put=set_DateTimeKindHandling)) ::System::DateTimeKind  DateTimeKindHandling;
+  // Declarations
+  __declspec(property(get = get_DateTimeKindHandling, put = set_DateTimeKindHandling)) ::System::DateTimeKind DateTimeKindHandling;
 
-/// @brief Field Encoding, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Encoding, put=setStaticF_Encoding)) ::System::Text::Encoding*  Encoding;
+  /// @brief Field Encoding, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Encoding, put = setStaticF_Encoding)) ::System::Text::Encoding* Encoding;
 
-/// @brief Field <DateTimeKindHandling>k__BackingField, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__DateTimeKindHandling_k__BackingField, put=__cordl_internal_set__DateTimeKindHandling_k__BackingField)) ::System::DateTimeKind  _DateTimeKindHandling_k__BackingField;
+  /// @brief Field <DateTimeKindHandling>k__BackingField, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__DateTimeKindHandling_k__BackingField,
+                      put = __cordl_internal_set__DateTimeKindHandling_k__BackingField)) ::System::DateTimeKind _DateTimeKindHandling_k__BackingField;
 
-/// @brief Field _largeByteBuffer, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__largeByteBuffer, put=__cordl_internal_set__largeByteBuffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _largeByteBuffer;
+  /// @brief Field _largeByteBuffer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__largeByteBuffer, put = __cordl_internal_set__largeByteBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _largeByteBuffer;
 
-/// @brief Field _writer, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__writer, put=__cordl_internal_set__writer)) ::System::IO::BinaryWriter*  _writer;
+  /// @brief Field _writer, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::IO::BinaryWriter* _writer;
 
-/// @brief Method CalculateSize, addr 0x5bfe598, size 0x8, virtual false, abstract: false, final false
-inline int32_t CalculateSize(int32_t  stringByteCount) ;
+  /// @brief Method CalculateSize, addr 0x5c70580, size 0x8, virtual false, abstract: false, final false
+  inline int32_t CalculateSize(int32_t stringByteCount);
 
-/// @brief Method CalculateSize, addr 0x5bfcbf4, size 0x820, virtual false, abstract: false, final false
-inline int32_t CalculateSize(::Newtonsoft::Json::Bson::BsonToken*  t) ;
+  /// @brief Method CalculateSize, addr 0x5c6ebdc, size 0x820, virtual false, abstract: false, final false
+  inline int32_t CalculateSize(::Newtonsoft::Json::Bson::BsonToken* t);
 
-/// @brief Method CalculateSizeWithLength, addr 0x5bfe5a0, size 0x10, virtual false, abstract: false, final false
-inline int32_t CalculateSizeWithLength(int32_t  stringByteCount, bool  includeSize) ;
+  /// @brief Method CalculateSizeWithLength, addr 0x5c70588, size 0x10, virtual false, abstract: false, final false
+  inline int32_t CalculateSizeWithLength(int32_t stringByteCount, bool includeSize);
 
-/// @brief Method Close, addr 0x5bfcbb0, size 0x1c, virtual false, abstract: false, final false
-inline void Close() ;
+  /// @brief Method Close, addr 0x5c6eb98, size 0x1c, virtual false, abstract: false, final false
+  inline void Close();
 
-/// @brief Method Flush, addr 0x5bfcb94, size 0x1c, virtual false, abstract: false, final false
-inline void Flush() ;
+  /// @brief Method Flush, addr 0x5c6eb7c, size 0x1c, virtual false, abstract: false, final false
+  inline void Flush();
 
-static inline ::Newtonsoft::Json::Bson::BsonBinaryWriter* New_ctor(::System::IO::BinaryWriter*  writer) ;
+  static inline ::Newtonsoft::Json::Bson::BsonBinaryWriter* New_ctor(::System::IO::BinaryWriter* writer);
 
-/// @brief Method WriteString, addr 0x5bfe2e8, size 0xbc, virtual false, abstract: false, final false
-inline void WriteString(::StringW  s, int32_t  byteCount, ::System::Nullable_1<int32_t>  calculatedlengthPrefix) ;
+  /// @brief Method WriteString, addr 0x5c702d0, size 0xbc, virtual false, abstract: false, final false
+  inline void WriteString(::StringW s, int32_t byteCount, ::System::Nullable_1<int32_t> calculatedlengthPrefix);
 
-/// @brief Method WriteToken, addr 0x5bfcbcc, size 0x28, virtual false, abstract: false, final false
-inline void WriteToken(::Newtonsoft::Json::Bson::BsonToken*  t) ;
+  /// @brief Method WriteToken, addr 0x5c6ebb4, size 0x28, virtual false, abstract: false, final false
+  inline void WriteToken(::Newtonsoft::Json::Bson::BsonToken* t);
 
-/// @brief Method WriteTokenInternal, addr 0x5bfd414, size 0xe4c, virtual false, abstract: false, final false
-inline void WriteTokenInternal(::Newtonsoft::Json::Bson::BsonToken*  t) ;
+  /// @brief Method WriteTokenInternal, addr 0x5c6f3fc, size 0xe4c, virtual false, abstract: false, final false
+  inline void WriteTokenInternal(::Newtonsoft::Json::Bson::BsonToken* t);
 
-/// @brief Method WriteUtf8Bytes, addr 0x5bfe42c, size 0x16c, virtual false, abstract: false, final false
-inline void WriteUtf8Bytes(::StringW  s, int32_t  byteCount) ;
+  /// @brief Method WriteUtf8Bytes, addr 0x5c70414, size 0x16c, virtual false, abstract: false, final false
+  inline void WriteUtf8Bytes(::StringW s, int32_t byteCount);
 
-constexpr ::System::DateTimeKind const& __cordl_internal_get__DateTimeKindHandling_k__BackingField() const;
+  constexpr ::System::DateTimeKind const& __cordl_internal_get__DateTimeKindHandling_k__BackingField() const;
 
-constexpr ::System::DateTimeKind& __cordl_internal_get__DateTimeKindHandling_k__BackingField() ;
+  constexpr ::System::DateTimeKind& __cordl_internal_get__DateTimeKindHandling_k__BackingField();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__largeByteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__largeByteBuffer() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__largeByteBuffer() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__largeByteBuffer();
 
-constexpr ::System::IO::BinaryWriter* const& __cordl_internal_get__writer() const;
+  constexpr ::System::IO::BinaryWriter* const& __cordl_internal_get__writer() const;
 
-constexpr ::System::IO::BinaryWriter*& __cordl_internal_get__writer() ;
+  constexpr ::System::IO::BinaryWriter*& __cordl_internal_get__writer();
 
-constexpr void __cordl_internal_set__DateTimeKindHandling_k__BackingField(::System::DateTimeKind  value) ;
+  constexpr void __cordl_internal_set__DateTimeKindHandling_k__BackingField(::System::DateTimeKind value);
 
-constexpr void __cordl_internal_set__largeByteBuffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set__largeByteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set__writer(::System::IO::BinaryWriter*  value) ;
+  constexpr void __cordl_internal_set__writer(::System::IO::BinaryWriter* value);
 
-/// @brief Method .ctor, addr 0x5bfcb84, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::BinaryWriter*  writer) ;
+  /// @brief Method .ctor, addr 0x5c6eb6c, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::BinaryWriter* writer);
 
-static inline ::System::Text::Encoding* getStaticF_Encoding() ;
+  static inline ::System::Text::Encoding* getStaticF_Encoding();
 
-/// @brief Method get_DateTimeKindHandling, addr 0x5bfcb74, size 0x8, virtual false, abstract: false, final false
-inline ::System::DateTimeKind get_DateTimeKindHandling() ;
+  /// @brief Method get_DateTimeKindHandling, addr 0x5c6eb5c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::DateTimeKind get_DateTimeKindHandling();
 
-static inline void setStaticF_Encoding(::System::Text::Encoding*  value) ;
+  static inline void setStaticF_Encoding(::System::Text::Encoding* value);
 
-/// @brief Method set_DateTimeKindHandling, addr 0x5bfcb7c, size 0x8, virtual false, abstract: false, final false
-inline void set_DateTimeKindHandling(::System::DateTimeKind  value) ;
+  /// @brief Method set_DateTimeKindHandling, addr 0x5c6eb64, size 0x8, virtual false, abstract: false, final false
+  inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BsonBinaryWriter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BsonBinaryWriter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BsonBinaryWriter(BsonBinaryWriter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BsonBinaryWriter(BsonBinaryWriter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BsonBinaryWriter(BsonBinaryWriter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BsonBinaryWriter(BsonBinaryWriter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13675 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13668};
+  /// @brief Field _writer, offset: 0x10, size: 0x8, def value: None
+  ::System::IO::BinaryWriter* ____writer;
 
-/// @brief Field _writer, offset: 0x10, size: 0x8, def value: None
- ::System::IO::BinaryWriter*  ____writer;
+  /// @brief Field _largeByteBuffer, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____largeByteBuffer;
 
-/// @brief Field _largeByteBuffer, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ____largeByteBuffer;
+  /// @brief Field <DateTimeKindHandling>k__BackingField, offset: 0x20, size: 0x4, def value: None
+  ::System::DateTimeKind ____DateTimeKindHandling_k__BackingField;
 
-/// @brief Field <DateTimeKindHandling>k__BackingField, offset: 0x20, size: 0x4, def value: None
- ::System::DateTimeKind  ____DateTimeKindHandling_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonBinaryWriter, ____writer) == 0x10, "Offset mismatch!");
@@ -148,6 +148,6 @@ static_assert(offsetof(::Newtonsoft::Json::Bson::BsonBinaryWriter, ____DateTimeK
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonBinaryWriter, 0x28>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Bson
+} // namespace Newtonsoft::Json::Bson
 NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonBinaryWriter);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonBinaryWriter*, "Newtonsoft.Json.Bson", "BsonBinaryWriter");

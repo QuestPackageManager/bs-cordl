@@ -22,45 +22,49 @@ namespace BeatmapSaveDataVersion4 {
 // CS Name: BeatmapSaveDataVersion4.LightRotationEventBox
 struct CORDL_TYPE LightRotationEventBox {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr LightRotationEventBox() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightRotationEventBox();
 
-// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam { name: "a", ty: "::BeatmapSaveDataCommon::Axis", modifiers: "", def_value: None }, CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr LightRotationEventBox(float_t  w, ::BeatmapSaveDataCommon::DistributionParamType  d, float_t  s, ::BeatmapSaveDataCommon::DistributionParamType  t, int32_t  b, ::BeatmapSaveDataCommon::EaseType  e, ::BeatmapSaveDataCommon::Axis  a, int32_t  f) noexcept;
+  // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None
+  // }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam {
+  // name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam { name: "a", ty:
+  // "::BeatmapSaveDataCommon::Axis", modifiers: "", def_value: None }, CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr LightRotationEventBox(float_t w, ::BeatmapSaveDataCommon::DistributionParamType d, float_t s, ::BeatmapSaveDataCommon::DistributionParamType t, int32_t b,
+                                  ::BeatmapSaveDataCommon::EaseType e, ::BeatmapSaveDataCommon::Axis a, int32_t f) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15299};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15304 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field w, offset: 0x0, size: 0x4, def value: None
- float_t  w;
+  /// @brief Field w, offset: 0x0, size: 0x4, def value: None
+  float_t w;
 
-/// @brief Field d, offset: 0x4, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::DistributionParamType  d;
+  /// @brief Field d, offset: 0x4, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::DistributionParamType d;
 
-/// @brief Field s, offset: 0x8, size: 0x4, def value: None
- float_t  s;
+  /// @brief Field s, offset: 0x8, size: 0x4, def value: None
+  float_t s;
 
-/// @brief Field t, offset: 0xc, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::DistributionParamType  t;
+  /// @brief Field t, offset: 0xc, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::DistributionParamType t;
 
-/// @brief Field b, offset: 0x10, size: 0x4, def value: None
- int32_t  b;
+  /// @brief Field b, offset: 0x10, size: 0x4, def value: None
+  int32_t b;
 
-/// @brief Field e, offset: 0x14, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::EaseType  e;
+  /// @brief Field e, offset: 0x14, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::EaseType e;
 
-/// @brief Field a, offset: 0x18, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::Axis  a;
+  /// @brief Field a, offset: 0x18, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::Axis a;
 
-/// @brief Field f, offset: 0x1c, size: 0x4, def value: None
- int32_t  f;
+  /// @brief Field f, offset: 0x1c, size: 0x4, def value: None
+  int32_t f;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion4::LightRotationEventBox, w) == 0x0, "Offset mismatch!");
@@ -81,5 +85,5 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::LightRotationEventBox, f) == 0
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::LightRotationEventBox, 0x20>, "Size mismatch!");
 
-} // namespace end def BeatmapSaveDataVersion4
+} // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::LightRotationEventBox, "BeatmapSaveDataVersion4", "LightRotationEventBox");

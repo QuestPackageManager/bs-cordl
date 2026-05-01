@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Dynamic/BinaryOperationBinder.hpp"
 #include "System/Dynamic/BindingRestrictions.hpp"
@@ -26,6 +26,5 @@
 #include "System/Dynamic/SetMemberBinder.hpp"
 #include "System/Dynamic/UnaryOperationBinder.hpp"
 #ifdef __cpp_modules
-                    export module Dynamic;
-                    #endif
-                
+export module Dynamic;
+#endif

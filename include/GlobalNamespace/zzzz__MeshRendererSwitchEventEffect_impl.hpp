@@ -8,198 +8,172 @@
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MeshRendererSwitchEventEffect.Start
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)()>(&::GlobalNamespace::MeshRendererSwitchEventEffect::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)()>(
+    &::GlobalNamespace::MeshRendererSwitchEventEffect::Start)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x57ebc14;
+  constexpr static std::size_t addrs = 0x585db0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
+                                                                               "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MeshRendererSwitchEventEffect.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)()>(&::GlobalNamespace::MeshRendererSwitchEventEffect::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)()>(
+    &::GlobalNamespace::MeshRendererSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57ebd3c;
+  constexpr static std::size_t addrs = 0x585dc34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
+                                                                               "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MeshRendererSwitchEventEffect.HandleBeatmapEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(&::GlobalNamespace::MeshRendererSwitchEventEffect::HandleBeatmapEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
+    &::GlobalNamespace::MeshRendererSwitchEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57ebd58;
+  constexpr static std::size_t addrs = 0x585dc50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "HandleBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(), "HandleBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MeshRendererSwitchEventEffect.ToggleObjects
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)(bool)>(&::GlobalNamespace::MeshRendererSwitchEventEffect::ToggleObjects)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)(bool)>(
+    &::GlobalNamespace::MeshRendererSwitchEventEffect::ToggleObjects)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x57ebd74;
+  constexpr static std::size_t addrs = 0x585dc6c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "ToggleObjects",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(), "ToggleObjects",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MeshRendererSwitchEventEffect._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)()>(&::GlobalNamespace::MeshRendererSwitchEventEffect::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MeshRendererSwitchEventEffect::*)()>(
+    &::GlobalNamespace::MeshRendererSwitchEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57ebe28;
+  constexpr static std::size_t addrs = 0x585dd20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapEvent;
+constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapEvent;
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventType const& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapEvent;
 }
-constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__beatmapEvent(::GlobalNamespace::BasicBeatmapEventType  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____beatmapEvent = value;
+constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__beatmapEvent(::GlobalNamespace::BasicBeatmapEventType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapEvent = value;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>,::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__deactivateOnBoostRenderers()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____deactivateOnBoostRenderers;
+constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>&
+GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__deactivateOnBoostRenderers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____deactivateOnBoostRenderers;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>,::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__deactivateOnBoostRenderers() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____deactivateOnBoostRenderers;
+constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const&
+GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__deactivateOnBoostRenderers() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____deactivateOnBoostRenderers;
 }
-constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__deactivateOnBoostRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>,::Array<::UnityW<::UnityEngine::MeshRenderer>>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____deactivateOnBoostRenderers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__deactivateOnBoostRenderers(
+    ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____deactivateOnBoostRenderers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>,::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__activateOnBoostRenderers()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____activateOnBoostRenderers;
+constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>&
+GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__activateOnBoostRenderers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activateOnBoostRenderers;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>,::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__activateOnBoostRenderers() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____activateOnBoostRenderers;
+constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const&
+GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__activateOnBoostRenderers() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activateOnBoostRenderers;
 }
-constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__activateOnBoostRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>,::Array<::UnityW<::UnityEngine::MeshRenderer>>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activateOnBoostRenderers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__activateOnBoostRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activateOnBoostRenderers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapCallbacksController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapCallbacksController;
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapCallbacksController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCallbacksController;
 }
 constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapCallbacksController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapCallbacksController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCallbacksController;
 }
-constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapDataCallbackWrapper;
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapDataCallbackWrapper;
 }
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapDataCallbackWrapper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapDataCallbackWrapper;
 }
-constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MeshRendererSwitchEventEffect::__cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MeshRendererSwitchEventEffect::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MeshRendererSwitchEventEffect::Start() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(), "Start",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MeshRendererSwitchEventEffect::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MeshRendererSwitchEventEffect::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
+                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MeshRendererSwitchEventEffect::HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData*  basicBeatmapEventData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "HandleBeatmapEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
+inline void GlobalNamespace::MeshRendererSwitchEventEffect::HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(), "HandleBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
 }
-inline void GlobalNamespace::MeshRendererSwitchEventEffect::ToggleObjects(bool  isBoostOn)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        "ToggleObjects",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isBoostOn);
+inline void GlobalNamespace::MeshRendererSwitchEventEffect::ToggleObjects(bool isBoostOn) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(), "ToggleObjects",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isBoostOn);
 }
-inline void GlobalNamespace::MeshRendererSwitchEventEffect::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MeshRendererSwitchEventEffect::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MeshRendererSwitchEventEffect*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MeshRendererSwitchEventEffect* GlobalNamespace::MeshRendererSwitchEventEffect::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MeshRendererSwitchEventEffect*>());
+inline ::GlobalNamespace::MeshRendererSwitchEventEffect* GlobalNamespace::MeshRendererSwitchEventEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MeshRendererSwitchEventEffect*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MeshRendererSwitchEventEffect::MeshRendererSwitchEventEffect()   {
-}
+constexpr ::GlobalNamespace::MeshRendererSwitchEventEffect::MeshRendererSwitchEventEffect() {}

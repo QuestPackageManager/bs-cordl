@@ -42,201 +42,201 @@ namespace UnityEngine {
 // CS Name: UnityEngine.RectOffset/BindingsMarshaller
 class CORDL_TYPE RectOffset_BindingsMarshaller : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ConvertToNative, addr 0x68b6868, size 0x14, virtual false, abstract: false, final false
-static inline ::System::IntPtr ConvertToNative(::UnityEngine::RectOffset*  rectOffset) ;
+  // Declarations
+  /// @brief Method ConvertToNative, addr 0x6928a84, size 0x14, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ConvertToNative(::UnityEngine::RectOffset* rectOffset);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RectOffset_BindingsMarshaller() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RectOffset_BindingsMarshaller();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RectOffset_BindingsMarshaller(RectOffset_BindingsMarshaller&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RectOffset_BindingsMarshaller(RectOffset_BindingsMarshaller && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RectOffset_BindingsMarshaller(RectOffset_BindingsMarshaller const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RectOffset_BindingsMarshaller", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RectOffset_BindingsMarshaller(RectOffset_BindingsMarshaller const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10110 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10104};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RectOffset_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.RectOffset
 class CORDL_TYPE RectOffset : public ::System::Object {
 public:
-// Declarations
-using BindingsMarshaller = ::UnityEngine::RectOffset_BindingsMarshaller;
+  // Declarations
+  using BindingsMarshaller = ::UnityEngine::RectOffset_BindingsMarshaller;
 
- __declspec(property(get=get_bottom, put=set_bottom)) int32_t  bottom;
+  __declspec(property(get = get_bottom, put = set_bottom)) int32_t bottom;
 
- __declspec(property(get=get_horizontal)) int32_t  horizontal;
+  __declspec(property(get = get_horizontal)) int32_t horizontal;
 
- __declspec(property(get=get_left, put=set_left)) int32_t  left;
+  __declspec(property(get = get_left, put = set_left)) int32_t left;
 
-/// @brief Field m_Ptr, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
+  /// @brief Field m_Ptr, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-/// @brief Field m_SourceStyle, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_SourceStyle, put=__cordl_internal_set_m_SourceStyle)) ::System::Object*  m_SourceStyle;
+  /// @brief Field m_SourceStyle, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SourceStyle, put = __cordl_internal_set_m_SourceStyle)) ::System::Object* m_SourceStyle;
 
- __declspec(property(get=get_right, put=set_right)) int32_t  right;
+  __declspec(property(get = get_right, put = set_right)) int32_t right;
 
- __declspec(property(get=get_top, put=set_top)) int32_t  top;
+  __declspec(property(get = get_top, put = set_top)) int32_t top;
 
- __declspec(property(get=get_vertical)) int32_t  vertical;
+  __declspec(property(get = get_vertical)) int32_t vertical;
 
-/// @brief Convert operator to "::System::IFormattable"
-constexpr operator  ::System::IFormattable*() noexcept;
+  /// @brief Convert operator to "::System::IFormattable"
+  constexpr operator ::System::IFormattable*() noexcept;
 
-/// @brief Method Destroy, addr 0x68b5ea0, size 0x4c, virtual false, abstract: false, final false
-inline void Destroy() ;
+  /// @brief Method Destroy, addr 0x69280bc, size 0x4c, virtual false, abstract: false, final false
+  inline void Destroy();
 
-/// @brief Method Finalize, addr 0x68b5e18, size 0x88, virtual true, abstract: false, final false
-inline void Finalize() ;
+  /// @brief Method Finalize, addr 0x6928034, size 0x88, virtual true, abstract: false, final false
+  inline void Finalize();
 
-/// @brief Method InternalCreate, addr 0x68b5de8, size 0x28, virtual false, abstract: false, final false
-static inline ::System::IntPtr InternalCreate() ;
+  /// @brief Method InternalCreate, addr 0x6928004, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr InternalCreate();
 
-/// @brief Method InternalDestroy, addr 0x68b6448, size 0x3c, virtual false, abstract: false, final false
-static inline void InternalDestroy(::System::IntPtr  ptr) ;
+  /// @brief Method InternalDestroy, addr 0x6928664, size 0x3c, virtual false, abstract: false, final false
+  static inline void InternalDestroy(::System::IntPtr ptr);
 
-static inline ::UnityEngine::RectOffset* New_ctor() ;
+  static inline ::UnityEngine::RectOffset* New_ctor();
 
-static inline ::UnityEngine::RectOffset* New_ctor(int32_t  left, int32_t  right, int32_t  top, int32_t  bottom) ;
+  static inline ::UnityEngine::RectOffset* New_ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
-static inline ::UnityEngine::RectOffset* New_ctor(::System::Object*  sourceStyle, ::System::IntPtr  source) ;
+  static inline ::UnityEngine::RectOffset* New_ctor(::System::Object* sourceStyle, ::System::IntPtr source);
 
-/// @brief Method Remove, addr 0x68b679c, size 0x78, virtual false, abstract: false, final false
-inline ::UnityEngine::Rect Remove(::UnityEngine::Rect  rect) ;
+  /// @brief Method Remove, addr 0x69289b8, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect Remove(::UnityEngine::Rect rect);
 
-/// @brief Method Remove_Injected, addr 0x68b6814, size 0x54, virtual false, abstract: false, final false
-static inline void Remove_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Rect>  rect, ::ByRef<::UnityEngine::Rect>  ret) ;
+  /// @brief Method Remove_Injected, addr 0x6928a30, size 0x54, virtual false, abstract: false, final false
+  static inline void Remove_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> rect, ::ByRef<::UnityEngine::Rect> ret);
 
-/// @brief Method ToString, addr 0x68b60d8, size 0x10, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x69282f4, size 0x10, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method ToString, addr 0x68b60e8, size 0x220, virtual true, abstract: false, final true
-inline ::StringW ToString(::StringW  format, ::System::IFormatProvider*  formatProvider) ;
+  /// @brief Method ToString, addr 0x6928304, size 0x220, virtual true, abstract: false, final true
+  inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-constexpr ::System::Object* const& __cordl_internal_get_m_SourceStyle() const;
+  constexpr ::System::Object* const& __cordl_internal_get_m_SourceStyle() const;
 
-constexpr ::System::Object*& __cordl_internal_get_m_SourceStyle() ;
+  constexpr ::System::Object*& __cordl_internal_get_m_SourceStyle();
 
-constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-constexpr void __cordl_internal_set_m_SourceStyle(::System::Object*  value) ;
+  constexpr void __cordl_internal_set_m_SourceStyle(::System::Object* value);
 
-/// @brief Method .ctor, addr 0x68b5da8, size 0x40, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6927fc4, size 0x40, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x68b5eec, size 0x8c, virtual false, abstract: false, final false
-inline void _ctor(int32_t  left, int32_t  right, int32_t  top, int32_t  bottom) ;
+  /// @brief Method .ctor, addr 0x6928108, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
-/// @brief Method .ctor, addr 0x68b5e10, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  sourceStyle, ::System::IntPtr  source) ;
+  /// @brief Method .ctor, addr 0x692802c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* sourceStyle, ::System::IntPtr source);
 
-/// @brief Method get_bottom, addr 0x68b63f8, size 0x50, virtual false, abstract: false, final false
-inline int32_t get_bottom() ;
+  /// @brief Method get_bottom, addr 0x6928614, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_bottom();
 
-/// @brief Method get_bottom_Injected, addr 0x68b6604, size 0x3c, virtual false, abstract: false, final false
-static inline int32_t get_bottom_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_bottom_Injected, addr 0x6928820, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_bottom_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_horizontal, addr 0x68b6684, size 0x50, virtual false, abstract: false, final false
-inline int32_t get_horizontal() ;
+  /// @brief Method get_horizontal, addr 0x69288a0, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_horizontal();
 
-/// @brief Method get_horizontal_Injected, addr 0x68b66d4, size 0x3c, virtual false, abstract: false, final false
-static inline int32_t get_horizontal_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_horizontal_Injected, addr 0x69288f0, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_horizontal_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_left, addr 0x68b6308, size 0x50, virtual false, abstract: false, final false
-inline int32_t get_left() ;
+  /// @brief Method get_left, addr 0x6928524, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_left();
 
-/// @brief Method get_left_Injected, addr 0x68b6484, size 0x3c, virtual false, abstract: false, final false
-static inline int32_t get_left_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_left_Injected, addr 0x69286a0, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_left_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_right, addr 0x68b6358, size 0x50, virtual false, abstract: false, final false
-inline int32_t get_right() ;
+  /// @brief Method get_right, addr 0x6928574, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_right();
 
-/// @brief Method get_right_Injected, addr 0x68b6504, size 0x3c, virtual false, abstract: false, final false
-static inline int32_t get_right_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_right_Injected, addr 0x6928720, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_right_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_top, addr 0x68b63a8, size 0x50, virtual false, abstract: false, final false
-inline int32_t get_top() ;
+  /// @brief Method get_top, addr 0x69285c4, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_top();
 
-/// @brief Method get_top_Injected, addr 0x68b6584, size 0x3c, virtual false, abstract: false, final false
-static inline int32_t get_top_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_top_Injected, addr 0x69287a0, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_top_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_vertical, addr 0x68b6710, size 0x50, virtual false, abstract: false, final false
-inline int32_t get_vertical() ;
+  /// @brief Method get_vertical, addr 0x692892c, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_vertical();
 
-/// @brief Method get_vertical_Injected, addr 0x68b6760, size 0x3c, virtual false, abstract: false, final false
-static inline int32_t get_vertical_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_vertical_Injected, addr 0x692897c, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_vertical_Injected(::System::IntPtr _unity_self);
 
-/// @brief Convert to "::System::IFormattable"
-constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
 
-/// @brief Method set_bottom, addr 0x68b6080, size 0x58, virtual false, abstract: false, final false
-inline void set_bottom(int32_t  value) ;
+  /// @brief Method set_bottom, addr 0x692829c, size 0x58, virtual false, abstract: false, final false
+  inline void set_bottom(int32_t value);
 
-/// @brief Method set_bottom_Injected, addr 0x68b6640, size 0x44, virtual false, abstract: false, final false
-static inline void set_bottom_Injected(::System::IntPtr  _unity_self, int32_t  value) ;
+  /// @brief Method set_bottom_Injected, addr 0x692885c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_bottom_Injected(::System::IntPtr _unity_self, int32_t value);
 
-/// @brief Method set_left, addr 0x68b5f78, size 0x58, virtual false, abstract: false, final false
-inline void set_left(int32_t  value) ;
+  /// @brief Method set_left, addr 0x6928194, size 0x58, virtual false, abstract: false, final false
+  inline void set_left(int32_t value);
 
-/// @brief Method set_left_Injected, addr 0x68b64c0, size 0x44, virtual false, abstract: false, final false
-static inline void set_left_Injected(::System::IntPtr  _unity_self, int32_t  value) ;
+  /// @brief Method set_left_Injected, addr 0x69286dc, size 0x44, virtual false, abstract: false, final false
+  static inline void set_left_Injected(::System::IntPtr _unity_self, int32_t value);
 
-/// @brief Method set_right, addr 0x68b5fd0, size 0x58, virtual false, abstract: false, final false
-inline void set_right(int32_t  value) ;
+  /// @brief Method set_right, addr 0x69281ec, size 0x58, virtual false, abstract: false, final false
+  inline void set_right(int32_t value);
 
-/// @brief Method set_right_Injected, addr 0x68b6540, size 0x44, virtual false, abstract: false, final false
-static inline void set_right_Injected(::System::IntPtr  _unity_self, int32_t  value) ;
+  /// @brief Method set_right_Injected, addr 0x692875c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_right_Injected(::System::IntPtr _unity_self, int32_t value);
 
-/// @brief Method set_top, addr 0x68b6028, size 0x58, virtual false, abstract: false, final false
-inline void set_top(int32_t  value) ;
+  /// @brief Method set_top, addr 0x6928244, size 0x58, virtual false, abstract: false, final false
+  inline void set_top(int32_t value);
 
-/// @brief Method set_top_Injected, addr 0x68b65c0, size 0x44, virtual false, abstract: false, final false
-static inline void set_top_Injected(::System::IntPtr  _unity_self, int32_t  value) ;
+  /// @brief Method set_top_Injected, addr 0x69287dc, size 0x44, virtual false, abstract: false, final false
+  static inline void set_top_Injected(::System::IntPtr _unity_self, int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RectOffset() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RectOffset();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RectOffset(RectOffset&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RectOffset(RectOffset && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RectOffset(RectOffset const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RectOffset", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RectOffset(RectOffset const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10111 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10105};
+  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+  ::System::IntPtr ___m_Ptr;
 
-/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
- ::System::IntPtr  ___m_Ptr;
+  /// @brief Field m_SourceStyle, offset: 0x18, size: 0x8, def value: None
+  ::System::Object* ___m_SourceStyle;
 
-/// @brief Field m_SourceStyle, offset: 0x18, size: 0x8, def value: None
- ::System::Object*  ___m_SourceStyle;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::RectOffset, ___m_Ptr) == 0x10, "Offset mismatch!");
@@ -245,7 +245,7 @@ static_assert(offsetof(::UnityEngine::RectOffset, ___m_SourceStyle) == 0x18, "Of
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RectOffset, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::RectOffset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RectOffset*, "UnityEngine", "RectOffset");
 NEED_NO_BOX(::UnityEngine::RectOffset_BindingsMarshaller);

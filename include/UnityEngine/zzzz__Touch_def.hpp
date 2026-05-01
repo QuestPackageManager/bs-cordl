@@ -31,142 +31,150 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Touch
 struct CORDL_TYPE Touch {
 public:
-// Declarations
- __declspec(property(get=get_altitudeAngle)) float_t  altitudeAngle;
+  // Declarations
+  __declspec(property(get = get_altitudeAngle)) float_t altitudeAngle;
 
- __declspec(property(get=get_azimuthAngle)) float_t  azimuthAngle;
+  __declspec(property(get = get_azimuthAngle)) float_t azimuthAngle;
 
- __declspec(property(get=get_deltaPosition, put=set_deltaPosition)) ::UnityEngine::Vector2  deltaPosition;
+  __declspec(property(get = get_deltaPosition, put = set_deltaPosition)) ::UnityEngine::Vector2 deltaPosition;
 
- __declspec(property(get=get_deltaTime)) float_t  deltaTime;
+  __declspec(property(get = get_deltaTime)) float_t deltaTime;
 
- __declspec(property(get=get_fingerId)) int32_t  fingerId;
+  __declspec(property(get = get_fingerId)) int32_t fingerId;
 
- __declspec(property(get=get_maximumPossiblePressure)) float_t  maximumPossiblePressure;
+  __declspec(property(get = get_maximumPossiblePressure)) float_t maximumPossiblePressure;
 
- __declspec(property(get=get_phase)) ::UnityEngine::TouchPhase  phase;
+  __declspec(property(get = get_phase)) ::UnityEngine::TouchPhase phase;
 
- __declspec(property(get=get_position, put=set_position)) ::UnityEngine::Vector2  position;
+  __declspec(property(get = get_position, put = set_position)) ::UnityEngine::Vector2 position;
 
- __declspec(property(get=get_pressure)) float_t  pressure;
+  __declspec(property(get = get_pressure)) float_t pressure;
 
- __declspec(property(get=get_radius)) float_t  radius;
+  __declspec(property(get = get_radius)) float_t radius;
 
- __declspec(property(get=get_radiusVariance)) float_t  radiusVariance;
+  __declspec(property(get = get_radiusVariance)) float_t radiusVariance;
 
- __declspec(property(get=get_rawPosition, put=set_rawPosition)) ::UnityEngine::Vector2  rawPosition;
+  __declspec(property(get = get_rawPosition, put = set_rawPosition)) ::UnityEngine::Vector2 rawPosition;
 
- __declspec(property(get=get_tapCount)) int32_t  tapCount;
+  __declspec(property(get = get_tapCount)) int32_t tapCount;
 
- __declspec(property(get=get_type)) ::UnityEngine::TouchType  type;
+  __declspec(property(get = get_type)) ::UnityEngine::TouchType type;
 
-/// @brief Method get_altitudeAngle, addr 0x69963a4, size 0x8, virtual false, abstract: false, final false
-inline float_t get_altitudeAngle() ;
+  /// @brief Method get_altitudeAngle, addr 0x6a085ec, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_altitudeAngle();
 
-/// @brief Method get_azimuthAngle, addr 0x69963ac, size 0x8, virtual false, abstract: false, final false
-inline float_t get_azimuthAngle() ;
+  /// @brief Method get_azimuthAngle, addr 0x6a085f4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_azimuthAngle();
 
-/// @brief Method get_deltaPosition, addr 0x6996364, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector2 get_deltaPosition() ;
+  /// @brief Method get_deltaPosition, addr 0x6a085ac, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_deltaPosition();
 
-/// @brief Method get_deltaTime, addr 0x6996374, size 0x8, virtual false, abstract: false, final false
-inline float_t get_deltaTime() ;
+  /// @brief Method get_deltaTime, addr 0x6a085bc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_deltaTime();
 
-/// @brief Method get_fingerId, addr 0x699633c, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_fingerId() ;
+  /// @brief Method get_fingerId, addr 0x6a08584, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_fingerId();
 
-/// @brief Method get_maximumPossiblePressure, addr 0x6996394, size 0x8, virtual false, abstract: false, final false
-inline float_t get_maximumPossiblePressure() ;
+  /// @brief Method get_maximumPossiblePressure, addr 0x6a085dc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_maximumPossiblePressure();
 
-/// @brief Method get_phase, addr 0x6996384, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::TouchPhase get_phase() ;
+  /// @brief Method get_phase, addr 0x6a085cc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::TouchPhase get_phase();
 
-/// @brief Method get_position, addr 0x6996344, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector2 get_position() ;
+  /// @brief Method get_position, addr 0x6a0858c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_position();
 
-/// @brief Method get_pressure, addr 0x699638c, size 0x8, virtual false, abstract: false, final false
-inline float_t get_pressure() ;
+  /// @brief Method get_pressure, addr 0x6a085d4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_pressure();
 
-/// @brief Method get_radius, addr 0x69963b4, size 0x8, virtual false, abstract: false, final false
-inline float_t get_radius() ;
+  /// @brief Method get_radius, addr 0x6a085fc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_radius();
 
-/// @brief Method get_radiusVariance, addr 0x69963bc, size 0x8, virtual false, abstract: false, final false
-inline float_t get_radiusVariance() ;
+  /// @brief Method get_radiusVariance, addr 0x6a08604, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_radiusVariance();
 
-/// @brief Method get_rawPosition, addr 0x6996354, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector2 get_rawPosition() ;
+  /// @brief Method get_rawPosition, addr 0x6a0859c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_rawPosition();
 
-/// @brief Method get_tapCount, addr 0x699637c, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_tapCount() ;
+  /// @brief Method get_tapCount, addr 0x6a085c4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_tapCount();
 
-/// @brief Method get_type, addr 0x699639c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::TouchType get_type() ;
+  /// @brief Method get_type, addr 0x6a085e4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::TouchType get_type();
 
-/// @brief Method set_deltaPosition, addr 0x699636c, size 0x8, virtual false, abstract: false, final false
-inline void set_deltaPosition(::UnityEngine::Vector2  value) ;
+  /// @brief Method set_deltaPosition, addr 0x6a085b4, size 0x8, virtual false, abstract: false, final false
+  inline void set_deltaPosition(::UnityEngine::Vector2 value);
 
-/// @brief Method set_position, addr 0x699634c, size 0x8, virtual false, abstract: false, final false
-inline void set_position(::UnityEngine::Vector2  value) ;
+  /// @brief Method set_position, addr 0x6a08594, size 0x8, virtual false, abstract: false, final false
+  inline void set_position(::UnityEngine::Vector2 value);
 
-/// @brief Method set_rawPosition, addr 0x699635c, size 0x8, virtual false, abstract: false, final false
-inline void set_rawPosition(::UnityEngine::Vector2  value) ;
+  /// @brief Method set_rawPosition, addr 0x6a085a4, size 0x8, virtual false, abstract: false, final false
+  inline void set_rawPosition(::UnityEngine::Vector2 value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Touch() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Touch();
 
-// Ctor Parameters [CppParam { name: "m_FingerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_RawPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_PositionDelta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_TimeDelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Phase", ty: "::UnityEngine::TouchPhase", modifiers: "", def_value: None }, CppParam { name: "m_Type", ty: "::UnityEngine::TouchType", modifiers: "", def_value: None }, CppParam { name: "m_Pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_maximumPossiblePressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_RadiusVariance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AltitudeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: None }]
-constexpr Touch(int32_t  m_FingerId, ::UnityEngine::Vector2  m_Position, ::UnityEngine::Vector2  m_RawPosition, ::UnityEngine::Vector2  m_PositionDelta, float_t  m_TimeDelta, int32_t  m_TapCount, ::UnityEngine::TouchPhase  m_Phase, ::UnityEngine::TouchType  m_Type, float_t  m_Pressure, float_t  m_maximumPossiblePressure, float_t  m_Radius, float_t  m_RadiusVariance, float_t  m_AltitudeAngle, float_t  m_AzimuthAngle) noexcept;
+  // Ctor Parameters [CppParam { name: "m_FingerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
+  // CppParam { name: "m_RawPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_PositionDelta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None
+  // }, CppParam { name: "m_TimeDelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Phase", ty:
+  // "::UnityEngine::TouchPhase", modifiers: "", def_value: None }, CppParam { name: "m_Type", ty: "::UnityEngine::TouchType", modifiers: "", def_value: None }, CppParam { name: "m_Pressure", ty:
+  // "float_t", modifiers: "", def_value: None }, CppParam { name: "m_maximumPossiblePressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Radius", ty: "float_t", modifiers:
+  // "", def_value: None }, CppParam { name: "m_RadiusVariance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AltitudeAngle", ty: "float_t", modifiers: "", def_value: None },
+  // CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr Touch(int32_t m_FingerId, ::UnityEngine::Vector2 m_Position, ::UnityEngine::Vector2 m_RawPosition, ::UnityEngine::Vector2 m_PositionDelta, float_t m_TimeDelta, int32_t m_TapCount,
+                  ::UnityEngine::TouchPhase m_Phase, ::UnityEngine::TouchType m_Type, float_t m_Pressure, float_t m_maximumPossiblePressure, float_t m_Radius, float_t m_RadiusVariance,
+                  float_t m_AltitudeAngle, float_t m_AzimuthAngle) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22410};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22488 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x44};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x44 };
 
-/// @brief Field m_FingerId, offset: 0x0, size: 0x4, def value: None
- int32_t  m_FingerId;
+  /// @brief Field m_FingerId, offset: 0x0, size: 0x4, def value: None
+  int32_t m_FingerId;
 
-/// @brief Field m_Position, offset: 0x4, size: 0x8, def value: None
- ::UnityEngine::Vector2  m_Position;
+  /// @brief Field m_Position, offset: 0x4, size: 0x8, def value: None
+  ::UnityEngine::Vector2 m_Position;
 
-/// @brief Field m_RawPosition, offset: 0xc, size: 0x8, def value: None
- ::UnityEngine::Vector2  m_RawPosition;
+  /// @brief Field m_RawPosition, offset: 0xc, size: 0x8, def value: None
+  ::UnityEngine::Vector2 m_RawPosition;
 
-/// @brief Field m_PositionDelta, offset: 0x14, size: 0x8, def value: None
- ::UnityEngine::Vector2  m_PositionDelta;
+  /// @brief Field m_PositionDelta, offset: 0x14, size: 0x8, def value: None
+  ::UnityEngine::Vector2 m_PositionDelta;
 
-/// @brief Field m_TimeDelta, offset: 0x1c, size: 0x4, def value: None
- float_t  m_TimeDelta;
+  /// @brief Field m_TimeDelta, offset: 0x1c, size: 0x4, def value: None
+  float_t m_TimeDelta;
 
-/// @brief Field m_TapCount, offset: 0x20, size: 0x4, def value: None
- int32_t  m_TapCount;
+  /// @brief Field m_TapCount, offset: 0x20, size: 0x4, def value: None
+  int32_t m_TapCount;
 
-/// @brief Field m_Phase, offset: 0x24, size: 0x4, def value: None
- ::UnityEngine::TouchPhase  m_Phase;
+  /// @brief Field m_Phase, offset: 0x24, size: 0x4, def value: None
+  ::UnityEngine::TouchPhase m_Phase;
 
-/// @brief Field m_Type, offset: 0x28, size: 0x4, def value: None
- ::UnityEngine::TouchType  m_Type;
+  /// @brief Field m_Type, offset: 0x28, size: 0x4, def value: None
+  ::UnityEngine::TouchType m_Type;
 
-/// @brief Field m_Pressure, offset: 0x2c, size: 0x4, def value: None
- float_t  m_Pressure;
+  /// @brief Field m_Pressure, offset: 0x2c, size: 0x4, def value: None
+  float_t m_Pressure;
 
-/// @brief Field m_maximumPossiblePressure, offset: 0x30, size: 0x4, def value: None
- float_t  m_maximumPossiblePressure;
+  /// @brief Field m_maximumPossiblePressure, offset: 0x30, size: 0x4, def value: None
+  float_t m_maximumPossiblePressure;
 
-/// @brief Field m_Radius, offset: 0x34, size: 0x4, def value: None
- float_t  m_Radius;
+  /// @brief Field m_Radius, offset: 0x34, size: 0x4, def value: None
+  float_t m_Radius;
 
-/// @brief Field m_RadiusVariance, offset: 0x38, size: 0x4, def value: None
- float_t  m_RadiusVariance;
+  /// @brief Field m_RadiusVariance, offset: 0x38, size: 0x4, def value: None
+  float_t m_RadiusVariance;
 
-/// @brief Field m_AltitudeAngle, offset: 0x3c, size: 0x4, def value: None
- float_t  m_AltitudeAngle;
+  /// @brief Field m_AltitudeAngle, offset: 0x3c, size: 0x4, def value: None
+  float_t m_AltitudeAngle;
 
-/// @brief Field m_AzimuthAngle, offset: 0x40, size: 0x4, def value: None
- float_t  m_AzimuthAngle;
+  /// @brief Field m_AzimuthAngle, offset: 0x40, size: 0x4, def value: None
+  float_t m_AzimuthAngle;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Touch, m_FingerId) == 0x0, "Offset mismatch!");
@@ -199,5 +207,5 @@ static_assert(offsetof(::UnityEngine::Touch, m_AzimuthAngle) == 0x40, "Offset mi
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Touch, 0x44>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Touch, "UnityEngine", "Touch");

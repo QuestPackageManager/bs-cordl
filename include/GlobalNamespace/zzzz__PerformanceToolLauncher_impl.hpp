@@ -17,229 +17,227 @@
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-// Ctor Parameters [CppParam { name: "visualizer", ty: "::UnityW<::GlobalNamespace::PerformanceVisualizer>", modifiers: "", def_value: Some("{}") }, CppParam { name: "recorder", ty: "::UnityW<::GlobalNamespace::PerformanceRecorder>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets::PerformanceToolLauncher_Assets(::UnityW<::GlobalNamespace::PerformanceVisualizer>  visualizer, ::UnityW<::GlobalNamespace::PerformanceRecorder>  recorder) noexcept  {
-this->visualizer = visualizer;
-this->recorder = recorder;
+// Ctor Parameters [CppParam { name: "visualizer", ty: "::UnityW<::GlobalNamespace::PerformanceVisualizer>", modifiers: "", def_value: Some("{}") }, CppParam { name: "recorder", ty:
+// "::UnityW<::GlobalNamespace::PerformanceRecorder>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets::PerformanceToolLauncher_Assets(::UnityW<::GlobalNamespace::PerformanceVisualizer> visualizer,
+                                                                                            ::UnityW<::GlobalNamespace::PerformanceRecorder> recorder) noexcept {
+  this->visualizer = visualizer;
+  this->recorder = recorder;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets::PerformanceToolLauncher_Assets()   {
+constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets::PerformanceToolLauncher_Assets() {}
+inline void GlobalNamespace::PerformanceToolLauncher_OverrideConfig::setStaticF_kDefault(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig, "kDefault",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>::get>(
+      std::forward<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>(value));
 }
-inline void GlobalNamespace::PerformanceToolLauncher_OverrideConfig::setStaticF_kDefault(::GlobalNamespace::PerformanceToolLauncher_OverrideConfig  value)  {
-::cordl_internals::setStaticField<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig, "kDefault", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>::get>(std::forward<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>(value));
-}
-inline ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig GlobalNamespace::PerformanceToolLauncher_OverrideConfig::getStaticF_kDefault()  {
-return ::cordl_internals::getStaticField<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig, "kDefault", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>::get>();
+inline ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig GlobalNamespace::PerformanceToolLauncher_OverrideConfig::getStaticF_kDefault() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig, "kDefault",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>::get>();
 }
 // Ctor Parameters [CppParam { name: "enableAutoplay", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig::PerformanceToolLauncher_OverrideConfig(bool  enableAutoplay, bool  enableRecording) noexcept  {
-this->enableAutoplay = enableAutoplay;
-this->enableRecording = enableRecording;
+constexpr ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig::PerformanceToolLauncher_OverrideConfig(bool enableAutoplay, bool enableRecording) noexcept {
+  this->enableAutoplay = enableAutoplay;
+  this->enableRecording = enableRecording;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig::PerformanceToolLauncher_OverrideConfig()   {
-}
+constexpr ::GlobalNamespace::PerformanceToolLauncher_OverrideConfig::PerformanceToolLauncher_OverrideConfig() {}
 //  Writing Method size for method: ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(&::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(
+    &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5765cc0;
+  constexpr static std::size_t addrs = 0x57d5dd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0._Run_g__HandleSongControllerSongDidStart_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(&::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidStart_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(
+    &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidStart_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5765d18;
+  constexpr static std::size_t addrs = 0x57d5e28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
-                        "<Run>g__HandleSongControllerSongDidStart|0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
+                                                 "<Run>g__HandleSongControllerSongDidStart|0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0._Run_g__HandleSongControllerSongDidFinish_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(&::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidFinish_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(
+    &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidFinish_1)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5765dbc;
+  constexpr static std::size_t addrs = 0x57d5ecc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
-                        "<Run>g__HandleSongControllerSongDidFinish|1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
+                                                 "<Run>g__HandleSongControllerSongDidFinish|1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::SongController>& GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_get_songController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___songController;
+constexpr ::UnityW<::GlobalNamespace::SongController>& GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_get_songController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___songController;
 }
 constexpr ::UnityW<::GlobalNamespace::SongController> const& GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_get_songController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___songController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___songController;
 }
-constexpr void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_set_songController(::UnityW<::GlobalNamespace::SongController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___songController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_set_songController(::UnityW<::GlobalNamespace::SongController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___songController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::PerformanceRecorder>& GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_get_recorder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___recorder;
+constexpr ::UnityW<::GlobalNamespace::PerformanceRecorder>& GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_get_recorder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___recorder;
 }
 constexpr ::UnityW<::GlobalNamespace::PerformanceRecorder> const& GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_get_recorder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___recorder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___recorder;
 }
-constexpr void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_set_recorder(::UnityW<::GlobalNamespace::PerformanceRecorder>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recorder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::__cordl_internal_set_recorder(::UnityW<::GlobalNamespace::PerformanceRecorder> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recorder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidStart_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
-                        "<Run>g__HandleSongControllerSongDidStart|0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidStart_0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
+                                               "<Run>g__HandleSongControllerSongDidStart|0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidFinish_1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
-                        "<Run>g__HandleSongControllerSongDidFinish|1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidFinish_1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>::get(),
+                                               "<Run>g__HandleSongControllerSongDidFinish|1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0* GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>());
+inline ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0* GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::PerformanceToolLauncher___c__DisplayClass4_0()   {
-}
+constexpr ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::PerformanceToolLauncher___c__DisplayClass4_0() {}
 //  Writing Method size for method: ::GlobalNamespace::PerformanceToolLauncher.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher::*)(::GlobalNamespace::SettingsManager*, ::GlobalNamespace::PlayerDataModel*, ::GlobalNamespace::MainCamera*, ::GlobalNamespace::RecPlayBehaviour_State*, ::GlobalNamespace::SongController*, ::GlobalNamespace::AudioTimeSyncController*, ::GlobalNamespace::IGamePause*, ::GlobalNamespace::GameplayCoreSceneSetupData*, ::GlobalNamespace::BeatmapObjectManager*, ::GlobalNamespace::BeatmapCallbacksController*, ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>)>(&::GlobalNamespace::PerformanceToolLauncher::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher::*)(
+    ::GlobalNamespace::SettingsManager*, ::GlobalNamespace::PlayerDataModel*, ::GlobalNamespace::MainCamera*, ::GlobalNamespace::RecPlayBehaviour_State*, ::GlobalNamespace::SongController*,
+    ::GlobalNamespace::AudioTimeSyncController*, ::GlobalNamespace::IGamePause*, ::GlobalNamespace::GameplayCoreSceneSetupData*, ::GlobalNamespace::BeatmapObjectManager*,
+    ::GlobalNamespace::BeatmapCallbacksController*, ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>)>(&::GlobalNamespace::PerformanceToolLauncher::Initialize)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x57658e4;
+  constexpr static std::size_t addrs = 0x57d59f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 11>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainCamera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecPlayBehaviour_State*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioTimeSyncController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGamePause*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapObjectManager*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 11>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainCamera*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecPlayBehaviour_State*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioTimeSyncController*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGamePause*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapObjectManager*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PerformanceToolLauncher.Run
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::PerformanceRecorder*, ::GlobalNamespace::SongController*)>(&::GlobalNamespace::PerformanceToolLauncher::Run)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::PerformanceRecorder*, ::GlobalNamespace::SongController*)>(
+    &::GlobalNamespace::PerformanceToolLauncher::Run)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5765b50;
+  constexpr static std::size_t addrs = 0x57d5c60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(),
-                        "Run",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PerformanceRecorder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), "Run", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PerformanceRecorder*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PerformanceToolLauncher._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher::*)()>(&::GlobalNamespace::PerformanceToolLauncher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5765cc4;
+  constexpr static std::size_t addrs = 0x57d5dd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets& GlobalNamespace::PerformanceToolLauncher::__cordl_internal_get__assets()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____assets;
+constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets& GlobalNamespace::PerformanceToolLauncher::__cordl_internal_get__assets() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____assets;
 }
 constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets const& GlobalNamespace::PerformanceToolLauncher::__cordl_internal_get__assets() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____assets;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____assets;
 }
-constexpr void GlobalNamespace::PerformanceToolLauncher::__cordl_internal_set__assets(::GlobalNamespace::PerformanceToolLauncher_Assets  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____assets = value;
+constexpr void GlobalNamespace::PerformanceToolLauncher::__cordl_internal_set__assets(::GlobalNamespace::PerformanceToolLauncher_Assets value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____assets = value;
 }
-inline void GlobalNamespace::PerformanceToolLauncher::Initialize(::GlobalNamespace::SettingsManager*  settingsManager, ::GlobalNamespace::PlayerDataModel*  playerDataModel, ::GlobalNamespace::MainCamera*  mainCamera, ::GlobalNamespace::RecPlayBehaviour_State*  recPlayState, ::GlobalNamespace::SongController*  songController, ::GlobalNamespace::AudioTimeSyncController*  timeSync, ::GlobalNamespace::IGamePause*  gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData*  sceneSetupData, ::GlobalNamespace::BeatmapObjectManager*  objectManager, ::GlobalNamespace::BeatmapCallbacksController*  callbackController, ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>  overrideConfig)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 11>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainCamera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecPlayBehaviour_State*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioTimeSyncController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGamePause*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapObjectManager*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, settingsManager, playerDataModel, mainCamera, recPlayState, songController, timeSync, gamePause, sceneSetupData, objectManager, callbackController, overrideConfig);
+inline void GlobalNamespace::PerformanceToolLauncher::Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel,
+                                                                 ::GlobalNamespace::MainCamera* mainCamera, ::GlobalNamespace::RecPlayBehaviour_State* recPlayState,
+                                                                 ::GlobalNamespace::SongController* songController, ::GlobalNamespace::AudioTimeSyncController* timeSync,
+                                                                 ::GlobalNamespace::IGamePause* gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData,
+                                                                 ::GlobalNamespace::BeatmapObjectManager* objectManager, ::GlobalNamespace::BeatmapCallbacksController* callbackController,
+                                                                 ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> overrideConfig) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 11>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainCamera*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecPlayBehaviour_State*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioTimeSyncController*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGamePause*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapObjectManager*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, settingsManager, playerDataModel, mainCamera, recPlayState, songController, timeSync, gamePause, sceneSetupData,
+                                                          objectManager, callbackController, overrideConfig);
 }
-inline void GlobalNamespace::PerformanceToolLauncher::Run(::GlobalNamespace::PerformanceRecorder*  recorder, ::GlobalNamespace::SongController*  songController)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(),
-                        "Run",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PerformanceRecorder*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, recorder, songController);
+inline void GlobalNamespace::PerformanceToolLauncher::Run(::GlobalNamespace::PerformanceRecorder* recorder, ::GlobalNamespace::SongController* songController) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), "Run", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PerformanceRecorder*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongController*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, recorder, songController);
 }
-inline void GlobalNamespace::PerformanceToolLauncher::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PerformanceToolLauncher::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PerformanceToolLauncher* GlobalNamespace::PerformanceToolLauncher::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PerformanceToolLauncher*>());
+inline ::GlobalNamespace::PerformanceToolLauncher* GlobalNamespace::PerformanceToolLauncher::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PerformanceToolLauncher*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PerformanceToolLauncher::PerformanceToolLauncher()   {
-}
+constexpr ::GlobalNamespace::PerformanceToolLauncher::PerformanceToolLauncher() {}

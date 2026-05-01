@@ -6,16 +6,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Extensions)
 namespace Unity::Collections {
-template<typename T>
-struct NativeHashSet_1;
+template <typename T> struct NativeHashSet_1;
 }
 namespace Unity::Collections {
-template<typename T>
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 namespace Unity::Collections {
-template<typename T>
-struct NativeParallelHashSet_1;
+template <typename T> struct NativeParallelHashSet_1;
 }
 // Forward declare root types
 namespace Unity::Collections::NotBurstCompatible {
@@ -29,45 +26,41 @@ namespace Unity::Collections::NotBurstCompatible {
 // CS Name: Unity.Collections.NotBurstCompatible.Extensions
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CopyFromNBC, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline void CopyFromNBC(::Unity::Collections::NativeList_1<T>  list, ::ArrayW<T,::Array<T>*>  array) ;
+  // Declarations
+  /// @brief Method CopyFromNBC, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void CopyFromNBC(::Unity::Collections::NativeList_1<T> list, ::ArrayW<T, ::Array<T>*> array);
 
-/// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline ::ArrayW<T,::Array<T>*> ToArray(::Unity::Collections::NativeHashSet_1<T>  set) ;
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::ArrayW<T, ::Array<T>*> ToArray(::Unity::Collections::NativeHashSet_1<T> set);
 
-/// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline ::ArrayW<T,::Array<T>*> ToArray(::Unity::Collections::NativeParallelHashSet_1<T>  set) ;
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::ArrayW<T, ::Array<T>*> ToArray(::Unity::Collections::NativeParallelHashSet_1<T> set);
 
-/// @brief Method ToArrayNBC, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline ::ArrayW<T,::Array<T>*> ToArrayNBC(::Unity::Collections::NativeList_1<T>  list) ;
+  /// @brief Method ToArrayNBC, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::ArrayW<T, ::Array<T>*> ToArrayNBC(::Unity::Collections::NativeList_1<T> list);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Extensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Extensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Extensions(Extensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Extensions(Extensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Extensions(Extensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Extensions(Extensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15731 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15724};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NotBurstCompatible::Extensions, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Collections::NotBurstCompatible
+} // namespace Unity::Collections::NotBurstCompatible
 NEED_NO_BOX(::Unity::Collections::NotBurstCompatible::Extensions);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NotBurstCompatible::Extensions*, "Unity.Collections.NotBurstCompatible", "Extensions");

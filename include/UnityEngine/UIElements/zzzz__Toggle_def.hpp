@@ -47,188 +47,188 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Toggle_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Toggle/UxmlFactory
-class CORDL_TYPE Toggle_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*,::UnityEngine::UIElements::Toggle_UxmlTraits*> {
+class CORDL_TYPE Toggle_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*, ::UnityEngine::UIElements::Toggle_UxmlTraits*> {
 public:
-// Declarations
-static inline ::UnityEngine::UIElements::Toggle_UxmlFactory* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::UIElements::Toggle_UxmlFactory* New_ctor();
 
-/// @brief Method .ctor, addr 0x6bad404, size 0x68, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c1f64c, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Toggle_UxmlFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Toggle_UxmlFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Toggle_UxmlFactory(Toggle_UxmlFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Toggle_UxmlFactory(Toggle_UxmlFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Toggle_UxmlFactory(Toggle_UxmlFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Toggle_UxmlFactory(Toggle_UxmlFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4340 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4340};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Toggle/UxmlTraits
-class CORDL_TYPE Toggle_UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool,::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
+class CORDL_TYPE Toggle_UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
-// Declarations
-/// @brief Field m_Text, offset 0xa0, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Text, put=__cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription*  m_Text;
+  // Declarations
+  /// @brief Field m_Text, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-/// @brief Method Init, addr 0x6bad46c, size 0x138, virtual true, abstract: false, final false
-inline void Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
+  /// @brief Method Init, addr 0x6c1f6b4, size 0x138, virtual true, abstract: false, final false
+  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-static inline ::UnityEngine::UIElements::Toggle_UxmlTraits* New_ctor() ;
+  static inline ::UnityEngine::UIElements::Toggle_UxmlTraits* New_ctor();
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Text() const;
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Text() const;
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text() ;
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
 
-constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value) ;
+  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-/// @brief Method .ctor, addr 0x6bad5a4, size 0xa4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c1f7ec, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Toggle_UxmlTraits() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Toggle_UxmlTraits();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Toggle_UxmlTraits(Toggle_UxmlTraits&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Toggle_UxmlTraits(Toggle_UxmlTraits && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Toggle_UxmlTraits(Toggle_UxmlTraits const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Toggle_UxmlTraits(Toggle_UxmlTraits const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4341 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4341};
+  /// @brief Field m_Text, offset: 0xa0, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
 
-/// @brief Field m_Text, offset: 0xa0, size: 0x8, def value: None
- ::UnityEngine::UIElements::UxmlStringAttributeDescription*  ___m_Text;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Toggle_UxmlTraits, ___m_Text) == 0xa0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle_UxmlTraits, 0xa8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BaseBoolField
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Toggle
 class CORDL_TYPE Toggle : public ::UnityEngine::UIElements::BaseBoolField {
 public:
-// Declarations
-using UxmlFactory = ::UnityEngine::UIElements::Toggle_UxmlFactory;
+  // Declarations
+  using UxmlFactory = ::UnityEngine::UIElements::Toggle_UxmlFactory;
 
-using UxmlTraits = ::UnityEngine::UIElements::Toggle_UxmlTraits;
+  using UxmlTraits = ::UnityEngine::UIElements::Toggle_UxmlTraits;
 
-/// @brief Field checkmarkUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_checkmarkUssClassName, put=setStaticF_checkmarkUssClassName)) ::StringW  checkmarkUssClassName;
+  /// @brief Field checkmarkUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_checkmarkUssClassName, put = setStaticF_checkmarkUssClassName)) ::StringW checkmarkUssClassName;
 
-/// @brief Field inputUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_inputUssClassName, put=setStaticF_inputUssClassName)) ::StringW  inputUssClassName;
+  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
-/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
+  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-/// @brief Field mixedValuesUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_mixedValuesUssClassName, put=setStaticF_mixedValuesUssClassName)) ::StringW  mixedValuesUssClassName;
+  /// @brief Field mixedValuesUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_mixedValuesUssClassName, put = setStaticF_mixedValuesUssClassName)) ::StringW mixedValuesUssClassName;
 
-/// @brief Field noTextVariantUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_noTextVariantUssClassName, put=setStaticF_noTextVariantUssClassName)) ::StringW  noTextVariantUssClassName;
+  /// @brief Field noTextVariantUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_noTextVariantUssClassName, put = setStaticF_noTextVariantUssClassName)) ::StringW noTextVariantUssClassName;
 
-/// @brief Field textUssClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_textUssClassName, put=setStaticF_textUssClassName)) ::StringW  textUssClassName;
+  /// @brief Field textUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_textUssClassName, put = setStaticF_textUssClassName)) ::StringW textUssClassName;
 
-/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
+  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-/// @brief Method InitLabel, addr 0x6bad054, size 0x80, virtual true, abstract: false, final false
-inline void InitLabel() ;
+  /// @brief Method InitLabel, addr 0x6c1f29c, size 0x80, virtual true, abstract: false, final false
+  inline void InitLabel();
 
-static inline ::UnityEngine::UIElements::Toggle* New_ctor() ;
+  static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
-static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW  label) ;
+  static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-/// @brief Method UpdateMixedValueContent, addr 0x6bad0d4, size 0x174, virtual true, abstract: false, final false
-inline void UpdateMixedValueContent() ;
+  /// @brief Method UpdateMixedValueContent, addr 0x6c1f31c, size 0x174, virtual true, abstract: false, final false
+  inline void UpdateMixedValueContent();
 
-/// @brief Method .ctor, addr 0x6bacf20, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c1f168, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x6bacf28, size 0x12c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  label) ;
+  /// @brief Method .ctor, addr 0x6c1f170, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW label);
 
-static inline ::StringW getStaticF_checkmarkUssClassName() ;
+  static inline ::StringW getStaticF_checkmarkUssClassName();
 
-static inline ::StringW getStaticF_inputUssClassName() ;
+  static inline ::StringW getStaticF_inputUssClassName();
 
-static inline ::StringW getStaticF_labelUssClassName() ;
+  static inline ::StringW getStaticF_labelUssClassName();
 
-static inline ::StringW getStaticF_mixedValuesUssClassName() ;
+  static inline ::StringW getStaticF_mixedValuesUssClassName();
 
-static inline ::StringW getStaticF_noTextVariantUssClassName() ;
+  static inline ::StringW getStaticF_noTextVariantUssClassName();
 
-static inline ::StringW getStaticF_textUssClassName() ;
+  static inline ::StringW getStaticF_textUssClassName();
 
-static inline ::StringW getStaticF_ussClassName() ;
+  static inline ::StringW getStaticF_ussClassName();
 
-static inline void setStaticF_checkmarkUssClassName(::StringW  value) ;
+  static inline void setStaticF_checkmarkUssClassName(::StringW value);
 
-static inline void setStaticF_inputUssClassName(::StringW  value) ;
+  static inline void setStaticF_inputUssClassName(::StringW value);
 
-static inline void setStaticF_labelUssClassName(::StringW  value) ;
+  static inline void setStaticF_labelUssClassName(::StringW value);
 
-static inline void setStaticF_mixedValuesUssClassName(::StringW  value) ;
+  static inline void setStaticF_mixedValuesUssClassName(::StringW value);
 
-static inline void setStaticF_noTextVariantUssClassName(::StringW  value) ;
+  static inline void setStaticF_noTextVariantUssClassName(::StringW value);
 
-static inline void setStaticF_textUssClassName(::StringW  value) ;
+  static inline void setStaticF_textUssClassName(::StringW value);
 
-static inline void setStaticF_ussClassName(::StringW  value) ;
+  static inline void setStaticF_ussClassName(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Toggle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Toggle();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Toggle(Toggle&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Toggle(Toggle && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Toggle(Toggle const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Toggle(Toggle const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4342 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4342};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle, 0x550>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Toggle);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Toggle*, "UnityEngine.UIElements", "Toggle");
 NEED_NO_BOX(::UnityEngine::UIElements::Toggle_UxmlFactory);

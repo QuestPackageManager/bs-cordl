@@ -26,46 +26,46 @@ namespace GlobalNamespace {
 // CS Name: CoroutineStarter
 class CORDL_TYPE CoroutineStarter : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Convert operator to "::GlobalNamespace::ICoroutineStarter"
-constexpr operator  ::GlobalNamespace::ICoroutineStarter*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::GlobalNamespace::ICoroutineStarter"
+  constexpr operator ::GlobalNamespace::ICoroutineStarter*() noexcept;
 
-/// @brief Method ICoroutineStarter.StartCoroutine, addr 0x322b118, size 0xe0, virtual true, abstract: false, final true
-inline ::UnityEngine::Coroutine* ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator*  routine) ;
+  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0x32675f0, size 0xe0, virtual true, abstract: false, final true
+  inline ::UnityEngine::Coroutine* ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator* routine);
 
-/// @brief Method ICoroutineStarter.StopCoroutine, addr 0x322b1f8, size 0xd8, virtual true, abstract: false, final true
-inline void ICoroutineStarter_StopCoroutine(::UnityEngine::Coroutine*  routine) ;
+  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0x32676d0, size 0xd8, virtual true, abstract: false, final true
+  inline void ICoroutineStarter_StopCoroutine(::UnityEngine::Coroutine* routine);
 
-static inline ::GlobalNamespace::CoroutineStarter* New_ctor() ;
+  static inline ::GlobalNamespace::CoroutineStarter* New_ctor();
 
-/// @brief Method .ctor, addr 0x322b2d0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32677a8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::GlobalNamespace::ICoroutineStarter"
-constexpr ::GlobalNamespace::ICoroutineStarter* i___GlobalNamespace__ICoroutineStarter() noexcept;
+  /// @brief Convert to "::GlobalNamespace::ICoroutineStarter"
+  constexpr ::GlobalNamespace::ICoroutineStarter* i___GlobalNamespace__ICoroutineStarter() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CoroutineStarter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CoroutineStarter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineStarter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CoroutineStarter(CoroutineStarter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CoroutineStarter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CoroutineStarter(CoroutineStarter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineStarter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CoroutineStarter(CoroutineStarter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CoroutineStarter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CoroutineStarter(CoroutineStarter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20701 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20689};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CoroutineStarter, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CoroutineStarter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CoroutineStarter*, "", "CoroutineStarter");

@@ -12,35 +12,35 @@ struct FontEngineUtilities;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontEngineUtilities);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.TextCore.LowLevel.FontEngineUtilities
 #pragma pack(push, 0)
 struct CORDL_TYPE FontEngineUtilities {
 public:
-// Declarations
-/// @brief Method MaxValue, addr 0x69f36b8, size 0x14, virtual false, abstract: false, final false
-static inline int32_t MaxValue(int32_t  a, int32_t  b, int32_t  c) ;
+  // Declarations
+  /// @brief Method MaxValue, addr 0x6a65900, size 0x14, virtual false, abstract: false, final false
+  static inline int32_t MaxValue(int32_t a, int32_t b, int32_t c);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr FontEngineUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FontEngineUtilities();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21679};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21690 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::FontEngineUtilities, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::TextCore::LowLevel
+} // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::FontEngineUtilities, "UnityEngine.TextCore.LowLevel", "FontEngineUtilities");

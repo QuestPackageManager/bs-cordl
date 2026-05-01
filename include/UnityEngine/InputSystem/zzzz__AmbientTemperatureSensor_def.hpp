@@ -20,78 +20,79 @@ namespace UnityEngine::InputSystem {
 // CS Name: UnityEngine.InputSystem.AmbientTemperatureSensor
 class CORDL_TYPE AmbientTemperatureSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
-// Declarations
-/// @brief Field <ambientTemperature>k__BackingField, offset 0x188, size 0x8 
- __declspec(property(get=__cordl_internal_get__ambientTemperature_k__BackingField, put=__cordl_internal_set__ambientTemperature_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl*  _ambientTemperature_k__BackingField;
+  // Declarations
+  /// @brief Field <ambientTemperature>k__BackingField, offset 0x188, size 0x8
+  __declspec(property(get = __cordl_internal_get__ambientTemperature_k__BackingField,
+                      put = __cordl_internal_set__ambientTemperature_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _ambientTemperature_k__BackingField;
 
-/// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__current_k__BackingField, put=setStaticF__current_k__BackingField)) ::UnityEngine::InputSystem::AmbientTemperatureSensor*  _current_k__BackingField;
+  /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField)) ::UnityEngine::InputSystem::AmbientTemperatureSensor* _current_k__BackingField;
 
- __declspec(property(get=get_ambientTemperature, put=set_ambientTemperature)) ::UnityEngine::InputSystem::Controls::AxisControl*  ambientTemperature;
+  __declspec(property(get = get_ambientTemperature, put = set_ambientTemperature)) ::UnityEngine::InputSystem::Controls::AxisControl* ambientTemperature;
 
-/// @brief Method FinishSetup, addr 0x63b10ec, size 0x70, virtual true, abstract: false, final false
-inline void FinishSetup() ;
+  /// @brief Method FinishSetup, addr 0x64230f8, size 0x70, virtual true, abstract: false, final false
+  inline void FinishSetup();
 
-/// @brief Method MakeCurrent, addr 0x63b100c, size 0x50, virtual true, abstract: false, final false
-inline void MakeCurrent() ;
+  /// @brief Method MakeCurrent, addr 0x6423018, size 0x50, virtual true, abstract: false, final false
+  inline void MakeCurrent();
 
-static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* New_ctor() ;
+  static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* New_ctor();
 
-/// @brief Method OnRemoved, addr 0x63b105c, size 0x90, virtual true, abstract: false, final false
-inline void OnRemoved() ;
+  /// @brief Method OnRemoved, addr 0x6423068, size 0x90, virtual true, abstract: false, final false
+  inline void OnRemoved();
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__ambientTemperature_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__ambientTemperature_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__ambientTemperature_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__ambientTemperature_k__BackingField();
 
-constexpr void __cordl_internal_set__ambientTemperature_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
+  constexpr void __cordl_internal_set__ambientTemperature_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-/// @brief Method .ctor, addr 0x63b115c, size 0x20, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6423168, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* getStaticF__current_k__BackingField() ;
+  static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* getStaticF__current_k__BackingField();
 
-/// @brief Method get_ambientTemperature, addr 0x63b0f60, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::AxisControl* get_ambientTemperature() ;
+  /// @brief Method get_ambientTemperature, addr 0x6422f6c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_ambientTemperature();
 
-/// @brief Method get_current, addr 0x63b0f70, size 0x4c, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* get_current() ;
+  /// @brief Method get_current, addr 0x6422f7c, size 0x4c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* get_current();
 
-static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::AmbientTemperatureSensor*  value) ;
+  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::AmbientTemperatureSensor* value);
 
-/// @brief Method set_ambientTemperature, addr 0x63b0f68, size 0x8, virtual false, abstract: false, final false
-inline void set_ambientTemperature(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
+  /// @brief Method set_ambientTemperature, addr 0x6422f74, size 0x8, virtual false, abstract: false, final false
+  inline void set_ambientTemperature(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-/// @brief Method set_current, addr 0x63b0fbc, size 0x50, virtual false, abstract: false, final false
-static inline void set_current(::UnityEngine::InputSystem::AmbientTemperatureSensor*  value) ;
+  /// @brief Method set_current, addr 0x6422fc8, size 0x50, virtual false, abstract: false, final false
+  static inline void set_current(::UnityEngine::InputSystem::AmbientTemperatureSensor* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AmbientTemperatureSensor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AmbientTemperatureSensor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AmbientTemperatureSensor(AmbientTemperatureSensor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AmbientTemperatureSensor(AmbientTemperatureSensor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AmbientTemperatureSensor(AmbientTemperatureSensor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AmbientTemperatureSensor(AmbientTemperatureSensor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8760 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8754};
+  /// @brief Field <ambientTemperature>k__BackingField, offset: 0x188, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::AxisControl* ____ambientTemperature_k__BackingField;
 
-/// @brief Field <ambientTemperature>k__BackingField, offset: 0x188, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::AxisControl*  ____ambientTemperature_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::AmbientTemperatureSensor, ____ambientTemperature_k__BackingField) == 0x188, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::AmbientTemperatureSensor, 0x190>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem
+} // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::AmbientTemperatureSensor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::AmbientTemperatureSensor*, "UnityEngine.InputSystem", "AmbientTemperatureSensor");

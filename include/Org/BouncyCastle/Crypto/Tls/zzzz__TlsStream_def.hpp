@@ -24,100 +24,100 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsStream
 class CORDL_TYPE TlsStream : public ::System::IO::Stream {
 public:
-// Declarations
- __declspec(property(get=get_CanRead)) bool  CanRead;
+  // Declarations
+  __declspec(property(get = get_CanRead)) bool CanRead;
 
- __declspec(property(get=get_CanSeek)) bool  CanSeek;
+  __declspec(property(get = get_CanSeek)) bool CanSeek;
 
- __declspec(property(get=get_CanWrite)) bool  CanWrite;
+  __declspec(property(get = get_CanWrite)) bool CanWrite;
 
- __declspec(property(get=get_Length)) int64_t  Length;
+  __declspec(property(get = get_Length)) int64_t Length;
 
- __declspec(property(get=get_Position, put=set_Position)) int64_t  Position;
+  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-/// @brief Field handler, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_handler, put=__cordl_internal_set_handler)) ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*  handler;
+  /// @brief Field handler, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler)) ::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler;
 
-/// @brief Method Close, addr 0x3396f68, size 0x34, virtual true, abstract: false, final false
-inline void Close() ;
+  /// @brief Method Close, addr 0x33d35ac, size 0x34, virtual true, abstract: false, final false
+  inline void Close();
 
-/// @brief Method Flush, addr 0x3396f9c, size 0x20, virtual true, abstract: false, final false
-inline void Flush() ;
+  /// @brief Method Flush, addr 0x33d35e0, size 0x20, virtual true, abstract: false, final false
+  inline void Flush();
 
-static inline ::Org::BouncyCastle::Crypto::Tls::TlsStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol*  handler) ;
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
 
-/// @brief Method Read, addr 0x3397064, size 0x20, virtual true, abstract: false, final false
-inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buf, int32_t  off, int32_t  len) ;
+  /// @brief Method Read, addr 0x33d36a8, size 0x20, virtual true, abstract: false, final false
+  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-/// @brief Method ReadByte, addr 0x3397084, size 0x9c, virtual true, abstract: false, final false
-inline int32_t ReadByte() ;
+  /// @brief Method ReadByte, addr 0x33d36c8, size 0x9c, virtual true, abstract: false, final false
+  inline int32_t ReadByte();
 
-/// @brief Method Seek, addr 0x3397120, size 0x38, virtual true, abstract: false, final false
-inline int64_t Seek(int64_t  offset, ::System::IO::SeekOrigin  origin) ;
+  /// @brief Method Seek, addr 0x33d3764, size 0x38, virtual true, abstract: false, final false
+  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-/// @brief Method SetLength, addr 0x3397158, size 0x38, virtual true, abstract: false, final false
-inline void SetLength(int64_t  value) ;
+  /// @brief Method SetLength, addr 0x33d379c, size 0x38, virtual true, abstract: false, final false
+  inline void SetLength(int64_t value);
 
-/// @brief Method Write, addr 0x3397190, size 0x20, virtual true, abstract: false, final false
-inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  buf, int32_t  off, int32_t  len) ;
+  /// @brief Method Write, addr 0x33d37d4, size 0x20, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-/// @brief Method WriteByte, addr 0x33971b0, size 0x98, virtual true, abstract: false, final false
-inline void WriteByte(uint8_t  b) ;
+  /// @brief Method WriteByte, addr 0x33d37f4, size 0x98, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t b);
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol* const& __cordl_internal_get_handler() const;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol* const& __cordl_internal_get_handler() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*& __cordl_internal_get_handler() ;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*& __cordl_internal_get_handler();
 
-constexpr void __cordl_internal_set_handler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol*  value) ;
+  constexpr void __cordl_internal_set_handler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* value);
 
-/// @brief Method .ctor, addr 0x3396e9c, size 0x64, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol*  handler) ;
+  /// @brief Method .ctor, addr 0x33d34e0, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
 
-/// @brief Method get_CanRead, addr 0x3396f00, size 0x30, virtual true, abstract: false, final false
-inline bool get_CanRead() ;
+  /// @brief Method get_CanRead, addr 0x33d3544, size 0x30, virtual true, abstract: false, final false
+  inline bool get_CanRead();
 
-/// @brief Method get_CanSeek, addr 0x3396f30, size 0x8, virtual true, abstract: false, final false
-inline bool get_CanSeek() ;
+  /// @brief Method get_CanSeek, addr 0x33d3574, size 0x8, virtual true, abstract: false, final false
+  inline bool get_CanSeek();
 
-/// @brief Method get_CanWrite, addr 0x3396f38, size 0x30, virtual true, abstract: false, final false
-inline bool get_CanWrite() ;
+  /// @brief Method get_CanWrite, addr 0x33d357c, size 0x30, virtual true, abstract: false, final false
+  inline bool get_CanWrite();
 
-/// @brief Method get_Length, addr 0x3396fbc, size 0x38, virtual true, abstract: false, final false
-inline int64_t get_Length() ;
+  /// @brief Method get_Length, addr 0x33d3600, size 0x38, virtual true, abstract: false, final false
+  inline int64_t get_Length();
 
-/// @brief Method get_Position, addr 0x3396ff4, size 0x38, virtual true, abstract: false, final false
-inline int64_t get_Position() ;
+  /// @brief Method get_Position, addr 0x33d3638, size 0x38, virtual true, abstract: false, final false
+  inline int64_t get_Position();
 
-/// @brief Method set_Position, addr 0x339702c, size 0x38, virtual true, abstract: false, final false
-inline void set_Position(int64_t  value) ;
+  /// @brief Method set_Position, addr 0x33d3670, size 0x38, virtual true, abstract: false, final false
+  inline void set_Position(int64_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TlsStream() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsStream();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TlsStream(TlsStream&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TlsStream(TlsStream && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TlsStream(TlsStream const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TlsStream(TlsStream const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1330 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1330};
+  /// @brief Field handler, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Tls::TlsProtocol* ___handler;
 
-/// @brief Field handler, offset: 0x28, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*  ___handler;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsStream, ___handler) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsStream, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsStream);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsStream*, "Org.BouncyCastle.Crypto.Tls", "TlsStream");

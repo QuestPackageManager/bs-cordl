@@ -9,8 +9,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Log)
 namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
+template <typename T> class Stack_1;
 }
 namespace System {
 class Object;
@@ -36,123 +35,120 @@ namespace UnityEngine::ProBuilder {
 // CS Name: UnityEngine.ProBuilder.Log
 class CORDL_TYPE Log : public ::System::Object {
 public:
-// Declarations
-/// @brief Field s_LogFilePath, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_LogFilePath, put=setStaticF_s_LogFilePath)) ::StringW  s_LogFilePath;
+  // Declarations
+  /// @brief Field s_LogFilePath, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_LogFilePath, put = setStaticF_s_LogFilePath)) ::StringW s_LogFilePath;
 
-/// @brief Field s_LogLevel, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_s_LogLevel, put=setStaticF_s_LogLevel)) ::UnityEngine::ProBuilder::LogLevel  s_LogLevel;
+  /// @brief Field s_LogLevel, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_s_LogLevel, put = setStaticF_s_LogLevel)) ::UnityEngine::ProBuilder::LogLevel s_LogLevel;
 
-/// @brief Field s_Output, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_s_Output, put=setStaticF_s_Output)) ::UnityEngine::ProBuilder::LogOutput  s_Output;
+  /// @brief Field s_Output, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_s_Output, put = setStaticF_s_Output)) ::UnityEngine::ProBuilder::LogOutput s_Output;
 
-/// @brief Field s_logStack, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_logStack, put=setStaticF_s_logStack)) ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::LogLevel>*  s_logStack;
+  /// @brief Field s_logStack, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_logStack, put = setStaticF_s_logStack)) ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::LogLevel>* s_logStack;
 
-/// @brief Method ClearLogFile, addr 0x650d798, size 0x94, virtual false, abstract: false, final false
-static inline void ClearLogFile() ;
+  /// @brief Method ClearLogFile, addr 0x657f7a4, size 0x94, virtual false, abstract: false, final false
+  static inline void ClearLogFile();
 
-/// @brief Method Debug, addr 0x650d0ec, size 0x4, virtual false, abstract: false, final false
-static inline void Debug(::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  values) ;
+  /// @brief Method Debug, addr 0x657f0f8, size 0x4, virtual false, abstract: false, final false
+  static inline void Debug(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-/// @brief Method Debug, addr 0x650cfbc, size 0x5c, virtual false, abstract: false, final false
-static inline void Debug(::StringW  message) ;
+  /// @brief Method Debug, addr 0x657efc8, size 0x5c, virtual false, abstract: false, final false
+  static inline void Debug(::StringW message);
 
-/// @brief Method Debug, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline void Debug(T  value) ;
+  /// @brief Method Debug, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void Debug(T value);
 
-/// @brief Method DoPrint, addr 0x650d018, size 0xd4, virtual false, abstract: false, final false
-static inline void DoPrint(::StringW  message, ::UnityEngine::LogType  type) ;
+  /// @brief Method DoPrint, addr 0x657f024, size 0xd4, virtual false, abstract: false, final false
+  static inline void DoPrint(::StringW message, ::UnityEngine::LogType type);
 
-/// @brief Method Error, addr 0x650d2f0, size 0x7c, virtual false, abstract: false, final false
-static inline void Error(::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  values) ;
+  /// @brief Method Error, addr 0x657f2fc, size 0x7c, virtual false, abstract: false, final false
+  static inline void Error(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-/// @brief Method Error, addr 0x65007cc, size 0x84, virtual false, abstract: false, final false
-static inline void Error(::StringW  message) ;
+  /// @brief Method Error, addr 0x65727d8, size 0x84, virtual false, abstract: false, final false
+  static inline void Error(::StringW message);
 
-/// @brief Method Info, addr 0x650d0f0, size 0x7c, virtual false, abstract: false, final false
-static inline void Info(::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  values) ;
+  /// @brief Method Info, addr 0x657f0fc, size 0x7c, virtual false, abstract: false, final false
+  static inline void Info(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-/// @brief Method Info, addr 0x650d16c, size 0x84, virtual false, abstract: false, final false
-static inline void Info(::StringW  message) ;
+  /// @brief Method Info, addr 0x657f178, size 0x84, virtual false, abstract: false, final false
+  static inline void Info(::StringW message);
 
-/// @brief Method NotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline void NotNull(T  obj, ::StringW  message) ;
+  /// @brief Method NotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void NotNull(T obj, ::StringW message);
 
-/// @brief Method PopLogLevel, addr 0x650ce0c, size 0x90, virtual false, abstract: false, final false
-static inline void PopLogLevel() ;
+  /// @brief Method PopLogLevel, addr 0x657ee18, size 0x90, virtual false, abstract: false, final false
+  static inline void PopLogLevel();
 
-/// @brief Method PrintToConsole, addr 0x650d36c, size 0xf0, virtual false, abstract: false, final false
-static inline void PrintToConsole(::StringW  message, ::UnityEngine::LogType  type) ;
+  /// @brief Method PrintToConsole, addr 0x657f378, size 0xf0, virtual false, abstract: false, final false
+  static inline void PrintToConsole(::StringW message, ::UnityEngine::LogType type);
 
-/// @brief Method PrintToFile, addr 0x650d45c, size 0x33c, virtual false, abstract: false, final false
-static inline void PrintToFile(::StringW  message, ::StringW  path) ;
+  /// @brief Method PrintToFile, addr 0x657f468, size 0x33c, virtual false, abstract: false, final false
+  static inline void PrintToFile(::StringW message, ::StringW path);
 
-/// @brief Method PushLogLevel, addr 0x650cd74, size 0x98, virtual false, abstract: false, final false
-static inline void PushLogLevel(::UnityEngine::ProBuilder::LogLevel  level) ;
+  /// @brief Method PushLogLevel, addr 0x657ed80, size 0x98, virtual false, abstract: false, final false
+  static inline void PushLogLevel(::UnityEngine::ProBuilder::LogLevel level);
 
-/// @brief Method SetLogFile, addr 0x650cf5c, size 0x60, virtual false, abstract: false, final false
-static inline void SetLogFile(::StringW  path) ;
+  /// @brief Method SetLogFile, addr 0x657ef68, size 0x60, virtual false, abstract: false, final false
+  static inline void SetLogFile(::StringW path);
 
-/// @brief Method SetLogLevel, addr 0x650ce9c, size 0x60, virtual false, abstract: false, final false
-static inline void SetLogLevel(::UnityEngine::ProBuilder::LogLevel  level) ;
+  /// @brief Method SetLogLevel, addr 0x657eea8, size 0x60, virtual false, abstract: false, final false
+  static inline void SetLogLevel(::UnityEngine::ProBuilder::LogLevel level);
 
-/// @brief Method SetOutput, addr 0x650cefc, size 0x60, virtual false, abstract: false, final false
-static inline void SetOutput(::UnityEngine::ProBuilder::LogOutput  output) ;
+  /// @brief Method SetOutput, addr 0x657ef08, size 0x60, virtual false, abstract: false, final false
+  static inline void SetOutput(::UnityEngine::ProBuilder::LogOutput output);
 
-/// @brief Method Warning, addr 0x650d1f0, size 0x7c, virtual false, abstract: false, final false
-static inline void Warning(::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  values) ;
+  /// @brief Method Warning, addr 0x657f1fc, size 0x7c, virtual false, abstract: false, final false
+  static inline void Warning(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-/// @brief Method Warning, addr 0x650d26c, size 0x84, virtual false, abstract: false, final false
-static inline void Warning(::StringW  message) ;
+  /// @brief Method Warning, addr 0x657f278, size 0x84, virtual false, abstract: false, final false
+  static inline void Warning(::StringW message);
 
-/// @brief Method Watch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T,typename K>
-static inline void Watch(T  key, K  value) ;
+  /// @brief Method Watch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T, typename K> static inline void Watch(T key, K value);
 
-static inline ::StringW getStaticF_s_LogFilePath() ;
+  static inline ::StringW getStaticF_s_LogFilePath();
 
-static inline ::UnityEngine::ProBuilder::LogLevel getStaticF_s_LogLevel() ;
+  static inline ::UnityEngine::ProBuilder::LogLevel getStaticF_s_LogLevel();
 
-static inline ::UnityEngine::ProBuilder::LogOutput getStaticF_s_Output() ;
+  static inline ::UnityEngine::ProBuilder::LogOutput getStaticF_s_Output();
 
-static inline ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::LogLevel>* getStaticF_s_logStack() ;
+  static inline ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::LogLevel>* getStaticF_s_logStack();
 
-static inline void setStaticF_s_LogFilePath(::StringW  value) ;
+  static inline void setStaticF_s_LogFilePath(::StringW value);
 
-static inline void setStaticF_s_LogLevel(::UnityEngine::ProBuilder::LogLevel  value) ;
+  static inline void setStaticF_s_LogLevel(::UnityEngine::ProBuilder::LogLevel value);
 
-static inline void setStaticF_s_Output(::UnityEngine::ProBuilder::LogOutput  value) ;
+  static inline void setStaticF_s_Output(::UnityEngine::ProBuilder::LogOutput value);
 
-static inline void setStaticF_s_logStack(::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::LogLevel>*  value) ;
+  static inline void setStaticF_s_logStack(::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::LogLevel>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Log() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Log();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Log(Log&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Log(Log && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Log(Log const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Log(Log const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16728 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16720};
+  /// @brief Field k_ProBuilderLogFileName offset 0xffffffff size 0x8
+  static constexpr ::ConstString k_ProBuilderLogFileName{ u"ProBuilderLog.txt" };
 
-/// @brief Field k_ProBuilderLogFileName offset 0xffffffff size 0x8
-static constexpr ::ConstString  k_ProBuilderLogFileName{u"ProBuilderLog.txt"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Log, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder
+} // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Log);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Log*, "UnityEngine.ProBuilder", "Log");

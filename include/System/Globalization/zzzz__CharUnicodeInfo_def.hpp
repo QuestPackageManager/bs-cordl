@@ -11,8 +11,7 @@ namespace System::Globalization {
 struct UnicodeCategory;
 }
 namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -26,74 +25,74 @@ namespace System::Globalization {
 // CS Name: System.Globalization.CharUnicodeInfo
 class CORDL_TYPE CharUnicodeInfo : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetUnicodeCategory, addr 0x59e4768, size 0x1c, virtual false, abstract: false, final false
-static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(char16_t  ch) ;
+  // Declarations
+  /// @brief Method GetUnicodeCategory, addr 0x5a566d4, size 0x1c, virtual false, abstract: false, final false
+  static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(char16_t ch);
 
-/// @brief Method GetUnicodeCategory, addr 0x59e4784, size 0x18, virtual false, abstract: false, final false
-static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(int32_t  codePoint) ;
+  /// @brief Method GetUnicodeCategory, addr 0x5a566f0, size 0x18, virtual false, abstract: false, final false
+  static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(int32_t codePoint);
 
-/// @brief Method GetUnicodeCategory, addr 0x59e479c, size 0xa8, virtual false, abstract: false, final false
-static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW  s, int32_t  index) ;
+  /// @brief Method GetUnicodeCategory, addr 0x5a56708, size 0xa8, virtual false, abstract: false, final false
+  static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int32_t index);
 
-/// @brief Method InternalConvertToUtf32, addr 0x59e4630, size 0x94, virtual false, abstract: false, final false
-static inline int32_t InternalConvertToUtf32(::StringW  s, int32_t  index) ;
+  /// @brief Method InternalConvertToUtf32, addr 0x5a5659c, size 0x94, virtual false, abstract: false, final false
+  static inline int32_t InternalConvertToUtf32(::StringW s, int32_t index);
 
-/// @brief Method InternalConvertToUtf32, addr 0x59e46c4, size 0xa4, virtual false, abstract: false, final false
-static inline int32_t InternalConvertToUtf32(::StringW  s, int32_t  index, ::ByRef<int32_t>  charLength) ;
+  /// @brief Method InternalConvertToUtf32, addr 0x5a56630, size 0xa4, virtual false, abstract: false, final false
+  static inline int32_t InternalConvertToUtf32(::StringW s, int32_t index, ::ByRef<int32_t> charLength);
 
-/// @brief Method InternalGetCategoryValue, addr 0x59e4860, size 0xac, virtual false, abstract: false, final false
-static inline uint8_t InternalGetCategoryValue(int32_t  ch, int32_t  offset) ;
+  /// @brief Method InternalGetCategoryValue, addr 0x5a567cc, size 0xac, virtual false, abstract: false, final false
+  static inline uint8_t InternalGetCategoryValue(int32_t ch, int32_t offset);
 
-/// @brief Method InternalGetUnicodeCategory, addr 0x59e4a7c, size 0x1c, virtual false, abstract: false, final false
-static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW  str, int32_t  index, ::ByRef<int32_t>  charLength) ;
+  /// @brief Method InternalGetUnicodeCategory, addr 0x5a569e8, size 0x1c, virtual false, abstract: false, final false
+  static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW str, int32_t index, ::ByRef<int32_t> charLength);
 
-/// @brief Method InternalGetUnicodeCategory, addr 0x59e4844, size 0x1c, virtual false, abstract: false, final false
-static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW  value, int32_t  index) ;
+  /// @brief Method InternalGetUnicodeCategory, addr 0x5a567b0, size 0x1c, virtual false, abstract: false, final false
+  static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int32_t index);
 
-/// @brief Method IsCombiningCategory, addr 0x59e4a98, size 0x10, virtual false, abstract: false, final false
-static inline bool IsCombiningCategory(::System::Globalization::UnicodeCategory  uc) ;
+  /// @brief Method IsCombiningCategory, addr 0x5a56a04, size 0x10, virtual false, abstract: false, final false
+  static inline bool IsCombiningCategory(::System::Globalization::UnicodeCategory uc);
 
-/// @brief Method IsWhiteSpace, addr 0x59e4ac4, size 0x28, virtual false, abstract: false, final false
-static inline bool IsWhiteSpace(char16_t  c) ;
+  /// @brief Method IsWhiteSpace, addr 0x5a56a30, size 0x28, virtual false, abstract: false, final false
+  static inline bool IsWhiteSpace(char16_t c);
 
-/// @brief Method IsWhiteSpace, addr 0x59e4aa8, size 0x1c, virtual false, abstract: false, final false
-static inline bool IsWhiteSpace(::StringW  s, int32_t  index) ;
+  /// @brief Method IsWhiteSpace, addr 0x5a56a14, size 0x1c, virtual false, abstract: false, final false
+  static inline bool IsWhiteSpace(::StringW s, int32_t index);
 
-/// @brief Method get_CategoriesValue, addr 0x59e4a20, size 0x5c, virtual false, abstract: false, final false
-static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoriesValue() ;
+  /// @brief Method get_CategoriesValue, addr 0x5a5698c, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoriesValue();
 
-/// @brief Method get_CategoryLevel1Index, addr 0x59e490c, size 0x5c, virtual false, abstract: false, final false
-static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel1Index() ;
+  /// @brief Method get_CategoryLevel1Index, addr 0x5a56878, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel1Index();
 
-/// @brief Method get_CategoryLevel2Index, addr 0x59e4968, size 0x5c, virtual false, abstract: false, final false
-static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel2Index() ;
+  /// @brief Method get_CategoryLevel2Index, addr 0x5a568d4, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel2Index();
 
-/// @brief Method get_CategoryLevel3Index, addr 0x59e49c4, size 0x5c, virtual false, abstract: false, final false
-static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel3Index() ;
+  /// @brief Method get_CategoryLevel3Index, addr 0x5a56930, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel3Index();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CharUnicodeInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CharUnicodeInfo();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CharUnicodeInfo", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CharUnicodeInfo(CharUnicodeInfo&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CharUnicodeInfo", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CharUnicodeInfo(CharUnicodeInfo && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CharUnicodeInfo", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CharUnicodeInfo(CharUnicodeInfo const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CharUnicodeInfo", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CharUnicodeInfo(CharUnicodeInfo const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3583 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3583};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::CharUnicodeInfo, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Globalization
+} // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::CharUnicodeInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CharUnicodeInfo*, "System.Globalization", "CharUnicodeInfo");

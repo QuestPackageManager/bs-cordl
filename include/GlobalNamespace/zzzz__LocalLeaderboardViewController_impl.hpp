@@ -19,626 +19,550 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::*)()>(&::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x57a8aa8;
+  constexpr static std::size_t addrs = 0x5818f80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24.SetStateMachine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x57a8d90;
+  constexpr static std::size_t addrs = 0x5819268;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(),
-                        "SetStateMachine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(),
-                        "SetStateMachine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr  GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*()  {
-return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine()  {
-return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LocalLeaderboardViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::LocalLeaderboardViewController>  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept  {
-this->__1__state = __1__state;
-this->__t__builder = __t__builder;
-this->__4__this = __4__this;
-this->__u__1 = __u__1;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::LocalLeaderboardViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
+// "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LocalLeaderboardViewController> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24()   {
-}
+constexpr ::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24() {}
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.get_leaderboardsModel
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LocalLeaderboardsModel* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LocalLeaderboardsModel* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57a7f14;
+  constexpr static std::size_t addrs = 0x58183ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "get_leaderboardsModel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                               "get_leaderboardsModel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.OnDisable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::OnDisable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::OnDisable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x57a7f1c;
+  constexpr static std::size_t addrs = 0x58183f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                               "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.Setup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool)>(&::GlobalNamespace::LocalLeaderboardViewController::Setup)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool)>(
+    &::GlobalNamespace::LocalLeaderboardViewController::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57a7fa0;
+  constexpr static std::size_t addrs = 0x5818478;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "Setup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), "Setup",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.SetData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::LocalLeaderboardViewController::SetData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
+    &::GlobalNamespace::LocalLeaderboardViewController::SetData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x57a7fa8;
+  constexpr static std::size_t addrs = 0x5818480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.DidActivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool, bool)>(&::GlobalNamespace::LocalLeaderboardViewController::DidActivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool, bool)>(
+    &::GlobalNamespace::LocalLeaderboardViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x57a808c;
+  constexpr static std::size_t addrs = 0x5818564;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.DidDeactivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool)>(&::GlobalNamespace::LocalLeaderboardViewController::DidDeactivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool)>(
+    &::GlobalNamespace::LocalLeaderboardViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x57a868c;
+  constexpr static std::size_t addrs = 0x5818b64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x57a87a0;
+  constexpr static std::size_t addrs = 0x5818c78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.RefreshScopeSegmentedControl
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::RefreshScopeSegmentedControl)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::RefreshScopeSegmentedControl)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x57a827c;
+  constexpr static std::size_t addrs = 0x5818754;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "RefreshScopeSegmentedControl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                               "RefreshScopeSegmentedControl", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.HandleScopeSegmentedControlDidSelectCell
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::HMUI::SegmentedControl*, int32_t)>(&::GlobalNamespace::LocalLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
+    &::GlobalNamespace::LocalLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x57a8540;
+  constexpr static std::size_t addrs = 0x5818a18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "HandleScopeSegmentedControlDidSelectCell",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::SegmentedControl*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                 "HandleScopeSegmentedControlDidSelectCell", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::SegmentedControl*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.ClearLeaderboardsAsync
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::ClearLeaderboardsAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::ClearLeaderboardsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x57a883c;
+  constexpr static std::size_t addrs = 0x5818d14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "ClearLeaderboardsAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                               "ClearLeaderboardsAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.SetContent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardViewController::SetContent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(
+    ::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardViewController::SetContent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x57a88ec;
+  constexpr static std::size_t addrs = 0x5818dc4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "SetContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), "SetContent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.HandleNewScoreWasAddedToLeaderboard
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardViewController::HandleNewScoreWasAddedToLeaderboard)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(
+    ::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardViewController::HandleNewScoreWasAddedToLeaderboard)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x57a8968;
+  constexpr static std::size_t addrs = 0x5818e40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "HandleNewScoreWasAddedToLeaderboard",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), "HandleNewScoreWasAddedToLeaderboard",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController.Refresh
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::Refresh)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::Refresh)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x57a8024;
+  constexpr static std::size_t addrs = 0x58184fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "Refresh",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                               "Refresh", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57a8a10;
+  constexpr static std::size_t addrs = 0x5818ee8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardViewController._DidActivate_b__19_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::_DidActivate_b__19_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
+    &::GlobalNamespace::LocalLeaderboardViewController::_DidActivate_b__19_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x57a8a1c;
+  constexpr static std::size_t addrs = 0x5818ef4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "<DidActivate>b__19_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                               "<DidActivate>b__19_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__maxNumberOfCells()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____maxNumberOfCells;
+constexpr int32_t& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__maxNumberOfCells() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____maxNumberOfCells;
 }
 constexpr int32_t const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__maxNumberOfCells() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____maxNumberOfCells;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____maxNumberOfCells;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__maxNumberOfCells(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____maxNumberOfCells = value;
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__maxNumberOfCells(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____maxNumberOfCells = value;
 }
-constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardTableView>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__leaderboardTableView()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____leaderboardTableView;
+constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardTableView>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__leaderboardTableView() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____leaderboardTableView;
 }
 constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardTableView> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__leaderboardTableView() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____leaderboardTableView;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____leaderboardTableView;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__leaderboardTableView(::UnityW<::GlobalNamespace::LocalLeaderboardTableView>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardTableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__leaderboardTableView(::UnityW<::GlobalNamespace::LocalLeaderboardTableView> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardTableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardsWrapper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____clearLeaderboardsWrapper;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardsWrapper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____clearLeaderboardsWrapper;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardsWrapper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____clearLeaderboardsWrapper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____clearLeaderboardsWrapper;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__clearLeaderboardsWrapper(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearLeaderboardsWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__clearLeaderboardsWrapper(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearLeaderboardsWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::NoTransitionsButton>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardsButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____clearLeaderboardsButton;
+constexpr ::UnityW<::HMUI::NoTransitionsButton>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardsButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____clearLeaderboardsButton;
 }
 constexpr ::UnityW<::HMUI::NoTransitionsButton> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardsButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____clearLeaderboardsButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____clearLeaderboardsButton;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__clearLeaderboardsButton(::UnityW<::HMUI::NoTransitionsButton>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearLeaderboardsButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__clearLeaderboardsButton(::UnityW<::HMUI::NoTransitionsButton> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearLeaderboardsButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::IconSegmentedControl>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__scopeSegmentedControl()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____scopeSegmentedControl;
+constexpr ::UnityW<::HMUI::IconSegmentedControl>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__scopeSegmentedControl() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scopeSegmentedControl;
 }
 constexpr ::UnityW<::HMUI::IconSegmentedControl> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__scopeSegmentedControl() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____scopeSegmentedControl;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scopeSegmentedControl;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__scopeSegmentedControl(::UnityW<::HMUI::IconSegmentedControl>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scopeSegmentedControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__scopeSegmentedControl(::UnityW<::HMUI::IconSegmentedControl> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scopeSegmentedControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__allTimeLeaderboardIcon()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____allTimeLeaderboardIcon;
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__allTimeLeaderboardIcon() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____allTimeLeaderboardIcon;
 }
 constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__allTimeLeaderboardIcon() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____allTimeLeaderboardIcon;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____allTimeLeaderboardIcon;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__allTimeLeaderboardIcon(::UnityW<::UnityEngine::Sprite>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allTimeLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__allTimeLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allTimeLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__todayLeaderboardIcon()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____todayLeaderboardIcon;
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__todayLeaderboardIcon() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____todayLeaderboardIcon;
 }
 constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__todayLeaderboardIcon() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____todayLeaderboardIcon;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____todayLeaderboardIcon;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__todayLeaderboardIcon(::UnityW<::UnityEngine::Sprite>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____todayLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__todayLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____todayLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardIcon()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____clearLeaderboardIcon;
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardIcon() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____clearLeaderboardIcon;
 }
 constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__clearLeaderboardIcon() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____clearLeaderboardIcon;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____clearLeaderboardIcon;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__clearLeaderboardIcon(::UnityW<::UnityEngine::Sprite>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__clearLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__playerDataModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerDataModel;
+constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__playerDataModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerDataModel;
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__playerDataModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerDataModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerDataModel;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LocalLeaderboardsModel*& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__localLeaderboardsModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____localLeaderboardsModel;
+constexpr ::GlobalNamespace::LocalLeaderboardsModel*& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__localLeaderboardsModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localLeaderboardsModel;
 }
 constexpr ::GlobalNamespace::LocalLeaderboardsModel* const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__localLeaderboardsModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____localLeaderboardsModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localLeaderboardsModel;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localLeaderboardsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localLeaderboardsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__beatmapKey()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapKey;
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__beatmapKey() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapKey;
 }
 constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__beatmapKey() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapKey;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapKey;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____beatmapKey = value;
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapKey = value;
 }
-constexpr bool& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__refreshIsNeeded()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____refreshIsNeeded;
+constexpr bool& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__refreshIsNeeded() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____refreshIsNeeded;
 }
 constexpr bool const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__refreshIsNeeded() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____refreshIsNeeded;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____refreshIsNeeded;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__refreshIsNeeded(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____refreshIsNeeded = value;
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__refreshIsNeeded(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____refreshIsNeeded = value;
 }
-constexpr bool& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__enableClear()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enableClear;
+constexpr bool& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__enableClear() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enableClear;
 }
 constexpr bool const& GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_get__enableClear() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____enableClear;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enableClear;
 }
-constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__enableClear(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____enableClear = value;
+constexpr void GlobalNamespace::LocalLeaderboardViewController::__cordl_internal_set__enableClear(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____enableClear = value;
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::setStaticF__leaderboardType(::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType  value)  {
-::cordl_internals::setStaticField<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType, "_leaderboardType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get>(std::forward<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>(value));
+inline void GlobalNamespace::LocalLeaderboardViewController::setStaticF__leaderboardType(::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType, "_leaderboardType",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get>(
+      std::forward<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>(value));
 }
-inline ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType GlobalNamespace::LocalLeaderboardViewController::getStaticF__leaderboardType()  {
-return ::cordl_internals::getStaticField<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType, "_leaderboardType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get>();
+inline ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType GlobalNamespace::LocalLeaderboardViewController::getStaticF__leaderboardType() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType, "_leaderboardType",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get>();
 }
-inline ::GlobalNamespace::LocalLeaderboardsModel* GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "get_leaderboardsModel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LocalLeaderboardsModel*, false>(this, ___internal_method);
+inline ::GlobalNamespace::LocalLeaderboardsModel* GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                             "get_leaderboardsModel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LocalLeaderboardsModel*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::OnDisable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LocalLeaderboardViewController::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                             "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::Setup(bool  enableClear)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "Setup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, enableClear);
+inline void GlobalNamespace::LocalLeaderboardViewController::Setup(bool enableClear) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), "Setup",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, enableClear);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::SetData(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey);
+inline void GlobalNamespace::LocalLeaderboardViewController::SetData(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
+inline void GlobalNamespace::LocalLeaderboardViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
+inline void GlobalNamespace::LocalLeaderboardViewController::DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::OnDestroy()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LocalLeaderboardViewController::OnDestroy() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::RefreshScopeSegmentedControl()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "RefreshScopeSegmentedControl",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LocalLeaderboardViewController::RefreshScopeSegmentedControl() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                             "RefreshScopeSegmentedControl", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl*  segmentedControl, int32_t  cellNumber)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "HandleScopeSegmentedControlDidSelectCell",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::SegmentedControl*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, segmentedControl, cellNumber);
+inline void GlobalNamespace::LocalLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                               "HandleScopeSegmentedControlDidSelectCell", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::SegmentedControl*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, segmentedControl, cellNumber);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::LocalLeaderboardViewController::ClearLeaderboardsAsync()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "ClearLeaderboardsAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+inline ::System::Threading::Tasks::Task* GlobalNamespace::LocalLeaderboardViewController::ClearLeaderboardsAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                             "ClearLeaderboardsAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::SetContent(::StringW  leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType  leaderboardType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "SetContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leaderboardID, leaderboardType);
+inline void GlobalNamespace::LocalLeaderboardViewController::SetContent(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), "SetContent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leaderboardID, leaderboardType);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::HandleNewScoreWasAddedToLeaderboard(::StringW  leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType  leaderboardType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "HandleNewScoreWasAddedToLeaderboard",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leaderboardID, leaderboardType);
+inline void GlobalNamespace::LocalLeaderboardViewController::HandleNewScoreWasAddedToLeaderboard(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), "HandleNewScoreWasAddedToLeaderboard",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leaderboardID, leaderboardType);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::Refresh()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "Refresh",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LocalLeaderboardViewController::Refresh() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                             "Refresh", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LocalLeaderboardViewController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::_DidActivate_b__19_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
-                        "<DidActivate>b__19_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LocalLeaderboardViewController::_DidActivate_b__19_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
+                                                                             "<DidActivate>b__19_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LocalLeaderboardViewController* GlobalNamespace::LocalLeaderboardViewController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LocalLeaderboardViewController*>());
+inline ::GlobalNamespace::LocalLeaderboardViewController* GlobalNamespace::LocalLeaderboardViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LocalLeaderboardViewController*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LocalLeaderboardViewController::LocalLeaderboardViewController()   {
-}
+constexpr ::GlobalNamespace::LocalLeaderboardViewController::LocalLeaderboardViewController() {}

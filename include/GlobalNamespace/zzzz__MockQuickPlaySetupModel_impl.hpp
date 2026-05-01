@@ -7,80 +7,67 @@
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockQuickPlaySetupModel.GetQuickPlaySetupAsync
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* (::GlobalNamespace::MockQuickPlaySetupModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MockQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* (
+    ::GlobalNamespace::MockQuickPlaySetupModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MockQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58246e4;
+  constexpr static std::size_t addrs = 0x58967a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(),
-                        "GetQuickPlaySetupAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(), "GetQuickPlaySetupAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MockQuickPlaySetupModel._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockQuickPlaySetupModel::*)()>(&::GlobalNamespace::MockQuickPlaySetupModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x582475c;
+  constexpr static std::size_t addrs = 0x5896820;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::QuickPlaySetupData*& GlobalNamespace::MockQuickPlaySetupModel::__cordl_internal_get__quickPlaySetupData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____quickPlaySetupData;
+constexpr ::GlobalNamespace::QuickPlaySetupData*& GlobalNamespace::MockQuickPlaySetupModel::__cordl_internal_get__quickPlaySetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____quickPlaySetupData;
 }
 constexpr ::GlobalNamespace::QuickPlaySetupData* const& GlobalNamespace::MockQuickPlaySetupModel::__cordl_internal_get__quickPlaySetupData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____quickPlaySetupData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____quickPlaySetupData;
 }
-constexpr void GlobalNamespace::MockQuickPlaySetupModel::__cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____quickPlaySetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MockQuickPlaySetupModel::__cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____quickPlaySetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GlobalNamespace::MockQuickPlaySetupModel::GetQuickPlaySetupAsync(::System::Threading::CancellationToken  cancellationToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(),
-                        "GetQuickPlaySetupAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*, false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*
+GlobalNamespace::MockQuickPlaySetupModel::GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(), "GetQuickPlaySetupAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*, false>(this, ___internal_method, cancellationToken);
 }
-inline void GlobalNamespace::MockQuickPlaySetupModel::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MockQuickPlaySetupModel::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockQuickPlaySetupModel*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MockQuickPlaySetupModel* GlobalNamespace::MockQuickPlaySetupModel::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockQuickPlaySetupModel*>());
+inline ::GlobalNamespace::MockQuickPlaySetupModel* GlobalNamespace::MockQuickPlaySetupModel::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockQuickPlaySetupModel*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
-constexpr  GlobalNamespace::MockQuickPlaySetupModel::operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept {
-return static_cast<::GlobalNamespace::IQuickPlaySetupModel*>(static_cast<void*>(this));
+constexpr GlobalNamespace::MockQuickPlaySetupModel::operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept {
+  return static_cast<::GlobalNamespace::IQuickPlaySetupModel*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
 constexpr ::GlobalNamespace::IQuickPlaySetupModel* GlobalNamespace::MockQuickPlaySetupModel::i___GlobalNamespace__IQuickPlaySetupModel() noexcept {
-return static_cast<::GlobalNamespace::IQuickPlaySetupModel*>(static_cast<void*>(this));
+  return static_cast<::GlobalNamespace::IQuickPlaySetupModel*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MockQuickPlaySetupModel::MockQuickPlaySetupModel()   {
-}
+constexpr ::GlobalNamespace::MockQuickPlaySetupModel::MockQuickPlaySetupModel() {}

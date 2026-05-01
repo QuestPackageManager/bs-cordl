@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Meta/XR/BuildingBlocks/BuildingBlock.hpp"
 #include "Meta/XR/BuildingBlocks/ControllerButtonsMapper.hpp"
@@ -18,6 +18,5 @@
 #include "Meta/XR/BuildingBlocks/Telemetry.hpp"
 #include "Meta/XR/BuildingBlocks/VariantCheckpoint.hpp"
 #ifdef __cpp_modules
-                    export module BuildingBlocks;
-                    #endif
-                
+export module BuildingBlocks;
+#endif

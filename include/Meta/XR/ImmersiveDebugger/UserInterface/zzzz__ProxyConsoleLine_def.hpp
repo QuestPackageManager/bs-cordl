@@ -23,59 +23,60 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.ProxyConsoleLine
 class CORDL_TYPE ProxyConsoleLine : public ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::ConsoleLine>> {
 public:
-// Declarations
- __declspec(property(get=get_Entry, put=set_Entry)) ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*  Entry;
+  // Declarations
+  __declspec(property(get = get_Entry, put = set_Entry)) ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* Entry;
 
-/// @brief Field <Entry>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Entry_k__BackingField, put=__cordl_internal_set__Entry_k__BackingField)) ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*  _Entry_k__BackingField;
+  /// @brief Field <Entry>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Entry_k__BackingField,
+                      put = __cordl_internal_set__Entry_k__BackingField)) ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* _Entry_k__BackingField;
 
-/// @brief Method Fill, addr 0x589e230, size 0x50, virtual true, abstract: false, final false
-inline void Fill() ;
+  /// @brief Method Fill, addr 0x591019c, size 0x50, virtual true, abstract: false, final false
+  inline void Fill();
 
-static inline ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine* New_ctor() ;
+  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine* New_ctor();
 
-constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* const& __cordl_internal_get__Entry_k__BackingField() const;
+  constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* const& __cordl_internal_get__Entry_k__BackingField() const;
 
-constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*& __cordl_internal_get__Entry_k__BackingField() ;
+  constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*& __cordl_internal_get__Entry_k__BackingField();
 
-constexpr void __cordl_internal_set__Entry_k__BackingField(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*  value) ;
+  constexpr void __cordl_internal_set__Entry_k__BackingField(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* value);
 
-/// @brief Method .ctor, addr 0x589e280, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x59101ec, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Entry, addr 0x589e220, size 0x8, virtual false, abstract: false, final false
-inline ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* get_Entry() ;
+  /// @brief Method get_Entry, addr 0x591018c, size 0x8, virtual false, abstract: false, final false
+  inline ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* get_Entry();
 
-/// @brief Method set_Entry, addr 0x589e228, size 0x8, virtual false, abstract: false, final false
-inline void set_Entry(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*  value) ;
+  /// @brief Method set_Entry, addr 0x5910194, size 0x8, virtual false, abstract: false, final false
+  inline void set_Entry(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProxyConsoleLine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProxyConsoleLine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProxyConsoleLine(ProxyConsoleLine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProxyConsoleLine(ProxyConsoleLine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProxyConsoleLine(ProxyConsoleLine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProxyConsoleLine(ProxyConsoleLine const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18343 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18333};
+  /// @brief Field <Entry>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* ____Entry_k__BackingField;
 
-/// @brief Field <Entry>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*  ____Entry_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine, ____Entry_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine, 0x20>, "Size mismatch!");
 
-} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface
+} // namespace Meta::XR::ImmersiveDebugger::UserInterface
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine*, "Meta.XR.ImmersiveDebugger.UserInterface", "ProxyConsoleLine");

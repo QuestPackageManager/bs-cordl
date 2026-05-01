@@ -17,34 +17,34 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaMaxExclusiveFacet
 class CORDL_TYPE XmlSchemaMaxExclusiveFacet : public ::System::Xml::Schema::XmlSchemaFacet {
 public:
-// Declarations
-static inline ::System::Xml::Schema::XmlSchemaMaxExclusiveFacet* New_ctor() ;
+  // Declarations
+  static inline ::System::Xml::Schema::XmlSchemaMaxExclusiveFacet* New_ctor();
 
-/// @brief Method .ctor, addr 0x607d25c, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60ef268, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSchemaMaxExclusiveFacet() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaMaxExclusiveFacet();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMaxExclusiveFacet", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSchemaMaxExclusiveFacet(XmlSchemaMaxExclusiveFacet&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMaxExclusiveFacet", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSchemaMaxExclusiveFacet(XmlSchemaMaxExclusiveFacet && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMaxExclusiveFacet", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSchemaMaxExclusiveFacet(XmlSchemaMaxExclusiveFacet const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMaxExclusiveFacet", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSchemaMaxExclusiveFacet(XmlSchemaMaxExclusiveFacet const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9766 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9760};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaMaxExclusiveFacet, 0x60>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaMaxExclusiveFacet);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaMaxExclusiveFacet*, "System.Xml.Schema", "XmlSchemaMaxExclusiveFacet");

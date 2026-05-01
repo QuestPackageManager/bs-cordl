@@ -31,41 +31,41 @@ namespace UnityEngine {
 // CS Name: UnityEngine.CameraRaycastHelper
 class CORDL_TYPE CameraRaycastHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method RaycastTry, addr 0x69963c4, size 0x170, virtual false, abstract: false, final false
-static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera*  cam, ::UnityEngine::Ray  ray, float_t  distance, int32_t  layerMask) ;
+  // Declarations
+  /// @brief Method RaycastTry, addr 0x6a0860c, size 0x170, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-/// @brief Method RaycastTry2D, addr 0x6996598, size 0x170, virtual false, abstract: false, final false
-static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera*  cam, ::UnityEngine::Ray  ray, float_t  distance, int32_t  layerMask) ;
+  /// @brief Method RaycastTry2D, addr 0x6a087e0, size 0x170, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-/// @brief Method RaycastTry2D_Injected, addr 0x6996708, size 0x64, virtual false, abstract: false, final false
-static inline ::System::IntPtr RaycastTry2D_Injected(::System::IntPtr  cam, ::ByRef<::UnityEngine::Ray>  ray, float_t  distance, int32_t  layerMask) ;
+  /// @brief Method RaycastTry2D_Injected, addr 0x6a08950, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::IntPtr RaycastTry2D_Injected(::System::IntPtr cam, ::ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
-/// @brief Method RaycastTry_Injected, addr 0x6996534, size 0x64, virtual false, abstract: false, final false
-static inline ::System::IntPtr RaycastTry_Injected(::System::IntPtr  cam, ::ByRef<::UnityEngine::Ray>  ray, float_t  distance, int32_t  layerMask) ;
+  /// @brief Method RaycastTry_Injected, addr 0x6a0877c, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::IntPtr RaycastTry_Injected(::System::IntPtr cam, ::ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CameraRaycastHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CameraRaycastHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CameraRaycastHelper(CameraRaycastHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CameraRaycastHelper(CameraRaycastHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CameraRaycastHelper(CameraRaycastHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CameraRaycastHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CameraRaycastHelper(CameraRaycastHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22492 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22414};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CameraRaycastHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::CameraRaycastHelper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");

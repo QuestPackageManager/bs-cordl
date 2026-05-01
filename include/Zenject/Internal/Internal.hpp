@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Zenject/Internal/DecoratorProvider_1.hpp"
 #include "Zenject/Internal/IDecoratorProvider.hpp"
@@ -14,6 +14,5 @@
 #include "Zenject/Internal/ZenPools.hpp"
 #include "Zenject/Internal/ZenUtilInternal.hpp"
 #ifdef __cpp_modules
-                    export module Internal;
-                    #endif
-                
+export module Internal;
+#endif

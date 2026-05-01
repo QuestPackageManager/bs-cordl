@@ -18,34 +18,34 @@ namespace System::Runtime::Diagnostics {
 // CS Name: System.Runtime.Diagnostics.DiagnosticTraceSource
 class CORDL_TYPE DiagnosticTraceSource : public ::System::Diagnostics::TraceSource {
 public:
-// Declarations
-static inline ::System::Runtime::Diagnostics::DiagnosticTraceSource* New_ctor(::StringW  name) ;
+  // Declarations
+  static inline ::System::Runtime::Diagnostics::DiagnosticTraceSource* New_ctor(::StringW name);
 
-/// @brief Method .ctor, addr 0x5fd8884, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  name) ;
+  /// @brief Method .ctor, addr 0x604a890, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DiagnosticTraceSource() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DiagnosticTraceSource();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DiagnosticTraceSource(DiagnosticTraceSource&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DiagnosticTraceSource(DiagnosticTraceSource && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DiagnosticTraceSource(DiagnosticTraceSource const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DiagnosticTraceSource(DiagnosticTraceSource const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21143 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21132};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Diagnostics::DiagnosticTraceSource, 0x40>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Diagnostics
+} // namespace System::Runtime::Diagnostics
 NEED_NO_BOX(::System::Runtime::Diagnostics::DiagnosticTraceSource);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Diagnostics::DiagnosticTraceSource*, "System.Runtime.Diagnostics", "DiagnosticTraceSource");

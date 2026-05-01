@@ -34,57 +34,57 @@ namespace GlobalNamespace {
 // CS Name: BeatmapDataObstaclesAndBombsTransform/<>c__DisplayClass0_0
 class CORDL_TYPE BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field enabledObstaclesType, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_enabledObstaclesType, put=__cordl_internal_set_enabledObstaclesType)) ::GlobalNamespace::GameplayModifiers_EnabledObstacleType  enabledObstaclesType;
+  // Declarations
+  /// @brief Field enabledObstaclesType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_enabledObstaclesType, put = __cordl_internal_set_enabledObstaclesType)) ::GlobalNamespace::GameplayModifiers_EnabledObstacleType enabledObstaclesType;
 
-/// @brief Field noBombs, offset 0x14, size 0x1 
- __declspec(property(get=__cordl_internal_get_noBombs, put=__cordl_internal_set_noBombs)) bool  noBombs;
+  /// @brief Field noBombs, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_noBombs, put = __cordl_internal_set_noBombs)) bool noBombs;
 
-static inline ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0* New_ctor();
 
-/// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x360913c, size 0x2c, virtual false, abstract: false, final false
-inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem*  beatmapDataItem) ;
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x3645780, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType const& __cordl_internal_get_enabledObstaclesType() const;
+  constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType const& __cordl_internal_get_enabledObstaclesType() const;
 
-constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType& __cordl_internal_get_enabledObstaclesType() ;
+  constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType& __cordl_internal_get_enabledObstaclesType();
 
-constexpr bool const& __cordl_internal_get_noBombs() const;
+  constexpr bool const& __cordl_internal_get_noBombs() const;
 
-constexpr bool& __cordl_internal_get_noBombs() ;
+  constexpr bool& __cordl_internal_get_noBombs();
 
-constexpr void __cordl_internal_set_enabledObstaclesType(::GlobalNamespace::GameplayModifiers_EnabledObstacleType  value) ;
+  constexpr void __cordl_internal_set_enabledObstaclesType(::GlobalNamespace::GameplayModifiers_EnabledObstacleType value);
 
-constexpr void __cordl_internal_set_noBombs(bool  value) ;
+  constexpr void __cordl_internal_set_noBombs(bool value);
 
-/// @brief Method .ctor, addr 0x3609030, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3645674, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14784 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14777};
+  /// @brief Field enabledObstaclesType, offset: 0x10, size: 0x4, def value: None
+  ::GlobalNamespace::GameplayModifiers_EnabledObstacleType ___enabledObstaclesType;
 
-/// @brief Field enabledObstaclesType, offset: 0x10, size: 0x4, def value: None
- ::GlobalNamespace::GameplayModifiers_EnabledObstacleType  ___enabledObstaclesType;
+  /// @brief Field noBombs, offset: 0x14, size: 0x1, def value: None
+  bool ___noBombs;
 
-/// @brief Field noBombs, offset: 0x14, size: 0x1, def value: None
- bool  ___noBombs;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0, ___enabledObstaclesType) == 0x10, "Offset mismatch!");
@@ -93,45 +93,46 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform_
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapDataObstaclesAndBombsTransform
 class CORDL_TYPE BeatmapDataObstaclesAndBombsTransform : public ::System::Object {
 public:
-// Declarations
-using __c__DisplayClass0_0 = ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0;
+  // Declarations
+  using __c__DisplayClass0_0 = ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0;
 
-/// @brief Method CreateTransformedData, addr 0x3608ef8, size 0x138, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData*  beatmapData, ::GlobalNamespace::GameplayModifiers_EnabledObstacleType  enabledObstaclesType, bool  noBombs) ;
+  /// @brief Method CreateTransformedData, addr 0x364553c, size 0x138, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
+                                                                               ::GlobalNamespace::GameplayModifiers_EnabledObstacleType enabledObstaclesType, bool noBombs);
 
-/// @brief Method ShouldUseBeatmapDataItem, addr 0x3609034, size 0x108, virtual false, abstract: false, final false
-static inline bool ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem*  beatmapDataItem, ::GlobalNamespace::GameplayModifiers_EnabledObstacleType  enabledObstaclesType, bool  noBombs) ;
+  /// @brief Method ShouldUseBeatmapDataItem, addr 0x3645678, size 0x108, virtual false, abstract: false, final false
+  static inline bool ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::GlobalNamespace::GameplayModifiers_EnabledObstacleType enabledObstaclesType, bool noBombs);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapDataObstaclesAndBombsTransform() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataObstaclesAndBombsTransform();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14785 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14778};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, "", "BeatmapDataObstaclesAndBombsTransform");
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0);

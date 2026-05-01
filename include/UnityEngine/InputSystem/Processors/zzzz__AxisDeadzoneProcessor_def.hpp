@@ -22,70 +22,70 @@ namespace UnityEngine::InputSystem::Processors {
 // CS Name: UnityEngine.InputSystem.Processors.AxisDeadzoneProcessor
 class CORDL_TYPE AxisDeadzoneProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
-// Declarations
-/// @brief Field max, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_max, put=__cordl_internal_set_max)) float_t  max;
+  // Declarations
+  /// @brief Field max, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
- __declspec(property(get=get_maxOrDefault)) float_t  maxOrDefault;
+  __declspec(property(get = get_maxOrDefault)) float_t maxOrDefault;
 
-/// @brief Field min, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_min, put=__cordl_internal_set_min)) float_t  min;
+  /// @brief Field min, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
- __declspec(property(get=get_minOrDefault)) float_t  minOrDefault;
+  __declspec(property(get = get_minOrDefault)) float_t minOrDefault;
 
-static inline ::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor* New_ctor() ;
+  static inline ::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor* New_ctor();
 
-/// @brief Method Process, addr 0x6407fcc, size 0x70, virtual true, abstract: false, final false
-inline float_t Process(float_t  value, ::UnityEngine::InputSystem::InputControl*  control) ;
+  /// @brief Method Process, addr 0x6479fd8, size 0x70, virtual true, abstract: false, final false
+  inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-/// @brief Method ToString, addr 0x640803c, size 0xbc, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x647a048, size 0xbc, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr float_t const& __cordl_internal_get_max() const;
+  constexpr float_t const& __cordl_internal_get_max() const;
 
-constexpr float_t& __cordl_internal_get_max() ;
+  constexpr float_t& __cordl_internal_get_max();
 
-constexpr float_t const& __cordl_internal_get_min() const;
+  constexpr float_t const& __cordl_internal_get_min() const;
 
-constexpr float_t& __cordl_internal_get_min() ;
+  constexpr float_t& __cordl_internal_get_min();
 
-constexpr void __cordl_internal_set_max(float_t  value) ;
+  constexpr void __cordl_internal_set_max(float_t value);
 
-constexpr void __cordl_internal_set_min(float_t  value) ;
+  constexpr void __cordl_internal_set_min(float_t value);
 
-/// @brief Method .ctor, addr 0x64080f8, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x647a104, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_maxOrDefault, addr 0x6407f58, size 0x74, virtual false, abstract: false, final false
-inline float_t get_maxOrDefault() ;
+  /// @brief Method get_maxOrDefault, addr 0x6479f64, size 0x74, virtual false, abstract: false, final false
+  inline float_t get_maxOrDefault();
 
-/// @brief Method get_minOrDefault, addr 0x6407ee4, size 0x74, virtual false, abstract: false, final false
-inline float_t get_minOrDefault() ;
+  /// @brief Method get_minOrDefault, addr 0x6479ef0, size 0x74, virtual false, abstract: false, final false
+  inline float_t get_minOrDefault();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AxisDeadzoneProcessor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AxisDeadzoneProcessor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AxisDeadzoneProcessor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AxisDeadzoneProcessor(AxisDeadzoneProcessor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AxisDeadzoneProcessor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AxisDeadzoneProcessor(AxisDeadzoneProcessor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AxisDeadzoneProcessor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AxisDeadzoneProcessor(AxisDeadzoneProcessor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AxisDeadzoneProcessor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AxisDeadzoneProcessor(AxisDeadzoneProcessor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9062 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9056};
+  /// @brief Field min, offset: 0x10, size: 0x4, def value: None
+  float_t ___min;
 
-/// @brief Field min, offset: 0x10, size: 0x4, def value: None
- float_t  ___min;
+  /// @brief Field max, offset: 0x14, size: 0x4, def value: None
+  float_t ___max;
 
-/// @brief Field max, offset: 0x14, size: 0x4, def value: None
- float_t  ___max;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor, ___min) == 0x10, "Offset mismatch!");
@@ -94,6 +94,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::Processors::AxisDeadzoneProce
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::Processors
+} // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*, "UnityEngine.InputSystem.Processors", "AxisDeadzoneProcessor");

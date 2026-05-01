@@ -9,8 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventInterestReflectionUtils)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Type;
@@ -31,39 +30,42 @@ struct EventInterestReflectionUtils_DefaultEventInterests;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventInterestReflectionUtils);
 MARK_VAL_T(::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.EventInterestReflectionUtils/DefaultEventInterests
 struct CORDL_TYPE EventInterestReflectionUtils_DefaultEventInterests {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr EventInterestReflectionUtils_DefaultEventInterests() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventInterestReflectionUtils_DefaultEventInterests();
 
-// Ctor Parameters [CppParam { name: "DefaultActionCategories", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "DefaultActionAtTargetCategories", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "HandleEventTrickleDownCategories", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "HandleEventBubbleUpCategories", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr EventInterestReflectionUtils_DefaultEventInterests(int32_t  DefaultActionCategories, int32_t  DefaultActionAtTargetCategories, int32_t  HandleEventTrickleDownCategories, int32_t  HandleEventBubbleUpCategories) noexcept;
+  // Ctor Parameters [CppParam { name: "DefaultActionCategories", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "DefaultActionAtTargetCategories", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "HandleEventTrickleDownCategories", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "HandleEventBubbleUpCategories", ty: "int32_t",
+  // modifiers: "", def_value: None }]
+  constexpr EventInterestReflectionUtils_DefaultEventInterests(int32_t DefaultActionCategories, int32_t DefaultActionAtTargetCategories, int32_t HandleEventTrickleDownCategories,
+                                                               int32_t HandleEventBubbleUpCategories) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5231};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5231 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field DefaultActionCategories, offset: 0x0, size: 0x4, def value: None
- int32_t  DefaultActionCategories;
+  /// @brief Field DefaultActionCategories, offset: 0x0, size: 0x4, def value: None
+  int32_t DefaultActionCategories;
 
-/// @brief Field DefaultActionAtTargetCategories, offset: 0x4, size: 0x4, def value: None
- int32_t  DefaultActionAtTargetCategories;
+  /// @brief Field DefaultActionAtTargetCategories, offset: 0x4, size: 0x4, def value: None
+  int32_t DefaultActionAtTargetCategories;
 
-/// @brief Field HandleEventTrickleDownCategories, offset: 0x8, size: 0x4, def value: None
- int32_t  HandleEventTrickleDownCategories;
+  /// @brief Field HandleEventTrickleDownCategories, offset: 0x8, size: 0x4, def value: None
+  int32_t HandleEventTrickleDownCategories;
 
-/// @brief Field HandleEventBubbleUpCategories, offset: 0xc, size: 0x4, def value: None
- int32_t  HandleEventBubbleUpCategories;
+  /// @brief Field HandleEventBubbleUpCategories, offset: 0xc, size: 0x4, def value: None
+  int32_t HandleEventBubbleUpCategories;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, DefaultActionCategories) == 0x0, "Offset mismatch!");
@@ -76,62 +78,66 @@ static_assert(offsetof(::UnityEngine::UIElements::EventInterestReflectionUtils_D
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EventInterestReflectionUtils
 class CORDL_TYPE EventInterestReflectionUtils : public ::System::Object {
 public:
-// Declarations
-using DefaultEventInterests = ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests;
+  // Declarations
+  using DefaultEventInterests = ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests;
 
-/// @brief Field s_DefaultEventInterests, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_DefaultEventInterests, put=setStaticF_s_DefaultEventInterests)) ::System::Collections::Generic::Dictionary_2<::System::Type*,::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>*  s_DefaultEventInterests;
+  /// @brief Field s_DefaultEventInterests, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_DefaultEventInterests, put = setStaticF_s_DefaultEventInterests)) ::System::Collections::Generic::Dictionary_2<
+      ::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* s_DefaultEventInterests;
 
-/// @brief Field s_EventCategories, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_EventCategories, put=setStaticF_s_EventCategories)) ::System::Collections::Generic::Dictionary_2<::System::Type*,::UnityEngine::UIElements::EventCategory>*  s_EventCategories;
+  /// @brief Field s_EventCategories, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_EventCategories,
+                      put = setStaticF_s_EventCategories)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>* s_EventCategories;
 
-/// @brief Method ComputeDefaultEventInterests, addr 0x6aff7d8, size 0x1f8, virtual false, abstract: false, final false
-static inline int32_t ComputeDefaultEventInterests(::System::Type*  elementType, ::StringW  methodName) ;
+  /// @brief Method ComputeDefaultEventInterests, addr 0x6b71a20, size 0x1f8, virtual false, abstract: false, final false
+  static inline int32_t ComputeDefaultEventInterests(::System::Type* elementType, ::StringW methodName);
 
-/// @brief Method GetDefaultEventInterests, addr 0x6aff4b4, size 0x324, virtual false, abstract: false, final false
-static inline void GetDefaultEventInterests(::System::Type*  elementType, ::ByRef<int32_t>  defaultActionCategories, ::ByRef<int32_t>  defaultActionAtTargetCategories, ::ByRef<int32_t>  handleEventTrickleDownCategories, ::ByRef<int32_t>  handleEventBubbleUpCategories) ;
+  /// @brief Method GetDefaultEventInterests, addr 0x6b716fc, size 0x324, virtual false, abstract: false, final false
+  static inline void GetDefaultEventInterests(::System::Type* elementType, ::ByRef<int32_t> defaultActionCategories, ::ByRef<int32_t> defaultActionAtTargetCategories,
+                                              ::ByRef<int32_t> handleEventTrickleDownCategories, ::ByRef<int32_t> handleEventBubbleUpCategories);
 
-/// @brief Method GetEventCategory, addr 0x6aff9d0, size 0x224, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::EventCategory GetEventCategory(::System::Type*  eventType) ;
+  /// @brief Method GetEventCategory, addr 0x6b71c18, size 0x224, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::EventCategory GetEventCategory(::System::Type* eventType);
 
-static inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* getStaticF_s_DefaultEventInterests() ;
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* getStaticF_s_DefaultEventInterests();
 
-static inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::UnityEngine::UIElements::EventCategory>* getStaticF_s_EventCategories() ;
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>* getStaticF_s_EventCategories();
 
-static inline void setStaticF_s_DefaultEventInterests(::System::Collections::Generic::Dictionary_2<::System::Type*,::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>*  value) ;
+  static inline void
+  setStaticF_s_DefaultEventInterests(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* value);
 
-static inline void setStaticF_s_EventCategories(::System::Collections::Generic::Dictionary_2<::System::Type*,::UnityEngine::UIElements::EventCategory>*  value) ;
+  static inline void setStaticF_s_EventCategories(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EventInterestReflectionUtils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventInterestReflectionUtils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EventInterestReflectionUtils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EventInterestReflectionUtils(EventInterestReflectionUtils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EventInterestReflectionUtils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EventInterestReflectionUtils(EventInterestReflectionUtils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EventInterestReflectionUtils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EventInterestReflectionUtils(EventInterestReflectionUtils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EventInterestReflectionUtils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EventInterestReflectionUtils(EventInterestReflectionUtils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5232 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5232};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventInterestReflectionUtils, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventInterestReflectionUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventInterestReflectionUtils*, "UnityEngine.UIElements", "EventInterestReflectionUtils");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, "UnityEngine.UIElements", "EventInterestReflectionUtils/DefaultEventInterests");

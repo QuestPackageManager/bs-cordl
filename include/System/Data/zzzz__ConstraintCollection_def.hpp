@@ -43,203 +43,207 @@ namespace System::Data {
 // CS Name: System.Data.ConstraintCollection
 class CORDL_TYPE ConstraintCollection : public ::System::Data::InternalDataCollectionBase {
 public:
-// Declarations
- __declspec(property(get=get_Item)) ::System::Data::Constraint*  Item[];
+  // Declarations
+  __declspec(property(get = get_Item)) ::System::Data::Constraint* Item[];
 
- __declspec(property(get=get_Item)) ::System::Data::Constraint*  Item[];
+  __declspec(property(get = get_Item)) ::System::Data::Constraint* Item[];
 
- __declspec(property(get=get_List)) ::System::Collections::ArrayList*  List;
+  __declspec(property(get = get_List)) ::System::Collections::ArrayList* List;
 
- __declspec(property(get=get_Table)) ::System::Data::DataTable*  Table;
+  __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
-/// @brief Field _defaultNameIndex, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__defaultNameIndex, put=__cordl_internal_set__defaultNameIndex)) int32_t  _defaultNameIndex;
+  /// @brief Field _defaultNameIndex, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__defaultNameIndex, put = __cordl_internal_set__defaultNameIndex)) int32_t _defaultNameIndex;
 
-/// @brief Field _delayLoadingConstraints, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__delayLoadingConstraints, put=__cordl_internal_set__delayLoadingConstraints)) ::ArrayW<::System::Data::Constraint*,::Array<::System::Data::Constraint*>*>  _delayLoadingConstraints;
+  /// @brief Field _delayLoadingConstraints, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__delayLoadingConstraints,
+                      put = __cordl_internal_set__delayLoadingConstraints)) ::ArrayW<::System::Data::Constraint*, ::Array<::System::Data::Constraint*>*>
+      _delayLoadingConstraints;
 
-/// @brief Field _fLoadForeignKeyConstraintsOnly, offset 0x38, size 0x1 
- __declspec(property(get=__cordl_internal_get__fLoadForeignKeyConstraintsOnly, put=__cordl_internal_set__fLoadForeignKeyConstraintsOnly)) bool  _fLoadForeignKeyConstraintsOnly;
+  /// @brief Field _fLoadForeignKeyConstraintsOnly, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__fLoadForeignKeyConstraintsOnly, put = __cordl_internal_set__fLoadForeignKeyConstraintsOnly)) bool _fLoadForeignKeyConstraintsOnly;
 
-/// @brief Field _list, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__list, put=__cordl_internal_set__list)) ::System::Collections::ArrayList*  _list;
+  /// @brief Field _list, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Collections::ArrayList* _list;
 
-/// @brief Field _onCollectionChanged, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__onCollectionChanged, put=__cordl_internal_set__onCollectionChanged)) ::System::ComponentModel::CollectionChangeEventHandler*  _onCollectionChanged;
+  /// @brief Field _onCollectionChanged, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__onCollectionChanged, put = __cordl_internal_set__onCollectionChanged)) ::System::ComponentModel::CollectionChangeEventHandler* _onCollectionChanged;
 
-/// @brief Field _table, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__table, put=__cordl_internal_set__table)) ::System::Data::DataTable*  _table;
+  /// @brief Field _table, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-/// @brief Method Add, addr 0x5e6a1e8, size 0xc0, virtual false, abstract: false, final false
-inline ::System::Data::Constraint* Add(::StringW  name, ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  columns, bool  primaryKey) ;
+  /// @brief Method Add, addr 0x5edc1f4, size 0xc0, virtual false, abstract: false, final false
+  inline ::System::Data::Constraint* Add(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, bool primaryKey);
 
-/// @brief Method Add, addr 0x5e69868, size 0x8, virtual false, abstract: false, final false
-inline void Add(::System::Data::Constraint*  constraint) ;
+  /// @brief Method Add, addr 0x5edb874, size 0x8, virtual false, abstract: false, final false
+  inline void Add(::System::Data::Constraint* constraint);
 
-/// @brief Method Add, addr 0x5e69870, size 0x3bc, virtual false, abstract: false, final false
-inline void Add(::System::Data::Constraint*  constraint, bool  addUniqueWhenAddingForeign) ;
+  /// @brief Method Add, addr 0x5edb87c, size 0x3bc, virtual false, abstract: false, final false
+  inline void Add(::System::Data::Constraint* constraint, bool addUniqueWhenAddingForeign);
 
-/// @brief Method AddForeignKeyConstraint, addr 0x5e6a050, size 0x70, virtual false, abstract: false, final false
-inline void AddForeignKeyConstraint(::System::Data::ForeignKeyConstraint*  constraint) ;
+  /// @brief Method AddForeignKeyConstraint, addr 0x5edc05c, size 0x70, virtual false, abstract: false, final false
+  inline void AddForeignKeyConstraint(::System::Data::ForeignKeyConstraint* constraint);
 
-/// @brief Method AddUniqueConstraint, addr 0x5e69e64, size 0xb8, virtual false, abstract: false, final false
-inline void AddUniqueConstraint(::System::Data::UniqueConstraint*  constraint) ;
+  /// @brief Method AddUniqueConstraint, addr 0x5edbe70, size 0xb8, virtual false, abstract: false, final false
+  inline void AddUniqueConstraint(::System::Data::UniqueConstraint* constraint);
 
-/// @brief Method ArrayAdd, addr 0x5e6a188, size 0x38, virtual false, abstract: false, final false
-inline void ArrayAdd(::System::Data::Constraint*  constraint) ;
+  /// @brief Method ArrayAdd, addr 0x5edc194, size 0x38, virtual false, abstract: false, final false
+  inline void ArrayAdd(::System::Data::Constraint* constraint);
 
-/// @brief Method ArrayRemove, addr 0x5e6a2a8, size 0x38, virtual false, abstract: false, final false
-inline void ArrayRemove(::System::Data::Constraint*  constraint) ;
+  /// @brief Method ArrayRemove, addr 0x5edc2b4, size 0x38, virtual false, abstract: false, final false
+  inline void ArrayRemove(::System::Data::Constraint* constraint);
 
-/// @brief Method AssignName, addr 0x5e6a02c, size 0x24, virtual false, abstract: false, final false
-inline ::StringW AssignName() ;
+  /// @brief Method AssignName, addr 0x5edc038, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW AssignName();
 
-/// @brief Method AutoGenerated, addr 0x5e69d8c, size 0xd8, virtual false, abstract: false, final false
-inline bool AutoGenerated(::System::Data::Constraint*  constraint) ;
+  /// @brief Method AutoGenerated, addr 0x5edbd98, size 0xd8, virtual false, abstract: false, final false
+  inline bool AutoGenerated(::System::Data::Constraint* constraint);
 
-/// @brief Method BaseAdd, addr 0x5e6a0c0, size 0xc8, virtual false, abstract: false, final false
-inline void BaseAdd(::System::Data::Constraint*  constraint) ;
+  /// @brief Method BaseAdd, addr 0x5edc0cc, size 0xc8, virtual false, abstract: false, final false
+  inline void BaseAdd(::System::Data::Constraint* constraint);
 
-/// @brief Method BaseGroupSwitch, addr 0x5e6a3b4, size 0x1b8, virtual false, abstract: false, final false
-inline void BaseGroupSwitch(::ArrayW<::System::Data::Constraint*,::Array<::System::Data::Constraint*>*>  oldArray, int32_t  oldLength, ::ArrayW<::System::Data::Constraint*,::Array<::System::Data::Constraint*>*>  newArray, int32_t  newLength) ;
+  /// @brief Method BaseGroupSwitch, addr 0x5edc3c0, size 0x1b8, virtual false, abstract: false, final false
+  inline void BaseGroupSwitch(::ArrayW<::System::Data::Constraint*, ::Array<::System::Data::Constraint*>*> oldArray, int32_t oldLength,
+                              ::ArrayW<::System::Data::Constraint*, ::Array<::System::Data::Constraint*>*> newArray, int32_t newLength);
 
-/// @brief Method BaseRemove, addr 0x5e6a56c, size 0x294, virtual false, abstract: false, final false
-inline void BaseRemove(::System::Data::Constraint*  constraint) ;
+  /// @brief Method BaseRemove, addr 0x5edc578, size 0x294, virtual false, abstract: false, final false
+  inline void BaseRemove(::System::Data::Constraint* constraint);
 
-/// @brief Method CanRemove, addr 0x5e6a800, size 0x2c, virtual false, abstract: false, final false
-inline bool CanRemove(::System::Data::Constraint*  constraint, bool  fThrowException) ;
+  /// @brief Method CanRemove, addr 0x5edc80c, size 0x2c, virtual false, abstract: false, final false
+  inline bool CanRemove(::System::Data::Constraint* constraint, bool fThrowException);
 
-/// @brief Method Clear, addr 0x5e6a82c, size 0x3e4, virtual false, abstract: false, final false
-inline void Clear() ;
+  /// @brief Method Clear, addr 0x5edc838, size 0x3e4, virtual false, abstract: false, final false
+  inline void Clear();
 
-/// @brief Method CompareArrays, addr 0x5e6ad24, size 0x8c, virtual false, abstract: false, final false
-static inline bool CompareArrays(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  a1, ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  a2) ;
+  /// @brief Method CompareArrays, addr 0x5edcd30, size 0x8c, virtual false, abstract: false, final false
+  static inline bool CompareArrays(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> a1, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> a2);
 
-/// @brief Method Contains, addr 0x5e6ac10, size 0x18, virtual false, abstract: false, final false
-inline bool Contains(::StringW  name) ;
+  /// @brief Method Contains, addr 0x5edcc1c, size 0x18, virtual false, abstract: false, final false
+  inline bool Contains(::StringW name);
 
-/// @brief Method Contains, addr 0x5e6ac28, size 0xfc, virtual false, abstract: false, final false
-inline bool Contains(::StringW  name, bool  caseSensitive) ;
+  /// @brief Method Contains, addr 0x5edcc34, size 0xfc, virtual false, abstract: false, final false
+  inline bool Contains(::StringW name, bool caseSensitive);
 
-/// @brief Method FindConstraint, addr 0x5e69c2c, size 0x160, virtual false, abstract: false, final false
-inline ::System::Data::Constraint* FindConstraint(::System::Data::Constraint*  constraint) ;
+  /// @brief Method FindConstraint, addr 0x5edbc38, size 0x160, virtual false, abstract: false, final false
+  inline ::System::Data::Constraint* FindConstraint(::System::Data::Constraint* constraint);
 
-/// @brief Method FindForeignKeyConstraint, addr 0x5e6aec0, size 0x134, virtual false, abstract: false, final false
-inline ::System::Data::ForeignKeyConstraint* FindForeignKeyConstraint(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  parentColumns, ::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  childColumns) ;
+  /// @brief Method FindForeignKeyConstraint, addr 0x5edcecc, size 0x134, virtual false, abstract: false, final false
+  inline ::System::Data::ForeignKeyConstraint* FindForeignKeyConstraint(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> parentColumns,
+                                                                        ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childColumns);
 
-/// @brief Method FindKeyConstraint, addr 0x5e6adb0, size 0x110, virtual false, abstract: false, final false
-inline ::System::Data::UniqueConstraint* FindKeyConstraint(::System::Data::DataColumn*  column) ;
+  /// @brief Method FindKeyConstraint, addr 0x5edcdbc, size 0x110, virtual false, abstract: false, final false
+  inline ::System::Data::UniqueConstraint* FindKeyConstraint(::System::Data::DataColumn* column);
 
-/// @brief Method FindKeyConstraint, addr 0x5e69f1c, size 0x110, virtual false, abstract: false, final false
-inline ::System::Data::UniqueConstraint* FindKeyConstraint(::ArrayW<::System::Data::DataColumn*,::Array<::System::Data::DataColumn*>*>  columns) ;
+  /// @brief Method FindKeyConstraint, addr 0x5edbf28, size 0x110, virtual false, abstract: false, final false
+  inline ::System::Data::UniqueConstraint* FindKeyConstraint(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns);
 
-/// @brief Method InternalIndexOf, addr 0x5e69708, size 0x160, virtual false, abstract: false, final false
-inline int32_t InternalIndexOf(::StringW  constraintName) ;
+  /// @brief Method InternalIndexOf, addr 0x5edb714, size 0x160, virtual false, abstract: false, final false
+  inline int32_t InternalIndexOf(::StringW constraintName);
 
-/// @brief Method MakeName, addr 0x5e6a2e0, size 0xd4, virtual false, abstract: false, final false
-inline ::StringW MakeName(int32_t  index) ;
+  /// @brief Method MakeName, addr 0x5edc2ec, size 0xd4, virtual false, abstract: false, final false
+  inline ::StringW MakeName(int32_t index);
 
-static inline ::System::Data::ConstraintCollection* New_ctor(::System::Data::DataTable*  table) ;
+  static inline ::System::Data::ConstraintCollection* New_ctor(::System::Data::DataTable* table);
 
-/// @brief Method OnCollectionChanged, addr 0x5e6a1c0, size 0x28, virtual false, abstract: false, final false
-inline void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs*  ccevent) ;
+  /// @brief Method OnCollectionChanged, addr 0x5edc1cc, size 0x28, virtual false, abstract: false, final false
+  inline void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-/// @brief Method RegisterName, addr 0x5e68f94, size 0x1e4, virtual false, abstract: false, final false
-inline void RegisterName(::StringW  name) ;
+  /// @brief Method RegisterName, addr 0x5edafa0, size 0x1e4, virtual false, abstract: false, final false
+  inline void RegisterName(::StringW name);
 
-/// @brief Method Remove, addr 0x5e6aff4, size 0x170, virtual false, abstract: false, final false
-inline void Remove(::System::Data::Constraint*  constraint) ;
+  /// @brief Method Remove, addr 0x5edd000, size 0x170, virtual false, abstract: false, final false
+  inline void Remove(::System::Data::Constraint* constraint);
 
-/// @brief Method UnregisterName, addr 0x5e69178, size 0x7c, virtual false, abstract: false, final false
-inline void UnregisterName(::StringW  name) ;
+  /// @brief Method UnregisterName, addr 0x5edb184, size 0x7c, virtual false, abstract: false, final false
+  inline void UnregisterName(::StringW name);
 
-constexpr int32_t const& __cordl_internal_get__defaultNameIndex() const;
+  constexpr int32_t const& __cordl_internal_get__defaultNameIndex() const;
 
-constexpr int32_t& __cordl_internal_get__defaultNameIndex() ;
+  constexpr int32_t& __cordl_internal_get__defaultNameIndex();
 
-constexpr ::ArrayW<::System::Data::Constraint*,::Array<::System::Data::Constraint*>*> const& __cordl_internal_get__delayLoadingConstraints() const;
+  constexpr ::ArrayW<::System::Data::Constraint*, ::Array<::System::Data::Constraint*>*> const& __cordl_internal_get__delayLoadingConstraints() const;
 
-constexpr ::ArrayW<::System::Data::Constraint*,::Array<::System::Data::Constraint*>*>& __cordl_internal_get__delayLoadingConstraints() ;
+  constexpr ::ArrayW<::System::Data::Constraint*, ::Array<::System::Data::Constraint*>*>& __cordl_internal_get__delayLoadingConstraints();
 
-constexpr bool const& __cordl_internal_get__fLoadForeignKeyConstraintsOnly() const;
+  constexpr bool const& __cordl_internal_get__fLoadForeignKeyConstraintsOnly() const;
 
-constexpr bool& __cordl_internal_get__fLoadForeignKeyConstraintsOnly() ;
+  constexpr bool& __cordl_internal_get__fLoadForeignKeyConstraintsOnly();
 
-constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__list() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__list() const;
 
-constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list() ;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
 
-constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& __cordl_internal_get__onCollectionChanged() const;
+  constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& __cordl_internal_get__onCollectionChanged() const;
 
-constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get__onCollectionChanged() ;
+  constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get__onCollectionChanged();
 
-constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
 
-constexpr ::System::Data::DataTable*& __cordl_internal_get__table() ;
+  constexpr ::System::Data::DataTable*& __cordl_internal_get__table();
 
-constexpr void __cordl_internal_set__defaultNameIndex(int32_t  value) ;
+  constexpr void __cordl_internal_set__defaultNameIndex(int32_t value);
 
-constexpr void __cordl_internal_set__delayLoadingConstraints(::ArrayW<::System::Data::Constraint*,::Array<::System::Data::Constraint*>*>  value) ;
+  constexpr void __cordl_internal_set__delayLoadingConstraints(::ArrayW<::System::Data::Constraint*, ::Array<::System::Data::Constraint*>*> value);
 
-constexpr void __cordl_internal_set__fLoadForeignKeyConstraintsOnly(bool  value) ;
+  constexpr void __cordl_internal_set__fLoadForeignKeyConstraintsOnly(bool value);
 
-constexpr void __cordl_internal_set__list(::System::Collections::ArrayList*  value) ;
+  constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-constexpr void __cordl_internal_set__onCollectionChanged(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
+  constexpr void __cordl_internal_set__onCollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
-constexpr void __cordl_internal_set__table(::System::Data::DataTable*  value) ;
+  constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-/// @brief Method .ctor, addr 0x5e6945c, size 0x9c, virtual false, abstract: false, final false
-inline void _ctor(::System::Data::DataTable*  table) ;
+  /// @brief Method .ctor, addr 0x5edb468, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Data::DataTable* table);
 
-/// @brief Method get_Item, addr 0x5e69500, size 0x108, virtual false, abstract: false, final false
-inline ::System::Data::Constraint* get_Item(int32_t  index) ;
+  /// @brief Method get_Item, addr 0x5edb50c, size 0x108, virtual false, abstract: false, final false
+  inline ::System::Data::Constraint* get_Item(int32_t index);
 
-/// @brief Method get_Item, addr 0x5e69610, size 0xf8, virtual false, abstract: false, final false
-inline ::System::Data::Constraint* get_Item(::StringW  name) ;
+  /// @brief Method get_Item, addr 0x5edb61c, size 0xf8, virtual false, abstract: false, final false
+  inline ::System::Data::Constraint* get_Item(::StringW name);
 
-/// @brief Method get_List, addr 0x5e694f8, size 0x8, virtual true, abstract: false, final false
-inline ::System::Collections::ArrayList* get_List() ;
+  /// @brief Method get_List, addr 0x5edb504, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Collections::ArrayList* get_List();
 
-/// @brief Method get_Table, addr 0x5e69608, size 0x8, virtual false, abstract: false, final false
-inline ::System::Data::DataTable* get_Table() ;
+  /// @brief Method get_Table, addr 0x5edb614, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Data::DataTable* get_Table();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConstraintCollection() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConstraintCollection();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConstraintCollection", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConstraintCollection(ConstraintCollection&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConstraintCollection", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConstraintCollection(ConstraintCollection && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConstraintCollection", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConstraintCollection(ConstraintCollection const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConstraintCollection", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConstraintCollection(ConstraintCollection const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13743 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13736};
+  /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
+  ::System::Data::DataTable* ____table;
 
-/// @brief Field _table, offset: 0x10, size: 0x8, def value: None
- ::System::Data::DataTable*  ____table;
+  /// @brief Field _list, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::ArrayList* ____list;
 
-/// @brief Field _list, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::ArrayList*  ____list;
+  /// @brief Field _defaultNameIndex, offset: 0x20, size: 0x4, def value: None
+  int32_t ____defaultNameIndex;
 
-/// @brief Field _defaultNameIndex, offset: 0x20, size: 0x4, def value: None
- int32_t  ____defaultNameIndex;
+  /// @brief Field _onCollectionChanged, offset: 0x28, size: 0x8, def value: None
+  ::System::ComponentModel::CollectionChangeEventHandler* ____onCollectionChanged;
 
-/// @brief Field _onCollectionChanged, offset: 0x28, size: 0x8, def value: None
- ::System::ComponentModel::CollectionChangeEventHandler*  ____onCollectionChanged;
+  /// @brief Field _delayLoadingConstraints, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<::System::Data::Constraint*, ::Array<::System::Data::Constraint*>*> ____delayLoadingConstraints;
 
-/// @brief Field _delayLoadingConstraints, offset: 0x30, size: 0x8, def value: None
- ::ArrayW<::System::Data::Constraint*,::Array<::System::Data::Constraint*>*>  ____delayLoadingConstraints;
+  /// @brief Field _fLoadForeignKeyConstraintsOnly, offset: 0x38, size: 0x1, def value: None
+  bool ____fLoadForeignKeyConstraintsOnly;
 
-/// @brief Field _fLoadForeignKeyConstraintsOnly, offset: 0x38, size: 0x1, def value: None
- bool  ____fLoadForeignKeyConstraintsOnly;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::ConstraintCollection, ____table) == 0x10, "Offset mismatch!");
@@ -256,6 +260,6 @@ static_assert(offsetof(::System::Data::ConstraintCollection, ____fLoadForeignKey
 
 static_assert(::cordl_internals::size_check_v<::System::Data::ConstraintCollection, 0x40>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::ConstraintCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::ConstraintCollection*, "System.Data", "ConstraintCollection");

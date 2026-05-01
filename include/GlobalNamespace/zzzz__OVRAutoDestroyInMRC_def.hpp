@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: OVRAutoDestroyInMRC
 class CORDL_TYPE OVRAutoDestroyInMRC : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-static inline ::GlobalNamespace::OVRAutoDestroyInMRC* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::OVRAutoDestroyInMRC* New_ctor();
 
-/// @brief Method Start, addr 0x5d439e0, size 0x118, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x5db59c8, size 0x118, virtual false, abstract: false, final false
+  inline void Start();
 
-/// @brief Method .ctor, addr 0x5d43af8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5db5ae0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRAutoDestroyInMRC() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRAutoDestroyInMRC();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAutoDestroyInMRC", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRAutoDestroyInMRC(OVRAutoDestroyInMRC&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRAutoDestroyInMRC", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRAutoDestroyInMRC(OVRAutoDestroyInMRC && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAutoDestroyInMRC", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRAutoDestroyInMRC(OVRAutoDestroyInMRC const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRAutoDestroyInMRC", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRAutoDestroyInMRC(OVRAutoDestroyInMRC const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7857 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7851};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRAutoDestroyInMRC, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRAutoDestroyInMRC);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRAutoDestroyInMRC*, "", "OVRAutoDestroyInMRC");

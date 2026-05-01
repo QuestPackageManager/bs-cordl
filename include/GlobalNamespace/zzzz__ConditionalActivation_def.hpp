@@ -20,57 +20,57 @@ namespace GlobalNamespace {
 // CS Name: ConditionalActivation
 class CORDL_TYPE ConditionalActivation : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _activateOnFalse, offset 0x28, size 0x1 
- __declspec(property(get=__cordl_internal_get__activateOnFalse, put=__cordl_internal_set__activateOnFalse)) bool  _activateOnFalse;
+  // Declarations
+  /// @brief Field _activateOnFalse, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__activateOnFalse, put = __cordl_internal_set__activateOnFalse)) bool _activateOnFalse;
 
-/// @brief Field _value, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO>  _value;
+  /// @brief Field _value, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO> _value;
 
-/// @brief Method Awake, addr 0x576d5f4, size 0x88, virtual false, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x57dd6a0, size 0x88, virtual false, abstract: false, final false
+  inline void Awake();
 
-static inline ::GlobalNamespace::ConditionalActivation* New_ctor() ;
+  static inline ::GlobalNamespace::ConditionalActivation* New_ctor();
 
-constexpr bool const& __cordl_internal_get__activateOnFalse() const;
+  constexpr bool const& __cordl_internal_get__activateOnFalse() const;
 
-constexpr bool& __cordl_internal_get__activateOnFalse() ;
+  constexpr bool& __cordl_internal_get__activateOnFalse();
 
-constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
 
-constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value() ;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
 
-constexpr void __cordl_internal_set__activateOnFalse(bool  value) ;
+  constexpr void __cordl_internal_set__activateOnFalse(bool value);
 
-constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO>  value) ;
+  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-/// @brief Method .ctor, addr 0x576d67c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57dd728, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConditionalActivation() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConditionalActivation();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConditionalActivation(ConditionalActivation&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConditionalActivation(ConditionalActivation && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConditionalActivation(ConditionalActivation const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConditionalActivation(ConditionalActivation const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6746 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6737};
+  /// @brief Field _value, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
-/// @brief Field _value, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::BoolSO>  ____value;
+  /// @brief Field _activateOnFalse, offset: 0x28, size: 0x1, def value: None
+  bool ____activateOnFalse;
 
-/// @brief Field _activateOnFalse, offset: 0x28, size: 0x1, def value: None
- bool  ____activateOnFalse;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ConditionalActivation, ____value) == 0x20, "Offset mismatch!");
@@ -79,6 +79,6 @@ static_assert(offsetof(::GlobalNamespace::ConditionalActivation, ____activateOnF
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConditionalActivation, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConditionalActivation);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConditionalActivation*, "", "ConditionalActivation");

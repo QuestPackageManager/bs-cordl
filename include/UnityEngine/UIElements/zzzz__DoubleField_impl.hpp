@@ -9,429 +9,342 @@
 #include "UnityEngine/UIElements/zzzz__UxmlDoubleAttributeDescription_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_UxmlFactory._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_UxmlFactory::*)()>(&::UnityEngine::UIElements::DoubleField_UxmlFactory::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_UxmlFactory::*)()>(
+    &::UnityEngine::UIElements::DoubleField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b73174;
+  constexpr static std::size_t addrs = 0x6be53bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlFactory*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DoubleField_UxmlFactory::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlFactory*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::DoubleField_UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlFactory*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::DoubleField_UxmlFactory* UnityEngine::UIElements::DoubleField_UxmlFactory::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField_UxmlFactory*>());
+inline ::UnityEngine::UIElements::DoubleField_UxmlFactory* UnityEngine::UIElements::DoubleField_UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField_UxmlFactory*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::DoubleField_UxmlFactory::DoubleField_UxmlFactory()   {
-}
+constexpr ::UnityEngine::UIElements::DoubleField_UxmlFactory::DoubleField_UxmlFactory() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_UxmlTraits._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_UxmlTraits::*)()>(&::UnityEngine::UIElements::DoubleField_UxmlTraits::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_UxmlTraits::*)()>(
+    &::UnityEngine::UIElements::DoubleField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b731dc;
+  constexpr static std::size_t addrs = 0x6be5424;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlTraits*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlTraits*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DoubleField_UxmlTraits::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlTraits*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::DoubleField_UxmlTraits::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_UxmlTraits*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::DoubleField_UxmlTraits* UnityEngine::UIElements::DoubleField_UxmlTraits::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField_UxmlTraits*>());
+inline ::UnityEngine::UIElements::DoubleField_UxmlTraits* UnityEngine::UIElements::DoubleField_UxmlTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField_UxmlTraits*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::DoubleField_UxmlTraits::DoubleField_UxmlTraits()   {
-}
+constexpr ::UnityEngine::UIElements::DoubleField_UxmlTraits::DoubleField_UxmlTraits() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_DoubleInput.get_parentDoubleField
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DoubleField* (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(&::UnityEngine::UIElements::DoubleField_DoubleInput::get_parentDoubleField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DoubleField* (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(
+    &::UnityEngine::UIElements::DoubleField_DoubleInput::get_parentDoubleField)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b73228;
+  constexpr static std::size_t addrs = 0x6be5470;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                        "get_parentDoubleField",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                                               "get_parentDoubleField", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_DoubleInput._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(&::UnityEngine::UIElements::DoubleField_DoubleInput::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(
+    &::UnityEngine::UIElements::DoubleField_DoubleInput::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b72f80;
+  constexpr static std::size_t addrs = 0x6be51c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_DoubleInput.get_allowedCharacters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(&::UnityEngine::UIElements::DoubleField_DoubleInput::get_allowedCharacters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField_DoubleInput::*)()>(
+    &::UnityEngine::UIElements::DoubleField_DoubleInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b732a4;
+  constexpr static std::size_t addrs = 0x6be54ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                  138
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 138));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_DoubleInput.ApplyInputDeviceDelta
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, double_t)>(&::UnityEngine::UIElements::DoubleField_DoubleInput::ApplyInputDeviceDelta)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(
+    ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, double_t)>(&::UnityEngine::UIElements::DoubleField_DoubleInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6b73300;
+  constexpr static std::size_t addrs = 0x6be5548;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                  139
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 139));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_DoubleInput.ValueToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(double_t)>(&::UnityEngine::UIElements::DoubleField_DoubleInput::ValueToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(double_t)>(
+    &::UnityEngine::UIElements::DoubleField_DoubleInput::ValueToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b734ac;
+  constexpr static std::size_t addrs = 0x6be56f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                  140
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 140));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField_DoubleInput.StringToValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(::StringW)>(&::UnityEngine::UIElements::DoubleField_DoubleInput::StringToValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::DoubleField_DoubleInput::*)(::StringW)>(
+    &::UnityEngine::UIElements::DoubleField_DoubleInput::StringToValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b73508;
+  constexpr static std::size_t addrs = 0x6be5750;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                                  136
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 136));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::DoubleField* UnityEngine::UIElements::DoubleField_DoubleInput::get_parentDoubleField()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                        "get_parentDoubleField",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DoubleField*, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::DoubleField* UnityEngine::UIElements::DoubleField_DoubleInput::get_parentDoubleField() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                                             "get_parentDoubleField", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DoubleField*, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DoubleField_DoubleInput::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::DoubleField_DoubleInput::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::UIElements::DoubleField_DoubleInput::get_allowedCharacters()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                            138
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::UIElements::DoubleField_DoubleInput::get_allowedCharacters() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 138)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DoubleField_DoubleInput::ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, double_t  startValue)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                            139
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
+inline void UnityEngine::UIElements::DoubleField_DoubleInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 139)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
-inline ::StringW UnityEngine::UIElements::DoubleField_DoubleInput::ValueToString(double_t  v)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                            140
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
+inline ::StringW UnityEngine::UIElements::DoubleField_DoubleInput::ValueToString(double_t v) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 140)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
-inline double_t UnityEngine::UIElements::DoubleField_DoubleInput::StringToValue(::StringW  str)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(),
-                            136
-                        )));
-return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method, str);
+inline double_t UnityEngine::UIElements::DoubleField_DoubleInput::StringToValue(::StringW str) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField_DoubleInput*>::get(), 136)));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method, str);
 }
-inline ::UnityEngine::UIElements::DoubleField_DoubleInput* UnityEngine::UIElements::DoubleField_DoubleInput::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField_DoubleInput*>());
+inline ::UnityEngine::UIElements::DoubleField_DoubleInput* UnityEngine::UIElements::DoubleField_DoubleInput::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField_DoubleInput*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::DoubleField_DoubleInput::DoubleField_DoubleInput()   {
-}
+constexpr ::UnityEngine::UIElements::DoubleField_DoubleInput::DoubleField_DoubleInput() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField.get_doubleInput
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DoubleField_DoubleInput* (::UnityEngine::UIElements::DoubleField::*)()>(&::UnityEngine::UIElements::DoubleField::get_doubleInput)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DoubleField_DoubleInput* (::UnityEngine::UIElements::DoubleField::*)()>(
+    &::UnityEngine::UIElements::DoubleField::get_doubleInput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b72bc4;
+  constexpr static std::size_t addrs = 0x6be4e0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                        "get_doubleInput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
+                                                                               "get_doubleInput", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField.ValueToString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField::*)(double_t)>(&::UnityEngine::UIElements::DoubleField::ValueToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::DoubleField::*)(double_t)>(
+    &::UnityEngine::UIElements::DoubleField::ValueToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b72c54;
+  constexpr static std::size_t addrs = 0x6be4e9c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                  155
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 155));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField.StringToValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::DoubleField::*)(::StringW)>(&::UnityEngine::UIElements::DoubleField::StringToValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::UIElements::DoubleField::*)(::StringW)>(
+    &::UnityEngine::UIElements::DoubleField::StringToValue)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6b72d14;
+  constexpr static std::size_t addrs = 0x6be4f5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                  156
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 156));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)()>(&::UnityEngine::UIElements::DoubleField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b72df4;
+  constexpr static std::size_t addrs = 0x6be503c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::DoubleField::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)(::StringW, int32_t)>(
+    &::UnityEngine::UIElements::DoubleField::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6b72e00;
+  constexpr static std::size_t addrs = 0x6be5048;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField.CanTryParse
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DoubleField::*)(::StringW)>(&::UnityEngine::UIElements::DoubleField::CanTryParse)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b7301c;
+  constexpr static std::size_t addrs = 0x6be5264;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                  165
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 165));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::DoubleField.ApplyInputDeviceDelta
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, double_t)>(&::UnityEngine::UIElements::DoubleField::ApplyInputDeviceDelta)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DoubleField::*)(
+    ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, double_t)>(&::UnityEngine::UIElements::DoubleField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b7303c;
+  constexpr static std::size_t addrs = 0x6be5284;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                                  164
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 164));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DoubleField::setStaticF_ussClassName(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>(std::forward<::StringW>(value));
+inline void UnityEngine::UIElements::DoubleField::setStaticF_ussClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>(std::forward<::StringW>(value));
 }
-inline ::StringW UnityEngine::UIElements::DoubleField::getStaticF_ussClassName()  {
-return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>();
+inline ::StringW UnityEngine::UIElements::DoubleField::getStaticF_ussClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>();
 }
-inline void UnityEngine::UIElements::DoubleField::setStaticF_labelUssClassName(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "labelUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>(std::forward<::StringW>(value));
+inline void UnityEngine::UIElements::DoubleField::setStaticF_labelUssClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "labelUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>(
+      std::forward<::StringW>(value));
 }
-inline ::StringW UnityEngine::UIElements::DoubleField::getStaticF_labelUssClassName()  {
-return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>();
+inline ::StringW UnityEngine::UIElements::DoubleField::getStaticF_labelUssClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>();
 }
-inline void UnityEngine::UIElements::DoubleField::setStaticF_inputUssClassName(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>(std::forward<::StringW>(value));
+inline void UnityEngine::UIElements::DoubleField::setStaticF_inputUssClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>(
+      std::forward<::StringW>(value));
 }
-inline ::StringW UnityEngine::UIElements::DoubleField::getStaticF_inputUssClassName()  {
-return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>();
+inline ::StringW UnityEngine::UIElements::DoubleField::getStaticF_inputUssClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get>();
 }
-inline ::UnityEngine::UIElements::DoubleField_DoubleInput* UnityEngine::UIElements::DoubleField::get_doubleInput()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                        "get_doubleInput",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DoubleField_DoubleInput*, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::DoubleField_DoubleInput* UnityEngine::UIElements::DoubleField::get_doubleInput() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), "get_doubleInput",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DoubleField_DoubleInput*, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::UIElements::DoubleField::ValueToString(double_t  v)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                            155
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
+inline ::StringW UnityEngine::UIElements::DoubleField::ValueToString(double_t v) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 155)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
-inline double_t UnityEngine::UIElements::DoubleField::StringToValue(::StringW  str)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                            156
-                        )));
-return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method, str);
+inline double_t UnityEngine::UIElements::DoubleField::StringToValue(::StringW str) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 156)));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method, str);
 }
-inline void UnityEngine::UIElements::DoubleField::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::DoubleField::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DoubleField::_ctor(::StringW  label, int32_t  maxLength)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, label, maxLength);
+inline void UnityEngine::UIElements::DoubleField::_ctor(::StringW label, int32_t maxLength) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, label, maxLength);
 }
-inline bool UnityEngine::UIElements::DoubleField::CanTryParse(::StringW  textString)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                            165
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, textString);
+inline bool UnityEngine::UIElements::DoubleField::CanTryParse(::StringW textString) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 165)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, textString);
 }
-inline void UnityEngine::UIElements::DoubleField::ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, double_t  startValue)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(),
-                            164
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
+inline void UnityEngine::UIElements::DoubleField::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DoubleField*>::get(), 164)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
-inline ::UnityEngine::UIElements::DoubleField* UnityEngine::UIElements::DoubleField::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField*>());
+inline ::UnityEngine::UIElements::DoubleField* UnityEngine::UIElements::DoubleField::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField*>());
 }
-inline ::UnityEngine::UIElements::DoubleField* UnityEngine::UIElements::DoubleField::New_ctor(::StringW  label, int32_t  maxLength)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField*>(label, maxLength));
+inline ::UnityEngine::UIElements::DoubleField* UnityEngine::UIElements::DoubleField::New_ctor(::StringW label, int32_t maxLength) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DoubleField*>(label, maxLength));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::DoubleField::DoubleField()   {
-}
+constexpr ::UnityEngine::UIElements::DoubleField::DoubleField() {}

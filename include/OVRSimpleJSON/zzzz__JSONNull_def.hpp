@@ -37,92 +37,92 @@ namespace OVRSimpleJSON {
 // CS Name: OVRSimpleJSON.JSONNull
 class CORDL_TYPE JSONNull : public ::OVRSimpleJSON::JSONNode {
 public:
-// Declarations
- __declspec(property(get=get_AsBool, put=set_AsBool)) bool  AsBool;
+  // Declarations
+  __declspec(property(get = get_AsBool, put = set_AsBool)) bool AsBool;
 
- __declspec(property(get=get_IsNull)) bool  IsNull;
+  __declspec(property(get = get_IsNull)) bool IsNull;
 
- __declspec(property(get=get_Tag)) ::OVRSimpleJSON::JSONNodeType  Tag;
+  __declspec(property(get = get_Tag)) ::OVRSimpleJSON::JSONNodeType Tag;
 
- __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
-/// @brief Field m_StaticInstance, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_m_StaticInstance, put=setStaticF_m_StaticInstance)) ::OVRSimpleJSON::JSONNull*  m_StaticInstance;
+  /// @brief Field m_StaticInstance, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_m_StaticInstance, put = setStaticF_m_StaticInstance)) ::OVRSimpleJSON::JSONNull* m_StaticInstance;
 
-/// @brief Field reuseSameInstance, offset 0xffffffff, size 0x1 
- __declspec(property(get=getStaticF_reuseSameInstance, put=setStaticF_reuseSameInstance)) bool  reuseSameInstance;
+  /// @brief Field reuseSameInstance, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF_reuseSameInstance, put = setStaticF_reuseSameInstance)) bool reuseSameInstance;
 
-/// @brief Method Clone, addr 0x5c7c998, size 0x50, virtual true, abstract: false, final false
-inline ::OVRSimpleJSON::JSONNode* Clone() ;
+  /// @brief Method Clone, addr 0x5cee980, size 0x50, virtual true, abstract: false, final false
+  inline ::OVRSimpleJSON::JSONNode* Clone();
 
-/// @brief Method CreateOrGet, addr 0x5c79878, size 0x8c, virtual false, abstract: false, final false
-static inline ::OVRSimpleJSON::JSONNull* CreateOrGet() ;
+  /// @brief Method CreateOrGet, addr 0x5ceb860, size 0x8c, virtual false, abstract: false, final false
+  static inline ::OVRSimpleJSON::JSONNull* CreateOrGet();
 
-/// @brief Method Equals, addr 0x5c7c9e8, size 0x98, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x5cee9d0, size 0x98, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method GetEnumerator, addr 0x5c7c930, size 0x14, virtual true, abstract: false, final false
-inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator() ;
+  /// @brief Method GetEnumerator, addr 0x5cee918, size 0x14, virtual true, abstract: false, final false
+  inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator();
 
-/// @brief Method GetHashCode, addr 0x5c7ca80, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x5ceea68, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-static inline ::OVRSimpleJSON::JSONNull* New_ctor() ;
+  static inline ::OVRSimpleJSON::JSONNull* New_ctor();
 
-/// @brief Method WriteToStringBuilder, addr 0x5c7ca88, size 0x58, virtual true, abstract: false, final false
-inline void WriteToStringBuilder(::System::Text::StringBuilder*  aSB, int32_t  aIndent, int32_t  aIndentInc, ::OVRSimpleJSON::JSONTextMode  aMode) ;
+  /// @brief Method WriteToStringBuilder, addr 0x5ceea70, size 0x58, virtual true, abstract: false, final false
+  inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
-/// @brief Method .ctor, addr 0x5c7c8c8, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5cee8b0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::OVRSimpleJSON::JSONNull* getStaticF_m_StaticInstance() ;
+  static inline ::OVRSimpleJSON::JSONNull* getStaticF_m_StaticInstance();
 
-static inline bool getStaticF_reuseSameInstance() ;
+  static inline bool getStaticF_reuseSameInstance();
 
-/// @brief Method get_AsBool, addr 0x5c7c98c, size 0x8, virtual true, abstract: false, final false
-inline bool get_AsBool() ;
+  /// @brief Method get_AsBool, addr 0x5cee974, size 0x8, virtual true, abstract: false, final false
+  inline bool get_AsBool();
 
-/// @brief Method get_IsNull, addr 0x5c7c928, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsNull() ;
+  /// @brief Method get_IsNull, addr 0x5cee910, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsNull();
 
-/// @brief Method get_Tag, addr 0x5c7c920, size 0x8, virtual true, abstract: false, final false
-inline ::OVRSimpleJSON::JSONNodeType get_Tag() ;
+  /// @brief Method get_Tag, addr 0x5cee908, size 0x8, virtual true, abstract: false, final false
+  inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-/// @brief Method get_Value, addr 0x5c7c944, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_Value() ;
+  /// @brief Method get_Value, addr 0x5cee92c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_Value();
 
-static inline void setStaticF_m_StaticInstance(::OVRSimpleJSON::JSONNull*  value) ;
+  static inline void setStaticF_m_StaticInstance(::OVRSimpleJSON::JSONNull* value);
 
-static inline void setStaticF_reuseSameInstance(bool  value) ;
+  static inline void setStaticF_reuseSameInstance(bool value);
 
-/// @brief Method set_AsBool, addr 0x5c7c994, size 0x4, virtual true, abstract: false, final false
-inline void set_AsBool(bool  value) ;
+  /// @brief Method set_AsBool, addr 0x5cee97c, size 0x4, virtual true, abstract: false, final false
+  inline void set_AsBool(bool value);
 
-/// @brief Method set_Value, addr 0x5c7c988, size 0x4, virtual true, abstract: false, final false
-inline void set_Value(::StringW  value) ;
+  /// @brief Method set_Value, addr 0x5cee970, size 0x4, virtual true, abstract: false, final false
+  inline void set_Value(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr JSONNull() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JSONNull();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "JSONNull", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  JSONNull(JSONNull&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JSONNull", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-JSONNull(JSONNull && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "JSONNull", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  JSONNull(JSONNull const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JSONNull", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-JSONNull(JSONNull const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8022 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8016};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVRSimpleJSON::JSONNull, 0x10>, "Size mismatch!");
 
-} // namespace end def OVRSimpleJSON
+} // namespace OVRSimpleJSON
 NEED_NO_BOX(::OVRSimpleJSON::JSONNull);
 DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSONNull*, "OVRSimpleJSON", "JSONNull");

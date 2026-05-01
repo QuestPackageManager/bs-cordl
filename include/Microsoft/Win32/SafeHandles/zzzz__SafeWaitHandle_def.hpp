@@ -20,37 +20,37 @@ namespace Microsoft::Win32::SafeHandles {
 // CS Name: Microsoft.Win32.SafeHandles.SafeWaitHandle
 class CORDL_TYPE SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
-// Declarations
-static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(::System::IntPtr  existingHandle, bool  ownsHandle) ;
+  // Declarations
+  static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-/// @brief Method ReleaseHandle, addr 0x5918df8, size 0x24, virtual true, abstract: false, final false
-inline bool ReleaseHandle() ;
+  /// @brief Method ReleaseHandle, addr 0x598ad64, size 0x24, virtual true, abstract: false, final false
+  inline bool ReleaseHandle();
 
-/// @brief Method .ctor, addr 0x5918dcc, size 0x2c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  existingHandle, bool  ownsHandle) ;
+  /// @brief Method .ctor, addr 0x598ad38, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SafeWaitHandle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeWaitHandle();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SafeWaitHandle(SafeWaitHandle&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SafeWaitHandle(SafeWaitHandle && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SafeWaitHandle(SafeWaitHandle const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SafeWaitHandle(SafeWaitHandle const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2300 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2300};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Microsoft::Win32::SafeHandles::SafeWaitHandle, 0x20>, "Size mismatch!");
 
-} // namespace end def Microsoft::Win32::SafeHandles
+} // namespace Microsoft::Win32::SafeHandles
 NEED_NO_BOX(::Microsoft::Win32::SafeHandles::SafeWaitHandle);
 DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::SafeHandles::SafeWaitHandle*, "Microsoft.Win32.SafeHandles", "SafeWaitHandle");

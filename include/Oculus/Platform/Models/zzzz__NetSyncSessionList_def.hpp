@@ -23,34 +23,34 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.NetSyncSessionList
 class CORDL_TYPE NetSyncSessionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::NetSyncSession*> {
 public:
-// Declarations
-static inline ::Oculus::Platform::Models::NetSyncSessionList* New_ctor(::System::IntPtr  a) ;
+  // Declarations
+  static inline ::Oculus::Platform::Models::NetSyncSessionList* New_ctor(::System::IntPtr a);
 
-/// @brief Method .ctor, addr 0x5c4300c, size 0x1dc, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  a) ;
+  /// @brief Method .ctor, addr 0x5cb4ff4, size 0x1dc, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NetSyncSessionList() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetSyncSessionList();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NetSyncSessionList", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NetSyncSessionList(NetSyncSessionList&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetSyncSessionList", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NetSyncSessionList(NetSyncSessionList && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NetSyncSessionList", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NetSyncSessionList(NetSyncSessionList const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetSyncSessionList", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NetSyncSessionList(NetSyncSessionList const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18050 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18042};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncSessionList, 0x28>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::NetSyncSessionList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncSessionList*, "Oculus.Platform.Models", "NetSyncSessionList");

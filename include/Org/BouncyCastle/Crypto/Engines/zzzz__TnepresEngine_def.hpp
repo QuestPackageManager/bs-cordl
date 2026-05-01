@@ -19,48 +19,48 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.TnepresEngine
 class CORDL_TYPE TnepresEngine : public ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-/// @brief Method DecryptBlock, addr 0x32d3910, size 0x171c, virtual true, abstract: false, final false
-inline void DecryptBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
+  /// @brief Method DecryptBlock, addr 0x330ff54, size 0x171c, virtual true, abstract: false, final false
+  inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-/// @brief Method EncryptBlock, addr 0x32d24a4, size 0x146c, virtual true, abstract: false, final false
-inline void EncryptBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
+  /// @brief Method EncryptBlock, addr 0x330eae8, size 0x146c, virtual true, abstract: false, final false
+  inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-/// @brief Method MakeWorkingKey, addr 0x32d0fd4, size 0x14d0, virtual true, abstract: false, final false
-inline ::ArrayW<int32_t,::Array<int32_t>*> MakeWorkingKey(::ArrayW<uint8_t,::Array<uint8_t>*>  key) ;
+  /// @brief Method MakeWorkingKey, addr 0x330d618, size 0x14d0, virtual true, abstract: false, final false
+  inline ::ArrayW<int32_t, ::Array<int32_t>*> MakeWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-static inline ::Org::BouncyCastle::Crypto::Engines::TnepresEngine* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::TnepresEngine* New_ctor();
 
-/// @brief Method .ctor, addr 0x32d502c, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3311670, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_AlgorithmName, addr 0x32d0f90, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x330d5d4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TnepresEngine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TnepresEngine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TnepresEngine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TnepresEngine(TnepresEngine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TnepresEngine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TnepresEngine(TnepresEngine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TnepresEngine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TnepresEngine(TnepresEngine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TnepresEngine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TnepresEngine(TnepresEngine const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 880 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{880};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::TnepresEngine, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Engines
+} // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::TnepresEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::TnepresEngine*, "Org.BouncyCastle.Crypto.Engines", "TnepresEngine");

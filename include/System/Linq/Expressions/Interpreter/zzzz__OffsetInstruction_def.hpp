@@ -8,15 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OffsetInstruction)
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
@@ -33,62 +31,63 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.OffsetInstruction
 class CORDL_TYPE OffsetInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-// Declarations
- __declspec(property(get=get_Cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*,::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>  Cache;
+  // Declarations
+  __declspec(property(get = get_Cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> Cache;
 
-/// @brief Field _offset, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get__offset, put=__cordl_internal_set__offset)) int32_t  _offset;
+  /// @brief Field _offset, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
 
-/// @brief Method Fixup, addr 0x5ddad38, size 0x90, virtual false, abstract: false, final false
-inline ::System::Linq::Expressions::Interpreter::Instruction* Fixup(int32_t  offset) ;
+  /// @brief Method Fixup, addr 0x5e4cd44, size 0x90, virtual false, abstract: false, final false
+  inline ::System::Linq::Expressions::Interpreter::Instruction* Fixup(int32_t offset);
 
-static inline ::System::Linq::Expressions::Interpreter::OffsetInstruction* New_ctor() ;
+  static inline ::System::Linq::Expressions::Interpreter::OffsetInstruction* New_ctor();
 
-/// @brief Method ToDebugString, addr 0x5ddadc8, size 0xc8, virtual true, abstract: false, final false
-inline ::StringW ToDebugString(int32_t  instructionIndex, ::System::Object*  cookie, ::System::Func_2<int32_t,int32_t>*  labelIndexer, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*  objects) ;
+  /// @brief Method ToDebugString, addr 0x5e4cdd4, size 0xc8, virtual true, abstract: false, final false
+  inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
+                                 ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-/// @brief Method ToString, addr 0x5ddae90, size 0xd0, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5e4ce9c, size 0xd0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr int32_t const& __cordl_internal_get__offset() const;
+  constexpr int32_t const& __cordl_internal_get__offset() const;
 
-constexpr int32_t& __cordl_internal_get__offset() ;
+  constexpr int32_t& __cordl_internal_get__offset();
 
-constexpr void __cordl_internal_set__offset(int32_t  value) ;
+  constexpr void __cordl_internal_set__offset(int32_t value);
 
-/// @brief Method .ctor, addr 0x5ddaf60, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e4cf6c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Cache, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*,::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> get_Cache() ;
+  /// @brief Method get_Cache, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> get_Cache();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OffsetInstruction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OffsetInstruction();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OffsetInstruction", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OffsetInstruction(OffsetInstruction&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OffsetInstruction", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OffsetInstruction(OffsetInstruction && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OffsetInstruction", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OffsetInstruction(OffsetInstruction const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OffsetInstruction", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OffsetInstruction(OffsetInstruction const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16254 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16246};
+  /// @brief Field _offset, offset: 0x10, size: 0x4, def value: None
+  int32_t ____offset;
 
-/// @brief Field _offset, offset: 0x10, size: 0x4, def value: None
- int32_t  ____offset;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::OffsetInstruction, ____offset) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::OffsetInstruction, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::OffsetInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::OffsetInstruction*, "System.Linq.Expressions.Interpreter", "OffsetInstruction");

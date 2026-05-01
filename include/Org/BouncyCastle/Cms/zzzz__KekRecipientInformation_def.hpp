@@ -29,51 +29,51 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.KekRecipientInformation
 class CORDL_TYPE KekRecipientInformation : public ::Org::BouncyCastle::Cms::RecipientInformation {
 public:
-// Declarations
-/// @brief Field info, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_info, put=__cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*  info;
+  // Declarations
+  /// @brief Field info, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info;
 
-/// @brief Method GetContentStream, addr 0x35d1c04, size 0x344, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters*  key) ;
+  /// @brief Method GetContentStream, addr 0x360e248, size 0x344, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*  info, ::Org::BouncyCastle::Cms::CmsSecureReadable*  secureReadable) ;
+  static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* const& __cordl_internal_get_info() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* const& __cordl_internal_get_info() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*& __cordl_internal_get_info() ;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*& __cordl_internal_get_info();
 
-constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*  value) ;
+  constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* value);
 
-/// @brief Method .ctor, addr 0x35b31e8, size 0xac, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*  info, ::Org::BouncyCastle::Cms::CmsSecureReadable*  secureReadable) ;
+  /// @brief Method .ctor, addr 0x35ef82c, size 0xac, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr KekRecipientInformation() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KekRecipientInformation();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInformation", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  KekRecipientInformation(KekRecipientInformation&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "KekRecipientInformation", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-KekRecipientInformation(KekRecipientInformation && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInformation", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  KekRecipientInformation(KekRecipientInformation const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "KekRecipientInformation", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-KekRecipientInformation(KekRecipientInformation const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 672 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{672};
+  /// @brief Field info, offset: 0x30, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* ___info;
 
-/// @brief Field info, offset: 0x30, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*  ___info;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Cms::KekRecipientInformation, ___info) == 0x30, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::KekRecipientInformation, 0x38>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Cms
+} // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::KekRecipientInformation);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::KekRecipientInformation*, "Org.BouncyCastle.Cms", "KekRecipientInformation");

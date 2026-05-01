@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithNetSyncSessionList
 class CORDL_TYPE MessageWithNetSyncSessionList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionList*> {
 public:
-// Declarations
-/// @brief Method GetDataFromMessage, addr 0x5c2df50, size 0x9c, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(::System::IntPtr  c_message) ;
+  // Declarations
+  /// @brief Method GetDataFromMessage, addr 0x5c9ff38, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(::System::IntPtr c_message);
 
-/// @brief Method GetNetSyncSessionList, addr 0x5c2df0c, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList() ;
+  /// @brief Method GetNetSyncSessionList, addr 0x5c9fef4, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
 
-static inline ::Oculus::Platform::MessageWithNetSyncSessionList* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithNetSyncSessionList* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c2deb0, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5c9fe98, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithNetSyncSessionList() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithNetSyncSessionList();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithNetSyncSessionList", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithNetSyncSessionList(MessageWithNetSyncSessionList&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithNetSyncSessionList", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithNetSyncSessionList(MessageWithNetSyncSessionList && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithNetSyncSessionList", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithNetSyncSessionList(MessageWithNetSyncSessionList const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithNetSyncSessionList", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithNetSyncSessionList(MessageWithNetSyncSessionList const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17881 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17873};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithNetSyncSessionList, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithNetSyncSessionList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithNetSyncSessionList*, "Oculus.Platform", "MessageWithNetSyncSessionList");

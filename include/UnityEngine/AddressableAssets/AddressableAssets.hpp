@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/AddressableAssets/Addressables.hpp"
 #include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
@@ -24,6 +24,5 @@
 #include "UnityEngine/AddressableAssets/ResourceLocatorInfo.hpp"
 #include "UnityEngine/AddressableAssets/UpdateCatalogsOperation.hpp"
 #ifdef __cpp_modules
-                    export module AddressableAssets;
-                    #endif
-                
+export module AddressableAssets;
+#endif

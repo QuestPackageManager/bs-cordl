@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ButtonWithIcon_def.hpp"
 CORDL_MODULE_EXPORT(Toggle)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
@@ -21,82 +20,82 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.Toggle
 class CORDL_TYPE Toggle : public ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithIcon {
 public:
-// Declarations
- __declspec(property(get=get_State, put=set_State)) bool  State;
+  // Declarations
+  __declspec(property(get = get_State, put = set_State)) bool State;
 
- __declspec(property(get=get_StateChanged, put=set_StateChanged)) ::System::Action_1<bool>*  StateChanged;
+  __declspec(property(get = get_StateChanged, put = set_StateChanged)) ::System::Action_1<bool>* StateChanged;
 
-/// @brief Field <StateChanged>k__BackingField, offset 0xb0, size 0x8 
- __declspec(property(get=__cordl_internal_get__StateChanged_k__BackingField, put=__cordl_internal_set__StateChanged_k__BackingField)) ::System::Action_1<bool>*  _StateChanged_k__BackingField;
+  /// @brief Field <StateChanged>k__BackingField, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__StateChanged_k__BackingField, put = __cordl_internal_set__StateChanged_k__BackingField)) ::System::Action_1<bool>* _StateChanged_k__BackingField;
 
-/// @brief Field _state, offset 0xa8, size 0x1 
- __declspec(property(get=__cordl_internal_get__state, put=__cordl_internal_set__state)) bool  _state;
+  /// @brief Field _state, offset 0xa8, size 0x1
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) bool _state;
 
-static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle* New_ctor() ;
+  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle* New_ctor();
 
-/// @brief Method OnStateChanged, addr 0x58af538, size 0x48, virtual false, abstract: false, final false
-inline void OnStateChanged() ;
+  /// @brief Method OnStateChanged, addr 0x59214a4, size 0x48, virtual false, abstract: false, final false
+  inline void OnStateChanged();
 
-/// @brief Method ToggleState, addr 0x58af580, size 0x10, virtual false, abstract: false, final false
-inline void ToggleState() ;
+  /// @brief Method ToggleState, addr 0x59214ec, size 0x10, virtual false, abstract: false, final false
+  inline void ToggleState();
 
-/// @brief Method UpdateBackground, addr 0x58af5a0, size 0x164, virtual true, abstract: false, final false
-inline void UpdateBackground() ;
+  /// @brief Method UpdateBackground, addr 0x592150c, size 0x164, virtual true, abstract: false, final false
+  inline void UpdateBackground();
 
-/// @brief Method UpdateIcon, addr 0x58af704, size 0x1bc, virtual true, abstract: false, final false
-inline void UpdateIcon() ;
+  /// @brief Method UpdateIcon, addr 0x5921670, size 0x1bc, virtual true, abstract: false, final false
+  inline void UpdateIcon();
 
-constexpr ::System::Action_1<bool>* const& __cordl_internal_get__StateChanged_k__BackingField() const;
+  constexpr ::System::Action_1<bool>* const& __cordl_internal_get__StateChanged_k__BackingField() const;
 
-constexpr ::System::Action_1<bool>*& __cordl_internal_get__StateChanged_k__BackingField() ;
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get__StateChanged_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__state() const;
+  constexpr bool const& __cordl_internal_get__state() const;
 
-constexpr bool& __cordl_internal_get__state() ;
+  constexpr bool& __cordl_internal_get__state();
 
-constexpr void __cordl_internal_set__StateChanged_k__BackingField(::System::Action_1<bool>*  value) ;
+  constexpr void __cordl_internal_set__StateChanged_k__BackingField(::System::Action_1<bool>* value);
 
-constexpr void __cordl_internal_set__state(bool  value) ;
+  constexpr void __cordl_internal_set__state(bool value);
 
-/// @brief Method .ctor, addr 0x58af8c0, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x592182c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_State, addr 0x58af514, size 0x8, virtual false, abstract: false, final false
-inline bool get_State() ;
+  /// @brief Method get_State, addr 0x5921480, size 0x8, virtual false, abstract: false, final false
+  inline bool get_State();
 
-/// @brief Method get_StateChanged, addr 0x58af590, size 0x8, virtual false, abstract: false, final false
-inline ::System::Action_1<bool>* get_StateChanged() ;
+  /// @brief Method get_StateChanged, addr 0x59214fc, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Action_1<bool>* get_StateChanged();
 
-/// @brief Method set_State, addr 0x58af51c, size 0x1c, virtual false, abstract: false, final false
-inline void set_State(bool  value) ;
+  /// @brief Method set_State, addr 0x5921488, size 0x1c, virtual false, abstract: false, final false
+  inline void set_State(bool value);
 
-/// @brief Method set_StateChanged, addr 0x58af598, size 0x8, virtual false, abstract: false, final false
-inline void set_StateChanged(::System::Action_1<bool>*  value) ;
+  /// @brief Method set_StateChanged, addr 0x5921504, size 0x8, virtual false, abstract: false, final false
+  inline void set_StateChanged(::System::Action_1<bool>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Toggle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Toggle();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Toggle(Toggle&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Toggle(Toggle && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Toggle(Toggle const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Toggle(Toggle const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18379};
+  /// @brief Field _state, offset: 0xa8, size: 0x1, def value: None
+  bool ____state;
 
-/// @brief Field _state, offset: 0xa8, size: 0x1, def value: None
- bool  ____state;
+  /// @brief Field <StateChanged>k__BackingField, offset: 0xb0, size: 0x8, def value: None
+  ::System::Action_1<bool>* ____StateChanged_k__BackingField;
 
-/// @brief Field <StateChanged>k__BackingField, offset: 0xb0, size: 0x8, def value: None
- ::System::Action_1<bool>*  ____StateChanged_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle, ____state) == 0xa8, "Offset mismatch!");
@@ -105,6 +104,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::To
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle, 0xb8>, "Size mismatch!");
 
-} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface::Generic
+} // namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "Toggle");

@@ -23,37 +23,37 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.FixedPointCombMultiplier
 class CORDL_TYPE FixedPointCombMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
-// Declarations
-/// @brief Method MultiplyPositive, addr 0x3411944, size 0x2ac, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint*  p, ::Org::BouncyCastle::Math::BigInteger*  k) ;
+  // Declarations
+  /// @brief Method MultiplyPositive, addr 0x344df88, size 0x2ac, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier* New_ctor() ;
+  static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier* New_ctor();
 
-/// @brief Method .ctor, addr 0x3411d50, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x344e394, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FixedPointCombMultiplier() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixedPointCombMultiplier();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FixedPointCombMultiplier", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FixedPointCombMultiplier(FixedPointCombMultiplier&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FixedPointCombMultiplier", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FixedPointCombMultiplier(FixedPointCombMultiplier && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FixedPointCombMultiplier", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FixedPointCombMultiplier(FixedPointCombMultiplier const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FixedPointCombMultiplier", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FixedPointCombMultiplier(FixedPointCombMultiplier const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1529 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1529};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Math::EC::Multiplier
+} // namespace Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointCombMultiplier");

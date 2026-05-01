@@ -12,87 +12,87 @@ struct BatchDrawCommandFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchDrawCommandFlags);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.BatchDrawCommandFlags
 struct CORDL_TYPE BatchDrawCommandFlags {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __BatchDrawCommandFlags_Unwrapped
-enum struct __BatchDrawCommandFlags_Unwrapped : int32_t {
-__E_None = static_cast<int32_t>(0x0),
-__E_FlipWinding = static_cast<int32_t>(0x1),
-__E_HasMotion = static_cast<int32_t>(0x2),
-__E_IsLightMapped = static_cast<int32_t>(0x4),
-__E_HasSortingPosition = static_cast<int32_t>(0x8),
-__E_LODCrossFadeKeyword = static_cast<int32_t>(0x10),
-__E_LODCrossFadeValuePacked = static_cast<int32_t>(0x20),
-__E_LODCrossFade = static_cast<int32_t>(0x30),
-__E_UseLegacyLightmapsKeyword = static_cast<int32_t>(0x40),
-};
+  /// @brief Nested struct __BatchDrawCommandFlags_Unwrapped
+  enum struct __BatchDrawCommandFlags_Unwrapped : int32_t {
+    __E_None = static_cast<int32_t>(0x0),
+    __E_FlipWinding = static_cast<int32_t>(0x1),
+    __E_HasMotion = static_cast<int32_t>(0x2),
+    __E_IsLightMapped = static_cast<int32_t>(0x4),
+    __E_HasSortingPosition = static_cast<int32_t>(0x8),
+    __E_LODCrossFadeKeyword = static_cast<int32_t>(0x10),
+    __E_LODCrossFadeValuePacked = static_cast<int32_t>(0x20),
+    __E_LODCrossFade = static_cast<int32_t>(0x30),
+    __E_UseLegacyLightmapsKeyword = static_cast<int32_t>(0x40),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __BatchDrawCommandFlags_Unwrapped () const noexcept {
-return static_cast<__BatchDrawCommandFlags_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __BatchDrawCommandFlags_Unwrapped() const noexcept {
+    return static_cast<__BatchDrawCommandFlags_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BatchDrawCommandFlags() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BatchDrawCommandFlags();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr BatchDrawCommandFlags(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BatchDrawCommandFlags(int32_t value__) noexcept;
 
-/// @brief Field FlipWinding value: I32(1)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const FlipWinding;
+  /// @brief Field FlipWinding value: I32(1)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const FlipWinding;
 
-/// @brief Field HasMotion value: I32(2)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const HasMotion;
+  /// @brief Field HasMotion value: I32(2)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const HasMotion;
 
-/// @brief Field HasSortingPosition value: I32(8)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const HasSortingPosition;
+  /// @brief Field HasSortingPosition value: I32(8)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const HasSortingPosition;
 
-/// @brief Field IsLightMapped value: I32(4)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const IsLightMapped;
+  /// @brief Field IsLightMapped value: I32(4)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const IsLightMapped;
 
-/// @brief Field LODCrossFade value: I32(48)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFade;
+  /// @brief Field LODCrossFade value: I32(48)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFade;
 
-/// @brief Field LODCrossFadeKeyword value: I32(16)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFadeKeyword;
+  /// @brief Field LODCrossFadeKeyword value: I32(16)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFadeKeyword;
 
-/// @brief Field LODCrossFadeValuePacked value: I32(32)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFadeValuePacked;
+  /// @brief Field LODCrossFadeValuePacked value: I32(32)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFadeValuePacked;
 
-/// @brief Field None value: I32(0)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const None;
+  /// @brief Field None value: I32(0)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const None;
 
-/// @brief Field UseLegacyLightmapsKeyword value: I32(64)
-static ::UnityEngine::Rendering::BatchDrawCommandFlags const UseLegacyLightmapsKeyword;
+  /// @brief Field UseLegacyLightmapsKeyword value: I32(64)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const UseLegacyLightmapsKeyword;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10832};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10839 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawCommandFlags, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchDrawCommandFlags, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchDrawCommandFlags, "UnityEngine.Rendering", "BatchDrawCommandFlags");

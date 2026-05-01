@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "OculusStudios/Platform/Oculus/Entitlements.hpp"
 #include "OculusStudios/Platform/Oculus/MockedOculusPlatform.hpp"
@@ -13,6 +13,5 @@
 #include "OculusStudios/Platform/Oculus/OculusPlatformResponseException.hpp"
 #include "OculusStudios/Platform/Oculus/PlatformUser.hpp"
 #ifdef __cpp_modules
-                    export module Oculus;
-                    #endif
-                
+export module Oculus;
+#endif

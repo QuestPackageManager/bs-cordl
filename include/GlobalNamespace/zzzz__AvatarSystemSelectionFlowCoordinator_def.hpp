@@ -43,23 +43,19 @@ namespace HMUI {
 class ViewController;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System {
-template<typename T1,typename T2>
-class Action_2;
+template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
 class DiContainer;
@@ -78,115 +74,126 @@ struct AvatarSystemSelectionFlowCoordinator__Initialize_d__10;
 MARK_VAL_T(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction);
 MARK_REF_PTR_T(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator);
 MARK_VAL_T(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__10);
-// Dependencies 
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: AvatarSystemSelectionFlowCoordinator/FinishAction
 struct CORDL_TYPE AvatarSystemSelectionFlowCoordinator_FinishAction {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped
-enum struct __AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped : int32_t {
-__E_Continue = static_cast<int32_t>(0x0),
-__E_Back = static_cast<int32_t>(0x1),
-};
+  /// @brief Nested struct __AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped
+  enum struct __AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped : int32_t {
+    __E_Continue = static_cast<int32_t>(0x0),
+    __E_Back = static_cast<int32_t>(0x1),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped () const noexcept {
-return static_cast<__AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped() const noexcept {
+    return static_cast<__AvatarSystemSelectionFlowCoordinator_FinishAction_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AvatarSystemSelectionFlowCoordinator_FinishAction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSystemSelectionFlowCoordinator_FinishAction();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr AvatarSystemSelectionFlowCoordinator_FinishAction(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AvatarSystemSelectionFlowCoordinator_FinishAction(int32_t value__) noexcept;
 
-/// @brief Field Back value: I32(1)
-static ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction const Back;
+  /// @brief Field Back value: I32(1)
+  static ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction const Back;
 
-/// @brief Field Continue value: I32(0)
-static ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction const Continue;
+  /// @brief Field Continue value: I32(0)
+  static ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction const Continue;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6357};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6367 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction, 0x4>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: AvatarSystemSelectionFlowCoordinator/<Initialize>d__10
 struct CORDL_TYPE AvatarSystemSelectionFlowCoordinator__Initialize_d__10 {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-/// @brief Method MoveNext, addr 0x585da2c, size 0x71c, virtual true, abstract: false, final true
-inline void MoveNext() ;
+  /// @brief Method MoveNext, addr 0x58d21e0, size 0x71c, virtual true, abstract: false, final true
+  inline void MoveNext();
 
-/// @brief Method SetStateMachine, addr 0x585e148, size 0x8, virtual true, abstract: false, final true
-inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+  /// @brief Method SetStateMachine, addr 0x58d28fc, size 0x8, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AvatarSystemSelectionFlowCoordinator__Initialize_d__10() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSystemSelectionFlowCoordinator__Initialize_d__10();
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "avatarSystemsMetadata", ty: "::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::System::Collections::Generic::IEnumerator_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*", modifiers: "", def_value: None }, CppParam { name: "_selectableAvatarSystemMetadata_5__3", ty: "::BeatSaber::AvatarCore::IAvatarSystemMetadata*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>", modifiers: "", def_value: None }]
-constexpr AvatarSystemSelectionFlowCoordinator__Initialize_d__10(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder, ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*  avatarSystemsMetadata, ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>  __4__this, ::System::Collections::Generic::IEnumerator_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*  __7__wrap1, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*  _selectableAvatarSystemMetadata_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>  __u__1) noexcept;
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "avatarSystemsMetadata", ty:
+  // "::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty:
+  // "::System::Collections::Generic::IEnumerator_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*", modifiers: "", def_value: None }, CppParam { name: "_selectableAvatarSystemMetadata_5__3", ty:
+  // "::BeatSaber::AvatarCore::IAvatarSystemMetadata*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>", modifiers: "", def_value: None }]
+  constexpr AvatarSystemSelectionFlowCoordinator__Initialize_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                   ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* avatarSystemsMetadata,
+                                                                   ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator> __4__this,
+                                                                   ::System::Collections::Generic::IEnumerator_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* __7__wrap1,
+                                                                   ::BeatSaber::AvatarCore::IAvatarSystemMetadata* _selectableAvatarSystemMetadata_5__3,
+                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6358};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6368 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x50};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
-/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
- int32_t  __1__state;
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
 
-/// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
- ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
-/// @brief Field avatarSystemsMetadata, offset: 0x28, size: 0x8, def value: None
- ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*  avatarSystemsMetadata;
+  /// @brief Field avatarSystemsMetadata, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* avatarSystemsMetadata;
 
-/// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>  __4__this;
+  /// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator> __4__this;
 
-/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
- ::System::Collections::Generic::IEnumerator_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*  __7__wrap1;
+  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerator_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* __7__wrap1;
 
-/// @brief Field <selectableAvatarSystemMetadata>5__3, offset: 0x40, size: 0x8, def value: None
- ::BeatSaber::AvatarCore::IAvatarSystemMetadata*  _selectableAvatarSystemMetadata_5__3;
+  /// @brief Field <selectableAvatarSystemMetadata>5__3, offset: 0x40, size: 0x8, def value: None
+  ::BeatSaber::AvatarCore::IAvatarSystemMetadata* _selectableAvatarSystemMetadata_5__3;
 
-/// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>  __u__1;
+  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__10, __1__state) == 0x0, "Offset mismatch!");
@@ -205,170 +212,182 @@ static_assert(offsetof(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__10, 0x50>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies HMUI.FlowCoordinator
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: AvatarSystemSelectionFlowCoordinator
 class CORDL_TYPE AvatarSystemSelectionFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
-// Declarations
-using FinishAction = ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction;
+  // Declarations
+  using FinishAction = ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction;
 
-using _Initialize_d__10 = ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__10;
+  using _Initialize_d__10 = ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__10;
 
-/// @brief Field _avatarFlowCoordinators, offset 0xd8, size 0x8 
- __declspec(property(get=__cordl_internal_get__avatarFlowCoordinators, put=__cordl_internal_set__avatarFlowCoordinators)) ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier,::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>*  _avatarFlowCoordinators;
+  /// @brief Field _avatarFlowCoordinators, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarFlowCoordinators, put = __cordl_internal_set__avatarFlowCoordinators)) ::System::Collections::Generic::Dictionary_2<
+      ::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* _avatarFlowCoordinators;
 
-/// @brief Field _avatarSystemCollection, offset 0xb8, size 0x8 
- __declspec(property(get=__cordl_internal_get__avatarSystemCollection, put=__cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection*  _avatarSystemCollection;
+  /// @brief Field _avatarSystemCollection, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
-/// @brief Field _container, offset 0xc8, size 0x8 
- __declspec(property(get=__cordl_internal_get__container, put=__cordl_internal_set__container)) ::Zenject::DiContainer*  _container;
+  /// @brief Field _container, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-/// @brief Field _continueButtonVisible, offset 0xe0, size 0x1 
- __declspec(property(get=__cordl_internal_get__continueButtonVisible, put=__cordl_internal_set__continueButtonVisible)) bool  _continueButtonVisible;
+  /// @brief Field _continueButtonVisible, offset 0xe0, size 0x1
+  __declspec(property(get = __cordl_internal_get__continueButtonVisible, put = __cordl_internal_set__continueButtonVisible)) bool _continueButtonVisible;
 
-/// @brief Field _playerDataModel, offset 0xc0, size 0x8 
- __declspec(property(get=__cordl_internal_get__playerDataModel, put=__cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel>  _playerDataModel;
+  /// @brief Field _playerDataModel, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-/// @brief Field _selectAvatarSystemViewController, offset 0xb0, size 0x8 
- __declspec(property(get=__cordl_internal_get__selectAvatarSystemViewController, put=__cordl_internal_set__selectAvatarSystemViewController)) ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController>  _selectAvatarSystemViewController;
+  /// @brief Field _selectAvatarSystemViewController, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectAvatarSystemViewController,
+                      put = __cordl_internal_set__selectAvatarSystemViewController)) ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController>
+      _selectAvatarSystemViewController;
 
-/// @brief Field didFinishEvent, offset 0xd0, size 0x8 
- __declspec(property(get=__cordl_internal_get_didFinishEvent, put=__cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*  didFinishEvent;
+  /// @brief Field didFinishEvent, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,
+                                                                                     ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* didFinishEvent;
 
-/// @brief Method BackButtonWasPressed, addr 0x585d8a4, size 0x24, virtual true, abstract: false, final false
-inline void BackButtonWasPressed(::HMUI::ViewController*  topViewController) ;
+  /// @brief Method BackButtonWasPressed, addr 0x58d2058, size 0x24, virtual true, abstract: false, final false
+  inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-/// @brief Method DidActivate, addr 0x585cf08, size 0x200, virtual true, abstract: false, final false
-inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
+  /// @brief Method DidActivate, addr 0x58d16bc, size 0x200, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-/// @brief Method DidDeactivate, addr 0x585d108, size 0x194, virtual true, abstract: false, final false
-inline void DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling) ;
+  /// @brief Method DidDeactivate, addr 0x58d18bc, size 0x194, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-/// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x585d760, size 0x120, virtual false, abstract: false, final false
-inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*  flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*  avatarSystem, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction  finishAction) ;
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x58d1f14, size 0x120, virtual false, abstract: false, final false
+  inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem,
+                                                         ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction finishAction);
 
-/// @brief Method HandleSelectAvatarSystemViewControllerDidPressContinueButton, addr 0x585d880, size 0x24, virtual false, abstract: false, final false
-inline void HandleSelectAvatarSystemViewControllerDidPressContinueButton() ;
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidPressContinueButton, addr 0x58d2034, size 0x24, virtual false, abstract: false, final false
+  inline void HandleSelectAvatarSystemViewControllerDidPressContinueButton();
 
-/// @brief Method HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar, addr 0x585d5e0, size 0x180, virtual false, abstract: false, final false
-inline void HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar(::BeatSaber::AvatarCore::IAvatarSystemMetadata*  avatarSystem) ;
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar, addr 0x58d1d94, size 0x180, virtual false, abstract: false, final false
+  inline void HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-/// @brief Method HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar, addr 0x585d460, size 0x180, virtual false, abstract: false, final false
-inline void HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar(::BeatSaber::AvatarCore::IAvatarSystemMetadata*  avatarSystem) ;
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar, addr 0x58d1c14, size 0x180, virtual false, abstract: false, final false
+  inline void HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-/// @brief Method HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred, addr 0x585d45c, size 0x4, virtual false, abstract: false, final false
-inline void HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred(::BeatSaber::AvatarCore::IAvatarSystemMetadata*  avatarSystem) ;
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred, addr 0x58d1c10, size 0x4, virtual false, abstract: false, final false
+  inline void HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-/// @brief Method Initialize, addr 0x585ce50, size 0xb0, virtual false, abstract: false, final false
-inline void Initialize(::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*  avatarSystemsMetadata) ;
+  /// @brief Method Initialize, addr 0x58d1604, size 0xb0, virtual false, abstract: false, final false
+  inline void Initialize(::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* avatarSystemsMetadata);
 
-static inline ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator* New_ctor() ;
+  static inline ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator* New_ctor();
 
-/// @brief Method SetAvatarSystemPreferred, addr 0x585d328, size 0x134, virtual false, abstract: false, final false
-inline void SetAvatarSystemPreferred(::BeatSaber::AvatarCore::IAvatarSystemMetadata*  avatarSystem) ;
+  /// @brief Method SetAvatarSystemPreferred, addr 0x58d1adc, size 0x134, virtual false, abstract: false, final false
+  inline void SetAvatarSystemPreferred(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-/// @brief Method Setup, addr 0x585cf00, size 0x8, virtual false, abstract: false, final false
-inline void Setup(bool  continueButtonVisible) ;
+  /// @brief Method Setup, addr 0x58d16b4, size 0x8, virtual false, abstract: false, final false
+  inline void Setup(bool continueButtonVisible);
 
-/// @brief Method TopViewControllerWillChange, addr 0x585d29c, size 0x8c, virtual true, abstract: false, final false
-inline void TopViewControllerWillChange(::HMUI::ViewController*  oldViewController, ::HMUI::ViewController*  newViewController, ::HMUI::ViewController_AnimationType  animationType) ;
+  /// @brief Method TopViewControllerWillChange, addr 0x58d1a50, size 0x8c, virtual true, abstract: false, final false
+  inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-/// @brief Method <Initialize>b__10_0, addr 0x585d968, size 0xc4, virtual false, abstract: false, final false
-inline bool _Initialize_b__10_0(::BeatSaber::AvatarCore::IAvatarSystemMetadata*  avatarSystem) ;
+  /// @brief Method <Initialize>b__10_0, addr 0x58d211c, size 0xc4, virtual false, abstract: false, final false
+  inline bool _Initialize_b__10_0(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier,::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* const& __cordl_internal_get__avatarFlowCoordinators() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* const&
+  __cordl_internal_get__avatarFlowCoordinators() const;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier,::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>*& __cordl_internal_get__avatarFlowCoordinators() ;
+  constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>*&
+  __cordl_internal_get__avatarFlowCoordinators();
 
-constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
 
-constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection() ;
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
 
-constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
-constexpr ::Zenject::DiContainer*& __cordl_internal_get__container() ;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-constexpr bool const& __cordl_internal_get__continueButtonVisible() const;
+  constexpr bool const& __cordl_internal_get__continueButtonVisible() const;
 
-constexpr bool& __cordl_internal_get__continueButtonVisible() ;
+  constexpr bool& __cordl_internal_get__continueButtonVisible();
 
-constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel() ;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-constexpr ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController> const& __cordl_internal_get__selectAvatarSystemViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController> const& __cordl_internal_get__selectAvatarSystemViewController() const;
 
-constexpr ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController>& __cordl_internal_get__selectAvatarSystemViewController() ;
+  constexpr ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController>& __cordl_internal_get__selectAvatarSystemViewController();
 
-constexpr ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* const&
+  __cordl_internal_get_didFinishEvent() const;
 
-constexpr ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*& __cordl_internal_get_didFinishEvent() ;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*&
+  __cordl_internal_get_didFinishEvent();
 
-constexpr void __cordl_internal_set__avatarFlowCoordinators(::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier,::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>*  value) ;
+  constexpr void __cordl_internal_set__avatarFlowCoordinators(
+      ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* value);
 
-constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection*  value) ;
+  constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
 
-constexpr void __cordl_internal_set__container(::Zenject::DiContainer*  value) ;
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-constexpr void __cordl_internal_set__continueButtonVisible(bool  value) ;
+  constexpr void __cordl_internal_set__continueButtonVisible(bool value);
 
-constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel>  value) ;
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-constexpr void __cordl_internal_set__selectAvatarSystemViewController(::UnityW<::GlobalNamespace::SelectAvatarSystemViewController>  value) ;
+  constexpr void __cordl_internal_set__selectAvatarSystemViewController(::UnityW<::GlobalNamespace::SelectAvatarSystemViewController> value);
 
-constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*  value) ;
+  constexpr void __cordl_internal_set_didFinishEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
-/// @brief Method .ctor, addr 0x585d8c8, size 0xa0, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58d207c, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_didFinishEvent, addr 0x585ccd0, size 0xc0, virtual false, abstract: false, final false
-inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*  value) ;
+  /// @brief Method add_didFinishEvent, addr 0x58d1484, size 0xc0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
-/// @brief Method remove_didFinishEvent, addr 0x585cd90, size 0xc0, virtual false, abstract: false, final false
-inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*  value) ;
+  /// @brief Method remove_didFinishEvent, addr 0x58d1544, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AvatarSystemSelectionFlowCoordinator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSystemSelectionFlowCoordinator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemSelectionFlowCoordinator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AvatarSystemSelectionFlowCoordinator(AvatarSystemSelectionFlowCoordinator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AvatarSystemSelectionFlowCoordinator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AvatarSystemSelectionFlowCoordinator(AvatarSystemSelectionFlowCoordinator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemSelectionFlowCoordinator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AvatarSystemSelectionFlowCoordinator(AvatarSystemSelectionFlowCoordinator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AvatarSystemSelectionFlowCoordinator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AvatarSystemSelectionFlowCoordinator(AvatarSystemSelectionFlowCoordinator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6369 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6359};
+  /// @brief Field _selectAvatarSystemViewController, offset: 0xb0, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController> ____selectAvatarSystemViewController;
 
-/// @brief Field _selectAvatarSystemViewController, offset: 0xb0, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController>  ____selectAvatarSystemViewController;
+  /// @brief Field _avatarSystemCollection, offset: 0xb8, size: 0x8, def value: None
+  ::BeatSaber::AvatarCore::AvatarSystemCollection* ____avatarSystemCollection;
 
-/// @brief Field _avatarSystemCollection, offset: 0xb8, size: 0x8, def value: None
- ::BeatSaber::AvatarCore::AvatarSystemCollection*  ____avatarSystemCollection;
+  /// @brief Field _playerDataModel, offset: 0xc0, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-/// @brief Field _playerDataModel, offset: 0xc0, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::PlayerDataModel>  ____playerDataModel;
+  /// @brief Field _container, offset: 0xc8, size: 0x8, def value: None
+  ::Zenject::DiContainer* ____container;
 
-/// @brief Field _container, offset: 0xc8, size: 0x8, def value: None
- ::Zenject::DiContainer*  ____container;
+  /// @brief Field didFinishEvent, offset: 0xd0, size: 0x8, def value: None
+  ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* ___didFinishEvent;
 
-/// @brief Field didFinishEvent, offset: 0xd0, size: 0x8, def value: None
- ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*  ___didFinishEvent;
+  /// @brief Field _avatarFlowCoordinators, offset: 0xd8, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* ____avatarFlowCoordinators;
 
-/// @brief Field _avatarFlowCoordinators, offset: 0xd8, size: 0x8, def value: None
- ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier,::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>*  ____avatarFlowCoordinators;
+  /// @brief Field _continueButtonVisible, offset: 0xe0, size: 0x1, def value: None
+  bool ____continueButtonVisible;
 
-/// @brief Field _continueButtonVisible, offset: 0xe0, size: 0x1, def value: None
- bool  ____continueButtonVisible;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator, ____selectAvatarSystemViewController) == 0xb0, "Offset mismatch!");
@@ -387,7 +406,7 @@ static_assert(offsetof(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator, 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator, 0xe8>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction, "", "AvatarSystemSelectionFlowCoordinator/FinishAction");
 NEED_NO_BOX(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, "", "AvatarSystemSelectionFlowCoordinator");

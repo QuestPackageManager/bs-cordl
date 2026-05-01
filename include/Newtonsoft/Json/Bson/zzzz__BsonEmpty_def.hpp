@@ -24,67 +24,67 @@ namespace Newtonsoft::Json::Bson {
 // CS Name: Newtonsoft.Json.Bson.BsonEmpty
 class CORDL_TYPE BsonEmpty : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
-// Declarations
-/// @brief Field Null, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Null, put=setStaticF_Null)) ::Newtonsoft::Json::Bson::BsonToken*  Null;
+  // Declarations
+  /// @brief Field Null, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Null, put = setStaticF_Null)) ::Newtonsoft::Json::Bson::BsonToken* Null;
 
- __declspec(property(get=get_Type)) ::Newtonsoft::Json::Bson::BsonType  Type;
+  __declspec(property(get = get_Type)) ::Newtonsoft::Json::Bson::BsonType Type;
 
-/// @brief Field Undefined, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Undefined, put=setStaticF_Undefined)) ::Newtonsoft::Json::Bson::BsonToken*  Undefined;
+  /// @brief Field Undefined, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Undefined, put = setStaticF_Undefined)) ::Newtonsoft::Json::Bson::BsonToken* Undefined;
 
-/// @brief Field <Type>k__BackingField, offset 0x1c, size 0x1 
- __declspec(property(get=__cordl_internal_get__Type_k__BackingField, put=__cordl_internal_set__Type_k__BackingField)) ::Newtonsoft::Json::Bson::BsonType  _Type_k__BackingField;
+  /// @brief Field <Type>k__BackingField, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::Newtonsoft::Json::Bson::BsonType _Type_k__BackingField;
 
-static inline ::Newtonsoft::Json::Bson::BsonEmpty* New_ctor(::Newtonsoft::Json::Bson::BsonType  type) ;
+  static inline ::Newtonsoft::Json::Bson::BsonEmpty* New_ctor(::Newtonsoft::Json::Bson::BsonType type);
 
-constexpr ::Newtonsoft::Json::Bson::BsonType const& __cordl_internal_get__Type_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::Bson::BsonType const& __cordl_internal_get__Type_k__BackingField() const;
 
-constexpr ::Newtonsoft::Json::Bson::BsonType& __cordl_internal_get__Type_k__BackingField() ;
+  constexpr ::Newtonsoft::Json::Bson::BsonType& __cordl_internal_get__Type_k__BackingField();
 
-constexpr void __cordl_internal_set__Type_k__BackingField(::Newtonsoft::Json::Bson::BsonType  value) ;
+  constexpr void __cordl_internal_set__Type_k__BackingField(::Newtonsoft::Json::Bson::BsonType value);
 
-/// @brief Method .ctor, addr 0x5c00724, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Newtonsoft::Json::Bson::BsonType  type) ;
+  /// @brief Method .ctor, addr 0x5c7270c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Newtonsoft::Json::Bson::BsonType type);
 
-static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Null() ;
+  static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Null();
 
-static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Undefined() ;
+  static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Undefined();
 
-/// @brief Method get_Type, addr 0x5c0072c, size 0x8, virtual true, abstract: false, final false
-inline ::Newtonsoft::Json::Bson::BsonType get_Type() ;
+  /// @brief Method get_Type, addr 0x5c72714, size 0x8, virtual true, abstract: false, final false
+  inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-static inline void setStaticF_Null(::Newtonsoft::Json::Bson::BsonToken*  value) ;
+  static inline void setStaticF_Null(::Newtonsoft::Json::Bson::BsonToken* value);
 
-static inline void setStaticF_Undefined(::Newtonsoft::Json::Bson::BsonToken*  value) ;
+  static inline void setStaticF_Undefined(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BsonEmpty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BsonEmpty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BsonEmpty(BsonEmpty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BsonEmpty(BsonEmpty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BsonEmpty(BsonEmpty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BsonEmpty(BsonEmpty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13683 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13676};
+  /// @brief Field <Type>k__BackingField, offset: 0x1c, size: 0x1, def value: None
+  ::Newtonsoft::Json::Bson::BsonType ____Type_k__BackingField;
 
-/// @brief Field <Type>k__BackingField, offset: 0x1c, size: 0x1, def value: None
- ::Newtonsoft::Json::Bson::BsonType  ____Type_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonEmpty, ____Type_k__BackingField) == 0x1c, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonEmpty, 0x20>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Bson
+} // namespace Newtonsoft::Json::Bson
 NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonEmpty);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonEmpty*, "Newtonsoft.Json.Bson", "BsonEmpty");

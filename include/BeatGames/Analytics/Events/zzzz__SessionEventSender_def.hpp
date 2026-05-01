@@ -20,54 +20,54 @@ namespace BeatGames::Analytics::Events {
 // CS Name: BeatGames.Analytics.Events.SessionEventSender
 class CORDL_TYPE SessionEventSender : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _analyticsManager, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__analyticsManager, put=__cordl_internal_set__analyticsManager)) ::UnityW<::OSCE::Analytics::AnalyticsManager>  _analyticsManager;
+  // Declarations
+  /// @brief Field _analyticsManager, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__analyticsManager, put = __cordl_internal_set__analyticsManager)) ::UnityW<::OSCE::Analytics::AnalyticsManager> _analyticsManager;
 
-static inline ::BeatGames::Analytics::Events::SessionEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager*  analyticsManager) ;
+  static inline ::BeatGames::Analytics::Events::SessionEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
-/// @brief Method SendSessionFinish, addr 0x319183c, size 0xc8, virtual false, abstract: false, final false
-inline void SendSessionFinish() ;
+  /// @brief Method SendSessionFinish, addr 0x31c4054, size 0xcc, virtual false, abstract: false, final false
+  inline void SendSessionFinish();
 
-/// @brief Method SendSessionStart, addr 0x3191774, size 0xc8, virtual false, abstract: false, final false
-inline void SendSessionStart() ;
+  /// @brief Method SendSessionStart, addr 0x31c3f88, size 0xcc, virtual false, abstract: false, final false
+  inline void SendSessionStart();
 
-constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
+  constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
 
-constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& __cordl_internal_get__analyticsManager() ;
+  constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& __cordl_internal_get__analyticsManager();
 
-constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager>  value) ;
+  constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
 
-/// @brief Method .ctor, addr 0x3190f58, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::OSCE::Analytics::AnalyticsManager*  analyticsManager) ;
+  /// @brief Method .ctor, addr 0x31c3760, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SessionEventSender() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SessionEventSender();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SessionEventSender(SessionEventSender&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SessionEventSender(SessionEventSender && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SessionEventSender(SessionEventSender const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SessionEventSender(SessionEventSender const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23091 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22983};
+  /// @brief Field _analyticsManager, offset: 0x10, size: 0x8, def value: None
+  ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;
 
-/// @brief Field _analyticsManager, offset: 0x10, size: 0x8, def value: None
- ::UnityW<::OSCE::Analytics::AnalyticsManager>  ____analyticsManager;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatGames::Analytics::Events::SessionEventSender, ____analyticsManager) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatGames::Analytics::Events::SessionEventSender, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatGames::Analytics::Events
+} // namespace BeatGames::Analytics::Events
 NEED_NO_BOX(::BeatGames::Analytics::Events::SessionEventSender);
 DEFINE_IL2CPP_ARG_TYPE(::BeatGames::Analytics::Events::SessionEventSender*, "BeatGames.Analytics.Events", "SessionEventSender");

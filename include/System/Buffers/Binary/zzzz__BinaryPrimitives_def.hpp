@@ -18,38 +18,38 @@ namespace System::Buffers::Binary {
 // CS Name: System.Buffers.Binary.BinaryPrimitives
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ReverseEndianness, addr 0x5a44518, size 0x8, virtual false, abstract: false, final false
-static inline int32_t ReverseEndianness(int32_t  value) ;
+  // Declarations
+  /// @brief Method ReverseEndianness, addr 0x5ab6500, size 0x8, virtual false, abstract: false, final false
+  static inline int32_t ReverseEndianness(int32_t value);
 
-/// @brief Method ReverseEndianness, addr 0x5a44520, size 0xc, virtual false, abstract: false, final false
-static inline uint16_t ReverseEndianness(uint16_t  value) ;
+  /// @brief Method ReverseEndianness, addr 0x5ab6508, size 0xc, virtual false, abstract: false, final false
+  static inline uint16_t ReverseEndianness(uint16_t value);
 
-/// @brief Method ReverseEndianness, addr 0x5a4452c, size 0x8, virtual false, abstract: false, final false
-static inline uint32_t ReverseEndianness(uint32_t  value) ;
+  /// @brief Method ReverseEndianness, addr 0x5ab6514, size 0x8, virtual false, abstract: false, final false
+  static inline uint32_t ReverseEndianness(uint32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BinaryPrimitives() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryPrimitives();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BinaryPrimitives(BinaryPrimitives&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BinaryPrimitives(BinaryPrimitives && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BinaryPrimitives(BinaryPrimitives const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BinaryPrimitives(BinaryPrimitives const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3835 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3835};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Buffers::Binary::BinaryPrimitives, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Buffers::Binary
+} // namespace System::Buffers::Binary
 NEED_NO_BOX(::System::Buffers::Binary::BinaryPrimitives);
 DEFINE_IL2CPP_ARG_TYPE(::System::Buffers::Binary::BinaryPrimitives*, "System.Buffers.Binary", "BinaryPrimitives");

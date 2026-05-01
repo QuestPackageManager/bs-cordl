@@ -24,84 +24,84 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 // CS Name: System.Runtime.Serialization.Formatters.Binary.SizedArray
 class CORDL_TYPE SizedArray : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Item, put=set_Item)) ::System::Object*  Item[];
+  // Declarations
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
 
-/// @brief Field negObjects, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_negObjects, put=__cordl_internal_set_negObjects)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  negObjects;
+  /// @brief Field negObjects, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_negObjects, put = __cordl_internal_set_negObjects)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> negObjects;
 
-/// @brief Field objects, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_objects, put=__cordl_internal_set_objects)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  objects;
+  /// @brief Field objects, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
 
-/// @brief Convert operator to "::System::ICloneable"
-constexpr operator  ::System::ICloneable*() noexcept;
+  /// @brief Convert operator to "::System::ICloneable"
+  constexpr operator ::System::ICloneable*() noexcept;
 
-/// @brief Method Clone, addr 0x59bb26c, size 0x5c, virtual true, abstract: false, final true
-inline ::System::Object* Clone() ;
+  /// @brief Method Clone, addr 0x5a2d1d8, size 0x5c, virtual true, abstract: false, final true
+  inline ::System::Object* Clone();
 
-/// @brief Method IncreaseCapacity, addr 0x59bb2c8, size 0x218, virtual false, abstract: false, final false
-inline void IncreaseCapacity(int32_t  index) ;
+  /// @brief Method IncreaseCapacity, addr 0x5a2d234, size 0x218, virtual false, abstract: false, final false
+  inline void IncreaseCapacity(int32_t index);
 
-static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor() ;
+  static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor();
 
-static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor(int32_t  length) ;
+  static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor(int32_t length);
 
-static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray*  sizedArray) ;
+  static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray);
 
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __cordl_internal_get_negObjects() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_negObjects() const;
 
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __cordl_internal_get_negObjects() ;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_negObjects();
 
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
 
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __cordl_internal_get_objects() ;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_objects();
 
-constexpr void __cordl_internal_set_negObjects(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
+  constexpr void __cordl_internal_set_negObjects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
+  constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-/// @brief Method .ctor, addr 0x59b7ad4, size 0x68, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5a29a40, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x59b7ba4, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(int32_t  length) ;
+  /// @brief Method .ctor, addr 0x5a29b10, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(int32_t length);
 
-/// @brief Method .ctor, addr 0x59bb1b8, size 0xb4, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray*  sizedArray) ;
+  /// @brief Method .ctor, addr 0x5a2d124, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray);
 
-/// @brief Method get_Item, addr 0x59ba0cc, size 0x74, virtual false, abstract: false, final false
-inline ::System::Object* get_Item(int32_t  index) ;
+  /// @brief Method get_Item, addr 0x5a2c038, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Object* get_Item(int32_t index);
 
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-/// @brief Method set_Item, addr 0x59b9fcc, size 0x100, virtual false, abstract: false, final false
-inline void set_Item(int32_t  index, ::System::Object*  value) ;
+  /// @brief Method set_Item, addr 0x5a2bf38, size 0x100, virtual false, abstract: false, final false
+  inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SizedArray() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SizedArray();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SizedArray", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SizedArray(SizedArray&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SizedArray", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SizedArray(SizedArray && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SizedArray", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SizedArray(SizedArray const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SizedArray", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SizedArray(SizedArray const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3306 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3306};
+  /// @brief Field objects, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___objects;
 
-/// @brief Field objects, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ___objects;
+  /// @brief Field negObjects, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___negObjects;
 
-/// @brief Field negObjects, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ___negObjects;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SizedArray, ___objects) == 0x10, "Offset mismatch!");
@@ -110,6 +110,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Siz
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SizedArray, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization::Formatters::Binary
+} // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SizedArray);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SizedArray*, "System.Runtime.Serialization.Formatters.Binary", "SizedArray");

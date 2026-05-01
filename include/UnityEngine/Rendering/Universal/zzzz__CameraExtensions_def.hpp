@@ -32,53 +32,54 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.CameraExtensions
 class CORDL_TYPE CameraExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method DestroyVolumeStack, addr 0x6710570, size 0x14, virtual false, abstract: false, final false
-static inline void DestroyVolumeStack(::UnityEngine::Camera*  camera) ;
+  // Declarations
+  /// @brief Method DestroyVolumeStack, addr 0x678257c, size 0x14, virtual false, abstract: false, final false
+  static inline void DestroyVolumeStack(::UnityEngine::Camera* camera);
 
-/// @brief Method DestroyVolumeStack, addr 0x6710584, size 0x8c, virtual false, abstract: false, final false
-static inline void DestroyVolumeStack(::UnityEngine::Camera*  camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*  cameraData) ;
+  /// @brief Method DestroyVolumeStack, addr 0x6782590, size 0x8c, virtual false, abstract: false, final false
+  static inline void DestroyVolumeStack(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData);
 
-/// @brief Method GetUniversalAdditionalCameraData, addr 0x670ff20, size 0xb0, virtual false, abstract: false, final false
-static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> GetUniversalAdditionalCameraData(::UnityEngine::Camera*  camera) ;
+  /// @brief Method GetUniversalAdditionalCameraData, addr 0x6781f2c, size 0xb0, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> GetUniversalAdditionalCameraData(::UnityEngine::Camera* camera);
 
-/// @brief Method GetVolumeFrameworkUpdateMode, addr 0x670ffd0, size 0x1c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode GetVolumeFrameworkUpdateMode(::UnityEngine::Camera*  camera) ;
+  /// @brief Method GetVolumeFrameworkUpdateMode, addr 0x6781fdc, size 0x1c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode GetVolumeFrameworkUpdateMode(::UnityEngine::Camera* camera);
 
-/// @brief Method GetVolumeLayerMaskAndTrigger, addr 0x6710394, size 0x1dc, virtual false, abstract: false, final false
-static inline void GetVolumeLayerMaskAndTrigger(::UnityEngine::Camera*  camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*  cameraData, ::ByRef<::UnityEngine::LayerMask>  layerMask, ::ByRef<::UnityEngine::Transform*>  trigger) ;
+  /// @brief Method GetVolumeLayerMaskAndTrigger, addr 0x67823a0, size 0x1dc, virtual false, abstract: false, final false
+  static inline void GetVolumeLayerMaskAndTrigger(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData,
+                                                  ::ByRef<::UnityEngine::LayerMask> layerMask, ::ByRef<::UnityEngine::Transform*> trigger);
 
-/// @brief Method SetVolumeFrameworkUpdateMode, addr 0x670ffec, size 0x68, virtual false, abstract: false, final false
-static inline void SetVolumeFrameworkUpdateMode(::UnityEngine::Camera*  camera, ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  mode) ;
+  /// @brief Method SetVolumeFrameworkUpdateMode, addr 0x6781ff8, size 0x68, virtual false, abstract: false, final false
+  static inline void SetVolumeFrameworkUpdateMode(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode mode);
 
-/// @brief Method UpdateVolumeStack, addr 0x6710230, size 0x1c, virtual false, abstract: false, final false
-static inline void UpdateVolumeStack(::UnityEngine::Camera*  camera) ;
+  /// @brief Method UpdateVolumeStack, addr 0x678223c, size 0x1c, virtual false, abstract: false, final false
+  static inline void UpdateVolumeStack(::UnityEngine::Camera* camera);
 
-/// @brief Method UpdateVolumeStack, addr 0x67100dc, size 0x154, virtual false, abstract: false, final false
-static inline void UpdateVolumeStack(::UnityEngine::Camera*  camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*  cameraData) ;
+  /// @brief Method UpdateVolumeStack, addr 0x67820e8, size 0x154, virtual false, abstract: false, final false
+  static inline void UpdateVolumeStack(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* cameraData);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CameraExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CameraExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CameraExtensions(CameraExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CameraExtensions(CameraExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CameraExtensions(CameraExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CameraExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CameraExtensions(CameraExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12974 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12967};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::CameraExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::CameraExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::CameraExtensions*, "UnityEngine.Rendering.Universal", "CameraExtensions");

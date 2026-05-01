@@ -32,57 +32,57 @@ namespace Newtonsoft::Json::Converters {
 // CS Name: Newtonsoft.Json.Converters.ExpandoObjectConverter
 class CORDL_TYPE ExpandoObjectConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
-// Declarations
- __declspec(property(get=get_CanWrite)) bool  CanWrite;
+  // Declarations
+  __declspec(property(get = get_CanWrite)) bool CanWrite;
 
-/// @brief Method CanConvert, addr 0x5bed418, size 0x70, virtual true, abstract: false, final false
-inline bool CanConvert(::System::Type*  objectType) ;
+  /// @brief Method CanConvert, addr 0x5c5f400, size 0x70, virtual true, abstract: false, final false
+  inline bool CanConvert(::System::Type* objectType);
 
-static inline ::Newtonsoft::Json::Converters::ExpandoObjectConverter* New_ctor() ;
+  static inline ::Newtonsoft::Json::Converters::ExpandoObjectConverter* New_ctor();
 
-/// @brief Method ReadJson, addr 0x5becf2c, size 0x4, virtual true, abstract: false, final false
-inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
+  /// @brief Method ReadJson, addr 0x5c5ef14, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-/// @brief Method ReadList, addr 0x5bed278, size 0x1a0, virtual false, abstract: false, final false
-inline ::System::Object* ReadList(::Newtonsoft::Json::JsonReader*  reader) ;
+  /// @brief Method ReadList, addr 0x5c5f260, size 0x1a0, virtual false, abstract: false, final false
+  inline ::System::Object* ReadList(::Newtonsoft::Json::JsonReader* reader);
 
-/// @brief Method ReadObject, addr 0x5bed0a0, size 0x1d8, virtual false, abstract: false, final false
-inline ::System::Object* ReadObject(::Newtonsoft::Json::JsonReader*  reader) ;
+  /// @brief Method ReadObject, addr 0x5c5f088, size 0x1d8, virtual false, abstract: false, final false
+  inline ::System::Object* ReadObject(::Newtonsoft::Json::JsonReader* reader);
 
-/// @brief Method ReadValue, addr 0x5becf30, size 0x170, virtual false, abstract: false, final false
-inline ::System::Object* ReadValue(::Newtonsoft::Json::JsonReader*  reader) ;
+  /// @brief Method ReadValue, addr 0x5c5ef18, size 0x170, virtual false, abstract: false, final false
+  inline ::System::Object* ReadValue(::Newtonsoft::Json::JsonReader* reader);
 
-/// @brief Method WriteJson, addr 0x5becf28, size 0x4, virtual true, abstract: false, final false
-inline void WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
+  /// @brief Method WriteJson, addr 0x5c5ef10, size 0x4, virtual true, abstract: false, final false
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-/// @brief Method .ctor, addr 0x5bed490, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5c5f478, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_CanWrite, addr 0x5bed488, size 0x8, virtual true, abstract: false, final false
-inline bool get_CanWrite() ;
+  /// @brief Method get_CanWrite, addr 0x5c5f470, size 0x8, virtual true, abstract: false, final false
+  inline bool get_CanWrite();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ExpandoObjectConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExpandoObjectConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExpandoObjectConverter(ExpandoObjectConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ExpandoObjectConverter(ExpandoObjectConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExpandoObjectConverter(ExpandoObjectConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ExpandoObjectConverter(ExpandoObjectConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13638};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::ExpandoObjectConverter, 0x10>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Converters
+} // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::ExpandoObjectConverter);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::ExpandoObjectConverter*, "Newtonsoft.Json.Converters", "ExpandoObjectConverter");

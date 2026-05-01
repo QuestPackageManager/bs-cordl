@@ -18,46 +18,46 @@ namespace GlobalNamespace {
 // CS Name: ServerAppVersionFileManager
 class CORDL_TYPE ServerAppVersionFileManager : public ::System::Object {
 public:
-// Declarations
-/// @brief Method BuildFilePath, addr 0x31e6d24, size 0x78, virtual false, abstract: false, final false
-static inline ::StringW BuildFilePath(::StringW  directoryPath) ;
+  // Declarations
+  /// @brief Method BuildFilePath, addr 0x322298c, size 0x78, virtual false, abstract: false, final false
+  static inline ::StringW BuildFilePath(::StringW directoryPath);
 
-static inline ::GlobalNamespace::ServerAppVersionFileManager* New_ctor() ;
+  static inline ::GlobalNamespace::ServerAppVersionFileManager* New_ctor();
 
-/// @brief Method ReadAppVersion, addr 0x31e6d9c, size 0x14, virtual false, abstract: false, final false
-static inline ::StringW ReadAppVersion(::StringW  directoryPath) ;
+  /// @brief Method ReadAppVersion, addr 0x3222a04, size 0x14, virtual false, abstract: false, final false
+  static inline ::StringW ReadAppVersion(::StringW directoryPath);
 
-/// @brief Method WriteAppVersion, addr 0x31e6d08, size 0x1c, virtual false, abstract: false, final false
-static inline void WriteAppVersion(::StringW  directoryPath, ::StringW  appVersion) ;
+  /// @brief Method WriteAppVersion, addr 0x3222970, size 0x1c, virtual false, abstract: false, final false
+  static inline void WriteAppVersion(::StringW directoryPath, ::StringW appVersion);
 
-/// @brief Method .ctor, addr 0x31e6db0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3222a18, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ServerAppVersionFileManager() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerAppVersionFileManager();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ServerAppVersionFileManager", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ServerAppVersionFileManager(ServerAppVersionFileManager&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ServerAppVersionFileManager", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ServerAppVersionFileManager(ServerAppVersionFileManager && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ServerAppVersionFileManager", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ServerAppVersionFileManager(ServerAppVersionFileManager const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ServerAppVersionFileManager", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ServerAppVersionFileManager(ServerAppVersionFileManager const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18955 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18945};
+  /// @brief Field kFileName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kFileName{ u"app_version.txt" };
 
-/// @brief Field kFileName offset 0xffffffff size 0x8
-static constexpr ::ConstString  kFileName{u"app_version.txt"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ServerAppVersionFileManager, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ServerAppVersionFileManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ServerAppVersionFileManager*, "", "ServerAppVersionFileManager");

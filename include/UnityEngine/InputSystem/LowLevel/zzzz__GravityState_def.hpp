@@ -24,43 +24,43 @@ namespace UnityEngine::InputSystem::LowLevel {
 // CS Name: UnityEngine.InputSystem.LowLevel.GravityState
 struct CORDL_TYPE GravityState {
 public:
-// Declarations
- __declspec(property(get=get_format)) ::UnityEngine::InputSystem::Utilities::FourCC  format;
+  // Declarations
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
-/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*() ;
+  /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-/// @brief Method get_format, addr 0x63f82f8, size 0xc, virtual true, abstract: false, final true
-inline ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+  /// @brief Method get_format, addr 0x646a304, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-/// @brief Method get_kFormat, addr 0x63f82ec, size 0xc, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
+  /// @brief Method get_kFormat, addr 0x646a2f8, size 0xc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() ;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr GravityState() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GravityState();
 
-// Ctor Parameters [CppParam { name: "gravity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr GravityState(::UnityEngine::Vector3  gravity) noexcept;
+  // Ctor Parameters [CppParam { name: "gravity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  constexpr GravityState(::UnityEngine::Vector3 gravity) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8986};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8992 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
-/// @brief Field gravity, offset: 0x0, size: 0xc, def value: None
- ::UnityEngine::Vector3  gravity;
+  /// @brief Field gravity, offset: 0x0, size: 0xc, def value: None
+  ::UnityEngine::Vector3 gravity;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::GravityState, gravity) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::GravityState, 0xc>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::LowLevel
+} // namespace UnityEngine::InputSystem::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::GravityState, "UnityEngine.InputSystem.LowLevel", "GravityState");

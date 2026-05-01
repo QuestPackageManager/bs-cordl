@@ -14,149 +14,146 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(::System::Object*, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(
+    ::System::Object*, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(
+    &::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5984984;
+  constexpr static std::size_t addrs = 0x59f68f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::LogicalCallContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::LogicalCallContext*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(
+    ::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x598dc34;
+  constexpr static std::size_t addrs = 0x59ffba0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(
+    ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5995ae8;
+  constexpr static std::size_t addrs = 0x5a07a54;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse.get_Properties
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)()>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)()>(
+    &::System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5995af0;
+  constexpr static std::size_t addrs = 0x5a07a5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                                  22
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), 22));
     return ___internal_method;
   }
 };
-inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Object*  resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext*  callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::LogicalCallContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, resultObject, callCtx, msg);
+inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
+                                                                              ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::LogicalCallContext*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, resultObject, callCtx, msg);
 }
-inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Exception*  e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e, msg);
+inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e, msg);
 }
-inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
+inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
-inline ::System::Collections::IDictionary* System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(),
-                            22
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method);
+inline ::System::Collections::IDictionary* System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionResponse*>::get(), 22)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method);
 }
-inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Object*  resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext*  callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(resultObject, callCtx, msg));
+inline ::System::Runtime::Remoting::Messaging::ConstructionResponse*
+System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
+                                                                     ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(resultObject, callCtx, msg));
 }
-inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Exception*  e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(e, msg));
+inline ::System::Runtime::Remoting::Messaging::ConstructionResponse*
+System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(e, msg));
 }
-inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(info, context));
+inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                                                                          ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(info, context));
 }
 /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"
-constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*() noexcept {
-return static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(static_cast<void*>(this));
+constexpr System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"
-constexpr ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Activation__IConstructionReturnMessage() noexcept {
-return static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(static_cast<void*>(this));
+constexpr ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*
+System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Activation__IConstructionReturnMessage() noexcept {
+  return static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
-constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept {
-return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
+constexpr System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
-constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept {
-return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
+constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*
+System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept {
-return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
+constexpr System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
 constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept {
-return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
+  return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
-constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept {
-return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
+constexpr System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
 constexpr ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Messaging__IMessage() noexcept {
-return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::Messaging::ConstructionResponse::ConstructionResponse()   {
-}
+constexpr ::System::Runtime::Remoting::Messaging::ConstructionResponse::ConstructionResponse() {}

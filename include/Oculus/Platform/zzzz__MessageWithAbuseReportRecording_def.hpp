@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithAbuseReportRecording
 class CORDL_TYPE MessageWithAbuseReportRecording : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AbuseReportRecording*> {
 public:
-// Declarations
-/// @brief Method GetAbuseReportRecording, addr 0x5c2afc4, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording() ;
+  // Declarations
+  /// @brief Method GetAbuseReportRecording, addr 0x5c9cfac, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
 
-/// @brief Method GetDataFromMessage, addr 0x5c2b008, size 0x98, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(::System::IntPtr  c_message) ;
+  /// @brief Method GetDataFromMessage, addr 0x5c9cff0, size 0x98, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(::System::IntPtr c_message);
 
-static inline ::Oculus::Platform::MessageWithAbuseReportRecording* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithAbuseReportRecording* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c2af68, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5c9cf50, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithAbuseReportRecording() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithAbuseReportRecording();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithAbuseReportRecording", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithAbuseReportRecording(MessageWithAbuseReportRecording&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithAbuseReportRecording", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithAbuseReportRecording(MessageWithAbuseReportRecording && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithAbuseReportRecording", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithAbuseReportRecording(MessageWithAbuseReportRecording const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithAbuseReportRecording", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithAbuseReportRecording(MessageWithAbuseReportRecording const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17840 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17832};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithAbuseReportRecording, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithAbuseReportRecording);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithAbuseReportRecording*, "Oculus.Platform", "MessageWithAbuseReportRecording");

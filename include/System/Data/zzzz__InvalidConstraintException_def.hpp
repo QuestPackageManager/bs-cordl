@@ -24,44 +24,44 @@ namespace System::Data {
 // CS Name: System.Data.InvalidConstraintException
 class CORDL_TYPE InvalidConstraintException : public ::System::Data::DataException {
 public:
-// Declarations
-static inline ::System::Data::InvalidConstraintException* New_ctor() ;
+  // Declarations
+  static inline ::System::Data::InvalidConstraintException* New_ctor();
 
-static inline ::System::Data::InvalidConstraintException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::Data::InvalidConstraintException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Data::InvalidConstraintException* New_ctor(::StringW  s) ;
+  static inline ::System::Data::InvalidConstraintException* New_ctor(::StringW s);
 
-/// @brief Method .ctor, addr 0x5e511a0, size 0x60, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5ec31ac, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5e51198, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5ec31a4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5e51200, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  s) ;
+  /// @brief Method .ctor, addr 0x5ec320c, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW s);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InvalidConstraintException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvalidConstraintException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidConstraintException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InvalidConstraintException(InvalidConstraintException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InvalidConstraintException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InvalidConstraintException(InvalidConstraintException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidConstraintException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InvalidConstraintException(InvalidConstraintException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InvalidConstraintException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InvalidConstraintException(InvalidConstraintException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13720 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13713};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::InvalidConstraintException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::InvalidConstraintException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::InvalidConstraintException*, "System.Data", "InvalidConstraintException");

@@ -18,48 +18,48 @@ namespace BeatSaber::InspectorName {
 // CS Name: BeatSaber.InspectorName.InspectorLabelAttribute
 class CORDL_TYPE InspectorLabelAttribute : public ::UnityEngine::PropertyAttribute {
 public:
-// Declarations
-/// @brief Field CustomLabel, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_CustomLabel, put=__cordl_internal_set_CustomLabel)) ::StringW  CustomLabel;
+  // Declarations
+  /// @brief Field CustomLabel, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_CustomLabel, put = __cordl_internal_set_CustomLabel)) ::StringW CustomLabel;
 
-static inline ::BeatSaber::InspectorName::InspectorLabelAttribute* New_ctor(::StringW  customLabel) ;
+  static inline ::BeatSaber::InspectorName::InspectorLabelAttribute* New_ctor(::StringW customLabel);
 
-constexpr ::StringW const& __cordl_internal_get_CustomLabel() const;
+  constexpr ::StringW const& __cordl_internal_get_CustomLabel() const;
 
-constexpr ::StringW& __cordl_internal_get_CustomLabel() ;
+  constexpr ::StringW& __cordl_internal_get_CustomLabel();
 
-constexpr void __cordl_internal_set_CustomLabel(::StringW  value) ;
+  constexpr void __cordl_internal_set_CustomLabel(::StringW value);
 
-/// @brief Method .ctor, addr 0x322e034, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::StringW  customLabel) ;
+  /// @brief Method .ctor, addr 0x326a50c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW customLabel);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InspectorLabelAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InspectorLabelAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorLabelAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InspectorLabelAttribute(InspectorLabelAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InspectorLabelAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InspectorLabelAttribute(InspectorLabelAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorLabelAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InspectorLabelAttribute(InspectorLabelAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InspectorLabelAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InspectorLabelAttribute(InspectorLabelAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20736 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20724};
+  /// @brief Field CustomLabel, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___CustomLabel;
 
-/// @brief Field CustomLabel, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___CustomLabel;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::InspectorName::InspectorLabelAttribute, ___CustomLabel) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::InspectorName::InspectorLabelAttribute, 0x20>, "Size mismatch!");
 
-} // namespace end def BeatSaber::InspectorName
+} // namespace BeatSaber::InspectorName
 NEED_NO_BOX(::BeatSaber::InspectorName::InspectorLabelAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::InspectorName::InspectorLabelAttribute*, "BeatSaber.InspectorName", "InspectorLabelAttribute");

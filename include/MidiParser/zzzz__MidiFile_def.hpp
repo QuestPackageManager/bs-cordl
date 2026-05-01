@@ -32,139 +32,139 @@ namespace MidiParser {
 // CS Name: MidiParser.MidiFile/Reader
 class CORDL_TYPE MidiFile_Reader : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Read16, addr 0x58d3650, size 0x54, virtual false, abstract: false, final false
-static inline int32_t Read16(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<int32_t>  i) ;
+  // Declarations
+  /// @brief Method Read16, addr 0x59455bc, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t Read16(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
-/// @brief Method Read32, addr 0x58d35c0, size 0x90, virtual false, abstract: false, final false
-static inline int32_t Read32(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<int32_t>  i) ;
+  /// @brief Method Read32, addr 0x594552c, size 0x90, virtual false, abstract: false, final false
+  static inline int32_t Read32(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
-/// @brief Method Read8, addr 0x58d3bb4, size 0x38, virtual false, abstract: false, final false
-static inline uint8_t Read8(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<int32_t>  i) ;
+  /// @brief Method Read8, addr 0x5945b20, size 0x38, virtual false, abstract: false, final false
+  static inline uint8_t Read8(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
-/// @brief Method ReadAllBytesFromStream, addr 0x58d3bec, size 0x1fc, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ReadAllBytesFromStream(::System::IO::Stream*  input) ;
+  /// @brief Method ReadAllBytesFromStream, addr 0x5945b58, size 0x1fc, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllBytesFromStream(::System::IO::Stream* input);
 
-/// @brief Method ReadString, addr 0x58d3568, size 0x58, virtual false, abstract: false, final false
-static inline ::StringW ReadString(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<int32_t>  i, int32_t  length) ;
+  /// @brief Method ReadString, addr 0x59454d4, size 0x58, virtual false, abstract: false, final false
+  static inline ::StringW ReadString(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i, int32_t length);
 
-/// @brief Method ReadVarInt, addr 0x58d3ab0, size 0x90, virtual false, abstract: false, final false
-static inline int32_t ReadVarInt(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<int32_t>  i) ;
+  /// @brief Method ReadVarInt, addr 0x5945a1c, size 0x90, virtual false, abstract: false, final false
+  static inline int32_t ReadVarInt(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MidiFile_Reader() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MidiFile_Reader();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MidiFile_Reader", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MidiFile_Reader(MidiFile_Reader&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MidiFile_Reader", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MidiFile_Reader(MidiFile_Reader && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MidiFile_Reader", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MidiFile_Reader(MidiFile_Reader const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MidiFile_Reader", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MidiFile_Reader(MidiFile_Reader const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23347 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23227};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::MidiParser::MidiFile_Reader, 0x10>, "Size mismatch!");
 
-} // namespace end def MidiParser
+} // namespace MidiParser
 // Dependencies System.Object
 namespace MidiParser {
 // Is value type: false
 // CS Name: MidiParser.MidiFile
 class CORDL_TYPE MidiFile : public ::System::Object {
 public:
-// Declarations
-using Reader = ::MidiParser::MidiFile_Reader;
+  // Declarations
+  using Reader = ::MidiParser::MidiFile_Reader;
 
-/// @brief Field format, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_format, put=__cordl_internal_set_format)) int32_t  format;
+  /// @brief Field format, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) int32_t format;
 
-/// @brief Field ticksPerQuarterNote, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_ticksPerQuarterNote, put=__cordl_internal_set_ticksPerQuarterNote)) int32_t  ticksPerQuarterNote;
+  /// @brief Field ticksPerQuarterNote, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_ticksPerQuarterNote, put = __cordl_internal_set_ticksPerQuarterNote)) int32_t ticksPerQuarterNote;
 
-/// @brief Field tracks, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_tracks, put=__cordl_internal_set_tracks)) ::ArrayW<::MidiParser::MidiTrack*,::Array<::MidiParser::MidiTrack*>*>  tracks;
+  /// @brief Field tracks, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_tracks, put = __cordl_internal_set_tracks)) ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> tracks;
 
-/// @brief Field tracksCount, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_tracksCount, put=__cordl_internal_set_tracksCount)) int32_t  tracksCount;
+  /// @brief Field tracksCount, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_tracksCount, put = __cordl_internal_set_tracksCount)) int32_t tracksCount;
 
-static inline ::MidiParser::MidiFile* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
+  static inline ::MidiParser::MidiFile* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-static inline ::MidiParser::MidiFile* New_ctor(::StringW  path) ;
+  static inline ::MidiParser::MidiFile* New_ctor(::StringW path);
 
-/// @brief Method ParseMetaEvent, addr 0x58d39c0, size 0xf0, virtual false, abstract: false, final false
-static inline bool ParseMetaEvent(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<int32_t>  position, uint8_t  metaEventType, ::ByRef<int32_t>  data1, ::ByRef<int32_t>  data2) ;
+  /// @brief Method ParseMetaEvent, addr 0x594592c, size 0xf0, virtual false, abstract: false, final false
+  static inline bool ParseMetaEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> position, uint8_t metaEventType, ::ByRef<int32_t> data1, ::ByRef<int32_t> data2);
 
-/// @brief Method ParseTrack, addr 0x58d36a4, size 0x31c, virtual false, abstract: false, final false
-static inline ::MidiParser::MidiTrack* ParseTrack(int32_t  index, ::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<int32_t>  position) ;
+  /// @brief Method ParseTrack, addr 0x5945610, size 0x31c, virtual false, abstract: false, final false
+  static inline ::MidiParser::MidiTrack* ParseTrack(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> position);
 
-constexpr int32_t const& __cordl_internal_get_format() const;
+  constexpr int32_t const& __cordl_internal_get_format() const;
 
-constexpr int32_t& __cordl_internal_get_format() ;
+  constexpr int32_t& __cordl_internal_get_format();
 
-constexpr int32_t const& __cordl_internal_get_ticksPerQuarterNote() const;
+  constexpr int32_t const& __cordl_internal_get_ticksPerQuarterNote() const;
 
-constexpr int32_t& __cordl_internal_get_ticksPerQuarterNote() ;
+  constexpr int32_t& __cordl_internal_get_ticksPerQuarterNote();
 
-constexpr ::ArrayW<::MidiParser::MidiTrack*,::Array<::MidiParser::MidiTrack*>*> const& __cordl_internal_get_tracks() const;
+  constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> const& __cordl_internal_get_tracks() const;
 
-constexpr ::ArrayW<::MidiParser::MidiTrack*,::Array<::MidiParser::MidiTrack*>*>& __cordl_internal_get_tracks() ;
+  constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*>& __cordl_internal_get_tracks();
 
-constexpr int32_t const& __cordl_internal_get_tracksCount() const;
+  constexpr int32_t const& __cordl_internal_get_tracksCount() const;
 
-constexpr int32_t& __cordl_internal_get_tracksCount() ;
+  constexpr int32_t& __cordl_internal_get_tracksCount();
 
-constexpr void __cordl_internal_set_format(int32_t  value) ;
+  constexpr void __cordl_internal_set_format(int32_t value);
 
-constexpr void __cordl_internal_set_ticksPerQuarterNote(int32_t  value) ;
+  constexpr void __cordl_internal_set_ticksPerQuarterNote(int32_t value);
 
-constexpr void __cordl_internal_set_tracks(::ArrayW<::MidiParser::MidiTrack*,::Array<::MidiParser::MidiTrack*>*>  value) ;
+  constexpr void __cordl_internal_set_tracks(::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> value);
 
-constexpr void __cordl_internal_set_tracksCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
-/// @brief Method .ctor, addr 0x58d3214, size 0x354, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
+  /// @brief Method .ctor, addr 0x5945180, size 0x354, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-/// @brief Method .ctor, addr 0x58d31f0, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  path) ;
+  /// @brief Method .ctor, addr 0x594515c, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW path);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MidiFile() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MidiFile();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MidiFile", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MidiFile(MidiFile&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MidiFile", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MidiFile(MidiFile && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MidiFile", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MidiFile(MidiFile const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MidiFile", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MidiFile(MidiFile const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23348 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23228};
+  /// @brief Field format, offset: 0x10, size: 0x4, def value: None
+  int32_t ___format;
 
-/// @brief Field format, offset: 0x10, size: 0x4, def value: None
- int32_t  ___format;
+  /// @brief Field ticksPerQuarterNote, offset: 0x14, size: 0x4, def value: None
+  int32_t ___ticksPerQuarterNote;
 
-/// @brief Field ticksPerQuarterNote, offset: 0x14, size: 0x4, def value: None
- int32_t  ___ticksPerQuarterNote;
+  /// @brief Field tracks, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> ___tracks;
 
-/// @brief Field tracks, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<::MidiParser::MidiTrack*,::Array<::MidiParser::MidiTrack*>*>  ___tracks;
+  /// @brief Field tracksCount, offset: 0x20, size: 0x4, def value: None
+  int32_t ___tracksCount;
 
-/// @brief Field tracksCount, offset: 0x20, size: 0x4, def value: None
- int32_t  ___tracksCount;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::MidiParser::MidiFile, ___format) == 0x10, "Offset mismatch!");
@@ -177,7 +177,7 @@ static_assert(offsetof(::MidiParser::MidiFile, ___tracksCount) == 0x20, "Offset 
 
 static_assert(::cordl_internals::size_check_v<::MidiParser::MidiFile, 0x28>, "Size mismatch!");
 
-} // namespace end def MidiParser
+} // namespace MidiParser
 NEED_NO_BOX(::MidiParser::MidiFile);
 DEFINE_IL2CPP_ARG_TYPE(::MidiParser::MidiFile*, "MidiParser", "MidiFile");
 NEED_NO_BOX(::MidiParser::MidiFile_Reader);

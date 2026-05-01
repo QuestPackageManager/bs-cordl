@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Xml/Schema/ActiveAxis.hpp"
 #include "System/Xml/Schema/AllElementsContentValidator.hpp"
@@ -258,6 +258,5 @@
 #include "System/Xml/Schema/XsdSimpleValue.hpp"
 #include "System/Xml/Schema/XsdValidator.hpp"
 #ifdef __cpp_modules
-                    export module Schema;
-                    #endif
-                
+export module Schema;
+#endif

@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProBuilderSnapping)
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
@@ -35,50 +34,50 @@ namespace UnityEngine::ProBuilder {
 // CS Name: UnityEngine.ProBuilder.ProBuilderSnapping
 class CORDL_TYPE ProBuilderSnapping : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetSnappingMaskBasedOnNormalVector, addr 0x65259b8, size 0xdc, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(::UnityEngine::Vector3  normal) ;
+  // Declarations
+  /// @brief Method GetSnappingMaskBasedOnNormalVector, addr 0x65979c4, size 0xdc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(::UnityEngine::Vector3 normal);
 
-/// @brief Method IsCardinalDirection, addr 0x65252f0, size 0x1f8, virtual false, abstract: false, final false
-static inline bool IsCardinalDirection(::UnityEngine::Vector3  direction) ;
+  /// @brief Method IsCardinalDirection, addr 0x65972fc, size 0x1f8, virtual false, abstract: false, final false
+  static inline bool IsCardinalDirection(::UnityEngine::Vector3 direction);
 
-/// @brief Method Snap, addr 0x6525588, size 0xa0, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector3 Snap(::UnityEngine::Vector3  val, ::UnityEngine::Vector3  snap) ;
+  /// @brief Method Snap, addr 0x6597594, size 0xa0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 Snap(::UnityEngine::Vector3 val, ::UnityEngine::Vector3 snap);
 
-/// @brief Method Snap, addr 0x65254e8, size 0xa0, virtual false, abstract: false, final false
-static inline float_t Snap(float_t  val, float_t  snap) ;
+  /// @brief Method Snap, addr 0x65974f4, size 0xa0, virtual false, abstract: false, final false
+  static inline float_t Snap(float_t val, float_t snap);
 
-/// @brief Method SnapValueOnRay, addr 0x6525a94, size 0x71c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector3 SnapValueOnRay(::UnityEngine::Ray  ray, float_t  distance, float_t  snap, ::UnityEngine::ProBuilder::Vector3Mask  mask) ;
+  /// @brief Method SnapValueOnRay, addr 0x6597aa0, size 0x71c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 SnapValueOnRay(::UnityEngine::Ray ray, float_t distance, float_t snap, ::UnityEngine::ProBuilder::Vector3Mask mask);
 
-/// @brief Method SnapVertices, addr 0x6525628, size 0x390, virtual false, abstract: false, final false
-static inline void SnapVertices(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>*  indexes, ::UnityEngine::Vector3  snap) ;
+  /// @brief Method SnapVertices, addr 0x6597634, size 0x390, virtual false, abstract: false, final false
+  static inline void SnapVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes, ::UnityEngine::Vector3 snap);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProBuilderSnapping() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProBuilderSnapping();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderSnapping", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProBuilderSnapping(ProBuilderSnapping&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProBuilderSnapping", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProBuilderSnapping(ProBuilderSnapping && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProBuilderSnapping", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProBuilderSnapping(ProBuilderSnapping const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProBuilderSnapping", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProBuilderSnapping(ProBuilderSnapping const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16767 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16759};
+  /// @brief Field k_MaxRaySnapDistance offset 0xffffffff size 0x4
+  static constexpr float_t k_MaxRaySnapDistance{ INFINITY };
 
-/// @brief Field k_MaxRaySnapDistance offset 0xffffffff size 0x4
-static constexpr float_t  k_MaxRaySnapDistance{INFINITY};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ProBuilderSnapping, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder
+} // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::ProBuilderSnapping);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ProBuilderSnapping*, "UnityEngine.ProBuilder", "ProBuilderSnapping");

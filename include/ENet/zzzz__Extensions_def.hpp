@@ -18,32 +18,32 @@ namespace ENet {
 // CS Name: ENet.Extensions
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method StringLength, addr 0x56dfb94, size 0x94, virtual false, abstract: false, final false
-static inline int32_t StringLength(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
+  // Declarations
+  /// @brief Method StringLength, addr 0x574da80, size 0x94, virtual false, abstract: false, final false
+  static inline int32_t StringLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Extensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Extensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Extensions(Extensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Extensions(Extensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Extensions(Extensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Extensions(Extensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21557 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21546};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ENet::Extensions, 0x10>, "Size mismatch!");
 
-} // namespace end def ENet
+} // namespace ENet
 NEED_NO_BOX(::ENet::Extensions);
 DEFINE_IL2CPP_ARG_TYPE(::ENet::Extensions*, "ENet", "Extensions");

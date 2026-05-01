@@ -32,37 +32,37 @@ namespace Zenject {
 // CS Name: Zenject.ConcreteIdBinderNonGeneric
 class CORDL_TYPE ConcreteIdBinderNonGeneric : public ::Zenject::ConcreteBinderNonGeneric {
 public:
-// Declarations
-static inline ::Zenject::ConcreteIdBinderNonGeneric* New_ctor(::Zenject::DiContainer*  bindContainer, ::Zenject::BindInfo*  bindInfo, ::Zenject::BindStatement*  bindStatement) ;
+  // Declarations
+  static inline ::Zenject::ConcreteIdBinderNonGeneric* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-/// @brief Method WithId, addr 0x6c7f6b8, size 0x18, virtual false, abstract: false, final false
-inline ::Zenject::ConcreteBinderNonGeneric* WithId(::System::Object*  identifier) ;
+  /// @brief Method WithId, addr 0x6cf18fc, size 0x18, virtual false, abstract: false, final false
+  inline ::Zenject::ConcreteBinderNonGeneric* WithId(::System::Object* identifier);
 
-/// @brief Method .ctor, addr 0x6c7f6ac, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::Zenject::DiContainer*  bindContainer, ::Zenject::BindInfo*  bindInfo, ::Zenject::BindStatement*  bindStatement) ;
+  /// @brief Method .ctor, addr 0x6cf18f0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConcreteIdBinderNonGeneric() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConcreteIdBinderNonGeneric();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderNonGeneric", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14011 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14004};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ConcreteIdBinderNonGeneric, 0x30>, "Size mismatch!");
 
-} // namespace end def Zenject
+} // namespace Zenject
 NEED_NO_BOX(::Zenject::ConcreteIdBinderNonGeneric);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "ConcreteIdBinderNonGeneric");

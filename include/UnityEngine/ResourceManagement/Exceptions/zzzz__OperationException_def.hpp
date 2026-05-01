@@ -21,37 +21,37 @@ namespace UnityEngine::ResourceManagement::Exceptions {
 // CS Name: UnityEngine.ResourceManagement.Exceptions.OperationException
 class CORDL_TYPE OperationException : public ::System::Exception {
 public:
-// Declarations
-static inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
+  // Declarations
+  static inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-/// @brief Method ToString, addr 0x6759d9c, size 0xb8, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x67cbda8, size 0xb8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x6759d28, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x67cbd34, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OperationException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OperationException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OperationException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OperationException(OperationException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OperationException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OperationException(OperationException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OperationException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OperationException(OperationException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OperationException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OperationException(OperationException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18698 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18688};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Exceptions::OperationException, 0x90>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ResourceManagement::Exceptions
+} // namespace UnityEngine::ResourceManagement::Exceptions
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Exceptions::OperationException);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Exceptions::OperationException*, "UnityEngine.ResourceManagement.Exceptions", "OperationException");

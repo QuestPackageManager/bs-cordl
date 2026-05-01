@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Mono/Security/Interface/Alert.hpp"
 #include "Mono/Security/Interface/AlertDescription.hpp"
@@ -19,6 +19,5 @@
 #include "Mono/Security/Interface/TlsProtocols.hpp"
 #include "Mono/Security/Interface/ValidationResult.hpp"
 #ifdef __cpp_modules
-                    export module Interface;
-                    #endif
-                
+export module Interface;
+#endif

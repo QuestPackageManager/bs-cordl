@@ -38,96 +38,96 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.NumericConvertInstruction
 class CORDL_TYPE NumericConvertInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-// Declarations
-using Checked = ::GlobalNamespace::NumericConvertInstruction_Checked;
+  // Declarations
+  using Checked = ::GlobalNamespace::NumericConvertInstruction_Checked;
 
-using ToUnderlying = ::GlobalNamespace::NumericConvertInstruction_ToUnderlying;
+  using ToUnderlying = ::GlobalNamespace::NumericConvertInstruction_ToUnderlying;
 
-using Unchecked = ::GlobalNamespace::NumericConvertInstruction_Unchecked;
+  using Unchecked = ::GlobalNamespace::NumericConvertInstruction_Unchecked;
 
- __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
+  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
- __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
- __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
+  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
-/// @brief Field _from, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get__from, put=__cordl_internal_set__from)) ::System::TypeCode  _from;
+  /// @brief Field _from, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__from, put = __cordl_internal_set__from)) ::System::TypeCode _from;
 
-/// @brief Field _isLiftedToNull, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get__isLiftedToNull, put=__cordl_internal_set__isLiftedToNull)) bool  _isLiftedToNull;
+  /// @brief Field _isLiftedToNull, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__isLiftedToNull, put = __cordl_internal_set__isLiftedToNull)) bool _isLiftedToNull;
 
-/// @brief Field _to, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get__to, put=__cordl_internal_set__to)) ::System::TypeCode  _to;
+  /// @brief Field _to, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__to, put = __cordl_internal_set__to)) ::System::TypeCode _to;
 
-/// @brief Method Convert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Object* Convert(::System::Object*  obj) ;
+  /// @brief Method Convert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Object* Convert(::System::Object* obj);
 
-static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode  from, ::System::TypeCode  to, bool  isLiftedToNull) ;
+  static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-/// @brief Method Run, addr 0x5e05518, size 0x16c, virtual true, abstract: false, final true
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e77524, size 0x16c, virtual true, abstract: false, final true
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method ToString, addr 0x5e056d8, size 0x180, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5e776e4, size 0x180, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::System::TypeCode const& __cordl_internal_get__from() const;
+  constexpr ::System::TypeCode const& __cordl_internal_get__from() const;
 
-constexpr ::System::TypeCode& __cordl_internal_get__from() ;
+  constexpr ::System::TypeCode& __cordl_internal_get__from();
 
-constexpr bool const& __cordl_internal_get__isLiftedToNull() const;
+  constexpr bool const& __cordl_internal_get__isLiftedToNull() const;
 
-constexpr bool& __cordl_internal_get__isLiftedToNull() ;
+  constexpr bool& __cordl_internal_get__isLiftedToNull();
 
-constexpr ::System::TypeCode const& __cordl_internal_get__to() const;
+  constexpr ::System::TypeCode const& __cordl_internal_get__to() const;
 
-constexpr ::System::TypeCode& __cordl_internal_get__to() ;
+  constexpr ::System::TypeCode& __cordl_internal_get__to();
 
-constexpr void __cordl_internal_set__from(::System::TypeCode  value) ;
+  constexpr void __cordl_internal_set__from(::System::TypeCode value);
 
-constexpr void __cordl_internal_set__isLiftedToNull(bool  value) ;
+  constexpr void __cordl_internal_set__isLiftedToNull(bool value);
 
-constexpr void __cordl_internal_set__to(::System::TypeCode  value) ;
+  constexpr void __cordl_internal_set__to(::System::TypeCode value);
 
-/// @brief Method .ctor, addr 0x5e0550c, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::System::TypeCode  from, ::System::TypeCode  to, bool  isLiftedToNull) ;
+  /// @brief Method .ctor, addr 0x5e77518, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-/// @brief Method get_ConsumedStack, addr 0x5e056c8, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ConsumedStack() ;
+  /// @brief Method get_ConsumedStack, addr 0x5e776d4, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ConsumedStack();
 
-/// @brief Method get_InstructionName, addr 0x5e05684, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_InstructionName() ;
+  /// @brief Method get_InstructionName, addr 0x5e77690, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_InstructionName();
 
-/// @brief Method get_ProducedStack, addr 0x5e056d0, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ProducedStack() ;
+  /// @brief Method get_ProducedStack, addr 0x5e776dc, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ProducedStack();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NumericConvertInstruction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NumericConvertInstruction();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NumericConvertInstruction(NumericConvertInstruction&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NumericConvertInstruction(NumericConvertInstruction && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NumericConvertInstruction(NumericConvertInstruction const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NumericConvertInstruction(NumericConvertInstruction const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16536 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16528};
+  /// @brief Field _from, offset: 0x10, size: 0x4, def value: None
+  ::System::TypeCode ____from;
 
-/// @brief Field _from, offset: 0x10, size: 0x4, def value: None
- ::System::TypeCode  ____from;
+  /// @brief Field _to, offset: 0x14, size: 0x4, def value: None
+  ::System::TypeCode ____to;
 
-/// @brief Field _to, offset: 0x14, size: 0x4, def value: None
- ::System::TypeCode  ____to;
+  /// @brief Field _isLiftedToNull, offset: 0x18, size: 0x1, def value: None
+  bool ____isLiftedToNull;
 
-/// @brief Field _isLiftedToNull, offset: 0x18, size: 0x1, def value: None
- bool  ____isLiftedToNull;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NumericConvertInstruction, ____from) == 0x10, "Offset mismatch!");
@@ -138,6 +138,6 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::NumericConvertI
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NumericConvertInstruction, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NumericConvertInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::NumericConvertInstruction*, "System.Linq.Expressions.Interpreter", "NumericConvertInstruction");

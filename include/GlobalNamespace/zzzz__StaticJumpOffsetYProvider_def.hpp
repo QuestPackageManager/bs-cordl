@@ -28,111 +28,111 @@ namespace GlobalNamespace {
 // CS Name: StaticJumpOffsetYProvider/InitData
 class CORDL_TYPE StaticJumpOffsetYProvider_InitData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field jumpyYOffset, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_jumpyYOffset, put=__cordl_internal_set_jumpyYOffset)) float_t  jumpyYOffset;
+  // Declarations
+  /// @brief Field jumpyYOffset, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_jumpyYOffset, put = __cordl_internal_set_jumpyYOffset)) float_t jumpyYOffset;
 
-static inline ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* New_ctor(float_t  jumpyYOffset) ;
+  static inline ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* New_ctor(float_t jumpyYOffset);
 
-constexpr float_t const& __cordl_internal_get_jumpyYOffset() const;
+  constexpr float_t const& __cordl_internal_get_jumpyYOffset() const;
 
-constexpr float_t& __cordl_internal_get_jumpyYOffset() ;
+  constexpr float_t& __cordl_internal_get_jumpyYOffset();
 
-constexpr void __cordl_internal_set_jumpyYOffset(float_t  value) ;
+  constexpr void __cordl_internal_set_jumpyYOffset(float_t value);
 
-/// @brief Method .ctor, addr 0x57cf8b0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(float_t  jumpyYOffset) ;
+  /// @brief Method .ctor, addr 0x58417ac, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(float_t jumpyYOffset);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StaticJumpOffsetYProvider_InitData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StaticJumpOffsetYProvider_InitData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider_InitData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider_InitData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider_InitData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider_InitData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5748 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5747};
+  /// @brief Field jumpyYOffset, offset: 0x10, size: 0x4, def value: None
+  float_t ___jumpyYOffset;
 
-/// @brief Field jumpyYOffset, offset: 0x10, size: 0x4, def value: None
- float_t  ___jumpyYOffset;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StaticJumpOffsetYProvider_InitData, ___jumpyYOffset) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StaticJumpOffsetYProvider_InitData, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: StaticJumpOffsetYProvider
 class CORDL_TYPE StaticJumpOffsetYProvider : public ::System::Object {
 public:
-// Declarations
-using InitData = ::GlobalNamespace::StaticJumpOffsetYProvider_InitData;
+  // Declarations
+  using InitData = ::GlobalNamespace::StaticJumpOffsetYProvider_InitData;
 
-/// @brief Field _initData, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__initData, put=__cordl_internal_set__initData)) ::GlobalNamespace::StaticJumpOffsetYProvider_InitData*  _initData;
+  /// @brief Field _initData, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* _initData;
 
- __declspec(property(get=get_jumpOffsetY)) float_t  jumpOffsetY;
+  __declspec(property(get = get_jumpOffsetY)) float_t jumpOffsetY;
 
-/// @brief Convert operator to "::GlobalNamespace::IJumpOffsetYProvider"
-constexpr operator  ::GlobalNamespace::IJumpOffsetYProvider*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IJumpOffsetYProvider"
+  constexpr operator ::GlobalNamespace::IJumpOffsetYProvider*() noexcept;
 
-static inline ::GlobalNamespace::StaticJumpOffsetYProvider* New_ctor() ;
+  static inline ::GlobalNamespace::StaticJumpOffsetYProvider* New_ctor();
 
-constexpr ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* const& __cordl_internal_get__initData() const;
 
-constexpr ::GlobalNamespace::StaticJumpOffsetYProvider_InitData*& __cordl_internal_get__initData() ;
+  constexpr ::GlobalNamespace::StaticJumpOffsetYProvider_InitData*& __cordl_internal_get__initData();
 
-constexpr void __cordl_internal_set__initData(::GlobalNamespace::StaticJumpOffsetYProvider_InitData*  value) ;
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::StaticJumpOffsetYProvider_InitData* value);
 
-/// @brief Method .ctor, addr 0x57cf8ac, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58417a8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_jumpOffsetY, addr 0x57cf894, size 0x18, virtual true, abstract: false, final true
-inline float_t get_jumpOffsetY() ;
+  /// @brief Method get_jumpOffsetY, addr 0x5841790, size 0x18, virtual true, abstract: false, final true
+  inline float_t get_jumpOffsetY();
 
-/// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
-constexpr ::GlobalNamespace::IJumpOffsetYProvider* i___GlobalNamespace__IJumpOffsetYProvider() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
+  constexpr ::GlobalNamespace::IJumpOffsetYProvider* i___GlobalNamespace__IJumpOffsetYProvider() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StaticJumpOffsetYProvider() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StaticJumpOffsetYProvider();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StaticJumpOffsetYProvider(StaticJumpOffsetYProvider&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StaticJumpOffsetYProvider(StaticJumpOffsetYProvider && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StaticJumpOffsetYProvider(StaticJumpOffsetYProvider const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StaticJumpOffsetYProvider(StaticJumpOffsetYProvider const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5749 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5748};
+  /// @brief Field _initData, offset: 0x10, size: 0x8, def value: None
+  ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* ____initData;
 
-/// @brief Field _initData, offset: 0x10, size: 0x8, def value: None
- ::GlobalNamespace::StaticJumpOffsetYProvider_InitData*  ____initData;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StaticJumpOffsetYProvider, ____initData) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StaticJumpOffsetYProvider, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StaticJumpOffsetYProvider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticJumpOffsetYProvider*, "", "StaticJumpOffsetYProvider");
 NEED_NO_BOX(::GlobalNamespace::StaticJumpOffsetYProvider_InitData);

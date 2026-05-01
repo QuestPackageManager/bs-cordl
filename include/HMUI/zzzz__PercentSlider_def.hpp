@@ -19,37 +19,37 @@ namespace HMUI {
 // CS Name: HMUI.PercentSlider
 class CORDL_TYPE PercentSlider : public ::HMUI::RangeValuesTextSlider {
 public:
-// Declarations
-static inline ::HMUI::PercentSlider* New_ctor() ;
+  // Declarations
+  static inline ::HMUI::PercentSlider* New_ctor();
 
-/// @brief Method TextForValue, addr 0x56c9a14, size 0xa8, virtual true, abstract: false, final false
-inline ::StringW TextForValue(float_t  value) ;
+  /// @brief Method TextForValue, addr 0x5737900, size 0xa8, virtual true, abstract: false, final false
+  inline ::StringW TextForValue(float_t value);
 
-/// @brief Method .ctor, addr 0x56c9abc, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57379a8, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PercentSlider() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PercentSlider();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PercentSlider", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PercentSlider(PercentSlider&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PercentSlider", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PercentSlider(PercentSlider && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PercentSlider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PercentSlider(PercentSlider const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PercentSlider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PercentSlider(PercentSlider const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19166 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19156};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::PercentSlider, 0x170>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 NEED_NO_BOX(::HMUI::PercentSlider);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::PercentSlider*, "HMUI", "PercentSlider");

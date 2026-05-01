@@ -21,48 +21,48 @@ namespace GlobalNamespace {
 // CS Name: MainEffectSO
 class CORDL_TYPE MainEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-// Declarations
- __declspec(property(get=get_hasPostProcessEffect)) bool  hasPostProcessEffect;
+  // Declarations
+  __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-static inline ::GlobalNamespace::MainEffectSO* New_ctor() ;
+  static inline ::GlobalNamespace::MainEffectSO* New_ctor();
 
-/// @brief Method PostRender, addr 0x5d95ae4, size 0x4, virtual true, abstract: false, final false
-inline void PostRender(float_t  fade) ;
+  /// @brief Method PostRender, addr 0x5e07af0, size 0x4, virtual true, abstract: false, final false
+  inline void PostRender(float_t fade);
 
-/// @brief Method PreRender, addr 0x5d95adc, size 0x4, virtual true, abstract: false, final false
-inline void PreRender() ;
+  /// @brief Method PreRender, addr 0x5e07ae8, size 0x4, virtual true, abstract: false, final false
+  inline void PreRender();
 
-/// @brief Method Render, addr 0x5d95ae0, size 0x4, virtual true, abstract: false, final false
-inline void Render(::UnityEngine::RenderTexture*  src, ::UnityEngine::RenderTexture*  dest, float_t  fade) ;
+  /// @brief Method Render, addr 0x5e07aec, size 0x4, virtual true, abstract: false, final false
+  inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
-/// @brief Method .ctor, addr 0x5d951e4, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e071f0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_hasPostProcessEffect, addr 0x5d95ae8, size 0x8, virtual true, abstract: false, final false
-inline bool get_hasPostProcessEffect() ;
+  /// @brief Method get_hasPostProcessEffect, addr 0x5e07af4, size 0x8, virtual true, abstract: false, final false
+  inline bool get_hasPostProcessEffect();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MainEffectSO() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainEffectSO();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectSO", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MainEffectSO(MainEffectSO&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainEffectSO", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MainEffectSO(MainEffectSO && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectSO", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MainEffectSO(MainEffectSO const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainEffectSO", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MainEffectSO(MainEffectSO const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20804 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20792};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainEffectSO, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainEffectSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainEffectSO*, "", "MainEffectSO");

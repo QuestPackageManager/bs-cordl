@@ -19,6 +19,12 @@ namespace GlobalNamespace {
 struct GameplayModifiers_EnergyType;
 }
 namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class IBlockLevelGameplayAnalyticsEventsCache;
+}
+namespace GlobalNamespace {
 class IGameEnergyCounter;
 }
 namespace GlobalNamespace {
@@ -28,14 +34,22 @@ namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
 class SaberClashChecker;
 }
+namespace GlobalNamespace {
+class TimeHelper;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
@@ -56,78 +70,78 @@ namespace GlobalNamespace {
 // CS Name: GameEnergyCounter/InitData
 class CORDL_TYPE GameEnergyCounter_InitData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field energyType, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_energyType, put=__cordl_internal_set_energyType)) ::GlobalNamespace::GameplayModifiers_EnergyType  energyType;
+  // Declarations
+  /// @brief Field energyType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_energyType, put = __cordl_internal_set_energyType)) ::GlobalNamespace::GameplayModifiers_EnergyType energyType;
 
-/// @brief Field failOnSaberClash, offset 0x16, size 0x1 
- __declspec(property(get=__cordl_internal_get_failOnSaberClash, put=__cordl_internal_set_failOnSaberClash)) bool  failOnSaberClash;
+  /// @brief Field failOnSaberClash, offset 0x16, size 0x1
+  __declspec(property(get = __cordl_internal_get_failOnSaberClash, put = __cordl_internal_set_failOnSaberClash)) bool failOnSaberClash;
 
-/// @brief Field instaFail, offset 0x15, size 0x1 
- __declspec(property(get=__cordl_internal_get_instaFail, put=__cordl_internal_set_instaFail)) bool  instaFail;
+  /// @brief Field instaFail, offset 0x15, size 0x1
+  __declspec(property(get = __cordl_internal_get_instaFail, put = __cordl_internal_set_instaFail)) bool instaFail;
 
-/// @brief Field noFail, offset 0x14, size 0x1 
- __declspec(property(get=__cordl_internal_get_noFail, put=__cordl_internal_set_noFail)) bool  noFail;
+  /// @brief Field noFail, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_noFail, put = __cordl_internal_set_noFail)) bool noFail;
 
-static inline ::GlobalNamespace::GameEnergyCounter_InitData* New_ctor(::GlobalNamespace::GameplayModifiers_EnergyType  energyType, bool  noFail, bool  instaFail, bool  failOnSaberClash) ;
+  static inline ::GlobalNamespace::GameEnergyCounter_InitData* New_ctor(::GlobalNamespace::GameplayModifiers_EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash);
 
-constexpr ::GlobalNamespace::GameplayModifiers_EnergyType const& __cordl_internal_get_energyType() const;
+  constexpr ::GlobalNamespace::GameplayModifiers_EnergyType const& __cordl_internal_get_energyType() const;
 
-constexpr ::GlobalNamespace::GameplayModifiers_EnergyType& __cordl_internal_get_energyType() ;
+  constexpr ::GlobalNamespace::GameplayModifiers_EnergyType& __cordl_internal_get_energyType();
 
-constexpr bool const& __cordl_internal_get_failOnSaberClash() const;
+  constexpr bool const& __cordl_internal_get_failOnSaberClash() const;
 
-constexpr bool& __cordl_internal_get_failOnSaberClash() ;
+  constexpr bool& __cordl_internal_get_failOnSaberClash();
 
-constexpr bool const& __cordl_internal_get_instaFail() const;
+  constexpr bool const& __cordl_internal_get_instaFail() const;
 
-constexpr bool& __cordl_internal_get_instaFail() ;
+  constexpr bool& __cordl_internal_get_instaFail();
 
-constexpr bool const& __cordl_internal_get_noFail() const;
+  constexpr bool const& __cordl_internal_get_noFail() const;
 
-constexpr bool& __cordl_internal_get_noFail() ;
+  constexpr bool& __cordl_internal_get_noFail();
 
-constexpr void __cordl_internal_set_energyType(::GlobalNamespace::GameplayModifiers_EnergyType  value) ;
+  constexpr void __cordl_internal_set_energyType(::GlobalNamespace::GameplayModifiers_EnergyType value);
 
-constexpr void __cordl_internal_set_failOnSaberClash(bool  value) ;
+  constexpr void __cordl_internal_set_failOnSaberClash(bool value);
 
-constexpr void __cordl_internal_set_instaFail(bool  value) ;
+  constexpr void __cordl_internal_set_instaFail(bool value);
 
-constexpr void __cordl_internal_set_noFail(bool  value) ;
+  constexpr void __cordl_internal_set_noFail(bool value);
 
-/// @brief Method .ctor, addr 0x5840cd4, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::GlobalNamespace::GameplayModifiers_EnergyType  energyType, bool  noFail, bool  instaFail, bool  failOnSaberClash) ;
+  /// @brief Method .ctor, addr 0x58b33f4, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::GameplayModifiers_EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GameEnergyCounter_InitData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameEnergyCounter_InitData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter_InitData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GameEnergyCounter_InitData(GameEnergyCounter_InitData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter_InitData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GameEnergyCounter_InitData(GameEnergyCounter_InitData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter_InitData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GameEnergyCounter_InitData(GameEnergyCounter_InitData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter_InitData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GameEnergyCounter_InitData(GameEnergyCounter_InitData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6210 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6209};
+  /// @brief Field energyType, offset: 0x10, size: 0x4, def value: None
+  ::GlobalNamespace::GameplayModifiers_EnergyType ___energyType;
 
-/// @brief Field energyType, offset: 0x10, size: 0x4, def value: None
- ::GlobalNamespace::GameplayModifiers_EnergyType  ___energyType;
+  /// @brief Field noFail, offset: 0x14, size: 0x1, def value: None
+  bool ___noFail;
 
-/// @brief Field noFail, offset: 0x14, size: 0x1, def value: None
- bool  ___noFail;
+  /// @brief Field instaFail, offset: 0x15, size: 0x1, def value: None
+  bool ___instaFail;
 
-/// @brief Field instaFail, offset: 0x15, size: 0x1, def value: None
- bool  ___instaFail;
+  /// @brief Field failOnSaberClash, offset: 0x16, size: 0x1, def value: None
+  bool ___failOnSaberClash;
 
-/// @brief Field failOnSaberClash, offset: 0x16, size: 0x1, def value: None
- bool  ___failOnSaberClash;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameEnergyCounter_InitData, ___energyType) == 0x10, "Offset mismatch!");
@@ -140,352 +154,411 @@ static_assert(offsetof(::GlobalNamespace::GameEnergyCounter_InitData, ___failOnS
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameEnergyCounter_InitData, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies GameplayModifiers::EnergyType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameEnergyCounter
 class CORDL_TYPE GameEnergyCounter : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-using InitData = ::GlobalNamespace::GameEnergyCounter_InitData;
+  // Declarations
+  using InitData = ::GlobalNamespace::GameEnergyCounter_InitData;
 
-/// @brief Field _batteryLives, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__batteryLives, put=__cordl_internal_set__batteryLives)) int32_t  _batteryLives;
+  /// @brief Field _audioTimeSource, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-/// @brief Field _beatmapObjectManager, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapObjectManager, put=__cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager*  _beatmapObjectManager;
+  /// @brief Field _batteryLives, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__batteryLives, put = __cordl_internal_set__batteryLives)) int32_t _batteryLives;
 
-/// @brief Field _didReach0Energy, offset 0x6c, size 0x1 
- __declspec(property(get=__cordl_internal_get__didReach0Energy, put=__cordl_internal_set__didReach0Energy)) bool  _didReach0Energy;
+  /// @brief Field _beatmapObjectManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-/// @brief Field <energyType>k__BackingField, offset 0x64, size 0x4 
- __declspec(property(get=__cordl_internal_get__energyType_k__BackingField, put=__cordl_internal_set__energyType_k__BackingField)) ::GlobalNamespace::GameplayModifiers_EnergyType  _energyType_k__BackingField;
+  /// @brief Field _blockLevelGameplayAnalyticsEventsCache, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__blockLevelGameplayAnalyticsEventsCache,
+                      put = __cordl_internal_set__blockLevelGameplayAnalyticsEventsCache)) ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache* _blockLevelGameplayAnalyticsEventsCache;
 
-/// @brief Field <energy>k__BackingField, offset 0x60, size 0x4 
- __declspec(property(get=__cordl_internal_get__energy_k__BackingField, put=__cordl_internal_set__energy_k__BackingField)) float_t  _energy_k__BackingField;
+  /// @brief Field _didReach0Energy, offset 0x84, size 0x1
+  __declspec(property(get = __cordl_internal_get__didReach0Energy, put = __cordl_internal_set__didReach0Energy)) bool _didReach0Energy;
 
-/// @brief Field <failOnSaberClash>k__BackingField, offset 0x6a, size 0x1 
- __declspec(property(get=__cordl_internal_get__failOnSaberClash_k__BackingField, put=__cordl_internal_set__failOnSaberClash_k__BackingField)) bool  _failOnSaberClash_k__BackingField;
+  /// @brief Field <energyType>k__BackingField, offset 0x7c, size 0x4
+  __declspec(property(get = __cordl_internal_get__energyType_k__BackingField,
+                      put = __cordl_internal_set__energyType_k__BackingField)) ::GlobalNamespace::GameplayModifiers_EnergyType _energyType_k__BackingField;
 
-/// @brief Field _initData, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__initData, put=__cordl_internal_set__initData)) ::GlobalNamespace::GameEnergyCounter_InitData*  _initData;
+  /// @brief Field <energy>k__BackingField, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get__energy_k__BackingField, put = __cordl_internal_set__energy_k__BackingField)) float_t _energy_k__BackingField;
 
-/// @brief Field <instaFail>k__BackingField, offset 0x68, size 0x1 
- __declspec(property(get=__cordl_internal_get__instaFail_k__BackingField, put=__cordl_internal_set__instaFail_k__BackingField)) bool  _instaFail_k__BackingField;
+  /// @brief Field <failOnSaberClash>k__BackingField, offset 0x82, size 0x1
+  __declspec(property(get = __cordl_internal_get__failOnSaberClash_k__BackingField, put = __cordl_internal_set__failOnSaberClash_k__BackingField)) bool _failOnSaberClash_k__BackingField;
 
-/// @brief Field _isInitialized, offset 0x6b, size 0x1 
- __declspec(property(get=__cordl_internal_get__isInitialized, put=__cordl_internal_set__isInitialized)) bool  _isInitialized;
+  /// @brief Field _initData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::GameEnergyCounter_InitData* _initData;
 
-/// @brief Field _nextFrameEnergyChange, offset 0x70, size 0x4 
- __declspec(property(get=__cordl_internal_get__nextFrameEnergyChange, put=__cordl_internal_set__nextFrameEnergyChange)) float_t  _nextFrameEnergyChange;
+  /// @brief Field <instaFail>k__BackingField, offset 0x80, size 0x1
+  __declspec(property(get = __cordl_internal_get__instaFail_k__BackingField, put = __cordl_internal_set__instaFail_k__BackingField)) bool _instaFail_k__BackingField;
 
-/// @brief Field <noFail>k__BackingField, offset 0x69, size 0x1 
- __declspec(property(get=__cordl_internal_get__noFail_k__BackingField, put=__cordl_internal_set__noFail_k__BackingField)) bool  _noFail_k__BackingField;
+  /// @brief Field _isInitialized, offset 0x83, size 0x1
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-/// @brief Field _playerHeadAndObstacleInteraction, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__playerHeadAndObstacleInteraction, put=__cordl_internal_set__playerHeadAndObstacleInteraction)) ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>  _playerHeadAndObstacleInteraction;
+  /// @brief Field _nextFrameEnergyChange, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get__nextFrameEnergyChange, put = __cordl_internal_set__nextFrameEnergyChange)) float_t _nextFrameEnergyChange;
 
-/// @brief Field _saberClashChecker, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__saberClashChecker, put=__cordl_internal_set__saberClashChecker)) ::GlobalNamespace::SaberClashChecker*  _saberClashChecker;
+  /// @brief Field <noFail>k__BackingField, offset 0x81, size 0x1
+  __declspec(property(get = __cordl_internal_get__noFail_k__BackingField, put = __cordl_internal_set__noFail_k__BackingField)) bool _noFail_k__BackingField;
 
- __declspec(property(get=get_batteryEnergy)) int32_t  batteryEnergy;
+  /// @brief Field _obstacleEnterTimes, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__obstacleEnterTimes,
+                      put = __cordl_internal_set__obstacleEnterTimes)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* _obstacleEnterTimes;
 
- __declspec(property(get=get_batteryLives)) int32_t  batteryLives;
+  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction)) ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>
+      _playerHeadAndObstacleInteraction;
 
-/// @brief Field didInitEvent, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get_didInitEvent, put=__cordl_internal_set_didInitEvent)) ::System::Action*  didInitEvent;
+  /// @brief Field _saberClashChecker, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberClashChecker, put = __cordl_internal_set__saberClashChecker)) ::GlobalNamespace::SaberClashChecker* _saberClashChecker;
 
- __declspec(property(get=get_energy, put=set_energy)) float_t  energy;
+  /// @brief Field _timeHelper, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
 
- __declspec(property(get=get_energyType, put=set_energyType)) ::GlobalNamespace::GameplayModifiers_EnergyType  energyType;
+  __declspec(property(get = get_batteryEnergy)) int32_t batteryEnergy;
 
- __declspec(property(get=get_failOnSaberClash, put=set_failOnSaberClash)) bool  failOnSaberClash;
+  __declspec(property(get = get_batteryLives)) int32_t batteryLives;
 
-/// @brief Field gameEnergyDidChangeEvent, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get_gameEnergyDidChangeEvent, put=__cordl_internal_set_gameEnergyDidChangeEvent)) ::System::Action_1<float_t>*  gameEnergyDidChangeEvent;
+  /// @brief Field didInitEvent, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_didInitEvent, put = __cordl_internal_set_didInitEvent)) ::System::Action* didInitEvent;
 
-/// @brief Field gameEnergyDidReach0Event, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get_gameEnergyDidReach0Event, put=__cordl_internal_set_gameEnergyDidReach0Event)) ::System::Action*  gameEnergyDidReach0Event;
+  __declspec(property(get = get_energy, put = set_energy)) float_t energy;
 
- __declspec(property(get=get_instaFail, put=set_instaFail)) bool  instaFail;
+  __declspec(property(get = get_energyType, put = set_energyType)) ::GlobalNamespace::GameplayModifiers_EnergyType energyType;
 
- __declspec(property(get=get_isInitialized)) bool  isInitialized;
+  __declspec(property(get = get_failOnSaberClash, put = set_failOnSaberClash)) bool failOnSaberClash;
 
- __declspec(property(get=get_noFail, put=set_noFail)) bool  noFail;
+  /// @brief Field gameEnergyDidChangeEvent, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_gameEnergyDidChangeEvent, put = __cordl_internal_set_gameEnergyDidChangeEvent)) ::System::Action_1<float_t>* gameEnergyDidChangeEvent;
 
-/// @brief Convert operator to "::GlobalNamespace::IGameEnergyCounter"
-constexpr operator  ::GlobalNamespace::IGameEnergyCounter*() noexcept;
+  /// @brief Field gameEnergyDidReach0Event, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_gameEnergyDidReach0Event, put = __cordl_internal_set_gameEnergyDidReach0Event)) ::System::Action* gameEnergyDidReach0Event;
 
-/// @brief Method HandleNoteWasCut, addr 0x5840b70, size 0xec, virtual false, abstract: false, final false
-inline void HandleNoteWasCut(::GlobalNamespace::NoteController*  noteController, ::ByRef<::GlobalNamespace::NoteCutInfo>  noteCutInfo) ;
+  __declspec(property(get = get_instaFail, put = set_instaFail)) bool instaFail;
 
-/// @brief Method HandleNoteWasMissed, addr 0x5840c5c, size 0x64, virtual false, abstract: false, final false
-inline void HandleNoteWasMissed(::GlobalNamespace::NoteController*  noteController) ;
+  __declspec(property(get = get_isInitialized)) bool isInitialized;
 
-/// @brief Method LateUpdate, addr 0x5840770, size 0x124, virtual false, abstract: false, final false
-inline void LateUpdate() ;
+  __declspec(property(get = get_noFail, put = set_noFail)) bool noFail;
 
-static inline ::GlobalNamespace::GameEnergyCounter* New_ctor() ;
+  /// @brief Convert operator to "::GlobalNamespace::IGameEnergyCounter"
+  constexpr operator ::GlobalNamespace::IGameEnergyCounter*() noexcept;
 
-/// @brief Method OnDestroy, addr 0x5840670, size 0x100, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method HandleNoteWasCut, addr 0x58b2f78, size 0xec, virtual false, abstract: false, final false
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-/// @brief Method ProcessEnergyChange, addr 0x58408ec, size 0xec, virtual false, abstract: false, final false
-inline void ProcessEnergyChange(float_t  energyChange) ;
+  /// @brief Method HandleNoteWasMissed, addr 0x58b3064, size 0x64, virtual false, abstract: false, final false
+  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-/// @brief Method Start, addr 0x58404e0, size 0x190, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method HandlePlayerHeadDidEnterObstacle, addr 0x58b30c8, size 0xf0, virtual false, abstract: false, final false
+  inline void HandlePlayerHeadDidEnterObstacle(::GlobalNamespace::ObstacleController* obstacleController);
 
-constexpr int32_t const& __cordl_internal_get__batteryLives() const;
+  /// @brief Method HandlePlayerHeadDidLeaveObstacle, addr 0x58b31b8, size 0x190, virtual false, abstract: false, final false
+  inline void HandlePlayerHeadDidLeaveObstacle(::GlobalNamespace::ObstacleController* obstacleController);
 
-constexpr int32_t& __cordl_internal_get__batteryLives() ;
+  /// @brief Method LateUpdate, addr 0x58b2b8c, size 0x110, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
-constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
+  static inline ::GlobalNamespace::GameEnergyCounter* New_ctor();
 
-constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager() ;
+  /// @brief Method OnDestroy, addr 0x58b27f0, size 0x21c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-constexpr bool const& __cordl_internal_get__didReach0Energy() const;
+  /// @brief Method ProcessEnergyChange, addr 0x58b2cf4, size 0xec, virtual false, abstract: false, final false
+  inline void ProcessEnergyChange(float_t energyChange);
 
-constexpr bool& __cordl_internal_get__didReach0Energy() ;
+  /// @brief Method Start, addr 0x58b242c, size 0x244, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr ::GlobalNamespace::GameplayModifiers_EnergyType const& __cordl_internal_get__energyType_k__BackingField() const;
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
 
-constexpr ::GlobalNamespace::GameplayModifiers_EnergyType& __cordl_internal_get__energyType_k__BackingField() ;
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-constexpr float_t const& __cordl_internal_get__energy_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__batteryLives() const;
 
-constexpr float_t& __cordl_internal_get__energy_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__batteryLives();
 
-constexpr bool const& __cordl_internal_get__failOnSaberClash_k__BackingField() const;
+  constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
 
-constexpr bool& __cordl_internal_get__failOnSaberClash_k__BackingField() ;
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-constexpr ::GlobalNamespace::GameEnergyCounter_InitData* const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache* const& __cordl_internal_get__blockLevelGameplayAnalyticsEventsCache() const;
 
-constexpr ::GlobalNamespace::GameEnergyCounter_InitData*& __cordl_internal_get__initData() ;
+  constexpr ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*& __cordl_internal_get__blockLevelGameplayAnalyticsEventsCache();
 
-constexpr bool const& __cordl_internal_get__instaFail_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__didReach0Energy() const;
 
-constexpr bool& __cordl_internal_get__instaFail_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__didReach0Energy();
 
-constexpr bool const& __cordl_internal_get__isInitialized() const;
+  constexpr ::GlobalNamespace::GameplayModifiers_EnergyType const& __cordl_internal_get__energyType_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__isInitialized() ;
+  constexpr ::GlobalNamespace::GameplayModifiers_EnergyType& __cordl_internal_get__energyType_k__BackingField();
 
-constexpr float_t const& __cordl_internal_get__nextFrameEnergyChange() const;
+  constexpr float_t const& __cordl_internal_get__energy_k__BackingField() const;
 
-constexpr float_t& __cordl_internal_get__nextFrameEnergyChange() ;
+  constexpr float_t& __cordl_internal_get__energy_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__noFail_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__failOnSaberClash_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__noFail_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__failOnSaberClash_k__BackingField();
 
-constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
+  constexpr ::GlobalNamespace::GameEnergyCounter_InitData* const& __cordl_internal_get__initData() const;
 
-constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction() ;
+  constexpr ::GlobalNamespace::GameEnergyCounter_InitData*& __cordl_internal_get__initData();
 
-constexpr ::GlobalNamespace::SaberClashChecker* const& __cordl_internal_get__saberClashChecker() const;
+  constexpr bool const& __cordl_internal_get__instaFail_k__BackingField() const;
 
-constexpr ::GlobalNamespace::SaberClashChecker*& __cordl_internal_get__saberClashChecker() ;
+  constexpr bool& __cordl_internal_get__instaFail_k__BackingField();
 
-constexpr ::System::Action* const& __cordl_internal_get_didInitEvent() const;
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-constexpr ::System::Action*& __cordl_internal_get_didInitEvent() ;
+  constexpr bool& __cordl_internal_get__isInitialized();
 
-constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_gameEnergyDidChangeEvent() const;
+  constexpr float_t const& __cordl_internal_get__nextFrameEnergyChange() const;
 
-constexpr ::System::Action_1<float_t>*& __cordl_internal_get_gameEnergyDidChangeEvent() ;
+  constexpr float_t& __cordl_internal_get__nextFrameEnergyChange();
 
-constexpr ::System::Action* const& __cordl_internal_get_gameEnergyDidReach0Event() const;
+  constexpr bool const& __cordl_internal_get__noFail_k__BackingField() const;
 
-constexpr ::System::Action*& __cordl_internal_get_gameEnergyDidReach0Event() ;
+  constexpr bool& __cordl_internal_get__noFail_k__BackingField();
 
-constexpr void __cordl_internal_set__batteryLives(int32_t  value) ;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* const& __cordl_internal_get__obstacleEnterTimes() const;
 
-constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager*  value) ;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*& __cordl_internal_get__obstacleEnterTimes();
 
-constexpr void __cordl_internal_set__didReach0Energy(bool  value) ;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
 
-constexpr void __cordl_internal_set__energyType_k__BackingField(::GlobalNamespace::GameplayModifiers_EnergyType  value) ;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
 
-constexpr void __cordl_internal_set__energy_k__BackingField(float_t  value) ;
+  constexpr ::GlobalNamespace::SaberClashChecker* const& __cordl_internal_get__saberClashChecker() const;
 
-constexpr void __cordl_internal_set__failOnSaberClash_k__BackingField(bool  value) ;
+  constexpr ::GlobalNamespace::SaberClashChecker*& __cordl_internal_get__saberClashChecker();
 
-constexpr void __cordl_internal_set__initData(::GlobalNamespace::GameEnergyCounter_InitData*  value) ;
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
 
-constexpr void __cordl_internal_set__instaFail_k__BackingField(bool  value) ;
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
 
-constexpr void __cordl_internal_set__isInitialized(bool  value) ;
+  constexpr ::System::Action* const& __cordl_internal_get_didInitEvent() const;
 
-constexpr void __cordl_internal_set__nextFrameEnergyChange(float_t  value) ;
+  constexpr ::System::Action*& __cordl_internal_get_didInitEvent();
 
-constexpr void __cordl_internal_set__noFail_k__BackingField(bool  value) ;
+  constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_gameEnergyDidChangeEvent() const;
 
-constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>  value) ;
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_gameEnergyDidChangeEvent();
 
-constexpr void __cordl_internal_set__saberClashChecker(::GlobalNamespace::SaberClashChecker*  value) ;
+  constexpr ::System::Action* const& __cordl_internal_get_gameEnergyDidReach0Event() const;
 
-constexpr void __cordl_internal_set_didInitEvent(::System::Action*  value) ;
+  constexpr ::System::Action*& __cordl_internal_get_gameEnergyDidReach0Event();
 
-constexpr void __cordl_internal_set_gameEnergyDidChangeEvent(::System::Action_1<float_t>*  value) ;
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-constexpr void __cordl_internal_set_gameEnergyDidReach0Event(::System::Action*  value) ;
+  constexpr void __cordl_internal_set__batteryLives(int32_t value);
 
-/// @brief Method .ctor, addr 0x5840cc0, size 0x14, virtual false, abstract: false, final false
-inline void _ctor() ;
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-/// @brief Method add_didInitEvent, addr 0x583ffc4, size 0xac, virtual true, abstract: false, final true
-inline void add_didInitEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set__blockLevelGameplayAnalyticsEventsCache(::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache* value);
 
-/// @brief Method add_gameEnergyDidChangeEvent, addr 0x5840274, size 0xc0, virtual true, abstract: false, final true
-inline void add_gameEnergyDidChangeEvent(::System::Action_1<float_t>*  value) ;
+  constexpr void __cordl_internal_set__didReach0Energy(bool value);
 
-/// @brief Method add_gameEnergyDidReach0Event, addr 0x584011c, size 0xac, virtual true, abstract: false, final true
-inline void add_gameEnergyDidReach0Event(::System::Action*  value) ;
+  constexpr void __cordl_internal_set__energyType_k__BackingField(::GlobalNamespace::GameplayModifiers_EnergyType value);
 
-/// @brief Method get_batteryEnergy, addr 0x584040c, size 0x8c, virtual true, abstract: false, final true
-inline int32_t get_batteryEnergy() ;
+  constexpr void __cordl_internal_set__energy_k__BackingField(float_t value);
 
-/// @brief Method get_batteryLives, addr 0x5840498, size 0x8, virtual true, abstract: false, final true
-inline int32_t get_batteryLives() ;
+  constexpr void __cordl_internal_set__failOnSaberClash_k__BackingField(bool value);
 
-/// @brief Method get_energy, addr 0x58403fc, size 0x8, virtual true, abstract: false, final true
-inline float_t get_energy() ;
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::GameEnergyCounter_InitData* value);
 
-/// @brief Method get_energyType, addr 0x58404a0, size 0x8, virtual true, abstract: false, final true
-inline ::GlobalNamespace::GameplayModifiers_EnergyType get_energyType() ;
+  constexpr void __cordl_internal_set__instaFail_k__BackingField(bool value);
 
-/// @brief Method get_failOnSaberClash, addr 0x58404d0, size 0x8, virtual true, abstract: false, final true
-inline bool get_failOnSaberClash() ;
+  constexpr void __cordl_internal_set__isInitialized(bool value);
 
-/// @brief Method get_instaFail, addr 0x58404b0, size 0x8, virtual true, abstract: false, final true
-inline bool get_instaFail() ;
+  constexpr void __cordl_internal_set__nextFrameEnergyChange(float_t value);
 
-/// @brief Method get_isInitialized, addr 0x58403f4, size 0x8, virtual true, abstract: false, final true
-inline bool get_isInitialized() ;
+  constexpr void __cordl_internal_set__noFail_k__BackingField(bool value);
 
-/// @brief Method get_noFail, addr 0x58404c0, size 0x8, virtual true, abstract: false, final true
-inline bool get_noFail() ;
+  constexpr void __cordl_internal_set__obstacleEnterTimes(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
-/// @brief Convert to "::GlobalNamespace::IGameEnergyCounter"
-constexpr ::GlobalNamespace::IGameEnergyCounter* i___GlobalNamespace__IGameEnergyCounter() noexcept;
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-/// @brief Method remove_didInitEvent, addr 0x5840070, size 0xac, virtual true, abstract: false, final true
-inline void remove_didInitEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set__saberClashChecker(::GlobalNamespace::SaberClashChecker* value);
 
-/// @brief Method remove_gameEnergyDidChangeEvent, addr 0x5840334, size 0xc0, virtual true, abstract: false, final true
-inline void remove_gameEnergyDidChangeEvent(::System::Action_1<float_t>*  value) ;
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
-/// @brief Method remove_gameEnergyDidReach0Event, addr 0x58401c8, size 0xac, virtual true, abstract: false, final true
-inline void remove_gameEnergyDidReach0Event(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_didInitEvent(::System::Action* value);
 
-/// @brief Method set_energy, addr 0x5840404, size 0x8, virtual false, abstract: false, final false
-inline void set_energy(float_t  value) ;
+  constexpr void __cordl_internal_set_gameEnergyDidChangeEvent(::System::Action_1<float_t>* value);
 
-/// @brief Method set_energyType, addr 0x58404a8, size 0x8, virtual false, abstract: false, final false
-inline void set_energyType(::GlobalNamespace::GameplayModifiers_EnergyType  value) ;
+  constexpr void __cordl_internal_set_gameEnergyDidReach0Event(::System::Action* value);
 
-/// @brief Method set_failOnSaberClash, addr 0x58404d8, size 0x8, virtual false, abstract: false, final false
-inline void set_failOnSaberClash(bool  value) ;
+  /// @brief Method .ctor, addr 0x58b3348, size 0xac, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method set_instaFail, addr 0x58404b8, size 0x8, virtual false, abstract: false, final false
-inline void set_instaFail(bool  value) ;
+  /// @brief Method add_didInitEvent, addr 0x58b1f10, size 0xac, virtual true, abstract: false, final true
+  inline void add_didInitEvent(::System::Action* value);
 
-/// @brief Method set_noFail, addr 0x58404c8, size 0x8, virtual false, abstract: false, final false
-inline void set_noFail(bool  value) ;
+  /// @brief Method add_gameEnergyDidChangeEvent, addr 0x58b21c0, size 0xc0, virtual true, abstract: false, final true
+  inline void add_gameEnergyDidChangeEvent(::System::Action_1<float_t>* value);
+
+  /// @brief Method add_gameEnergyDidReach0Event, addr 0x58b2068, size 0xac, virtual true, abstract: false, final true
+  inline void add_gameEnergyDidReach0Event(::System::Action* value);
+
+  /// @brief Method get_batteryEnergy, addr 0x58b2358, size 0x8c, virtual true, abstract: false, final true
+  inline int32_t get_batteryEnergy();
+
+  /// @brief Method get_batteryLives, addr 0x58b23e4, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_batteryLives();
+
+  /// @brief Method get_energy, addr 0x58b2348, size 0x8, virtual true, abstract: false, final true
+  inline float_t get_energy();
+
+  /// @brief Method get_energyType, addr 0x58b23ec, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::GameplayModifiers_EnergyType get_energyType();
+
+  /// @brief Method get_failOnSaberClash, addr 0x58b241c, size 0x8, virtual true, abstract: false, final true
+  inline bool get_failOnSaberClash();
+
+  /// @brief Method get_instaFail, addr 0x58b23fc, size 0x8, virtual true, abstract: false, final true
+  inline bool get_instaFail();
+
+  /// @brief Method get_isInitialized, addr 0x58b2340, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isInitialized();
+
+  /// @brief Method get_noFail, addr 0x58b240c, size 0x8, virtual true, abstract: false, final true
+  inline bool get_noFail();
+
+  /// @brief Convert to "::GlobalNamespace::IGameEnergyCounter"
+  constexpr ::GlobalNamespace::IGameEnergyCounter* i___GlobalNamespace__IGameEnergyCounter() noexcept;
+
+  /// @brief Method remove_didInitEvent, addr 0x58b1fbc, size 0xac, virtual true, abstract: false, final true
+  inline void remove_didInitEvent(::System::Action* value);
+
+  /// @brief Method remove_gameEnergyDidChangeEvent, addr 0x58b2280, size 0xc0, virtual true, abstract: false, final true
+  inline void remove_gameEnergyDidChangeEvent(::System::Action_1<float_t>* value);
+
+  /// @brief Method remove_gameEnergyDidReach0Event, addr 0x58b2114, size 0xac, virtual true, abstract: false, final true
+  inline void remove_gameEnergyDidReach0Event(::System::Action* value);
+
+  /// @brief Method set_energy, addr 0x58b2350, size 0x8, virtual false, abstract: false, final false
+  inline void set_energy(float_t value);
+
+  /// @brief Method set_energyType, addr 0x58b23f4, size 0x8, virtual false, abstract: false, final false
+  inline void set_energyType(::GlobalNamespace::GameplayModifiers_EnergyType value);
+
+  /// @brief Method set_failOnSaberClash, addr 0x58b2424, size 0x8, virtual false, abstract: false, final false
+  inline void set_failOnSaberClash(bool value);
+
+  /// @brief Method set_instaFail, addr 0x58b2404, size 0x8, virtual false, abstract: false, final false
+  inline void set_instaFail(bool value);
+
+  /// @brief Method set_noFail, addr 0x58b2414, size 0x8, virtual false, abstract: false, final false
+  inline void set_noFail(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GameEnergyCounter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameEnergyCounter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GameEnergyCounter(GameEnergyCounter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GameEnergyCounter(GameEnergyCounter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GameEnergyCounter(GameEnergyCounter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GameEnergyCounter(GameEnergyCounter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6211 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6210};
+  /// @brief Field kBadBurstSliderElementEnergyDrain offset 0xffffffff size 0x4
+  static constexpr float_t kBadBurstSliderElementEnergyDrain{ static_cast<float_t>(0.025f) };
 
-/// @brief Field kBadBurstSliderElementEnergyDrain offset 0xffffffff size 0x4
-static constexpr float_t  kBadBurstSliderElementEnergyDrain{static_cast<float_t>(0.025f)};
+  /// @brief Field kBadNoteEnergyDrain offset 0xffffffff size 0x4
+  static constexpr float_t kBadNoteEnergyDrain{ static_cast<float_t>(0.1f) };
 
-/// @brief Field kBadNoteEnergyDrain offset 0xffffffff size 0x4
-static constexpr float_t  kBadNoteEnergyDrain{static_cast<float_t>(0.1f)};
+  /// @brief Field kGoodBurstSliderElementCharge offset 0xffffffff size 0x4
+  static constexpr float_t kGoodBurstSliderElementCharge{ static_cast<float_t>(0.002f) };
 
-/// @brief Field kGoodBurstSliderElementCharge offset 0xffffffff size 0x4
-static constexpr float_t  kGoodBurstSliderElementCharge{static_cast<float_t>(0.002f)};
+  /// @brief Field kGoodNoteEnergyCharge offset 0xffffffff size 0x4
+  static constexpr float_t kGoodNoteEnergyCharge{ static_cast<float_t>(0.01f) };
 
-/// @brief Field kGoodNoteEnergyCharge offset 0xffffffff size 0x4
-static constexpr float_t  kGoodNoteEnergyCharge{static_cast<float_t>(0.01f)};
+  /// @brief Field kHitBombEnergyDrain offset 0xffffffff size 0x4
+  static constexpr float_t kHitBombEnergyDrain{ static_cast<float_t>(0.15f) };
 
-/// @brief Field kHitBombEnergyDrain offset 0xffffffff size 0x4
-static constexpr float_t  kHitBombEnergyDrain{static_cast<float_t>(0.15f)};
+  /// @brief Field kMissBurstSliderElementEnergyDrain offset 0xffffffff size 0x4
+  static constexpr float_t kMissBurstSliderElementEnergyDrain{ static_cast<float_t>(0.03f) };
 
-/// @brief Field kMissBurstSliderElementEnergyDrain offset 0xffffffff size 0x4
-static constexpr float_t  kMissBurstSliderElementEnergyDrain{static_cast<float_t>(0.03f)};
+  /// @brief Field kMissNoteEnergyDrain offset 0xffffffff size 0x4
+  static constexpr float_t kMissNoteEnergyDrain{ static_cast<float_t>(0.15f) };
 
-/// @brief Field kMissNoteEnergyDrain offset 0xffffffff size 0x4
-static constexpr float_t  kMissNoteEnergyDrain{static_cast<float_t>(0.15f)};
+  /// @brief Field kObstacleEnergyDrainPerSecond offset 0xffffffff size 0x4
+  static constexpr float_t kObstacleEnergyDrainPerSecond{ static_cast<float_t>(1.3f) };
 
-/// @brief Field kObstacleEnergyDrainPerSecond offset 0xffffffff size 0x4
-static constexpr float_t  kObstacleEnergyDrainPerSecond{static_cast<float_t>(1.3f)};
+  /// @brief Field _batteryLives, offset: 0x20, size: 0x4, def value: None
+  int32_t ____batteryLives;
 
-/// @brief Field _batteryLives, offset: 0x20, size: 0x4, def value: None
- int32_t  ____batteryLives;
+  /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::GameEnergyCounter_InitData* ____initData;
 
-/// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
- ::GlobalNamespace::GameEnergyCounter_InitData*  ____initData;
+  /// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
-/// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
- ::GlobalNamespace::BeatmapObjectManager*  ____beatmapObjectManager;
+  /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
-/// @brief Field _playerHeadAndObstacleInteraction, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>  ____playerHeadAndObstacleInteraction;
+  /// @brief Field _timeHelper, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
-/// @brief Field _saberClashChecker, offset: 0x40, size: 0x8, def value: None
- ::GlobalNamespace::SaberClashChecker*  ____saberClashChecker;
+  /// @brief Field _saberClashChecker, offset: 0x48, size: 0x8, def value: None
+  ::GlobalNamespace::SaberClashChecker* ____saberClashChecker;
 
-/// @brief Field didInitEvent, offset: 0x48, size: 0x8, def value: None
- ::System::Action*  ___didInitEvent;
+  /// @brief Field _blockLevelGameplayAnalyticsEventsCache, offset: 0x50, size: 0x8, def value: None
+  ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache* ____blockLevelGameplayAnalyticsEventsCache;
 
-/// @brief Field gameEnergyDidReach0Event, offset: 0x50, size: 0x8, def value: None
- ::System::Action*  ___gameEnergyDidReach0Event;
+  /// @brief Field _audioTimeSource, offset: 0x58, size: 0x8, def value: None
+  ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
-/// @brief Field gameEnergyDidChangeEvent, offset: 0x58, size: 0x8, def value: None
- ::System::Action_1<float_t>*  ___gameEnergyDidChangeEvent;
+  /// @brief Field didInitEvent, offset: 0x60, size: 0x8, def value: None
+  ::System::Action* ___didInitEvent;
 
-/// @brief Field <energy>k__BackingField, offset: 0x60, size: 0x4, def value: None
- float_t  ____energy_k__BackingField;
+  /// @brief Field gameEnergyDidReach0Event, offset: 0x68, size: 0x8, def value: None
+  ::System::Action* ___gameEnergyDidReach0Event;
 
-/// @brief Field <energyType>k__BackingField, offset: 0x64, size: 0x4, def value: None
- ::GlobalNamespace::GameplayModifiers_EnergyType  ____energyType_k__BackingField;
+  /// @brief Field gameEnergyDidChangeEvent, offset: 0x70, size: 0x8, def value: None
+  ::System::Action_1<float_t>* ___gameEnergyDidChangeEvent;
 
-/// @brief Field <instaFail>k__BackingField, offset: 0x68, size: 0x1, def value: None
- bool  ____instaFail_k__BackingField;
+  /// @brief Field <energy>k__BackingField, offset: 0x78, size: 0x4, def value: None
+  float_t ____energy_k__BackingField;
 
-/// @brief Field <noFail>k__BackingField, offset: 0x69, size: 0x1, def value: None
- bool  ____noFail_k__BackingField;
+  /// @brief Field <energyType>k__BackingField, offset: 0x7c, size: 0x4, def value: None
+  ::GlobalNamespace::GameplayModifiers_EnergyType ____energyType_k__BackingField;
 
-/// @brief Field <failOnSaberClash>k__BackingField, offset: 0x6a, size: 0x1, def value: None
- bool  ____failOnSaberClash_k__BackingField;
+  /// @brief Field <instaFail>k__BackingField, offset: 0x80, size: 0x1, def value: None
+  bool ____instaFail_k__BackingField;
 
-/// @brief Field _isInitialized, offset: 0x6b, size: 0x1, def value: None
- bool  ____isInitialized;
+  /// @brief Field <noFail>k__BackingField, offset: 0x81, size: 0x1, def value: None
+  bool ____noFail_k__BackingField;
 
-/// @brief Field _didReach0Energy, offset: 0x6c, size: 0x1, def value: None
- bool  ____didReach0Energy;
+  /// @brief Field <failOnSaberClash>k__BackingField, offset: 0x82, size: 0x1, def value: None
+  bool ____failOnSaberClash_k__BackingField;
 
-/// @brief Field _nextFrameEnergyChange, offset: 0x70, size: 0x4, def value: None
- float_t  ____nextFrameEnergyChange;
+  /// @brief Field _isInitialized, offset: 0x83, size: 0x1, def value: None
+  bool ____isInitialized;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  /// @brief Field _didReach0Energy, offset: 0x84, size: 0x1, def value: None
+  bool ____didReach0Energy;
+
+  /// @brief Field _nextFrameEnergyChange, offset: 0x88, size: 0x4, def value: None
+  float_t ____nextFrameEnergyChange;
+
+  /// @brief Field _obstacleEnterTimes, offset: 0x90, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* ____obstacleEnterTimes;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____batteryLives) == 0x20, "Offset mismatch!");
@@ -496,33 +569,41 @@ static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____beatmapObjectMa
 
 static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____playerHeadAndObstacleInteraction) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____saberClashChecker) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____timeHelper) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ___didInitEvent) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____saberClashChecker) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ___gameEnergyDidReach0Event) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____blockLevelGameplayAnalyticsEventsCache) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ___gameEnergyDidChangeEvent) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____audioTimeSource) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____energy_k__BackingField) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ___didInitEvent) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____energyType_k__BackingField) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ___gameEnergyDidReach0Event) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____instaFail_k__BackingField) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ___gameEnergyDidChangeEvent) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____noFail_k__BackingField) == 0x69, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____energy_k__BackingField) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____failOnSaberClash_k__BackingField) == 0x6a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____energyType_k__BackingField) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____isInitialized) == 0x6b, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____instaFail_k__BackingField) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____didReach0Energy) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____noFail_k__BackingField) == 0x81, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____nextFrameEnergyChange) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____failOnSaberClash_k__BackingField) == 0x82, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameEnergyCounter, 0x78>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____isInitialized) == 0x83, "Offset mismatch!");
 
-} // namespace end def GlobalNamespace
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____didReach0Energy) == 0x84, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____nextFrameEnergyChange) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameEnergyCounter, ____obstacleEnterTimes) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameEnergyCounter, 0x98>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameEnergyCounter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");
 NEED_NO_BOX(::GlobalNamespace::GameEnergyCounter_InitData);

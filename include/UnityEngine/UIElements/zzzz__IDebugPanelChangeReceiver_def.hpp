@@ -16,26 +16,26 @@ class IDebugPanelChangeReceiver;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IDebugPanelChangeReceiver);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IDebugPanelChangeReceiver
 class CORDL_TYPE IDebugPanelChangeReceiver {
 public:
-// Declarations
-/// @brief Method OnVisualElementChange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void OnVisualElementChange(::UnityEngine::UIElements::VisualElement*  element, ::UnityEngine::UIElements::VersionChangeType  changeType) ;
+  // Declarations
+  /// @brief Method OnVisualElementChange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnVisualElementChange(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::VersionChangeType changeType);
 
-// Ctor Parameters [CppParam { name: "", ty: "IDebugPanelChangeReceiver", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IDebugPanelChangeReceiver(IDebugPanelChangeReceiver const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IDebugPanelChangeReceiver", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IDebugPanelChangeReceiver(IDebugPanelChangeReceiver const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4642};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4642 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::IDebugPanelChangeReceiver);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IDebugPanelChangeReceiver*, "UnityEngine.UIElements", "IDebugPanelChangeReceiver");

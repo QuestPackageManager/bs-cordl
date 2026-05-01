@@ -5,84 +5,72 @@
 #include "Oculus/Platform/Models/zzzz__LaunchReportFlowResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::MessageWithLaunchReportFlowResult._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithLaunchReportFlowResult::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)(::System::IntPtr)>(
+    &::Oculus::Platform::MessageWithLaunchReportFlowResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c2d3a0;
+  constexpr static std::size_t addrs = 0x5c9f388;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::MessageWithLaunchReportFlowResult.GetLaunchReportFlowResult
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)()>(&::Oculus::Platform::MessageWithLaunchReportFlowResult::GetLaunchReportFlowResult)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)()>(
+    &::Oculus::Platform::MessageWithLaunchReportFlowResult::GetLaunchReportFlowResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5c2d3fc;
+  constexpr static std::size_t addrs = 0x5c9f3e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                                  37
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(), 37));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::MessageWithLaunchReportFlowResult.GetDataFromMessage
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithLaunchReportFlowResult::GetDataFromMessage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (
+    ::Oculus::Platform::MessageWithLaunchReportFlowResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithLaunchReportFlowResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2d440;
+  constexpr static std::size_t addrs = 0x5c9f428;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                                  74
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(), 74));
     return ___internal_method;
   }
 };
-inline void Oculus::Platform::MessageWithLaunchReportFlowResult::_ctor(::System::IntPtr  c_message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, c_message);
+inline void Oculus::Platform::MessageWithLaunchReportFlowResult::_ctor(::System::IntPtr c_message) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, c_message);
 }
-inline ::Oculus::Platform::Models::LaunchReportFlowResult* Oculus::Platform::MessageWithLaunchReportFlowResult::GetLaunchReportFlowResult()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                            37
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::LaunchReportFlowResult*, false>(this, ___internal_method);
+inline ::Oculus::Platform::Models::LaunchReportFlowResult* Oculus::Platform::MessageWithLaunchReportFlowResult::GetLaunchReportFlowResult() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(), 37)));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::LaunchReportFlowResult*, false>(this, ___internal_method);
 }
-inline ::Oculus::Platform::Models::LaunchReportFlowResult* Oculus::Platform::MessageWithLaunchReportFlowResult::GetDataFromMessage(::System::IntPtr  c_message)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(),
-                            74
-                        )));
-return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::LaunchReportFlowResult*, false>(this, ___internal_method, c_message);
+inline ::Oculus::Platform::Models::LaunchReportFlowResult* Oculus::Platform::MessageWithLaunchReportFlowResult::GetDataFromMessage(::System::IntPtr c_message) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLaunchReportFlowResult*>::get(), 74)));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::LaunchReportFlowResult*, false>(this, ___internal_method, c_message);
 }
-inline ::Oculus::Platform::MessageWithLaunchReportFlowResult* Oculus::Platform::MessageWithLaunchReportFlowResult::New_ctor(::System::IntPtr  c_message)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithLaunchReportFlowResult*>(c_message));
+inline ::Oculus::Platform::MessageWithLaunchReportFlowResult* Oculus::Platform::MessageWithLaunchReportFlowResult::New_ctor(::System::IntPtr c_message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithLaunchReportFlowResult*>(c_message));
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::MessageWithLaunchReportFlowResult::MessageWithLaunchReportFlowResult()   {
-}
+constexpr ::Oculus::Platform::MessageWithLaunchReportFlowResult::MessageWithLaunchReportFlowResult() {}

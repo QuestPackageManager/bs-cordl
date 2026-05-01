@@ -35,47 +35,47 @@ namespace UnityEngine {
 // CS Name: UnityEngine.GeometryUtility
 class CORDL_TYPE GeometryUtility : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CalculateFrustumPlanes, addr 0x68b3bd8, size 0x88, virtual false, abstract: false, final false
-static inline void CalculateFrustumPlanes(::UnityEngine::Camera*  camera, ::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>  planes) ;
+  // Declarations
+  /// @brief Method CalculateFrustumPlanes, addr 0x6925df4, size 0x88, virtual false, abstract: false, final false
+  static inline void CalculateFrustumPlanes(::UnityEngine::Camera* camera, ::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*> planes);
 
-/// @brief Method CalculateFrustumPlanes, addr 0x68b3c60, size 0xdc, virtual false, abstract: false, final false
-static inline void CalculateFrustumPlanes(::UnityEngine::Matrix4x4  worldToProjectionMatrix, ::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>  planes) ;
+  /// @brief Method CalculateFrustumPlanes, addr 0x6925e7c, size 0xdc, virtual false, abstract: false, final false
+  static inline void CalculateFrustumPlanes(::UnityEngine::Matrix4x4 worldToProjectionMatrix, ::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*> planes);
 
-/// @brief Method Internal_ExtractPlanes, addr 0x68b3d3c, size 0x128, virtual false, abstract: false, final false
-static inline void Internal_ExtractPlanes(::ByRef<::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>>  planes, ::UnityEngine::Matrix4x4  worldToProjectionMatrix) ;
+  /// @brief Method Internal_ExtractPlanes, addr 0x6925f58, size 0x128, virtual false, abstract: false, final false
+  static inline void Internal_ExtractPlanes(::ByRef<::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*>> planes, ::UnityEngine::Matrix4x4 worldToProjectionMatrix);
 
-/// @brief Method Internal_ExtractPlanes_Injected, addr 0x68b3f80, size 0x44, virtual false, abstract: false, final false
-static inline void Internal_ExtractPlanes_Injected(::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>  planes, ::ByRef<::UnityEngine::Matrix4x4>  worldToProjectionMatrix) ;
+  /// @brief Method Internal_ExtractPlanes_Injected, addr 0x692619c, size 0x44, virtual false, abstract: false, final false
+  static inline void Internal_ExtractPlanes_Injected(::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> planes, ::ByRef<::UnityEngine::Matrix4x4> worldToProjectionMatrix);
 
-/// @brief Method TestPlanesAABB, addr 0x68b3e64, size 0xd8, virtual false, abstract: false, final false
-static inline bool TestPlanesAABB(::ArrayW<::UnityEngine::Plane,::Array<::UnityEngine::Plane>*>  planes, ::UnityEngine::Bounds  bounds) ;
+  /// @brief Method TestPlanesAABB, addr 0x6926080, size 0xd8, virtual false, abstract: false, final false
+  static inline bool TestPlanesAABB(::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*> planes, ::UnityEngine::Bounds bounds);
 
-/// @brief Method TestPlanesAABB_Injected, addr 0x68b3f3c, size 0x44, virtual false, abstract: false, final false
-static inline bool TestPlanesAABB_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  planes, ::ByRef<::UnityEngine::Bounds>  bounds) ;
+  /// @brief Method TestPlanesAABB_Injected, addr 0x6926158, size 0x44, virtual false, abstract: false, final false
+  static inline bool TestPlanesAABB_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> planes, ::ByRef<::UnityEngine::Bounds> bounds);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GeometryUtility() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GeometryUtility();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GeometryUtility(GeometryUtility&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GeometryUtility(GeometryUtility && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GeometryUtility(GeometryUtility const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GeometryUtility(GeometryUtility const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10104 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10098};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GeometryUtility, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GeometryUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GeometryUtility*, "UnityEngine", "GeometryUtility");

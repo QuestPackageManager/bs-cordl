@@ -12,8 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BackgroundSize)
 namespace System {
-template<typename T>
-class IEquatable_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -64,89 +63,90 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.BackgroundSize
 struct CORDL_TYPE BackgroundSize {
 public:
-// Declarations
-using PropertyBag = ::UnityEngine::UIElements::BackgroundSize_PropertyBag;
+  // Declarations
+  using PropertyBag = ::UnityEngine::UIElements::BackgroundSize_PropertyBag;
 
- __declspec(property(get=get_sizeType, put=set_sizeType)) ::UnityEngine::UIElements::BackgroundSizeType  sizeType;
+  __declspec(property(get = get_sizeType, put = set_sizeType)) ::UnityEngine::UIElements::BackgroundSizeType sizeType;
 
- __declspec(property(get=get_x, put=set_x)) ::UnityEngine::UIElements::Length  x;
+  __declspec(property(get = get_x, put = set_x)) ::UnityEngine::UIElements::Length x;
 
- __declspec(property(get=get_y, put=set_y)) ::UnityEngine::UIElements::Length  y;
+  __declspec(property(get = get_y, put = set_y)) ::UnityEngine::UIElements::Length y;
 
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>"
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>*() ;
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>*();
 
-/// @brief Method Equals, addr 0x6a64dc4, size 0xcc, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x6ad700c, size 0xcc, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method Equals, addr 0x6a64e90, size 0x6c, virtual true, abstract: false, final true
-inline bool Equals(::UnityEngine::UIElements::BackgroundSize  other) ;
+  /// @brief Method Equals, addr 0x6ad70d8, size 0x6c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::BackgroundSize other);
 
-/// @brief Method GetHashCode, addr 0x6a64efc, size 0x68, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6ad7144, size 0x68, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method Initial, addr 0x6a64dac, size 0x18, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::BackgroundSize Initial() ;
+  /// @brief Method Initial, addr 0x6ad6ff4, size 0x18, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::BackgroundSize Initial();
 
-/// @brief Method ToString, addr 0x6a64fc8, size 0x104, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6ad7210, size 0x104, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x6a646f0, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::UIElements::BackgroundSizeType  sizeType) ;
+  /// @brief Method .ctor, addr 0x6ad6938, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::BackgroundSizeType sizeType);
 
-/// @brief Method .ctor, addr 0x6a64700, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::UIElements::Length  sizeX, ::UnityEngine::UIElements::Length  sizeY) ;
+  /// @brief Method .ctor, addr 0x6ad6948, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::Length sizeX, ::UnityEngine::UIElements::Length sizeY);
 
-/// @brief Method get_sizeType, addr 0x6a64d6c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::BackgroundSizeType get_sizeType() ;
+  /// @brief Method get_sizeType, addr 0x6ad6fb4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::BackgroundSizeType get_sizeType();
 
-/// @brief Method get_x, addr 0x6a64d84, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::Length get_x() ;
+  /// @brief Method get_x, addr 0x6ad6fcc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Length get_x();
 
-/// @brief Method get_y, addr 0x6a64d98, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::Length get_y() ;
+  /// @brief Method get_y, addr 0x6ad6fe0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Length get_y();
 
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundSize_() ;
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundSize_();
 
-/// @brief Method op_Equality, addr 0x6a6494c, size 0x6c, virtual false, abstract: false, final false
-static inline bool op_Equality(::UnityEngine::UIElements::BackgroundSize  style1, ::UnityEngine::UIElements::BackgroundSize  style2) ;
+  /// @brief Method op_Equality, addr 0x6ad6b94, size 0x6c, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::UIElements::BackgroundSize style1, ::UnityEngine::UIElements::BackgroundSize style2);
 
-/// @brief Method op_Inequality, addr 0x6a64f64, size 0x64, virtual false, abstract: false, final false
-static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundSize  style1, ::UnityEngine::UIElements::BackgroundSize  style2) ;
+  /// @brief Method op_Inequality, addr 0x6ad71ac, size 0x64, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundSize style1, ::UnityEngine::UIElements::BackgroundSize style2);
 
-/// @brief Method set_sizeType, addr 0x6a64d74, size 0x10, virtual false, abstract: false, final false
-inline void set_sizeType(::UnityEngine::UIElements::BackgroundSizeType  value) ;
+  /// @brief Method set_sizeType, addr 0x6ad6fbc, size 0x10, virtual false, abstract: false, final false
+  inline void set_sizeType(::UnityEngine::UIElements::BackgroundSizeType value);
 
-/// @brief Method set_x, addr 0x6a64d8c, size 0xc, virtual false, abstract: false, final false
-inline void set_x(::UnityEngine::UIElements::Length  value) ;
+  /// @brief Method set_x, addr 0x6ad6fd4, size 0xc, virtual false, abstract: false, final false
+  inline void set_x(::UnityEngine::UIElements::Length value);
 
-/// @brief Method set_y, addr 0x6a64da0, size 0xc, virtual false, abstract: false, final false
-inline void set_y(::UnityEngine::UIElements::Length  value) ;
+  /// @brief Method set_y, addr 0x6ad6fe8, size 0xc, virtual false, abstract: false, final false
+  inline void set_y(::UnityEngine::UIElements::Length value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BackgroundSize() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BackgroundSize();
 
-// Ctor Parameters [CppParam { name: "m_SizeType", ty: "::UnityEngine::UIElements::BackgroundSizeType", modifiers: "", def_value: None }, CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }]
-constexpr BackgroundSize(::UnityEngine::UIElements::BackgroundSizeType  m_SizeType, ::UnityEngine::UIElements::Length  m_X, ::UnityEngine::UIElements::Length  m_Y) noexcept;
+  // Ctor Parameters [CppParam { name: "m_SizeType", ty: "::UnityEngine::UIElements::BackgroundSizeType", modifiers: "", def_value: None }, CppParam { name: "m_X", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }]
+  constexpr BackgroundSize(::UnityEngine::UIElements::BackgroundSizeType m_SizeType, ::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4016};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4016 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x14};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
-/// @brief Field m_SizeType, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::UIElements::BackgroundSizeType  m_SizeType;
+  /// @brief Field m_SizeType, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::UIElements::BackgroundSizeType m_SizeType;
 
-/// @brief Field m_X, offset: 0x4, size: 0x8, def value: None
- ::UnityEngine::UIElements::Length  m_X;
+  /// @brief Field m_X, offset: 0x4, size: 0x8, def value: None
+  ::UnityEngine::UIElements::Length m_X;
 
-/// @brief Field m_Y, offset: 0xc, size: 0x8, def value: None
- ::UnityEngine::UIElements::Length  m_Y;
+  /// @brief Field m_Y, offset: 0xc, size: 0x8, def value: None
+  ::UnityEngine::UIElements::Length m_Y;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::BackgroundSize, m_SizeType) == 0x0, "Offset mismatch!");
@@ -157,77 +157,77 @@ static_assert(offsetof(::UnityEngine::UIElements::BackgroundSize, m_Y) == 0xc, "
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BackgroundSize, 0x14>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.BackgroundSizeType
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BackgroundSize/PropertyBag/SizeTypeProperty
-class CORDL_TYPE PropertyBag_BackgroundSize_SizeTypeProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::BackgroundSize,::UnityEngine::UIElements::BackgroundSizeType> {
+class CORDL_TYPE PropertyBag_BackgroundSize_SizeTypeProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSizeType> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-/// @brief Method GetValue, addr 0x6a65354, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::BackgroundSizeType GetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize>  container) ;
+  /// @brief Method GetValue, addr 0x6ad759c, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::BackgroundSizeType GetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize> container);
 
-static inline ::UnityEngine::UIElements::PropertyBag_BackgroundSize_SizeTypeProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PropertyBag_BackgroundSize_SizeTypeProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a6535c, size 0x10, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize>  container, ::UnityEngine::UIElements::BackgroundSizeType  value) ;
+  /// @brief Method SetValue, addr 0x6ad75a4, size 0x10, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize> container, ::UnityEngine::UIElements::BackgroundSizeType value);
 
-constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6a65218, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ad7460, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a6534c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6ad7594, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a65344, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6ad758c, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PropertyBag_BackgroundSize_SizeTypeProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyBag_BackgroundSize_SizeTypeProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypeProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypeProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypeProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypeProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4012 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4012};
+  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____Name_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____Name_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____IsReadOnly_k__BackingField;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____IsReadOnly_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_BackgroundSize_SizeTypeProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -236,77 +236,77 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_BackgroundSize_Siz
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_BackgroundSize_SizeTypeProperty, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.Length
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BackgroundSize/PropertyBag/XProperty
-class CORDL_TYPE PropertyBag_BackgroundSize_XProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::BackgroundSize,::UnityEngine::UIElements::Length> {
+class CORDL_TYPE PropertyBag_BackgroundSize_XProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::Length> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-/// @brief Method GetValue, addr 0x6a6537c, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::Length GetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize>  container) ;
+  /// @brief Method GetValue, addr 0x6ad75c4, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::Length GetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize> container);
 
-static inline ::UnityEngine::UIElements::PropertyBag_BackgroundSize_XProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PropertyBag_BackgroundSize_XProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a65384, size 0xc, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize>  container, ::UnityEngine::UIElements::Length  value) ;
+  /// @brief Method SetValue, addr 0x6ad75cc, size 0xc, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize> container, ::UnityEngine::UIElements::Length value);
 
-constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6a6527c, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ad74c4, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a65374, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6ad75bc, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a6536c, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6ad75b4, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PropertyBag_BackgroundSize_XProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyBag_BackgroundSize_XProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4013 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4013};
+  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____Name_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____Name_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____IsReadOnly_k__BackingField;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____IsReadOnly_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_BackgroundSize_XProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -315,77 +315,77 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_BackgroundSize_XPr
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_BackgroundSize_XProperty, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.Length
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BackgroundSize/PropertyBag/YProperty
-class CORDL_TYPE PropertyBag_BackgroundSize_YProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::BackgroundSize,::UnityEngine::UIElements::Length> {
+class CORDL_TYPE PropertyBag_BackgroundSize_YProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::Length> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-/// @brief Method GetValue, addr 0x6a653a0, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::Length GetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize>  container) ;
+  /// @brief Method GetValue, addr 0x6ad75e8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::Length GetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize> container);
 
-static inline ::UnityEngine::UIElements::PropertyBag_BackgroundSize_YProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PropertyBag_BackgroundSize_YProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6a653a8, size 0xc, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize>  container, ::UnityEngine::UIElements::Length  value) ;
+  /// @brief Method SetValue, addr 0x6ad75f0, size 0xc, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::BackgroundSize> container, ::UnityEngine::UIElements::Length value);
 
-constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6a652e0, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ad7528, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6a65398, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6ad75e0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6a65390, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6ad75d8, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PropertyBag_BackgroundSize_YProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyBag_BackgroundSize_YProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4014 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4014};
+  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____Name_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____Name_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____IsReadOnly_k__BackingField;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____IsReadOnly_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_BackgroundSize_YProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -394,48 +394,48 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_BackgroundSize_YPr
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_BackgroundSize_YProperty, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.UIElements.BackgroundSize
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BackgroundSize/PropertyBag
 class CORDL_TYPE BackgroundSize_PropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::UIElements::BackgroundSize> {
 public:
-// Declarations
-using SizeTypeProperty = ::UnityEngine::UIElements::PropertyBag_BackgroundSize_SizeTypeProperty;
+  // Declarations
+  using SizeTypeProperty = ::UnityEngine::UIElements::PropertyBag_BackgroundSize_SizeTypeProperty;
 
-using XProperty = ::UnityEngine::UIElements::PropertyBag_BackgroundSize_XProperty;
+  using XProperty = ::UnityEngine::UIElements::PropertyBag_BackgroundSize_XProperty;
 
-using YProperty = ::UnityEngine::UIElements::PropertyBag_BackgroundSize_YProperty;
+  using YProperty = ::UnityEngine::UIElements::PropertyBag_BackgroundSize_YProperty;
 
-static inline ::UnityEngine::UIElements::BackgroundSize_PropertyBag* New_ctor() ;
+  static inline ::UnityEngine::UIElements::BackgroundSize_PropertyBag* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a650cc, size 0x14c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ad7314, size 0x14c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BackgroundSize_PropertyBag() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BackgroundSize_PropertyBag();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BackgroundSize_PropertyBag(BackgroundSize_PropertyBag&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BackgroundSize_PropertyBag(BackgroundSize_PropertyBag && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BackgroundSize_PropertyBag(BackgroundSize_PropertyBag const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BackgroundSize_PropertyBag(BackgroundSize_PropertyBag const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4015 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4015};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BackgroundSize_PropertyBag, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BackgroundSize_PropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BackgroundSize_PropertyBag*, "UnityEngine.UIElements", "BackgroundSize/PropertyBag");
 NEED_NO_BOX(::UnityEngine::UIElements::PropertyBag_BackgroundSize_SizeTypeProperty);

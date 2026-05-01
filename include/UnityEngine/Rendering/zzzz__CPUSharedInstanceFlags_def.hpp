@@ -19,27 +19,28 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.CPUSharedInstanceFlags
 struct CORDL_TYPE CPUSharedInstanceFlags {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr CPUSharedInstanceFlags() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CPUSharedInstanceFlags();
 
-// Ctor Parameters [CppParam { name: "transformUpdateFlags", ty: "::UnityEngine::Rendering::TransformUpdateFlags", modifiers: "", def_value: None }, CppParam { name: "instanceFlags", ty: "::UnityEngine::Rendering::InstanceFlags", modifiers: "", def_value: None }]
-constexpr CPUSharedInstanceFlags(::UnityEngine::Rendering::TransformUpdateFlags  transformUpdateFlags, ::UnityEngine::Rendering::InstanceFlags  instanceFlags) noexcept;
+  // Ctor Parameters [CppParam { name: "transformUpdateFlags", ty: "::UnityEngine::Rendering::TransformUpdateFlags", modifiers: "", def_value: None }, CppParam { name: "instanceFlags", ty:
+  // "::UnityEngine::Rendering::InstanceFlags", modifiers: "", def_value: None }]
+  constexpr CPUSharedInstanceFlags(::UnityEngine::Rendering::TransformUpdateFlags transformUpdateFlags, ::UnityEngine::Rendering::InstanceFlags instanceFlags) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17676};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17684 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x2};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
-/// @brief Field transformUpdateFlags, offset: 0x0, size: 0x1, def value: None
- ::UnityEngine::Rendering::TransformUpdateFlags  transformUpdateFlags;
+  /// @brief Field transformUpdateFlags, offset: 0x0, size: 0x1, def value: None
+  ::UnityEngine::Rendering::TransformUpdateFlags transformUpdateFlags;
 
-/// @brief Field instanceFlags, offset: 0x1, size: 0x1, def value: None
- ::UnityEngine::Rendering::InstanceFlags  instanceFlags;
+  /// @brief Field instanceFlags, offset: 0x1, size: 0x1, def value: None
+  ::UnityEngine::Rendering::InstanceFlags instanceFlags;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::CPUSharedInstanceFlags, transformUpdateFlags) == 0x0, "Offset mismatch!");
@@ -48,5 +49,5 @@ static_assert(offsetof(::UnityEngine::Rendering::CPUSharedInstanceFlags, instanc
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CPUSharedInstanceFlags, 0x2>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CPUSharedInstanceFlags, "UnityEngine.Rendering", "CPUSharedInstanceFlags");

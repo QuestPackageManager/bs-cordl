@@ -18,59 +18,59 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.EnumMemberAttribute
 class CORDL_TYPE EnumMemberAttribute : public ::System::Attribute {
 public:
-// Declarations
- __declspec(property(get=get_IsValueSetExplicitly)) bool  IsValueSetExplicitly;
+  // Declarations
+  __declspec(property(get = get_IsValueSetExplicitly)) bool IsValueSetExplicitly;
 
- __declspec(property(get=get_Value)) ::StringW  Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
-/// @brief Field isValueSetExplicitly, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get_isValueSetExplicitly, put=__cordl_internal_set_isValueSetExplicitly)) bool  isValueSetExplicitly;
+  /// @brief Field isValueSetExplicitly, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_isValueSetExplicitly, put = __cordl_internal_set_isValueSetExplicitly)) bool isValueSetExplicitly;
 
-/// @brief Field value, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_value, put=__cordl_internal_set_value)) ::StringW  value;
+  /// @brief Field value, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
-constexpr bool const& __cordl_internal_get_isValueSetExplicitly() const;
+  constexpr bool const& __cordl_internal_get_isValueSetExplicitly() const;
 
-constexpr bool& __cordl_internal_get_isValueSetExplicitly() ;
+  constexpr bool& __cordl_internal_get_isValueSetExplicitly();
 
-constexpr ::StringW const& __cordl_internal_get_value() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
-constexpr ::StringW& __cordl_internal_get_value() ;
+  constexpr ::StringW& __cordl_internal_get_value();
 
-constexpr void __cordl_internal_set_isValueSetExplicitly(bool  value) ;
+  constexpr void __cordl_internal_set_isValueSetExplicitly(bool value);
 
-constexpr void __cordl_internal_set_value(::StringW  value) ;
+  constexpr void __cordl_internal_set_value(::StringW value);
 
-/// @brief Method get_IsValueSetExplicitly, addr 0x5f9c01c, size 0x8, virtual false, abstract: false, final false
-inline bool get_IsValueSetExplicitly() ;
+  /// @brief Method get_IsValueSetExplicitly, addr 0x600e028, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsValueSetExplicitly();
 
-/// @brief Method get_Value, addr 0x5f9c014, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Value() ;
+  /// @brief Method get_Value, addr 0x600e020, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Value();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EnumMemberAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnumMemberAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EnumMemberAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EnumMemberAttribute(EnumMemberAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnumMemberAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EnumMemberAttribute(EnumMemberAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EnumMemberAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EnumMemberAttribute(EnumMemberAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnumMemberAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EnumMemberAttribute(EnumMemberAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17012 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17004};
+  /// @brief Field value, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___value;
 
-/// @brief Field value, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___value;
+  /// @brief Field isValueSetExplicitly, offset: 0x18, size: 0x1, def value: None
+  bool ___isValueSetExplicitly;
 
-/// @brief Field isValueSetExplicitly, offset: 0x18, size: 0x1, def value: None
- bool  ___isValueSetExplicitly;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::EnumMemberAttribute, ___value) == 0x10, "Offset mismatch!");
@@ -79,6 +79,6 @@ static_assert(offsetof(::System::Runtime::Serialization::EnumMemberAttribute, __
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::EnumMemberAttribute, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::EnumMemberAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::EnumMemberAttribute*, "System.Runtime.Serialization", "EnumMemberAttribute");

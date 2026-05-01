@@ -30,62 +30,62 @@ namespace System::Runtime::CompilerServices {
 // CS Name: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 struct CORDL_TYPE AsyncVoidMethodBuilder {
 public:
-// Declarations
- __declspec(property(get=get_Task)) ::System::Threading::Tasks::Task*  Task;
+  // Declarations
+  __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task* Task;
 
-/// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TAwaiter,typename TStateMachine>
-inline void AwaitOnCompleted(::ByRef<TAwaiter>  awaiter, ::ByRef<TStateMachine>  stateMachine) ;
+  /// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
-/// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TAwaiter,typename TStateMachine>
-inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter>  awaiter, ::ByRef<TStateMachine>  stateMachine) ;
+  /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
-/// @brief Method Create, addr 0x59c1ca4, size 0x40, virtual false, abstract: false, final false
-static inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create() ;
+  /// @brief Method Create, addr 0x5a33c10, size 0x40, virtual false, abstract: false, final false
+  static inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
 
-/// @brief Method NotifySynchronizationContextOfCompletion, addr 0x59c1e18, size 0xa8, virtual false, abstract: false, final false
-inline void NotifySynchronizationContextOfCompletion() ;
+  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x5a33d84, size 0xa8, virtual false, abstract: false, final false
+  inline void NotifySynchronizationContextOfCompletion();
 
-/// @brief Method SetException, addr 0x59c1ec0, size 0xec, virtual false, abstract: false, final false
-inline void SetException(::System::Exception*  exception) ;
+  /// @brief Method SetException, addr 0x5a33e2c, size 0xec, virtual false, abstract: false, final false
+  inline void SetException(::System::Exception* exception);
 
-/// @brief Method SetResult, addr 0x59c1da0, size 0x10, virtual false, abstract: false, final false
-inline void SetResult() ;
+  /// @brief Method SetResult, addr 0x5a33d0c, size 0x10, virtual false, abstract: false, final false
+  inline void SetResult();
 
-/// @brief Method SetStateMachine, addr 0x59c1ce4, size 0x8, virtual false, abstract: false, final false
-inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+  /// @brief Method SetStateMachine, addr 0x5a33c50, size 0x8, virtual false, abstract: false, final false
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-/// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TStateMachine>
-inline void Start(::ByRef<TStateMachine>  stateMachine) ;
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TStateMachine> inline void Start(::ByRef<TStateMachine> stateMachine);
 
-/// @brief Method get_Task, addr 0x59c1db0, size 0x68, virtual false, abstract: false, final false
-inline ::System::Threading::Tasks::Task* get_Task() ;
+  /// @brief Method get_Task, addr 0x5a33d1c, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* get_Task();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AsyncVoidMethodBuilder() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncVoidMethodBuilder();
 
-// Ctor Parameters [CppParam { name: "m_synchronizationContext", ty: "::System::Threading::SynchronizationContext*", modifiers: "", def_value: None }, CppParam { name: "m_coreState", ty: "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: None }, CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
-constexpr AsyncVoidMethodBuilder(::System::Threading::SynchronizationContext*  m_synchronizationContext, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore  m_coreState, ::System::Threading::Tasks::Task*  m_task) noexcept;
+  // Ctor Parameters [CppParam { name: "m_synchronizationContext", ty: "::System::Threading::SynchronizationContext*", modifiers: "", def_value: None }, CppParam { name: "m_coreState", ty:
+  // "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: None }, CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None
+  // }]
+  constexpr AsyncVoidMethodBuilder(::System::Threading::SynchronizationContext* m_synchronizationContext, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState,
+                                   ::System::Threading::Tasks::Task* m_task) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3415};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3415 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field m_synchronizationContext, offset: 0x0, size: 0x8, def value: None
- ::System::Threading::SynchronizationContext*  m_synchronizationContext;
+  /// @brief Field m_synchronizationContext, offset: 0x0, size: 0x8, def value: None
+  ::System::Threading::SynchronizationContext* m_synchronizationContext;
 
-/// @brief Field m_coreState, offset: 0x8, size: 0x10, def value: None
- ::System::Runtime::CompilerServices::AsyncMethodBuilderCore  m_coreState;
+  /// @brief Field m_coreState, offset: 0x8, size: 0x10, def value: None
+  ::System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState;
 
-/// @brief Field m_task, offset: 0x18, size: 0x8, def value: None
- ::System::Threading::Tasks::Task*  m_task;
+  /// @brief Field m_task, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task* m_task;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, m_synchronizationContext) == 0x0, "Offset mismatch!");
@@ -96,5 +96,5 @@ static_assert(offsetof(::System::Runtime::CompilerServices::AsyncVoidMethodBuild
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Runtime::CompilerServices
+} // namespace System::Runtime::CompilerServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");

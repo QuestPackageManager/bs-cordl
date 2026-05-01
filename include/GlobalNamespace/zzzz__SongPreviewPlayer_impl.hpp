@@ -16,1346 +16,1142 @@
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_InitData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_InitData::*)(float_t)>(&::GlobalNamespace::SongPreviewPlayer_InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_InitData::*)(float_t)>(
+    &::GlobalNamespace::SongPreviewPlayer_InitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57100e4;
+  constexpr static std::size_t addrs = 0x577fc38;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_InitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::SongPreviewPlayer_InitData::__cordl_internal_get_ambientVolumeScale()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ambientVolumeScale;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer_InitData::__cordl_internal_get_ambientVolumeScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ambientVolumeScale;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer_InitData::__cordl_internal_get_ambientVolumeScale() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ambientVolumeScale;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ambientVolumeScale;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_InitData::__cordl_internal_set_ambientVolumeScale(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___ambientVolumeScale = value;
+constexpr void GlobalNamespace::SongPreviewPlayer_InitData::__cordl_internal_set_ambientVolumeScale(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___ambientVolumeScale = value;
 }
-inline void GlobalNamespace::SongPreviewPlayer_InitData::_ctor(float_t  ambientVolumeScale)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_InitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ambientVolumeScale);
+inline void GlobalNamespace::SongPreviewPlayer_InitData::_ctor(float_t ambientVolumeScale) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_InitData*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ambientVolumeScale);
 }
-inline ::GlobalNamespace::SongPreviewPlayer_InitData* GlobalNamespace::SongPreviewPlayer_InitData::New_ctor(float_t  ambientVolumeScale)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer_InitData*>(ambientVolumeScale));
+inline ::GlobalNamespace::SongPreviewPlayer_InitData* GlobalNamespace::SongPreviewPlayer_InitData::New_ctor(float_t ambientVolumeScale) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer_InitData*>(ambientVolumeScale));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SongPreviewPlayer_InitData::SongPreviewPlayer_InitData()   {
-}
+constexpr ::GlobalNamespace::SongPreviewPlayer_InitData::SongPreviewPlayer_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams.get_position
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_position)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57100ec;
+  constexpr static std::size_t addrs = 0x577fc40;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_position",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                               "get_position", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams.get_reverbZoneMix
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_reverbZoneMix)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_reverbZoneMix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57100f8;
+  constexpr static std::size_t addrs = 0x577fc4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_reverbZoneMix",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                               "get_reverbZoneMix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams.get_spatialBlend
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spatialBlend)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spatialBlend)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5710100;
+  constexpr static std::size_t addrs = 0x577fc54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_spatialBlend",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                               "get_spatialBlend", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams.get_spread
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spread)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spread)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5710108;
+  constexpr static std::size_t addrs = 0x577fc5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_spread",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                               "get_spread", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5710110;
+  constexpr static std::size_t addrs = 0x577fc64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__position()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____position;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__position() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____position;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__position() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____position;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____position;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__position(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____position = value;
+constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__position(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____position = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__reverbZoneMix()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____reverbZoneMix;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__reverbZoneMix() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____reverbZoneMix;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__reverbZoneMix() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____reverbZoneMix;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____reverbZoneMix;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__reverbZoneMix(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____reverbZoneMix = value;
+constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__reverbZoneMix(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____reverbZoneMix = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__spatialBlend()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spatialBlend;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__spatialBlend() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spatialBlend;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__spatialBlend() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spatialBlend;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spatialBlend;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__spatialBlend(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____spatialBlend = value;
+constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__spatialBlend(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____spatialBlend = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__spread()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spread;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__spread() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spread;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_get__spread() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____spread;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____spread;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__spread(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____spread = value;
+constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::__cordl_internal_set__spread(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____spread = value;
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_position()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_position",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+inline ::UnityEngine::Vector3 GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_position() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                             "get_position", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_reverbZoneMix()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_reverbZoneMix",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_reverbZoneMix() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                             "get_reverbZoneMix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spatialBlend()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_spatialBlend",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spatialBlend() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                             "get_spatialBlend", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spread()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        "get_spread",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spread() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                             "get_spread", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer_AudioSourceParams::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* GlobalNamespace::SongPreviewPlayer_AudioSourceParams::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>());
+inline ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* GlobalNamespace::SongPreviewPlayer_AudioSourceParams::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::SongPreviewPlayer_AudioSourceParams()   {
-}
+constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::SongPreviewPlayer_AudioSourceParams() {}
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController.set_volume
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_volume)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_volume)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x570f810;
+  constexpr static std::size_t addrs = 0x577f3c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "set_volume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "set_volume",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController.get_volume
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_volume)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_volume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5710114;
+  constexpr static std::size_t addrs = 0x577fc68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "get_volume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "get_volume",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController.get_maxVolume
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_maxVolume)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x571011c;
+  constexpr static std::size_t addrs = 0x577fc70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "get_maxVolume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "get_maxVolume",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController.set_maxVolume
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_maxVolume)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5710124;
+  constexpr static std::size_t addrs = 0x577fc78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "set_maxVolume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "set_maxVolume",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(::UnityEngine::AudioSource*)>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(::UnityEngine::AudioSource*)>(
+    &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x570f3e0;
+  constexpr static std::size_t addrs = 0x577eef8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioSource*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioSource*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::AudioSource>& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get_audioSource()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___audioSource;
+constexpr ::UnityW<::UnityEngine::AudioSource>& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get_audioSource() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___audioSource;
 }
 constexpr ::UnityW<::UnityEngine::AudioSource> const& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get_audioSource() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___audioSource;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___audioSource;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_set_audioSource(::UnityW<::UnityEngine::AudioSource>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_set_audioSource(::UnityW<::UnityEngine::AudioSource> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get__maxVolume_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____maxVolume_k__BackingField;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get__maxVolume_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____maxVolume_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get__maxVolume_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____maxVolume_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____maxVolume_k__BackingField;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_set__maxVolume_k__BackingField(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____maxVolume_k__BackingField = value;
+constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_set__maxVolume_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____maxVolume_k__BackingField = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get__volume()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____volume;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get__volume() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____volume;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_get__volume() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____volume;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____volume;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_set__volume(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____volume = value;
+constexpr void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::__cordl_internal_set__volume(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____volume = value;
 }
-inline void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_volume(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "set_volume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_volume(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "set_volume",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_volume()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "get_volume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_volume() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "get_volume",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_maxVolume()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "get_maxVolume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_maxVolume() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "get_maxVolume",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_maxVolume(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        "set_maxVolume",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_maxVolume(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), "set_maxVolume",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::_ctor(::UnityEngine::AudioSource*  audioSource)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioSource*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioSource);
+inline void GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::_ctor(::UnityEngine::AudioSource* audioSource) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioSource*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioSource);
 }
-inline ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController* GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::New_ctor(::UnityEngine::AudioSource*  audioSource)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>(audioSource));
+inline ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController* GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::New_ctor(::UnityEngine::AudioSource* audioSource) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>(audioSource));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::SongPreviewPlayer_AudioSourceVolumeController()   {
-}
+constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::SongPreviewPlayer_AudioSourceVolumeController() {}
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)(int32_t)>(&::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)(int32_t)>(
+    &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x570f568;
+  constexpr static std::size_t addrs = 0x577f080;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30.System_IDisposable_Dispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(&::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x571012c;
+  constexpr static std::size_t addrs = 0x577fc80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(&::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::MoveNext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5710130;
+  constexpr static std::size_t addrs = 0x577fc84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30.System_Collections_Generic_IEnumerator_System_Object__get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(&::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57101d4;
+  constexpr static std::size_t addrs = 0x577fd28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30.System_Collections_IEnumerator_Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(&::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x57101dc;
+  constexpr static std::size_t addrs = 0x577fd30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30.System_Collections_IEnumerator_get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(&::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5710214;
+  constexpr static std::size_t addrs = 0x577fd68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___1__state()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+constexpr int32_t& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___1__state() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____1__state;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set___1__state(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->_____1__state = value;
+constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___2__current()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+constexpr ::System::Object*& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
 constexpr ::System::Object* const& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___2__current() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____2__current;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set___2__current(::System::Object*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get_delay()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___delay;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get_delay() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___delay;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get_delay() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___delay;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___delay;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set_delay(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___delay = value;
+constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set_delay(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___delay = value;
 }
-constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongPreviewPlayer>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongPreviewPlayer> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::_ctor(int32_t  __1__state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_IDisposable_Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.IDisposable.Dispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.Collections.IEnumerator.Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
-                        "System.Collections.IEnumerator.get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::New_ctor(int32_t  __1__state)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>(__1__state));
+inline ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr  GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::operator ::System::Collections::IEnumerator*() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::i___System__Collections__IEnumerator() noexcept {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr  GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::operator ::System::IDisposable*() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::i___System__IDisposable() noexcept {
-return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30()   {
-}
+constexpr ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30() {}
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.get_activeAudioClip
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::get_activeAudioClip)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer::get_activeAudioClip)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x570f1b0;
+  constexpr static std::size_t addrs = 0x577ecc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.get_defaultAudioClip
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::get_defaultAudioClip)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(
+    &::GlobalNamespace::SongPreviewPlayer::get_defaultAudioClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x570f204;
+  constexpr static std::size_t addrs = 0x577ed1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "get_defaultAudioClip",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                               "get_defaultAudioClip", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.Awake
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Awake)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x570f20c;
+  constexpr static std::size_t addrs = 0x577ed24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Awake",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.Start
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x570f3f0;
+  constexpr static std::size_t addrs = 0x577ef08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Start",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.OnEnable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::OnEnable)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x570f40c;
+  constexpr static std::size_t addrs = 0x577ef24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "OnEnable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.CrossFadeAfterDelayCoroutine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongPreviewPlayer::*)(float_t)>(&::GlobalNamespace::SongPreviewPlayer::CrossFadeAfterDelayCoroutine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongPreviewPlayer::*)(float_t)>(
+    &::GlobalNamespace::SongPreviewPlayer::CrossFadeAfterDelayCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x570f504;
+  constexpr static std::size_t addrs = 0x577f01c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossFadeAfterDelayCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossFadeAfterDelayCoroutine",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.OnDisable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::OnDisable)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x570f570;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x577f088;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "OnDisable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.Update
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Update)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x570f648;
+  constexpr static std::size_t addrs = 0x577f1fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Update",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.CrossfadeToDefault
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeToDefault)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x570fbe8;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x577f798;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeToDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                               "CrossfadeToDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.CrossfadeToNewDefault
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeToNewDefault)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*)>(
+    &::GlobalNamespace::SongPreviewPlayer::CrossfadeToNewDefault)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x570fd8c;
+  constexpr static std::size_t addrs = 0x577f974;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeToNewDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossfadeToNewDefault", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.CrossfadeTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, ::System::Action*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, ::System::Action*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x570fe8c;
+  constexpr static std::size_t addrs = 0x577fa74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossfadeTo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.CrossfadeTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, bool, ::System::Action*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x570f8cc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, bool, ::System::Action*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x577f480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossfadeTo", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 6>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.StopCurrentChannel
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::StopCurrentChannel)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x570fe98;
+  constexpr static std::size_t addrs = 0x577f168;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "StopCurrentChannel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                               "StopCurrentChannel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.PauseCurrentChannel
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::PauseCurrentChannel)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x570ff2c;
+  constexpr static std::size_t addrs = 0x577fa80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.UnPauseCurrentChannel
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::UnPauseCurrentChannel)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x570ffa0;
+  constexpr static std::size_t addrs = 0x577faf4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 7));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.FadeOut
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(float_t)>(&::GlobalNamespace::SongPreviewPlayer::FadeOut)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5710010;
+  constexpr static std::size_t addrs = 0x577fb64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer.ReportChannelDidFadeOut
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(int32_t)>(&::GlobalNamespace::SongPreviewPlayer::ReportChannelDidFadeOut)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(int32_t)>(
+    &::GlobalNamespace::SongPreviewPlayer::ReportChannelDidFadeOut)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x570f840;
+  constexpr static std::size_t addrs = 0x577f3f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "ReportChannelDidFadeOut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "ReportChannelDidFadeOut",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SongPreviewPlayer._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x571002c;
+  constexpr static std::size_t addrs = 0x577fb80;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__channelsCount()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____channelsCount;
+constexpr int32_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__channelsCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____channelsCount;
 }
 constexpr int32_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__channelsCount() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____channelsCount;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____channelsCount;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__channelsCount(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____channelsCount = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__channelsCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____channelsCount = value;
 }
-constexpr ::UnityW<::UnityEngine::AudioSource>& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioSourcePrefab()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioSourcePrefab;
+constexpr ::UnityW<::UnityEngine::AudioSource>& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioSourcePrefab() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioSourcePrefab;
 }
 constexpr ::UnityW<::UnityEngine::AudioSource> const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioSourcePrefab() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioSourcePrefab;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioSourcePrefab;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__audioSourcePrefab(::UnityW<::UnityEngine::AudioSource>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSourcePrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__audioSourcePrefab(::UnityW<::UnityEngine::AudioSource> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSourcePrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__defaultAudioClip()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultAudioClip;
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__defaultAudioClip() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultAudioClip;
 }
 constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__defaultAudioClip() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultAudioClip;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultAudioClip;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__defaultAudioClip(::UnityW<::UnityEngine::AudioClip>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultAudioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__defaultAudioClip(::UnityW<::UnityEngine::AudioClip> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultAudioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__volume()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____volume;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__volume() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____volume;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__volume() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____volume;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____volume;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__volume(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____volume = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__volume(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____volume = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__crossFadeToAnotherSongSpeed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____crossFadeToAnotherSongSpeed;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__crossFadeToAnotherSongSpeed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____crossFadeToAnotherSongSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__crossFadeToAnotherSongSpeed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____crossFadeToAnotherSongSpeed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____crossFadeToAnotherSongSpeed;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__crossFadeToAnotherSongSpeed(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____crossFadeToAnotherSongSpeed = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__crossFadeToAnotherSongSpeed(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____crossFadeToAnotherSongSpeed = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__crossFadeToDefaultSpeed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____crossFadeToDefaultSpeed;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__crossFadeToDefaultSpeed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____crossFadeToDefaultSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__crossFadeToDefaultSpeed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____crossFadeToDefaultSpeed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____crossFadeToDefaultSpeed;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__crossFadeToDefaultSpeed(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____crossFadeToDefaultSpeed = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__crossFadeToDefaultSpeed(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____crossFadeToDefaultSpeed = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__fadeInSpeed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fadeInSpeed;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__fadeInSpeed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fadeInSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__fadeInSpeed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fadeInSpeed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fadeInSpeed;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__fadeInSpeed(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____fadeInSpeed = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__fadeInSpeed(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____fadeInSpeed = value;
 }
-constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__defaultAudioSourceParams()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultAudioSourceParams;
+constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__defaultAudioSourceParams() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultAudioSourceParams;
 }
 constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__defaultAudioSourceParams() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultAudioSourceParams;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultAudioSourceParams;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__defaultAudioSourceParams(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultAudioSourceParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__defaultAudioSourceParams(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultAudioSourceParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__othersAudioSourceParams()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____othersAudioSourceParams;
+constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__othersAudioSourceParams() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____othersAudioSourceParams;
 }
 constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__othersAudioSourceParams() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____othersAudioSourceParams;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____othersAudioSourceParams;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__othersAudioSourceParams(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____othersAudioSourceParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__othersAudioSourceParams(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____othersAudioSourceParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SongPreviewPlayer_InitData*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__initData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____initData;
+constexpr ::GlobalNamespace::SongPreviewPlayer_InitData*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__initData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____initData;
 }
 constexpr ::GlobalNamespace::SongPreviewPlayer_InitData* const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__initData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____initData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____initData;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__initData(::GlobalNamespace::SongPreviewPlayer_InitData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__initData(::GlobalNamespace::SongPreviewPlayer_InitData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioManager()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioManager;
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManager;
 }
 constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioManager() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioManager;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManager;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*,::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*>& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioSourceControllers()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioSourceControllers;
+constexpr ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*>&
+GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioSourceControllers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioSourceControllers;
 }
-constexpr ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*,::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*> const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioSourceControllers() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioSourceControllers;
+constexpr ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*> const&
+GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__audioSourceControllers() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioSourceControllers;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__audioSourceControllers(::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*,::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSourceControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__audioSourceControllers(
+    ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSourceControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__activeChannel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____activeChannel;
+constexpr int32_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__activeChannel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activeChannel;
 }
 constexpr int32_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__activeChannel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____activeChannel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activeChannel;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__activeChannel(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____activeChannel = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__activeChannel(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____activeChannel = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__timeToDefaultAudioTransition()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____timeToDefaultAudioTransition;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__timeToDefaultAudioTransition() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeToDefaultAudioTransition;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__timeToDefaultAudioTransition() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____timeToDefaultAudioTransition;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeToDefaultAudioTransition;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__timeToDefaultAudioTransition(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____timeToDefaultAudioTransition = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__timeToDefaultAudioTransition(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____timeToDefaultAudioTransition = value;
 }
-constexpr bool& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__transitionAfterDelay()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transitionAfterDelay;
+constexpr bool& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__transitionAfterDelay() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transitionAfterDelay;
 }
 constexpr bool const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__transitionAfterDelay() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transitionAfterDelay;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transitionAfterDelay;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__transitionAfterDelay(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____transitionAfterDelay = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__transitionAfterDelay(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____transitionAfterDelay = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__volumeScale()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____volumeScale;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__volumeScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____volumeScale;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__volumeScale() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____volumeScale;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____volumeScale;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__volumeScale(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____volumeScale = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__volumeScale(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____volumeScale = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__fadeSpeed()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fadeSpeed;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__fadeSpeed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fadeSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__fadeSpeed() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____fadeSpeed;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fadeSpeed;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__fadeSpeed(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____fadeSpeed = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__fadeSpeed(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____fadeSpeed = value;
 }
-constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__ambientVolumeScale()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____ambientVolumeScale;
+constexpr float_t& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__ambientVolumeScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ambientVolumeScale;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__ambientVolumeScale() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____ambientVolumeScale;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ambientVolumeScale;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__ambientVolumeScale(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____ambientVolumeScale = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__ambientVolumeScale(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____ambientVolumeScale = value;
 }
-constexpr bool& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__isActiveChannelPaused()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isActiveChannelPaused;
+constexpr bool& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__isActiveChannelPaused() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isActiveChannelPaused;
 }
 constexpr bool const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__isActiveChannelPaused() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____isActiveChannelPaused;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isActiveChannelPaused;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__isActiveChannelPaused(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____isActiveChannelPaused = value;
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__isActiveChannelPaused(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isActiveChannelPaused = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Action*>*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__channelToFadeOutCallbackDictionary()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____channelToFadeOutCallbackDictionary;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__channelToFadeOutCallbackDictionary() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____channelToFadeOutCallbackDictionary;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Action*>* const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__channelToFadeOutCallbackDictionary() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____channelToFadeOutCallbackDictionary;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* const& GlobalNamespace::SongPreviewPlayer::__cordl_internal_get__channelToFadeOutCallbackDictionary() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____channelToFadeOutCallbackDictionary;
 }
-constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__channelToFadeOutCallbackDictionary(::System::Collections::Generic::Dictionary_2<int32_t,::System::Action*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____channelToFadeOutCallbackDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SongPreviewPlayer::__cordl_internal_set__channelToFadeOutCallbackDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____channelToFadeOutCallbackDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityW<::UnityEngine::AudioClip> GlobalNamespace::SongPreviewPlayer::get_activeAudioClip()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::AudioClip> GlobalNamespace::SongPreviewPlayer::get_activeAudioClip() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::AudioClip> GlobalNamespace::SongPreviewPlayer::get_defaultAudioClip()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "get_defaultAudioClip",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::AudioClip> GlobalNamespace::SongPreviewPlayer::get_defaultAudioClip() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
+                                                                             "get_defaultAudioClip", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::Awake() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Awake",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::Start() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Start",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::OnEnable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "OnEnable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::SongPreviewPlayer::CrossFadeAfterDelayCoroutine(float_t  delay)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossFadeAfterDelayCoroutine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, delay);
+inline ::System::Collections::IEnumerator* GlobalNamespace::SongPreviewPlayer::CrossFadeAfterDelayCoroutine(float_t delay) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossFadeAfterDelayCoroutine",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, delay);
 }
-inline void GlobalNamespace::SongPreviewPlayer::OnDisable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "OnDisable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "OnDisable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::Update()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::Update() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Update",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::CrossfadeToDefault()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeToDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::CrossfadeToDefault() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossfadeToDefault",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::CrossfadeToNewDefault(::UnityEngine::AudioClip*  audioClip)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeToNewDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClip);
+inline void GlobalNamespace::SongPreviewPlayer::CrossfadeToNewDefault(::UnityEngine::AudioClip* audioClip) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossfadeToNewDefault", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClip);
 }
-inline void GlobalNamespace::SongPreviewPlayer::CrossfadeTo(::UnityEngine::AudioClip*  audioClip, float_t  musicVolume, float_t  startTime, float_t  duration, ::System::Action*  onFadeOutCallback)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClip, musicVolume, startTime, duration, onFadeOutCallback);
+inline void GlobalNamespace::SongPreviewPlayer::CrossfadeTo(::UnityEngine::AudioClip* audioClip, float_t musicVolume, float_t startTime, float_t duration, ::System::Action* onFadeOutCallback) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossfadeTo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClip, musicVolume, startTime, duration, onFadeOutCallback);
 }
-inline void GlobalNamespace::SongPreviewPlayer::CrossfadeTo(::UnityEngine::AudioClip*  audioClip, float_t  musicVolume, float_t  startTime, float_t  duration, bool  isDefault, ::System::Action*  onFadeOutCallback)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "CrossfadeTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClip, musicVolume, startTime, duration, isDefault, onFadeOutCallback);
+inline void GlobalNamespace::SongPreviewPlayer::CrossfadeTo(::UnityEngine::AudioClip* audioClip, float_t musicVolume, float_t startTime, float_t duration, bool isDefault,
+                                                            ::System::Action* onFadeOutCallback) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "CrossfadeTo", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 6>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClip, musicVolume, startTime, duration, isDefault, onFadeOutCallback);
 }
-inline void GlobalNamespace::SongPreviewPlayer::StopCurrentChannel()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "StopCurrentChannel",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::StopCurrentChannel() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "StopCurrentChannel",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::PauseCurrentChannel()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::PauseCurrentChannel() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::UnPauseCurrentChannel()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::UnPauseCurrentChannel() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongPreviewPlayer::FadeOut(float_t  duration)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, duration);
+inline void GlobalNamespace::SongPreviewPlayer::FadeOut(float_t duration) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, duration);
 }
-inline void GlobalNamespace::SongPreviewPlayer::ReportChannelDidFadeOut(int32_t  channel)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        "ReportChannelDidFadeOut",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, channel);
+inline void GlobalNamespace::SongPreviewPlayer::ReportChannelDidFadeOut(int32_t channel) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "ReportChannelDidFadeOut",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, channel);
 }
-inline void GlobalNamespace::SongPreviewPlayer::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SongPreviewPlayer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SongPreviewPlayer* GlobalNamespace::SongPreviewPlayer::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer*>());
+inline ::GlobalNamespace::SongPreviewPlayer* GlobalNamespace::SongPreviewPlayer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPreviewPlayer*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SongPreviewPlayer::SongPreviewPlayer()   {
-}
+constexpr ::GlobalNamespace::SongPreviewPlayer::SongPreviewPlayer() {}

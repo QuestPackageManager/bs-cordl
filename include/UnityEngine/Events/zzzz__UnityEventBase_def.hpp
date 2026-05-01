@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityEventBase)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -50,117 +49,117 @@ namespace UnityEngine::Events {
 // CS Name: UnityEngine.Events.UnityEventBase
 class CORDL_TYPE UnityEventBase : public ::System::Object {
 public:
-// Declarations
-/// @brief Field m_Calls, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Calls, put=__cordl_internal_set_m_Calls)) ::UnityEngine::Events::InvokableCallList*  m_Calls;
+  // Declarations
+  /// @brief Field m_Calls, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls)) ::UnityEngine::Events::InvokableCallList* m_Calls;
 
-/// @brief Field m_CallsDirty, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_CallsDirty, put=__cordl_internal_set_m_CallsDirty)) bool  m_CallsDirty;
+  /// @brief Field m_CallsDirty, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_CallsDirty, put = __cordl_internal_set_m_CallsDirty)) bool m_CallsDirty;
 
-/// @brief Field m_PersistentCalls, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_PersistentCalls, put=__cordl_internal_set_m_PersistentCalls)) ::UnityEngine::Events::PersistentCallGroup*  m_PersistentCalls;
+  /// @brief Field m_PersistentCalls, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PersistentCalls, put = __cordl_internal_set_m_PersistentCalls)) ::UnityEngine::Events::PersistentCallGroup* m_PersistentCalls;
 
-/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-constexpr operator  ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-/// @brief Method AddCall, addr 0x6934070, size 0x14, virtual false, abstract: false, final false
-inline void AddCall(::UnityEngine::Events::BaseInvokableCall*  call) ;
+  /// @brief Method AddCall, addr 0x69a628c, size 0x14, virtual false, abstract: false, final false
+  inline void AddCall(::UnityEngine::Events::BaseInvokableCall* call);
 
-/// @brief Method DirtyPersistentCalls, addr 0x6933bf4, size 0x28, virtual false, abstract: false, final false
-inline void DirtyPersistentCalls() ;
+  /// @brief Method DirtyPersistentCalls, addr 0x69a5e10, size 0x28, virtual false, abstract: false, final false
+  inline void DirtyPersistentCalls();
 
-/// @brief Method FindMethod, addr 0x6932b58, size 0x1c8, virtual false, abstract: false, final false
-inline ::System::Reflection::MethodInfo* FindMethod(::UnityEngine::Events::PersistentCall*  call) ;
+  /// @brief Method FindMethod, addr 0x69a4d74, size 0x1c8, virtual false, abstract: false, final false
+  inline ::System::Reflection::MethodInfo* FindMethod(::UnityEngine::Events::PersistentCall* call);
 
-/// @brief Method FindMethod, addr 0x6933c20, size 0x280, virtual false, abstract: false, final false
-inline ::System::Reflection::MethodInfo* FindMethod(::StringW  name, ::System::Type*  listenerType, ::UnityEngine::Events::PersistentListenerMode  mode, ::System::Type*  argumentType) ;
+  /// @brief Method FindMethod, addr 0x69a5e3c, size 0x280, virtual false, abstract: false, final false
+  inline ::System::Reflection::MethodInfo* FindMethod(::StringW name, ::System::Type* listenerType, ::UnityEngine::Events::PersistentListenerMode mode, ::System::Type* argumentType);
 
-/// @brief Method FindMethod_Impl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW  name, ::System::Type*  targetObjType) ;
+  /// @brief Method FindMethod_Impl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
 
-/// @brief Method GetCallsCount, addr 0x6934028, size 0x14, virtual false, abstract: false, final false
-inline int32_t GetCallsCount() ;
+  /// @brief Method GetCallsCount, addr 0x69a6244, size 0x14, virtual false, abstract: false, final false
+  inline int32_t GetCallsCount();
 
-/// @brief Method GetDelegate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object*  target, ::System::Reflection::MethodInfo*  theFunction) ;
+  /// @brief Method GetDelegate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-/// @brief Method GetValidMethodInfo, addr 0x6933ea0, size 0x188, virtual false, abstract: false, final false
-static inline ::System::Reflection::MethodInfo* GetValidMethodInfo(::System::Type*  objectType, ::StringW  functionName, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  argumentTypes) ;
+  /// @brief Method GetValidMethodInfo, addr 0x69a60bc, size 0x188, virtual false, abstract: false, final false
+  static inline ::System::Reflection::MethodInfo* GetValidMethodInfo(::System::Type* objectType, ::StringW functionName, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argumentTypes);
 
-static inline ::UnityEngine::Events::UnityEventBase* New_ctor() ;
+  static inline ::UnityEngine::Events::UnityEventBase* New_ctor();
 
-/// @brief Method PrepareInvoke, addr 0x69340ac, size 0x20, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke() ;
+  /// @brief Method PrepareInvoke, addr 0x69a62c8, size 0x20, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
 
-/// @brief Method RebuildPersistentCallsIfNeeded, addr 0x693403c, size 0x34, virtual false, abstract: false, final false
-inline void RebuildPersistentCallsIfNeeded() ;
+  /// @brief Method RebuildPersistentCallsIfNeeded, addr 0x69a6258, size 0x34, virtual false, abstract: false, final false
+  inline void RebuildPersistentCallsIfNeeded();
 
-/// @brief Method RemoveAllListeners, addr 0x6934098, size 0x14, virtual false, abstract: false, final false
-inline void RemoveAllListeners() ;
+  /// @brief Method RemoveAllListeners, addr 0x69a62b4, size 0x14, virtual false, abstract: false, final false
+  inline void RemoveAllListeners();
 
-/// @brief Method RemoveListener, addr 0x6934084, size 0x14, virtual false, abstract: false, final false
-inline void RemoveListener(::System::Object*  targetObj, ::System::Reflection::MethodInfo*  method) ;
+  /// @brief Method RemoveListener, addr 0x69a62a0, size 0x14, virtual false, abstract: false, final false
+  inline void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-/// @brief Method ToString, addr 0x69340cc, size 0x88, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x69a62e8, size 0x88, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6933c1c, size 0x4, virtual true, abstract: false, final true
-inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() ;
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x69a5e38, size 0x4, virtual true, abstract: false, final true
+  inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-/// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6933bf0, size 0x4, virtual true, abstract: false, final true
-inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize() ;
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x69a5e0c, size 0x4, virtual true, abstract: false, final true
+  inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-constexpr ::UnityEngine::Events::InvokableCallList* const& __cordl_internal_get_m_Calls() const;
+  constexpr ::UnityEngine::Events::InvokableCallList* const& __cordl_internal_get_m_Calls() const;
 
-constexpr ::UnityEngine::Events::InvokableCallList*& __cordl_internal_get_m_Calls() ;
+  constexpr ::UnityEngine::Events::InvokableCallList*& __cordl_internal_get_m_Calls();
 
-constexpr bool const& __cordl_internal_get_m_CallsDirty() const;
+  constexpr bool const& __cordl_internal_get_m_CallsDirty() const;
 
-constexpr bool& __cordl_internal_get_m_CallsDirty() ;
+  constexpr bool& __cordl_internal_get_m_CallsDirty();
 
-constexpr ::UnityEngine::Events::PersistentCallGroup* const& __cordl_internal_get_m_PersistentCalls() const;
+  constexpr ::UnityEngine::Events::PersistentCallGroup* const& __cordl_internal_get_m_PersistentCalls() const;
 
-constexpr ::UnityEngine::Events::PersistentCallGroup*& __cordl_internal_get_m_PersistentCalls() ;
+  constexpr ::UnityEngine::Events::PersistentCallGroup*& __cordl_internal_get_m_PersistentCalls();
 
-constexpr void __cordl_internal_set_m_Calls(::UnityEngine::Events::InvokableCallList*  value) ;
+  constexpr void __cordl_internal_set_m_Calls(::UnityEngine::Events::InvokableCallList* value);
 
-constexpr void __cordl_internal_set_m_CallsDirty(bool  value) ;
+  constexpr void __cordl_internal_set_m_CallsDirty(bool value);
 
-constexpr void __cordl_internal_set_m_PersistentCalls(::UnityEngine::Events::PersistentCallGroup*  value) ;
+  constexpr void __cordl_internal_set_m_PersistentCalls(::UnityEngine::Events::PersistentCallGroup* value);
 
-/// @brief Method .ctor, addr 0x6933b64, size 0x8c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69a5d80, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UnityEventBase() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityEventBase();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UnityEventBase(UnityEventBase&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UnityEventBase(UnityEventBase && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UnityEventBase(UnityEventBase const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityEventBase", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UnityEventBase(UnityEventBase const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10441 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10435};
+  /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Events::InvokableCallList* ___m_Calls;
 
-/// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Events::InvokableCallList*  ___m_Calls;
+  /// @brief Field m_PersistentCalls, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Events::PersistentCallGroup* ___m_PersistentCalls;
 
-/// @brief Field m_PersistentCalls, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::Events::PersistentCallGroup*  ___m_PersistentCalls;
+  /// @brief Field m_CallsDirty, offset: 0x20, size: 0x1, def value: None
+  bool ___m_CallsDirty;
 
-/// @brief Field m_CallsDirty, offset: 0x20, size: 0x1, def value: None
- bool  ___m_CallsDirty;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Events::UnityEventBase, ___m_Calls) == 0x10, "Offset mismatch!");
@@ -171,6 +170,6 @@ static_assert(offsetof(::UnityEngine::Events::UnityEventBase, ___m_CallsDirty) =
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::UnityEventBase, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Events
+} // namespace UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::UnityEventBase);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityEventBase*, "UnityEngine.Events", "UnityEventBase");

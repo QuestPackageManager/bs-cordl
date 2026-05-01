@@ -30,44 +30,44 @@ namespace GlobalNamespace {
 // CS Name: BeatSaberPlayerIdentityPacketData
 struct CORDL_TYPE BeatSaberPlayerIdentityPacketData {
 public:
-// Declarations
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr operator  ::LiteNetLib::Utils::INetSerializable*() ;
+  // Declarations
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-/// @brief Method Deserialize, addr 0x31d29f8, size 0x38, virtual true, abstract: false, final true
-inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
+  /// @brief Method Deserialize, addr 0x320e660, size 0x38, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-/// @brief Method Serialize, addr 0x31d29d0, size 0x28, virtual true, abstract: false, final true
-inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
+  /// @brief Method Serialize, addr 0x320e638, size 0x28, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-/// @brief Method .ctor, addr 0x31d29bc, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData  playerAvatar) ;
+  /// @brief Method .ctor, addr 0x320e624, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData playerAvatar);
 
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() ;
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatSaberPlayerIdentityPacketData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatSaberPlayerIdentityPacketData();
 
-// Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: None }]
-constexpr BeatSaberPlayerIdentityPacketData(::GlobalNamespace::MultiplayerAvatarsData  playerAvatar) noexcept;
+  // Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: None }]
+  constexpr BeatSaberPlayerIdentityPacketData(::GlobalNamespace::MultiplayerAvatarsData playerAvatar) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18810};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18820 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
-/// @brief Field playerAvatar, offset: 0x0, size: 0x18, def value: None
- ::GlobalNamespace::MultiplayerAvatarsData  playerAvatar;
+  /// @brief Field playerAvatar, offset: 0x0, size: 0x18, def value: None
+  ::GlobalNamespace::MultiplayerAvatarsData playerAvatar;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatSaberPlayerIdentityPacketData, playerAvatar) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatSaberPlayerIdentityPacketData, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatSaberPlayerIdentityPacketData, "", "BeatSaberPlayerIdentityPacketData");

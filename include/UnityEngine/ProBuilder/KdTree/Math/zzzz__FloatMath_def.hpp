@@ -19,77 +19,77 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
 // CS Name: UnityEngine.ProBuilder.KdTree.Math.FloatMath
 class CORDL_TYPE FloatMath : public ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float_t> {
 public:
-// Declarations
- __declspec(property(get=get_MaxValue)) float_t  MaxValue;
+  // Declarations
+  __declspec(property(get = get_MaxValue)) float_t MaxValue;
 
- __declspec(property(get=get_MinValue)) float_t  MinValue;
+  __declspec(property(get = get_MinValue)) float_t MinValue;
 
- __declspec(property(get=get_NegativeInfinity)) float_t  NegativeInfinity;
+  __declspec(property(get = get_NegativeInfinity)) float_t NegativeInfinity;
 
- __declspec(property(get=get_PositiveInfinity)) float_t  PositiveInfinity;
+  __declspec(property(get = get_PositiveInfinity)) float_t PositiveInfinity;
 
- __declspec(property(get=get_Zero)) float_t  Zero;
+  __declspec(property(get = get_Zero)) float_t Zero;
 
-/// @brief Method Add, addr 0x64f3734, size 0x8, virtual true, abstract: false, final false
-inline float_t Add(float_t  a, float_t  b) ;
+  /// @brief Method Add, addr 0x6565740, size 0x8, virtual true, abstract: false, final false
+  inline float_t Add(float_t a, float_t b);
 
-/// @brief Method AreEqual, addr 0x64f36f0, size 0xc, virtual true, abstract: false, final false
-inline bool AreEqual(float_t  a, float_t  b) ;
+  /// @brief Method AreEqual, addr 0x65656fc, size 0xc, virtual true, abstract: false, final false
+  inline bool AreEqual(float_t a, float_t b);
 
-/// @brief Method Compare, addr 0x64f3698, size 0x58, virtual true, abstract: false, final false
-inline int32_t Compare(float_t  a, float_t  b) ;
+  /// @brief Method Compare, addr 0x65656a4, size 0x58, virtual true, abstract: false, final false
+  inline int32_t Compare(float_t a, float_t b);
 
-/// @brief Method DistanceSquaredBetweenPoints, addr 0x64f374c, size 0xf8, virtual true, abstract: false, final false
-inline float_t DistanceSquaredBetweenPoints(::ArrayW<float_t,::Array<float_t>*>  a, ::ArrayW<float_t,::Array<float_t>*>  b) ;
+  /// @brief Method DistanceSquaredBetweenPoints, addr 0x6565758, size 0xf8, virtual true, abstract: false, final false
+  inline float_t DistanceSquaredBetweenPoints(::ArrayW<float_t, ::Array<float_t>*> a, ::ArrayW<float_t, ::Array<float_t>*> b);
 
-/// @brief Method Multiply, addr 0x64f3744, size 0x8, virtual true, abstract: false, final false
-inline float_t Multiply(float_t  a, float_t  b) ;
+  /// @brief Method Multiply, addr 0x6565750, size 0x8, virtual true, abstract: false, final false
+  inline float_t Multiply(float_t a, float_t b);
 
-static inline ::UnityEngine::ProBuilder::KdTree::Math::FloatMath* New_ctor() ;
+  static inline ::UnityEngine::ProBuilder::KdTree::Math::FloatMath* New_ctor();
 
-/// @brief Method Subtract, addr 0x64f373c, size 0x8, virtual true, abstract: false, final false
-inline float_t Subtract(float_t  a, float_t  b) ;
+  /// @brief Method Subtract, addr 0x6565748, size 0x8, virtual true, abstract: false, final false
+  inline float_t Subtract(float_t a, float_t b);
 
-/// @brief Method .ctor, addr 0x64f3844, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6565850, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_MaxValue, addr 0x64f3708, size 0xc, virtual true, abstract: false, final false
-inline float_t get_MaxValue() ;
+  /// @brief Method get_MaxValue, addr 0x6565714, size 0xc, virtual true, abstract: false, final false
+  inline float_t get_MaxValue();
 
-/// @brief Method get_MinValue, addr 0x64f36fc, size 0xc, virtual true, abstract: false, final false
-inline float_t get_MinValue() ;
+  /// @brief Method get_MinValue, addr 0x6565708, size 0xc, virtual true, abstract: false, final false
+  inline float_t get_MinValue();
 
-/// @brief Method get_NegativeInfinity, addr 0x64f371c, size 0xc, virtual true, abstract: false, final false
-inline float_t get_NegativeInfinity() ;
+  /// @brief Method get_NegativeInfinity, addr 0x6565728, size 0xc, virtual true, abstract: false, final false
+  inline float_t get_NegativeInfinity();
 
-/// @brief Method get_PositiveInfinity, addr 0x64f3728, size 0xc, virtual true, abstract: false, final false
-inline float_t get_PositiveInfinity() ;
+  /// @brief Method get_PositiveInfinity, addr 0x6565734, size 0xc, virtual true, abstract: false, final false
+  inline float_t get_PositiveInfinity();
 
-/// @brief Method get_Zero, addr 0x64f3714, size 0x8, virtual true, abstract: false, final false
-inline float_t get_Zero() ;
+  /// @brief Method get_Zero, addr 0x6565720, size 0x8, virtual true, abstract: false, final false
+  inline float_t get_Zero();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FloatMath() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatMath();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FloatMath", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FloatMath(FloatMath&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatMath", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FloatMath(FloatMath && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FloatMath", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FloatMath(FloatMath const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatMath", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FloatMath(FloatMath const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22456 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22378};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::KdTree::Math::FloatMath, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder::KdTree::Math
+} // namespace UnityEngine::ProBuilder::KdTree::Math
 NEED_NO_BOX(::UnityEngine::ProBuilder::KdTree::Math::FloatMath);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::KdTree::Math::FloatMath*, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");

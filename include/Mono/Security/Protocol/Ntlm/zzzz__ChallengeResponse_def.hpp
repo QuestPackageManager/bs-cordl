@@ -22,141 +22,141 @@ namespace Mono::Security::Protocol::Ntlm {
 // CS Name: Mono.Security.Protocol.Ntlm.ChallengeResponse
 class CORDL_TYPE ChallengeResponse : public ::System::Object {
 public:
-// Declarations
- __declspec(property(put=set_Challenge)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Challenge;
+  // Declarations
+  __declspec(property(put = set_Challenge)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Challenge;
 
- __declspec(property(get=get_LM)) ::ArrayW<uint8_t,::Array<uint8_t>*>  LM;
+  __declspec(property(get = get_LM)) ::ArrayW<uint8_t, ::Array<uint8_t>*> LM;
 
- __declspec(property(get=get_NT)) ::ArrayW<uint8_t,::Array<uint8_t>*>  NT;
+  __declspec(property(get = get_NT)) ::ArrayW<uint8_t, ::Array<uint8_t>*> NT;
 
- __declspec(property(put=set_Password)) ::StringW  Password;
+  __declspec(property(put = set_Password)) ::StringW Password;
 
-/// @brief Field _challenge, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__challenge, put=__cordl_internal_set__challenge)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _challenge;
+  /// @brief Field _challenge, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__challenge, put = __cordl_internal_set__challenge)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _challenge;
 
-/// @brief Field _disposed, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get__disposed, put=__cordl_internal_set__disposed)) bool  _disposed;
+  /// @brief Field _disposed, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
-/// @brief Field _lmpwd, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__lmpwd, put=__cordl_internal_set__lmpwd)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _lmpwd;
+  /// @brief Field _lmpwd, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__lmpwd, put = __cordl_internal_set__lmpwd)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _lmpwd;
 
-/// @brief Field _ntpwd, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__ntpwd, put=__cordl_internal_set__ntpwd)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _ntpwd;
+  /// @brief Field _ntpwd, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__ntpwd, put = __cordl_internal_set__ntpwd)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _ntpwd;
 
-/// @brief Field magic, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_magic, put=setStaticF_magic)) ::ArrayW<uint8_t,::Array<uint8_t>*>  magic;
+  /// @brief Field magic, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_magic, put = setStaticF_magic)) ::ArrayW<uint8_t, ::Array<uint8_t>*> magic;
 
-/// @brief Field nullEncMagic, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_nullEncMagic, put=setStaticF_nullEncMagic)) ::ArrayW<uint8_t,::Array<uint8_t>*>  nullEncMagic;
+  /// @brief Field nullEncMagic, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_nullEncMagic, put = setStaticF_nullEncMagic)) ::ArrayW<uint8_t, ::Array<uint8_t>*> nullEncMagic;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method Dispose, addr 0x58ebf88, size 0x68, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x595def4, size 0x68, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method Dispose, addr 0x58ec4dc, size 0x6c, virtual false, abstract: false, final false
-inline void Dispose(bool  disposing) ;
+  /// @brief Method Dispose, addr 0x595e448, size 0x6c, virtual false, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-/// @brief Method Finalize, addr 0x58ebf3c, size 0x4c, virtual true, abstract: false, final false
-inline void Finalize() ;
+  /// @brief Method Finalize, addr 0x595dea8, size 0x4c, virtual true, abstract: false, final false
+  inline void Finalize();
 
-/// @brief Method GetResponse, addr 0x58ec198, size 0x2e8, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t,::Array<uint8_t>*>  pwd) ;
+  /// @brief Method GetResponse, addr 0x595e104, size 0x2e8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> pwd);
 
-static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor() ;
+  static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor();
 
-static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor(::StringW  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  challenge) ;
+  static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-/// @brief Method PasswordToKey, addr 0x58ebff0, size 0x14c, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> PasswordToKey(::StringW  password, int32_t  position) ;
+  /// @brief Method PasswordToKey, addr 0x595df5c, size 0x14c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToKey(::StringW password, int32_t position);
 
-/// @brief Method PrepareDESKey, addr 0x58ec548, size 0x1fc, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t,::Array<uint8_t>*>  key56bits, int32_t  position) ;
+  /// @brief Method PrepareDESKey, addr 0x595e4b4, size 0x1fc, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key56bits, int32_t position);
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__challenge() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__challenge() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__challenge() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__challenge();
 
-constexpr bool const& __cordl_internal_get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-constexpr bool& __cordl_internal_get__disposed() ;
+  constexpr bool& __cordl_internal_get__disposed();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__lmpwd() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__lmpwd() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__lmpwd() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__lmpwd();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__ntpwd() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__ntpwd() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__ntpwd() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__ntpwd();
 
-constexpr void __cordl_internal_set__challenge(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set__challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set__disposed(bool  value) ;
+  constexpr void __cordl_internal_set__disposed(bool value);
 
-constexpr void __cordl_internal_set__lmpwd(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set__lmpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set__ntpwd(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set__ntpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x58eb96c, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x595d8d8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x58eb9d8, size 0x38, virtual false, abstract: false, final false
-inline void _ctor(::StringW  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  challenge) ;
+  /// @brief Method .ctor, addr 0x595d944, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_magic() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_magic();
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_nullEncMagic() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_nullEncMagic();
 
-/// @brief Method get_LM, addr 0x58ec13c, size 0x5c, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_LM() ;
+  /// @brief Method get_LM, addr 0x595e0a8, size 0x5c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_LM();
 
-/// @brief Method get_NT, addr 0x58ec480, size 0x5c, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_NT() ;
+  /// @brief Method get_NT, addr 0x595e3ec, size 0x5c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_NT();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-static inline void setStaticF_magic(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_magic(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-static inline void setStaticF_nullEncMagic(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_nullEncMagic(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method set_Challenge, addr 0x58ebe1c, size 0x120, virtual false, abstract: false, final false
-inline void set_Challenge(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  /// @brief Method set_Challenge, addr 0x595dd88, size 0x120, virtual false, abstract: false, final false
+  inline void set_Challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method set_Password, addr 0x58eba10, size 0x40c, virtual false, abstract: false, final false
-inline void set_Password(::StringW  value) ;
+  /// @brief Method set_Password, addr 0x595d97c, size 0x40c, virtual false, abstract: false, final false
+  inline void set_Password(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ChallengeResponse() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ChallengeResponse();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ChallengeResponse(ChallengeResponse&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ChallengeResponse(ChallengeResponse && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ChallengeResponse(ChallengeResponse const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ChallengeResponse(ChallengeResponse const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19273 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19263};
+  /// @brief Field _disposed, offset: 0x10, size: 0x1, def value: None
+  bool ____disposed;
 
-/// @brief Field _disposed, offset: 0x10, size: 0x1, def value: None
- bool  ____disposed;
+  /// @brief Field _challenge, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____challenge;
 
-/// @brief Field _challenge, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ____challenge;
+  /// @brief Field _lmpwd, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____lmpwd;
 
-/// @brief Field _lmpwd, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ____lmpwd;
+  /// @brief Field _ntpwd, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____ntpwd;
 
-/// @brief Field _ntpwd, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ____ntpwd;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Security::Protocol::Ntlm::ChallengeResponse, ____disposed) == 0x10, "Offset mismatch!");
@@ -169,6 +169,6 @@ static_assert(offsetof(::Mono::Security::Protocol::Ntlm::ChallengeResponse, ____
 
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::ChallengeResponse, 0x30>, "Size mismatch!");
 
-} // namespace end def Mono::Security::Protocol::Ntlm
+} // namespace Mono::Security::Protocol::Ntlm
 NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::ChallengeResponse);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::ChallengeResponse*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");

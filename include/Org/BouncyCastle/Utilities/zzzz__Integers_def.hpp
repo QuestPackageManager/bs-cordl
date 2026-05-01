@@ -18,52 +18,52 @@ namespace Org::BouncyCastle::Utilities {
 // CS Name: Org.BouncyCastle.Utilities.Integers
 class CORDL_TYPE Integers : public ::System::Object {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Utilities::Integers* New_ctor() ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Utilities::Integers* New_ctor();
 
-/// @brief Method NumberOfLeadingZeros, addr 0x35420e4, size 0x78, virtual false, abstract: false, final false
-static inline int32_t NumberOfLeadingZeros(int32_t  i) ;
+  /// @brief Method NumberOfLeadingZeros, addr 0x357e728, size 0x78, virtual false, abstract: false, final false
+  static inline int32_t NumberOfLeadingZeros(int32_t i);
 
-/// @brief Method NumberOfTrailingZeros, addr 0x354215c, size 0x34, virtual false, abstract: false, final false
-static inline int32_t NumberOfTrailingZeros(int32_t  i) ;
+  /// @brief Method NumberOfTrailingZeros, addr 0x357e7a0, size 0x34, virtual false, abstract: false, final false
+  static inline int32_t NumberOfTrailingZeros(int32_t i);
 
-/// @brief Method RotateLeft, addr 0x3542190, size 0x14, virtual false, abstract: false, final false
-static inline int32_t RotateLeft(int32_t  i, int32_t  distance) ;
+  /// @brief Method RotateLeft, addr 0x357e7d4, size 0x14, virtual false, abstract: false, final false
+  static inline int32_t RotateLeft(int32_t i, int32_t distance);
 
-/// @brief Method RotateLeft, addr 0x35421a4, size 0x14, virtual false, abstract: false, final false
-static inline uint32_t RotateLeft(uint32_t  i, int32_t  distance) ;
+  /// @brief Method RotateLeft, addr 0x357e7e8, size 0x14, virtual false, abstract: false, final false
+  static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
 
-/// @brief Method RotateRight, addr 0x35421b8, size 0x14, virtual false, abstract: false, final false
-static inline int32_t RotateRight(int32_t  i, int32_t  distance) ;
+  /// @brief Method RotateRight, addr 0x357e7fc, size 0x14, virtual false, abstract: false, final false
+  static inline int32_t RotateRight(int32_t i, int32_t distance);
 
-/// @brief Method RotateRight, addr 0x35421cc, size 0x14, virtual false, abstract: false, final false
-static inline uint32_t RotateRight(uint32_t  i, int32_t  distance) ;
+  /// @brief Method RotateRight, addr 0x357e810, size 0x14, virtual false, abstract: false, final false
+  static inline uint32_t RotateRight(uint32_t i, int32_t distance);
 
-/// @brief Method .ctor, addr 0x35421e0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x357e824, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Integers() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Integers();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Integers(Integers&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Integers(Integers && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Integers(Integers const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Integers(Integers const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1834 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1834};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Integers, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Utilities
+} // namespace Org::BouncyCastle::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Integers);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Integers*, "Org.BouncyCastle.Utilities", "Integers");

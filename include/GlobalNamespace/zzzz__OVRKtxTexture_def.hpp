@@ -21,43 +21,43 @@ namespace GlobalNamespace {
 // CS Name: OVRKtxTexture
 class CORDL_TYPE OVRKtxTexture : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Load, addr 0x5cb4780, size 0x264, virtual false, abstract: false, final false
-static inline bool Load(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<::GlobalNamespace::OVRTextureData>  ktxData) ;
+  // Declarations
+  /// @brief Method Load, addr 0x5d26768, size 0x264, virtual false, abstract: false, final false
+  static inline bool Load(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<::GlobalNamespace::OVRTextureData> ktxData);
 
-static inline ::GlobalNamespace::OVRKtxTexture* New_ctor() ;
+  static inline ::GlobalNamespace::OVRKtxTexture* New_ctor();
 
-/// @brief Method .ctor, addr 0x5cb49e4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5d269cc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRKtxTexture() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRKtxTexture();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRKtxTexture(OVRKtxTexture&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRKtxTexture(OVRKtxTexture && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRKtxTexture(OVRKtxTexture const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRKtxTexture(OVRKtxTexture const& ) = delete;
+  /// @brief Field KTX_TTF_ASTC_4x4_RGBA offset 0xffffffff size 0x4
+  static constexpr uint32_t KTX_TTF_ASTC_4x4_RGBA{ static_cast<uint32_t>(0xau) };
 
-/// @brief Field KTX_TTF_ASTC_4x4_RGBA offset 0xffffffff size 0x4
-static constexpr uint32_t  KTX_TTF_ASTC_4x4_RGBA{static_cast<uint32_t>(0xau)};
+  /// @brief Field KTX_TTF_BC7_RGBA offset 0xffffffff size 0x4
+  static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x6u) };
 
-/// @brief Field KTX_TTF_BC7_RGBA offset 0xffffffff size 0x4
-static constexpr uint32_t  KTX_TTF_BC7_RGBA{static_cast<uint32_t>(0x6u)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7216 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7210};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRKtxTexture, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRKtxTexture);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRKtxTexture*, "", "OVRKtxTexture");

@@ -27,2403 +27,2114 @@
 #include "UnityEngine/Rendering/zzzz__SerializedDictionary_2_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version::ProbeVolumeBakingSet_Version(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version::ProbeVolumeBakingSet_Version(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version::ProbeVolumeBakingSet_Version()   {
-}
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version  UnityEngine::Rendering::ProbeVolumeBakingSet_Version::Initial{static_cast<int32_t>(0x0)};
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version  UnityEngine::Rendering::ProbeVolumeBakingSet_Version::RemoveProbeVolumeSceneData{static_cast<int32_t>(0x1)};
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version::ProbeVolumeBakingSet_Version() {}
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version UnityEngine::Rendering::ProbeVolumeBakingSet_Version::Initial{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version UnityEngine::Rendering::ProbeVolumeBakingSet_Version::RemoveProbeVolumeSceneData{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)(::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)(
+    ::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::Initialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65dc658;
+  constexpr static std::size_t addrs = 0x664e664;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo.IsValid
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::IsValid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::IsValid)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x65dcde4;
+  constexpr static std::size_t addrs = 0x664edf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "IsValid",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo.HasValidData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)(::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::HasValidData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)(
+    ::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::HasValidData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65df848;
+  constexpr static std::size_t addrs = 0x6651854;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "HasValidData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "HasValidData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo.ComputeHasValidData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)(::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::ComputeHasValidData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)(
+    ::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::ComputeHasValidData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x65df7f0;
+  constexpr static std::size_t addrs = 0x66517fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "ComputeHasValidData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "ComputeHasValidData",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65df850;
+  constexpr static std::size_t addrs = 0x665185c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_sceneHash()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sceneHash;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_sceneHash() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sceneHash;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_sceneHash() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sceneHash;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sceneHash;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_sceneHash(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___sceneHash = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_sceneHash(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___sceneHash = value;
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellDataAsset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellDataAsset;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellDataAsset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellDataAsset;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellDataAsset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellDataAsset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellDataAsset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_cellDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_cellDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellOptionalDataAsset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellOptionalDataAsset;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellOptionalDataAsset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellOptionalDataAsset;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellOptionalDataAsset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellOptionalDataAsset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellOptionalDataAsset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_cellOptionalDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellOptionalDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_cellOptionalDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellOptionalDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellProbeOcclusionDataAsset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellProbeOcclusionDataAsset;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellProbeOcclusionDataAsset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellProbeOcclusionDataAsset;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_cellProbeOcclusionDataAsset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellProbeOcclusionDataAsset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellProbeOcclusionDataAsset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_cellProbeOcclusionDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellProbeOcclusionDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_cellProbeOcclusionDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellProbeOcclusionDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_m_HasValidData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HasValidData;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_m_HasValidData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HasValidData;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_get_m_HasValidData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HasValidData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HasValidData;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_m_HasValidData(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_HasValidData = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::__cordl_internal_set_m_HasValidData(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_HasValidData = value;
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::Initialize(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, shBands);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::Initialize(::UnityEngine::Rendering::ProbeVolumeSHBands shBands) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, shBands);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::IsValid()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "IsValid",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::IsValid() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "IsValid",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::HasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "HasValidData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, shBands);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::HasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands shBands) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "HasValidData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, shBands);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::ComputeHasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        "ComputeHasValidData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, shBands);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::ComputeHasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands shBands) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), "ComputeHasValidData",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, shBands);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>());
+inline ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::ProbeVolumeBakingSet_PerScenarioDataInfo()   {
-}
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo::ProbeVolumeBakingSet_PerScenarioDataInfo() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::*)(
+    ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::Add)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65df854;
+  constexpr static std::size_t addrs = 0x6651860;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::Add(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts  o)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::Add(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts o) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
 }
 // Ctor Parameters [CppParam { name: "bricksCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "chunksCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::ProbeVolumeBakingSet_CellCounts(int32_t  bricksCount, int32_t  chunksCount) noexcept  {
-this->bricksCount = bricksCount;
-this->chunksCount = chunksCount;
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::ProbeVolumeBakingSet_CellCounts(int32_t bricksCount, int32_t chunksCount) noexcept {
+  this->bricksCount = bricksCount;
+  this->chunksCount = chunksCount;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::ProbeVolumeBakingSet_CellCounts()   {
-}
-// Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "cellList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList::ProbeVolumeBakingSet_SerializedPerSceneCellList(::StringW  sceneGUID, ::System::Collections::Generic::List_1<int32_t>*  cellList) noexcept  {
-this->sceneGUID = sceneGUID;
-this->cellList = cellList;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList::ProbeVolumeBakingSet_SerializedPerSceneCellList()   {
-}
-// Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask::ProbeVolumeBakingSet_ProbeLayerMask(::UnityEngine::RenderingLayerMask  mask, ::StringW  name) noexcept  {
-this->mask = mask;
-this->name = name;
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts::ProbeVolumeBakingSet_CellCounts() {}
+// Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "cellList", ty: "::System::Collections::Generic::List_1<int32_t>*",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList::ProbeVolumeBakingSet_SerializedPerSceneCellList(
+    ::StringW sceneGUID, ::System::Collections::Generic::List_1<int32_t>* cellList) noexcept {
+  this->sceneGUID = sceneGUID;
+  this->cellList = cellList;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask::ProbeVolumeBakingSet_ProbeLayerMask()   {
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList::ProbeVolumeBakingSet_SerializedPerSceneCellList() {}
+// Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask::ProbeVolumeBakingSet_ProbeLayerMask(::UnityEngine::RenderingLayerMask mask, ::StringW name) noexcept {
+  this->mask = mask;
+  this->name = name;
 }
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask::ProbeVolumeBakingSet_ProbeLayerMask() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_hasDilation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_hasDilation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_hasDilation)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65db380;
+  constexpr static std::size_t addrs = 0x664d38c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_hasDilation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_hasDilation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_sceneGUIDs
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_sceneGUIDs)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_sceneGUIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65db3a0;
+  constexpr static std::size_t addrs = 0x664d3ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_sceneGUIDs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_sceneGUIDs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_lightingScenarios
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_lightingScenarios)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_lightingScenarios)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65db3a8;
+  constexpr static std::size_t addrs = 0x664d3b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_lightingScenarios",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_lightingScenarios", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_bakedSkyOcclusion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyOcclusion)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyOcclusion)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65db3b0;
+  constexpr static std::size_t addrs = 0x664d3bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_bakedSkyOcclusion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_bakedSkyOcclusion", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.set_bakedSkyOcclusion
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(bool)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyOcclusion)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(bool)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyOcclusion)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65db3c0;
+  constexpr static std::size_t addrs = 0x664d3cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "set_bakedSkyOcclusion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "set_bakedSkyOcclusion",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_bakedSkyShadingDirection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyShadingDirection)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyShadingDirection)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65db3d8;
+  constexpr static std::size_t addrs = 0x664d3e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_bakedSkyShadingDirection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_bakedSkyShadingDirection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.set_bakedSkyShadingDirection
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(bool)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyShadingDirection)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(bool)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyShadingDirection)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65db3e8;
+  constexpr static std::size_t addrs = 0x664d3f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "set_bakedSkyShadingDirection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "set_bakedSkyShadingDirection",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_otherScenario
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_otherScenario)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_otherScenario)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65db400;
+  constexpr static std::size_t addrs = 0x664d40c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_otherScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_otherScenario", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_scenarioBlendingFactor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_scenarioBlendingFactor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_scenarioBlendingFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65db408;
+  constexpr static std::size_t addrs = 0x664d414;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_scenarioBlendingFactor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_scenarioBlendingFactor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_cellSizeInBricks
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInBricks)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInBricks)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x65db410;
+  constexpr static std::size_t addrs = 0x664d41c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_cellSizeInBricks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_cellSizeInBricks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_maxSubdivision
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_maxSubdivision)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_maxSubdivision)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65db474;
+  constexpr static std::size_t addrs = 0x664d480;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_maxSubdivision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_maxSubdivision", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_minBrickSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_minBrickSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_minBrickSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65db488;
+  constexpr static std::size_t addrs = 0x664d494;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_minBrickSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_minBrickSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.get_cellSizeInMeters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInMeters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInMeters)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65db4c4;
+  constexpr static std::size_t addrs = 0x664d4d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_cellSizeInMeters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "get_cellSizeInMeters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ComputeRegionMasks
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint4 (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeRegionMasks)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint4 (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeRegionMasks)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x65db528;
+  constexpr static std::size_t addrs = 0x664d534;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ComputeRegionMasks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "ComputeRegionMasks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetCellSizeInBricks
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellSizeInBricks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65db444;
+  constexpr static std::size_t addrs = 0x664d450;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetCellSizeInBricks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetCellSizeInBricks",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetMaxSubdivision
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetMaxSubdivision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65db480;
+  constexpr static std::size_t addrs = 0x664d48c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetMaxSubdivision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetMaxSubdivision",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetMinBrickSize
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetMinBrickSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65db4a8;
+  constexpr static std::size_t addrs = 0x664d4b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetMinBrickSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetMinBrickSize",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.OnValidate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::OnValidate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::OnValidate)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x65db608;
+  constexpr static std::size_t addrs = 0x664d614;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "OnValidate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "OnValidate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.OnEnable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::OnEnable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::OnEnable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x65db790;
+  constexpr static std::size_t addrs = 0x664d79c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "OnEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.Migrate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::Migrate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::Migrate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x65db7e0;
+  constexpr static std::size_t addrs = 0x664d7ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "Migrate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "Migrate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ComputeHasValidSharedData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasValidSharedData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasValidSharedData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x65db8c4;
+  constexpr static std::size_t addrs = 0x664d8d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ComputeHasValidSharedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "ComputeHasValidSharedData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.HasValidSharedData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::HasValidSharedData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::HasValidSharedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65db9ec;
+  constexpr static std::size_t addrs = 0x664d9f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "HasValidSharedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "HasValidSharedData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.CheckCompatibleCellLayout
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::CheckCompatibleCellLayout)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::CheckCompatibleCellLayout)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65db9f4;
+  constexpr static std::size_t addrs = 0x664da00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "CheckCompatibleCellLayout",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "CheckCompatibleCellLayout", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ComputeHasSupportData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasSupportData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasSupportData)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65db8a0;
+  constexpr static std::size_t addrs = 0x664d8ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ComputeHasSupportData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "ComputeHasSupportData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.HasSupportData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::HasSupportData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::HasSupportData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65dbaa0;
+  constexpr static std::size_t addrs = 0x664daac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "HasSupportData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "HasSupportData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.HasBakedData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::HasBakedData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::HasBakedData)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x65dbaa8;
+  constexpr static std::size_t addrs = 0x664dab4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "HasBakedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "HasBakedData",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x65dbc04;
+  constexpr static std::size_t addrs = 0x664dc10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                    "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x65dbfe8;
+  constexpr static std::size_t addrs = 0x664dff4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                 "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.Initialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(bool)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(bool)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::Initialize)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x65dc1d0;
+  constexpr static std::size_t addrs = 0x664e1dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "Initialize",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.Cleanup
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::Cleanup)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::Cleanup)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x65dc9e8;
+  constexpr static std::size_t addrs = 0x664e9f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "Cleanup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "Cleanup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.SetActiveScenario
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW, bool)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::SetActiveScenario)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW, bool)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::SetActiveScenario)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x65dce0c;
+  constexpr static std::size_t addrs = 0x664ee18;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "SetActiveScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "SetActiveScenario", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.BlendLightingScenario
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW, float_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::BlendLightingScenario)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW, float_t)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::BlendLightingScenario)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x65dc6a4;
+  constexpr static std::size_t addrs = 0x664e6b0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "BlendLightingScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "BlendLightingScenario", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetBakingHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetBakingHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::GetBakingHashCode)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x65dd0fc;
+  constexpr static std::size_t addrs = 0x664f108;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetBakingHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "GetBakingHashCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.AlignUp16
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::AlignUp16)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x65dd240;
+  constexpr static std::size_t addrs = 0x664f24c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "AlignUp16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "AlignUp16",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.RequestScratchBuffer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::RequestScratchBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::RequestScratchBuffer)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x65dd268;
+  constexpr static std::size_t addrs = 0x664f274;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "RequestScratchBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "RequestScratchBuffer",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.PruneCellIndexList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexList)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(
+    ::System::Collections::Generic::List_1<int32_t>*, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexList)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x65dd364;
+  constexpr static std::size_t addrs = 0x664f370;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "PruneCellIndexList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "PruneCellIndexList", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.PruneCellIndexListForScenario
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexListForScenario)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(
+    ::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*, ::System::Collections::Generic::List_1<int32_t>*)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexListForScenario)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x65dd54c;
+  constexpr static std::size_t addrs = 0x664f558;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "PruneCellIndexListForScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "PruneCellIndexListForScenario", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetSceneCellIndexList
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetSceneCellIndexList)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::StringW)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::GetSceneCellIndexList)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x65dd750;
+  constexpr static std::size_t addrs = 0x664f75c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetSceneCellIndexList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetSceneCellIndexList",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ResolveAllCellData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveAllCellData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveAllCellData)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65dc674;
+  constexpr static std::size_t addrs = 0x664e680;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveAllCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                               "ResolveAllCellData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ResolveCellData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveCellData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveCellData)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x65de080;
+  constexpr static std::size_t addrs = 0x665008c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolveCellData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ResolveSharedCellData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>, ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(
+    ::System::Collections::Generic::List_1<int32_t>*, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>, ::Unity::Collections::NativeArray_1<uint8_t>,
+    ::Unity::Collections::NativeArray_1<uint8_t>)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData)> {
   constexpr static std::size_t size = 0x708;
-  constexpr static std::size_t addrs = 0x65de520;
+  constexpr static std::size_t addrs = 0x665052c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveSharedCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolveSharedCellData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ResolveSharedCellData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x65dd7cc;
+  constexpr static std::size_t addrs = 0x664f7d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveSharedCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolveSharedCellData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ResolvePerScenarioCellData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::System::Collections::Generic::List_1<int32_t>*)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData)> {
   constexpr static std::size_t size = 0x680;
-  constexpr static std::size_t addrs = 0x65dda00;
+  constexpr static std::size_t addrs = 0x664fa0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolvePerScenarioCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolvePerScenarioCellData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ResolvePerScenarioCellData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>, ::StringW, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(
+    ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>, ::StringW,
+    ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x65dec28;
+  constexpr static std::size_t addrs = 0x6650c34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolvePerScenarioCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolvePerScenarioCellData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.ReleaseCell
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseCell)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseCell)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x65df1b0;
+  constexpr static std::size_t addrs = 0x66511bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ReleaseCell",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ReleaseCell",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetCellDesc
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellDesc)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellDesc)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x65df24c;
+  constexpr static std::size_t addrs = 0x6651258;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetCellDesc",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetCellDesc",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetCellData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellData* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellData* (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x65df2c8;
+  constexpr static std::size_t addrs = 0x66512d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetCellData",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet.GetChunkGPUMemory
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::GetChunkGPUMemory)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)(::UnityEngine::Rendering::ProbeVolumeSHBands)>(
+    &::UnityEngine::Rendering::ProbeVolumeBakingSet::GetChunkGPUMemory)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65df344;
+  constexpr static std::size_t addrs = 0x6651350;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetChunkGPUMemory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetChunkGPUMemory", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolumeBakingSet._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSet::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSet::_ctor)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x65df380;
+  constexpr static std::size_t addrs = 0x665138c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_singleSceneMode()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___singleSceneMode;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_singleSceneMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___singleSceneMode;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_singleSceneMode() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___singleSceneMode;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___singleSceneMode;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_singleSceneMode(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___singleSceneMode = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_singleSceneMode(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___singleSceneMode = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_dialogNoProbeVolumeInSetShown()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___dialogNoProbeVolumeInSetShown;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_dialogNoProbeVolumeInSetShown() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___dialogNoProbeVolumeInSetShown;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_dialogNoProbeVolumeInSetShown() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___dialogNoProbeVolumeInSetShown;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___dialogNoProbeVolumeInSetShown;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_dialogNoProbeVolumeInSetShown(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___dialogNoProbeVolumeInSetShown = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_dialogNoProbeVolumeInSetShown(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___dialogNoProbeVolumeInSetShown = value;
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_settings()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___settings;
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_settings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___settings;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_settings() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___settings;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___settings;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_settings(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___settings = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_settings(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___settings = value;
 }
-constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SceneGUIDs()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SceneGUIDs;
+constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SceneGUIDs() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SceneGUIDs;
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SceneGUIDs() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SceneGUIDs;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SceneGUIDs;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_SceneGUIDs(::System::Collections::Generic::List_1<::StringW>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SceneGUIDs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_SceneGUIDs(::System::Collections::Generic::List_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SceneGUIDs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_obsoleteScenesToNotBake()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___obsoleteScenesToNotBake;
+constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_obsoleteScenesToNotBake() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___obsoleteScenesToNotBake;
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_obsoleteScenesToNotBake() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___obsoleteScenesToNotBake;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___obsoleteScenesToNotBake;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_obsoleteScenesToNotBake(::System::Collections::Generic::List_1<::StringW>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obsoleteScenesToNotBake)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_obsoleteScenesToNotBake(::System::Collections::Generic::List_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obsoleteScenesToNotBake)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_LightingScenarios()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_LightingScenarios;
+constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_LightingScenarios() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LightingScenarios;
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_LightingScenarios() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_LightingScenarios;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LightingScenarios;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_LightingScenarios(::System::Collections::Generic::List_1<::StringW>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LightingScenarios)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_LightingScenarios(::System::Collections::Generic::List_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LightingScenarios)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDescs()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellDescs;
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDescs() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellDescs;
 }
-constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDescs() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellDescs;
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* const&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDescs() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellDescs;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellDescs(::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellDescs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellDescs(
+    ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellDescs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDataMap()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellDataMap;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDataMap() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellDataMap;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDataMap() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellDataMap;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* const&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellDataMap() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellDataMap;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellDataMap(::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellDataMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellDataMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellDataMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_TotalIndexList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_TotalIndexList;
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_TotalIndexList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TotalIndexList;
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_TotalIndexList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_TotalIndexList;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TotalIndexList;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_TotalIndexList(::System::Collections::Generic::List_1<int32_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TotalIndexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_TotalIndexList(::System::Collections::Generic::List_1<int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TotalIndexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SerializedPerSceneCellList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SerializedPerSceneCellList;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SerializedPerSceneCellList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SerializedPerSceneCellList;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SerializedPerSceneCellList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SerializedPerSceneCellList;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* const&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SerializedPerSceneCellList() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SerializedPerSceneCellList;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_SerializedPerSceneCellList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SerializedPerSceneCellList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_SerializedPerSceneCellList(
+    ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SerializedPerSceneCellList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_perSceneCellLists()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___perSceneCellLists;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_perSceneCellLists() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___perSceneCellLists;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_perSceneCellLists() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___perSceneCellLists;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* const&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_perSceneCellLists() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___perSceneCellLists;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_perSceneCellLists(::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___perSceneCellLists)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_perSceneCellLists(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___perSceneCellLists)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellSharedDataAsset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellSharedDataAsset;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellSharedDataAsset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellSharedDataAsset;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellSharedDataAsset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellSharedDataAsset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellSharedDataAsset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellSharedDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellSharedDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellSharedDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellSharedDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_scenarios()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___scenarios;
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_scenarios() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenarios;
 }
-constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_scenarios() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___scenarios;
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* const&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_scenarios() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scenarios;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_scenarios(::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scenarios)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_scenarios(
+    ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scenarios)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellBricksDataAsset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellBricksDataAsset;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellBricksDataAsset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellBricksDataAsset;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellBricksDataAsset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellBricksDataAsset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellBricksDataAsset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellBricksDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellBricksDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellBricksDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellBricksDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellSupportDataAsset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellSupportDataAsset;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellSupportDataAsset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellSupportDataAsset;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_cellSupportDataAsset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cellSupportDataAsset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cellSupportDataAsset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellSupportDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellSupportDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_cellSupportDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cellSupportDataAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_chunkSizeInBricks()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___chunkSizeInBricks;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_chunkSizeInBricks() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___chunkSizeInBricks;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_chunkSizeInBricks() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___chunkSizeInBricks;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___chunkSizeInBricks;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_chunkSizeInBricks(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___chunkSizeInBricks = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_chunkSizeInBricks(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___chunkSizeInBricks = value;
 }
-constexpr ::UnityEngine::Vector3Int& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_maxCellPosition()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___maxCellPosition;
+constexpr ::UnityEngine::Vector3Int& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_maxCellPosition() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___maxCellPosition;
 }
 constexpr ::UnityEngine::Vector3Int const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_maxCellPosition() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___maxCellPosition;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___maxCellPosition;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_maxCellPosition(::UnityEngine::Vector3Int  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___maxCellPosition = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_maxCellPosition(::UnityEngine::Vector3Int value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___maxCellPosition = value;
 }
-constexpr ::UnityEngine::Vector3Int& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minCellPosition()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___minCellPosition;
+constexpr ::UnityEngine::Vector3Int& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minCellPosition() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___minCellPosition;
 }
 constexpr ::UnityEngine::Vector3Int const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minCellPosition() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___minCellPosition;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___minCellPosition;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_minCellPosition(::UnityEngine::Vector3Int  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___minCellPosition = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_minCellPosition(::UnityEngine::Vector3Int value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___minCellPosition = value;
 }
-constexpr ::UnityEngine::Bounds& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_globalBounds()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___globalBounds;
+constexpr ::UnityEngine::Bounds& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_globalBounds() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___globalBounds;
 }
 constexpr ::UnityEngine::Bounds const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_globalBounds() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___globalBounds;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___globalBounds;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_globalBounds(::UnityEngine::Bounds  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___globalBounds = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_globalBounds(::UnityEngine::Bounds value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___globalBounds = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSimplificationLevels()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedSimplificationLevels;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSimplificationLevels() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedSimplificationLevels;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSimplificationLevels() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedSimplificationLevels;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedSimplificationLevels;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedSimplificationLevels(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedSimplificationLevels = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedSimplificationLevels(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedSimplificationLevels = value;
 }
-constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedMinDistanceBetweenProbes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedMinDistanceBetweenProbes;
+constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedMinDistanceBetweenProbes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedMinDistanceBetweenProbes;
 }
 constexpr float_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedMinDistanceBetweenProbes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedMinDistanceBetweenProbes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedMinDistanceBetweenProbes;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedMinDistanceBetweenProbes(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedMinDistanceBetweenProbes = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedMinDistanceBetweenProbes(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedMinDistanceBetweenProbes = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedProbeOcclusion()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedProbeOcclusion;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedProbeOcclusion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedProbeOcclusion;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedProbeOcclusion() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedProbeOcclusion;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedProbeOcclusion;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedProbeOcclusion(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedProbeOcclusion = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedProbeOcclusion(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedProbeOcclusion = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSkyOcclusionValue()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedSkyOcclusionValue;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSkyOcclusionValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedSkyOcclusionValue;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSkyOcclusionValue() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedSkyOcclusionValue;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedSkyOcclusionValue;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedSkyOcclusionValue(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedSkyOcclusionValue = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedSkyOcclusionValue(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedSkyOcclusionValue = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSkyShadingDirectionValue()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedSkyShadingDirectionValue;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSkyShadingDirectionValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedSkyShadingDirectionValue;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedSkyShadingDirectionValue() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedSkyShadingDirectionValue;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedSkyShadingDirectionValue;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedSkyShadingDirectionValue(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedSkyShadingDirectionValue = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedSkyShadingDirectionValue(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedSkyShadingDirectionValue = value;
 }
-constexpr ::UnityEngine::Vector3& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedProbeOffset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedProbeOffset;
+constexpr ::UnityEngine::Vector3& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedProbeOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedProbeOffset;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedProbeOffset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedProbeOffset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedProbeOffset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedProbeOffset(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedProbeOffset = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedProbeOffset(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedProbeOffset = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedMaskCount()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedMaskCount;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedMaskCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedMaskCount;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedMaskCount() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedMaskCount;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedMaskCount;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedMaskCount(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedMaskCount = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedMaskCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedMaskCount = value;
 }
-constexpr ::Unity::Mathematics::uint4& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedLayerMasks()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedLayerMasks;
+constexpr ::Unity::Mathematics::uint4& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedLayerMasks() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedLayerMasks;
 }
 constexpr ::Unity::Mathematics::uint4 const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_bakedLayerMasks() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___bakedLayerMasks;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___bakedLayerMasks;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedLayerMasks(::Unity::Mathematics::uint4  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___bakedLayerMasks = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_bakedLayerMasks(::Unity::Mathematics::uint4 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___bakedLayerMasks = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_maxSHChunkCount()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___maxSHChunkCount;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_maxSHChunkCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___maxSHChunkCount;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_maxSHChunkCount() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___maxSHChunkCount;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___maxSHChunkCount;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_maxSHChunkCount(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___maxSHChunkCount = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_maxSHChunkCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___maxSHChunkCount = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L0ChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___L0ChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L0ChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___L0ChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L0ChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___L0ChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___L0ChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_L0ChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___L0ChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_L0ChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___L0ChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L1ChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___L1ChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L1ChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___L1ChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L1ChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___L1ChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___L1ChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_L1ChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___L1ChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_L1ChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___L1ChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L2TextureChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___L2TextureChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L2TextureChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___L2TextureChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_L2TextureChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___L2TextureChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___L2TextureChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_L2TextureChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___L2TextureChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_L2TextureChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___L2TextureChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_ProbeOcclusionChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ProbeOcclusionChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_ProbeOcclusionChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ProbeOcclusionChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_ProbeOcclusionChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ProbeOcclusionChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ProbeOcclusionChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_ProbeOcclusionChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___ProbeOcclusionChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_ProbeOcclusionChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___ProbeOcclusionChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedValidityMaskChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedValidityMaskChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedValidityMaskChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedValidityMaskChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedValidityMaskChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedValidityMaskChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedValidityMaskChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedValidityMaskChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___sharedValidityMaskChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedValidityMaskChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___sharedValidityMaskChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedSkyOcclusionL0L1ChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedSkyOcclusionL0L1ChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedSkyOcclusionL0L1ChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedSkyOcclusionL0L1ChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedSkyOcclusionL0L1ChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___sharedSkyOcclusionL0L1ChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedSkyOcclusionL0L1ChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___sharedSkyOcclusionL0L1ChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedSkyShadingDirectionIndicesChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedSkyShadingDirectionIndicesChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedSkyShadingDirectionIndicesChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedSkyShadingDirectionIndicesChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedSkyShadingDirectionIndicesChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___sharedSkyShadingDirectionIndicesChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedSkyShadingDirectionIndicesChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___sharedSkyShadingDirectionIndicesChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedDataChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedDataChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedDataChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedDataChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_sharedDataChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___sharedDataChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedDataChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedDataChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___sharedDataChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_sharedDataChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___sharedDataChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportPositionChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportPositionChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportPositionChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportPositionChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportPositionChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportPositionChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportPositionChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportPositionChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___supportPositionChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportPositionChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___supportPositionChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportValidityChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportValidityChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportValidityChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportValidityChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportValidityChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportValidityChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportValidityChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportValidityChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___supportValidityChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportValidityChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___supportValidityChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportTouchupChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportTouchupChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportTouchupChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportTouchupChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportTouchupChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportTouchupChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportTouchupChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportTouchupChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___supportTouchupChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportTouchupChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___supportTouchupChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportLayerMaskChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportLayerMaskChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportLayerMaskChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportLayerMaskChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportLayerMaskChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportLayerMaskChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportLayerMaskChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportLayerMaskChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___supportLayerMaskChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportLayerMaskChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___supportLayerMaskChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportOffsetsChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportOffsetsChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportOffsetsChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportOffsetsChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportOffsetsChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportOffsetsChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportOffsetsChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportOffsetsChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___supportOffsetsChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportOffsetsChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___supportOffsetsChunkSize = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportDataChunkSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportDataChunkSize;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportDataChunkSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportDataChunkSize;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_supportDataChunkSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___supportDataChunkSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___supportDataChunkSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportDataChunkSize(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___supportDataChunkSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_supportDataChunkSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___supportDataChunkSize = value;
 }
-constexpr ::StringW& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_lightingScenario()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lightingScenario;
+constexpr ::StringW& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_lightingScenario() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lightingScenario;
 }
 constexpr ::StringW const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_lightingScenario() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lightingScenario;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lightingScenario;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_lightingScenario(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightingScenario)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_lightingScenario(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightingScenario)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_OtherScenario()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_OtherScenario;
+constexpr ::StringW& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_OtherScenario() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OtherScenario;
 }
 constexpr ::StringW const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_OtherScenario() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_OtherScenario;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OtherScenario;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_OtherScenario(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OtherScenario)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_OtherScenario(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OtherScenario)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ScenarioBlendingFactor()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ScenarioBlendingFactor;
+constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ScenarioBlendingFactor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScenarioBlendingFactor;
 }
 constexpr float_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ScenarioBlendingFactor() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ScenarioBlendingFactor;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScenarioBlendingFactor;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ScenarioBlendingFactor(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_ScenarioBlendingFactor = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ScenarioBlendingFactor(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ScenarioBlendingFactor = value;
 }
-constexpr ::Unity::IO::LowLevel::Unsafe::ReadCommandArray& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadCommandArray()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ReadCommandArray;
+constexpr ::Unity::IO::LowLevel::Unsafe::ReadCommandArray& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadCommandArray() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadCommandArray;
 }
 constexpr ::Unity::IO::LowLevel::Unsafe::ReadCommandArray const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadCommandArray() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ReadCommandArray;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadCommandArray;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ReadCommandArray(::Unity::IO::LowLevel::Unsafe::ReadCommandArray  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_ReadCommandArray = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ReadCommandArray(::Unity::IO::LowLevel::Unsafe::ReadCommandArray value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ReadCommandArray = value;
 }
-constexpr ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadCommandBuffer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ReadCommandBuffer;
+constexpr ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadCommandBuffer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadCommandBuffer;
 }
 constexpr ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand> const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadCommandBuffer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ReadCommandBuffer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadCommandBuffer;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ReadCommandBuffer(::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_ReadCommandBuffer = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ReadCommandBuffer(::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ReadCommandBuffer = value;
 }
-constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadOperationScratchBuffers()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ReadOperationScratchBuffers;
+constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadOperationScratchBuffers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadOperationScratchBuffers;
 }
-constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadOperationScratchBuffers() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_ReadOperationScratchBuffers;
+constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* const&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_ReadOperationScratchBuffers() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadOperationScratchBuffers;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ReadOperationScratchBuffers(::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ReadOperationScratchBuffers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_ReadOperationScratchBuffers(::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ReadOperationScratchBuffers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_PrunedIndexList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_PrunedIndexList;
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_PrunedIndexList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PrunedIndexList;
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_PrunedIndexList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_PrunedIndexList;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PrunedIndexList;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_PrunedIndexList(::System::Collections::Generic::List_1<int32_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrunedIndexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_PrunedIndexList(::System::Collections::Generic::List_1<int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrunedIndexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_PrunedScenarioIndexList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_PrunedScenarioIndexList;
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_PrunedScenarioIndexList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PrunedScenarioIndexList;
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_PrunedScenarioIndexList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_PrunedScenarioIndexList;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PrunedScenarioIndexList;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_PrunedScenarioIndexList(::System::Collections::Generic::List_1<int32_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrunedScenarioIndexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_PrunedScenarioIndexList(::System::Collections::Generic::List_1<int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrunedScenarioIndexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_version()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___version;
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
 }
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_version() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___version;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolumeBakingSet_Version  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___version = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolumeBakingSet_Version value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___version = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_freezePlacement()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___freezePlacement;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_freezePlacement() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___freezePlacement;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_freezePlacement() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___freezePlacement;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___freezePlacement;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_freezePlacement(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___freezePlacement = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_freezePlacement(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___freezePlacement = value;
 }
-constexpr ::UnityEngine::Vector3& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_probeOffset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___probeOffset;
+constexpr ::UnityEngine::Vector3& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_probeOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___probeOffset;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_probeOffset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___probeOffset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___probeOffset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_probeOffset(::UnityEngine::Vector3  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___probeOffset = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_probeOffset(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___probeOffset = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_simplificationLevels()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___simplificationLevels;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_simplificationLevels() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___simplificationLevels;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_simplificationLevels() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___simplificationLevels;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___simplificationLevels;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_simplificationLevels(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___simplificationLevels = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_simplificationLevels(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___simplificationLevels = value;
 }
-constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minDistanceBetweenProbes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___minDistanceBetweenProbes;
+constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minDistanceBetweenProbes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___minDistanceBetweenProbes;
 }
 constexpr float_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minDistanceBetweenProbes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___minDistanceBetweenProbes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___minDistanceBetweenProbes;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_minDistanceBetweenProbes(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___minDistanceBetweenProbes = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_minDistanceBetweenProbes(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___minDistanceBetweenProbes = value;
 }
-constexpr ::UnityEngine::LayerMask& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_renderersLayerMask()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___renderersLayerMask;
+constexpr ::UnityEngine::LayerMask& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_renderersLayerMask() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___renderersLayerMask;
 }
 constexpr ::UnityEngine::LayerMask const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_renderersLayerMask() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___renderersLayerMask;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___renderersLayerMask;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_renderersLayerMask(::UnityEngine::LayerMask  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___renderersLayerMask = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_renderersLayerMask(::UnityEngine::LayerMask value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___renderersLayerMask = value;
 }
-constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minRendererVolumeSize()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___minRendererVolumeSize;
+constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minRendererVolumeSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___minRendererVolumeSize;
 }
 constexpr float_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_minRendererVolumeSize() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___minRendererVolumeSize;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___minRendererVolumeSize;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_minRendererVolumeSize(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___minRendererVolumeSize = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_minRendererVolumeSize(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___minRendererVolumeSize = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusion()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusion;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusion;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusion() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusion;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusion;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusion(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___skyOcclusion = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusion(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___skyOcclusion = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBakingSamples()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionBakingSamples;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBakingSamples() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionBakingSamples;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBakingSamples() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionBakingSamples;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionBakingSamples;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionBakingSamples(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___skyOcclusionBakingSamples = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionBakingSamples(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___skyOcclusionBakingSamples = value;
 }
-constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBakingBounces()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionBakingBounces;
+constexpr int32_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBakingBounces() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionBakingBounces;
 }
 constexpr int32_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBakingBounces() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionBakingBounces;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionBakingBounces;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionBakingBounces(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___skyOcclusionBakingBounces = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionBakingBounces(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___skyOcclusionBakingBounces = value;
 }
-constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionAverageAlbedo()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionAverageAlbedo;
+constexpr float_t& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionAverageAlbedo() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionAverageAlbedo;
 }
 constexpr float_t const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionAverageAlbedo() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionAverageAlbedo;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionAverageAlbedo;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionAverageAlbedo(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___skyOcclusionAverageAlbedo = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionAverageAlbedo(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___skyOcclusionAverageAlbedo = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBackFaceCulling()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionBackFaceCulling;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBackFaceCulling() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionBackFaceCulling;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionBackFaceCulling() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionBackFaceCulling;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionBackFaceCulling;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionBackFaceCulling(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___skyOcclusionBackFaceCulling = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionBackFaceCulling(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___skyOcclusionBackFaceCulling = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionShadingDirection()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionShadingDirection;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionShadingDirection() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionShadingDirection;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_skyOcclusionShadingDirection() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___skyOcclusionShadingDirection;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___skyOcclusionShadingDirection;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionShadingDirection(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___skyOcclusionShadingDirection = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_skyOcclusionShadingDirection(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___skyOcclusionShadingDirection = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_useRenderingLayers()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___useRenderingLayers;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_useRenderingLayers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useRenderingLayers;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_useRenderingLayers() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___useRenderingLayers;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useRenderingLayers;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_useRenderingLayers(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___useRenderingLayers = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_useRenderingLayers(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___useRenderingLayers = value;
 }
-constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_renderingLayerMasks()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___renderingLayerMasks;
+constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_renderingLayerMasks() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___renderingLayerMasks;
 }
-constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*> const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_renderingLayerMasks() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___renderingLayerMasks;
+constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*> const&
+UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_renderingLayerMasks() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___renderingLayerMasks;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_renderingLayerMasks(::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___renderingLayerMasks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_renderingLayerMasks(
+    ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___renderingLayerMasks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_HasSupportData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HasSupportData;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_HasSupportData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HasSupportData;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_HasSupportData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HasSupportData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HasSupportData;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_HasSupportData(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_HasSupportData = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_HasSupportData(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_HasSupportData = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SharedDataIsValid()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SharedDataIsValid;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SharedDataIsValid() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SharedDataIsValid;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_SharedDataIsValid() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_SharedDataIsValid;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SharedDataIsValid;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_SharedDataIsValid(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_SharedDataIsValid = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_SharedDataIsValid(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SharedDataIsValid = value;
 }
-constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_UseStreamingAsset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UseStreamingAsset;
+constexpr bool& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_UseStreamingAsset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UseStreamingAsset;
 }
 constexpr bool const& UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_get_m_UseStreamingAsset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_UseStreamingAsset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UseStreamingAsset;
 }
-constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_UseStreamingAsset(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_UseStreamingAsset = value;
+constexpr void UnityEngine::Rendering::ProbeVolumeBakingSet::__cordl_internal_set_m_UseStreamingAsset(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_UseStreamingAsset = value;
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::get_hasDilation()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_hasDilation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::get_hasDilation() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_hasDilation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* UnityEngine::Rendering::ProbeVolumeBakingSet::get_sceneGUIDs()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_sceneGUIDs",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* UnityEngine::Rendering::ProbeVolumeBakingSet::get_sceneGUIDs() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_sceneGUIDs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::StringW>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* UnityEngine::Rendering::ProbeVolumeBakingSet::get_lightingScenarios()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_lightingScenarios",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::StringW>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* UnityEngine::Rendering::ProbeVolumeBakingSet::get_lightingScenarios() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_lightingScenarios", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::StringW>*, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyOcclusion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_bakedSkyOcclusion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyOcclusion() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_bakedSkyOcclusion", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyOcclusion(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "set_bakedSkyOcclusion",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyOcclusion(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "set_bakedSkyOcclusion",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyShadingDirection()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_bakedSkyShadingDirection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::get_bakedSkyShadingDirection() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_bakedSkyShadingDirection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyShadingDirection(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "set_bakedSkyShadingDirection",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::set_bakedSkyShadingDirection(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "set_bakedSkyShadingDirection",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::StringW UnityEngine::Rendering::ProbeVolumeBakingSet::get_otherScenario()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_otherScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::Rendering::ProbeVolumeBakingSet::get_otherScenario() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_otherScenario", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_scenarioBlendingFactor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_scenarioBlendingFactor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_scenarioBlendingFactor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_scenarioBlendingFactor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInBricks()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_cellSizeInBricks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInBricks() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_cellSizeInBricks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_maxSubdivision()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_maxSubdivision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_maxSubdivision() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_maxSubdivision", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_minBrickSize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_minBrickSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_minBrickSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_minBrickSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInMeters()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "get_cellSizeInMeters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::get_cellSizeInMeters() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "get_cellSizeInMeters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::Unity::Mathematics::uint4 UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeRegionMasks()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ComputeRegionMasks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::uint4, false>(this, ___internal_method);
+inline ::Unity::Mathematics::uint4 UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeRegionMasks() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "ComputeRegionMasks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::uint4, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellSizeInBricks(int32_t  simplificationLevels)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetCellSizeInBricks",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, simplificationLevels);
+inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellSizeInBricks(int32_t simplificationLevels) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetCellSizeInBricks",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, simplificationLevels);
 }
-inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetMaxSubdivision(int32_t  simplificationLevels)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetMaxSubdivision",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, simplificationLevels);
+inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetMaxSubdivision(int32_t simplificationLevels) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetMaxSubdivision",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, simplificationLevels);
 }
-inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetMinBrickSize(float_t  minDistanceBetweenProbes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetMinBrickSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, minDistanceBetweenProbes);
+inline float_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetMinBrickSize(float_t minDistanceBetweenProbes) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetMinBrickSize",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, minDistanceBetweenProbes);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::OnValidate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "OnValidate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::OnValidate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "OnValidate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::OnEnable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "OnEnable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "OnEnable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::Migrate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "Migrate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::Migrate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "Migrate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasValidSharedData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ComputeHasValidSharedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasValidSharedData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "ComputeHasValidSharedData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::HasValidSharedData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "HasValidSharedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::HasValidSharedData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "HasValidSharedData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::CheckCompatibleCellLayout()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "CheckCompatibleCellLayout",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::CheckCompatibleCellLayout() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "CheckCompatibleCellLayout", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasSupportData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ComputeHasSupportData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ComputeHasSupportData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "ComputeHasSupportData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::HasSupportData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "HasSupportData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::HasSupportData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "HasSupportData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::HasBakedData(::StringW  scenario)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "HasBakedData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scenario);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::HasBakedData(::StringW scenario) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "HasBakedData",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scenario);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                               "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                               "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::Initialize(bool  useStreamingAsset)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "Initialize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, useStreamingAsset);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::Initialize(bool useStreamingAsset) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "Initialize",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, useStreamingAsset);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::Cleanup()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "Cleanup",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::Cleanup() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "Cleanup",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::SetActiveScenario(::StringW  scenario, bool  verbose)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "SetActiveScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scenario, verbose);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::SetActiveScenario(::StringW scenario, bool verbose) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "SetActiveScenario", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scenario, verbose);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::BlendLightingScenario(::StringW  otherScenario, float_t  blendingFactor)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "BlendLightingScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, otherScenario, blendingFactor);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::BlendLightingScenario(::StringW otherScenario, float_t blendingFactor) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "BlendLightingScenario", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, otherScenario, blendingFactor);
 }
-inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetBakingHashCode()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetBakingHashCode",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetBakingHashCode() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "GetBakingHashCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::AlignUp16(int32_t  count)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "AlignUp16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, count);
+inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::AlignUp16(int32_t count) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "AlignUp16",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, count);
 }
-template<typename T>
-inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::ProbeVolumeBakingSet::GetSubArray(::Unity::Collections::NativeArray_1<uint8_t>  input, int32_t  count, ::ByRef<int32_t>  offset)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                    "GetSubArray",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(this, ___internal_method, input, count, offset);
+template <typename T>
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::ProbeVolumeBakingSet::GetSubArray(::Unity::Collections::NativeArray_1<uint8_t> input, int32_t count, ::ByRef<int32_t> offset) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetSubArray",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(this, ___internal_method, input, count, offset);
 }
-inline ::Unity::Collections::NativeArray_1<uint8_t> UnityEngine::Rendering::ProbeVolumeBakingSet::RequestScratchBuffer(int32_t  size)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "RequestScratchBuffer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<uint8_t>, false>(this, ___internal_method, size);
+inline ::Unity::Collections::NativeArray_1<uint8_t> UnityEngine::Rendering::ProbeVolumeBakingSet::RequestScratchBuffer(int32_t size) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "RequestScratchBuffer",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<uint8_t>, false>(this, ___internal_method, size);
 }
-template<typename T>
-inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::ProbeVolumeBakingSet::LoadStreambleAssetData(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  asset, ::System::Collections::Generic::List_1<int32_t>*  cellIndices)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                    "LoadStreambleAssetData",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(this, ___internal_method, asset, cellIndices);
+template <typename T>
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::ProbeVolumeBakingSet::LoadStreambleAssetData(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* asset,
+                                                                                                                   ::System::Collections::Generic::List_1<int32_t>* cellIndices) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "LoadStreambleAssetData",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(this, ___internal_method, asset, cellIndices);
 }
-template<typename T>
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T>  buffer)  {
-static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                    "ReleaseStreamableAssetData",
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-                    ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get()}
-                )));
-static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-                    ___internal_method_base,
-                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}
-                ));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer);
+template <typename T> inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T> buffer) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ReleaseStreamableAssetData",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexList(::System::Collections::Generic::List_1<int32_t>*  cellIndices, ::System::Collections::Generic::List_1<int32_t>*  prunedIndexList)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "PruneCellIndexList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndices, prunedIndexList);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexList(::System::Collections::Generic::List_1<int32_t>* cellIndices,
+                                                                             ::System::Collections::Generic::List_1<int32_t>* prunedIndexList) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "PruneCellIndexList", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndices, prunedIndexList);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexListForScenario(::System::Collections::Generic::List_1<int32_t>*  cellIndices, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*  scenarioData, ::System::Collections::Generic::List_1<int32_t>*  prunedIndexList)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "PruneCellIndexListForScenario",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndices, scenarioData, prunedIndexList);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::PruneCellIndexListForScenario(::System::Collections::Generic::List_1<int32_t>* cellIndices,
+                                                                                        ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* scenarioData,
+                                                                                        ::System::Collections::Generic::List_1<int32_t>* prunedIndexList) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "PruneCellIndexListForScenario", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndices, scenarioData, prunedIndexList);
 }
-inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::Rendering::ProbeVolumeBakingSet::GetSceneCellIndexList(::StringW  sceneGUID)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetSceneCellIndexList",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, sceneGUID);
+inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::Rendering::ProbeVolumeBakingSet::GetSceneCellIndexList(::StringW sceneGUID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetSceneCellIndexList",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, sceneGUID);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveAllCellData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveAllCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveAllCellData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
+                                                                             "ResolveAllCellData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellIndices);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolveCellData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellIndices);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>  bricksData, ::Unity::Collections::NativeArray_1<uint8_t>  cellSharedData, ::Unity::Collections::NativeArray_1<uint8_t>  cellSupportData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveSharedCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndices, bricksData, cellSharedData, cellSupportData);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices,
+                                                                                ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> bricksData,
+                                                                                ::Unity::Collections::NativeArray_1<uint8_t> cellSharedData,
+                                                                                ::Unity::Collections::NativeArray_1<uint8_t> cellSupportData) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolveSharedCellData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndices, bricksData, cellSharedData, cellSupportData);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolveSharedCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellIndices);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolveSharedCellData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellIndices);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolvePerScenarioCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellIndices);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolvePerScenarioCellData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellIndices);
 }
-inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData(::Unity::Collections::NativeArray_1<uint8_t>  cellData, ::Unity::Collections::NativeArray_1<uint8_t>  cellOptionalData, ::Unity::Collections::NativeArray_1<uint8_t>  cellProbeOcclusionData, ::StringW  scenario, ::System::Collections::Generic::List_1<int32_t>*  cellIndices)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ResolvePerScenarioCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellData, cellOptionalData, cellProbeOcclusionData, scenario, cellIndices);
+inline bool UnityEngine::Rendering::ProbeVolumeBakingSet::ResolvePerScenarioCellData(::Unity::Collections::NativeArray_1<uint8_t> cellData,
+                                                                                     ::Unity::Collections::NativeArray_1<uint8_t> cellOptionalData,
+                                                                                     ::Unity::Collections::NativeArray_1<uint8_t> cellProbeOcclusionData, ::StringW scenario,
+                                                                                     ::System::Collections::Generic::List_1<int32_t>* cellIndices) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ResolvePerScenarioCellData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cellData, cellOptionalData, cellProbeOcclusionData, scenario, cellIndices);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseCell(int32_t  cellIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "ReleaseCell",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndex);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::ReleaseCell(int32_t cellIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "ReleaseCell",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cellIndex);
 }
-inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellDesc(int32_t  cellIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetCellDesc",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*, false>(this, ___internal_method, cellIndex);
+inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellDesc(int32_t cellIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetCellDesc",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*, false>(this, ___internal_method, cellIndex);
 }
-inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellData(int32_t  cellIndex)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetCellData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*, false>(this, ___internal_method, cellIndex);
+inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* UnityEngine::Rendering::ProbeVolumeBakingSet::GetCellData(int32_t cellIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetCellData",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*, false>(this, ___internal_method, cellIndex);
 }
-inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetChunkGPUMemory(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        "GetChunkGPUMemory",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, shBands);
+inline int32_t UnityEngine::Rendering::ProbeVolumeBakingSet::GetChunkGPUMemory(::UnityEngine::Rendering::ProbeVolumeSHBands shBands) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), "GetChunkGPUMemory", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ProbeVolumeSHBands>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, shBands);
 }
-inline void UnityEngine::Rendering::ProbeVolumeBakingSet::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ProbeVolumeBakingSet::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeBakingSet*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::ProbeVolumeBakingSet* UnityEngine::Rendering::ProbeVolumeBakingSet::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::ProbeVolumeBakingSet*>());
+inline ::UnityEngine::Rendering::ProbeVolumeBakingSet* UnityEngine::Rendering::ProbeVolumeBakingSet::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::ProbeVolumeBakingSet*>());
 }
 /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-constexpr  UnityEngine::Rendering::ProbeVolumeBakingSet::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
-return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
+constexpr UnityEngine::Rendering::ProbeVolumeBakingSet::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
 constexpr ::UnityEngine::ISerializationCallbackReceiver* UnityEngine::Rendering::ProbeVolumeBakingSet::i___UnityEngine__ISerializationCallbackReceiver() noexcept {
-return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet::ProbeVolumeBakingSet()   {
-}
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet::ProbeVolumeBakingSet() {}

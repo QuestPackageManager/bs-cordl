@@ -23,58 +23,58 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlLinkedNode
 class CORDL_TYPE XmlLinkedNode : public ::System::Xml::XmlNode {
 public:
-// Declarations
- __declspec(property(get=get_NextSibling)) ::System::Xml::XmlNode*  NextSibling;
+  // Declarations
+  __declspec(property(get = get_NextSibling)) ::System::Xml::XmlNode* NextSibling;
 
- __declspec(property(get=get_PreviousSibling)) ::System::Xml::XmlNode*  PreviousSibling;
+  __declspec(property(get = get_PreviousSibling)) ::System::Xml::XmlNode* PreviousSibling;
 
-/// @brief Field next, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_next, put=__cordl_internal_set_next)) ::System::Xml::XmlLinkedNode*  next;
+  /// @brief Field next, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Xml::XmlLinkedNode* next;
 
-static inline ::System::Xml::XmlLinkedNode* New_ctor(::System::Xml::XmlDocument*  doc) ;
+  static inline ::System::Xml::XmlLinkedNode* New_ctor(::System::Xml::XmlDocument* doc);
 
-constexpr ::System::Xml::XmlLinkedNode* const& __cordl_internal_get_next() const;
+  constexpr ::System::Xml::XmlLinkedNode* const& __cordl_internal_get_next() const;
 
-constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_next() ;
+  constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_next();
 
-constexpr void __cordl_internal_set_next(::System::Xml::XmlLinkedNode*  value) ;
+  constexpr void __cordl_internal_set_next(::System::Xml::XmlLinkedNode* value);
 
-/// @brief Method .ctor, addr 0x6106240, size 0x18, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::XmlDocument*  doc) ;
+  /// @brief Method .ctor, addr 0x617824c, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::XmlDocument* doc);
 
-/// @brief Method get_NextSibling, addr 0x610e5ac, size 0x50, virtual true, abstract: false, final false
-inline ::System::Xml::XmlNode* get_NextSibling() ;
+  /// @brief Method get_NextSibling, addr 0x61805b8, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlNode* get_NextSibling();
 
-/// @brief Method get_PreviousSibling, addr 0x610e544, size 0x68, virtual true, abstract: false, final false
-inline ::System::Xml::XmlNode* get_PreviousSibling() ;
+  /// @brief Method get_PreviousSibling, addr 0x6180550, size 0x68, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlNode* get_PreviousSibling();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlLinkedNode() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlLinkedNode();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlLinkedNode", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlLinkedNode(XmlLinkedNode&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlLinkedNode", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlLinkedNode(XmlLinkedNode && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlLinkedNode", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlLinkedNode(XmlLinkedNode const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlLinkedNode", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlLinkedNode(XmlLinkedNode const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9381 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9375};
+  /// @brief Field next, offset: 0x18, size: 0x8, def value: None
+  ::System::Xml::XmlLinkedNode* ___next;
 
-/// @brief Field next, offset: 0x18, size: 0x8, def value: None
- ::System::Xml::XmlLinkedNode*  ___next;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlLinkedNode, ___next) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlLinkedNode, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlLinkedNode);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlLinkedNode*, "System.Xml", "XmlLinkedNode");

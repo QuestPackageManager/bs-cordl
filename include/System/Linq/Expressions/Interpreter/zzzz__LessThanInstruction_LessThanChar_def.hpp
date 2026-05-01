@@ -24,37 +24,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.LessThanInstruction/LessThanChar
 class CORDL_TYPE LessThanInstruction_LessThanChar : public ::System::Linq::Expressions::Interpreter::LessThanInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::LessThanInstruction_LessThanChar* New_ctor(::System::Object*  nullValue) ;
+  // Declarations
+  static inline ::GlobalNamespace::LessThanInstruction_LessThanChar* New_ctor(::System::Object* nullValue);
 
-/// @brief Method Run, addr 0x5debb44, size 0xa4, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e5db50, size 0xa4, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5deb9b4, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  nullValue) ;
+  /// @brief Method .ctor, addr 0x5e5d9c0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* nullValue);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LessThanInstruction_LessThanChar() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LessThanInstruction_LessThanChar();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanChar", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LessThanInstruction_LessThanChar(LessThanInstruction_LessThanChar&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanChar", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LessThanInstruction_LessThanChar(LessThanInstruction_LessThanChar && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanChar", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LessThanInstruction_LessThanChar(LessThanInstruction_LessThanChar const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanChar", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LessThanInstruction_LessThanChar(LessThanInstruction_LessThanChar const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16391 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16383};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LessThanInstruction_LessThanChar, 0x18>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LessThanInstruction_LessThanChar);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LessThanInstruction_LessThanChar*, "System.Linq.Expressions.Interpreter", "LessThanInstruction/LessThanChar");

@@ -13,8 +13,7 @@ namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace UnityEngine::Rendering {
-template<typename T>
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -32,93 +31,93 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.CommandBufferPool/<>c
 class CORDL_TYPE CommandBufferPool___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::CommandBufferPool___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::CommandBufferPool___c* __9;
 
-static inline ::UnityEngine::Rendering::CommandBufferPool___c* New_ctor() ;
+  static inline ::UnityEngine::Rendering::CommandBufferPool___c* New_ctor();
 
-/// @brief Method <.cctor>b__4_0, addr 0x659f648, size 0x18, virtual false, abstract: false, final false
-inline void __cctor_b__4_0(::UnityEngine::Rendering::CommandBuffer*  x) ;
+  /// @brief Method <.cctor>b__4_0, addr 0x6611654, size 0x18, virtual false, abstract: false, final false
+  inline void __cctor_b__4_0(::UnityEngine::Rendering::CommandBuffer* x);
 
-/// @brief Method .ctor, addr 0x659f644, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6611650, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::Rendering::CommandBufferPool___c* getStaticF___9() ;
+  static inline ::UnityEngine::Rendering::CommandBufferPool___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::Rendering::CommandBufferPool___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::Rendering::CommandBufferPool___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CommandBufferPool___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandBufferPool___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CommandBufferPool___c(CommandBufferPool___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CommandBufferPool___c(CommandBufferPool___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CommandBufferPool___c(CommandBufferPool___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CommandBufferPool___c(CommandBufferPool___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11865 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11858};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CommandBufferPool___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.CommandBufferPool
 class CORDL_TYPE CommandBufferPool : public ::System::Object {
 public:
-// Declarations
-using __c = ::UnityEngine::Rendering::CommandBufferPool___c;
+  // Declarations
+  using __c = ::UnityEngine::Rendering::CommandBufferPool___c;
 
-/// @brief Field s_BufferPool, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_BufferPool, put=setStaticF_s_BufferPool)) ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>*  s_BufferPool;
+  /// @brief Field s_BufferPool, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_BufferPool, put = setStaticF_s_BufferPool)) ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* s_BufferPool;
 
-/// @brief Method Get, addr 0x659f2f8, size 0xb4, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::CommandBuffer* Get() ;
+  /// @brief Method Get, addr 0x6611304, size 0xb4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::CommandBuffer* Get();
 
-/// @brief Method Get, addr 0x659f3ac, size 0xa0, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::CommandBuffer* Get(::StringW  name) ;
+  /// @brief Method Get, addr 0x66113b8, size 0xa0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::CommandBuffer* Get(::StringW name);
 
-/// @brief Method Release, addr 0x659f44c, size 0x88, virtual false, abstract: false, final false
-static inline void Release(::UnityEngine::Rendering::CommandBuffer*  buffer) ;
+  /// @brief Method Release, addr 0x6611458, size 0x88, virtual false, abstract: false, final false
+  static inline void Release(::UnityEngine::Rendering::CommandBuffer* buffer);
 
-static inline ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* getStaticF_s_BufferPool() ;
+  static inline ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* getStaticF_s_BufferPool();
 
-static inline void setStaticF_s_BufferPool(::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>*  value) ;
+  static inline void setStaticF_s_BufferPool(::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CommandBufferPool() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandBufferPool();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CommandBufferPool(CommandBufferPool&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CommandBufferPool(CommandBufferPool && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CommandBufferPool(CommandBufferPool const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CommandBufferPool(CommandBufferPool const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11859};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CommandBufferPool, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::CommandBufferPool);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CommandBufferPool*, "UnityEngine.Rendering", "CommandBufferPool");
 NEED_NO_BOX(::UnityEngine::Rendering::CommandBufferPool___c);

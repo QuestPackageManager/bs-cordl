@@ -20,36 +20,38 @@ namespace ENet {
 // CS Name: ENet.ENetEvent
 struct CORDL_TYPE ENetEvent {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr ENetEvent() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ENetEvent();
 
-// Ctor Parameters [CppParam { name: "type", ty: "::ENet::EventType", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "channelID", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "packet", ty: "::System::IntPtr", modifiers: "", def_value: None }]
-constexpr ENetEvent(::ENet::EventType  type, ::System::IntPtr  peer, uint8_t  channelID, uint32_t  data, ::System::IntPtr  packet) noexcept;
+  // Ctor Parameters [CppParam { name: "type", ty: "::ENet::EventType", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam {
+  // name: "channelID", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "packet", ty: "::System::IntPtr",
+  // modifiers: "", def_value: None }]
+  constexpr ENetEvent(::ENet::EventType type, ::System::IntPtr peer, uint8_t channelID, uint32_t data, ::System::IntPtr packet) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21530};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21541 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field type, offset: 0x0, size: 0x4, def value: None
- ::ENet::EventType  type;
+  /// @brief Field type, offset: 0x0, size: 0x4, def value: None
+  ::ENet::EventType type;
 
-/// @brief Field peer, offset: 0x8, size: 0x8, def value: None
- ::System::IntPtr  peer;
+  /// @brief Field peer, offset: 0x8, size: 0x8, def value: None
+  ::System::IntPtr peer;
 
-/// @brief Field channelID, offset: 0x10, size: 0x1, def value: None
- uint8_t  channelID;
+  /// @brief Field channelID, offset: 0x10, size: 0x1, def value: None
+  uint8_t channelID;
 
-/// @brief Field data, offset: 0x14, size: 0x4, def value: None
- uint32_t  data;
+  /// @brief Field data, offset: 0x14, size: 0x4, def value: None
+  uint32_t data;
 
-/// @brief Field packet, offset: 0x18, size: 0x8, def value: None
- ::System::IntPtr  packet;
+  /// @brief Field packet, offset: 0x18, size: 0x8, def value: None
+  ::System::IntPtr packet;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::ENet::ENetEvent, type) == 0x0, "Offset mismatch!");
@@ -64,5 +66,5 @@ static_assert(offsetof(::ENet::ENetEvent, packet) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::ENet::ENetEvent, 0x20>, "Size mismatch!");
 
-} // namespace end def ENet
+} // namespace ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::ENetEvent, "ENet", "ENetEvent");

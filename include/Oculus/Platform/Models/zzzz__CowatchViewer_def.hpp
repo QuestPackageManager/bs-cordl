@@ -22,54 +22,54 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.CowatchViewer
 class CORDL_TYPE CowatchViewer : public ::System::Object {
 public:
-// Declarations
-/// @brief Field Data, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_Data, put=__cordl_internal_set_Data)) ::StringW  Data;
+  // Declarations
+  /// @brief Field Data, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data)) ::StringW Data;
 
-/// @brief Field Id, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_Id, put=__cordl_internal_set_Id)) uint64_t  Id;
+  /// @brief Field Id, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) uint64_t Id;
 
-static inline ::Oculus::Platform::Models::CowatchViewer* New_ctor(::System::IntPtr  o) ;
+  static inline ::Oculus::Platform::Models::CowatchViewer* New_ctor(::System::IntPtr o);
 
-constexpr ::StringW const& __cordl_internal_get_Data() const;
+  constexpr ::StringW const& __cordl_internal_get_Data() const;
 
-constexpr ::StringW& __cordl_internal_get_Data() ;
+  constexpr ::StringW& __cordl_internal_get_Data();
 
-constexpr uint64_t const& __cordl_internal_get_Id() const;
+  constexpr uint64_t const& __cordl_internal_get_Id() const;
 
-constexpr uint64_t& __cordl_internal_get_Id() ;
+  constexpr uint64_t& __cordl_internal_get_Id();
 
-constexpr void __cordl_internal_set_Data(::StringW  value) ;
+  constexpr void __cordl_internal_set_Data(::StringW value);
 
-constexpr void __cordl_internal_set_Id(uint64_t  value) ;
+  constexpr void __cordl_internal_set_Id(uint64_t value);
 
-/// @brief Method .ctor, addr 0x5c412fc, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  o) ;
+  /// @brief Method .ctor, addr 0x5cb32e4, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CowatchViewer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CowatchViewer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CowatchViewer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CowatchViewer(CowatchViewer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CowatchViewer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CowatchViewer(CowatchViewer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CowatchViewer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CowatchViewer(CowatchViewer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CowatchViewer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CowatchViewer(CowatchViewer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18016 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18008};
+  /// @brief Field Data, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___Data;
 
-/// @brief Field Data, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___Data;
+  /// @brief Field Id, offset: 0x18, size: 0x8, def value: None
+  uint64_t ___Id;
 
-/// @brief Field Id, offset: 0x18, size: 0x8, def value: None
- uint64_t  ___Id;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::CowatchViewer, ___Data) == 0x10, "Offset mismatch!");
@@ -78,6 +78,6 @@ static_assert(offsetof(::Oculus::Platform::Models::CowatchViewer, ___Id) == 0x18
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::CowatchViewer, 0x20>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::CowatchViewer);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CowatchViewer*, "Oculus.Platform.Models", "CowatchViewer");

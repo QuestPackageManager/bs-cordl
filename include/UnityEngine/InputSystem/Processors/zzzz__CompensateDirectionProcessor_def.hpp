@@ -28,45 +28,45 @@ namespace UnityEngine::InputSystem::Processors {
 // CS Name: UnityEngine.InputSystem.Processors.CompensateDirectionProcessor
 class CORDL_TYPE CompensateDirectionProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
-// Declarations
- __declspec(property(get=get_cachingPolicy)) ::UnityEngine::InputSystem::InputProcessor_CachingPolicy  cachingPolicy;
+  // Declarations
+  __declspec(property(get = get_cachingPolicy)) ::UnityEngine::InputSystem::InputProcessor_CachingPolicy cachingPolicy;
 
-static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor() ;
+  static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor();
 
-/// @brief Method Process, addr 0x640823c, size 0x208, virtual true, abstract: false, final false
-inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3  value, ::UnityEngine::InputSystem::InputControl*  control) ;
+  /// @brief Method Process, addr 0x647a248, size 0x208, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-/// @brief Method ToString, addr 0x6408444, size 0x44, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x647a450, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x6408490, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x647a49c, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_cachingPolicy, addr 0x6408488, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy() ;
+  /// @brief Method get_cachingPolicy, addr 0x647a494, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CompensateDirectionProcessor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompensateDirectionProcessor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CompensateDirectionProcessor(CompensateDirectionProcessor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CompensateDirectionProcessor(CompensateDirectionProcessor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CompensateDirectionProcessor(CompensateDirectionProcessor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CompensateDirectionProcessor(CompensateDirectionProcessor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9064 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9058};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::Processors
+} // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor*, "UnityEngine.InputSystem.Processors", "CompensateDirectionProcessor");

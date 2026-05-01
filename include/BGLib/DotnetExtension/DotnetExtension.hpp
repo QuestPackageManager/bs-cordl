@@ -1,12 +1,11 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BGLib/DotnetExtension/EnvironmentVariableHelper.hpp"
 #include "BGLib/DotnetExtension/ExternalProcessHelper.hpp"
 #include "BGLib/DotnetExtension/IntegerExtensions.hpp"
 #ifdef __cpp_modules
-                    export module DotnetExtension;
-                    #endif
-                
+export module DotnetExtension;
+#endif

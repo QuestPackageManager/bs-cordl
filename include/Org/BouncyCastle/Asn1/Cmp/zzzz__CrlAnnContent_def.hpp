@@ -29,57 +29,57 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 // CS Name: Org.BouncyCastle.Asn1.Cmp.CrlAnnContent
 class CORDL_TYPE CrlAnnContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
-/// @brief Field content, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_content, put=__cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence*  content;
+  // Declarations
+  /// @brief Field content, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence* content;
 
-/// @brief Method GetInstance, addr 0x324dd5c, size 0x17c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x328a3a0, size 0x17c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  static inline ::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method ToAsn1Object, addr 0x324dfd4, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x328a618, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-/// @brief Method ToCertificateListArray, addr 0x324ded8, size 0xfc, virtual true, abstract: false, final false
-inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*,::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> ToCertificateListArray() ;
+  /// @brief Method ToCertificateListArray, addr 0x328a51c, size 0xfc, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> ToCertificateListArray();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_content() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_content() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_content() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_content();
 
-constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence*  value) ;
+  constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-/// @brief Method .ctor, addr 0x324dd54, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  /// @brief Method .ctor, addr 0x328a398, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CrlAnnContent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CrlAnnContent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CrlAnnContent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CrlAnnContent(CrlAnnContent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CrlAnnContent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CrlAnnContent(CrlAnnContent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CrlAnnContent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CrlAnnContent(CrlAnnContent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CrlAnnContent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CrlAnnContent(CrlAnnContent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21};
+  /// @brief Field content, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___content;
 
-/// @brief Field content, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1Sequence*  ___content;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent, ___content) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::Cmp
+} // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent*, "Org.BouncyCastle.Asn1.Cmp", "CrlAnnContent");

@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProcessPort)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,119 +22,119 @@ namespace GlobalNamespace {
 // CS Name: ProcessPort
 class CORDL_TYPE ProcessPort : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <portNumber>k__BackingField, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__portNumber_k__BackingField, put=__cordl_internal_set__portNumber_k__BackingField)) ::StringW  _portNumber_k__BackingField;
+  // Declarations
+  /// @brief Field <portNumber>k__BackingField, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__portNumber_k__BackingField, put = __cordl_internal_set__portNumber_k__BackingField)) ::StringW _portNumber_k__BackingField;
 
-/// @brief Field <processId>k__BackingField, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get__processId_k__BackingField, put=__cordl_internal_set__processId_k__BackingField)) int32_t  _processId_k__BackingField;
+  /// @brief Field <processId>k__BackingField, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__processId_k__BackingField, put = __cordl_internal_set__processId_k__BackingField)) int32_t _processId_k__BackingField;
 
-/// @brief Field <processName>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__processName_k__BackingField, put=__cordl_internal_set__processName_k__BackingField)) ::StringW  _processName_k__BackingField;
+  /// @brief Field <processName>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__processName_k__BackingField, put = __cordl_internal_set__processName_k__BackingField)) ::StringW _processName_k__BackingField;
 
-/// @brief Field <protocol>k__BackingField, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__protocol_k__BackingField, put=__cordl_internal_set__protocol_k__BackingField)) ::StringW  _protocol_k__BackingField;
+  /// @brief Field <protocol>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__protocol_k__BackingField, put = __cordl_internal_set__protocol_k__BackingField)) ::StringW _protocol_k__BackingField;
 
- __declspec(property(get=get_portNumber, put=set_portNumber)) ::StringW  portNumber;
+  __declspec(property(get = get_portNumber, put = set_portNumber)) ::StringW portNumber;
 
- __declspec(property(get=get_processId, put=set_processId)) int32_t  processId;
+  __declspec(property(get = get_processId, put = set_processId)) int32_t processId;
 
- __declspec(property(get=get_processName, put=set_processName)) ::StringW  processName;
+  __declspec(property(get = get_processName, put = set_processName)) ::StringW processName;
 
- __declspec(property(get=get_protocol, put=set_protocol)) ::StringW  protocol;
+  __declspec(property(get = get_protocol, put = set_protocol)) ::StringW protocol;
 
-/// @brief Method GetProcessesByPort, addr 0x5d421ac, size 0xb30, virtual false, abstract: false, final false
-static inline ::System::Collections::Generic::List_1<::GlobalNamespace::ProcessPort*>* GetProcessesByPort(::StringW  targetPort) ;
+  /// @brief Method GetProcessesByPort, addr 0x5db4194, size 0xb30, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::ProcessPort*>* GetProcessesByPort(::StringW targetPort);
 
-/// @brief Method LookupProcess, addr 0x5d420d4, size 0xd8, virtual false, abstract: false, final false
-static inline ::StringW LookupProcess(int32_t  pid) ;
+  /// @brief Method LookupProcess, addr 0x5db40bc, size 0xd8, virtual false, abstract: false, final false
+  static inline ::StringW LookupProcess(int32_t pid);
 
-static inline ::GlobalNamespace::ProcessPort* New_ctor() ;
+  static inline ::GlobalNamespace::ProcessPort* New_ctor();
 
-/// @brief Method ToString, addr 0x5d41f38, size 0x15c, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5db3f20, size 0x15c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::StringW const& __cordl_internal_get__portNumber_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__portNumber_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__portNumber_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__portNumber_k__BackingField();
 
-constexpr int32_t const& __cordl_internal_get__processId_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__processId_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__processId_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__processId_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__processName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__processName_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__processName_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__processName_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__protocol_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__protocol_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__protocol_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__protocol_k__BackingField();
 
-constexpr void __cordl_internal_set__portNumber_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__portNumber_k__BackingField(::StringW value);
 
-constexpr void __cordl_internal_set__processId_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__processId_k__BackingField(int32_t value);
 
-constexpr void __cordl_internal_set__processName_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__processName_k__BackingField(::StringW value);
 
-constexpr void __cordl_internal_set__protocol_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__protocol_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x5d42cdc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5db4cc4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_portNumber, addr 0x5d420b4, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_portNumber() ;
+  /// @brief Method get_portNumber, addr 0x5db409c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_portNumber();
 
-/// @brief Method get_processId, addr 0x5d420a4, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_processId() ;
+  /// @brief Method get_processId, addr 0x5db408c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_processId();
 
-/// @brief Method get_processName, addr 0x5d42094, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_processName() ;
+  /// @brief Method get_processName, addr 0x5db407c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_processName();
 
-/// @brief Method get_protocol, addr 0x5d420c4, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_protocol() ;
+  /// @brief Method get_protocol, addr 0x5db40ac, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_protocol();
 
-/// @brief Method set_portNumber, addr 0x5d420bc, size 0x8, virtual false, abstract: false, final false
-inline void set_portNumber(::StringW  value) ;
+  /// @brief Method set_portNumber, addr 0x5db40a4, size 0x8, virtual false, abstract: false, final false
+  inline void set_portNumber(::StringW value);
 
-/// @brief Method set_processId, addr 0x5d420ac, size 0x8, virtual false, abstract: false, final false
-inline void set_processId(int32_t  value) ;
+  /// @brief Method set_processId, addr 0x5db4094, size 0x8, virtual false, abstract: false, final false
+  inline void set_processId(int32_t value);
 
-/// @brief Method set_processName, addr 0x5d4209c, size 0x8, virtual false, abstract: false, final false
-inline void set_processName(::StringW  value) ;
+  /// @brief Method set_processName, addr 0x5db4084, size 0x8, virtual false, abstract: false, final false
+  inline void set_processName(::StringW value);
 
-/// @brief Method set_protocol, addr 0x5d420cc, size 0x8, virtual false, abstract: false, final false
-inline void set_protocol(::StringW  value) ;
+  /// @brief Method set_protocol, addr 0x5db40b4, size 0x8, virtual false, abstract: false, final false
+  inline void set_protocol(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProcessPort() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProcessPort();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProcessPort(ProcessPort&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProcessPort(ProcessPort && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProcessPort(ProcessPort const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProcessPort", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProcessPort(ProcessPort const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7814 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7808};
+  /// @brief Field <processName>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____processName_k__BackingField;
 
-/// @brief Field <processName>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____processName_k__BackingField;
+  /// @brief Field <processId>k__BackingField, offset: 0x18, size: 0x4, def value: None
+  int32_t ____processId_k__BackingField;
 
-/// @brief Field <processId>k__BackingField, offset: 0x18, size: 0x4, def value: None
- int32_t  ____processId_k__BackingField;
+  /// @brief Field <portNumber>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  ::StringW ____portNumber_k__BackingField;
 
-/// @brief Field <portNumber>k__BackingField, offset: 0x20, size: 0x8, def value: None
- ::StringW  ____portNumber_k__BackingField;
+  /// @brief Field <protocol>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::StringW ____protocol_k__BackingField;
 
-/// @brief Field <protocol>k__BackingField, offset: 0x28, size: 0x8, def value: None
- ::StringW  ____protocol_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ProcessPort, ____processName_k__BackingField) == 0x10, "Offset mismatch!");
@@ -148,6 +147,6 @@ static_assert(offsetof(::GlobalNamespace::ProcessPort, ____protocol_k__BackingFi
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ProcessPort, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ProcessPort);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ProcessPort*, "", "ProcessPort");

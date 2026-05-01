@@ -27,81 +27,81 @@ namespace LiteNetLib {
 // CS Name: LiteNetLib.NetPacketPool
 class CORDL_TYPE NetPacketPool : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _count, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__count, put=__cordl_internal_set__count)) int32_t  _count;
+  // Declarations
+  /// @brief Field _count, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
-/// @brief Field _lock, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__lock, put=__cordl_internal_set__lock)) ::System::Threading::ReaderWriterLockSlim*  _lock;
+  /// @brief Field _lock, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Threading::ReaderWriterLockSlim* _lock;
 
-/// @brief Field _pool, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__pool, put=__cordl_internal_set__pool)) ::ArrayW<::LiteNetLib::NetPacket*,::Array<::LiteNetLib::NetPacket*>*>  _pool;
+  /// @brief Field _pool, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool)) ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _pool;
 
-/// @brief Method GetPacket, addr 0x56eb52c, size 0x174, virtual false, abstract: false, final false
-inline ::LiteNetLib::NetPacket* GetPacket(int32_t  size) ;
+  /// @brief Method GetPacket, addr 0x5759418, size 0x174, virtual false, abstract: false, final false
+  inline ::LiteNetLib::NetPacket* GetPacket(int32_t size);
 
-/// @brief Method GetWithData, addr 0x56ef0c8, size 0xc0, virtual false, abstract: false, final false
-inline ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty  property, ::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  start, int32_t  length) ;
+  /// @brief Method GetWithData, addr 0x575cfb4, size 0xc0, virtual false, abstract: false, final false
+  inline ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
 
-/// @brief Method GetWithProperty, addr 0x56ed89c, size 0x8c, virtual false, abstract: false, final false
-inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty  property) ;
+  /// @brief Method GetWithProperty, addr 0x575b788, size 0x8c, virtual false, abstract: false, final false
+  inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
 
-/// @brief Method GetWithProperty, addr 0x56ecd40, size 0x90, virtual false, abstract: false, final false
-inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty  property, int32_t  size) ;
+  /// @brief Method GetWithProperty, addr 0x575ac2c, size 0x90, virtual false, abstract: false, final false
+  inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int32_t size);
 
-static inline ::LiteNetLib::NetPacketPool* New_ctor() ;
+  static inline ::LiteNetLib::NetPacketPool* New_ctor();
 
-/// @brief Method Recycle, addr 0x56ea084, size 0x128, virtual false, abstract: false, final false
-inline void Recycle(::LiteNetLib::NetPacket*  packet) ;
+  /// @brief Method Recycle, addr 0x5757f70, size 0x128, virtual false, abstract: false, final false
+  inline void Recycle(::LiteNetLib::NetPacket* packet);
 
-constexpr int32_t const& __cordl_internal_get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-constexpr int32_t& __cordl_internal_get__count() ;
+  constexpr int32_t& __cordl_internal_get__count();
 
-constexpr ::System::Threading::ReaderWriterLockSlim* const& __cordl_internal_get__lock() const;
+  constexpr ::System::Threading::ReaderWriterLockSlim* const& __cordl_internal_get__lock() const;
 
-constexpr ::System::Threading::ReaderWriterLockSlim*& __cordl_internal_get__lock() ;
+  constexpr ::System::Threading::ReaderWriterLockSlim*& __cordl_internal_get__lock();
 
-constexpr ::ArrayW<::LiteNetLib::NetPacket*,::Array<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get__pool() const;
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get__pool() const;
 
-constexpr ::ArrayW<::LiteNetLib::NetPacket*,::Array<::LiteNetLib::NetPacket*>*>& __cordl_internal_get__pool() ;
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& __cordl_internal_get__pool();
 
-constexpr void __cordl_internal_set__count(int32_t  value) ;
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-constexpr void __cordl_internal_set__lock(::System::Threading::ReaderWriterLockSlim*  value) ;
+  constexpr void __cordl_internal_set__lock(::System::Threading::ReaderWriterLockSlim* value);
 
-constexpr void __cordl_internal_set__pool(::ArrayW<::LiteNetLib::NetPacket*,::Array<::LiteNetLib::NetPacket*>*>  value) ;
+  constexpr void __cordl_internal_set__pool(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
 
-/// @brief Method .ctor, addr 0x56eadd8, size 0x8c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5758cc4, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NetPacketPool() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetPacketPool();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketPool", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NetPacketPool(NetPacketPool&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetPacketPool", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NetPacketPool(NetPacketPool && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketPool", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NetPacketPool(NetPacketPool const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetPacketPool", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NetPacketPool(NetPacketPool const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19854 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19844};
+  /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> ____pool;
 
-/// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<::LiteNetLib::NetPacket*,::Array<::LiteNetLib::NetPacket*>*>  ____pool;
+  /// @brief Field _lock, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::ReaderWriterLockSlim* ____lock;
 
-/// @brief Field _lock, offset: 0x18, size: 0x8, def value: None
- ::System::Threading::ReaderWriterLockSlim*  ____lock;
+  /// @brief Field _count, offset: 0x20, size: 0x4, def value: None
+  int32_t ____count;
 
-/// @brief Field _count, offset: 0x20, size: 0x4, def value: None
- int32_t  ____count;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::LiteNetLib::NetPacketPool, ____pool) == 0x10, "Offset mismatch!");
@@ -112,6 +112,6 @@ static_assert(offsetof(::LiteNetLib::NetPacketPool, ____count) == 0x20, "Offset 
 
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetPacketPool, 0x28>, "Size mismatch!");
 
-} // namespace end def LiteNetLib
+} // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetPacketPool);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool");

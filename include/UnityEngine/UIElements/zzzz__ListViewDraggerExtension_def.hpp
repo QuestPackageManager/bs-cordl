@@ -24,35 +24,35 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ListViewDraggerExtension
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetRecycledItemFromId, addr 0x6bc4928, size 0x2fc, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView, int32_t  id) ;
+  // Declarations
+  /// @brief Method GetRecycledItemFromId, addr 0x6c36b70, size 0x2fc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t id);
 
-/// @brief Method GetRecycledItemFromIndex, addr 0x6bc4c24, size 0x2fc, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView, int32_t  index) ;
+  /// @brief Method GetRecycledItemFromIndex, addr 0x6c36e6c, size 0x2fc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ListViewDraggerExtension() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListViewDraggerExtension();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ListViewDraggerExtension(ListViewDraggerExtension&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ListViewDraggerExtension(ListViewDraggerExtension && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ListViewDraggerExtension(ListViewDraggerExtension const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ListViewDraggerExtension(ListViewDraggerExtension const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4408 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4408};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListViewDraggerExtension, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ListViewDraggerExtension);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListViewDraggerExtension*, "UnityEngine.UIElements", "ListViewDraggerExtension");

@@ -18,53 +18,53 @@ namespace GlobalNamespace {
 // CS Name: MissionHelpSO
 class CORDL_TYPE MissionHelpSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-// Declarations
-/// @brief Field _missionHelpId, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__missionHelpId, put=__cordl_internal_set__missionHelpId)) ::StringW  _missionHelpId;
+  // Declarations
+  /// @brief Field _missionHelpId, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionHelpId, put = __cordl_internal_set__missionHelpId)) ::StringW _missionHelpId;
 
- __declspec(property(get=get_missionHelpId)) ::StringW  missionHelpId;
+  __declspec(property(get = get_missionHelpId)) ::StringW missionHelpId;
 
-static inline ::GlobalNamespace::MissionHelpSO* New_ctor() ;
+  static inline ::GlobalNamespace::MissionHelpSO* New_ctor();
 
-constexpr ::StringW const& __cordl_internal_get__missionHelpId() const;
+  constexpr ::StringW const& __cordl_internal_get__missionHelpId() const;
 
-constexpr ::StringW& __cordl_internal_get__missionHelpId() ;
+  constexpr ::StringW& __cordl_internal_get__missionHelpId();
 
-constexpr void __cordl_internal_set__missionHelpId(::StringW  value) ;
+  constexpr void __cordl_internal_set__missionHelpId(::StringW value);
 
-/// @brief Method .ctor, addr 0x36337d8, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36701c4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_missionHelpId, addr 0x36337d0, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_missionHelpId() ;
+  /// @brief Method get_missionHelpId, addr 0x36701bc, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_missionHelpId();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissionHelpSO() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionHelpSO();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpSO", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissionHelpSO(MissionHelpSO&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionHelpSO", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissionHelpSO(MissionHelpSO && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissionHelpSO", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissionHelpSO(MissionHelpSO const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionHelpSO", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissionHelpSO(MissionHelpSO const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15043 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15036};
+  /// @brief Field _missionHelpId, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____missionHelpId;
 
-/// @brief Field _missionHelpId, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____missionHelpId;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionHelpSO, ____missionHelpId) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionHelpSO, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionHelpSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionHelpSO*, "", "MissionHelpSO");

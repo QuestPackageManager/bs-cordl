@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/XR/OpenXR/Constants.hpp"
 #include "UnityEngine/XR/OpenXR/DiagnosticReport.hpp"
@@ -15,6 +15,5 @@
 #include "UnityEngine/XR/OpenXR/OpenXRUtility.hpp"
 #include "UnityEngine/XR/OpenXR/WaitForRestartFinish.hpp"
 #ifdef __cpp_modules
-                    export module OpenXR;
-                    #endif
-                
+export module OpenXR;
+#endif

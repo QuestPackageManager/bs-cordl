@@ -22,81 +22,81 @@ namespace System::Security::Cryptography {
 // CS Name: System.Security.Cryptography.Utils
 class CORDL_TYPE Utils : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _rng, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__rng, put=setStaticF__rng)) ::System::Security::Cryptography::RNGCryptoServiceProvider*  _rng;
+  // Declarations
+  /// @brief Field _rng, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__rng, put = setStaticF__rng)) ::System::Security::Cryptography::RNGCryptoServiceProvider* _rng;
 
-/// @brief Method ConvertByteArrayToInt, addr 0x5958dbc, size 0x5c, virtual false, abstract: false, final false
-static inline int32_t ConvertByteArrayToInt(::ArrayW<uint8_t,::Array<uint8_t>*>  input) ;
+  /// @brief Method ConvertByteArrayToInt, addr 0x59cad28, size 0x5c, virtual false, abstract: false, final false
+  static inline int32_t ConvertByteArrayToInt(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-/// @brief Method ConvertIntToByteArray, addr 0x5958e18, size 0x128, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ConvertIntToByteArray(int32_t  dwInput) ;
+  /// @brief Method ConvertIntToByteArray, addr 0x59cad84, size 0x128, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertIntToByteArray(int32_t dwInput);
 
-/// @brief Method DWORDFromBigEndian, addr 0x595457c, size 0x50, virtual false, abstract: false, final false
-static inline void DWORDFromBigEndian(uint32_t*  x, int32_t  digits, uint8_t*  block) ;
+  /// @brief Method DWORDFromBigEndian, addr 0x59c64e8, size 0x50, virtual false, abstract: false, final false
+  static inline void DWORDFromBigEndian(uint32_t* x, int32_t digits, uint8_t* block);
 
-/// @brief Method DWORDFromLittleEndian, addr 0x5958f40, size 0x4c, virtual false, abstract: false, final false
-static inline void DWORDFromLittleEndian(uint32_t*  x, int32_t  digits, uint8_t*  block) ;
+  /// @brief Method DWORDFromLittleEndian, addr 0x59caeac, size 0x4c, virtual false, abstract: false, final false
+  static inline void DWORDFromLittleEndian(uint32_t* x, int32_t digits, uint8_t* block);
 
-/// @brief Method DWORDToBigEndian, addr 0x595448c, size 0xf0, virtual false, abstract: false, final false
-static inline void DWORDToBigEndian(::ArrayW<uint8_t,::Array<uint8_t>*>  block, ::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  digits) ;
+  /// @brief Method DWORDToBigEndian, addr 0x59c63f8, size 0xf0, virtual false, abstract: false, final false
+  static inline void DWORDToBigEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t digits);
 
-/// @brief Method DWORDToLittleEndian, addr 0x5958f8c, size 0xf0, virtual false, abstract: false, final false
-static inline void DWORDToLittleEndian(::ArrayW<uint8_t,::Array<uint8_t>*>  block, ::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  digits) ;
+  /// @brief Method DWORDToLittleEndian, addr 0x59caef8, size 0xf0, virtual false, abstract: false, final false
+  static inline void DWORDToLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t digits);
 
-/// @brief Method DiscardWhiteSpaces, addr 0x5952d3c, size 0x18, virtual false, abstract: false, final false
-static inline ::StringW DiscardWhiteSpaces(::StringW  inputBuffer) ;
+  /// @brief Method DiscardWhiteSpaces, addr 0x59c4ca8, size 0x18, virtual false, abstract: false, final false
+  static inline ::StringW DiscardWhiteSpaces(::StringW inputBuffer);
 
-/// @brief Method DiscardWhiteSpaces, addr 0x5958c3c, size 0x180, virtual false, abstract: false, final false
-static inline ::StringW DiscardWhiteSpaces(::StringW  inputBuffer, int32_t  inputOffset, int32_t  inputCount) ;
+  /// @brief Method DiscardWhiteSpaces, addr 0x59caba8, size 0x180, virtual false, abstract: false, final false
+  static inline ::StringW DiscardWhiteSpaces(::StringW inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-/// @brief Method FixupKeyParity, addr 0x595846c, size 0xd0, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> FixupKeyParity(::ArrayW<uint8_t,::Array<uint8_t>*>  key) ;
+  /// @brief Method FixupKeyParity, addr 0x59ca3d8, size 0xd0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FixupKeyParity(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-/// @brief Method GenerateRandom, addr 0x5958bc8, size 0x74, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateRandom(int32_t  keySize) ;
+  /// @brief Method GenerateRandom, addr 0x59cab34, size 0x74, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateRandom(int32_t keySize);
 
-/// @brief Method HasAlgorithm, addr 0x59587c8, size 0x8, virtual false, abstract: false, final false
-static inline bool HasAlgorithm(int32_t  dwCalg, int32_t  dwKeySize) ;
+  /// @brief Method HasAlgorithm, addr 0x59ca734, size 0x8, virtual false, abstract: false, final false
+  static inline bool HasAlgorithm(int32_t dwCalg, int32_t dwKeySize);
 
-/// @brief Method QuadWordFromBigEndian, addr 0x59560b8, size 0x80, virtual false, abstract: false, final false
-static inline void QuadWordFromBigEndian(uint64_t*  x, int32_t  digits, uint8_t*  block) ;
+  /// @brief Method QuadWordFromBigEndian, addr 0x59c8024, size 0x80, virtual false, abstract: false, final false
+  static inline void QuadWordFromBigEndian(uint64_t* x, int32_t digits, uint8_t* block);
 
-/// @brief Method QuadWordToBigEndian, addr 0x5955f00, size 0x1b8, virtual false, abstract: false, final false
-static inline void QuadWordToBigEndian(::ArrayW<uint8_t,::Array<uint8_t>*>  block, ::ArrayW<uint64_t,::Array<uint64_t>*>  x, int32_t  digits) ;
+  /// @brief Method QuadWordToBigEndian, addr 0x59c7e6c, size 0x1b8, virtual false, abstract: false, final false
+  static inline void QuadWordToBigEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> x, int32_t digits);
 
-/// @brief Method _ProduceLegacyHmacValues, addr 0x595907c, size 0x8, virtual false, abstract: false, final false
-static inline bool _ProduceLegacyHmacValues() ;
+  /// @brief Method _ProduceLegacyHmacValues, addr 0x59cafe8, size 0x8, virtual false, abstract: false, final false
+  static inline bool _ProduceLegacyHmacValues();
 
-static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* getStaticF__rng() ;
+  static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* getStaticF__rng();
 
-/// @brief Method get_StaticRandomNumberGenerator, addr 0x5958abc, size 0xa0, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* get_StaticRandomNumberGenerator() ;
+  /// @brief Method get_StaticRandomNumberGenerator, addr 0x59caa28, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* get_StaticRandomNumberGenerator();
 
-static inline void setStaticF__rng(::System::Security::Cryptography::RNGCryptoServiceProvider*  value) ;
+  static inline void setStaticF__rng(::System::Security::Cryptography::RNGCryptoServiceProvider* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Utils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Utils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Utils(Utils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Utils(Utils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Utils(Utils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Utils(Utils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2992 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2992};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::Utils, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Security::Cryptography
+} // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::Utils);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::Utils*, "System.Security.Cryptography", "Utils");

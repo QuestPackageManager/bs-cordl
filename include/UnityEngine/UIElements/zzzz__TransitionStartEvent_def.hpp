@@ -25,82 +25,82 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.TransitionStartEvent/<>c
 class CORDL_TYPE TransitionStartEvent___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::TransitionStartEvent___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::TransitionStartEvent___c* __9;
 
-static inline ::UnityEngine::UIElements::TransitionStartEvent___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::TransitionStartEvent___c* New_ctor();
 
-/// @brief Method <.cctor>b__0_0, addr 0x6bdbbf4, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::TransitionStartEvent* __cctor_b__0_0() ;
+  /// @brief Method <.cctor>b__0_0, addr 0x6c4de3c, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::TransitionStartEvent* __cctor_b__0_0();
 
-/// @brief Method .ctor, addr 0x6bdbbf0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c4de38, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::TransitionStartEvent___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::TransitionStartEvent___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::TransitionStartEvent___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::TransitionStartEvent___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TransitionStartEvent___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TransitionStartEvent___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TransitionStartEvent___c(TransitionStartEvent___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TransitionStartEvent___c(TransitionStartEvent___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TransitionStartEvent___c(TransitionStartEvent___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TransitionStartEvent___c(TransitionStartEvent___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4569 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4569};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionStartEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TransitionEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.TransitionStartEvent
 class CORDL_TYPE TransitionStartEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionStartEvent*> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::TransitionStartEvent___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::TransitionStartEvent___c;
 
-static inline ::UnityEngine::UIElements::TransitionStartEvent* New_ctor() ;
+  static inline ::UnityEngine::UIElements::TransitionStartEvent* New_ctor();
 
-/// @brief Method .ctor, addr 0x6bdbb50, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c4dd98, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TransitionStartEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TransitionStartEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TransitionStartEvent(TransitionStartEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TransitionStartEvent(TransitionStartEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TransitionStartEvent(TransitionStartEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TransitionStartEvent(TransitionStartEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4570 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4570};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionStartEvent, 0x78>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TransitionStartEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransitionStartEvent*, "UnityEngine.UIElements", "TransitionStartEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::TransitionStartEvent___c);

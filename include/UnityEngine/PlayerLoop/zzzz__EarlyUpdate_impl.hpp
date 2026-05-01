@@ -3,107 +3,72 @@
 #include "UnityEngine/PlayerLoop/zzzz__EarlyUpdate_def.hpp"
 #include "UnityEngine/PlayerLoop/zzzz__EarlyUpdate_def.hpp"
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PollPlayerConnection::EarlyUpdate_PollPlayerConnection()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PollPlayerConnection::EarlyUpdate_PollPlayerConnection() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PollHtcsPlayerConnection::EarlyUpdate_PollHtcsPlayerConnection()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PollHtcsPlayerConnection::EarlyUpdate_PollHtcsPlayerConnection() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_GpuTimestamp::EarlyUpdate_GpuTimestamp()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_GpuTimestamp::EarlyUpdate_GpuTimestamp() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_AnalyticsCoreStatsUpdate::EarlyUpdate_AnalyticsCoreStatsUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_AnalyticsCoreStatsUpdate::EarlyUpdate_AnalyticsCoreStatsUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UnityWebRequestUpdate::EarlyUpdate_UnityWebRequestUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UnityWebRequestUpdate::EarlyUpdate_UnityWebRequestUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateStreamingManager::EarlyUpdate_UpdateStreamingManager()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateStreamingManager::EarlyUpdate_UpdateStreamingManager() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ExecuteMainThreadJobs::EarlyUpdate_ExecuteMainThreadJobs()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ExecuteMainThreadJobs::EarlyUpdate_ExecuteMainThreadJobs() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ProcessMouseInWindow::EarlyUpdate_ProcessMouseInWindow()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ProcessMouseInWindow::EarlyUpdate_ProcessMouseInWindow() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ClearIntermediateRenderers::EarlyUpdate_ClearIntermediateRenderers()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ClearIntermediateRenderers::EarlyUpdate_ClearIntermediateRenderers() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ClearLines::EarlyUpdate_ClearLines()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ClearLines::EarlyUpdate_ClearLines() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PresentBeforeUpdate::EarlyUpdate_PresentBeforeUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PresentBeforeUpdate::EarlyUpdate_PresentBeforeUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ResetFrameStatsAfterPresent::EarlyUpdate_ResetFrameStatsAfterPresent()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ResetFrameStatsAfterPresent::EarlyUpdate_ResetFrameStatsAfterPresent() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateAsyncReadbackManager::EarlyUpdate_UpdateAsyncReadbackManager()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateAsyncReadbackManager::EarlyUpdate_UpdateAsyncReadbackManager() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateTextureStreamingManager::EarlyUpdate_UpdateTextureStreamingManager()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateTextureStreamingManager::EarlyUpdate_UpdateTextureStreamingManager() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdatePreloading::EarlyUpdate_UpdatePreloading()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdatePreloading::EarlyUpdate_UpdatePreloading() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateContentLoading::EarlyUpdate_UpdateContentLoading()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateContentLoading::EarlyUpdate_UpdateContentLoading() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateAsyncInstantiate::EarlyUpdate_UpdateAsyncInstantiate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateAsyncInstantiate::EarlyUpdate_UpdateAsyncInstantiate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_RendererNotifyInvisible::EarlyUpdate_RendererNotifyInvisible()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_RendererNotifyInvisible::EarlyUpdate_RendererNotifyInvisible() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PlayerCleanupCachedData::EarlyUpdate_PlayerCleanupCachedData()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PlayerCleanupCachedData::EarlyUpdate_PlayerCleanupCachedData() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateMainGameViewRect::EarlyUpdate_UpdateMainGameViewRect()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateMainGameViewRect::EarlyUpdate_UpdateMainGameViewRect() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateCanvasRectTransform::EarlyUpdate_UpdateCanvasRectTransform()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateCanvasRectTransform::EarlyUpdate_UpdateCanvasRectTransform() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateInputManager::EarlyUpdate_UpdateInputManager()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateInputManager::EarlyUpdate_UpdateInputManager() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ProcessRemoteInput::EarlyUpdate_ProcessRemoteInput()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ProcessRemoteInput::EarlyUpdate_ProcessRemoteInput() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_XRUpdate::EarlyUpdate_XRUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_XRUpdate::EarlyUpdate_XRUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ScriptRunDelayedStartupFrame::EarlyUpdate_ScriptRunDelayedStartupFrame()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ScriptRunDelayedStartupFrame::EarlyUpdate_ScriptRunDelayedStartupFrame() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateKinect::EarlyUpdate_UpdateKinect()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_UpdateKinect::EarlyUpdate_UpdateKinect() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_DeliverIosPlatformEvents::EarlyUpdate_DeliverIosPlatformEvents()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_DeliverIosPlatformEvents::EarlyUpdate_DeliverIosPlatformEvents() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_DispatchEventQueueEvents::EarlyUpdate_DispatchEventQueueEvents()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_DispatchEventQueueEvents::EarlyUpdate_DispatchEventQueueEvents() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_Physics2DEarlyUpdate::EarlyUpdate_Physics2DEarlyUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_Physics2DEarlyUpdate::EarlyUpdate_Physics2DEarlyUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PhysicsResetInterpolatedTransformPosition::EarlyUpdate_PhysicsResetInterpolatedTransformPosition()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PhysicsResetInterpolatedTransformPosition::EarlyUpdate_PhysicsResetInterpolatedTransformPosition() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_SpriteAtlasManagerUpdate::EarlyUpdate_SpriteAtlasManagerUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_SpriteAtlasManagerUpdate::EarlyUpdate_SpriteAtlasManagerUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_TangoUpdate::EarlyUpdate_TangoUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_TangoUpdate::EarlyUpdate_TangoUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ARCoreUpdate::EarlyUpdate_ARCoreUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_ARCoreUpdate::EarlyUpdate_ARCoreUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PerformanceAnalyticsUpdate::EarlyUpdate_PerformanceAnalyticsUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate_PerformanceAnalyticsUpdate::EarlyUpdate_PerformanceAnalyticsUpdate() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::EarlyUpdate::EarlyUpdate()   {
-}
+constexpr ::UnityEngine::PlayerLoop::EarlyUpdate::EarlyUpdate() {}

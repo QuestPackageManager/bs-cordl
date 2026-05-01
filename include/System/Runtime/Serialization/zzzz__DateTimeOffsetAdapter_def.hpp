@@ -29,49 +29,49 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.DateTimeOffsetAdapter
 struct CORDL_TYPE DateTimeOffsetAdapter {
 public:
-// Declarations
- __declspec(property(get=get_OffsetMinutes)) int16_t  OffsetMinutes;
+  // Declarations
+  __declspec(property(get = get_OffsetMinutes)) int16_t OffsetMinutes;
 
- __declspec(property(get=get_UtcDateTime)) ::System::DateTime  UtcDateTime;
+  __declspec(property(get = get_UtcDateTime)) ::System::DateTime UtcDateTime;
 
-/// @brief Method GetDateTimeOffset, addr 0x5f98b5c, size 0x210, virtual false, abstract: false, final false
-static inline ::System::DateTimeOffset GetDateTimeOffset(::System::Runtime::Serialization::DateTimeOffsetAdapter  value) ;
+  /// @brief Method GetDateTimeOffset, addr 0x600ab68, size 0x210, virtual false, abstract: false, final false
+  static inline ::System::DateTimeOffset GetDateTimeOffset(::System::Runtime::Serialization::DateTimeOffsetAdapter value);
 
-/// @brief Method GetDateTimeOffsetAdapter, addr 0x5f98e3c, size 0xe0, virtual false, abstract: false, final false
-static inline ::System::Runtime::Serialization::DateTimeOffsetAdapter GetDateTimeOffsetAdapter(::System::DateTimeOffset  value) ;
+  /// @brief Method GetDateTimeOffsetAdapter, addr 0x600ae48, size 0xe0, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Serialization::DateTimeOffsetAdapter GetDateTimeOffsetAdapter(::System::DateTimeOffset value);
 
-/// @brief Method ToString, addr 0x5f98d6c, size 0xd0, virtual false, abstract: false, final false
-inline ::StringW ToString(::System::IFormatProvider*  provider) ;
+  /// @brief Method ToString, addr 0x600ad78, size 0xd0, virtual false, abstract: false, final false
+  inline ::StringW ToString(::System::IFormatProvider* provider);
 
-/// @brief Method .ctor, addr 0x5f98b40, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::System::DateTime  dateTime, int16_t  offsetMinutes) ;
+  /// @brief Method .ctor, addr 0x600ab4c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::DateTime dateTime, int16_t offsetMinutes);
 
-/// @brief Method get_OffsetMinutes, addr 0x5f98b54, size 0x8, virtual false, abstract: false, final false
-inline int16_t get_OffsetMinutes() ;
+  /// @brief Method get_OffsetMinutes, addr 0x600ab60, size 0x8, virtual false, abstract: false, final false
+  inline int16_t get_OffsetMinutes();
 
-/// @brief Method get_UtcDateTime, addr 0x5f98b4c, size 0x8, virtual false, abstract: false, final false
-inline ::System::DateTime get_UtcDateTime() ;
+  /// @brief Method get_UtcDateTime, addr 0x600ab58, size 0x8, virtual false, abstract: false, final false
+  inline ::System::DateTime get_UtcDateTime();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr DateTimeOffsetAdapter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeOffsetAdapter();
 
-// Ctor Parameters [CppParam { name: "utcDateTime", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "offsetMinutes", ty: "int16_t", modifiers: "", def_value: None }]
-constexpr DateTimeOffsetAdapter(::System::DateTime  utcDateTime, int16_t  offsetMinutes) noexcept;
+  // Ctor Parameters [CppParam { name: "utcDateTime", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "offsetMinutes", ty: "int16_t", modifiers: "", def_value: None }]
+  constexpr DateTimeOffsetAdapter(::System::DateTime utcDateTime, int16_t offsetMinutes) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17000};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17008 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field utcDateTime, offset: 0x0, size: 0x8, def value: None
- ::System::DateTime  utcDateTime;
+  /// @brief Field utcDateTime, offset: 0x0, size: 0x8, def value: None
+  ::System::DateTime utcDateTime;
 
-/// @brief Field offsetMinutes, offset: 0x8, size: 0x2, def value: None
- int16_t  offsetMinutes;
+  /// @brief Field offsetMinutes, offset: 0x8, size: 0x2, def value: None
+  int16_t offsetMinutes;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::DateTimeOffsetAdapter, utcDateTime) == 0x0, "Offset mismatch!");
@@ -80,5 +80,5 @@ static_assert(offsetof(::System::Runtime::Serialization::DateTimeOffsetAdapter, 
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DateTimeOffsetAdapter, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::DateTimeOffsetAdapter, "System.Runtime.Serialization", "DateTimeOffsetAdapter");

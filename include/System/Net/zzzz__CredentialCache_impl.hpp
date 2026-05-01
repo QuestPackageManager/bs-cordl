@@ -5,57 +5,40 @@
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
 //  Writing Method size for method: ::System::Net::CredentialCache.get_DefaultCredentials
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICredentials* (*)()>(&::System::Net::CredentialCache::get_DefaultCredentials)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6256530;
+  constexpr static std::size_t addrs = 0x62c853c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(),
-                        "get_DefaultCredentials",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(), "get_DefaultCredentials",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::CredentialCache.get_DefaultNetworkCredentials
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkCredential* (*)()>(&::System::Net::CredentialCache::get_DefaultNetworkCredentials)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x625658c;
+  constexpr static std::size_t addrs = 0x62c8598;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(),
-                        "get_DefaultNetworkCredentials",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(),
+                                                                               "get_DefaultNetworkCredentials", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::System::Net::ICredentials* System::Net::CredentialCache::get_DefaultCredentials()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(),
-                        "get_DefaultCredentials",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::ICredentials*, false>(nullptr, ___internal_method);
+inline ::System::Net::ICredentials* System::Net::CredentialCache::get_DefaultCredentials() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(), "get_DefaultCredentials",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::ICredentials*, false>(nullptr, ___internal_method);
 }
-inline ::System::Net::NetworkCredential* System::Net::CredentialCache::get_DefaultNetworkCredentials()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(),
-                        "get_DefaultNetworkCredentials",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkCredential*, false>(nullptr, ___internal_method);
+inline ::System::Net::NetworkCredential* System::Net::CredentialCache::get_DefaultNetworkCredentials() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CredentialCache*>::get(),
+                                                                             "get_DefaultNetworkCredentials", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkCredential*, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Net::CredentialCache::CredentialCache()   {
-}
+constexpr ::System::Net::CredentialCache::CredentialCache() {}

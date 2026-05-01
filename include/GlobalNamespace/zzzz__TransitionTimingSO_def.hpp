@@ -22,64 +22,64 @@ namespace GlobalNamespace {
 // CS Name: TransitionTimingSO
 class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-// Declarations
-/// @brief Field _easeDuration, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get__easeDuration, put=__cordl_internal_set__easeDuration)) float_t  _easeDuration;
+  // Declarations
+  /// @brief Field _easeDuration, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__easeDuration, put = __cordl_internal_set__easeDuration)) float_t _easeDuration;
 
-/// @brief Field _easeType, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get__easeType, put=__cordl_internal_set__easeType)) ::GlobalNamespace::EaseType  _easeType;
+  /// @brief Field _easeType, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType)) ::GlobalNamespace::EaseType _easeType;
 
- __declspec(property(get=get_easeDuration)) float_t  easeDuration;
+  __declspec(property(get = get_easeDuration)) float_t easeDuration;
 
- __declspec(property(get=get_easeType)) ::GlobalNamespace::EaseType  easeType;
+  __declspec(property(get = get_easeType)) ::GlobalNamespace::EaseType easeType;
 
-static inline ::GlobalNamespace::TransitionTimingSO* New_ctor() ;
+  static inline ::GlobalNamespace::TransitionTimingSO* New_ctor();
 
-constexpr float_t const& __cordl_internal_get__easeDuration() const;
+  constexpr float_t const& __cordl_internal_get__easeDuration() const;
 
-constexpr float_t& __cordl_internal_get__easeDuration() ;
+  constexpr float_t& __cordl_internal_get__easeDuration();
 
-constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
 
-constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType() ;
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
 
-constexpr void __cordl_internal_set__easeDuration(float_t  value) ;
+  constexpr void __cordl_internal_set__easeDuration(float_t value);
 
-constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType  value) ;
+  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-/// @brief Method .ctor, addr 0x6290fe8, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6302ff4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_easeDuration, addr 0x6290fe0, size 0x8, virtual false, abstract: false, final false
-inline float_t get_easeDuration() ;
+  /// @brief Method get_easeDuration, addr 0x6302fec, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_easeDuration();
 
-/// @brief Method get_easeType, addr 0x6290fd8, size 0x8, virtual false, abstract: false, final false
-inline ::GlobalNamespace::EaseType get_easeType() ;
+  /// @brief Method get_easeType, addr 0x6302fe4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TransitionTimingSO() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TransitionTimingSO();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TransitionTimingSO(TransitionTimingSO&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TransitionTimingSO(TransitionTimingSO && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TransitionTimingSO(TransitionTimingSO const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TransitionTimingSO(TransitionTimingSO const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22192 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22138};
+  /// @brief Field _easeType, offset: 0x18, size: 0x4, def value: None
+  ::GlobalNamespace::EaseType ____easeType;
 
-/// @brief Field _easeType, offset: 0x18, size: 0x4, def value: None
- ::GlobalNamespace::EaseType  ____easeType;
+  /// @brief Field _easeDuration, offset: 0x1c, size: 0x4, def value: None
+  float_t ____easeDuration;
 
-/// @brief Field _easeDuration, offset: 0x1c, size: 0x4, def value: None
- float_t  ____easeDuration;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeType) == 0x18, "Offset mismatch!");
@@ -88,6 +88,6 @@ static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeDuration) 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransitionTimingSO, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TransitionTimingSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TransitionTimingSO*, "", "TransitionTimingSO");

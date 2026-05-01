@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Unity/Jobs/DOTSCompilerGeneratedAttribute.hpp"
 #include "Unity/Jobs/EarlyInitHelpers.hpp"
@@ -22,6 +22,5 @@
 #include "Unity/Jobs/JobParallelIndexListExtensions.hpp"
 #include "Unity/Jobs/RegisterGenericJobTypeAttribute.hpp"
 #ifdef __cpp_modules
-                    export module Jobs;
-                    #endif
-                
+export module Jobs;
+#endif

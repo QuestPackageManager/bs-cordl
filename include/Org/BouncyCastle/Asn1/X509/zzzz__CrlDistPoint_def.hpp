@@ -36,71 +36,72 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // CS Name: Org.BouncyCastle.Asn1.X509.CrlDistPoint
 class CORDL_TYPE CrlDistPoint : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
-/// @brief Field seq, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_seq, put=__cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence*  seq;
+  // Declarations
+  /// @brief Field seq, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
-/// @brief Method FromExtensions, addr 0x355e158, size 0x78, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions*  extensions) ;
+  /// @brief Method FromExtensions, addr 0x359a79c, size 0x78, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-/// @brief Method GetDistributionPoints, addr 0x355e244, size 0x114, virtual false, abstract: false, final false
-inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*,::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> GetDistributionPoints() ;
+  /// @brief Method GetDistributionPoints, addr 0x359a888, size 0x114, virtual false, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> GetDistributionPoints();
 
-/// @brief Method GetInstance, addr 0x355e0a0, size 0x14, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
+  /// @brief Method GetInstance, addr 0x359a6e4, size 0x14, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-/// @brief Method GetInstance, addr 0x355e0b4, size 0x9c, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x359a6f8, size 0x9c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*,::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*>  points) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint*
+  New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> points);
 
-static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method ToAsn1Object, addr 0x355e4c8, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x359ab0c, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-/// @brief Method ToString, addr 0x355e4d0, size 0x170, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x359ab14, size 0x170, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_seq() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_seq() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
 
-constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence*  value) ;
+  constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-/// @brief Method .ctor, addr 0x355e1dc, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*,::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*>  points) ;
+  /// @brief Method .ctor, addr 0x359a820, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> points);
 
-/// @brief Method .ctor, addr 0x355e150, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  /// @brief Method .ctor, addr 0x359a794, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CrlDistPoint() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CrlDistPoint();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CrlDistPoint", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CrlDistPoint(CrlDistPoint&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CrlDistPoint", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CrlDistPoint(CrlDistPoint && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CrlDistPoint", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CrlDistPoint(CrlDistPoint const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CrlDistPoint", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CrlDistPoint(CrlDistPoint const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 352 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{352};
+  /// @brief Field seq, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
 
-/// @brief Field seq, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1Sequence*  ___seq;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::CrlDistPoint, ___seq) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::CrlDistPoint, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::X509
+} // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::CrlDistPoint);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::CrlDistPoint*, "Org.BouncyCastle.Asn1.X509", "CrlDistPoint");

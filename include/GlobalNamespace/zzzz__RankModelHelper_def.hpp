@@ -27,32 +27,33 @@ namespace GlobalNamespace {
 // CS Name: RankModelHelper
 class CORDL_TYPE RankModelHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method MaxRankForGameplayModifiers, addr 0x3656724, size 0xfc, virtual false, abstract: false, final false
-static inline ::GlobalNamespace::RankModel_Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers*  gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO*  gameplayModifiersModel, float_t  energy) ;
+  // Declarations
+  /// @brief Method MaxRankForGameplayModifiers, addr 0x3692698, size 0xfc, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::RankModel_Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                                              ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RankModelHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RankModelHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RankModelHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RankModelHelper(RankModelHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RankModelHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RankModelHelper(RankModelHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RankModelHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RankModelHelper(RankModelHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RankModelHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RankModelHelper(RankModelHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15194 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15189};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RankModelHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RankModelHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RankModelHelper*, "", "RankModelHelper");

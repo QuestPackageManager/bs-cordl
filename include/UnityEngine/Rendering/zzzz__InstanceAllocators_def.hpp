@@ -31,57 +31,60 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.InstanceAllocators
 struct CORDL_TYPE InstanceAllocators {
 public:
-// Declarations
-/// @brief Method AllocateInstance, addr 0x666cfa8, size 0x94, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::InstanceHandle AllocateInstance(::UnityEngine::Rendering::InstanceType  type) ;
+  // Declarations
+  /// @brief Method AllocateInstance, addr 0x66defb4, size 0x94, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::InstanceHandle AllocateInstance(::UnityEngine::Rendering::InstanceType type);
 
-/// @brief Method AllocateSharedInstance, addr 0x666d0d4, size 0x68, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::SharedInstanceHandle AllocateSharedInstance() ;
+  /// @brief Method AllocateSharedInstance, addr 0x66df0e0, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::SharedInstanceHandle AllocateSharedInstance();
 
-/// @brief Method Dispose, addr 0x666ced8, size 0x20, virtual false, abstract: false, final false
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x66deee4, size 0x20, virtual false, abstract: false, final false
+  inline void Dispose();
 
-/// @brief Method FreeInstance, addr 0x666d03c, size 0x98, virtual false, abstract: false, final false
-inline void FreeInstance(::UnityEngine::Rendering::InstanceHandle  instance) ;
+  /// @brief Method FreeInstance, addr 0x66df048, size 0x98, virtual false, abstract: false, final false
+  inline void FreeInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-/// @brief Method FreeSharedInstance, addr 0x666d13c, size 0x68, virtual false, abstract: false, final false
-inline void FreeSharedInstance(::UnityEngine::Rendering::SharedInstanceHandle  instance) ;
+  /// @brief Method FreeSharedInstance, addr 0x66df148, size 0x68, virtual false, abstract: false, final false
+  inline void FreeSharedInstance(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-/// @brief Method GetInstanceAllocator, addr 0x666cef8, size 0x68, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::InstanceAllocator GetInstanceAllocator(::UnityEngine::Rendering::InstanceType  type) ;
+  /// @brief Method GetInstanceAllocator, addr 0x66def04, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::InstanceAllocator GetInstanceAllocator(::UnityEngine::Rendering::InstanceType type);
 
-/// @brief Method GetInstanceHandlesLength, addr 0x666cf60, size 0x24, virtual false, abstract: false, final false
-inline int32_t GetInstanceHandlesLength(::UnityEngine::Rendering::InstanceType  type) ;
+  /// @brief Method GetInstanceHandlesLength, addr 0x66def6c, size 0x24, virtual false, abstract: false, final false
+  inline int32_t GetInstanceHandlesLength(::UnityEngine::Rendering::InstanceType type);
 
-/// @brief Method GetInstancesLength, addr 0x666cf84, size 0x24, virtual false, abstract: false, final false
-inline int32_t GetInstancesLength(::UnityEngine::Rendering::InstanceType  type) ;
+  /// @brief Method GetInstancesLength, addr 0x66def90, size 0x24, virtual false, abstract: false, final false
+  inline int32_t GetInstancesLength(::UnityEngine::Rendering::InstanceType type);
 
-/// @brief Method Initialize, addr 0x666ce78, size 0x60, virtual false, abstract: false, final false
-inline void Initialize() ;
+  /// @brief Method Initialize, addr 0x66dee84, size 0x60, virtual false, abstract: false, final false
+  inline void Initialize();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr InstanceAllocators() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InstanceAllocators();
 
-// Ctor Parameters [CppParam { name: "m_InstanceAlloc_MeshRenderer", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }, CppParam { name: "m_InstanceAlloc_SpeedTree", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }, CppParam { name: "m_SharedInstanceAlloc", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }]
-constexpr InstanceAllocators(::UnityEngine::Rendering::InstanceAllocator  m_InstanceAlloc_MeshRenderer, ::UnityEngine::Rendering::InstanceAllocator  m_InstanceAlloc_SpeedTree, ::UnityEngine::Rendering::InstanceAllocator  m_SharedInstanceAlloc) noexcept;
+  // Ctor Parameters [CppParam { name: "m_InstanceAlloc_MeshRenderer", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }, CppParam { name:
+  // "m_InstanceAlloc_SpeedTree", ty: "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }, CppParam { name: "m_SharedInstanceAlloc", ty:
+  // "::UnityEngine::Rendering::InstanceAllocator", modifiers: "", def_value: None }]
+  constexpr InstanceAllocators(::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_MeshRenderer, ::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_SpeedTree,
+                               ::UnityEngine::Rendering::InstanceAllocator m_SharedInstanceAlloc) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17665};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17673 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
-/// @brief Field m_InstanceAlloc_MeshRenderer, offset: 0x0, size: 0x20, def value: None
- ::UnityEngine::Rendering::InstanceAllocator  m_InstanceAlloc_MeshRenderer;
+  /// @brief Field m_InstanceAlloc_MeshRenderer, offset: 0x0, size: 0x20, def value: None
+  ::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_MeshRenderer;
 
-/// @brief Field m_InstanceAlloc_SpeedTree, offset: 0x20, size: 0x20, def value: None
- ::UnityEngine::Rendering::InstanceAllocator  m_InstanceAlloc_SpeedTree;
+  /// @brief Field m_InstanceAlloc_SpeedTree, offset: 0x20, size: 0x20, def value: None
+  ::UnityEngine::Rendering::InstanceAllocator m_InstanceAlloc_SpeedTree;
 
-/// @brief Field m_SharedInstanceAlloc, offset: 0x40, size: 0x20, def value: None
- ::UnityEngine::Rendering::InstanceAllocator  m_SharedInstanceAlloc;
+  /// @brief Field m_SharedInstanceAlloc, offset: 0x40, size: 0x20, def value: None
+  ::UnityEngine::Rendering::InstanceAllocator m_SharedInstanceAlloc;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::InstanceAllocators, m_InstanceAlloc_MeshRenderer) == 0x0, "Offset mismatch!");
@@ -92,5 +95,5 @@ static_assert(offsetof(::UnityEngine::Rendering::InstanceAllocators, m_SharedIns
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::InstanceAllocators, 0x60>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::InstanceAllocators, "UnityEngine.Rendering", "InstanceAllocators");

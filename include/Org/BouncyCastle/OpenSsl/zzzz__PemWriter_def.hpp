@@ -27,40 +27,40 @@ namespace Org::BouncyCastle::OpenSsl {
 // CS Name: Org.BouncyCastle.OpenSsl.PemWriter
 class CORDL_TYPE PemWriter : public ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::OpenSsl::PemWriter* New_ctor(::System::IO::TextWriter*  writer) ;
+  // Declarations
+  static inline ::Org::BouncyCastle::OpenSsl::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-/// @brief Method WriteObject, addr 0x34aeb14, size 0x15c, virtual false, abstract: false, final false
-inline void WriteObject(::System::Object*  obj) ;
+  /// @brief Method WriteObject, addr 0x34eb158, size 0x15c, virtual false, abstract: false, final false
+  inline void WriteObject(::System::Object* obj);
 
-/// @brief Method WriteObject, addr 0x34aec70, size 0x7c, virtual false, abstract: false, final false
-inline void WriteObject(::System::Object*  obj, ::StringW  algorithm, ::ArrayW<char16_t,::Array<char16_t>*>  password, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
+  /// @brief Method WriteObject, addr 0x34eb2b4, size 0x7c, virtual false, abstract: false, final false
+  inline void WriteObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-/// @brief Method .ctor, addr 0x34aeb10, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::TextWriter*  writer) ;
+  /// @brief Method .ctor, addr 0x34eb154, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::TextWriter* writer);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PemWriter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PemWriter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PemWriter(PemWriter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PemWriter(PemWriter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PemWriter(PemWriter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PemWriter(PemWriter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1691 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1691};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::OpenSsl::PemWriter, 0x28>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::OpenSsl
+} // namespace Org::BouncyCastle::OpenSsl
 NEED_NO_BOX(::Org::BouncyCastle::OpenSsl::PemWriter);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::OpenSsl::PemWriter*, "Org.BouncyCastle.OpenSsl", "PemWriter");

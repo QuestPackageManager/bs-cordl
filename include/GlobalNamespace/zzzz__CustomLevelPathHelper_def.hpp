@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomLevelPathHelper)
+namespace System::IO {
+class DirectoryInfo;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class CustomLevelPathHelper;
@@ -18,37 +21,40 @@ namespace GlobalNamespace {
 // CS Name: CustomLevelPathHelper
 class CORDL_TYPE CustomLevelPathHelper : public ::System::Object {
 public:
-// Declarations
-static inline ::GlobalNamespace::CustomLevelPathHelper* New_ctor() ;
+  // Declarations
+  /// @brief Method IsHiddenDirectory, addr 0x3647834, size 0xbc, virtual false, abstract: false, final false
+  static inline bool IsHiddenDirectory(::System::IO::DirectoryInfo* beatmapDirectory);
 
-/// @brief Method .ctor, addr 0x360b1f0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  static inline ::GlobalNamespace::CustomLevelPathHelper* New_ctor();
+
+  /// @brief Method .ctor, addr 0x36478f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CustomLevelPathHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CustomLevelPathHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CustomLevelPathHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CustomLevelPathHelper(CustomLevelPathHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CustomLevelPathHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CustomLevelPathHelper(CustomLevelPathHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CustomLevelPathHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CustomLevelPathHelper(CustomLevelPathHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CustomLevelPathHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CustomLevelPathHelper(CustomLevelPathHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14798 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14791};
+  /// @brief Field kStandardLevelInfoFilename offset 0xffffffff size 0x8
+  static constexpr ::ConstString kStandardLevelInfoFilename{ u"Info.dat" };
 
-/// @brief Field kStandardLevelInfoFilename offset 0xffffffff size 0x8
-static constexpr ::ConstString  kStandardLevelInfoFilename{u"Info.dat"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomLevelPathHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomLevelPathHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomLevelPathHelper*, "", "CustomLevelPathHelper");

@@ -22,55 +22,55 @@ namespace UnityEngine::XR::OpenXR::Features {
 // CS Name: UnityEngine.XR.OpenXR.Features.FoveatedRenderingFeature
 class CORDL_TYPE FoveatedRenderingFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
-// Declarations
-/// @brief Method HookGetInstanceProcAddr, addr 0x682b228, size 0x8, virtual true, abstract: false, final false
-inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr  func) ;
+  // Declarations
+  /// @brief Method HookGetInstanceProcAddr, addr 0x689d234, size 0x8, virtual true, abstract: false, final false
+  inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr func);
 
-/// @brief Method Internal_Unity_GetUseFoveatedRenderingLegacyMode, addr 0x682b2ac, size 0x6c, virtual false, abstract: false, final false
-static inline bool Internal_Unity_GetUseFoveatedRenderingLegacyMode() ;
+  /// @brief Method Internal_Unity_GetUseFoveatedRenderingLegacyMode, addr 0x689d2b8, size 0x6c, virtual false, abstract: false, final false
+  static inline bool Internal_Unity_GetUseFoveatedRenderingLegacyMode();
 
-/// @brief Method Internal_Unity_SetUseFoveatedRenderingLegacyMode, addr 0x682b1a4, size 0x7c, virtual false, abstract: false, final false
-static inline void Internal_Unity_SetUseFoveatedRenderingLegacyMode(bool  value) ;
+  /// @brief Method Internal_Unity_SetUseFoveatedRenderingLegacyMode, addr 0x689d1b0, size 0x7c, virtual false, abstract: false, final false
+  static inline void Internal_Unity_SetUseFoveatedRenderingLegacyMode(bool value);
 
-/// @brief Method Internal_Unity_intercept_xrGetInstanceProcAddr, addr 0x682b230, size 0x7c, virtual false, abstract: false, final false
-static inline ::System::IntPtr Internal_Unity_intercept_xrGetInstanceProcAddr(::System::IntPtr  func) ;
+  /// @brief Method Internal_Unity_intercept_xrGetInstanceProcAddr, addr 0x689d23c, size 0x7c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Internal_Unity_intercept_xrGetInstanceProcAddr(::System::IntPtr func);
 
-static inline ::UnityEngine::XR::OpenXR::Features::FoveatedRenderingFeature* New_ctor() ;
+  static inline ::UnityEngine::XR::OpenXR::Features::FoveatedRenderingFeature* New_ctor();
 
-/// @brief Method OnInstanceCreate, addr 0x682b100, size 0xa4, virtual true, abstract: false, final false
-inline bool OnInstanceCreate(uint64_t  instance) ;
+  /// @brief Method OnInstanceCreate, addr 0x689d10c, size 0xa4, virtual true, abstract: false, final false
+  inline bool OnInstanceCreate(uint64_t instance);
 
-/// @brief Method .ctor, addr 0x682b318, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x689d324, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FoveatedRenderingFeature() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FoveatedRenderingFeature();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FoveatedRenderingFeature(FoveatedRenderingFeature&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FoveatedRenderingFeature(FoveatedRenderingFeature && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FoveatedRenderingFeature(FoveatedRenderingFeature const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FoveatedRenderingFeature(FoveatedRenderingFeature const& ) = delete;
+  /// @brief Field Library offset 0xffffffff size 0x8
+  static constexpr ::ConstString Library{ u"UnityOpenXR" };
 
-/// @brief Field Library offset 0xffffffff size 0x8
-static constexpr ::ConstString  Library{u"UnityOpenXR"};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18532 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18522};
+  /// @brief Field featureId offset 0xffffffff size 0x8
+  static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.foveatedrendering" };
 
-/// @brief Field featureId offset 0xffffffff size 0x8
-static constexpr ::ConstString  featureId{u"com.unity.openxr.feature.foveatedrendering"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::FoveatedRenderingFeature, 0x50>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features
+} // namespace UnityEngine::XR::OpenXR::Features
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::FoveatedRenderingFeature);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::FoveatedRenderingFeature*, "UnityEngine.XR.OpenXR.Features", "FoveatedRenderingFeature");

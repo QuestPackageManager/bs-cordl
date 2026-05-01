@@ -9,15 +9,13 @@ namespace Newtonsoft::Json::Serialization {
 class JsonContract;
 }
 namespace Newtonsoft::Json::Utilities {
-template<typename T1,typename T2>
-struct StructMultiKey_2;
+template <typename T1, typename T2> struct StructMultiKey_2;
 }
 namespace Newtonsoft::Json {
 class DefaultJsonNameTable;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Object;
@@ -37,61 +35,65 @@ namespace Newtonsoft::Json::Serialization {
 // CS Name: Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver
 class CORDL_TYPE CamelCasePropertyNamesContractResolver : public ::Newtonsoft::Json::Serialization::DefaultContractResolver {
 public:
-// Declarations
-/// @brief Field NameTable, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_NameTable, put=setStaticF_NameTable)) ::Newtonsoft::Json::DefaultJsonNameTable*  NameTable;
+  // Declarations
+  /// @brief Field NameTable, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_NameTable, put = setStaticF_NameTable)) ::Newtonsoft::Json::DefaultJsonNameTable* NameTable;
 
-/// @brief Field TypeContractCacheLock, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_TypeContractCacheLock, put=setStaticF_TypeContractCacheLock)) ::System::Object*  TypeContractCacheLock;
+  /// @brief Field TypeContractCacheLock, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_TypeContractCacheLock, put = setStaticF_TypeContractCacheLock)) ::System::Object* TypeContractCacheLock;
 
-/// @brief Field _contractCache, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__contractCache, put=setStaticF__contractCache)) ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*,::System::Type*>,::Newtonsoft::Json::Serialization::JsonContract*>*  _contractCache;
+  /// @brief Field _contractCache, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__contractCache,
+                      put = setStaticF__contractCache)) ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*>,
+                                                                                                     ::Newtonsoft::Json::Serialization::JsonContract*>* _contractCache;
 
-/// @brief Method GetNameTable, addr 0x5b874e8, size 0x5c, virtual true, abstract: false, final false
-inline ::Newtonsoft::Json::DefaultJsonNameTable* GetNameTable() ;
+  /// @brief Method GetNameTable, addr 0x5bf94d0, size 0x5c, virtual true, abstract: false, final false
+  inline ::Newtonsoft::Json::DefaultJsonNameTable* GetNameTable();
 
-static inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* New_ctor() ;
+  static inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* New_ctor();
 
-/// @brief Method ResolveContract, addr 0x5b87190, size 0x358, virtual true, abstract: false, final false
-inline ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type*  type) ;
+  /// @brief Method ResolveContract, addr 0x5bf9178, size 0x358, virtual true, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type* type);
 
-/// @brief Method .ctor, addr 0x5b8700c, size 0x94, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5bf8ff4, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::Newtonsoft::Json::DefaultJsonNameTable* getStaticF_NameTable() ;
+  static inline ::Newtonsoft::Json::DefaultJsonNameTable* getStaticF_NameTable();
 
-static inline ::System::Object* getStaticF_TypeContractCacheLock() ;
+  static inline ::System::Object* getStaticF_TypeContractCacheLock();
 
-static inline ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*,::System::Type*>,::Newtonsoft::Json::Serialization::JsonContract*>* getStaticF__contractCache() ;
+  static inline ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*>, ::Newtonsoft::Json::Serialization::JsonContract*>*
+  getStaticF__contractCache();
 
-static inline void setStaticF_NameTable(::Newtonsoft::Json::DefaultJsonNameTable*  value) ;
+  static inline void setStaticF_NameTable(::Newtonsoft::Json::DefaultJsonNameTable* value);
 
-static inline void setStaticF_TypeContractCacheLock(::System::Object*  value) ;
+  static inline void setStaticF_TypeContractCacheLock(::System::Object* value);
 
-static inline void setStaticF__contractCache(::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*,::System::Type*>,::Newtonsoft::Json::Serialization::JsonContract*>*  value) ;
+  static inline void setStaticF__contractCache(
+      ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*>, ::Newtonsoft::Json::Serialization::JsonContract*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CamelCasePropertyNamesContractResolver() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CamelCasePropertyNamesContractResolver();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CamelCasePropertyNamesContractResolver", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CamelCasePropertyNamesContractResolver(CamelCasePropertyNamesContractResolver&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CamelCasePropertyNamesContractResolver", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CamelCasePropertyNamesContractResolver(CamelCasePropertyNamesContractResolver && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CamelCasePropertyNamesContractResolver", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CamelCasePropertyNamesContractResolver(CamelCasePropertyNamesContractResolver const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CamelCasePropertyNamesContractResolver", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CamelCasePropertyNamesContractResolver(CamelCasePropertyNamesContractResolver const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13455 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13448};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver, 0x38>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Serialization
+} // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*, "Newtonsoft.Json.Serialization", "CamelCasePropertyNamesContractResolver");

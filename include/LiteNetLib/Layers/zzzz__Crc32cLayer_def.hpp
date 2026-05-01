@@ -21,40 +21,40 @@ namespace LiteNetLib::Layers {
 // CS Name: LiteNetLib.Layers.Crc32cLayer
 class CORDL_TYPE Crc32cLayer : public ::LiteNetLib::Layers::PacketLayerBase {
 public:
-// Declarations
-static inline ::LiteNetLib::Layers::Crc32cLayer* New_ctor() ;
+  // Declarations
+  static inline ::LiteNetLib::Layers::Crc32cLayer* New_ctor();
 
-/// @brief Method ProcessInboundPacket, addr 0x56fa1b0, size 0x184, virtual true, abstract: false, final false
-inline void ProcessInboundPacket(::System::Net::IPEndPoint*  remoteEndPoint, ::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  data, ::ByRef<int32_t>  offset, ::ByRef<int32_t>  length) ;
+  /// @brief Method ProcessInboundPacket, addr 0x576809c, size 0x184, virtual true, abstract: false, final false
+  inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ::ByRef<int32_t> offset, ::ByRef<int32_t> length);
 
-/// @brief Method ProcessOutBoundPacket, addr 0x56fa334, size 0xa0, virtual true, abstract: false, final false
-inline void ProcessOutBoundPacket(::System::Net::IPEndPoint*  remoteEndPoint, ::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  data, ::ByRef<int32_t>  offset, ::ByRef<int32_t>  length) ;
+  /// @brief Method ProcessOutBoundPacket, addr 0x5768220, size 0xa0, virtual true, abstract: false, final false
+  inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ::ByRef<int32_t> offset, ::ByRef<int32_t> length);
 
-/// @brief Method .ctor, addr 0x56fa19c, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5768088, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Crc32cLayer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Crc32cLayer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Crc32cLayer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Crc32cLayer(Crc32cLayer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Crc32cLayer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Crc32cLayer(Crc32cLayer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Crc32cLayer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Crc32cLayer(Crc32cLayer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Crc32cLayer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Crc32cLayer(Crc32cLayer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19924 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19914};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::Layers::Crc32cLayer, 0x18>, "Size mismatch!");
 
-} // namespace end def LiteNetLib::Layers
+} // namespace LiteNetLib::Layers
 NEED_NO_BOX(::LiteNetLib::Layers::Crc32cLayer);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Layers::Crc32cLayer*, "LiteNetLib.Layers", "Crc32cLayer");

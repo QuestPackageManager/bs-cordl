@@ -19,46 +19,46 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.AlertLevel
 class CORDL_TYPE AlertLevel : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetName, addr 0x333c2dc, size 0xbc, virtual false, abstract: false, final false
-static inline ::StringW GetName(uint8_t  alertDescription) ;
+  // Declarations
+  /// @brief Method GetName, addr 0x3378920, size 0xbc, virtual false, abstract: false, final false
+  static inline ::StringW GetName(uint8_t alertDescription);
 
-/// @brief Method GetText, addr 0x333c398, size 0x174, virtual false, abstract: false, final false
-static inline ::StringW GetText(uint8_t  alertDescription) ;
+  /// @brief Method GetText, addr 0x33789dc, size 0x174, virtual false, abstract: false, final false
+  static inline ::StringW GetText(uint8_t alertDescription);
 
-static inline ::Org::BouncyCastle::Crypto::Tls::AlertLevel* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Tls::AlertLevel* New_ctor();
 
-/// @brief Method .ctor, addr 0x333c50c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3378b50, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AlertLevel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AlertLevel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AlertLevel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AlertLevel(AlertLevel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AlertLevel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AlertLevel(AlertLevel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AlertLevel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AlertLevel(AlertLevel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AlertLevel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AlertLevel(AlertLevel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1179 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1179};
+  /// @brief Field fatal offset 0xffffffff size 0x1
+  static constexpr uint8_t fatal{ static_cast<uint8_t>(0x2u) };
 
-/// @brief Field fatal offset 0xffffffff size 0x1
-static constexpr uint8_t  fatal{static_cast<uint8_t>(0x2u)};
+  /// @brief Field warning offset 0xffffffff size 0x1
+  static constexpr uint8_t warning{ static_cast<uint8_t>(0x1u) };
 
-/// @brief Field warning offset 0xffffffff size 0x1
-static constexpr uint8_t  warning{static_cast<uint8_t>(0x1u)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::AlertLevel, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::AlertLevel);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::AlertLevel*, "Org.BouncyCastle.Crypto.Tls", "AlertLevel");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Runtime/Serialization/AsmxCharDataContract.hpp"
 #include "System/Runtime/Serialization/AsmxGuidDataContract.hpp"
@@ -178,6 +178,5 @@
 #include "System/Runtime/Serialization/XmlWriterDelegator.hpp"
 #include "System/Runtime/Serialization/XsDurationDataContract.hpp"
 #ifdef __cpp_modules
-                    export module Serialization;
-                    #endif
-                
+export module Serialization;
+#endif

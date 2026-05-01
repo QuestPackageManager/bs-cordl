@@ -7,28 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexedSet_1)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -37,187 +31,184 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template<typename T>
-class Comparison_1;
+template <typename T> class Comparison_1;
 }
 namespace System {
-template<typename T>
-class Predicate_1;
+template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI::Collections {
-template<typename T>
-class IndexedSet_1;
+template <typename T> class IndexedSet_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UI::Collections::IndexedSet_1);
 // Dependencies System.Object
 namespace UnityEngine::UI::Collections {
 // cpp template
-template<typename T>
+template <typename T>
 // Is value type: false
 // CS Name: UnityEngine.UI.Collections.IndexedSet`1<T>
 class CORDL_TYPE IndexedSet_1 : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Capacity)) int32_t  Capacity;
+  // Declarations
+  __declspec(property(get = get_Capacity)) int32_t Capacity;
 
- __declspec(property(get=get_Count)) int32_t  Count;
+  __declspec(property(get = get_Count)) int32_t Count;
 
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Item, put=set_Item)) T  Item[];
+  __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
-/// @brief Field m_Dictionary, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Dictionary, put=__cordl_internal_set_m_Dictionary)) ::System::Collections::Generic::Dictionary_2<T,int32_t>*  m_Dictionary;
+  /// @brief Field m_Dictionary, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Dictionary, put = __cordl_internal_set_m_Dictionary)) ::System::Collections::Generic::Dictionary_2<T, int32_t>* m_Dictionary;
 
-/// @brief Field m_EnabledObjectCount, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_EnabledObjectCount, put=__cordl_internal_set_m_EnabledObjectCount)) int32_t  m_EnabledObjectCount;
+  /// @brief Field m_EnabledObjectCount, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_EnabledObjectCount, put = __cordl_internal_set_m_EnabledObjectCount)) int32_t m_EnabledObjectCount;
 
-/// @brief Field m_List, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_List, put=__cordl_internal_set_m_List)) ::System::Collections::Generic::List_1<T>*  m_List;
+  /// @brief Field m_List, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::System::Collections::Generic::List_1<T>* m_List;
 
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
-constexpr operator  ::System::Collections::Generic::ICollection_1<T>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
 
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
-/// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
-constexpr operator  ::System::Collections::Generic::IList_1<T>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
+  constexpr operator ::System::Collections::Generic::IList_1<T>*() noexcept;
 
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+  /// @brief Convert operator to "::System::Collections::IEnumerable"
+  constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-/// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline void Add(T  item) ;
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Add(T item);
 
-/// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void Add(T  item, bool  isActive) ;
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(T item, bool isActive);
 
-/// @brief Method AddUnique, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline bool AddUnique(T  item, bool  isActive) ;
+  /// @brief Method AddUnique, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool AddUnique(T item, bool isActive);
 
-/// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline void Clear() ;
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Clear();
 
-/// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline bool Contains(T  item) ;
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool Contains(T item);
 
-/// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline void CopyTo(::ArrayW<T,::Array<T>*>  array, int32_t  arrayIndex) ;
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
 
-/// @brief Method DisableItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline bool DisableItem(T  item) ;
+  /// @brief Method DisableItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool DisableItem(T item);
 
-/// @brief Method EnableItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline bool EnableItem(T  item) ;
+  /// @brief Method EnableItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool EnableItem(T item);
 
-/// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() ;
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
-/// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline int32_t IndexOf(T  item) ;
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t IndexOf(T item);
 
-/// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline void Insert(int32_t  index, T  item) ;
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Insert(int32_t index, T item);
 
-static inline ::UnityEngine::UI::Collections::IndexedSet_1<T>* New_ctor() ;
+  static inline ::UnityEngine::UI::Collections::IndexedSet_1<T>* New_ctor();
 
-/// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline bool Remove(T  item) ;
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool Remove(T item);
 
-/// @brief Method RemoveAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void RemoveAll(::System::Predicate_1<T>*  match) ;
+  /// @brief Method RemoveAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RemoveAll(::System::Predicate_1<T>* match);
 
-/// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline void RemoveAt(int32_t  index) ;
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void RemoveAt(int32_t index);
 
-/// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void Sort(::System::Comparison_1<T>*  sortLayoutFunction) ;
+  /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Sort(::System::Comparison_1<T>* sortLayoutFunction);
 
-/// @brief Method Swap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void Swap(int32_t  index1, int32_t  index2) ;
+  /// @brief Method Swap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Swap(int32_t index1, int32_t index2);
 
-/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-constexpr ::System::Collections::Generic::Dictionary_2<T,int32_t>* const& __cordl_internal_get_m_Dictionary() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>* const& __cordl_internal_get_m_Dictionary() const;
 
-constexpr ::System::Collections::Generic::Dictionary_2<T,int32_t>*& __cordl_internal_get_m_Dictionary() ;
+  constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>*& __cordl_internal_get_m_Dictionary();
 
-constexpr int32_t const& __cordl_internal_get_m_EnabledObjectCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_EnabledObjectCount() const;
 
-constexpr int32_t& __cordl_internal_get_m_EnabledObjectCount() ;
+  constexpr int32_t& __cordl_internal_get_m_EnabledObjectCount();
 
-constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_m_List() const;
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_m_List() const;
 
-constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_List() ;
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_List();
 
-constexpr void __cordl_internal_set_m_Dictionary(::System::Collections::Generic::Dictionary_2<T,int32_t>*  value) ;
+  constexpr void __cordl_internal_set_m_Dictionary(::System::Collections::Generic::Dictionary_2<T, int32_t>* value);
 
-constexpr void __cordl_internal_set_m_EnabledObjectCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_m_EnabledObjectCount(int32_t value);
 
-constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>*  value) ;
+  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>* value);
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline int32_t get_Capacity() ;
+  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Capacity();
 
-/// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline int32_t get_Count() ;
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_Count();
 
-/// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline T get_Item(int32_t  index) ;
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline T get_Item(int32_t index);
 
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
-constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+  constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
 
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
 
-/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
-constexpr ::System::Collections::Generic::IList_1<T>* i___System__Collections__Generic__IList_1_T_() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+  constexpr ::System::Collections::Generic::IList_1<T>* i___System__Collections__Generic__IList_1_T_() noexcept;
 
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-/// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-inline void set_Item(int32_t  index, T  value) ;
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void set_Item(int32_t index, T value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IndexedSet_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IndexedSet_1();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IndexedSet_1(IndexedSet_1&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IndexedSet_1(IndexedSet_1 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IndexedSet_1(IndexedSet_1 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IndexedSet_1(IndexedSet_1 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17499 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17491};
+  /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<T>* ___m_List;
 
-/// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<T>*  ___m_List;
+  /// @brief Field m_Dictionary, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<T, int32_t>* ___m_Dictionary;
 
-/// @brief Field m_Dictionary, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::Generic::Dictionary_2<T,int32_t>*  ___m_Dictionary;
+  /// @brief Field m_EnabledObjectCount, offset: 0x20, size: 0x4, def value: None
+  int32_t ___m_EnabledObjectCount;
 
-/// @brief Field m_EnabledObjectCount, offset: 0x20, size: 0x4, def value: None
- int32_t  ___m_EnabledObjectCount;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UI::Collections
+} // namespace UnityEngine::UI::Collections
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UI::Collections::IndexedSet_1, "UnityEngine.UI.Collections", "IndexedSet`1");

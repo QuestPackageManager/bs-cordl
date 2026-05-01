@@ -11,8 +11,7 @@ namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
 namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
+template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class Entry;
@@ -41,47 +40,49 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UnsafeMeshGenerationNode
 struct CORDL_TYPE UnsafeMeshGenerationNode {
 public:
-// Declarations
-/// @brief Method Create, addr 0x6c0a930, size 0x8, virtual false, abstract: false, final false
-static inline void Create(::System::Runtime::InteropServices::GCHandle  handle, ::ByRef<::UnityEngine::UIElements::UnsafeMeshGenerationNode>  node) ;
+  // Declarations
+  /// @brief Method Create, addr 0x6c7cb78, size 0x8, virtual false, abstract: false, final false
+  static inline void Create(::System::Runtime::InteropServices::GCHandle handle, ::ByRef<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-/// @brief Method DrawGradientsInternal, addr 0x6c0aac0, size 0x54, virtual false, abstract: false, final false
-inline void DrawGradientsInternal(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>  vertices, ::Unity::Collections::NativeSlice_1<uint16_t>  indices, ::UnityEngine::UIElements::VectorImage*  gradientsOwner) ;
+  /// @brief Method DrawGradientsInternal, addr 0x6c7cd08, size 0x54, virtual false, abstract: false, final false
+  inline void DrawGradientsInternal(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices,
+                                    ::UnityEngine::UIElements::VectorImage* gradientsOwner);
 
-/// @brief Method DrawMesh, addr 0x6c0a938, size 0x58, virtual false, abstract: false, final false
-inline void DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>  vertices, ::Unity::Collections::NativeSlice_1<uint16_t>  indices, ::UnityEngine::Texture*  texture) ;
+  /// @brief Method DrawMesh, addr 0x6c7cb80, size 0x58, virtual false, abstract: false, final false
+  inline void DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture);
 
-/// @brief Method DrawMeshInternal, addr 0x6c0aa5c, size 0x64, virtual false, abstract: false, final false
-inline void DrawMeshInternal(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>  vertices, ::Unity::Collections::NativeSlice_1<uint16_t>  indices, ::UnityEngine::Texture*  texture, bool  skipAtlas) ;
+  /// @brief Method DrawMeshInternal, addr 0x6c7cca4, size 0x64, virtual false, abstract: false, final false
+  inline void DrawMeshInternal(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
+                               bool skipAtlas);
 
-/// @brief Method GetManaged, addr 0x6c0a854, size 0xdc, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* GetManaged() ;
+  /// @brief Method GetManaged, addr 0x6c7ca9c, size 0xdc, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* GetManaged();
 
-/// @brief Method GetParentEntry, addr 0x6c0ac20, size 0x20, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry() ;
+  /// @brief Method GetParentEntry, addr 0x6c7ce68, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr UnsafeMeshGenerationNode() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnsafeMeshGenerationNode();
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
-constexpr UnsafeMeshGenerationNode(::System::Runtime::InteropServices::GCHandle  m_Handle) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+  constexpr UnsafeMeshGenerationNode(::System::Runtime::InteropServices::GCHandle m_Handle) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4673};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4673 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field m_Handle, offset: 0x0, size: 0x8, def value: None
- ::System::Runtime::InteropServices::GCHandle  m_Handle;
+  /// @brief Field m_Handle, offset: 0x0, size: 0x8, def value: None
+  ::System::Runtime::InteropServices::GCHandle m_Handle;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UnsafeMeshGenerationNode, m_Handle) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UnsafeMeshGenerationNode, 0x8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UnsafeMeshGenerationNode, "UnityEngine.UIElements", "UnsafeMeshGenerationNode");

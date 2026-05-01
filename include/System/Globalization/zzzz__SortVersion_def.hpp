@@ -17,29 +17,29 @@ namespace System::Globalization {
 // CS Name: System.Globalization.SortVersion
 class CORDL_TYPE SortVersion : public ::System::Object {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SortVersion() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SortVersion();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SortVersion", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SortVersion(SortVersion&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SortVersion", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SortVersion(SortVersion && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SortVersion", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SortVersion(SortVersion const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SortVersion", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SortVersion(SortVersion const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3606 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3606};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::SortVersion, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Globalization
+} // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::SortVersion);
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::SortVersion*, "System.Globalization", "SortVersion");

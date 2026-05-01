@@ -18,51 +18,51 @@ namespace UnityEditor::Analytics {
 // CS Name: UnityEditor.Analytics.StallSummaryAnalytic
 class CORDL_TYPE StallSummaryAnalytic : public ::UnityEngine::Analytics::AnalyticsEventBase {
 public:
-// Declarations
-/// @brief Field Duration, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_Duration, put=__cordl_internal_set_Duration)) double_t  Duration;
+  // Declarations
+  /// @brief Field Duration, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_Duration, put = __cordl_internal_set_Duration)) double_t Duration;
 
-/// @brief Method CreateStallSummaryAnalytic, addr 0x6c5ac00, size 0x54, virtual false, abstract: false, final false
-static inline ::UnityEditor::Analytics::StallSummaryAnalytic* CreateStallSummaryAnalytic() ;
+  /// @brief Method CreateStallSummaryAnalytic, addr 0x6ccce48, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEditor::Analytics::StallSummaryAnalytic* CreateStallSummaryAnalytic();
 
-static inline ::UnityEditor::Analytics::StallSummaryAnalytic* New_ctor() ;
+  static inline ::UnityEditor::Analytics::StallSummaryAnalytic* New_ctor();
 
-constexpr double_t const& __cordl_internal_get_Duration() const;
+  constexpr double_t const& __cordl_internal_get_Duration() const;
 
-constexpr double_t& __cordl_internal_get_Duration() ;
+  constexpr double_t& __cordl_internal_get_Duration();
 
-constexpr void __cordl_internal_set_Duration(double_t  value) ;
+  constexpr void __cordl_internal_set_Duration(double_t value);
 
-/// @brief Method .ctor, addr 0x6c5ab88, size 0x78, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6cccdd0, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StallSummaryAnalytic() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StallSummaryAnalytic();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StallSummaryAnalytic(StallSummaryAnalytic&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StallSummaryAnalytic(StallSummaryAnalytic && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StallSummaryAnalytic(StallSummaryAnalytic const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StallSummaryAnalytic(StallSummaryAnalytic const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22713 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22605};
+  /// @brief Field Duration, offset: 0x30, size: 0x8, def value: None
+  double_t ___Duration;
 
-/// @brief Field Duration, offset: 0x30, size: 0x8, def value: None
- double_t  ___Duration;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEditor::Analytics::StallSummaryAnalytic, ___Duration) == 0x30, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEditor::Analytics::StallSummaryAnalytic, 0x38>, "Size mismatch!");
 
-} // namespace end def UnityEditor::Analytics
+} // namespace UnityEditor::Analytics
 NEED_NO_BOX(::UnityEditor::Analytics::StallSummaryAnalytic);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEditor::Analytics::StallSummaryAnalytic*, "UnityEditor.Analytics", "StallSummaryAnalytic");

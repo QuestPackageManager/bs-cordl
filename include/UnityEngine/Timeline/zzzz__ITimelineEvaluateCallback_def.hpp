@@ -10,26 +10,26 @@ class ITimelineEvaluateCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::ITimelineEvaluateCallback);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: UnityEngine.Timeline.ITimelineEvaluateCallback
 class CORDL_TYPE ITimelineEvaluateCallback {
 public:
-// Declarations
-/// @brief Method Evaluate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void Evaluate() ;
+  // Declarations
+  /// @brief Method Evaluate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Evaluate();
 
-// Ctor Parameters [CppParam { name: "", ty: "ITimelineEvaluateCallback", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ITimelineEvaluateCallback(ITimelineEvaluateCallback const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ITimelineEvaluateCallback", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ITimelineEvaluateCallback(ITimelineEvaluateCallback const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19081};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19091 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::Timeline
+} // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::ITimelineEvaluateCallback);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ITimelineEvaluateCallback*, "UnityEngine.Timeline", "ITimelineEvaluateCallback");

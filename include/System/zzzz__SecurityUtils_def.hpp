@@ -32,59 +32,61 @@ namespace System {
 // CS Name: System.SecurityUtils
 class CORDL_TYPE SecurityUtils : public ::System::Object {
 public:
-// Declarations
-/// @brief Method DemandGrantSet, addr 0x61c064c, size 0x4, virtual false, abstract: false, final false
-static inline void DemandGrantSet(::System::Reflection::Assembly*  assembly) ;
+  // Declarations
+  /// @brief Method DemandGrantSet, addr 0x6232658, size 0x4, virtual false, abstract: false, final false
+  static inline void DemandGrantSet(::System::Reflection::Assembly* assembly);
 
-/// @brief Method DemandReflectionAccess, addr 0x61c0648, size 0x4, virtual false, abstract: false, final false
-static inline void DemandReflectionAccess(::System::Type*  type) ;
+  /// @brief Method DemandReflectionAccess, addr 0x6232654, size 0x4, virtual false, abstract: false, final false
+  static inline void DemandReflectionAccess(::System::Type* type);
 
-/// @brief Method GenericArgumentsAreVisible, addr 0x61c0890, size 0x94, virtual false, abstract: false, final false
-static inline bool GenericArgumentsAreVisible(::System::Reflection::MethodInfo*  method) ;
+  /// @brief Method GenericArgumentsAreVisible, addr 0x623289c, size 0x94, virtual false, abstract: false, final false
+  static inline bool GenericArgumentsAreVisible(::System::Reflection::MethodInfo* method);
 
-/// @brief Method HasReflectionPermission, addr 0x61c0650, size 0x8, virtual false, abstract: false, final false
-static inline bool HasReflectionPermission(::System::Type*  type) ;
+  /// @brief Method HasReflectionPermission, addr 0x623265c, size 0x8, virtual false, abstract: false, final false
+  static inline bool HasReflectionPermission(::System::Type* type);
 
-/// @brief Method MethodInfoInvoke, addr 0x61c0924, size 0x10c, virtual false, abstract: false, final false
-static inline ::System::Object* MethodInfoInvoke(::System::Reflection::MethodInfo*  method, ::System::Object*  target, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method MethodInfoInvoke, addr 0x6232930, size 0x10c, virtual false, abstract: false, final false
+  static inline ::System::Object* MethodInfoInvoke(::System::Reflection::MethodInfo* method, ::System::Object* target, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method SecureConstructorInvoke, addr 0x61c0720, size 0x8, virtual false, abstract: false, final false
-static inline ::System::Object* SecureConstructorInvoke(::System::Type*  type, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  argTypes, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, bool  allowNonPublic) ;
+  /// @brief Method SecureConstructorInvoke, addr 0x623272c, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
+                                                          ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic);
 
-/// @brief Method SecureConstructorInvoke, addr 0x61c0728, size 0x168, virtual false, abstract: false, final false
-static inline ::System::Object* SecureConstructorInvoke(::System::Type*  type, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  argTypes, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, bool  allowNonPublic, ::System::Reflection::BindingFlags  extraFlags) ;
+  /// @brief Method SecureConstructorInvoke, addr 0x6232734, size 0x168, virtual false, abstract: false, final false
+  static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
+                                                          ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic, ::System::Reflection::BindingFlags extraFlags);
 
-/// @brief Method SecureCreateInstance, addr 0x61c0658, size 0xc, virtual false, abstract: false, final false
-static inline ::System::Object* SecureCreateInstance(::System::Type*  type) ;
+  /// @brief Method SecureCreateInstance, addr 0x6232664, size 0xc, virtual false, abstract: false, final false
+  static inline ::System::Object* SecureCreateInstance(::System::Type* type);
 
-/// @brief Method SecureCreateInstance, addr 0x61c0718, size 0x8, virtual false, abstract: false, final false
-static inline ::System::Object* SecureCreateInstance(::System::Type*  type, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method SecureCreateInstance, addr 0x6232724, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method SecureCreateInstance, addr 0x61c0664, size 0xb4, virtual false, abstract: false, final false
-static inline ::System::Object* SecureCreateInstance(::System::Type*  type, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, bool  allowNonPublic) ;
+  /// @brief Method SecureCreateInstance, addr 0x6232670, size 0xb4, virtual false, abstract: false, final false
+  static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SecurityUtils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecurityUtils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityUtils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SecurityUtils(SecurityUtils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SecurityUtils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SecurityUtils(SecurityUtils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityUtils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SecurityUtils(SecurityUtils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SecurityUtils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SecurityUtils(SecurityUtils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11046 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11039};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::SecurityUtils, 0x10>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::SecurityUtils);
 DEFINE_IL2CPP_ARG_TYPE(::System::SecurityUtils*, "System", "SecurityUtils");

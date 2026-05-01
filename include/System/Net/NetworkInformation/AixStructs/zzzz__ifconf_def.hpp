@@ -20,77 +20,77 @@ namespace System::Net::NetworkInformation::AixStructs {
 #pragma pack(push, 0)
 struct CORDL_TYPE ifconf {
 public:
-// Declarations
-/// @brief Field ifc_buf, offset 0x8, size 0x8 
- __declspec(property(get=__cordl_internal_get_ifc_buf, put=__cordl_internal_set_ifc_buf)) ::System::IntPtr  ifc_buf;
+  // Declarations
+  /// @brief Field ifc_buf, offset 0x8, size 0x8
+  __declspec(property(get = __cordl_internal_get_ifc_buf, put = __cordl_internal_set_ifc_buf)) ::System::IntPtr ifc_buf;
 
-/// @brief Field ifc_len, offset 0x0, size 0x4 
- __declspec(property(get=__cordl_internal_get_ifc_len, put=__cordl_internal_set_ifc_len)) int32_t  ifc_len;
+  /// @brief Field ifc_len, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_ifc_len, put = __cordl_internal_set_ifc_len)) int32_t ifc_len;
 
-constexpr ::System::IntPtr const& __cordl_internal_get_ifc_buf() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_ifc_buf() const;
 
-constexpr ::System::IntPtr& __cordl_internal_get_ifc_buf() ;
+  constexpr ::System::IntPtr& __cordl_internal_get_ifc_buf();
 
-constexpr int32_t const& __cordl_internal_get_ifc_len() const;
+  constexpr int32_t const& __cordl_internal_get_ifc_len() const;
 
-constexpr int32_t& __cordl_internal_get_ifc_len() ;
+  constexpr int32_t& __cordl_internal_get_ifc_len();
 
-constexpr void __cordl_internal_set_ifc_buf(::System::IntPtr  value) ;
+  constexpr void __cordl_internal_set_ifc_buf(::System::IntPtr value);
 
-constexpr void __cordl_internal_set_ifc_len(int32_t  value) ;
+  constexpr void __cordl_internal_set_ifc_len(int32_t value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ifconf() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ifconf();
 
-// Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ifc_buf", ty: "::System::IntPtr", modifiers: "", def_value: None }]
-constexpr ifconf(int32_t  ifc_len, ::System::IntPtr  ifc_buf) noexcept;
+  // Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ifc_buf", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr ifconf(int32_t ifc_len, ::System::IntPtr ifc_buf) noexcept;
 
 private:
-/// @brief Explicitly laid out type with union based offsets
-union {
+  /// @brief Explicitly laid out type with union based offsets
+  union {
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x0
- uint8_t  ___ifc_len_padding[0x0];
-/// @brief Field ifc_len, offset: 0x0, size: 0x4, def value: None
- int32_t  ___ifc_len;
-};
+    struct {
+      /// @brief Padding field 0x0
+      uint8_t ___ifc_len_padding[0x0];
+      /// @brief Field ifc_len, offset: 0x0, size: 0x4, def value: None
+      int32_t ___ifc_len;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x0 for alignment
- uint8_t  ___ifc_len_padding_forAlignment[0x0];
-/// @brief Field ifc_len, offset: 0x0, size: 0x4, def value: None
- int32_t  ___ifc_len_forAlignment;
-};
+    struct {
+      /// @brief Padding field 0x0 for alignment
+      uint8_t ___ifc_len_padding_forAlignment[0x0];
+      /// @brief Field ifc_len, offset: 0x0, size: 0x4, def value: None
+      int32_t ___ifc_len_forAlignment;
+    };
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x8
- uint8_t  ___ifc_buf_padding[0x8];
-/// @brief Field ifc_buf, offset: 0x8, size: 0x8, def value: None
- ::System::IntPtr  ___ifc_buf;
-};
+    struct {
+      /// @brief Padding field 0x8
+      uint8_t ___ifc_buf_padding[0x8];
+      /// @brief Field ifc_buf, offset: 0x8, size: 0x8, def value: None
+      ::System::IntPtr ___ifc_buf;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x8 for alignment
- uint8_t  ___ifc_buf_padding_forAlignment[0x8];
-/// @brief Field ifc_buf, offset: 0x8, size: 0x8, def value: None
- ::System::IntPtr  ___ifc_buf_forAlignment;
-};
-};
+    struct {
+      /// @brief Padding field 0x8 for alignment
+      uint8_t ___ifc_buf_padding_forAlignment[0x8];
+      /// @brief Field ifc_buf, offset: 0x8, size: 0x8, def value: None
+      ::System::IntPtr ___ifc_buf_forAlignment;
+    };
+  };
+
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11710 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11703};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::AixStructs::ifconf, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net::NetworkInformation::AixStructs
+} // namespace System::Net::NetworkInformation::AixStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::AixStructs::ifconf, "System.Net.NetworkInformation.AixStructs", "ifconf");

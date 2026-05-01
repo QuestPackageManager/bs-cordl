@@ -13,12 +13,10 @@ namespace System {
 class Type;
 }
 namespace Unity::Burst {
-template<typename T>
-struct BurstRuntime_HashCode32_1;
+template <typename T> struct BurstRuntime_HashCode32_1;
 }
 namespace Unity::Burst {
-template<typename T>
-struct BurstRuntime_HashCode64_1;
+template <typename T> struct BurstRuntime_HashCode64_1;
 }
 namespace Unity::Burst {
 class BurstRuntime_PreserveAttribute;
@@ -31,196 +29,190 @@ namespace Unity::Burst {
 class BurstRuntime_PreserveAttribute;
 }
 namespace Unity::Burst {
-template<typename T>
-struct BurstRuntime_HashCode32_1;
+template <typename T> struct BurstRuntime_HashCode32_1;
 }
 namespace Unity::Burst {
-template<typename T>
-struct BurstRuntime_HashCode64_1;
+template <typename T> struct BurstRuntime_HashCode64_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::BurstRuntime);
 MARK_REF_PTR_T(::Unity::Burst::BurstRuntime_PreserveAttribute);
 MARK_GEN_VAL_T(::Unity::Burst::BurstRuntime_HashCode32_1);
 MARK_GEN_VAL_T(::Unity::Burst::BurstRuntime_HashCode64_1);
-// Dependencies 
+// Dependencies
 namespace Unity::Burst {
 // cpp template
-template<typename T>
+template <typename T>
 // Is value type: true
 // CS Name: Unity.Burst.BurstRuntime/HashCode32`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE BurstRuntime_HashCode32_1 {
 public:
-// Declarations
-/// @brief Field Value, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_Value, put=setStaticF_Value)) int32_t  Value;
+  // Declarations
+  /// @brief Field Value, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_Value, put = setStaticF_Value)) int32_t Value;
 
-static inline int32_t getStaticF_Value() ;
+  static inline int32_t getStaticF_Value();
 
-static inline void setStaticF_Value(int32_t  value) ;
+  static inline void setStaticF_Value(int32_t value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BurstRuntime_HashCode32_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BurstRuntime_HashCode32_1();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17284};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17292 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-} // namespace end def Unity::Burst
-// Dependencies 
+} // namespace Unity::Burst
+// Dependencies
 namespace Unity::Burst {
 // cpp template
-template<typename T>
+template <typename T>
 // Is value type: true
 // CS Name: Unity.Burst.BurstRuntime/HashCode64`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE BurstRuntime_HashCode64_1 {
 public:
-// Declarations
-/// @brief Field Value, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_Value, put=setStaticF_Value)) int64_t  Value;
+  // Declarations
+  /// @brief Field Value, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_Value, put = setStaticF_Value)) int64_t Value;
 
-static inline int64_t getStaticF_Value() ;
+  static inline int64_t getStaticF_Value();
 
-static inline void setStaticF_Value(int64_t  value) ;
+  static inline void setStaticF_Value(int64_t value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr BurstRuntime_HashCode64_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BurstRuntime_HashCode64_1();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17285};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17293 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-} // namespace end def Unity::Burst
+} // namespace Unity::Burst
 // Dependencies System.Attribute
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: Unity.Burst.BurstRuntime/PreserveAttribute
 class CORDL_TYPE BurstRuntime_PreserveAttribute : public ::System::Attribute {
 public:
-// Declarations
-static inline ::Unity::Burst::BurstRuntime_PreserveAttribute* New_ctor() ;
+  // Declarations
+  static inline ::Unity::Burst::BurstRuntime_PreserveAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x62bdb0c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x632fb18, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BurstRuntime_PreserveAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BurstRuntime_PreserveAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BurstRuntime_PreserveAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17294 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17286};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::BurstRuntime_PreserveAttribute, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Burst
+} // namespace Unity::Burst
 // Dependencies System.Object
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: Unity.Burst.BurstRuntime
 class CORDL_TYPE BurstRuntime : public ::System::Object {
 public:
-// Declarations
-template<typename T>
-using HashCode32_1 = ::Unity::Burst::BurstRuntime_HashCode32_1<T>;
+  // Declarations
+  template <typename T> using HashCode32_1 = ::Unity::Burst::BurstRuntime_HashCode32_1<T>;
 
-template<typename T>
-using HashCode64_1 = ::Unity::Burst::BurstRuntime_HashCode64_1<T>;
+  template <typename T> using HashCode64_1 = ::Unity::Burst::BurstRuntime_HashCode64_1<T>;
 
-using PreserveAttribute = ::Unity::Burst::BurstRuntime_PreserveAttribute;
+  using PreserveAttribute = ::Unity::Burst::BurstRuntime_PreserveAttribute;
 
-/// @brief Method GetHashCode32, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline int32_t GetHashCode32() ;
+  /// @brief Method GetHashCode32, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline int32_t GetHashCode32();
 
-/// @brief Method GetHashCode32, addr 0x62bd64c, size 0x24, virtual false, abstract: false, final false
-static inline int32_t GetHashCode32(::System::Type*  type) ;
+  /// @brief Method GetHashCode32, addr 0x632f658, size 0x24, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode32(::System::Type* type);
 
-/// @brief Method GetHashCode64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline int64_t GetHashCode64() ;
+  /// @brief Method GetHashCode64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline int64_t GetHashCode64();
 
-/// @brief Method GetHashCode64, addr 0x62bd6c8, size 0x24, virtual false, abstract: false, final false
-static inline int64_t GetHashCode64(::System::Type*  type) ;
+  /// @brief Method GetHashCode64, addr 0x632f6d4, size 0x24, virtual false, abstract: false, final false
+  static inline int64_t GetHashCode64(::System::Type* type);
 
-/// @brief Method GetUTF8LiteralPointer, addr 0x62bdac0, size 0x4c, virtual false, abstract: false, final false
-static inline uint8_t* GetUTF8LiteralPointer(::StringW  str, ::ByRef<int32_t>  byteCount) ;
+  /// @brief Method GetUTF8LiteralPointer, addr 0x632facc, size 0x4c, virtual false, abstract: false, final false
+  static inline uint8_t* GetUTF8LiteralPointer(::StringW str, ::ByRef<int32_t> byteCount);
 
-/// @brief Method HashStringWithFNV1A32, addr 0x62bd670, size 0x58, virtual false, abstract: false, final false
-static inline int32_t HashStringWithFNV1A32(::StringW  text) ;
+  /// @brief Method HashStringWithFNV1A32, addr 0x632f67c, size 0x58, virtual false, abstract: false, final false
+  static inline int32_t HashStringWithFNV1A32(::StringW text);
 
-/// @brief Method HashStringWithFNV1A64, addr 0x62bd6ec, size 0x60, virtual false, abstract: false, final false
-static inline int64_t HashStringWithFNV1A64(::StringW  text) ;
+  /// @brief Method HashStringWithFNV1A64, addr 0x632f6f8, size 0x60, virtual false, abstract: false, final false
+  static inline int64_t HashStringWithFNV1A64(::StringW text);
 
-/// @brief Method Initialize, addr 0x62bd96c, size 0x4, virtual false, abstract: false, final false
-static inline void Initialize() ;
+  /// @brief Method Initialize, addr 0x632f978, size 0x4, virtual false, abstract: false, final false
+  static inline void Initialize();
 
-/// @brief Method LoadAdditionalLibrary, addr 0x62bd74c, size 0x70, virtual false, abstract: false, final false
-static inline bool LoadAdditionalLibrary(::StringW  pathToLibBurstGenerated) ;
+  /// @brief Method LoadAdditionalLibrary, addr 0x632f758, size 0x70, virtual false, abstract: false, final false
+  static inline bool LoadAdditionalLibrary(::StringW pathToLibBurstGenerated);
 
-/// @brief Method LoadAdditionalLibraryInternal, addr 0x62bd7bc, size 0x150, virtual false, abstract: false, final false
-static inline bool LoadAdditionalLibraryInternal(::StringW  pathToLibBurstGenerated) ;
+  /// @brief Method LoadAdditionalLibraryInternal, addr 0x632f7c8, size 0x150, virtual false, abstract: false, final false
+  static inline bool LoadAdditionalLibraryInternal(::StringW pathToLibBurstGenerated);
 
-/// @brief Method Log, addr 0x62bda64, size 0x5c, virtual false, abstract: false, final false
-static inline void Log(uint8_t*  message, int32_t  logType, uint8_t*  fileName, int32_t  lineNumber) ;
+  /// @brief Method Log, addr 0x632fa70, size 0x5c, virtual false, abstract: false, final false
+  static inline void Log(uint8_t* message, int32_t logType, uint8_t* fileName, int32_t lineNumber);
 
-/// @brief Method PreventRequiredAttributeStrip, addr 0x62bd970, size 0xf4, virtual false, abstract: false, final false
-static inline void PreventRequiredAttributeStrip() ;
+  /// @brief Method PreventRequiredAttributeStrip, addr 0x632f97c, size 0xf4, virtual false, abstract: false, final false
+  static inline void PreventRequiredAttributeStrip();
 
-/// @brief Method RuntimeLog, addr 0x62bd90c, size 0x60, virtual false, abstract: false, final false
-static inline void RuntimeLog(uint8_t*  message, int32_t  logType, uint8_t*  fileName, int32_t  lineNumber) ;
+  /// @brief Method RuntimeLog, addr 0x632f918, size 0x60, virtual false, abstract: false, final false
+  static inline void RuntimeLog(uint8_t* message, int32_t logType, uint8_t* fileName, int32_t lineNumber);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BurstRuntime() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BurstRuntime();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BurstRuntime(BurstRuntime&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BurstRuntime(BurstRuntime && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BurstRuntime(BurstRuntime const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BurstRuntime", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BurstRuntime(BurstRuntime const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17295 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17287};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::BurstRuntime, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Burst
+} // namespace Unity::Burst
 NEED_NO_BOX(::Unity::Burst::BurstRuntime);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::BurstRuntime*, "Unity.Burst", "BurstRuntime");
 NEED_NO_BOX(::Unity::Burst::BurstRuntime_PreserveAttribute);

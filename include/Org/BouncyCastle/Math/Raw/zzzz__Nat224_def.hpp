@@ -21,157 +21,160 @@ namespace Org::BouncyCastle::Math::Raw {
 // CS Name: Org.BouncyCastle.Math.Raw.Nat224
 class CORDL_TYPE Nat224 : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Add, addr 0x3442fa4, size 0x214, virtual false, abstract: false, final false
-static inline uint32_t Add(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  // Declarations
+  /// @brief Method Add, addr 0x347f5e8, size 0x214, virtual false, abstract: false, final false
+  static inline uint32_t Add(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method Add, addr 0x3442e38, size 0x16c, virtual false, abstract: false, final false
-static inline uint32_t Add(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method Add, addr 0x347f47c, size 0x16c, virtual false, abstract: false, final false
+  static inline uint32_t Add(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method AddBothTo, addr 0x3443358, size 0x248, virtual false, abstract: false, final false
-static inline uint32_t AddBothTo(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method AddBothTo, addr 0x347f99c, size 0x248, virtual false, abstract: false, final false
+  static inline uint32_t AddBothTo(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z,
+                                   int32_t zOff);
 
-/// @brief Method AddBothTo, addr 0x34431b8, size 0x1a0, virtual false, abstract: false, final false
-static inline uint32_t AddBothTo(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method AddBothTo, addr 0x347f7fc, size 0x1a0, virtual false, abstract: false, final false
+  static inline uint32_t AddBothTo(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method AddTo, addr 0x34436cc, size 0x1a4, virtual false, abstract: false, final false
-static inline uint32_t AddTo(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff, uint32_t  cIn) ;
+  /// @brief Method AddTo, addr 0x347fd10, size 0x1a4, virtual false, abstract: false, final false
+  static inline uint32_t AddTo(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff, uint32_t cIn);
 
-/// @brief Method AddTo, addr 0x34435a0, size 0x12c, virtual false, abstract: false, final false
-static inline uint32_t AddTo(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method AddTo, addr 0x347fbe4, size 0x12c, virtual false, abstract: false, final false
+  static inline uint32_t AddTo(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method AddToEachOther, addr 0x3443870, size 0x1b8, virtual false, abstract: false, final false
-static inline uint32_t AddToEachOther(::ArrayW<uint32_t,::Array<uint32_t>*>  u, int32_t  uOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  v, int32_t  vOff) ;
+  /// @brief Method AddToEachOther, addr 0x347feb4, size 0x1b8, virtual false, abstract: false, final false
+  static inline uint32_t AddToEachOther(::ArrayW<uint32_t, ::Array<uint32_t>*> u, int32_t uOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> v, int32_t vOff);
 
-/// @brief Method Copy, addr 0x3443aec, size 0x134, virtual false, abstract: false, final false
-static inline void Copy(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method Copy, addr 0x3480130, size 0x134, virtual false, abstract: false, final false
+  static inline void Copy(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method Copy, addr 0x3443a28, size 0xc4, virtual false, abstract: false, final false
-static inline void Copy(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method Copy, addr 0x348006c, size 0xc4, virtual false, abstract: false, final false
+  static inline void Copy(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method Create, addr 0x3443c20, size 0x48, virtual false, abstract: false, final false
-static inline ::ArrayW<uint32_t,::Array<uint32_t>*> Create() ;
+  /// @brief Method Create, addr 0x3480264, size 0x48, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Create();
 
-/// @brief Method CreateExt, addr 0x3443c68, size 0x48, virtual false, abstract: false, final false
-static inline ::ArrayW<uint32_t,::Array<uint32_t>*> CreateExt() ;
+  /// @brief Method CreateExt, addr 0x34802ac, size 0x48, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> CreateExt();
 
-/// @brief Method Diff, addr 0x3443cb0, size 0x7c, virtual false, abstract: false, final false
-static inline bool Diff(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method Diff, addr 0x34802f4, size 0x7c, virtual false, abstract: false, final false
+  static inline bool Diff(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method Eq, addr 0x3443fb4, size 0x64, virtual false, abstract: false, final false
-static inline bool Eq(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y) ;
+  /// @brief Method Eq, addr 0x34805f8, size 0x64, virtual false, abstract: false, final false
+  static inline bool Eq(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
-/// @brief Method FromBigInteger, addr 0x3444018, size 0xcc, virtual false, abstract: false, final false
-static inline ::ArrayW<uint32_t,::Array<uint32_t>*> FromBigInteger(::Org::BouncyCastle::Math::BigInteger*  x) ;
+  /// @brief Method FromBigInteger, addr 0x348065c, size 0xcc, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-/// @brief Method GetBit, addr 0x34440e4, size 0x64, virtual false, abstract: false, final false
-static inline uint32_t GetBit(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  bit) ;
+  /// @brief Method GetBit, addr 0x3480728, size 0x64, virtual false, abstract: false, final false
+  static inline uint32_t GetBit(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t bit);
 
-/// @brief Method Gte, addr 0x3443d2c, size 0x78, virtual false, abstract: false, final false
-static inline bool Gte(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff) ;
+  /// @brief Method Gte, addr 0x3480370, size 0x78, virtual false, abstract: false, final false
+  static inline bool Gte(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff);
 
-/// @brief Method Gte, addr 0x3444148, size 0x6c, virtual false, abstract: false, final false
-static inline bool Gte(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y) ;
+  /// @brief Method Gte, addr 0x348078c, size 0x6c, virtual false, abstract: false, final false
+  static inline bool Gte(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
-/// @brief Method IsOne, addr 0x34441b4, size 0x68, virtual false, abstract: false, final false
-static inline bool IsOne(::ArrayW<uint32_t,::Array<uint32_t>*>  x) ;
+  /// @brief Method IsOne, addr 0x34807f8, size 0x68, virtual false, abstract: false, final false
+  static inline bool IsOne(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-/// @brief Method IsZero, addr 0x344421c, size 0x50, virtual false, abstract: false, final false
-static inline bool IsZero(::ArrayW<uint32_t,::Array<uint32_t>*>  x) ;
+  /// @brief Method IsZero, addr 0x3480860, size 0x50, virtual false, abstract: false, final false
+  static inline bool IsZero(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-/// @brief Method Mul, addr 0x3444438, size 0x300, virtual false, abstract: false, final false
-static inline void Mul(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz, int32_t  zzOff) ;
+  /// @brief Method Mul, addr 0x3480a7c, size 0x300, virtual false, abstract: false, final false
+  static inline void Mul(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz, int32_t zzOff);
 
-/// @brief Method Mul, addr 0x344426c, size 0x1cc, virtual false, abstract: false, final false
-static inline void Mul(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz) ;
+  /// @brief Method Mul, addr 0x34808b0, size 0x1cc, virtual false, abstract: false, final false
+  static inline void Mul(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-/// @brief Method Mul33Add, addr 0x3444b1c, size 0x230, virtual false, abstract: false, final false
-static inline uint64_t Mul33Add(uint32_t  w, ::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method Mul33Add, addr 0x3481160, size 0x230, virtual false, abstract: false, final false
+  static inline uint64_t Mul33Add(uint32_t w, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z,
+                                  int32_t zOff);
 
-/// @brief Method Mul33DWordAdd, addr 0x34450e4, size 0xec, virtual false, abstract: false, final false
-static inline uint32_t Mul33DWordAdd(uint32_t  x, uint64_t  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method Mul33DWordAdd, addr 0x3481728, size 0xec, virtual false, abstract: false, final false
+  static inline uint32_t Mul33DWordAdd(uint32_t x, uint64_t y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method Mul33WordAdd, addr 0x34451d0, size 0xc4, virtual false, abstract: false, final false
-static inline uint32_t Mul33WordAdd(uint32_t  x, uint32_t  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method Mul33WordAdd, addr 0x3481814, size 0xc4, virtual false, abstract: false, final false
+  static inline uint32_t Mul33WordAdd(uint32_t x, uint32_t y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method MulAddTo, addr 0x34448d0, size 0x24c, virtual false, abstract: false, final false
-static inline uint32_t MulAddTo(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz, int32_t  zzOff) ;
+  /// @brief Method MulAddTo, addr 0x3480f14, size 0x24c, virtual false, abstract: false, final false
+  static inline uint32_t MulAddTo(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz,
+                                  int32_t zzOff);
 
-/// @brief Method MulAddTo, addr 0x3444738, size 0x198, virtual false, abstract: false, final false
-static inline uint32_t MulAddTo(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz) ;
+  /// @brief Method MulAddTo, addr 0x3480d7c, size 0x198, virtual false, abstract: false, final false
+  static inline uint32_t MulAddTo(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-/// @brief Method MulByWord, addr 0x3444d4c, size 0xc4, virtual false, abstract: false, final false
-static inline uint32_t MulByWord(uint32_t  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method MulByWord, addr 0x3481390, size 0xc4, virtual false, abstract: false, final false
+  static inline uint32_t MulByWord(uint32_t x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method MulByWordAddTo, addr 0x3444e10, size 0x130, virtual false, abstract: false, final false
-static inline uint32_t MulByWordAddTo(uint32_t  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method MulByWordAddTo, addr 0x3481454, size 0x130, virtual false, abstract: false, final false
+  static inline uint32_t MulByWordAddTo(uint32_t x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method MulWord, addr 0x3445360, size 0x7c, virtual false, abstract: false, final false
-static inline uint32_t MulWord(uint32_t  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method MulWord, addr 0x34819a4, size 0x7c, virtual false, abstract: false, final false
+  static inline uint32_t MulWord(uint32_t x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method MulWordAddTo, addr 0x3444f40, size 0x1a4, virtual false, abstract: false, final false
-static inline uint32_t MulWordAddTo(uint32_t  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method MulWordAddTo, addr 0x3481584, size 0x1a4, virtual false, abstract: false, final false
+  static inline uint32_t MulWordAddTo(uint32_t x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method MulWordDwordAdd, addr 0x3445294, size 0xcc, virtual false, abstract: false, final false
-static inline uint32_t MulWordDwordAdd(uint32_t  x, uint64_t  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method MulWordDwordAdd, addr 0x34818d8, size 0xcc, virtual false, abstract: false, final false
+  static inline uint32_t MulWordDwordAdd(uint32_t x, uint64_t y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-static inline ::Org::BouncyCastle::Math::Raw::Nat224* New_ctor() ;
+  static inline ::Org::BouncyCastle::Math::Raw::Nat224* New_ctor();
 
-/// @brief Method Square, addr 0x34456b8, size 0x3ec, virtual false, abstract: false, final false
-static inline void Square(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz, int32_t  zzOff) ;
+  /// @brief Method Square, addr 0x3481cfc, size 0x3ec, virtual false, abstract: false, final false
+  static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz, int32_t zzOff);
 
-/// @brief Method Square, addr 0x34453dc, size 0x2dc, virtual false, abstract: false, final false
-static inline void Square(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz) ;
+  /// @brief Method Square, addr 0x3481a20, size 0x2dc, virtual false, abstract: false, final false
+  static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-/// @brief Method Sub, addr 0x3443da4, size 0x210, virtual false, abstract: false, final false
-static inline int32_t Sub(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, int32_t  yOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method Sub, addr 0x34803e8, size 0x210, virtual false, abstract: false, final false
+  static inline int32_t Sub(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, int32_t yOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method Sub, addr 0x3445aa4, size 0x168, virtual false, abstract: false, final false
-static inline int32_t Sub(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method Sub, addr 0x34820e8, size 0x168, virtual false, abstract: false, final false
+  static inline int32_t Sub(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method SubBothFrom, addr 0x3445c0c, size 0x1a0, virtual false, abstract: false, final false
-static inline int32_t SubBothFrom(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method SubBothFrom, addr 0x3482250, size 0x1a0, virtual false, abstract: false, final false
+  static inline int32_t SubBothFrom(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method SubFrom, addr 0x3445ed8, size 0x19c, virtual false, abstract: false, final false
-static inline int32_t SubFrom(::ArrayW<uint32_t,::Array<uint32_t>*>  x, int32_t  xOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  z, int32_t  zOff) ;
+  /// @brief Method SubFrom, addr 0x348251c, size 0x19c, virtual false, abstract: false, final false
+  static inline int32_t SubFrom(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t xOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> z, int32_t zOff);
 
-/// @brief Method SubFrom, addr 0x3445dac, size 0x12c, virtual false, abstract: false, final false
-static inline int32_t SubFrom(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method SubFrom, addr 0x34823f0, size 0x12c, virtual false, abstract: false, final false
+  static inline int32_t SubFrom(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method ToBigInteger, addr 0x3446074, size 0xe0, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger(::ArrayW<uint32_t,::Array<uint32_t>*>  x) ;
+  /// @brief Method ToBigInteger, addr 0x34826b8, size 0xe0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-/// @brief Method Zero, addr 0x3446154, size 0x6c, virtual false, abstract: false, final false
-static inline void Zero(::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
+  /// @brief Method Zero, addr 0x3482798, size 0x6c, virtual false, abstract: false, final false
+  static inline void Zero(::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-/// @brief Method .ctor, addr 0x34461c0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3482804, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Nat224() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Nat224();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Nat224", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Nat224(Nat224&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Nat224", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Nat224(Nat224 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Nat224", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Nat224(Nat224 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Nat224", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Nat224(Nat224 const& ) = delete;
+  /// @brief Field M offset 0xffffffff size 0x8
+  static constexpr uint64_t M{ static_cast<uint64_t>(0xffffffffu) };
 
-/// @brief Field M offset 0xffffffff size 0x8
-static constexpr uint64_t  M{static_cast<uint64_t>(0xffffffffu)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1594 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1594};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::Raw::Nat224, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Math::Raw
+} // namespace Org::BouncyCastle::Math::Raw
 NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Nat224);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Nat224*, "Org.BouncyCastle.Math.Raw", "Nat224");

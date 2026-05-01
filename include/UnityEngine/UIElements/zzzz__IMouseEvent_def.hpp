@@ -17,58 +17,58 @@ class IMouseEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IMouseEvent);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IMouseEvent
 class CORDL_TYPE IMouseEvent {
 public:
-// Declarations
- __declspec(property(get=get_button)) int32_t  button;
+  // Declarations
+  __declspec(property(get = get_button)) int32_t button;
 
- __declspec(property(get=get_clickCount)) int32_t  clickCount;
+  __declspec(property(get = get_clickCount)) int32_t clickCount;
 
- __declspec(property(get=get_localMousePosition)) ::UnityEngine::Vector2  localMousePosition;
+  __declspec(property(get = get_localMousePosition)) ::UnityEngine::Vector2 localMousePosition;
 
- __declspec(property(get=get_modifiers)) ::UnityEngine::EventModifiers  modifiers;
+  __declspec(property(get = get_modifiers)) ::UnityEngine::EventModifiers modifiers;
 
- __declspec(property(get=get_mouseDelta)) ::UnityEngine::Vector2  mouseDelta;
+  __declspec(property(get = get_mouseDelta)) ::UnityEngine::Vector2 mouseDelta;
 
- __declspec(property(get=get_mousePosition)) ::UnityEngine::Vector2  mousePosition;
+  __declspec(property(get = get_mousePosition)) ::UnityEngine::Vector2 mousePosition;
 
- __declspec(property(get=get_pressedButtons)) int32_t  pressedButtons;
+  __declspec(property(get = get_pressedButtons)) int32_t pressedButtons;
 
-/// @brief Method get_button, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline int32_t get_button() ;
+  /// @brief Method get_button, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_button();
 
-/// @brief Method get_clickCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline int32_t get_clickCount() ;
+  /// @brief Method get_clickCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_clickCount();
 
-/// @brief Method get_localMousePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::UnityEngine::Vector2 get_localMousePosition() ;
+  /// @brief Method get_localMousePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_localMousePosition();
 
-/// @brief Method get_modifiers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::UnityEngine::EventModifiers get_modifiers() ;
+  /// @brief Method get_modifiers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::EventModifiers get_modifiers();
 
-/// @brief Method get_mouseDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::UnityEngine::Vector2 get_mouseDelta() ;
+  /// @brief Method get_mouseDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_mouseDelta();
 
-/// @brief Method get_mousePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::UnityEngine::Vector2 get_mousePosition() ;
+  /// @brief Method get_mousePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_mousePosition();
 
-/// @brief Method get_pressedButtons, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline int32_t get_pressedButtons() ;
+  /// @brief Method get_pressedButtons, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_pressedButtons();
 
-// Ctor Parameters [CppParam { name: "", ty: "IMouseEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IMouseEvent(IMouseEvent const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IMouseEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IMouseEvent(IMouseEvent const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4486};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4486 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::IMouseEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IMouseEvent*, "UnityEngine.UIElements", "IMouseEvent");

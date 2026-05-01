@@ -27,49 +27,49 @@ namespace Org::BouncyCastle::Asn1::X9 {
 // CS Name: Org.BouncyCastle.Asn1.X9.ECNamedCurveTable
 class CORDL_TYPE ECNamedCurveTable : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetByName, addr 0x357b798, size 0x1b8, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW  name) ;
+  // Declarations
+  /// @brief Method GetByName, addr 0x35b7ddc, size 0x1b8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-/// @brief Method GetByOid, addr 0x357bcc0, size 0x180, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
+  /// @brief Method GetByOid, addr 0x35b8304, size 0x180, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-/// @brief Method GetName, addr 0x357b950, size 0x1b8, virtual false, abstract: false, final false
-static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
+  /// @brief Method GetName, addr 0x35b7f94, size 0x1b8, virtual false, abstract: false, final false
+  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-/// @brief Method GetOid, addr 0x357bb08, size 0x1b8, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW  name) ;
+  /// @brief Method GetOid, addr 0x35b814c, size 0x1b8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
-static inline ::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable* New_ctor() ;
+  static inline ::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable* New_ctor();
 
-/// @brief Method .ctor, addr 0x357c064, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x35b86a8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Names, addr 0x357be40, size 0x224, virtual false, abstract: false, final false
-static inline ::System::Collections::IEnumerable* get_Names() ;
+  /// @brief Method get_Names, addr 0x35b8484, size 0x224, virtual false, abstract: false, final false
+  static inline ::System::Collections::IEnumerable* get_Names();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ECNamedCurveTable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECNamedCurveTable();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ECNamedCurveTable", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ECNamedCurveTable(ECNamedCurveTable&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ECNamedCurveTable", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ECNamedCurveTable(ECNamedCurveTable && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ECNamedCurveTable", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ECNamedCurveTable(ECNamedCurveTable const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ECNamedCurveTable", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ECNamedCurveTable(ECNamedCurveTable const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 414 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{414};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::X9
+} // namespace Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable*, "Org.BouncyCastle.Asn1.X9", "ECNamedCurveTable");

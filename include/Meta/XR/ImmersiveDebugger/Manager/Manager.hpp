@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Meta/XR/ImmersiveDebugger/Manager/ActionHook.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/ActionManager.hpp"
@@ -29,6 +29,5 @@
 #include "Meta/XR/ImmersiveDebugger/Manager/WatchUtils.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/Watch_1.hpp"
 #ifdef __cpp_modules
-                    export module Manager;
-                    #endif
-                
+export module Manager;
+#endif

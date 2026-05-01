@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Ice/BeatmapFloorLightTilesGrid.hpp"
 #include "Ice/FloorLightStreakTileEffect.hpp"
@@ -11,6 +11,5 @@
 #include "Ice/NoteCutFloorLightStreakTileEffectSpawner.hpp"
 #include "Ice/NoteCutFloorLightStreakTileEffectSpawnerLightWithId.hpp"
 #ifdef __cpp_modules
-                    export module Ice;
-                    #endif
-                
+export module Ice;
+#endif

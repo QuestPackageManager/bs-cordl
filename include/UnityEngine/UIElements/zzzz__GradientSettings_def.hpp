@@ -21,33 +21,36 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.GradientSettings
 struct CORDL_TYPE GradientSettings {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr GradientSettings() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GradientSettings();
 
-// Ctor Parameters [CppParam { name: "gradientType", ty: "::UnityEngine::UIElements::GradientType", modifiers: "", def_value: None }, CppParam { name: "addressMode", ty: "::UnityEngine::UIElements::AddressMode", modifiers: "", def_value: None }, CppParam { name: "radialFocus", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "location", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }]
-constexpr GradientSettings(::UnityEngine::UIElements::GradientType  gradientType, ::UnityEngine::UIElements::AddressMode  addressMode, ::UnityEngine::Vector2  radialFocus, ::UnityEngine::RectInt  location) noexcept;
+  // Ctor Parameters [CppParam { name: "gradientType", ty: "::UnityEngine::UIElements::GradientType", modifiers: "", def_value: None }, CppParam { name: "addressMode", ty:
+  // "::UnityEngine::UIElements::AddressMode", modifiers: "", def_value: None }, CppParam { name: "radialFocus", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name:
+  // "location", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }]
+  constexpr GradientSettings(::UnityEngine::UIElements::GradientType gradientType, ::UnityEngine::UIElements::AddressMode addressMode, ::UnityEngine::Vector2 radialFocus,
+                             ::UnityEngine::RectInt location) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5216};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5216 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field gradientType, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::UIElements::GradientType  gradientType;
+  /// @brief Field gradientType, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::UIElements::GradientType gradientType;
 
-/// @brief Field addressMode, offset: 0x4, size: 0x4, def value: None
- ::UnityEngine::UIElements::AddressMode  addressMode;
+  /// @brief Field addressMode, offset: 0x4, size: 0x4, def value: None
+  ::UnityEngine::UIElements::AddressMode addressMode;
 
-/// @brief Field radialFocus, offset: 0x8, size: 0x8, def value: None
- ::UnityEngine::Vector2  radialFocus;
+  /// @brief Field radialFocus, offset: 0x8, size: 0x8, def value: None
+  ::UnityEngine::Vector2 radialFocus;
 
-/// @brief Field location, offset: 0x10, size: 0x10, def value: None
- ::UnityEngine::RectInt  location;
+  /// @brief Field location, offset: 0x10, size: 0x10, def value: None
+  ::UnityEngine::RectInt location;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, gradientType) == 0x0, "Offset mismatch!");
@@ -60,5 +63,5 @@ static_assert(offsetof(::UnityEngine::UIElements::GradientSettings, location) ==
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GradientSettings, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GradientSettings, "UnityEngine.UIElements", "GradientSettings");

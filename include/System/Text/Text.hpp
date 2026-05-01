@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Text/ASCIIEncoding.hpp"
 #include "System/Text/ASCIIEncoding_ASCIIEncodingSealed.hpp"
@@ -48,6 +48,5 @@
 #include "System/Text/ValueStringBuilder.hpp"
 #include "System/Text/ValueUtf8Converter.hpp"
 #ifdef __cpp_modules
-                    export module Text;
-                    #endif
-                
+export module Text;
+#endif

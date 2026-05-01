@@ -20,34 +20,34 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.MaterialParameter
 class CORDL_TYPE MaterialParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Material>> {
 public:
-// Declarations
-static inline ::UnityEngine::Rendering::MaterialParameter* New_ctor(::UnityEngine::Material*  value, bool  overrideState) ;
+  // Declarations
+  static inline ::UnityEngine::Rendering::MaterialParameter* New_ctor(::UnityEngine::Material* value, bool overrideState);
 
-/// @brief Method .ctor, addr 0x6617ab8, size 0x64, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Material*  value, bool  overrideState) ;
+  /// @brief Method .ctor, addr 0x6689ac4, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Material* value, bool overrideState);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MaterialParameter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialParameter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialParameter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MaterialParameter(MaterialParameter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MaterialParameter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MaterialParameter(MaterialParameter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialParameter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MaterialParameter(MaterialParameter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MaterialParameter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MaterialParameter(MaterialParameter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12360 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12353};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::MaterialParameter, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::MaterialParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::MaterialParameter*, "UnityEngine.Rendering", "MaterialParameter");

@@ -25,86 +25,85 @@ struct HashFNV1A32;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::HashFNV1A32);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.HashFNV1A32
 struct CORDL_TYPE HashFNV1A32 {
 public:
-// Declarations
- __declspec(property(get=get_value)) int32_t  value;
+  // Declarations
+  __declspec(property(get = get_value)) int32_t value;
 
-/// @brief Method Append, addr 0x660eb18, size 0x74, virtual false, abstract: false, final false
-inline void Append(::System::Delegate*  del) ;
+  /// @brief Method Append, addr 0x6680b24, size 0x74, virtual false, abstract: false, final false
+  inline void Append(::System::Delegate* del);
 
-/// @brief Method Append, addr 0x660e9e8, size 0x48, virtual false, abstract: false, final false
-inline void Append(::ByRef<::UnityEngine::Vector2>  input) ;
+  /// @brief Method Append, addr 0x66809f4, size 0x48, virtual false, abstract: false, final false
+  inline void Append(::ByRef<::UnityEngine::Vector2> input);
 
-/// @brief Method Append, addr 0x660ea30, size 0x64, virtual false, abstract: false, final false
-inline void Append(::ByRef<::UnityEngine::Vector3>  input) ;
+  /// @brief Method Append, addr 0x6680a3c, size 0x64, virtual false, abstract: false, final false
+  inline void Append(::ByRef<::UnityEngine::Vector3> input);
 
-/// @brief Method Append, addr 0x660ea94, size 0x84, virtual false, abstract: false, final false
-inline void Append(::ByRef<::UnityEngine::Vector4>  input) ;
+  /// @brief Method Append, addr 0x6680aa0, size 0x84, virtual false, abstract: false, final false
+  inline void Append(::ByRef<::UnityEngine::Vector4> input);
 
-/// @brief Method Append, addr 0x660e958, size 0x28, virtual false, abstract: false, final false
-inline void Append(::ByRef<bool>  input) ;
+  /// @brief Method Append, addr 0x6680964, size 0x28, virtual false, abstract: false, final false
+  inline void Append(::ByRef<bool> input);
 
-/// @brief Method Append, addr 0x660e9b0, size 0x38, virtual false, abstract: false, final false
-inline void Append(::ByRef<double_t>  input) ;
+  /// @brief Method Append, addr 0x66809bc, size 0x38, virtual false, abstract: false, final false
+  inline void Append(::ByRef<double_t> input);
 
-/// @brief Method Append, addr 0x660e980, size 0x30, virtual false, abstract: false, final false
-inline void Append(::ByRef<float_t>  input) ;
+  /// @brief Method Append, addr 0x668098c, size 0x30, virtual false, abstract: false, final false
+  inline void Append(::ByRef<float_t> input);
 
-/// @brief Method Append, addr 0x660e918, size 0x20, virtual false, abstract: false, final false
-inline void Append(::ByRef<int32_t>  input) ;
+  /// @brief Method Append, addr 0x6680924, size 0x20, virtual false, abstract: false, final false
+  inline void Append(::ByRef<int32_t> input);
 
-/// @brief Method Append, addr 0x660e938, size 0x20, virtual false, abstract: false, final false
-inline void Append(::ByRef<uint32_t>  input) ;
+  /// @brief Method Append, addr 0x6680944, size 0x20, virtual false, abstract: false, final false
+  inline void Append(::ByRef<uint32_t> input);
 
-/// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-inline void Append(T  input) ;
+  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> inline void Append(T input);
 
-/// @brief Method Create, addr 0x660e90c, size 0xc, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rendering::HashFNV1A32 Create() ;
+  /// @brief Method Create, addr 0x6680918, size 0xc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::HashFNV1A32 Create();
 
-/// @brief Method GetFuncHashCode, addr 0x660eb8c, size 0x4c, virtual false, abstract: false, final false
-static inline int32_t GetFuncHashCode(::System::Delegate*  del) ;
+  /// @brief Method GetFuncHashCode, addr 0x6680b98, size 0x4c, virtual false, abstract: false, final false
+  static inline int32_t GetFuncHashCode(::System::Delegate* del);
 
-/// @brief Method GetHashCode, addr 0x660ebe0, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6680bec, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method get_value, addr 0x660ebd8, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_value() ;
+  /// @brief Method get_value, addr 0x6680be4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_value();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr HashFNV1A32() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HashFNV1A32();
 
-// Ctor Parameters [CppParam { name: "m_Hash", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr HashFNV1A32(uint32_t  m_Hash) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Hash", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr HashFNV1A32(uint32_t m_Hash) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12281};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12288 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field k_OffsetBasis offset 0xffffffff size 0x4
-static constexpr uint32_t  k_OffsetBasis{static_cast<uint32_t>(0x811c9dc5u)};
+  /// @brief Field k_OffsetBasis offset 0xffffffff size 0x4
+  static constexpr uint32_t k_OffsetBasis{ static_cast<uint32_t>(0x811c9dc5u) };
 
-/// @brief Field k_Prime offset 0xffffffff size 0x4
-static constexpr uint32_t  k_Prime{static_cast<uint32_t>(0x1000193u)};
+  /// @brief Field k_Prime offset 0xffffffff size 0x4
+  static constexpr uint32_t k_Prime{ static_cast<uint32_t>(0x1000193u) };
 
-/// @brief Field m_Hash, offset: 0x0, size: 0x4, def value: None
- uint32_t  m_Hash;
+  /// @brief Field m_Hash, offset: 0x0, size: 0x4, def value: None
+  uint32_t m_Hash;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::HashFNV1A32, m_Hash) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::HashFNV1A32, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::HashFNV1A32, "UnityEngine.Rendering", "HashFNV1A32");

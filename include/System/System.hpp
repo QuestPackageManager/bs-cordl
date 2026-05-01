@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/AccessViolationException.hpp"
 #include "System/Action.hpp"
@@ -353,6 +353,5 @@
 #include "System/WeakReference_1.hpp"
 #include "System/WindowsConsoleDriver.hpp"
 #ifdef __cpp_modules
-                    export module System;
-                    #endif
-                
+export module System;
+#endif

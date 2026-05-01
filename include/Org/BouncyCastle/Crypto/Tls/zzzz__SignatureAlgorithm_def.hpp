@@ -18,46 +18,46 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.SignatureAlgorithm
 class CORDL_TYPE SignatureAlgorithm : public ::System::Object {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAlgorithm* New_ctor() ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAlgorithm* New_ctor();
 
-/// @brief Method .ctor, addr 0x33747f4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x33b0e38, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SignatureAlgorithm() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignatureAlgorithm();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SignatureAlgorithm", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SignatureAlgorithm(SignatureAlgorithm&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SignatureAlgorithm", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SignatureAlgorithm(SignatureAlgorithm && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SignatureAlgorithm", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SignatureAlgorithm(SignatureAlgorithm const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SignatureAlgorithm", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SignatureAlgorithm(SignatureAlgorithm const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1274 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1274};
+  /// @brief Field anonymous offset 0xffffffff size 0x1
+  static constexpr uint8_t anonymous{ static_cast<uint8_t>(0x0u) };
 
-/// @brief Field anonymous offset 0xffffffff size 0x1
-static constexpr uint8_t  anonymous{static_cast<uint8_t>(0x0u)};
+  /// @brief Field dsa offset 0xffffffff size 0x1
+  static constexpr uint8_t dsa{ static_cast<uint8_t>(0x2u) };
 
-/// @brief Field dsa offset 0xffffffff size 0x1
-static constexpr uint8_t  dsa{static_cast<uint8_t>(0x2u)};
+  /// @brief Field ecdsa offset 0xffffffff size 0x1
+  static constexpr uint8_t ecdsa{ static_cast<uint8_t>(0x3u) };
 
-/// @brief Field ecdsa offset 0xffffffff size 0x1
-static constexpr uint8_t  ecdsa{static_cast<uint8_t>(0x3u)};
+  /// @brief Field rsa offset 0xffffffff size 0x1
+  static constexpr uint8_t rsa{ static_cast<uint8_t>(0x1u) };
 
-/// @brief Field rsa offset 0xffffffff size 0x1
-static constexpr uint8_t  rsa{static_cast<uint8_t>(0x1u)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::SignatureAlgorithm, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::SignatureAlgorithm);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::SignatureAlgorithm*, "Org.BouncyCastle.Crypto.Tls", "SignatureAlgorithm");

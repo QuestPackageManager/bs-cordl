@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatSaber/Destinations/AppQuitRequestedException.hpp"
 #include "BeatSaber/Destinations/AppRestartRequestedException.hpp"
@@ -20,6 +20,5 @@
 #include "BeatSaber/Destinations/SceneNames.hpp"
 #include "BeatSaber/Destinations/SimpleBeatmapKey.hpp"
 #ifdef __cpp_modules
-                    export module Destinations;
-                    #endif
-                
+export module Destinations;
+#endif

@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PersistentCallGroup)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine::Events {
 class InvokableCallList;
@@ -30,51 +29,51 @@ namespace UnityEngine::Events {
 // CS Name: UnityEngine.Events.PersistentCallGroup
 class CORDL_TYPE PersistentCallGroup : public ::System::Object {
 public:
-// Declarations
-/// @brief Field m_Calls, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Calls, put=__cordl_internal_set_m_Calls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*  m_Calls;
+  // Declarations
+  /// @brief Field m_Calls, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
 
-/// @brief Method Initialize, addr 0x6933288, size 0x14c, virtual false, abstract: false, final false
-inline void Initialize(::UnityEngine::Events::InvokableCallList*  invokableList, ::UnityEngine::Events::UnityEventBase*  unityEventBase) ;
+  /// @brief Method Initialize, addr 0x69a54a4, size 0x14c, virtual false, abstract: false, final false
+  inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
-static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor() ;
+  static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* const& __cordl_internal_get_m_Calls() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* const& __cordl_internal_get_m_Calls() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*& __cordl_internal_get_m_Calls() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*& __cordl_internal_get_m_Calls();
 
-constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*  value) ;
+  constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value);
 
-/// @brief Method .ctor, addr 0x6933214, size 0x74, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69a5430, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PersistentCallGroup() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PersistentCallGroup();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentCallGroup", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PersistentCallGroup(PersistentCallGroup&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PersistentCallGroup", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PersistentCallGroup(PersistentCallGroup && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentCallGroup", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PersistentCallGroup(PersistentCallGroup const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PersistentCallGroup", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PersistentCallGroup(PersistentCallGroup const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10439 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10433};
+  /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* ___m_Calls;
 
-/// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*  ___m_Calls;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Events::PersistentCallGroup, ___m_Calls) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::PersistentCallGroup, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Events
+} // namespace UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::PersistentCallGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::PersistentCallGroup*, "UnityEngine.Events", "PersistentCallGroup");

@@ -10,860 +10,653 @@
 #include "UnityEngine/Rendering/zzzz__FrameTimeSampleHistory_def.hpp"
 #include "UnityEngine/zzzz__FrameTiming_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming.get_bottleneckHistorySize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::get_bottleneckHistorySize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::get_bottleneckHistorySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a9f44;
+  constexpr static std::size_t addrs = 0x661bf50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "get_bottleneckHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "get_bottleneckHistorySize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming.set_bottleneckHistorySize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)(int32_t)>(&::UnityEngine::Rendering::DebugFrameTiming::set_bottleneckHistorySize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugFrameTiming::set_bottleneckHistorySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a9f4c;
+  constexpr static std::size_t addrs = 0x661bf58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "set_bottleneckHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "set_bottleneckHistorySize",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming.get_sampleHistorySize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::get_sampleHistorySize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::get_sampleHistorySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a9f54;
+  constexpr static std::size_t addrs = 0x661bf60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "get_sampleHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "get_sampleHistorySize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming.set_sampleHistorySize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)(int32_t)>(&::UnityEngine::Rendering::DebugFrameTiming::set_sampleHistorySize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)(int32_t)>(
+    &::UnityEngine::Rendering::DebugFrameTiming::set_sampleHistorySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a9f5c;
+  constexpr static std::size_t addrs = 0x661bf68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "set_sampleHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "set_sampleHistorySize",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x65a9f64;
+  constexpr static std::size_t addrs = 0x661bf70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming.UpdateFrameTiming
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::UpdateFrameTiming)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::UpdateFrameTiming)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x65aa188;
+  constexpr static std::size_t addrs = 0x661c194;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "UpdateFrameTiming",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "UpdateFrameTiming", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming.RegisterDebugUI
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(&::UnityEngine::Rendering::DebugFrameTiming::RegisterDebugUI)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)(
+    ::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(&::UnityEngine::Rendering::DebugFrameTiming::RegisterDebugUI)> {
   constexpr static std::size_t size = 0x14e8;
-  constexpr static std::size_t addrs = 0x65aaa00;
+  constexpr static std::size_t addrs = 0x661ca0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "RegisterDebugUI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "RegisterDebugUI", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming.Reset
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x65abfdc;
+  constexpr static std::size_t addrs = 0x661dfe8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "Reset",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac0b8;
+  constexpr static std::size_t addrs = 0x661e0c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_1)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac0e8;
+  constexpr static std::size_t addrs = 0x661e0f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_2)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac118;
+  constexpr static std::size_t addrs = 0x661e124;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_3
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_3)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac148;
+  constexpr static std::size_t addrs = 0x661e154;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_4
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_4)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac178;
+  constexpr static std::size_t addrs = 0x661e184;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_5
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_5)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_5)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac1a8;
+  constexpr static std::size_t addrs = 0x661e1b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_6
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_6)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_6)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac1d8;
+  constexpr static std::size_t addrs = 0x661e1e4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_7
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_7)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_7)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac208;
+  constexpr static std::size_t addrs = 0x661e214;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_8
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_8)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_8)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac238;
+  constexpr static std::size_t addrs = 0x661e244;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_8", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_9
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_9)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_9)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac268;
+  constexpr static std::size_t addrs = 0x661e274;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_9",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_9", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_10
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_10)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_10)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac298;
+  constexpr static std::size_t addrs = 0x661e2a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_10",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_10", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_11
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_11)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_11)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac2c8;
+  constexpr static std::size_t addrs = 0x661e2d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_11",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_11", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_12
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_12)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_12)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac2f8;
+  constexpr static std::size_t addrs = 0x661e304;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_12",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_12", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_13
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_13)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_13)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac328;
+  constexpr static std::size_t addrs = 0x661e334;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_13",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_13", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_14
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_14)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_14)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac358;
+  constexpr static std::size_t addrs = 0x661e364;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_14",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_14", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_15
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_15)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_15)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac388;
+  constexpr static std::size_t addrs = 0x661e394;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_15",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_15", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_16
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_16)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_16)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac3b8;
+  constexpr static std::size_t addrs = 0x661e3c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_16", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_17
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_17)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_17)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac3e8;
+  constexpr static std::size_t addrs = 0x661e3f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_17",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_17", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_18
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_18)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_18)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac418;
+  constexpr static std::size_t addrs = 0x661e424;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_18",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_18", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_19
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_19)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_19)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac448;
+  constexpr static std::size_t addrs = 0x661e454;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_19",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_19", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_20
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_20)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_20)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac478;
+  constexpr static std::size_t addrs = 0x661e484;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_20",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_20", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugFrameTiming._RegisterDebugUI_b__17_21
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(&::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_21)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugFrameTiming::*)()>(
+    &::UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_21)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ac4a8;
+  constexpr static std::size_t addrs = 0x661e4b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_21",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                               "<RegisterDebugUI>b__17_21", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::FrameTimeSampleHistory*& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_FrameHistory()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_FrameHistory;
+constexpr ::UnityEngine::Rendering::FrameTimeSampleHistory*& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_FrameHistory() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FrameHistory;
 }
 constexpr ::UnityEngine::Rendering::FrameTimeSampleHistory* const& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_FrameHistory() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_FrameHistory;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FrameHistory;
 }
-constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_FrameHistory(::UnityEngine::Rendering::FrameTimeSampleHistory*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FrameHistory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_FrameHistory(::UnityEngine::Rendering::FrameTimeSampleHistory* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FrameHistory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::BottleneckHistory*& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_BottleneckHistory()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_BottleneckHistory;
+constexpr ::UnityEngine::Rendering::BottleneckHistory*& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_BottleneckHistory() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_BottleneckHistory;
 }
 constexpr ::UnityEngine::Rendering::BottleneckHistory* const& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_BottleneckHistory() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_BottleneckHistory;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_BottleneckHistory;
 }
-constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_BottleneckHistory(::UnityEngine::Rendering::BottleneckHistory*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_BottleneckHistory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_BottleneckHistory(::UnityEngine::Rendering::BottleneckHistory* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_BottleneckHistory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get__bottleneckHistorySize_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bottleneckHistorySize_k__BackingField;
+constexpr int32_t& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get__bottleneckHistorySize_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bottleneckHistorySize_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get__bottleneckHistorySize_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bottleneckHistorySize_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bottleneckHistorySize_k__BackingField;
 }
-constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set__bottleneckHistorySize_k__BackingField(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____bottleneckHistorySize_k__BackingField = value;
+constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set__bottleneckHistorySize_k__BackingField(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____bottleneckHistorySize_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get__sampleHistorySize_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sampleHistorySize_k__BackingField;
+constexpr int32_t& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get__sampleHistorySize_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sampleHistorySize_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get__sampleHistorySize_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sampleHistorySize_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sampleHistorySize_k__BackingField;
 }
-constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set__sampleHistorySize_k__BackingField(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____sampleHistorySize_k__BackingField = value;
+constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set__sampleHistorySize_k__BackingField(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____sampleHistorySize_k__BackingField = value;
 }
-constexpr ::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*>& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_Timing()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Timing;
+constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*>& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_Timing() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Timing;
 }
-constexpr ::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*> const& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_Timing() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Timing;
+constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> const& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_Timing() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Timing;
 }
-constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_Timing(::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Timing)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_Timing(::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Timing)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::FrameTimeSample& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_Sample()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Sample;
+constexpr ::UnityEngine::Rendering::FrameTimeSample& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_Sample() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Sample;
 }
 constexpr ::UnityEngine::Rendering::FrameTimeSample const& UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_get_m_Sample() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Sample;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Sample;
 }
-constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_Sample(::UnityEngine::Rendering::FrameTimeSample  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Sample = value;
+constexpr void UnityEngine::Rendering::DebugFrameTiming::__cordl_internal_set_m_Sample(::UnityEngine::Rendering::FrameTimeSample value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Sample = value;
 }
-inline int32_t UnityEngine::Rendering::DebugFrameTiming::get_bottleneckHistorySize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "get_bottleneckHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::DebugFrameTiming::get_bottleneckHistorySize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "get_bottleneckHistorySize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugFrameTiming::set_bottleneckHistorySize(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "set_bottleneckHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::DebugFrameTiming::set_bottleneckHistorySize(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "set_bottleneckHistorySize",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int32_t UnityEngine::Rendering::DebugFrameTiming::get_sampleHistorySize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "get_sampleHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Rendering::DebugFrameTiming::get_sampleHistorySize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "get_sampleHistorySize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugFrameTiming::set_sampleHistorySize(int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "set_sampleHistorySize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::DebugFrameTiming::set_sampleHistorySize(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "set_sampleHistorySize",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::DebugFrameTiming::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::DebugFrameTiming::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugFrameTiming::UpdateFrameTiming()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "UpdateFrameTiming",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::DebugFrameTiming::UpdateFrameTiming() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "UpdateFrameTiming", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::DebugFrameTiming::RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*  list)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "RegisterDebugUI",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
+inline void UnityEngine::Rendering::DebugFrameTiming::RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* list) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "RegisterDebugUI", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
 }
-inline void UnityEngine::Rendering::DebugFrameTiming::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::DebugFrameTiming::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(), "Reset",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_2() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_3()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_3",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_3() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_4()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_4",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_4() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_5()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_5",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_5() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_6()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_6",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_6() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_7()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_7",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_7() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_8()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_8",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_8() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_8", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_9()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_9",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_9() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_9", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_10()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_10",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_10() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_10", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_11()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_11",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_11() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_11", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_12()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_12",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_12() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_12", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_13()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_13",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_13() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_13", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_14()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_14",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_14() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_14", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_15()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_15",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_15() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_15", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_16()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_16",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_16() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_16", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_17()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_17",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_17() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_17", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_18()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_18",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_18() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_18", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_19()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_19",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_19() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_19", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_20()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_20",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_20() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_20", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_21()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
-                        "<RegisterDebugUI>b__17_21",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::Rendering::DebugFrameTiming::_RegisterDebugUI_b__17_21() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugFrameTiming*>::get(),
+                                                                             "<RegisterDebugUI>b__17_21", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::DebugFrameTiming* UnityEngine::Rendering::DebugFrameTiming::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugFrameTiming*>());
+inline ::UnityEngine::Rendering::DebugFrameTiming* UnityEngine::Rendering::DebugFrameTiming::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::DebugFrameTiming*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugFrameTiming::DebugFrameTiming()   {
-}
+constexpr ::UnityEngine::Rendering::DebugFrameTiming::DebugFrameTiming() {}

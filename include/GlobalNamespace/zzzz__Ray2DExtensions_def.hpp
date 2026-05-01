@@ -25,32 +25,32 @@ namespace GlobalNamespace {
 // CS Name: Ray2DExtensions
 class CORDL_TYPE Ray2DExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CircleIntersections, addr 0x322cc84, size 0x120, virtual false, abstract: false, final false
-static inline int32_t CircleIntersections(::UnityEngine::Ray2D  ray, ::UnityEngine::Vector2  circleCenter, float_t  radius, ::ArrayW<float_t,::Array<float_t>*>  distances) ;
+  // Declarations
+  /// @brief Method CircleIntersections, addr 0x326915c, size 0x120, virtual false, abstract: false, final false
+  static inline int32_t CircleIntersections(::UnityEngine::Ray2D ray, ::UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t, ::Array<float_t>*> distances);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Ray2DExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Ray2DExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Ray2DExtensions(Ray2DExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Ray2DExtensions(Ray2DExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Ray2DExtensions(Ray2DExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Ray2DExtensions(Ray2DExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20710 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20698};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Ray2DExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Ray2DExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions");

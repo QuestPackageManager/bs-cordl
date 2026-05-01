@@ -23,78 +23,78 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.LiftGammaGain
 class CORDL_TYPE LiftGammaGain : public ::UnityEngine::Rendering::VolumeComponent {
 public:
-// Declarations
-/// @brief Field gain, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get_gain, put=__cordl_internal_set_gain)) ::UnityEngine::Rendering::Vector4Parameter*  gain;
+  // Declarations
+  /// @brief Field gain, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_gain, put = __cordl_internal_set_gain)) ::UnityEngine::Rendering::Vector4Parameter* gain;
 
-/// @brief Field gamma, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get_gamma, put=__cordl_internal_set_gamma)) ::UnityEngine::Rendering::Vector4Parameter*  gamma;
+  /// @brief Field gamma, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_gamma, put = __cordl_internal_set_gamma)) ::UnityEngine::Rendering::Vector4Parameter* gamma;
 
-/// @brief Field lift, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_lift, put=__cordl_internal_set_lift)) ::UnityEngine::Rendering::Vector4Parameter*  lift;
+  /// @brief Field lift, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_lift, put = __cordl_internal_set_lift)) ::UnityEngine::Rendering::Vector4Parameter* lift;
 
-/// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
-constexpr operator  ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
+  /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
+  constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-/// @brief Method IsActive, addr 0x66c71b0, size 0xac, virtual true, abstract: false, final true
-inline bool IsActive() ;
+  /// @brief Method IsActive, addr 0x67391bc, size 0xac, virtual true, abstract: false, final true
+  inline bool IsActive();
 
-/// @brief Method IsTileCompatible, addr 0x66c725c, size 0x8, virtual true, abstract: false, final true
-inline bool IsTileCompatible() ;
+  /// @brief Method IsTileCompatible, addr 0x6739268, size 0x8, virtual true, abstract: false, final true
+  inline bool IsTileCompatible();
 
-static inline ::UnityEngine::Rendering::Universal::LiftGammaGain* New_ctor() ;
+  static inline ::UnityEngine::Rendering::Universal::LiftGammaGain* New_ctor();
 
-constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_gain() const;
+  constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_gain() const;
 
-constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_gain() ;
+  constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_gain();
 
-constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_gamma() const;
+  constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_gamma() const;
 
-constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_gamma() ;
+  constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_gamma();
 
-constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_lift() const;
+  constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_lift() const;
 
-constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_lift() ;
+  constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_lift();
 
-constexpr void __cordl_internal_set_gain(::UnityEngine::Rendering::Vector4Parameter*  value) ;
+  constexpr void __cordl_internal_set_gain(::UnityEngine::Rendering::Vector4Parameter* value);
 
-constexpr void __cordl_internal_set_gamma(::UnityEngine::Rendering::Vector4Parameter*  value) ;
+  constexpr void __cordl_internal_set_gamma(::UnityEngine::Rendering::Vector4Parameter* value);
 
-constexpr void __cordl_internal_set_lift(::UnityEngine::Rendering::Vector4Parameter*  value) ;
+  constexpr void __cordl_internal_set_lift(::UnityEngine::Rendering::Vector4Parameter* value);
 
-/// @brief Method .ctor, addr 0x66c7264, size 0xd0, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6739270, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
-constexpr ::UnityEngine::Rendering::IPostProcessComponent* i___UnityEngine__Rendering__IPostProcessComponent() noexcept;
+  /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
+  constexpr ::UnityEngine::Rendering::IPostProcessComponent* i___UnityEngine__Rendering__IPostProcessComponent() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LiftGammaGain() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LiftGammaGain();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LiftGammaGain", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LiftGammaGain(LiftGammaGain&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LiftGammaGain", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LiftGammaGain(LiftGammaGain && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LiftGammaGain", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LiftGammaGain(LiftGammaGain const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LiftGammaGain", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LiftGammaGain(LiftGammaGain const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12784 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12777};
+  /// @brief Field lift, offset: 0x38, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Vector4Parameter* ___lift;
 
-/// @brief Field lift, offset: 0x38, size: 0x8, def value: None
- ::UnityEngine::Rendering::Vector4Parameter*  ___lift;
+  /// @brief Field gamma, offset: 0x40, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Vector4Parameter* ___gamma;
 
-/// @brief Field gamma, offset: 0x40, size: 0x8, def value: None
- ::UnityEngine::Rendering::Vector4Parameter*  ___gamma;
+  /// @brief Field gain, offset: 0x48, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Vector4Parameter* ___gain;
 
-/// @brief Field gain, offset: 0x48, size: 0x8, def value: None
- ::UnityEngine::Rendering::Vector4Parameter*  ___gain;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::LiftGammaGain, ___lift) == 0x38, "Offset mismatch!");
@@ -105,6 +105,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::LiftGammaGain, ___ga
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::LiftGammaGain, 0x50>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::LiftGammaGain);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::LiftGammaGain*, "UnityEngine.Rendering.Universal", "LiftGammaGain");

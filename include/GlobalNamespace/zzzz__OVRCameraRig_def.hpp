@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRCameraRig)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Camera;
@@ -32,695 +31,713 @@ namespace GlobalNamespace {
 // CS Name: OVRCameraRig
 class CORDL_TYPE OVRCameraRig : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field TrackingSpaceChanged, offset 0xa0, size 0x8 
- __declspec(property(get=__cordl_internal_get_TrackingSpaceChanged, put=__cordl_internal_set_TrackingSpaceChanged)) ::System::Action_1<::UnityW<::UnityEngine::Transform>>*  TrackingSpaceChanged;
+  // Declarations
+  /// @brief Field TrackingSpaceChanged, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_TrackingSpaceChanged, put = __cordl_internal_set_TrackingSpaceChanged)) ::System::Action_1<::UnityW<::UnityEngine::Transform>>* TrackingSpaceChanged;
 
-/// @brief Field UpdatedAnchors, offset 0x98, size 0x8 
- __declspec(property(get=__cordl_internal_get_UpdatedAnchors, put=__cordl_internal_set_UpdatedAnchors)) ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*  UpdatedAnchors;
+  /// @brief Field UpdatedAnchors, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_UpdatedAnchors, put = __cordl_internal_set_UpdatedAnchors)) ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* UpdatedAnchors;
 
-/// @brief Field <centerEyeAnchor>k__BackingField, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__centerEyeAnchor_k__BackingField, put=__cordl_internal_set__centerEyeAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _centerEyeAnchor_k__BackingField;
+  /// @brief Field <centerEyeAnchor>k__BackingField, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__centerEyeAnchor_k__BackingField, put = __cordl_internal_set__centerEyeAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _centerEyeAnchor_k__BackingField;
 
-/// @brief Field _centerEyeCamera, offset 0x128, size 0x8 
- __declspec(property(get=__cordl_internal_get__centerEyeCamera, put=__cordl_internal_set__centerEyeCamera)) ::UnityW<::UnityEngine::Camera>  _centerEyeCamera;
+  /// @brief Field _centerEyeCamera, offset 0x128, size 0x8
+  __declspec(property(get = __cordl_internal_get__centerEyeCamera, put = __cordl_internal_set__centerEyeCamera)) ::UnityW<::UnityEngine::Camera> _centerEyeCamera;
 
-/// @brief Field <leftControllerAnchor>k__BackingField, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftControllerAnchor_k__BackingField, put=__cordl_internal_set__leftControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _leftControllerAnchor_k__BackingField;
+  /// @brief Field <leftControllerAnchor>k__BackingField, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftControllerAnchor_k__BackingField, put = __cordl_internal_set__leftControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _leftControllerAnchor_k__BackingField;
 
-/// @brief Field <leftControllerInHandAnchor>k__BackingField, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftControllerInHandAnchor_k__BackingField, put=__cordl_internal_set__leftControllerInHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _leftControllerInHandAnchor_k__BackingField;
+  /// @brief Field <leftControllerInHandAnchor>k__BackingField, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftControllerInHandAnchor_k__BackingField,
+                      put = __cordl_internal_set__leftControllerInHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _leftControllerInHandAnchor_k__BackingField;
 
-/// @brief Field <leftEyeAnchor>k__BackingField, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftEyeAnchor_k__BackingField, put=__cordl_internal_set__leftEyeAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _leftEyeAnchor_k__BackingField;
+  /// @brief Field <leftEyeAnchor>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftEyeAnchor_k__BackingField, put = __cordl_internal_set__leftEyeAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _leftEyeAnchor_k__BackingField;
 
-/// @brief Field _leftEyeCamera, offset 0x130, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftEyeCamera, put=__cordl_internal_set__leftEyeCamera)) ::UnityW<::UnityEngine::Camera>  _leftEyeCamera;
+  /// @brief Field _leftEyeCamera, offset 0x130, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftEyeCamera, put = __cordl_internal_set__leftEyeCamera)) ::UnityW<::UnityEngine::Camera> _leftEyeCamera;
 
-/// @brief Field <leftHandAnchorDetached>k__BackingField, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftHandAnchorDetached_k__BackingField, put=__cordl_internal_set__leftHandAnchorDetached_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _leftHandAnchorDetached_k__BackingField;
+  /// @brief Field <leftHandAnchorDetached>k__BackingField, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftHandAnchorDetached_k__BackingField, put = __cordl_internal_set__leftHandAnchorDetached_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _leftHandAnchorDetached_k__BackingField;
 
-/// @brief Field <leftHandAnchor>k__BackingField, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftHandAnchor_k__BackingField, put=__cordl_internal_set__leftHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _leftHandAnchor_k__BackingField;
+  /// @brief Field <leftHandAnchor>k__BackingField, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftHandAnchor_k__BackingField, put = __cordl_internal_set__leftHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _leftHandAnchor_k__BackingField;
 
-/// @brief Field <leftHandOnControllerAnchor>k__BackingField, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get__leftHandOnControllerAnchor_k__BackingField, put=__cordl_internal_set__leftHandOnControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _leftHandOnControllerAnchor_k__BackingField;
+  /// @brief Field <leftHandOnControllerAnchor>k__BackingField, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftHandOnControllerAnchor_k__BackingField,
+                      put = __cordl_internal_set__leftHandOnControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _leftHandOnControllerAnchor_k__BackingField;
 
-/// @brief Field _previousTrackingSpaceTransform, offset 0x140, size 0x40 
- __declspec(property(get=__cordl_internal_get__previousTrackingSpaceTransform, put=__cordl_internal_set__previousTrackingSpaceTransform)) ::UnityEngine::Matrix4x4  _previousTrackingSpaceTransform;
+  /// @brief Field _previousTrackingSpaceTransform, offset 0x140, size 0x40
+  __declspec(property(get = __cordl_internal_get__previousTrackingSpaceTransform, put = __cordl_internal_set__previousTrackingSpaceTransform)) ::UnityEngine::Matrix4x4 _previousTrackingSpaceTransform;
 
-/// @brief Field <rightControllerAnchor>k__BackingField, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightControllerAnchor_k__BackingField, put=__cordl_internal_set__rightControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _rightControllerAnchor_k__BackingField;
+  /// @brief Field <rightControllerAnchor>k__BackingField, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightControllerAnchor_k__BackingField, put = __cordl_internal_set__rightControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _rightControllerAnchor_k__BackingField;
 
-/// @brief Field <rightControllerInHandAnchor>k__BackingField, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightControllerInHandAnchor_k__BackingField, put=__cordl_internal_set__rightControllerInHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _rightControllerInHandAnchor_k__BackingField;
+  /// @brief Field <rightControllerInHandAnchor>k__BackingField, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightControllerInHandAnchor_k__BackingField,
+                      put = __cordl_internal_set__rightControllerInHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _rightControllerInHandAnchor_k__BackingField;
 
-/// @brief Field <rightEyeAnchor>k__BackingField, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightEyeAnchor_k__BackingField, put=__cordl_internal_set__rightEyeAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _rightEyeAnchor_k__BackingField;
+  /// @brief Field <rightEyeAnchor>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightEyeAnchor_k__BackingField, put = __cordl_internal_set__rightEyeAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _rightEyeAnchor_k__BackingField;
 
-/// @brief Field _rightEyeCamera, offset 0x138, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightEyeCamera, put=__cordl_internal_set__rightEyeCamera)) ::UnityW<::UnityEngine::Camera>  _rightEyeCamera;
+  /// @brief Field _rightEyeCamera, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightEyeCamera, put = __cordl_internal_set__rightEyeCamera)) ::UnityW<::UnityEngine::Camera> _rightEyeCamera;
 
-/// @brief Field <rightHandAnchorDetached>k__BackingField, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightHandAnchorDetached_k__BackingField, put=__cordl_internal_set__rightHandAnchorDetached_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _rightHandAnchorDetached_k__BackingField;
+  /// @brief Field <rightHandAnchorDetached>k__BackingField, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightHandAnchorDetached_k__BackingField, put = __cordl_internal_set__rightHandAnchorDetached_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _rightHandAnchorDetached_k__BackingField;
 
-/// @brief Field <rightHandAnchor>k__BackingField, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightHandAnchor_k__BackingField, put=__cordl_internal_set__rightHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _rightHandAnchor_k__BackingField;
+  /// @brief Field <rightHandAnchor>k__BackingField, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightHandAnchor_k__BackingField, put = __cordl_internal_set__rightHandAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _rightHandAnchor_k__BackingField;
 
-/// @brief Field <rightHandOnControllerAnchor>k__BackingField, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get__rightHandOnControllerAnchor_k__BackingField, put=__cordl_internal_set__rightHandOnControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _rightHandOnControllerAnchor_k__BackingField;
+  /// @brief Field <rightHandOnControllerAnchor>k__BackingField, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightHandOnControllerAnchor_k__BackingField,
+                      put = __cordl_internal_set__rightHandOnControllerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _rightHandOnControllerAnchor_k__BackingField;
 
-/// @brief Field _skipUpdate, offset 0xab, size 0x1 
- __declspec(property(get=__cordl_internal_get__skipUpdate, put=__cordl_internal_set__skipUpdate)) bool  _skipUpdate;
+  /// @brief Field _skipUpdate, offset 0xab, size 0x1
+  __declspec(property(get = __cordl_internal_get__skipUpdate, put = __cordl_internal_set__skipUpdate)) bool _skipUpdate;
 
-/// @brief Field <trackerAnchor>k__BackingField, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get__trackerAnchor_k__BackingField, put=__cordl_internal_set__trackerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _trackerAnchor_k__BackingField;
+  /// @brief Field <trackerAnchor>k__BackingField, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackerAnchor_k__BackingField, put = __cordl_internal_set__trackerAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _trackerAnchor_k__BackingField;
 
-/// @brief Field <trackingSpace>k__BackingField, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__trackingSpace_k__BackingField, put=__cordl_internal_set__trackingSpace_k__BackingField)) ::UnityW<::UnityEngine::Transform>  _trackingSpace_k__BackingField;
+  /// @brief Field <trackingSpace>k__BackingField, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackingSpace_k__BackingField, put = __cordl_internal_set__trackingSpace_k__BackingField)) ::UnityW<::UnityEngine::Transform>
+      _trackingSpace_k__BackingField;
 
- __declspec(property(get=get_centerEyeAnchor, put=set_centerEyeAnchor)) ::UnityW<::UnityEngine::Transform>  centerEyeAnchor;
+  __declspec(property(get = get_centerEyeAnchor, put = set_centerEyeAnchor)) ::UnityW<::UnityEngine::Transform> centerEyeAnchor;
 
-/// @brief Field centerEyeAnchorName, offset 0xc8, size 0x8 
- __declspec(property(get=__cordl_internal_get_centerEyeAnchorName, put=__cordl_internal_set_centerEyeAnchorName)) ::StringW  centerEyeAnchorName;
+  /// @brief Field centerEyeAnchorName, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_centerEyeAnchorName, put = __cordl_internal_set_centerEyeAnchorName)) ::StringW centerEyeAnchorName;
 
-/// @brief Field disableEyeAnchorCameras, offset 0xaa, size 0x1 
- __declspec(property(get=__cordl_internal_get_disableEyeAnchorCameras, put=__cordl_internal_set_disableEyeAnchorCameras)) bool  disableEyeAnchorCameras;
+  /// @brief Field disableEyeAnchorCameras, offset 0xaa, size 0x1
+  __declspec(property(get = __cordl_internal_get_disableEyeAnchorCameras, put = __cordl_internal_set_disableEyeAnchorCameras)) bool disableEyeAnchorCameras;
 
- __declspec(property(get=get_leftControllerAnchor, put=set_leftControllerAnchor)) ::UnityW<::UnityEngine::Transform>  leftControllerAnchor;
+  __declspec(property(get = get_leftControllerAnchor, put = set_leftControllerAnchor)) ::UnityW<::UnityEngine::Transform> leftControllerAnchor;
 
-/// @brief Field leftControllerAnchorName, offset 0xe8, size 0x8 
- __declspec(property(get=__cordl_internal_get_leftControllerAnchorName, put=__cordl_internal_set_leftControllerAnchorName)) ::StringW  leftControllerAnchorName;
+  /// @brief Field leftControllerAnchorName, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftControllerAnchorName, put = __cordl_internal_set_leftControllerAnchorName)) ::StringW leftControllerAnchorName;
 
- __declspec(property(get=get_leftControllerInHandAnchor, put=set_leftControllerInHandAnchor)) ::UnityW<::UnityEngine::Transform>  leftControllerInHandAnchor;
+  __declspec(property(get = get_leftControllerInHandAnchor, put = set_leftControllerInHandAnchor)) ::UnityW<::UnityEngine::Transform> leftControllerInHandAnchor;
 
-/// @brief Field leftControllerInHandAnchorName, offset 0x108, size 0x8 
- __declspec(property(get=__cordl_internal_get_leftControllerInHandAnchorName, put=__cordl_internal_set_leftControllerInHandAnchorName)) ::StringW  leftControllerInHandAnchorName;
+  /// @brief Field leftControllerInHandAnchorName, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftControllerInHandAnchorName, put = __cordl_internal_set_leftControllerInHandAnchorName)) ::StringW leftControllerInHandAnchorName;
 
- __declspec(property(get=get_leftEyeAnchor, put=set_leftEyeAnchor)) ::UnityW<::UnityEngine::Transform>  leftEyeAnchor;
+  __declspec(property(get = get_leftEyeAnchor, put = set_leftEyeAnchor)) ::UnityW<::UnityEngine::Transform> leftEyeAnchor;
 
-/// @brief Field leftEyeAnchorName, offset 0xc0, size 0x8 
- __declspec(property(get=__cordl_internal_get_leftEyeAnchorName, put=__cordl_internal_set_leftEyeAnchorName)) ::StringW  leftEyeAnchorName;
+  /// @brief Field leftEyeAnchorName, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftEyeAnchorName, put = __cordl_internal_set_leftEyeAnchorName)) ::StringW leftEyeAnchorName;
 
- __declspec(property(get=get_leftEyeCamera)) ::UnityW<::UnityEngine::Camera>  leftEyeCamera;
+  __declspec(property(get = get_leftEyeCamera)) ::UnityW<::UnityEngine::Camera> leftEyeCamera;
 
- __declspec(property(get=get_leftHandAnchor, put=set_leftHandAnchor)) ::UnityW<::UnityEngine::Transform>  leftHandAnchor;
+  __declspec(property(get = get_leftHandAnchor, put = set_leftHandAnchor)) ::UnityW<::UnityEngine::Transform> leftHandAnchor;
 
- __declspec(property(get=get_leftHandAnchorDetached, put=set_leftHandAnchorDetached)) ::UnityW<::UnityEngine::Transform>  leftHandAnchorDetached;
+  __declspec(property(get = get_leftHandAnchorDetached, put = set_leftHandAnchorDetached)) ::UnityW<::UnityEngine::Transform> leftHandAnchorDetached;
 
-/// @brief Field leftHandAnchorDetachedName, offset 0xf8, size 0x8 
- __declspec(property(get=__cordl_internal_get_leftHandAnchorDetachedName, put=__cordl_internal_set_leftHandAnchorDetachedName)) ::StringW  leftHandAnchorDetachedName;
+  /// @brief Field leftHandAnchorDetachedName, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftHandAnchorDetachedName, put = __cordl_internal_set_leftHandAnchorDetachedName)) ::StringW leftHandAnchorDetachedName;
 
-/// @brief Field leftHandAnchorName, offset 0xd8, size 0x8 
- __declspec(property(get=__cordl_internal_get_leftHandAnchorName, put=__cordl_internal_set_leftHandAnchorName)) ::StringW  leftHandAnchorName;
+  /// @brief Field leftHandAnchorName, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftHandAnchorName, put = __cordl_internal_set_leftHandAnchorName)) ::StringW leftHandAnchorName;
 
- __declspec(property(get=get_leftHandOnControllerAnchor, put=set_leftHandOnControllerAnchor)) ::UnityW<::UnityEngine::Transform>  leftHandOnControllerAnchor;
+  __declspec(property(get = get_leftHandOnControllerAnchor, put = set_leftHandOnControllerAnchor)) ::UnityW<::UnityEngine::Transform> leftHandOnControllerAnchor;
 
-/// @brief Field leftHandOnControllerAnchorName, offset 0x110, size 0x8 
- __declspec(property(get=__cordl_internal_get_leftHandOnControllerAnchorName, put=__cordl_internal_set_leftHandOnControllerAnchorName)) ::StringW  leftHandOnControllerAnchorName;
+  /// @brief Field leftHandOnControllerAnchorName, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftHandOnControllerAnchorName, put = __cordl_internal_set_leftHandOnControllerAnchorName)) ::StringW leftHandOnControllerAnchorName;
 
- __declspec(property(get=get_rightControllerAnchor, put=set_rightControllerAnchor)) ::UnityW<::UnityEngine::Transform>  rightControllerAnchor;
+  __declspec(property(get = get_rightControllerAnchor, put = set_rightControllerAnchor)) ::UnityW<::UnityEngine::Transform> rightControllerAnchor;
 
-/// @brief Field rightControllerAnchorName, offset 0xf0, size 0x8 
- __declspec(property(get=__cordl_internal_get_rightControllerAnchorName, put=__cordl_internal_set_rightControllerAnchorName)) ::StringW  rightControllerAnchorName;
+  /// @brief Field rightControllerAnchorName, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightControllerAnchorName, put = __cordl_internal_set_rightControllerAnchorName)) ::StringW rightControllerAnchorName;
 
- __declspec(property(get=get_rightControllerInHandAnchor, put=set_rightControllerInHandAnchor)) ::UnityW<::UnityEngine::Transform>  rightControllerInHandAnchor;
+  __declspec(property(get = get_rightControllerInHandAnchor, put = set_rightControllerInHandAnchor)) ::UnityW<::UnityEngine::Transform> rightControllerInHandAnchor;
 
-/// @brief Field rightControllerInHandAnchorName, offset 0x118, size 0x8 
- __declspec(property(get=__cordl_internal_get_rightControllerInHandAnchorName, put=__cordl_internal_set_rightControllerInHandAnchorName)) ::StringW  rightControllerInHandAnchorName;
+  /// @brief Field rightControllerInHandAnchorName, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightControllerInHandAnchorName, put = __cordl_internal_set_rightControllerInHandAnchorName)) ::StringW rightControllerInHandAnchorName;
 
- __declspec(property(get=get_rightEyeAnchor, put=set_rightEyeAnchor)) ::UnityW<::UnityEngine::Transform>  rightEyeAnchor;
+  __declspec(property(get = get_rightEyeAnchor, put = set_rightEyeAnchor)) ::UnityW<::UnityEngine::Transform> rightEyeAnchor;
 
-/// @brief Field rightEyeAnchorName, offset 0xd0, size 0x8 
- __declspec(property(get=__cordl_internal_get_rightEyeAnchorName, put=__cordl_internal_set_rightEyeAnchorName)) ::StringW  rightEyeAnchorName;
+  /// @brief Field rightEyeAnchorName, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightEyeAnchorName, put = __cordl_internal_set_rightEyeAnchorName)) ::StringW rightEyeAnchorName;
 
- __declspec(property(get=get_rightEyeCamera)) ::UnityW<::UnityEngine::Camera>  rightEyeCamera;
+  __declspec(property(get = get_rightEyeCamera)) ::UnityW<::UnityEngine::Camera> rightEyeCamera;
 
- __declspec(property(get=get_rightHandAnchor, put=set_rightHandAnchor)) ::UnityW<::UnityEngine::Transform>  rightHandAnchor;
+  __declspec(property(get = get_rightHandAnchor, put = set_rightHandAnchor)) ::UnityW<::UnityEngine::Transform> rightHandAnchor;
 
- __declspec(property(get=get_rightHandAnchorDetached, put=set_rightHandAnchorDetached)) ::UnityW<::UnityEngine::Transform>  rightHandAnchorDetached;
+  __declspec(property(get = get_rightHandAnchorDetached, put = set_rightHandAnchorDetached)) ::UnityW<::UnityEngine::Transform> rightHandAnchorDetached;
 
-/// @brief Field rightHandAnchorDetachedName, offset 0x100, size 0x8 
- __declspec(property(get=__cordl_internal_get_rightHandAnchorDetachedName, put=__cordl_internal_set_rightHandAnchorDetachedName)) ::StringW  rightHandAnchorDetachedName;
+  /// @brief Field rightHandAnchorDetachedName, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightHandAnchorDetachedName, put = __cordl_internal_set_rightHandAnchorDetachedName)) ::StringW rightHandAnchorDetachedName;
 
-/// @brief Field rightHandAnchorName, offset 0xe0, size 0x8 
- __declspec(property(get=__cordl_internal_get_rightHandAnchorName, put=__cordl_internal_set_rightHandAnchorName)) ::StringW  rightHandAnchorName;
+  /// @brief Field rightHandAnchorName, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightHandAnchorName, put = __cordl_internal_set_rightHandAnchorName)) ::StringW rightHandAnchorName;
 
- __declspec(property(get=get_rightHandOnControllerAnchor, put=set_rightHandOnControllerAnchor)) ::UnityW<::UnityEngine::Transform>  rightHandOnControllerAnchor;
+  __declspec(property(get = get_rightHandOnControllerAnchor, put = set_rightHandOnControllerAnchor)) ::UnityW<::UnityEngine::Transform> rightHandOnControllerAnchor;
 
-/// @brief Field rightHandOnControllerAnchorName, offset 0x120, size 0x8 
- __declspec(property(get=__cordl_internal_get_rightHandOnControllerAnchorName, put=__cordl_internal_set_rightHandOnControllerAnchorName)) ::StringW  rightHandOnControllerAnchorName;
+  /// @brief Field rightHandOnControllerAnchorName, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightHandOnControllerAnchorName, put = __cordl_internal_set_rightHandOnControllerAnchorName)) ::StringW rightHandOnControllerAnchorName;
 
- __declspec(property(get=get_trackerAnchor, put=set_trackerAnchor)) ::UnityW<::UnityEngine::Transform>  trackerAnchor;
+  __declspec(property(get = get_trackerAnchor, put = set_trackerAnchor)) ::UnityW<::UnityEngine::Transform> trackerAnchor;
 
-/// @brief Field trackerAnchorName, offset 0xb8, size 0x8 
- __declspec(property(get=__cordl_internal_get_trackerAnchorName, put=__cordl_internal_set_trackerAnchorName)) ::StringW  trackerAnchorName;
+  /// @brief Field trackerAnchorName, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_trackerAnchorName, put = __cordl_internal_set_trackerAnchorName)) ::StringW trackerAnchorName;
 
- __declspec(property(get=get_trackingSpace, put=set_trackingSpace)) ::UnityW<::UnityEngine::Transform>  trackingSpace;
+  __declspec(property(get = get_trackingSpace, put = set_trackingSpace)) ::UnityW<::UnityEngine::Transform> trackingSpace;
 
-/// @brief Field trackingSpaceName, offset 0xb0, size 0x8 
- __declspec(property(get=__cordl_internal_get_trackingSpaceName, put=__cordl_internal_set_trackingSpaceName)) ::StringW  trackingSpaceName;
+  /// @brief Field trackingSpaceName, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_trackingSpaceName, put = __cordl_internal_set_trackingSpaceName)) ::StringW trackingSpaceName;
 
-/// @brief Field useFixedUpdateForTracking, offset 0xa9, size 0x1 
- __declspec(property(get=__cordl_internal_get_useFixedUpdateForTracking, put=__cordl_internal_set_useFixedUpdateForTracking)) bool  useFixedUpdateForTracking;
+  /// @brief Field useFixedUpdateForTracking, offset 0xa9, size 0x1
+  __declspec(property(get = __cordl_internal_get_useFixedUpdateForTracking, put = __cordl_internal_set_useFixedUpdateForTracking)) bool useFixedUpdateForTracking;
 
-/// @brief Field usePerEyeCameras, offset 0xa8, size 0x1 
- __declspec(property(get=__cordl_internal_get_usePerEyeCameras, put=__cordl_internal_set_usePerEyeCameras)) bool  usePerEyeCameras;
+  /// @brief Field usePerEyeCameras, offset 0xa8, size 0x1
+  __declspec(property(get = __cordl_internal_get_usePerEyeCameras, put = __cordl_internal_set_usePerEyeCameras)) bool usePerEyeCameras;
 
-/// @brief Method Awake, addr 0x5c6b53c, size 0x18, virtual true, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x5cdd524, size 0x18, virtual true, abstract: false, final false
+  inline void Awake();
 
-/// @brief Method CheckForAnchorsInParent, addr 0x5c6de38, size 0xe8, virtual false, abstract: false, final false
-inline void CheckForAnchorsInParent() ;
+  /// @brief Method CheckForAnchorsInParent, addr 0x5cdfe20, size 0xe8, virtual false, abstract: false, final false
+  inline void CheckForAnchorsInParent();
 
-/// @brief Method CheckForTrackingSpaceChangesAndRaiseEvent, addr 0x5c6ccbc, size 0x254, virtual true, abstract: false, final false
-inline void CheckForTrackingSpaceChangesAndRaiseEvent() ;
+  /// @brief Method CheckForTrackingSpaceChangesAndRaiseEvent, addr 0x5cdeca4, size 0x254, virtual true, abstract: false, final false
+  inline void CheckForTrackingSpaceChangesAndRaiseEvent();
 
-/// @brief Method ComputeTrackReferenceMatrix, addr 0x5c6db78, size 0x2c0, virtual true, abstract: false, final false
-inline ::UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix() ;
+  /// @brief Method ComputeTrackReferenceMatrix, addr 0x5cdfb60, size 0x2c0, virtual true, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix();
 
-/// @brief Method ConfigureAnchor, addr 0x5c6d908, size 0x270, virtual true, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> ConfigureAnchor(::UnityEngine::Transform*  root, ::StringW  name) ;
+  /// @brief Method ConfigureAnchor, addr 0x5cdf8f0, size 0x270, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> ConfigureAnchor(::UnityEngine::Transform* root, ::StringW name);
 
-/// @brief Method EnsureGameObjectIntegrity, addr 0x5c6cf30, size 0x9d8, virtual true, abstract: false, final false
-inline void EnsureGameObjectIntegrity() ;
+  /// @brief Method EnsureGameObjectIntegrity, addr 0x5cdef18, size 0x9d8, virtual true, abstract: false, final false
+  inline void EnsureGameObjectIntegrity();
 
-/// @brief Method FixedUpdate, addr 0x5c6b63c, size 0x20, virtual true, abstract: false, final false
-inline void FixedUpdate() ;
+  /// @brief Method FixedUpdate, addr 0x5cdd624, size 0x20, virtual true, abstract: false, final false
+  inline void FixedUpdate();
 
-static inline ::GlobalNamespace::OVRCameraRig* New_ctor() ;
+  static inline ::GlobalNamespace::OVRCameraRig* New_ctor();
 
-/// @brief Method OnBeforeRenderCallback, addr 0x5c6cbd0, size 0xec, virtual true, abstract: false, final false
-inline void OnBeforeRenderCallback() ;
+  /// @brief Method OnBeforeRenderCallback, addr 0x5cdebb8, size 0xec, virtual true, abstract: false, final false
+  inline void OnBeforeRenderCallback();
 
-/// @brief Method OnDestroy, addr 0x5c6b680, size 0xd8, virtual true, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x5cdd668, size 0xd8, virtual true, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method RaiseUpdatedAnchorsEvent, addr 0x5c6cf10, size 0x20, virtual true, abstract: false, final false
-inline void RaiseUpdatedAnchorsEvent() ;
+  /// @brief Method RaiseUpdatedAnchorsEvent, addr 0x5cdeef8, size 0x20, virtual true, abstract: false, final false
+  inline void RaiseUpdatedAnchorsEvent();
 
-/// @brief Method Start, addr 0x5c6b554, size 0xe8, virtual true, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x5cdd53c, size 0xe8, virtual true, abstract: false, final false
+  inline void Start();
 
-/// @brief Method Update, addr 0x5c6b65c, size 0x24, virtual true, abstract: false, final false
-inline void Update() ;
+  /// @brief Method Update, addr 0x5cdd644, size 0x24, virtual true, abstract: false, final false
+  inline void Update();
 
-/// @brief Method UpdateAnchors, addr 0x5c6b758, size 0x1310, virtual true, abstract: false, final false
-inline void UpdateAnchors(bool  updateEyeAnchors, bool  updateHandAnchors) ;
+  /// @brief Method UpdateAnchors, addr 0x5cdd740, size 0x1310, virtual true, abstract: false, final false
+  inline void UpdateAnchors(bool updateEyeAnchors, bool updateHandAnchors);
 
-/// @brief Method <CheckForAnchorsInParent>g__Check|105_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-inline void _CheckForAnchorsInParent_g__Check_105_0(::UnityEngine::Transform*  node) ;
+  /// @brief Method <CheckForAnchorsInParent>g__Check|105_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> inline void _CheckForAnchorsInParent_g__Check_105_0(::UnityEngine::Transform* node);
 
-constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get_TrackingSpaceChanged() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get_TrackingSpaceChanged() const;
 
-constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get_TrackingSpaceChanged() ;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get_TrackingSpaceChanged();
 
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* const& __cordl_internal_get_UpdatedAnchors() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* const& __cordl_internal_get_UpdatedAnchors() const;
 
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*& __cordl_internal_get_UpdatedAnchors() ;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*& __cordl_internal_get_UpdatedAnchors();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerEyeAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerEyeAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__centerEyeAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__centerEyeAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__centerEyeCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__centerEyeCamera() const;
 
-constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__centerEyeCamera() ;
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__centerEyeCamera();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftControllerAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftControllerAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftControllerAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftControllerAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftControllerInHandAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftControllerInHandAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftControllerInHandAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftControllerInHandAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftEyeAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftEyeAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftEyeAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftEyeAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__leftEyeCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__leftEyeCamera() const;
 
-constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__leftEyeCamera() ;
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__leftEyeCamera();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandAnchorDetached_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandAnchorDetached_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandAnchorDetached_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandAnchorDetached_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandOnControllerAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandOnControllerAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandOnControllerAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandOnControllerAnchor_k__BackingField();
 
-constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get__previousTrackingSpaceTransform() const;
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get__previousTrackingSpaceTransform() const;
 
-constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get__previousTrackingSpaceTransform() ;
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get__previousTrackingSpaceTransform();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightControllerAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightControllerAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightControllerAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightControllerAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightControllerInHandAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightControllerInHandAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightControllerInHandAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightControllerInHandAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightEyeAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightEyeAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightEyeAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightEyeAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__rightEyeCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__rightEyeCamera() const;
 
-constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__rightEyeCamera() ;
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__rightEyeCamera();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandAnchorDetached_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandAnchorDetached_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandAnchorDetached_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandAnchorDetached_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandOnControllerAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandOnControllerAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandOnControllerAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandOnControllerAnchor_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__skipUpdate() const;
+  constexpr bool const& __cordl_internal_get__skipUpdate() const;
 
-constexpr bool& __cordl_internal_get__skipUpdate() ;
+  constexpr bool& __cordl_internal_get__skipUpdate();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__trackerAnchor_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__trackerAnchor_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__trackerAnchor_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__trackerAnchor_k__BackingField();
 
-constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__trackingSpace_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__trackingSpace_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__trackingSpace_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__trackingSpace_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get_centerEyeAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_centerEyeAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_centerEyeAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_centerEyeAnchorName();
 
-constexpr bool const& __cordl_internal_get_disableEyeAnchorCameras() const;
+  constexpr bool const& __cordl_internal_get_disableEyeAnchorCameras() const;
 
-constexpr bool& __cordl_internal_get_disableEyeAnchorCameras() ;
+  constexpr bool& __cordl_internal_get_disableEyeAnchorCameras();
 
-constexpr ::StringW const& __cordl_internal_get_leftControllerAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_leftControllerAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_leftControllerAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_leftControllerAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_leftControllerInHandAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_leftControllerInHandAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_leftControllerInHandAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_leftControllerInHandAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_leftEyeAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_leftEyeAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_leftEyeAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_leftEyeAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_leftHandAnchorDetachedName() const;
+  constexpr ::StringW const& __cordl_internal_get_leftHandAnchorDetachedName() const;
 
-constexpr ::StringW& __cordl_internal_get_leftHandAnchorDetachedName() ;
+  constexpr ::StringW& __cordl_internal_get_leftHandAnchorDetachedName();
 
-constexpr ::StringW const& __cordl_internal_get_leftHandAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_leftHandAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_leftHandAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_leftHandAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_leftHandOnControllerAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_leftHandOnControllerAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_leftHandOnControllerAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_leftHandOnControllerAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_rightControllerAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_rightControllerAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_rightControllerAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_rightControllerAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_rightControllerInHandAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_rightControllerInHandAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_rightControllerInHandAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_rightControllerInHandAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_rightEyeAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_rightEyeAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_rightEyeAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_rightEyeAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_rightHandAnchorDetachedName() const;
+  constexpr ::StringW const& __cordl_internal_get_rightHandAnchorDetachedName() const;
 
-constexpr ::StringW& __cordl_internal_get_rightHandAnchorDetachedName() ;
+  constexpr ::StringW& __cordl_internal_get_rightHandAnchorDetachedName();
 
-constexpr ::StringW const& __cordl_internal_get_rightHandAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_rightHandAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_rightHandAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_rightHandAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_rightHandOnControllerAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_rightHandOnControllerAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_rightHandOnControllerAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_rightHandOnControllerAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_trackerAnchorName() const;
+  constexpr ::StringW const& __cordl_internal_get_trackerAnchorName() const;
 
-constexpr ::StringW& __cordl_internal_get_trackerAnchorName() ;
+  constexpr ::StringW& __cordl_internal_get_trackerAnchorName();
 
-constexpr ::StringW const& __cordl_internal_get_trackingSpaceName() const;
+  constexpr ::StringW const& __cordl_internal_get_trackingSpaceName() const;
 
-constexpr ::StringW& __cordl_internal_get_trackingSpaceName() ;
+  constexpr ::StringW& __cordl_internal_get_trackingSpaceName();
 
-constexpr bool const& __cordl_internal_get_useFixedUpdateForTracking() const;
+  constexpr bool const& __cordl_internal_get_useFixedUpdateForTracking() const;
 
-constexpr bool& __cordl_internal_get_useFixedUpdateForTracking() ;
+  constexpr bool& __cordl_internal_get_useFixedUpdateForTracking();
 
-constexpr bool const& __cordl_internal_get_usePerEyeCameras() const;
+  constexpr bool const& __cordl_internal_get_usePerEyeCameras() const;
 
-constexpr bool& __cordl_internal_get_usePerEyeCameras() ;
+  constexpr bool& __cordl_internal_get_usePerEyeCameras();
 
-constexpr void __cordl_internal_set_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>*  value) ;
+  constexpr void __cordl_internal_set_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-constexpr void __cordl_internal_set_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*  value) ;
+  constexpr void __cordl_internal_set_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
-constexpr void __cordl_internal_set__centerEyeAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__centerEyeAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__centerEyeCamera(::UnityW<::UnityEngine::Camera>  value) ;
+  constexpr void __cordl_internal_set__centerEyeCamera(::UnityW<::UnityEngine::Camera> value);
 
-constexpr void __cordl_internal_set__leftControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__leftControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__leftControllerInHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__leftControllerInHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__leftEyeAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__leftEyeAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__leftEyeCamera(::UnityW<::UnityEngine::Camera>  value) ;
+  constexpr void __cordl_internal_set__leftEyeCamera(::UnityW<::UnityEngine::Camera> value);
 
-constexpr void __cordl_internal_set__leftHandAnchorDetached_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__leftHandAnchorDetached_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__leftHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__leftHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__leftHandOnControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__leftHandOnControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__previousTrackingSpaceTransform(::UnityEngine::Matrix4x4  value) ;
+  constexpr void __cordl_internal_set__previousTrackingSpaceTransform(::UnityEngine::Matrix4x4 value);
 
-constexpr void __cordl_internal_set__rightControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__rightControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__rightControllerInHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__rightControllerInHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__rightEyeAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__rightEyeAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__rightEyeCamera(::UnityW<::UnityEngine::Camera>  value) ;
+  constexpr void __cordl_internal_set__rightEyeCamera(::UnityW<::UnityEngine::Camera> value);
 
-constexpr void __cordl_internal_set__rightHandAnchorDetached_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__rightHandAnchorDetached_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__rightHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__rightHandAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__rightHandOnControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__rightHandOnControllerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__skipUpdate(bool  value) ;
+  constexpr void __cordl_internal_set__skipUpdate(bool value);
 
-constexpr void __cordl_internal_set__trackerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__trackerAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set__trackingSpace_k__BackingField(::UnityW<::UnityEngine::Transform>  value) ;
+  constexpr void __cordl_internal_set__trackingSpace_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-constexpr void __cordl_internal_set_centerEyeAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_centerEyeAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_disableEyeAnchorCameras(bool  value) ;
+  constexpr void __cordl_internal_set_disableEyeAnchorCameras(bool value);
 
-constexpr void __cordl_internal_set_leftControllerAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_leftControllerAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_leftControllerInHandAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_leftControllerInHandAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_leftEyeAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_leftEyeAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_leftHandAnchorDetachedName(::StringW  value) ;
+  constexpr void __cordl_internal_set_leftHandAnchorDetachedName(::StringW value);
 
-constexpr void __cordl_internal_set_leftHandAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_leftHandAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_leftHandOnControllerAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_leftHandOnControllerAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_rightControllerAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_rightControllerAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_rightControllerInHandAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_rightControllerInHandAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_rightEyeAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_rightEyeAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_rightHandAnchorDetachedName(::StringW  value) ;
+  constexpr void __cordl_internal_set_rightHandAnchorDetachedName(::StringW value);
 
-constexpr void __cordl_internal_set_rightHandAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_rightHandAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_rightHandOnControllerAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_rightHandOnControllerAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_trackerAnchorName(::StringW  value) ;
+  constexpr void __cordl_internal_set_trackerAnchorName(::StringW value);
 
-constexpr void __cordl_internal_set_trackingSpaceName(::StringW  value) ;
+  constexpr void __cordl_internal_set_trackingSpaceName(::StringW value);
 
-constexpr void __cordl_internal_set_useFixedUpdateForTracking(bool  value) ;
+  constexpr void __cordl_internal_set_useFixedUpdateForTracking(bool value);
 
-constexpr void __cordl_internal_set_usePerEyeCameras(bool  value) ;
+  constexpr void __cordl_internal_set_usePerEyeCameras(bool value);
 
-/// @brief Method .ctor, addr 0x5c6df20, size 0x1f4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5cdff08, size 0x1f4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_TrackingSpaceChanged, addr 0x5c6b3bc, size 0xc0, virtual false, abstract: false, final false
-inline void add_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>*  value) ;
+  /// @brief Method add_TrackingSpaceChanged, addr 0x5cdd3a4, size 0xc0, virtual false, abstract: false, final false
+  inline void add_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-/// @brief Method add_UpdatedAnchors, addr 0x5c6b23c, size 0xc0, virtual false, abstract: false, final false
-inline void add_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*  value) ;
+  /// @brief Method add_UpdatedAnchors, addr 0x5cdd224, size 0xc0, virtual false, abstract: false, final false
+  inline void add_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
-/// @brief Method get_centerEyeAnchor, addr 0x5c6b16c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_centerEyeAnchor() ;
+  /// @brief Method get_centerEyeAnchor, addr 0x5cdd154, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_centerEyeAnchor();
 
-/// @brief Method get_leftControllerAnchor, addr 0x5c6b20c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_leftControllerAnchor() ;
+  /// @brief Method get_leftControllerAnchor, addr 0x5cdd1f4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_leftControllerAnchor();
 
-/// @brief Method get_leftControllerInHandAnchor, addr 0x5c6b1cc, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_leftControllerInHandAnchor() ;
+  /// @brief Method get_leftControllerInHandAnchor, addr 0x5cdd1b4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_leftControllerInHandAnchor();
 
-/// @brief Method get_leftEyeAnchor, addr 0x5c6b15c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_leftEyeAnchor() ;
+  /// @brief Method get_leftEyeAnchor, addr 0x5cdd144, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_leftEyeAnchor();
 
-/// @brief Method get_leftEyeCamera, addr 0x5c6b114, size 0x1c, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Camera> get_leftEyeCamera() ;
+  /// @brief Method get_leftEyeCamera, addr 0x5cdd0fc, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Camera> get_leftEyeCamera();
 
-/// @brief Method get_leftHandAnchor, addr 0x5c6b18c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_leftHandAnchor() ;
+  /// @brief Method get_leftHandAnchor, addr 0x5cdd174, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_leftHandAnchor();
 
-/// @brief Method get_leftHandAnchorDetached, addr 0x5c6b1ac, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_leftHandAnchorDetached() ;
+  /// @brief Method get_leftHandAnchorDetached, addr 0x5cdd194, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_leftHandAnchorDetached();
 
-/// @brief Method get_leftHandOnControllerAnchor, addr 0x5c6b1dc, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_leftHandOnControllerAnchor() ;
+  /// @brief Method get_leftHandOnControllerAnchor, addr 0x5cdd1c4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_leftHandOnControllerAnchor();
 
-/// @brief Method get_rightControllerAnchor, addr 0x5c6b21c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_rightControllerAnchor() ;
+  /// @brief Method get_rightControllerAnchor, addr 0x5cdd204, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_rightControllerAnchor();
 
-/// @brief Method get_rightControllerInHandAnchor, addr 0x5c6b1ec, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_rightControllerInHandAnchor() ;
+  /// @brief Method get_rightControllerInHandAnchor, addr 0x5cdd1d4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_rightControllerInHandAnchor();
 
-/// @brief Method get_rightEyeAnchor, addr 0x5c6b17c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_rightEyeAnchor() ;
+  /// @brief Method get_rightEyeAnchor, addr 0x5cdd164, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_rightEyeAnchor();
 
-/// @brief Method get_rightEyeCamera, addr 0x5c6b130, size 0x1c, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Camera> get_rightEyeCamera() ;
+  /// @brief Method get_rightEyeCamera, addr 0x5cdd118, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Camera> get_rightEyeCamera();
 
-/// @brief Method get_rightHandAnchor, addr 0x5c6b19c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_rightHandAnchor() ;
+  /// @brief Method get_rightHandAnchor, addr 0x5cdd184, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_rightHandAnchor();
 
-/// @brief Method get_rightHandAnchorDetached, addr 0x5c6b1bc, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_rightHandAnchorDetached() ;
+  /// @brief Method get_rightHandAnchorDetached, addr 0x5cdd1a4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_rightHandAnchorDetached();
 
-/// @brief Method get_rightHandOnControllerAnchor, addr 0x5c6b1fc, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_rightHandOnControllerAnchor() ;
+  /// @brief Method get_rightHandOnControllerAnchor, addr 0x5cdd1e4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_rightHandOnControllerAnchor();
 
-/// @brief Method get_trackerAnchor, addr 0x5c6b22c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_trackerAnchor() ;
+  /// @brief Method get_trackerAnchor, addr 0x5cdd214, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_trackerAnchor();
 
-/// @brief Method get_trackingSpace, addr 0x5c6b14c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Transform> get_trackingSpace() ;
+  /// @brief Method get_trackingSpace, addr 0x5cdd134, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_trackingSpace();
 
-/// @brief Method remove_TrackingSpaceChanged, addr 0x5c6b47c, size 0xc0, virtual false, abstract: false, final false
-inline void remove_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>*  value) ;
+  /// @brief Method remove_TrackingSpaceChanged, addr 0x5cdd464, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-/// @brief Method remove_UpdatedAnchors, addr 0x5c6b2fc, size 0xc0, virtual false, abstract: false, final false
-inline void remove_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*  value) ;
+  /// @brief Method remove_UpdatedAnchors, addr 0x5cdd2e4, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
-/// @brief Method set_centerEyeAnchor, addr 0x5c6b174, size 0x8, virtual false, abstract: false, final false
-inline void set_centerEyeAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_centerEyeAnchor, addr 0x5cdd15c, size 0x8, virtual false, abstract: false, final false
+  inline void set_centerEyeAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_leftControllerAnchor, addr 0x5c6b214, size 0x8, virtual false, abstract: false, final false
-inline void set_leftControllerAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_leftControllerAnchor, addr 0x5cdd1fc, size 0x8, virtual false, abstract: false, final false
+  inline void set_leftControllerAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_leftControllerInHandAnchor, addr 0x5c6b1d4, size 0x8, virtual false, abstract: false, final false
-inline void set_leftControllerInHandAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_leftControllerInHandAnchor, addr 0x5cdd1bc, size 0x8, virtual false, abstract: false, final false
+  inline void set_leftControllerInHandAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_leftEyeAnchor, addr 0x5c6b164, size 0x8, virtual false, abstract: false, final false
-inline void set_leftEyeAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_leftEyeAnchor, addr 0x5cdd14c, size 0x8, virtual false, abstract: false, final false
+  inline void set_leftEyeAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_leftHandAnchor, addr 0x5c6b194, size 0x8, virtual false, abstract: false, final false
-inline void set_leftHandAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_leftHandAnchor, addr 0x5cdd17c, size 0x8, virtual false, abstract: false, final false
+  inline void set_leftHandAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_leftHandAnchorDetached, addr 0x5c6b1b4, size 0x8, virtual false, abstract: false, final false
-inline void set_leftHandAnchorDetached(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_leftHandAnchorDetached, addr 0x5cdd19c, size 0x8, virtual false, abstract: false, final false
+  inline void set_leftHandAnchorDetached(::UnityEngine::Transform* value);
 
-/// @brief Method set_leftHandOnControllerAnchor, addr 0x5c6b1e4, size 0x8, virtual false, abstract: false, final false
-inline void set_leftHandOnControllerAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_leftHandOnControllerAnchor, addr 0x5cdd1cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_leftHandOnControllerAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_rightControllerAnchor, addr 0x5c6b224, size 0x8, virtual false, abstract: false, final false
-inline void set_rightControllerAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_rightControllerAnchor, addr 0x5cdd20c, size 0x8, virtual false, abstract: false, final false
+  inline void set_rightControllerAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_rightControllerInHandAnchor, addr 0x5c6b1f4, size 0x8, virtual false, abstract: false, final false
-inline void set_rightControllerInHandAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_rightControllerInHandAnchor, addr 0x5cdd1dc, size 0x8, virtual false, abstract: false, final false
+  inline void set_rightControllerInHandAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_rightEyeAnchor, addr 0x5c6b184, size 0x8, virtual false, abstract: false, final false
-inline void set_rightEyeAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_rightEyeAnchor, addr 0x5cdd16c, size 0x8, virtual false, abstract: false, final false
+  inline void set_rightEyeAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_rightHandAnchor, addr 0x5c6b1a4, size 0x8, virtual false, abstract: false, final false
-inline void set_rightHandAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_rightHandAnchor, addr 0x5cdd18c, size 0x8, virtual false, abstract: false, final false
+  inline void set_rightHandAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_rightHandAnchorDetached, addr 0x5c6b1c4, size 0x8, virtual false, abstract: false, final false
-inline void set_rightHandAnchorDetached(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_rightHandAnchorDetached, addr 0x5cdd1ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_rightHandAnchorDetached(::UnityEngine::Transform* value);
 
-/// @brief Method set_rightHandOnControllerAnchor, addr 0x5c6b204, size 0x8, virtual false, abstract: false, final false
-inline void set_rightHandOnControllerAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_rightHandOnControllerAnchor, addr 0x5cdd1ec, size 0x8, virtual false, abstract: false, final false
+  inline void set_rightHandOnControllerAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_trackerAnchor, addr 0x5c6b234, size 0x8, virtual false, abstract: false, final false
-inline void set_trackerAnchor(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_trackerAnchor, addr 0x5cdd21c, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackerAnchor(::UnityEngine::Transform* value);
 
-/// @brief Method set_trackingSpace, addr 0x5c6b154, size 0x8, virtual false, abstract: false, final false
-inline void set_trackingSpace(::UnityEngine::Transform*  value) ;
+  /// @brief Method set_trackingSpace, addr 0x5cdd13c, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackingSpace(::UnityEngine::Transform* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRCameraRig() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRCameraRig();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCameraRig", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRCameraRig(OVRCameraRig&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRCameraRig", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRCameraRig(OVRCameraRig && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCameraRig", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRCameraRig(OVRCameraRig const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRCameraRig", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRCameraRig(OVRCameraRig const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7118 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7112};
+  /// @brief Field <trackingSpace>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____trackingSpace_k__BackingField;
 
-/// @brief Field <trackingSpace>k__BackingField, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____trackingSpace_k__BackingField;
+  /// @brief Field <leftEyeAnchor>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____leftEyeAnchor_k__BackingField;
 
-/// @brief Field <leftEyeAnchor>k__BackingField, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____leftEyeAnchor_k__BackingField;
+  /// @brief Field <centerEyeAnchor>k__BackingField, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____centerEyeAnchor_k__BackingField;
 
-/// @brief Field <centerEyeAnchor>k__BackingField, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____centerEyeAnchor_k__BackingField;
+  /// @brief Field <rightEyeAnchor>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____rightEyeAnchor_k__BackingField;
 
-/// @brief Field <rightEyeAnchor>k__BackingField, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____rightEyeAnchor_k__BackingField;
+  /// @brief Field <leftHandAnchor>k__BackingField, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____leftHandAnchor_k__BackingField;
 
-/// @brief Field <leftHandAnchor>k__BackingField, offset: 0x40, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____leftHandAnchor_k__BackingField;
+  /// @brief Field <rightHandAnchor>k__BackingField, offset: 0x48, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____rightHandAnchor_k__BackingField;
 
-/// @brief Field <rightHandAnchor>k__BackingField, offset: 0x48, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____rightHandAnchor_k__BackingField;
+  /// @brief Field <leftHandAnchorDetached>k__BackingField, offset: 0x50, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____leftHandAnchorDetached_k__BackingField;
 
-/// @brief Field <leftHandAnchorDetached>k__BackingField, offset: 0x50, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____leftHandAnchorDetached_k__BackingField;
+  /// @brief Field <rightHandAnchorDetached>k__BackingField, offset: 0x58, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____rightHandAnchorDetached_k__BackingField;
 
-/// @brief Field <rightHandAnchorDetached>k__BackingField, offset: 0x58, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____rightHandAnchorDetached_k__BackingField;
+  /// @brief Field <leftControllerInHandAnchor>k__BackingField, offset: 0x60, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____leftControllerInHandAnchor_k__BackingField;
 
-/// @brief Field <leftControllerInHandAnchor>k__BackingField, offset: 0x60, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____leftControllerInHandAnchor_k__BackingField;
+  /// @brief Field <leftHandOnControllerAnchor>k__BackingField, offset: 0x68, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____leftHandOnControllerAnchor_k__BackingField;
 
-/// @brief Field <leftHandOnControllerAnchor>k__BackingField, offset: 0x68, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____leftHandOnControllerAnchor_k__BackingField;
+  /// @brief Field <rightControllerInHandAnchor>k__BackingField, offset: 0x70, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____rightControllerInHandAnchor_k__BackingField;
 
-/// @brief Field <rightControllerInHandAnchor>k__BackingField, offset: 0x70, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____rightControllerInHandAnchor_k__BackingField;
+  /// @brief Field <rightHandOnControllerAnchor>k__BackingField, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____rightHandOnControllerAnchor_k__BackingField;
 
-/// @brief Field <rightHandOnControllerAnchor>k__BackingField, offset: 0x78, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____rightHandOnControllerAnchor_k__BackingField;
+  /// @brief Field <leftControllerAnchor>k__BackingField, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____leftControllerAnchor_k__BackingField;
 
-/// @brief Field <leftControllerAnchor>k__BackingField, offset: 0x80, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____leftControllerAnchor_k__BackingField;
+  /// @brief Field <rightControllerAnchor>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____rightControllerAnchor_k__BackingField;
 
-/// @brief Field <rightControllerAnchor>k__BackingField, offset: 0x88, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____rightControllerAnchor_k__BackingField;
+  /// @brief Field <trackerAnchor>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____trackerAnchor_k__BackingField;
 
-/// @brief Field <trackerAnchor>k__BackingField, offset: 0x90, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Transform>  ____trackerAnchor_k__BackingField;
+  /// @brief Field UpdatedAnchors, offset: 0x98, size: 0x8, def value: None
+  ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* ___UpdatedAnchors;
 
-/// @brief Field UpdatedAnchors, offset: 0x98, size: 0x8, def value: None
- ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*  ___UpdatedAnchors;
+  /// @brief Field TrackingSpaceChanged, offset: 0xa0, size: 0x8, def value: None
+  ::System::Action_1<::UnityW<::UnityEngine::Transform>>* ___TrackingSpaceChanged;
 
-/// @brief Field TrackingSpaceChanged, offset: 0xa0, size: 0x8, def value: None
- ::System::Action_1<::UnityW<::UnityEngine::Transform>>*  ___TrackingSpaceChanged;
+  /// @brief Field usePerEyeCameras, offset: 0xa8, size: 0x1, def value: None
+  bool ___usePerEyeCameras;
 
-/// @brief Field usePerEyeCameras, offset: 0xa8, size: 0x1, def value: None
- bool  ___usePerEyeCameras;
+  /// @brief Field useFixedUpdateForTracking, offset: 0xa9, size: 0x1, def value: None
+  bool ___useFixedUpdateForTracking;
 
-/// @brief Field useFixedUpdateForTracking, offset: 0xa9, size: 0x1, def value: None
- bool  ___useFixedUpdateForTracking;
+  /// @brief Field disableEyeAnchorCameras, offset: 0xaa, size: 0x1, def value: None
+  bool ___disableEyeAnchorCameras;
 
-/// @brief Field disableEyeAnchorCameras, offset: 0xaa, size: 0x1, def value: None
- bool  ___disableEyeAnchorCameras;
+  /// @brief Field _skipUpdate, offset: 0xab, size: 0x1, def value: None
+  bool ____skipUpdate;
 
-/// @brief Field _skipUpdate, offset: 0xab, size: 0x1, def value: None
- bool  ____skipUpdate;
+  /// @brief Field trackingSpaceName, offset: 0xb0, size: 0x8, def value: None
+  ::StringW ___trackingSpaceName;
 
-/// @brief Field trackingSpaceName, offset: 0xb0, size: 0x8, def value: None
- ::StringW  ___trackingSpaceName;
+  /// @brief Field trackerAnchorName, offset: 0xb8, size: 0x8, def value: None
+  ::StringW ___trackerAnchorName;
 
-/// @brief Field trackerAnchorName, offset: 0xb8, size: 0x8, def value: None
- ::StringW  ___trackerAnchorName;
+  /// @brief Field leftEyeAnchorName, offset: 0xc0, size: 0x8, def value: None
+  ::StringW ___leftEyeAnchorName;
 
-/// @brief Field leftEyeAnchorName, offset: 0xc0, size: 0x8, def value: None
- ::StringW  ___leftEyeAnchorName;
+  /// @brief Field centerEyeAnchorName, offset: 0xc8, size: 0x8, def value: None
+  ::StringW ___centerEyeAnchorName;
 
-/// @brief Field centerEyeAnchorName, offset: 0xc8, size: 0x8, def value: None
- ::StringW  ___centerEyeAnchorName;
+  /// @brief Field rightEyeAnchorName, offset: 0xd0, size: 0x8, def value: None
+  ::StringW ___rightEyeAnchorName;
 
-/// @brief Field rightEyeAnchorName, offset: 0xd0, size: 0x8, def value: None
- ::StringW  ___rightEyeAnchorName;
+  /// @brief Field leftHandAnchorName, offset: 0xd8, size: 0x8, def value: None
+  ::StringW ___leftHandAnchorName;
 
-/// @brief Field leftHandAnchorName, offset: 0xd8, size: 0x8, def value: None
- ::StringW  ___leftHandAnchorName;
+  /// @brief Field rightHandAnchorName, offset: 0xe0, size: 0x8, def value: None
+  ::StringW ___rightHandAnchorName;
 
-/// @brief Field rightHandAnchorName, offset: 0xe0, size: 0x8, def value: None
- ::StringW  ___rightHandAnchorName;
+  /// @brief Field leftControllerAnchorName, offset: 0xe8, size: 0x8, def value: None
+  ::StringW ___leftControllerAnchorName;
 
-/// @brief Field leftControllerAnchorName, offset: 0xe8, size: 0x8, def value: None
- ::StringW  ___leftControllerAnchorName;
+  /// @brief Field rightControllerAnchorName, offset: 0xf0, size: 0x8, def value: None
+  ::StringW ___rightControllerAnchorName;
 
-/// @brief Field rightControllerAnchorName, offset: 0xf0, size: 0x8, def value: None
- ::StringW  ___rightControllerAnchorName;
+  /// @brief Field leftHandAnchorDetachedName, offset: 0xf8, size: 0x8, def value: None
+  ::StringW ___leftHandAnchorDetachedName;
 
-/// @brief Field leftHandAnchorDetachedName, offset: 0xf8, size: 0x8, def value: None
- ::StringW  ___leftHandAnchorDetachedName;
+  /// @brief Field rightHandAnchorDetachedName, offset: 0x100, size: 0x8, def value: None
+  ::StringW ___rightHandAnchorDetachedName;
 
-/// @brief Field rightHandAnchorDetachedName, offset: 0x100, size: 0x8, def value: None
- ::StringW  ___rightHandAnchorDetachedName;
+  /// @brief Field leftControllerInHandAnchorName, offset: 0x108, size: 0x8, def value: None
+  ::StringW ___leftControllerInHandAnchorName;
 
-/// @brief Field leftControllerInHandAnchorName, offset: 0x108, size: 0x8, def value: None
- ::StringW  ___leftControllerInHandAnchorName;
+  /// @brief Field leftHandOnControllerAnchorName, offset: 0x110, size: 0x8, def value: None
+  ::StringW ___leftHandOnControllerAnchorName;
 
-/// @brief Field leftHandOnControllerAnchorName, offset: 0x110, size: 0x8, def value: None
- ::StringW  ___leftHandOnControllerAnchorName;
+  /// @brief Field rightControllerInHandAnchorName, offset: 0x118, size: 0x8, def value: None
+  ::StringW ___rightControllerInHandAnchorName;
 
-/// @brief Field rightControllerInHandAnchorName, offset: 0x118, size: 0x8, def value: None
- ::StringW  ___rightControllerInHandAnchorName;
+  /// @brief Field rightHandOnControllerAnchorName, offset: 0x120, size: 0x8, def value: None
+  ::StringW ___rightHandOnControllerAnchorName;
 
-/// @brief Field rightHandOnControllerAnchorName, offset: 0x120, size: 0x8, def value: None
- ::StringW  ___rightHandOnControllerAnchorName;
+  /// @brief Field _centerEyeCamera, offset: 0x128, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Camera> ____centerEyeCamera;
 
-/// @brief Field _centerEyeCamera, offset: 0x128, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Camera>  ____centerEyeCamera;
+  /// @brief Field _leftEyeCamera, offset: 0x130, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Camera> ____leftEyeCamera;
 
-/// @brief Field _leftEyeCamera, offset: 0x130, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Camera>  ____leftEyeCamera;
+  /// @brief Field _rightEyeCamera, offset: 0x138, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Camera> ____rightEyeCamera;
 
-/// @brief Field _rightEyeCamera, offset: 0x138, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Camera>  ____rightEyeCamera;
+  /// @brief Field _previousTrackingSpaceTransform, offset: 0x140, size: 0x40, def value: None
+  ::UnityEngine::Matrix4x4 ____previousTrackingSpaceTransform;
 
-/// @brief Field _previousTrackingSpaceTransform, offset: 0x140, size: 0x40, def value: None
- ::UnityEngine::Matrix4x4  ____previousTrackingSpaceTransform;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRCameraRig, ____trackingSpace_k__BackingField) == 0x20, "Offset mismatch!");
@@ -805,6 +822,6 @@ static_assert(offsetof(::GlobalNamespace::OVRCameraRig, ____previousTrackingSpac
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCameraRig, 0x180>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRCameraRig);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRCameraRig*, "", "OVRCameraRig");

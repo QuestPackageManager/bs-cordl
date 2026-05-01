@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.LeftShiftInstruction/LeftShiftUInt32
 class CORDL_TYPE LeftShiftInstruction_LeftShiftUInt32 : public ::System::Linq::Expressions::Interpreter::LeftShiftInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt32* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt32* New_ctor();
 
-/// @brief Method Run, addr 0x5deb7d0, size 0xbc, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e5d7dc, size 0xbc, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5deb3d0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e5d3dc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LeftShiftInstruction_LeftShiftUInt32() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LeftShiftInstruction_LeftShiftUInt32();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftUInt32", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LeftShiftInstruction_LeftShiftUInt32(LeftShiftInstruction_LeftShiftUInt32&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftUInt32", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LeftShiftInstruction_LeftShiftUInt32(LeftShiftInstruction_LeftShiftUInt32 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftUInt32", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LeftShiftInstruction_LeftShiftUInt32(LeftShiftInstruction_LeftShiftUInt32 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftUInt32", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LeftShiftInstruction_LeftShiftUInt32(LeftShiftInstruction_LeftShiftUInt32 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16386 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16378};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt32, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt32);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt32*, "System.Linq.Expressions.Interpreter", "LeftShiftInstruction/LeftShiftUInt32");

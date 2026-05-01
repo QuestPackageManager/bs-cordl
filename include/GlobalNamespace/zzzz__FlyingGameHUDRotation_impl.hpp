@@ -6,184 +6,151 @@
 #include "GlobalNamespace/zzzz__EnvironmentSpawnRotation_def.hpp"
 #include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FlyingGameHUDRotation.Start
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::Start)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x57f20d4;
+  constexpr static std::size_t addrs = 0x5863fcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), "Start",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingGameHUDRotation.FixedUpdate
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::FixedUpdate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x57f21b4;
+  constexpr static std::size_t addrs = 0x58640ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        "FixedUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), "FixedUpdate",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingGameHUDRotation.LateUpdate
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::LateUpdate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x57f22f4;
+  constexpr static std::size_t addrs = 0x58641ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), "LateUpdate",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingGameHUDRotation._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingGameHUDRotation::*)()>(&::GlobalNamespace::FlyingGameHUDRotation::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57f233c;
+  constexpr static std::size_t addrs = 0x5864234;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__smooth()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____smooth;
+constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__smooth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____smooth;
 }
 constexpr float_t const& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__smooth() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____smooth;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____smooth;
 }
-constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__smooth(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____smooth = value;
+constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__smooth(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____smooth = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatLineManager>& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__beatLineManager()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatLineManager;
+constexpr ::UnityW<::GlobalNamespace::BeatLineManager>& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__beatLineManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatLineManager;
 }
 constexpr ::UnityW<::GlobalNamespace::BeatLineManager> const& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__beatLineManager() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatLineManager;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatLineManager;
 }
-constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__beatLineManager(::UnityW<::GlobalNamespace::BeatLineManager>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatLineManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__beatLineManager(::UnityW<::GlobalNamespace::BeatLineManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatLineManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation>& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__environmentSpawnRotation()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentSpawnRotation;
+constexpr ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation>& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__environmentSpawnRotation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentSpawnRotation;
 }
 constexpr ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> const& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__environmentSpawnRotation() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____environmentSpawnRotation;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentSpawnRotation;
 }
-constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__environmentSpawnRotation(::UnityW<::GlobalNamespace::EnvironmentSpawnRotation>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentSpawnRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__environmentSpawnRotation(::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentSpawnRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__timeHelper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____timeHelper;
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
 }
 constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__timeHelper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____timeHelper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
 }
-constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__prevYAngle()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____prevYAngle;
+constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__prevYAngle() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____prevYAngle;
 }
 constexpr float_t const& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__prevYAngle() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____prevYAngle;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____prevYAngle;
 }
-constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__prevYAngle(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____prevYAngle = value;
+constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__prevYAngle(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____prevYAngle = value;
 }
-constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__yAngle()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____yAngle;
+constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__yAngle() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____yAngle;
 }
 constexpr float_t const& GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_get__yAngle() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____yAngle;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____yAngle;
 }
-constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__yAngle(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____yAngle = value;
+constexpr void GlobalNamespace::FlyingGameHUDRotation::__cordl_internal_set__yAngle(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____yAngle = value;
 }
-inline void GlobalNamespace::FlyingGameHUDRotation::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FlyingGameHUDRotation::Start() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), "Start",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FlyingGameHUDRotation::FixedUpdate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        "FixedUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FlyingGameHUDRotation::FixedUpdate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), "FixedUpdate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FlyingGameHUDRotation::LateUpdate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FlyingGameHUDRotation::LateUpdate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), "LateUpdate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FlyingGameHUDRotation::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FlyingGameHUDRotation::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingGameHUDRotation*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::FlyingGameHUDRotation* GlobalNamespace::FlyingGameHUDRotation::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingGameHUDRotation*>());
+inline ::GlobalNamespace::FlyingGameHUDRotation* GlobalNamespace::FlyingGameHUDRotation::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingGameHUDRotation*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::FlyingGameHUDRotation::FlyingGameHUDRotation()   {
-}
+constexpr ::GlobalNamespace::FlyingGameHUDRotation::FlyingGameHUDRotation() {}

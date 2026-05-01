@@ -27,41 +27,41 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ColorUtility
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
-// Declarations
-/// @brief Method DoTryParseHtmlColor, addr 0x6901624, size 0x140, virtual false, abstract: false, final false
-static inline bool DoTryParseHtmlColor(::StringW  htmlString, ::ByRef<::UnityEngine::Color32>  color) ;
+  // Declarations
+  /// @brief Method DoTryParseHtmlColor, addr 0x6973840, size 0x140, virtual false, abstract: false, final false
+  static inline bool DoTryParseHtmlColor(::StringW htmlString, ::ByRef<::UnityEngine::Color32> color);
 
-/// @brief Method DoTryParseHtmlColor_Injected, addr 0x6901764, size 0x44, virtual false, abstract: false, final false
-static inline bool DoTryParseHtmlColor_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  htmlString, ::ByRef<::UnityEngine::Color32>  color) ;
+  /// @brief Method DoTryParseHtmlColor_Injected, addr 0x6973980, size 0x44, virtual false, abstract: false, final false
+  static inline bool DoTryParseHtmlColor_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> htmlString, ::ByRef<::UnityEngine::Color32> color);
 
-/// @brief Method ToHtmlStringRGB, addr 0x6901814, size 0x3d4, virtual false, abstract: false, final false
-static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color  color) ;
+  /// @brief Method ToHtmlStringRGB, addr 0x6973a30, size 0x3d4, virtual false, abstract: false, final false
+  static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
-/// @brief Method TryParseHtmlString, addr 0x69017a8, size 0x6c, virtual false, abstract: false, final false
-static inline bool TryParseHtmlString(::StringW  htmlString, ::ByRef<::UnityEngine::Color>  color) ;
+  /// @brief Method TryParseHtmlString, addr 0x69739c4, size 0x6c, virtual false, abstract: false, final false
+  static inline bool TryParseHtmlString(::StringW htmlString, ::ByRef<::UnityEngine::Color> color);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColorUtility() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorUtility();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ColorUtility(ColorUtility&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ColorUtility(ColorUtility && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ColorUtility(ColorUtility const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ColorUtility(ColorUtility const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10238 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10232};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ColorUtility, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ColorUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ColorUtility*, "UnityEngine", "ColorUtility");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "OculusStudios/GraphQL/Client/ClientExtensions.hpp"
 #include "OculusStudios/GraphQL/Client/ConcreteConverter_1.hpp"
@@ -48,6 +48,5 @@
 #include "OculusStudios/GraphQL/Client/QueryRequest.hpp"
 #include "OculusStudios/GraphQL/Client/ResponsePayload.hpp"
 #ifdef __cpp_modules
-                    export module Client;
-                    #endif
-                
+export module Client;
+#endif

@@ -25,82 +25,82 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.NavigationCancelEvent/<>c
 class CORDL_TYPE NavigationCancelEvent___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::NavigationCancelEvent___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::NavigationCancelEvent___c* __9;
 
-static inline ::UnityEngine::UIElements::NavigationCancelEvent___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::NavigationCancelEvent___c* New_ctor();
 
-/// @brief Method <.cctor>b__0_0, addr 0x6bd725c, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::NavigationCancelEvent* __cctor_b__0_0() ;
+  /// @brief Method <.cctor>b__0_0, addr 0x6c494a4, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::NavigationCancelEvent* __cctor_b__0_0();
 
-/// @brief Method .ctor, addr 0x6bd7258, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c494a0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::NavigationCancelEvent___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::NavigationCancelEvent___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::NavigationCancelEvent___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::NavigationCancelEvent___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NavigationCancelEvent___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavigationCancelEvent___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NavigationCancelEvent___c(NavigationCancelEvent___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NavigationCancelEvent___c(NavigationCancelEvent___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NavigationCancelEvent___c(NavigationCancelEvent___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NavigationCancelEvent___c(NavigationCancelEvent___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4521 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4521};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::NavigationCancelEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.NavigationEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.NavigationCancelEvent
 class CORDL_TYPE NavigationCancelEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationCancelEvent*> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::NavigationCancelEvent___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::NavigationCancelEvent___c;
 
-static inline ::UnityEngine::UIElements::NavigationCancelEvent* New_ctor() ;
+  static inline ::UnityEngine::UIElements::NavigationCancelEvent* New_ctor();
 
-/// @brief Method .ctor, addr 0x6bd71b8, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c49400, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NavigationCancelEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavigationCancelEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NavigationCancelEvent(NavigationCancelEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NavigationCancelEvent(NavigationCancelEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NavigationCancelEvent(NavigationCancelEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NavigationCancelEvent(NavigationCancelEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4522 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4522};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::NavigationCancelEvent, 0x70>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::NavigationCancelEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::NavigationCancelEvent*, "UnityEngine.UIElements", "NavigationCancelEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::NavigationCancelEvent___c);

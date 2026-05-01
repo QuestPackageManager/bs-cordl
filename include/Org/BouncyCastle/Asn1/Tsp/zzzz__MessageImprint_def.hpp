@@ -30,73 +30,73 @@ namespace Org::BouncyCastle::Asn1::Tsp {
 // CS Name: Org.BouncyCastle.Asn1.Tsp.MessageImprint
 class CORDL_TYPE MessageImprint : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
- __declspec(property(get=get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  HashAlgorithm;
+  // Declarations
+  __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
 
-/// @brief Field hashAlgorithm, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_hashAlgorithm, put=__cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  hashAlgorithm;
+  /// @brief Field hashAlgorithm, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm;
 
-/// @brief Field hashedMessage, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_hashedMessage, put=__cordl_internal_set_hashedMessage)) ::ArrayW<uint8_t,::Array<uint8_t>*>  hashedMessage;
+  /// @brief Field hashedMessage, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_hashedMessage, put = __cordl_internal_set_hashedMessage)) ::ArrayW<uint8_t, ::Array<uint8_t>*> hashedMessage;
 
-/// @brief Method GetHashedMessage, addr 0x3454d1c, size 0x8, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetHashedMessage() ;
+  /// @brief Method GetHashedMessage, addr 0x3491360, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashedMessage();
 
-/// @brief Method GetInstance, addr 0x3454b80, size 0xa0, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x34911c4, size 0xa0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  hashAlgorithm, ::ArrayW<uint8_t,::Array<uint8_t>*>  hashedMessage) ;
+  static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashedMessage);
 
-static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method ToAsn1Object, addr 0x3454d24, size 0x11c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x3491368, size 0x11c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm() ;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_hashedMessage() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_hashedMessage() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_hashedMessage() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_hashedMessage();
 
-constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
+  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-constexpr void __cordl_internal_set_hashedMessage(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_hashedMessage(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x3454d0c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  hashAlgorithm, ::ArrayW<uint8_t,::Array<uint8_t>*>  hashedMessage) ;
+  /// @brief Method .ctor, addr 0x3491350, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashedMessage);
 
-/// @brief Method .ctor, addr 0x3454c20, size 0xec, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  /// @brief Method .ctor, addr 0x3491264, size 0xec, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method get_HashAlgorithm, addr 0x3454d14, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm() ;
+  /// @brief Method get_HashAlgorithm, addr 0x3491358, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageImprint() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageImprint();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageImprint", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageImprint(MessageImprint&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageImprint", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageImprint(MessageImprint && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageImprint", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageImprint(MessageImprint const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageImprint", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageImprint(MessageImprint const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 315 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{315};
+  /// @brief Field hashAlgorithm, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___hashAlgorithm;
 
-/// @brief Field hashAlgorithm, offset: 0x10, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___hashAlgorithm;
+  /// @brief Field hashedMessage, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___hashedMessage;
 
-/// @brief Field hashedMessage, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___hashedMessage;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::MessageImprint, ___hashAlgorithm) == 0x10, "Offset mismatch!");
@@ -105,6 +105,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::MessageImprint, ___hashed
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Tsp::MessageImprint, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::Tsp
+} // namespace Org::BouncyCastle::Asn1::Tsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Tsp::MessageImprint);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Tsp::MessageImprint*, "Org.BouncyCastle.Asn1.Tsp", "MessageImprint");

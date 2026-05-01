@@ -23,50 +23,50 @@ struct ProfilingScope;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ProfilingScope);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ProfilingScope
 #pragma pack(push, 0)
 struct CORDL_TYPE ProfilingScope {
 public:
-// Declarations
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
 
-/// @brief Method Dispose, addr 0x65b7318, size 0x4, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x6629324, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method .ctor, addr 0x65b7314, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::BaseCommandBuffer*  cmd, ::UnityEngine::Rendering::ProfilingSampler*  sampler) ;
+  /// @brief Method .ctor, addr 0x6629320, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::BaseCommandBuffer* cmd, ::UnityEngine::Rendering::ProfilingSampler* sampler);
 
-/// @brief Method .ctor, addr 0x65b7310, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::CommandBuffer*  cmd, ::UnityEngine::Rendering::ProfilingSampler*  sampler) ;
+  /// @brief Method .ctor, addr 0x662931c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ProfilingSampler* sampler);
 
-/// @brief Method .ctor, addr 0x65b730c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::ProfilingSampler*  sampler) ;
+  /// @brief Method .ctor, addr 0x6629318, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::ProfilingSampler* sampler);
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() ;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProfilingScope() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProfilingScope();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12031};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12038 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProfilingScope, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ProfilingScope, "UnityEngine.Rendering", "ProfilingScope");

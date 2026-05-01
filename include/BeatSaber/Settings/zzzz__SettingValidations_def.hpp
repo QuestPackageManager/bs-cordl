@@ -37,71 +37,71 @@ namespace BeatSaber::Settings {
 // CS Name: BeatSaber.Settings.SettingValidations
 class CORDL_TYPE SettingValidations : public ::System::Object {
 public:
-// Declarations
-/// @brief Method AdjustAudioSettings, addr 0x31f5f34, size 0x8c, virtual false, abstract: false, final false
-static inline void AdjustAudioSettings(::ByRef<::BeatSaber::Settings::AudioSettings>  settings, float_t  presetLatency) ;
+  // Declarations
+  /// @brief Method AdjustAudioSettings, addr 0x3231c64, size 0x8c, virtual false, abstract: false, final false
+  static inline void AdjustAudioSettings(::ByRef<::BeatSaber::Settings::AudioSettings> settings, float_t presetLatency);
 
-/// @brief Method AdjustControllerSettings, addr 0x31f5e40, size 0xac, virtual false, abstract: false, final false
-static inline void AdjustControllerSettings(::ByRef<::BeatSaber::Settings::ControllerSettings>  settings) ;
+  /// @brief Method AdjustControllerSettings, addr 0x3231b70, size 0xac, virtual false, abstract: false, final false
+  static inline void AdjustControllerSettings(::ByRef<::BeatSaber::Settings::ControllerSettings> settings);
 
-/// @brief Method AdjustQuest1, addr 0x31f578c, size 0xbc, virtual false, abstract: false, final false
-static inline void AdjustQuest1(::ByRef<::BeatSaber::Settings::Settings>  settings) ;
+  /// @brief Method AdjustQuest1, addr 0x32314a0, size 0xc4, virtual false, abstract: false, final false
+  static inline void AdjustQuest1(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-/// @brief Method AdjustQuest2, addr 0x31f58bc, size 0xc0, virtual false, abstract: false, final false
-static inline void AdjustQuest2(::ByRef<::BeatSaber::Settings::Settings>  settings) ;
+  /// @brief Method AdjustQuest2, addr 0x32315d8, size 0xc0, virtual false, abstract: false, final false
+  static inline void AdjustQuest2(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-/// @brief Method AdjustQuest3, addr 0x31f597c, size 0x104, virtual false, abstract: false, final false
-static inline void AdjustQuest3(::ByRef<::BeatSaber::Settings::Settings>  settings) ;
+  /// @brief Method AdjustQuest3, addr 0x3231698, size 0x10c, virtual false, abstract: false, final false
+  static inline void AdjustQuest3(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-/// @brief Method AdjustQuestPro, addr 0x31f5c64, size 0xc0, virtual false, abstract: false, final false
-static inline void AdjustQuestPro(::ByRef<::BeatSaber::Settings::Settings>  settings) ;
+  /// @brief Method AdjustQuestPro, addr 0x3231988, size 0xc4, virtual false, abstract: false, final false
+  static inline void AdjustQuestPro(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-/// @brief Method AdjustRoomSettings, addr 0x31f5de4, size 0x5c, virtual false, abstract: false, final false
-static inline void AdjustRoomSettings(::ByRef<::BeatSaber::Settings::RoomSettings>  settings) ;
+  /// @brief Method AdjustRoomSettings, addr 0x3231b14, size 0x5c, virtual false, abstract: false, final false
+  static inline void AdjustRoomSettings(::ByRef<::BeatSaber::Settings::RoomSettings> settings);
 
-/// @brief Method AdjustSettings, addr 0x31f5848, size 0x74, virtual false, abstract: false, final false
-static inline void AdjustSettings(::ByRef<::BeatSaber::Settings::Settings>  settings, float_t  presetLatency) ;
+  /// @brief Method AdjustSettings, addr 0x3231564, size 0x74, virtual false, abstract: false, final false
+  static inline void AdjustSettings(::ByRef<::BeatSaber::Settings::Settings> settings, float_t presetLatency);
 
-/// @brief Method AdjustSmoothCameraSettings, addr 0x31f5eec, size 0x48, virtual false, abstract: false, final false
-static inline void AdjustSmoothCameraSettings(::ByRef<::BeatSaber::Settings::SmoothCameraSettings>  settings) ;
+  /// @brief Method AdjustSmoothCameraSettings, addr 0x3231c1c, size 0x48, virtual false, abstract: false, final false
+  static inline void AdjustSmoothCameraSettings(::ByRef<::BeatSaber::Settings::SmoothCameraSettings> settings);
 
-/// @brief Method AdjustStandalone, addr 0x31f5d24, size 0xc0, virtual false, abstract: false, final false
-static inline void AdjustStandalone(::ByRef<::BeatSaber::Settings::Settings>  settings, bool  forceApplyQualityAll) ;
+  /// @brief Method AdjustStandalone, addr 0x3231a4c, size 0xc8, virtual false, abstract: false, final false
+  static inline void AdjustStandalone(::ByRef<::BeatSaber::Settings::Settings> settings, bool forceApplyQualityAll);
 
-/// @brief Method Clamp, addr 0x31f5fc0, size 0x6c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 Clamp(::Unity::Mathematics::float3  value, float_t  min, float_t  max) ;
+  /// @brief Method Clamp, addr 0x3231cf0, size 0x6c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 Clamp(::Unity::Mathematics::float3 value, float_t min, float_t max);
 
-/// @brief Method Pick, addr 0x31f5a80, size 0x1e4, virtual false, abstract: false, final false
-static inline int32_t Pick(int32_t  value, int32_t  min, int32_t  max) ;
+  /// @brief Method Pick, addr 0x32317a4, size 0x1e4, virtual false, abstract: false, final false
+  static inline int32_t Pick(int32_t value, int32_t min, int32_t max);
 
-/// @brief Method Wrap, addr 0x31f6054, size 0x6c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 Wrap(::Unity::Mathematics::float3  value, float_t  min, float_t  max) ;
+  /// @brief Method Wrap, addr 0x3231d84, size 0x6c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 Wrap(::Unity::Mathematics::float3 value, float_t min, float_t max);
 
-/// @brief Method Wrap, addr 0x31f602c, size 0x28, virtual false, abstract: false, final false
-static inline float_t Wrap(float_t  value, float_t  min, float_t  max) ;
+  /// @brief Method Wrap, addr 0x3231d5c, size 0x28, virtual false, abstract: false, final false
+  static inline float_t Wrap(float_t value, float_t min, float_t max);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SettingValidations() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingValidations();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SettingValidations", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SettingValidations(SettingValidations&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SettingValidations", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SettingValidations(SettingValidations && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SettingValidations", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SettingValidations(SettingValidations const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SettingValidations", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SettingValidations(SettingValidations const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21869 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21858};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::SettingValidations, 0x10>, "Size mismatch!");
 
-} // namespace end def BeatSaber::Settings
+} // namespace BeatSaber::Settings
 NEED_NO_BOX(::BeatSaber::Settings::SettingValidations);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::SettingValidations*, "BeatSaber.Settings", "SettingValidations");

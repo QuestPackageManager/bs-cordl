@@ -25,39 +25,43 @@ namespace System::Reflection {
 // CS Name: System.Reflection.MonoPropertyInfo
 struct CORDL_TYPE MonoPropertyInfo {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr MonoPropertyInfo() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoPropertyInfo();
 
-// Ctor Parameters [CppParam { name: "parent", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "get_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam { name: "set_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::System::Reflection::PropertyAttributes", modifiers: "", def_value: None }]
-constexpr MonoPropertyInfo(::System::Type*  parent, ::System::Type*  declaring_type, ::StringW  name, ::System::Reflection::MethodInfo*  get_method, ::System::Reflection::MethodInfo*  set_method, ::System::Reflection::PropertyAttributes  attrs) noexcept;
+  // Ctor Parameters [CppParam { name: "parent", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "", def_value: None },
+  // CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "get_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam {
+  // name: "set_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::System::Reflection::PropertyAttributes", modifiers: "", def_value:
+  // None }]
+  constexpr MonoPropertyInfo(::System::Type* parent, ::System::Type* declaring_type, ::StringW name, ::System::Reflection::MethodInfo* get_method, ::System::Reflection::MethodInfo* set_method,
+                             ::System::Reflection::PropertyAttributes attrs) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3554};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3554 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field parent, offset: 0x0, size: 0x8, def value: None
- ::System::Type*  parent;
+  /// @brief Field parent, offset: 0x0, size: 0x8, def value: None
+  ::System::Type* parent;
 
-/// @brief Field declaring_type, offset: 0x8, size: 0x8, def value: None
- ::System::Type*  declaring_type;
+  /// @brief Field declaring_type, offset: 0x8, size: 0x8, def value: None
+  ::System::Type* declaring_type;
 
-/// @brief Field name, offset: 0x10, size: 0x8, def value: None
- ::StringW  name;
+  /// @brief Field name, offset: 0x10, size: 0x8, def value: None
+  ::StringW name;
 
-/// @brief Field get_method, offset: 0x18, size: 0x8, def value: None
- ::System::Reflection::MethodInfo*  get_method;
+  /// @brief Field get_method, offset: 0x18, size: 0x8, def value: None
+  ::System::Reflection::MethodInfo* get_method;
 
-/// @brief Field set_method, offset: 0x20, size: 0x8, def value: None
- ::System::Reflection::MethodInfo*  set_method;
+  /// @brief Field set_method, offset: 0x20, size: 0x8, def value: None
+  ::System::Reflection::MethodInfo* set_method;
 
-/// @brief Field attrs, offset: 0x28, size: 0x4, def value: None
- ::System::Reflection::PropertyAttributes  attrs;
+  /// @brief Field attrs, offset: 0x28, size: 0x4, def value: None
+  ::System::Reflection::PropertyAttributes attrs;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Reflection::MonoPropertyInfo, parent) == 0x0, "Offset mismatch!");
@@ -74,5 +78,5 @@ static_assert(offsetof(::System::Reflection::MonoPropertyInfo, attrs) == 0x28, "
 
 static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoPropertyInfo, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Reflection
+} // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");

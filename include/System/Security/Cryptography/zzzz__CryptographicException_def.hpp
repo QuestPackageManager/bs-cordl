@@ -27,54 +27,55 @@ namespace System::Security::Cryptography {
 // CS Name: System.Security.Cryptography.CryptographicException
 class CORDL_TYPE CryptographicException : public ::System::SystemException {
 public:
-// Declarations
-static inline ::System::Security::Cryptography::CryptographicException* New_ctor() ;
+  // Declarations
+  static inline ::System::Security::Cryptography::CryptographicException* New_ctor();
 
-static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW  format, ::StringW  insert) ;
+  static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW format, ::StringW insert);
 
-static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW  message) ;
+  static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW message);
 
-static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
+  static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW message, ::System::Exception* inner);
 
-/// @brief Method .ctor, addr 0x5949834, size 0x60, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x59bb7a0, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5949894, size 0xc4, virtual false, abstract: false, final false
-inline void _ctor(::StringW  format, ::StringW  insert) ;
+  /// @brief Method .ctor, addr 0x59bb800, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW format, ::StringW insert);
 
-/// @brief Method .ctor, addr 0x594997c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x59bb8e8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x59496a4, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x59bb610, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5949958, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
+  /// @brief Method .ctor, addr 0x59bb8c4, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CryptographicException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CryptographicException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CryptographicException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CryptographicException(CryptographicException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CryptographicException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CryptographicException(CryptographicException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CryptographicException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CryptographicException(CryptographicException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CryptographicException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CryptographicException(CryptographicException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2940 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2940};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CryptographicException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Security::Cryptography
+} // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::CryptographicException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CryptographicException*, "System.Security.Cryptography", "CryptographicException");

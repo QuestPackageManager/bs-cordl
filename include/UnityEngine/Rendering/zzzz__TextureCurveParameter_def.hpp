@@ -20,37 +20,37 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.TextureCurveParameter
 class CORDL_TYPE TextureCurveParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Rendering::TextureCurve*> {
 public:
-// Declarations
-static inline ::UnityEngine::Rendering::TextureCurveParameter* New_ctor(::UnityEngine::Rendering::TextureCurve*  value, bool  overrideState) ;
+  // Declarations
+  static inline ::UnityEngine::Rendering::TextureCurveParameter* New_ctor(::UnityEngine::Rendering::TextureCurve* value, bool overrideState);
 
-/// @brief Method Release, addr 0x6611e90, size 0x14, virtual true, abstract: false, final false
-inline void Release() ;
+  /// @brief Method Release, addr 0x6683e9c, size 0x14, virtual true, abstract: false, final false
+  inline void Release();
 
-/// @brief Method .ctor, addr 0x6611e2c, size 0x64, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::TextureCurve*  value, bool  overrideState) ;
+  /// @brief Method .ctor, addr 0x6683e38, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::TextureCurve* value, bool overrideState);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TextureCurveParameter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextureCurveParameter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TextureCurveParameter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TextureCurveParameter(TextureCurveParameter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextureCurveParameter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TextureCurveParameter(TextureCurveParameter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TextureCurveParameter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TextureCurveParameter(TextureCurveParameter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextureCurveParameter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TextureCurveParameter(TextureCurveParameter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12301 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12294};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::TextureCurveParameter, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::TextureCurveParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::TextureCurveParameter*, "UnityEngine.Rendering", "TextureCurveParameter");

@@ -11,8 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OverlapSphereCommand)
 namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobsUtility_JobScheduleParameters;
@@ -44,72 +43,79 @@ namespace UnityEngine {
 // CS Name: UnityEngine.OverlapSphereCommand
 struct CORDL_TYPE OverlapSphereCommand {
 public:
-// Declarations
- __declspec(property(get=get_physicsScene, put=set_physicsScene)) ::UnityEngine::PhysicsScene  physicsScene;
+  // Declarations
+  __declspec(property(get = get_physicsScene, put = set_physicsScene)) ::UnityEngine::PhysicsScene physicsScene;
 
- __declspec(property(get=get_point, put=set_point)) ::UnityEngine::Vector3  point;
+  __declspec(property(get = get_point, put = set_point)) ::UnityEngine::Vector3 point;
 
- __declspec(property(get=get_radius, put=set_radius)) float_t  radius;
+  __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-/// @brief Method ScheduleBatch, addr 0x69cd0a8, size 0x1ac, virtual false, abstract: false, final false
-static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::OverlapSphereCommand>  commands, ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit>  results, int32_t  minCommandsPerJob, int32_t  maxHits, ::Unity::Jobs::JobHandle  dependsOn) ;
+  /// @brief Method ScheduleBatch, addr 0x6a3f2f0, size 0x1ac, virtual false, abstract: false, final false
+  static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::OverlapSphereCommand> commands,
+                                                       ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit> results, int32_t minCommandsPerJob, int32_t maxHits,
+                                                       ::Unity::Jobs::JobHandle dependsOn);
 
-/// @brief Method ScheduleOverlapSphereBatch, addr 0x69cd254, size 0x9c, virtual false, abstract: false, final false
-static inline ::Unity::Jobs::JobHandle ScheduleOverlapSphereBatch(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>  parameters, void*  commands, int32_t  commandLen, void*  result, int32_t  resultLen, int32_t  minCommandsPerJob, int32_t  maxHits) ;
+  /// @brief Method ScheduleOverlapSphereBatch, addr 0x6a3f49c, size 0x9c, virtual false, abstract: false, final false
+  static inline ::Unity::Jobs::JobHandle ScheduleOverlapSphereBatch(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
+                                                                    void* result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
 
-/// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x69cd2f0, size 0x8c, virtual false, abstract: false, final false
-static inline void ScheduleOverlapSphereBatch_Injected(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>  parameters, void*  commands, int32_t  commandLen, void*  result, int32_t  resultLen, int32_t  minCommandsPerJob, int32_t  maxHits, ::ByRef<::Unity::Jobs::JobHandle>  ret) ;
+  /// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x6a3f538, size 0x8c, virtual false, abstract: false, final false
+  static inline void ScheduleOverlapSphereBatch_Injected(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen, void* result,
+                                                         int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-/// @brief Method .ctor, addr 0x69cd058, size 0x18, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::PhysicsScene  physicsScene, ::UnityEngine::Vector3  point, float_t  radius, ::UnityEngine::QueryParameters  queryParameters) ;
+  /// @brief Method .ctor, addr 0x6a3f2a0, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
-/// @brief Method .ctor, addr 0x69ccfb4, size 0xa4, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Vector3  point, float_t  radius, ::UnityEngine::QueryParameters  queryParameters) ;
+  /// @brief Method .ctor, addr 0x6a3f1fc, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
-/// @brief Method get_physicsScene, addr 0x69cd098, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::PhysicsScene get_physicsScene() ;
+  /// @brief Method get_physicsScene, addr 0x6a3f2e0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::PhysicsScene get_physicsScene();
 
-/// @brief Method get_point, addr 0x69cd070, size 0xc, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector3 get_point() ;
+  /// @brief Method get_point, addr 0x6a3f2b8, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_point();
 
-/// @brief Method get_radius, addr 0x69cd088, size 0x8, virtual false, abstract: false, final false
-inline float_t get_radius() ;
+  /// @brief Method get_radius, addr 0x6a3f2d0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_radius();
 
-/// @brief Method set_physicsScene, addr 0x69cd0a0, size 0x8, virtual false, abstract: false, final false
-inline void set_physicsScene(::UnityEngine::PhysicsScene  value) ;
+  /// @brief Method set_physicsScene, addr 0x6a3f2e8, size 0x8, virtual false, abstract: false, final false
+  inline void set_physicsScene(::UnityEngine::PhysicsScene value);
 
-/// @brief Method set_point, addr 0x69cd07c, size 0xc, virtual false, abstract: false, final false
-inline void set_point(::UnityEngine::Vector3  value) ;
+  /// @brief Method set_point, addr 0x6a3f2c4, size 0xc, virtual false, abstract: false, final false
+  inline void set_point(::UnityEngine::Vector3 value);
 
-/// @brief Method set_radius, addr 0x69cd090, size 0x8, virtual false, abstract: false, final false
-inline void set_radius(float_t  value) ;
+  /// @brief Method set_radius, addr 0x6a3f2d8, size 0x8, virtual false, abstract: false, final false
+  inline void set_radius(float_t value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr OverlapSphereCommand() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OverlapSphereCommand();
 
-// Ctor Parameters [CppParam { name: "_point_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_radius_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_physicsScene_k__BackingField", ty: "::UnityEngine::PhysicsScene", modifiers: "", def_value: None }, CppParam { name: "queryParameters", ty: "::UnityEngine::QueryParameters", modifiers: "", def_value: None }]
-constexpr OverlapSphereCommand(::UnityEngine::Vector3  _point_k__BackingField, float_t  _radius_k__BackingField, ::UnityEngine::PhysicsScene  _physicsScene_k__BackingField, ::UnityEngine::QueryParameters  queryParameters) noexcept;
+  // Ctor Parameters [CppParam { name: "_point_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_radius_k__BackingField", ty: "float_t", modifiers:
+  // "", def_value: None }, CppParam { name: "_physicsScene_k__BackingField", ty: "::UnityEngine::PhysicsScene", modifiers: "", def_value: None }, CppParam { name: "queryParameters", ty:
+  // "::UnityEngine::QueryParameters", modifiers: "", def_value: None }]
+  constexpr OverlapSphereCommand(::UnityEngine::Vector3 _point_k__BackingField, float_t _radius_k__BackingField, ::UnityEngine::PhysicsScene _physicsScene_k__BackingField,
+                                 ::UnityEngine::QueryParameters queryParameters) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18654};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18664 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x24};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
-/// @brief Field <point>k__BackingField, offset: 0x0, size: 0xc, def value: None
- ::UnityEngine::Vector3  _point_k__BackingField;
+  /// @brief Field <point>k__BackingField, offset: 0x0, size: 0xc, def value: None
+  ::UnityEngine::Vector3 _point_k__BackingField;
 
-/// @brief Field <radius>k__BackingField, offset: 0xc, size: 0x4, def value: None
- float_t  _radius_k__BackingField;
+  /// @brief Field <radius>k__BackingField, offset: 0xc, size: 0x4, def value: None
+  float_t _radius_k__BackingField;
 
-/// @brief Field <physicsScene>k__BackingField, offset: 0x10, size: 0x4, def value: None
- ::UnityEngine::PhysicsScene  _physicsScene_k__BackingField;
+  /// @brief Field <physicsScene>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  ::UnityEngine::PhysicsScene _physicsScene_k__BackingField;
 
-/// @brief Field queryParameters, offset: 0x14, size: 0x10, def value: None
- ::UnityEngine::QueryParameters  queryParameters;
+  /// @brief Field queryParameters, offset: 0x14, size: 0x10, def value: None
+  ::UnityEngine::QueryParameters queryParameters;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::OverlapSphereCommand, _point_k__BackingField) == 0x0, "Offset mismatch!");
@@ -122,5 +128,5 @@ static_assert(offsetof(::UnityEngine::OverlapSphereCommand, queryParameters) == 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::OverlapSphereCommand, 0x24>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::OverlapSphereCommand, "UnityEngine", "OverlapSphereCommand");

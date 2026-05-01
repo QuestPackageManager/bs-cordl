@@ -9,8 +9,7 @@ namespace GlobalNamespace {
 class IVRInputModule;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -30,72 +29,74 @@ namespace GlobalNamespace {
 // CS Name: NoVRInputModule
 class CORDL_TYPE NoVRInputModule : public ::System::Object {
 public:
-// Declarations
-/// @brief Field onProcessMousePressEvent, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_onProcessMousePressEvent, put=__cordl_internal_set_onProcessMousePressEvent)) ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  onProcessMousePressEvent;
+  // Declarations
+  /// @brief Field onProcessMousePressEvent, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_onProcessMousePressEvent,
+                      put = __cordl_internal_set_onProcessMousePressEvent)) ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* onProcessMousePressEvent;
 
-/// @brief Field pointerDidClickEvent, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_pointerDidClickEvent, put=__cordl_internal_set_pointerDidClickEvent)) ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*  pointerDidClickEvent;
+  /// @brief Field pointerDidClickEvent, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_pointerDidClickEvent,
+                      put = __cordl_internal_set_pointerDidClickEvent)) ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidClickEvent;
 
-/// @brief Convert operator to "::GlobalNamespace::IVRInputModule"
-constexpr operator  ::GlobalNamespace::IVRInputModule*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IVRInputModule"
+  constexpr operator ::GlobalNamespace::IVRInputModule*() noexcept;
 
-static inline ::GlobalNamespace::NoVRInputModule* New_ctor() ;
+  static inline ::GlobalNamespace::NoVRInputModule* New_ctor();
 
-constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_onProcessMousePressEvent() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_onProcessMousePressEvent() const;
 
-constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_onProcessMousePressEvent() ;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_onProcessMousePressEvent();
 
-constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* const& __cordl_internal_get_pointerDidClickEvent() const;
+  constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* const& __cordl_internal_get_pointerDidClickEvent() const;
 
-constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get_pointerDidClickEvent() ;
+  constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get_pointerDidClickEvent();
 
-constexpr void __cordl_internal_set_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
+  constexpr void __cordl_internal_set_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-constexpr void __cordl_internal_set_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*  value) ;
+  constexpr void __cordl_internal_set_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-/// @brief Method .ctor, addr 0x6c6c1d4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6cde41c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_onProcessMousePressEvent, addr 0x6c6bed4, size 0xc0, virtual true, abstract: false, final true
-inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
+  /// @brief Method add_onProcessMousePressEvent, addr 0x6cde11c, size 0xc0, virtual true, abstract: false, final true
+  inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-/// @brief Method add_pointerDidClickEvent, addr 0x6c6c054, size 0xc0, virtual true, abstract: false, final true
-inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*  value) ;
+  /// @brief Method add_pointerDidClickEvent, addr 0x6cde29c, size 0xc0, virtual true, abstract: false, final true
+  inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-/// @brief Convert to "::GlobalNamespace::IVRInputModule"
-constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
+  /// @brief Convert to "::GlobalNamespace::IVRInputModule"
+  constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
 
-/// @brief Method remove_onProcessMousePressEvent, addr 0x6c6bf94, size 0xc0, virtual true, abstract: false, final true
-inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
+  /// @brief Method remove_onProcessMousePressEvent, addr 0x6cde1dc, size 0xc0, virtual true, abstract: false, final true
+  inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-/// @brief Method remove_pointerDidClickEvent, addr 0x6c6c114, size 0xc0, virtual true, abstract: false, final true
-inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*  value) ;
+  /// @brief Method remove_pointerDidClickEvent, addr 0x6cde35c, size 0xc0, virtual true, abstract: false, final true
+  inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NoVRInputModule() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoVRInputModule();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NoVRInputModule", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NoVRInputModule(NoVRInputModule&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoVRInputModule", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NoVRInputModule(NoVRInputModule && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NoVRInputModule", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NoVRInputModule(NoVRInputModule const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoVRInputModule", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NoVRInputModule(NoVRInputModule const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22148 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22094};
+  /// @brief Field onProcessMousePressEvent, offset: 0x10, size: 0x8, def value: None
+  ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___onProcessMousePressEvent;
 
-/// @brief Field onProcessMousePressEvent, offset: 0x10, size: 0x8, def value: None
- ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  ___onProcessMousePressEvent;
+  /// @brief Field pointerDidClickEvent, offset: 0x18, size: 0x8, def value: None
+  ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ___pointerDidClickEvent;
 
-/// @brief Field pointerDidClickEvent, offset: 0x18, size: 0x8, def value: None
- ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*  ___pointerDidClickEvent;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::NoVRInputModule, ___onProcessMousePressEvent) == 0x10, "Offset mismatch!");
@@ -104,6 +105,6 @@ static_assert(offsetof(::GlobalNamespace::NoVRInputModule, ___pointerDidClickEve
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoVRInputModule, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoVRInputModule);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoVRInputModule*, "", "NoVRInputModule");

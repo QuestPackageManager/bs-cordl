@@ -18,61 +18,61 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.PublicAPIAttribute
 class CORDL_TYPE PublicAPIAttribute : public ::System::Attribute {
 public:
-// Declarations
- __declspec(property(get=get_Comment, put=set_Comment)) ::StringW  Comment;
+  // Declarations
+  __declspec(property(get = get_Comment, put = set_Comment)) ::StringW Comment;
 
-/// @brief Field <Comment>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__Comment_k__BackingField, put=__cordl_internal_set__Comment_k__BackingField)) ::StringW  _Comment_k__BackingField;
+  /// @brief Field <Comment>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Comment_k__BackingField, put = __cordl_internal_set__Comment_k__BackingField)) ::StringW _Comment_k__BackingField;
 
-static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor() ;
+  static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor();
 
-static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor(::StringW  comment) ;
+  static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor(::StringW comment);
 
-constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Comment_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Comment_k__BackingField();
 
-constexpr void __cordl_internal_set__Comment_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Comment_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6c72988, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ce4bcc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x6c7298c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  comment) ;
+  /// @brief Method .ctor, addr 0x6ce4bd0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW comment);
 
-/// @brief Method get_Comment, addr 0x6c72994, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Comment() ;
+  /// @brief Method get_Comment, addr 0x6ce4bd8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Comment();
 
-/// @brief Method set_Comment, addr 0x6c7299c, size 0x8, virtual false, abstract: false, final false
-inline void set_Comment(::StringW  value) ;
+  /// @brief Method set_Comment, addr 0x6ce4be0, size 0x8, virtual false, abstract: false, final false
+  inline void set_Comment(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PublicAPIAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PublicAPIAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PublicAPIAttribute(PublicAPIAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PublicAPIAttribute(PublicAPIAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PublicAPIAttribute(PublicAPIAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PublicAPIAttribute(PublicAPIAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22341 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22287};
+  /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____Comment_k__BackingField;
 
-/// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____Comment_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::JetBrains::Annotations::PublicAPIAttribute, ____Comment_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::PublicAPIAttribute, 0x18>, "Size mismatch!");
 
-} // namespace end def JetBrains::Annotations
+} // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::PublicAPIAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::PublicAPIAttribute*, "JetBrains.Annotations", "PublicAPIAttribute");

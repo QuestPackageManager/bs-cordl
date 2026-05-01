@@ -32,15 +32,13 @@ namespace GlobalNamespace {
 class TutorialSongController;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
@@ -67,103 +65,103 @@ namespace GlobalNamespace {
 // CS Name: TutorialController/<OutroCoroutine>d__15
 class CORDL_TYPE TutorialController__OutroCoroutine_d__15 : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
+  // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
- __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
-/// @brief Field <>1__state, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+  /// @brief Field <>1__state, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
-/// @brief Field <>2__current, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
+  /// @brief Field <>2__current, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
-/// @brief Field <>4__this, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::TutorialController>  __4__this;
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::TutorialController> __4__this;
 
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+  /// @brief Convert operator to "::System::Collections::IEnumerator"
+  constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method MoveNext, addr 0x584b728, size 0x110, virtual true, abstract: false, final true
-inline bool MoveNext() ;
+  /// @brief Method MoveNext, addr 0x58bfd30, size 0x110, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-static inline ::GlobalNamespace::TutorialController__OutroCoroutine_d__15* New_ctor(int32_t  __1__state) ;
+  static inline ::GlobalNamespace::TutorialController__OutroCoroutine_d__15* New_ctor(int32_t __1__state);
 
-/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x584b838, size 0x8, virtual true, abstract: false, final true
-inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58bfe40, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-/// @brief Method System.Collections.IEnumerator.Reset, addr 0x584b840, size 0x38, virtual true, abstract: false, final true
-inline void System_Collections_IEnumerator_Reset() ;
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58bfe48, size 0x38, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
 
-/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x584b878, size 0x8, virtual true, abstract: false, final true
-inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58bfe80, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-/// @brief Method System.IDisposable.Dispose, addr 0x584b724, size 0x4, virtual true, abstract: false, final true
-inline void System_IDisposable_Dispose() ;
+  /// @brief Method System.IDisposable.Dispose, addr 0x58bfd2c, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
-constexpr int32_t const& __cordl_internal_get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-constexpr int32_t& __cordl_internal_get___1__state() ;
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-constexpr ::System::Object*& __cordl_internal_get___2__current() ;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-constexpr ::UnityW<::GlobalNamespace::TutorialController> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialController> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::GlobalNamespace::TutorialController>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::GlobalNamespace::TutorialController>& __cordl_internal_get___4__this();
 
-constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TutorialController>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TutorialController> value);
 
-/// @brief Method .ctor, addr 0x584b6f0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  __1__state) ;
+  /// @brief Method .ctor, addr 0x58bfcf8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
 
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TutorialController__OutroCoroutine_d__15() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialController__OutroCoroutine_d__15();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6291 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6281};
+  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+  int32_t _____1__state;
 
-/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
- int32_t  _____1__state;
+  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+  ::System::Object* _____2__current;
 
-/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
- ::System::Object*  _____2__current;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TutorialController> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::TutorialController>  _____4__this;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TutorialController__OutroCoroutine_d__15, _____1__state) == 0x10, "Offset mismatch!");
@@ -174,177 +172,180 @@ static_assert(offsetof(::GlobalNamespace::TutorialController__OutroCoroutine_d__
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialController__OutroCoroutine_d__15, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TutorialController
 class CORDL_TYPE TutorialController : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-using _OutroCoroutine_d__15 = ::GlobalNamespace::TutorialController__OutroCoroutine_d__15;
+  // Declarations
+  using _OutroCoroutine_d__15 = ::GlobalNamespace::TutorialController__OutroCoroutine_d__15;
 
-/// @brief Field _audioFading, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__audioFading, put=__cordl_internal_set__audioFading)) ::UnityW<::GlobalNamespace::AudioFading>  _audioFading;
+  /// @brief Field _audioFading, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioFading, put = __cordl_internal_set__audioFading)) ::UnityW<::GlobalNamespace::AudioFading> _audioFading;
 
-/// @brief Field _doingOutroTransition, offset 0x60, size 0x1 
- __declspec(property(get=__cordl_internal_get__doingOutroTransition, put=__cordl_internal_set__doingOutroTransition)) bool  _doingOutroTransition;
+  /// @brief Field _doingOutroTransition, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get__doingOutroTransition, put = __cordl_internal_set__doingOutroTransition)) bool _doingOutroTransition;
 
-/// @brief Field _introTutorialController, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__introTutorialController, put=__cordl_internal_set__introTutorialController)) ::UnityW<::GlobalNamespace::IntroTutorialController>  _introTutorialController;
+  /// @brief Field _introTutorialController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__introTutorialController, put = __cordl_internal_set__introTutorialController)) ::UnityW<::GlobalNamespace::IntroTutorialController>
+      _introTutorialController;
 
-/// @brief Field _pauseController, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__pauseController, put=__cordl_internal_set__pauseController)) ::UnityW<::GlobalNamespace::PauseController>  _pauseController;
+  /// @brief Field _pauseController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__pauseController, put = __cordl_internal_set__pauseController)) ::UnityW<::GlobalNamespace::PauseController> _pauseController;
 
-/// @brief Field _tutorialFinishedSignal, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__tutorialFinishedSignal, put=__cordl_internal_set__tutorialFinishedSignal)) ::UnityW<::GlobalNamespace::Signal>  _tutorialFinishedSignal;
+  /// @brief Field _tutorialFinishedSignal, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal)) ::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
-/// @brief Field _tutorialIntroStartedSignal, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__tutorialIntroStartedSignal, put=__cordl_internal_set__tutorialIntroStartedSignal)) ::UnityW<::GlobalNamespace::Signal>  _tutorialIntroStartedSignal;
+  /// @brief Field _tutorialIntroStartedSignal, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__tutorialIntroStartedSignal, put = __cordl_internal_set__tutorialIntroStartedSignal)) ::UnityW<::GlobalNamespace::Signal> _tutorialIntroStartedSignal;
 
-/// @brief Field _tutorialSceneSetupData, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__tutorialSceneSetupData, put=__cordl_internal_set__tutorialSceneSetupData)) ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>  _tutorialSceneSetupData;
+  /// @brief Field _tutorialSceneSetupData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__tutorialSceneSetupData, put = __cordl_internal_set__tutorialSceneSetupData)) ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>
+      _tutorialSceneSetupData;
 
-/// @brief Field _tutorialSongController, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__tutorialSongController, put=__cordl_internal_set__tutorialSongController)) ::UnityW<::GlobalNamespace::TutorialSongController>  _tutorialSongController;
+  /// @brief Field _tutorialSongController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__tutorialSongController, put = __cordl_internal_set__tutorialSongController)) ::UnityW<::GlobalNamespace::TutorialSongController>
+      _tutorialSongController;
 
-/// @brief Field levelDidStartEvent, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get_levelDidStartEvent, put=__cordl_internal_set_levelDidStartEvent)) ::System::Action*  levelDidStartEvent;
+  /// @brief Field levelDidStartEvent, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_levelDidStartEvent, put = __cordl_internal_set_levelDidStartEvent)) ::System::Action* levelDidStartEvent;
 
-/// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
-constexpr operator  ::GlobalNamespace::ILevelStartController*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
+  constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
 
-/// @brief Method HandleIntroTutorialDidFinishEvent, addr 0x584b5ac, size 0x18, virtual false, abstract: false, final false
-inline void HandleIntroTutorialDidFinishEvent() ;
+  /// @brief Method HandleIntroTutorialDidFinishEvent, addr 0x58bfbb4, size 0x18, virtual false, abstract: false, final false
+  inline void HandleIntroTutorialDidFinishEvent();
 
-/// @brief Method HandlePauseControllerCanPause, addr 0x584b6f8, size 0x28, virtual false, abstract: false, final false
-inline void HandlePauseControllerCanPause(::System::Action_1<bool>*  canPause) ;
+  /// @brief Method HandlePauseControllerCanPause, addr 0x58bfd00, size 0x28, virtual false, abstract: false, final false
+  inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-/// @brief Method HandleTutorialSongControllerSongDidFinishEvent, addr 0x584b648, size 0x54, virtual false, abstract: false, final false
-inline void HandleTutorialSongControllerSongDidFinishEvent() ;
+  /// @brief Method HandleTutorialSongControllerSongDidFinishEvent, addr 0x58bfc50, size 0x54, virtual false, abstract: false, final false
+  inline void HandleTutorialSongControllerSongDidFinishEvent();
 
-static inline ::GlobalNamespace::TutorialController* New_ctor() ;
+  static inline ::GlobalNamespace::TutorialController* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x584b36c, size 0x240, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x58bf96c, size 0x248, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method OutroCoroutine, addr 0x584b69c, size 0x54, virtual false, abstract: false, final false
-inline ::System::Collections::IEnumerator* OutroCoroutine() ;
+  /// @brief Method OutroCoroutine, addr 0x58bfca4, size 0x54, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* OutroCoroutine();
 
-/// @brief Method Start, addr 0x584b1a4, size 0x1c8, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x58bf79c, size 0x1d0, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr ::UnityW<::GlobalNamespace::AudioFading> const& __cordl_internal_get__audioFading() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioFading> const& __cordl_internal_get__audioFading() const;
 
-constexpr ::UnityW<::GlobalNamespace::AudioFading>& __cordl_internal_get__audioFading() ;
+  constexpr ::UnityW<::GlobalNamespace::AudioFading>& __cordl_internal_get__audioFading();
 
-constexpr bool const& __cordl_internal_get__doingOutroTransition() const;
+  constexpr bool const& __cordl_internal_get__doingOutroTransition() const;
 
-constexpr bool& __cordl_internal_get__doingOutroTransition() ;
+  constexpr bool& __cordl_internal_get__doingOutroTransition();
 
-constexpr ::UnityW<::GlobalNamespace::IntroTutorialController> const& __cordl_internal_get__introTutorialController() const;
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialController> const& __cordl_internal_get__introTutorialController() const;
 
-constexpr ::UnityW<::GlobalNamespace::IntroTutorialController>& __cordl_internal_get__introTutorialController() ;
+  constexpr ::UnityW<::GlobalNamespace::IntroTutorialController>& __cordl_internal_get__introTutorialController();
 
-constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get__pauseController() const;
+  constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get__pauseController() const;
 
-constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get__pauseController() ;
+  constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get__pauseController();
 
-constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialFinishedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialFinishedSignal() const;
 
-constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialFinishedSignal() ;
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialFinishedSignal();
 
-constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialIntroStartedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialIntroStartedSignal() const;
 
-constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialIntroStartedSignal() ;
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialIntroStartedSignal();
 
-constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialSceneSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialSceneSetupData() const;
 
-constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialSceneSetupData() ;
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialSceneSetupData();
 
-constexpr ::UnityW<::GlobalNamespace::TutorialSongController> const& __cordl_internal_get__tutorialSongController() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialSongController> const& __cordl_internal_get__tutorialSongController() const;
 
-constexpr ::UnityW<::GlobalNamespace::TutorialSongController>& __cordl_internal_get__tutorialSongController() ;
+  constexpr ::UnityW<::GlobalNamespace::TutorialSongController>& __cordl_internal_get__tutorialSongController();
 
-constexpr ::System::Action* const& __cordl_internal_get_levelDidStartEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_levelDidStartEvent() const;
 
-constexpr ::System::Action*& __cordl_internal_get_levelDidStartEvent() ;
+  constexpr ::System::Action*& __cordl_internal_get_levelDidStartEvent();
 
-constexpr void __cordl_internal_set__audioFading(::UnityW<::GlobalNamespace::AudioFading>  value) ;
+  constexpr void __cordl_internal_set__audioFading(::UnityW<::GlobalNamespace::AudioFading> value);
 
-constexpr void __cordl_internal_set__doingOutroTransition(bool  value) ;
+  constexpr void __cordl_internal_set__doingOutroTransition(bool value);
 
-constexpr void __cordl_internal_set__introTutorialController(::UnityW<::GlobalNamespace::IntroTutorialController>  value) ;
+  constexpr void __cordl_internal_set__introTutorialController(::UnityW<::GlobalNamespace::IntroTutorialController> value);
 
-constexpr void __cordl_internal_set__pauseController(::UnityW<::GlobalNamespace::PauseController>  value) ;
+  constexpr void __cordl_internal_set__pauseController(::UnityW<::GlobalNamespace::PauseController> value);
 
-constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal>  value) ;
+  constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-constexpr void __cordl_internal_set__tutorialIntroStartedSignal(::UnityW<::GlobalNamespace::Signal>  value) ;
+  constexpr void __cordl_internal_set__tutorialIntroStartedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-constexpr void __cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>  value) ;
+  constexpr void __cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-constexpr void __cordl_internal_set__tutorialSongController(::UnityW<::GlobalNamespace::TutorialSongController>  value) ;
+  constexpr void __cordl_internal_set__tutorialSongController(::UnityW<::GlobalNamespace::TutorialSongController> value);
 
-constexpr void __cordl_internal_set_levelDidStartEvent(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_levelDidStartEvent(::System::Action* value);
 
-/// @brief Method .ctor, addr 0x584b720, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58bfd28, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_levelDidStartEvent, addr 0x584b04c, size 0xac, virtual true, abstract: false, final true
-inline void add_levelDidStartEvent(::System::Action*  value) ;
+  /// @brief Method add_levelDidStartEvent, addr 0x58bf644, size 0xac, virtual true, abstract: false, final true
+  inline void add_levelDidStartEvent(::System::Action* value);
 
-/// @brief Convert to "::GlobalNamespace::ILevelStartController"
-constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
+  /// @brief Convert to "::GlobalNamespace::ILevelStartController"
+  constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
-/// @brief Method remove_levelDidStartEvent, addr 0x584b0f8, size 0xac, virtual true, abstract: false, final true
-inline void remove_levelDidStartEvent(::System::Action*  value) ;
+  /// @brief Method remove_levelDidStartEvent, addr 0x58bf6f0, size 0xac, virtual true, abstract: false, final true
+  inline void remove_levelDidStartEvent(::System::Action* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TutorialController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TutorialController(TutorialController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TutorialController(TutorialController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TutorialController(TutorialController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TutorialController(TutorialController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6292 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6282};
+  /// @brief Field _tutorialSongController, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TutorialSongController> ____tutorialSongController;
 
-/// @brief Field _tutorialSongController, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::TutorialSongController>  ____tutorialSongController;
+  /// @brief Field _introTutorialController, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::IntroTutorialController> ____introTutorialController;
 
-/// @brief Field _introTutorialController, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::IntroTutorialController>  ____introTutorialController;
+  /// @brief Field _audioFading, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::AudioFading> ____audioFading;
 
-/// @brief Field _audioFading, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::AudioFading>  ____audioFading;
+  /// @brief Field _tutorialSceneSetupData, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ____tutorialSceneSetupData;
 
-/// @brief Field _tutorialSceneSetupData, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>  ____tutorialSceneSetupData;
+  /// @brief Field _tutorialIntroStartedSignal, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::Signal> ____tutorialIntroStartedSignal;
 
-/// @brief Field _tutorialIntroStartedSignal, offset: 0x40, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::Signal>  ____tutorialIntroStartedSignal;
+  /// @brief Field _tutorialFinishedSignal, offset: 0x48, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::Signal> ____tutorialFinishedSignal;
 
-/// @brief Field _tutorialFinishedSignal, offset: 0x48, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::Signal>  ____tutorialFinishedSignal;
+  /// @brief Field _pauseController, offset: 0x50, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PauseController> ____pauseController;
 
-/// @brief Field _pauseController, offset: 0x50, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::PauseController>  ____pauseController;
+  /// @brief Field levelDidStartEvent, offset: 0x58, size: 0x8, def value: None
+  ::System::Action* ___levelDidStartEvent;
 
-/// @brief Field levelDidStartEvent, offset: 0x58, size: 0x8, def value: None
- ::System::Action*  ___levelDidStartEvent;
+  /// @brief Field _doingOutroTransition, offset: 0x60, size: 0x1, def value: None
+  bool ____doingOutroTransition;
 
-/// @brief Field _doingOutroTransition, offset: 0x60, size: 0x1, def value: None
- bool  ____doingOutroTransition;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TutorialController, ____tutorialSongController) == 0x20, "Offset mismatch!");
@@ -367,7 +368,7 @@ static_assert(offsetof(::GlobalNamespace::TutorialController, ____doingOutroTran
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialController, 0x68>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TutorialController*, "", "TutorialController");
 NEED_NO_BOX(::GlobalNamespace::TutorialController__OutroCoroutine_d__15);

@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.DivInstruction/DivInt64
 class CORDL_TYPE DivInstruction_DivInt64 : public ::System::Linq::Expressions::Interpreter::DivInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::DivInstruction_DivInt64* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::DivInstruction_DivInt64* New_ctor();
 
-/// @brief Method Run, addr 0x5dddfec, size 0x10c, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e4fff8, size 0x10c, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5ddddc4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e4fdd0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DivInstruction_DivInt64() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DivInstruction_DivInt64();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DivInstruction_DivInt64", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DivInstruction_DivInt64(DivInstruction_DivInt64&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DivInstruction_DivInt64", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DivInstruction_DivInt64(DivInstruction_DivInt64 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DivInstruction_DivInt64", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DivInstruction_DivInt64(DivInstruction_DivInt64 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DivInstruction_DivInt64", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DivInstruction_DivInt64(DivInstruction_DivInt64 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16286 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16278};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DivInstruction_DivInt64, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DivInstruction_DivInt64);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DivInstruction_DivInt64*, "System.Linq.Expressions.Interpreter", "DivInstruction/DivInt64");

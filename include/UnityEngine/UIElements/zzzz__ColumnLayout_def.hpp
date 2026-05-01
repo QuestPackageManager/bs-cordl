@@ -8,12 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColumnLayout)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 class Action;
@@ -53,57 +51,57 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ColumnLayout/<>c__DisplayClass53_0
 class CORDL_TYPE ColumnLayout___c__DisplayClass53_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityEngine::UIElements::ColumnLayout*  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::UIElements::ColumnLayout* __4__this;
 
-/// @brief Field totalColumnWidth, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_totalColumnWidth, put=__cordl_internal_set_totalColumnWidth)) float_t  totalColumnWidth;
+  /// @brief Field totalColumnWidth, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_totalColumnWidth, put = __cordl_internal_set_totalColumnWidth)) float_t totalColumnWidth;
 
-static inline ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0* New_ctor() ;
+  static inline ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0* New_ctor();
 
-/// @brief Method <RecomputeToMaxWidthProportionally>b__1, addr 0x6b8f068, size 0x34, virtual false, abstract: false, final false
-inline void _RecomputeToMaxWidthProportionally_b__1(::UnityEngine::UIElements::Column*  c) ;
+  /// @brief Method <RecomputeToMaxWidthProportionally>b__1, addr 0x6c012b0, size 0x34, virtual false, abstract: false, final false
+  inline void _RecomputeToMaxWidthProportionally_b__1(::UnityEngine::UIElements::Column* c);
 
-constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityEngine::UIElements::ColumnLayout*& __cordl_internal_get___4__this() ;
+  constexpr ::UnityEngine::UIElements::ColumnLayout*& __cordl_internal_get___4__this();
 
-constexpr float_t const& __cordl_internal_get_totalColumnWidth() const;
+  constexpr float_t const& __cordl_internal_get_totalColumnWidth() const;
 
-constexpr float_t& __cordl_internal_get_totalColumnWidth() ;
+  constexpr float_t& __cordl_internal_get_totalColumnWidth();
 
-constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::ColumnLayout*  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::ColumnLayout* value);
 
-constexpr void __cordl_internal_set_totalColumnWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_totalColumnWidth(float_t value);
 
-/// @brief Method .ctor, addr 0x6b8de04, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c0004c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColumnLayout___c__DisplayClass53_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColumnLayout___c__DisplayClass53_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4257 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4257};
+  /// @brief Field totalColumnWidth, offset: 0x10, size: 0x4, def value: None
+  float_t ___totalColumnWidth;
 
-/// @brief Field totalColumnWidth, offset: 0x10, size: 0x4, def value: None
- float_t  ___totalColumnWidth;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::UIElements::ColumnLayout* _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::UIElements::ColumnLayout*  _____4__this;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0, ___totalColumnWidth) == 0x10, "Offset mismatch!");
@@ -112,64 +110,64 @@ static_assert(offsetof(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ColumnLayout/<>c__DisplayClass54_0
 class CORDL_TYPE ColumnLayout___c__DisplayClass54_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityEngine::UIElements::ColumnLayout*  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::UIElements::ColumnLayout* __4__this;
 
-/// @brief Field totalColumnsWidth, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_totalColumnsWidth, put=__cordl_internal_set_totalColumnsWidth)) float_t  totalColumnsWidth;
+  /// @brief Field totalColumnsWidth, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_totalColumnsWidth, put = __cordl_internal_set_totalColumnsWidth)) float_t totalColumnsWidth;
 
-static inline ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0* New_ctor() ;
+  static inline ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0* New_ctor();
 
-/// @brief Method <RecomputeToMinWidthProportionally>b__1, addr 0x6b8f09c, size 0x34, virtual false, abstract: false, final false
-inline void _RecomputeToMinWidthProportionally_b__1(::UnityEngine::UIElements::Column*  c) ;
+  /// @brief Method <RecomputeToMinWidthProportionally>b__1, addr 0x6c012e4, size 0x34, virtual false, abstract: false, final false
+  inline void _RecomputeToMinWidthProportionally_b__1(::UnityEngine::UIElements::Column* c);
 
-constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityEngine::UIElements::ColumnLayout*& __cordl_internal_get___4__this() ;
+  constexpr ::UnityEngine::UIElements::ColumnLayout*& __cordl_internal_get___4__this();
 
-constexpr float_t const& __cordl_internal_get_totalColumnsWidth() const;
+  constexpr float_t const& __cordl_internal_get_totalColumnsWidth() const;
 
-constexpr float_t& __cordl_internal_get_totalColumnsWidth() ;
+  constexpr float_t& __cordl_internal_get_totalColumnsWidth();
 
-constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::ColumnLayout*  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::ColumnLayout* value);
 
-constexpr void __cordl_internal_set_totalColumnsWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_totalColumnsWidth(float_t value);
 
-/// @brief Method .ctor, addr 0x6b8df60, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c001a8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColumnLayout___c__DisplayClass54_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColumnLayout___c__DisplayClass54_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4258 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4258};
+  /// @brief Field totalColumnsWidth, offset: 0x10, size: 0x4, def value: None
+  float_t ___totalColumnsWidth;
 
-/// @brief Field totalColumnsWidth, offset: 0x10, size: 0x4, def value: None
- float_t  ___totalColumnsWidth;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::UIElements::ColumnLayout* _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::UIElements::ColumnLayout*  _____4__this;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0, ___totalColumnsWidth) == 0x10, "Offset mismatch!");
@@ -178,442 +176,456 @@ static_assert(offsetof(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ColumnLayout
 class CORDL_TYPE ColumnLayout : public ::System::Object {
 public:
-// Declarations
-using __c__DisplayClass53_0 = ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0;
+  // Declarations
+  using __c__DisplayClass53_0 = ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0;
 
-using __c__DisplayClass54_0 = ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0;
+  using __c__DisplayClass54_0 = ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0;
 
- __declspec(property(get=get_columns)) ::UnityEngine::UIElements::Columns*  columns;
+  __declspec(property(get = get_columns)) ::UnityEngine::UIElements::Columns* columns;
 
- __declspec(property(get=get_columnsWidth)) float_t  columnsWidth;
+  __declspec(property(get = get_columnsWidth)) float_t columnsWidth;
 
- __declspec(property(get=get_hasRelativeWidthColumns)) bool  hasRelativeWidthColumns;
+  __declspec(property(get = get_hasRelativeWidthColumns)) bool hasRelativeWidthColumns;
 
- __declspec(property(get=get_hasStretchableColumns)) bool  hasStretchableColumns;
+  __declspec(property(get = get_hasStretchableColumns)) bool hasStretchableColumns;
 
-/// @brief Field layoutRequested, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get_layoutRequested, put=__cordl_internal_set_layoutRequested)) ::System::Action*  layoutRequested;
+  /// @brief Field layoutRequested, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_layoutRequested, put = __cordl_internal_set_layoutRequested)) ::System::Action* layoutRequested;
 
- __declspec(property(get=get_layoutWidth)) float_t  layoutWidth;
+  __declspec(property(get = get_layoutWidth)) float_t layoutWidth;
 
-/// @brief Field m_Columns, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Columns, put=__cordl_internal_set_m_Columns)) ::UnityEngine::UIElements::Columns*  m_Columns;
+  /// @brief Field m_Columns, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Columns, put = __cordl_internal_set_m_Columns)) ::UnityEngine::UIElements::Columns* m_Columns;
 
-/// @brief Field m_ColumnsWidth, offset 0x38, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_ColumnsWidth, put=__cordl_internal_set_m_ColumnsWidth)) float_t  m_ColumnsWidth;
+  /// @brief Field m_ColumnsWidth, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ColumnsWidth, put = __cordl_internal_set_m_ColumnsWidth)) float_t m_ColumnsWidth;
 
-/// @brief Field m_ColumnsWidthDirty, offset 0x3c, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_ColumnsWidthDirty, put=__cordl_internal_set_m_ColumnsWidthDirty)) bool  m_ColumnsWidthDirty;
+  /// @brief Field m_ColumnsWidthDirty, offset 0x3c, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_ColumnsWidthDirty, put = __cordl_internal_set_m_ColumnsWidthDirty)) bool m_ColumnsWidthDirty;
 
-/// @brief Field m_DragFixedColumns, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DragFixedColumns, put=__cordl_internal_set_m_DragFixedColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  m_DragFixedColumns;
+  /// @brief Field m_DragFixedColumns, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DragFixedColumns,
+                      put = __cordl_internal_set_m_DragFixedColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* m_DragFixedColumns;
 
-/// @brief Field m_DragInitialColumnWidth, offset 0x60, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_DragInitialColumnWidth, put=__cordl_internal_set_m_DragInitialColumnWidth)) float_t  m_DragInitialColumnWidth;
+  /// @brief Field m_DragInitialColumnWidth, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DragInitialColumnWidth, put = __cordl_internal_set_m_DragInitialColumnWidth)) float_t m_DragInitialColumnWidth;
 
-/// @brief Field m_DragLastPos, offset 0x5c, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_DragLastPos, put=__cordl_internal_set_m_DragLastPos)) float_t  m_DragLastPos;
+  /// @brief Field m_DragLastPos, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DragLastPos, put = __cordl_internal_set_m_DragLastPos)) float_t m_DragLastPos;
 
-/// @brief Field m_DragRelativeColumns, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DragRelativeColumns, put=__cordl_internal_set_m_DragRelativeColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  m_DragRelativeColumns;
+  /// @brief Field m_DragRelativeColumns, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DragRelativeColumns,
+                      put = __cordl_internal_set_m_DragRelativeColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* m_DragRelativeColumns;
 
-/// @brief Field m_DragResizeInPreviewMode, offset 0x54, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_DragResizeInPreviewMode, put=__cordl_internal_set_m_DragResizeInPreviewMode)) bool  m_DragResizeInPreviewMode;
+  /// @brief Field m_DragResizeInPreviewMode, offset 0x54, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_DragResizeInPreviewMode, put = __cordl_internal_set_m_DragResizeInPreviewMode)) bool m_DragResizeInPreviewMode;
 
-/// @brief Field m_DragResizing, offset 0x55, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_DragResizing, put=__cordl_internal_set_m_DragResizing)) bool  m_DragResizing;
+  /// @brief Field m_DragResizing, offset 0x55, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_DragResizing, put = __cordl_internal_set_m_DragResizing)) bool m_DragResizing;
 
-/// @brief Field m_DragStartPos, offset 0x58, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_DragStartPos, put=__cordl_internal_set_m_DragStartPos)) float_t  m_DragStartPos;
+  /// @brief Field m_DragStartPos, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DragStartPos, put = __cordl_internal_set_m_DragStartPos)) float_t m_DragStartPos;
 
-/// @brief Field m_DragStretchableColumns, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DragStretchableColumns, put=__cordl_internal_set_m_DragStretchableColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  m_DragStretchableColumns;
+  /// @brief Field m_DragStretchableColumns, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DragStretchableColumns,
+                      put = __cordl_internal_set_m_DragStretchableColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* m_DragStretchableColumns;
 
-/// @brief Field m_FixedColumns, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_FixedColumns, put=__cordl_internal_set_m_FixedColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  m_FixedColumns;
+  /// @brief Field m_FixedColumns, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FixedColumns, put = __cordl_internal_set_m_FixedColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* m_FixedColumns;
 
-/// @brief Field m_IsDirty, offset 0x48, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_IsDirty, put=__cordl_internal_set_m_IsDirty)) bool  m_IsDirty;
+  /// @brief Field m_IsDirty, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_IsDirty, put = __cordl_internal_set_m_IsDirty)) bool m_IsDirty;
 
-/// @brief Field m_LayoutWidth, offset 0x50, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_LayoutWidth, put=__cordl_internal_set_m_LayoutWidth)) float_t  m_LayoutWidth;
+  /// @brief Field m_LayoutWidth, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_LayoutWidth, put = __cordl_internal_set_m_LayoutWidth)) float_t m_LayoutWidth;
 
-/// @brief Field m_MaxColumnsWidth, offset 0x40, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_MaxColumnsWidth, put=__cordl_internal_set_m_MaxColumnsWidth)) float_t  m_MaxColumnsWidth;
+  /// @brief Field m_MaxColumnsWidth, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_MaxColumnsWidth, put = __cordl_internal_set_m_MaxColumnsWidth)) float_t m_MaxColumnsWidth;
 
-/// @brief Field m_MinColumnsWidth, offset 0x44, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_MinColumnsWidth, put=__cordl_internal_set_m_MinColumnsWidth)) float_t  m_MinColumnsWidth;
+  /// @brief Field m_MinColumnsWidth, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_MinColumnsWidth, put = __cordl_internal_set_m_MinColumnsWidth)) float_t m_MinColumnsWidth;
 
-/// @brief Field m_MixedWidthColumns, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_MixedWidthColumns, put=__cordl_internal_set_m_MixedWidthColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  m_MixedWidthColumns;
+  /// @brief Field m_MixedWidthColumns, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MixedWidthColumns,
+                      put = __cordl_internal_set_m_MixedWidthColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* m_MixedWidthColumns;
 
-/// @brief Field m_PreviewDesiredWidths, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_PreviewDesiredWidths, put=__cordl_internal_set_m_PreviewDesiredWidths)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*,float_t>*  m_PreviewDesiredWidths;
+  /// @brief Field m_PreviewDesiredWidths, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PreviewDesiredWidths,
+                      put = __cordl_internal_set_m_PreviewDesiredWidths)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, float_t>* m_PreviewDesiredWidths;
 
-/// @brief Field m_PreviousWidth, offset 0x4c, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_PreviousWidth, put=__cordl_internal_set_m_PreviousWidth)) float_t  m_PreviousWidth;
+  /// @brief Field m_PreviousWidth, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_PreviousWidth, put = __cordl_internal_set_m_PreviousWidth)) float_t m_PreviousWidth;
 
-/// @brief Field m_RelativeWidthColumns, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_RelativeWidthColumns, put=__cordl_internal_set_m_RelativeWidthColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  m_RelativeWidthColumns;
+  /// @brief Field m_RelativeWidthColumns, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RelativeWidthColumns,
+                      put = __cordl_internal_set_m_RelativeWidthColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* m_RelativeWidthColumns;
 
-/// @brief Field m_StretchableColumns, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_StretchableColumns, put=__cordl_internal_set_m_StretchableColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  m_StretchableColumns;
+  /// @brief Field m_StretchableColumns, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_StretchableColumns,
+                      put = __cordl_internal_set_m_StretchableColumns)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* m_StretchableColumns;
 
- __declspec(property(get=get_maxColumnsWidth)) float_t  maxColumnsWidth;
+  __declspec(property(get = get_maxColumnsWidth)) float_t maxColumnsWidth;
 
- __declspec(property(get=get_minColumnsWidth)) float_t  minColumnsWidth;
+  __declspec(property(get = get_minColumnsWidth)) float_t minColumnsWidth;
 
-/// @brief Method BeginDragResize, addr 0x6b8e464, size 0x394, virtual false, abstract: false, final false
-inline void BeginDragResize(::UnityEngine::UIElements::Column*  column, float_t  pos, bool  previewMode) ;
+  /// @brief Method BeginDragResize, addr 0x6c006ac, size 0x394, virtual false, abstract: false, final false
+  inline void BeginDragResize(::UnityEngine::UIElements::Column* column, float_t pos, bool previewMode);
 
-/// @brief Method ClearCache, addr 0x6b8b6f0, size 0xd4, virtual false, abstract: false, final false
-inline void ClearCache() ;
+  /// @brief Method ClearCache, addr 0x6bfd938, size 0xd4, virtual false, abstract: false, final false
+  inline void ClearCache();
 
-/// @brief Method Dirty, addr 0x6b8b6b0, size 0x40, virtual false, abstract: false, final false
-inline void Dirty() ;
+  /// @brief Method Dirty, addr 0x6bfd8f8, size 0x40, virtual false, abstract: false, final false
+  inline void Dirty();
 
-/// @brief Method DistributeExcess, addr 0x6b8d234, size 0x154, virtual false, abstract: false, final false
-inline void DistributeExcess(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  stretchableColumns, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  fixedColumns, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  relativeWidthColumns, ::ByRef<float_t>  delta, bool  resizeToFit, bool  dragResize) ;
+  /// @brief Method DistributeExcess, addr 0x6bff47c, size 0x154, virtual false, abstract: false, final false
+  inline void DistributeExcess(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* stretchableColumns,
+                               ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* fixedColumns,
+                               ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* relativeWidthColumns, ::ByRef<float_t> delta, bool resizeToFit, bool dragResize);
 
-/// @brief Method DistributeOverflow, addr 0x6b8d0b4, size 0x180, virtual false, abstract: false, final false
-inline void DistributeOverflow(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  stretchableColumns, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  fixedColumns, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  relativeWidthColumns, ::ByRef<float_t>  delta, bool  resizeToFit, bool  dragResize) ;
+  /// @brief Method DistributeOverflow, addr 0x6bff2fc, size 0x180, virtual false, abstract: false, final false
+  inline void DistributeOverflow(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* stretchableColumns,
+                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* fixedColumns,
+                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* relativeWidthColumns, ::ByRef<float_t> delta, bool resizeToFit, bool dragResize);
 
-/// @brief Method DoLayout, addr 0x6b8b91c, size 0xd10, virtual false, abstract: false, final false
-inline void DoLayout(float_t  width) ;
+  /// @brief Method DoLayout, addr 0x6bfdb64, size 0xd10, virtual false, abstract: false, final false
+  inline void DoLayout(float_t width);
 
-/// @brief Method DragResize, addr 0x6b8e8f4, size 0x2a0, virtual false, abstract: false, final false
-inline void DragResize(::UnityEngine::UIElements::Column*  column, float_t  pos) ;
+  /// @brief Method DragResize, addr 0x6c00b3c, size 0x2a0, virtual false, abstract: false, final false
+  inline void DragResize(::UnityEngine::UIElements::Column* column, float_t pos);
 
-/// @brief Method EndDragResize, addr 0x6b8eb94, size 0x234, virtual false, abstract: false, final false
-inline void EndDragResize(::UnityEngine::UIElements::Column*  column, bool  cancelled) ;
+  /// @brief Method EndDragResize, addr 0x6c00ddc, size 0x234, virtual false, abstract: false, final false
+  inline void EndDragResize(::UnityEngine::UIElements::Column* column, bool cancelled);
 
-/// @brief Method GetDesiredPosition, addr 0x6b8e7f8, size 0xfc, virtual false, abstract: false, final false
-inline float_t GetDesiredPosition(::UnityEngine::UIElements::Column*  column) ;
+  /// @brief Method GetDesiredPosition, addr 0x6c00a40, size 0xfc, virtual false, abstract: false, final false
+  inline float_t GetDesiredPosition(::UnityEngine::UIElements::Column* column);
 
-/// @brief Method GetDesiredWidth, addr 0x6b8cf04, size 0xc0, virtual false, abstract: false, final false
-inline float_t GetDesiredWidth(::UnityEngine::UIElements::Column*  c) ;
+  /// @brief Method GetDesiredWidth, addr 0x6bff14c, size 0xc0, virtual false, abstract: false, final false
+  inline float_t GetDesiredWidth(::UnityEngine::UIElements::Column* c);
 
-/// @brief Method IsClamped, addr 0x6b8b90c, size 0x10, virtual false, abstract: false, final false
-static inline bool IsClamped(float_t  value, float_t  min, float_t  max) ;
+  /// @brief Method IsClamped, addr 0x6bfdb54, size 0x10, virtual false, abstract: false, final false
+  static inline bool IsClamped(float_t value, float_t min, float_t max);
 
-static inline ::UnityEngine::UIElements::ColumnLayout* New_ctor(::UnityEngine::UIElements::Columns*  columns) ;
+  static inline ::UnityEngine::UIElements::ColumnLayout* New_ctor(::UnityEngine::UIElements::Columns* columns);
 
-/// @brief Method OnColumnAdded, addr 0x6b8b2d8, size 0xf4, virtual false, abstract: false, final false
-inline void OnColumnAdded(::UnityEngine::UIElements::Column*  column, int32_t  index) ;
+  /// @brief Method OnColumnAdded, addr 0x6bfd520, size 0xf4, virtual false, abstract: false, final false
+  inline void OnColumnAdded(::UnityEngine::UIElements::Column* column, int32_t index);
 
-/// @brief Method OnColumnChanged, addr 0x6b8b8d4, size 0x2c, virtual false, abstract: false, final false
-inline void OnColumnChanged(::UnityEngine::UIElements::Column*  column, ::UnityEngine::UIElements::ColumnDataType  type) ;
+  /// @brief Method OnColumnChanged, addr 0x6bfdb1c, size 0x2c, virtual false, abstract: false, final false
+  inline void OnColumnChanged(::UnityEngine::UIElements::Column* column, ::UnityEngine::UIElements::ColumnDataType type);
 
-/// @brief Method OnColumnRemoved, addr 0x6b8b7c4, size 0xf4, virtual false, abstract: false, final false
-inline void OnColumnRemoved(::UnityEngine::UIElements::Column*  column) ;
+  /// @brief Method OnColumnRemoved, addr 0x6bfda0c, size 0xf4, virtual false, abstract: false, final false
+  inline void OnColumnRemoved(::UnityEngine::UIElements::Column* column);
 
-/// @brief Method OnColumnReordered, addr 0x6b8b8b8, size 0x4, virtual false, abstract: false, final false
-inline void OnColumnReordered(::UnityEngine::UIElements::Column*  column, int32_t  from, int32_t  to) ;
+  /// @brief Method OnColumnReordered, addr 0x6bfdb00, size 0x4, virtual false, abstract: false, final false
+  inline void OnColumnReordered(::UnityEngine::UIElements::Column* column, int32_t from, int32_t to);
 
-/// @brief Method OnColumnResized, addr 0x6b8b900, size 0xc, virtual false, abstract: false, final false
-inline void OnColumnResized(::UnityEngine::UIElements::Column*  column) ;
+  /// @brief Method OnColumnResized, addr 0x6bfdb48, size 0xc, virtual false, abstract: false, final false
+  inline void OnColumnResized(::UnityEngine::UIElements::Column* column);
 
-/// @brief Method RecomputeToDesiredWidth, addr 0x6b8df64, size 0x1cc, virtual false, abstract: false, final false
-inline float_t RecomputeToDesiredWidth(::UnityEngine::UIElements::Column*  column, float_t  distributedDelta, bool  setDesiredWidthOnly, bool  distributeOverflow) ;
+  /// @brief Method RecomputeToDesiredWidth, addr 0x6c001ac, size 0x1cc, virtual false, abstract: false, final false
+  inline float_t RecomputeToDesiredWidth(::UnityEngine::UIElements::Column* column, float_t distributedDelta, bool setDesiredWidthOnly, bool distributeOverflow);
 
-/// @brief Method RecomputeToDesiredWidth, addr 0x6b8d388, size 0x134, virtual false, abstract: false, final false
-inline float_t RecomputeToDesiredWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  columns, float_t  distributedDelta, bool  setDesiredWidthOnly, bool  distributeOverflow) ;
+  /// @brief Method RecomputeToDesiredWidth, addr 0x6bff5d0, size 0x134, virtual false, abstract: false, final false
+  inline float_t RecomputeToDesiredWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly,
+                                         bool distributeOverflow);
 
-/// @brief Method RecomputeToMaxWidth, addr 0x6b8dc6c, size 0x198, virtual false, abstract: false, final false
-inline float_t RecomputeToMaxWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  columns, float_t  distributedDelta, bool  setDesiredWidthOnly) ;
+  /// @brief Method RecomputeToMaxWidth, addr 0x6bffeb4, size 0x198, virtual false, abstract: false, final false
+  inline float_t RecomputeToMaxWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-/// @brief Method RecomputeToMaxWidthProportionally, addr 0x6b8d974, size 0x2f8, virtual false, abstract: false, final false
-inline float_t RecomputeToMaxWidthProportionally(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  columns, float_t  distributedDelta, bool  setDesiredWidthOnly) ;
+  /// @brief Method RecomputeToMaxWidthProportionally, addr 0x6bffbbc, size 0x2f8, virtual false, abstract: false, final false
+  inline float_t RecomputeToMaxWidthProportionally(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-/// @brief Method RecomputeToMinWidth, addr 0x6b8d7d0, size 0x1a4, virtual false, abstract: false, final false
-inline float_t RecomputeToMinWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  columns, float_t  distributedDelta, bool  setDesiredWidthOnly) ;
+  /// @brief Method RecomputeToMinWidth, addr 0x6bffa18, size 0x1a4, virtual false, abstract: false, final false
+  inline float_t RecomputeToMinWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-/// @brief Method RecomputeToMinWidthProportionally, addr 0x6b8d4bc, size 0x314, virtual false, abstract: false, final false
-inline float_t RecomputeToMinWidthProportionally(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  columns, float_t  distributedDelta, bool  setDesiredWidthOnly) ;
+  /// @brief Method RecomputeToMinWidthProportionally, addr 0x6bff704, size 0x314, virtual false, abstract: false, final false
+  inline float_t RecomputeToMinWidthProportionally(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-/// @brief Method RequiresLayoutUpdate, addr 0x6b8b8bc, size 0x18, virtual false, abstract: false, final false
-inline bool RequiresLayoutUpdate(::UnityEngine::UIElements::ColumnDataType  type) ;
+  /// @brief Method RequiresLayoutUpdate, addr 0x6bfdb04, size 0x18, virtual false, abstract: false, final false
+  inline bool RequiresLayoutUpdate(::UnityEngine::UIElements::ColumnDataType type);
 
-/// @brief Method ResizeColumn, addr 0x6b8de08, size 0x158, virtual false, abstract: false, final false
-inline void ResizeColumn(::UnityEngine::UIElements::Column*  column, float_t  width, bool  setDesiredWidthOnly) ;
+  /// @brief Method ResizeColumn, addr 0x6c00050, size 0x158, virtual false, abstract: false, final false
+  inline void ResizeColumn(::UnityEngine::UIElements::Column* column, float_t width, bool setDesiredWidthOnly);
 
-/// @brief Method ResizeToFit, addr 0x6b8e130, size 0x334, virtual false, abstract: false, final false
-inline void ResizeToFit(float_t  width) ;
+  /// @brief Method ResizeToFit, addr 0x6c00378, size 0x334, virtual false, abstract: false, final false
+  inline void ResizeToFit(float_t width);
 
-/// @brief Method StretchResizeColumns, addr 0x6b8cfc4, size 0xf0, virtual false, abstract: false, final false
-inline void StretchResizeColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  stretchableColumns, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  fixedColumns, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  relativeWidthColumns, ::ByRef<float_t>  delta, bool  resizeToFit, bool  dragResize) ;
+  /// @brief Method StretchResizeColumns, addr 0x6bff20c, size 0xf0, virtual false, abstract: false, final false
+  inline void StretchResizeColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* stretchableColumns,
+                                   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* fixedColumns,
+                                   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* relativeWidthColumns, ::ByRef<float_t> delta, bool resizeToFit, bool dragResize);
 
-/// @brief Method UpdateCache, addr 0x6b8c62c, size 0x524, virtual false, abstract: false, final false
-inline void UpdateCache() ;
+  /// @brief Method UpdateCache, addr 0x6bfe874, size 0x524, virtual false, abstract: false, final false
+  inline void UpdateCache();
 
-/// @brief Method UpdateMinAndMaxColumnsWidth, addr 0x6b8cb50, size 0x310, virtual false, abstract: false, final false
-inline void UpdateMinAndMaxColumnsWidth() ;
+  /// @brief Method UpdateMinAndMaxColumnsWidth, addr 0x6bfed98, size 0x310, virtual false, abstract: false, final false
+  inline void UpdateMinAndMaxColumnsWidth();
 
-/// @brief Method <DoLayout>b__49_0, addr 0x6b8edc8, size 0xa8, virtual false, abstract: false, final false
-inline int32_t _DoLayout_b__49_0(::UnityEngine::UIElements::Column*  c1, ::UnityEngine::UIElements::Column*  c2) ;
+  /// @brief Method <DoLayout>b__49_0, addr 0x6c01010, size 0xa8, virtual false, abstract: false, final false
+  inline int32_t _DoLayout_b__49_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
-/// @brief Method <DoLayout>b__49_1, addr 0x6b8ee70, size 0xa8, virtual false, abstract: false, final false
-inline int32_t _DoLayout_b__49_1(::UnityEngine::UIElements::Column*  c1, ::UnityEngine::UIElements::Column*  c2) ;
+  /// @brief Method <DoLayout>b__49_1, addr 0x6c010b8, size 0xa8, virtual false, abstract: false, final false
+  inline int32_t _DoLayout_b__49_1(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
-/// @brief Method <RecomputeToMaxWidthProportionally>b__53_0, addr 0x6b8ef18, size 0xa8, virtual false, abstract: false, final false
-inline int32_t _RecomputeToMaxWidthProportionally_b__53_0(::UnityEngine::UIElements::Column*  c1, ::UnityEngine::UIElements::Column*  c2) ;
+  /// @brief Method <RecomputeToMaxWidthProportionally>b__53_0, addr 0x6c01160, size 0xa8, virtual false, abstract: false, final false
+  inline int32_t _RecomputeToMaxWidthProportionally_b__53_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
-/// @brief Method <RecomputeToMinWidthProportionally>b__54_0, addr 0x6b8efc0, size 0xa8, virtual false, abstract: false, final false
-inline int32_t _RecomputeToMinWidthProportionally_b__54_0(::UnityEngine::UIElements::Column*  c1, ::UnityEngine::UIElements::Column*  c2) ;
+  /// @brief Method <RecomputeToMinWidthProportionally>b__54_0, addr 0x6c01208, size 0xa8, virtual false, abstract: false, final false
+  inline int32_t _RecomputeToMinWidthProportionally_b__54_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
-constexpr ::System::Action* const& __cordl_internal_get_layoutRequested() const;
+  constexpr ::System::Action* const& __cordl_internal_get_layoutRequested() const;
 
-constexpr ::System::Action*& __cordl_internal_get_layoutRequested() ;
+  constexpr ::System::Action*& __cordl_internal_get_layoutRequested();
 
-constexpr ::UnityEngine::UIElements::Columns* const& __cordl_internal_get_m_Columns() const;
+  constexpr ::UnityEngine::UIElements::Columns* const& __cordl_internal_get_m_Columns() const;
 
-constexpr ::UnityEngine::UIElements::Columns*& __cordl_internal_get_m_Columns() ;
+  constexpr ::UnityEngine::UIElements::Columns*& __cordl_internal_get_m_Columns();
 
-constexpr float_t const& __cordl_internal_get_m_ColumnsWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_ColumnsWidth() const;
 
-constexpr float_t& __cordl_internal_get_m_ColumnsWidth() ;
+  constexpr float_t& __cordl_internal_get_m_ColumnsWidth();
 
-constexpr bool const& __cordl_internal_get_m_ColumnsWidthDirty() const;
+  constexpr bool const& __cordl_internal_get_m_ColumnsWidthDirty() const;
 
-constexpr bool& __cordl_internal_get_m_ColumnsWidthDirty() ;
+  constexpr bool& __cordl_internal_get_m_ColumnsWidthDirty();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_DragFixedColumns() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_DragFixedColumns() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_DragFixedColumns() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_DragFixedColumns();
 
-constexpr float_t const& __cordl_internal_get_m_DragInitialColumnWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_DragInitialColumnWidth() const;
 
-constexpr float_t& __cordl_internal_get_m_DragInitialColumnWidth() ;
+  constexpr float_t& __cordl_internal_get_m_DragInitialColumnWidth();
 
-constexpr float_t const& __cordl_internal_get_m_DragLastPos() const;
+  constexpr float_t const& __cordl_internal_get_m_DragLastPos() const;
 
-constexpr float_t& __cordl_internal_get_m_DragLastPos() ;
+  constexpr float_t& __cordl_internal_get_m_DragLastPos();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_DragRelativeColumns() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_DragRelativeColumns() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_DragRelativeColumns() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_DragRelativeColumns();
 
-constexpr bool const& __cordl_internal_get_m_DragResizeInPreviewMode() const;
+  constexpr bool const& __cordl_internal_get_m_DragResizeInPreviewMode() const;
 
-constexpr bool& __cordl_internal_get_m_DragResizeInPreviewMode() ;
+  constexpr bool& __cordl_internal_get_m_DragResizeInPreviewMode();
 
-constexpr bool const& __cordl_internal_get_m_DragResizing() const;
+  constexpr bool const& __cordl_internal_get_m_DragResizing() const;
 
-constexpr bool& __cordl_internal_get_m_DragResizing() ;
+  constexpr bool& __cordl_internal_get_m_DragResizing();
 
-constexpr float_t const& __cordl_internal_get_m_DragStartPos() const;
+  constexpr float_t const& __cordl_internal_get_m_DragStartPos() const;
 
-constexpr float_t& __cordl_internal_get_m_DragStartPos() ;
+  constexpr float_t& __cordl_internal_get_m_DragStartPos();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_DragStretchableColumns() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_DragStretchableColumns() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_DragStretchableColumns() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_DragStretchableColumns();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_FixedColumns() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_FixedColumns() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_FixedColumns() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_FixedColumns();
 
-constexpr bool const& __cordl_internal_get_m_IsDirty() const;
+  constexpr bool const& __cordl_internal_get_m_IsDirty() const;
 
-constexpr bool& __cordl_internal_get_m_IsDirty() ;
+  constexpr bool& __cordl_internal_get_m_IsDirty();
 
-constexpr float_t const& __cordl_internal_get_m_LayoutWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_LayoutWidth() const;
 
-constexpr float_t& __cordl_internal_get_m_LayoutWidth() ;
+  constexpr float_t& __cordl_internal_get_m_LayoutWidth();
 
-constexpr float_t const& __cordl_internal_get_m_MaxColumnsWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_MaxColumnsWidth() const;
 
-constexpr float_t& __cordl_internal_get_m_MaxColumnsWidth() ;
+  constexpr float_t& __cordl_internal_get_m_MaxColumnsWidth();
 
-constexpr float_t const& __cordl_internal_get_m_MinColumnsWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_MinColumnsWidth() const;
 
-constexpr float_t& __cordl_internal_get_m_MinColumnsWidth() ;
+  constexpr float_t& __cordl_internal_get_m_MinColumnsWidth();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_MixedWidthColumns() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_MixedWidthColumns() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_MixedWidthColumns() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_MixedWidthColumns();
 
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*,float_t>* const& __cordl_internal_get_m_PreviewDesiredWidths() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, float_t>* const& __cordl_internal_get_m_PreviewDesiredWidths() const;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*,float_t>*& __cordl_internal_get_m_PreviewDesiredWidths() ;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, float_t>*& __cordl_internal_get_m_PreviewDesiredWidths();
 
-constexpr float_t const& __cordl_internal_get_m_PreviousWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_PreviousWidth() const;
 
-constexpr float_t& __cordl_internal_get_m_PreviousWidth() ;
+  constexpr float_t& __cordl_internal_get_m_PreviousWidth();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_RelativeWidthColumns() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_RelativeWidthColumns() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_RelativeWidthColumns() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_RelativeWidthColumns();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_StretchableColumns() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* const& __cordl_internal_get_m_StretchableColumns() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_StretchableColumns() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*& __cordl_internal_get_m_StretchableColumns();
 
-constexpr void __cordl_internal_set_layoutRequested(::System::Action*  value) ;
+  constexpr void __cordl_internal_set_layoutRequested(::System::Action* value);
 
-constexpr void __cordl_internal_set_m_Columns(::UnityEngine::UIElements::Columns*  value) ;
+  constexpr void __cordl_internal_set_m_Columns(::UnityEngine::UIElements::Columns* value);
 
-constexpr void __cordl_internal_set_m_ColumnsWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_m_ColumnsWidth(float_t value);
 
-constexpr void __cordl_internal_set_m_ColumnsWidthDirty(bool  value) ;
+  constexpr void __cordl_internal_set_m_ColumnsWidthDirty(bool value);
 
-constexpr void __cordl_internal_set_m_DragFixedColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  value) ;
+  constexpr void __cordl_internal_set_m_DragFixedColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-constexpr void __cordl_internal_set_m_DragInitialColumnWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_m_DragInitialColumnWidth(float_t value);
 
-constexpr void __cordl_internal_set_m_DragLastPos(float_t  value) ;
+  constexpr void __cordl_internal_set_m_DragLastPos(float_t value);
 
-constexpr void __cordl_internal_set_m_DragRelativeColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  value) ;
+  constexpr void __cordl_internal_set_m_DragRelativeColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-constexpr void __cordl_internal_set_m_DragResizeInPreviewMode(bool  value) ;
+  constexpr void __cordl_internal_set_m_DragResizeInPreviewMode(bool value);
 
-constexpr void __cordl_internal_set_m_DragResizing(bool  value) ;
+  constexpr void __cordl_internal_set_m_DragResizing(bool value);
 
-constexpr void __cordl_internal_set_m_DragStartPos(float_t  value) ;
+  constexpr void __cordl_internal_set_m_DragStartPos(float_t value);
 
-constexpr void __cordl_internal_set_m_DragStretchableColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  value) ;
+  constexpr void __cordl_internal_set_m_DragStretchableColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-constexpr void __cordl_internal_set_m_FixedColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  value) ;
+  constexpr void __cordl_internal_set_m_FixedColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-constexpr void __cordl_internal_set_m_IsDirty(bool  value) ;
+  constexpr void __cordl_internal_set_m_IsDirty(bool value);
 
-constexpr void __cordl_internal_set_m_LayoutWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_m_LayoutWidth(float_t value);
 
-constexpr void __cordl_internal_set_m_MaxColumnsWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_m_MaxColumnsWidth(float_t value);
 
-constexpr void __cordl_internal_set_m_MinColumnsWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_m_MinColumnsWidth(float_t value);
 
-constexpr void __cordl_internal_set_m_MixedWidthColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  value) ;
+  constexpr void __cordl_internal_set_m_MixedWidthColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-constexpr void __cordl_internal_set_m_PreviewDesiredWidths(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*,float_t>*  value) ;
+  constexpr void __cordl_internal_set_m_PreviewDesiredWidths(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, float_t>* value);
 
-constexpr void __cordl_internal_set_m_PreviousWidth(float_t  value) ;
+  constexpr void __cordl_internal_set_m_PreviousWidth(float_t value);
 
-constexpr void __cordl_internal_set_m_RelativeWidthColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  value) ;
+  constexpr void __cordl_internal_set_m_RelativeWidthColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-constexpr void __cordl_internal_set_m_StretchableColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  value) ;
+  constexpr void __cordl_internal_set_m_StretchableColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-/// @brief Method .ctor, addr 0x6b8afa0, size 0x284, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::UIElements::Columns*  columns) ;
+  /// @brief Method .ctor, addr 0x6bfd1e8, size 0x284, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::Columns* columns);
 
-/// @brief Method add_layoutRequested, addr 0x6b8ae48, size 0xac, virtual false, abstract: false, final false
-inline void add_layoutRequested(::System::Action*  value) ;
+  /// @brief Method add_layoutRequested, addr 0x6bfd090, size 0xac, virtual false, abstract: false, final false
+  inline void add_layoutRequested(::System::Action* value);
 
-/// @brief Method get_columns, addr 0x6b8aa64, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::Columns* get_columns() ;
+  /// @brief Method get_columns, addr 0x6bfccac, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Columns* get_columns();
 
-/// @brief Method get_columnsWidth, addr 0x6b8aa6c, size 0x2f8, virtual false, abstract: false, final false
-inline float_t get_columnsWidth() ;
+  /// @brief Method get_columnsWidth, addr 0x6bfccb4, size 0x2f8, virtual false, abstract: false, final false
+  inline float_t get_columnsWidth();
 
-/// @brief Method get_hasRelativeWidthColumns, addr 0x6b8add4, size 0x74, virtual false, abstract: false, final false
-inline bool get_hasRelativeWidthColumns() ;
+  /// @brief Method get_hasRelativeWidthColumns, addr 0x6bfd01c, size 0x74, virtual false, abstract: false, final false
+  inline bool get_hasRelativeWidthColumns();
 
-/// @brief Method get_hasStretchableColumns, addr 0x6b8ad7c, size 0x58, virtual false, abstract: false, final false
-inline bool get_hasStretchableColumns() ;
+  /// @brief Method get_hasStretchableColumns, addr 0x6bfcfc4, size 0x58, virtual false, abstract: false, final false
+  inline bool get_hasStretchableColumns();
 
-/// @brief Method get_layoutWidth, addr 0x6b8ad64, size 0x8, virtual false, abstract: false, final false
-inline float_t get_layoutWidth() ;
+  /// @brief Method get_layoutWidth, addr 0x6bfcfac, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_layoutWidth();
 
-/// @brief Method get_maxColumnsWidth, addr 0x6b8ad74, size 0x8, virtual false, abstract: false, final false
-inline float_t get_maxColumnsWidth() ;
+  /// @brief Method get_maxColumnsWidth, addr 0x6bfcfbc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_maxColumnsWidth();
 
-/// @brief Method get_minColumnsWidth, addr 0x6b8ad6c, size 0x8, virtual false, abstract: false, final false
-inline float_t get_minColumnsWidth() ;
+  /// @brief Method get_minColumnsWidth, addr 0x6bfcfb4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_minColumnsWidth();
 
-/// @brief Method remove_layoutRequested, addr 0x6b8aef4, size 0xac, virtual false, abstract: false, final false
-inline void remove_layoutRequested(::System::Action*  value) ;
+  /// @brief Method remove_layoutRequested, addr 0x6bfd13c, size 0xac, virtual false, abstract: false, final false
+  inline void remove_layoutRequested(::System::Action* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColumnLayout() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColumnLayout();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ColumnLayout(ColumnLayout&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ColumnLayout(ColumnLayout && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ColumnLayout(ColumnLayout const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ColumnLayout(ColumnLayout const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4259};
+  /// @brief Field m_StretchableColumns, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* ___m_StretchableColumns;
 
-/// @brief Field m_StretchableColumns, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  ___m_StretchableColumns;
+  /// @brief Field m_FixedColumns, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* ___m_FixedColumns;
 
-/// @brief Field m_FixedColumns, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  ___m_FixedColumns;
+  /// @brief Field m_RelativeWidthColumns, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* ___m_RelativeWidthColumns;
 
-/// @brief Field m_RelativeWidthColumns, offset: 0x20, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  ___m_RelativeWidthColumns;
+  /// @brief Field m_MixedWidthColumns, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* ___m_MixedWidthColumns;
 
-/// @brief Field m_MixedWidthColumns, offset: 0x28, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  ___m_MixedWidthColumns;
+  /// @brief Field m_Columns, offset: 0x30, size: 0x8, def value: None
+  ::UnityEngine::UIElements::Columns* ___m_Columns;
 
-/// @brief Field m_Columns, offset: 0x30, size: 0x8, def value: None
- ::UnityEngine::UIElements::Columns*  ___m_Columns;
+  /// @brief Field m_ColumnsWidth, offset: 0x38, size: 0x4, def value: None
+  float_t ___m_ColumnsWidth;
 
-/// @brief Field m_ColumnsWidth, offset: 0x38, size: 0x4, def value: None
- float_t  ___m_ColumnsWidth;
+  /// @brief Field m_ColumnsWidthDirty, offset: 0x3c, size: 0x1, def value: None
+  bool ___m_ColumnsWidthDirty;
 
-/// @brief Field m_ColumnsWidthDirty, offset: 0x3c, size: 0x1, def value: None
- bool  ___m_ColumnsWidthDirty;
+  /// @brief Field m_MaxColumnsWidth, offset: 0x40, size: 0x4, def value: None
+  float_t ___m_MaxColumnsWidth;
 
-/// @brief Field m_MaxColumnsWidth, offset: 0x40, size: 0x4, def value: None
- float_t  ___m_MaxColumnsWidth;
+  /// @brief Field m_MinColumnsWidth, offset: 0x44, size: 0x4, def value: None
+  float_t ___m_MinColumnsWidth;
 
-/// @brief Field m_MinColumnsWidth, offset: 0x44, size: 0x4, def value: None
- float_t  ___m_MinColumnsWidth;
+  /// @brief Field m_IsDirty, offset: 0x48, size: 0x1, def value: None
+  bool ___m_IsDirty;
 
-/// @brief Field m_IsDirty, offset: 0x48, size: 0x1, def value: None
- bool  ___m_IsDirty;
+  /// @brief Field m_PreviousWidth, offset: 0x4c, size: 0x4, def value: None
+  float_t ___m_PreviousWidth;
 
-/// @brief Field m_PreviousWidth, offset: 0x4c, size: 0x4, def value: None
- float_t  ___m_PreviousWidth;
+  /// @brief Field m_LayoutWidth, offset: 0x50, size: 0x4, def value: None
+  float_t ___m_LayoutWidth;
 
-/// @brief Field m_LayoutWidth, offset: 0x50, size: 0x4, def value: None
- float_t  ___m_LayoutWidth;
+  /// @brief Field m_DragResizeInPreviewMode, offset: 0x54, size: 0x1, def value: None
+  bool ___m_DragResizeInPreviewMode;
 
-/// @brief Field m_DragResizeInPreviewMode, offset: 0x54, size: 0x1, def value: None
- bool  ___m_DragResizeInPreviewMode;
+  /// @brief Field m_DragResizing, offset: 0x55, size: 0x1, def value: None
+  bool ___m_DragResizing;
 
-/// @brief Field m_DragResizing, offset: 0x55, size: 0x1, def value: None
- bool  ___m_DragResizing;
+  /// @brief Field m_DragStartPos, offset: 0x58, size: 0x4, def value: None
+  float_t ___m_DragStartPos;
 
-/// @brief Field m_DragStartPos, offset: 0x58, size: 0x4, def value: None
- float_t  ___m_DragStartPos;
+  /// @brief Field m_DragLastPos, offset: 0x5c, size: 0x4, def value: None
+  float_t ___m_DragLastPos;
 
-/// @brief Field m_DragLastPos, offset: 0x5c, size: 0x4, def value: None
- float_t  ___m_DragLastPos;
+  /// @brief Field m_DragInitialColumnWidth, offset: 0x60, size: 0x4, def value: None
+  float_t ___m_DragInitialColumnWidth;
 
-/// @brief Field m_DragInitialColumnWidth, offset: 0x60, size: 0x4, def value: None
- float_t  ___m_DragInitialColumnWidth;
+  /// @brief Field m_DragStretchableColumns, offset: 0x68, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* ___m_DragStretchableColumns;
 
-/// @brief Field m_DragStretchableColumns, offset: 0x68, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  ___m_DragStretchableColumns;
+  /// @brief Field m_DragRelativeColumns, offset: 0x70, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* ___m_DragRelativeColumns;
 
-/// @brief Field m_DragRelativeColumns, offset: 0x70, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  ___m_DragRelativeColumns;
+  /// @brief Field m_DragFixedColumns, offset: 0x78, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* ___m_DragFixedColumns;
 
-/// @brief Field m_DragFixedColumns, offset: 0x78, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*  ___m_DragFixedColumns;
+  /// @brief Field m_PreviewDesiredWidths, offset: 0x80, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, float_t>* ___m_PreviewDesiredWidths;
 
-/// @brief Field m_PreviewDesiredWidths, offset: 0x80, size: 0x8, def value: None
- ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*,float_t>*  ___m_PreviewDesiredWidths;
+  /// @brief Field layoutRequested, offset: 0x88, size: 0x8, def value: None
+  ::System::Action* ___layoutRequested;
 
-/// @brief Field layoutRequested, offset: 0x88, size: 0x8, def value: None
- ::System::Action*  ___layoutRequested;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::ColumnLayout, ___m_StretchableColumns) == 0x10, "Offset mismatch!");
@@ -662,7 +674,7 @@ static_assert(offsetof(::UnityEngine::UIElements::ColumnLayout, ___layoutRequest
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ColumnLayout, 0x90>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ColumnLayout);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ColumnLayout*, "UnityEngine.UIElements", "ColumnLayout");
 NEED_NO_BOX(::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0);

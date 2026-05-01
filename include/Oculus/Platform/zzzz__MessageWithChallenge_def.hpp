@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithChallenge
 class CORDL_TYPE MessageWithChallenge : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Challenge*> {
 public:
-// Declarations
-/// @brief Method GetChallenge, addr 0x5c2c704, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::Challenge* GetChallenge() ;
+  // Declarations
+  /// @brief Method GetChallenge, addr 0x5c9e6ec, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-/// @brief Method GetDataFromMessage, addr 0x5c2c748, size 0x9c, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(::System::IntPtr  c_message) ;
+  /// @brief Method GetDataFromMessage, addr 0x5c9e730, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(::System::IntPtr c_message);
 
-static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c2943c, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5c9b424, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithChallenge() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithChallenge();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithChallenge", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithChallenge(MessageWithChallenge&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithChallenge", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithChallenge(MessageWithChallenge && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithChallenge", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithChallenge(MessageWithChallenge const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithChallenge", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithChallenge(MessageWithChallenge const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17856 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17848};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithChallenge, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithChallenge);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithChallenge*, "Oculus.Platform", "MessageWithChallenge");

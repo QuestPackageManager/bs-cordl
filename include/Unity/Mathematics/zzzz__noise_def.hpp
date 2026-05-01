@@ -27,143 +27,143 @@ namespace Unity::Mathematics {
 // CS Name: Unity.Mathematics.noise
 class CORDL_TYPE noise : public ::System::Object {
 public:
-// Declarations
-/// @brief Method cellular, addr 0x64c0510, size 0x878, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float2 cellular(::Unity::Mathematics::float2  P) ;
+  // Declarations
+  /// @brief Method cellular, addr 0x653251c, size 0x878, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float2 cellular(::Unity::Mathematics::float2 P);
 
-/// @brief Method cellular, addr 0x64c1bfc, size 0x21b8, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float2 cellular(::Unity::Mathematics::float3  P) ;
+  /// @brief Method cellular, addr 0x6533c08, size 0x21b8, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float2 cellular(::Unity::Mathematics::float3 P);
 
-/// @brief Method cellular2x2, addr 0x64c0f9c, size 0x37c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float2 cellular2x2(::Unity::Mathematics::float2  P) ;
+  /// @brief Method cellular2x2, addr 0x6532fa8, size 0x37c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float2 cellular2x2(::Unity::Mathematics::float2 P);
 
-/// @brief Method cellular2x2x2, addr 0x64c13bc, size 0x71c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float2 cellular2x2x2(::Unity::Mathematics::float3  P) ;
+  /// @brief Method cellular2x2x2, addr 0x65333c8, size 0x71c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float2 cellular2x2x2(::Unity::Mathematics::float3 P);
 
-/// @brief Method cnoise, addr 0x64c3db4, size 0x2cc, virtual false, abstract: false, final false
-static inline float_t cnoise(::Unity::Mathematics::float2  P) ;
+  /// @brief Method cnoise, addr 0x6535dc0, size 0x2cc, virtual false, abstract: false, final false
+  static inline float_t cnoise(::Unity::Mathematics::float2 P);
 
-/// @brief Method cnoise, addr 0x64c4474, size 0x744, virtual false, abstract: false, final false
-static inline float_t cnoise(::Unity::Mathematics::float3  P) ;
+  /// @brief Method cnoise, addr 0x6536480, size 0x744, virtual false, abstract: false, final false
+  static inline float_t cnoise(::Unity::Mathematics::float3 P);
 
-/// @brief Method cnoise, addr 0x64c53d0, size 0x1108, virtual false, abstract: false, final false
-static inline float_t cnoise(::Unity::Mathematics::float4  P) ;
+  /// @brief Method cnoise, addr 0x65373dc, size 0x1108, virtual false, abstract: false, final false
+  static inline float_t cnoise(::Unity::Mathematics::float4 P);
 
-/// @brief Method fade, addr 0x64c4128, size 0x34, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float2 fade(::Unity::Mathematics::float2  t) ;
+  /// @brief Method fade, addr 0x6536134, size 0x34, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float2 fade(::Unity::Mathematics::float2 t);
 
-/// @brief Method fade, addr 0x64c4bb8, size 0x5c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 fade(::Unity::Mathematics::float3  t) ;
+  /// @brief Method fade, addr 0x6536bc4, size 0x5c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 fade(::Unity::Mathematics::float3 t);
 
-/// @brief Method fade, addr 0x64c64d8, size 0x44, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float4 fade(::Unity::Mathematics::float4  t) ;
+  /// @brief Method fade, addr 0x65384e4, size 0x44, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float4 fade(::Unity::Mathematics::float4 t);
 
-/// @brief Method grad4, addr 0x64c778c, size 0x17c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float4 grad4(float_t  j, ::Unity::Mathematics::float4  ip) ;
+  /// @brief Method grad4, addr 0x6539798, size 0x17c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float4 grad4(float_t j, ::Unity::Mathematics::float4 ip);
 
-/// @brief Method mod289, addr 0x64c0d88, size 0xc4, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float2 mod289(::Unity::Mathematics::float2  x) ;
+  /// @brief Method mod289, addr 0x6532d94, size 0xc4, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float2 mod289(::Unity::Mathematics::float2 x);
 
-/// @brief Method mod289, addr 0x64c1ad8, size 0x124, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 mod289(::Unity::Mathematics::float3  x) ;
+  /// @brief Method mod289, addr 0x6533ae4, size 0x124, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 mod289(::Unity::Mathematics::float3 x);
 
-/// @brief Method mod289, addr 0x64c4080, size 0x74, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float4 mod289(::Unity::Mathematics::float4  x) ;
+  /// @brief Method mod289, addr 0x653608c, size 0x74, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float4 mod289(::Unity::Mathematics::float4 x);
 
-/// @brief Method mod289, addr 0x64c76d8, size 0x7c, virtual false, abstract: false, final false
-static inline float_t mod289(float_t  x) ;
+  /// @brief Method mod289, addr 0x65396e4, size 0x7c, virtual false, abstract: false, final false
+  static inline float_t mod289(float_t x);
 
-/// @brief Method mod7, addr 0x64c0e84, size 0x118, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 mod7(::Unity::Mathematics::float3  x) ;
+  /// @brief Method mod7, addr 0x6532e90, size 0x118, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 mod7(::Unity::Mathematics::float3 x);
 
-/// @brief Method mod7, addr 0x64c134c, size 0x70, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float4 mod7(::Unity::Mathematics::float4  x) ;
+  /// @brief Method mod7, addr 0x6533358, size 0x70, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float4 mod7(::Unity::Mathematics::float4 x);
 
-/// @brief Method permute, addr 0x64c0e4c, size 0x38, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 permute(::Unity::Mathematics::float3  x) ;
+  /// @brief Method permute, addr 0x6532e58, size 0x38, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 permute(::Unity::Mathematics::float3 x);
 
-/// @brief Method permute, addr 0x64c1318, size 0x34, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float4 permute(::Unity::Mathematics::float4  x) ;
+  /// @brief Method permute, addr 0x6533324, size 0x34, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float4 permute(::Unity::Mathematics::float4 x);
 
-/// @brief Method permute, addr 0x64c7754, size 0x1c, virtual false, abstract: false, final false
-static inline float_t permute(float_t  x) ;
+  /// @brief Method permute, addr 0x6539760, size 0x1c, virtual false, abstract: false, final false
+  static inline float_t permute(float_t x);
 
-/// @brief Method pnoise, addr 0x64c415c, size 0x318, virtual false, abstract: false, final false
-static inline float_t pnoise(::Unity::Mathematics::float2  P, ::Unity::Mathematics::float2  rep) ;
+  /// @brief Method pnoise, addr 0x6536168, size 0x318, virtual false, abstract: false, final false
+  static inline float_t pnoise(::Unity::Mathematics::float2 P, ::Unity::Mathematics::float2 rep);
 
-/// @brief Method pnoise, addr 0x64c4c14, size 0x7bc, virtual false, abstract: false, final false
-static inline float_t pnoise(::Unity::Mathematics::float3  P, ::Unity::Mathematics::float3  rep) ;
+  /// @brief Method pnoise, addr 0x6536c20, size 0x7bc, virtual false, abstract: false, final false
+  static inline float_t pnoise(::Unity::Mathematics::float3 P, ::Unity::Mathematics::float3 rep);
 
-/// @brief Method pnoise, addr 0x64c651c, size 0x11bc, virtual false, abstract: false, final false
-static inline float_t pnoise(::Unity::Mathematics::float4  P, ::Unity::Mathematics::float4  rep) ;
+  /// @brief Method pnoise, addr 0x6538528, size 0x11bc, virtual false, abstract: false, final false
+  static inline float_t pnoise(::Unity::Mathematics::float4 P, ::Unity::Mathematics::float4 rep);
 
-/// @brief Method psrdnoise, addr 0x64c97d0, size 0x8, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 psrdnoise(::Unity::Mathematics::float2  pos, ::Unity::Mathematics::float2  per) ;
+  /// @brief Method psrdnoise, addr 0x653b7dc, size 0x8, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 psrdnoise(::Unity::Mathematics::float2 pos, ::Unity::Mathematics::float2 per);
 
-/// @brief Method psrdnoise, addr 0x64c93ec, size 0x3e4, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 psrdnoise(::Unity::Mathematics::float2  pos, ::Unity::Mathematics::float2  per, float_t  rot) ;
+  /// @brief Method psrdnoise, addr 0x653b3f8, size 0x3e4, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 psrdnoise(::Unity::Mathematics::float2 pos, ::Unity::Mathematics::float2 per, float_t rot);
 
-/// @brief Method psrnoise, addr 0x64c9b14, size 0x8, virtual false, abstract: false, final false
-static inline float_t psrnoise(::Unity::Mathematics::float2  pos, ::Unity::Mathematics::float2  per) ;
+  /// @brief Method psrnoise, addr 0x653bb20, size 0x8, virtual false, abstract: false, final false
+  static inline float_t psrnoise(::Unity::Mathematics::float2 pos, ::Unity::Mathematics::float2 per);
 
-/// @brief Method psrnoise, addr 0x64c97d8, size 0x33c, virtual false, abstract: false, final false
-static inline float_t psrnoise(::Unity::Mathematics::float2  pos, ::Unity::Mathematics::float2  per, float_t  rot) ;
+  /// @brief Method psrnoise, addr 0x653b7e4, size 0x33c, virtual false, abstract: false, final false
+  static inline float_t psrnoise(::Unity::Mathematics::float2 pos, ::Unity::Mathematics::float2 per, float_t rot);
 
-/// @brief Method rgrad2, addr 0x64c7908, size 0x154, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float2 rgrad2(::Unity::Mathematics::float2  p, float_t  rot) ;
+  /// @brief Method rgrad2, addr 0x6539914, size 0x154, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float2 rgrad2(::Unity::Mathematics::float2 p, float_t rot);
 
-/// @brief Method snoise, addr 0x64c7a5c, size 0x3bc, virtual false, abstract: false, final false
-static inline float_t snoise(::Unity::Mathematics::float2  v) ;
+  /// @brief Method snoise, addr 0x6539a68, size 0x3bc, virtual false, abstract: false, final false
+  static inline float_t snoise(::Unity::Mathematics::float2 v);
 
-/// @brief Method snoise, addr 0x64c7e18, size 0x640, virtual false, abstract: false, final false
-static inline float_t snoise(::Unity::Mathematics::float3  v) ;
+  /// @brief Method snoise, addr 0x6539e24, size 0x640, virtual false, abstract: false, final false
+  static inline float_t snoise(::Unity::Mathematics::float3 v);
 
-/// @brief Method snoise, addr 0x64c8458, size 0x78c, virtual false, abstract: false, final false
-static inline float_t snoise(::Unity::Mathematics::float3  v, ::ByRef<::Unity::Mathematics::float3>  gradient) ;
+  /// @brief Method snoise, addr 0x653a464, size 0x78c, virtual false, abstract: false, final false
+  static inline float_t snoise(::Unity::Mathematics::float3 v, ::ByRef<::Unity::Mathematics::float3> gradient);
 
-/// @brief Method snoise, addr 0x64c8be4, size 0x808, virtual false, abstract: false, final false
-static inline float_t snoise(::Unity::Mathematics::float4  v) ;
+  /// @brief Method snoise, addr 0x653abf0, size 0x808, virtual false, abstract: false, final false
+  static inline float_t snoise(::Unity::Mathematics::float4 v);
 
-/// @brief Method srdnoise, addr 0x64c9eb0, size 0x8, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 srdnoise(::Unity::Mathematics::float2  pos) ;
+  /// @brief Method srdnoise, addr 0x653bebc, size 0x8, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 srdnoise(::Unity::Mathematics::float2 pos);
 
-/// @brief Method srdnoise, addr 0x64c9b1c, size 0x394, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3 srdnoise(::Unity::Mathematics::float2  pos, float_t  rot) ;
+  /// @brief Method srdnoise, addr 0x653bb28, size 0x394, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3 srdnoise(::Unity::Mathematics::float2 pos, float_t rot);
 
-/// @brief Method srnoise, addr 0x64ca184, size 0x1e08, virtual false, abstract: false, final false
-static inline float_t srnoise(::Unity::Mathematics::float2  pos) ;
+  /// @brief Method srnoise, addr 0x653c190, size 0x1e08, virtual false, abstract: false, final false
+  static inline float_t srnoise(::Unity::Mathematics::float2 pos);
 
-/// @brief Method srnoise, addr 0x64c9eb8, size 0x2cc, virtual false, abstract: false, final false
-static inline float_t srnoise(::Unity::Mathematics::float2  pos, float_t  rot) ;
+  /// @brief Method srnoise, addr 0x653bec4, size 0x2cc, virtual false, abstract: false, final false
+  static inline float_t srnoise(::Unity::Mathematics::float2 pos, float_t rot);
 
-/// @brief Method taylorInvSqrt, addr 0x64c40f4, size 0x34, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float4 taylorInvSqrt(::Unity::Mathematics::float4  r) ;
+  /// @brief Method taylorInvSqrt, addr 0x6536100, size 0x34, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float4 taylorInvSqrt(::Unity::Mathematics::float4 r);
 
-/// @brief Method taylorInvSqrt, addr 0x64c7770, size 0x1c, virtual false, abstract: false, final false
-static inline float_t taylorInvSqrt(float_t  r) ;
+  /// @brief Method taylorInvSqrt, addr 0x653977c, size 0x1c, virtual false, abstract: false, final false
+  static inline float_t taylorInvSqrt(float_t r);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr noise() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr noise();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  noise(noise&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-noise(noise && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  noise(noise const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "noise", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-noise(noise const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13180 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13173};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Mathematics::noise, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Mathematics
+} // namespace Unity::Mathematics
 NEED_NO_BOX(::Unity::Mathematics::noise);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Mathematics::noise*, "Unity.Mathematics", "noise");

@@ -105,8 +105,7 @@ namespace System::Xml {
 class XmlWriter;
 }
 namespace System {
-template<typename TInput,typename TOutput>
-class Converter_2;
+template <typename TInput, typename TOutput> class Converter_2;
 }
 namespace System {
 class Object;
@@ -126,666 +125,671 @@ namespace System::Data {
 // CS Name: System.Data.DataSet
 class CORDL_TYPE DataSet : public ::System::ComponentModel::MarshalByValueComponent {
 public:
-// Declarations
- __declspec(property(get=get_CaseSensitive, put=set_CaseSensitive)) bool  CaseSensitive;
+  // Declarations
+  __declspec(property(get = get_CaseSensitive, put = set_CaseSensitive)) bool CaseSensitive;
 
-/// @brief Field ClearFunctionCalled, offset 0xa8, size 0x8 
- __declspec(property(get=__cordl_internal_get_ClearFunctionCalled, put=__cordl_internal_set_ClearFunctionCalled)) ::System::Data::DataSetClearEventhandler*  ClearFunctionCalled;
+  /// @brief Field ClearFunctionCalled, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_ClearFunctionCalled, put = __cordl_internal_set_ClearFunctionCalled)) ::System::Data::DataSetClearEventhandler* ClearFunctionCalled;
 
-/// @brief Field DataRowCreated, offset 0xa0, size 0x8 
- __declspec(property(get=__cordl_internal_get_DataRowCreated, put=__cordl_internal_set_DataRowCreated)) ::System::Data::DataRowCreatedEventHandler*  DataRowCreated;
+  /// @brief Field DataRowCreated, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_DataRowCreated, put = __cordl_internal_set_DataRowCreated)) ::System::Data::DataRowCreatedEventHandler* DataRowCreated;
 
- __declspec(property(get=get_DataSetName, put=set_DataSetName)) ::StringW  DataSetName;
+  __declspec(property(get = get_DataSetName, put = set_DataSetName)) ::StringW DataSetName;
 
- __declspec(property(get=get_EnforceConstraints, put=set_EnforceConstraints)) bool  EnforceConstraints;
+  __declspec(property(get = get_EnforceConstraints, put = set_EnforceConstraints)) bool EnforceConstraints;
 
- __declspec(property(get=get_ExtendedProperties)) ::System::Data::PropertyCollection*  ExtendedProperties;
+  __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
- __declspec(property(get=get_Locale, put=set_Locale)) ::System::Globalization::CultureInfo*  Locale;
+  __declspec(property(get = get_Locale, put = set_Locale)) ::System::Globalization::CultureInfo* Locale;
 
- __declspec(property(get=get_MainTableName, put=set_MainTableName)) ::StringW  MainTableName;
+  __declspec(property(get = get_MainTableName, put = set_MainTableName)) ::StringW MainTableName;
 
-/// @brief Field MergeFailed, offset 0x98, size 0x8 
- __declspec(property(get=__cordl_internal_get_MergeFailed, put=__cordl_internal_set_MergeFailed)) ::System::Data::MergeFailedEventHandler*  MergeFailed;
+  /// @brief Field MergeFailed, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_MergeFailed, put = __cordl_internal_set_MergeFailed)) ::System::Data::MergeFailedEventHandler* MergeFailed;
 
- __declspec(property(get=get_Namespace, put=set_Namespace)) ::StringW  Namespace;
+  __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
 
- __declspec(property(get=get_ObjectID)) int32_t  ObjectID;
+  __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
- __declspec(property(get=get_Prefix, put=set_Prefix)) ::StringW  Prefix;
+  __declspec(property(get = get_Prefix, put = set_Prefix)) ::StringW Prefix;
 
-/// @brief Field PropertyChanging, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get_PropertyChanging, put=__cordl_internal_set_PropertyChanging)) ::System::ComponentModel::PropertyChangedEventHandler*  PropertyChanging;
+  /// @brief Field PropertyChanging, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging)) ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
 
- __declspec(property(get=get_Relations)) ::System::Data::DataRelationCollection*  Relations;
+  __declspec(property(get = get_Relations)) ::System::Data::DataRelationCollection* Relations;
 
- __declspec(property(get=get_RemotingFormat, put=set_RemotingFormat)) ::System::Data::SerializationFormat  RemotingFormat;
+  __declspec(property(get = get_RemotingFormat, put = set_RemotingFormat)) ::System::Data::SerializationFormat RemotingFormat;
 
- __declspec(property(get=get_SchemaSerializationMode)) ::System::Data::SchemaSerializationMode  SchemaSerializationMode;
+  __declspec(property(get = get_SchemaSerializationMode)) ::System::Data::SchemaSerializationMode SchemaSerializationMode;
 
- __declspec(property(get=get_Site)) ::System::ComponentModel::ISite*  Site;
+  __declspec(property(get = get_Site)) ::System::ComponentModel::ISite* Site;
 
- __declspec(property(get=get_Tables)) ::System::Data::DataTableCollection*  Tables;
+  __declspec(property(get = get_Tables)) ::System::Data::DataTableCollection* Tables;
 
-/// @brief Field _caseSensitive, offset 0x59, size 0x1 
- __declspec(property(get=__cordl_internal_get__caseSensitive, put=__cordl_internal_set__caseSensitive)) bool  _caseSensitive;
+  /// @brief Field _caseSensitive, offset 0x59, size 0x1
+  __declspec(property(get = __cordl_internal_get__caseSensitive, put = __cordl_internal_set__caseSensitive)) bool _caseSensitive;
 
-/// @brief Field _culture, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get__culture, put=__cordl_internal_set__culture)) ::System::Globalization::CultureInfo*  _culture;
+  /// @brief Field _culture, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture)) ::System::Globalization::CultureInfo* _culture;
 
-/// @brief Field _cultureUserSet, offset 0x68, size 0x1 
- __declspec(property(get=__cordl_internal_get__cultureUserSet, put=__cordl_internal_set__cultureUserSet)) bool  _cultureUserSet;
+  /// @brief Field _cultureUserSet, offset 0x68, size 0x1
+  __declspec(property(get = __cordl_internal_get__cultureUserSet, put = __cordl_internal_set__cultureUserSet)) bool _cultureUserSet;
 
-/// @brief Field _dataSetName, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__dataSetName, put=__cordl_internal_set__dataSetName)) ::StringW  _dataSetName;
+  /// @brief Field _dataSetName, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__dataSetName, put = __cordl_internal_set__dataSetName)) ::StringW _dataSetName;
 
-/// @brief Field _datasetPrefix, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__datasetPrefix, put=__cordl_internal_set__datasetPrefix)) ::StringW  _datasetPrefix;
+  /// @brief Field _datasetPrefix, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__datasetPrefix, put = __cordl_internal_set__datasetPrefix)) ::StringW _datasetPrefix;
 
-/// @brief Field _defaultViewManager, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__defaultViewManager, put=__cordl_internal_set__defaultViewManager)) ::System::Data::DataViewManager*  _defaultViewManager;
+  /// @brief Field _defaultViewManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultViewManager, put = __cordl_internal_set__defaultViewManager)) ::System::Data::DataViewManager* _defaultViewManager;
 
-/// @brief Field _defaultViewManagerLock, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get__defaultViewManagerLock, put=__cordl_internal_set__defaultViewManagerLock)) ::System::Object*  _defaultViewManagerLock;
+  /// @brief Field _defaultViewManagerLock, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultViewManagerLock, put = __cordl_internal_set__defaultViewManagerLock)) ::System::Object* _defaultViewManagerLock;
 
-/// @brief Field _enforceConstraints, offset 0x58, size 0x1 
- __declspec(property(get=__cordl_internal_get__enforceConstraints, put=__cordl_internal_set__enforceConstraints)) bool  _enforceConstraints;
+  /// @brief Field _enforceConstraints, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get__enforceConstraints, put = __cordl_internal_set__enforceConstraints)) bool _enforceConstraints;
 
-/// @brief Field _extendedProperties, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__extendedProperties, put=__cordl_internal_set__extendedProperties)) ::System::Data::PropertyCollection*  _extendedProperties;
+  /// @brief Field _extendedProperties, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__extendedProperties, put = __cordl_internal_set__extendedProperties)) ::System::Data::PropertyCollection* _extendedProperties;
 
-/// @brief Field _fEnableCascading, offset 0x6d, size 0x1 
- __declspec(property(get=__cordl_internal_get__fEnableCascading, put=__cordl_internal_set__fEnableCascading)) bool  _fEnableCascading;
+  /// @brief Field _fEnableCascading, offset 0x6d, size 0x1
+  __declspec(property(get = __cordl_internal_get__fEnableCascading, put = __cordl_internal_set__fEnableCascading)) bool _fEnableCascading;
 
-/// @brief Field _fInLoadDiffgram, offset 0x6a, size 0x1 
- __declspec(property(get=__cordl_internal_get__fInLoadDiffgram, put=__cordl_internal_set__fInLoadDiffgram)) bool  _fInLoadDiffgram;
+  /// @brief Field _fInLoadDiffgram, offset 0x6a, size 0x1
+  __declspec(property(get = __cordl_internal_get__fInLoadDiffgram, put = __cordl_internal_set__fInLoadDiffgram)) bool _fInLoadDiffgram;
 
-/// @brief Field _fInReadXml, offset 0x69, size 0x1 
- __declspec(property(get=__cordl_internal_get__fInReadXml, put=__cordl_internal_set__fInReadXml)) bool  _fInReadXml;
+  /// @brief Field _fInReadXml, offset 0x69, size 0x1
+  __declspec(property(get = __cordl_internal_get__fInReadXml, put = __cordl_internal_set__fInReadXml)) bool _fInReadXml;
 
-/// @brief Field _fInitInProgress, offset 0x6c, size 0x1 
- __declspec(property(get=__cordl_internal_get__fInitInProgress, put=__cordl_internal_set__fInitInProgress)) bool  _fInitInProgress;
+  /// @brief Field _fInitInProgress, offset 0x6c, size 0x1
+  __declspec(property(get = __cordl_internal_get__fInitInProgress, put = __cordl_internal_set__fInitInProgress)) bool _fInitInProgress;
 
-/// @brief Field _fIsSchemaLoading, offset 0x6e, size 0x1 
- __declspec(property(get=__cordl_internal_get__fIsSchemaLoading, put=__cordl_internal_set__fIsSchemaLoading)) bool  _fIsSchemaLoading;
+  /// @brief Field _fIsSchemaLoading, offset 0x6e, size 0x1
+  __declspec(property(get = __cordl_internal_get__fIsSchemaLoading, put = __cordl_internal_set__fIsSchemaLoading)) bool _fIsSchemaLoading;
 
-/// @brief Field _fTopLevelTable, offset 0x6b, size 0x1 
- __declspec(property(get=__cordl_internal_get__fTopLevelTable, put=__cordl_internal_set__fTopLevelTable)) bool  _fTopLevelTable;
+  /// @brief Field _fTopLevelTable, offset 0x6b, size 0x1
+  __declspec(property(get = __cordl_internal_get__fTopLevelTable, put = __cordl_internal_set__fTopLevelTable)) bool _fTopLevelTable;
 
-/// @brief Field _mainTableName, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get__mainTableName, put=__cordl_internal_set__mainTableName)) ::StringW  _mainTableName;
+  /// @brief Field _mainTableName, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainTableName, put = __cordl_internal_set__mainTableName)) ::StringW _mainTableName;
 
-/// @brief Field _namespaceURI, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__namespaceURI, put=__cordl_internal_set__namespaceURI)) ::StringW  _namespaceURI;
+  /// @brief Field _namespaceURI, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__namespaceURI, put = __cordl_internal_set__namespaceURI)) ::StringW _namespaceURI;
 
-/// @brief Field _objectID, offset 0x88, size 0x4 
- __declspec(property(get=__cordl_internal_get__objectID, put=__cordl_internal_set__objectID)) int32_t  _objectID;
+  /// @brief Field _objectID, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get__objectID, put = __cordl_internal_set__objectID)) int32_t _objectID;
 
-/// @brief Field _relationCollection, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__relationCollection, put=__cordl_internal_set__relationCollection)) ::System::Data::DataRelationCollection*  _relationCollection;
+  /// @brief Field _relationCollection, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__relationCollection, put = __cordl_internal_set__relationCollection)) ::System::Data::DataRelationCollection* _relationCollection;
 
-/// @brief Field _remotingFormat, offset 0x78, size 0x4 
- __declspec(property(get=__cordl_internal_get__remotingFormat, put=__cordl_internal_set__remotingFormat)) ::System::Data::SerializationFormat  _remotingFormat;
+  /// @brief Field _remotingFormat, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get__remotingFormat, put = __cordl_internal_set__remotingFormat)) ::System::Data::SerializationFormat _remotingFormat;
 
-/// @brief Field _tableCollection, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__tableCollection, put=__cordl_internal_set__tableCollection)) ::System::Data::DataTableCollection*  _tableCollection;
+  /// @brief Field _tableCollection, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__tableCollection, put = __cordl_internal_set__tableCollection)) ::System::Data::DataTableCollection* _tableCollection;
 
-/// @brief Field _udtIsWrapped, offset 0x8d, size 0x1 
- __declspec(property(get=__cordl_internal_get__udtIsWrapped, put=__cordl_internal_set__udtIsWrapped)) bool  _udtIsWrapped;
+  /// @brief Field _udtIsWrapped, offset 0x8d, size 0x1
+  __declspec(property(get = __cordl_internal_get__udtIsWrapped, put = __cordl_internal_set__udtIsWrapped)) bool _udtIsWrapped;
 
-/// @brief Field _useDataSetSchemaOnly, offset 0x8c, size 0x1 
- __declspec(property(get=__cordl_internal_get__useDataSetSchemaOnly, put=__cordl_internal_set__useDataSetSchemaOnly)) bool  _useDataSetSchemaOnly;
+  /// @brief Field _useDataSetSchemaOnly, offset 0x8c, size 0x1
+  __declspec(property(get = __cordl_internal_get__useDataSetSchemaOnly, put = __cordl_internal_set__useDataSetSchemaOnly)) bool _useDataSetSchemaOnly;
 
-/// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_s_objectTypeCount, put=setStaticF_s_objectTypeCount)) int32_t  s_objectTypeCount;
+  /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-/// @brief Field s_schemaTypeForWSDL, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_schemaTypeForWSDL, put=setStaticF_s_schemaTypeForWSDL)) ::System::Xml::Schema::XmlSchemaComplexType*  s_schemaTypeForWSDL;
+  /// @brief Field s_schemaTypeForWSDL, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_schemaTypeForWSDL, put = setStaticF_s_schemaTypeForWSDL)) ::System::Xml::Schema::XmlSchemaComplexType* s_schemaTypeForWSDL;
 
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-/// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
-constexpr operator  ::System::Xml::Serialization::IXmlSerializable*() noexcept;
+  /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
+  constexpr operator ::System::Xml::Serialization::IXmlSerializable*() noexcept;
 
-/// @brief Method Clear, addr 0x5e5b54c, size 0x1f8, virtual false, abstract: false, final false
-inline void Clear() ;
+  /// @brief Method Clear, addr 0x5ecd558, size 0x1f8, virtual false, abstract: false, final false
+  inline void Clear();
 
-/// @brief Method Clone, addr 0x5e5b76c, size 0xf44, virtual true, abstract: false, final false
-inline ::System::Data::DataSet* Clone() ;
+  /// @brief Method Clone, addr 0x5ecd778, size 0xf44, virtual true, abstract: false, final false
+  inline ::System::Data::DataSet* Clone();
 
-/// @brief Method DeserializeDataSet, addr 0x5e56494, size 0x48, virtual false, abstract: false, final false
-inline void DeserializeDataSet(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context, ::System::Data::SerializationFormat  remotingFormat, ::System::Data::SchemaSerializationMode  schemaSerializationMode) ;
+  /// @brief Method DeserializeDataSet, addr 0x5ec84a0, size 0x48, virtual false, abstract: false, final false
+  inline void DeserializeDataSet(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
+                                 ::System::Data::SerializationFormat remotingFormat, ::System::Data::SchemaSerializationMode schemaSerializationMode);
 
-/// @brief Method DeserializeDataSetData, addr 0x5e57d18, size 0x1b0, virtual false, abstract: false, final false
-inline void DeserializeDataSetData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context, ::System::Data::SerializationFormat  remotingFormat) ;
+  /// @brief Method DeserializeDataSetData, addr 0x5ec9d24, size 0x1b0, virtual false, abstract: false, final false
+  inline void DeserializeDataSetData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
+                                     ::System::Data::SerializationFormat remotingFormat);
 
-/// @brief Method DeserializeDataSetProperties, addr 0x5e57ec8, size 0x2a8, virtual false, abstract: false, final false
-inline void DeserializeDataSetProperties(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method DeserializeDataSetProperties, addr 0x5ec9ed4, size 0x2a8, virtual false, abstract: false, final false
+  inline void DeserializeDataSetProperties(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method DeserializeDataSetSchema, addr 0x5e57830, size 0x4e8, virtual false, abstract: false, final false
-inline void DeserializeDataSetSchema(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context, ::System::Data::SerializationFormat  remotingFormat, ::System::Data::SchemaSerializationMode  schemaSerializationMode) ;
+  /// @brief Method DeserializeDataSetSchema, addr 0x5ec983c, size 0x4e8, virtual false, abstract: false, final false
+  inline void DeserializeDataSetSchema(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
+                                       ::System::Data::SerializationFormat remotingFormat, ::System::Data::SchemaSerializationMode schemaSerializationMode);
 
-/// @brief Method DeserializeRelations, addr 0x5e58170, size 0x81c, virtual false, abstract: false, final false
-inline void DeserializeRelations(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method DeserializeRelations, addr 0x5eca17c, size 0x81c, virtual false, abstract: false, final false
+  inline void DeserializeRelations(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method EnableConstraints, addr 0x5e59b2c, size 0x6f4, virtual false, abstract: false, final false
-inline void EnableConstraints() ;
+  /// @brief Method EnableConstraints, addr 0x5ecbb38, size 0x6f4, virtual false, abstract: false, final false
+  inline void EnableConstraints();
 
-/// @brief Method EstimatedXmlStringSize, addr 0x5e57508, size 0x120, virtual false, abstract: false, final false
-inline int32_t EstimatedXmlStringSize() ;
+  /// @brief Method EstimatedXmlStringSize, addr 0x5ec9514, size 0x120, virtual false, abstract: false, final false
+  inline int32_t EstimatedXmlStringSize();
 
-/// @brief Method FailedEnableConstraints, addr 0x5e5929c, size 0x2c, virtual false, abstract: false, final false
-inline void FailedEnableConstraints() ;
+  /// @brief Method FailedEnableConstraints, addr 0x5ecb2a8, size 0x2c, virtual false, abstract: false, final false
+  inline void FailedEnableConstraints();
 
-/// @brief Method FindTable, addr 0x5e611a0, size 0x120, virtual false, abstract: false, final false
-inline ::System::Data::DataTable* FindTable(::System::Data::DataTable*  baseTable, ::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  props, int32_t  propStart) ;
+  /// @brief Method FindTable, addr 0x5ed31ac, size 0x120, virtual false, abstract: false, final false
+  inline ::System::Data::DataTable* FindTable(::System::Data::DataTable* baseTable,
+                                              ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> props, int32_t propStart);
 
-/// @brief Method GetDataSetSchema, addr 0x5e615bc, size 0x224, virtual false, abstract: false, final false
-static inline ::System::Xml::Schema::XmlSchemaComplexType* GetDataSetSchema(::System::Xml::Schema::XmlSchemaSet*  schemaSet) ;
+  /// @brief Method GetDataSetSchema, addr 0x5ed35c8, size 0x224, virtual false, abstract: false, final false
+  static inline ::System::Xml::Schema::XmlSchemaComplexType* GetDataSetSchema(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-/// @brief Method GetObjectData, addr 0x5e564dc, size 0x8, virtual true, abstract: false, final false
-inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method GetObjectData, addr 0x5ec84e8, size 0x8, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method GetRemotingDiffGram, addr 0x5e5c6b0, size 0x13c, virtual false, abstract: false, final false
-inline ::StringW GetRemotingDiffGram(::System::Data::DataTable*  table) ;
+  /// @brief Method GetRemotingDiffGram, addr 0x5ece6bc, size 0x13c, virtual false, abstract: false, final false
+  inline ::StringW GetRemotingDiffGram(::System::Data::DataTable* table);
 
-/// @brief Method GetXmlSchemaForRemoting, addr 0x5e5735c, size 0x1ac, virtual false, abstract: false, final false
-inline ::StringW GetXmlSchemaForRemoting(::System::Data::DataTable*  table) ;
+  /// @brief Method GetXmlSchemaForRemoting, addr 0x5ec9368, size 0x1ac, virtual false, abstract: false, final false
+  inline ::StringW GetXmlSchemaForRemoting(::System::Data::DataTable* table);
 
-/// @brief Method InferSchema, addr 0x5e5cd40, size 0x37c, virtual false, abstract: false, final false
-inline void InferSchema(::System::Xml::XmlDocument*  xdoc, ::ArrayW<::StringW,::Array<::StringW>*>  excludedNamespaces, ::System::Data::XmlReadMode  mode) ;
+  /// @brief Method InferSchema, addr 0x5eced4c, size 0x37c, virtual false, abstract: false, final false
+  inline void InferSchema(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW, ::Array<::StringW>*> excludedNamespaces, ::System::Data::XmlReadMode mode);
 
-/// @brief Method InitializeDerivedDataSet, addr 0x5e56b50, size 0x4, virtual true, abstract: false, final false
-inline void InitializeDerivedDataSet() ;
+  /// @brief Method InitializeDerivedDataSet, addr 0x5ec8b5c, size 0x4, virtual true, abstract: false, final false
+  inline void InitializeDerivedDataSet();
 
-/// @brief Method IsEmpty, addr 0x5e5f5f0, size 0x2cc, virtual false, abstract: false, final false
-inline bool IsEmpty() ;
+  /// @brief Method IsEmpty, addr 0x5ed15fc, size 0x2cc, virtual false, abstract: false, final false
+  inline bool IsEmpty();
 
-/// @brief Method Merge, addr 0x5e5f8bc, size 0x170, virtual false, abstract: false, final false
-inline void Merge(::System::Data::DataSet*  dataSet) ;
+  /// @brief Method Merge, addr 0x5ed18c8, size 0x170, virtual false, abstract: false, final false
+  inline void Merge(::System::Data::DataSet* dataSet);
 
-/// @brief Method Merge, addr 0x5e607e4, size 0x254, virtual false, abstract: false, final false
-inline void Merge(::System::Data::DataSet*  dataSet, bool  preserveChanges, ::System::Data::MissingSchemaAction  missingSchemaAction) ;
+  /// @brief Method Merge, addr 0x5ed27f0, size 0x254, virtual false, abstract: false, final false
+  inline void Merge(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
 
-/// @brief Method MoveToElement, addr 0x5e5cbf0, size 0xb4, virtual false, abstract: false, final false
-inline bool MoveToElement(::System::Xml::XmlReader*  reader, int32_t  depth) ;
+  /// @brief Method MoveToElement, addr 0x5ecebfc, size 0xb4, virtual false, abstract: false, final false
+  inline bool MoveToElement(::System::Xml::XmlReader* reader, int32_t depth);
 
-/// @brief Method MoveToElement, addr 0x5e5d0bc, size 0x78, virtual false, abstract: false, final false
-static inline void MoveToElement(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method MoveToElement, addr 0x5ecf0c8, size 0x78, virtual false, abstract: false, final false
+  static inline void MoveToElement(::System::Xml::XmlReader* reader);
 
-static inline ::System::Data::DataSet* New_ctor() ;
+  static inline ::System::Data::DataSet* New_ctor();
 
-static inline ::System::Data::DataSet* New_ctor(::StringW  dataSetName) ;
+  static inline ::System::Data::DataSet* New_ctor(::StringW dataSetName);
 
-static inline ::System::Data::DataSet* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::Data::DataSet* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Data::DataSet* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context, bool  ConstructSchema) ;
+  static inline ::System::Data::DataSet* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, bool ConstructSchema);
 
-/// @brief Method OnClearFunctionCalled, addr 0x5e5b744, size 0x28, virtual false, abstract: false, final false
-inline void OnClearFunctionCalled(::System::Data::DataTable*  table) ;
+  /// @brief Method OnClearFunctionCalled, addr 0x5ecd750, size 0x28, virtual false, abstract: false, final false
+  inline void OnClearFunctionCalled(::System::Data::DataTable* table);
 
-/// @brief Method OnDataRowCreated, addr 0x5e60b68, size 0x28, virtual false, abstract: false, final false
-inline void OnDataRowCreated(::System::Data::DataRow*  row) ;
+  /// @brief Method OnDataRowCreated, addr 0x5ed2b74, size 0x28, virtual false, abstract: false, final false
+  inline void OnDataRowCreated(::System::Data::DataRow* row);
 
-/// @brief Method OnMergeFailed, addr 0x5e60a60, size 0x58, virtual false, abstract: false, final false
-inline void OnMergeFailed(::System::Data::MergeFailedEventArgs*  mfevent) ;
+  /// @brief Method OnMergeFailed, addr 0x5ed2a6c, size 0x58, virtual false, abstract: false, final false
+  inline void OnMergeFailed(::System::Data::MergeFailedEventArgs* mfevent);
 
-/// @brief Method OnPropertyChanging, addr 0x5e60a38, size 0x28, virtual true, abstract: false, final false
-inline void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs*  pcevent) ;
+  /// @brief Method OnPropertyChanging, addr 0x5ed2a44, size 0x28, virtual true, abstract: false, final false
+  inline void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs* pcevent);
 
-/// @brief Method OnRemoveRelation, addr 0x5e60bd0, size 0x4, virtual true, abstract: false, final false
-inline void OnRemoveRelation(::System::Data::DataRelation*  relation) ;
+  /// @brief Method OnRemoveRelation, addr 0x5ed2bdc, size 0x4, virtual true, abstract: false, final false
+  inline void OnRemoveRelation(::System::Data::DataRelation* relation);
 
-/// @brief Method OnRemoveRelationHack, addr 0x5e60bd4, size 0x10, virtual false, abstract: false, final false
-inline void OnRemoveRelationHack(::System::Data::DataRelation*  relation) ;
+  /// @brief Method OnRemoveRelationHack, addr 0x5ed2be0, size 0x10, virtual false, abstract: false, final false
+  inline void OnRemoveRelationHack(::System::Data::DataRelation* relation);
 
-/// @brief Method OnRemoveTable, addr 0x5e60b90, size 0x4, virtual true, abstract: false, final false
-inline void OnRemoveTable(::System::Data::DataTable*  table) ;
+  /// @brief Method OnRemoveTable, addr 0x5ed2b9c, size 0x4, virtual true, abstract: false, final false
+  inline void OnRemoveTable(::System::Data::DataTable* table);
 
-/// @brief Method OnRemovedTable, addr 0x5e60b94, size 0x3c, virtual false, abstract: false, final false
-inline void OnRemovedTable(::System::Data::DataTable*  table) ;
+  /// @brief Method OnRemovedTable, addr 0x5ed2ba0, size 0x3c, virtual false, abstract: false, final false
+  inline void OnRemovedTable(::System::Data::DataTable* table);
 
-/// @brief Method RaiseMergeFailed, addr 0x5e60ab8, size 0xb0, virtual false, abstract: false, final false
-inline void RaiseMergeFailed(::System::Data::DataTable*  table, ::StringW  conflict, ::System::Data::MissingSchemaAction  missingSchemaAction) ;
+  /// @brief Method RaiseMergeFailed, addr 0x5ed2ac4, size 0xb0, virtual false, abstract: false, final false
+  inline void RaiseMergeFailed(::System::Data::DataTable* table, ::StringW conflict, ::System::Data::MissingSchemaAction missingSchemaAction);
 
-/// @brief Method RaisePropertyChanging, addr 0x5e5a230, size 0x7c, virtual false, abstract: false, final false
-inline void RaisePropertyChanging(::StringW  name) ;
+  /// @brief Method RaisePropertyChanging, addr 0x5ecc23c, size 0x7c, virtual false, abstract: false, final false
+  inline void RaisePropertyChanging(::StringW name);
 
-/// @brief Method ReadEndElement, addr 0x5e5cca4, size 0x9c, virtual false, abstract: false, final false
-inline void ReadEndElement(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method ReadEndElement, addr 0x5ececb0, size 0x9c, virtual false, abstract: false, final false
+  inline void ReadEndElement(::System::Xml::XmlReader* reader);
 
-/// @brief Method ReadXDRSchema, addr 0x5e5c7f4, size 0x168, virtual false, abstract: false, final false
-inline void ReadXDRSchema(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method ReadXDRSchema, addr 0x5ece800, size 0x168, virtual false, abstract: false, final false
+  inline void ReadXDRSchema(::System::Xml::XmlReader* reader);
 
-/// @brief Method ReadXSDSchema, addr 0x5e5c95c, size 0x294, virtual false, abstract: false, final false
-inline void ReadXSDSchema(::System::Xml::XmlReader*  reader, bool  denyResolving) ;
+  /// @brief Method ReadXSDSchema, addr 0x5ece968, size 0x294, virtual false, abstract: false, final false
+  inline void ReadXSDSchema(::System::Xml::XmlReader* reader, bool denyResolving);
 
-/// @brief Method ReadXml, addr 0x5e5d364, size 0x8, virtual false, abstract: false, final false
-inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method ReadXml, addr 0x5ecf370, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader);
 
-/// @brief Method ReadXml, addr 0x5e5d36c, size 0x104c, virtual false, abstract: false, final false
-inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader*  reader, bool  denyResolving) ;
+  /// @brief Method ReadXml, addr 0x5ecf378, size 0x104c, virtual false, abstract: false, final false
+  inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader, bool denyResolving);
 
-/// @brief Method ReadXml, addr 0x5e59228, size 0x8, virtual false, abstract: false, final false
-inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader*  reader, ::System::Data::XmlReadMode  mode) ;
+  /// @brief Method ReadXml, addr 0x5ecb234, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader, ::System::Data::XmlReadMode mode);
 
-/// @brief Method ReadXml, addr 0x5e5fa2c, size 0xdb8, virtual false, abstract: false, final false
-inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader*  reader, ::System::Data::XmlReadMode  mode, bool  denyResolving) ;
+  /// @brief Method ReadXml, addr 0x5ed1a38, size 0xdb8, virtual false, abstract: false, final false
+  inline ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader, ::System::Data::XmlReadMode mode, bool denyResolving);
 
-/// @brief Method ReadXmlDiffgram, addr 0x5e5e428, size 0x11c8, virtual false, abstract: false, final false
-inline void ReadXmlDiffgram(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method ReadXmlDiffgram, addr 0x5ed0434, size 0x11c8, virtual false, abstract: false, final false
+  inline void ReadXmlDiffgram(::System::Xml::XmlReader* reader);
 
-/// @brief Method ReadXmlSchema, addr 0x5e5c7ec, size 0x8, virtual false, abstract: false, final false
-inline void ReadXmlSchema(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method ReadXmlSchema, addr 0x5ece7f8, size 0x8, virtual false, abstract: false, final false
+  inline void ReadXmlSchema(::System::Xml::XmlReader* reader);
 
-/// @brief Method ReadXmlSchema, addr 0x5e5898c, size 0x89c, virtual false, abstract: false, final false
-inline void ReadXmlSchema(::System::Xml::XmlReader*  reader, bool  denyResolving) ;
+  /// @brief Method ReadXmlSchema, addr 0x5eca998, size 0x89c, virtual false, abstract: false, final false
+  inline void ReadXmlSchema(::System::Xml::XmlReader* reader, bool denyResolving);
 
-/// @brief Method ReadXmlSerializable, addr 0x5e612c0, size 0x2fc, virtual true, abstract: false, final false
-inline void ReadXmlSerializable(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method ReadXmlSerializable, addr 0x5ed32cc, size 0x2fc, virtual true, abstract: false, final false
+  inline void ReadXmlSerializable(::System::Xml::XmlReader* reader);
 
-/// @brief Method Reset, addr 0x5e60ef0, size 0x2b0, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x5ed2efc, size 0x2b0, virtual true, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method RestoreEnforceConstraints, addr 0x5e5a220, size 0x8, virtual false, abstract: false, final false
-inline void RestoreEnforceConstraints(bool  value) ;
+  /// @brief Method RestoreEnforceConstraints, addr 0x5ecc22c, size 0x8, virtual false, abstract: false, final false
+  inline void RestoreEnforceConstraints(bool value);
 
-/// @brief Method SerializeDataSet, addr 0x5e564e4, size 0x66c, virtual false, abstract: false, final false
-inline void SerializeDataSet(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context, ::System::Data::SerializationFormat  remotingFormat) ;
+  /// @brief Method SerializeDataSet, addr 0x5ec84f0, size 0x66c, virtual false, abstract: false, final false
+  inline void SerializeDataSet(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
+                               ::System::Data::SerializationFormat remotingFormat);
 
-/// @brief Method SerializeDataSetProperties, addr 0x5e56b54, size 0x18c, virtual false, abstract: false, final false
-inline void SerializeDataSetProperties(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method SerializeDataSetProperties, addr 0x5ec8b60, size 0x18c, virtual false, abstract: false, final false
+  inline void SerializeDataSetProperties(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method SerializeRelations, addr 0x5e56ce0, size 0x67c, virtual false, abstract: false, final false
-inline void SerializeRelations(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method SerializeRelations, addr 0x5ec8cec, size 0x67c, virtual false, abstract: false, final false
+  inline void SerializeRelations(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method SetLocaleValue, addr 0x5e5a9e4, size 0x704, virtual false, abstract: false, final false
-inline void SetLocaleValue(::System::Globalization::CultureInfo*  value, bool  userSet) ;
+  /// @brief Method SetLocaleValue, addr 0x5ecc9f0, size 0x704, virtual false, abstract: false, final false
+  inline void SetLocaleValue(::System::Globalization::CultureInfo* value, bool userSet);
 
-/// @brief Method ShouldSerializeLocale, addr 0x5e5b52c, size 0x8, virtual false, abstract: false, final false
-inline bool ShouldSerializeLocale() ;
+  /// @brief Method ShouldSerializeLocale, addr 0x5ecd538, size 0x8, virtual false, abstract: false, final false
+  inline bool ShouldSerializeLocale();
 
-/// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x5e617e0, size 0x1d8, virtual true, abstract: false, final true
-inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema() ;
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x5ed37ec, size 0x1d8, virtual true, abstract: false, final true
+  inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-/// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x5e619b8, size 0x260, virtual true, abstract: false, final true
-inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader*  reader) ;
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x5ed39c4, size 0x260, virtual true, abstract: false, final true
+  inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-/// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x5e61c18, size 0x34, virtual true, abstract: false, final true
-inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter*  writer) ;
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x5ed3c24, size 0x34, virtual true, abstract: false, final true
+  inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-/// @brief Method TopLevelTables, addr 0x5e60be4, size 0x8, virtual false, abstract: false, final false
-inline ::ArrayW<::System::Data::DataTable*,::Array<::System::Data::DataTable*>*> TopLevelTables() ;
+  /// @brief Method TopLevelTables, addr 0x5ed2bf0, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Data::DataTable*, ::Array<::System::Data::DataTable*>*> TopLevelTables();
 
-/// @brief Method TopLevelTables, addr 0x5e60bec, size 0x304, virtual false, abstract: false, final false
-inline ::ArrayW<::System::Data::DataTable*,::Array<::System::Data::DataTable*>*> TopLevelTables(bool  forSchema) ;
+  /// @brief Method TopLevelTables, addr 0x5ed2bf8, size 0x304, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Data::DataTable*, ::Array<::System::Data::DataTable*>*> TopLevelTables(bool forSchema);
 
-/// @brief Method ValidateCaseConstraint, addr 0x5e59738, size 0x3ec, virtual false, abstract: false, final false
-inline bool ValidateCaseConstraint() ;
+  /// @brief Method ValidateCaseConstraint, addr 0x5ecb744, size 0x3ec, virtual false, abstract: false, final false
+  inline bool ValidateCaseConstraint();
 
-/// @brief Method ValidateLocaleConstraint, addr 0x5e5b0e8, size 0x444, virtual false, abstract: false, final false
-inline bool ValidateLocaleConstraint() ;
+  /// @brief Method ValidateLocaleConstraint, addr 0x5ecd0f4, size 0x444, virtual false, abstract: false, final false
+  inline bool ValidateLocaleConstraint();
 
-/// @brief Method WriteXml, addr 0x5e57628, size 0x208, virtual false, abstract: false, final false
-inline void WriteXml(::System::Xml::XmlWriter*  writer, ::System::Data::XmlWriteMode  mode) ;
+  /// @brief Method WriteXml, addr 0x5ec9634, size 0x208, virtual false, abstract: false, final false
+  inline void WriteXml(::System::Xml::XmlWriter* writer, ::System::Data::XmlWriteMode mode);
 
-/// @brief Method WriteXmlSchema, addr 0x5e5d134, size 0x230, virtual false, abstract: false, final false
-inline void WriteXmlSchema(::System::Xml::XmlWriter*  writer, ::System::Data::SchemaFormat  schemaFormat, ::System::Converter_2<::System::Type*,::StringW>*  multipleTargetConverter) ;
+  /// @brief Method WriteXmlSchema, addr 0x5ecf140, size 0x230, virtual false, abstract: false, final false
+  inline void WriteXmlSchema(::System::Xml::XmlWriter* writer, ::System::Data::SchemaFormat schemaFormat, ::System::Converter_2<::System::Type*, ::StringW>* multipleTargetConverter);
 
-constexpr ::System::Data::DataSetClearEventhandler* const& __cordl_internal_get_ClearFunctionCalled() const;
+  constexpr ::System::Data::DataSetClearEventhandler* const& __cordl_internal_get_ClearFunctionCalled() const;
 
-constexpr ::System::Data::DataSetClearEventhandler*& __cordl_internal_get_ClearFunctionCalled() ;
+  constexpr ::System::Data::DataSetClearEventhandler*& __cordl_internal_get_ClearFunctionCalled();
 
-constexpr ::System::Data::DataRowCreatedEventHandler* const& __cordl_internal_get_DataRowCreated() const;
+  constexpr ::System::Data::DataRowCreatedEventHandler* const& __cordl_internal_get_DataRowCreated() const;
 
-constexpr ::System::Data::DataRowCreatedEventHandler*& __cordl_internal_get_DataRowCreated() ;
+  constexpr ::System::Data::DataRowCreatedEventHandler*& __cordl_internal_get_DataRowCreated();
 
-constexpr ::System::Data::MergeFailedEventHandler* const& __cordl_internal_get_MergeFailed() const;
+  constexpr ::System::Data::MergeFailedEventHandler* const& __cordl_internal_get_MergeFailed() const;
 
-constexpr ::System::Data::MergeFailedEventHandler*& __cordl_internal_get_MergeFailed() ;
+  constexpr ::System::Data::MergeFailedEventHandler*& __cordl_internal_get_MergeFailed();
 
-constexpr ::System::ComponentModel::PropertyChangedEventHandler* const& __cordl_internal_get_PropertyChanging() const;
+  constexpr ::System::ComponentModel::PropertyChangedEventHandler* const& __cordl_internal_get_PropertyChanging() const;
 
-constexpr ::System::ComponentModel::PropertyChangedEventHandler*& __cordl_internal_get_PropertyChanging() ;
+  constexpr ::System::ComponentModel::PropertyChangedEventHandler*& __cordl_internal_get_PropertyChanging();
 
-constexpr bool const& __cordl_internal_get__caseSensitive() const;
+  constexpr bool const& __cordl_internal_get__caseSensitive() const;
 
-constexpr bool& __cordl_internal_get__caseSensitive() ;
+  constexpr bool& __cordl_internal_get__caseSensitive();
 
-constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
+  constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
 
-constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture() ;
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
-constexpr bool const& __cordl_internal_get__cultureUserSet() const;
+  constexpr bool const& __cordl_internal_get__cultureUserSet() const;
 
-constexpr bool& __cordl_internal_get__cultureUserSet() ;
+  constexpr bool& __cordl_internal_get__cultureUserSet();
 
-constexpr ::StringW const& __cordl_internal_get__dataSetName() const;
+  constexpr ::StringW const& __cordl_internal_get__dataSetName() const;
 
-constexpr ::StringW& __cordl_internal_get__dataSetName() ;
+  constexpr ::StringW& __cordl_internal_get__dataSetName();
 
-constexpr ::StringW const& __cordl_internal_get__datasetPrefix() const;
+  constexpr ::StringW const& __cordl_internal_get__datasetPrefix() const;
 
-constexpr ::StringW& __cordl_internal_get__datasetPrefix() ;
+  constexpr ::StringW& __cordl_internal_get__datasetPrefix();
 
-constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__defaultViewManager() const;
+  constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__defaultViewManager() const;
 
-constexpr ::System::Data::DataViewManager*& __cordl_internal_get__defaultViewManager() ;
+  constexpr ::System::Data::DataViewManager*& __cordl_internal_get__defaultViewManager();
 
-constexpr ::System::Object* const& __cordl_internal_get__defaultViewManagerLock() const;
+  constexpr ::System::Object* const& __cordl_internal_get__defaultViewManagerLock() const;
 
-constexpr ::System::Object*& __cordl_internal_get__defaultViewManagerLock() ;
+  constexpr ::System::Object*& __cordl_internal_get__defaultViewManagerLock();
 
-constexpr bool const& __cordl_internal_get__enforceConstraints() const;
+  constexpr bool const& __cordl_internal_get__enforceConstraints() const;
 
-constexpr bool& __cordl_internal_get__enforceConstraints() ;
+  constexpr bool& __cordl_internal_get__enforceConstraints();
 
-constexpr ::System::Data::PropertyCollection* const& __cordl_internal_get__extendedProperties() const;
+  constexpr ::System::Data::PropertyCollection* const& __cordl_internal_get__extendedProperties() const;
 
-constexpr ::System::Data::PropertyCollection*& __cordl_internal_get__extendedProperties() ;
+  constexpr ::System::Data::PropertyCollection*& __cordl_internal_get__extendedProperties();
 
-constexpr bool const& __cordl_internal_get__fEnableCascading() const;
+  constexpr bool const& __cordl_internal_get__fEnableCascading() const;
 
-constexpr bool& __cordl_internal_get__fEnableCascading() ;
+  constexpr bool& __cordl_internal_get__fEnableCascading();
 
-constexpr bool const& __cordl_internal_get__fInLoadDiffgram() const;
+  constexpr bool const& __cordl_internal_get__fInLoadDiffgram() const;
 
-constexpr bool& __cordl_internal_get__fInLoadDiffgram() ;
+  constexpr bool& __cordl_internal_get__fInLoadDiffgram();
 
-constexpr bool const& __cordl_internal_get__fInReadXml() const;
+  constexpr bool const& __cordl_internal_get__fInReadXml() const;
 
-constexpr bool& __cordl_internal_get__fInReadXml() ;
+  constexpr bool& __cordl_internal_get__fInReadXml();
 
-constexpr bool const& __cordl_internal_get__fInitInProgress() const;
+  constexpr bool const& __cordl_internal_get__fInitInProgress() const;
 
-constexpr bool& __cordl_internal_get__fInitInProgress() ;
+  constexpr bool& __cordl_internal_get__fInitInProgress();
 
-constexpr bool const& __cordl_internal_get__fIsSchemaLoading() const;
+  constexpr bool const& __cordl_internal_get__fIsSchemaLoading() const;
 
-constexpr bool& __cordl_internal_get__fIsSchemaLoading() ;
+  constexpr bool& __cordl_internal_get__fIsSchemaLoading();
 
-constexpr bool const& __cordl_internal_get__fTopLevelTable() const;
+  constexpr bool const& __cordl_internal_get__fTopLevelTable() const;
 
-constexpr bool& __cordl_internal_get__fTopLevelTable() ;
+  constexpr bool& __cordl_internal_get__fTopLevelTable();
 
-constexpr ::StringW const& __cordl_internal_get__mainTableName() const;
+  constexpr ::StringW const& __cordl_internal_get__mainTableName() const;
 
-constexpr ::StringW& __cordl_internal_get__mainTableName() ;
+  constexpr ::StringW& __cordl_internal_get__mainTableName();
 
-constexpr ::StringW const& __cordl_internal_get__namespaceURI() const;
+  constexpr ::StringW const& __cordl_internal_get__namespaceURI() const;
 
-constexpr ::StringW& __cordl_internal_get__namespaceURI() ;
+  constexpr ::StringW& __cordl_internal_get__namespaceURI();
 
-constexpr int32_t const& __cordl_internal_get__objectID() const;
+  constexpr int32_t const& __cordl_internal_get__objectID() const;
 
-constexpr int32_t& __cordl_internal_get__objectID() ;
+  constexpr int32_t& __cordl_internal_get__objectID();
 
-constexpr ::System::Data::DataRelationCollection* const& __cordl_internal_get__relationCollection() const;
+  constexpr ::System::Data::DataRelationCollection* const& __cordl_internal_get__relationCollection() const;
 
-constexpr ::System::Data::DataRelationCollection*& __cordl_internal_get__relationCollection() ;
+  constexpr ::System::Data::DataRelationCollection*& __cordl_internal_get__relationCollection();
 
-constexpr ::System::Data::SerializationFormat const& __cordl_internal_get__remotingFormat() const;
+  constexpr ::System::Data::SerializationFormat const& __cordl_internal_get__remotingFormat() const;
 
-constexpr ::System::Data::SerializationFormat& __cordl_internal_get__remotingFormat() ;
+  constexpr ::System::Data::SerializationFormat& __cordl_internal_get__remotingFormat();
 
-constexpr ::System::Data::DataTableCollection* const& __cordl_internal_get__tableCollection() const;
+  constexpr ::System::Data::DataTableCollection* const& __cordl_internal_get__tableCollection() const;
 
-constexpr ::System::Data::DataTableCollection*& __cordl_internal_get__tableCollection() ;
+  constexpr ::System::Data::DataTableCollection*& __cordl_internal_get__tableCollection();
 
-constexpr bool const& __cordl_internal_get__udtIsWrapped() const;
+  constexpr bool const& __cordl_internal_get__udtIsWrapped() const;
 
-constexpr bool& __cordl_internal_get__udtIsWrapped() ;
+  constexpr bool& __cordl_internal_get__udtIsWrapped();
 
-constexpr bool const& __cordl_internal_get__useDataSetSchemaOnly() const;
+  constexpr bool const& __cordl_internal_get__useDataSetSchemaOnly() const;
 
-constexpr bool& __cordl_internal_get__useDataSetSchemaOnly() ;
+  constexpr bool& __cordl_internal_get__useDataSetSchemaOnly();
 
-constexpr void __cordl_internal_set_ClearFunctionCalled(::System::Data::DataSetClearEventhandler*  value) ;
+  constexpr void __cordl_internal_set_ClearFunctionCalled(::System::Data::DataSetClearEventhandler* value);
 
-constexpr void __cordl_internal_set_DataRowCreated(::System::Data::DataRowCreatedEventHandler*  value) ;
+  constexpr void __cordl_internal_set_DataRowCreated(::System::Data::DataRowCreatedEventHandler* value);
 
-constexpr void __cordl_internal_set_MergeFailed(::System::Data::MergeFailedEventHandler*  value) ;
+  constexpr void __cordl_internal_set_MergeFailed(::System::Data::MergeFailedEventHandler* value);
 
-constexpr void __cordl_internal_set_PropertyChanging(::System::ComponentModel::PropertyChangedEventHandler*  value) ;
+  constexpr void __cordl_internal_set_PropertyChanging(::System::ComponentModel::PropertyChangedEventHandler* value);
 
-constexpr void __cordl_internal_set__caseSensitive(bool  value) ;
+  constexpr void __cordl_internal_set__caseSensitive(bool value);
 
-constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo*  value) ;
+  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-constexpr void __cordl_internal_set__cultureUserSet(bool  value) ;
+  constexpr void __cordl_internal_set__cultureUserSet(bool value);
 
-constexpr void __cordl_internal_set__dataSetName(::StringW  value) ;
+  constexpr void __cordl_internal_set__dataSetName(::StringW value);
 
-constexpr void __cordl_internal_set__datasetPrefix(::StringW  value) ;
+  constexpr void __cordl_internal_set__datasetPrefix(::StringW value);
 
-constexpr void __cordl_internal_set__defaultViewManager(::System::Data::DataViewManager*  value) ;
+  constexpr void __cordl_internal_set__defaultViewManager(::System::Data::DataViewManager* value);
 
-constexpr void __cordl_internal_set__defaultViewManagerLock(::System::Object*  value) ;
+  constexpr void __cordl_internal_set__defaultViewManagerLock(::System::Object* value);
 
-constexpr void __cordl_internal_set__enforceConstraints(bool  value) ;
+  constexpr void __cordl_internal_set__enforceConstraints(bool value);
 
-constexpr void __cordl_internal_set__extendedProperties(::System::Data::PropertyCollection*  value) ;
+  constexpr void __cordl_internal_set__extendedProperties(::System::Data::PropertyCollection* value);
 
-constexpr void __cordl_internal_set__fEnableCascading(bool  value) ;
+  constexpr void __cordl_internal_set__fEnableCascading(bool value);
 
-constexpr void __cordl_internal_set__fInLoadDiffgram(bool  value) ;
+  constexpr void __cordl_internal_set__fInLoadDiffgram(bool value);
 
-constexpr void __cordl_internal_set__fInReadXml(bool  value) ;
+  constexpr void __cordl_internal_set__fInReadXml(bool value);
 
-constexpr void __cordl_internal_set__fInitInProgress(bool  value) ;
+  constexpr void __cordl_internal_set__fInitInProgress(bool value);
 
-constexpr void __cordl_internal_set__fIsSchemaLoading(bool  value) ;
+  constexpr void __cordl_internal_set__fIsSchemaLoading(bool value);
 
-constexpr void __cordl_internal_set__fTopLevelTable(bool  value) ;
+  constexpr void __cordl_internal_set__fTopLevelTable(bool value);
 
-constexpr void __cordl_internal_set__mainTableName(::StringW  value) ;
+  constexpr void __cordl_internal_set__mainTableName(::StringW value);
 
-constexpr void __cordl_internal_set__namespaceURI(::StringW  value) ;
+  constexpr void __cordl_internal_set__namespaceURI(::StringW value);
 
-constexpr void __cordl_internal_set__objectID(int32_t  value) ;
+  constexpr void __cordl_internal_set__objectID(int32_t value);
 
-constexpr void __cordl_internal_set__relationCollection(::System::Data::DataRelationCollection*  value) ;
+  constexpr void __cordl_internal_set__relationCollection(::System::Data::DataRelationCollection* value);
 
-constexpr void __cordl_internal_set__remotingFormat(::System::Data::SerializationFormat  value) ;
+  constexpr void __cordl_internal_set__remotingFormat(::System::Data::SerializationFormat value);
 
-constexpr void __cordl_internal_set__tableCollection(::System::Data::DataTableCollection*  value) ;
+  constexpr void __cordl_internal_set__tableCollection(::System::Data::DataTableCollection* value);
 
-constexpr void __cordl_internal_set__udtIsWrapped(bool  value) ;
+  constexpr void __cordl_internal_set__udtIsWrapped(bool value);
 
-constexpr void __cordl_internal_set__useDataSetSchemaOnly(bool  value) ;
+  constexpr void __cordl_internal_set__useDataSetSchemaOnly(bool value);
 
-/// @brief Method .ctor, addr 0x5e55e08, size 0x240, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5ec7e14, size 0x240, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5e56048, size 0x28, virtual false, abstract: false, final false
-inline void _ctor(::StringW  dataSetName) ;
+  /// @brief Method .ctor, addr 0x5ec8054, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::StringW dataSetName);
 
-/// @brief Method .ctor, addr 0x5e5626c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5ec8278, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5e56274, size 0x220, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context, bool  ConstructSchema) ;
+  /// @brief Method .ctor, addr 0x5ec8280, size 0x220, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, bool ConstructSchema);
 
-static inline int32_t getStaticF_s_objectTypeCount() ;
+  static inline int32_t getStaticF_s_objectTypeCount();
 
-static inline ::System::Xml::Schema::XmlSchemaComplexType* getStaticF_s_schemaTypeForWSDL() ;
+  static inline ::System::Xml::Schema::XmlSchemaComplexType* getStaticF_s_schemaTypeForWSDL();
 
-/// @brief Method get_CaseSensitive, addr 0x5e59438, size 0x8, virtual false, abstract: false, final false
-inline bool get_CaseSensitive() ;
+  /// @brief Method get_CaseSensitive, addr 0x5ecb444, size 0x8, virtual false, abstract: false, final false
+  inline bool get_CaseSensitive();
 
-/// @brief Method get_DataSetName, addr 0x5e5a228, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_DataSetName() ;
+  /// @brief Method get_DataSetName, addr 0x5ecc234, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_DataSetName();
 
-/// @brief Method get_EnforceConstraints, addr 0x5e59b24, size 0x8, virtual false, abstract: false, final false
-inline bool get_EnforceConstraints() ;
+  /// @brief Method get_EnforceConstraints, addr 0x5ecbb30, size 0x8, virtual false, abstract: false, final false
+  inline bool get_EnforceConstraints();
 
-/// @brief Method get_ExtendedProperties, addr 0x5e59230, size 0x6c, virtual false, abstract: false, final false
-inline ::System::Data::PropertyCollection* get_ExtendedProperties() ;
+  /// @brief Method get_ExtendedProperties, addr 0x5ecb23c, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Data::PropertyCollection* get_ExtendedProperties();
 
-/// @brief Method get_Locale, addr 0x5e5a850, size 0x8, virtual false, abstract: false, final false
-inline ::System::Globalization::CultureInfo* get_Locale() ;
+  /// @brief Method get_Locale, addr 0x5ecc85c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Globalization::CultureInfo* get_Locale();
 
-/// @brief Method get_MainTableName, addr 0x5e61c4c, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_MainTableName() ;
+  /// @brief Method get_MainTableName, addr 0x5ed3c58, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_MainTableName();
 
-/// @brief Method get_Namespace, addr 0x5e5a2ac, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Namespace() ;
+  /// @brief Method get_Namespace, addr 0x5ecc2b8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Namespace();
 
-/// @brief Method get_ObjectID, addr 0x5e61c5c, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_ObjectID() ;
+  /// @brief Method get_ObjectID, addr 0x5ed3c68, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_ObjectID();
 
-/// @brief Method get_Prefix, addr 0x5e5a738, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Prefix() ;
+  /// @brief Method get_Prefix, addr 0x5ecc744, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Prefix();
 
-/// @brief Method get_Relations, addr 0x5e5b53c, size 0x8, virtual false, abstract: false, final false
-inline ::System::Data::DataRelationCollection* get_Relations() ;
+  /// @brief Method get_Relations, addr 0x5ecd548, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Data::DataRelationCollection* get_Relations();
 
-/// @brief Method get_RemotingFormat, addr 0x5e561bc, size 0x8, virtual false, abstract: false, final false
-inline ::System::Data::SerializationFormat get_RemotingFormat() ;
+  /// @brief Method get_RemotingFormat, addr 0x5ec81c8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Data::SerializationFormat get_RemotingFormat();
 
-/// @brief Method get_SchemaSerializationMode, addr 0x5e56264, size 0x8, virtual true, abstract: false, final false
-inline ::System::Data::SchemaSerializationMode get_SchemaSerializationMode() ;
+  /// @brief Method get_SchemaSerializationMode, addr 0x5ec8270, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Data::SchemaSerializationMode get_SchemaSerializationMode();
 
-/// @brief Method get_Site, addr 0x5e5b534, size 0x8, virtual true, abstract: false, final false
-inline ::System::ComponentModel::ISite* get_Site() ;
+  /// @brief Method get_Site, addr 0x5ecd540, size 0x8, virtual true, abstract: false, final false
+  inline ::System::ComponentModel::ISite* get_Site();
 
-/// @brief Method get_Tables, addr 0x5e5b544, size 0x8, virtual false, abstract: false, final false
-inline ::System::Data::DataTableCollection* get_Tables() ;
+  /// @brief Method get_Tables, addr 0x5ecd550, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Data::DataTableCollection* get_Tables();
 
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-/// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
-constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable() noexcept;
+  /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
+  constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable() noexcept;
 
-static inline void setStaticF_s_objectTypeCount(int32_t  value) ;
+  static inline void setStaticF_s_objectTypeCount(int32_t value);
 
-static inline void setStaticF_s_schemaTypeForWSDL(::System::Xml::Schema::XmlSchemaComplexType*  value) ;
+  static inline void setStaticF_s_schemaTypeForWSDL(::System::Xml::Schema::XmlSchemaComplexType* value);
 
-/// @brief Method set_CaseSensitive, addr 0x5e59440, size 0x2f8, virtual false, abstract: false, final false
-inline void set_CaseSensitive(bool  value) ;
+  /// @brief Method set_CaseSensitive, addr 0x5ecb44c, size 0x2f8, virtual false, abstract: false, final false
+  inline void set_CaseSensitive(bool value);
 
-/// @brief Method set_DataSetName, addr 0x5e56070, size 0x14c, virtual false, abstract: false, final false
-inline void set_DataSetName(::StringW  value) ;
+  /// @brief Method set_DataSetName, addr 0x5ec807c, size 0x14c, virtual false, abstract: false, final false
+  inline void set_DataSetName(::StringW value);
 
-/// @brief Method set_EnforceConstraints, addr 0x5e592c8, size 0x170, virtual false, abstract: false, final false
-inline void set_EnforceConstraints(bool  value) ;
+  /// @brief Method set_EnforceConstraints, addr 0x5ecb2d4, size 0x170, virtual false, abstract: false, final false
+  inline void set_EnforceConstraints(bool value);
 
-/// @brief Method set_Locale, addr 0x5e5a858, size 0x18c, virtual false, abstract: false, final false
-inline void set_Locale(::System::Globalization::CultureInfo*  value) ;
+  /// @brief Method set_Locale, addr 0x5ecc864, size 0x18c, virtual false, abstract: false, final false
+  inline void set_Locale(::System::Globalization::CultureInfo* value);
 
-/// @brief Method set_MainTableName, addr 0x5e61c54, size 0x8, virtual false, abstract: false, final false
-inline void set_MainTableName(::StringW  value) ;
+  /// @brief Method set_MainTableName, addr 0x5ed3c60, size 0x8, virtual false, abstract: false, final false
+  inline void set_MainTableName(::StringW value);
 
-/// @brief Method set_Namespace, addr 0x5e5a2b4, size 0x484, virtual false, abstract: false, final false
-inline void set_Namespace(::StringW  value) ;
+  /// @brief Method set_Namespace, addr 0x5ecc2c0, size 0x484, virtual false, abstract: false, final false
+  inline void set_Namespace(::StringW value);
 
-/// @brief Method set_Prefix, addr 0x5e5a740, size 0x110, virtual false, abstract: false, final false
-inline void set_Prefix(::StringW  value) ;
+  /// @brief Method set_Prefix, addr 0x5ecc74c, size 0x110, virtual false, abstract: false, final false
+  inline void set_Prefix(::StringW value);
 
-/// @brief Method set_RemotingFormat, addr 0x5e561c4, size 0xa0, virtual false, abstract: false, final false
-inline void set_RemotingFormat(::System::Data::SerializationFormat  value) ;
+  /// @brief Method set_RemotingFormat, addr 0x5ec81d0, size 0xa0, virtual false, abstract: false, final false
+  inline void set_RemotingFormat(::System::Data::SerializationFormat value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DataSet() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DataSet();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DataSet(DataSet&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DataSet(DataSet && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DataSet(DataSet const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DataSet(DataSet const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13726 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13719};
+  /// @brief Field _defaultViewManager, offset: 0x20, size: 0x8, def value: None
+  ::System::Data::DataViewManager* ____defaultViewManager;
 
-/// @brief Field _defaultViewManager, offset: 0x20, size: 0x8, def value: None
- ::System::Data::DataViewManager*  ____defaultViewManager;
+  /// @brief Field _tableCollection, offset: 0x28, size: 0x8, def value: None
+  ::System::Data::DataTableCollection* ____tableCollection;
 
-/// @brief Field _tableCollection, offset: 0x28, size: 0x8, def value: None
- ::System::Data::DataTableCollection*  ____tableCollection;
+  /// @brief Field _relationCollection, offset: 0x30, size: 0x8, def value: None
+  ::System::Data::DataRelationCollection* ____relationCollection;
 
-/// @brief Field _relationCollection, offset: 0x30, size: 0x8, def value: None
- ::System::Data::DataRelationCollection*  ____relationCollection;
+  /// @brief Field _extendedProperties, offset: 0x38, size: 0x8, def value: None
+  ::System::Data::PropertyCollection* ____extendedProperties;
 
-/// @brief Field _extendedProperties, offset: 0x38, size: 0x8, def value: None
- ::System::Data::PropertyCollection*  ____extendedProperties;
+  /// @brief Field _dataSetName, offset: 0x40, size: 0x8, def value: None
+  ::StringW ____dataSetName;
 
-/// @brief Field _dataSetName, offset: 0x40, size: 0x8, def value: None
- ::StringW  ____dataSetName;
+  /// @brief Field _datasetPrefix, offset: 0x48, size: 0x8, def value: None
+  ::StringW ____datasetPrefix;
 
-/// @brief Field _datasetPrefix, offset: 0x48, size: 0x8, def value: None
- ::StringW  ____datasetPrefix;
+  /// @brief Field _namespaceURI, offset: 0x50, size: 0x8, def value: None
+  ::StringW ____namespaceURI;
 
-/// @brief Field _namespaceURI, offset: 0x50, size: 0x8, def value: None
- ::StringW  ____namespaceURI;
+  /// @brief Field _enforceConstraints, offset: 0x58, size: 0x1, def value: None
+  bool ____enforceConstraints;
 
-/// @brief Field _enforceConstraints, offset: 0x58, size: 0x1, def value: None
- bool  ____enforceConstraints;
+  /// @brief Field _caseSensitive, offset: 0x59, size: 0x1, def value: None
+  bool ____caseSensitive;
 
-/// @brief Field _caseSensitive, offset: 0x59, size: 0x1, def value: None
- bool  ____caseSensitive;
+  /// @brief Field _culture, offset: 0x60, size: 0x8, def value: None
+  ::System::Globalization::CultureInfo* ____culture;
 
-/// @brief Field _culture, offset: 0x60, size: 0x8, def value: None
- ::System::Globalization::CultureInfo*  ____culture;
+  /// @brief Field _cultureUserSet, offset: 0x68, size: 0x1, def value: None
+  bool ____cultureUserSet;
 
-/// @brief Field _cultureUserSet, offset: 0x68, size: 0x1, def value: None
- bool  ____cultureUserSet;
+  /// @brief Field _fInReadXml, offset: 0x69, size: 0x1, def value: None
+  bool ____fInReadXml;
 
-/// @brief Field _fInReadXml, offset: 0x69, size: 0x1, def value: None
- bool  ____fInReadXml;
+  /// @brief Field _fInLoadDiffgram, offset: 0x6a, size: 0x1, def value: None
+  bool ____fInLoadDiffgram;
 
-/// @brief Field _fInLoadDiffgram, offset: 0x6a, size: 0x1, def value: None
- bool  ____fInLoadDiffgram;
+  /// @brief Field _fTopLevelTable, offset: 0x6b, size: 0x1, def value: None
+  bool ____fTopLevelTable;
 
-/// @brief Field _fTopLevelTable, offset: 0x6b, size: 0x1, def value: None
- bool  ____fTopLevelTable;
+  /// @brief Field _fInitInProgress, offset: 0x6c, size: 0x1, def value: None
+  bool ____fInitInProgress;
 
-/// @brief Field _fInitInProgress, offset: 0x6c, size: 0x1, def value: None
- bool  ____fInitInProgress;
+  /// @brief Field _fEnableCascading, offset: 0x6d, size: 0x1, def value: None
+  bool ____fEnableCascading;
 
-/// @brief Field _fEnableCascading, offset: 0x6d, size: 0x1, def value: None
- bool  ____fEnableCascading;
+  /// @brief Field _fIsSchemaLoading, offset: 0x6e, size: 0x1, def value: None
+  bool ____fIsSchemaLoading;
 
-/// @brief Field _fIsSchemaLoading, offset: 0x6e, size: 0x1, def value: None
- bool  ____fIsSchemaLoading;
+  /// @brief Field _mainTableName, offset: 0x70, size: 0x8, def value: None
+  ::StringW ____mainTableName;
 
-/// @brief Field _mainTableName, offset: 0x70, size: 0x8, def value: None
- ::StringW  ____mainTableName;
+  /// @brief Field _remotingFormat, offset: 0x78, size: 0x4, def value: None
+  ::System::Data::SerializationFormat ____remotingFormat;
 
-/// @brief Field _remotingFormat, offset: 0x78, size: 0x4, def value: None
- ::System::Data::SerializationFormat  ____remotingFormat;
+  /// @brief Field _defaultViewManagerLock, offset: 0x80, size: 0x8, def value: None
+  ::System::Object* ____defaultViewManagerLock;
 
-/// @brief Field _defaultViewManagerLock, offset: 0x80, size: 0x8, def value: None
- ::System::Object*  ____defaultViewManagerLock;
+  /// @brief Field _objectID, offset: 0x88, size: 0x4, def value: None
+  int32_t ____objectID;
 
-/// @brief Field _objectID, offset: 0x88, size: 0x4, def value: None
- int32_t  ____objectID;
+  /// @brief Field _useDataSetSchemaOnly, offset: 0x8c, size: 0x1, def value: None
+  bool ____useDataSetSchemaOnly;
 
-/// @brief Field _useDataSetSchemaOnly, offset: 0x8c, size: 0x1, def value: None
- bool  ____useDataSetSchemaOnly;
+  /// @brief Field _udtIsWrapped, offset: 0x8d, size: 0x1, def value: None
+  bool ____udtIsWrapped;
 
-/// @brief Field _udtIsWrapped, offset: 0x8d, size: 0x1, def value: None
- bool  ____udtIsWrapped;
+  /// @brief Field PropertyChanging, offset: 0x90, size: 0x8, def value: None
+  ::System::ComponentModel::PropertyChangedEventHandler* ___PropertyChanging;
 
-/// @brief Field PropertyChanging, offset: 0x90, size: 0x8, def value: None
- ::System::ComponentModel::PropertyChangedEventHandler*  ___PropertyChanging;
+  /// @brief Field MergeFailed, offset: 0x98, size: 0x8, def value: None
+  ::System::Data::MergeFailedEventHandler* ___MergeFailed;
 
-/// @brief Field MergeFailed, offset: 0x98, size: 0x8, def value: None
- ::System::Data::MergeFailedEventHandler*  ___MergeFailed;
+  /// @brief Field DataRowCreated, offset: 0xa0, size: 0x8, def value: None
+  ::System::Data::DataRowCreatedEventHandler* ___DataRowCreated;
 
-/// @brief Field DataRowCreated, offset: 0xa0, size: 0x8, def value: None
- ::System::Data::DataRowCreatedEventHandler*  ___DataRowCreated;
+  /// @brief Field ClearFunctionCalled, offset: 0xa8, size: 0x8, def value: None
+  ::System::Data::DataSetClearEventhandler* ___ClearFunctionCalled;
 
-/// @brief Field ClearFunctionCalled, offset: 0xa8, size: 0x8, def value: None
- ::System::Data::DataSetClearEventhandler*  ___ClearFunctionCalled;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::DataSet, ____defaultViewManager) == 0x20, "Offset mismatch!");
@@ -844,6 +848,6 @@ static_assert(offsetof(::System::Data::DataSet, ___ClearFunctionCalled) == 0xa8,
 
 static_assert(::cordl_internals::size_check_v<::System::Data::DataSet, 0xb0>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::DataSet);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataSet*, "System.Data", "DataSet");

@@ -30,76 +30,76 @@ namespace System::Security::Cryptography {
 // CS Name: System.Security.Cryptography.OidEnumerator
 class CORDL_TYPE OidEnumerator : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Current)) ::System::Security::Cryptography::Oid*  Current;
+  // Declarations
+  __declspec(property(get = get_Current)) ::System::Security::Cryptography::Oid* Current;
 
- __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
-/// @brief Field _current, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get__current, put=__cordl_internal_set__current)) int32_t  _current;
+  /// @brief Field _current, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) int32_t _current;
 
-/// @brief Field _oids, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__oids, put=__cordl_internal_set__oids)) ::System::Security::Cryptography::OidCollection*  _oids;
+  /// @brief Field _oids, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__oids, put = __cordl_internal_set__oids)) ::System::Security::Cryptography::OidCollection* _oids;
 
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+  /// @brief Convert operator to "::System::Collections::IEnumerator"
+  constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-/// @brief Method MoveNext, addr 0x61ed354, size 0x4c, virtual true, abstract: false, final true
-inline bool MoveNext() ;
+  /// @brief Method MoveNext, addr 0x625f360, size 0x4c, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-static inline ::System::Security::Cryptography::OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection*  oids) ;
+  static inline ::System::Security::Cryptography::OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection* oids);
 
-/// @brief Method Reset, addr 0x61ed3a0, size 0xc, virtual true, abstract: false, final true
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x625f3ac, size 0xc, virtual true, abstract: false, final true
+  inline void Reset();
 
-/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x61ed350, size 0x4, virtual true, abstract: false, final true
-inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x625f35c, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-constexpr int32_t const& __cordl_internal_get__current() const;
+  constexpr int32_t const& __cordl_internal_get__current() const;
 
-constexpr int32_t& __cordl_internal_get__current() ;
+  constexpr int32_t& __cordl_internal_get__current();
 
-constexpr ::System::Security::Cryptography::OidCollection* const& __cordl_internal_get__oids() const;
+  constexpr ::System::Security::Cryptography::OidCollection* const& __cordl_internal_get__oids() const;
 
-constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get__oids() ;
+  constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get__oids();
 
-constexpr void __cordl_internal_set__current(int32_t  value) ;
+  constexpr void __cordl_internal_set__current(int32_t value);
 
-constexpr void __cordl_internal_set__oids(::System::Security::Cryptography::OidCollection*  value) ;
+  constexpr void __cordl_internal_set__oids(::System::Security::Cryptography::OidCollection* value);
 
-/// @brief Method .ctor, addr 0x61ed170, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::System::Security::Cryptography::OidCollection*  oids) ;
+  /// @brief Method .ctor, addr 0x625f17c, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::System::Security::Cryptography::OidCollection* oids);
 
-/// @brief Method get_Current, addr 0x61ed334, size 0x1c, virtual false, abstract: false, final false
-inline ::System::Security::Cryptography::Oid* get_Current() ;
+  /// @brief Method get_Current, addr 0x625f340, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Security::Cryptography::Oid* get_Current();
 
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OidEnumerator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OidEnumerator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OidEnumerator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OidEnumerator(OidEnumerator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OidEnumerator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OidEnumerator(OidEnumerator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OidEnumerator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OidEnumerator(OidEnumerator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OidEnumerator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OidEnumerator(OidEnumerator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11158 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11151};
+  /// @brief Field _oids, offset: 0x10, size: 0x8, def value: None
+  ::System::Security::Cryptography::OidCollection* ____oids;
 
-/// @brief Field _oids, offset: 0x10, size: 0x8, def value: None
- ::System::Security::Cryptography::OidCollection*  ____oids;
+  /// @brief Field _current, offset: 0x18, size: 0x4, def value: None
+  int32_t ____current;
 
-/// @brief Field _current, offset: 0x18, size: 0x4, def value: None
- int32_t  ____current;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::Cryptography::OidEnumerator, ____oids) == 0x10, "Offset mismatch!");
@@ -108,6 +108,6 @@ static_assert(offsetof(::System::Security::Cryptography::OidEnumerator, ____curr
 
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::OidEnumerator, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Security::Cryptography
+} // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::OidEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::OidEnumerator*, "System.Security.Cryptography", "OidEnumerator");

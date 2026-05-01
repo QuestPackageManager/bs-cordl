@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/XR/Management/XRConfigurationDataAttribute.hpp"
 #include "UnityEngine/XR/Management/XRGeneralSettings.hpp"
@@ -10,6 +10,5 @@
 #include "UnityEngine/XR/Management/XRManagementAnalytics.hpp"
 #include "UnityEngine/XR/Management/XRManagerSettings.hpp"
 #ifdef __cpp_modules
-                    export module Management;
-                    #endif
-                
+export module Management;
+#endif

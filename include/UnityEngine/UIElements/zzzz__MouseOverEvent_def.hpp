@@ -31,88 +31,88 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.MouseOverEvent/<>c
 class CORDL_TYPE MouseOverEvent___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::MouseOverEvent___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::MouseOverEvent___c* __9;
 
-static inline ::UnityEngine::UIElements::MouseOverEvent___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::MouseOverEvent___c* New_ctor();
 
-/// @brief Method <.cctor>b__0_0, addr 0x6bd4fc8, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::MouseOverEvent* __cctor_b__0_0() ;
+  /// @brief Method <.cctor>b__0_0, addr 0x6c47210, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::MouseOverEvent* __cctor_b__0_0();
 
-/// @brief Method .ctor, addr 0x6bd4fc4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c4720c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::MouseOverEvent___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::MouseOverEvent___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::MouseOverEvent___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::MouseOverEvent___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MouseOverEvent___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseOverEvent___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MouseOverEvent___c(MouseOverEvent___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MouseOverEvent___c(MouseOverEvent___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MouseOverEvent___c(MouseOverEvent___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MouseOverEvent___c(MouseOverEvent___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4503 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4503};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseOverEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.MouseOverEvent
 class CORDL_TYPE MouseOverEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseOverEvent*> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::MouseOverEvent___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::MouseOverEvent___c;
 
-/// @brief Method Dispatch, addr 0x6bd4e98, size 0x4, virtual true, abstract: false, final false
-inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel*  panel) ;
+  /// @brief Method Dispatch, addr 0x6c470e0, size 0x4, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-static inline ::UnityEngine::UIElements::MouseOverEvent* New_ctor() ;
+  static inline ::UnityEngine::UIElements::MouseOverEvent* New_ctor();
 
-/// @brief Method PreDispatch, addr 0x6bd4e9c, size 0x88, virtual true, abstract: false, final false
-inline void PreDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
+  /// @brief Method PreDispatch, addr 0x6c470e4, size 0x88, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-/// @brief Method .ctor, addr 0x6bd4f24, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c4716c, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MouseOverEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseOverEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MouseOverEvent(MouseOverEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MouseOverEvent(MouseOverEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MouseOverEvent(MouseOverEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MouseOverEvent(MouseOverEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4504 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4504};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseOverEvent, 0x98>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MouseOverEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseOverEvent*, "UnityEngine.UIElements", "MouseOverEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::MouseOverEvent___c);

@@ -21,57 +21,57 @@ namespace System::Threading {
 // CS Name: System.Threading.ThreadPoolGlobals
 class CORDL_TYPE ThreadPoolGlobals : public ::System::Object {
 public:
-// Declarations
-/// @brief Field enableWorkerTracking, offset 0xffffffff, size 0x1 
- __declspec(property(get=getStaticF_enableWorkerTracking, put=setStaticF_enableWorkerTracking)) bool  enableWorkerTracking;
+  // Declarations
+  /// @brief Field enableWorkerTracking, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF_enableWorkerTracking, put = setStaticF_enableWorkerTracking)) bool enableWorkerTracking;
 
-/// @brief Field processorCount, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_processorCount, put=setStaticF_processorCount)) int32_t  processorCount;
+  /// @brief Field processorCount, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_processorCount, put = setStaticF_processorCount)) int32_t processorCount;
 
-/// @brief Field vmTpInitialized, offset 0xffffffff, size 0x1 
- __declspec(property(get=getStaticF_vmTpInitialized, put=setStaticF_vmTpInitialized)) bool  vmTpInitialized;
+  /// @brief Field vmTpInitialized, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF_vmTpInitialized, put = setStaticF_vmTpInitialized)) bool vmTpInitialized;
 
-/// @brief Field workQueue, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_workQueue, put=setStaticF_workQueue)) ::System::Threading::ThreadPoolWorkQueue*  workQueue;
+  /// @brief Field workQueue, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_workQueue, put = setStaticF_workQueue)) ::System::Threading::ThreadPoolWorkQueue* workQueue;
 
-static inline bool getStaticF_enableWorkerTracking() ;
+  static inline bool getStaticF_enableWorkerTracking();
 
-static inline int32_t getStaticF_processorCount() ;
+  static inline int32_t getStaticF_processorCount();
 
-static inline bool getStaticF_vmTpInitialized() ;
+  static inline bool getStaticF_vmTpInitialized();
 
-static inline ::System::Threading::ThreadPoolWorkQueue* getStaticF_workQueue() ;
+  static inline ::System::Threading::ThreadPoolWorkQueue* getStaticF_workQueue();
 
-static inline void setStaticF_enableWorkerTracking(bool  value) ;
+  static inline void setStaticF_enableWorkerTracking(bool value);
 
-static inline void setStaticF_processorCount(int32_t  value) ;
+  static inline void setStaticF_processorCount(int32_t value);
 
-static inline void setStaticF_vmTpInitialized(bool  value) ;
+  static inline void setStaticF_vmTpInitialized(bool value);
 
-static inline void setStaticF_workQueue(::System::Threading::ThreadPoolWorkQueue*  value) ;
+  static inline void setStaticF_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ThreadPoolGlobals() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadPoolGlobals();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolGlobals", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ThreadPoolGlobals(ThreadPoolGlobals&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThreadPoolGlobals", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ThreadPoolGlobals(ThreadPoolGlobals && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolGlobals", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ThreadPoolGlobals(ThreadPoolGlobals const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThreadPoolGlobals", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ThreadPoolGlobals(ThreadPoolGlobals const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2743 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2743};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::ThreadPoolGlobals, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Threading
+} // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ThreadPoolGlobals);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolGlobals*, "System.Threading", "ThreadPoolGlobals");

@@ -20,37 +20,37 @@ namespace UnityEngine::ResourceManagement::Util {
 // CS Name: UnityEngine.ResourceManagement.Util.PlatformUtilities
 class CORDL_TYPE PlatformUtilities : public ::System::Object {
 public:
-// Declarations
-static inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* New_ctor();
 
-/// @brief Method PlatformUsesMultiThreading, addr 0x675f930, size 0xc, virtual false, abstract: false, final false
-static inline bool PlatformUsesMultiThreading(::UnityEngine::RuntimePlatform  platform) ;
+  /// @brief Method PlatformUsesMultiThreading, addr 0x67d193c, size 0xc, virtual false, abstract: false, final false
+  static inline bool PlatformUsesMultiThreading(::UnityEngine::RuntimePlatform platform);
 
-/// @brief Method .ctor, addr 0x675f93c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67d1948, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PlatformUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PlatformUtilities(PlatformUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlatformUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PlatformUtilities(PlatformUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PlatformUtilities(PlatformUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlatformUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PlatformUtilities(PlatformUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18727 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18717};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::PlatformUtilities, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ResourceManagement::Util
+} // namespace UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::PlatformUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::PlatformUtilities*, "UnityEngine.ResourceManagement.Util", "PlatformUtilities");

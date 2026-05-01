@@ -29,62 +29,62 @@ namespace GlobalNamespace {
 // CS Name: QuantizedMathf
 class CORDL_TYPE QuantizedMathf : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Approximately, addr 0x3680ef4, size 0x60, virtual false, abstract: false, final false
-static inline bool Approximately(::UnityEngine::Pose  a, ::UnityEngine::Pose  b) ;
+  // Declarations
+  /// @brief Method Approximately, addr 0x36bdc3c, size 0x60, virtual false, abstract: false, final false
+  static inline bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
 
-/// @brief Method Approximately, addr 0x3680d6c, size 0xcc, virtual false, abstract: false, final false
-static inline bool Approximately(::UnityEngine::Quaternion  a, ::UnityEngine::Quaternion  b) ;
+  /// @brief Method Approximately, addr 0x36bdab4, size 0xcc, virtual false, abstract: false, final false
+  static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-/// @brief Method Approximately, addr 0x3680ebc, size 0x38, virtual false, abstract: false, final false
-static inline bool Approximately(::UnityEngine::Vector3  a, ::UnityEngine::Vector3  b) ;
+  /// @brief Method Approximately, addr 0x36bdc04, size 0x38, virtual false, abstract: false, final false
+  static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-/// @brief Method Approximately, addr 0x3680e38, size 0x10, virtual false, abstract: false, final false
-static inline bool Approximately(float_t  a, float_t  b, float_t  epsilon) ;
+  /// @brief Method Approximately, addr 0x36bdb80, size 0x10, virtual false, abstract: false, final false
+  static inline bool Approximately(float_t a, float_t b, float_t epsilon);
 
-/// @brief Method Approximately, addr 0x3680e48, size 0x74, virtual false, abstract: false, final false
-static inline bool Approximately(int32_t  a, int32_t  b, int32_t  epsilon) ;
+  /// @brief Method Approximately, addr 0x36bdb90, size 0x74, virtual false, abstract: false, final false
+  static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
 
-/// @brief Method QuantizedVectorComponentToString, addr 0x3680f54, size 0x118, virtual false, abstract: false, final false
-static inline ::StringW QuantizedVectorComponentToString(int32_t  v) ;
+  /// @brief Method QuantizedVectorComponentToString, addr 0x36bdc9c, size 0x118, virtual false, abstract: false, final false
+  static inline ::StringW QuantizedVectorComponentToString(int32_t v);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr QuantizedMathf() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuantizedMathf();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "QuantizedMathf", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  QuantizedMathf(QuantizedMathf&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QuantizedMathf", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-QuantizedMathf(QuantizedMathf && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "QuantizedMathf", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  QuantizedMathf(QuantizedMathf const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QuantizedMathf", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-QuantizedMathf(QuantizedMathf const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20898 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20886};
+  /// @brief Field kQuaternionSerializableEpsilon offset 0xffffffff size 0x4
+  static constexpr float_t kQuaternionSerializableEpsilon{ static_cast<float_t>(6.103888e-5f) };
 
-/// @brief Field kQuaternionSerializableEpsilon offset 0xffffffff size 0x4
-static constexpr float_t  kQuaternionSerializableEpsilon{static_cast<float_t>(6.103888e-5f)};
+  /// @brief Field kQuaternionSerializableScaleFactor offset 0xffffffff size 0x4
+  static constexpr int32_t kQuaternionSerializableScaleFactor{ static_cast<int32_t>(0x3fff) };
 
-/// @brief Field kQuaternionSerializableScaleFactor offset 0xffffffff size 0x4
-static constexpr int32_t  kQuaternionSerializableScaleFactor{static_cast<int32_t>(0x3fff)};
+  /// @brief Field kVectorSerializableEpsilon offset 0xffffffff size 0x4
+  static constexpr float_t kVectorSerializableEpsilon{ static_cast<float_t>(0.001f) };
 
-/// @brief Field kVectorSerializableEpsilon offset 0xffffffff size 0x4
-static constexpr float_t  kVectorSerializableEpsilon{static_cast<float_t>(0.001f)};
+  /// @brief Field kVectorSerializableScale offset 0xffffffff size 0x4
+  static constexpr float_t kVectorSerializableScale{ static_cast<float_t>(1000.0f) };
 
-/// @brief Field kVectorSerializableScale offset 0xffffffff size 0x4
-static constexpr float_t  kVectorSerializableScale{static_cast<float_t>(1000.0f)};
+  /// @brief Field kVectorSerializableScaleInt offset 0xffffffff size 0x4
+  static constexpr int32_t kVectorSerializableScaleInt{ static_cast<int32_t>(0x3e8) };
 
-/// @brief Field kVectorSerializableScaleInt offset 0xffffffff size 0x4
-static constexpr int32_t  kVectorSerializableScaleInt{static_cast<int32_t>(0x3e8)};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuantizedMathf, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::QuantizedMathf);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuantizedMathf*, "", "QuantizedMathf");

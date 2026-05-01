@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Runtime/Diagnostics/DiagnosticTraceBase.hpp"
 #include "System/Runtime/Diagnostics/DiagnosticTraceSource.hpp"
@@ -16,6 +16,5 @@
 #include "System/Runtime/Diagnostics/StringTraceRecord.hpp"
 #include "System/Runtime/Diagnostics/TraceRecord.hpp"
 #ifdef __cpp_modules
-                    export module Diagnostics;
-                    #endif
-                
+export module Diagnostics;
+#endif

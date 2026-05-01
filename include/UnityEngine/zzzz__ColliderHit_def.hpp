@@ -15,45 +15,45 @@ struct ColliderHit;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ColliderHit);
-// Dependencies 
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.ColliderHit
 struct CORDL_TYPE ColliderHit {
 public:
-// Declarations
- __declspec(property(get=get_collider)) ::UnityW<::UnityEngine::Collider>  collider;
+  // Declarations
+  __declspec(property(get = get_collider)) ::UnityW<::UnityEngine::Collider> collider;
 
- __declspec(property(get=get_instanceID)) int32_t  instanceID;
+  __declspec(property(get = get_instanceID)) int32_t instanceID;
 
-/// @brief Method get_collider, addr 0x69cb08c, size 0xb4, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Collider> get_collider() ;
+  /// @brief Method get_collider, addr 0x6a3d2d4, size 0xb4, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-/// @brief Method get_instanceID, addr 0x69cb084, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_instanceID() ;
+  /// @brief Method get_instanceID, addr 0x6a3d2cc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_instanceID();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColliderHit() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColliderHit();
 
-// Ctor Parameters [CppParam { name: "m_ColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ColliderHit(int32_t  m_ColliderInstanceID) noexcept;
+  // Ctor Parameters [CppParam { name: "m_ColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ColliderHit(int32_t m_ColliderInstanceID) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18648};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18658 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field m_ColliderInstanceID, offset: 0x0, size: 0x4, def value: None
- int32_t  m_ColliderInstanceID;
+  /// @brief Field m_ColliderInstanceID, offset: 0x0, size: 0x4, def value: None
+  int32_t m_ColliderInstanceID;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ColliderHit, m_ColliderInstanceID) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ColliderHit, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ColliderHit, "UnityEngine", "ColliderHit");

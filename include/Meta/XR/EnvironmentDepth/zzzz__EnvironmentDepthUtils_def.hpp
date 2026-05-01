@@ -28,45 +28,45 @@ namespace Meta::XR::EnvironmentDepth {
 // CS Name: Meta.XR.EnvironmentDepth.EnvironmentDepthUtils
 class CORDL_TYPE EnvironmentDepthUtils : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _scalingVector3, offset 0xffffffff, size 0xc 
- __declspec(property(get=getStaticF__scalingVector3, put=setStaticF__scalingVector3)) ::UnityEngine::Vector3  _scalingVector3;
+  // Declarations
+  /// @brief Field _scalingVector3, offset 0xffffffff, size 0xc
+  __declspec(property(get = getStaticF__scalingVector3, put = setStaticF__scalingVector3)) ::UnityEngine::Vector3 _scalingVector3;
 
-/// @brief Method CalculateDepthCameraMatrices, addr 0x588fe34, size 0x1b8, virtual false, abstract: false, final false
-static inline void CalculateDepthCameraMatrices(::Meta::XR::EnvironmentDepth::DepthFrameDesc  frameDesc, ::ByRef<::UnityEngine::Matrix4x4>  projMatrix, ::ByRef<::UnityEngine::Matrix4x4>  viewMatrix) ;
+  /// @brief Method CalculateDepthCameraMatrices, addr 0x5901da0, size 0x1b8, virtual false, abstract: false, final false
+  static inline void CalculateDepthCameraMatrices(::Meta::XR::EnvironmentDepth::DepthFrameDesc frameDesc, ::ByRef<::UnityEngine::Matrix4x4> projMatrix, ::ByRef<::UnityEngine::Matrix4x4> viewMatrix);
 
-/// @brief Method CalculateReprojection, addr 0x588eab0, size 0xe8, virtual false, abstract: false, final false
-static inline ::UnityEngine::Matrix4x4 CalculateReprojection(::Meta::XR::EnvironmentDepth::DepthFrameDesc  frameDesc) ;
+  /// @brief Method CalculateReprojection, addr 0x5900a1c, size 0xe8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 CalculateReprojection(::Meta::XR::EnvironmentDepth::DepthFrameDesc frameDesc);
 
-/// @brief Method ComputeNdcToLinearDepthParameters, addr 0x588ea54, size 0x5c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector4 ComputeNdcToLinearDepthParameters(float_t  near, float_t  far) ;
+  /// @brief Method ComputeNdcToLinearDepthParameters, addr 0x59009c0, size 0x5c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector4 ComputeNdcToLinearDepthParameters(float_t near, float_t far);
 
-static inline ::UnityEngine::Vector3 getStaticF__scalingVector3() ;
+  static inline ::UnityEngine::Vector3 getStaticF__scalingVector3();
 
-static inline void setStaticF__scalingVector3(::UnityEngine::Vector3  value) ;
+  static inline void setStaticF__scalingVector3(::UnityEngine::Vector3 value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EnvironmentDepthUtils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvironmentDepthUtils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthUtils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EnvironmentDepthUtils(EnvironmentDepthUtils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthUtils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EnvironmentDepthUtils(EnvironmentDepthUtils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthUtils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EnvironmentDepthUtils(EnvironmentDepthUtils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthUtils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EnvironmentDepthUtils(EnvironmentDepthUtils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22740 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22632};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils, 0x10>, "Size mismatch!");
 
-} // namespace end def Meta::XR::EnvironmentDepth
+} // namespace Meta::XR::EnvironmentDepth
 NEED_NO_BOX(::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils*, "Meta.XR.EnvironmentDepth", "EnvironmentDepthUtils");

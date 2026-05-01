@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/TextCore/Text/ATGMeshInfo.hpp"
 #include "UnityEngine/TextCore/Text/AtlasPopulationMode.hpp"
@@ -82,6 +82,5 @@
 #include "UnityEngine/TextCore/Text/WordInfo.hpp"
 #include "UnityEngine/TextCore/Text/WordWrapState.hpp"
 #ifdef __cpp_modules
-                    export module Text;
-                    #endif
-                
+export module Text;
+#endif

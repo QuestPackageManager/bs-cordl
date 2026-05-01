@@ -24,90 +24,90 @@ namespace System::Text::RegularExpressions {
 // CS Name: System.Text.RegularExpressions.RegexFC
 class CORDL_TYPE RegexFC : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_CaseInsensitive, put=set_CaseInsensitive)) bool  CaseInsensitive;
+  // Declarations
+  __declspec(property(get = get_CaseInsensitive, put = set_CaseInsensitive)) bool CaseInsensitive;
 
-/// @brief Field <CaseInsensitive>k__BackingField, offset 0x19, size 0x1 
- __declspec(property(get=__cordl_internal_get__CaseInsensitive_k__BackingField, put=__cordl_internal_set__CaseInsensitive_k__BackingField)) bool  _CaseInsensitive_k__BackingField;
+  /// @brief Field <CaseInsensitive>k__BackingField, offset 0x19, size 0x1
+  __declspec(property(get = __cordl_internal_get__CaseInsensitive_k__BackingField, put = __cordl_internal_set__CaseInsensitive_k__BackingField)) bool _CaseInsensitive_k__BackingField;
 
-/// @brief Field _cc, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__cc, put=__cordl_internal_set__cc)) ::System::Text::RegularExpressions::RegexCharClass*  _cc;
+  /// @brief Field _cc, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__cc, put = __cordl_internal_set__cc)) ::System::Text::RegularExpressions::RegexCharClass* _cc;
 
-/// @brief Field _nullable, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get__nullable, put=__cordl_internal_set__nullable)) bool  _nullable;
+  /// @brief Field _nullable, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__nullable, put = __cordl_internal_set__nullable)) bool _nullable;
 
-/// @brief Method AddFC, addr 0x61d5b88, size 0x9c, virtual false, abstract: false, final false
-inline bool AddFC(::System::Text::RegularExpressions::RegexFC*  fc, bool  concatenate) ;
+  /// @brief Method AddFC, addr 0x6247b94, size 0x9c, virtual false, abstract: false, final false
+  inline bool AddFC(::System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
 
-/// @brief Method GetFirstChars, addr 0x61d4de4, size 0x38, virtual false, abstract: false, final false
-inline ::StringW GetFirstChars(::System::Globalization::CultureInfo*  culture) ;
+  /// @brief Method GetFirstChars, addr 0x6246df0, size 0x38, virtual false, abstract: false, final false
+  inline ::StringW GetFirstChars(::System::Globalization::CultureInfo* culture);
 
-static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(char16_t  ch, bool  _cordl_not, bool  nullable, bool  caseInsensitive) ;
+  static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
-static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(::StringW  charClass, bool  nullable, bool  caseInsensitive) ;
+  static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(bool  nullable) ;
+  static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(bool nullable);
 
-constexpr bool const& __cordl_internal_get__CaseInsensitive_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__CaseInsensitive_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__CaseInsensitive_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__CaseInsensitive_k__BackingField();
 
-constexpr ::System::Text::RegularExpressions::RegexCharClass* const& __cordl_internal_get__cc() const;
+  constexpr ::System::Text::RegularExpressions::RegexCharClass* const& __cordl_internal_get__cc() const;
 
-constexpr ::System::Text::RegularExpressions::RegexCharClass*& __cordl_internal_get__cc() ;
+  constexpr ::System::Text::RegularExpressions::RegexCharClass*& __cordl_internal_get__cc();
 
-constexpr bool const& __cordl_internal_get__nullable() const;
+  constexpr bool const& __cordl_internal_get__nullable() const;
 
-constexpr bool& __cordl_internal_get__nullable() ;
+  constexpr bool& __cordl_internal_get__nullable();
 
-constexpr void __cordl_internal_set__CaseInsensitive_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__CaseInsensitive_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__cc(::System::Text::RegularExpressions::RegexCharClass*  value) ;
+  constexpr void __cordl_internal_set__cc(::System::Text::RegularExpressions::RegexCharClass* value);
 
-constexpr void __cordl_internal_set__nullable(bool  value) ;
+  constexpr void __cordl_internal_set__nullable(bool value);
 
-/// @brief Method .ctor, addr 0x61d5c24, size 0xf0, virtual false, abstract: false, final false
-inline void _ctor(char16_t  ch, bool  _cordl_not, bool  nullable, bool  caseInsensitive) ;
+  /// @brief Method .ctor, addr 0x6247c30, size 0xf0, virtual false, abstract: false, final false
+  inline void _ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
-/// @brief Method .ctor, addr 0x61d5d14, size 0x90, virtual false, abstract: false, final false
-inline void _ctor(::StringW  charClass, bool  nullable, bool  caseInsensitive) ;
+  /// @brief Method .ctor, addr 0x6247d20, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-/// @brief Method .ctor, addr 0x61d5b18, size 0x70, virtual false, abstract: false, final false
-inline void _ctor(bool  nullable) ;
+  /// @brief Method .ctor, addr 0x6247b24, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(bool nullable);
 
-/// @brief Method get_CaseInsensitive, addr 0x61d5da4, size 0x8, virtual false, abstract: false, final false
-inline bool get_CaseInsensitive() ;
+  /// @brief Method get_CaseInsensitive, addr 0x6247db0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_CaseInsensitive();
 
-/// @brief Method set_CaseInsensitive, addr 0x61d5dac, size 0x8, virtual false, abstract: false, final false
-inline void set_CaseInsensitive(bool  value) ;
+  /// @brief Method set_CaseInsensitive, addr 0x6247db8, size 0x8, virtual false, abstract: false, final false
+  inline void set_CaseInsensitive(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RegexFC() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RegexFC();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RegexFC(RegexFC&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RegexFC(RegexFC && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RegexFC(RegexFC const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RegexFC", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RegexFC(RegexFC const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11101 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11094};
+  /// @brief Field _cc, offset: 0x10, size: 0x8, def value: None
+  ::System::Text::RegularExpressions::RegexCharClass* ____cc;
 
-/// @brief Field _cc, offset: 0x10, size: 0x8, def value: None
- ::System::Text::RegularExpressions::RegexCharClass*  ____cc;
+  /// @brief Field _nullable, offset: 0x18, size: 0x1, def value: None
+  bool ____nullable;
 
-/// @brief Field _nullable, offset: 0x18, size: 0x1, def value: None
- bool  ____nullable;
+  /// @brief Field <CaseInsensitive>k__BackingField, offset: 0x19, size: 0x1, def value: None
+  bool ____CaseInsensitive_k__BackingField;
 
-/// @brief Field <CaseInsensitive>k__BackingField, offset: 0x19, size: 0x1, def value: None
- bool  ____CaseInsensitive_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Text::RegularExpressions::RegexFC, ____cc) == 0x10, "Offset mismatch!");
@@ -118,6 +118,6 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexFC, ____CaseInse
 
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexFC, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Text::RegularExpressions
+} // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexFC);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");

@@ -13,481 +13,398 @@
 #include "System/zzzz__NotSupportedException_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Data::Common::ADP.TraceException
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::System::Data::Common::ADP::TraceException)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5eec100;
+  constexpr static std::size_t addrs = 0x5f5e10c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "TraceException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "TraceException", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.TraceExceptionAsReturnValue
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Data::Common::ADP::TraceExceptionAsReturnValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5eec1ac;
+  constexpr static std::size_t addrs = 0x5f5e1b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "TraceExceptionAsReturnValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "TraceExceptionAsReturnValue", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.TraceExceptionWithoutRethrow
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Data::Common::ADP::TraceExceptionWithoutRethrow)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5eec220;
+  constexpr static std::size_t addrs = 0x5f5e22c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "TraceExceptionWithoutRethrow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "TraceExceptionWithoutRethrow", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.Argument
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentException* (*)(::StringW)>(&::System::Data::Common::ADP::Argument)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5eec294;
+  constexpr static std::size_t addrs = 0x5f5e2a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "Argument",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "Argument", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.ArgumentOutOfRange
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW)>(&::System::Data::Common::ADP::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5eec330;
+  constexpr static std::size_t addrs = 0x5f5e33c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "ArgumentOutOfRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "ArgumentOutOfRange", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.ArgumentOutOfRange
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW, ::StringW)>(&::System::Data::Common::ADP::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5eec3c0;
+  constexpr static std::size_t addrs = 0x5f5e3cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "ArgumentOutOfRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "ArgumentOutOfRange", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.InvalidOperation
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::InvalidOperationException* (*)(::StringW)>(&::System::Data::Common::ADP::InvalidOperation)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5eec46c;
+  constexpr static std::size_t addrs = 0x5f5e478;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidOperation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidOperation", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.NotSupported
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotSupportedException* (*)(::StringW)>(&::System::Data::Common::ADP::NotSupported)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5eec508;
+  constexpr static std::size_t addrs = 0x5f5e514;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "NotSupported",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "NotSupported", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.IsCatchableExceptionType
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&::System::Data::Common::ADP::IsCatchableExceptionType)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5eec5a4;
+  constexpr static std::size_t addrs = 0x5f5e5b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "IsCatchableExceptionType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "IsCatchableExceptionType", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.IsCatchableOrSecurityExceptionType
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&::System::Data::Common::ADP::IsCatchableOrSecurityExceptionType)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5eec768;
+  constexpr static std::size_t addrs = 0x5f5e774;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "IsCatchableOrSecurityExceptionType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "IsCatchableOrSecurityExceptionType", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.InvalidEnumerationValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Type*, int32_t)>(&::System::Data::Common::ADP::InvalidEnumerationValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Type*, int32_t)>(
+    &::System::Data::Common::ADP::InvalidEnumerationValue)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5eec8f0;
+  constexpr static std::size_t addrs = 0x5f5e8fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidEnumerationValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidEnumerationValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.InvalidSeekOrigin
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::Common::ADP::InvalidSeekOrigin)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5eeca04;
+  constexpr static std::size_t addrs = 0x5f5ea10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidSeekOrigin",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidSeekOrigin", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.InvalidAcceptRejectRule
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::AcceptRejectRule)>(&::System::Data::Common::ADP::InvalidAcceptRejectRule)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::AcceptRejectRule)>(
+    &::System::Data::Common::ADP::InvalidAcceptRejectRule)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5eeca78;
+  constexpr static std::size_t addrs = 0x5f5ea84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidAcceptRejectRule",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::AcceptRejectRule>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidAcceptRejectRule", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::AcceptRejectRule>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.InvalidMissingSchemaAction
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::MissingSchemaAction)>(&::System::Data::Common::ADP::InvalidMissingSchemaAction)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::MissingSchemaAction)>(
+    &::System::Data::Common::ADP::InvalidMissingSchemaAction)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5eecb18;
+  constexpr static std::size_t addrs = 0x5f5eb24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidMissingSchemaAction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::MissingSchemaAction>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidMissingSchemaAction", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::MissingSchemaAction>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.InvalidRule
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::Rule)>(&::System::Data::Common::ADP::InvalidRule)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5eecbb8;
+  constexpr static std::size_t addrs = 0x5f5ebc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidRule",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Rule>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidRule", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Rule>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Data::Common::ADP.WrongType
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*, ::System::Type*)>(&::System::Data::Common::ADP::WrongType)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5eecc58;
+  constexpr static std::size_t addrs = 0x5f5ec64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "WrongType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "WrongType", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Data::Common::ADP::setStaticF_s_stackOverflowType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "s_stackOverflowType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::Type*>(value));
+inline void System::Data::Common::ADP::setStaticF_s_stackOverflowType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "s_stackOverflowType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(
+      std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Data::Common::ADP::getStaticF_s_stackOverflowType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "s_stackOverflowType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::System::Type* System::Data::Common::ADP::getStaticF_s_stackOverflowType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "s_stackOverflowType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_s_outOfMemoryType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "s_outOfMemoryType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::Type*>(value));
+inline void System::Data::Common::ADP::setStaticF_s_outOfMemoryType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "s_outOfMemoryType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(
+      std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Data::Common::ADP::getStaticF_s_outOfMemoryType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "s_outOfMemoryType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::System::Type* System::Data::Common::ADP::getStaticF_s_outOfMemoryType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "s_outOfMemoryType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_s_threadAbortType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "s_threadAbortType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::Type*>(value));
+inline void System::Data::Common::ADP::setStaticF_s_threadAbortType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "s_threadAbortType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(
+      std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Data::Common::ADP::getStaticF_s_threadAbortType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "s_threadAbortType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::System::Type* System::Data::Common::ADP::getStaticF_s_threadAbortType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "s_threadAbortType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_s_nullReferenceType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "s_nullReferenceType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::Type*>(value));
+inline void System::Data::Common::ADP::setStaticF_s_nullReferenceType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "s_nullReferenceType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(
+      std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Data::Common::ADP::getStaticF_s_nullReferenceType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "s_nullReferenceType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::System::Type* System::Data::Common::ADP::getStaticF_s_nullReferenceType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "s_nullReferenceType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_s_accessViolationType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "s_accessViolationType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::Type*>(value));
+inline void System::Data::Common::ADP::setStaticF_s_accessViolationType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "s_accessViolationType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(
+      std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Data::Common::ADP::getStaticF_s_accessViolationType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "s_accessViolationType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::System::Type* System::Data::Common::ADP::getStaticF_s_accessViolationType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "s_accessViolationType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_s_securityType(::System::Type*  value)  {
-::cordl_internals::setStaticField<::System::Type*, "s_securityType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::Type*>(value));
+inline void System::Data::Common::ADP::setStaticF_s_securityType(::System::Type* value) {
+  ::cordl_internals::setStaticField<::System::Type*, "s_securityType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::Type*>(value));
 }
-inline ::System::Type* System::Data::Common::ADP::getStaticF_s_securityType()  {
-return ::cordl_internals::getStaticField<::System::Type*, "s_securityType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::System::Type* System::Data::Common::ADP::getStaticF_s_securityType() {
+  return ::cordl_internals::getStaticField<::System::Type*, "s_securityType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_StrEmpty(::StringW  value)  {
-::cordl_internals::setStaticField<::StringW, "StrEmpty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::StringW>(value));
+inline void System::Data::Common::ADP::setStaticF_StrEmpty(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "StrEmpty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::StringW>(value));
 }
-inline ::StringW System::Data::Common::ADP::getStaticF_StrEmpty()  {
-return ::cordl_internals::getStaticField<::StringW, "StrEmpty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::StringW System::Data::Common::ADP::getStaticF_StrEmpty() {
+  return ::cordl_internals::getStaticField<::StringW, "StrEmpty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_AzureSqlServerEndpoints(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "AzureSqlServerEndpoints", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::ArrayW<::StringW,::Array<::StringW>*>>(value));
+inline void System::Data::Common::ADP::setStaticF_AzureSqlServerEndpoints(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "AzureSqlServerEndpoints", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(
+      std::forward<::ArrayW<::StringW, ::Array<::StringW>*>>(value));
 }
-inline ::ArrayW<::StringW,::Array<::StringW>*> System::Data::Common::ADP::getStaticF_AzureSqlServerEndpoints()  {
-return ::cordl_internals::getStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "AzureSqlServerEndpoints", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Data::Common::ADP::getStaticF_AzureSqlServerEndpoints() {
+  return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "AzureSqlServerEndpoints",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_PtrZero(::System::IntPtr  value)  {
-::cordl_internals::setStaticField<::System::IntPtr, "PtrZero", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::IntPtr>(value));
+inline void System::Data::Common::ADP::setStaticF_PtrZero(::System::IntPtr value) {
+  ::cordl_internals::setStaticField<::System::IntPtr, "PtrZero", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<::System::IntPtr>(value));
 }
-inline ::System::IntPtr System::Data::Common::ADP::getStaticF_PtrZero()  {
-return ::cordl_internals::getStaticField<::System::IntPtr, "PtrZero", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline ::System::IntPtr System::Data::Common::ADP::getStaticF_PtrZero() {
+  return ::cordl_internals::getStaticField<::System::IntPtr, "PtrZero", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::setStaticF_PtrSize(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "PtrSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<int32_t>(value));
+inline void System::Data::Common::ADP::setStaticF_PtrSize(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "PtrSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t System::Data::Common::ADP::getStaticF_PtrSize()  {
-return ::cordl_internals::getStaticField<int32_t, "PtrSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
+inline int32_t System::Data::Common::ADP::getStaticF_PtrSize() {
+  return ::cordl_internals::getStaticField<int32_t, "PtrSize", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get>();
 }
-inline void System::Data::Common::ADP::TraceException(::StringW  trace, ::System::Exception*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "TraceException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, trace, e);
+inline void System::Data::Common::ADP::TraceException(::StringW trace, ::System::Exception* e) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "TraceException", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, trace, e);
 }
-inline void System::Data::Common::ADP::TraceExceptionAsReturnValue(::System::Exception*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "TraceExceptionAsReturnValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, e);
+inline void System::Data::Common::ADP::TraceExceptionAsReturnValue(::System::Exception* e) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "TraceExceptionAsReturnValue", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, e);
 }
-inline void System::Data::Common::ADP::TraceExceptionWithoutRethrow(::System::Exception*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "TraceExceptionWithoutRethrow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, e);
+inline void System::Data::Common::ADP::TraceExceptionWithoutRethrow(::System::Exception* e) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "TraceExceptionWithoutRethrow", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, e);
 }
-inline ::System::ArgumentException* System::Data::Common::ADP::Argument(::StringW  error)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "Argument",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ArgumentException*, false>(nullptr, ___internal_method, error);
+inline ::System::ArgumentException* System::Data::Common::ADP::Argument(::StringW error) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "Argument", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ArgumentException*, false>(nullptr, ___internal_method, error);
 }
-inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::ArgumentOutOfRange(::StringW  parameterName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "ArgumentOutOfRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, parameterName);
+inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::ArgumentOutOfRange(::StringW parameterName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "ArgumentOutOfRange", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, parameterName);
 }
-inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::ArgumentOutOfRange(::StringW  message, ::StringW  parameterName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "ArgumentOutOfRange",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, message, parameterName);
+inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::ArgumentOutOfRange(::StringW message, ::StringW parameterName) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "ArgumentOutOfRange", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, message, parameterName);
 }
-inline ::System::InvalidOperationException* System::Data::Common::ADP::InvalidOperation(::StringW  error)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidOperation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::InvalidOperationException*, false>(nullptr, ___internal_method, error);
+inline ::System::InvalidOperationException* System::Data::Common::ADP::InvalidOperation(::StringW error) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidOperation", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::InvalidOperationException*, false>(nullptr, ___internal_method, error);
 }
-inline ::System::NotSupportedException* System::Data::Common::ADP::NotSupported(::StringW  error)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "NotSupported",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::NotSupportedException*, false>(nullptr, ___internal_method, error);
+inline ::System::NotSupportedException* System::Data::Common::ADP::NotSupported(::StringW error) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "NotSupported", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::NotSupportedException*, false>(nullptr, ___internal_method, error);
 }
-inline bool System::Data::Common::ADP::IsCatchableExceptionType(::System::Exception*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "IsCatchableExceptionType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, e);
+inline bool System::Data::Common::ADP::IsCatchableExceptionType(::System::Exception* e) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "IsCatchableExceptionType", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, e);
 }
-inline bool System::Data::Common::ADP::IsCatchableOrSecurityExceptionType(::System::Exception*  e)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "IsCatchableOrSecurityExceptionType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, e);
+inline bool System::Data::Common::ADP::IsCatchableOrSecurityExceptionType(::System::Exception* e) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "IsCatchableOrSecurityExceptionType",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, e);
 }
-inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidEnumerationValue(::System::Type*  type, int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidEnumerationValue",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, type, value);
+inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidEnumerationValue(::System::Type* type, int32_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidEnumerationValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, type, value);
 }
-inline ::System::Exception* System::Data::Common::ADP::InvalidSeekOrigin(::StringW  parameterName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidSeekOrigin",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, parameterName);
+inline ::System::Exception* System::Data::Common::ADP::InvalidSeekOrigin(::StringW parameterName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidSeekOrigin", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, parameterName);
 }
-inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidAcceptRejectRule(::System::Data::AcceptRejectRule  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidAcceptRejectRule",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::AcceptRejectRule>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, value);
+inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidAcceptRejectRule(::System::Data::AcceptRejectRule value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidAcceptRejectRule", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::AcceptRejectRule>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, value);
 }
-inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidMissingSchemaAction(::System::Data::MissingSchemaAction  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidMissingSchemaAction",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::MissingSchemaAction>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, value);
+inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidMissingSchemaAction(::System::Data::MissingSchemaAction value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidMissingSchemaAction", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::MissingSchemaAction>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, value);
 }
-inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidRule(::System::Data::Rule  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "InvalidRule",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Rule>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, value);
+inline ::System::ArgumentOutOfRangeException* System::Data::Common::ADP::InvalidRule(::System::Data::Rule value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "InvalidRule", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Rule>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*, false>(nullptr, ___internal_method, value);
 }
-inline ::System::Exception* System::Data::Common::ADP::WrongType(::System::Type*  got, ::System::Type*  expected)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(),
-                        "WrongType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, got, expected);
+inline ::System::Exception* System::Data::Common::ADP::WrongType(::System::Type* got, ::System::Type* expected) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ADP*>::get(), "WrongType", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, got, expected);
 }
 // Ctor Parameters []
-constexpr ::System::Data::Common::ADP::ADP()   {
-}
+constexpr ::System::Data::Common::ADP::ADP() {}

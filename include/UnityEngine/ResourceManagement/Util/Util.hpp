@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/AsyncOpHandlesCacheKey.hpp"
 #include "UnityEngine/ResourceManagement/Util/BinaryStorageBuffer.hpp"
@@ -29,6 +29,5 @@
 #include "UnityEngine/ResourceManagement/Util/UnityWebRequestResult.hpp"
 #include "UnityEngine/ResourceManagement/Util/UnityWebRequestUtilities.hpp"
 #ifdef __cpp_modules
-                    export module Util;
-                    #endif
-                
+export module Util;
+#endif

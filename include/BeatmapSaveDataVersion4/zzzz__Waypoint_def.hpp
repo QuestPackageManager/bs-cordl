@@ -19,30 +19,31 @@ namespace BeatmapSaveDataVersion4 {
 // CS Name: BeatmapSaveDataVersion4.Waypoint
 struct CORDL_TYPE Waypoint {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Waypoint() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Waypoint();
 
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "o", ty: "::BeatmapSaveDataCommon::OffsetDirection", modifiers: "", def_value: None }]
-constexpr Waypoint(int32_t  x, int32_t  y, ::BeatmapSaveDataCommon::OffsetDirection  o) noexcept;
+  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "o", ty:
+  // "::BeatmapSaveDataCommon::OffsetDirection", modifiers: "", def_value: None }]
+  constexpr Waypoint(int32_t x, int32_t y, ::BeatmapSaveDataCommon::OffsetDirection o) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15310};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15315 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
-/// @brief Field x, offset: 0x0, size: 0x4, def value: None
- int32_t  x;
+  /// @brief Field x, offset: 0x0, size: 0x4, def value: None
+  int32_t x;
 
-/// @brief Field y, offset: 0x4, size: 0x4, def value: None
- int32_t  y;
+  /// @brief Field y, offset: 0x4, size: 0x4, def value: None
+  int32_t y;
 
-/// @brief Field o, offset: 0x8, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::OffsetDirection  o;
+  /// @brief Field o, offset: 0x8, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::OffsetDirection o;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion4::Waypoint, x) == 0x0, "Offset mismatch!");
@@ -53,5 +54,5 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::Waypoint, o) == 0x8, "Offset m
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::Waypoint, 0xc>, "Size mismatch!");
 
-} // namespace end def BeatmapSaveDataVersion4
+} // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::Waypoint, "BeatmapSaveDataVersion4", "Waypoint");

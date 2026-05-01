@@ -24,511 +24,487 @@
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager_InitData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager_InitData::*)(bool, bool, float_t, float_t)>(&::GlobalNamespace::BasicBeatmapObjectManager_InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager_InitData::*)(bool, bool, float_t, float_t)>(
+    &::GlobalNamespace::BasicBeatmapObjectManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x57160f4;
+  constexpr static std::size_t addrs = 0x578599c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_disappearingArrows()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___disappearingArrows;
+constexpr bool& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_disappearingArrows() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___disappearingArrows;
 }
 constexpr bool const& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_disappearingArrows() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___disappearingArrows;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___disappearingArrows;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_disappearingArrows(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___disappearingArrows = value;
+constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_disappearingArrows(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___disappearingArrows = value;
 }
-constexpr bool& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_ghostNotes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ghostNotes;
+constexpr bool& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_ghostNotes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ghostNotes;
 }
 constexpr bool const& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_ghostNotes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ghostNotes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ghostNotes;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_ghostNotes(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___ghostNotes = value;
+constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_ghostNotes(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___ghostNotes = value;
 }
-constexpr float_t& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_cutAngleTolerance()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cutAngleTolerance;
+constexpr float_t& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_cutAngleTolerance() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cutAngleTolerance;
 }
 constexpr float_t const& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_cutAngleTolerance() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___cutAngleTolerance;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cutAngleTolerance;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_cutAngleTolerance(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___cutAngleTolerance = value;
+constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_cutAngleTolerance(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___cutAngleTolerance = value;
 }
-constexpr float_t& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_notesUniformScale()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___notesUniformScale;
+constexpr float_t& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_notesUniformScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___notesUniformScale;
 }
 constexpr float_t const& GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_get_notesUniformScale() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___notesUniformScale;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___notesUniformScale;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_notesUniformScale(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___notesUniformScale = value;
+constexpr void GlobalNamespace::BasicBeatmapObjectManager_InitData::__cordl_internal_set_notesUniformScale(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___notesUniformScale = value;
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager_InitData::_ctor(bool  disappearingArrows, bool  ghostNotes, float_t  cutAngleTolerance, float_t  notesUniformScale)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disappearingArrows, ghostNotes, cutAngleTolerance, notesUniformScale);
+inline void GlobalNamespace::BasicBeatmapObjectManager_InitData::_ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disappearingArrows, ghostNotes, cutAngleTolerance, notesUniformScale);
 }
-inline ::GlobalNamespace::BasicBeatmapObjectManager_InitData* GlobalNamespace::BasicBeatmapObjectManager_InitData::New_ctor(bool  disappearingArrows, bool  ghostNotes, float_t  cutAngleTolerance, float_t  notesUniformScale)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>(disappearingArrows, ghostNotes, cutAngleTolerance, notesUniformScale));
+inline ::GlobalNamespace::BasicBeatmapObjectManager_InitData* GlobalNamespace::BasicBeatmapObjectManager_InitData::New_ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance,
+                                                                                                                            float_t notesUniformScale) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>(disappearingArrows, ghostNotes, cutAngleTolerance, notesUniformScale));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BasicBeatmapObjectManager_InitData::BasicBeatmapObjectManager_InitData()   {
-}
+constexpr ::GlobalNamespace::BasicBeatmapObjectManager_InitData::BasicBeatmapObjectManager_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.get_activeObstacleControllers
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::get_activeObstacleControllers)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* (
+    ::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::get_activeObstacleControllers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5715080;
+  constexpr static std::size_t addrs = 0x5784928;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::BasicBeatmapObjectManager_InitData*, ::GlobalNamespace::IRandom*, ::GlobalNamespace::DeterminismConfig*, ::GlobalNamespace::VariableMovementDataProvider*, ::GlobalNamespace::GameNoteController_Pool*, ::GlobalNamespace::GameNoteController_Pool*, ::GlobalNamespace::BurstSliderGameNoteController_Pool*, ::GlobalNamespace::BombNoteController_Pool*, ::GlobalNamespace::ObstacleController_Pool*, ::GlobalNamespace::SliderController_Pool*)>(&::GlobalNamespace::BasicBeatmapObjectManager::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(
+    ::GlobalNamespace::BasicBeatmapObjectManager_InitData*, ::GlobalNamespace::IRandom*, ::GlobalNamespace::DeterminismConfig*, ::GlobalNamespace::VariableMovementDataProvider*,
+    ::GlobalNamespace::GameNoteController_Pool*, ::GlobalNamespace::GameNoteController_Pool*, ::GlobalNamespace::BurstSliderGameNoteController_Pool*, ::GlobalNamespace::BombNoteController_Pool*,
+    ::GlobalNamespace::ObstacleController_Pool*, ::GlobalNamespace::SliderController_Pool*)>(&::GlobalNamespace::BasicBeatmapObjectManager::Init)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x57150d4;
+  constexpr static std::size_t addrs = 0x578497c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 10>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DeterminismConfig*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VariableMovementDataProvider*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BurstSliderGameNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BombNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderController_Pool*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DeterminismConfig*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VariableMovementDataProvider*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BurstSliderGameNoteController_Pool*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BombNoteController_Pool*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleController_Pool*>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderController_Pool*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.ProcessObstacleData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::ObstacleData*, ::ByRef<::GlobalNamespace::ObstacleSpawnData>)>(&::GlobalNamespace::BasicBeatmapObjectManager::ProcessObstacleData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(
+    ::GlobalNamespace::ObstacleData*, ::ByRef<::GlobalNamespace::ObstacleSpawnData>)>(&::GlobalNamespace::BasicBeatmapObjectManager::ProcessObstacleData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5715678;
+  constexpr static std::size_t addrs = 0x5784f20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.DespawnInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(&::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
+    &::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5715728;
+  constexpr static std::size_t addrs = 0x5784fd0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                  20
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 20));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.ProcessNoteData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, bool)>(&::GlobalNamespace::BasicBeatmapObjectManager::ProcessNoteData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(
+    ::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, bool)>(&::GlobalNamespace::BasicBeatmapObjectManager::ProcessNoteData)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x571578c;
+  constexpr static std::size_t addrs = 0x5785034;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 17));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.DespawnInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(&::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
+    &::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5715a80;
+  constexpr static std::size_t addrs = 0x5785328;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 19));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.ProcessSliderData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::SliderData*, ::ByRef<::GlobalNamespace::SliderSpawnData>)>(&::GlobalNamespace::BasicBeatmapObjectManager::ProcessSliderData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(
+    ::GlobalNamespace::SliderData*, ::ByRef<::GlobalNamespace::SliderSpawnData>)>(&::GlobalNamespace::BasicBeatmapObjectManager::ProcessSliderData)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5715c88;
+  constexpr static std::size_t addrs = 0x5785530;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 18));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.DespawnInternal
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(&::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
+    &::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5715ec4;
+  constexpr static std::size_t addrs = 0x578576c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                                  21
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 21));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.__InvalidateGameNotePools
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::__InvalidateGameNotePools)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(
+    &::GlobalNamespace::BasicBeatmapObjectManager::__InvalidateGameNotePools)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5715f74;
+  constexpr static std::size_t addrs = 0x578581c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        "__InvalidateGameNotePools",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                               "__InvalidateGameNotePools", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager.__InvalidateBombNotePool
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::__InvalidateBombNotePool)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(
+    &::GlobalNamespace::BasicBeatmapObjectManager::__InvalidateBombNotePool)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x571604c;
+  constexpr static std::size_t addrs = 0x57858f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        "__InvalidateBombNotePool",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                               "__InvalidateBombNotePool", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapObjectManager._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57160ec;
+  constexpr static std::size_t addrs = 0x5785994;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::SliderController_Pool*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__sliderControllerPool()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sliderControllerPool;
+constexpr ::GlobalNamespace::SliderController_Pool*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__sliderControllerPool() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sliderControllerPool;
 }
 constexpr ::GlobalNamespace::SliderController_Pool* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__sliderControllerPool() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sliderControllerPool;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sliderControllerPool;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__sliderControllerPool(::GlobalNamespace::SliderController_Pool*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderControllerPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__sliderControllerPool(::GlobalNamespace::SliderController_Pool* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderControllerPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::VariableMovementDataProvider*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__variableMovementDataProvider()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____variableMovementDataProvider;
+constexpr ::GlobalNamespace::VariableMovementDataProvider*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__variableMovementDataProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____variableMovementDataProvider;
 }
 constexpr ::GlobalNamespace::VariableMovementDataProvider* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__variableMovementDataProvider() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____variableMovementDataProvider;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____variableMovementDataProvider;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variableMovementDataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variableMovementDataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BasicBeatmapObjectManager_InitData*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__initData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____initData;
+constexpr ::GlobalNamespace::BasicBeatmapObjectManager_InitData*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__initData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____initData;
 }
 constexpr ::GlobalNamespace::BasicBeatmapObjectManager_InitData* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__initData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____initData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____initData;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__initData(::GlobalNamespace::BasicBeatmapObjectManager_InitData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__initData(::GlobalNamespace::BasicBeatmapObjectManager_InitData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__random()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____random;
+constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__random() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
 }
 constexpr ::GlobalNamespace::IRandom* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__random() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____random;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__random(::GlobalNamespace::IRandom*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__random(::GlobalNamespace::IRandom* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::DeterminismConfig*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__determinismConfig()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____determinismConfig;
+constexpr ::GlobalNamespace::DeterminismConfig*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__determinismConfig() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____determinismConfig;
 }
 constexpr ::GlobalNamespace::DeterminismConfig* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__determinismConfig() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____determinismConfig;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____determinismConfig;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____determinismConfig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____determinismConfig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__basicGameNotePoolContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____basicGameNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__basicGameNotePoolContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____basicGameNotePoolContainer;
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__basicGameNotePoolContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____basicGameNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* const&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__basicGameNotePoolContainer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____basicGameNotePoolContainer;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__basicGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____basicGameNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__basicGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____basicGameNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderHeadGameNotePoolContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____burstSliderHeadGameNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderHeadGameNotePoolContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____burstSliderHeadGameNotePoolContainer;
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderHeadGameNotePoolContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____burstSliderHeadGameNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* const&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderHeadGameNotePoolContainer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____burstSliderHeadGameNotePoolContainer;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__burstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderHeadGameNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__burstSliderHeadGameNotePoolContainer(
+    ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderHeadGameNotePoolContainer)),
+                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderGameNotePoolContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____burstSliderGameNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderGameNotePoolContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____burstSliderGameNotePoolContainer;
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderGameNotePoolContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____burstSliderGameNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* const&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__burstSliderGameNotePoolContainer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____burstSliderGameNotePoolContainer;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__burstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderGameNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__burstSliderGameNotePoolContainer(
+    ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderGameNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__bombNotePoolContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bombNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__bombNotePoolContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bombNotePoolContainer;
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__bombNotePoolContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bombNotePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* const&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__bombNotePoolContainer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bombNotePoolContainer;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__obstaclePoolContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____obstaclePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__obstaclePoolContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____obstaclePoolContainer;
 }
-constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__obstaclePoolContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____obstaclePoolContainer;
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* const&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__obstaclePoolContainer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____obstaclePoolContainer;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstaclePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstaclePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController_LengthType,::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>*& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__sliderNotePoolContainersDictionary()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sliderNotePoolContainersDictionary;
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController_LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>*&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__sliderNotePoolContainersDictionary() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sliderNotePoolContainersDictionary;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController_LengthType,::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>* const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__sliderNotePoolContainersDictionary() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____sliderNotePoolContainersDictionary;
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController_LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>* const&
+GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__sliderNotePoolContainersDictionary() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sliderNotePoolContainersDictionary;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__sliderNotePoolContainersDictionary(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController_LengthType,::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderNotePoolContainersDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__sliderNotePoolContainersDictionary(
+    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController_LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderNotePoolContainersDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Nullable_1<float_t>& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__firstBasicNoteTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____firstBasicNoteTime;
+constexpr ::System::Nullable_1<float_t>& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__firstBasicNoteTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____firstBasicNoteTime;
 }
 constexpr ::System::Nullable_1<float_t> const& GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_get__firstBasicNoteTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____firstBasicNoteTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____firstBasicNoteTime;
 }
-constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__firstBasicNoteTime(::System::Nullable_1<float_t>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____firstBasicNoteTime = value;
+constexpr void GlobalNamespace::BasicBeatmapObjectManager::__cordl_internal_set__firstBasicNoteTime(::System::Nullable_1<float_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____firstBasicNoteTime = value;
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* GlobalNamespace::BasicBeatmapObjectManager::get_activeObstacleControllers()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* GlobalNamespace::BasicBeatmapObjectManager::get_activeObstacleControllers() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::Init(::GlobalNamespace::BasicBeatmapObjectManager_InitData*  initData, ::GlobalNamespace::IRandom*  random, ::GlobalNamespace::DeterminismConfig*  determinismConfig, ::GlobalNamespace::VariableMovementDataProvider*  variableMovementDataProvider, ::GlobalNamespace::GameNoteController_Pool*  basicGameNotePool, ::GlobalNamespace::GameNoteController_Pool*  burstSliderHeadGameNotePool, ::GlobalNamespace::BurstSliderGameNoteController_Pool*  burstSliderGameNotePool, ::GlobalNamespace::BombNoteController_Pool*  bombNotePool, ::GlobalNamespace::ObstacleController_Pool*  obstaclePool, ::GlobalNamespace::SliderController_Pool*  sliderPools)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 10>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DeterminismConfig*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VariableMovementDataProvider*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BurstSliderGameNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BombNoteController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleController_Pool*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderController_Pool*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initData, random, determinismConfig, variableMovementDataProvider, basicGameNotePool, burstSliderHeadGameNotePool, burstSliderGameNotePool, bombNotePool, obstaclePool, sliderPools);
+inline void GlobalNamespace::BasicBeatmapObjectManager::Init(::GlobalNamespace::BasicBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IRandom* random,
+                                                             ::GlobalNamespace::DeterminismConfig* determinismConfig, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
+                                                             ::GlobalNamespace::GameNoteController_Pool* basicGameNotePool, ::GlobalNamespace::GameNoteController_Pool* burstSliderHeadGameNotePool,
+                                                             ::GlobalNamespace::BurstSliderGameNoteController_Pool* burstSliderGameNotePool, ::GlobalNamespace::BombNoteController_Pool* bombNotePool,
+                                                             ::GlobalNamespace::ObstacleController_Pool* obstaclePool, ::GlobalNamespace::SliderController_Pool* sliderPools) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapObjectManager_InitData*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DeterminismConfig*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VariableMovementDataProvider*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameNoteController_Pool*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BurstSliderGameNoteController_Pool*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BombNoteController_Pool*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleController_Pool*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderController_Pool*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initData, random, determinismConfig, variableMovementDataProvider, basicGameNotePool, burstSliderHeadGameNotePool,
+                                                          burstSliderGameNotePool, bombNotePool, obstaclePool, sliderPools);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessObstacleData(::GlobalNamespace::ObstacleData*  obstacleData, ::ByRef<::GlobalNamespace::ObstacleSpawnData>  obstacleSpawnData)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleData, obstacleSpawnData);
+inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::ByRef<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleData, obstacleSpawnData);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::GlobalNamespace::ObstacleController*  obstacleController)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                            20
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleController);
+inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 20)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleController);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData*  noteData, ::ByRef<::GlobalNamespace::NoteSpawnData>  noteSpawnData, bool  forceIsFirstNoteBehaviour)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNoteBehaviour);
+inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+                                                                        bool forceIsFirstNoteBehaviour) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 17)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNoteBehaviour);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::GlobalNamespace::NoteController*  noteController)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController);
+inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::GlobalNamespace::NoteController* noteController) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 19)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessSliderData(::GlobalNamespace::SliderData*  sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData>  sliderSpawnData)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderData, sliderSpawnData);
+inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 18)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderData, sliderSpawnData);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::GlobalNamespace::SliderController*  sliderNoteController)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                            21
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderNoteController);
+inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), 21)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderNoteController);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::__InvalidateGameNotePools()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        "__InvalidateGameNotePools",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BasicBeatmapObjectManager::__InvalidateGameNotePools() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                             "__InvalidateGameNotePools", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::__InvalidateBombNotePool()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        "__InvalidateBombNotePool",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BasicBeatmapObjectManager::__InvalidateBombNotePool() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
+                                                                             "__InvalidateBombNotePool", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BasicBeatmapObjectManager::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapObjectManager*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BasicBeatmapObjectManager* GlobalNamespace::BasicBeatmapObjectManager::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicBeatmapObjectManager*>());
+inline ::GlobalNamespace::BasicBeatmapObjectManager* GlobalNamespace::BasicBeatmapObjectManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicBeatmapObjectManager*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BasicBeatmapObjectManager::BasicBeatmapObjectManager()   {
-}
+constexpr ::GlobalNamespace::BasicBeatmapObjectManager::BasicBeatmapObjectManager() {}

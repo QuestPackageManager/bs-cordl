@@ -5,136 +5,107 @@
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PathsHolder.get_bezierPath
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BezierPath* (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::get_bezierPath)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BezierPath* (::GlobalNamespace::PathsHolder::*)()>(
+    &::GlobalNamespace::PathsHolder::get_bezierPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5770a74;
+  constexpr static std::size_t addrs = 0x57e0b20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        "get_bezierPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), "get_bezierPath",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PathsHolder.get_vertexPath
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VertexPath* (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::get_vertexPath)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VertexPath* (::GlobalNamespace::PathsHolder::*)()>(
+    &::GlobalNamespace::PathsHolder::get_vertexPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5770a7c;
+  constexpr static std::size_t addrs = 0x57e0b28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        "get_vertexPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), "get_vertexPath",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PathsHolder._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PathsHolder::*)(int32_t, bool)>(&::GlobalNamespace::PathsHolder::_ctor)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5770a84;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x57e0b30;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PathsHolder.UpdateVertexPathByBezierPath
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5771110;
+  constexpr static std::size_t addrs = 0x57e11b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        "UpdateVertexPathByBezierPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                                                                               "UpdateVertexPathByBezierPath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BezierPath*& GlobalNamespace::PathsHolder::__cordl_internal_get__bezierPath()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bezierPath;
+constexpr ::GlobalNamespace::BezierPath*& GlobalNamespace::PathsHolder::__cordl_internal_get__bezierPath() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bezierPath;
 }
 constexpr ::GlobalNamespace::BezierPath* const& GlobalNamespace::PathsHolder::__cordl_internal_get__bezierPath() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bezierPath;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bezierPath;
 }
-constexpr void GlobalNamespace::PathsHolder::__cordl_internal_set__bezierPath(::GlobalNamespace::BezierPath*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bezierPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PathsHolder::__cordl_internal_set__bezierPath(::GlobalNamespace::BezierPath* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bezierPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::VertexPath*& GlobalNamespace::PathsHolder::__cordl_internal_get__vertexPath()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____vertexPath;
+constexpr ::GlobalNamespace::VertexPath*& GlobalNamespace::PathsHolder::__cordl_internal_get__vertexPath() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vertexPath;
 }
 constexpr ::GlobalNamespace::VertexPath* const& GlobalNamespace::PathsHolder::__cordl_internal_get__vertexPath() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____vertexPath;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vertexPath;
 }
-constexpr void GlobalNamespace::PathsHolder::__cordl_internal_set__vertexPath(::GlobalNamespace::VertexPath*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vertexPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PathsHolder::__cordl_internal_set__vertexPath(::GlobalNamespace::VertexPath* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vertexPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::BezierPath* GlobalNamespace::PathsHolder::get_bezierPath()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        "get_bezierPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BezierPath*, false>(this, ___internal_method);
+inline ::GlobalNamespace::BezierPath* GlobalNamespace::PathsHolder::get_bezierPath() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), "get_bezierPath",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BezierPath*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::VertexPath* GlobalNamespace::PathsHolder::get_vertexPath()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        "get_vertexPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::VertexPath*, false>(this, ___internal_method);
+inline ::GlobalNamespace::VertexPath* GlobalNamespace::PathsHolder::get_vertexPath() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), "get_vertexPath",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::VertexPath*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PathsHolder::_ctor(int32_t  numberOfFixedVertexPathSegments, bool  updateVertexPath)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, numberOfFixedVertexPathSegments, updateVertexPath);
+inline void GlobalNamespace::PathsHolder::_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, numberOfFixedVertexPathSegments, updateVertexPath);
 }
-inline void GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
-                        "UpdateVertexPathByBezierPath",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
+                                                                             "UpdateVertexPathByBezierPath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PathsHolder* GlobalNamespace::PathsHolder::New_ctor(int32_t  numberOfFixedVertexPathSegments, bool  updateVertexPath)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PathsHolder*>(numberOfFixedVertexPathSegments, updateVertexPath));
+inline ::GlobalNamespace::PathsHolder* GlobalNamespace::PathsHolder::New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PathsHolder*>(numberOfFixedVertexPathSegments, updateVertexPath));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PathsHolder::PathsHolder()   {
-}
+constexpr ::GlobalNamespace::PathsHolder::PathsHolder() {}

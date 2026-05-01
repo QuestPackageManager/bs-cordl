@@ -24,32 +24,32 @@ namespace UnityEngine::InputSystem::Utilities {
 // CS Name: UnityEngine.InputSystem.Utilities.SpriteUtilities
 class CORDL_TYPE SpriteUtilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CreateCircleSprite, addr 0x6352c2c, size 0x1c8, virtual false, abstract: false, final false
-static inline ::UnityW<::UnityEngine::Sprite> CreateCircleSprite(int32_t  radius, ::UnityEngine::Color32  colour) ;
+  // Declarations
+  /// @brief Method CreateCircleSprite, addr 0x63c4c38, size 0x1c8, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Sprite> CreateCircleSprite(int32_t radius, ::UnityEngine::Color32 colour);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SpriteUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpriteUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SpriteUtilities(SpriteUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SpriteUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SpriteUtilities(SpriteUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SpriteUtilities(SpriteUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SpriteUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SpriteUtilities(SpriteUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9188 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9182};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::SpriteUtilities, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::Utilities
+} // namespace UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::SpriteUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::SpriteUtilities*, "UnityEngine.InputSystem.Utilities", "SpriteUtilities");

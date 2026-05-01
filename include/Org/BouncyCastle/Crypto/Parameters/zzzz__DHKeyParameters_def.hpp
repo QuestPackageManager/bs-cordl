@@ -27,78 +27,79 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // CS Name: Org.BouncyCastle.Crypto.Parameters.DHKeyParameters
 class CORDL_TYPE DHKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmOid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  AlgorithmOid;
+  // Declarations
+  __declspec(property(get = get_AlgorithmOid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* AlgorithmOid;
 
- __declspec(property(get=get_Parameters)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  Parameters;
+  __declspec(property(get = get_Parameters)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* Parameters;
 
-/// @brief Field algorithmOid, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_algorithmOid, put=__cordl_internal_set_algorithmOid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  algorithmOid;
+  /// @brief Field algorithmOid, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_algorithmOid, put = __cordl_internal_set_algorithmOid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid;
 
-/// @brief Field parameters, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_parameters, put=__cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  parameters;
+  /// @brief Field parameters, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters;
 
-/// @brief Method Equals, addr 0x3311d98, size 0xac, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x334e3dc, size 0xac, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method Equals, addr 0x3311e44, size 0x6c, virtual false, abstract: false, final false
-inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*  other) ;
+  /// @brief Method Equals, addr 0x334e488, size 0x6c, virtual false, abstract: false, final false
+  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* other);
 
-/// @brief Method GetHashCode, addr 0x3311eb0, size 0x4c, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x334e4f4, size 0x4c, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool  isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  parameters) ;
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool  isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  algorithmOid) ;
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters,
+                                                                                   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_algorithmOid() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_algorithmOid() const;
 
-constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_algorithmOid() ;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_algorithmOid();
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters* const& __cordl_internal_get_parameters() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters* const& __cordl_internal_get_parameters() const;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __cordl_internal_get_parameters() ;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __cordl_internal_get_parameters();
 
-constexpr void __cordl_internal_set_algorithmOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
+  constexpr void __cordl_internal_set_algorithmOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters*  value) ;
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
 
-/// @brief Method .ctor, addr 0x3311d00, size 0x7c, virtual false, abstract: false, final false
-inline void _ctor(bool  isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  parameters) ;
+  /// @brief Method .ctor, addr 0x334e344, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-/// @brief Method .ctor, addr 0x3311d7c, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(bool  isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  algorithmOid) ;
+  /// @brief Method .ctor, addr 0x334e3c0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-/// @brief Method get_AlgorithmOid, addr 0x3311d90, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AlgorithmOid() ;
+  /// @brief Method get_AlgorithmOid, addr 0x334e3d4, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AlgorithmOid();
 
-/// @brief Method get_Parameters, addr 0x3311d88, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters() ;
+  /// @brief Method get_Parameters, addr 0x334e3cc, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DHKeyParameters() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DHKeyParameters();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DHKeyParameters", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DHKeyParameters(DHKeyParameters&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DHKeyParameters", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DHKeyParameters(DHKeyParameters && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DHKeyParameters", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DHKeyParameters(DHKeyParameters const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DHKeyParameters", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DHKeyParameters(DHKeyParameters const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1021 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1021};
+  /// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ___parameters;
 
-/// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  ___parameters;
+  /// @brief Field algorithmOid, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___algorithmOid;
 
-/// @brief Field algorithmOid, offset: 0x20, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___algorithmOid;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters, ___parameters) == 0x18, "Offset mismatch!");
@@ -107,6 +108,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters,
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters, 0x28>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Parameters
+} // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHKeyParameters");

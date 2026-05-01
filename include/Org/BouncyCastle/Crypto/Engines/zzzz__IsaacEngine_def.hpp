@@ -25,184 +25,184 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.IsaacEngine
 class CORDL_TYPE IsaacEngine : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-/// @brief Field a, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_a, put=__cordl_internal_set_a)) uint32_t  a;
+  /// @brief Field a, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) uint32_t a;
 
-/// @brief Field b, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get_b, put=__cordl_internal_set_b)) uint32_t  b;
+  /// @brief Field b, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) uint32_t b;
 
-/// @brief Field c, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get_c, put=__cordl_internal_set_c)) uint32_t  c;
+  /// @brief Field c, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) uint32_t c;
 
-/// @brief Field engineState, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_engineState, put=__cordl_internal_set_engineState)) ::ArrayW<uint32_t,::Array<uint32_t>*>  engineState;
+  /// @brief Field engineState, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_engineState, put = __cordl_internal_set_engineState)) ::ArrayW<uint32_t, ::Array<uint32_t>*> engineState;
 
-/// @brief Field index, offset 0x2c, size 0x4 
- __declspec(property(get=__cordl_internal_get_index, put=__cordl_internal_set_index)) int32_t  index;
+  /// @brief Field index, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
-/// @brief Field initialised, offset 0x40, size 0x1 
- __declspec(property(get=__cordl_internal_get_initialised, put=__cordl_internal_set_initialised)) bool  initialised;
+  /// @brief Field initialised, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
 
-/// @brief Field keyStream, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_keyStream, put=__cordl_internal_set_keyStream)) ::ArrayW<uint8_t,::Array<uint8_t>*>  keyStream;
+  /// @brief Field keyStream, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyStream, put = __cordl_internal_set_keyStream)) ::ArrayW<uint8_t, ::Array<uint8_t>*> keyStream;
 
-/// @brief Field results, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_results, put=__cordl_internal_set_results)) ::ArrayW<uint32_t,::Array<uint32_t>*>  results;
+  /// @brief Field results, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_results, put = __cordl_internal_set_results)) ::ArrayW<uint32_t, ::Array<uint32_t>*> results;
 
-/// @brief Field sizeL, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_sizeL, put=setStaticF_sizeL)) int32_t  sizeL;
+  /// @brief Field sizeL, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_sizeL, put = setStaticF_sizeL)) int32_t sizeL;
 
-/// @brief Field stateArraySize, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_stateArraySize, put=setStaticF_stateArraySize)) int32_t  stateArraySize;
+  /// @brief Field stateArraySize, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_stateArraySize, put = setStaticF_stateArraySize)) int32_t stateArraySize;
 
-/// @brief Field workingKey, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_workingKey, put=__cordl_internal_set_workingKey)) ::ArrayW<uint8_t,::Array<uint8_t>*>  workingKey;
+  /// @brief Field workingKey, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
-constexpr operator  ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-/// @brief Method Init, addr 0x32b990c, size 0x11c, virtual true, abstract: false, final false
-inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
+  /// @brief Method Init, addr 0x32f5f50, size 0x11c, virtual true, abstract: false, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-static inline ::Org::BouncyCastle::Crypto::Engines::IsaacEngine* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::IsaacEngine* New_ctor();
 
-/// @brief Method ProcessBytes, addr 0x32ba000, size 0x1f8, virtual true, abstract: false, final false
-inline void ProcessBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  len, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
+  /// @brief Method ProcessBytes, addr 0x32f6644, size 0x1f8, virtual true, abstract: false, final false
+  inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-/// @brief Method Reset, addr 0x32ba23c, size 0x8, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x32f6880, size 0x8, virtual true, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method ReturnByte, addr 0x32b9e20, size 0x78, virtual true, abstract: false, final false
-inline uint8_t ReturnByte(uint8_t  input) ;
+  /// @brief Method ReturnByte, addr 0x32f6464, size 0x78, virtual true, abstract: false, final false
+  inline uint8_t ReturnByte(uint8_t input);
 
-constexpr uint32_t const& __cordl_internal_get_a() const;
+  constexpr uint32_t const& __cordl_internal_get_a() const;
 
-constexpr uint32_t& __cordl_internal_get_a() ;
+  constexpr uint32_t& __cordl_internal_get_a();
 
-constexpr uint32_t const& __cordl_internal_get_b() const;
+  constexpr uint32_t const& __cordl_internal_get_b() const;
 
-constexpr uint32_t& __cordl_internal_get_b() ;
+  constexpr uint32_t& __cordl_internal_get_b();
 
-constexpr uint32_t const& __cordl_internal_get_c() const;
+  constexpr uint32_t const& __cordl_internal_get_c() const;
 
-constexpr uint32_t& __cordl_internal_get_c() ;
+  constexpr uint32_t& __cordl_internal_get_c();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_engineState() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_engineState() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_engineState() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_engineState();
 
-constexpr int32_t const& __cordl_internal_get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-constexpr int32_t& __cordl_internal_get_index() ;
+  constexpr int32_t& __cordl_internal_get_index();
 
-constexpr bool const& __cordl_internal_get_initialised() const;
+  constexpr bool const& __cordl_internal_get_initialised() const;
 
-constexpr bool& __cordl_internal_get_initialised() ;
+  constexpr bool& __cordl_internal_get_initialised();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_keyStream() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_keyStream() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_keyStream() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keyStream();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_results() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_results() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_results() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_results();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_workingKey() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
 
-constexpr void __cordl_internal_set_a(uint32_t  value) ;
+  constexpr void __cordl_internal_set_a(uint32_t value);
 
-constexpr void __cordl_internal_set_b(uint32_t  value) ;
+  constexpr void __cordl_internal_set_b(uint32_t value);
 
-constexpr void __cordl_internal_set_c(uint32_t  value) ;
+  constexpr void __cordl_internal_set_c(uint32_t value);
 
-constexpr void __cordl_internal_set_engineState(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set_engineState(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-constexpr void __cordl_internal_set_index(int32_t  value) ;
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-constexpr void __cordl_internal_set_initialised(bool  value) ;
+  constexpr void __cordl_internal_set_initialised(bool value);
 
-constexpr void __cordl_internal_set_keyStream(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_keyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_results(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set_results(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x32ba394, size 0x94, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32f69d8, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline int32_t getStaticF_sizeL() ;
+  static inline int32_t getStaticF_sizeL();
 
-static inline int32_t getStaticF_stateArraySize() ;
+  static inline int32_t getStaticF_stateArraySize();
 
-/// @brief Method get_AlgorithmName, addr 0x32ba1f8, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x32f683c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
-constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
-/// @brief Method isaac, addr 0x32b9e98, size 0x168, virtual false, abstract: false, final false
-inline void isaac() ;
+  /// @brief Method isaac, addr 0x32f64dc, size 0x168, virtual false, abstract: false, final false
+  inline void isaac();
 
-/// @brief Method mix, addr 0x32ba244, size 0xfc, virtual false, abstract: false, final false
-inline void mix(::ArrayW<uint32_t,::Array<uint32_t>*>  x) ;
+  /// @brief Method mix, addr 0x32f6888, size 0xfc, virtual false, abstract: false, final false
+  inline void mix(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-/// @brief Method setKey, addr 0x32b9a28, size 0x3f8, virtual false, abstract: false, final false
-inline void setKey(::ArrayW<uint8_t,::Array<uint8_t>*>  keyBytes) ;
+  /// @brief Method setKey, addr 0x32f606c, size 0x3f8, virtual false, abstract: false, final false
+  inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes);
 
-static inline void setStaticF_sizeL(int32_t  value) ;
+  static inline void setStaticF_sizeL(int32_t value);
 
-static inline void setStaticF_stateArraySize(int32_t  value) ;
+  static inline void setStaticF_stateArraySize(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IsaacEngine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IsaacEngine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IsaacEngine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IsaacEngine(IsaacEngine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IsaacEngine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IsaacEngine(IsaacEngine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IsaacEngine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IsaacEngine(IsaacEngine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IsaacEngine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IsaacEngine(IsaacEngine const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 850 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{850};
+  /// @brief Field engineState, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___engineState;
 
-/// @brief Field engineState, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ___engineState;
+  /// @brief Field results, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___results;
 
-/// @brief Field results, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ___results;
+  /// @brief Field a, offset: 0x20, size: 0x4, def value: None
+  uint32_t ___a;
 
-/// @brief Field a, offset: 0x20, size: 0x4, def value: None
- uint32_t  ___a;
+  /// @brief Field b, offset: 0x24, size: 0x4, def value: None
+  uint32_t ___b;
 
-/// @brief Field b, offset: 0x24, size: 0x4, def value: None
- uint32_t  ___b;
+  /// @brief Field c, offset: 0x28, size: 0x4, def value: None
+  uint32_t ___c;
 
-/// @brief Field c, offset: 0x28, size: 0x4, def value: None
- uint32_t  ___c;
+  /// @brief Field index, offset: 0x2c, size: 0x4, def value: None
+  int32_t ___index;
 
-/// @brief Field index, offset: 0x2c, size: 0x4, def value: None
- int32_t  ___index;
+  /// @brief Field keyStream, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___keyStream;
 
-/// @brief Field keyStream, offset: 0x30, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___keyStream;
+  /// @brief Field workingKey, offset: 0x38, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___workingKey;
 
-/// @brief Field workingKey, offset: 0x38, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___workingKey;
+  /// @brief Field initialised, offset: 0x40, size: 0x1, def value: None
+  bool ___initialised;
 
-/// @brief Field initialised, offset: 0x40, size: 0x1, def value: None
- bool  ___initialised;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___engineState) == 0x10, "Offset mismatch!");
@@ -225,6 +225,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::IsaacEngine, ___ini
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::IsaacEngine, 0x48>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Engines
+} // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::IsaacEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::IsaacEngine*, "Org.BouncyCastle.Crypto.Engines", "IsaacEngine");

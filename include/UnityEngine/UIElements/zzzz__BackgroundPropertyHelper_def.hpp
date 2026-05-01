@@ -29,41 +29,44 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.BackgroundPropertyHelper
 class CORDL_TYPE BackgroundPropertyHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x6a641d0, size 0xc, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::BackgroundPosition ConvertScaleModeToBackgroundPosition(::UnityEngine::ScaleMode  scaleMode) ;
+  // Declarations
+  /// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x6ad6418, size 0xc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::BackgroundPosition ConvertScaleModeToBackgroundPosition(::UnityEngine::ScaleMode scaleMode);
 
-/// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x6a646ac, size 0x8, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::BackgroundRepeat ConvertScaleModeToBackgroundRepeat(::UnityEngine::ScaleMode  scaleMode) ;
+  /// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x6ad68f4, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::BackgroundRepeat ConvertScaleModeToBackgroundRepeat(::UnityEngine::ScaleMode scaleMode);
 
-/// @brief Method ConvertScaleModeToBackgroundSize, addr 0x6a646bc, size 0x34, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::BackgroundSize ConvertScaleModeToBackgroundSize(::UnityEngine::ScaleMode  scaleMode) ;
+  /// @brief Method ConvertScaleModeToBackgroundSize, addr 0x6ad6904, size 0x34, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::BackgroundSize ConvertScaleModeToBackgroundSize(::UnityEngine::ScaleMode scaleMode);
 
-/// @brief Method ResolveUnityBackgroundScaleMode, addr 0x6a64710, size 0x230, virtual false, abstract: false, final false
-static inline ::UnityEngine::ScaleMode ResolveUnityBackgroundScaleMode(::UnityEngine::UIElements::BackgroundPosition  backgroundPositionX, ::UnityEngine::UIElements::BackgroundPosition  backgroundPositionY, ::UnityEngine::UIElements::BackgroundRepeat  backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize  backgroundSize, ::ByRef<bool>  valid) ;
+  /// @brief Method ResolveUnityBackgroundScaleMode, addr 0x6ad6958, size 0x230, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ScaleMode ResolveUnityBackgroundScaleMode(::UnityEngine::UIElements::BackgroundPosition backgroundPositionX,
+                                                                         ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
+                                                                         ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,
+                                                                         ::ByRef<bool> valid);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BackgroundPropertyHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BackgroundPropertyHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundPropertyHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BackgroundPropertyHelper(BackgroundPropertyHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BackgroundPropertyHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BackgroundPropertyHelper(BackgroundPropertyHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundPropertyHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BackgroundPropertyHelper(BackgroundPropertyHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BackgroundPropertyHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BackgroundPropertyHelper(BackgroundPropertyHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4007 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4007};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BackgroundPropertyHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BackgroundPropertyHelper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BackgroundPropertyHelper*, "UnityEngine.UIElements", "BackgroundPropertyHelper");

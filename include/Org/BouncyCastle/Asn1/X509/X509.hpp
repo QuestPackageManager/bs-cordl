@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/AccessDescription.hpp"
 #include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
@@ -75,6 +75,5 @@
 #include "Org/BouncyCastle/Asn1/X509/X509NameTokenizer.hpp"
 #include "Org/BouncyCastle/Asn1/X509/X509ObjectIdentifiers.hpp"
 #ifdef __cpp_modules
-                    export module X509;
-                    #endif
-                
+export module X509;
+#endif

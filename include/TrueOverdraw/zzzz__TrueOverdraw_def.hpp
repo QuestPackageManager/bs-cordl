@@ -35,278 +35,300 @@ class TrueOverdraw;
 // Write type traits
 MARK_VAL_T(::TrueOverdraw::TrueOverdraw_OverdrawType);
 MARK_REF_PTR_T(::TrueOverdraw::TrueOverdraw);
-// Dependencies 
+// Dependencies
 namespace TrueOverdraw {
 // Is value type: true
 // CS Name: TrueOverdraw.TrueOverdraw/OverdrawType
 struct CORDL_TYPE TrueOverdraw_OverdrawType {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __TrueOverdraw_OverdrawType_Unwrapped
-enum struct __TrueOverdraw_OverdrawType_Unwrapped : int32_t {
-__E_None = static_cast<int32_t>(0x0),
-__E_Transparent = static_cast<int32_t>(0x1),
-__E_Opaque = static_cast<int32_t>(0x2),
-__E_Everything = static_cast<int32_t>(0x3),
-};
+  /// @brief Nested struct __TrueOverdraw_OverdrawType_Unwrapped
+  enum struct __TrueOverdraw_OverdrawType_Unwrapped : int32_t {
+    __E_None = static_cast<int32_t>(0x0),
+    __E_Transparent = static_cast<int32_t>(0x1),
+    __E_Opaque = static_cast<int32_t>(0x2),
+    __E_Everything = static_cast<int32_t>(0x3),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __TrueOverdraw_OverdrawType_Unwrapped () const noexcept {
-return static_cast<__TrueOverdraw_OverdrawType_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __TrueOverdraw_OverdrawType_Unwrapped() const noexcept {
+    return static_cast<__TrueOverdraw_OverdrawType_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr TrueOverdraw_OverdrawType() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrueOverdraw_OverdrawType();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr TrueOverdraw_OverdrawType(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TrueOverdraw_OverdrawType(int32_t value__) noexcept;
 
-/// @brief Field Everything value: I32(3)
-static ::TrueOverdraw::TrueOverdraw_OverdrawType const Everything;
+  /// @brief Field Everything value: I32(3)
+  static ::TrueOverdraw::TrueOverdraw_OverdrawType const Everything;
 
-/// @brief Field None value: I32(0)
-static ::TrueOverdraw::TrueOverdraw_OverdrawType const None;
+  /// @brief Field None value: I32(0)
+  static ::TrueOverdraw::TrueOverdraw_OverdrawType const None;
 
-/// @brief Field Opaque value: I32(2)
-static ::TrueOverdraw::TrueOverdraw_OverdrawType const Opaque;
+  /// @brief Field Opaque value: I32(2)
+  static ::TrueOverdraw::TrueOverdraw_OverdrawType const Opaque;
 
-/// @brief Field Transparent value: I32(1)
-static ::TrueOverdraw::TrueOverdraw_OverdrawType const Transparent;
+  /// @brief Field Transparent value: I32(1)
+  static ::TrueOverdraw::TrueOverdraw_OverdrawType const Transparent;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23184};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23292 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::TrueOverdraw::TrueOverdraw_OverdrawType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::TrueOverdraw::TrueOverdraw_OverdrawType, 0x4>, "Size mismatch!");
 
-} // namespace end def TrueOverdraw
+} // namespace TrueOverdraw
 // Dependencies System.Object, TrueOverdraw.TrueOverdraw::OverdrawType, UnityEngine.Color
 namespace TrueOverdraw {
 // Is value type: false
 // CS Name: TrueOverdraw.TrueOverdraw
 class CORDL_TYPE TrueOverdraw : public ::System::Object {
 public:
-// Declarations
-using OverdrawType = ::TrueOverdraw::TrueOverdraw_OverdrawType;
+  // Declarations
+  using OverdrawType = ::TrueOverdraw::TrueOverdraw_OverdrawType;
 
-/// @brief Field _blendDstAlphaFactor, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__blendDstAlphaFactor, put=setStaticF__blendDstAlphaFactor)) int32_t  _blendDstAlphaFactor;
+  /// @brief Field _blendDstAlphaFactor, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__blendDstAlphaFactor, put = setStaticF__blendDstAlphaFactor)) int32_t _blendDstAlphaFactor;
 
-/// @brief Field _blendDstColorFactor, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__blendDstColorFactor, put=setStaticF__blendDstColorFactor)) int32_t  _blendDstColorFactor;
+  /// @brief Field _blendDstColorFactor, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__blendDstColorFactor, put = setStaticF__blendDstColorFactor)) int32_t _blendDstColorFactor;
 
-/// @brief Field _blendOperation, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__blendOperation, put=setStaticF__blendOperation)) int32_t  _blendOperation;
+  /// @brief Field _blendOperation, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__blendOperation, put = setStaticF__blendOperation)) int32_t _blendOperation;
 
-/// @brief Field _blendSrcAlphaFactor, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__blendSrcAlphaFactor, put=setStaticF__blendSrcAlphaFactor)) int32_t  _blendSrcAlphaFactor;
+  /// @brief Field _blendSrcAlphaFactor, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__blendSrcAlphaFactor, put = setStaticF__blendSrcAlphaFactor)) int32_t _blendSrcAlphaFactor;
 
-/// @brief Field _blendSrcColorFactor, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__blendSrcColorFactor, put=setStaticF__blendSrcColorFactor)) int32_t  _blendSrcColorFactor;
+  /// @brief Field _blendSrcColorFactor, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__blendSrcColorFactor, put = setStaticF__blendSrcColorFactor)) int32_t _blendSrcColorFactor;
 
-/// @brief Field _cachedMaterialInstances, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__cachedMaterialInstances, put=__cordl_internal_set__cachedMaterialInstances)) ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>  _cachedMaterialInstances;
+  /// @brief Field _cachedMaterialInstances, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__cachedMaterialInstances,
+                      put = __cordl_internal_set__cachedMaterialInstances)) ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                                                                                     ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>
+      _cachedMaterialInstances;
 
-/// @brief Field _cachedSharedMaterials, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__cachedSharedMaterials, put=__cordl_internal_set__cachedSharedMaterials)) ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>  _cachedSharedMaterials;
+  /// @brief Field _cachedSharedMaterials, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__cachedSharedMaterials,
+                      put = __cordl_internal_set__cachedSharedMaterials)) ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                                                                                   ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>
+      _cachedSharedMaterials;
 
-/// @brief Field _environmentElementsColor, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF__environmentElementsColor, put=setStaticF__environmentElementsColor)) ::UnityEngine::Color  _environmentElementsColor;
+  /// @brief Field _environmentElementsColor, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF__environmentElementsColor, put = setStaticF__environmentElementsColor)) ::UnityEngine::Color _environmentElementsColor;
 
-/// @brief Field _gameplayElementsColor, offset 0xffffffff, size 0x10 
- __declspec(property(get=getStaticF__gameplayElementsColor, put=setStaticF__gameplayElementsColor)) ::UnityEngine::Color  _gameplayElementsColor;
+  /// @brief Field _gameplayElementsColor, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF__gameplayElementsColor, put = setStaticF__gameplayElementsColor)) ::UnityEngine::Color _gameplayElementsColor;
 
-/// @brief Field _opaqueOverdraw, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__opaqueOverdraw, put=setStaticF__opaqueOverdraw)) int32_t  _opaqueOverdraw;
+  /// @brief Field _opaqueOverdraw, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__opaqueOverdraw, put = setStaticF__opaqueOverdraw)) int32_t _opaqueOverdraw;
 
-/// @brief Field _overdrawColor, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__overdrawColor, put=setStaticF__overdrawColor)) int32_t  _overdrawColor;
+  /// @brief Field _overdrawColor, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__overdrawColor, put = setStaticF__overdrawColor)) int32_t _overdrawColor;
 
-/// @brief Field <overdrawType>k__BackingField, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get__overdrawType_k__BackingField, put=__cordl_internal_set__overdrawType_k__BackingField)) ::TrueOverdraw::TrueOverdraw_OverdrawType  _overdrawType_k__BackingField;
+  /// @brief Field <overdrawType>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__overdrawType_k__BackingField,
+                      put = __cordl_internal_set__overdrawType_k__BackingField)) ::TrueOverdraw::TrueOverdraw_OverdrawType _overdrawType_k__BackingField;
 
-/// @brief Field _renderers, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__renderers, put=__cordl_internal_set__renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>  _renderers;
+  /// @brief Field _renderers, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderers, put = __cordl_internal_set__renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>
+      _renderers;
 
-/// @brief Field _transparentOverdraw, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__transparentOverdraw, put=setStaticF__transparentOverdraw)) int32_t  _transparentOverdraw;
+  /// @brief Field _transparentOverdraw, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__transparentOverdraw, put = setStaticF__transparentOverdraw)) int32_t _transparentOverdraw;
 
-/// @brief Field _trueOverdrawProperty, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF__trueOverdrawProperty, put=setStaticF__trueOverdrawProperty)) int32_t  _trueOverdrawProperty;
+  /// @brief Field _trueOverdrawProperty, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__trueOverdrawProperty, put = setStaticF__trueOverdrawProperty)) int32_t _trueOverdrawProperty;
 
- __declspec(property(get=get_overdrawType, put=set_overdrawType)) ::TrueOverdraw::TrueOverdraw_OverdrawType  overdrawType;
+  __declspec(property(get = get_overdrawType, put = set_overdrawType)) ::TrueOverdraw::TrueOverdraw_OverdrawType overdrawType;
 
- __declspec(property(get=get_renderersLength)) int32_t  renderersLength;
+  __declspec(property(get = get_renderersLength)) int32_t renderersLength;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method Disable, addr 0x5d90794, size 0x22c, virtual false, abstract: false, final false
-inline void Disable() ;
+  /// @brief Method Disable, addr 0x5e027a0, size 0x22c, virtual false, abstract: false, final false
+  inline void Disable();
 
-/// @brief Method Dispose, addr 0x5d909c0, size 0xe4, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x5e029cc, size 0xe4, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method Enable, addr 0x5d90090, size 0x2e4, virtual false, abstract: false, final false
-inline void Enable() ;
+  /// @brief Method Enable, addr 0x5e0209c, size 0x2e4, virtual false, abstract: false, final false
+  inline void Enable();
 
-static inline ::TrueOverdraw::TrueOverdraw* New_ctor(::ArrayW<::UnityEngine::Renderer*,::Array<::UnityEngine::Renderer*>*>  renderers) ;
+  static inline ::TrueOverdraw::TrueOverdraw* New_ctor(::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> renderers);
 
-/// @brief Method ResolveRendererColor, addr 0x5d90420, size 0x260, virtual false, abstract: false, final false
-static inline ::UnityEngine::Color ResolveRendererColor(::UnityEngine::Renderer*  renderer, ::UnityEngine::Material*  material) ;
+  /// @brief Method ResolveRendererColor, addr 0x5e0242c, size 0x260, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Color ResolveRendererColor(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material);
 
-/// @brief Method SetGlobalFloats, addr 0x5d90374, size 0xac, virtual false, abstract: false, final false
-static inline void SetGlobalFloats(float_t  trueOverdraw, float_t  opaque, float_t  transparent) ;
+  /// @brief Method SetGlobalFloats, addr 0x5e02380, size 0xac, virtual false, abstract: false, final false
+  static inline void SetGlobalFloats(float_t trueOverdraw, float_t opaque, float_t transparent);
 
-/// @brief Method SetMaterialValues, addr 0x5d90680, size 0x114, virtual false, abstract: false, final false
-static inline void SetMaterialValues(::UnityEngine::Material*  material, ::UnityEngine::Color  color) ;
+  /// @brief Method SetMaterialValues, addr 0x5e0268c, size 0x114, virtual false, abstract: false, final false
+  static inline void SetMaterialValues(::UnityEngine::Material* material, ::UnityEngine::Color color);
 
-/// @brief Method SetOverdrawValues, addr 0x5d90b08, size 0xc8, virtual false, abstract: false, final false
-static inline void SetOverdrawValues(float_t  opaque, float_t  transparent) ;
+  /// @brief Method SetOverdrawValues, addr 0x5e02b14, size 0xc8, virtual false, abstract: false, final false
+  static inline void SetOverdrawValues(float_t opaque, float_t transparent);
 
-/// @brief Method ShowEverything, addr 0x5d90aa4, size 0x64, virtual false, abstract: false, final false
-inline void ShowEverything() ;
+  /// @brief Method ShowEverything, addr 0x5e02ab0, size 0x64, virtual false, abstract: false, final false
+  inline void ShowEverything();
 
-/// @brief Method ShowOnlyOpaque, addr 0x5d90c34, size 0x64, virtual false, abstract: false, final false
-inline void ShowOnlyOpaque() ;
+  /// @brief Method ShowOnlyOpaque, addr 0x5e02c40, size 0x64, virtual false, abstract: false, final false
+  inline void ShowOnlyOpaque();
 
-/// @brief Method ShowOnlyTransparent, addr 0x5d90bd0, size 0x64, virtual false, abstract: false, final false
-inline void ShowOnlyTransparent() ;
+  /// @brief Method ShowOnlyTransparent, addr 0x5e02bdc, size 0x64, virtual false, abstract: false, final false
+  inline void ShowOnlyTransparent();
 
-constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*> const& __cordl_internal_get__cachedMaterialInstances() const;
+  constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                     ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*> const&
+  __cordl_internal_get__cachedMaterialInstances() const;
 
-constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>& __cordl_internal_get__cachedMaterialInstances() ;
+  constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                     ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>&
+  __cordl_internal_get__cachedMaterialInstances();
 
-constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*> const& __cordl_internal_get__cachedSharedMaterials() const;
+  constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                     ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*> const&
+  __cordl_internal_get__cachedSharedMaterials() const;
 
-constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>& __cordl_internal_get__cachedSharedMaterials() ;
+  constexpr ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                     ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>&
+  __cordl_internal_get__cachedSharedMaterials();
 
-constexpr ::TrueOverdraw::TrueOverdraw_OverdrawType const& __cordl_internal_get__overdrawType_k__BackingField() const;
+  constexpr ::TrueOverdraw::TrueOverdraw_OverdrawType const& __cordl_internal_get__overdrawType_k__BackingField() const;
 
-constexpr ::TrueOverdraw::TrueOverdraw_OverdrawType& __cordl_internal_get__overdrawType_k__BackingField() ;
+  constexpr ::TrueOverdraw::TrueOverdraw_OverdrawType& __cordl_internal_get__overdrawType_k__BackingField();
 
-constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*> const& __cordl_internal_get__renderers() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> const& __cordl_internal_get__renderers() const;
 
-constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>& __cordl_internal_get__renderers() ;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>& __cordl_internal_get__renderers();
 
-constexpr void __cordl_internal_set__cachedMaterialInstances(::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>  value) ;
+  constexpr void __cordl_internal_set__cachedMaterialInstances(::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                                                                        ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>
+                                                                   value);
 
-constexpr void __cordl_internal_set__cachedSharedMaterials(::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>  value) ;
+  constexpr void __cordl_internal_set__cachedSharedMaterials(::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>,
+                                                                      ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>
+                                                                 value);
 
-constexpr void __cordl_internal_set__overdrawType_k__BackingField(::TrueOverdraw::TrueOverdraw_OverdrawType  value) ;
+  constexpr void __cordl_internal_set__overdrawType_k__BackingField(::TrueOverdraw::TrueOverdraw_OverdrawType value);
 
-constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>  value) ;
+  constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-/// @brief Method .ctor, addr 0x5d8fcd8, size 0x3b8, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<::UnityEngine::Renderer*,::Array<::UnityEngine::Renderer*>*>  renderers) ;
+  /// @brief Method .ctor, addr 0x5e01ce4, size 0x3b8, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> renderers);
 
-static inline int32_t getStaticF__blendDstAlphaFactor() ;
+  static inline int32_t getStaticF__blendDstAlphaFactor();
 
-static inline int32_t getStaticF__blendDstColorFactor() ;
+  static inline int32_t getStaticF__blendDstColorFactor();
 
-static inline int32_t getStaticF__blendOperation() ;
+  static inline int32_t getStaticF__blendOperation();
 
-static inline int32_t getStaticF__blendSrcAlphaFactor() ;
+  static inline int32_t getStaticF__blendSrcAlphaFactor();
 
-static inline int32_t getStaticF__blendSrcColorFactor() ;
+  static inline int32_t getStaticF__blendSrcColorFactor();
 
-static inline ::UnityEngine::Color getStaticF__environmentElementsColor() ;
+  static inline ::UnityEngine::Color getStaticF__environmentElementsColor();
 
-static inline ::UnityEngine::Color getStaticF__gameplayElementsColor() ;
+  static inline ::UnityEngine::Color getStaticF__gameplayElementsColor();
 
-static inline int32_t getStaticF__opaqueOverdraw() ;
+  static inline int32_t getStaticF__opaqueOverdraw();
 
-static inline int32_t getStaticF__overdrawColor() ;
+  static inline int32_t getStaticF__overdrawColor();
 
-static inline int32_t getStaticF__transparentOverdraw() ;
+  static inline int32_t getStaticF__transparentOverdraw();
 
-static inline int32_t getStaticF__trueOverdrawProperty() ;
+  static inline int32_t getStaticF__trueOverdrawProperty();
 
-/// @brief Method get_overdrawType, addr 0x5d8fcc8, size 0x8, virtual false, abstract: false, final false
-inline ::TrueOverdraw::TrueOverdraw_OverdrawType get_overdrawType() ;
+  /// @brief Method get_overdrawType, addr 0x5e01cd4, size 0x8, virtual false, abstract: false, final false
+  inline ::TrueOverdraw::TrueOverdraw_OverdrawType get_overdrawType();
 
-/// @brief Method get_renderersLength, addr 0x5d8fcb0, size 0x18, virtual false, abstract: false, final false
-inline int32_t get_renderersLength() ;
+  /// @brief Method get_renderersLength, addr 0x5e01cbc, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_renderersLength();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-static inline void setStaticF__blendDstAlphaFactor(int32_t  value) ;
+  static inline void setStaticF__blendDstAlphaFactor(int32_t value);
 
-static inline void setStaticF__blendDstColorFactor(int32_t  value) ;
+  static inline void setStaticF__blendDstColorFactor(int32_t value);
 
-static inline void setStaticF__blendOperation(int32_t  value) ;
+  static inline void setStaticF__blendOperation(int32_t value);
 
-static inline void setStaticF__blendSrcAlphaFactor(int32_t  value) ;
+  static inline void setStaticF__blendSrcAlphaFactor(int32_t value);
 
-static inline void setStaticF__blendSrcColorFactor(int32_t  value) ;
+  static inline void setStaticF__blendSrcColorFactor(int32_t value);
 
-static inline void setStaticF__environmentElementsColor(::UnityEngine::Color  value) ;
+  static inline void setStaticF__environmentElementsColor(::UnityEngine::Color value);
 
-static inline void setStaticF__gameplayElementsColor(::UnityEngine::Color  value) ;
+  static inline void setStaticF__gameplayElementsColor(::UnityEngine::Color value);
 
-static inline void setStaticF__opaqueOverdraw(int32_t  value) ;
+  static inline void setStaticF__opaqueOverdraw(int32_t value);
 
-static inline void setStaticF__overdrawColor(int32_t  value) ;
+  static inline void setStaticF__overdrawColor(int32_t value);
 
-static inline void setStaticF__transparentOverdraw(int32_t  value) ;
+  static inline void setStaticF__transparentOverdraw(int32_t value);
 
-static inline void setStaticF__trueOverdrawProperty(int32_t  value) ;
+  static inline void setStaticF__trueOverdrawProperty(int32_t value);
 
-/// @brief Method set_overdrawType, addr 0x5d8fcd0, size 0x8, virtual false, abstract: false, final false
-inline void set_overdrawType(::TrueOverdraw::TrueOverdraw_OverdrawType  value) ;
+  /// @brief Method set_overdrawType, addr 0x5e01cdc, size 0x8, virtual false, abstract: false, final false
+  inline void set_overdrawType(::TrueOverdraw::TrueOverdraw_OverdrawType value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TrueOverdraw() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrueOverdraw();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TrueOverdraw(TrueOverdraw&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TrueOverdraw(TrueOverdraw && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TrueOverdraw(TrueOverdraw const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TrueOverdraw(TrueOverdraw const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23293 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23185};
+  /// @brief Field kOverdrawViewKeyword offset 0xffffffff size 0x8
+  static constexpr ::ConstString kOverdrawViewKeyword{ u"OVERDRAW_VIEW" };
 
-/// @brief Field kOverdrawViewKeyword offset 0xffffffff size 0x8
-static constexpr ::ConstString  kOverdrawViewKeyword{u"OVERDRAW_VIEW"};
+  /// @brief Field <overdrawType>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  ::TrueOverdraw::TrueOverdraw_OverdrawType ____overdrawType_k__BackingField;
 
-/// @brief Field <overdrawType>k__BackingField, offset: 0x10, size: 0x4, def value: None
- ::TrueOverdraw::TrueOverdraw_OverdrawType  ____overdrawType_k__BackingField;
+  /// @brief Field _renderers, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> ____renderers;
 
-/// @brief Field _renderers, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>  ____renderers;
+  /// @brief Field _cachedSharedMaterials, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>, ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>
+      ____cachedSharedMaterials;
 
-/// @brief Field _cachedSharedMaterials, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>  ____cachedSharedMaterials;
+  /// @brief Field _cachedMaterialInstances, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>, ::Array<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>>*>
+      ____cachedMaterialInstances;
 
-/// @brief Field _cachedMaterialInstances, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>,::Array<::ArrayW<::UnityW<::UnityEngine::Material>,::Array<::UnityW<::UnityEngine::Material>>*>>*>  ____cachedMaterialInstances;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TrueOverdraw::TrueOverdraw, ____overdrawType_k__BackingField) == 0x10, "Offset mismatch!");
@@ -319,7 +341,7 @@ static_assert(offsetof(::TrueOverdraw::TrueOverdraw, ____cachedMaterialInstances
 
 static_assert(::cordl_internals::size_check_v<::TrueOverdraw::TrueOverdraw, 0x30>, "Size mismatch!");
 
-} // namespace end def TrueOverdraw
+} // namespace TrueOverdraw
 DEFINE_IL2CPP_ARG_TYPE(::TrueOverdraw::TrueOverdraw_OverdrawType, "TrueOverdraw", "TrueOverdraw/OverdrawType");
 NEED_NO_BOX(::TrueOverdraw::TrueOverdraw);
 DEFINE_IL2CPP_ARG_TYPE(::TrueOverdraw::TrueOverdraw*, "TrueOverdraw", "TrueOverdraw");

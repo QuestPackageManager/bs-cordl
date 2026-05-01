@@ -19,35 +19,35 @@ namespace System {
 // CS Name: System.UncNameHelper
 class CORDL_TYPE UncNameHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method IsValid, addr 0x61c5cfc, size 0x2cc, virtual false, abstract: false, final false
-static inline bool IsValid(char16_t*  name, uint16_t  start, ::ByRef<int32_t>  returnedEnd, bool  notImplicitFile) ;
+  // Declarations
+  /// @brief Method IsValid, addr 0x6237d08, size 0x2cc, virtual false, abstract: false, final false
+  static inline bool IsValid(char16_t* name, uint16_t start, ::ByRef<int32_t> returnedEnd, bool notImplicitFile);
 
-/// @brief Method ParseCanonicalName, addr 0x61c5cf8, size 0x4, virtual false, abstract: false, final false
-static inline ::StringW ParseCanonicalName(::StringW  str, int32_t  start, int32_t  end, ::ByRef<bool>  loopback) ;
+  /// @brief Method ParseCanonicalName, addr 0x6237d04, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ::ByRef<bool> loopback);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UncNameHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UncNameHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UncNameHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UncNameHelper(UncNameHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UncNameHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UncNameHelper(UncNameHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UncNameHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UncNameHelper(UncNameHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UncNameHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UncNameHelper(UncNameHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11068 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11061};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UncNameHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::UncNameHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::UncNameHelper*, "System", "UncNameHelper");

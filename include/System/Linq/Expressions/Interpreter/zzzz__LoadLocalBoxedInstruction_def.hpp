@@ -22,47 +22,47 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.LoadLocalBoxedInstruction
 class CORDL_TYPE LoadLocalBoxedInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction {
 public:
-// Declarations
- __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
+  // Declarations
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
- __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
+  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
-static inline ::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction* New_ctor(int32_t  index) ;
+  static inline ::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction* New_ctor(int32_t index);
 
-/// @brief Method Run, addr 0x5dfddf0, size 0x160, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e6fdfc, size 0x160, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5dfdd9c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  index) ;
+  /// @brief Method .ctor, addr 0x5e6fda8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t index);
 
-/// @brief Method get_InstructionName, addr 0x5dfddac, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_InstructionName() ;
+  /// @brief Method get_InstructionName, addr 0x5e6fdb8, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_InstructionName();
 
-/// @brief Method get_ProducedStack, addr 0x5dfdda4, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ProducedStack() ;
+  /// @brief Method get_ProducedStack, addr 0x5e6fdb0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ProducedStack();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LoadLocalBoxedInstruction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LoadLocalBoxedInstruction();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalBoxedInstruction", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LoadLocalBoxedInstruction(LoadLocalBoxedInstruction&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LoadLocalBoxedInstruction", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LoadLocalBoxedInstruction(LoadLocalBoxedInstruction && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalBoxedInstruction", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LoadLocalBoxedInstruction(LoadLocalBoxedInstruction const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LoadLocalBoxedInstruction", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LoadLocalBoxedInstruction(LoadLocalBoxedInstruction const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16437 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16429};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction*, "System.Linq.Expressions.Interpreter", "LoadLocalBoxedInstruction");

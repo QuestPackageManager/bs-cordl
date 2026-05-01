@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointGenerator)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 class Random;
@@ -29,47 +28,47 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.PointGenerator
 class CORDL_TYPE PointGenerator : public ::System::Object {
 public:
-// Declarations
-/// @brief Field RNG, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_RNG, put=setStaticF_RNG)) ::System::Random*  RNG;
+  // Declarations
+  /// @brief Field RNG, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG)) ::System::Random* RNG;
 
-static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor() ;
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
 
-/// @brief Method UniformDistribution, addr 0x64fb710, size 0x1cc, virtual false, abstract: false, final false
-static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t  n, double_t  scale) ;
+  /// @brief Method UniformDistribution, addr 0x656d71c, size 0x1cc, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
 
-/// @brief Method UniformGrid, addr 0x64fb8dc, size 0x18c, virtual false, abstract: false, final false
-static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t  n, double_t  scale) ;
+  /// @brief Method UniformGrid, addr 0x656d8e8, size 0x18c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
 
-/// @brief Method .ctor, addr 0x64fba68, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x656da74, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Random* getStaticF_RNG() ;
+  static inline ::System::Random* getStaticF_RNG();
 
-static inline void setStaticF_RNG(::System::Random*  value) ;
+  static inline void setStaticF_RNG(::System::Random* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PointGenerator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointGenerator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PointGenerator(PointGenerator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PointGenerator(PointGenerator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PointGenerator(PointGenerator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PointGenerator(PointGenerator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21608 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21597};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::PointGenerator, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder::Poly2Tri
+} // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator*, "UnityEngine.ProBuilder.Poly2Tri", "PointGenerator");

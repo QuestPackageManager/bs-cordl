@@ -5,31 +5,27 @@
 #include "BeatmapSaveDataVersion4/zzzz__LightColorEvent_def.hpp"
 #include "GlobalNamespace/zzzz__LightColorBaseData_def.hpp"
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter.Convert
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightColorBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightColorEvent)>(&::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightColorBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightColorEvent)>(
+    &::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3666578;
+  constexpr static std::size_t addrs = 0x36a2fd4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>::get(),
-                        "Convert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightColorEvent>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>::get(), "Convert", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightColorEvent>::get() })));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::LightColorBaseData* BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert(float_t  beat, ::BeatmapSaveDataVersion4::LightColorEvent  lightColorEvent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>::get(),
-                        "Convert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightColorEvent>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightColorBaseData*, false>(nullptr, ___internal_method, beat, lightColorEvent);
+inline ::GlobalNamespace::LightColorBaseData* BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert(float_t beat, ::BeatmapSaveDataVersion4::LightColorEvent lightColorEvent) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*>::get(), "Convert", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightColorEvent>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightColorBaseData*, false>(nullptr, ___internal_method, beat, lightColorEvent);
 }
 // Ctor Parameters []
-constexpr ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::LightColorBaseDataConverter()   {
-}
+constexpr ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::LightColorBaseDataConverter() {}

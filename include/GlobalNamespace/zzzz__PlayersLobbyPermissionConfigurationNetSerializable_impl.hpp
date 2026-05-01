@@ -8,224 +8,199 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.get_playersPermission
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::get_playersPermission)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* (
+    ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::get_playersPermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x367fc04;
+  constexpr static std::size_t addrs = 0x36bc94c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        "get_playersPermission",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
+                                                 "get_playersPermission", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.Obtain
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* (*)()>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Obtain)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* (*)()>(
+    &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x367fc0c;
+  constexpr static std::size_t addrs = 0x36bc954;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        "Obtain",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), "Obtain",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*)>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* (
+    ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*)>(
+    &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x367fc78;
+  constexpr static std::size_t addrs = 0x36bc9c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(
+    &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x367fcf4;
+  constexpr static std::size_t addrs = 0x36bca3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.Serialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Serialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
+    &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x367fd98;
+  constexpr static std::size_t addrs = 0x36bcae0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 10));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.Deserialize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Deserialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
+    &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x367fee4;
+  constexpr static std::size_t addrs = 0x36bcc2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 11));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.Release
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Release)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(
+    &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Release)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x368006c;
+  constexpr static std::size_t addrs = 0x36bcdb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 9));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.Retain
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Retain)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(
+    &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Retain)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x36801b8;
+  constexpr static std::size_t addrs = 0x36bcf00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 8));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*& GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::__cordl_internal_get__playersPermission()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playersPermission;
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*&
+GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::__cordl_internal_get__playersPermission() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playersPermission;
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* const& GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::__cordl_internal_get__playersPermission() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playersPermission;
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* const&
+GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::__cordl_internal_get__playersPermission() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playersPermission;
 }
-constexpr void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::__cordl_internal_set__playersPermission(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersPermission)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::__cordl_internal_set__playersPermission(
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersPermission)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::get_playersPermission()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        "get_playersPermission",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*
+GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::get_playersPermission() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
+                                               "get_playersPermission", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Obtain()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        "Obtain",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*, false>(nullptr, ___internal_method);
+inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Obtain() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), "Obtain",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*, false>(nullptr, ___internal_method);
 }
-inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Init(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*  playersPermission)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*, false>(this, ___internal_method, playersPermission);
+inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Init(
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* playersPermission) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*, false>(this, ___internal_method, playersPermission);
 }
-inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Serialize(::LiteNetLib::Utils::NetDataWriter*  writer)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
+inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
 }
-inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Deserialize(::LiteNetLib::Utils::NetDataReader*  reader)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Deserialize(::LiteNetLib::Utils::NetDataReader* reader) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
 }
-inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Release()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Release() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Retain()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Retain() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>());
+inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::PlayersLobbyPermissionConfigurationNetSerializable()   {
-}
+constexpr ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::PlayersLobbyPermissionConfigurationNetSerializable() {}

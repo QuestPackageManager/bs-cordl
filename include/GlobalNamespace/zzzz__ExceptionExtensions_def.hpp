@@ -21,32 +21,32 @@ namespace GlobalNamespace {
 // CS Name: ExceptionExtensions
 class CORDL_TYPE ExceptionExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GenerateFullStackMessage, addr 0x3214f64, size 0x1bc, virtual false, abstract: false, final false
-static inline ::StringW GenerateFullStackMessage(::System::Exception*  e) ;
+  // Declarations
+  /// @brief Method GenerateFullStackMessage, addr 0x3250c94, size 0x1bc, virtual false, abstract: false, final false
+  static inline ::StringW GenerateFullStackMessage(::System::Exception* e);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ExceptionExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExceptionExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExceptionExtensions(ExceptionExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ExceptionExtensions(ExceptionExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExceptionExtensions(ExceptionExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ExceptionExtensions(ExceptionExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20515 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20505};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExceptionExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ExceptionExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ExceptionExtensions*, "", "ExceptionExtensions");

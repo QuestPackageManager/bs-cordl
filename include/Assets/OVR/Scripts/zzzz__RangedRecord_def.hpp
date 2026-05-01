@@ -20,66 +20,66 @@ namespace Assets::OVR::Scripts {
 // CS Name: Assets.OVR.Scripts.RangedRecord
 class CORDL_TYPE RangedRecord : public ::Assets::OVR::Scripts::Record {
 public:
-// Declarations
-/// @brief Field max, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get_max, put=__cordl_internal_set_max)) float_t  max;
+  // Declarations
+  /// @brief Field max, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
-/// @brief Field min, offset 0x2c, size 0x4 
- __declspec(property(get=__cordl_internal_get_min, put=__cordl_internal_set_min)) float_t  min;
+  /// @brief Field min, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
-/// @brief Field value, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get_value, put=__cordl_internal_set_value)) float_t  value;
+  /// @brief Field value, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) float_t value;
 
-static inline ::Assets::OVR::Scripts::RangedRecord* New_ctor(int32_t  order, ::StringW  cat, ::StringW  msg, float_t  val, float_t  minVal, float_t  maxVal) ;
+  static inline ::Assets::OVR::Scripts::RangedRecord* New_ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
-constexpr float_t const& __cordl_internal_get_max() const;
+  constexpr float_t const& __cordl_internal_get_max() const;
 
-constexpr float_t& __cordl_internal_get_max() ;
+  constexpr float_t& __cordl_internal_get_max();
 
-constexpr float_t const& __cordl_internal_get_min() const;
+  constexpr float_t const& __cordl_internal_get_min() const;
 
-constexpr float_t& __cordl_internal_get_min() ;
+  constexpr float_t& __cordl_internal_get_min();
 
-constexpr float_t const& __cordl_internal_get_value() const;
+  constexpr float_t const& __cordl_internal_get_value() const;
 
-constexpr float_t& __cordl_internal_get_value() ;
+  constexpr float_t& __cordl_internal_get_value();
 
-constexpr void __cordl_internal_set_max(float_t  value) ;
+  constexpr void __cordl_internal_set_max(float_t value);
 
-constexpr void __cordl_internal_set_min(float_t  value) ;
+  constexpr void __cordl_internal_set_min(float_t value);
 
-constexpr void __cordl_internal_set_value(float_t  value) ;
+  constexpr void __cordl_internal_set_value(float_t value);
 
-/// @brief Method .ctor, addr 0x5c9bc98, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(int32_t  order, ::StringW  cat, ::StringW  msg, float_t  val, float_t  minVal, float_t  maxVal) ;
+  /// @brief Method .ctor, addr 0x5d0dc80, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RangedRecord() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RangedRecord();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RangedRecord", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RangedRecord(RangedRecord&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RangedRecord", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RangedRecord(RangedRecord && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RangedRecord", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RangedRecord(RangedRecord const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RangedRecord", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RangedRecord(RangedRecord const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8541 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8535};
+  /// @brief Field value, offset: 0x28, size: 0x4, def value: None
+  float_t ___value;
 
-/// @brief Field value, offset: 0x28, size: 0x4, def value: None
- float_t  ___value;
+  /// @brief Field min, offset: 0x2c, size: 0x4, def value: None
+  float_t ___min;
 
-/// @brief Field min, offset: 0x2c, size: 0x4, def value: None
- float_t  ___min;
+  /// @brief Field max, offset: 0x30, size: 0x4, def value: None
+  float_t ___max;
 
-/// @brief Field max, offset: 0x30, size: 0x4, def value: None
- float_t  ___max;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Assets::OVR::Scripts::RangedRecord, ___value) == 0x28, "Offset mismatch!");
@@ -90,6 +90,6 @@ static_assert(offsetof(::Assets::OVR::Scripts::RangedRecord, ___max) == 0x30, "O
 
 static_assert(::cordl_internals::size_check_v<::Assets::OVR::Scripts::RangedRecord, 0x38>, "Size mismatch!");
 
-} // namespace end def Assets::OVR::Scripts
+} // namespace Assets::OVR::Scripts
 NEED_NO_BOX(::Assets::OVR::Scripts::RangedRecord);
 DEFINE_IL2CPP_ARG_TYPE(::Assets::OVR::Scripts::RangedRecord*, "Assets.OVR.Scripts", "RangedRecord");

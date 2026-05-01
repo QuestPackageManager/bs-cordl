@@ -17,34 +17,34 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.AspDataFieldsAttribute
 class CORDL_TYPE AspDataFieldsAttribute : public ::System::Attribute {
 public:
-// Declarations
-static inline ::JetBrains::Annotations::AspDataFieldsAttribute* New_ctor() ;
+  // Declarations
+  static inline ::JetBrains::Annotations::AspDataFieldsAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x6c72be4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ce4e28, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AspDataFieldsAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AspDataFieldsAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AspDataFieldsAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AspDataFieldsAttribute(AspDataFieldsAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AspDataFieldsAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AspDataFieldsAttribute(AspDataFieldsAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AspDataFieldsAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AspDataFieldsAttribute(AspDataFieldsAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AspDataFieldsAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AspDataFieldsAttribute(AspDataFieldsAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22386 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22332};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspDataFieldsAttribute, 0x10>, "Size mismatch!");
 
-} // namespace end def JetBrains::Annotations
+} // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspDataFieldsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AspDataFieldsAttribute*, "JetBrains.Annotations", "AspDataFieldsAttribute");

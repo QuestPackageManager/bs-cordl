@@ -21,32 +21,32 @@ namespace System::Collections::Generic {
 // CS Name: System.Collections.Generic.KeyValuePair
 class CORDL_TYPE KeyValuePair : public ::System::Object {
 public:
-// Declarations
-/// @brief Method PairToString, addr 0x5a43be0, size 0xf0, virtual false, abstract: false, final false
-static inline ::StringW PairToString(::System::Object*  key, ::System::Object*  value) ;
+  // Declarations
+  /// @brief Method PairToString, addr 0x5ab5bc8, size 0xf0, virtual false, abstract: false, final false
+  static inline ::StringW PairToString(::System::Object* key, ::System::Object* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr KeyValuePair() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyValuePair();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValuePair", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  KeyValuePair(KeyValuePair&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "KeyValuePair", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-KeyValuePair(KeyValuePair && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValuePair", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  KeyValuePair(KeyValuePair const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "KeyValuePair", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-KeyValuePair(KeyValuePair const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3779 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3779};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::KeyValuePair, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Collections::Generic
+} // namespace System::Collections::Generic
 NEED_NO_BOX(::System::Collections::Generic::KeyValuePair);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::KeyValuePair*, "System.Collections.Generic", "KeyValuePair");

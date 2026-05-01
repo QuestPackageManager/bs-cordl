@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/XR/OpenXR/Features/Interactions/DPadInteraction.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/EyeGazeInteraction.hpp"
@@ -19,6 +19,5 @@
 #include "UnityEngine/XR/OpenXR/Features/Interactions/PalmPoseInteraction.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/ValveIndexControllerProfile.hpp"
 #ifdef __cpp_modules
-                    export module Interactions;
-                    #endif
-                
+export module Interactions;
+#endif

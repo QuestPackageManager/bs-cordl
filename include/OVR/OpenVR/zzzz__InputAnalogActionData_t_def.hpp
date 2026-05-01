@@ -13,54 +13,57 @@ struct InputAnalogActionData_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::InputAnalogActionData_t);
-// Dependencies 
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: OVR.OpenVR.InputAnalogActionData_t
 struct CORDL_TYPE InputAnalogActionData_t {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputAnalogActionData_t() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputAnalogActionData_t();
 
-// Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fUpdateTime", ty: "float_t", modifiers: "", def_value: None }]
-constexpr InputAnalogActionData_t(bool  bActive, uint64_t  activeOrigin, float_t  x, float_t  y, float_t  z, float_t  deltaX, float_t  deltaY, float_t  deltaZ, float_t  fUpdateTime) noexcept;
+  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "x",
+  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None },
+  // CppParam { name: "deltaX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaZ", ty: "float_t",
+  // modifiers: "", def_value: None }, CppParam { name: "fUpdateTime", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr InputAnalogActionData_t(bool bActive, uint64_t activeOrigin, float_t x, float_t y, float_t z, float_t deltaX, float_t deltaY, float_t deltaZ, float_t fUpdateTime) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8523};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8529 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field bActive, offset: 0x0, size: 0x1, def value: None
- bool  bActive;
+  /// @brief Field bActive, offset: 0x0, size: 0x1, def value: None
+  bool bActive;
 
-/// @brief Field activeOrigin, offset: 0x8, size: 0x8, def value: None
- uint64_t  activeOrigin;
+  /// @brief Field activeOrigin, offset: 0x8, size: 0x8, def value: None
+  uint64_t activeOrigin;
 
-/// @brief Field x, offset: 0x10, size: 0x4, def value: None
- float_t  x;
+  /// @brief Field x, offset: 0x10, size: 0x4, def value: None
+  float_t x;
 
-/// @brief Field y, offset: 0x14, size: 0x4, def value: None
- float_t  y;
+  /// @brief Field y, offset: 0x14, size: 0x4, def value: None
+  float_t y;
 
-/// @brief Field z, offset: 0x18, size: 0x4, def value: None
- float_t  z;
+  /// @brief Field z, offset: 0x18, size: 0x4, def value: None
+  float_t z;
 
-/// @brief Field deltaX, offset: 0x1c, size: 0x4, def value: None
- float_t  deltaX;
+  /// @brief Field deltaX, offset: 0x1c, size: 0x4, def value: None
+  float_t deltaX;
 
-/// @brief Field deltaY, offset: 0x20, size: 0x4, def value: None
- float_t  deltaY;
+  /// @brief Field deltaY, offset: 0x20, size: 0x4, def value: None
+  float_t deltaY;
 
-/// @brief Field deltaZ, offset: 0x24, size: 0x4, def value: None
- float_t  deltaZ;
+  /// @brief Field deltaZ, offset: 0x24, size: 0x4, def value: None
+  float_t deltaZ;
 
-/// @brief Field fUpdateTime, offset: 0x28, size: 0x4, def value: None
- float_t  fUpdateTime;
+  /// @brief Field fUpdateTime, offset: 0x28, size: 0x4, def value: None
+  float_t fUpdateTime;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::InputAnalogActionData_t, bActive) == 0x0, "Offset mismatch!");
@@ -83,5 +86,5 @@ static_assert(offsetof(::OVR::OpenVR::InputAnalogActionData_t, fUpdateTime) == 0
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputAnalogActionData_t, 0x30>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputAnalogActionData_t, "OVR.OpenVR", "InputAnalogActionData_t");

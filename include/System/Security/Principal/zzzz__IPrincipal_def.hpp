@@ -10,23 +10,23 @@ class IPrincipal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::IPrincipal);
-// Dependencies 
+// Dependencies
 namespace System::Security::Principal {
 // Is value type: false
 // CS Name: System.Security.Principal.IPrincipal
 class CORDL_TYPE IPrincipal {
 public:
-// Declarations
-// Ctor Parameters [CppParam { name: "", ty: "IPrincipal", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IPrincipal(IPrincipal const& ) = delete;
+  // Declarations
+  // Ctor Parameters [CppParam { name: "", ty: "IPrincipal", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IPrincipal(IPrincipal const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3012};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3012 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def System::Security::Principal
+} // namespace System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::IPrincipal);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::IPrincipal*, "System.Security.Principal", "IPrincipal");

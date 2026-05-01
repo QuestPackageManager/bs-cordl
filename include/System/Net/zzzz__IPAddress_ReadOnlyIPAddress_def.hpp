@@ -18,34 +18,34 @@ namespace GlobalNamespace {
 // CS Name: System.Net.IPAddress/ReadOnlyIPAddress
 class CORDL_TYPE IPAddress_ReadOnlyIPAddress : public ::System::Net::IPAddress {
 public:
-// Declarations
-static inline ::GlobalNamespace::IPAddress_ReadOnlyIPAddress* New_ctor(int64_t  newAddress) ;
+  // Declarations
+  static inline ::GlobalNamespace::IPAddress_ReadOnlyIPAddress* New_ctor(int64_t newAddress);
 
-/// @brief Method .ctor, addr 0x6245f50, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(int64_t  newAddress) ;
+  /// @brief Method .ctor, addr 0x62b7f5c, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(int64_t newAddress);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IPAddress_ReadOnlyIPAddress() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IPAddress_ReadOnlyIPAddress();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddress&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddress && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddress const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IPAddress_ReadOnlyIPAddress", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IPAddress_ReadOnlyIPAddress(IPAddress_ReadOnlyIPAddress const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11439 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11432};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IPAddress_ReadOnlyIPAddress, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IPAddress_ReadOnlyIPAddress);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPAddress_ReadOnlyIPAddress*, "System.Net", "IPAddress/ReadOnlyIPAddress");

@@ -22,710 +22,630 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType::LevelPackDetailViewController_ContentType(int32_t  value__) noexcept  {
-this->value__ = value__;
+constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType::LevelPackDetailViewController_ContentType(int32_t value__) noexcept {
+  this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType::LevelPackDetailViewController_ContentType()   {
-}
-constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType  GlobalNamespace::LevelPackDetailViewController_ContentType::Loading{static_cast<int32_t>(0x0)};
-constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType  GlobalNamespace::LevelPackDetailViewController_ContentType::NonBuyable{static_cast<int32_t>(0x1)};
-constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType  GlobalNamespace::LevelPackDetailViewController_ContentType::Buyable{static_cast<int32_t>(0x2)};
-constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType  GlobalNamespace::LevelPackDetailViewController_ContentType::Error{static_cast<int32_t>(0x3)};
+constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType::LevelPackDetailViewController_ContentType() {}
+constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType GlobalNamespace::LevelPackDetailViewController_ContentType::Loading{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType GlobalNamespace::LevelPackDetailViewController_ContentType::NonBuyable{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType GlobalNamespace::LevelPackDetailViewController_ContentType::Buyable{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::LevelPackDetailViewController_ContentType GlobalNamespace::LevelPackDetailViewController_ContentType::Error{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::*)()>(&::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x57b1f68;
+  constexpr static std::size_t addrs = 0x5822440;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25.SetStateMachine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57b2318;
+  constexpr static std::size_t addrs = 0x58227f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
-                        "SetStateMachine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
+                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
-                        "SetStateMachine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25>::get(),
+                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr  GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*()  {
-return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine()  {
-return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelPackDetailViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::LevelPackDetailViewController>  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>  __u__1) noexcept  {
-this->__1__state = __1__state;
-this->__t__builder = __t__builder;
-this->__4__this = __4__this;
-this->__u__1 = __u__1;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::LevelPackDetailViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelPackDetailViewController> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25()   {
-}
+constexpr ::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__25() {}
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::*)()>(&::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x57b2320;
+  constexpr static std::size_t addrs = 0x58227f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23.SetStateMachine
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57b2824;
+  constexpr static std::size_t addrs = 0x5822cfc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(),
-                        "SetStateMachine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(),
-                        "SetStateMachine",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+inline void GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr  GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*()  {
-return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine()  {
-return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelPackDetailViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::LevelPackDetailViewController>  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>  __u__1) noexcept  {
-this->__1__state = __1__state;
-this->__t__builder = __t__builder;
-this->__4__this = __4__this;
-this->__u__1 = __u__1;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::LevelPackDetailViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelPackDetailViewController> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23()   {
-}
+constexpr ::GlobalNamespace::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23::LevelPackDetailViewController__RefreshAvailabilityAsync_d__23() {}
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.SetData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(::GlobalNamespace::BeatmapLevelPack*)>(&::GlobalNamespace::LevelPackDetailViewController::SetData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(::GlobalNamespace::BeatmapLevelPack*)>(
+    &::GlobalNamespace::LevelPackDetailViewController::SetData)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x57ad4b4;
+  constexpr static std::size_t addrs = 0x581d98c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "SetData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelPack*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelPack*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.DidActivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(bool, bool, bool)>(&::GlobalNamespace::LevelPackDetailViewController::DidActivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(bool, bool, bool)>(
+    &::GlobalNamespace::LevelPackDetailViewController::DidActivate)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x57b154c;
+  constexpr static std::size_t addrs = 0x5821a24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.DidDeactivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(bool, bool)>(&::GlobalNamespace::LevelPackDetailViewController::DidDeactivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(bool, bool)>(
+    &::GlobalNamespace::LevelPackDetailViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x57b17d4;
+  constexpr static std::size_t addrs = 0x5821cac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.OnDestroy
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x57b18f4;
+  constexpr static std::size_t addrs = 0x5821dcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.RefreshAvailabilityAsync
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::RefreshAvailabilityAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::RefreshAvailabilityAsync)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x57b14a8;
+  constexpr static std::size_t addrs = 0x5821980;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "RefreshAvailabilityAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                               "RefreshAvailabilityAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.BuyPackButtonWasPressed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::BuyPackButtonWasPressed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::BuyPackButtonWasPressed)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x57b1a6c;
+  constexpr static std::size_t addrs = 0x5821f44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "BuyPackButtonWasPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                               "BuyPackButtonWasPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.OpenLevelPackProductStoreAsync
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::OpenLevelPackProductStoreAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x57b1b08;
+  constexpr static std::size_t addrs = 0x5821fe0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "OpenLevelPackProductStoreAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                               "OpenLevelPackProductStoreAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.ShowContent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(::GlobalNamespace::LevelPackDetailViewController_ContentType, ::StringW)>(&::GlobalNamespace::LevelPackDetailViewController::ShowContent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(
+    ::GlobalNamespace::LevelPackDetailViewController_ContentType, ::StringW)>(&::GlobalNamespace::LevelPackDetailViewController::ShowContent)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x57b1bac;
+  constexpr static std::size_t addrs = 0x5822084;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "ShowContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelPackDetailViewController_ContentType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), "ShowContent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelPackDetailViewController_ContentType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController.HandleAdditionalContentModelDidInvalidateData
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::HandleAdditionalContentModelDidInvalidateData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57b1de0;
+  constexpr static std::size_t addrs = 0x58222b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "HandleAdditionalContentModelDidInvalidateData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                 "HandleAdditionalContentModelDidInvalidateData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x57b1de4;
+  constexpr static std::size_t addrs = 0x58222bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController._DidActivate_g__HandleDidPressRefreshButton_20_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::_DidActivate_g__HandleDidPressRefreshButton_20_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::_DidActivate_g__HandleDidPressRefreshButton_20_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57b1e44;
+  constexpr static std::size_t addrs = 0x582231c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "<DidActivate>g__HandleDidPressRefreshButton|20_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                 "<DidActivate>g__HandleDidPressRefreshButton|20_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController._DidActivate_b__20_1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x57b1e48;
+  constexpr static std::size_t addrs = 0x5822320;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "<DidActivate>b__20_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                               "<DidActivate>b__20_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelPackDetailViewController._DidActivate_b__20_2
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(&::GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
+    &::GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_2)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x57b1ed8;
+  constexpr static std::size_t addrs = 0x58223b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "<DidActivate>b__20_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                               "<DidActivate>b__20_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__detailWrapper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____detailWrapper;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__detailWrapper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____detailWrapper;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__detailWrapper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____detailWrapper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____detailWrapper;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__detailWrapper(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____detailWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__detailWrapper(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____detailWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::ImageView>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__packImage()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____packImage;
+constexpr ::UnityW<::HMUI::ImageView>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__packImage() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____packImage;
 }
 constexpr ::UnityW<::HMUI::ImageView> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__packImage() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____packImage;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____packImage;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__packImage(::UnityW<::HMUI::ImageView>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__packImage(::UnityW<::HMUI::ImageView> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__buyButton()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__buyButton() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__buyButton() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyButton;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyButton;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__buyButton(::UnityW<::UnityEngine::UI::Button>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__buyButton(::UnityW<::UnityEngine::UI::Button> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__buyContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyContainer;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__buyContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyContainer;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__buyContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buyContainer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buyContainer;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__buyContainer(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buyContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__buyContainer(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buyContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::LoadingControl>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__loadingControl()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____loadingControl;
+constexpr ::UnityW<::GlobalNamespace::LoadingControl>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__loadingControl() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____loadingControl;
 }
 constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__loadingControl() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____loadingControl;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____loadingControl;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__loadingControl(::UnityW<::GlobalNamespace::LoadingControl>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadingControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__loadingControl(::UnityW<::GlobalNamespace::LoadingControl> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadingControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__requireInternetContainer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____requireInternetContainer;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__requireInternetContainer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____requireInternetContainer;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__requireInternetContainer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____requireInternetContainer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____requireInternetContainer;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__requireInternetContainer(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____requireInternetContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__requireInternetContainer(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____requireInternetContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__steamMessageGameObject()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____steamMessageGameObject;
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__steamMessageGameObject() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____steamMessageGameObject;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__steamMessageGameObject() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____steamMessageGameObject;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____steamMessageGameObject;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____steamMessageGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____steamMessageGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__kawaseBlurRenderer()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____kawaseBlurRenderer;
+constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__kawaseBlurRenderer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____kawaseBlurRenderer;
 }
 constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__kawaseBlurRenderer() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____kawaseBlurRenderer;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____kawaseBlurRenderer;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____kawaseBlurRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____kawaseBlurRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__defaultCoverSprite()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultCoverSprite;
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__defaultCoverSprite() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultCoverSprite;
 }
 constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__defaultCoverSprite() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____defaultCoverSprite;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultCoverSprite;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__defaultCoverSprite(::UnityW<::UnityEngine::Sprite>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultCoverSprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__defaultCoverSprite(::UnityW<::UnityEngine::Sprite> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultCoverSprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IAdditionalContentModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__additionalContentModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____additionalContentModel;
+constexpr ::GlobalNamespace::IAdditionalContentModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__additionalContentModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____additionalContentModel;
 }
 constexpr ::GlobalNamespace::IAdditionalContentModel* const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__additionalContentModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____additionalContentModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____additionalContentModel;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____additionalContentModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____additionalContentModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IEntitlementModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__entitlementModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____entitlementModel;
+constexpr ::GlobalNamespace::IEntitlementModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__entitlementModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____entitlementModel;
 }
 constexpr ::GlobalNamespace::IEntitlementModel* const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__entitlementModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____entitlementModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____entitlementModel;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__entitlementModel(::GlobalNamespace::IEntitlementModel*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entitlementModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__entitlementModel(::GlobalNamespace::IEntitlementModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entitlementModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::DlcPromoPanelModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__dlcPromoPanelModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____dlcPromoPanelModel;
+constexpr ::GlobalNamespace::DlcPromoPanelModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__dlcPromoPanelModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____dlcPromoPanelModel;
 }
 constexpr ::GlobalNamespace::DlcPromoPanelModel* const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__dlcPromoPanelModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____dlcPromoPanelModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____dlcPromoPanelModel;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__dlcPromoPanelModel(::GlobalNamespace::DlcPromoPanelModel*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dlcPromoPanelModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__dlcPromoPanelModel(::GlobalNamespace::DlcPromoPanelModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dlcPromoPanelModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IAnalyticsModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__analyticsModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____analyticsModel;
+constexpr ::GlobalNamespace::IAnalyticsModel*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__analyticsModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____analyticsModel;
 }
 constexpr ::GlobalNamespace::IAnalyticsModel* const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__analyticsModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____analyticsModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____analyticsModel;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EventBinder*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__eventBinder()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____eventBinder;
+constexpr ::GlobalNamespace::EventBinder*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__eventBinder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____eventBinder;
 }
 constexpr ::GlobalNamespace::EventBinder* const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__eventBinder() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____eventBinder;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____eventBinder;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__eventBinder(::GlobalNamespace::EventBinder*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__eventBinder(::GlobalNamespace::EventBinder* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__cancellationTokenSource()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cancellationTokenSource;
+constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__cancellationTokenSource() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancellationTokenSource;
 }
 constexpr ::System::Threading::CancellationTokenSource* const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__cancellationTokenSource() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____cancellationTokenSource;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancellationTokenSource;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancellationTokenSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancellationTokenSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapLevelPack*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__pack()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____pack;
+constexpr ::GlobalNamespace::BeatmapLevelPack*& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__pack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____pack;
 }
 constexpr ::GlobalNamespace::BeatmapLevelPack* const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__pack() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____pack;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____pack;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__pack(::GlobalNamespace::BeatmapLevelPack*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__pack(::GlobalNamespace::BeatmapLevelPack* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__blurredPackArtwork()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blurredPackArtwork;
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__blurredPackArtwork() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blurredPackArtwork;
 }
 constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__blurredPackArtwork() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____blurredPackArtwork;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____blurredPackArtwork;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__blurredPackArtwork(::UnityW<::UnityEngine::Sprite>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blurredPackArtwork)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__blurredPackArtwork(::UnityW<::UnityEngine::Sprite> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blurredPackArtwork)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EntitlementStatus& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__entitlementStatus()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____entitlementStatus;
+constexpr ::GlobalNamespace::EntitlementStatus& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__entitlementStatus() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____entitlementStatus;
 }
 constexpr ::GlobalNamespace::EntitlementStatus const& GlobalNamespace::LevelPackDetailViewController::__cordl_internal_get__entitlementStatus() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____entitlementStatus;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____entitlementStatus;
 }
-constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__entitlementStatus(::GlobalNamespace::EntitlementStatus  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____entitlementStatus = value;
+constexpr void GlobalNamespace::LevelPackDetailViewController::__cordl_internal_set__entitlementStatus(::GlobalNamespace::EntitlementStatus value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____entitlementStatus = value;
 }
-inline void GlobalNamespace::LevelPackDetailViewController::SetData(::GlobalNamespace::BeatmapLevelPack*  pack)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "SetData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelPack*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pack);
+inline void GlobalNamespace::LevelPackDetailViewController::SetData(::GlobalNamespace::BeatmapLevelPack* pack) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelPack*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pack);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
+inline void GlobalNamespace::LevelPackDetailViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
+inline void GlobalNamespace::LevelPackDetailViewController::DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::OnDestroy()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::OnDestroy() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::RefreshAvailabilityAsync()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "RefreshAvailabilityAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::RefreshAvailabilityAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                             "RefreshAvailabilityAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::BuyPackButtonWasPressed()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "BuyPackButtonWasPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::BuyPackButtonWasPressed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                             "BuyPackButtonWasPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::OpenLevelPackProductStoreAsync()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "OpenLevelPackProductStoreAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::OpenLevelPackProductStoreAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                             "OpenLevelPackProductStoreAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::ShowContent(::GlobalNamespace::LevelPackDetailViewController_ContentType  contentType, ::StringW  errorText)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "ShowContent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelPackDetailViewController_ContentType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, contentType, errorText);
+inline void GlobalNamespace::LevelPackDetailViewController::ShowContent(::GlobalNamespace::LevelPackDetailViewController_ContentType contentType, ::StringW errorText) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), "ShowContent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelPackDetailViewController_ContentType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, contentType, errorText);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::HandleAdditionalContentModelDidInvalidateData()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "HandleAdditionalContentModelDidInvalidateData",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::HandleAdditionalContentModelDidInvalidateData() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                               "HandleAdditionalContentModelDidInvalidateData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::_DidActivate_g__HandleDidPressRefreshButton_20_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "<DidActivate>g__HandleDidPressRefreshButton|20_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::_DidActivate_g__HandleDidPressRefreshButton_20_0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                               "<DidActivate>g__HandleDidPressRefreshButton|20_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "<DidActivate>b__20_1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                             "<DidActivate>b__20_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_2()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
-                        "<DidActivate>b__20_2",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__20_2() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
+                                                                             "<DidActivate>b__20_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LevelPackDetailViewController* GlobalNamespace::LevelPackDetailViewController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelPackDetailViewController*>());
+inline ::GlobalNamespace::LevelPackDetailViewController* GlobalNamespace::LevelPackDetailViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelPackDetailViewController*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelPackDetailViewController::LevelPackDetailViewController()   {
-}
+constexpr ::GlobalNamespace::LevelPackDetailViewController::LevelPackDetailViewController() {}

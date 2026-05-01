@@ -21,37 +21,35 @@ namespace Zenject {
 // CS Name: Zenject.ScriptableObjectInstallerUtil
 class CORDL_TYPE ScriptableObjectInstallerUtil : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CreateInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TInstaller>
-static inline TInstaller CreateInstaller(::StringW  resourcePath, ::Zenject::DiContainer*  container) ;
+  // Declarations
+  /// @brief Method CreateInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TInstaller> static inline TInstaller CreateInstaller(::StringW resourcePath, ::Zenject::DiContainer* container);
 
-/// @brief Method GetDefaultResourcePath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TInstaller>
-static inline ::StringW GetDefaultResourcePath() ;
+  /// @brief Method GetDefaultResourcePath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TInstaller> static inline ::StringW GetDefaultResourcePath();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ScriptableObjectInstallerUtil() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptableObjectInstallerUtil();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstallerUtil", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ScriptableObjectInstallerUtil(ScriptableObjectInstallerUtil&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstallerUtil", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ScriptableObjectInstallerUtil(ScriptableObjectInstallerUtil && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstallerUtil", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ScriptableObjectInstallerUtil(ScriptableObjectInstallerUtil const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstallerUtil", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ScriptableObjectInstallerUtil(ScriptableObjectInstallerUtil const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14491 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14484};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ScriptableObjectInstallerUtil, 0x10>, "Size mismatch!");
 
-} // namespace end def Zenject
+} // namespace Zenject
 NEED_NO_BOX(::Zenject::ScriptableObjectInstallerUtil);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ScriptableObjectInstallerUtil*, "Zenject", "ScriptableObjectInstallerUtil");

@@ -23,40 +23,40 @@ namespace UnityEngine::Experimental::XR::Interaction {
 // CS Name: UnityEngine.Experimental.XR.Interaction.BasePoseProvider
 class CORDL_TYPE BasePoseProvider : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Method GetPoseFromProvider, addr 0x69ecfb4, size 0x24, virtual true, abstract: false, final false
-inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseFromProvider(::ByRef<::UnityEngine::Pose>  output) ;
+  // Declarations
+  /// @brief Method GetPoseFromProvider, addr 0x6a5f1fc, size 0x24, virtual true, abstract: false, final false
+  inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseFromProvider(::ByRef<::UnityEngine::Pose> output);
 
-static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor() ;
+  static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor();
 
-/// @brief Method TryGetPoseFromProvider, addr 0x69ecfd8, size 0x7c, virtual true, abstract: false, final false
-inline bool TryGetPoseFromProvider(::ByRef<::UnityEngine::Pose>  output) ;
+  /// @brief Method TryGetPoseFromProvider, addr 0x6a5f220, size 0x7c, virtual true, abstract: false, final false
+  inline bool TryGetPoseFromProvider(::ByRef<::UnityEngine::Pose> output);
 
-/// @brief Method .ctor, addr 0x69ed054, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6a5f29c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BasePoseProvider() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasePoseProvider();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BasePoseProvider(BasePoseProvider&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BasePoseProvider(BasePoseProvider && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BasePoseProvider(BasePoseProvider const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BasePoseProvider(BasePoseProvider const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23113 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23005};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Experimental::XR::Interaction
+} // namespace UnityEngine::Experimental::XR::Interaction
 NEED_NO_BOX(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider*, "UnityEngine.Experimental.XR.Interaction", "BasePoseProvider");

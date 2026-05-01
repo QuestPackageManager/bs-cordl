@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProductHeaderValue)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
@@ -35,94 +34,95 @@ namespace System::Net::Http::Headers {
 // CS Name: System.Net.Http.Headers.ProductHeaderValue
 class CORDL_TYPE ProductHeaderValue : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Name, put=set_Name)) ::StringW  Name;
+  // Declarations
+  __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
- __declspec(property(get=get_Version, put=set_Version)) ::StringW  Version;
+  __declspec(property(get = get_Version, put = set_Version)) ::StringW Version;
 
-/// @brief Field <Name>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+  /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-/// @brief Field <Version>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Version_k__BackingField, put=__cordl_internal_set__Version_k__BackingField)) ::StringW  _Version_k__BackingField;
+  /// @brief Field <Version>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Version_k__BackingField, put = __cordl_internal_set__Version_k__BackingField)) ::StringW _Version_k__BackingField;
 
-/// @brief Convert operator to "::System::ICloneable"
-constexpr operator  ::System::ICloneable*() noexcept;
+  /// @brief Convert operator to "::System::ICloneable"
+  constexpr operator ::System::ICloneable*() noexcept;
 
-/// @brief Method Equals, addr 0x5f3906c, size 0xbc, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x5fab078, size 0xbc, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method GetHashCode, addr 0x5f39128, size 0x64, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x5fab134, size 0x64, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-static inline ::System::Net::Http::Headers::ProductHeaderValue* New_ctor() ;
+  static inline ::System::Net::Http::Headers::ProductHeaderValue* New_ctor();
 
-/// @brief Method System.ICloneable.Clone, addr 0x5f39068, size 0x4, virtual true, abstract: false, final true
-inline ::System::Object* System_ICloneable_Clone() ;
+  /// @brief Method System.ICloneable.Clone, addr 0x5fab074, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Object* System_ICloneable_Clone();
 
-/// @brief Method ToString, addr 0x5f393b8, size 0x60, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5fab3c4, size 0x60, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method TryParse, addr 0x5f3918c, size 0xb4, virtual false, abstract: false, final false
-static inline bool TryParse(::StringW  input, int32_t  minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductHeaderValue*>*>  result) ;
+  /// @brief Method TryParse, addr 0x5fab198, size 0xb4, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductHeaderValue*>*> result);
 
-/// @brief Method TryParseElement, addr 0x5f39240, size 0x178, virtual false, abstract: false, final false
-static inline bool TryParseElement(::System::Net::Http::Headers::Lexer*  lexer, ::ByRef<::System::Net::Http::Headers::ProductHeaderValue*>  parsedValue, ::ByRef<::System::Net::Http::Headers::Token>  t) ;
+  /// @brief Method TryParseElement, addr 0x5fab24c, size 0x178, virtual false, abstract: false, final false
+  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::ProductHeaderValue*> parsedValue,
+                                     ::ByRef<::System::Net::Http::Headers::Token> t);
 
-constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__Version_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Version_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Version_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Version_k__BackingField();
 
-constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-constexpr void __cordl_internal_set__Version_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Version_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x5f39044, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5fab050, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Name, addr 0x5f39048, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x5fab054, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Name();
 
-/// @brief Method get_Version, addr 0x5f39058, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Version() ;
+  /// @brief Method get_Version, addr 0x5fab064, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Version();
 
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-/// @brief Method set_Name, addr 0x5f39050, size 0x8, virtual false, abstract: false, final false
-inline void set_Name(::StringW  value) ;
+  /// @brief Method set_Name, addr 0x5fab05c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Name(::StringW value);
 
-/// @brief Method set_Version, addr 0x5f39060, size 0x8, virtual false, abstract: false, final false
-inline void set_Version(::StringW  value) ;
+  /// @brief Method set_Version, addr 0x5fab06c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Version(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProductHeaderValue() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProductHeaderValue();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProductHeaderValue(ProductHeaderValue&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProductHeaderValue(ProductHeaderValue && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProductHeaderValue(ProductHeaderValue const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProductHeaderValue", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProductHeaderValue(ProductHeaderValue const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20120 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20110};
+  /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____Name_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____Name_k__BackingField;
+  /// @brief Field <Version>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____Version_k__BackingField;
 
-/// @brief Field <Version>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____Version_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Http::Headers::ProductHeaderValue, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
@@ -131,6 +131,6 @@ static_assert(offsetof(::System::Net::Http::Headers::ProductHeaderValue, ____Ver
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::ProductHeaderValue, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Net::Http::Headers
+} // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::ProductHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::ProductHeaderValue*, "System.Net.Http.Headers", "ProductHeaderValue");

@@ -30,116 +30,117 @@ namespace System::Globalization {
 // CS Name: System.Globalization.ThaiBuddhistCalendar
 class CORDL_TYPE ThaiBuddhistCalendar : public ::System::Globalization::Calendar {
 public:
-// Declarations
- __declspec(property(get=get_Eras)) ::ArrayW<int32_t,::Array<int32_t>*>  Eras;
+  // Declarations
+  __declspec(property(get = get_Eras)) ::ArrayW<int32_t, ::Array<int32_t>*> Eras;
 
- __declspec(property(get=get_MaxSupportedDateTime)) ::System::DateTime  MaxSupportedDateTime;
+  __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
- __declspec(property(get=get_MinSupportedDateTime)) ::System::DateTime  MinSupportedDateTime;
+  __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
- __declspec(property(get=get_TwoDigitYearMax, put=set_TwoDigitYearMax)) int32_t  TwoDigitYearMax;
+  __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
 
- __declspec(property(get=get_ID)) int32_t  _cordl_ID;
+  __declspec(property(get = get_ID)) int32_t _cordl_ID;
 
-/// @brief Field helper, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_helper, put=__cordl_internal_set_helper)) ::System::Globalization::GregorianCalendarHelper*  helper;
+  /// @brief Field helper, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Globalization::GregorianCalendarHelper* helper;
 
-/// @brief Field thaiBuddhistEraInfo, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_thaiBuddhistEraInfo, put=setStaticF_thaiBuddhistEraInfo)) ::ArrayW<::System::Globalization::EraInfo*,::Array<::System::Globalization::EraInfo*>*>  thaiBuddhistEraInfo;
+  /// @brief Field thaiBuddhistEraInfo, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_thaiBuddhistEraInfo, put = setStaticF_thaiBuddhistEraInfo)) ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*>
+      thaiBuddhistEraInfo;
 
-/// @brief Method GetDayOfMonth, addr 0x5a1ff80, size 0x14, virtual true, abstract: false, final false
-inline int32_t GetDayOfMonth(::System::DateTime  time) ;
+  /// @brief Method GetDayOfMonth, addr 0x5a91f68, size 0x14, virtual true, abstract: false, final false
+  inline int32_t GetDayOfMonth(::System::DateTime time);
 
-/// @brief Method GetDayOfWeek, addr 0x5a1ff94, size 0x14, virtual true, abstract: false, final false
-inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime  time) ;
+  /// @brief Method GetDayOfWeek, addr 0x5a91f7c, size 0x14, virtual true, abstract: false, final false
+  inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-/// @brief Method GetDaysInMonth, addr 0x5a1ff58, size 0x14, virtual true, abstract: false, final false
-inline int32_t GetDaysInMonth(int32_t  year, int32_t  month, int32_t  era) ;
+  /// @brief Method GetDaysInMonth, addr 0x5a91f40, size 0x14, virtual true, abstract: false, final false
+  inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-/// @brief Method GetDaysInYear, addr 0x5a1ff6c, size 0x14, virtual true, abstract: false, final false
-inline int32_t GetDaysInYear(int32_t  year, int32_t  era) ;
+  /// @brief Method GetDaysInYear, addr 0x5a91f54, size 0x14, virtual true, abstract: false, final false
+  inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-/// @brief Method GetEra, addr 0x5a1ffcc, size 0x14, virtual true, abstract: false, final false
-inline int32_t GetEra(::System::DateTime  time) ;
+  /// @brief Method GetEra, addr 0x5a91fb4, size 0x14, virtual true, abstract: false, final false
+  inline int32_t GetEra(::System::DateTime time);
 
-/// @brief Method GetMonth, addr 0x5a1ffe0, size 0x14, virtual true, abstract: false, final false
-inline int32_t GetMonth(::System::DateTime  time) ;
+  /// @brief Method GetMonth, addr 0x5a91fc8, size 0x14, virtual true, abstract: false, final false
+  inline int32_t GetMonth(::System::DateTime time);
 
-/// @brief Method GetMonthsInYear, addr 0x5a1ffa8, size 0x24, virtual true, abstract: false, final false
-inline int32_t GetMonthsInYear(int32_t  year, int32_t  era) ;
+  /// @brief Method GetMonthsInYear, addr 0x5a91f90, size 0x24, virtual true, abstract: false, final false
+  inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-/// @brief Method GetYear, addr 0x5a1fff4, size 0x14, virtual true, abstract: false, final false
-inline int32_t GetYear(::System::DateTime  time) ;
+  /// @brief Method GetYear, addr 0x5a91fdc, size 0x14, virtual true, abstract: false, final false
+  inline int32_t GetYear(::System::DateTime time);
 
-/// @brief Method IsLeapYear, addr 0x5a20008, size 0x14, virtual true, abstract: false, final false
-inline bool IsLeapYear(int32_t  year, int32_t  era) ;
+  /// @brief Method IsLeapYear, addr 0x5a91ff0, size 0x14, virtual true, abstract: false, final false
+  inline bool IsLeapYear(int32_t year, int32_t era);
 
-static inline ::System::Globalization::ThaiBuddhistCalendar* New_ctor() ;
+  static inline ::System::Globalization::ThaiBuddhistCalendar* New_ctor();
 
-/// @brief Method ToDateTime, addr 0x5a2001c, size 0x20, virtual true, abstract: false, final false
-inline ::System::DateTime ToDateTime(int32_t  year, int32_t  month, int32_t  day, int32_t  hour, int32_t  minute, int32_t  second, int32_t  millisecond, int32_t  era) ;
+  /// @brief Method ToDateTime, addr 0x5a92004, size 0x20, virtual true, abstract: false, final false
+  inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-/// @brief Method ToFourDigitYear, addr 0x5a201b8, size 0xa0, virtual true, abstract: false, final false
-inline int32_t ToFourDigitYear(int32_t  year) ;
+  /// @brief Method ToFourDigitYear, addr 0x5a921a0, size 0xa0, virtual true, abstract: false, final false
+  inline int32_t ToFourDigitYear(int32_t year);
 
-constexpr ::System::Globalization::GregorianCalendarHelper* const& __cordl_internal_get_helper() const;
+  constexpr ::System::Globalization::GregorianCalendarHelper* const& __cordl_internal_get_helper() const;
 
-constexpr ::System::Globalization::GregorianCalendarHelper*& __cordl_internal_get_helper() ;
+  constexpr ::System::Globalization::GregorianCalendarHelper*& __cordl_internal_get_helper();
 
-constexpr void __cordl_internal_set_helper(::System::Globalization::GregorianCalendarHelper*  value) ;
+  constexpr void __cordl_internal_set_helper(::System::Globalization::GregorianCalendarHelper* value);
 
-/// @brief Method .ctor, addr 0x5a1feb0, size 0xa0, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5a91e98, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::ArrayW<::System::Globalization::EraInfo*,::Array<::System::Globalization::EraInfo*>*> getStaticF_thaiBuddhistEraInfo() ;
+  static inline ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> getStaticF_thaiBuddhistEraInfo();
 
-/// @brief Method get_Eras, addr 0x5a2003c, size 0x14, virtual true, abstract: false, final false
-inline ::ArrayW<int32_t,::Array<int32_t>*> get_Eras() ;
+  /// @brief Method get_Eras, addr 0x5a92024, size 0x14, virtual true, abstract: false, final false
+  inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Eras();
 
-/// @brief Method get_ID, addr 0x5a1ff50, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ID() ;
+  /// @brief Method get_ID, addr 0x5a91f38, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ID();
 
-/// @brief Method get_MaxSupportedDateTime, addr 0x5a1fe54, size 0x5c, virtual true, abstract: false, final false
-inline ::System::DateTime get_MaxSupportedDateTime() ;
+  /// @brief Method get_MaxSupportedDateTime, addr 0x5a91e3c, size 0x5c, virtual true, abstract: false, final false
+  inline ::System::DateTime get_MaxSupportedDateTime();
 
-/// @brief Method get_MinSupportedDateTime, addr 0x5a1fdf8, size 0x5c, virtual true, abstract: false, final false
-inline ::System::DateTime get_MinSupportedDateTime() ;
+  /// @brief Method get_MinSupportedDateTime, addr 0x5a91de0, size 0x5c, virtual true, abstract: false, final false
+  inline ::System::DateTime get_MinSupportedDateTime();
 
-/// @brief Method get_TwoDigitYearMax, addr 0x5a20050, size 0x44, virtual true, abstract: false, final false
-inline int32_t get_TwoDigitYearMax() ;
+  /// @brief Method get_TwoDigitYearMax, addr 0x5a92038, size 0x44, virtual true, abstract: false, final false
+  inline int32_t get_TwoDigitYearMax();
 
-static inline void setStaticF_thaiBuddhistEraInfo(::ArrayW<::System::Globalization::EraInfo*,::Array<::System::Globalization::EraInfo*>*>  value) ;
+  static inline void setStaticF_thaiBuddhistEraInfo(::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> value);
 
-/// @brief Method set_TwoDigitYearMax, addr 0x5a20094, size 0x124, virtual true, abstract: false, final false
-inline void set_TwoDigitYearMax(int32_t  value) ;
+  /// @brief Method set_TwoDigitYearMax, addr 0x5a9207c, size 0x124, virtual true, abstract: false, final false
+  inline void set_TwoDigitYearMax(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ThaiBuddhistCalendar() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThaiBuddhistCalendar();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ThaiBuddhistCalendar(ThaiBuddhistCalendar&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ThaiBuddhistCalendar(ThaiBuddhistCalendar && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ThaiBuddhistCalendar(ThaiBuddhistCalendar const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThaiBuddhistCalendar", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ThaiBuddhistCalendar(ThaiBuddhistCalendar const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3634 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3634};
+  /// @brief Field helper, offset: 0x20, size: 0x8, def value: None
+  ::System::Globalization::GregorianCalendarHelper* ___helper;
 
-/// @brief Field helper, offset: 0x20, size: 0x8, def value: None
- ::System::Globalization::GregorianCalendarHelper*  ___helper;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Globalization::ThaiBuddhistCalendar, ___helper) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Globalization::ThaiBuddhistCalendar, 0x28>, "Size mismatch!");
 
-} // namespace end def System::Globalization
+} // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::ThaiBuddhistCalendar);
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::ThaiBuddhistCalendar*, "System.Globalization", "ThaiBuddhistCalendar");

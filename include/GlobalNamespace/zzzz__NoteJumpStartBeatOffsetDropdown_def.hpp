@@ -8,12 +8,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteJumpStartBeatOffsetDropdown)
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
+template <typename T1, typename T2> class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,37 +25,37 @@ namespace GlobalNamespace {
 // CS Name: NoteJumpStartBeatOffsetDropdown
 class CORDL_TYPE NoteJumpStartBeatOffsetDropdown : public ::GlobalNamespace::ValueDropdownController_1<float_t> {
 public:
-// Declarations
-/// @brief Method GetNamedValues, addr 0x586fd84, size 0x1a0, virtual true, abstract: false, final false
-inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float_t,::StringW>*>* GetNamedValues() ;
+  // Declarations
+  /// @brief Method GetNamedValues, addr 0x58e3ee4, size 0x1a0, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float_t, ::StringW>*>* GetNamedValues();
 
-static inline ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* New_ctor() ;
+  static inline ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* New_ctor();
 
-/// @brief Method .ctor, addr 0x586ff24, size 0x44, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58e4084, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NoteJumpStartBeatOffsetDropdown() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteJumpStartBeatOffsetDropdown();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartBeatOffsetDropdown", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NoteJumpStartBeatOffsetDropdown(NoteJumpStartBeatOffsetDropdown&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartBeatOffsetDropdown", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NoteJumpStartBeatOffsetDropdown(NoteJumpStartBeatOffsetDropdown && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartBeatOffsetDropdown", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NoteJumpStartBeatOffsetDropdown(NoteJumpStartBeatOffsetDropdown const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartBeatOffsetDropdown", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NoteJumpStartBeatOffsetDropdown(NoteJumpStartBeatOffsetDropdown const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6456 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6447};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteJumpStartBeatOffsetDropdown);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*, "", "NoteJumpStartBeatOffsetDropdown");

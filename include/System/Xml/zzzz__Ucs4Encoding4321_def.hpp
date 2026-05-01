@@ -19,42 +19,42 @@ namespace System::Xml {
 // CS Name: System.Xml.Ucs4Encoding4321
 class CORDL_TYPE Ucs4Encoding4321 : public ::System::Xml::Ucs4Encoding {
 public:
-// Declarations
- __declspec(property(get=get_EncodingName)) ::StringW  EncodingName;
+  // Declarations
+  __declspec(property(get = get_EncodingName)) ::StringW EncodingName;
 
-/// @brief Method GetPreamble, addr 0x612f518, size 0x78, virtual true, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetPreamble() ;
+  /// @brief Method GetPreamble, addr 0x61a1524, size 0x78, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
 
-static inline ::System::Xml::Ucs4Encoding4321* New_ctor() ;
+  static inline ::System::Xml::Ucs4Encoding4321* New_ctor();
 
-/// @brief Method .ctor, addr 0x612f128, size 0x74, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x61a1134, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_EncodingName, addr 0x612f4d4, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_EncodingName() ;
+  /// @brief Method get_EncodingName, addr 0x61a14e0, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_EncodingName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Ucs4Encoding4321() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Ucs4Encoding4321();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Ucs4Encoding4321", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Ucs4Encoding4321(Ucs4Encoding4321&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Ucs4Encoding4321", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Ucs4Encoding4321(Ucs4Encoding4321 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Ucs4Encoding4321", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Ucs4Encoding4321(Ucs4Encoding4321 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Ucs4Encoding4321", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Ucs4Encoding4321(Ucs4Encoding4321 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9434 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9428};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Ucs4Encoding4321, 0x40>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::Ucs4Encoding4321);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Ucs4Encoding4321*, "System.Xml", "Ucs4Encoding4321");

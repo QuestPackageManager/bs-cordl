@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Unity/Collections/Allocator.hpp"
 #include "Unity/Collections/AllocatorHelper_1.hpp"
@@ -155,6 +155,5 @@
 #include "Unity/Collections/xxHash3.hpp"
 #include "Unity/Collections/xxHashDefaultKey.hpp"
 #ifdef __cpp_modules
-                    export module Collections;
-                    #endif
-                
+export module Collections;
+#endif

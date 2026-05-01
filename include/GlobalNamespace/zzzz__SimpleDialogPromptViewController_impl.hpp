@@ -8,304 +8,279 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(&::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(
+    &::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x573b7a8;
+  constexpr static std::size_t addrs = 0x57ab4c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0._DidActivate_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(&::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_DidActivate_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(
+    &::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_DidActivate_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x573b998;
+  constexpr static std::size_t addrs = 0x57ab6b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(),
-                        "<DidActivate>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(),
+                                                 "<DidActivate>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_get_buttonNum()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___buttonNum;
+constexpr int32_t& GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_get_buttonNum() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___buttonNum;
 }
 constexpr int32_t const& GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_get_buttonNum() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___buttonNum;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___buttonNum;
 }
-constexpr void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_set_buttonNum(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___buttonNum = value;
+constexpr void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_set_buttonNum(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___buttonNum = value;
 }
-constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>& GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>& GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_DidActivate_b__0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(),
-                        "<DidActivate>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_DidActivate_b__0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>::get(),
+                                               "<DidActivate>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0* GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>());
+inline ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0* GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::SimpleDialogPromptViewController___c__DisplayClass5_0()   {
-}
+constexpr ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::SimpleDialogPromptViewController___c__DisplayClass5_0() {}
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController.DidActivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool, bool)>(&::GlobalNamespace::SimpleDialogPromptViewController::DidActivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool, bool)>(
+    &::GlobalNamespace::SimpleDialogPromptViewController::DidActivate)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x573b638;
+  constexpr static std::size_t addrs = 0x57ab350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController.DidDeactivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool)>(&::GlobalNamespace::SimpleDialogPromptViewController::DidDeactivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool)>(
+    &::GlobalNamespace::SimpleDialogPromptViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x573b7ac;
+  constexpr static std::size_t addrs = 0x57ab4c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(
+    ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x573b7b8;
+  constexpr static std::size_t addrs = 0x57ab4d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(
+    ::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x573b98c;
+  constexpr static std::size_t addrs = 0x57ab6a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(
+    ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x573b7c8;
+  constexpr static std::size_t addrs = 0x57ab4e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SimpleDialogPromptViewController._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)()>(&::GlobalNamespace::SimpleDialogPromptViewController::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)()>(
+    &::GlobalNamespace::SimpleDialogPromptViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5736098;
+  constexpr static std::size_t addrs = 0x57a62f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__titleText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____titleText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__titleText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____titleText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__titleText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____titleText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____titleText;
 }
-constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____titleText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____titleText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__messageText()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____messageText;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__messageText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____messageText;
 }
 constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__messageText() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____messageText;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____messageText;
 }
-constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__messageText(::UnityW<::TMPro::TextMeshProUGUI>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____messageText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__messageText(::UnityW<::TMPro::TextMeshProUGUI> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____messageText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttons()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buttons;
+constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttons() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buttons;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*> const& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttons() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buttons;
+constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> const& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttons() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buttons;
 }
-constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__buttons(::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttons)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__buttons(::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttons)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttonTexts()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buttonTexts;
+constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttonTexts() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buttonTexts;
 }
-constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttonTexts() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____buttonTexts;
+constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const&
+GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__buttonTexts() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____buttonTexts;
 }
-constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__buttonTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonTexts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__buttonTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonTexts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<int32_t>*& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__didFinishAction()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____didFinishAction;
+constexpr ::System::Action_1<int32_t>*& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__didFinishAction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____didFinishAction;
 }
 constexpr ::System::Action_1<int32_t>* const& GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_get__didFinishAction() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____didFinishAction;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____didFinishAction;
 }
-constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__didFinishAction(::System::Action_1<int32_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SimpleDialogPromptViewController::__cordl_internal_set__didFinishAction(::System::Action_1<int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController::DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
+inline void GlobalNamespace::SimpleDialogPromptViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController::DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
+inline void GlobalNamespace::SimpleDialogPromptViewController::DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController::Init(::StringW  title, ::StringW  message, ::StringW  buttonText, ::System::Action_1<int32_t>*  didFinishAction)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, message, buttonText, didFinishAction);
+inline void GlobalNamespace::SimpleDialogPromptViewController::Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int32_t>* didFinishAction) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, message, buttonText, didFinishAction);
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController::Init(::StringW  title, ::StringW  message, ::StringW  firstButtonText, ::StringW  secondButtonText, ::System::Action_1<int32_t>*  didFinishAction)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, message, firstButtonText, secondButtonText, didFinishAction);
+inline void GlobalNamespace::SimpleDialogPromptViewController::Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText,
+                                                                    ::System::Action_1<int32_t>* didFinishAction) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, message, firstButtonText, secondButtonText, didFinishAction);
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController::Init(::StringW  title, ::StringW  message, ::StringW  firstButtonText, ::StringW  secondButtonText, ::StringW  thirdButtonText, ::System::Action_1<int32_t>*  didFinishAction)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, message, firstButtonText, secondButtonText, thirdButtonText, didFinishAction);
+inline void GlobalNamespace::SimpleDialogPromptViewController::Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText,
+                                                                    ::System::Action_1<int32_t>* didFinishAction) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, message, firstButtonText, secondButtonText, thirdButtonText, didFinishAction);
 }
-inline void GlobalNamespace::SimpleDialogPromptViewController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::SimpleDialogPromptViewController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SimpleDialogPromptViewController* GlobalNamespace::SimpleDialogPromptViewController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleDialogPromptViewController*>());
+inline ::GlobalNamespace::SimpleDialogPromptViewController* GlobalNamespace::SimpleDialogPromptViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleDialogPromptViewController*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SimpleDialogPromptViewController::SimpleDialogPromptViewController()   {
-}
+constexpr ::GlobalNamespace::SimpleDialogPromptViewController::SimpleDialogPromptViewController() {}

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatSaber/GameSettings/Controller.hpp"
 #include "BeatSaber/GameSettings/ControllerProfile.hpp"
@@ -13,6 +13,5 @@
 #include "BeatSaber/GameSettings/ControllerProfilesSettingsViewController.hpp"
 #include "BeatSaber/GameSettings/ControllersTransformSettings.hpp"
 #ifdef __cpp_modules
-                    export module GameSettings;
-                    #endif
-                
+export module GameSettings;
+#endif

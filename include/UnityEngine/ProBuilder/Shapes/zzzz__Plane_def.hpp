@@ -33,60 +33,60 @@ namespace UnityEngine::ProBuilder::Shapes {
 // CS Name: UnityEngine.ProBuilder.Shapes.Plane
 class CORDL_TYPE Plane : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
-// Declarations
-/// @brief Field m_HeightSegments, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_HeightSegments, put=__cordl_internal_set_m_HeightSegments)) int32_t  m_HeightSegments;
+  // Declarations
+  /// @brief Field m_HeightSegments, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_HeightSegments, put = __cordl_internal_set_m_HeightSegments)) int32_t m_HeightSegments;
 
-/// @brief Field m_WidthSegments, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_WidthSegments, put=__cordl_internal_set_m_WidthSegments)) int32_t  m_WidthSegments;
+  /// @brief Field m_WidthSegments, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_WidthSegments, put = __cordl_internal_set_m_WidthSegments)) int32_t m_WidthSegments;
 
-/// @brief Method CopyShape, addr 0x6550958, size 0xbc, virtual true, abstract: false, final false
-inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape*  shape) ;
+  /// @brief Method CopyShape, addr 0x65c2964, size 0xbc, virtual true, abstract: false, final false
+  inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-static inline ::UnityEngine::ProBuilder::Shapes::Plane* New_ctor() ;
+  static inline ::UnityEngine::ProBuilder::Shapes::Plane* New_ctor();
 
-/// @brief Method RebuildMesh, addr 0x6550a14, size 0x25c, virtual true, abstract: false, final false
-inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::UnityEngine::Vector3  size, ::UnityEngine::Quaternion  rotation) ;
+  /// @brief Method RebuildMesh, addr 0x65c2a20, size 0x25c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-constexpr int32_t const& __cordl_internal_get_m_HeightSegments() const;
+  constexpr int32_t const& __cordl_internal_get_m_HeightSegments() const;
 
-constexpr int32_t& __cordl_internal_get_m_HeightSegments() ;
+  constexpr int32_t& __cordl_internal_get_m_HeightSegments();
 
-constexpr int32_t const& __cordl_internal_get_m_WidthSegments() const;
+  constexpr int32_t const& __cordl_internal_get_m_WidthSegments() const;
 
-constexpr int32_t& __cordl_internal_get_m_WidthSegments() ;
+  constexpr int32_t& __cordl_internal_get_m_WidthSegments();
 
-constexpr void __cordl_internal_set_m_HeightSegments(int32_t  value) ;
+  constexpr void __cordl_internal_set_m_HeightSegments(int32_t value);
 
-constexpr void __cordl_internal_set_m_WidthSegments(int32_t  value) ;
+  constexpr void __cordl_internal_set_m_WidthSegments(int32_t value);
 
-/// @brief Method .ctor, addr 0x6550c70, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x65c2c7c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Plane() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Plane();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Plane(Plane&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Plane(Plane && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Plane(Plane const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Plane", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Plane(Plane const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16821 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16813};
+  /// @brief Field m_HeightSegments, offset: 0x10, size: 0x4, def value: None
+  int32_t ___m_HeightSegments;
 
-/// @brief Field m_HeightSegments, offset: 0x10, size: 0x4, def value: None
- int32_t  ___m_HeightSegments;
+  /// @brief Field m_WidthSegments, offset: 0x14, size: 0x4, def value: None
+  int32_t ___m_WidthSegments;
 
-/// @brief Field m_WidthSegments, offset: 0x14, size: 0x4, def value: None
- int32_t  ___m_WidthSegments;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Plane, ___m_HeightSegments) == 0x10, "Offset mismatch!");
@@ -95,6 +95,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Plane, ___m_WidthSegme
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Plane, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder::Shapes
+} // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Plane);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Plane*, "UnityEngine.ProBuilder.Shapes", "Plane");

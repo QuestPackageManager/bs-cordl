@@ -12,59 +12,59 @@ struct NativeArrayOptions;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeArrayOptions);
-// Dependencies 
+// Dependencies
 namespace Unity::Collections {
 // Is value type: true
 // CS Name: Unity.Collections.NativeArrayOptions
 struct CORDL_TYPE NativeArrayOptions {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __NativeArrayOptions_Unwrapped
-enum struct __NativeArrayOptions_Unwrapped : int32_t {
-__E_UninitializedMemory = static_cast<int32_t>(0x0),
-__E_ClearMemory = static_cast<int32_t>(0x1),
-};
+  /// @brief Nested struct __NativeArrayOptions_Unwrapped
+  enum struct __NativeArrayOptions_Unwrapped : int32_t {
+    __E_UninitializedMemory = static_cast<int32_t>(0x0),
+    __E_ClearMemory = static_cast<int32_t>(0x1),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __NativeArrayOptions_Unwrapped () const noexcept {
-return static_cast<__NativeArrayOptions_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __NativeArrayOptions_Unwrapped() const noexcept {
+    return static_cast<__NativeArrayOptions_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr NativeArrayOptions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeArrayOptions();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr NativeArrayOptions(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NativeArrayOptions(int32_t value__) noexcept;
 
-/// @brief Field ClearMemory value: I32(1)
-static ::Unity::Collections::NativeArrayOptions const ClearMemory;
+  /// @brief Field ClearMemory value: I32(1)
+  static ::Unity::Collections::NativeArrayOptions const ClearMemory;
 
-/// @brief Field UninitializedMemory value: I32(0)
-static ::Unity::Collections::NativeArrayOptions const UninitializedMemory;
+  /// @brief Field UninitializedMemory value: I32(0)
+  static ::Unity::Collections::NativeArrayOptions const UninitializedMemory;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9974};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9980 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::NativeArrayOptions, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeArrayOptions, 0x4>, "Size mismatch!");
 
-} // namespace end def Unity::Collections
+} // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeArrayOptions, "Unity.Collections", "NativeArrayOptions");

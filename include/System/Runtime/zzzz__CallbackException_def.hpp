@@ -27,44 +27,44 @@ namespace System::Runtime {
 // CS Name: System.Runtime.CallbackException
 class CORDL_TYPE CallbackException : public ::System::Runtime::FatalException {
 public:
-// Declarations
-static inline ::System::Runtime::CallbackException* New_ctor() ;
+  // Declarations
+  static inline ::System::Runtime::CallbackException* New_ctor();
 
-static inline ::System::Runtime::CallbackException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::Runtime::CallbackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Runtime::CallbackException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
+  static inline ::System::Runtime::CallbackException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-/// @brief Method .ctor, addr 0x5fd14e8, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60434f4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5fd1508, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x6043514, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5fd14f8, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x6043504, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CallbackException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CallbackException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CallbackException(CallbackException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CallbackException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CallbackException(CallbackException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CallbackException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CallbackException(CallbackException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CallbackException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CallbackException(CallbackException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21120 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21109};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CallbackException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Runtime
+} // namespace System::Runtime
 NEED_NO_BOX(::System::Runtime::CallbackException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CallbackException*, "System.Runtime", "CallbackException");

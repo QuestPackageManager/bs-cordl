@@ -3,31 +3,25 @@
 #include "UnityEngine/Bindings/zzzz__OutStringMarshaller_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::OutStringMarshaller.GetStringAndDispose
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Bindings::ManagedSpanWrapper)>(&::UnityEngine::Bindings::OutStringMarshaller::GetStringAndDispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Bindings::ManagedSpanWrapper)>(
+    &::UnityEngine::Bindings::OutStringMarshaller::GetStringAndDispose)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69346ec;
+  constexpr static std::size_t addrs = 0x69a6908;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::OutStringMarshaller>::get(),
-                        "GetStringAndDispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bindings::ManagedSpanWrapper>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::OutStringMarshaller>::get(), "GetStringAndDispose", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bindings::ManagedSpanWrapper>::get() })));
     return ___internal_method;
   }
 };
-inline ::StringW UnityEngine::Bindings::OutStringMarshaller::GetStringAndDispose(::UnityEngine::Bindings::ManagedSpanWrapper  managedSpan)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::OutStringMarshaller>::get(),
-                        "GetStringAndDispose",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bindings::ManagedSpanWrapper>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, managedSpan);
+inline ::StringW UnityEngine::Bindings::OutStringMarshaller::GetStringAndDispose(::UnityEngine::Bindings::ManagedSpanWrapper managedSpan) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::OutStringMarshaller>::get(), "GetStringAndDispose", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bindings::ManagedSpanWrapper>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, managedSpan);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Bindings::OutStringMarshaller::OutStringMarshaller()   {
-}
+constexpr ::UnityEngine::Bindings::OutStringMarshaller::OutStringMarshaller() {}

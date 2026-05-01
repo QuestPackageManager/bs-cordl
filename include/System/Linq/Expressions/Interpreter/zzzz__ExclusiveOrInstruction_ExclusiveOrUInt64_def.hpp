@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.ExclusiveOrInstruction/ExclusiveOrUInt64
 class CORDL_TYPE ExclusiveOrInstruction_ExclusiveOrUInt64 : public ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrUInt64* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrUInt64* New_ctor();
 
-/// @brief Method Run, addr 0x5de0928, size 0xac, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e52934, size 0xac, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5de09d4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e529e0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ExclusiveOrInstruction_ExclusiveOrUInt64() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExclusiveOrInstruction_ExclusiveOrUInt64();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrUInt64", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExclusiveOrInstruction_ExclusiveOrUInt64(ExclusiveOrInstruction_ExclusiveOrUInt64&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrUInt64", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ExclusiveOrInstruction_ExclusiveOrUInt64(ExclusiveOrInstruction_ExclusiveOrUInt64 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrUInt64", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExclusiveOrInstruction_ExclusiveOrUInt64(ExclusiveOrInstruction_ExclusiveOrUInt64 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrUInt64", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ExclusiveOrInstruction_ExclusiveOrUInt64(ExclusiveOrInstruction_ExclusiveOrUInt64 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16326 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16318};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrUInt64, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrUInt64);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrUInt64*, "System.Linq.Expressions.Interpreter", "ExclusiveOrInstruction/ExclusiveOrUInt64");

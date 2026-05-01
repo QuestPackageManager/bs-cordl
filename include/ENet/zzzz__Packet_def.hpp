@@ -31,110 +31,110 @@ namespace ENet {
 // CS Name: ENet.Packet
 struct CORDL_TYPE Packet {
 public:
-// Declarations
- __declspec(property(get=get_Data)) ::System::IntPtr  Data;
+  // Declarations
+  __declspec(property(get = get_Data)) ::System::IntPtr Data;
 
- __declspec(property(get=get_HasReferences)) bool  HasReferences;
+  __declspec(property(get = get_HasReferences)) bool HasReferences;
 
- __declspec(property(get=get_IsSet)) bool  IsSet;
+  __declspec(property(get = get_IsSet)) bool IsSet;
 
- __declspec(property(get=get_Length)) int32_t  Length;
+  __declspec(property(get = get_Length)) int32_t Length;
 
- __declspec(property(get=get_NativeData, put=set_NativeData)) ::System::IntPtr  NativeData;
+  __declspec(property(get = get_NativeData, put = set_NativeData)) ::System::IntPtr NativeData;
 
- __declspec(property(get=get_UserData, put=set_UserData)) ::System::IntPtr  UserData;
+  __declspec(property(get = get_UserData, put = set_UserData)) ::System::IntPtr UserData;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() ;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
 
-/// @brief Method CopyTo, addr 0x56de10c, size 0x100, virtual false, abstract: false, final false
-inline void CopyTo(::ArrayW<uint8_t,::Array<uint8_t>*>  destination, int32_t  startPos) ;
+  /// @brief Method CopyTo, addr 0x574bff8, size 0x100, virtual false, abstract: false, final false
+  inline void CopyTo(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t startPos);
 
-/// @brief Method Create, addr 0x56ddb08, size 0x5c, virtual false, abstract: false, final false
-inline void Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
+  /// @brief Method Create, addr 0x574b9f4, size 0x5c, virtual false, abstract: false, final false
+  inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-/// @brief Method Create, addr 0x56ddc24, size 0x18, virtual false, abstract: false, final false
-inline void Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ENet::PacketFlags  flags) ;
+  /// @brief Method Create, addr 0x574bb10, size 0x18, virtual false, abstract: false, final false
+  inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ENet::PacketFlags flags);
 
-/// @brief Method Create, addr 0x56ddb64, size 0x8, virtual false, abstract: false, final false
-inline void Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  length) ;
+  /// @brief Method Create, addr 0x574ba50, size 0x8, virtual false, abstract: false, final false
+  inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length);
 
-/// @brief Method Create, addr 0x56ddb6c, size 0xb8, virtual false, abstract: false, final false
-inline void Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  length, ::ENet::PacketFlags  flags) ;
+  /// @brief Method Create, addr 0x574ba58, size 0xb8, virtual false, abstract: false, final false
+  inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length, ::ENet::PacketFlags flags);
 
-/// @brief Method Create, addr 0x56dde18, size 0xe0, virtual false, abstract: false, final false
-inline void Create(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  offset, int32_t  length, ::ENet::PacketFlags  flags) ;
+  /// @brief Method Create, addr 0x574bd04, size 0xe0, virtual false, abstract: false, final false
+  inline void Create(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length, ::ENet::PacketFlags flags);
 
-/// @brief Method Create, addr 0x56ddcd8, size 0xac, virtual false, abstract: false, final false
-inline void Create(::System::IntPtr  data, int32_t  length, ::ENet::PacketFlags  flags) ;
+  /// @brief Method Create, addr 0x574bbc4, size 0xac, virtual false, abstract: false, final false
+  inline void Create(::System::IntPtr data, int32_t length, ::ENet::PacketFlags flags);
 
-/// @brief Method Create, addr 0x56ddf9c, size 0xd4, virtual false, abstract: false, final false
-inline void Create(::System::IntPtr  data, int32_t  offset, int32_t  length, ::ENet::PacketFlags  flags) ;
+  /// @brief Method Create, addr 0x574be88, size 0xd4, virtual false, abstract: false, final false
+  inline void Create(::System::IntPtr data, int32_t offset, int32_t length, ::ENet::PacketFlags flags);
 
-/// @brief Method Dispose, addr 0x56dd5b8, size 0x20, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x574b4a4, size 0x20, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method SetFreeCallback, addr 0x56dda70, size 0x98, virtual false, abstract: false, final false
-inline void SetFreeCallback(::ENet::PacketFreeCallback*  callback) ;
+  /// @brief Method SetFreeCallback, addr 0x574b95c, size 0x98, virtual false, abstract: false, final false
+  inline void SetFreeCallback(::ENet::PacketFreeCallback* callback);
 
-/// @brief Method SetFreeCallback, addr 0x56dd9c4, size 0x28, virtual false, abstract: false, final false
-inline void SetFreeCallback(::System::IntPtr  callback) ;
+  /// @brief Method SetFreeCallback, addr 0x574b8b0, size 0x28, virtual false, abstract: false, final false
+  inline void SetFreeCallback(::System::IntPtr callback);
 
-/// @brief Method ThrowIfNotCreated, addr 0x56dd67c, size 0x58, virtual false, abstract: false, final false
-inline void ThrowIfNotCreated() ;
+  /// @brief Method ThrowIfNotCreated, addr 0x574b568, size 0x58, virtual false, abstract: false, final false
+  inline void ThrowIfNotCreated();
 
-/// @brief Method .ctor, addr 0x56dd5b0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  packet) ;
+  /// @brief Method .ctor, addr 0x574b49c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr packet);
 
-/// @brief Method get_Data, addr 0x56dd664, size 0x18, virtual false, abstract: false, final false
-inline ::System::IntPtr get_Data() ;
+  /// @brief Method get_Data, addr 0x574b550, size 0x18, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Data();
 
-/// @brief Method get_HasReferences, addr 0x56dd924, size 0x24, virtual false, abstract: false, final false
-inline bool get_HasReferences() ;
+  /// @brief Method get_HasReferences, addr 0x574b810, size 0x24, virtual false, abstract: false, final false
+  inline bool get_HasReferences();
 
-/// @brief Method get_IsSet, addr 0x56dd654, size 0x10, virtual false, abstract: false, final false
-inline bool get_IsSet() ;
+  /// @brief Method get_IsSet, addr 0x574b540, size 0x10, virtual false, abstract: false, final false
+  inline bool get_IsSet();
 
-/// @brief Method get_Length, addr 0x56dd890, size 0x18, virtual false, abstract: false, final false
-inline int32_t get_Length() ;
+  /// @brief Method get_Length, addr 0x574b77c, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_Length();
 
-/// @brief Method get_NativeData, addr 0x56dd5a0, size 0x8, virtual false, abstract: false, final false
-inline ::System::IntPtr get_NativeData() ;
+  /// @brief Method get_NativeData, addr 0x574b48c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_NativeData();
 
-/// @brief Method get_UserData, addr 0x56dd750, size 0x18, virtual false, abstract: false, final false
-inline ::System::IntPtr get_UserData() ;
+  /// @brief Method get_UserData, addr 0x574b63c, size 0x18, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_UserData();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() ;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
-/// @brief Method set_NativeData, addr 0x56dd5a8, size 0x8, virtual false, abstract: false, final false
-inline void set_NativeData(::System::IntPtr  value) ;
+  /// @brief Method set_NativeData, addr 0x574b494, size 0x8, virtual false, abstract: false, final false
+  inline void set_NativeData(::System::IntPtr value);
 
-/// @brief Method set_UserData, addr 0x56dd7e4, size 0x28, virtual false, abstract: false, final false
-inline void set_UserData(::System::IntPtr  value) ;
+  /// @brief Method set_UserData, addr 0x574b6d0, size 0x28, virtual false, abstract: false, final false
+  inline void set_UserData(::System::IntPtr value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Packet() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Packet();
 
-// Ctor Parameters [CppParam { name: "nativePacket", ty: "::System::IntPtr", modifiers: "", def_value: None }]
-constexpr Packet(::System::IntPtr  nativePacket) noexcept;
+  // Ctor Parameters [CppParam { name: "nativePacket", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr Packet(::System::IntPtr nativePacket) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21543};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21554 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field nativePacket, offset: 0x0, size: 0x8, def value: None
- ::System::IntPtr  nativePacket;
+  /// @brief Field nativePacket, offset: 0x0, size: 0x8, def value: None
+  ::System::IntPtr nativePacket;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::ENet::Packet, nativePacket) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::ENet::Packet, 0x8>, "Size mismatch!");
 
-} // namespace end def ENet
+} // namespace ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::Packet, "ENet", "Packet");

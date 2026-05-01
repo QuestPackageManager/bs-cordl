@@ -6,86 +6,66 @@
 #include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
 #include "Zenject/zzzz__SignalTickPriorityCopyBinder_def.hpp"
 //  Writing Method size for method: ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(&::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
+    &::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c7a788;
+  constexpr static std::size_t addrs = 0x6cec9cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SignalDeclarationBindInfo*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SignalDeclarationBindInfo*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder.RunAsync
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalTickPriorityCopyBinder* (::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::*)()>(&::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalTickPriorityCopyBinder* (::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::*)()>(
+    &::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c7a7d0;
+  constexpr static std::size_t addrs = 0x6ceca14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
-                        "RunAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
+                                                                               "RunAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder.RunSync
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalCopyBinder* (::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::*)()>(&::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunSync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalCopyBinder* (::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::*)()>(
+    &::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunSync)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c7a7ec;
+  constexpr static std::size_t addrs = 0x6ceca30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
-                        "RunSync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
+                                                                               "RunSync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Zenject::DeclareSignalAsyncTickPriorityCopyBinder::_ctor(::Zenject::SignalDeclarationBindInfo*  signalBindInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SignalDeclarationBindInfo*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, signalBindInfo);
+inline void Zenject::DeclareSignalAsyncTickPriorityCopyBinder::_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::SignalDeclarationBindInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, signalBindInfo);
 }
-inline ::Zenject::SignalTickPriorityCopyBinder* Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunAsync()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
-                        "RunAsync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Zenject::SignalTickPriorityCopyBinder*, false>(this, ___internal_method);
+inline ::Zenject::SignalTickPriorityCopyBinder* Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
+                                                                             "RunAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::SignalTickPriorityCopyBinder*, false>(this, ___internal_method);
 }
-inline ::Zenject::SignalCopyBinder* Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunSync()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
-                        "RunSync",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::Zenject::SignalCopyBinder*, false>(this, ___internal_method);
+inline ::Zenject::SignalCopyBinder* Zenject::DeclareSignalAsyncTickPriorityCopyBinder::RunSync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>::get(),
+                                                                             "RunSync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::SignalCopyBinder*, false>(this, ___internal_method);
 }
-inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* Zenject::DeclareSignalAsyncTickPriorityCopyBinder::New_ctor(::Zenject::SignalDeclarationBindInfo*  signalBindInfo)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>(signalBindInfo));
+inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* Zenject::DeclareSignalAsyncTickPriorityCopyBinder::New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*>(signalBindInfo));
 }
 // Ctor Parameters []
-constexpr ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::DeclareSignalAsyncTickPriorityCopyBinder()   {
-}
+constexpr ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::DeclareSignalAsyncTickPriorityCopyBinder() {}

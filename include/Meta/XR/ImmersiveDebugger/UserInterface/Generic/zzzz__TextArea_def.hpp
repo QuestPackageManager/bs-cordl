@@ -25,64 +25,64 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.TextArea
 class CORDL_TYPE TextArea : public ::Meta::XR::ImmersiveDebugger::UserInterface::Value {
 public:
-// Declarations
- __declspec(property(get=get_Content, put=set_Content)) ::StringW  Content;
+  // Declarations
+  __declspec(property(get = get_Content, put = set_Content)) ::StringW Content;
 
- __declspec(property(get=get_Text)) ::UnityW<::UnityEngine::UI::Text>  Text;
+  __declspec(property(get = get_Text)) ::UnityW<::UnityEngine::UI::Text> Text;
 
- __declspec(property(get=get_TextAreaHeight)) float_t  TextAreaHeight;
+  __declspec(property(get = get_TextAreaHeight)) float_t TextAreaHeight;
 
-/// @brief Method CalculateHeight, addr 0x58af304, size 0x204, virtual false, abstract: false, final false
-inline float_t CalculateHeight(float_t  textWidth) ;
+  /// @brief Method CalculateHeight, addr 0x5921270, size 0x204, virtual false, abstract: false, final false
+  inline float_t CalculateHeight(float_t textWidth);
 
-static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea* New_ctor() ;
+  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea* New_ctor();
 
-/// @brief Method OnTransparencyChanged, addr 0x58af288, size 0x64, virtual true, abstract: false, final false
-inline void OnTransparencyChanged() ;
+  /// @brief Method OnTransparencyChanged, addr 0x59211f4, size 0x64, virtual true, abstract: false, final false
+  inline void OnTransparencyChanged();
 
-/// @brief Method Setup, addr 0x58af094, size 0xbc, virtual true, abstract: false, final false
-inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  owner) ;
+  /// @brief Method Setup, addr 0x5921000, size 0xbc, virtual true, abstract: false, final false
+  inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-/// @brief Method UpdateLayoutSize, addr 0x58af218, size 0x70, virtual false, abstract: false, final false
-inline void UpdateLayoutSize() ;
+  /// @brief Method UpdateLayoutSize, addr 0x5921184, size 0x70, virtual false, abstract: false, final false
+  inline void UpdateLayoutSize();
 
-/// @brief Method .ctor, addr 0x58af508, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5921474, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Content, addr 0x58af150, size 0x2c, virtual true, abstract: false, final false
-inline ::StringW get_Content() ;
+  /// @brief Method get_Content, addr 0x59210bc, size 0x2c, virtual true, abstract: false, final false
+  inline ::StringW get_Content();
 
-/// @brief Method get_Text, addr 0x58af07c, size 0x18, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::UI::Text> get_Text() ;
+  /// @brief Method get_Text, addr 0x5920fe8, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UI::Text> get_Text();
 
-/// @brief Method get_TextAreaHeight, addr 0x58af2ec, size 0x18, virtual false, abstract: false, final false
-inline float_t get_TextAreaHeight() ;
+  /// @brief Method get_TextAreaHeight, addr 0x5921258, size 0x18, virtual false, abstract: false, final false
+  inline float_t get_TextAreaHeight();
 
-/// @brief Method set_Content, addr 0x58af17c, size 0x9c, virtual true, abstract: false, final false
-inline void set_Content(::StringW  value) ;
+  /// @brief Method set_Content, addr 0x59210e8, size 0x9c, virtual true, abstract: false, final false
+  inline void set_Content(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TextArea() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextArea();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TextArea", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TextArea(TextArea&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextArea", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TextArea(TextArea && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TextArea", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TextArea(TextArea const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TextArea", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TextArea(TextArea const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18388 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18378};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea, 0x88>, "Size mismatch!");
 
-} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface::Generic
+} // namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "TextArea");

@@ -12,59 +12,59 @@ struct FloatParseHandling;
 }
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::FloatParseHandling);
-// Dependencies 
+// Dependencies
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.FloatParseHandling
 struct CORDL_TYPE FloatParseHandling {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __FloatParseHandling_Unwrapped
-enum struct __FloatParseHandling_Unwrapped : int32_t {
-__E_Double = static_cast<int32_t>(0x0),
-__E_Decimal = static_cast<int32_t>(0x1),
-};
+  /// @brief Nested struct __FloatParseHandling_Unwrapped
+  enum struct __FloatParseHandling_Unwrapped : int32_t {
+    __E_Double = static_cast<int32_t>(0x0),
+    __E_Decimal = static_cast<int32_t>(0x1),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __FloatParseHandling_Unwrapped () const noexcept {
-return static_cast<__FloatParseHandling_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __FloatParseHandling_Unwrapped() const noexcept {
+    return static_cast<__FloatParseHandling_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr FloatParseHandling() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatParseHandling();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr FloatParseHandling(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FloatParseHandling(int32_t value__) noexcept;
 
-/// @brief Field Decimal value: I32(1)
-static ::Newtonsoft::Json::FloatParseHandling const Decimal;
+  /// @brief Field Decimal value: I32(1)
+  static ::Newtonsoft::Json::FloatParseHandling const Decimal;
 
-/// @brief Field Double value: I32(0)
-static ::Newtonsoft::Json::FloatParseHandling const Double;
+  /// @brief Field Double value: I32(0)
+  static ::Newtonsoft::Json::FloatParseHandling const Double;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13218};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13225 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::FloatParseHandling, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::FloatParseHandling, 0x4>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json
+} // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::FloatParseHandling, "Newtonsoft.Json", "FloatParseHandling");

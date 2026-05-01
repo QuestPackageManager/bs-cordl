@@ -19,46 +19,46 @@ namespace Meta::XR {
 // CS Name: Meta.XR.MetaXRSubsampledLayout
 class CORDL_TYPE MetaXRSubsampledLayout : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
-// Declarations
-/// @brief Method MetaSetSubsampledLayout, addr 0x5ca28bc, size 0x7c, virtual false, abstract: false, final false
-static inline void MetaSetSubsampledLayout(bool  enabled) ;
+  // Declarations
+  /// @brief Method MetaSetSubsampledLayout, addr 0x5d148a4, size 0x7c, virtual false, abstract: false, final false
+  static inline void MetaSetSubsampledLayout(bool enabled);
 
-static inline ::Meta::XR::MetaXRSubsampledLayout* New_ctor() ;
+  static inline ::Meta::XR::MetaXRSubsampledLayout* New_ctor();
 
-/// @brief Method OnInstanceCreate, addr 0x5ca289c, size 0x20, virtual true, abstract: false, final false
-inline bool OnInstanceCreate(uint64_t  xrInstance) ;
+  /// @brief Method OnInstanceCreate, addr 0x5d14884, size 0x20, virtual true, abstract: false, final false
+  inline bool OnInstanceCreate(uint64_t xrInstance);
 
-/// @brief Method .ctor, addr 0x5ca2938, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5d14920, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MetaXRSubsampledLayout() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MetaXRSubsampledLayout();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MetaXRSubsampledLayout", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MetaXRSubsampledLayout(MetaXRSubsampledLayout&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MetaXRSubsampledLayout", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MetaXRSubsampledLayout(MetaXRSubsampledLayout && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MetaXRSubsampledLayout", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MetaXRSubsampledLayout(MetaXRSubsampledLayout const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MetaXRSubsampledLayout", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MetaXRSubsampledLayout(MetaXRSubsampledLayout const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8556 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8550};
+  /// @brief Field extensionName offset 0xffffffff size 0x8
+  static constexpr ::ConstString extensionName{ u"XR_META_vulkan_swapchain_create_info" };
 
-/// @brief Field extensionName offset 0xffffffff size 0x8
-static constexpr ::ConstString  extensionName{u"XR_META_vulkan_swapchain_create_info"};
+  /// @brief Field featureId offset 0xffffffff size 0x8
+  static constexpr ::ConstString featureId{ u"com.meta.openxr.feature.subsampledLayout" };
 
-/// @brief Field featureId offset 0xffffffff size 0x8
-static constexpr ::ConstString  featureId{u"com.meta.openxr.feature.subsampledLayout"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::MetaXRSubsampledLayout, 0x50>, "Size mismatch!");
 
-} // namespace end def Meta::XR
+} // namespace Meta::XR
 NEED_NO_BOX(::Meta::XR::MetaXRSubsampledLayout);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::MetaXRSubsampledLayout*, "Meta.XR", "MetaXRSubsampledLayout");

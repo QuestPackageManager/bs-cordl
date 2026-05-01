@@ -7,132 +7,130 @@
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidAssetPackInfo._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::AndroidAssetPackInfo::*)(::StringW, ::UnityEngine::Android::AndroidAssetPackStatus, uint64_t, uint64_t, float_t, ::UnityEngine::Android::AndroidAssetPackError)>(&::UnityEngine::Android::AndroidAssetPackInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::AndroidAssetPackInfo::*)(
+    ::StringW, ::UnityEngine::Android::AndroidAssetPackStatus, uint64_t, uint64_t, float_t, ::UnityEngine::Android::AndroidAssetPackError)>(&::UnityEngine::Android::AndroidAssetPackInfo::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6862f40;
+  constexpr static std::size_t addrs = 0x68d4f4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackError>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackError>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidAssetPackInfo.DownloadInProgress
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Android::AndroidAssetPackStatus)>(&::UnityEngine::Android::AndroidAssetPackInfo::DownloadInProgress)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Android::AndroidAssetPackStatus)>(
+    &::UnityEngine::Android::AndroidAssetPackInfo::DownloadInProgress)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6862f58;
+  constexpr static std::size_t addrs = 0x68d4f64;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(),
-                        "DownloadInProgress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(), "DownloadInProgress", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__name_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____name_k__BackingField;
+constexpr ::StringW& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____name_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__name_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____name_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____name_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__name_k__BackingField(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Android::AndroidAssetPackStatus& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__status_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____status_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidAssetPackStatus& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__status_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____status_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidAssetPackStatus const& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__status_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____status_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____status_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____status_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____status_k__BackingField = value;
 }
-constexpr uint64_t& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__size_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____size_k__BackingField;
+constexpr uint64_t& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__size_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____size_k__BackingField;
 }
 constexpr uint64_t const& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__size_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____size_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____size_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__size_k__BackingField(uint64_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____size_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__size_k__BackingField(uint64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____size_k__BackingField = value;
 }
-constexpr uint64_t& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__bytesDownloaded_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bytesDownloaded_k__BackingField;
+constexpr uint64_t& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__bytesDownloaded_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bytesDownloaded_k__BackingField;
 }
 constexpr uint64_t const& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__bytesDownloaded_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____bytesDownloaded_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____bytesDownloaded_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__bytesDownloaded_k__BackingField(uint64_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____bytesDownloaded_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__bytesDownloaded_k__BackingField(uint64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____bytesDownloaded_k__BackingField = value;
 }
-constexpr float_t& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__transferProgress_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transferProgress_k__BackingField;
+constexpr float_t& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__transferProgress_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transferProgress_k__BackingField;
 }
 constexpr float_t const& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__transferProgress_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____transferProgress_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transferProgress_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__transferProgress_k__BackingField(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____transferProgress_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__transferProgress_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____transferProgress_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidAssetPackError& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__error_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____error_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidAssetPackError& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__error_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____error_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidAssetPackError const& UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_get__error_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____error_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____error_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__error_k__BackingField(::UnityEngine::Android::AndroidAssetPackError  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____error_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidAssetPackInfo::__cordl_internal_set__error_k__BackingField(::UnityEngine::Android::AndroidAssetPackError value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____error_k__BackingField = value;
 }
-inline void UnityEngine::Android::AndroidAssetPackInfo::_ctor(::StringW  name, ::UnityEngine::Android::AndroidAssetPackStatus  status, uint64_t  size, uint64_t  bytesDownloaded, float_t  transferProgress, ::UnityEngine::Android::AndroidAssetPackError  error)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackError>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, status, size, bytesDownloaded, transferProgress, error);
+inline void UnityEngine::Android::AndroidAssetPackInfo::_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
+                                                              ::UnityEngine::Android::AndroidAssetPackError error) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackError>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, status, size, bytesDownloaded, transferProgress, error);
 }
-inline bool UnityEngine::Android::AndroidAssetPackInfo::DownloadInProgress(::UnityEngine::Android::AndroidAssetPackStatus  status)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(),
-                        "DownloadInProgress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, status);
+inline bool UnityEngine::Android::AndroidAssetPackInfo::DownloadInProgress(::UnityEngine::Android::AndroidAssetPackStatus status) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackInfo*>::get(), "DownloadInProgress", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, status);
 }
-inline ::UnityEngine::Android::AndroidAssetPackInfo* UnityEngine::Android::AndroidAssetPackInfo::New_ctor(::StringW  name, ::UnityEngine::Android::AndroidAssetPackStatus  status, uint64_t  size, uint64_t  bytesDownloaded, float_t  transferProgress, ::UnityEngine::Android::AndroidAssetPackError  error)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Android::AndroidAssetPackInfo*>(name, status, size, bytesDownloaded, transferProgress, error));
+inline ::UnityEngine::Android::AndroidAssetPackInfo* UnityEngine::Android::AndroidAssetPackInfo::New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size,
+                                                                                                          uint64_t bytesDownloaded, float_t transferProgress,
+                                                                                                          ::UnityEngine::Android::AndroidAssetPackError error) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Android::AndroidAssetPackInfo*>(name, status, size, bytesDownloaded, transferProgress, error));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Android::AndroidAssetPackInfo::AndroidAssetPackInfo()   {
-}
+constexpr ::UnityEngine::Android::AndroidAssetPackInfo::AndroidAssetPackInfo() {}

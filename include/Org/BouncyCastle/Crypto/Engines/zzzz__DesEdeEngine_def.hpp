@@ -22,95 +22,95 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.DesEdeEngine
 class CORDL_TYPE DesEdeEngine : public ::Org::BouncyCastle::Crypto::Engines::DesEngine {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-/// @brief Field forEncryption, offset 0x30, size 0x1 
- __declspec(property(get=__cordl_internal_get_forEncryption, put=__cordl_internal_set_forEncryption)) bool  forEncryption;
+  /// @brief Field forEncryption, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
-/// @brief Field workingKey1, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_workingKey1, put=__cordl_internal_set_workingKey1)) ::ArrayW<int32_t,::Array<int32_t>*>  workingKey1;
+  /// @brief Field workingKey1, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_workingKey1, put = __cordl_internal_set_workingKey1)) ::ArrayW<int32_t, ::Array<int32_t>*> workingKey1;
 
-/// @brief Field workingKey2, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_workingKey2, put=__cordl_internal_set_workingKey2)) ::ArrayW<int32_t,::Array<int32_t>*>  workingKey2;
+  /// @brief Field workingKey2, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_workingKey2, put = __cordl_internal_set_workingKey2)) ::ArrayW<int32_t, ::Array<int32_t>*> workingKey2;
 
-/// @brief Field workingKey3, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_workingKey3, put=__cordl_internal_set_workingKey3)) ::ArrayW<int32_t,::Array<int32_t>*>  workingKey3;
+  /// @brief Field workingKey3, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_workingKey3, put = __cordl_internal_set_workingKey3)) ::ArrayW<int32_t, ::Array<int32_t>*> workingKey3;
 
-/// @brief Method GetBlockSize, addr 0x32afa5c, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetBlockSize() ;
+  /// @brief Method GetBlockSize, addr 0x32ec0a0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetBlockSize();
 
-/// @brief Method Init, addr 0x32af774, size 0x2a4, virtual true, abstract: false, final false
-inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
+  /// @brief Method Init, addr 0x32ebdb8, size 0x2a4, virtual true, abstract: false, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-static inline ::Org::BouncyCastle::Crypto::Engines::DesEdeEngine* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::DesEdeEngine* New_ctor();
 
-/// @brief Method ProcessBlock, addr 0x32afa64, size 0x200, virtual true, abstract: false, final false
-inline int32_t ProcessBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
+  /// @brief Method ProcessBlock, addr 0x32ec0a8, size 0x200, virtual true, abstract: false, final false
+  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-/// @brief Method Reset, addr 0x32afc64, size 0x4, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x32ec2a8, size 0x4, virtual true, abstract: false, final false
+  inline void Reset();
 
-constexpr bool const& __cordl_internal_get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-constexpr bool& __cordl_internal_get_forEncryption() ;
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_workingKey1() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey1() const;
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_workingKey1() ;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey1();
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_workingKey2() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey2() const;
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_workingKey2() ;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey2();
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_workingKey3() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey3() const;
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_workingKey3() ;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey3();
 
-constexpr void __cordl_internal_set_forEncryption(bool  value) ;
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-constexpr void __cordl_internal_set_workingKey1(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
+  constexpr void __cordl_internal_set_workingKey1(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-constexpr void __cordl_internal_set_workingKey2(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
+  constexpr void __cordl_internal_set_workingKey2(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-constexpr void __cordl_internal_set_workingKey3(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
+  constexpr void __cordl_internal_set_workingKey3(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-/// @brief Method .ctor, addr 0x32afc68, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32ec2ac, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_AlgorithmName, addr 0x32afa18, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x32ec05c, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DesEdeEngine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DesEdeEngine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DesEdeEngine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DesEdeEngine(DesEdeEngine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DesEdeEngine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DesEdeEngine(DesEdeEngine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DesEdeEngine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DesEdeEngine(DesEdeEngine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DesEdeEngine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DesEdeEngine(DesEdeEngine const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 840 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{840};
+  /// @brief Field workingKey1, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> ___workingKey1;
 
-/// @brief Field workingKey1, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<int32_t,::Array<int32_t>*>  ___workingKey1;
+  /// @brief Field workingKey2, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> ___workingKey2;
 
-/// @brief Field workingKey2, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<int32_t,::Array<int32_t>*>  ___workingKey2;
+  /// @brief Field workingKey3, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> ___workingKey3;
 
-/// @brief Field workingKey3, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<int32_t,::Array<int32_t>*>  ___workingKey3;
+  /// @brief Field forEncryption, offset: 0x30, size: 0x1, def value: None
+  bool ___forEncryption;
 
-/// @brief Field forEncryption, offset: 0x30, size: 0x1, def value: None
- bool  ___forEncryption;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::DesEdeEngine, ___workingKey1) == 0x18, "Offset mismatch!");
@@ -123,6 +123,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::DesEdeEngine, ___fo
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::DesEdeEngine, 0x38>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Engines
+} // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::DesEdeEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::DesEdeEngine*, "Org.BouncyCastle.Crypto.Engines", "DesEdeEngine");

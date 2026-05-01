@@ -30,2281 +30,2282 @@ class SchemaNames;
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::SchemaNames_Token);
 MARK_REF_PTR_T(::System::Xml::Schema::SchemaNames);
-// Dependencies 
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: System.Xml.Schema.SchemaNames/Token
 struct CORDL_TYPE SchemaNames_Token {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-/// @brief Nested struct __SchemaNames_Token_Unwrapped
-enum struct __SchemaNames_Token_Unwrapped : int32_t {
-__E_Empty = static_cast<int32_t>(0x0),
-__E_SchemaName = static_cast<int32_t>(0x1),
-__E_SchemaType = static_cast<int32_t>(0x2),
-__E_SchemaMaxOccurs = static_cast<int32_t>(0x3),
-__E_SchemaMinOccurs = static_cast<int32_t>(0x4),
-__E_SchemaInfinite = static_cast<int32_t>(0x5),
-__E_SchemaModel = static_cast<int32_t>(0x6),
-__E_SchemaOpen = static_cast<int32_t>(0x7),
-__E_SchemaClosed = static_cast<int32_t>(0x8),
-__E_SchemaContent = static_cast<int32_t>(0x9),
-__E_SchemaMixed = static_cast<int32_t>(0xa),
-__E_SchemaEmpty = static_cast<int32_t>(0xb),
-__E_SchemaElementOnly = static_cast<int32_t>(0xc),
-__E_SchemaTextOnly = static_cast<int32_t>(0xd),
-__E_SchemaOrder = static_cast<int32_t>(0xe),
-__E_SchemaSeq = static_cast<int32_t>(0xf),
-__E_SchemaOne = static_cast<int32_t>(0x10),
-__E_SchemaMany = static_cast<int32_t>(0x11),
-__E_SchemaRequired = static_cast<int32_t>(0x12),
-__E_SchemaYes = static_cast<int32_t>(0x13),
-__E_SchemaNo = static_cast<int32_t>(0x14),
-__E_SchemaString = static_cast<int32_t>(0x15),
-__E_SchemaId = static_cast<int32_t>(0x16),
-__E_SchemaIdref = static_cast<int32_t>(0x17),
-__E_SchemaIdrefs = static_cast<int32_t>(0x18),
-__E_SchemaEntity = static_cast<int32_t>(0x19),
-__E_SchemaEntities = static_cast<int32_t>(0x1a),
-__E_SchemaNmtoken = static_cast<int32_t>(0x1b),
-__E_SchemaNmtokens = static_cast<int32_t>(0x1c),
-__E_SchemaEnumeration = static_cast<int32_t>(0x1d),
-__E_SchemaDefault = static_cast<int32_t>(0x1e),
-__E_XdrRoot = static_cast<int32_t>(0x1f),
-__E_XdrElementType = static_cast<int32_t>(0x20),
-__E_XdrElement = static_cast<int32_t>(0x21),
-__E_XdrGroup = static_cast<int32_t>(0x22),
-__E_XdrAttributeType = static_cast<int32_t>(0x23),
-__E_XdrAttribute = static_cast<int32_t>(0x24),
-__E_XdrDatatype = static_cast<int32_t>(0x25),
-__E_XdrDescription = static_cast<int32_t>(0x26),
-__E_XdrExtends = static_cast<int32_t>(0x27),
-__E_SchemaXdrRootAlias = static_cast<int32_t>(0x28),
-__E_SchemaDtType = static_cast<int32_t>(0x29),
-__E_SchemaDtValues = static_cast<int32_t>(0x2a),
-__E_SchemaDtMaxLength = static_cast<int32_t>(0x2b),
-__E_SchemaDtMinLength = static_cast<int32_t>(0x2c),
-__E_SchemaDtMax = static_cast<int32_t>(0x2d),
-__E_SchemaDtMin = static_cast<int32_t>(0x2e),
-__E_SchemaDtMinExclusive = static_cast<int32_t>(0x2f),
-__E_SchemaDtMaxExclusive = static_cast<int32_t>(0x30),
-__E_SchemaTargetNamespace = static_cast<int32_t>(0x31),
-__E_SchemaVersion = static_cast<int32_t>(0x32),
-__E_SchemaFinalDefault = static_cast<int32_t>(0x33),
-__E_SchemaBlockDefault = static_cast<int32_t>(0x34),
-__E_SchemaFixed = static_cast<int32_t>(0x35),
-__E_SchemaAbstract = static_cast<int32_t>(0x36),
-__E_SchemaBlock = static_cast<int32_t>(0x37),
-__E_SchemaSubstitutionGroup = static_cast<int32_t>(0x38),
-__E_SchemaFinal = static_cast<int32_t>(0x39),
-__E_SchemaNillable = static_cast<int32_t>(0x3a),
-__E_SchemaRef = static_cast<int32_t>(0x3b),
-__E_SchemaBase = static_cast<int32_t>(0x3c),
-__E_SchemaDerivedBy = static_cast<int32_t>(0x3d),
-__E_SchemaNamespace = static_cast<int32_t>(0x3e),
-__E_SchemaProcessContents = static_cast<int32_t>(0x3f),
-__E_SchemaRefer = static_cast<int32_t>(0x40),
-__E_SchemaPublic = static_cast<int32_t>(0x41),
-__E_SchemaSystem = static_cast<int32_t>(0x42),
-__E_SchemaSchemaLocation = static_cast<int32_t>(0x43),
-__E_SchemaValue = static_cast<int32_t>(0x44),
-__E_SchemaSource = static_cast<int32_t>(0x45),
-__E_SchemaAttributeFormDefault = static_cast<int32_t>(0x46),
-__E_SchemaElementFormDefault = static_cast<int32_t>(0x47),
-__E_SchemaUse = static_cast<int32_t>(0x48),
-__E_SchemaForm = static_cast<int32_t>(0x49),
-__E_XsdSchema = static_cast<int32_t>(0x4a),
-__E_XsdAnnotation = static_cast<int32_t>(0x4b),
-__E_XsdInclude = static_cast<int32_t>(0x4c),
-__E_XsdImport = static_cast<int32_t>(0x4d),
-__E_XsdElement = static_cast<int32_t>(0x4e),
-__E_XsdAttribute = static_cast<int32_t>(0x4f),
-__E_xsdAttributeGroup = static_cast<int32_t>(0x50),
-__E_XsdAnyAttribute = static_cast<int32_t>(0x51),
-__E_XsdGroup = static_cast<int32_t>(0x52),
-__E_XsdAll = static_cast<int32_t>(0x53),
-__E_XsdChoice = static_cast<int32_t>(0x54),
-__E_XsdSequence = static_cast<int32_t>(0x55),
-__E_XsdAny = static_cast<int32_t>(0x56),
-__E_XsdNotation = static_cast<int32_t>(0x57),
-__E_XsdSimpleType = static_cast<int32_t>(0x58),
-__E_XsdComplexType = static_cast<int32_t>(0x59),
-__E_XsdUnique = static_cast<int32_t>(0x5a),
-__E_XsdKey = static_cast<int32_t>(0x5b),
-__E_XsdKeyref = static_cast<int32_t>(0x5c),
-__E_XsdSelector = static_cast<int32_t>(0x5d),
-__E_XsdField = static_cast<int32_t>(0x5e),
-__E_XsdMinExclusive = static_cast<int32_t>(0x5f),
-__E_XsdMinInclusive = static_cast<int32_t>(0x60),
-__E_XsdMaxExclusive = static_cast<int32_t>(0x61),
-__E_XsdMaxInclusive = static_cast<int32_t>(0x62),
-__E_XsdTotalDigits = static_cast<int32_t>(0x63),
-__E_XsdFractionDigits = static_cast<int32_t>(0x64),
-__E_XsdLength = static_cast<int32_t>(0x65),
-__E_XsdMinLength = static_cast<int32_t>(0x66),
-__E_XsdMaxLength = static_cast<int32_t>(0x67),
-__E_XsdEnumeration = static_cast<int32_t>(0x68),
-__E_XsdPattern = static_cast<int32_t>(0x69),
-__E_XsdDocumentation = static_cast<int32_t>(0x6a),
-__E_XsdAppInfo = static_cast<int32_t>(0x6b),
-__E_XsdComplexContent = static_cast<int32_t>(0x6c),
-__E_XsdComplexContentExtension = static_cast<int32_t>(0x6d),
-__E_XsdComplexContentRestriction = static_cast<int32_t>(0x6e),
-__E_XsdSimpleContent = static_cast<int32_t>(0x6f),
-__E_XsdSimpleContentExtension = static_cast<int32_t>(0x70),
-__E_XsdSimpleContentRestriction = static_cast<int32_t>(0x71),
-__E_XsdSimpleTypeList = static_cast<int32_t>(0x72),
-__E_XsdSimpleTypeRestriction = static_cast<int32_t>(0x73),
-__E_XsdSimpleTypeUnion = static_cast<int32_t>(0x74),
-__E_XsdWhitespace = static_cast<int32_t>(0x75),
-__E_XsdRedefine = static_cast<int32_t>(0x76),
-__E_SchemaItemType = static_cast<int32_t>(0x77),
-__E_SchemaMemberTypes = static_cast<int32_t>(0x78),
-__E_SchemaXPath = static_cast<int32_t>(0x79),
-__E_XmlLang = static_cast<int32_t>(0x7a),
-};
-
-/// @brief Conversion into unwrapped enum value
-constexpr operator __SchemaNames_Token_Unwrapped () const noexcept {
-return static_cast<__SchemaNames_Token_Unwrapped>(this->value__);
-}
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __SchemaNames_Token_Unwrapped
+  enum struct __SchemaNames_Token_Unwrapped : int32_t {
+    __E_Empty = static_cast<int32_t>(0x0),
+    __E_SchemaName = static_cast<int32_t>(0x1),
+    __E_SchemaType = static_cast<int32_t>(0x2),
+    __E_SchemaMaxOccurs = static_cast<int32_t>(0x3),
+    __E_SchemaMinOccurs = static_cast<int32_t>(0x4),
+    __E_SchemaInfinite = static_cast<int32_t>(0x5),
+    __E_SchemaModel = static_cast<int32_t>(0x6),
+    __E_SchemaOpen = static_cast<int32_t>(0x7),
+    __E_SchemaClosed = static_cast<int32_t>(0x8),
+    __E_SchemaContent = static_cast<int32_t>(0x9),
+    __E_SchemaMixed = static_cast<int32_t>(0xa),
+    __E_SchemaEmpty = static_cast<int32_t>(0xb),
+    __E_SchemaElementOnly = static_cast<int32_t>(0xc),
+    __E_SchemaTextOnly = static_cast<int32_t>(0xd),
+    __E_SchemaOrder = static_cast<int32_t>(0xe),
+    __E_SchemaSeq = static_cast<int32_t>(0xf),
+    __E_SchemaOne = static_cast<int32_t>(0x10),
+    __E_SchemaMany = static_cast<int32_t>(0x11),
+    __E_SchemaRequired = static_cast<int32_t>(0x12),
+    __E_SchemaYes = static_cast<int32_t>(0x13),
+    __E_SchemaNo = static_cast<int32_t>(0x14),
+    __E_SchemaString = static_cast<int32_t>(0x15),
+    __E_SchemaId = static_cast<int32_t>(0x16),
+    __E_SchemaIdref = static_cast<int32_t>(0x17),
+    __E_SchemaIdrefs = static_cast<int32_t>(0x18),
+    __E_SchemaEntity = static_cast<int32_t>(0x19),
+    __E_SchemaEntities = static_cast<int32_t>(0x1a),
+    __E_SchemaNmtoken = static_cast<int32_t>(0x1b),
+    __E_SchemaNmtokens = static_cast<int32_t>(0x1c),
+    __E_SchemaEnumeration = static_cast<int32_t>(0x1d),
+    __E_SchemaDefault = static_cast<int32_t>(0x1e),
+    __E_XdrRoot = static_cast<int32_t>(0x1f),
+    __E_XdrElementType = static_cast<int32_t>(0x20),
+    __E_XdrElement = static_cast<int32_t>(0x21),
+    __E_XdrGroup = static_cast<int32_t>(0x22),
+    __E_XdrAttributeType = static_cast<int32_t>(0x23),
+    __E_XdrAttribute = static_cast<int32_t>(0x24),
+    __E_XdrDatatype = static_cast<int32_t>(0x25),
+    __E_XdrDescription = static_cast<int32_t>(0x26),
+    __E_XdrExtends = static_cast<int32_t>(0x27),
+    __E_SchemaXdrRootAlias = static_cast<int32_t>(0x28),
+    __E_SchemaDtType = static_cast<int32_t>(0x29),
+    __E_SchemaDtValues = static_cast<int32_t>(0x2a),
+    __E_SchemaDtMaxLength = static_cast<int32_t>(0x2b),
+    __E_SchemaDtMinLength = static_cast<int32_t>(0x2c),
+    __E_SchemaDtMax = static_cast<int32_t>(0x2d),
+    __E_SchemaDtMin = static_cast<int32_t>(0x2e),
+    __E_SchemaDtMinExclusive = static_cast<int32_t>(0x2f),
+    __E_SchemaDtMaxExclusive = static_cast<int32_t>(0x30),
+    __E_SchemaTargetNamespace = static_cast<int32_t>(0x31),
+    __E_SchemaVersion = static_cast<int32_t>(0x32),
+    __E_SchemaFinalDefault = static_cast<int32_t>(0x33),
+    __E_SchemaBlockDefault = static_cast<int32_t>(0x34),
+    __E_SchemaFixed = static_cast<int32_t>(0x35),
+    __E_SchemaAbstract = static_cast<int32_t>(0x36),
+    __E_SchemaBlock = static_cast<int32_t>(0x37),
+    __E_SchemaSubstitutionGroup = static_cast<int32_t>(0x38),
+    __E_SchemaFinal = static_cast<int32_t>(0x39),
+    __E_SchemaNillable = static_cast<int32_t>(0x3a),
+    __E_SchemaRef = static_cast<int32_t>(0x3b),
+    __E_SchemaBase = static_cast<int32_t>(0x3c),
+    __E_SchemaDerivedBy = static_cast<int32_t>(0x3d),
+    __E_SchemaNamespace = static_cast<int32_t>(0x3e),
+    __E_SchemaProcessContents = static_cast<int32_t>(0x3f),
+    __E_SchemaRefer = static_cast<int32_t>(0x40),
+    __E_SchemaPublic = static_cast<int32_t>(0x41),
+    __E_SchemaSystem = static_cast<int32_t>(0x42),
+    __E_SchemaSchemaLocation = static_cast<int32_t>(0x43),
+    __E_SchemaValue = static_cast<int32_t>(0x44),
+    __E_SchemaSource = static_cast<int32_t>(0x45),
+    __E_SchemaAttributeFormDefault = static_cast<int32_t>(0x46),
+    __E_SchemaElementFormDefault = static_cast<int32_t>(0x47),
+    __E_SchemaUse = static_cast<int32_t>(0x48),
+    __E_SchemaForm = static_cast<int32_t>(0x49),
+    __E_XsdSchema = static_cast<int32_t>(0x4a),
+    __E_XsdAnnotation = static_cast<int32_t>(0x4b),
+    __E_XsdInclude = static_cast<int32_t>(0x4c),
+    __E_XsdImport = static_cast<int32_t>(0x4d),
+    __E_XsdElement = static_cast<int32_t>(0x4e),
+    __E_XsdAttribute = static_cast<int32_t>(0x4f),
+    __E_xsdAttributeGroup = static_cast<int32_t>(0x50),
+    __E_XsdAnyAttribute = static_cast<int32_t>(0x51),
+    __E_XsdGroup = static_cast<int32_t>(0x52),
+    __E_XsdAll = static_cast<int32_t>(0x53),
+    __E_XsdChoice = static_cast<int32_t>(0x54),
+    __E_XsdSequence = static_cast<int32_t>(0x55),
+    __E_XsdAny = static_cast<int32_t>(0x56),
+    __E_XsdNotation = static_cast<int32_t>(0x57),
+    __E_XsdSimpleType = static_cast<int32_t>(0x58),
+    __E_XsdComplexType = static_cast<int32_t>(0x59),
+    __E_XsdUnique = static_cast<int32_t>(0x5a),
+    __E_XsdKey = static_cast<int32_t>(0x5b),
+    __E_XsdKeyref = static_cast<int32_t>(0x5c),
+    __E_XsdSelector = static_cast<int32_t>(0x5d),
+    __E_XsdField = static_cast<int32_t>(0x5e),
+    __E_XsdMinExclusive = static_cast<int32_t>(0x5f),
+    __E_XsdMinInclusive = static_cast<int32_t>(0x60),
+    __E_XsdMaxExclusive = static_cast<int32_t>(0x61),
+    __E_XsdMaxInclusive = static_cast<int32_t>(0x62),
+    __E_XsdTotalDigits = static_cast<int32_t>(0x63),
+    __E_XsdFractionDigits = static_cast<int32_t>(0x64),
+    __E_XsdLength = static_cast<int32_t>(0x65),
+    __E_XsdMinLength = static_cast<int32_t>(0x66),
+    __E_XsdMaxLength = static_cast<int32_t>(0x67),
+    __E_XsdEnumeration = static_cast<int32_t>(0x68),
+    __E_XsdPattern = static_cast<int32_t>(0x69),
+    __E_XsdDocumentation = static_cast<int32_t>(0x6a),
+    __E_XsdAppInfo = static_cast<int32_t>(0x6b),
+    __E_XsdComplexContent = static_cast<int32_t>(0x6c),
+    __E_XsdComplexContentExtension = static_cast<int32_t>(0x6d),
+    __E_XsdComplexContentRestriction = static_cast<int32_t>(0x6e),
+    __E_XsdSimpleContent = static_cast<int32_t>(0x6f),
+    __E_XsdSimpleContentExtension = static_cast<int32_t>(0x70),
+    __E_XsdSimpleContentRestriction = static_cast<int32_t>(0x71),
+    __E_XsdSimpleTypeList = static_cast<int32_t>(0x72),
+    __E_XsdSimpleTypeRestriction = static_cast<int32_t>(0x73),
+    __E_XsdSimpleTypeUnion = static_cast<int32_t>(0x74),
+    __E_XsdWhitespace = static_cast<int32_t>(0x75),
+    __E_XsdRedefine = static_cast<int32_t>(0x76),
+    __E_SchemaItemType = static_cast<int32_t>(0x77),
+    __E_SchemaMemberTypes = static_cast<int32_t>(0x78),
+    __E_SchemaXPath = static_cast<int32_t>(0x79),
+    __E_XmlLang = static_cast<int32_t>(0x7a),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __SchemaNames_Token_Unwrapped() const noexcept {
+    return static_cast<__SchemaNames_Token_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr SchemaNames_Token() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SchemaNames_Token();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr SchemaNames_Token(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SchemaNames_Token(int32_t value__) noexcept;
 
-/// @brief Field Empty value: I32(0)
-static ::System::Xml::Schema::SchemaNames_Token const Empty;
+  /// @brief Field Empty value: I32(0)
+  static ::System::Xml::Schema::SchemaNames_Token const Empty;
 
-/// @brief Field SchemaAbstract value: I32(54)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaAbstract;
+  /// @brief Field SchemaAbstract value: I32(54)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaAbstract;
 
-/// @brief Field SchemaAttributeFormDefault value: I32(70)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaAttributeFormDefault;
+  /// @brief Field SchemaAttributeFormDefault value: I32(70)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaAttributeFormDefault;
 
-/// @brief Field SchemaBase value: I32(60)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaBase;
+  /// @brief Field SchemaBase value: I32(60)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaBase;
 
-/// @brief Field SchemaBlock value: I32(55)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaBlock;
+  /// @brief Field SchemaBlock value: I32(55)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaBlock;
 
-/// @brief Field SchemaBlockDefault value: I32(52)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaBlockDefault;
+  /// @brief Field SchemaBlockDefault value: I32(52)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaBlockDefault;
 
-/// @brief Field SchemaClosed value: I32(8)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaClosed;
+  /// @brief Field SchemaClosed value: I32(8)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaClosed;
 
-/// @brief Field SchemaContent value: I32(9)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaContent;
+  /// @brief Field SchemaContent value: I32(9)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaContent;
 
-/// @brief Field SchemaDefault value: I32(30)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDefault;
+  /// @brief Field SchemaDefault value: I32(30)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDefault;
 
-/// @brief Field SchemaDerivedBy value: I32(61)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDerivedBy;
+  /// @brief Field SchemaDerivedBy value: I32(61)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDerivedBy;
 
-/// @brief Field SchemaDtMax value: I32(45)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMax;
+  /// @brief Field SchemaDtMax value: I32(45)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMax;
 
-/// @brief Field SchemaDtMaxExclusive value: I32(48)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMaxExclusive;
+  /// @brief Field SchemaDtMaxExclusive value: I32(48)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMaxExclusive;
 
-/// @brief Field SchemaDtMaxLength value: I32(43)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMaxLength;
+  /// @brief Field SchemaDtMaxLength value: I32(43)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMaxLength;
 
-/// @brief Field SchemaDtMin value: I32(46)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMin;
+  /// @brief Field SchemaDtMin value: I32(46)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMin;
 
-/// @brief Field SchemaDtMinExclusive value: I32(47)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMinExclusive;
+  /// @brief Field SchemaDtMinExclusive value: I32(47)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMinExclusive;
 
-/// @brief Field SchemaDtMinLength value: I32(44)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMinLength;
+  /// @brief Field SchemaDtMinLength value: I32(44)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtMinLength;
 
-/// @brief Field SchemaDtType value: I32(41)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtType;
+  /// @brief Field SchemaDtType value: I32(41)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtType;
 
-/// @brief Field SchemaDtValues value: I32(42)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaDtValues;
+  /// @brief Field SchemaDtValues value: I32(42)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaDtValues;
 
-/// @brief Field SchemaElementFormDefault value: I32(71)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaElementFormDefault;
+  /// @brief Field SchemaElementFormDefault value: I32(71)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaElementFormDefault;
 
-/// @brief Field SchemaElementOnly value: I32(12)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaElementOnly;
+  /// @brief Field SchemaElementOnly value: I32(12)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaElementOnly;
 
-/// @brief Field SchemaEmpty value: I32(11)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaEmpty;
+  /// @brief Field SchemaEmpty value: I32(11)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaEmpty;
 
-/// @brief Field SchemaEntities value: I32(26)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaEntities;
+  /// @brief Field SchemaEntities value: I32(26)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaEntities;
 
-/// @brief Field SchemaEntity value: I32(25)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaEntity;
+  /// @brief Field SchemaEntity value: I32(25)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaEntity;
 
-/// @brief Field SchemaEnumeration value: I32(29)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaEnumeration;
+  /// @brief Field SchemaEnumeration value: I32(29)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaEnumeration;
 
-/// @brief Field SchemaFinal value: I32(57)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaFinal;
+  /// @brief Field SchemaFinal value: I32(57)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaFinal;
 
-/// @brief Field SchemaFinalDefault value: I32(51)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaFinalDefault;
+  /// @brief Field SchemaFinalDefault value: I32(51)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaFinalDefault;
 
-/// @brief Field SchemaFixed value: I32(53)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaFixed;
+  /// @brief Field SchemaFixed value: I32(53)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaFixed;
 
-/// @brief Field SchemaForm value: I32(73)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaForm;
+  /// @brief Field SchemaForm value: I32(73)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaForm;
 
-/// @brief Field SchemaId value: I32(22)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaId;
+  /// @brief Field SchemaId value: I32(22)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaId;
 
-/// @brief Field SchemaIdref value: I32(23)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaIdref;
+  /// @brief Field SchemaIdref value: I32(23)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaIdref;
 
-/// @brief Field SchemaIdrefs value: I32(24)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaIdrefs;
+  /// @brief Field SchemaIdrefs value: I32(24)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaIdrefs;
 
-/// @brief Field SchemaInfinite value: I32(5)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaInfinite;
+  /// @brief Field SchemaInfinite value: I32(5)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaInfinite;
 
-/// @brief Field SchemaItemType value: I32(119)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaItemType;
+  /// @brief Field SchemaItemType value: I32(119)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaItemType;
 
-/// @brief Field SchemaMany value: I32(17)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaMany;
+  /// @brief Field SchemaMany value: I32(17)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaMany;
 
-/// @brief Field SchemaMaxOccurs value: I32(3)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaMaxOccurs;
+  /// @brief Field SchemaMaxOccurs value: I32(3)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaMaxOccurs;
 
-/// @brief Field SchemaMemberTypes value: I32(120)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaMemberTypes;
+  /// @brief Field SchemaMemberTypes value: I32(120)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaMemberTypes;
 
-/// @brief Field SchemaMinOccurs value: I32(4)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaMinOccurs;
+  /// @brief Field SchemaMinOccurs value: I32(4)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaMinOccurs;
 
-/// @brief Field SchemaMixed value: I32(10)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaMixed;
+  /// @brief Field SchemaMixed value: I32(10)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaMixed;
 
-/// @brief Field SchemaModel value: I32(6)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaModel;
+  /// @brief Field SchemaModel value: I32(6)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaModel;
 
-/// @brief Field SchemaName value: I32(1)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaName;
+  /// @brief Field SchemaName value: I32(1)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaName;
 
-/// @brief Field SchemaNamespace value: I32(62)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaNamespace;
+  /// @brief Field SchemaNamespace value: I32(62)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaNamespace;
 
-/// @brief Field SchemaNillable value: I32(58)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaNillable;
+  /// @brief Field SchemaNillable value: I32(58)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaNillable;
 
-/// @brief Field SchemaNmtoken value: I32(27)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaNmtoken;
+  /// @brief Field SchemaNmtoken value: I32(27)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaNmtoken;
 
-/// @brief Field SchemaNmtokens value: I32(28)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaNmtokens;
+  /// @brief Field SchemaNmtokens value: I32(28)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaNmtokens;
 
-/// @brief Field SchemaNo value: I32(20)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaNo;
+  /// @brief Field SchemaNo value: I32(20)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaNo;
 
-/// @brief Field SchemaOne value: I32(16)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaOne;
+  /// @brief Field SchemaOne value: I32(16)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaOne;
 
-/// @brief Field SchemaOpen value: I32(7)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaOpen;
+  /// @brief Field SchemaOpen value: I32(7)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaOpen;
 
-/// @brief Field SchemaOrder value: I32(14)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaOrder;
+  /// @brief Field SchemaOrder value: I32(14)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaOrder;
 
-/// @brief Field SchemaProcessContents value: I32(63)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaProcessContents;
+  /// @brief Field SchemaProcessContents value: I32(63)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaProcessContents;
 
-/// @brief Field SchemaPublic value: I32(65)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaPublic;
+  /// @brief Field SchemaPublic value: I32(65)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaPublic;
 
-/// @brief Field SchemaRef value: I32(59)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaRef;
+  /// @brief Field SchemaRef value: I32(59)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaRef;
 
-/// @brief Field SchemaRefer value: I32(64)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaRefer;
+  /// @brief Field SchemaRefer value: I32(64)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaRefer;
 
-/// @brief Field SchemaRequired value: I32(18)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaRequired;
+  /// @brief Field SchemaRequired value: I32(18)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaRequired;
 
-/// @brief Field SchemaSchemaLocation value: I32(67)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaSchemaLocation;
+  /// @brief Field SchemaSchemaLocation value: I32(67)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaSchemaLocation;
 
-/// @brief Field SchemaSeq value: I32(15)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaSeq;
+  /// @brief Field SchemaSeq value: I32(15)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaSeq;
 
-/// @brief Field SchemaSource value: I32(69)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaSource;
+  /// @brief Field SchemaSource value: I32(69)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaSource;
 
-/// @brief Field SchemaString value: I32(21)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaString;
+  /// @brief Field SchemaString value: I32(21)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaString;
 
-/// @brief Field SchemaSubstitutionGroup value: I32(56)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaSubstitutionGroup;
+  /// @brief Field SchemaSubstitutionGroup value: I32(56)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaSubstitutionGroup;
 
-/// @brief Field SchemaSystem value: I32(66)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaSystem;
+  /// @brief Field SchemaSystem value: I32(66)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaSystem;
 
-/// @brief Field SchemaTargetNamespace value: I32(49)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaTargetNamespace;
+  /// @brief Field SchemaTargetNamespace value: I32(49)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaTargetNamespace;
 
-/// @brief Field SchemaTextOnly value: I32(13)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaTextOnly;
+  /// @brief Field SchemaTextOnly value: I32(13)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaTextOnly;
 
-/// @brief Field SchemaType value: I32(2)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaType;
+  /// @brief Field SchemaType value: I32(2)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaType;
 
-/// @brief Field SchemaUse value: I32(72)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaUse;
+  /// @brief Field SchemaUse value: I32(72)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaUse;
 
-/// @brief Field SchemaValue value: I32(68)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaValue;
+  /// @brief Field SchemaValue value: I32(68)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaValue;
 
-/// @brief Field SchemaVersion value: I32(50)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaVersion;
+  /// @brief Field SchemaVersion value: I32(50)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaVersion;
 
-/// @brief Field SchemaXPath value: I32(121)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaXPath;
+  /// @brief Field SchemaXPath value: I32(121)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaXPath;
 
-/// @brief Field SchemaXdrRootAlias value: I32(40)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaXdrRootAlias;
+  /// @brief Field SchemaXdrRootAlias value: I32(40)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaXdrRootAlias;
 
-/// @brief Field SchemaYes value: I32(19)
-static ::System::Xml::Schema::SchemaNames_Token const SchemaYes;
+  /// @brief Field SchemaYes value: I32(19)
+  static ::System::Xml::Schema::SchemaNames_Token const SchemaYes;
 
-/// @brief Field XdrAttribute value: I32(36)
-static ::System::Xml::Schema::SchemaNames_Token const XdrAttribute;
+  /// @brief Field XdrAttribute value: I32(36)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrAttribute;
 
-/// @brief Field XdrAttributeType value: I32(35)
-static ::System::Xml::Schema::SchemaNames_Token const XdrAttributeType;
+  /// @brief Field XdrAttributeType value: I32(35)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrAttributeType;
 
-/// @brief Field XdrDatatype value: I32(37)
-static ::System::Xml::Schema::SchemaNames_Token const XdrDatatype;
+  /// @brief Field XdrDatatype value: I32(37)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrDatatype;
 
-/// @brief Field XdrDescription value: I32(38)
-static ::System::Xml::Schema::SchemaNames_Token const XdrDescription;
+  /// @brief Field XdrDescription value: I32(38)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrDescription;
 
-/// @brief Field XdrElement value: I32(33)
-static ::System::Xml::Schema::SchemaNames_Token const XdrElement;
+  /// @brief Field XdrElement value: I32(33)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrElement;
 
-/// @brief Field XdrElementType value: I32(32)
-static ::System::Xml::Schema::SchemaNames_Token const XdrElementType;
+  /// @brief Field XdrElementType value: I32(32)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrElementType;
 
-/// @brief Field XdrExtends value: I32(39)
-static ::System::Xml::Schema::SchemaNames_Token const XdrExtends;
+  /// @brief Field XdrExtends value: I32(39)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrExtends;
 
-/// @brief Field XdrGroup value: I32(34)
-static ::System::Xml::Schema::SchemaNames_Token const XdrGroup;
+  /// @brief Field XdrGroup value: I32(34)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrGroup;
 
-/// @brief Field XdrRoot value: I32(31)
-static ::System::Xml::Schema::SchemaNames_Token const XdrRoot;
+  /// @brief Field XdrRoot value: I32(31)
+  static ::System::Xml::Schema::SchemaNames_Token const XdrRoot;
 
-/// @brief Field XmlLang value: I32(122)
-static ::System::Xml::Schema::SchemaNames_Token const XmlLang;
+  /// @brief Field XmlLang value: I32(122)
+  static ::System::Xml::Schema::SchemaNames_Token const XmlLang;
 
-/// @brief Field XsdAll value: I32(83)
-static ::System::Xml::Schema::SchemaNames_Token const XsdAll;
+  /// @brief Field XsdAll value: I32(83)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdAll;
 
-/// @brief Field XsdAnnotation value: I32(75)
-static ::System::Xml::Schema::SchemaNames_Token const XsdAnnotation;
+  /// @brief Field XsdAnnotation value: I32(75)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdAnnotation;
 
-/// @brief Field XsdAny value: I32(86)
-static ::System::Xml::Schema::SchemaNames_Token const XsdAny;
+  /// @brief Field XsdAny value: I32(86)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdAny;
 
-/// @brief Field XsdAnyAttribute value: I32(81)
-static ::System::Xml::Schema::SchemaNames_Token const XsdAnyAttribute;
+  /// @brief Field XsdAnyAttribute value: I32(81)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdAnyAttribute;
 
-/// @brief Field XsdAppInfo value: I32(107)
-static ::System::Xml::Schema::SchemaNames_Token const XsdAppInfo;
+  /// @brief Field XsdAppInfo value: I32(107)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdAppInfo;
 
-/// @brief Field XsdAttribute value: I32(79)
-static ::System::Xml::Schema::SchemaNames_Token const XsdAttribute;
+  /// @brief Field XsdAttribute value: I32(79)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdAttribute;
 
-/// @brief Field XsdChoice value: I32(84)
-static ::System::Xml::Schema::SchemaNames_Token const XsdChoice;
+  /// @brief Field XsdChoice value: I32(84)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdChoice;
 
-/// @brief Field XsdComplexContent value: I32(108)
-static ::System::Xml::Schema::SchemaNames_Token const XsdComplexContent;
+  /// @brief Field XsdComplexContent value: I32(108)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdComplexContent;
 
-/// @brief Field XsdComplexContentExtension value: I32(109)
-static ::System::Xml::Schema::SchemaNames_Token const XsdComplexContentExtension;
+  /// @brief Field XsdComplexContentExtension value: I32(109)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdComplexContentExtension;
 
-/// @brief Field XsdComplexContentRestriction value: I32(110)
-static ::System::Xml::Schema::SchemaNames_Token const XsdComplexContentRestriction;
+  /// @brief Field XsdComplexContentRestriction value: I32(110)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdComplexContentRestriction;
 
-/// @brief Field XsdComplexType value: I32(89)
-static ::System::Xml::Schema::SchemaNames_Token const XsdComplexType;
+  /// @brief Field XsdComplexType value: I32(89)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdComplexType;
 
-/// @brief Field XsdDocumentation value: I32(106)
-static ::System::Xml::Schema::SchemaNames_Token const XsdDocumentation;
+  /// @brief Field XsdDocumentation value: I32(106)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdDocumentation;
 
-/// @brief Field XsdElement value: I32(78)
-static ::System::Xml::Schema::SchemaNames_Token const XsdElement;
+  /// @brief Field XsdElement value: I32(78)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdElement;
 
-/// @brief Field XsdEnumeration value: I32(104)
-static ::System::Xml::Schema::SchemaNames_Token const XsdEnumeration;
+  /// @brief Field XsdEnumeration value: I32(104)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdEnumeration;
 
-/// @brief Field XsdField value: I32(94)
-static ::System::Xml::Schema::SchemaNames_Token const XsdField;
+  /// @brief Field XsdField value: I32(94)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdField;
 
-/// @brief Field XsdFractionDigits value: I32(100)
-static ::System::Xml::Schema::SchemaNames_Token const XsdFractionDigits;
+  /// @brief Field XsdFractionDigits value: I32(100)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdFractionDigits;
 
-/// @brief Field XsdGroup value: I32(82)
-static ::System::Xml::Schema::SchemaNames_Token const XsdGroup;
+  /// @brief Field XsdGroup value: I32(82)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdGroup;
 
-/// @brief Field XsdImport value: I32(77)
-static ::System::Xml::Schema::SchemaNames_Token const XsdImport;
+  /// @brief Field XsdImport value: I32(77)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdImport;
 
-/// @brief Field XsdInclude value: I32(76)
-static ::System::Xml::Schema::SchemaNames_Token const XsdInclude;
+  /// @brief Field XsdInclude value: I32(76)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdInclude;
 
-/// @brief Field XsdKey value: I32(91)
-static ::System::Xml::Schema::SchemaNames_Token const XsdKey;
+  /// @brief Field XsdKey value: I32(91)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdKey;
 
-/// @brief Field XsdKeyref value: I32(92)
-static ::System::Xml::Schema::SchemaNames_Token const XsdKeyref;
+  /// @brief Field XsdKeyref value: I32(92)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdKeyref;
 
-/// @brief Field XsdLength value: I32(101)
-static ::System::Xml::Schema::SchemaNames_Token const XsdLength;
+  /// @brief Field XsdLength value: I32(101)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdLength;
 
-/// @brief Field XsdMaxExclusive value: I32(97)
-static ::System::Xml::Schema::SchemaNames_Token const XsdMaxExclusive;
+  /// @brief Field XsdMaxExclusive value: I32(97)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdMaxExclusive;
 
-/// @brief Field XsdMaxInclusive value: I32(98)
-static ::System::Xml::Schema::SchemaNames_Token const XsdMaxInclusive;
+  /// @brief Field XsdMaxInclusive value: I32(98)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdMaxInclusive;
 
-/// @brief Field XsdMaxLength value: I32(103)
-static ::System::Xml::Schema::SchemaNames_Token const XsdMaxLength;
+  /// @brief Field XsdMaxLength value: I32(103)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdMaxLength;
 
-/// @brief Field XsdMinExclusive value: I32(95)
-static ::System::Xml::Schema::SchemaNames_Token const XsdMinExclusive;
+  /// @brief Field XsdMinExclusive value: I32(95)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdMinExclusive;
 
-/// @brief Field XsdMinInclusive value: I32(96)
-static ::System::Xml::Schema::SchemaNames_Token const XsdMinInclusive;
+  /// @brief Field XsdMinInclusive value: I32(96)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdMinInclusive;
 
-/// @brief Field XsdMinLength value: I32(102)
-static ::System::Xml::Schema::SchemaNames_Token const XsdMinLength;
+  /// @brief Field XsdMinLength value: I32(102)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdMinLength;
 
-/// @brief Field XsdNotation value: I32(87)
-static ::System::Xml::Schema::SchemaNames_Token const XsdNotation;
+  /// @brief Field XsdNotation value: I32(87)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdNotation;
 
-/// @brief Field XsdPattern value: I32(105)
-static ::System::Xml::Schema::SchemaNames_Token const XsdPattern;
+  /// @brief Field XsdPattern value: I32(105)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdPattern;
 
-/// @brief Field XsdRedefine value: I32(118)
-static ::System::Xml::Schema::SchemaNames_Token const XsdRedefine;
+  /// @brief Field XsdRedefine value: I32(118)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdRedefine;
 
-/// @brief Field XsdSchema value: I32(74)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSchema;
+  /// @brief Field XsdSchema value: I32(74)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSchema;
 
-/// @brief Field XsdSelector value: I32(93)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSelector;
+  /// @brief Field XsdSelector value: I32(93)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSelector;
 
-/// @brief Field XsdSequence value: I32(85)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSequence;
+  /// @brief Field XsdSequence value: I32(85)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSequence;
 
-/// @brief Field XsdSimpleContent value: I32(111)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleContent;
+  /// @brief Field XsdSimpleContent value: I32(111)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleContent;
 
-/// @brief Field XsdSimpleContentExtension value: I32(112)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleContentExtension;
+  /// @brief Field XsdSimpleContentExtension value: I32(112)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleContentExtension;
 
-/// @brief Field XsdSimpleContentRestriction value: I32(113)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleContentRestriction;
+  /// @brief Field XsdSimpleContentRestriction value: I32(113)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleContentRestriction;
 
-/// @brief Field XsdSimpleType value: I32(88)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleType;
+  /// @brief Field XsdSimpleType value: I32(88)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleType;
 
-/// @brief Field XsdSimpleTypeList value: I32(114)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleTypeList;
+  /// @brief Field XsdSimpleTypeList value: I32(114)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleTypeList;
 
-/// @brief Field XsdSimpleTypeRestriction value: I32(115)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleTypeRestriction;
+  /// @brief Field XsdSimpleTypeRestriction value: I32(115)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleTypeRestriction;
 
-/// @brief Field XsdSimpleTypeUnion value: I32(116)
-static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleTypeUnion;
+  /// @brief Field XsdSimpleTypeUnion value: I32(116)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdSimpleTypeUnion;
 
-/// @brief Field XsdTotalDigits value: I32(99)
-static ::System::Xml::Schema::SchemaNames_Token const XsdTotalDigits;
+  /// @brief Field XsdTotalDigits value: I32(99)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdTotalDigits;
 
-/// @brief Field XsdUnique value: I32(90)
-static ::System::Xml::Schema::SchemaNames_Token const XsdUnique;
+  /// @brief Field XsdUnique value: I32(90)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdUnique;
 
-/// @brief Field XsdWhitespace value: I32(117)
-static ::System::Xml::Schema::SchemaNames_Token const XsdWhitespace;
+  /// @brief Field XsdWhitespace value: I32(117)
+  static ::System::Xml::Schema::SchemaNames_Token const XsdWhitespace;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9696};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9702 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field xsdAttributeGroup value: I32(80)
-static ::System::Xml::Schema::SchemaNames_Token const xsdAttributeGroup;
+  /// @brief Field xsdAttributeGroup value: I32(80)
+  static ::System::Xml::Schema::SchemaNames_Token const xsdAttributeGroup;
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::SchemaNames_Token, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaNames_Token, 0x4>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 // Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.SchemaNames
 class CORDL_TYPE SchemaNames : public ::System::Object {
 public:
-// Declarations
-using Token = ::System::Xml::Schema::SchemaNames_Token;
+  // Declarations
+  using Token = ::System::Xml::Schema::SchemaNames_Token;
 
-/// @brief Field NsDataType, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsDataType, put=__cordl_internal_set_NsDataType)) ::StringW  NsDataType;
+  /// @brief Field NsDataType, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsDataType, put = __cordl_internal_set_NsDataType)) ::StringW NsDataType;
 
-/// @brief Field NsDataTypeAlias, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsDataTypeAlias, put=__cordl_internal_set_NsDataTypeAlias)) ::StringW  NsDataTypeAlias;
+  /// @brief Field NsDataTypeAlias, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsDataTypeAlias, put = __cordl_internal_set_NsDataTypeAlias)) ::StringW NsDataTypeAlias;
 
-/// @brief Field NsDataTypeOld, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsDataTypeOld, put=__cordl_internal_set_NsDataTypeOld)) ::StringW  NsDataTypeOld;
+  /// @brief Field NsDataTypeOld, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsDataTypeOld, put = __cordl_internal_set_NsDataTypeOld)) ::StringW NsDataTypeOld;
 
-/// @brief Field NsXdr, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsXdr, put=__cordl_internal_set_NsXdr)) ::StringW  NsXdr;
+  /// @brief Field NsXdr, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsXdr, put = __cordl_internal_set_NsXdr)) ::StringW NsXdr;
 
-/// @brief Field NsXdrAlias, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsXdrAlias, put=__cordl_internal_set_NsXdrAlias)) ::StringW  NsXdrAlias;
+  /// @brief Field NsXdrAlias, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsXdrAlias, put = __cordl_internal_set_NsXdrAlias)) ::StringW NsXdrAlias;
 
-/// @brief Field NsXml, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsXml, put=__cordl_internal_set_NsXml)) ::StringW  NsXml;
+  /// @brief Field NsXml, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsXml, put = __cordl_internal_set_NsXml)) ::StringW NsXml;
 
-/// @brief Field NsXmlNs, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsXmlNs, put=__cordl_internal_set_NsXmlNs)) ::StringW  NsXmlNs;
+  /// @brief Field NsXmlNs, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsXmlNs, put = __cordl_internal_set_NsXmlNs)) ::StringW NsXmlNs;
 
-/// @brief Field NsXs, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsXs, put=__cordl_internal_set_NsXs)) ::StringW  NsXs;
+  /// @brief Field NsXs, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsXs, put = __cordl_internal_set_NsXs)) ::StringW NsXs;
 
-/// @brief Field NsXsi, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get_NsXsi, put=__cordl_internal_set_NsXsi)) ::StringW  NsXsi;
+  /// @brief Field NsXsi, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_NsXsi, put = __cordl_internal_set_NsXsi)) ::StringW NsXsi;
 
-/// @brief Field QnAbstract, offset 0x260, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnAbstract, put=__cordl_internal_set_QnAbstract)) ::System::Xml::XmlQualifiedName*  QnAbstract;
+  /// @brief Field QnAbstract, offset 0x260, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnAbstract, put = __cordl_internal_set_QnAbstract)) ::System::Xml::XmlQualifiedName* QnAbstract;
 
-/// @brief Field QnAttributeFormDefault, offset 0x2f0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnAttributeFormDefault, put=__cordl_internal_set_QnAttributeFormDefault)) ::System::Xml::XmlQualifiedName*  QnAttributeFormDefault;
+  /// @brief Field QnAttributeFormDefault, offset 0x2f0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnAttributeFormDefault, put = __cordl_internal_set_QnAttributeFormDefault)) ::System::Xml::XmlQualifiedName* QnAttributeFormDefault;
 
-/// @brief Field QnBase, offset 0x290, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnBase, put=__cordl_internal_set_QnBase)) ::System::Xml::XmlQualifiedName*  QnBase;
+  /// @brief Field QnBase, offset 0x290, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnBase, put = __cordl_internal_set_QnBase)) ::System::Xml::XmlQualifiedName* QnBase;
 
-/// @brief Field QnBlock, offset 0x268, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnBlock, put=__cordl_internal_set_QnBlock)) ::System::Xml::XmlQualifiedName*  QnBlock;
+  /// @brief Field QnBlock, offset 0x268, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnBlock, put = __cordl_internal_set_QnBlock)) ::System::Xml::XmlQualifiedName* QnBlock;
 
-/// @brief Field QnBlockDefault, offset 0x250, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnBlockDefault, put=__cordl_internal_set_QnBlockDefault)) ::System::Xml::XmlQualifiedName*  QnBlockDefault;
+  /// @brief Field QnBlockDefault, offset 0x250, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnBlockDefault, put = __cordl_internal_set_QnBlockDefault)) ::System::Xml::XmlQualifiedName* QnBlockDefault;
 
-/// @brief Field QnClosed, offset 0xf0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnClosed, put=__cordl_internal_set_QnClosed)) ::System::Xml::XmlQualifiedName*  QnClosed;
+  /// @brief Field QnClosed, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnClosed, put = __cordl_internal_set_QnClosed)) ::System::Xml::XmlQualifiedName* QnClosed;
 
-/// @brief Field QnContent, offset 0xf8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnContent, put=__cordl_internal_set_QnContent)) ::System::Xml::XmlQualifiedName*  QnContent;
+  /// @brief Field QnContent, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnContent, put = __cordl_internal_set_QnContent)) ::System::Xml::XmlQualifiedName* QnContent;
 
-/// @brief Field QnDefault, offset 0x1a0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDefault, put=__cordl_internal_set_QnDefault)) ::System::Xml::XmlQualifiedName*  QnDefault;
+  /// @brief Field QnDefault, offset 0x1a0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDefault, put = __cordl_internal_set_QnDefault)) ::System::Xml::XmlQualifiedName* QnDefault;
 
-/// @brief Field QnDerivedBy, offset 0x298, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDerivedBy, put=__cordl_internal_set_QnDerivedBy)) ::System::Xml::XmlQualifiedName*  QnDerivedBy;
+  /// @brief Field QnDerivedBy, offset 0x298, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDerivedBy, put = __cordl_internal_set_QnDerivedBy)) ::System::Xml::XmlQualifiedName* QnDerivedBy;
 
-/// @brief Field QnDtDt, offset 0xa8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtDt, put=__cordl_internal_set_QnDtDt)) ::System::Xml::XmlQualifiedName*  QnDtDt;
+  /// @brief Field QnDtDt, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtDt, put = __cordl_internal_set_QnDtDt)) ::System::Xml::XmlQualifiedName* QnDtDt;
 
-/// @brief Field QnDtMax, offset 0x218, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtMax, put=__cordl_internal_set_QnDtMax)) ::System::Xml::XmlQualifiedName*  QnDtMax;
+  /// @brief Field QnDtMax, offset 0x218, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtMax, put = __cordl_internal_set_QnDtMax)) ::System::Xml::XmlQualifiedName* QnDtMax;
 
-/// @brief Field QnDtMaxExclusive, offset 0x230, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtMaxExclusive, put=__cordl_internal_set_QnDtMaxExclusive)) ::System::Xml::XmlQualifiedName*  QnDtMaxExclusive;
+  /// @brief Field QnDtMaxExclusive, offset 0x230, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtMaxExclusive, put = __cordl_internal_set_QnDtMaxExclusive)) ::System::Xml::XmlQualifiedName* QnDtMaxExclusive;
 
-/// @brief Field QnDtMaxLength, offset 0x208, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtMaxLength, put=__cordl_internal_set_QnDtMaxLength)) ::System::Xml::XmlQualifiedName*  QnDtMaxLength;
+  /// @brief Field QnDtMaxLength, offset 0x208, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtMaxLength, put = __cordl_internal_set_QnDtMaxLength)) ::System::Xml::XmlQualifiedName* QnDtMaxLength;
 
-/// @brief Field QnDtMin, offset 0x220, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtMin, put=__cordl_internal_set_QnDtMin)) ::System::Xml::XmlQualifiedName*  QnDtMin;
+  /// @brief Field QnDtMin, offset 0x220, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtMin, put = __cordl_internal_set_QnDtMin)) ::System::Xml::XmlQualifiedName* QnDtMin;
 
-/// @brief Field QnDtMinExclusive, offset 0x228, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtMinExclusive, put=__cordl_internal_set_QnDtMinExclusive)) ::System::Xml::XmlQualifiedName*  QnDtMinExclusive;
+  /// @brief Field QnDtMinExclusive, offset 0x228, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtMinExclusive, put = __cordl_internal_set_QnDtMinExclusive)) ::System::Xml::XmlQualifiedName* QnDtMinExclusive;
 
-/// @brief Field QnDtMinLength, offset 0x210, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtMinLength, put=__cordl_internal_set_QnDtMinLength)) ::System::Xml::XmlQualifiedName*  QnDtMinLength;
+  /// @brief Field QnDtMinLength, offset 0x210, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtMinLength, put = __cordl_internal_set_QnDtMinLength)) ::System::Xml::XmlQualifiedName* QnDtMinLength;
 
-/// @brief Field QnDtType, offset 0x1f8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtType, put=__cordl_internal_set_QnDtType)) ::System::Xml::XmlQualifiedName*  QnDtType;
+  /// @brief Field QnDtType, offset 0x1f8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtType, put = __cordl_internal_set_QnDtType)) ::System::Xml::XmlQualifiedName* QnDtType;
 
-/// @brief Field QnDtValues, offset 0x200, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnDtValues, put=__cordl_internal_set_QnDtValues)) ::System::Xml::XmlQualifiedName*  QnDtValues;
+  /// @brief Field QnDtValues, offset 0x200, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnDtValues, put = __cordl_internal_set_QnDtValues)) ::System::Xml::XmlQualifiedName* QnDtValues;
 
-/// @brief Field QnElementFormDefault, offset 0x2e8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnElementFormDefault, put=__cordl_internal_set_QnElementFormDefault)) ::System::Xml::XmlQualifiedName*  QnElementFormDefault;
+  /// @brief Field QnElementFormDefault, offset 0x2e8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnElementFormDefault, put = __cordl_internal_set_QnElementFormDefault)) ::System::Xml::XmlQualifiedName* QnElementFormDefault;
 
-/// @brief Field QnEltOnly, offset 0x110, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnEltOnly, put=__cordl_internal_set_QnEltOnly)) ::System::Xml::XmlQualifiedName*  QnEltOnly;
+  /// @brief Field QnEltOnly, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnEltOnly, put = __cordl_internal_set_QnEltOnly)) ::System::Xml::XmlQualifiedName* QnEltOnly;
 
-/// @brief Field QnEmpty, offset 0x108, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnEmpty, put=__cordl_internal_set_QnEmpty)) ::System::Xml::XmlQualifiedName*  QnEmpty;
+  /// @brief Field QnEmpty, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnEmpty, put = __cordl_internal_set_QnEmpty)) ::System::Xml::XmlQualifiedName* QnEmpty;
 
-/// @brief Field QnEntities, offset 0x180, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnEntities, put=__cordl_internal_set_QnEntities)) ::System::Xml::XmlQualifiedName*  QnEntities;
+  /// @brief Field QnEntities, offset 0x180, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnEntities, put = __cordl_internal_set_QnEntities)) ::System::Xml::XmlQualifiedName* QnEntities;
 
-/// @brief Field QnEntity, offset 0x178, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnEntity, put=__cordl_internal_set_QnEntity)) ::System::Xml::XmlQualifiedName*  QnEntity;
+  /// @brief Field QnEntity, offset 0x178, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnEntity, put = __cordl_internal_set_QnEntity)) ::System::Xml::XmlQualifiedName* QnEntity;
 
-/// @brief Field QnEnumeration, offset 0x198, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnEnumeration, put=__cordl_internal_set_QnEnumeration)) ::System::Xml::XmlQualifiedName*  QnEnumeration;
+  /// @brief Field QnEnumeration, offset 0x198, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnEnumeration, put = __cordl_internal_set_QnEnumeration)) ::System::Xml::XmlQualifiedName* QnEnumeration;
 
-/// @brief Field QnFinal, offset 0x278, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnFinal, put=__cordl_internal_set_QnFinal)) ::System::Xml::XmlQualifiedName*  QnFinal;
+  /// @brief Field QnFinal, offset 0x278, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnFinal, put = __cordl_internal_set_QnFinal)) ::System::Xml::XmlQualifiedName* QnFinal;
 
-/// @brief Field QnFinalDefault, offset 0x248, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnFinalDefault, put=__cordl_internal_set_QnFinalDefault)) ::System::Xml::XmlQualifiedName*  QnFinalDefault;
+  /// @brief Field QnFinalDefault, offset 0x248, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnFinalDefault, put = __cordl_internal_set_QnFinalDefault)) ::System::Xml::XmlQualifiedName* QnFinalDefault;
 
-/// @brief Field QnFixed, offset 0x258, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnFixed, put=__cordl_internal_set_QnFixed)) ::System::Xml::XmlQualifiedName*  QnFixed;
+  /// @brief Field QnFixed, offset 0x258, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnFixed, put = __cordl_internal_set_QnFixed)) ::System::Xml::XmlQualifiedName* QnFixed;
 
-/// @brief Field QnForm, offset 0x2e0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnForm, put=__cordl_internal_set_QnForm)) ::System::Xml::XmlQualifiedName*  QnForm;
+  /// @brief Field QnForm, offset 0x2e0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnForm, put = __cordl_internal_set_QnForm)) ::System::Xml::XmlQualifiedName* QnForm;
 
-/// @brief Field QnID, offset 0x160, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnID, put=__cordl_internal_set_QnID)) ::System::Xml::XmlQualifiedName*  QnID;
+  /// @brief Field QnID, offset 0x160, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnID, put = __cordl_internal_set_QnID)) ::System::Xml::XmlQualifiedName* QnID;
 
-/// @brief Field QnIDRef, offset 0x168, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnIDRef, put=__cordl_internal_set_QnIDRef)) ::System::Xml::XmlQualifiedName*  QnIDRef;
+  /// @brief Field QnIDRef, offset 0x168, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnIDRef, put = __cordl_internal_set_QnIDRef)) ::System::Xml::XmlQualifiedName* QnIDRef;
 
-/// @brief Field QnIDRefs, offset 0x170, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnIDRefs, put=__cordl_internal_set_QnIDRefs)) ::System::Xml::XmlQualifiedName*  QnIDRefs;
+  /// @brief Field QnIDRefs, offset 0x170, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnIDRefs, put = __cordl_internal_set_QnIDRefs)) ::System::Xml::XmlQualifiedName* QnIDRefs;
 
-/// @brief Field QnInfinite, offset 0xd8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnInfinite, put=__cordl_internal_set_QnInfinite)) ::System::Xml::XmlQualifiedName*  QnInfinite;
+  /// @brief Field QnInfinite, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnInfinite, put = __cordl_internal_set_QnInfinite)) ::System::Xml::XmlQualifiedName* QnInfinite;
 
-/// @brief Field QnItemType, offset 0x2f8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnItemType, put=__cordl_internal_set_QnItemType)) ::System::Xml::XmlQualifiedName*  QnItemType;
+  /// @brief Field QnItemType, offset 0x2f8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnItemType, put = __cordl_internal_set_QnItemType)) ::System::Xml::XmlQualifiedName* QnItemType;
 
-/// @brief Field QnMany, offset 0x138, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnMany, put=__cordl_internal_set_QnMany)) ::System::Xml::XmlQualifiedName*  QnMany;
+  /// @brief Field QnMany, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnMany, put = __cordl_internal_set_QnMany)) ::System::Xml::XmlQualifiedName* QnMany;
 
-/// @brief Field QnMaxOccurs, offset 0xc8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnMaxOccurs, put=__cordl_internal_set_QnMaxOccurs)) ::System::Xml::XmlQualifiedName*  QnMaxOccurs;
+  /// @brief Field QnMaxOccurs, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnMaxOccurs, put = __cordl_internal_set_QnMaxOccurs)) ::System::Xml::XmlQualifiedName* QnMaxOccurs;
 
-/// @brief Field QnMemberTypes, offset 0x300, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnMemberTypes, put=__cordl_internal_set_QnMemberTypes)) ::System::Xml::XmlQualifiedName*  QnMemberTypes;
+  /// @brief Field QnMemberTypes, offset 0x300, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnMemberTypes, put = __cordl_internal_set_QnMemberTypes)) ::System::Xml::XmlQualifiedName* QnMemberTypes;
 
-/// @brief Field QnMinOccurs, offset 0xd0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnMinOccurs, put=__cordl_internal_set_QnMinOccurs)) ::System::Xml::XmlQualifiedName*  QnMinOccurs;
+  /// @brief Field QnMinOccurs, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnMinOccurs, put = __cordl_internal_set_QnMinOccurs)) ::System::Xml::XmlQualifiedName* QnMinOccurs;
 
-/// @brief Field QnMixed, offset 0x100, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnMixed, put=__cordl_internal_set_QnMixed)) ::System::Xml::XmlQualifiedName*  QnMixed;
+  /// @brief Field QnMixed, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnMixed, put = __cordl_internal_set_QnMixed)) ::System::Xml::XmlQualifiedName* QnMixed;
 
-/// @brief Field QnModel, offset 0xe0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnModel, put=__cordl_internal_set_QnModel)) ::System::Xml::XmlQualifiedName*  QnModel;
+  /// @brief Field QnModel, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnModel, put = __cordl_internal_set_QnModel)) ::System::Xml::XmlQualifiedName* QnModel;
 
-/// @brief Field QnName, offset 0xb8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnName, put=__cordl_internal_set_QnName)) ::System::Xml::XmlQualifiedName*  QnName;
+  /// @brief Field QnName, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnName, put = __cordl_internal_set_QnName)) ::System::Xml::XmlQualifiedName* QnName;
 
-/// @brief Field QnNamespace, offset 0x2a0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnNamespace, put=__cordl_internal_set_QnNamespace)) ::System::Xml::XmlQualifiedName*  QnNamespace;
+  /// @brief Field QnNamespace, offset 0x2a0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnNamespace, put = __cordl_internal_set_QnNamespace)) ::System::Xml::XmlQualifiedName* QnNamespace;
 
-/// @brief Field QnNillable, offset 0x280, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnNillable, put=__cordl_internal_set_QnNillable)) ::System::Xml::XmlQualifiedName*  QnNillable;
+  /// @brief Field QnNillable, offset 0x280, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnNillable, put = __cordl_internal_set_QnNillable)) ::System::Xml::XmlQualifiedName* QnNillable;
 
-/// @brief Field QnNmToken, offset 0x188, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnNmToken, put=__cordl_internal_set_QnNmToken)) ::System::Xml::XmlQualifiedName*  QnNmToken;
+  /// @brief Field QnNmToken, offset 0x188, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnNmToken, put = __cordl_internal_set_QnNmToken)) ::System::Xml::XmlQualifiedName* QnNmToken;
 
-/// @brief Field QnNmTokens, offset 0x190, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnNmTokens, put=__cordl_internal_set_QnNmTokens)) ::System::Xml::XmlQualifiedName*  QnNmTokens;
+  /// @brief Field QnNmTokens, offset 0x190, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnNmTokens, put = __cordl_internal_set_QnNmTokens)) ::System::Xml::XmlQualifiedName* QnNmTokens;
 
-/// @brief Field QnNo, offset 0x150, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnNo, put=__cordl_internal_set_QnNo)) ::System::Xml::XmlQualifiedName*  QnNo;
+  /// @brief Field QnNo, offset 0x150, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnNo, put = __cordl_internal_set_QnNo)) ::System::Xml::XmlQualifiedName* QnNo;
 
-/// @brief Field QnOne, offset 0x130, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnOne, put=__cordl_internal_set_QnOne)) ::System::Xml::XmlQualifiedName*  QnOne;
+  /// @brief Field QnOne, offset 0x130, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnOne, put = __cordl_internal_set_QnOne)) ::System::Xml::XmlQualifiedName* QnOne;
 
-/// @brief Field QnOpen, offset 0xe8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnOpen, put=__cordl_internal_set_QnOpen)) ::System::Xml::XmlQualifiedName*  QnOpen;
+  /// @brief Field QnOpen, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnOpen, put = __cordl_internal_set_QnOpen)) ::System::Xml::XmlQualifiedName* QnOpen;
 
-/// @brief Field QnOrder, offset 0x120, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnOrder, put=__cordl_internal_set_QnOrder)) ::System::Xml::XmlQualifiedName*  QnOrder;
+  /// @brief Field QnOrder, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnOrder, put = __cordl_internal_set_QnOrder)) ::System::Xml::XmlQualifiedName* QnOrder;
 
-/// @brief Field QnPCData, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnPCData, put=__cordl_internal_set_QnPCData)) ::System::Xml::XmlQualifiedName*  QnPCData;
+  /// @brief Field QnPCData, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnPCData, put = __cordl_internal_set_QnPCData)) ::System::Xml::XmlQualifiedName* QnPCData;
 
-/// @brief Field QnProcessContents, offset 0x2a8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnProcessContents, put=__cordl_internal_set_QnProcessContents)) ::System::Xml::XmlQualifiedName*  QnProcessContents;
+  /// @brief Field QnProcessContents, offset 0x2a8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnProcessContents, put = __cordl_internal_set_QnProcessContents)) ::System::Xml::XmlQualifiedName* QnProcessContents;
 
-/// @brief Field QnPublic, offset 0x2b8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnPublic, put=__cordl_internal_set_QnPublic)) ::System::Xml::XmlQualifiedName*  QnPublic;
+  /// @brief Field QnPublic, offset 0x2b8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnPublic, put = __cordl_internal_set_QnPublic)) ::System::Xml::XmlQualifiedName* QnPublic;
 
-/// @brief Field QnRef, offset 0x288, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnRef, put=__cordl_internal_set_QnRef)) ::System::Xml::XmlQualifiedName*  QnRef;
+  /// @brief Field QnRef, offset 0x288, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnRef, put = __cordl_internal_set_QnRef)) ::System::Xml::XmlQualifiedName* QnRef;
 
-/// @brief Field QnRefer, offset 0x2b0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnRefer, put=__cordl_internal_set_QnRefer)) ::System::Xml::XmlQualifiedName*  QnRefer;
+  /// @brief Field QnRefer, offset 0x2b0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnRefer, put = __cordl_internal_set_QnRefer)) ::System::Xml::XmlQualifiedName* QnRefer;
 
-/// @brief Field QnRequired, offset 0x140, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnRequired, put=__cordl_internal_set_QnRequired)) ::System::Xml::XmlQualifiedName*  QnRequired;
+  /// @brief Field QnRequired, offset 0x140, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnRequired, put = __cordl_internal_set_QnRequired)) ::System::Xml::XmlQualifiedName* QnRequired;
 
-/// @brief Field QnSchemaLocation, offset 0x2c8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnSchemaLocation, put=__cordl_internal_set_QnSchemaLocation)) ::System::Xml::XmlQualifiedName*  QnSchemaLocation;
+  /// @brief Field QnSchemaLocation, offset 0x2c8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnSchemaLocation, put = __cordl_internal_set_QnSchemaLocation)) ::System::Xml::XmlQualifiedName* QnSchemaLocation;
 
-/// @brief Field QnSeq, offset 0x128, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnSeq, put=__cordl_internal_set_QnSeq)) ::System::Xml::XmlQualifiedName*  QnSeq;
+  /// @brief Field QnSeq, offset 0x128, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnSeq, put = __cordl_internal_set_QnSeq)) ::System::Xml::XmlQualifiedName* QnSeq;
 
-/// @brief Field QnSource, offset 0x420, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnSource, put=__cordl_internal_set_QnSource)) ::System::Xml::XmlQualifiedName*  QnSource;
+  /// @brief Field QnSource, offset 0x420, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnSource, put = __cordl_internal_set_QnSource)) ::System::Xml::XmlQualifiedName* QnSource;
 
-/// @brief Field QnString, offset 0x158, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnString, put=__cordl_internal_set_QnString)) ::System::Xml::XmlQualifiedName*  QnString;
+  /// @brief Field QnString, offset 0x158, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnString, put = __cordl_internal_set_QnString)) ::System::Xml::XmlQualifiedName* QnString;
 
-/// @brief Field QnSubstitutionGroup, offset 0x270, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnSubstitutionGroup, put=__cordl_internal_set_QnSubstitutionGroup)) ::System::Xml::XmlQualifiedName*  QnSubstitutionGroup;
+  /// @brief Field QnSubstitutionGroup, offset 0x270, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnSubstitutionGroup, put = __cordl_internal_set_QnSubstitutionGroup)) ::System::Xml::XmlQualifiedName* QnSubstitutionGroup;
 
-/// @brief Field QnSystem, offset 0x2c0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnSystem, put=__cordl_internal_set_QnSystem)) ::System::Xml::XmlQualifiedName*  QnSystem;
+  /// @brief Field QnSystem, offset 0x2c0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnSystem, put = __cordl_internal_set_QnSystem)) ::System::Xml::XmlQualifiedName* QnSystem;
 
-/// @brief Field QnTargetNamespace, offset 0x238, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnTargetNamespace, put=__cordl_internal_set_QnTargetNamespace)) ::System::Xml::XmlQualifiedName*  QnTargetNamespace;
+  /// @brief Field QnTargetNamespace, offset 0x238, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnTargetNamespace, put = __cordl_internal_set_QnTargetNamespace)) ::System::Xml::XmlQualifiedName* QnTargetNamespace;
 
-/// @brief Field QnTextOnly, offset 0x118, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnTextOnly, put=__cordl_internal_set_QnTextOnly)) ::System::Xml::XmlQualifiedName*  QnTextOnly;
+  /// @brief Field QnTextOnly, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnTextOnly, put = __cordl_internal_set_QnTextOnly)) ::System::Xml::XmlQualifiedName* QnTextOnly;
 
-/// @brief Field QnType, offset 0xc0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnType, put=__cordl_internal_set_QnType)) ::System::Xml::XmlQualifiedName*  QnType;
+  /// @brief Field QnType, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnType, put = __cordl_internal_set_QnType)) ::System::Xml::XmlQualifiedName* QnType;
 
-/// @brief Field QnUse, offset 0x2d8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnUse, put=__cordl_internal_set_QnUse)) ::System::Xml::XmlQualifiedName*  QnUse;
+  /// @brief Field QnUse, offset 0x2d8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnUse, put = __cordl_internal_set_QnUse)) ::System::Xml::XmlQualifiedName* QnUse;
 
-/// @brief Field QnValue, offset 0x2d0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnValue, put=__cordl_internal_set_QnValue)) ::System::Xml::XmlQualifiedName*  QnValue;
+  /// @brief Field QnValue, offset 0x2d0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnValue, put = __cordl_internal_set_QnValue)) ::System::Xml::XmlQualifiedName* QnValue;
 
-/// @brief Field QnVersion, offset 0x240, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnVersion, put=__cordl_internal_set_QnVersion)) ::System::Xml::XmlQualifiedName*  QnVersion;
+  /// @brief Field QnVersion, offset 0x240, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnVersion, put = __cordl_internal_set_QnVersion)) ::System::Xml::XmlQualifiedName* QnVersion;
 
-/// @brief Field QnXPath, offset 0x308, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXPath, put=__cordl_internal_set_QnXPath)) ::System::Xml::XmlQualifiedName*  QnXPath;
+  /// @brief Field QnXPath, offset 0x308, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXPath, put = __cordl_internal_set_QnXPath)) ::System::Xml::XmlQualifiedName* QnXPath;
 
-/// @brief Field QnXdrAliasSchema, offset 0x1f0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrAliasSchema, put=__cordl_internal_set_QnXdrAliasSchema)) ::System::Xml::XmlQualifiedName*  QnXdrAliasSchema;
+  /// @brief Field QnXdrAliasSchema, offset 0x1f0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrAliasSchema, put = __cordl_internal_set_QnXdrAliasSchema)) ::System::Xml::XmlQualifiedName* QnXdrAliasSchema;
 
-/// @brief Field QnXdrAttribute, offset 0x1d0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrAttribute, put=__cordl_internal_set_QnXdrAttribute)) ::System::Xml::XmlQualifiedName*  QnXdrAttribute;
+  /// @brief Field QnXdrAttribute, offset 0x1d0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrAttribute, put = __cordl_internal_set_QnXdrAttribute)) ::System::Xml::XmlQualifiedName* QnXdrAttribute;
 
-/// @brief Field QnXdrAttributeType, offset 0x1c8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrAttributeType, put=__cordl_internal_set_QnXdrAttributeType)) ::System::Xml::XmlQualifiedName*  QnXdrAttributeType;
+  /// @brief Field QnXdrAttributeType, offset 0x1c8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrAttributeType, put = __cordl_internal_set_QnXdrAttributeType)) ::System::Xml::XmlQualifiedName* QnXdrAttributeType;
 
-/// @brief Field QnXdrDataType, offset 0x1d8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrDataType, put=__cordl_internal_set_QnXdrDataType)) ::System::Xml::XmlQualifiedName*  QnXdrDataType;
+  /// @brief Field QnXdrDataType, offset 0x1d8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrDataType, put = __cordl_internal_set_QnXdrDataType)) ::System::Xml::XmlQualifiedName* QnXdrDataType;
 
-/// @brief Field QnXdrDescription, offset 0x1e0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrDescription, put=__cordl_internal_set_QnXdrDescription)) ::System::Xml::XmlQualifiedName*  QnXdrDescription;
+  /// @brief Field QnXdrDescription, offset 0x1e0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrDescription, put = __cordl_internal_set_QnXdrDescription)) ::System::Xml::XmlQualifiedName* QnXdrDescription;
 
-/// @brief Field QnXdrElement, offset 0x1b8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrElement, put=__cordl_internal_set_QnXdrElement)) ::System::Xml::XmlQualifiedName*  QnXdrElement;
+  /// @brief Field QnXdrElement, offset 0x1b8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrElement, put = __cordl_internal_set_QnXdrElement)) ::System::Xml::XmlQualifiedName* QnXdrElement;
 
-/// @brief Field QnXdrElementType, offset 0x1b0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrElementType, put=__cordl_internal_set_QnXdrElementType)) ::System::Xml::XmlQualifiedName*  QnXdrElementType;
+  /// @brief Field QnXdrElementType, offset 0x1b0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrElementType, put = __cordl_internal_set_QnXdrElementType)) ::System::Xml::XmlQualifiedName* QnXdrElementType;
 
-/// @brief Field QnXdrExtends, offset 0x1e8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrExtends, put=__cordl_internal_set_QnXdrExtends)) ::System::Xml::XmlQualifiedName*  QnXdrExtends;
+  /// @brief Field QnXdrExtends, offset 0x1e8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrExtends, put = __cordl_internal_set_QnXdrExtends)) ::System::Xml::XmlQualifiedName* QnXdrExtends;
 
-/// @brief Field QnXdrGroup, offset 0x1c0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrGroup, put=__cordl_internal_set_QnXdrGroup)) ::System::Xml::XmlQualifiedName*  QnXdrGroup;
+  /// @brief Field QnXdrGroup, offset 0x1c0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrGroup, put = __cordl_internal_set_QnXdrGroup)) ::System::Xml::XmlQualifiedName* QnXdrGroup;
 
-/// @brief Field QnXdrSchema, offset 0x1a8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXdrSchema, put=__cordl_internal_set_QnXdrSchema)) ::System::Xml::XmlQualifiedName*  QnXdrSchema;
+  /// @brief Field QnXdrSchema, offset 0x1a8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXdrSchema, put = __cordl_internal_set_QnXdrSchema)) ::System::Xml::XmlQualifiedName* QnXdrSchema;
 
-/// @brief Field QnXml, offset 0x98, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXml, put=__cordl_internal_set_QnXml)) ::System::Xml::XmlQualifiedName*  QnXml;
+  /// @brief Field QnXml, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXml, put = __cordl_internal_set_QnXml)) ::System::Xml::XmlQualifiedName* QnXml;
 
-/// @brief Field QnXmlLang, offset 0xb0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXmlLang, put=__cordl_internal_set_QnXmlLang)) ::System::Xml::XmlQualifiedName*  QnXmlLang;
+  /// @brief Field QnXmlLang, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXmlLang, put = __cordl_internal_set_QnXmlLang)) ::System::Xml::XmlQualifiedName* QnXmlLang;
 
-/// @brief Field QnXmlNs, offset 0xa0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXmlNs, put=__cordl_internal_set_QnXmlNs)) ::System::Xml::XmlQualifiedName*  QnXmlNs;
+  /// @brief Field QnXmlNs, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXmlNs, put = __cordl_internal_set_QnXmlNs)) ::System::Xml::XmlQualifiedName* QnXmlNs;
 
-/// @brief Field QnXsdAll, offset 0x358, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAll, put=__cordl_internal_set_QnXsdAll)) ::System::Xml::XmlQualifiedName*  QnXsdAll;
+  /// @brief Field QnXsdAll, offset 0x358, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAll, put = __cordl_internal_set_QnXsdAll)) ::System::Xml::XmlQualifiedName* QnXsdAll;
 
-/// @brief Field QnXsdAnnotation, offset 0x318, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAnnotation, put=__cordl_internal_set_QnXsdAnnotation)) ::System::Xml::XmlQualifiedName*  QnXsdAnnotation;
+  /// @brief Field QnXsdAnnotation, offset 0x318, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAnnotation, put = __cordl_internal_set_QnXsdAnnotation)) ::System::Xml::XmlQualifiedName* QnXsdAnnotation;
 
-/// @brief Field QnXsdAny, offset 0x370, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAny, put=__cordl_internal_set_QnXsdAny)) ::System::Xml::XmlQualifiedName*  QnXsdAny;
+  /// @brief Field QnXsdAny, offset 0x370, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAny, put = __cordl_internal_set_QnXsdAny)) ::System::Xml::XmlQualifiedName* QnXsdAny;
 
-/// @brief Field QnXsdAnyAttribute, offset 0x348, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAnyAttribute, put=__cordl_internal_set_QnXsdAnyAttribute)) ::System::Xml::XmlQualifiedName*  QnXsdAnyAttribute;
+  /// @brief Field QnXsdAnyAttribute, offset 0x348, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAnyAttribute, put = __cordl_internal_set_QnXsdAnyAttribute)) ::System::Xml::XmlQualifiedName* QnXsdAnyAttribute;
 
-/// @brief Field QnXsdAnyType, offset 0x468, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAnyType, put=__cordl_internal_set_QnXsdAnyType)) ::System::Xml::XmlQualifiedName*  QnXsdAnyType;
+  /// @brief Field QnXsdAnyType, offset 0x468, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAnyType, put = __cordl_internal_set_QnXsdAnyType)) ::System::Xml::XmlQualifiedName* QnXsdAnyType;
 
-/// @brief Field QnXsdAppinfo, offset 0x418, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAppinfo, put=__cordl_internal_set_QnXsdAppinfo)) ::System::Xml::XmlQualifiedName*  QnXsdAppinfo;
+  /// @brief Field QnXsdAppinfo, offset 0x418, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAppinfo, put = __cordl_internal_set_QnXsdAppinfo)) ::System::Xml::XmlQualifiedName* QnXsdAppinfo;
 
-/// @brief Field QnXsdAttribute, offset 0x338, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAttribute, put=__cordl_internal_set_QnXsdAttribute)) ::System::Xml::XmlQualifiedName*  QnXsdAttribute;
+  /// @brief Field QnXsdAttribute, offset 0x338, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAttribute, put = __cordl_internal_set_QnXsdAttribute)) ::System::Xml::XmlQualifiedName* QnXsdAttribute;
 
-/// @brief Field QnXsdAttributeGroup, offset 0x340, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdAttributeGroup, put=__cordl_internal_set_QnXsdAttributeGroup)) ::System::Xml::XmlQualifiedName*  QnXsdAttributeGroup;
+  /// @brief Field QnXsdAttributeGroup, offset 0x340, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdAttributeGroup, put = __cordl_internal_set_QnXsdAttributeGroup)) ::System::Xml::XmlQualifiedName* QnXsdAttributeGroup;
 
-/// @brief Field QnXsdChoice, offset 0x360, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdChoice, put=__cordl_internal_set_QnXsdChoice)) ::System::Xml::XmlQualifiedName*  QnXsdChoice;
+  /// @brief Field QnXsdChoice, offset 0x360, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdChoice, put = __cordl_internal_set_QnXsdChoice)) ::System::Xml::XmlQualifiedName* QnXsdChoice;
 
-/// @brief Field QnXsdComplexContent, offset 0x428, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdComplexContent, put=__cordl_internal_set_QnXsdComplexContent)) ::System::Xml::XmlQualifiedName*  QnXsdComplexContent;
+  /// @brief Field QnXsdComplexContent, offset 0x428, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdComplexContent, put = __cordl_internal_set_QnXsdComplexContent)) ::System::Xml::XmlQualifiedName* QnXsdComplexContent;
 
-/// @brief Field QnXsdComplexType, offset 0x388, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdComplexType, put=__cordl_internal_set_QnXsdComplexType)) ::System::Xml::XmlQualifiedName*  QnXsdComplexType;
+  /// @brief Field QnXsdComplexType, offset 0x388, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdComplexType, put = __cordl_internal_set_QnXsdComplexType)) ::System::Xml::XmlQualifiedName* QnXsdComplexType;
 
-/// @brief Field QnXsdDocumentation, offset 0x410, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdDocumentation, put=__cordl_internal_set_QnXsdDocumentation)) ::System::Xml::XmlQualifiedName*  QnXsdDocumentation;
+  /// @brief Field QnXsdDocumentation, offset 0x410, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdDocumentation, put = __cordl_internal_set_QnXsdDocumentation)) ::System::Xml::XmlQualifiedName* QnXsdDocumentation;
 
-/// @brief Field QnXsdElement, offset 0x330, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdElement, put=__cordl_internal_set_QnXsdElement)) ::System::Xml::XmlQualifiedName*  QnXsdElement;
+  /// @brief Field QnXsdElement, offset 0x330, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdElement, put = __cordl_internal_set_QnXsdElement)) ::System::Xml::XmlQualifiedName* QnXsdElement;
 
-/// @brief Field QnXsdEnumeration, offset 0x400, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdEnumeration, put=__cordl_internal_set_QnXsdEnumeration)) ::System::Xml::XmlQualifiedName*  QnXsdEnumeration;
+  /// @brief Field QnXsdEnumeration, offset 0x400, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdEnumeration, put = __cordl_internal_set_QnXsdEnumeration)) ::System::Xml::XmlQualifiedName* QnXsdEnumeration;
 
-/// @brief Field QnXsdExtension, offset 0x440, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdExtension, put=__cordl_internal_set_QnXsdExtension)) ::System::Xml::XmlQualifiedName*  QnXsdExtension;
+  /// @brief Field QnXsdExtension, offset 0x440, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdExtension, put = __cordl_internal_set_QnXsdExtension)) ::System::Xml::XmlQualifiedName* QnXsdExtension;
 
-/// @brief Field QnXsdField, offset 0x3b0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdField, put=__cordl_internal_set_QnXsdField)) ::System::Xml::XmlQualifiedName*  QnXsdField;
+  /// @brief Field QnXsdField, offset 0x3b0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdField, put = __cordl_internal_set_QnXsdField)) ::System::Xml::XmlQualifiedName* QnXsdField;
 
-/// @brief Field QnXsdFractionDigits, offset 0x3e0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdFractionDigits, put=__cordl_internal_set_QnXsdFractionDigits)) ::System::Xml::XmlQualifiedName*  QnXsdFractionDigits;
+  /// @brief Field QnXsdFractionDigits, offset 0x3e0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdFractionDigits, put = __cordl_internal_set_QnXsdFractionDigits)) ::System::Xml::XmlQualifiedName* QnXsdFractionDigits;
 
-/// @brief Field QnXsdGroup, offset 0x350, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdGroup, put=__cordl_internal_set_QnXsdGroup)) ::System::Xml::XmlQualifiedName*  QnXsdGroup;
+  /// @brief Field QnXsdGroup, offset 0x350, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdGroup, put = __cordl_internal_set_QnXsdGroup)) ::System::Xml::XmlQualifiedName* QnXsdGroup;
 
-/// @brief Field QnXsdImport, offset 0x328, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdImport, put=__cordl_internal_set_QnXsdImport)) ::System::Xml::XmlQualifiedName*  QnXsdImport;
+  /// @brief Field QnXsdImport, offset 0x328, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdImport, put = __cordl_internal_set_QnXsdImport)) ::System::Xml::XmlQualifiedName* QnXsdImport;
 
-/// @brief Field QnXsdInclude, offset 0x320, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdInclude, put=__cordl_internal_set_QnXsdInclude)) ::System::Xml::XmlQualifiedName*  QnXsdInclude;
+  /// @brief Field QnXsdInclude, offset 0x320, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdInclude, put = __cordl_internal_set_QnXsdInclude)) ::System::Xml::XmlQualifiedName* QnXsdInclude;
 
-/// @brief Field QnXsdKey, offset 0x398, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdKey, put=__cordl_internal_set_QnXsdKey)) ::System::Xml::XmlQualifiedName*  QnXsdKey;
+  /// @brief Field QnXsdKey, offset 0x398, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdKey, put = __cordl_internal_set_QnXsdKey)) ::System::Xml::XmlQualifiedName* QnXsdKey;
 
-/// @brief Field QnXsdKeyRef, offset 0x3a0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdKeyRef, put=__cordl_internal_set_QnXsdKeyRef)) ::System::Xml::XmlQualifiedName*  QnXsdKeyRef;
+  /// @brief Field QnXsdKeyRef, offset 0x3a0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdKeyRef, put = __cordl_internal_set_QnXsdKeyRef)) ::System::Xml::XmlQualifiedName* QnXsdKeyRef;
 
-/// @brief Field QnXsdLength, offset 0x3e8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdLength, put=__cordl_internal_set_QnXsdLength)) ::System::Xml::XmlQualifiedName*  QnXsdLength;
+  /// @brief Field QnXsdLength, offset 0x3e8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdLength, put = __cordl_internal_set_QnXsdLength)) ::System::Xml::XmlQualifiedName* QnXsdLength;
 
-/// @brief Field QnXsdList, offset 0x450, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdList, put=__cordl_internal_set_QnXsdList)) ::System::Xml::XmlQualifiedName*  QnXsdList;
+  /// @brief Field QnXsdList, offset 0x450, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdList, put = __cordl_internal_set_QnXsdList)) ::System::Xml::XmlQualifiedName* QnXsdList;
 
-/// @brief Field QnXsdMaxExclusive, offset 0x3d0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdMaxExclusive, put=__cordl_internal_set_QnXsdMaxExclusive)) ::System::Xml::XmlQualifiedName*  QnXsdMaxExclusive;
+  /// @brief Field QnXsdMaxExclusive, offset 0x3d0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdMaxExclusive, put = __cordl_internal_set_QnXsdMaxExclusive)) ::System::Xml::XmlQualifiedName* QnXsdMaxExclusive;
 
-/// @brief Field QnXsdMaxInclusive, offset 0x3c8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdMaxInclusive, put=__cordl_internal_set_QnXsdMaxInclusive)) ::System::Xml::XmlQualifiedName*  QnXsdMaxInclusive;
+  /// @brief Field QnXsdMaxInclusive, offset 0x3c8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdMaxInclusive, put = __cordl_internal_set_QnXsdMaxInclusive)) ::System::Xml::XmlQualifiedName* QnXsdMaxInclusive;
 
-/// @brief Field QnXsdMaxLength, offset 0x3f8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdMaxLength, put=__cordl_internal_set_QnXsdMaxLength)) ::System::Xml::XmlQualifiedName*  QnXsdMaxLength;
+  /// @brief Field QnXsdMaxLength, offset 0x3f8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdMaxLength, put = __cordl_internal_set_QnXsdMaxLength)) ::System::Xml::XmlQualifiedName* QnXsdMaxLength;
 
-/// @brief Field QnXsdMinExclusive, offset 0x3b8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdMinExclusive, put=__cordl_internal_set_QnXsdMinExclusive)) ::System::Xml::XmlQualifiedName*  QnXsdMinExclusive;
+  /// @brief Field QnXsdMinExclusive, offset 0x3b8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdMinExclusive, put = __cordl_internal_set_QnXsdMinExclusive)) ::System::Xml::XmlQualifiedName* QnXsdMinExclusive;
 
-/// @brief Field QnXsdMinInclusive, offset 0x3c0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdMinInclusive, put=__cordl_internal_set_QnXsdMinInclusive)) ::System::Xml::XmlQualifiedName*  QnXsdMinInclusive;
+  /// @brief Field QnXsdMinInclusive, offset 0x3c0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdMinInclusive, put = __cordl_internal_set_QnXsdMinInclusive)) ::System::Xml::XmlQualifiedName* QnXsdMinInclusive;
 
-/// @brief Field QnXsdMinLength, offset 0x3f0, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdMinLength, put=__cordl_internal_set_QnXsdMinLength)) ::System::Xml::XmlQualifiedName*  QnXsdMinLength;
+  /// @brief Field QnXsdMinLength, offset 0x3f0, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdMinLength, put = __cordl_internal_set_QnXsdMinLength)) ::System::Xml::XmlQualifiedName* QnXsdMinLength;
 
-/// @brief Field QnXsdNotation, offset 0x378, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdNotation, put=__cordl_internal_set_QnXsdNotation)) ::System::Xml::XmlQualifiedName*  QnXsdNotation;
+  /// @brief Field QnXsdNotation, offset 0x378, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdNotation, put = __cordl_internal_set_QnXsdNotation)) ::System::Xml::XmlQualifiedName* QnXsdNotation;
 
-/// @brief Field QnXsdPattern, offset 0x408, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdPattern, put=__cordl_internal_set_QnXsdPattern)) ::System::Xml::XmlQualifiedName*  QnXsdPattern;
+  /// @brief Field QnXsdPattern, offset 0x408, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdPattern, put = __cordl_internal_set_QnXsdPattern)) ::System::Xml::XmlQualifiedName* QnXsdPattern;
 
-/// @brief Field QnXsdRedefine, offset 0x460, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdRedefine, put=__cordl_internal_set_QnXsdRedefine)) ::System::Xml::XmlQualifiedName*  QnXsdRedefine;
+  /// @brief Field QnXsdRedefine, offset 0x460, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdRedefine, put = __cordl_internal_set_QnXsdRedefine)) ::System::Xml::XmlQualifiedName* QnXsdRedefine;
 
-/// @brief Field QnXsdRestriction, offset 0x438, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdRestriction, put=__cordl_internal_set_QnXsdRestriction)) ::System::Xml::XmlQualifiedName*  QnXsdRestriction;
+  /// @brief Field QnXsdRestriction, offset 0x438, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdRestriction, put = __cordl_internal_set_QnXsdRestriction)) ::System::Xml::XmlQualifiedName* QnXsdRestriction;
 
-/// @brief Field QnXsdSchema, offset 0x310, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdSchema, put=__cordl_internal_set_QnXsdSchema)) ::System::Xml::XmlQualifiedName*  QnXsdSchema;
+  /// @brief Field QnXsdSchema, offset 0x310, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdSchema, put = __cordl_internal_set_QnXsdSchema)) ::System::Xml::XmlQualifiedName* QnXsdSchema;
 
-/// @brief Field QnXsdSelector, offset 0x3a8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdSelector, put=__cordl_internal_set_QnXsdSelector)) ::System::Xml::XmlQualifiedName*  QnXsdSelector;
+  /// @brief Field QnXsdSelector, offset 0x3a8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdSelector, put = __cordl_internal_set_QnXsdSelector)) ::System::Xml::XmlQualifiedName* QnXsdSelector;
 
-/// @brief Field QnXsdSequence, offset 0x368, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdSequence, put=__cordl_internal_set_QnXsdSequence)) ::System::Xml::XmlQualifiedName*  QnXsdSequence;
+  /// @brief Field QnXsdSequence, offset 0x368, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdSequence, put = __cordl_internal_set_QnXsdSequence)) ::System::Xml::XmlQualifiedName* QnXsdSequence;
 
-/// @brief Field QnXsdSimpleContent, offset 0x430, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdSimpleContent, put=__cordl_internal_set_QnXsdSimpleContent)) ::System::Xml::XmlQualifiedName*  QnXsdSimpleContent;
+  /// @brief Field QnXsdSimpleContent, offset 0x430, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdSimpleContent, put = __cordl_internal_set_QnXsdSimpleContent)) ::System::Xml::XmlQualifiedName* QnXsdSimpleContent;
 
-/// @brief Field QnXsdSimpleType, offset 0x380, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdSimpleType, put=__cordl_internal_set_QnXsdSimpleType)) ::System::Xml::XmlQualifiedName*  QnXsdSimpleType;
+  /// @brief Field QnXsdSimpleType, offset 0x380, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdSimpleType, put = __cordl_internal_set_QnXsdSimpleType)) ::System::Xml::XmlQualifiedName* QnXsdSimpleType;
 
-/// @brief Field QnXsdTotalDigits, offset 0x3d8, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdTotalDigits, put=__cordl_internal_set_QnXsdTotalDigits)) ::System::Xml::XmlQualifiedName*  QnXsdTotalDigits;
+  /// @brief Field QnXsdTotalDigits, offset 0x3d8, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdTotalDigits, put = __cordl_internal_set_QnXsdTotalDigits)) ::System::Xml::XmlQualifiedName* QnXsdTotalDigits;
 
-/// @brief Field QnXsdUnion, offset 0x448, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdUnion, put=__cordl_internal_set_QnXsdUnion)) ::System::Xml::XmlQualifiedName*  QnXsdUnion;
+  /// @brief Field QnXsdUnion, offset 0x448, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdUnion, put = __cordl_internal_set_QnXsdUnion)) ::System::Xml::XmlQualifiedName* QnXsdUnion;
 
-/// @brief Field QnXsdUnique, offset 0x390, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdUnique, put=__cordl_internal_set_QnXsdUnique)) ::System::Xml::XmlQualifiedName*  QnXsdUnique;
+  /// @brief Field QnXsdUnique, offset 0x390, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdUnique, put = __cordl_internal_set_QnXsdUnique)) ::System::Xml::XmlQualifiedName* QnXsdUnique;
 
-/// @brief Field QnXsdWhiteSpace, offset 0x458, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnXsdWhiteSpace, put=__cordl_internal_set_QnXsdWhiteSpace)) ::System::Xml::XmlQualifiedName*  QnXsdWhiteSpace;
+  /// @brief Field QnXsdWhiteSpace, offset 0x458, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnXsdWhiteSpace, put = __cordl_internal_set_QnXsdWhiteSpace)) ::System::Xml::XmlQualifiedName* QnXsdWhiteSpace;
 
-/// @brief Field QnYes, offset 0x148, size 0x8 
- __declspec(property(get=__cordl_internal_get_QnYes, put=__cordl_internal_set_QnYes)) ::System::Xml::XmlQualifiedName*  QnYes;
+  /// @brief Field QnYes, offset 0x148, size 0x8
+  __declspec(property(get = __cordl_internal_get_QnYes, put = __cordl_internal_set_QnYes)) ::System::Xml::XmlQualifiedName* QnYes;
 
-/// @brief Field TokenToQName, offset 0x470, size 0x8 
- __declspec(property(get=__cordl_internal_get_TokenToQName, put=__cordl_internal_set_TokenToQName)) ::ArrayW<::System::Xml::XmlQualifiedName*,::Array<::System::Xml::XmlQualifiedName*>*>  TokenToQName;
+  /// @brief Field TokenToQName, offset 0x470, size 0x8
+  __declspec(property(get = __cordl_internal_get_TokenToQName, put = __cordl_internal_set_TokenToQName)) ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*>
+      TokenToQName;
 
-/// @brief Field XdrSchema, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get_XdrSchema, put=__cordl_internal_set_XdrSchema)) ::StringW  XdrSchema;
+  /// @brief Field XdrSchema, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_XdrSchema, put = __cordl_internal_set_XdrSchema)) ::StringW XdrSchema;
 
-/// @brief Field XsdSchema, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get_XsdSchema, put=__cordl_internal_set_XsdSchema)) ::StringW  XsdSchema;
+  /// @brief Field XsdSchema, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_XsdSchema, put = __cordl_internal_set_XsdSchema)) ::StringW XsdSchema;
 
-/// @brief Field XsiNil, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get_XsiNil, put=__cordl_internal_set_XsiNil)) ::StringW  XsiNil;
+  /// @brief Field XsiNil, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_XsiNil, put = __cordl_internal_set_XsiNil)) ::StringW XsiNil;
 
-/// @brief Field XsiNoNamespaceSchemaLocation, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get_XsiNoNamespaceSchemaLocation, put=__cordl_internal_set_XsiNoNamespaceSchemaLocation)) ::StringW  XsiNoNamespaceSchemaLocation;
+  /// @brief Field XsiNoNamespaceSchemaLocation, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_XsiNoNamespaceSchemaLocation, put = __cordl_internal_set_XsiNoNamespaceSchemaLocation)) ::StringW XsiNoNamespaceSchemaLocation;
 
-/// @brief Field XsiSchemaLocation, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get_XsiSchemaLocation, put=__cordl_internal_set_XsiSchemaLocation)) ::StringW  XsiSchemaLocation;
+  /// @brief Field XsiSchemaLocation, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_XsiSchemaLocation, put = __cordl_internal_set_XsiSchemaLocation)) ::StringW XsiSchemaLocation;
 
-/// @brief Field XsiType, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get_XsiType, put=__cordl_internal_set_XsiType)) ::StringW  XsiType;
+  /// @brief Field XsiType, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_XsiType, put = __cordl_internal_set_XsiType)) ::StringW XsiType;
 
-/// @brief Field nameTable, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_nameTable, put=__cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable*  nameTable;
+  /// @brief Field nameTable, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
-/// @brief Method CreateTokenToQNameTable, addr 0x6055104, size 0x1968, virtual false, abstract: false, final false
-inline void CreateTokenToQNameTable() ;
+  /// @brief Method CreateTokenToQNameTable, addr 0x60c7110, size 0x1968, virtual false, abstract: false, final false
+  inline void CreateTokenToQNameTable();
 
-/// @brief Method IsXDRRoot, addr 0x6056b14, size 0x48, virtual false, abstract: false, final false
-inline bool IsXDRRoot(::StringW  localName, ::StringW  ns) ;
+  /// @brief Method IsXDRRoot, addr 0x60c8b20, size 0x48, virtual false, abstract: false, final false
+  inline bool IsXDRRoot(::StringW localName, ::StringW ns);
 
-/// @brief Method IsXSDRoot, addr 0x6056acc, size 0x48, virtual false, abstract: false, final false
-inline bool IsXSDRoot(::StringW  localName, ::StringW  ns) ;
+  /// @brief Method IsXSDRoot, addr 0x60c8ad8, size 0x48, virtual false, abstract: false, final false
+  inline bool IsXSDRoot(::StringW localName, ::StringW ns);
 
-static inline ::System::Xml::Schema::SchemaNames* New_ctor(::System::Xml::XmlNameTable*  nameTable) ;
+  static inline ::System::Xml::Schema::SchemaNames* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-/// @brief Method SchemaTypeFromRoot, addr 0x6056a6c, size 0x60, virtual false, abstract: false, final false
-inline ::System::Xml::Schema::SchemaType SchemaTypeFromRoot(::StringW  localName, ::StringW  ns) ;
+  /// @brief Method SchemaTypeFromRoot, addr 0x60c8a78, size 0x60, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::SchemaType SchemaTypeFromRoot(::StringW localName, ::StringW ns);
 
-constexpr ::StringW const& __cordl_internal_get_NsDataType() const;
+  constexpr ::StringW const& __cordl_internal_get_NsDataType() const;
 
-constexpr ::StringW& __cordl_internal_get_NsDataType() ;
+  constexpr ::StringW& __cordl_internal_get_NsDataType();
 
-constexpr ::StringW const& __cordl_internal_get_NsDataTypeAlias() const;
+  constexpr ::StringW const& __cordl_internal_get_NsDataTypeAlias() const;
 
-constexpr ::StringW& __cordl_internal_get_NsDataTypeAlias() ;
+  constexpr ::StringW& __cordl_internal_get_NsDataTypeAlias();
 
-constexpr ::StringW const& __cordl_internal_get_NsDataTypeOld() const;
+  constexpr ::StringW const& __cordl_internal_get_NsDataTypeOld() const;
 
-constexpr ::StringW& __cordl_internal_get_NsDataTypeOld() ;
+  constexpr ::StringW& __cordl_internal_get_NsDataTypeOld();
 
-constexpr ::StringW const& __cordl_internal_get_NsXdr() const;
+  constexpr ::StringW const& __cordl_internal_get_NsXdr() const;
 
-constexpr ::StringW& __cordl_internal_get_NsXdr() ;
+  constexpr ::StringW& __cordl_internal_get_NsXdr();
 
-constexpr ::StringW const& __cordl_internal_get_NsXdrAlias() const;
+  constexpr ::StringW const& __cordl_internal_get_NsXdrAlias() const;
 
-constexpr ::StringW& __cordl_internal_get_NsXdrAlias() ;
+  constexpr ::StringW& __cordl_internal_get_NsXdrAlias();
 
-constexpr ::StringW const& __cordl_internal_get_NsXml() const;
+  constexpr ::StringW const& __cordl_internal_get_NsXml() const;
 
-constexpr ::StringW& __cordl_internal_get_NsXml() ;
+  constexpr ::StringW& __cordl_internal_get_NsXml();
 
-constexpr ::StringW const& __cordl_internal_get_NsXmlNs() const;
+  constexpr ::StringW const& __cordl_internal_get_NsXmlNs() const;
 
-constexpr ::StringW& __cordl_internal_get_NsXmlNs() ;
+  constexpr ::StringW& __cordl_internal_get_NsXmlNs();
 
-constexpr ::StringW const& __cordl_internal_get_NsXs() const;
+  constexpr ::StringW const& __cordl_internal_get_NsXs() const;
 
-constexpr ::StringW& __cordl_internal_get_NsXs() ;
+  constexpr ::StringW& __cordl_internal_get_NsXs();
 
-constexpr ::StringW const& __cordl_internal_get_NsXsi() const;
+  constexpr ::StringW const& __cordl_internal_get_NsXsi() const;
 
-constexpr ::StringW& __cordl_internal_get_NsXsi() ;
+  constexpr ::StringW& __cordl_internal_get_NsXsi();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnAbstract() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnAbstract() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnAbstract() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnAbstract();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnAttributeFormDefault() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnAttributeFormDefault() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnAttributeFormDefault() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnAttributeFormDefault();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnBase() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnBase() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnBase() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnBase();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnBlock() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnBlock() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnBlock() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnBlock();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnBlockDefault() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnBlockDefault() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnBlockDefault() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnBlockDefault();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnClosed() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnClosed() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnClosed() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnClosed();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnContent() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnContent() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnContent() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnContent();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDefault() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDefault() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDefault() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDefault();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDerivedBy() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDerivedBy() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDerivedBy() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDerivedBy();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtDt() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtDt() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtDt() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtDt();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMax() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMax() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMax() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMax();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMaxExclusive() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMaxExclusive() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMaxExclusive() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMaxExclusive();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMaxLength() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMaxLength() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMaxLength() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMaxLength();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMin() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMin() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMin() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMin();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMinExclusive() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMinExclusive() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMinExclusive() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMinExclusive();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMinLength() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtMinLength() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMinLength() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtMinLength();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtValues() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnDtValues() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtValues() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnDtValues();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnElementFormDefault() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnElementFormDefault() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnElementFormDefault() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnElementFormDefault();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEltOnly() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEltOnly() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEltOnly() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEltOnly();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEmpty() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEmpty() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEmpty() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEmpty();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEntities() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEntities() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEntities() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEntities();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEntity() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEntity() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEntity() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEntity();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEnumeration() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnEnumeration() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEnumeration() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnEnumeration();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnFinal() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnFinal() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnFinal() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnFinal();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnFinalDefault() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnFinalDefault() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnFinalDefault() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnFinalDefault();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnFixed() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnFixed() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnFixed() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnFixed();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnForm() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnForm() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnForm() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnForm();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnID() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnID() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnID() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnID();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnIDRef() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnIDRef() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnIDRef() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnIDRef();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnIDRefs() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnIDRefs() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnIDRefs() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnIDRefs();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnInfinite() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnInfinite() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnInfinite() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnInfinite();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnItemType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnItemType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnItemType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnItemType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMany() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMany() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMany() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMany();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMaxOccurs() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMaxOccurs() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMaxOccurs() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMaxOccurs();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMemberTypes() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMemberTypes() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMemberTypes() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMemberTypes();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMinOccurs() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMinOccurs() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMinOccurs() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMinOccurs();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMixed() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnMixed() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMixed() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnMixed();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnModel() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnModel() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnModel() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnModel();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnName() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnName() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnName() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnName();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNamespace() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNamespace() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNamespace() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNamespace();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNillable() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNillable() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNillable() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNillable();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNmToken() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNmToken() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNmToken() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNmToken();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNmTokens() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNmTokens() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNmTokens() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNmTokens();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNo() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnNo() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNo() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnNo();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnOne() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnOne() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnOne() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnOne();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnOpen() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnOpen() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnOpen() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnOpen();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnOrder() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnOrder() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnOrder() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnOrder();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnPCData() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnPCData() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnPCData() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnPCData();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnProcessContents() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnProcessContents() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnProcessContents() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnProcessContents();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnPublic() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnPublic() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnPublic() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnPublic();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnRef() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnRef() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnRef() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnRef();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnRefer() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnRefer() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnRefer() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnRefer();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnRequired() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnRequired() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnRequired() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnRequired();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSchemaLocation() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSchemaLocation() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSchemaLocation() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSchemaLocation();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSeq() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSeq() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSeq() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSeq();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSource() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSource() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSource() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSource();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnString() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnString() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnString() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnString();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSubstitutionGroup() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSubstitutionGroup() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSubstitutionGroup() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSubstitutionGroup();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSystem() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnSystem() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSystem() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnSystem();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnTargetNamespace() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnTargetNamespace() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnTargetNamespace() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnTargetNamespace();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnTextOnly() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnTextOnly() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnTextOnly() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnTextOnly();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnUse() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnUse() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnUse() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnUse();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnValue() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnValue() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnValue() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnValue();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnVersion() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnVersion() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnVersion() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnVersion();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXPath() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXPath() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXPath() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXPath();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrAliasSchema() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrAliasSchema() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrAliasSchema() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrAliasSchema();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrAttribute() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrAttribute() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrAttribute() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrAttribute();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrAttributeType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrAttributeType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrAttributeType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrAttributeType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrDataType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrDataType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrDataType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrDataType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrDescription() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrDescription() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrDescription() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrDescription();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrElement() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrElement() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrElement() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrElement();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrElementType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrElementType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrElementType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrElementType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrExtends() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrExtends() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrExtends() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrExtends();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrGroup() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrGroup() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrGroup() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrGroup();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrSchema() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXdrSchema() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrSchema() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXdrSchema();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXml() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXml() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXml() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXml();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXmlLang() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXmlLang() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXmlLang() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXmlLang();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXmlNs() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXmlNs() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXmlNs() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXmlNs();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAll() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAll() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAll() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAll();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAnnotation() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAnnotation() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAnnotation() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAnnotation();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAny() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAny() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAny() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAny();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAnyAttribute() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAnyAttribute() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAnyAttribute() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAnyAttribute();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAnyType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAnyType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAnyType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAnyType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAppinfo() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAppinfo() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAppinfo() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAppinfo();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAttribute() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAttribute() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAttribute() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAttribute();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAttributeGroup() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdAttributeGroup() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAttributeGroup() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdAttributeGroup();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdChoice() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdChoice() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdChoice() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdChoice();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdComplexContent() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdComplexContent() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdComplexContent() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdComplexContent();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdComplexType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdComplexType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdComplexType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdComplexType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdDocumentation() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdDocumentation() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdDocumentation() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdDocumentation();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdElement() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdElement() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdElement() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdElement();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdEnumeration() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdEnumeration() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdEnumeration() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdEnumeration();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdExtension() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdExtension() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdExtension() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdExtension();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdField() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdField() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdField() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdField();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdFractionDigits() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdFractionDigits() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdFractionDigits() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdFractionDigits();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdGroup() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdGroup() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdGroup() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdGroup();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdImport() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdImport() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdImport() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdImport();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdInclude() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdInclude() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdInclude() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdInclude();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdKey() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdKey() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdKey() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdKey();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdKeyRef() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdKeyRef() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdKeyRef() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdKeyRef();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdLength() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdLength() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdLength() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdLength();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdList() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdList() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdList() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdList();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMaxExclusive() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMaxExclusive() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMaxExclusive() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMaxExclusive();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMaxInclusive() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMaxInclusive() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMaxInclusive() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMaxInclusive();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMaxLength() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMaxLength() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMaxLength() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMaxLength();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMinExclusive() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMinExclusive() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMinExclusive() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMinExclusive();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMinInclusive() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMinInclusive() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMinInclusive() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMinInclusive();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMinLength() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdMinLength() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMinLength() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdMinLength();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdNotation() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdNotation() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdNotation() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdNotation();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdPattern() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdPattern() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdPattern() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdPattern();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdRedefine() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdRedefine() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdRedefine() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdRedefine();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdRestriction() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdRestriction() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdRestriction() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdRestriction();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSchema() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSchema() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSchema() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSchema();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSelector() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSelector() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSelector() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSelector();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSequence() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSequence() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSequence() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSequence();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSimpleContent() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSimpleContent() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSimpleContent() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSimpleContent();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSimpleType() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdSimpleType() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSimpleType() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdSimpleType();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdTotalDigits() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdTotalDigits() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdTotalDigits() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdTotalDigits();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdUnion() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdUnion() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdUnion() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdUnion();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdUnique() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdUnique() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdUnique() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdUnique();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdWhiteSpace() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnXsdWhiteSpace() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdWhiteSpace() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnXsdWhiteSpace();
 
-constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnYes() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_QnYes() const;
 
-constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnYes() ;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_QnYes();
 
-constexpr ::ArrayW<::System::Xml::XmlQualifiedName*,::Array<::System::Xml::XmlQualifiedName*>*> const& __cordl_internal_get_TokenToQName() const;
+  constexpr ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> const& __cordl_internal_get_TokenToQName() const;
 
-constexpr ::ArrayW<::System::Xml::XmlQualifiedName*,::Array<::System::Xml::XmlQualifiedName*>*>& __cordl_internal_get_TokenToQName() ;
+  constexpr ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*>& __cordl_internal_get_TokenToQName();
 
-constexpr ::StringW const& __cordl_internal_get_XdrSchema() const;
+  constexpr ::StringW const& __cordl_internal_get_XdrSchema() const;
 
-constexpr ::StringW& __cordl_internal_get_XdrSchema() ;
+  constexpr ::StringW& __cordl_internal_get_XdrSchema();
 
-constexpr ::StringW const& __cordl_internal_get_XsdSchema() const;
+  constexpr ::StringW const& __cordl_internal_get_XsdSchema() const;
 
-constexpr ::StringW& __cordl_internal_get_XsdSchema() ;
+  constexpr ::StringW& __cordl_internal_get_XsdSchema();
 
-constexpr ::StringW const& __cordl_internal_get_XsiNil() const;
+  constexpr ::StringW const& __cordl_internal_get_XsiNil() const;
 
-constexpr ::StringW& __cordl_internal_get_XsiNil() ;
+  constexpr ::StringW& __cordl_internal_get_XsiNil();
 
-constexpr ::StringW const& __cordl_internal_get_XsiNoNamespaceSchemaLocation() const;
+  constexpr ::StringW const& __cordl_internal_get_XsiNoNamespaceSchemaLocation() const;
 
-constexpr ::StringW& __cordl_internal_get_XsiNoNamespaceSchemaLocation() ;
+  constexpr ::StringW& __cordl_internal_get_XsiNoNamespaceSchemaLocation();
 
-constexpr ::StringW const& __cordl_internal_get_XsiSchemaLocation() const;
+  constexpr ::StringW const& __cordl_internal_get_XsiSchemaLocation() const;
 
-constexpr ::StringW& __cordl_internal_get_XsiSchemaLocation() ;
+  constexpr ::StringW& __cordl_internal_get_XsiSchemaLocation();
 
-constexpr ::StringW const& __cordl_internal_get_XsiType() const;
+  constexpr ::StringW const& __cordl_internal_get_XsiType() const;
 
-constexpr ::StringW& __cordl_internal_get_XsiType() ;
+  constexpr ::StringW& __cordl_internal_get_XsiType();
 
-constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
+  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
 
-constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable() ;
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-constexpr void __cordl_internal_set_NsDataType(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsDataType(::StringW value);
 
-constexpr void __cordl_internal_set_NsDataTypeAlias(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsDataTypeAlias(::StringW value);
 
-constexpr void __cordl_internal_set_NsDataTypeOld(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsDataTypeOld(::StringW value);
 
-constexpr void __cordl_internal_set_NsXdr(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsXdr(::StringW value);
 
-constexpr void __cordl_internal_set_NsXdrAlias(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsXdrAlias(::StringW value);
 
-constexpr void __cordl_internal_set_NsXml(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsXml(::StringW value);
 
-constexpr void __cordl_internal_set_NsXmlNs(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsXmlNs(::StringW value);
 
-constexpr void __cordl_internal_set_NsXs(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsXs(::StringW value);
 
-constexpr void __cordl_internal_set_NsXsi(::StringW  value) ;
+  constexpr void __cordl_internal_set_NsXsi(::StringW value);
 
-constexpr void __cordl_internal_set_QnAbstract(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnAbstract(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnAttributeFormDefault(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnAttributeFormDefault(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnBase(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnBase(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnBlock(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnBlock(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnBlockDefault(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnBlockDefault(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnClosed(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnClosed(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnContent(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnContent(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDefault(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDefault(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDerivedBy(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDerivedBy(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtDt(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtDt(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtMax(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtMax(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtMaxExclusive(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtMaxExclusive(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtMaxLength(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtMaxLength(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtMin(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtMin(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtMinExclusive(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtMinExclusive(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtMinLength(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtMinLength(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnDtValues(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnDtValues(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnElementFormDefault(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnElementFormDefault(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnEltOnly(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnEltOnly(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnEmpty(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnEmpty(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnEntities(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnEntities(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnEntity(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnEntity(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnEnumeration(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnEnumeration(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnFinal(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnFinal(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnFinalDefault(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnFinalDefault(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnFixed(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnFixed(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnForm(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnForm(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnID(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnID(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnIDRef(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnIDRef(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnIDRefs(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnIDRefs(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnInfinite(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnInfinite(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnItemType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnItemType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnMany(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnMany(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnMaxOccurs(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnMaxOccurs(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnMemberTypes(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnMemberTypes(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnMinOccurs(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnMinOccurs(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnMixed(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnMixed(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnModel(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnModel(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnName(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnName(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnNamespace(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnNamespace(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnNillable(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnNillable(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnNmToken(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnNmToken(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnNmTokens(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnNmTokens(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnNo(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnNo(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnOne(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnOne(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnOpen(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnOpen(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnOrder(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnOrder(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnPCData(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnPCData(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnProcessContents(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnProcessContents(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnPublic(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnPublic(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnRef(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnRef(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnRefer(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnRefer(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnRequired(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnRequired(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnSchemaLocation(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnSchemaLocation(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnSeq(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnSeq(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnSource(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnSource(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnString(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnString(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnSubstitutionGroup(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnSubstitutionGroup(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnSystem(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnSystem(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnTargetNamespace(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnTargetNamespace(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnTextOnly(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnTextOnly(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnUse(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnUse(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnValue(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnValue(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnVersion(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnVersion(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXPath(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXPath(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrAliasSchema(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrAliasSchema(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrAttribute(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrAttribute(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrAttributeType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrAttributeType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrDataType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrDataType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrDescription(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrDescription(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrElement(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrElement(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrElementType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrElementType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrExtends(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrExtends(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrGroup(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrGroup(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXdrSchema(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXdrSchema(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXml(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXml(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXmlLang(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXmlLang(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXmlNs(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXmlNs(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAll(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAll(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAnnotation(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAnnotation(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAny(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAny(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAnyAttribute(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAnyAttribute(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAnyType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAnyType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAppinfo(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAppinfo(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAttribute(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAttribute(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdAttributeGroup(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdAttributeGroup(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdChoice(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdChoice(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdComplexContent(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdComplexContent(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdComplexType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdComplexType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdDocumentation(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdDocumentation(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdElement(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdElement(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdEnumeration(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdEnumeration(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdExtension(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdExtension(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdField(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdField(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdFractionDigits(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdFractionDigits(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdGroup(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdGroup(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdImport(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdImport(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdInclude(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdInclude(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdKey(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdKey(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdKeyRef(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdKeyRef(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdLength(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdLength(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdList(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdList(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdMaxExclusive(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdMaxExclusive(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdMaxInclusive(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdMaxInclusive(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdMaxLength(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdMaxLength(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdMinExclusive(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdMinExclusive(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdMinInclusive(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdMinInclusive(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdMinLength(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdMinLength(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdNotation(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdNotation(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdPattern(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdPattern(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdRedefine(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdRedefine(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdRestriction(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdRestriction(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdSchema(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdSchema(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdSelector(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdSelector(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdSequence(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdSequence(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdSimpleContent(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdSimpleContent(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdSimpleType(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdSimpleType(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdTotalDigits(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdTotalDigits(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdUnion(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdUnion(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdUnique(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdUnique(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnXsdWhiteSpace(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnXsdWhiteSpace(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_QnYes(::System::Xml::XmlQualifiedName*  value) ;
+  constexpr void __cordl_internal_set_QnYes(::System::Xml::XmlQualifiedName* value);
 
-constexpr void __cordl_internal_set_TokenToQName(::ArrayW<::System::Xml::XmlQualifiedName*,::Array<::System::Xml::XmlQualifiedName*>*>  value) ;
+  constexpr void __cordl_internal_set_TokenToQName(::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> value);
 
-constexpr void __cordl_internal_set_XdrSchema(::StringW  value) ;
+  constexpr void __cordl_internal_set_XdrSchema(::StringW value);
 
-constexpr void __cordl_internal_set_XsdSchema(::StringW  value) ;
+  constexpr void __cordl_internal_set_XsdSchema(::StringW value);
 
-constexpr void __cordl_internal_set_XsiNil(::StringW  value) ;
+  constexpr void __cordl_internal_set_XsiNil(::StringW value);
 
-constexpr void __cordl_internal_set_XsiNoNamespaceSchemaLocation(::StringW  value) ;
+  constexpr void __cordl_internal_set_XsiNoNamespaceSchemaLocation(::StringW value);
 
-constexpr void __cordl_internal_set_XsiSchemaLocation(::StringW  value) ;
+  constexpr void __cordl_internal_set_XsiSchemaLocation(::StringW value);
 
-constexpr void __cordl_internal_set_XsiType(::StringW  value) ;
+  constexpr void __cordl_internal_set_XsiType(::StringW value);
 
-constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable*  value) ;
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-/// @brief Method .ctor, addr 0x6052458, size 0x2cac, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::XmlNameTable*  nameTable) ;
+  /// @brief Method .ctor, addr 0x60c4464, size 0x2cac, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SchemaNames() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SchemaNames();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SchemaNames(SchemaNames&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SchemaNames(SchemaNames && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SchemaNames(SchemaNames const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SchemaNames", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SchemaNames(SchemaNames const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9703 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9697};
+  /// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
+  ::System::Xml::XmlNameTable* ___nameTable;
 
-/// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
- ::System::Xml::XmlNameTable*  ___nameTable;
+  /// @brief Field NsDataType, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___NsDataType;
 
-/// @brief Field NsDataType, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___NsDataType;
+  /// @brief Field NsDataTypeAlias, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___NsDataTypeAlias;
 
-/// @brief Field NsDataTypeAlias, offset: 0x20, size: 0x8, def value: None
- ::StringW  ___NsDataTypeAlias;
+  /// @brief Field NsDataTypeOld, offset: 0x28, size: 0x8, def value: None
+  ::StringW ___NsDataTypeOld;
 
-/// @brief Field NsDataTypeOld, offset: 0x28, size: 0x8, def value: None
- ::StringW  ___NsDataTypeOld;
+  /// @brief Field NsXml, offset: 0x30, size: 0x8, def value: None
+  ::StringW ___NsXml;
 
-/// @brief Field NsXml, offset: 0x30, size: 0x8, def value: None
- ::StringW  ___NsXml;
+  /// @brief Field NsXmlNs, offset: 0x38, size: 0x8, def value: None
+  ::StringW ___NsXmlNs;
 
-/// @brief Field NsXmlNs, offset: 0x38, size: 0x8, def value: None
- ::StringW  ___NsXmlNs;
+  /// @brief Field NsXdr, offset: 0x40, size: 0x8, def value: None
+  ::StringW ___NsXdr;
 
-/// @brief Field NsXdr, offset: 0x40, size: 0x8, def value: None
- ::StringW  ___NsXdr;
+  /// @brief Field NsXdrAlias, offset: 0x48, size: 0x8, def value: None
+  ::StringW ___NsXdrAlias;
 
-/// @brief Field NsXdrAlias, offset: 0x48, size: 0x8, def value: None
- ::StringW  ___NsXdrAlias;
+  /// @brief Field NsXs, offset: 0x50, size: 0x8, def value: None
+  ::StringW ___NsXs;
 
-/// @brief Field NsXs, offset: 0x50, size: 0x8, def value: None
- ::StringW  ___NsXs;
+  /// @brief Field NsXsi, offset: 0x58, size: 0x8, def value: None
+  ::StringW ___NsXsi;
 
-/// @brief Field NsXsi, offset: 0x58, size: 0x8, def value: None
- ::StringW  ___NsXsi;
+  /// @brief Field XsiType, offset: 0x60, size: 0x8, def value: None
+  ::StringW ___XsiType;
 
-/// @brief Field XsiType, offset: 0x60, size: 0x8, def value: None
- ::StringW  ___XsiType;
+  /// @brief Field XsiNil, offset: 0x68, size: 0x8, def value: None
+  ::StringW ___XsiNil;
 
-/// @brief Field XsiNil, offset: 0x68, size: 0x8, def value: None
- ::StringW  ___XsiNil;
+  /// @brief Field XsiSchemaLocation, offset: 0x70, size: 0x8, def value: None
+  ::StringW ___XsiSchemaLocation;
 
-/// @brief Field XsiSchemaLocation, offset: 0x70, size: 0x8, def value: None
- ::StringW  ___XsiSchemaLocation;
+  /// @brief Field XsiNoNamespaceSchemaLocation, offset: 0x78, size: 0x8, def value: None
+  ::StringW ___XsiNoNamespaceSchemaLocation;
 
-/// @brief Field XsiNoNamespaceSchemaLocation, offset: 0x78, size: 0x8, def value: None
- ::StringW  ___XsiNoNamespaceSchemaLocation;
+  /// @brief Field XsdSchema, offset: 0x80, size: 0x8, def value: None
+  ::StringW ___XsdSchema;
 
-/// @brief Field XsdSchema, offset: 0x80, size: 0x8, def value: None
- ::StringW  ___XsdSchema;
+  /// @brief Field XdrSchema, offset: 0x88, size: 0x8, def value: None
+  ::StringW ___XdrSchema;
 
-/// @brief Field XdrSchema, offset: 0x88, size: 0x8, def value: None
- ::StringW  ___XdrSchema;
+  /// @brief Field QnPCData, offset: 0x90, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnPCData;
 
-/// @brief Field QnPCData, offset: 0x90, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnPCData;
+  /// @brief Field QnXml, offset: 0x98, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXml;
 
-/// @brief Field QnXml, offset: 0x98, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXml;
+  /// @brief Field QnXmlNs, offset: 0xa0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXmlNs;
 
-/// @brief Field QnXmlNs, offset: 0xa0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXmlNs;
+  /// @brief Field QnDtDt, offset: 0xa8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtDt;
 
-/// @brief Field QnDtDt, offset: 0xa8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtDt;
+  /// @brief Field QnXmlLang, offset: 0xb0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXmlLang;
 
-/// @brief Field QnXmlLang, offset: 0xb0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXmlLang;
+  /// @brief Field QnName, offset: 0xb8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnName;
 
-/// @brief Field QnName, offset: 0xb8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnName;
+  /// @brief Field QnType, offset: 0xc0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnType;
 
-/// @brief Field QnType, offset: 0xc0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnType;
+  /// @brief Field QnMaxOccurs, offset: 0xc8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnMaxOccurs;
 
-/// @brief Field QnMaxOccurs, offset: 0xc8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnMaxOccurs;
+  /// @brief Field QnMinOccurs, offset: 0xd0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnMinOccurs;
 
-/// @brief Field QnMinOccurs, offset: 0xd0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnMinOccurs;
+  /// @brief Field QnInfinite, offset: 0xd8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnInfinite;
 
-/// @brief Field QnInfinite, offset: 0xd8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnInfinite;
+  /// @brief Field QnModel, offset: 0xe0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnModel;
 
-/// @brief Field QnModel, offset: 0xe0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnModel;
+  /// @brief Field QnOpen, offset: 0xe8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnOpen;
 
-/// @brief Field QnOpen, offset: 0xe8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnOpen;
+  /// @brief Field QnClosed, offset: 0xf0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnClosed;
 
-/// @brief Field QnClosed, offset: 0xf0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnClosed;
+  /// @brief Field QnContent, offset: 0xf8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnContent;
 
-/// @brief Field QnContent, offset: 0xf8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnContent;
+  /// @brief Field QnMixed, offset: 0x100, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnMixed;
 
-/// @brief Field QnMixed, offset: 0x100, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnMixed;
+  /// @brief Field QnEmpty, offset: 0x108, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnEmpty;
 
-/// @brief Field QnEmpty, offset: 0x108, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnEmpty;
+  /// @brief Field QnEltOnly, offset: 0x110, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnEltOnly;
 
-/// @brief Field QnEltOnly, offset: 0x110, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnEltOnly;
+  /// @brief Field QnTextOnly, offset: 0x118, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnTextOnly;
 
-/// @brief Field QnTextOnly, offset: 0x118, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnTextOnly;
+  /// @brief Field QnOrder, offset: 0x120, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnOrder;
 
-/// @brief Field QnOrder, offset: 0x120, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnOrder;
+  /// @brief Field QnSeq, offset: 0x128, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnSeq;
 
-/// @brief Field QnSeq, offset: 0x128, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnSeq;
+  /// @brief Field QnOne, offset: 0x130, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnOne;
 
-/// @brief Field QnOne, offset: 0x130, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnOne;
+  /// @brief Field QnMany, offset: 0x138, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnMany;
 
-/// @brief Field QnMany, offset: 0x138, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnMany;
+  /// @brief Field QnRequired, offset: 0x140, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnRequired;
 
-/// @brief Field QnRequired, offset: 0x140, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnRequired;
+  /// @brief Field QnYes, offset: 0x148, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnYes;
 
-/// @brief Field QnYes, offset: 0x148, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnYes;
+  /// @brief Field QnNo, offset: 0x150, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnNo;
 
-/// @brief Field QnNo, offset: 0x150, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnNo;
+  /// @brief Field QnString, offset: 0x158, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnString;
 
-/// @brief Field QnString, offset: 0x158, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnString;
+  /// @brief Field QnID, offset: 0x160, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnID;
 
-/// @brief Field QnID, offset: 0x160, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnID;
+  /// @brief Field QnIDRef, offset: 0x168, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnIDRef;
 
-/// @brief Field QnIDRef, offset: 0x168, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnIDRef;
+  /// @brief Field QnIDRefs, offset: 0x170, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnIDRefs;
 
-/// @brief Field QnIDRefs, offset: 0x170, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnIDRefs;
+  /// @brief Field QnEntity, offset: 0x178, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnEntity;
 
-/// @brief Field QnEntity, offset: 0x178, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnEntity;
+  /// @brief Field QnEntities, offset: 0x180, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnEntities;
 
-/// @brief Field QnEntities, offset: 0x180, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnEntities;
+  /// @brief Field QnNmToken, offset: 0x188, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnNmToken;
 
-/// @brief Field QnNmToken, offset: 0x188, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnNmToken;
+  /// @brief Field QnNmTokens, offset: 0x190, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnNmTokens;
 
-/// @brief Field QnNmTokens, offset: 0x190, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnNmTokens;
+  /// @brief Field QnEnumeration, offset: 0x198, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnEnumeration;
 
-/// @brief Field QnEnumeration, offset: 0x198, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnEnumeration;
+  /// @brief Field QnDefault, offset: 0x1a0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDefault;
 
-/// @brief Field QnDefault, offset: 0x1a0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDefault;
+  /// @brief Field QnXdrSchema, offset: 0x1a8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrSchema;
 
-/// @brief Field QnXdrSchema, offset: 0x1a8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrSchema;
+  /// @brief Field QnXdrElementType, offset: 0x1b0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrElementType;
 
-/// @brief Field QnXdrElementType, offset: 0x1b0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrElementType;
+  /// @brief Field QnXdrElement, offset: 0x1b8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrElement;
 
-/// @brief Field QnXdrElement, offset: 0x1b8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrElement;
+  /// @brief Field QnXdrGroup, offset: 0x1c0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrGroup;
 
-/// @brief Field QnXdrGroup, offset: 0x1c0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrGroup;
+  /// @brief Field QnXdrAttributeType, offset: 0x1c8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrAttributeType;
 
-/// @brief Field QnXdrAttributeType, offset: 0x1c8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrAttributeType;
+  /// @brief Field QnXdrAttribute, offset: 0x1d0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrAttribute;
 
-/// @brief Field QnXdrAttribute, offset: 0x1d0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrAttribute;
+  /// @brief Field QnXdrDataType, offset: 0x1d8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrDataType;
 
-/// @brief Field QnXdrDataType, offset: 0x1d8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrDataType;
+  /// @brief Field QnXdrDescription, offset: 0x1e0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrDescription;
 
-/// @brief Field QnXdrDescription, offset: 0x1e0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrDescription;
+  /// @brief Field QnXdrExtends, offset: 0x1e8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrExtends;
 
-/// @brief Field QnXdrExtends, offset: 0x1e8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrExtends;
+  /// @brief Field QnXdrAliasSchema, offset: 0x1f0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXdrAliasSchema;
 
-/// @brief Field QnXdrAliasSchema, offset: 0x1f0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXdrAliasSchema;
+  /// @brief Field QnDtType, offset: 0x1f8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtType;
 
-/// @brief Field QnDtType, offset: 0x1f8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtType;
+  /// @brief Field QnDtValues, offset: 0x200, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtValues;
 
-/// @brief Field QnDtValues, offset: 0x200, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtValues;
+  /// @brief Field QnDtMaxLength, offset: 0x208, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtMaxLength;
 
-/// @brief Field QnDtMaxLength, offset: 0x208, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtMaxLength;
+  /// @brief Field QnDtMinLength, offset: 0x210, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtMinLength;
 
-/// @brief Field QnDtMinLength, offset: 0x210, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtMinLength;
+  /// @brief Field QnDtMax, offset: 0x218, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtMax;
 
-/// @brief Field QnDtMax, offset: 0x218, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtMax;
+  /// @brief Field QnDtMin, offset: 0x220, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtMin;
 
-/// @brief Field QnDtMin, offset: 0x220, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtMin;
+  /// @brief Field QnDtMinExclusive, offset: 0x228, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtMinExclusive;
 
-/// @brief Field QnDtMinExclusive, offset: 0x228, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtMinExclusive;
+  /// @brief Field QnDtMaxExclusive, offset: 0x230, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDtMaxExclusive;
 
-/// @brief Field QnDtMaxExclusive, offset: 0x230, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDtMaxExclusive;
+  /// @brief Field QnTargetNamespace, offset: 0x238, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnTargetNamespace;
 
-/// @brief Field QnTargetNamespace, offset: 0x238, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnTargetNamespace;
+  /// @brief Field QnVersion, offset: 0x240, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnVersion;
 
-/// @brief Field QnVersion, offset: 0x240, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnVersion;
+  /// @brief Field QnFinalDefault, offset: 0x248, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnFinalDefault;
 
-/// @brief Field QnFinalDefault, offset: 0x248, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnFinalDefault;
+  /// @brief Field QnBlockDefault, offset: 0x250, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnBlockDefault;
 
-/// @brief Field QnBlockDefault, offset: 0x250, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnBlockDefault;
+  /// @brief Field QnFixed, offset: 0x258, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnFixed;
 
-/// @brief Field QnFixed, offset: 0x258, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnFixed;
+  /// @brief Field QnAbstract, offset: 0x260, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnAbstract;
 
-/// @brief Field QnAbstract, offset: 0x260, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnAbstract;
+  /// @brief Field QnBlock, offset: 0x268, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnBlock;
 
-/// @brief Field QnBlock, offset: 0x268, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnBlock;
+  /// @brief Field QnSubstitutionGroup, offset: 0x270, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnSubstitutionGroup;
 
-/// @brief Field QnSubstitutionGroup, offset: 0x270, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnSubstitutionGroup;
+  /// @brief Field QnFinal, offset: 0x278, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnFinal;
 
-/// @brief Field QnFinal, offset: 0x278, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnFinal;
+  /// @brief Field QnNillable, offset: 0x280, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnNillable;
 
-/// @brief Field QnNillable, offset: 0x280, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnNillable;
+  /// @brief Field QnRef, offset: 0x288, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnRef;
 
-/// @brief Field QnRef, offset: 0x288, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnRef;
+  /// @brief Field QnBase, offset: 0x290, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnBase;
 
-/// @brief Field QnBase, offset: 0x290, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnBase;
+  /// @brief Field QnDerivedBy, offset: 0x298, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnDerivedBy;
 
-/// @brief Field QnDerivedBy, offset: 0x298, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnDerivedBy;
+  /// @brief Field QnNamespace, offset: 0x2a0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnNamespace;
 
-/// @brief Field QnNamespace, offset: 0x2a0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnNamespace;
+  /// @brief Field QnProcessContents, offset: 0x2a8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnProcessContents;
 
-/// @brief Field QnProcessContents, offset: 0x2a8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnProcessContents;
+  /// @brief Field QnRefer, offset: 0x2b0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnRefer;
 
-/// @brief Field QnRefer, offset: 0x2b0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnRefer;
+  /// @brief Field QnPublic, offset: 0x2b8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnPublic;
 
-/// @brief Field QnPublic, offset: 0x2b8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnPublic;
+  /// @brief Field QnSystem, offset: 0x2c0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnSystem;
 
-/// @brief Field QnSystem, offset: 0x2c0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnSystem;
+  /// @brief Field QnSchemaLocation, offset: 0x2c8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnSchemaLocation;
 
-/// @brief Field QnSchemaLocation, offset: 0x2c8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnSchemaLocation;
+  /// @brief Field QnValue, offset: 0x2d0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnValue;
 
-/// @brief Field QnValue, offset: 0x2d0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnValue;
+  /// @brief Field QnUse, offset: 0x2d8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnUse;
 
-/// @brief Field QnUse, offset: 0x2d8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnUse;
+  /// @brief Field QnForm, offset: 0x2e0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnForm;
 
-/// @brief Field QnForm, offset: 0x2e0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnForm;
+  /// @brief Field QnElementFormDefault, offset: 0x2e8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnElementFormDefault;
 
-/// @brief Field QnElementFormDefault, offset: 0x2e8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnElementFormDefault;
+  /// @brief Field QnAttributeFormDefault, offset: 0x2f0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnAttributeFormDefault;
 
-/// @brief Field QnAttributeFormDefault, offset: 0x2f0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnAttributeFormDefault;
+  /// @brief Field QnItemType, offset: 0x2f8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnItemType;
 
-/// @brief Field QnItemType, offset: 0x2f8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnItemType;
+  /// @brief Field QnMemberTypes, offset: 0x300, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnMemberTypes;
 
-/// @brief Field QnMemberTypes, offset: 0x300, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnMemberTypes;
+  /// @brief Field QnXPath, offset: 0x308, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXPath;
 
-/// @brief Field QnXPath, offset: 0x308, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXPath;
+  /// @brief Field QnXsdSchema, offset: 0x310, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdSchema;
 
-/// @brief Field QnXsdSchema, offset: 0x310, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdSchema;
+  /// @brief Field QnXsdAnnotation, offset: 0x318, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAnnotation;
 
-/// @brief Field QnXsdAnnotation, offset: 0x318, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAnnotation;
+  /// @brief Field QnXsdInclude, offset: 0x320, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdInclude;
 
-/// @brief Field QnXsdInclude, offset: 0x320, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdInclude;
+  /// @brief Field QnXsdImport, offset: 0x328, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdImport;
 
-/// @brief Field QnXsdImport, offset: 0x328, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdImport;
+  /// @brief Field QnXsdElement, offset: 0x330, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdElement;
 
-/// @brief Field QnXsdElement, offset: 0x330, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdElement;
+  /// @brief Field QnXsdAttribute, offset: 0x338, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAttribute;
 
-/// @brief Field QnXsdAttribute, offset: 0x338, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAttribute;
+  /// @brief Field QnXsdAttributeGroup, offset: 0x340, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAttributeGroup;
 
-/// @brief Field QnXsdAttributeGroup, offset: 0x340, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAttributeGroup;
+  /// @brief Field QnXsdAnyAttribute, offset: 0x348, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAnyAttribute;
 
-/// @brief Field QnXsdAnyAttribute, offset: 0x348, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAnyAttribute;
+  /// @brief Field QnXsdGroup, offset: 0x350, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdGroup;
 
-/// @brief Field QnXsdGroup, offset: 0x350, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdGroup;
+  /// @brief Field QnXsdAll, offset: 0x358, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAll;
 
-/// @brief Field QnXsdAll, offset: 0x358, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAll;
+  /// @brief Field QnXsdChoice, offset: 0x360, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdChoice;
 
-/// @brief Field QnXsdChoice, offset: 0x360, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdChoice;
+  /// @brief Field QnXsdSequence, offset: 0x368, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdSequence;
 
-/// @brief Field QnXsdSequence, offset: 0x368, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdSequence;
+  /// @brief Field QnXsdAny, offset: 0x370, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAny;
 
-/// @brief Field QnXsdAny, offset: 0x370, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAny;
+  /// @brief Field QnXsdNotation, offset: 0x378, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdNotation;
 
-/// @brief Field QnXsdNotation, offset: 0x378, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdNotation;
+  /// @brief Field QnXsdSimpleType, offset: 0x380, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdSimpleType;
 
-/// @brief Field QnXsdSimpleType, offset: 0x380, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdSimpleType;
+  /// @brief Field QnXsdComplexType, offset: 0x388, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdComplexType;
 
-/// @brief Field QnXsdComplexType, offset: 0x388, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdComplexType;
+  /// @brief Field QnXsdUnique, offset: 0x390, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdUnique;
 
-/// @brief Field QnXsdUnique, offset: 0x390, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdUnique;
+  /// @brief Field QnXsdKey, offset: 0x398, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdKey;
 
-/// @brief Field QnXsdKey, offset: 0x398, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdKey;
+  /// @brief Field QnXsdKeyRef, offset: 0x3a0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdKeyRef;
 
-/// @brief Field QnXsdKeyRef, offset: 0x3a0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdKeyRef;
+  /// @brief Field QnXsdSelector, offset: 0x3a8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdSelector;
 
-/// @brief Field QnXsdSelector, offset: 0x3a8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdSelector;
+  /// @brief Field QnXsdField, offset: 0x3b0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdField;
 
-/// @brief Field QnXsdField, offset: 0x3b0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdField;
+  /// @brief Field QnXsdMinExclusive, offset: 0x3b8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdMinExclusive;
 
-/// @brief Field QnXsdMinExclusive, offset: 0x3b8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdMinExclusive;
+  /// @brief Field QnXsdMinInclusive, offset: 0x3c0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdMinInclusive;
 
-/// @brief Field QnXsdMinInclusive, offset: 0x3c0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdMinInclusive;
+  /// @brief Field QnXsdMaxInclusive, offset: 0x3c8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdMaxInclusive;
 
-/// @brief Field QnXsdMaxInclusive, offset: 0x3c8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdMaxInclusive;
+  /// @brief Field QnXsdMaxExclusive, offset: 0x3d0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdMaxExclusive;
 
-/// @brief Field QnXsdMaxExclusive, offset: 0x3d0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdMaxExclusive;
+  /// @brief Field QnXsdTotalDigits, offset: 0x3d8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdTotalDigits;
 
-/// @brief Field QnXsdTotalDigits, offset: 0x3d8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdTotalDigits;
+  /// @brief Field QnXsdFractionDigits, offset: 0x3e0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdFractionDigits;
 
-/// @brief Field QnXsdFractionDigits, offset: 0x3e0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdFractionDigits;
+  /// @brief Field QnXsdLength, offset: 0x3e8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdLength;
 
-/// @brief Field QnXsdLength, offset: 0x3e8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdLength;
+  /// @brief Field QnXsdMinLength, offset: 0x3f0, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdMinLength;
 
-/// @brief Field QnXsdMinLength, offset: 0x3f0, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdMinLength;
+  /// @brief Field QnXsdMaxLength, offset: 0x3f8, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdMaxLength;
 
-/// @brief Field QnXsdMaxLength, offset: 0x3f8, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdMaxLength;
+  /// @brief Field QnXsdEnumeration, offset: 0x400, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdEnumeration;
 
-/// @brief Field QnXsdEnumeration, offset: 0x400, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdEnumeration;
+  /// @brief Field QnXsdPattern, offset: 0x408, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdPattern;
 
-/// @brief Field QnXsdPattern, offset: 0x408, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdPattern;
+  /// @brief Field QnXsdDocumentation, offset: 0x410, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdDocumentation;
 
-/// @brief Field QnXsdDocumentation, offset: 0x410, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdDocumentation;
+  /// @brief Field QnXsdAppinfo, offset: 0x418, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAppinfo;
 
-/// @brief Field QnXsdAppinfo, offset: 0x418, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAppinfo;
+  /// @brief Field QnSource, offset: 0x420, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnSource;
 
-/// @brief Field QnSource, offset: 0x420, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnSource;
+  /// @brief Field QnXsdComplexContent, offset: 0x428, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdComplexContent;
 
-/// @brief Field QnXsdComplexContent, offset: 0x428, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdComplexContent;
+  /// @brief Field QnXsdSimpleContent, offset: 0x430, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdSimpleContent;
 
-/// @brief Field QnXsdSimpleContent, offset: 0x430, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdSimpleContent;
+  /// @brief Field QnXsdRestriction, offset: 0x438, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdRestriction;
 
-/// @brief Field QnXsdRestriction, offset: 0x438, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdRestriction;
+  /// @brief Field QnXsdExtension, offset: 0x440, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdExtension;
 
-/// @brief Field QnXsdExtension, offset: 0x440, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdExtension;
+  /// @brief Field QnXsdUnion, offset: 0x448, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdUnion;
 
-/// @brief Field QnXsdUnion, offset: 0x448, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdUnion;
+  /// @brief Field QnXsdList, offset: 0x450, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdList;
 
-/// @brief Field QnXsdList, offset: 0x450, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdList;
+  /// @brief Field QnXsdWhiteSpace, offset: 0x458, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdWhiteSpace;
 
-/// @brief Field QnXsdWhiteSpace, offset: 0x458, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdWhiteSpace;
+  /// @brief Field QnXsdRedefine, offset: 0x460, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdRedefine;
 
-/// @brief Field QnXsdRedefine, offset: 0x460, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdRedefine;
+  /// @brief Field QnXsdAnyType, offset: 0x468, size: 0x8, def value: None
+  ::System::Xml::XmlQualifiedName* ___QnXsdAnyType;
 
-/// @brief Field QnXsdAnyType, offset: 0x468, size: 0x8, def value: None
- ::System::Xml::XmlQualifiedName*  ___QnXsdAnyType;
+  /// @brief Field TokenToQName, offset: 0x470, size: 0x8, def value: None
+  ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> ___TokenToQName;
 
-/// @brief Field TokenToQName, offset: 0x470, size: 0x8, def value: None
- ::ArrayW<::System::Xml::XmlQualifiedName*,::Array<::System::Xml::XmlQualifiedName*>*>  ___TokenToQName;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::SchemaNames, ___nameTable) == 0x10, "Offset mismatch!");
@@ -2591,7 +2592,7 @@ static_assert(offsetof(::System::Xml::Schema::SchemaNames, ___TokenToQName) == 0
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaNames, 0x478>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaNames_Token, "System.Xml.Schema", "SchemaNames/Token");
 NEED_NO_BOX(::System::Xml::Schema::SchemaNames);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaNames*, "System.Xml.Schema", "SchemaNames");

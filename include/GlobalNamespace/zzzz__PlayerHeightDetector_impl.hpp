@@ -11,392 +11,330 @@
 #include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector_InitData._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector_InitData::*)(float_t, float_t)>(&::GlobalNamespace::PlayerHeightDetector_InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector_InitData::*)(float_t, float_t)>(
+    &::GlobalNamespace::PlayerHeightDetector_InitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58427a4;
+  constexpr static std::size_t addrs = 0x58b4d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector_InitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_get_headPosToPlayerHeightOffset()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___headPosToPlayerHeightOffset;
+constexpr float_t& GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_get_headPosToPlayerHeightOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___headPosToPlayerHeightOffset;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_get_headPosToPlayerHeightOffset() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___headPosToPlayerHeightOffset;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___headPosToPlayerHeightOffset;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_set_headPosToPlayerHeightOffset(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___headPosToPlayerHeightOffset = value;
+constexpr void GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_set_headPosToPlayerHeightOffset(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___headPosToPlayerHeightOffset = value;
 }
-constexpr float_t& GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_get_startPlayerHeight()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___startPlayerHeight;
+constexpr float_t& GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_get_startPlayerHeight() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startPlayerHeight;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_get_startPlayerHeight() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___startPlayerHeight;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startPlayerHeight;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_set_startPlayerHeight(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___startPlayerHeight = value;
+constexpr void GlobalNamespace::PlayerHeightDetector_InitData::__cordl_internal_set_startPlayerHeight(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___startPlayerHeight = value;
 }
-inline void GlobalNamespace::PlayerHeightDetector_InitData::_ctor(float_t  headPosToPlayerHeightOffset, float_t  startPlayerHeight)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector_InitData*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, headPosToPlayerHeightOffset, startPlayerHeight);
+inline void GlobalNamespace::PlayerHeightDetector_InitData::_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, headPosToPlayerHeightOffset, startPlayerHeight);
 }
-inline ::GlobalNamespace::PlayerHeightDetector_InitData* GlobalNamespace::PlayerHeightDetector_InitData::New_ctor(float_t  headPosToPlayerHeightOffset, float_t  startPlayerHeight)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerHeightDetector_InitData*>(headPosToPlayerHeightOffset, startPlayerHeight));
+inline ::GlobalNamespace::PlayerHeightDetector_InitData* GlobalNamespace::PlayerHeightDetector_InitData::New_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerHeightDetector_InitData*>(headPosToPlayerHeightOffset, startPlayerHeight));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlayerHeightDetector_InitData::PlayerHeightDetector_InitData()   {
-}
+constexpr ::GlobalNamespace::PlayerHeightDetector_InitData::PlayerHeightDetector_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector.add_playerHeightDidChangeEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::System::Action_1<float_t>*)>(&::GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::System::Action_1<float_t>*)>(
+    &::GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58422cc;
+  constexpr static std::size_t addrs = 0x58b48b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "add_playerHeightDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "add_playerHeightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector.remove_playerHeightDidChangeEvent
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::System::Action_1<float_t>*)>(&::GlobalNamespace::PlayerHeightDetector::remove_playerHeightDidChangeEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::System::Action_1<float_t>*)>(
+    &::GlobalNamespace::PlayerHeightDetector::remove_playerHeightDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x584238c;
+  constexpr static std::size_t addrs = 0x58b4974;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "remove_playerHeightDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "remove_playerHeightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector.get_playerHeight
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::get_playerHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x584244c;
+  constexpr static std::size_t addrs = 0x58b4a34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "get_playerHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
+                                                                               "get_playerHeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector.Start
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::Start)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5842454;
+  constexpr static std::size_t addrs = 0x58b4a3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "Start",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector.OnDestroy
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5842540;
+  constexpr static std::size_t addrs = 0x58b4b28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "OnDestroy",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector.LateUpdate
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::LateUpdate)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x584255c;
+  constexpr static std::size_t addrs = 0x58b4b44;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "LateUpdate",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector.BeatmapObjectSpawnCallback
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::GlobalNamespace::ObstacleData*)>(&::GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::GlobalNamespace::ObstacleData*)>(
+    &::GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5842760;
+  constexpr static std::size_t addrs = 0x58b4d48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "BeatmapObjectSpawnCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleData*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "BeatmapObjectSpawnCallback", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleData*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightDetector._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58427a0;
+  constexpr static std::size_t addrs = 0x58b4d88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__playerTransforms()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerTransforms;
+constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__playerTransforms() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerTransforms;
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__playerTransforms() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerTransforms;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerTransforms;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__beatmapCallbacksController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapCallbacksController;
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__beatmapCallbacksController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCallbacksController;
 }
 constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__beatmapCallbacksController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapCallbacksController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCallbacksController;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__audioTimeSyncController()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioTimeSyncController;
+constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__audioTimeSyncController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioTimeSyncController;
 }
 constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__audioTimeSyncController() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____audioTimeSyncController;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioTimeSyncController;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PlayerHeightDetector_InitData*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__initData()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____initData;
+constexpr ::GlobalNamespace::PlayerHeightDetector_InitData*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__initData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____initData;
 }
 constexpr ::GlobalNamespace::PlayerHeightDetector_InitData* const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__initData() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____initData;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____initData;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__initData(::GlobalNamespace::PlayerHeightDetector_InitData*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__initData(::GlobalNamespace::PlayerHeightDetector_InitData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<float_t>*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get_playerHeightDidChangeEvent()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___playerHeightDidChangeEvent;
+constexpr ::System::Action_1<float_t>*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get_playerHeightDidChangeEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playerHeightDidChangeEvent;
 }
 constexpr ::System::Action_1<float_t>* const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get_playerHeightDidChangeEvent() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___playerHeightDidChangeEvent;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playerHeightDidChangeEvent;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set_playerHeightDidChangeEvent(::System::Action_1<float_t>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerHeightDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set_playerHeightDidChangeEvent(::System::Action_1<float_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerHeightDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__beatmapObjectCallbackWrapper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapObjectCallbackWrapper;
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__beatmapObjectCallbackWrapper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapObjectCallbackWrapper;
 }
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__beatmapObjectCallbackWrapper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____beatmapObjectCallbackWrapper;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapObjectCallbackWrapper;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__beatmapObjectCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__beatmapObjectCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__noTopObstaclesStartTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____noTopObstaclesStartTime;
+constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__noTopObstaclesStartTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noTopObstaclesStartTime;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__noTopObstaclesStartTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____noTopObstaclesStartTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____noTopObstaclesStartTime;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__noTopObstaclesStartTime(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____noTopObstaclesStartTime = value;
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__noTopObstaclesStartTime(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____noTopObstaclesStartTime = value;
 }
-constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__computedPlayerHeight()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____computedPlayerHeight;
+constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__computedPlayerHeight() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____computedPlayerHeight;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__computedPlayerHeight() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____computedPlayerHeight;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____computedPlayerHeight;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__computedPlayerHeight(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____computedPlayerHeight = value;
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__computedPlayerHeight(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____computedPlayerHeight = value;
 }
-constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__changeWeight()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____changeWeight;
+constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__changeWeight() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____changeWeight;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__changeWeight() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____changeWeight;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____changeWeight;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__changeWeight(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____changeWeight = value;
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__changeWeight(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____changeWeight = value;
 }
-constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__lastReportedHeight()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastReportedHeight;
+constexpr float_t& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__lastReportedHeight() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastReportedHeight;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightDetector::__cordl_internal_get__lastReportedHeight() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastReportedHeight;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastReportedHeight;
 }
-constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__lastReportedHeight(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____lastReportedHeight = value;
+constexpr void GlobalNamespace::PlayerHeightDetector::__cordl_internal_set__lastReportedHeight(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastReportedHeight = value;
 }
-inline void GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent(::System::Action_1<float_t>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "add_playerHeightDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent(::System::Action_1<float_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "add_playerHeightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::PlayerHeightDetector::remove_playerHeightDidChangeEvent(::System::Action_1<float_t>*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "remove_playerHeightDidChangeEvent",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::PlayerHeightDetector::remove_playerHeightDidChangeEvent(::System::Action_1<float_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "remove_playerHeightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::PlayerHeightDetector::get_playerHeight()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "get_playerHeight",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::PlayerHeightDetector::get_playerHeight() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
+                                                                             "get_playerHeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightDetector::Start()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightDetector::Start() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "Start",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightDetector::OnDestroy()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "OnDestroy",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightDetector::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "OnDestroy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightDetector::LateUpdate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightDetector::LateUpdate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "LateUpdate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData*  obstacleData)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        "BeatmapObjectSpawnCallback",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleData*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleData);
+inline void GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData* obstacleData) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), "BeatmapObjectSpawnCallback", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleData*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleData);
 }
-inline void GlobalNamespace::PlayerHeightDetector::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::PlayerHeightDetector::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightDetector*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PlayerHeightDetector* GlobalNamespace::PlayerHeightDetector::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerHeightDetector*>());
+inline ::GlobalNamespace::PlayerHeightDetector* GlobalNamespace::PlayerHeightDetector::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerHeightDetector*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlayerHeightDetector::PlayerHeightDetector()   {
-}
+constexpr ::GlobalNamespace::PlayerHeightDetector::PlayerHeightDetector() {}

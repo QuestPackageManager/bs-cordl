@@ -36,108 +36,109 @@ namespace System {
 // CS Name: System.LazyHelper
 class CORDL_TYPE LazyHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Field NoneViaConstructor, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_NoneViaConstructor, put=setStaticF_NoneViaConstructor)) ::System::LazyHelper*  NoneViaConstructor;
+  // Declarations
+  /// @brief Field NoneViaConstructor, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_NoneViaConstructor, put = setStaticF_NoneViaConstructor)) ::System::LazyHelper* NoneViaConstructor;
 
-/// @brief Field NoneViaFactory, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_NoneViaFactory, put=setStaticF_NoneViaFactory)) ::System::LazyHelper*  NoneViaFactory;
+  /// @brief Field NoneViaFactory, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_NoneViaFactory, put = setStaticF_NoneViaFactory)) ::System::LazyHelper* NoneViaFactory;
 
-/// @brief Field PublicationOnlyViaConstructor, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_PublicationOnlyViaConstructor, put=setStaticF_PublicationOnlyViaConstructor)) ::System::LazyHelper*  PublicationOnlyViaConstructor;
+  /// @brief Field PublicationOnlyViaConstructor, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_PublicationOnlyViaConstructor, put = setStaticF_PublicationOnlyViaConstructor)) ::System::LazyHelper* PublicationOnlyViaConstructor;
 
-/// @brief Field PublicationOnlyViaFactory, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_PublicationOnlyViaFactory, put=setStaticF_PublicationOnlyViaFactory)) ::System::LazyHelper*  PublicationOnlyViaFactory;
+  /// @brief Field PublicationOnlyViaFactory, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_PublicationOnlyViaFactory, put = setStaticF_PublicationOnlyViaFactory)) ::System::LazyHelper* PublicationOnlyViaFactory;
 
-/// @brief Field PublicationOnlyWaitForOtherThreadToPublish, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_PublicationOnlyWaitForOtherThreadToPublish, put=setStaticF_PublicationOnlyWaitForOtherThreadToPublish)) ::System::LazyHelper*  PublicationOnlyWaitForOtherThreadToPublish;
+  /// @brief Field PublicationOnlyWaitForOtherThreadToPublish, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_PublicationOnlyWaitForOtherThreadToPublish,
+                      put = setStaticF_PublicationOnlyWaitForOtherThreadToPublish)) ::System::LazyHelper* PublicationOnlyWaitForOtherThreadToPublish;
 
- __declspec(property(get=get_State)) ::System::LazyState  State;
+  __declspec(property(get = get_State)) ::System::LazyState State;
 
-/// @brief Field <State>k__BackingField, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get__State_k__BackingField, put=__cordl_internal_set__State_k__BackingField)) ::System::LazyState  _State_k__BackingField;
+  /// @brief Field <State>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__State_k__BackingField, put = __cordl_internal_set__State_k__BackingField)) ::System::LazyState _State_k__BackingField;
 
-/// @brief Field _exceptionDispatch, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__exceptionDispatch, put=__cordl_internal_set__exceptionDispatch)) ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*  _exceptionDispatch;
+  /// @brief Field _exceptionDispatch, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__exceptionDispatch, put = __cordl_internal_set__exceptionDispatch)) ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionDispatch;
 
-/// @brief Method Create, addr 0x5a99354, size 0x158, virtual false, abstract: false, final false
-static inline ::System::LazyHelper* Create(::System::Threading::LazyThreadSafetyMode  mode, bool  useDefaultConstructor) ;
+  /// @brief Method Create, addr 0x5b0b33c, size 0x158, virtual false, abstract: false, final false
+  static inline ::System::LazyHelper* Create(::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
-/// @brief Method CreateViaDefaultConstructor, addr 0x5a994ac, size 0xd0, virtual false, abstract: false, final false
-static inline ::System::Object* CreateViaDefaultConstructor(::System::Type*  type) ;
+  /// @brief Method CreateViaDefaultConstructor, addr 0x5b0b494, size 0xd0, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateViaDefaultConstructor(::System::Type* type);
 
-static inline ::System::LazyHelper* New_ctor(::System::Threading::LazyThreadSafetyMode  mode, ::System::Exception*  exception) ;
+  static inline ::System::LazyHelper* New_ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
-static inline ::System::LazyHelper* New_ctor(::System::LazyState  state) ;
+  static inline ::System::LazyHelper* New_ctor(::System::LazyState state);
 
-/// @brief Method ThrowException, addr 0x5a9933c, size 0x18, virtual false, abstract: false, final false
-inline void ThrowException() ;
+  /// @brief Method ThrowException, addr 0x5b0b324, size 0x18, virtual false, abstract: false, final false
+  inline void ThrowException();
 
-constexpr ::System::LazyState const& __cordl_internal_get__State_k__BackingField() const;
+  constexpr ::System::LazyState const& __cordl_internal_get__State_k__BackingField() const;
 
-constexpr ::System::LazyState& __cordl_internal_get__State_k__BackingField() ;
+  constexpr ::System::LazyState& __cordl_internal_get__State_k__BackingField();
 
-constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* const& __cordl_internal_get__exceptionDispatch() const;
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* const& __cordl_internal_get__exceptionDispatch() const;
 
-constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__exceptionDispatch() ;
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__exceptionDispatch();
 
-constexpr void __cordl_internal_set__State_k__BackingField(::System::LazyState  value) ;
+  constexpr void __cordl_internal_set__State_k__BackingField(::System::LazyState value);
 
-constexpr void __cordl_internal_set__exceptionDispatch(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*  value) ;
+  constexpr void __cordl_internal_set__exceptionDispatch(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-/// @brief Method .ctor, addr 0x5a99304, size 0x38, virtual false, abstract: false, final false
-inline void _ctor(::System::Threading::LazyThreadSafetyMode  mode, ::System::Exception*  exception) ;
+  /// @brief Method .ctor, addr 0x5b0b2ec, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
-/// @brief Method .ctor, addr 0x5a992fc, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::LazyState  state) ;
+  /// @brief Method .ctor, addr 0x5b0b2e4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::LazyState state);
 
-static inline ::System::LazyHelper* getStaticF_NoneViaConstructor() ;
+  static inline ::System::LazyHelper* getStaticF_NoneViaConstructor();
 
-static inline ::System::LazyHelper* getStaticF_NoneViaFactory() ;
+  static inline ::System::LazyHelper* getStaticF_NoneViaFactory();
 
-static inline ::System::LazyHelper* getStaticF_PublicationOnlyViaConstructor() ;
+  static inline ::System::LazyHelper* getStaticF_PublicationOnlyViaConstructor();
 
-static inline ::System::LazyHelper* getStaticF_PublicationOnlyViaFactory() ;
+  static inline ::System::LazyHelper* getStaticF_PublicationOnlyViaFactory();
 
-static inline ::System::LazyHelper* getStaticF_PublicationOnlyWaitForOtherThreadToPublish() ;
+  static inline ::System::LazyHelper* getStaticF_PublicationOnlyWaitForOtherThreadToPublish();
 
-/// @brief Method get_State, addr 0x5a992f4, size 0x8, virtual false, abstract: false, final false
-inline ::System::LazyState get_State() ;
+  /// @brief Method get_State, addr 0x5b0b2dc, size 0x8, virtual false, abstract: false, final false
+  inline ::System::LazyState get_State();
 
-static inline void setStaticF_NoneViaConstructor(::System::LazyHelper*  value) ;
+  static inline void setStaticF_NoneViaConstructor(::System::LazyHelper* value);
 
-static inline void setStaticF_NoneViaFactory(::System::LazyHelper*  value) ;
+  static inline void setStaticF_NoneViaFactory(::System::LazyHelper* value);
 
-static inline void setStaticF_PublicationOnlyViaConstructor(::System::LazyHelper*  value) ;
+  static inline void setStaticF_PublicationOnlyViaConstructor(::System::LazyHelper* value);
 
-static inline void setStaticF_PublicationOnlyViaFactory(::System::LazyHelper*  value) ;
+  static inline void setStaticF_PublicationOnlyViaFactory(::System::LazyHelper* value);
 
-static inline void setStaticF_PublicationOnlyWaitForOtherThreadToPublish(::System::LazyHelper*  value) ;
+  static inline void setStaticF_PublicationOnlyWaitForOtherThreadToPublish(::System::LazyHelper* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LazyHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LazyHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LazyHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LazyHelper(LazyHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LazyHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LazyHelper(LazyHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LazyHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LazyHelper(LazyHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LazyHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LazyHelper(LazyHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2435 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2435};
+  /// @brief Field <State>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  ::System::LazyState ____State_k__BackingField;
 
-/// @brief Field <State>k__BackingField, offset: 0x10, size: 0x4, def value: None
- ::System::LazyState  ____State_k__BackingField;
+  /// @brief Field _exceptionDispatch, offset: 0x18, size: 0x8, def value: None
+  ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* ____exceptionDispatch;
 
-/// @brief Field _exceptionDispatch, offset: 0x18, size: 0x8, def value: None
- ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*  ____exceptionDispatch;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::LazyHelper, ____State_k__BackingField) == 0x10, "Offset mismatch!");
@@ -146,6 +147,6 @@ static_assert(offsetof(::System::LazyHelper, ____exceptionDispatch) == 0x18, "Of
 
 static_assert(::cordl_internals::size_check_v<::System::LazyHelper, 0x20>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::LazyHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::LazyHelper*, "System", "LazyHelper");

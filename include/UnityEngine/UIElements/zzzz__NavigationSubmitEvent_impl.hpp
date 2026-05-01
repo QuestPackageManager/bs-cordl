@@ -5,98 +5,78 @@
 #include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::NavigationSubmitEvent___c._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationSubmitEvent___c::*)()>(&::UnityEngine::UIElements::NavigationSubmitEvent___c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationSubmitEvent___c::*)()>(
+    &::UnityEngine::UIElements::NavigationSubmitEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bd7440;
+  constexpr static std::size_t addrs = 0x6c49688;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::NavigationSubmitEvent___c.__cctor_b__0_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::NavigationSubmitEvent* (::UnityEngine::UIElements::NavigationSubmitEvent___c::*)()>(&::UnityEngine::UIElements::NavigationSubmitEvent___c::__cctor_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::NavigationSubmitEvent* (::UnityEngine::UIElements::NavigationSubmitEvent___c::*)()>(
+    &::UnityEngine::UIElements::NavigationSubmitEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6bd7444;
+  constexpr static std::size_t addrs = 0x6c4968c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
-                        "<.cctor>b__0_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
+                                                                               "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::NavigationSubmitEvent___c::setStaticF___9(::UnityEngine::UIElements::NavigationSubmitEvent___c*  value)  {
-::cordl_internals::setStaticField<::UnityEngine::UIElements::NavigationSubmitEvent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get>(std::forward<::UnityEngine::UIElements::NavigationSubmitEvent___c*>(value));
+inline void UnityEngine::UIElements::NavigationSubmitEvent___c::setStaticF___9(::UnityEngine::UIElements::NavigationSubmitEvent___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::NavigationSubmitEvent___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get>(
+      std::forward<::UnityEngine::UIElements::NavigationSubmitEvent___c*>(value));
 }
-inline ::UnityEngine::UIElements::NavigationSubmitEvent___c* UnityEngine::UIElements::NavigationSubmitEvent___c::getStaticF___9()  {
-return ::cordl_internals::getStaticField<::UnityEngine::UIElements::NavigationSubmitEvent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get>();
+inline ::UnityEngine::UIElements::NavigationSubmitEvent___c* UnityEngine::UIElements::NavigationSubmitEvent___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::NavigationSubmitEvent___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get>();
 }
-inline void UnityEngine::UIElements::NavigationSubmitEvent___c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::NavigationSubmitEvent___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::NavigationSubmitEvent* UnityEngine::UIElements::NavigationSubmitEvent___c::__cctor_b__0_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
-                        "<.cctor>b__0_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::NavigationSubmitEvent*, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::NavigationSubmitEvent* UnityEngine::UIElements::NavigationSubmitEvent___c::__cctor_b__0_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent___c*>::get(),
+                                                                             "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::NavigationSubmitEvent*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::NavigationSubmitEvent___c* UnityEngine::UIElements::NavigationSubmitEvent___c::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::NavigationSubmitEvent___c*>());
+inline ::UnityEngine::UIElements::NavigationSubmitEvent___c* UnityEngine::UIElements::NavigationSubmitEvent___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::NavigationSubmitEvent___c*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::NavigationSubmitEvent___c::NavigationSubmitEvent___c()   {
-}
+constexpr ::UnityEngine::UIElements::NavigationSubmitEvent___c::NavigationSubmitEvent___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::NavigationSubmitEvent._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationSubmitEvent::*)()>(&::UnityEngine::UIElements::NavigationSubmitEvent::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationSubmitEvent::*)()>(
+    &::UnityEngine::UIElements::NavigationSubmitEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6bd73a0;
+  constexpr static std::size_t addrs = 0x6c495e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::NavigationSubmitEvent::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::NavigationSubmitEvent::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationSubmitEvent*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::NavigationSubmitEvent* UnityEngine::UIElements::NavigationSubmitEvent::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::NavigationSubmitEvent*>());
+inline ::UnityEngine::UIElements::NavigationSubmitEvent* UnityEngine::UIElements::NavigationSubmitEvent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::NavigationSubmitEvent*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::NavigationSubmitEvent::NavigationSubmitEvent()   {
-}
+constexpr ::UnityEngine::UIElements::NavigationSubmitEvent::NavigationSubmitEvent() {}

@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: MainMenuAdditionalComponentsInstaller
 class CORDL_TYPE MainMenuAdditionalComponentsInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
-// Declarations
-/// @brief Method InstallBindings, addr 0x58505b8, size 0x74, virtual true, abstract: false, final false
-inline void InstallBindings() ;
+  // Declarations
+  /// @brief Method InstallBindings, addr 0x58c4d6c, size 0x74, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-static inline ::GlobalNamespace::MainMenuAdditionalComponentsInstaller* New_ctor() ;
+  static inline ::GlobalNamespace::MainMenuAdditionalComponentsInstaller* New_ctor();
 
-/// @brief Method .ctor, addr 0x585062c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58c4de0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MainMenuAdditionalComponentsInstaller() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainMenuAdditionalComponentsInstaller();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuAdditionalComponentsInstaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainMenuAdditionalComponentsInstaller", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuAdditionalComponentsInstaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainMenuAdditionalComponentsInstaller", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6314 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6304};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuAdditionalComponentsInstaller, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainMenuAdditionalComponentsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainMenuAdditionalComponentsInstaller*, "", "MainMenuAdditionalComponentsInstaller");

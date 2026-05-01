@@ -19,39 +19,39 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection);
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Schema.JsonSchemaNodeCollection
-class CORDL_TYPE JsonSchemaNodeCollection : public ::System::Collections::ObjectModel::KeyedCollection_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*> {
+class CORDL_TYPE JsonSchemaNodeCollection : public ::System::Collections::ObjectModel::KeyedCollection_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*> {
 public:
-// Declarations
-/// @brief Method GetKeyForItem, addr 0x5bb93b0, size 0x14, virtual true, abstract: false, final false
-inline ::StringW GetKeyForItem(::Newtonsoft::Json::Schema::JsonSchemaNode*  item) ;
+  // Declarations
+  /// @brief Method GetKeyForItem, addr 0x5c2b398, size 0x14, virtual true, abstract: false, final false
+  inline ::StringW GetKeyForItem(::Newtonsoft::Json::Schema::JsonSchemaNode* item);
 
-static inline ::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* New_ctor() ;
+  static inline ::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* New_ctor();
 
-/// @brief Method .ctor, addr 0x5bb77e8, size 0x60, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5c297d0, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr JsonSchemaNodeCollection() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonSchemaNodeCollection();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  JsonSchemaNodeCollection(JsonSchemaNodeCollection&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-JsonSchemaNodeCollection(JsonSchemaNodeCollection && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  JsonSchemaNodeCollection(JsonSchemaNodeCollection const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-JsonSchemaNodeCollection(JsonSchemaNodeCollection const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13538 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13531};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::JsonSchemaNodeCollection, 0x30>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Schema
+} // namespace Newtonsoft::Json::Schema
 NEED_NO_BOX(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection*, "Newtonsoft.Json.Schema", "JsonSchemaNodeCollection");

@@ -26,79 +26,79 @@ namespace System::Threading {
 // CS Name: System.Threading.ThreadPoolWorkQueueThreadLocals
 class CORDL_TYPE ThreadPoolWorkQueueThreadLocals : public ::System::Object {
 public:
-// Declarations
-/// @brief Field random, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_random, put=__cordl_internal_set_random)) ::System::Random*  random;
+  // Declarations
+  /// @brief Field random, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::System::Random* random;
 
-/// @brief Field threadLocals, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_threadLocals, put=setStaticF_threadLocals)) ::System::Threading::ThreadPoolWorkQueueThreadLocals*  threadLocals;
+  /// @brief Field threadLocals, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_threadLocals, put = setStaticF_threadLocals)) ::System::Threading::ThreadPoolWorkQueueThreadLocals* threadLocals;
 
-/// @brief Field workQueue, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_workQueue, put=__cordl_internal_set_workQueue)) ::System::Threading::ThreadPoolWorkQueue*  workQueue;
+  /// @brief Field workQueue, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_workQueue, put = __cordl_internal_set_workQueue)) ::System::Threading::ThreadPoolWorkQueue* workQueue;
 
-/// @brief Field workStealingQueue, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_workStealingQueue, put=__cordl_internal_set_workStealingQueue)) ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*  workStealingQueue;
+  /// @brief Field workStealingQueue, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_workStealingQueue, put = __cordl_internal_set_workStealingQueue)) ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* workStealingQueue;
 
-/// @brief Method CleanUp, addr 0x5b064fc, size 0xe0, virtual false, abstract: false, final false
-inline void CleanUp() ;
+  /// @brief Method CleanUp, addr 0x5b784e4, size 0xe0, virtual false, abstract: false, final false
+  inline void CleanUp();
 
-/// @brief Method Finalize, addr 0x5b065dc, size 0x70, virtual true, abstract: false, final false
-inline void Finalize() ;
+  /// @brief Method Finalize, addr 0x5b785c4, size 0x70, virtual true, abstract: false, final false
+  inline void Finalize();
 
-static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue*  tpq) ;
+  static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
-constexpr ::System::Random* const& __cordl_internal_get_random() const;
+  constexpr ::System::Random* const& __cordl_internal_get_random() const;
 
-constexpr ::System::Random*& __cordl_internal_get_random() ;
+  constexpr ::System::Random*& __cordl_internal_get_random();
 
-constexpr ::System::Threading::ThreadPoolWorkQueue* const& __cordl_internal_get_workQueue() const;
+  constexpr ::System::Threading::ThreadPoolWorkQueue* const& __cordl_internal_get_workQueue() const;
 
-constexpr ::System::Threading::ThreadPoolWorkQueue*& __cordl_internal_get_workQueue() ;
+  constexpr ::System::Threading::ThreadPoolWorkQueue*& __cordl_internal_get_workQueue();
 
-constexpr ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* const& __cordl_internal_get_workStealingQueue() const;
+  constexpr ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* const& __cordl_internal_get_workStealingQueue() const;
 
-constexpr ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*& __cordl_internal_get_workStealingQueue() ;
+  constexpr ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*& __cordl_internal_get_workStealingQueue();
 
-constexpr void __cordl_internal_set_random(::System::Random*  value) ;
+  constexpr void __cordl_internal_set_random(::System::Random* value);
 
-constexpr void __cordl_internal_set_workQueue(::System::Threading::ThreadPoolWorkQueue*  value) ;
+  constexpr void __cordl_internal_set_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
 
-constexpr void __cordl_internal_set_workStealingQueue(::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*  value) ;
+  constexpr void __cordl_internal_set_workStealingQueue(::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* value);
 
-/// @brief Method .ctor, addr 0x5b04acc, size 0x114, virtual false, abstract: false, final false
-inline void _ctor(::System::Threading::ThreadPoolWorkQueue*  tpq) ;
+  /// @brief Method .ctor, addr 0x5b76ab4, size 0x114, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
-static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* getStaticF_threadLocals() ;
+  static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* getStaticF_threadLocals();
 
-static inline void setStaticF_threadLocals(::System::Threading::ThreadPoolWorkQueueThreadLocals*  value) ;
+  static inline void setStaticF_threadLocals(::System::Threading::ThreadPoolWorkQueueThreadLocals* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ThreadPoolWorkQueueThreadLocals() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadPoolWorkQueueThreadLocals();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueueThreadLocals", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ThreadPoolWorkQueueThreadLocals(ThreadPoolWorkQueueThreadLocals&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueueThreadLocals", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ThreadPoolWorkQueueThreadLocals(ThreadPoolWorkQueueThreadLocals && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueueThreadLocals", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ThreadPoolWorkQueueThreadLocals(ThreadPoolWorkQueueThreadLocals const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueueThreadLocals", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ThreadPoolWorkQueueThreadLocals(ThreadPoolWorkQueueThreadLocals const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2748 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2748};
+  /// @brief Field workQueue, offset: 0x10, size: 0x8, def value: None
+  ::System::Threading::ThreadPoolWorkQueue* ___workQueue;
 
-/// @brief Field workQueue, offset: 0x10, size: 0x8, def value: None
- ::System::Threading::ThreadPoolWorkQueue*  ___workQueue;
+  /// @brief Field workStealingQueue, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* ___workStealingQueue;
 
-/// @brief Field workStealingQueue, offset: 0x18, size: 0x8, def value: None
- ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*  ___workStealingQueue;
+  /// @brief Field random, offset: 0x20, size: 0x8, def value: None
+  ::System::Random* ___random;
 
-/// @brief Field random, offset: 0x20, size: 0x8, def value: None
- ::System::Random*  ___random;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Threading::ThreadPoolWorkQueueThreadLocals, ___workQueue) == 0x10, "Offset mismatch!");
@@ -109,6 +109,6 @@ static_assert(offsetof(::System::Threading::ThreadPoolWorkQueueThreadLocals, ___
 
 static_assert(::cordl_internals::size_check_v<::System::Threading::ThreadPoolWorkQueueThreadLocals, 0x28>, "Size mismatch!");
 
-} // namespace end def System::Threading
+} // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ThreadPoolWorkQueueThreadLocals);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");

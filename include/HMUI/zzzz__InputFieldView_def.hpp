@@ -31,15 +31,13 @@ namespace HMUI {
 class UIKeyboard;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;
@@ -86,211 +84,211 @@ MARK_VAL_T(::HMUI::InputFieldView_SelectionState);
 MARK_REF_PTR_T(::HMUI::InputFieldView);
 MARK_REF_PTR_T(::HMUI::InputFieldView_InputFieldChanged);
 MARK_REF_PTR_T(::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46);
-// Dependencies 
+// Dependencies
 namespace HMUI {
 // Is value type: true
 // CS Name: HMUI.InputFieldView/SelectionState
 struct CORDL_TYPE InputFieldView_SelectionState {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __InputFieldView_SelectionState_Unwrapped
-enum struct __InputFieldView_SelectionState_Unwrapped : int32_t {
-__E_Normal = static_cast<int32_t>(0x0),
-__E_Highlighted = static_cast<int32_t>(0x1),
-__E_Pressed = static_cast<int32_t>(0x2),
-__E_Disabled = static_cast<int32_t>(0x3),
-__E_Selected = static_cast<int32_t>(0x4),
-};
+  /// @brief Nested struct __InputFieldView_SelectionState_Unwrapped
+  enum struct __InputFieldView_SelectionState_Unwrapped : int32_t {
+    __E_Normal = static_cast<int32_t>(0x0),
+    __E_Highlighted = static_cast<int32_t>(0x1),
+    __E_Pressed = static_cast<int32_t>(0x2),
+    __E_Disabled = static_cast<int32_t>(0x3),
+    __E_Selected = static_cast<int32_t>(0x4),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __InputFieldView_SelectionState_Unwrapped () const noexcept {
-return static_cast<__InputFieldView_SelectionState_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __InputFieldView_SelectionState_Unwrapped() const noexcept {
+    return static_cast<__InputFieldView_SelectionState_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputFieldView_SelectionState() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputFieldView_SelectionState();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr InputFieldView_SelectionState(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InputFieldView_SelectionState(int32_t value__) noexcept;
 
-/// @brief Field Disabled value: I32(3)
-static ::HMUI::InputFieldView_SelectionState const Disabled;
+  /// @brief Field Disabled value: I32(3)
+  static ::HMUI::InputFieldView_SelectionState const Disabled;
 
-/// @brief Field Highlighted value: I32(1)
-static ::HMUI::InputFieldView_SelectionState const Highlighted;
+  /// @brief Field Highlighted value: I32(1)
+  static ::HMUI::InputFieldView_SelectionState const Highlighted;
 
-/// @brief Field Normal value: I32(0)
-static ::HMUI::InputFieldView_SelectionState const Normal;
+  /// @brief Field Normal value: I32(0)
+  static ::HMUI::InputFieldView_SelectionState const Normal;
 
-/// @brief Field Pressed value: I32(2)
-static ::HMUI::InputFieldView_SelectionState const Pressed;
+  /// @brief Field Pressed value: I32(2)
+  static ::HMUI::InputFieldView_SelectionState const Pressed;
 
-/// @brief Field Selected value: I32(4)
-static ::HMUI::InputFieldView_SelectionState const Selected;
+  /// @brief Field Selected value: I32(4)
+  static ::HMUI::InputFieldView_SelectionState const Selected;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19183};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::InputFieldView_SelectionState, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldView_SelectionState, 0x4>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies UnityEngine.Events.UnityEvent`1<T0>
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.InputFieldView/InputFieldChanged
 class CORDL_TYPE InputFieldView_InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::HMUI::InputFieldView>> {
 public:
-// Declarations
-static inline ::HMUI::InputFieldView_InputFieldChanged* New_ctor() ;
+  // Declarations
+  static inline ::HMUI::InputFieldView_InputFieldChanged* New_ctor();
 
-/// @brief Method .ctor, addr 0x56d27a4, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5740690, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputFieldView_InputFieldChanged() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputFieldView_InputFieldChanged();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19194 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19184};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldView_InputFieldChanged, 0x30>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.InputFieldView/<BlinkingCaretCoroutine>d__46
 class CORDL_TYPE InputFieldView__BlinkingCaretCoroutine_d__46 : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
+  // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
- __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
-/// @brief Field <>1__state, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+  /// @brief Field <>1__state, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
-/// @brief Field <>2__current, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
+  /// @brief Field <>2__current, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
-/// @brief Field <>4__this, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::InputFieldView>  __4__this;
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::InputFieldView> __4__this;
 
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+  /// @brief Convert operator to "::System::Collections::IEnumerator"
+  constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method MoveNext, addr 0x56d2884, size 0x8c, virtual true, abstract: false, final true
-inline bool MoveNext() ;
+  /// @brief Method MoveNext, addr 0x5740770, size 0x8c, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-static inline ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46* New_ctor(int32_t  __1__state) ;
+  static inline ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46* New_ctor(int32_t __1__state);
 
-/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x56d2910, size 0x8, virtual true, abstract: false, final true
-inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57407fc, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-/// @brief Method System.Collections.IEnumerator.Reset, addr 0x56d2918, size 0x38, virtual true, abstract: false, final true
-inline void System_Collections_IEnumerator_Reset() ;
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5740804, size 0x38, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
 
-/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x56d2950, size 0x8, virtual true, abstract: false, final true
-inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x574083c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-/// @brief Method System.IDisposable.Dispose, addr 0x56d2880, size 0x4, virtual true, abstract: false, final true
-inline void System_IDisposable_Dispose() ;
+  /// @brief Method System.IDisposable.Dispose, addr 0x574076c, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
-constexpr int32_t const& __cordl_internal_get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-constexpr int32_t& __cordl_internal_get___1__state() ;
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-constexpr ::System::Object*& __cordl_internal_get___2__current() ;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get___4__this();
 
-constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::InputFieldView>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::InputFieldView> value);
 
-/// @brief Method .ctor, addr 0x56d2670, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  __1__state) ;
+  /// @brief Method .ctor, addr 0x574055c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
 
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputFieldView__BlinkingCaretCoroutine_d__46() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputFieldView__BlinkingCaretCoroutine_d__46();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19195 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19185};
+  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+  int32_t _____1__state;
 
-/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
- int32_t  _____1__state;
+  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+  ::System::Object* _____2__current;
 
-/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
- ::System::Object*  _____2__current;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::HMUI::InputFieldView> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::HMUI::InputFieldView>  _____4__this;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46, _____1__state) == 0x10, "Offset mismatch!");
@@ -301,346 +299,347 @@ static_assert(offsetof(::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46, ___
 
 static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46, 0x28>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies HMUI.InputFieldView::SelectionState, UnityEngine.UI.Selectable, UnityEngine.Vector3
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.InputFieldView
 class CORDL_TYPE InputFieldView : public ::UnityEngine::UI::Selectable {
 public:
-// Declarations
-using InputFieldChanged = ::HMUI::InputFieldView_InputFieldChanged;
+  // Declarations
+  using InputFieldChanged = ::HMUI::InputFieldView_InputFieldChanged;
 
-using SelectionState = ::HMUI::InputFieldView_SelectionState;
+  using SelectionState = ::HMUI::InputFieldView_SelectionState;
 
-using _BlinkingCaretCoroutine_d__46 = ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46;
+  using _BlinkingCaretCoroutine_d__46 = ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46;
 
-/// @brief Field _blinkWaitYieldInstruction, offset 0x178, size 0x8 
- __declspec(property(get=__cordl_internal_get__blinkWaitYieldInstruction, put=__cordl_internal_set__blinkWaitYieldInstruction)) ::UnityEngine::YieldInstruction*  _blinkWaitYieldInstruction;
+  /// @brief Field _blinkWaitYieldInstruction, offset 0x178, size 0x8
+  __declspec(property(get = __cordl_internal_get__blinkWaitYieldInstruction, put = __cordl_internal_set__blinkWaitYieldInstruction)) ::UnityEngine::YieldInstruction* _blinkWaitYieldInstruction;
 
-/// @brief Field _blinkingCaret, offset 0x110, size 0x8 
- __declspec(property(get=__cordl_internal_get__blinkingCaret, put=__cordl_internal_set__blinkingCaret)) ::UnityW<::HMUI::ImageViewBase>  _blinkingCaret;
+  /// @brief Field _blinkingCaret, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get__blinkingCaret, put = __cordl_internal_set__blinkingCaret)) ::UnityW<::HMUI::ImageViewBase> _blinkingCaret;
 
-/// @brief Field _buttonBinder, offset 0x168, size 0x8 
- __declspec(property(get=__cordl_internal_get__buttonBinder, put=__cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder*  _buttonBinder;
+  /// @brief Field _buttonBinder, offset 0x168, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-/// @brief Field _caretOffset, offset 0x140, size 0x4 
- __declspec(property(get=__cordl_internal_get__caretOffset, put=__cordl_internal_set__caretOffset)) float_t  _caretOffset;
+  /// @brief Field _caretOffset, offset 0x140, size 0x4
+  __declspec(property(get = __cordl_internal_get__caretOffset, put = __cordl_internal_set__caretOffset)) float_t _caretOffset;
 
-/// @brief Field _clearSearchButton, offset 0x120, size 0x8 
- __declspec(property(get=__cordl_internal_get__clearSearchButton, put=__cordl_internal_set__clearSearchButton)) ::UnityW<::UnityEngine::UI::Button>  _clearSearchButton;
+  /// @brief Field _clearSearchButton, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get__clearSearchButton, put = __cordl_internal_set__clearSearchButton)) ::UnityW<::UnityEngine::UI::Button> _clearSearchButton;
 
-/// @brief Field _hasKeyboardAssigned, offset 0x160, size 0x1 
- __declspec(property(get=__cordl_internal_get__hasKeyboardAssigned, put=__cordl_internal_set__hasKeyboardAssigned)) bool  _hasKeyboardAssigned;
+  /// @brief Field _hasKeyboardAssigned, offset 0x160, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasKeyboardAssigned, put = __cordl_internal_set__hasKeyboardAssigned)) bool _hasKeyboardAssigned;
 
-/// @brief Field _keyboardPositionOffset, offset 0x12c, size 0xc 
- __declspec(property(get=__cordl_internal_get__keyboardPositionOffset, put=__cordl_internal_set__keyboardPositionOffset)) ::UnityEngine::Vector3  _keyboardPositionOffset;
+  /// @brief Field _keyboardPositionOffset, offset 0x12c, size 0xc
+  __declspec(property(get = __cordl_internal_get__keyboardPositionOffset, put = __cordl_internal_set__keyboardPositionOffset)) ::UnityEngine::Vector3 _keyboardPositionOffset;
 
-/// @brief Field _onValueChanged, offset 0x170, size 0x8 
- __declspec(property(get=__cordl_internal_get__onValueChanged, put=__cordl_internal_set__onValueChanged)) ::HMUI::InputFieldView_InputFieldChanged*  _onValueChanged;
+  /// @brief Field _onValueChanged, offset 0x170, size 0x8
+  __declspec(property(get = __cordl_internal_get__onValueChanged, put = __cordl_internal_set__onValueChanged)) ::HMUI::InputFieldView_InputFieldChanged* _onValueChanged;
 
-/// @brief Field _placeholderText, offset 0x118, size 0x8 
- __declspec(property(get=__cordl_internal_get__placeholderText, put=__cordl_internal_set__placeholderText)) ::UnityW<::UnityEngine::GameObject>  _placeholderText;
+  /// @brief Field _placeholderText, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get__placeholderText, put = __cordl_internal_set__placeholderText)) ::UnityW<::UnityEngine::GameObject> _placeholderText;
 
-/// @brief Field _selectionState, offset 0x150, size 0x4 
- __declspec(property(get=__cordl_internal_get__selectionState, put=__cordl_internal_set__selectionState)) ::HMUI::InputFieldView_SelectionState  _selectionState;
+  /// @brief Field _selectionState, offset 0x150, size 0x4
+  __declspec(property(get = __cordl_internal_get__selectionState, put = __cordl_internal_set__selectionState)) ::HMUI::InputFieldView_SelectionState _selectionState;
 
-/// @brief Field _text, offset 0x158, size 0x8 
- __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::StringW  _text;
+  /// @brief Field _text, offset 0x158, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::StringW _text;
 
-/// @brief Field _textLengthLimit, offset 0x13c, size 0x4 
- __declspec(property(get=__cordl_internal_get__textLengthLimit, put=__cordl_internal_set__textLengthLimit)) int32_t  _textLengthLimit;
+  /// @brief Field _textLengthLimit, offset 0x13c, size 0x4
+  __declspec(property(get = __cordl_internal_get__textLengthLimit, put = __cordl_internal_set__textLengthLimit)) int32_t _textLengthLimit;
 
-/// @brief Field _textView, offset 0x100, size 0x8 
- __declspec(property(get=__cordl_internal_get__textView, put=__cordl_internal_set__textView)) ::UnityW<::TMPro::TextMeshProUGUI>  _textView;
+  /// @brief Field _textView, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get__textView, put = __cordl_internal_set__textView)) ::UnityW<::TMPro::TextMeshProUGUI> _textView;
 
-/// @brief Field _textViewCanvasGroup, offset 0x108, size 0x8 
- __declspec(property(get=__cordl_internal_get__textViewCanvasGroup, put=__cordl_internal_set__textViewCanvasGroup)) ::UnityW<::UnityEngine::CanvasGroup>  _textViewCanvasGroup;
+  /// @brief Field _textViewCanvasGroup, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get__textViewCanvasGroup, put = __cordl_internal_set__textViewCanvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> _textViewCanvasGroup;
 
-/// @brief Field _useGlobalKeyboard, offset 0x128, size 0x1 
- __declspec(property(get=__cordl_internal_get__useGlobalKeyboard, put=__cordl_internal_set__useGlobalKeyboard)) bool  _useGlobalKeyboard;
+  /// @brief Field _useGlobalKeyboard, offset 0x128, size 0x1
+  __declspec(property(get = __cordl_internal_get__useGlobalKeyboard, put = __cordl_internal_set__useGlobalKeyboard)) bool _useGlobalKeyboard;
 
-/// @brief Field _useSystemKeyboardIfAvailable, offset 0x129, size 0x1 
- __declspec(property(get=__cordl_internal_get__useSystemKeyboardIfAvailable, put=__cordl_internal_set__useSystemKeyboardIfAvailable)) bool  _useSystemKeyboardIfAvailable;
+  /// @brief Field _useSystemKeyboardIfAvailable, offset 0x129, size 0x1
+  __declspec(property(get = __cordl_internal_get__useSystemKeyboardIfAvailable, put = __cordl_internal_set__useSystemKeyboardIfAvailable)) bool _useSystemKeyboardIfAvailable;
 
-/// @brief Field _useUppercase, offset 0x138, size 0x1 
- __declspec(property(get=__cordl_internal_get__useUppercase, put=__cordl_internal_set__useUppercase)) bool  _useUppercase;
+  /// @brief Field _useUppercase, offset 0x138, size 0x1
+  __declspec(property(get = __cordl_internal_get__useUppercase, put = __cordl_internal_set__useUppercase)) bool _useUppercase;
 
- __declspec(property(get=get_keyboardPositionOffset)) ::UnityEngine::Vector3  keyboardPositionOffset;
+  __declspec(property(get = get_keyboardPositionOffset)) ::UnityEngine::Vector3 keyboardPositionOffset;
 
- __declspec(property(get=get_onValueChanged, put=set_onValueChanged)) ::HMUI::InputFieldView_InputFieldChanged*  onValueChanged;
+  __declspec(property(get = get_onValueChanged, put = set_onValueChanged)) ::HMUI::InputFieldView_InputFieldChanged* onValueChanged;
 
- __declspec(property(get=get_selectionState)) ::HMUI::InputFieldView_SelectionState  selectionState;
+  __declspec(property(get = get_selectionState)) ::HMUI::InputFieldView_SelectionState selectionState;
 
-/// @brief Field selectionStateDidChangeEvent, offset 0x148, size 0x8 
- __declspec(property(get=__cordl_internal_get_selectionStateDidChangeEvent, put=__cordl_internal_set_selectionStateDidChangeEvent)) ::System::Action_1<::HMUI::InputFieldView_SelectionState>*  selectionStateDidChangeEvent;
+  /// @brief Field selectionStateDidChangeEvent, offset 0x148, size 0x8
+  __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
+                      put = __cordl_internal_set_selectionStateDidChangeEvent)) ::System::Action_1<::HMUI::InputFieldView_SelectionState>* selectionStateDidChangeEvent;
 
- __declspec(property(get=get_text, put=set_text)) ::StringW  text;
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
- __declspec(property(get=get_useGlobalKeyboard)) bool  useGlobalKeyboard;
+  __declspec(property(get = get_useGlobalKeyboard)) bool useGlobalKeyboard;
 
- __declspec(property(get=get_useSystemKeyboardIfAvailable)) bool  useSystemKeyboardIfAvailable;
+  __declspec(property(get = get_useSystemKeyboardIfAvailable)) bool useSystemKeyboardIfAvailable;
 
-/// @brief Method ActivateKeyboard, addr 0x56d1f14, size 0x244, virtual false, abstract: false, final false
-inline void ActivateKeyboard(::HMUI::UIKeyboard*  keyboard) ;
+  /// @brief Method ActivateKeyboard, addr 0x573fe00, size 0x244, virtual false, abstract: false, final false
+  inline void ActivateKeyboard(::HMUI::UIKeyboard* keyboard);
 
-/// @brief Method Awake, addr 0x56d1d84, size 0x11c, virtual true, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x573fc70, size 0x11c, virtual true, abstract: false, final false
+  inline void Awake();
 
-/// @brief Method BlinkingCaretCoroutine, addr 0x56d2158, size 0x54, virtual false, abstract: false, final false
-inline ::System::Collections::IEnumerator* BlinkingCaretCoroutine() ;
+  /// @brief Method BlinkingCaretCoroutine, addr 0x5740044, size 0x54, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* BlinkingCaretCoroutine();
 
-/// @brief Method ClearInput, addr 0x56d2414, size 0x54, virtual false, abstract: false, final false
-inline void ClearInput() ;
+  /// @brief Method ClearInput, addr 0x5740300, size 0x54, virtual false, abstract: false, final false
+  inline void ClearInput();
 
-/// @brief Method DeactivateKeyboard, addr 0x56d21ac, size 0x218, virtual false, abstract: false, final false
-inline void DeactivateKeyboard(::HMUI::UIKeyboard*  keyboard) ;
+  /// @brief Method DeactivateKeyboard, addr 0x5740098, size 0x218, virtual false, abstract: false, final false
+  inline void DeactivateKeyboard(::HMUI::UIKeyboard* keyboard);
 
-/// @brief Method DoStateTransition, addr 0x56d1eb4, size 0x60, virtual true, abstract: false, final false
-inline void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState  state, bool  instant) ;
+  /// @brief Method DoStateTransition, addr 0x573fda0, size 0x60, virtual true, abstract: false, final false
+  inline void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState state, bool instant);
 
-/// @brief Method KeyboardDeletePressed, addr 0x56d258c, size 0xe4, virtual false, abstract: false, final false
-inline void KeyboardDeletePressed() ;
+  /// @brief Method KeyboardDeletePressed, addr 0x5740478, size 0xe4, virtual false, abstract: false, final false
+  inline void KeyboardDeletePressed();
 
-/// @brief Method KeyboardKeyPressed, addr 0x56d2468, size 0x124, virtual false, abstract: false, final false
-inline void KeyboardKeyPressed(char16_t  letter) ;
+  /// @brief Method KeyboardKeyPressed, addr 0x5740354, size 0x124, virtual false, abstract: false, final false
+  inline void KeyboardKeyPressed(char16_t letter);
 
-static inline ::HMUI::InputFieldView* New_ctor() ;
+  static inline ::HMUI::InputFieldView* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x56d1ea0, size 0x14, virtual true, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x573fd8c, size 0x14, virtual true, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method SetText, addr 0x56d23fc, size 0x18, virtual false, abstract: false, final false
-inline void SetText(::StringW  value) ;
+  /// @brief Method SetText, addr 0x57402e8, size 0x18, virtual false, abstract: false, final false
+  inline void SetText(::StringW value);
 
-/// @brief Method UpdateCaretPosition, addr 0x56d1c50, size 0xfc, virtual false, abstract: false, final false
-inline void UpdateCaretPosition() ;
+  /// @brief Method UpdateCaretPosition, addr 0x573fb3c, size 0xfc, virtual false, abstract: false, final false
+  inline void UpdateCaretPosition();
 
-/// @brief Method UpdateClearButton, addr 0x56d23c4, size 0x38, virtual false, abstract: false, final false
-inline void UpdateClearButton() ;
+  /// @brief Method UpdateClearButton, addr 0x57402b0, size 0x38, virtual false, abstract: false, final false
+  inline void UpdateClearButton();
 
-/// @brief Method UpdatePlaceholder, addr 0x56d1d4c, size 0x38, virtual false, abstract: false, final false
-inline void UpdatePlaceholder() ;
+  /// @brief Method UpdatePlaceholder, addr 0x573fc38, size 0x38, virtual false, abstract: false, final false
+  inline void UpdatePlaceholder();
 
-/// @brief Method <Awake>b__37_0, addr 0x56d27f0, size 0x90, virtual false, abstract: false, final false
-inline void _Awake_b__37_0() ;
+  /// @brief Method <Awake>b__37_0, addr 0x57406dc, size 0x90, virtual false, abstract: false, final false
+  inline void _Awake_b__37_0();
 
-constexpr ::UnityEngine::YieldInstruction* const& __cordl_internal_get__blinkWaitYieldInstruction() const;
+  constexpr ::UnityEngine::YieldInstruction* const& __cordl_internal_get__blinkWaitYieldInstruction() const;
 
-constexpr ::UnityEngine::YieldInstruction*& __cordl_internal_get__blinkWaitYieldInstruction() ;
+  constexpr ::UnityEngine::YieldInstruction*& __cordl_internal_get__blinkWaitYieldInstruction();
 
-constexpr ::UnityW<::HMUI::ImageViewBase> const& __cordl_internal_get__blinkingCaret() const;
+  constexpr ::UnityW<::HMUI::ImageViewBase> const& __cordl_internal_get__blinkingCaret() const;
 
-constexpr ::UnityW<::HMUI::ImageViewBase>& __cordl_internal_get__blinkingCaret() ;
+  constexpr ::UnityW<::HMUI::ImageViewBase>& __cordl_internal_get__blinkingCaret();
 
-constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder() ;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-constexpr float_t const& __cordl_internal_get__caretOffset() const;
+  constexpr float_t const& __cordl_internal_get__caretOffset() const;
 
-constexpr float_t& __cordl_internal_get__caretOffset() ;
+  constexpr float_t& __cordl_internal_get__caretOffset();
 
-constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearSearchButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearSearchButton() const;
 
-constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__clearSearchButton() ;
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__clearSearchButton();
 
-constexpr bool const& __cordl_internal_get__hasKeyboardAssigned() const;
+  constexpr bool const& __cordl_internal_get__hasKeyboardAssigned() const;
 
-constexpr bool& __cordl_internal_get__hasKeyboardAssigned() ;
+  constexpr bool& __cordl_internal_get__hasKeyboardAssigned();
 
-constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__keyboardPositionOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__keyboardPositionOffset() const;
 
-constexpr ::UnityEngine::Vector3& __cordl_internal_get__keyboardPositionOffset() ;
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__keyboardPositionOffset();
 
-constexpr ::HMUI::InputFieldView_InputFieldChanged* const& __cordl_internal_get__onValueChanged() const;
+  constexpr ::HMUI::InputFieldView_InputFieldChanged* const& __cordl_internal_get__onValueChanged() const;
 
-constexpr ::HMUI::InputFieldView_InputFieldChanged*& __cordl_internal_get__onValueChanged() ;
+  constexpr ::HMUI::InputFieldView_InputFieldChanged*& __cordl_internal_get__onValueChanged();
 
-constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__placeholderText() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__placeholderText() const;
 
-constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__placeholderText() ;
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__placeholderText();
 
-constexpr ::HMUI::InputFieldView_SelectionState const& __cordl_internal_get__selectionState() const;
+  constexpr ::HMUI::InputFieldView_SelectionState const& __cordl_internal_get__selectionState() const;
 
-constexpr ::HMUI::InputFieldView_SelectionState& __cordl_internal_get__selectionState() ;
+  constexpr ::HMUI::InputFieldView_SelectionState& __cordl_internal_get__selectionState();
 
-constexpr ::StringW const& __cordl_internal_get__text() const;
+  constexpr ::StringW const& __cordl_internal_get__text() const;
 
-constexpr ::StringW& __cordl_internal_get__text() ;
+  constexpr ::StringW& __cordl_internal_get__text();
 
-constexpr int32_t const& __cordl_internal_get__textLengthLimit() const;
+  constexpr int32_t const& __cordl_internal_get__textLengthLimit() const;
 
-constexpr int32_t& __cordl_internal_get__textLengthLimit() ;
+  constexpr int32_t& __cordl_internal_get__textLengthLimit();
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__textView() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__textView() const;
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__textView() ;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__textView();
 
-constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__textViewCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__textViewCanvasGroup() const;
 
-constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__textViewCanvasGroup() ;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__textViewCanvasGroup();
 
-constexpr bool const& __cordl_internal_get__useGlobalKeyboard() const;
+  constexpr bool const& __cordl_internal_get__useGlobalKeyboard() const;
 
-constexpr bool& __cordl_internal_get__useGlobalKeyboard() ;
+  constexpr bool& __cordl_internal_get__useGlobalKeyboard();
 
-constexpr bool const& __cordl_internal_get__useSystemKeyboardIfAvailable() const;
+  constexpr bool const& __cordl_internal_get__useSystemKeyboardIfAvailable() const;
 
-constexpr bool& __cordl_internal_get__useSystemKeyboardIfAvailable() ;
+  constexpr bool& __cordl_internal_get__useSystemKeyboardIfAvailable();
 
-constexpr bool const& __cordl_internal_get__useUppercase() const;
+  constexpr bool const& __cordl_internal_get__useUppercase() const;
 
-constexpr bool& __cordl_internal_get__useUppercase() ;
+  constexpr bool& __cordl_internal_get__useUppercase();
 
-constexpr ::System::Action_1<::HMUI::InputFieldView_SelectionState>* const& __cordl_internal_get_selectionStateDidChangeEvent() const;
+  constexpr ::System::Action_1<::HMUI::InputFieldView_SelectionState>* const& __cordl_internal_get_selectionStateDidChangeEvent() const;
 
-constexpr ::System::Action_1<::HMUI::InputFieldView_SelectionState>*& __cordl_internal_get_selectionStateDidChangeEvent() ;
+  constexpr ::System::Action_1<::HMUI::InputFieldView_SelectionState>*& __cordl_internal_get_selectionStateDidChangeEvent();
 
-constexpr void __cordl_internal_set__blinkWaitYieldInstruction(::UnityEngine::YieldInstruction*  value) ;
+  constexpr void __cordl_internal_set__blinkWaitYieldInstruction(::UnityEngine::YieldInstruction* value);
 
-constexpr void __cordl_internal_set__blinkingCaret(::UnityW<::HMUI::ImageViewBase>  value) ;
+  constexpr void __cordl_internal_set__blinkingCaret(::UnityW<::HMUI::ImageViewBase> value);
 
-constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder*  value) ;
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-constexpr void __cordl_internal_set__caretOffset(float_t  value) ;
+  constexpr void __cordl_internal_set__caretOffset(float_t value);
 
-constexpr void __cordl_internal_set__clearSearchButton(::UnityW<::UnityEngine::UI::Button>  value) ;
+  constexpr void __cordl_internal_set__clearSearchButton(::UnityW<::UnityEngine::UI::Button> value);
 
-constexpr void __cordl_internal_set__hasKeyboardAssigned(bool  value) ;
+  constexpr void __cordl_internal_set__hasKeyboardAssigned(bool value);
 
-constexpr void __cordl_internal_set__keyboardPositionOffset(::UnityEngine::Vector3  value) ;
+  constexpr void __cordl_internal_set__keyboardPositionOffset(::UnityEngine::Vector3 value);
 
-constexpr void __cordl_internal_set__onValueChanged(::HMUI::InputFieldView_InputFieldChanged*  value) ;
+  constexpr void __cordl_internal_set__onValueChanged(::HMUI::InputFieldView_InputFieldChanged* value);
 
-constexpr void __cordl_internal_set__placeholderText(::UnityW<::UnityEngine::GameObject>  value) ;
+  constexpr void __cordl_internal_set__placeholderText(::UnityW<::UnityEngine::GameObject> value);
 
-constexpr void __cordl_internal_set__selectionState(::HMUI::InputFieldView_SelectionState  value) ;
+  constexpr void __cordl_internal_set__selectionState(::HMUI::InputFieldView_SelectionState value);
 
-constexpr void __cordl_internal_set__text(::StringW  value) ;
+  constexpr void __cordl_internal_set__text(::StringW value);
 
-constexpr void __cordl_internal_set__textLengthLimit(int32_t  value) ;
+  constexpr void __cordl_internal_set__textLengthLimit(int32_t value);
 
-constexpr void __cordl_internal_set__textView(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
+  constexpr void __cordl_internal_set__textView(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-constexpr void __cordl_internal_set__textViewCanvasGroup(::UnityW<::UnityEngine::CanvasGroup>  value) ;
+  constexpr void __cordl_internal_set__textViewCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-constexpr void __cordl_internal_set__useGlobalKeyboard(bool  value) ;
+  constexpr void __cordl_internal_set__useGlobalKeyboard(bool value);
 
-constexpr void __cordl_internal_set__useSystemKeyboardIfAvailable(bool  value) ;
+  constexpr void __cordl_internal_set__useSystemKeyboardIfAvailable(bool value);
 
-constexpr void __cordl_internal_set__useUppercase(bool  value) ;
+  constexpr void __cordl_internal_set__useUppercase(bool value);
 
-constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>*  value) ;
+  constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
-/// @brief Method .ctor, addr 0x56d2678, size 0x12c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5740564, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_selectionStateDidChangeEvent, addr 0x56d1a4c, size 0xc0, virtual false, abstract: false, final false
-inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>*  value) ;
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x573f938, size 0xc0, virtual false, abstract: false, final false
+  inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
-/// @brief Method get_keyboardPositionOffset, addr 0x56d1be4, size 0x10, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector3 get_keyboardPositionOffset() ;
+  /// @brief Method get_keyboardPositionOffset, addr 0x573fad0, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_keyboardPositionOffset();
 
-/// @brief Method get_onValueChanged, addr 0x56d1a3c, size 0x8, virtual false, abstract: false, final false
-inline ::HMUI::InputFieldView_InputFieldChanged* get_onValueChanged() ;
+  /// @brief Method get_onValueChanged, addr 0x573f928, size 0x8, virtual false, abstract: false, final false
+  inline ::HMUI::InputFieldView_InputFieldChanged* get_onValueChanged();
 
-/// @brief Method get_selectionState, addr 0x56d1bcc, size 0x8, virtual false, abstract: false, final false
-inline ::HMUI::InputFieldView_SelectionState get_selectionState() ;
+  /// @brief Method get_selectionState, addr 0x573fab8, size 0x8, virtual false, abstract: false, final false
+  inline ::HMUI::InputFieldView_SelectionState get_selectionState();
 
-/// @brief Method get_text, addr 0x56d1bf4, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_text() ;
+  /// @brief Method get_text, addr 0x573fae0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_text();
 
-/// @brief Method get_useGlobalKeyboard, addr 0x56d1bd4, size 0x8, virtual false, abstract: false, final false
-inline bool get_useGlobalKeyboard() ;
+  /// @brief Method get_useGlobalKeyboard, addr 0x573fac0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_useGlobalKeyboard();
 
-/// @brief Method get_useSystemKeyboardIfAvailable, addr 0x56d1bdc, size 0x8, virtual false, abstract: false, final false
-inline bool get_useSystemKeyboardIfAvailable() ;
+  /// @brief Method get_useSystemKeyboardIfAvailable, addr 0x573fac8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_useSystemKeyboardIfAvailable();
 
-/// @brief Method remove_selectionStateDidChangeEvent, addr 0x56d1b0c, size 0xc0, virtual false, abstract: false, final false
-inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>*  value) ;
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x573f9f8, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
-/// @brief Method set_onValueChanged, addr 0x56d1a44, size 0x8, virtual false, abstract: false, final false
-inline void set_onValueChanged(::HMUI::InputFieldView_InputFieldChanged*  value) ;
+  /// @brief Method set_onValueChanged, addr 0x573f930, size 0x8, virtual false, abstract: false, final false
+  inline void set_onValueChanged(::HMUI::InputFieldView_InputFieldChanged* value);
 
-/// @brief Method set_text, addr 0x56d1bfc, size 0x54, virtual false, abstract: false, final false
-inline void set_text(::StringW  value) ;
+  /// @brief Method set_text, addr 0x573fae8, size 0x54, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputFieldView() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputFieldView();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputFieldView(InputFieldView&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InputFieldView(InputFieldView && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputFieldView(InputFieldView const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InputFieldView(InputFieldView const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19196 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19186};
+  /// @brief Field kBlinkingRate offset 0xffffffff size 0x4
+  static constexpr float_t kBlinkingRate{ static_cast<float_t>(0.4f) };
 
-/// @brief Field kBlinkingRate offset 0xffffffff size 0x4
-static constexpr float_t  kBlinkingRate{static_cast<float_t>(0.4f)};
+  /// @brief Field _textView, offset: 0x100, size: 0x8, def value: None
+  ::UnityW<::TMPro::TextMeshProUGUI> ____textView;
 
-/// @brief Field _textView, offset: 0x100, size: 0x8, def value: None
- ::UnityW<::TMPro::TextMeshProUGUI>  ____textView;
+  /// @brief Field _textViewCanvasGroup, offset: 0x108, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::CanvasGroup> ____textViewCanvasGroup;
 
-/// @brief Field _textViewCanvasGroup, offset: 0x108, size: 0x8, def value: None
- ::UnityW<::UnityEngine::CanvasGroup>  ____textViewCanvasGroup;
+  /// @brief Field _blinkingCaret, offset: 0x110, size: 0x8, def value: None
+  ::UnityW<::HMUI::ImageViewBase> ____blinkingCaret;
 
-/// @brief Field _blinkingCaret, offset: 0x110, size: 0x8, def value: None
- ::UnityW<::HMUI::ImageViewBase>  ____blinkingCaret;
+  /// @brief Field _placeholderText, offset: 0x118, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::GameObject> ____placeholderText;
 
-/// @brief Field _placeholderText, offset: 0x118, size: 0x8, def value: None
- ::UnityW<::UnityEngine::GameObject>  ____placeholderText;
+  /// @brief Field _clearSearchButton, offset: 0x120, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UI::Button> ____clearSearchButton;
 
-/// @brief Field _clearSearchButton, offset: 0x120, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UI::Button>  ____clearSearchButton;
+  /// @brief Field _useGlobalKeyboard, offset: 0x128, size: 0x1, def value: None
+  bool ____useGlobalKeyboard;
 
-/// @brief Field _useGlobalKeyboard, offset: 0x128, size: 0x1, def value: None
- bool  ____useGlobalKeyboard;
+  /// @brief Field _useSystemKeyboardIfAvailable, offset: 0x129, size: 0x1, def value: None
+  bool ____useSystemKeyboardIfAvailable;
 
-/// @brief Field _useSystemKeyboardIfAvailable, offset: 0x129, size: 0x1, def value: None
- bool  ____useSystemKeyboardIfAvailable;
+  /// @brief Field _keyboardPositionOffset, offset: 0x12c, size: 0xc, def value: None
+  ::UnityEngine::Vector3 ____keyboardPositionOffset;
 
-/// @brief Field _keyboardPositionOffset, offset: 0x12c, size: 0xc, def value: None
- ::UnityEngine::Vector3  ____keyboardPositionOffset;
+  /// @brief Field _useUppercase, offset: 0x138, size: 0x1, def value: None
+  bool ____useUppercase;
 
-/// @brief Field _useUppercase, offset: 0x138, size: 0x1, def value: None
- bool  ____useUppercase;
+  /// @brief Field _textLengthLimit, offset: 0x13c, size: 0x4, def value: None
+  int32_t ____textLengthLimit;
 
-/// @brief Field _textLengthLimit, offset: 0x13c, size: 0x4, def value: None
- int32_t  ____textLengthLimit;
+  /// @brief Field _caretOffset, offset: 0x140, size: 0x4, def value: None
+  float_t ____caretOffset;
 
-/// @brief Field _caretOffset, offset: 0x140, size: 0x4, def value: None
- float_t  ____caretOffset;
+  /// @brief Field selectionStateDidChangeEvent, offset: 0x148, size: 0x8, def value: None
+  ::System::Action_1<::HMUI::InputFieldView_SelectionState>* ___selectionStateDidChangeEvent;
 
-/// @brief Field selectionStateDidChangeEvent, offset: 0x148, size: 0x8, def value: None
- ::System::Action_1<::HMUI::InputFieldView_SelectionState>*  ___selectionStateDidChangeEvent;
+  /// @brief Field _selectionState, offset: 0x150, size: 0x4, def value: None
+  ::HMUI::InputFieldView_SelectionState ____selectionState;
 
-/// @brief Field _selectionState, offset: 0x150, size: 0x4, def value: None
- ::HMUI::InputFieldView_SelectionState  ____selectionState;
+  /// @brief Field _text, offset: 0x158, size: 0x8, def value: None
+  ::StringW ____text;
 
-/// @brief Field _text, offset: 0x158, size: 0x8, def value: None
- ::StringW  ____text;
+  /// @brief Field _hasKeyboardAssigned, offset: 0x160, size: 0x1, def value: None
+  bool ____hasKeyboardAssigned;
 
-/// @brief Field _hasKeyboardAssigned, offset: 0x160, size: 0x1, def value: None
- bool  ____hasKeyboardAssigned;
+  /// @brief Field _buttonBinder, offset: 0x168, size: 0x8, def value: None
+  ::HMUI::ButtonBinder* ____buttonBinder;
 
-/// @brief Field _buttonBinder, offset: 0x168, size: 0x8, def value: None
- ::HMUI::ButtonBinder*  ____buttonBinder;
+  /// @brief Field _onValueChanged, offset: 0x170, size: 0x8, def value: None
+  ::HMUI::InputFieldView_InputFieldChanged* ____onValueChanged;
 
-/// @brief Field _onValueChanged, offset: 0x170, size: 0x8, def value: None
- ::HMUI::InputFieldView_InputFieldChanged*  ____onValueChanged;
+  /// @brief Field _blinkWaitYieldInstruction, offset: 0x178, size: 0x8, def value: None
+  ::UnityEngine::YieldInstruction* ____blinkWaitYieldInstruction;
 
-/// @brief Field _blinkWaitYieldInstruction, offset: 0x178, size: 0x8, def value: None
- ::UnityEngine::YieldInstruction*  ____blinkWaitYieldInstruction;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::InputFieldView, ____textView) == 0x100, "Offset mismatch!");
@@ -681,7 +680,7 @@ static_assert(offsetof(::HMUI::InputFieldView, ____blinkWaitYieldInstruction) ==
 
 static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldView, 0x180>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::InputFieldView_SelectionState, "HMUI", "InputFieldView/SelectionState");
 NEED_NO_BOX(::HMUI::InputFieldView);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::InputFieldView*, "HMUI", "InputFieldView");

@@ -38,127 +38,127 @@ namespace System::Security::AccessControl {
 // CS Name: System.Security.AccessControl.GenericAce
 class CORDL_TYPE GenericAce : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_AceFlags)) ::System::Security::AccessControl::AceFlags  AceFlags;
+  // Declarations
+  __declspec(property(get = get_AceFlags)) ::System::Security::AccessControl::AceFlags AceFlags;
 
- __declspec(property(get=get_AceType)) ::System::Security::AccessControl::AceType  AceType;
+  __declspec(property(get = get_AceType)) ::System::Security::AccessControl::AceType AceType;
 
- __declspec(property(get=get_AuditFlags)) ::System::Security::AccessControl::AuditFlags  AuditFlags;
+  __declspec(property(get = get_AuditFlags)) ::System::Security::AccessControl::AuditFlags AuditFlags;
 
- __declspec(property(get=get_BinaryLength)) int32_t  BinaryLength;
+  __declspec(property(get = get_BinaryLength)) int32_t BinaryLength;
 
- __declspec(property(get=get_InheritanceFlags)) ::System::Security::AccessControl::InheritanceFlags  InheritanceFlags;
+  __declspec(property(get = get_InheritanceFlags)) ::System::Security::AccessControl::InheritanceFlags InheritanceFlags;
 
- __declspec(property(get=get_IsInherited)) bool  IsInherited;
+  __declspec(property(get = get_IsInherited)) bool IsInherited;
 
- __declspec(property(get=get_PropagationFlags)) ::System::Security::AccessControl::PropagationFlags  PropagationFlags;
+  __declspec(property(get = get_PropagationFlags)) ::System::Security::AccessControl::PropagationFlags PropagationFlags;
 
-/// @brief Field ace_flags, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_ace_flags, put=__cordl_internal_set_ace_flags)) ::System::Security::AccessControl::AceFlags  ace_flags;
+  /// @brief Field ace_flags, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_ace_flags, put = __cordl_internal_set_ace_flags)) ::System::Security::AccessControl::AceFlags ace_flags;
 
-/// @brief Field ace_type, offset 0x11, size 0x1 
- __declspec(property(get=__cordl_internal_get_ace_type, put=__cordl_internal_set_ace_type)) ::System::Security::AccessControl::AceType  ace_type;
+  /// @brief Field ace_type, offset 0x11, size 0x1
+  __declspec(property(get = __cordl_internal_get_ace_type, put = __cordl_internal_set_ace_type)) ::System::Security::AccessControl::AceType ace_type;
 
-/// @brief Method CreateFromBinaryForm, addr 0x596f0e0, size 0x1ac, virtual false, abstract: false, final false
-static inline ::System::Security::AccessControl::GenericAce* CreateFromBinaryForm(::ArrayW<uint8_t,::Array<uint8_t>*>  binaryForm, int32_t  offset) ;
+  /// @brief Method CreateFromBinaryForm, addr 0x59e104c, size 0x1ac, virtual false, abstract: false, final false
+  static inline ::System::Security::AccessControl::GenericAce* CreateFromBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-/// @brief Method Equals, addr 0x59700c0, size 0x8c, virtual true, abstract: false, final true
-inline bool Equals(::System::Object*  o) ;
+  /// @brief Method Equals, addr 0x59e202c, size 0x8c, virtual true, abstract: false, final true
+  inline bool Equals(::System::Object* o);
 
-/// @brief Method GetBinaryForm, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void GetBinaryForm(::ArrayW<uint8_t,::Array<uint8_t>*>  binaryForm, int32_t  offset) ;
+  /// @brief Method GetBinaryForm, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-/// @brief Method GetHashCode, addr 0x597014c, size 0xcc, virtual true, abstract: false, final true
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x59e20b8, size 0xcc, virtual true, abstract: false, final true
+  inline int32_t GetHashCode();
 
-/// @brief Method IsObjectType, addr 0x596fe40, size 0x20, virtual false, abstract: false, final false
-static inline bool IsObjectType(::System::Security::AccessControl::AceType  type) ;
+  /// @brief Method IsObjectType, addr 0x59e1dac, size 0x20, virtual false, abstract: false, final false
+  static inline bool IsObjectType(::System::Security::AccessControl::AceType type);
 
-static inline ::System::Security::AccessControl::GenericAce* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  binaryForm, int32_t  offset) ;
+  static inline ::System::Security::AccessControl::GenericAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-static inline ::System::Security::AccessControl::GenericAce* New_ctor(::System::Security::AccessControl::AceType  type, ::System::Security::AccessControl::AceFlags  flags) ;
+  static inline ::System::Security::AccessControl::GenericAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-/// @brief Method ReadInt, addr 0x596d4f4, size 0x70, virtual false, abstract: false, final false
-static inline int32_t ReadInt(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset) ;
+  /// @brief Method ReadInt, addr 0x59df460, size 0x70, virtual false, abstract: false, final false
+  static inline int32_t ReadInt(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-/// @brief Method ReadUShort, addr 0x596d4b4, size 0x40, virtual false, abstract: false, final false
-static inline uint16_t ReadUShort(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset) ;
+  /// @brief Method ReadUShort, addr 0x59df420, size 0x40, virtual false, abstract: false, final false
+  static inline uint16_t ReadUShort(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-/// @brief Method WriteInt, addr 0x596d77c, size 0x80, virtual false, abstract: false, final false
-static inline void WriteInt(int32_t  val, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset) ;
+  /// @brief Method WriteInt, addr 0x59df6e8, size 0x80, virtual false, abstract: false, final false
+  static inline void WriteInt(int32_t val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-/// @brief Method WriteUShort, addr 0x596d734, size 0x48, virtual false, abstract: false, final false
-static inline void WriteUShort(uint16_t  val, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset) ;
+  /// @brief Method WriteUShort, addr 0x59df6a0, size 0x48, virtual false, abstract: false, final false
+  static inline void WriteUShort(uint16_t val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-constexpr ::System::Security::AccessControl::AceFlags const& __cordl_internal_get_ace_flags() const;
+  constexpr ::System::Security::AccessControl::AceFlags const& __cordl_internal_get_ace_flags() const;
 
-constexpr ::System::Security::AccessControl::AceFlags& __cordl_internal_get_ace_flags() ;
+  constexpr ::System::Security::AccessControl::AceFlags& __cordl_internal_get_ace_flags();
 
-constexpr ::System::Security::AccessControl::AceType const& __cordl_internal_get_ace_type() const;
+  constexpr ::System::Security::AccessControl::AceType const& __cordl_internal_get_ace_type() const;
 
-constexpr ::System::Security::AccessControl::AceType& __cordl_internal_get_ace_type() ;
+  constexpr ::System::Security::AccessControl::AceType& __cordl_internal_get_ace_type();
 
-constexpr void __cordl_internal_set_ace_flags(::System::Security::AccessControl::AceFlags  value) ;
+  constexpr void __cordl_internal_set_ace_flags(::System::Security::AccessControl::AceFlags value);
 
-constexpr void __cordl_internal_set_ace_type(::System::Security::AccessControl::AceType  value) ;
+  constexpr void __cordl_internal_set_ace_type(::System::Security::AccessControl::AceType value);
 
-/// @brief Method .ctor, addr 0x596fcf0, size 0x124, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  binaryForm, int32_t  offset) ;
+  /// @brief Method .ctor, addr 0x59e1c5c, size 0x124, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-/// @brief Method .ctor, addr 0x596fc8c, size 0x64, virtual false, abstract: false, final false
-inline void _ctor(::System::Security::AccessControl::AceType  type, ::System::Security::AccessControl::AceFlags  flags) ;
+  /// @brief Method .ctor, addr 0x59e1bf8, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-/// @brief Method get_AceFlags, addr 0x596fe14, size 0x8, virtual false, abstract: false, final false
-inline ::System::Security::AccessControl::AceFlags get_AceFlags() ;
+  /// @brief Method get_AceFlags, addr 0x59e1d80, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Security::AccessControl::AceFlags get_AceFlags();
 
-/// @brief Method get_AceType, addr 0x596fe1c, size 0x8, virtual false, abstract: false, final false
-inline ::System::Security::AccessControl::AceType get_AceType() ;
+  /// @brief Method get_AceType, addr 0x59e1d88, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Security::AccessControl::AceType get_AceType();
 
-/// @brief Method get_AuditFlags, addr 0x596fba4, size 0x1c, virtual false, abstract: false, final false
-inline ::System::Security::AccessControl::AuditFlags get_AuditFlags() ;
+  /// @brief Method get_AuditFlags, addr 0x59e1b10, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Security::AccessControl::AuditFlags get_AuditFlags();
 
-/// @brief Method get_BinaryLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline int32_t get_BinaryLength() ;
+  /// @brief Method get_BinaryLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_BinaryLength();
 
-/// @brief Method get_InheritanceFlags, addr 0x596fe24, size 0x10, virtual false, abstract: false, final false
-inline ::System::Security::AccessControl::InheritanceFlags get_InheritanceFlags() ;
+  /// @brief Method get_InheritanceFlags, addr 0x59e1d90, size 0x10, virtual false, abstract: false, final false
+  inline ::System::Security::AccessControl::InheritanceFlags get_InheritanceFlags();
 
-/// @brief Method get_IsInherited, addr 0x596e294, size 0xc, virtual false, abstract: false, final false
-inline bool get_IsInherited() ;
+  /// @brief Method get_IsInherited, addr 0x59e0200, size 0xc, virtual false, abstract: false, final false
+  inline bool get_IsInherited();
 
-/// @brief Method get_PropagationFlags, addr 0x596fe34, size 0xc, virtual false, abstract: false, final false
-inline ::System::Security::AccessControl::PropagationFlags get_PropagationFlags() ;
+  /// @brief Method get_PropagationFlags, addr 0x59e1da0, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Security::AccessControl::PropagationFlags get_PropagationFlags();
 
-/// @brief Method op_Equality, addr 0x596e4a0, size 0x160, virtual false, abstract: false, final false
-static inline bool op_Equality(::System::Security::AccessControl::GenericAce*  left, ::System::Security::AccessControl::GenericAce*  right) ;
+  /// @brief Method op_Equality, addr 0x59e040c, size 0x160, virtual false, abstract: false, final false
+  static inline bool op_Equality(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce* right);
 
-/// @brief Method op_Inequality, addr 0x596e0dc, size 0x160, virtual false, abstract: false, final false
-static inline bool op_Inequality(::System::Security::AccessControl::GenericAce*  left, ::System::Security::AccessControl::GenericAce*  right) ;
+  /// @brief Method op_Inequality, addr 0x59e0048, size 0x160, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce* right);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GenericAce() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GenericAce();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GenericAce(GenericAce&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GenericAce(GenericAce && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GenericAce(GenericAce const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GenericAce(GenericAce const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3051 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3051};
+  /// @brief Field ace_flags, offset: 0x10, size: 0x1, def value: None
+  ::System::Security::AccessControl::AceFlags ___ace_flags;
 
-/// @brief Field ace_flags, offset: 0x10, size: 0x1, def value: None
- ::System::Security::AccessControl::AceFlags  ___ace_flags;
+  /// @brief Field ace_type, offset: 0x11, size: 0x1, def value: None
+  ::System::Security::AccessControl::AceType ___ace_type;
 
-/// @brief Field ace_type, offset: 0x11, size: 0x1, def value: None
- ::System::Security::AccessControl::AceType  ___ace_type;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::AccessControl::GenericAce, ___ace_flags) == 0x10, "Offset mismatch!");
@@ -167,6 +167,6 @@ static_assert(offsetof(::System::Security::AccessControl::GenericAce, ___ace_typ
 
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::GenericAce, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Security::AccessControl
+} // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::GenericAce);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::GenericAce*, "System.Security.AccessControl", "GenericAce");

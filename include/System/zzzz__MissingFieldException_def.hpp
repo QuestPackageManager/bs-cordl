@@ -27,60 +27,60 @@ namespace System {
 // CS Name: System.MissingFieldException
 class CORDL_TYPE MissingFieldException : public ::System::MissingMemberException {
 public:
-// Declarations
- __declspec(property(get=get_Message)) ::StringW  Message;
+  // Declarations
+  __declspec(property(get = get_Message)) ::StringW Message;
 
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-static inline ::System::MissingFieldException* New_ctor() ;
+  static inline ::System::MissingFieldException* New_ctor();
 
-static inline ::System::MissingFieldException* New_ctor(::StringW  className, ::StringW  fieldName) ;
+  static inline ::System::MissingFieldException* New_ctor(::StringW className, ::StringW fieldName);
 
-static inline ::System::MissingFieldException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::MissingFieldException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::MissingFieldException* New_ctor(::StringW  message) ;
+  static inline ::System::MissingFieldException* New_ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5aba8b8, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5b2c8a0, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5aba954, size 0x28, virtual false, abstract: false, final false
-inline void _ctor(::StringW  className, ::StringW  fieldName) ;
+  /// @brief Method .ctor, addr 0x5b2c93c, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::StringW className, ::StringW fieldName);
 
-/// @brief Method .ctor, addr 0x5aba9d8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5b2c9c0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5aba934, size 0x20, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5b2c91c, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method get_Message, addr 0x5abab58, size 0xf4, virtual true, abstract: false, final false
-inline ::StringW get_Message() ;
+  /// @brief Method get_Message, addr 0x5b2cb40, size 0xf4, virtual true, abstract: false, final false
+  inline ::StringW get_Message();
 
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissingFieldException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissingFieldException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissingFieldException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissingFieldException(MissingFieldException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissingFieldException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissingFieldException(MissingFieldException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissingFieldException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissingFieldException(MissingFieldException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissingFieldException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissingFieldException(MissingFieldException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2535 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2535};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::MissingFieldException, 0xa8>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::MissingFieldException);
 DEFINE_IL2CPP_ARG_TYPE(::System::MissingFieldException*, "System", "MissingFieldException");

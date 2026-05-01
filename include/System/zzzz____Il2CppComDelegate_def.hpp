@@ -17,35 +17,35 @@ namespace System {
 // CS Name: System.__Il2CppComDelegate
 class CORDL_TYPE __Il2CppComDelegate : public ::System::__Il2CppComObject {
 public:
-// Declarations
-/// @brief Method Finalize, addr 0x6cdaa04, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void Finalize() ;
+  // Declarations
+  /// @brief Method Finalize, addr 0x6d4cc48, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Finalize();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr __Il2CppComDelegate() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Il2CppComDelegate();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Il2CppComDelegate", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Il2CppComDelegate(__Il2CppComDelegate&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "__Il2CppComDelegate", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-__Il2CppComDelegate(__Il2CppComDelegate && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "__Il2CppComDelegate", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Il2CppComDelegate(__Il2CppComDelegate const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "__Il2CppComDelegate", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-__Il2CppComDelegate(__Il2CppComDelegate const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23542 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23433};
+  /// @brief Size padding 0xb0 - 0x10 = 0xa0, packed as 0xa0
+  uint8_t _cordl_size_padding[0xa0];
 
-/// @brief Size padding 0xb0 - 0x10 = 0xa0, packed as 0xa0
- uint8_t  _cordl_size_padding[0xa0];
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::__Il2CppComDelegate, 0xb0>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::__Il2CppComDelegate);
 DEFINE_IL2CPP_ARG_TYPE(::System::__Il2CppComDelegate*, "System", "__Il2CppComDelegate");

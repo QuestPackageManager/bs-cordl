@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.NotEqualInstruction/NotEqualDoubleLiftedToNull
 class CORDL_TYPE NotEqualInstruction_NotEqualDoubleLiftedToNull : public ::System::Linq::Expressions::Interpreter::NotEqualInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull* New_ctor();
 
-/// @brief Method Run, addr 0x5e04ae4, size 0xb0, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e76af0, size 0xb0, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5e03b68, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e75b74, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NotEqualInstruction_NotEqualDoubleLiftedToNull() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotEqualInstruction_NotEqualDoubleLiftedToNull();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualDoubleLiftedToNull", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NotEqualInstruction_NotEqualDoubleLiftedToNull(NotEqualInstruction_NotEqualDoubleLiftedToNull&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualDoubleLiftedToNull", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NotEqualInstruction_NotEqualDoubleLiftedToNull(NotEqualInstruction_NotEqualDoubleLiftedToNull && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualDoubleLiftedToNull", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NotEqualInstruction_NotEqualDoubleLiftedToNull(NotEqualInstruction_NotEqualDoubleLiftedToNull const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualDoubleLiftedToNull", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NotEqualInstruction_NotEqualDoubleLiftedToNull(NotEqualInstruction_NotEqualDoubleLiftedToNull const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16520 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16512};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull*, "System.Linq.Expressions.Interpreter", "NotEqualInstruction/NotEqualDoubleLiftedToNull");

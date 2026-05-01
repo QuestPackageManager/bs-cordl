@@ -31,69 +31,69 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.DerVideotexString
 class CORDL_TYPE DerVideotexString : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
-// Declarations
-/// @brief Field mString, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_mString, put=__cordl_internal_set_mString)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mString;
+  // Declarations
+  /// @brief Field mString, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_mString, put = __cordl_internal_set_mString)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mString;
 
-/// @brief Method Asn1Equals, addr 0x35972ac, size 0xd0, virtual true, abstract: false, final false
-inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object*  asn1Object) ;
+  /// @brief Method Asn1Equals, addr 0x35d38f0, size 0xd0, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-/// @brief Method Asn1GetHashCode, addr 0x359724c, size 0x60, virtual true, abstract: false, final false
-inline int32_t Asn1GetHashCode() ;
+  /// @brief Method Asn1GetHashCode, addr 0x35d3890, size 0x60, virtual true, abstract: false, final false
+  inline int32_t Asn1GetHashCode();
 
-/// @brief Method Encode, addr 0x3597230, size 0x1c, virtual true, abstract: false, final false
-inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream*  derOut) ;
+  /// @brief Method Encode, addr 0x35d3874, size 0x1c, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-/// @brief Method GetInstance, addr 0x35970a4, size 0x120, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::DerVideotexString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
+  /// @brief Method GetInstance, addr 0x35d36e8, size 0x120, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerVideotexString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-/// @brief Method GetInstance, addr 0x3596e7c, size 0x228, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::DerVideotexString* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x35d34c0, size 0x228, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerVideotexString* GetInstance(::System::Object* obj);
 
-/// @brief Method GetOctets, addr 0x35971d0, size 0x60, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetOctets() ;
+  /// @brief Method GetOctets, addr 0x35d3814, size 0x60, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-/// @brief Method GetString, addr 0x35971c4, size 0xc, virtual true, abstract: false, final false
-inline ::StringW GetString() ;
+  /// @brief Method GetString, addr 0x35d3808, size 0xc, virtual true, abstract: false, final false
+  inline ::StringW GetString();
 
-static inline ::Org::BouncyCastle::Asn1::DerVideotexString* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  encoding) ;
+  static inline ::Org::BouncyCastle::Asn1::DerVideotexString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mString() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mString() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mString() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mString();
 
-constexpr void __cordl_internal_set_mString(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_mString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x3588ed4, size 0x70, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  encoding) ;
+  /// @brief Method .ctor, addr 0x35c5518, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DerVideotexString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerVideotexString();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DerVideotexString", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DerVideotexString(DerVideotexString&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DerVideotexString", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DerVideotexString(DerVideotexString && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DerVideotexString", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DerVideotexString(DerVideotexString const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DerVideotexString", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DerVideotexString(DerVideotexString const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 521 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{521};
+  /// @brief Field mString, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mString;
 
-/// @brief Field mString, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mString;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::DerVideotexString, ___mString) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerVideotexString, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1
+} // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerVideotexString);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerVideotexString*, "Org.BouncyCastle.Asn1", "DerVideotexString");

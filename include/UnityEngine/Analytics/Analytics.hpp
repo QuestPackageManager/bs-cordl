@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/Analytics/AnalyticsEventBase.hpp"
 #include "UnityEngine/Analytics/BatchRenderGroupUsageAnalytic.hpp"
@@ -18,6 +18,5 @@
 #include "UnityEngine/Analytics/VRDeviceMirrorAnalytic.hpp"
 #include "UnityEngine/Analytics/VRDeviceUserAnalytic.hpp"
 #ifdef __cpp_modules
-                    export module Analytics;
-                    #endif
-                
+export module Analytics;
+#endif

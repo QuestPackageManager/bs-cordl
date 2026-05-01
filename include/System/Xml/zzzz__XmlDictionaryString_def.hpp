@@ -29,177 +29,177 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlDictionaryString/EmptyStringDictionary
 class CORDL_TYPE XmlDictionaryString_EmptyStringDictionary : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_EmptyString)) ::System::Xml::XmlDictionaryString*  EmptyString;
+  // Declarations
+  __declspec(property(get = get_EmptyString)) ::System::Xml::XmlDictionaryString* EmptyString;
 
-/// @brief Field empty, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_empty, put=__cordl_internal_set_empty)) ::System::Xml::XmlDictionaryString*  empty;
+  /// @brief Field empty, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_empty, put = __cordl_internal_set_empty)) ::System::Xml::XmlDictionaryString* empty;
 
-/// @brief Convert operator to "::System::Xml::IXmlDictionary"
-constexpr operator  ::System::Xml::IXmlDictionary*() noexcept;
+  /// @brief Convert operator to "::System::Xml::IXmlDictionary"
+  constexpr operator ::System::Xml::IXmlDictionary*() noexcept;
 
-static inline ::System::Xml::XmlDictionaryString_EmptyStringDictionary* New_ctor() ;
+  static inline ::System::Xml::XmlDictionaryString_EmptyStringDictionary* New_ctor();
 
-/// @brief Method TryLookup, addr 0x5f7014c, size 0x20, virtual true, abstract: false, final true
-inline bool TryLookup(int32_t  key, ::ByRef<::System::Xml::XmlDictionaryString*>  result) ;
+  /// @brief Method TryLookup, addr 0x5fe2158, size 0x20, virtual true, abstract: false, final true
+  inline bool TryLookup(int32_t key, ::ByRef<::System::Xml::XmlDictionaryString*> result);
 
-constexpr ::System::Xml::XmlDictionaryString* const& __cordl_internal_get_empty() const;
+  constexpr ::System::Xml::XmlDictionaryString* const& __cordl_internal_get_empty() const;
 
-constexpr ::System::Xml::XmlDictionaryString*& __cordl_internal_get_empty() ;
+  constexpr ::System::Xml::XmlDictionaryString*& __cordl_internal_get_empty();
 
-constexpr void __cordl_internal_set_empty(::System::Xml::XmlDictionaryString*  value) ;
+  constexpr void __cordl_internal_set_empty(::System::Xml::XmlDictionaryString* value);
 
-/// @brief Method .ctor, addr 0x5f700d0, size 0x74, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5fe20dc, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_EmptyString, addr 0x5f70144, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlDictionaryString* get_EmptyString() ;
+  /// @brief Method get_EmptyString, addr 0x5fe2150, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlDictionaryString* get_EmptyString();
 
-/// @brief Convert to "::System::Xml::IXmlDictionary"
-constexpr ::System::Xml::IXmlDictionary* i___System__Xml__IXmlDictionary() noexcept;
+  /// @brief Convert to "::System::Xml::IXmlDictionary"
+  constexpr ::System::Xml::IXmlDictionary* i___System__Xml__IXmlDictionary() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlDictionaryString_EmptyStringDictionary() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlDictionaryString_EmptyStringDictionary();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionary&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionary && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionary const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionary const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16966 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16958};
+  /// @brief Field empty, offset: 0x10, size: 0x8, def value: None
+  ::System::Xml::XmlDictionaryString* ___empty;
 
-/// @brief Field empty, offset: 0x10, size: 0x8, def value: None
- ::System::Xml::XmlDictionaryString*  ___empty;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlDictionaryString_EmptyStringDictionary, ___empty) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlDictionaryString_EmptyStringDictionary, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 // Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.XmlDictionaryString
 class CORDL_TYPE XmlDictionaryString : public ::System::Object {
 public:
-// Declarations
-using EmptyStringDictionary = ::System::Xml::XmlDictionaryString_EmptyStringDictionary;
+  // Declarations
+  using EmptyStringDictionary = ::System::Xml::XmlDictionaryString_EmptyStringDictionary;
 
- __declspec(property(get=get_Dictionary)) ::System::Xml::IXmlDictionary*  Dictionary;
+  __declspec(property(get = get_Dictionary)) ::System::Xml::IXmlDictionary* Dictionary;
 
- __declspec(property(get=get_Key)) int32_t  Key;
+  __declspec(property(get = get_Key)) int32_t Key;
 
- __declspec(property(get=get_Value)) ::StringW  Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
-/// @brief Field buffer, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_buffer, put=__cordl_internal_set_buffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer;
+  /// @brief Field buffer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
-/// @brief Field dictionary, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_dictionary, put=__cordl_internal_set_dictionary)) ::System::Xml::IXmlDictionary*  dictionary;
+  /// @brief Field dictionary, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_dictionary, put = __cordl_internal_set_dictionary)) ::System::Xml::IXmlDictionary* dictionary;
 
-/// @brief Field emptyStringDictionary, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_emptyStringDictionary, put=setStaticF_emptyStringDictionary)) ::System::Xml::XmlDictionaryString_EmptyStringDictionary*  emptyStringDictionary;
+  /// @brief Field emptyStringDictionary, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_emptyStringDictionary, put = setStaticF_emptyStringDictionary)) ::System::Xml::XmlDictionaryString_EmptyStringDictionary* emptyStringDictionary;
 
-/// @brief Field key, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_key, put=__cordl_internal_set_key)) int32_t  key;
+  /// @brief Field key, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) int32_t key;
 
-/// @brief Field value, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_value, put=__cordl_internal_set_value)) ::StringW  value;
+  /// @brief Field value, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
-/// @brief Method GetString, addr 0x5f6c448, size 0xc, virtual false, abstract: false, final false
-static inline ::StringW GetString(::System::Xml::XmlDictionaryString*  s) ;
+  /// @brief Method GetString, addr 0x5fde454, size 0xc, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::System::Xml::XmlDictionaryString* s);
 
-static inline ::System::Xml::XmlDictionaryString* New_ctor(::System::Xml::IXmlDictionary*  dictionary, ::StringW  value, int32_t  key) ;
+  static inline ::System::Xml::XmlDictionaryString* New_ctor(::System::Xml::IXmlDictionary* dictionary, ::StringW value, int32_t key);
 
-/// @brief Method ToString, addr 0x5f70054, size 0x8, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5fe2060, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method ToUTF8, addr 0x5f70018, size 0x3c, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToUTF8() ;
+  /// @brief Method ToUTF8, addr 0x5fe2024, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToUTF8();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_buffer() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-constexpr ::System::Xml::IXmlDictionary* const& __cordl_internal_get_dictionary() const;
+  constexpr ::System::Xml::IXmlDictionary* const& __cordl_internal_get_dictionary() const;
 
-constexpr ::System::Xml::IXmlDictionary*& __cordl_internal_get_dictionary() ;
+  constexpr ::System::Xml::IXmlDictionary*& __cordl_internal_get_dictionary();
 
-constexpr int32_t const& __cordl_internal_get_key() const;
+  constexpr int32_t const& __cordl_internal_get_key() const;
 
-constexpr int32_t& __cordl_internal_get_key() ;
+  constexpr int32_t& __cordl_internal_get_key();
 
-constexpr ::StringW const& __cordl_internal_get_value() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
-constexpr ::StringW& __cordl_internal_get_value() ;
+  constexpr ::StringW& __cordl_internal_get_value();
 
-constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_dictionary(::System::Xml::IXmlDictionary*  value) ;
+  constexpr void __cordl_internal_set_dictionary(::System::Xml::IXmlDictionary* value);
 
-constexpr void __cordl_internal_set_key(int32_t  value) ;
+  constexpr void __cordl_internal_set_key(int32_t value);
 
-constexpr void __cordl_internal_set_value(::StringW  value) ;
+  constexpr void __cordl_internal_set_value(::StringW value);
 
-/// @brief Method .ctor, addr 0x5f6bcf8, size 0x18c, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::IXmlDictionary*  dictionary, ::StringW  value, int32_t  key) ;
+  /// @brief Method .ctor, addr 0x5fddd04, size 0x18c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::IXmlDictionary* dictionary, ::StringW value, int32_t key);
 
-static inline ::System::Xml::XmlDictionaryString_EmptyStringDictionary* getStaticF_emptyStringDictionary() ;
+  static inline ::System::Xml::XmlDictionaryString_EmptyStringDictionary* getStaticF_emptyStringDictionary();
 
-/// @brief Method get_Dictionary, addr 0x5f70000, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::IXmlDictionary* get_Dictionary() ;
+  /// @brief Method get_Dictionary, addr 0x5fe200c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::IXmlDictionary* get_Dictionary();
 
-/// @brief Method get_Empty, addr 0x5f6ff98, size 0x68, virtual false, abstract: false, final false
-static inline ::System::Xml::XmlDictionaryString* get_Empty() ;
+  /// @brief Method get_Empty, addr 0x5fe1fa4, size 0x68, virtual false, abstract: false, final false
+  static inline ::System::Xml::XmlDictionaryString* get_Empty();
 
-/// @brief Method get_Key, addr 0x5f70008, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_Key() ;
+  /// @brief Method get_Key, addr 0x5fe2014, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Key();
 
-/// @brief Method get_Value, addr 0x5f70010, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Value() ;
+  /// @brief Method get_Value, addr 0x5fe201c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Value();
 
-static inline void setStaticF_emptyStringDictionary(::System::Xml::XmlDictionaryString_EmptyStringDictionary*  value) ;
+  static inline void setStaticF_emptyStringDictionary(::System::Xml::XmlDictionaryString_EmptyStringDictionary* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlDictionaryString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlDictionaryString();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlDictionaryString(XmlDictionaryString&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlDictionaryString(XmlDictionaryString && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlDictionaryString(XmlDictionaryString const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlDictionaryString(XmlDictionaryString const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16967 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16959};
+  /// @brief Field dictionary, offset: 0x10, size: 0x8, def value: None
+  ::System::Xml::IXmlDictionary* ___dictionary;
 
-/// @brief Field dictionary, offset: 0x10, size: 0x8, def value: None
- ::System::Xml::IXmlDictionary*  ___dictionary;
+  /// @brief Field value, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___value;
 
-/// @brief Field value, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___value;
+  /// @brief Field key, offset: 0x20, size: 0x4, def value: None
+  int32_t ___key;
 
-/// @brief Field key, offset: 0x20, size: 0x4, def value: None
- int32_t  ___key;
+  /// @brief Field buffer, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buffer;
 
-/// @brief Field buffer, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___buffer;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlDictionaryString, ___dictionary) == 0x10, "Offset mismatch!");
@@ -212,7 +212,7 @@ static_assert(offsetof(::System::Xml::XmlDictionaryString, ___buffer) == 0x28, "
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlDictionaryString, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlDictionaryString);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlDictionaryString*, "System.Xml", "XmlDictionaryString");
 NEED_NO_BOX(::System::Xml::XmlDictionaryString_EmptyStringDictionary);

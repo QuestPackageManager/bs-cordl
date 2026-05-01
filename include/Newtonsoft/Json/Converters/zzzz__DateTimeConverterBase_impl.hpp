@@ -4,59 +4,48 @@
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::DateTimeConverterBase.CanConvert
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)(::System::Type*)>(&::Newtonsoft::Json::Converters::DateTimeConverterBase::CanConvert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)(::System::Type*)>(
+    &::Newtonsoft::Json::Converters::DateTimeConverterBase::CanConvert)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5beabc4;
+  constexpr static std::size_t addrs = 0x5c5cbac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::DateTimeConverterBase._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)()>(&::Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)()>(
+    &::Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5beacfc;
+  constexpr static std::size_t addrs = 0x5c5cce4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline bool Newtonsoft::Json::Converters::DateTimeConverterBase::CanConvert(::System::Type*  objectType)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, objectType);
+inline bool Newtonsoft::Json::Converters::DateTimeConverterBase::CanConvert(::System::Type* objectType) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, objectType);
 }
-inline void Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DateTimeConverterBase*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Converters::DateTimeConverterBase* Newtonsoft::Json::Converters::DateTimeConverterBase::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::DateTimeConverterBase*>());
+inline ::Newtonsoft::Json::Converters::DateTimeConverterBase* Newtonsoft::Json::Converters::DateTimeConverterBase::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::DateTimeConverterBase*>());
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Converters::DateTimeConverterBase::DateTimeConverterBase()   {
-}
+constexpr ::Newtonsoft::Json::Converters::DateTimeConverterBase::DateTimeConverterBase() {}

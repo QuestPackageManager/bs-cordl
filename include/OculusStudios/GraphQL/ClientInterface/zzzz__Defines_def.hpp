@@ -18,46 +18,46 @@ namespace OculusStudios::GraphQL::ClientInterface {
 // CS Name: OculusStudios.GraphQL.ClientInterface.Defines
 class CORDL_TYPE Defines : public ::System::Object {
 public:
-// Declarations
-static inline ::OculusStudios::GraphQL::ClientInterface::Defines* New_ctor() ;
+  // Declarations
+  static inline ::OculusStudios::GraphQL::ClientInterface::Defines* New_ctor();
 
-/// @brief Method .ctor, addr 0x5d7e218, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5df0200, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Defines() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Defines();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Defines(Defines&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Defines(Defines && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Defines(Defines const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Defines(Defines const& ) = delete;
+  /// @brief Field BaseTimeoutMs offset 0xffffffff size 0x4
+  static constexpr int32_t BaseTimeoutMs{ static_cast<int32_t>(0x1f40) };
 
-/// @brief Field BaseTimeoutMs offset 0xffffffff size 0x4
-static constexpr int32_t  BaseTimeoutMs{static_cast<int32_t>(0x1f40)};
+  /// @brief Field DebugBuildAdditionalTimeoutMs offset 0xffffffff size 0x4
+  static constexpr int32_t DebugBuildAdditionalTimeoutMs{ static_cast<int32_t>(0x7d0) };
 
-/// @brief Field DebugBuildAdditionalTimeoutMs offset 0xffffffff size 0x4
-static constexpr int32_t  DebugBuildAdditionalTimeoutMs{static_cast<int32_t>(0x7d0)};
+  /// @brief Field DefaultTimeoutMs offset 0xffffffff size 0x4
+  static constexpr int32_t DefaultTimeoutMs{ static_cast<int32_t>(0x1f40) };
 
-/// @brief Field DefaultTimeoutMs offset 0xffffffff size 0x4
-static constexpr int32_t  DefaultTimeoutMs{static_cast<int32_t>(0x1f40)};
+  /// @brief Field MaxRequestTries offset 0xffffffff size 0x4
+  static constexpr int32_t MaxRequestTries{ static_cast<int32_t>(0x3) };
 
-/// @brief Field MaxRequestTries offset 0xffffffff size 0x4
-static constexpr int32_t  MaxRequestTries{static_cast<int32_t>(0x3)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22541 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22463};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::ClientInterface::Defines, 0x10>, "Size mismatch!");
 
-} // namespace end def OculusStudios::GraphQL::ClientInterface
+} // namespace OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::Defines);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::Defines*, "OculusStudios.GraphQL.ClientInterface", "Defines");

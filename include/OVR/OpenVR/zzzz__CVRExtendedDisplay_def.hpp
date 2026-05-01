@@ -25,57 +25,57 @@ namespace OVR::OpenVR {
 // CS Name: OVR.OpenVR.CVRExtendedDisplay
 class CORDL_TYPE CVRExtendedDisplay : public ::System::Object {
 public:
-// Declarations
-/// @brief Field FnTable, offset 0x10, size 0x18 
- __declspec(property(get=__cordl_internal_get_FnTable, put=__cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRExtendedDisplay  FnTable;
+  // Declarations
+  /// @brief Field FnTable, offset 0x10, size 0x18
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRExtendedDisplay FnTable;
 
-/// @brief Method GetDXGIOutputInfo, addr 0x5c95f04, size 0x28, virtual false, abstract: false, final false
-inline void GetDXGIOutputInfo(::ByRef<int32_t>  pnAdapterIndex, ::ByRef<int32_t>  pnAdapterOutputIndex) ;
+  /// @brief Method GetDXGIOutputInfo, addr 0x5d07eec, size 0x28, virtual false, abstract: false, final false
+  inline void GetDXGIOutputInfo(::ByRef<int32_t> pnAdapterIndex, ::ByRef<int32_t> pnAdapterOutputIndex);
 
-/// @brief Method GetEyeOutputViewport, addr 0x5c95ed4, size 0x30, virtual false, abstract: false, final false
-inline void GetEyeOutputViewport(::OVR::OpenVR::EVREye  eEye, ::ByRef<uint32_t>  pnX, ::ByRef<uint32_t>  pnY, ::ByRef<uint32_t>  pnWidth, ::ByRef<uint32_t>  pnHeight) ;
+  /// @brief Method GetEyeOutputViewport, addr 0x5d07ebc, size 0x30, virtual false, abstract: false, final false
+  inline void GetEyeOutputViewport(::OVR::OpenVR::EVREye eEye, ::ByRef<uint32_t> pnX, ::ByRef<uint32_t> pnY, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight);
 
-/// @brief Method GetWindowBounds, addr 0x5c95ea4, size 0x30, virtual false, abstract: false, final false
-inline void GetWindowBounds(::ByRef<int32_t>  pnX, ::ByRef<int32_t>  pnY, ::ByRef<uint32_t>  pnWidth, ::ByRef<uint32_t>  pnHeight) ;
+  /// @brief Method GetWindowBounds, addr 0x5d07e8c, size 0x30, virtual false, abstract: false, final false
+  inline void GetWindowBounds(::ByRef<int32_t> pnX, ::ByRef<int32_t> pnY, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight);
 
-static inline ::OVR::OpenVR::CVRExtendedDisplay* New_ctor(::System::IntPtr  pInterface) ;
+  static inline ::OVR::OpenVR::CVRExtendedDisplay* New_ctor(::System::IntPtr pInterface);
 
-constexpr ::OVR::OpenVR::IVRExtendedDisplay const& __cordl_internal_get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRExtendedDisplay const& __cordl_internal_get_FnTable() const;
 
-constexpr ::OVR::OpenVR::IVRExtendedDisplay& __cordl_internal_get_FnTable() ;
+  constexpr ::OVR::OpenVR::IVRExtendedDisplay& __cordl_internal_get_FnTable();
 
-constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRExtendedDisplay  value) ;
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRExtendedDisplay value);
 
-/// @brief Method .ctor, addr 0x5c95da8, size 0xfc, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  pInterface) ;
+  /// @brief Method .ctor, addr 0x5d07d90, size 0xfc, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr pInterface);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CVRExtendedDisplay() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CVRExtendedDisplay();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CVRExtendedDisplay", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CVRExtendedDisplay(CVRExtendedDisplay&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CVRExtendedDisplay", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CVRExtendedDisplay(CVRExtendedDisplay && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CVRExtendedDisplay", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CVRExtendedDisplay(CVRExtendedDisplay const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CVRExtendedDisplay", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CVRExtendedDisplay(CVRExtendedDisplay const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8368 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8362};
+  /// @brief Field FnTable, offset: 0x10, size: 0x18, def value: None
+  ::OVR::OpenVR::IVRExtendedDisplay ___FnTable;
 
-/// @brief Field FnTable, offset: 0x10, size: 0x18, def value: None
- ::OVR::OpenVR::IVRExtendedDisplay  ___FnTable;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::CVRExtendedDisplay, ___FnTable) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRExtendedDisplay, 0x28>, "Size mismatch!");
 
-} // namespace end def OVR::OpenVR
+} // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::CVRExtendedDisplay);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExtendedDisplay");

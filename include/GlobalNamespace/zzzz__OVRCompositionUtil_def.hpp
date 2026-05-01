@@ -33,52 +33,52 @@ namespace GlobalNamespace {
 // CS Name: OVRCompositionUtil
 class CORDL_TYPE OVRCompositionUtil : public ::System::Object {
 public:
-// Declarations
-/// @brief Method BuildBoundaryMesh, addr 0x5c46074, size 0x4d8, virtual false, abstract: false, final false
-static inline ::UnityW<::UnityEngine::Mesh> BuildBoundaryMesh(::GlobalNamespace::OVRBoundary_BoundaryType  boundaryType, float_t  topY, float_t  bottomY) ;
+  // Declarations
+  /// @brief Method BuildBoundaryMesh, addr 0x5cb805c, size 0x4d8, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Mesh> BuildBoundaryMesh(::GlobalNamespace::OVRBoundary_BoundaryType boundaryType, float_t topY, float_t bottomY);
 
-/// @brief Method GetMaximumBoundaryDistance, addr 0x5c45e98, size 0x1dc, virtual false, abstract: false, final false
-static inline float_t GetMaximumBoundaryDistance(::UnityEngine::Camera*  camera, ::GlobalNamespace::OVRBoundary_BoundaryType  boundaryType) ;
+  /// @brief Method GetMaximumBoundaryDistance, addr 0x5cb7e80, size 0x1dc, virtual false, abstract: false, final false
+  static inline float_t GetMaximumBoundaryDistance(::UnityEngine::Camera* camera, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
-/// @brief Method GetWorldPosition, addr 0x5c45dfc, size 0x9c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Camera*  camera, ::UnityEngine::Vector3  trackingSpacePosition) ;
+  /// @brief Method GetWorldPosition, addr 0x5cb7de4, size 0x9c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 trackingSpacePosition);
 
-/// @brief Method GetWorldPosition, addr 0x5c45dc0, size 0x3c, virtual false, abstract: false, final false
-static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Vector3  trackingSpacePosition) ;
+  /// @brief Method GetWorldPosition, addr 0x5cb7da8, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Vector3 trackingSpacePosition);
 
-static inline ::GlobalNamespace::OVRCompositionUtil* New_ctor() ;
+  static inline ::GlobalNamespace::OVRCompositionUtil* New_ctor();
 
-/// @brief Method SafeDestroy, addr 0x5c45d48, size 0x78, virtual false, abstract: false, final false
-static inline void SafeDestroy(::ByRef<::UnityEngine::GameObject*>  obj) ;
+  /// @brief Method SafeDestroy, addr 0x5cb7d30, size 0x78, virtual false, abstract: false, final false
+  static inline void SafeDestroy(::ByRef<::UnityEngine::GameObject*> obj);
 
-/// @brief Method SafeDestroy, addr 0x5c45c80, size 0xc8, virtual false, abstract: false, final false
-static inline void SafeDestroy(::UnityEngine::GameObject*  obj) ;
+  /// @brief Method SafeDestroy, addr 0x5cb7c68, size 0xc8, virtual false, abstract: false, final false
+  static inline void SafeDestroy(::UnityEngine::GameObject* obj);
 
-/// @brief Method .ctor, addr 0x5c4654c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5cb8534, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRCompositionUtil() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRCompositionUtil();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCompositionUtil", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRCompositionUtil(OVRCompositionUtil&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRCompositionUtil", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRCompositionUtil(OVRCompositionUtil && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCompositionUtil", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRCompositionUtil(OVRCompositionUtil const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRCompositionUtil", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRCompositionUtil(OVRCompositionUtil const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7036 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7030};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCompositionUtil, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRCompositionUtil);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRCompositionUtil*, "", "OVRCompositionUtil");

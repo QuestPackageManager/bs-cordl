@@ -20,32 +20,32 @@ namespace UnityEngine {
 // CS Name: UnityEngine.SubsystemBindings
 class CORDL_TYPE SubsystemBindings : public ::System::Object {
 public:
-// Declarations
-/// @brief Method DestroySubsystem, addr 0x69ed400, size 0x3c, virtual false, abstract: false, final false
-static inline void DestroySubsystem(::System::IntPtr  nativePtr) ;
+  // Declarations
+  /// @brief Method DestroySubsystem, addr 0x6a5f648, size 0x3c, virtual false, abstract: false, final false
+  static inline void DestroySubsystem(::System::IntPtr nativePtr);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SubsystemBindings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubsystemBindings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemBindings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SubsystemBindings(SubsystemBindings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SubsystemBindings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SubsystemBindings(SubsystemBindings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemBindings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SubsystemBindings(SubsystemBindings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SubsystemBindings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SubsystemBindings(SubsystemBindings const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22612 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22534};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SubsystemBindings, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::SubsystemBindings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SubsystemBindings*, "UnityEngine", "SubsystemBindings");

@@ -17,37 +17,37 @@ namespace UnityEditor::Analytics {
 // CS Name: UnityEditor.Analytics.PackageManagerEmbedPackageAnalytic
 class CORDL_TYPE PackageManagerEmbedPackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
-// Declarations
-/// @brief Method CreatePackageManagerEmbedPackageAnalytic, addr 0x6c5a614, size 0x54, virtual false, abstract: false, final false
-static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* CreatePackageManagerEmbedPackageAnalytic() ;
+  // Declarations
+  /// @brief Method CreatePackageManagerEmbedPackageAnalytic, addr 0x6ccc85c, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* CreatePackageManagerEmbedPackageAnalytic();
 
-static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* New_ctor() ;
+  static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* New_ctor();
 
-/// @brief Method .ctor, addr 0x6c5a580, size 0x94, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ccc7c8, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PackageManagerEmbedPackageAnalytic() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PackageManagerEmbedPackageAnalytic();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerEmbedPackageAnalytic", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PackageManagerEmbedPackageAnalytic(PackageManagerEmbedPackageAnalytic&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerEmbedPackageAnalytic", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PackageManagerEmbedPackageAnalytic(PackageManagerEmbedPackageAnalytic && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerEmbedPackageAnalytic", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PackageManagerEmbedPackageAnalytic(PackageManagerEmbedPackageAnalytic const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerEmbedPackageAnalytic", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PackageManagerEmbedPackageAnalytic(PackageManagerEmbedPackageAnalytic const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22706 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22598};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic, 0x60>, "Size mismatch!");
 
-} // namespace end def UnityEditor::Analytics
+} // namespace UnityEditor::Analytics
 NEED_NO_BOX(::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic*, "UnityEditor.Analytics", "PackageManagerEmbedPackageAnalytic");

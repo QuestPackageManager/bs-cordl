@@ -28,94 +28,94 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.PointerUpEvent/<>c
 class CORDL_TYPE PointerUpEvent___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::PointerUpEvent___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::PointerUpEvent___c* __9;
 
-static inline ::UnityEngine::UIElements::PointerUpEvent___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PointerUpEvent___c* New_ctor();
 
-/// @brief Method <.cctor>b__0_0, addr 0x6bd9aa0, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::PointerUpEvent* __cctor_b__0_0() ;
+  /// @brief Method <.cctor>b__0_0, addr 0x6c4bce8, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::PointerUpEvent* __cctor_b__0_0();
 
-/// @brief Method .ctor, addr 0x6bd9a9c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c4bce4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::PointerUpEvent___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::PointerUpEvent___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::PointerUpEvent___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::PointerUpEvent___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PointerUpEvent___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerUpEvent___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PointerUpEvent___c(PointerUpEvent___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PointerUpEvent___c(PointerUpEvent___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PointerUpEvent___c(PointerUpEvent___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PointerUpEvent___c(PointerUpEvent___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4544 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4544};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerUpEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PointerUpEvent
 class CORDL_TYPE PointerUpEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerUpEvent*> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::PointerUpEvent___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::PointerUpEvent___c;
 
-/// @brief Method Init, addr 0x6bd95ec, size 0x54, virtual true, abstract: false, final false
-inline void Init() ;
+  /// @brief Method Init, addr 0x6c4b834, size 0x54, virtual true, abstract: false, final false
+  inline void Init();
 
-/// @brief Method LocalInit, addr 0x6bd9640, size 0xa8, virtual false, abstract: false, final false
-inline void LocalInit() ;
+  /// @brief Method LocalInit, addr 0x6c4b888, size 0xa8, virtual false, abstract: false, final false
+  inline void LocalInit();
 
-static inline ::UnityEngine::UIElements::PointerUpEvent* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PointerUpEvent* New_ctor();
 
-/// @brief Method PostDispatch, addr 0x6bd9868, size 0x1e0, virtual true, abstract: false, final false
-inline void PostDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
+  /// @brief Method PostDispatch, addr 0x6c4bab0, size 0x1e0, virtual true, abstract: false, final false
+  inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-/// @brief Method PreDispatch, addr 0x6bd973c, size 0x12c, virtual true, abstract: false, final false
-inline void PreDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
+  /// @brief Method PreDispatch, addr 0x6c4b984, size 0x12c, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-/// @brief Method .ctor, addr 0x6bd96e8, size 0x54, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c4b930, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PointerUpEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerUpEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PointerUpEvent(PointerUpEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PointerUpEvent(PointerUpEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PointerUpEvent(PointerUpEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PointerUpEvent(PointerUpEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4545 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4545};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerUpEvent, 0xf8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerUpEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerUpEvent*, "UnityEngine.UIElements", "PointerUpEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::PointerUpEvent___c);

@@ -26,8 +26,7 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
@@ -55,97 +54,102 @@ namespace BGLib::MetaRemoteAssets {
 // CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsPreloader/<>c
 class CORDL_TYPE MetaRemoteAssetsPreloader___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* __9;
 
-/// @brief Field <>9__1_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__1_0, put=setStaticF___9__1_0)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*,bool>*  __9__1_0;
+  /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, bool>* __9__1_0;
 
-static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* New_ctor() ;
+  static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* New_ctor();
 
-/// @brief Method <PreloadAsync>b__1_0, addr 0x3679aa8, size 0xdc, virtual false, abstract: false, final false
-inline bool _PreloadAsync_b__1_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*  locator) ;
+  /// @brief Method <PreloadAsync>b__1_0, addr 0x36b67f0, size 0xdc, virtual false, abstract: false, final false
+  inline bool _PreloadAsync_b__1_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-/// @brief Method .ctor, addr 0x3679aa4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36b67ec, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* getStaticF___9() ;
+  static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* getStaticF___9();
 
-static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*,bool>* getStaticF___9__1_0() ;
+  static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, bool>* getStaticF___9__1_0();
 
-static inline void setStaticF___9(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c*  value) ;
+  static inline void setStaticF___9(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* value);
 
-static inline void setStaticF___9__1_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*,bool>*  value) ;
+  static inline void setStaticF___9__1_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, bool>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MetaRemoteAssetsPreloader___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MetaRemoteAssetsPreloader___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MetaRemoteAssetsPreloader___c(MetaRemoteAssetsPreloader___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MetaRemoteAssetsPreloader___c(MetaRemoteAssetsPreloader___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MetaRemoteAssetsPreloader___c(MetaRemoteAssetsPreloader___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MetaRemoteAssetsPreloader___c(MetaRemoteAssetsPreloader___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20963 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21031};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c, 0x10>, "Size mismatch!");
 
-} // namespace end def BGLib::MetaRemoteAssets
+} // namespace BGLib::MetaRemoteAssets
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
 // CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsPreloader/<PreloadAsync>d__1
 struct CORDL_TYPE MetaRemoteAssetsPreloader__PreloadAsync_d__1 {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-/// @brief Method MoveNext, addr 0x3679b84, size 0x4cc, virtual true, abstract: false, final true
-inline void MoveNext() ;
+  /// @brief Method MoveNext, addr 0x36b68cc, size 0x4cc, virtual true, abstract: false, final true
+  inline void MoveNext();
 
-/// @brief Method SetStateMachine, addr 0x367a050, size 0x6c, virtual true, abstract: false, final true
-inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+  /// @brief Method SetStateMachine, addr 0x36b6d98, size 0x6c, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr MetaRemoteAssetsPreloader__PreloadAsync_d__1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MetaRemoteAssetsPreloader__PreloadAsync_d__1();
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None }]
-constexpr MetaRemoteAssetsPreloader__PreloadAsync_d__1(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader>  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>  __u__1) noexcept;
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None }]
+  constexpr MetaRemoteAssetsPreloader__PreloadAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                         ::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader> __4__this,
+                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21032};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20964 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
- int32_t  __1__state;
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
 
-/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
-/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader>  __4__this;
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader> __4__this;
 
-/// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>  __u__1;
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader__PreloadAsync_d__1, __1__state) == 0x0, "Offset mismatch!");
@@ -158,69 +162,69 @@ static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader__Pre
 
 static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader__PreloadAsync_d__1, 0x30>, "Size mismatch!");
 
-} // namespace end def BGLib::MetaRemoteAssets
+} // namespace BGLib::MetaRemoteAssets
 // Dependencies BGLib.AppFlow.Initialization.AsyncPreloader
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
 // CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsPreloader
 class CORDL_TYPE MetaRemoteAssetsPreloader : public ::BGLib::AppFlow::Initialization::AsyncPreloader {
 public:
-// Declarations
-using _PreloadAsync_d__1 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader__PreloadAsync_d__1;
+  // Declarations
+  using _PreloadAsync_d__1 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader__PreloadAsync_d__1;
 
-using __c = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c;
+  using __c = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c;
 
-/// @brief Field _networkConfig, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__networkConfig, put=__cordl_internal_set__networkConfig)) ::UnityW<::GlobalNamespace::NetworkConfigSO>  _networkConfig;
+  /// @brief Field _networkConfig, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig)) ::UnityW<::GlobalNamespace::NetworkConfigSO> _networkConfig;
 
-/// @brief Method ApplyAddressablesOverrides, addr 0x3679678, size 0x100, virtual false, abstract: false, final false
-inline void ApplyAddressablesOverrides() ;
+  /// @brief Method ApplyAddressablesOverrides, addr 0x36b63e4, size 0x100, virtual false, abstract: false, final false
+  inline void ApplyAddressablesOverrides();
 
-static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader* New_ctor() ;
+  static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader* New_ctor();
 
-/// @brief Method PreloadAsync, addr 0x36795c8, size 0xb0, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task* PreloadAsync() ;
+  /// @brief Method PreloadAsync, addr 0x36b6334, size 0xb0, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-/// @brief Method WebRequestOverride, addr 0x3679778, size 0x2d4, virtual false, abstract: false, final false
-inline void WebRequestOverride(::UnityEngine::Networking::UnityWebRequest*  request) ;
+  /// @brief Method WebRequestOverride, addr 0x36b64e4, size 0x2b0, virtual false, abstract: false, final false
+  inline void WebRequestOverride(::UnityEngine::Networking::UnityWebRequest* request);
 
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& __cordl_internal_get__networkConfig() const;
+  constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& __cordl_internal_get__networkConfig() const;
 
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& __cordl_internal_get__networkConfig() ;
+  constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& __cordl_internal_get__networkConfig();
 
-constexpr void __cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO>  value) ;
+  constexpr void __cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO> value);
 
-/// @brief Method .ctor, addr 0x3679a4c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36b6794, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MetaRemoteAssetsPreloader() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MetaRemoteAssetsPreloader();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MetaRemoteAssetsPreloader(MetaRemoteAssetsPreloader&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MetaRemoteAssetsPreloader(MetaRemoteAssetsPreloader && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MetaRemoteAssetsPreloader(MetaRemoteAssetsPreloader const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsPreloader", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MetaRemoteAssetsPreloader(MetaRemoteAssetsPreloader const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20965 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21033};
+  /// @brief Field _networkConfig, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::NetworkConfigSO> ____networkConfig;
 
-/// @brief Field _networkConfig, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::NetworkConfigSO>  ____networkConfig;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader, ____networkConfig) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader, 0x30>, "Size mismatch!");
 
-} // namespace end def BGLib::MetaRemoteAssets
+} // namespace BGLib::MetaRemoteAssets
 NEED_NO_BOX(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsPreloader");
 NEED_NO_BOX(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c);

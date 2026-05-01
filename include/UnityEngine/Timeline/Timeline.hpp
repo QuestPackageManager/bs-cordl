@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/Timeline/ActivationControlPlayable.hpp"
 #include "UnityEngine/Timeline/ActivationMixerPlayable.hpp"
@@ -87,6 +87,5 @@
 #include "UnityEngine/Timeline/TrackOffset.hpp"
 #include "UnityEngine/Timeline/WeightUtility.hpp"
 #ifdef __cpp_modules
-                    export module Timeline;
-                    #endif
-                
+export module Timeline;
+#endif

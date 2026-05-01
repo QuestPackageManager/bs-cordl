@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ExtensionDataObject)
 namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+template <typename T> class IList_1;
 }
 namespace System::Runtime::Serialization {
 class ExtensionDataMember;
@@ -24,56 +23,56 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.ExtensionDataObject
 class CORDL_TYPE ExtensionDataObject : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Members, put=set_Members)) ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>*  Members;
+  // Declarations
+  __declspec(property(get = get_Members, put = set_Members)) ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* Members;
 
-/// @brief Field members, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_members, put=__cordl_internal_set_members)) ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>*  members;
+  /// @brief Field members, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_members, put = __cordl_internal_set_members)) ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* members;
 
-static inline ::System::Runtime::Serialization::ExtensionDataObject* New_ctor() ;
+  static inline ::System::Runtime::Serialization::ExtensionDataObject* New_ctor();
 
-constexpr ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* const& __cordl_internal_get_members() const;
+  constexpr ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* const& __cordl_internal_get_members() const;
 
-constexpr ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>*& __cordl_internal_get_members() ;
+  constexpr ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>*& __cordl_internal_get_members();
 
-constexpr void __cordl_internal_set_members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>*  value) ;
+  constexpr void __cordl_internal_set_members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
-/// @brief Method .ctor, addr 0x5f9c024, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x600e030, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Members, addr 0x5f9c028, size 0x8, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* get_Members() ;
+  /// @brief Method get_Members, addr 0x600e034, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* get_Members();
 
-/// @brief Method set_Members, addr 0x5f9c030, size 0x8, virtual false, abstract: false, final false
-inline void set_Members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>*  value) ;
+  /// @brief Method set_Members, addr 0x600e03c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ExtensionDataObject() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExtensionDataObject();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataObject", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExtensionDataObject(ExtensionDataObject&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExtensionDataObject", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ExtensionDataObject(ExtensionDataObject && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataObject", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExtensionDataObject(ExtensionDataObject const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExtensionDataObject", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ExtensionDataObject(ExtensionDataObject const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17013 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17005};
+  /// @brief Field members, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* ___members;
 
-/// @brief Field members, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>*  ___members;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::ExtensionDataObject, ___members) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::ExtensionDataObject, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::ExtensionDataObject);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ExtensionDataObject*, "System.Runtime.Serialization", "ExtensionDataObject");

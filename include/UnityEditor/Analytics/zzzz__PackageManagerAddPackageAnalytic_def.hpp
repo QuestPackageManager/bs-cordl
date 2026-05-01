@@ -17,37 +17,37 @@ namespace UnityEditor::Analytics {
 // CS Name: UnityEditor.Analytics.PackageManagerAddPackageAnalytic
 class CORDL_TYPE PackageManagerAddPackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
-// Declarations
-/// @brief Method CreatePackageManagerAddPackageAnalytic, addr 0x6c5a274, size 0x54, virtual false, abstract: false, final false
-static inline ::UnityEditor::Analytics::PackageManagerAddPackageAnalytic* CreatePackageManagerAddPackageAnalytic() ;
+  // Declarations
+  /// @brief Method CreatePackageManagerAddPackageAnalytic, addr 0x6ccc4bc, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEditor::Analytics::PackageManagerAddPackageAnalytic* CreatePackageManagerAddPackageAnalytic();
 
-static inline ::UnityEditor::Analytics::PackageManagerAddPackageAnalytic* New_ctor() ;
+  static inline ::UnityEditor::Analytics::PackageManagerAddPackageAnalytic* New_ctor();
 
-/// @brief Method .ctor, addr 0x6c5a1e0, size 0x94, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ccc428, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PackageManagerAddPackageAnalytic() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PackageManagerAddPackageAnalytic();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerAddPackageAnalytic", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PackageManagerAddPackageAnalytic(PackageManagerAddPackageAnalytic&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerAddPackageAnalytic", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PackageManagerAddPackageAnalytic(PackageManagerAddPackageAnalytic && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerAddPackageAnalytic", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PackageManagerAddPackageAnalytic(PackageManagerAddPackageAnalytic const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerAddPackageAnalytic", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PackageManagerAddPackageAnalytic(PackageManagerAddPackageAnalytic const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22702 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22594};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEditor::Analytics::PackageManagerAddPackageAnalytic, 0x60>, "Size mismatch!");
 
-} // namespace end def UnityEditor::Analytics
+} // namespace UnityEditor::Analytics
 NEED_NO_BOX(::UnityEditor::Analytics::PackageManagerAddPackageAnalytic);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEditor::Analytics::PackageManagerAddPackageAnalytic*, "UnityEditor.Analytics", "PackageManagerAddPackageAnalytic");

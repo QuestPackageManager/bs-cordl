@@ -12,606 +12,494 @@
 #include "Unity/Hierarchy/zzzz__HierarchyViewModel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ReadOnlyHierarchyViewModelList_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)(::Unity::Hierarchy::HierarchyViewModel*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)(
+    ::Unity::Hierarchy::HierarchyViewModel*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6a82e4c;
+  constexpr static std::size_t addrs = 0x6af5094;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator.get_Current
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6a83000;
+  constexpr static std::size_t addrs = 0x6af5248;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        "get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), "get_Current",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator.MoveNext
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a8306c;
+  constexpr static std::size_t addrs = 0x6af52b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator.Reset
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::Reset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6a8308c;
+  constexpr static std::size_t addrs = 0x6af52d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), "Reset",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::_ctor(::Unity::Hierarchy::HierarchyViewModel*  hierarchyViewModel)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hierarchyViewModel);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::_ctor(::Unity::Hierarchy::HierarchyViewModel* hierarchyViewModel) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hierarchyViewModel);
 }
-inline ::System::Object* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::get_Current()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        "get_Current",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), "get_Current",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        "MoveNext",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(),
-                        "Reset",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>::get(), "Reset",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr  UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::operator ::System::Collections::IEnumerator*()  {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::operator ::System::Collections::IEnumerator*() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::i___System__Collections__IEnumerator()  {
-return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Collections::IEnumerator* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::i___System__Collections__IEnumerator() {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Enumerator", ty: "::Unity::Hierarchy::HierarchyViewModel_Enumerator", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::ReadOnlyHierarchyViewModelList_Enumerator(::Unity::Hierarchy::HierarchyViewModel*  m_HierarchyViewModel, ::Unity::Hierarchy::HierarchyViewModel_Enumerator  m_Enumerator) noexcept  {
-this->m_HierarchyViewModel = m_HierarchyViewModel;
-this->m_Enumerator = m_Enumerator;
+// Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Enumerator", ty:
+// "::Unity::Hierarchy::HierarchyViewModel_Enumerator", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::ReadOnlyHierarchyViewModelList_Enumerator(::Unity::Hierarchy::HierarchyViewModel* m_HierarchyViewModel,
+                                                                                                                          ::Unity::Hierarchy::HierarchyViewModel_Enumerator m_Enumerator) noexcept {
+  this->m_HierarchyViewModel = m_HierarchyViewModel;
+  this->m_Enumerator = m_Enumerator;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::ReadOnlyHierarchyViewModelList_Enumerator()   {
-}
+constexpr ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::ReadOnlyHierarchyViewModelList_Enumerator() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.get_IsFixedSize
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsFixedSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a82ae4;
+  constexpr static std::size_t addrs = 0x6af4d2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_IsFixedSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "get_IsFixedSize",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a82aec;
+  constexpr static std::size_t addrs = 0x6af4d34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "get_IsReadOnly",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6a82af4;
+  constexpr static std::size_t addrs = 0x6af4d3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "get_Count",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Contains)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Contains)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6a82b0c;
+  constexpr static std::size_t addrs = 0x6af4d54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Contains",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.IndexOf
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::IndexOf)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::IndexOf)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6a82b9c;
+  constexpr static std::size_t addrs = 0x6af4de4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "IndexOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "IndexOf",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::Unity::Hierarchy::HierarchyViewModel*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::Unity::Hierarchy::HierarchyViewModel*)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a82c58;
+  constexpr static std::size_t addrs = 0x6af4ea0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.get_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Item)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a82c60;
+  constexpr static std::size_t addrs = 0x6af4ea8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "get_Item",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.set_Item
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t, ::System::Object*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::set_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t, ::System::Object*)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::set_Item)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82cdc;
+  constexpr static std::size_t addrs = 0x6af4f24;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.CopyTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Array*, int32_t)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Array*, int32_t)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::CopyTo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6a82d14;
+  constexpr static std::size_t addrs = 0x6af4f5c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::GetEnumerator)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a82dd0;
+  constexpr static std::size_t addrs = 0x6af5018;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "GetEnumerator",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.get_IsSynchronized
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsSynchronized)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82e78;
+  constexpr static std::size_t addrs = 0x6af50c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_IsSynchronized",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "get_IsSynchronized",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.get_SyncRoot
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_SyncRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82eb0;
+  constexpr static std::size_t addrs = 0x6af50f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_SyncRoot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "get_SyncRoot",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Add)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82ee8;
+  constexpr static std::size_t addrs = 0x6af5130;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Add",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Clear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Clear)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82f20;
+  constexpr static std::size_t addrs = 0x6af5168;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Clear",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.Insert
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t, ::System::Object*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Insert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t, ::System::Object*)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Insert)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82f58;
+  constexpr static std::size_t addrs = 0x6af51a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Insert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Insert", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Remove)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Remove)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82f90;
+  constexpr static std::size_t addrs = 0x6af51d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Remove",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList.RemoveAt
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t)>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::RemoveAt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t)>(
+    &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::RemoveAt)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a82fc8;
+  constexpr static std::size_t addrs = 0x6af5210;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "RemoveAt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "RemoveAt",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::Unity::Hierarchy::HierarchyViewModel*& UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::__cordl_internal_get_m_HierarchyViewModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HierarchyViewModel;
+constexpr ::Unity::Hierarchy::HierarchyViewModel*& UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::__cordl_internal_get_m_HierarchyViewModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HierarchyViewModel;
 }
 constexpr ::Unity::Hierarchy::HierarchyViewModel* const& UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::__cordl_internal_get_m_HierarchyViewModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_HierarchyViewModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HierarchyViewModel;
 }
-constexpr void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::__cordl_internal_set_m_HierarchyViewModel(::Unity::Hierarchy::HierarchyViewModel*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HierarchyViewModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::__cordl_internal_set_m_HierarchyViewModel(::Unity::Hierarchy::HierarchyViewModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HierarchyViewModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsFixedSize()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_IsFixedSize",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsFixedSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
+                                                                             "get_IsFixedSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsReadOnly()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_IsReadOnly",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsReadOnly() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
+                                                                             "get_IsReadOnly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Count()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_Count",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Count() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
+                                                                             "get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Contains(::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Contains",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
+inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Contains(::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Contains",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
-inline int32_t UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::IndexOf(::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "IndexOf",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
+inline int32_t UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::IndexOf(::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "IndexOf",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::_ctor(::Unity::Hierarchy::HierarchyViewModel*  viewModel)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewModel);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::_ctor(::Unity::Hierarchy::HierarchyViewModel* viewModel) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyViewModel*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewModel);
 }
-inline ::System::Object* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Item(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
+inline ::System::Object* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Item(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "get_Item",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::set_Item(int32_t  index, ::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "set_Item",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::set_Item(int32_t index, ::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::CopyTo(::System::Array*  array, int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "CopyTo",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, index);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::CopyTo(::System::Array* array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, index);
 }
-inline ::System::Collections::IEnumerator* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
+                                                                             "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsSynchronized()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_IsSynchronized",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsSynchronized() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
+                                                                             "get_IsSynchronized", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_SyncRoot()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "get_SyncRoot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_SyncRoot() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
+                                                                             "get_SyncRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Add(::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
+inline int32_t UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Add(::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Add",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Clear()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Clear",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Clear() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
+                                                                             "Clear", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Insert(int32_t  index, ::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Insert",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Insert(int32_t index, ::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Insert", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Remove(::System::Object*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "Remove",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Remove(::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "Remove",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::RemoveAt(int32_t  index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(),
-                        "RemoveAt",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
+inline void UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::RemoveAt(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>::get(), "RemoveAt",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
-inline ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::New_ctor(::Unity::Hierarchy::HierarchyViewModel*  viewModel)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(viewModel));
+inline ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::New_ctor(::Unity::Hierarchy::HierarchyViewModel* viewModel) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(viewModel));
 }
 /// @brief Convert operator to "::System::Collections::IList"
-constexpr  UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::operator ::System::Collections::IList*() noexcept {
-return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+constexpr UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::operator ::System::Collections::IList*() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IList"
 constexpr ::System::Collections::IList* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::i___System__Collections__IList() noexcept {
-return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::ICollection"
-constexpr  UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::operator ::System::Collections::ICollection*() noexcept {
-return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+constexpr UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::ICollection"
 constexpr ::System::Collections::ICollection* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::i___System__Collections__ICollection() noexcept {
-return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::ReadOnlyHierarchyViewModelList()   {
-}
+constexpr ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::ReadOnlyHierarchyViewModelList() {}

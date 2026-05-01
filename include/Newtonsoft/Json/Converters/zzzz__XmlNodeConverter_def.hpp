@@ -25,12 +25,10 @@ namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System::Xml {
 class XmlNamespaceManager;
@@ -53,228 +51,241 @@ namespace Newtonsoft::Json::Converters {
 // CS Name: Newtonsoft.Json.Converters.XmlNodeConverter
 class CORDL_TYPE XmlNodeConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
-// Declarations
- __declspec(property(get=get_DeserializeRootElementName, put=set_DeserializeRootElementName)) ::StringW  DeserializeRootElementName;
+  // Declarations
+  __declspec(property(get = get_DeserializeRootElementName, put = set_DeserializeRootElementName)) ::StringW DeserializeRootElementName;
 
-/// @brief Field EmptyChildNodes, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_EmptyChildNodes, put=setStaticF_EmptyChildNodes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*  EmptyChildNodes;
+  /// @brief Field EmptyChildNodes, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_EmptyChildNodes, put = setStaticF_EmptyChildNodes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* EmptyChildNodes;
 
- __declspec(property(get=get_EncodeSpecialCharacters, put=set_EncodeSpecialCharacters)) bool  EncodeSpecialCharacters;
+  __declspec(property(get = get_EncodeSpecialCharacters, put = set_EncodeSpecialCharacters)) bool EncodeSpecialCharacters;
 
- __declspec(property(get=get_OmitRootObject, put=set_OmitRootObject)) bool  OmitRootObject;
+  __declspec(property(get = get_OmitRootObject, put = set_OmitRootObject)) bool OmitRootObject;
 
- __declspec(property(get=get_WriteArrayAttribute, put=set_WriteArrayAttribute)) bool  WriteArrayAttribute;
+  __declspec(property(get = get_WriteArrayAttribute, put = set_WriteArrayAttribute)) bool WriteArrayAttribute;
 
-/// @brief Field <DeserializeRootElementName>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__DeserializeRootElementName_k__BackingField, put=__cordl_internal_set__DeserializeRootElementName_k__BackingField)) ::StringW  _DeserializeRootElementName_k__BackingField;
+  /// @brief Field <DeserializeRootElementName>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__DeserializeRootElementName_k__BackingField,
+                      put = __cordl_internal_set__DeserializeRootElementName_k__BackingField)) ::StringW _DeserializeRootElementName_k__BackingField;
 
-/// @brief Field <EncodeSpecialCharacters>k__BackingField, offset 0x1a, size 0x1 
- __declspec(property(get=__cordl_internal_get__EncodeSpecialCharacters_k__BackingField, put=__cordl_internal_set__EncodeSpecialCharacters_k__BackingField)) bool  _EncodeSpecialCharacters_k__BackingField;
+  /// @brief Field <EncodeSpecialCharacters>k__BackingField, offset 0x1a, size 0x1
+  __declspec(property(get = __cordl_internal_get__EncodeSpecialCharacters_k__BackingField,
+                      put = __cordl_internal_set__EncodeSpecialCharacters_k__BackingField)) bool _EncodeSpecialCharacters_k__BackingField;
 
-/// @brief Field <OmitRootObject>k__BackingField, offset 0x19, size 0x1 
- __declspec(property(get=__cordl_internal_get__OmitRootObject_k__BackingField, put=__cordl_internal_set__OmitRootObject_k__BackingField)) bool  _OmitRootObject_k__BackingField;
+  /// @brief Field <OmitRootObject>k__BackingField, offset 0x19, size 0x1
+  __declspec(property(get = __cordl_internal_get__OmitRootObject_k__BackingField, put = __cordl_internal_set__OmitRootObject_k__BackingField)) bool _OmitRootObject_k__BackingField;
 
-/// @brief Field <WriteArrayAttribute>k__BackingField, offset 0x18, size 0x1 
- __declspec(property(get=__cordl_internal_get__WriteArrayAttribute_k__BackingField, put=__cordl_internal_set__WriteArrayAttribute_k__BackingField)) bool  _WriteArrayAttribute_k__BackingField;
+  /// @brief Field <WriteArrayAttribute>k__BackingField, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__WriteArrayAttribute_k__BackingField, put = __cordl_internal_set__WriteArrayAttribute_k__BackingField)) bool _WriteArrayAttribute_k__BackingField;
 
-/// @brief Method AddAttribute, addr 0x5bfb84c, size 0x388, virtual false, abstract: false, final false
-static inline void AddAttribute(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode, ::StringW  propertyName, ::StringW  attributeName, ::System::Xml::XmlNamespaceManager*  manager, ::StringW  attributePrefix) ;
+  /// @brief Method AddAttribute, addr 0x5c6d834, size 0x388, virtual false, abstract: false, final false
+  static inline void AddAttribute(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode,
+                                  ::StringW propertyName, ::StringW attributeName, ::System::Xml::XmlNamespaceManager* manager, ::StringW attributePrefix);
 
-/// @brief Method AddJsonArrayAttribute, addr 0x5bfc4ec, size 0x360, virtual false, abstract: false, final false
-inline void AddJsonArrayAttribute(::Newtonsoft::Json::Converters::IXmlElement*  element, ::Newtonsoft::Json::Converters::IXmlDocument*  document) ;
+  /// @brief Method AddJsonArrayAttribute, addr 0x5c6e4d4, size 0x360, virtual false, abstract: false, final false
+  inline void AddJsonArrayAttribute(::Newtonsoft::Json::Converters::IXmlElement* element, ::Newtonsoft::Json::Converters::IXmlDocument* document);
 
-/// @brief Method AllSameName, addr 0x5bf80c0, size 0x260, virtual false, abstract: false, final false
-static inline bool AllSameName(::Newtonsoft::Json::Converters::IXmlNode*  node) ;
+  /// @brief Method AllSameName, addr 0x5c6a0a8, size 0x260, virtual false, abstract: false, final false
+  static inline bool AllSameName(::Newtonsoft::Json::Converters::IXmlNode* node);
 
-/// @brief Method CanConvert, addr 0x5bfc920, size 0xc0, virtual true, abstract: false, final false
-inline bool CanConvert(::System::Type*  valueType) ;
+  /// @brief Method CanConvert, addr 0x5c6e908, size 0xc0, virtual true, abstract: false, final false
+  inline bool CanConvert(::System::Type* valueType);
 
-/// @brief Method ConvertTokenToXmlValue, addr 0x5bf9e1c, size 0x734, virtual false, abstract: false, final false
-static inline ::StringW ConvertTokenToXmlValue(::Newtonsoft::Json::JsonReader*  reader) ;
+  /// @brief Method ConvertTokenToXmlValue, addr 0x5c6be04, size 0x734, virtual false, abstract: false, final false
+  static inline ::StringW ConvertTokenToXmlValue(::Newtonsoft::Json::JsonReader* reader);
 
-/// @brief Method CreateDocumentType, addr 0x5bfaa00, size 0x3f8, virtual false, abstract: false, final false
-inline void CreateDocumentType(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode) ;
+  /// @brief Method CreateDocumentType, addr 0x5c6c9e8, size 0x3f8, virtual false, abstract: false, final false
+  inline void CreateDocumentType(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
 
-/// @brief Method CreateElement, addr 0x5bfc300, size 0x1ec, virtual false, abstract: false, final false
-inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW  elementName, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::StringW  elementPrefix, ::System::Xml::XmlNamespaceManager*  manager) ;
+  /// @brief Method CreateElement, addr 0x5c6e2e8, size 0x1ec, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW elementPrefix,
+                                                                    ::System::Xml::XmlNamespaceManager* manager);
 
-/// @brief Method CreateElement, addr 0x5bfbbd4, size 0x72c, virtual false, abstract: false, final false
-inline void CreateElement(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode, ::StringW  elementName, ::System::Xml::XmlNamespaceManager*  manager, ::StringW  elementPrefix, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  attributeNameValues) ;
+  /// @brief Method CreateElement, addr 0x5c6dbbc, size 0x72c, virtual false, abstract: false, final false
+  inline void CreateElement(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode,
+                            ::StringW elementName, ::System::Xml::XmlNamespaceManager* manager, ::StringW elementPrefix,
+                            ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* attributeNameValues);
 
-/// @brief Method CreateInstruction, addr 0x5bfa550, size 0x4b0, virtual false, abstract: false, final false
-inline void CreateInstruction(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode, ::StringW  propertyName) ;
+  /// @brief Method CreateInstruction, addr 0x5c6c538, size 0x4b0, virtual false, abstract: false, final false
+  inline void CreateInstruction(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode,
+                                ::StringW propertyName);
 
-/// @brief Method DeserializeNode, addr 0x5bf9110, size 0x760, virtual false, abstract: false, final false
-inline void DeserializeNode(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::System::Xml::XmlNamespaceManager*  manager, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode) ;
+  /// @brief Method DeserializeNode, addr 0x5c6b0f8, size 0x760, virtual false, abstract: false, final false
+  inline void DeserializeNode(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::System::Xml::XmlNamespaceManager* manager,
+                              ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
 
-/// @brief Method DeserializeValue, addr 0x5bf9870, size 0x5ac, virtual false, abstract: false, final false
-inline void DeserializeValue(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::System::Xml::XmlNamespaceManager*  manager, ::StringW  propertyName, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode) ;
+  /// @brief Method DeserializeValue, addr 0x5c6b858, size 0x5ac, virtual false, abstract: false, final false
+  inline void DeserializeValue(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::System::Xml::XmlNamespaceManager* manager, ::StringW propertyName,
+                               ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
 
-/// @brief Method GetPropertyName, addr 0x5bf6c98, size 0x4d0, virtual false, abstract: false, final false
-inline ::StringW GetPropertyName(::Newtonsoft::Json::Converters::IXmlNode*  node, ::System::Xml::XmlNamespaceManager*  manager) ;
+  /// @brief Method GetPropertyName, addr 0x5c68c80, size 0x4d0, virtual false, abstract: false, final false
+  inline ::StringW GetPropertyName(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
 
-/// @brief Method IsArray, addr 0x5bf7168, size 0x344, virtual false, abstract: false, final false
-inline bool IsArray(::Newtonsoft::Json::Converters::IXmlNode*  node) ;
+  /// @brief Method IsArray, addr 0x5c69150, size 0x344, virtual false, abstract: false, final false
+  inline bool IsArray(::Newtonsoft::Json::Converters::IXmlNode* node);
 
-/// @brief Method IsNamespaceAttribute, addr 0x5bfc84c, size 0xd4, virtual false, abstract: false, final false
-inline bool IsNamespaceAttribute(::StringW  attributeName, ::ByRef<::StringW>  prefix) ;
+  /// @brief Method IsNamespaceAttribute, addr 0x5c6e834, size 0xd4, virtual false, abstract: false, final false
+  inline bool IsNamespaceAttribute(::StringW attributeName, ::ByRef<::StringW> prefix);
 
-/// @brief Method IsXObject, addr 0x5bfc9e0, size 0x80, virtual false, abstract: false, final false
-inline bool IsXObject(::System::Type*  valueType) ;
+  /// @brief Method IsXObject, addr 0x5c6e9c8, size 0x80, virtual false, abstract: false, final false
+  inline bool IsXObject(::System::Type* valueType);
 
-/// @brief Method IsXmlNode, addr 0x5bfca60, size 0x80, virtual false, abstract: false, final false
-inline bool IsXmlNode(::System::Type*  valueType) ;
+  /// @brief Method IsXmlNode, addr 0x5c6ea48, size 0x80, virtual false, abstract: false, final false
+  inline bool IsXmlNode(::System::Type* valueType);
 
-static inline ::Newtonsoft::Json::Converters::XmlNodeConverter* New_ctor() ;
+  static inline ::Newtonsoft::Json::Converters::XmlNodeConverter* New_ctor();
 
-/// @brief Method PushParentNamespaces, addr 0x5bf4c7c, size 0x5c4, virtual false, abstract: false, final false
-inline void PushParentNamespaces(::Newtonsoft::Json::Converters::IXmlNode*  node, ::System::Xml::XmlNamespaceManager*  manager) ;
+  /// @brief Method PushParentNamespaces, addr 0x5c66c64, size 0x5c4, virtual false, abstract: false, final false
+  inline void PushParentNamespaces(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
 
-/// @brief Method ReadArrayElements, addr 0x5bfadf8, size 0x36c, virtual false, abstract: false, final false
-inline void ReadArrayElements(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::StringW  propertyName, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode, ::System::Xml::XmlNamespaceManager*  manager) ;
+  /// @brief Method ReadArrayElements, addr 0x5c6cde0, size 0x36c, virtual false, abstract: false, final false
+  inline void ReadArrayElements(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW propertyName,
+                                ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::System::Xml::XmlNamespaceManager* manager);
 
-/// @brief Method ReadAttributeElements, addr 0x5bfb1a8, size 0x6a4, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>* ReadAttributeElements(::Newtonsoft::Json::JsonReader*  reader, ::System::Xml::XmlNamespaceManager*  manager) ;
+  /// @brief Method ReadAttributeElements, addr 0x5c6d190, size 0x6a4, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ReadAttributeElements(::Newtonsoft::Json::JsonReader* reader, ::System::Xml::XmlNamespaceManager* manager);
 
-/// @brief Method ReadElement, addr 0x5bf8db8, size 0x358, virtual false, abstract: false, final false
-inline void ReadElement(::Newtonsoft::Json::JsonReader*  reader, ::Newtonsoft::Json::Converters::IXmlDocument*  document, ::Newtonsoft::Json::Converters::IXmlNode*  currentNode, ::StringW  propertyName, ::System::Xml::XmlNamespaceManager*  manager) ;
+  /// @brief Method ReadElement, addr 0x5c6ada0, size 0x358, virtual false, abstract: false, final false
+  inline void ReadElement(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName,
+                          ::System::Xml::XmlNamespaceManager* manager);
 
-/// @brief Method ReadJson, addr 0x5bf85cc, size 0x7ec, virtual true, abstract: false, final false
-inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
+  /// @brief Method ReadJson, addr 0x5c6a5b4, size 0x7ec, virtual true, abstract: false, final false
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-/// @brief Method ResolveFullName, addr 0x5bf6908, size 0x390, virtual false, abstract: false, final false
-inline ::StringW ResolveFullName(::Newtonsoft::Json::Converters::IXmlNode*  node, ::System::Xml::XmlNamespaceManager*  manager) ;
+  /// @brief Method ResolveFullName, addr 0x5c688f0, size 0x390, virtual false, abstract: false, final false
+  inline ::StringW ResolveFullName(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
 
-/// @brief Method SerializeGroupedNodes, addr 0x5bf74ac, size 0x9b4, virtual false, abstract: false, final false
-inline void SerializeGroupedNodes(::Newtonsoft::Json::JsonWriter*  writer, ::Newtonsoft::Json::Converters::IXmlNode*  node, ::System::Xml::XmlNamespaceManager*  manager, bool  writePropertyName) ;
+  /// @brief Method SerializeGroupedNodes, addr 0x5c69494, size 0x9b4, virtual false, abstract: false, final false
+  inline void SerializeGroupedNodes(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
 
-/// @brief Method SerializeNode, addr 0x5bf5240, size 0x16c8, virtual false, abstract: false, final false
-inline void SerializeNode(::Newtonsoft::Json::JsonWriter*  writer, ::Newtonsoft::Json::Converters::IXmlNode*  node, ::System::Xml::XmlNamespaceManager*  manager, bool  writePropertyName) ;
+  /// @brief Method SerializeNode, addr 0x5c67228, size 0x16c8, virtual false, abstract: false, final false
+  inline void SerializeNode(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
 
-/// @brief Method ShouldReadInto, addr 0x5bfb164, size 0x44, virtual false, abstract: false, final false
-inline bool ShouldReadInto(::Newtonsoft::Json::JsonReader*  reader) ;
+  /// @brief Method ShouldReadInto, addr 0x5c6d14c, size 0x44, virtual false, abstract: false, final false
+  inline bool ShouldReadInto(::Newtonsoft::Json::JsonReader* reader);
 
-/// @brief Method ValueAttributes, addr 0x5bf8320, size 0x2ac, virtual false, abstract: false, final false
-inline bool ValueAttributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*  c) ;
+  /// @brief Method ValueAttributes, addr 0x5c6a308, size 0x2ac, virtual false, abstract: false, final false
+  inline bool ValueAttributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* c);
 
-/// @brief Method WrapXml, addr 0x5bf4b5c, size 0x120, virtual false, abstract: false, final false
-inline ::Newtonsoft::Json::Converters::IXmlNode* WrapXml(::System::Object*  value) ;
+  /// @brief Method WrapXml, addr 0x5c66b44, size 0x120, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Converters::IXmlNode* WrapXml(::System::Object* value);
 
-/// @brief Method WriteGroupedNodes, addr 0x5bf7e60, size 0x188, virtual false, abstract: false, final false
-inline void WriteGroupedNodes(::Newtonsoft::Json::JsonWriter*  writer, ::System::Xml::XmlNamespaceManager*  manager, bool  writePropertyName, ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*  groupedNodes, ::StringW  elementNames) ;
+  /// @brief Method WriteGroupedNodes, addr 0x5c69e48, size 0x188, virtual false, abstract: false, final false
+  inline void WriteGroupedNodes(::Newtonsoft::Json::JsonWriter* writer, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName,
+                                ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* groupedNodes, ::StringW elementNames);
 
-/// @brief Method WriteGroupedNodes, addr 0x5bf7fe8, size 0xd8, virtual false, abstract: false, final false
-inline void WriteGroupedNodes(::Newtonsoft::Json::JsonWriter*  writer, ::System::Xml::XmlNamespaceManager*  manager, bool  writePropertyName, ::Newtonsoft::Json::Converters::IXmlNode*  node, ::StringW  elementNames) ;
+  /// @brief Method WriteGroupedNodes, addr 0x5c69fd0, size 0xd8, virtual false, abstract: false, final false
+  inline void WriteGroupedNodes(::Newtonsoft::Json::JsonWriter* writer, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName, ::Newtonsoft::Json::Converters::IXmlNode* node,
+                                ::StringW elementNames);
 
-/// @brief Method WriteJson, addr 0x5bf4a10, size 0x14c, virtual true, abstract: false, final false
-inline void WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
+  /// @brief Method WriteJson, addr 0x5c669f8, size 0x14c, virtual true, abstract: false, final false
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-constexpr ::StringW const& __cordl_internal_get__DeserializeRootElementName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__DeserializeRootElementName_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__DeserializeRootElementName_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__DeserializeRootElementName_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__EncodeSpecialCharacters_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__EncodeSpecialCharacters_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__EncodeSpecialCharacters_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__EncodeSpecialCharacters_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__OmitRootObject_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__OmitRootObject_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__OmitRootObject_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__OmitRootObject_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__WriteArrayAttribute_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__WriteArrayAttribute_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__WriteArrayAttribute_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__WriteArrayAttribute_k__BackingField();
 
-constexpr void __cordl_internal_set__DeserializeRootElementName_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__DeserializeRootElementName_k__BackingField(::StringW value);
 
-constexpr void __cordl_internal_set__EncodeSpecialCharacters_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__EncodeSpecialCharacters_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__OmitRootObject_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__OmitRootObject_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__WriteArrayAttribute_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__WriteArrayAttribute_k__BackingField(bool value);
 
-/// @brief Method .ctor, addr 0x5bfcae0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5c6eac8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* getStaticF_EmptyChildNodes() ;
+  static inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* getStaticF_EmptyChildNodes();
 
-/// @brief Method get_DeserializeRootElementName, addr 0x5bf49d0, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_DeserializeRootElementName() ;
+  /// @brief Method get_DeserializeRootElementName, addr 0x5c669b8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_DeserializeRootElementName();
 
-/// @brief Method get_EncodeSpecialCharacters, addr 0x5bf4a00, size 0x8, virtual false, abstract: false, final false
-inline bool get_EncodeSpecialCharacters() ;
+  /// @brief Method get_EncodeSpecialCharacters, addr 0x5c669e8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_EncodeSpecialCharacters();
 
-/// @brief Method get_OmitRootObject, addr 0x5bf49f0, size 0x8, virtual false, abstract: false, final false
-inline bool get_OmitRootObject() ;
+  /// @brief Method get_OmitRootObject, addr 0x5c669d8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_OmitRootObject();
 
-/// @brief Method get_WriteArrayAttribute, addr 0x5bf49e0, size 0x8, virtual false, abstract: false, final false
-inline bool get_WriteArrayAttribute() ;
+  /// @brief Method get_WriteArrayAttribute, addr 0x5c669c8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_WriteArrayAttribute();
 
-static inline void setStaticF_EmptyChildNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*  value) ;
+  static inline void setStaticF_EmptyChildNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
-/// @brief Method set_DeserializeRootElementName, addr 0x5bf49d8, size 0x8, virtual false, abstract: false, final false
-inline void set_DeserializeRootElementName(::StringW  value) ;
+  /// @brief Method set_DeserializeRootElementName, addr 0x5c669c0, size 0x8, virtual false, abstract: false, final false
+  inline void set_DeserializeRootElementName(::StringW value);
 
-/// @brief Method set_EncodeSpecialCharacters, addr 0x5bf4a08, size 0x8, virtual false, abstract: false, final false
-inline void set_EncodeSpecialCharacters(bool  value) ;
+  /// @brief Method set_EncodeSpecialCharacters, addr 0x5c669f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_EncodeSpecialCharacters(bool value);
 
-/// @brief Method set_OmitRootObject, addr 0x5bf49f8, size 0x8, virtual false, abstract: false, final false
-inline void set_OmitRootObject(bool  value) ;
+  /// @brief Method set_OmitRootObject, addr 0x5c669e0, size 0x8, virtual false, abstract: false, final false
+  inline void set_OmitRootObject(bool value);
 
-/// @brief Method set_WriteArrayAttribute, addr 0x5bf49e8, size 0x8, virtual false, abstract: false, final false
-inline void set_WriteArrayAttribute(bool  value) ;
+  /// @brief Method set_WriteArrayAttribute, addr 0x5c669d0, size 0x8, virtual false, abstract: false, final false
+  inline void set_WriteArrayAttribute(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlNodeConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlNodeConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlNodeConverter(XmlNodeConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlNodeConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlNodeConverter(XmlNodeConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlNodeConverter(XmlNodeConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlNodeConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlNodeConverter(XmlNodeConverter const& ) = delete;
+  /// @brief Field CDataName offset 0xffffffff size 0x8
+  static constexpr ::ConstString CDataName{ u"#cdata-section" };
 
-/// @brief Field CDataName offset 0xffffffff size 0x8
-static constexpr ::ConstString  CDataName{u"#cdata-section"};
+  /// @brief Field CommentName offset 0xffffffff size 0x8
+  static constexpr ::ConstString CommentName{ u"#comment" };
 
-/// @brief Field CommentName offset 0xffffffff size 0x8
-static constexpr ::ConstString  CommentName{u"#comment"};
+  /// @brief Field DeclarationName offset 0xffffffff size 0x8
+  static constexpr ::ConstString DeclarationName{ u"?xml" };
 
-/// @brief Field DeclarationName offset 0xffffffff size 0x8
-static constexpr ::ConstString  DeclarationName{u"?xml"};
+  /// @brief Field JsonNamespaceUri offset 0xffffffff size 0x8
+  static constexpr ::ConstString JsonNamespaceUri{ u"http://james.newtonking.com/projects/json" };
 
-/// @brief Field JsonNamespaceUri offset 0xffffffff size 0x8
-static constexpr ::ConstString  JsonNamespaceUri{u"http://james.newtonking.com/projects/json"};
+  /// @brief Field SignificantWhitespaceName offset 0xffffffff size 0x8
+  static constexpr ::ConstString SignificantWhitespaceName{ u"#significant-whitespace" };
 
-/// @brief Field SignificantWhitespaceName offset 0xffffffff size 0x8
-static constexpr ::ConstString  SignificantWhitespaceName{u"#significant-whitespace"};
+  /// @brief Field TextName offset 0xffffffff size 0x8
+  static constexpr ::ConstString TextName{ u"#text" };
 
-/// @brief Field TextName offset 0xffffffff size 0x8
-static constexpr ::ConstString  TextName{u"#text"};
+  /// @brief Field WhitespaceName offset 0xffffffff size 0x8
+  static constexpr ::ConstString WhitespaceName{ u"#whitespace" };
 
-/// @brief Field WhitespaceName offset 0xffffffff size 0x8
-static constexpr ::ConstString  WhitespaceName{u"#whitespace"};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13673 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13666};
+  /// @brief Field <DeserializeRootElementName>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____DeserializeRootElementName_k__BackingField;
 
-/// @brief Field <DeserializeRootElementName>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____DeserializeRootElementName_k__BackingField;
+  /// @brief Field <WriteArrayAttribute>k__BackingField, offset: 0x18, size: 0x1, def value: None
+  bool ____WriteArrayAttribute_k__BackingField;
 
-/// @brief Field <WriteArrayAttribute>k__BackingField, offset: 0x18, size: 0x1, def value: None
- bool  ____WriteArrayAttribute_k__BackingField;
+  /// @brief Field <OmitRootObject>k__BackingField, offset: 0x19, size: 0x1, def value: None
+  bool ____OmitRootObject_k__BackingField;
 
-/// @brief Field <OmitRootObject>k__BackingField, offset: 0x19, size: 0x1, def value: None
- bool  ____OmitRootObject_k__BackingField;
+  /// @brief Field <EncodeSpecialCharacters>k__BackingField, offset: 0x1a, size: 0x1, def value: None
+  bool ____EncodeSpecialCharacters_k__BackingField;
 
-/// @brief Field <EncodeSpecialCharacters>k__BackingField, offset: 0x1a, size: 0x1, def value: None
- bool  ____EncodeSpecialCharacters_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Converters::XmlNodeConverter, ____DeserializeRootElementName_k__BackingField) == 0x10, "Offset mismatch!");
@@ -287,6 +298,6 @@ static_assert(offsetof(::Newtonsoft::Json::Converters::XmlNodeConverter, ____Enc
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XmlNodeConverter, 0x20>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Converters
+} // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlNodeConverter);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlNodeConverter*, "Newtonsoft.Json.Converters", "XmlNodeConverter");

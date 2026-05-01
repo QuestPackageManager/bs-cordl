@@ -30,57 +30,65 @@ namespace GlobalNamespace {
 // CS Name: ColorSchemeNetSerializable
 struct CORDL_TYPE ColorSchemeNetSerializable {
 public:
-// Declarations
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr operator  ::LiteNetLib::Utils::INetSerializable*() ;
+  // Declarations
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-/// @brief Method Deserialize, addr 0x31d3218, size 0x80, virtual true, abstract: false, final true
-inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
+  /// @brief Method Deserialize, addr 0x320ee80, size 0x80, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-/// @brief Method Serialize, addr 0x31d3198, size 0x80, virtual true, abstract: false, final true
-inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
+  /// @brief Method Serialize, addr 0x320ee00, size 0x80, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-/// @brief Method .ctor, addr 0x31d315c, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Color  saberAColor, ::UnityEngine::Color  saberBColor, ::UnityEngine::Color  obstaclesColor, ::UnityEngine::Color  environmentColor0, ::UnityEngine::Color  environmentColor1, ::UnityEngine::Color  environmentColor0Boost, ::UnityEngine::Color  environmentColor1Boost) ;
+  /// @brief Method .ctor, addr 0x320edc4, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
+                    ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() ;
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColorSchemeNetSerializable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSchemeNetSerializable();
 
-// Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }]
-constexpr ColorSchemeNetSerializable(::GlobalNamespace::ColorNoAlphaSerializable  saberAColor, ::GlobalNamespace::ColorNoAlphaSerializable  saberBColor, ::GlobalNamespace::ColorNoAlphaSerializable  obstaclesColor, ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor0, ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor1, ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor0Boost, ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor1Boost) noexcept;
+  // Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty:
+  // "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value:
+  // None }, CppParam { name: "environmentColor0", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty:
+  // "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "",
+  // def_value: None }, CppParam { name: "environmentColor1Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }]
+  constexpr ColorSchemeNetSerializable(::GlobalNamespace::ColorNoAlphaSerializable saberAColor, ::GlobalNamespace::ColorNoAlphaSerializable saberBColor,
+                                       ::GlobalNamespace::ColorNoAlphaSerializable obstaclesColor, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0,
+                                       ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0Boost,
+                                       ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18817};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18827 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x70};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
-/// @brief Field saberAColor, offset: 0x0, size: 0x10, def value: None
- ::GlobalNamespace::ColorNoAlphaSerializable  saberAColor;
+  /// @brief Field saberAColor, offset: 0x0, size: 0x10, def value: None
+  ::GlobalNamespace::ColorNoAlphaSerializable saberAColor;
 
-/// @brief Field saberBColor, offset: 0x10, size: 0x10, def value: None
- ::GlobalNamespace::ColorNoAlphaSerializable  saberBColor;
+  /// @brief Field saberBColor, offset: 0x10, size: 0x10, def value: None
+  ::GlobalNamespace::ColorNoAlphaSerializable saberBColor;
 
-/// @brief Field obstaclesColor, offset: 0x20, size: 0x10, def value: None
- ::GlobalNamespace::ColorNoAlphaSerializable  obstaclesColor;
+  /// @brief Field obstaclesColor, offset: 0x20, size: 0x10, def value: None
+  ::GlobalNamespace::ColorNoAlphaSerializable obstaclesColor;
 
-/// @brief Field environmentColor0, offset: 0x30, size: 0x10, def value: None
- ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor0;
+  /// @brief Field environmentColor0, offset: 0x30, size: 0x10, def value: None
+  ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0;
 
-/// @brief Field environmentColor1, offset: 0x40, size: 0x10, def value: None
- ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor1;
+  /// @brief Field environmentColor1, offset: 0x40, size: 0x10, def value: None
+  ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1;
 
-/// @brief Field environmentColor0Boost, offset: 0x50, size: 0x10, def value: None
- ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor0Boost;
+  /// @brief Field environmentColor0Boost, offset: 0x50, size: 0x10, def value: None
+  ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0Boost;
 
-/// @brief Field environmentColor1Boost, offset: 0x60, size: 0x10, def value: None
- ::GlobalNamespace::ColorNoAlphaSerializable  environmentColor1Boost;
+  /// @brief Field environmentColor1Boost, offset: 0x60, size: 0x10, def value: None
+  ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, saberAColor) == 0x0, "Offset mismatch!");
@@ -99,5 +107,5 @@ static_assert(offsetof(::GlobalNamespace::ColorSchemeNetSerializable, environmen
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeNetSerializable, 0x70>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");

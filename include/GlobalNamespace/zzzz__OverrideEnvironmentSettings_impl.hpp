@@ -6,162 +6,136 @@
 #include "GlobalNamespace/zzzz__EnvironmentType_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OverrideEnvironmentSettings.get_overrideEnvironments
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OverrideEnvironmentSettings::*)()>(&::GlobalNamespace::OverrideEnvironmentSettings::get_overrideEnvironments)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OverrideEnvironmentSettings::*)()>(
+    &::GlobalNamespace::OverrideEnvironmentSettings::get_overrideEnvironments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x364895c;
+  constexpr static std::size_t addrs = 0x3685348;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "get_overrideEnvironments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
+                                                                               "get_overrideEnvironments", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OverrideEnvironmentSettings.set_overrideEnvironments
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OverrideEnvironmentSettings::*)(bool)>(&::GlobalNamespace::OverrideEnvironmentSettings::set_overrideEnvironments)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OverrideEnvironmentSettings::*)(bool)>(
+    &::GlobalNamespace::OverrideEnvironmentSettings::set_overrideEnvironments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3648964;
+  constexpr static std::size_t addrs = 0x3685350;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "set_overrideEnvironments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "set_overrideEnvironments",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OverrideEnvironmentSettings.SetEnvironmentInfoForType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OverrideEnvironmentSettings::*)(::GlobalNamespace::EnvironmentType, ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OverrideEnvironmentSettings::*)(
+    ::GlobalNamespace::EnvironmentType, ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x364896c;
+  constexpr static std::size_t addrs = 0x3685358;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "SetEnvironmentInfoForType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "SetEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OverrideEnvironmentSettings.GetOverrideEnvironmentInfoForType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::OverrideEnvironmentSettings::*)(::GlobalNamespace::EnvironmentType)>(&::GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::OverrideEnvironmentSettings::*)(
+    ::GlobalNamespace::EnvironmentType)>(&::GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x36489e8;
+  constexpr static std::size_t addrs = 0x36853d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "GetOverrideEnvironmentInfoForType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "GetOverrideEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OverrideEnvironmentSettings._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OverrideEnvironmentSettings::*)()>(&::GlobalNamespace::OverrideEnvironmentSettings::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3648a44;
+  constexpr static std::size_t addrs = 0x3685430;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__overrideEnvironments()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____overrideEnvironments;
+constexpr bool& GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__overrideEnvironments() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____overrideEnvironments;
 }
 constexpr bool const& GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__overrideEnvironments() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____overrideEnvironments;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____overrideEnvironments;
 }
-constexpr void GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_set__overrideEnvironments(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____overrideEnvironments = value;
+constexpr void GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_set__overrideEnvironments(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____overrideEnvironments = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType,::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__data()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____data;
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*&
+GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__data() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____data;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType,::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const& GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__data() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____data;
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const&
+GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_get__data() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____data;
 }
-constexpr void GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_set__data(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType,::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OverrideEnvironmentSettings::__cordl_internal_set__data(
+    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline bool GlobalNamespace::OverrideEnvironmentSettings::get_overrideEnvironments()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "get_overrideEnvironments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::OverrideEnvironmentSettings::get_overrideEnvironments() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
+                                                                             "get_overrideEnvironments", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OverrideEnvironmentSettings::set_overrideEnvironments(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "set_overrideEnvironments",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OverrideEnvironmentSettings::set_overrideEnvironments(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "set_overrideEnvironments",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentType  environmentType, ::GlobalNamespace::EnvironmentInfoSO*  environmentInfo)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "SetEnvironmentInfoForType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, environmentType, environmentInfo);
+inline void GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "SetEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, environmentType, environmentInfo);
 }
-inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentType  environmentType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        "GetOverrideEnvironmentInfoForType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, false>(this, ___internal_method, environmentType);
+inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), "GetOverrideEnvironmentInfoForType", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, false>(this, ___internal_method, environmentType);
 }
-inline void GlobalNamespace::OverrideEnvironmentSettings::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OverrideEnvironmentSettings::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OverrideEnvironmentSettings*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OverrideEnvironmentSettings* GlobalNamespace::OverrideEnvironmentSettings::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OverrideEnvironmentSettings*>());
+inline ::GlobalNamespace::OverrideEnvironmentSettings* GlobalNamespace::OverrideEnvironmentSettings::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OverrideEnvironmentSettings*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OverrideEnvironmentSettings::OverrideEnvironmentSettings()   {
-}
+constexpr ::GlobalNamespace::OverrideEnvironmentSettings::OverrideEnvironmentSettings() {}

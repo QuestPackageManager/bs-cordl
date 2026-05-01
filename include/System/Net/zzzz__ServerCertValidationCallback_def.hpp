@@ -43,90 +43,93 @@ namespace System::Net {
 // CS Name: System.Net.ServerCertValidationCallback/CallbackContext
 class CORDL_TYPE ServerCertValidationCallback_CallbackContext : public ::System::Object {
 public:
-// Declarations
-/// @brief Field certificate, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_certificate, put=__cordl_internal_set_certificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate;
+  // Declarations
+  /// @brief Field certificate, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate;
 
-/// @brief Field chain, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_chain, put=__cordl_internal_set_chain)) ::System::Security::Cryptography::X509Certificates::X509Chain*  chain;
+  /// @brief Field chain, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_chain, put = __cordl_internal_set_chain)) ::System::Security::Cryptography::X509Certificates::X509Chain* chain;
 
-/// @brief Field request, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_request, put=__cordl_internal_set_request)) ::System::Object*  request;
+  /// @brief Field request, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::System::Object* request;
 
-/// @brief Field result, offset 0x2c, size 0x1 
- __declspec(property(get=__cordl_internal_get_result, put=__cordl_internal_set_result)) bool  result;
+  /// @brief Field result, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result)) bool result;
 
-/// @brief Field sslPolicyErrors, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get_sslPolicyErrors, put=__cordl_internal_set_sslPolicyErrors)) ::System::Net::Security::SslPolicyErrors  sslPolicyErrors;
+  /// @brief Field sslPolicyErrors, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_sslPolicyErrors, put = __cordl_internal_set_sslPolicyErrors)) ::System::Net::Security::SslPolicyErrors sslPolicyErrors;
 
-static inline ::System::Net::ServerCertValidationCallback_CallbackContext* New_ctor(::System::Object*  request, ::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain, ::System::Net::Security::SslPolicyErrors  sslPolicyErrors) ;
+  static inline ::System::Net::ServerCertValidationCallback_CallbackContext* New_ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
+                                                                                      ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
+                                                                                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate* const& __cordl_internal_get_certificate() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate* const& __cordl_internal_get_certificate() const;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_certificate() ;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_certificate();
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509Chain* const& __cordl_internal_get_chain() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Chain* const& __cordl_internal_get_chain() const;
 
-constexpr ::System::Security::Cryptography::X509Certificates::X509Chain*& __cordl_internal_get_chain() ;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Chain*& __cordl_internal_get_chain();
 
-constexpr ::System::Object* const& __cordl_internal_get_request() const;
+  constexpr ::System::Object* const& __cordl_internal_get_request() const;
 
-constexpr ::System::Object*& __cordl_internal_get_request() ;
+  constexpr ::System::Object*& __cordl_internal_get_request();
 
-constexpr bool const& __cordl_internal_get_result() const;
+  constexpr bool const& __cordl_internal_get_result() const;
 
-constexpr bool& __cordl_internal_get_result() ;
+  constexpr bool& __cordl_internal_get_result();
 
-constexpr ::System::Net::Security::SslPolicyErrors const& __cordl_internal_get_sslPolicyErrors() const;
+  constexpr ::System::Net::Security::SslPolicyErrors const& __cordl_internal_get_sslPolicyErrors() const;
 
-constexpr ::System::Net::Security::SslPolicyErrors& __cordl_internal_get_sslPolicyErrors() ;
+  constexpr ::System::Net::Security::SslPolicyErrors& __cordl_internal_get_sslPolicyErrors();
 
-constexpr void __cordl_internal_set_certificate(::System::Security::Cryptography::X509Certificates::X509Certificate*  value) ;
+  constexpr void __cordl_internal_set_certificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
-constexpr void __cordl_internal_set_chain(::System::Security::Cryptography::X509Certificates::X509Chain*  value) ;
+  constexpr void __cordl_internal_set_chain(::System::Security::Cryptography::X509Certificates::X509Chain* value);
 
-constexpr void __cordl_internal_set_request(::System::Object*  value) ;
+  constexpr void __cordl_internal_set_request(::System::Object* value);
 
-constexpr void __cordl_internal_set_result(bool  value) ;
+  constexpr void __cordl_internal_set_result(bool value);
 
-constexpr void __cordl_internal_set_sslPolicyErrors(::System::Net::Security::SslPolicyErrors  value) ;
+  constexpr void __cordl_internal_set_sslPolicyErrors(::System::Net::Security::SslPolicyErrors value);
 
-/// @brief Method .ctor, addr 0x6271e4c, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  request, ::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain, ::System::Net::Security::SslPolicyErrors  sslPolicyErrors) ;
+  /// @brief Method .ctor, addr 0x62e3e58, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
+                    ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ServerCertValidationCallback_CallbackContext() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerCertValidationCallback_CallbackContext();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11556 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11549};
+  /// @brief Field request, offset: 0x10, size: 0x8, def value: None
+  ::System::Object* ___request;
 
-/// @brief Field request, offset: 0x10, size: 0x8, def value: None
- ::System::Object*  ___request;
+  /// @brief Field certificate, offset: 0x18, size: 0x8, def value: None
+  ::System::Security::Cryptography::X509Certificates::X509Certificate* ___certificate;
 
-/// @brief Field certificate, offset: 0x18, size: 0x8, def value: None
- ::System::Security::Cryptography::X509Certificates::X509Certificate*  ___certificate;
+  /// @brief Field chain, offset: 0x20, size: 0x8, def value: None
+  ::System::Security::Cryptography::X509Certificates::X509Chain* ___chain;
 
-/// @brief Field chain, offset: 0x20, size: 0x8, def value: None
- ::System::Security::Cryptography::X509Certificates::X509Chain*  ___chain;
+  /// @brief Field sslPolicyErrors, offset: 0x28, size: 0x4, def value: None
+  ::System::Net::Security::SslPolicyErrors ___sslPolicyErrors;
 
-/// @brief Field sslPolicyErrors, offset: 0x28, size: 0x4, def value: None
- ::System::Net::Security::SslPolicyErrors  ___sslPolicyErrors;
+  /// @brief Field result, offset: 0x2c, size: 0x1, def value: None
+  bool ___result;
 
-/// @brief Field result, offset: 0x2c, size: 0x1, def value: None
- bool  ___result;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::ServerCertValidationCallback_CallbackContext, ___request) == 0x10, "Offset mismatch!");
@@ -141,74 +144,76 @@ static_assert(offsetof(::System::Net::ServerCertValidationCallback_CallbackConte
 
 static_assert(::cordl_internals::size_check_v<::System::Net::ServerCertValidationCallback_CallbackContext, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.ServerCertValidationCallback
 class CORDL_TYPE ServerCertValidationCallback : public ::System::Object {
 public:
-// Declarations
-using CallbackContext = ::System::Net::ServerCertValidationCallback_CallbackContext;
+  // Declarations
+  using CallbackContext = ::System::Net::ServerCertValidationCallback_CallbackContext;
 
- __declspec(property(get=get_ValidationCallback)) ::System::Net::Security::RemoteCertificateValidationCallback*  ValidationCallback;
+  __declspec(property(get = get_ValidationCallback)) ::System::Net::Security::RemoteCertificateValidationCallback* ValidationCallback;
 
-/// @brief Field m_Context, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Context, put=__cordl_internal_set_m_Context)) ::System::Threading::ExecutionContext*  m_Context;
+  /// @brief Field m_Context, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context)) ::System::Threading::ExecutionContext* m_Context;
 
-/// @brief Field m_ValidationCallback, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_ValidationCallback, put=__cordl_internal_set_m_ValidationCallback)) ::System::Net::Security::RemoteCertificateValidationCallback*  m_ValidationCallback;
+  /// @brief Field m_ValidationCallback, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ValidationCallback,
+                      put = __cordl_internal_set_m_ValidationCallback)) ::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback;
 
-/// @brief Method Callback, addr 0x6271c38, size 0xb8, virtual false, abstract: false, final false
-inline void Callback(::System::Object*  state) ;
+  /// @brief Method Callback, addr 0x62e3c44, size 0xb8, virtual false, abstract: false, final false
+  inline void Callback(::System::Object* state);
 
-/// @brief Method Invoke, addr 0x6271cf0, size 0x15c, virtual false, abstract: false, final false
-inline bool Invoke(::System::Object*  request, ::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain, ::System::Net::Security::SslPolicyErrors  sslPolicyErrors) ;
+  /// @brief Method Invoke, addr 0x62e3cfc, size 0x15c, virtual false, abstract: false, final false
+  inline bool Invoke(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
+                     ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
-static inline ::System::Net::ServerCertValidationCallback* New_ctor(::System::Net::Security::RemoteCertificateValidationCallback*  validationCallback) ;
+  static inline ::System::Net::ServerCertValidationCallback* New_ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
 
-constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get_m_Context() const;
+  constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get_m_Context() const;
 
-constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_Context() ;
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_Context();
 
-constexpr ::System::Net::Security::RemoteCertificateValidationCallback* const& __cordl_internal_get_m_ValidationCallback() const;
+  constexpr ::System::Net::Security::RemoteCertificateValidationCallback* const& __cordl_internal_get_m_ValidationCallback() const;
 
-constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __cordl_internal_get_m_ValidationCallback() ;
+  constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __cordl_internal_get_m_ValidationCallback();
 
-constexpr void __cordl_internal_set_m_Context(::System::Threading::ExecutionContext*  value) ;
+  constexpr void __cordl_internal_set_m_Context(::System::Threading::ExecutionContext* value);
 
-constexpr void __cordl_internal_set_m_ValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback*  value) ;
+  constexpr void __cordl_internal_set_m_ValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-/// @brief Method .ctor, addr 0x6271bc0, size 0x70, virtual false, abstract: false, final false
-inline void _ctor(::System::Net::Security::RemoteCertificateValidationCallback*  validationCallback) ;
+  /// @brief Method .ctor, addr 0x62e3bcc, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
 
-/// @brief Method get_ValidationCallback, addr 0x6271c30, size 0x8, virtual false, abstract: false, final false
-inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ValidationCallback() ;
+  /// @brief Method get_ValidationCallback, addr 0x62e3c3c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ValidationCallback();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ServerCertValidationCallback() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerCertValidationCallback();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ServerCertValidationCallback(ServerCertValidationCallback&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ServerCertValidationCallback(ServerCertValidationCallback && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ServerCertValidationCallback(ServerCertValidationCallback const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ServerCertValidationCallback(ServerCertValidationCallback const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11557 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11550};
+  /// @brief Field m_ValidationCallback, offset: 0x10, size: 0x8, def value: None
+  ::System::Net::Security::RemoteCertificateValidationCallback* ___m_ValidationCallback;
 
-/// @brief Field m_ValidationCallback, offset: 0x10, size: 0x8, def value: None
- ::System::Net::Security::RemoteCertificateValidationCallback*  ___m_ValidationCallback;
+  /// @brief Field m_Context, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::ExecutionContext* ___m_Context;
 
-/// @brief Field m_Context, offset: 0x18, size: 0x8, def value: None
- ::System::Threading::ExecutionContext*  ___m_Context;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::ServerCertValidationCallback, ___m_ValidationCallback) == 0x10, "Offset mismatch!");
@@ -217,7 +222,7 @@ static_assert(offsetof(::System::Net::ServerCertValidationCallback, ___m_Context
 
 static_assert(::cordl_internals::size_check_v<::System::Net::ServerCertValidationCallback, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 NEED_NO_BOX(::System::Net::ServerCertValidationCallback);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServerCertValidationCallback*, "System.Net", "ServerCertValidationCallback");
 NEED_NO_BOX(::System::Net::ServerCertValidationCallback_CallbackContext);

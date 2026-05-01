@@ -26,54 +26,54 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.NumericConvertInstruction/Checked
 class CORDL_TYPE NumericConvertInstruction_Checked : public ::System::Linq::Expressions::Interpreter::NumericConvertInstruction {
 public:
-// Declarations
- __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
+  // Declarations
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
-/// @brief Method Convert, addr 0x5e063c4, size 0x278, virtual true, abstract: false, final false
-inline ::System::Object* Convert(::System::Object*  obj) ;
+  /// @brief Method Convert, addr 0x5e783d0, size 0x278, virtual true, abstract: false, final false
+  inline ::System::Object* Convert(::System::Object* obj);
 
-/// @brief Method ConvertDouble, addr 0x5e06d2c, size 0x33c, virtual false, abstract: false, final false
-inline ::System::Object* ConvertDouble(double_t  obj) ;
+  /// @brief Method ConvertDouble, addr 0x5e78d38, size 0x33c, virtual false, abstract: false, final false
+  inline ::System::Object* ConvertDouble(double_t obj);
 
-/// @brief Method ConvertInt32, addr 0x5e0663c, size 0x220, virtual false, abstract: false, final false
-inline ::System::Object* ConvertInt32(int32_t  obj) ;
+  /// @brief Method ConvertInt32, addr 0x5e78648, size 0x220, virtual false, abstract: false, final false
+  inline ::System::Object* ConvertInt32(int32_t obj);
 
-/// @brief Method ConvertInt64, addr 0x5e0685c, size 0x270, virtual false, abstract: false, final false
-inline ::System::Object* ConvertInt64(int64_t  obj) ;
+  /// @brief Method ConvertInt64, addr 0x5e78868, size 0x270, virtual false, abstract: false, final false
+  inline ::System::Object* ConvertInt64(int64_t obj);
 
-/// @brief Method ConvertUInt64, addr 0x5e06acc, size 0x260, virtual false, abstract: false, final false
-inline ::System::Object* ConvertUInt64(uint64_t  obj) ;
+  /// @brief Method ConvertUInt64, addr 0x5e78ad8, size 0x260, virtual false, abstract: false, final false
+  inline ::System::Object* ConvertUInt64(uint64_t obj);
 
-static inline ::GlobalNamespace::NumericConvertInstruction_Checked* New_ctor(::System::TypeCode  from, ::System::TypeCode  to, bool  isLiftedToNull) ;
+  static inline ::GlobalNamespace::NumericConvertInstruction_Checked* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-/// @brief Method .ctor, addr 0x5e063b8, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::System::TypeCode  from, ::System::TypeCode  to, bool  isLiftedToNull) ;
+  /// @brief Method .ctor, addr 0x5e783c4, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-/// @brief Method get_InstructionName, addr 0x5e06374, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_InstructionName() ;
+  /// @brief Method get_InstructionName, addr 0x5e78380, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_InstructionName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NumericConvertInstruction_Checked() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NumericConvertInstruction_Checked();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Checked", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NumericConvertInstruction_Checked(NumericConvertInstruction_Checked&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Checked", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NumericConvertInstruction_Checked(NumericConvertInstruction_Checked && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Checked", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NumericConvertInstruction_Checked(NumericConvertInstruction_Checked const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_Checked", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NumericConvertInstruction_Checked(NumericConvertInstruction_Checked const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16534 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16526};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NumericConvertInstruction_Checked, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NumericConvertInstruction_Checked);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NumericConvertInstruction_Checked*, "System.Linq.Expressions.Interpreter", "NumericConvertInstruction/Checked");

@@ -23,57 +23,57 @@ namespace BeatSaber::AvatarCore {
 // CS Name: BeatSaber.AvatarCore.ConnectedPlayerName
 class CORDL_TYPE ConnectedPlayerName : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _connectedPlayer, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__connectedPlayer, put=__cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer*  _connectedPlayer;
+  // Declarations
+  /// @brief Field _connectedPlayer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
-/// @brief Field _nameText, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__nameText, put=__cordl_internal_set__nameText)) ::UnityW<::TMPro::TextMeshProUGUI>  _nameText;
+  /// @brief Field _nameText, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText)) ::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor() ;
+  static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-/// @brief Method Start, addr 0x319f954, size 0xc8, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x31d645c, size 0xc8, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer() ;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText() ;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
-constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer*  value) ;
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
-constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-/// @brief Method .ctor, addr 0x319fa1c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x31d6524, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConnectedPlayerName() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConnectedPlayerName();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerName", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConnectedPlayerName(ConnectedPlayerName&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerName", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConnectedPlayerName(ConnectedPlayerName && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerName", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConnectedPlayerName(ConnectedPlayerName const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerName", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConnectedPlayerName(ConnectedPlayerName const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21443 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21432};
+  /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
-/// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::TMPro::TextMeshProUGUI>  ____nameText;
+  /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
-/// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
- ::GlobalNamespace::IBeatSaberConnectedPlayer*  ____connectedPlayer;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerName, ____nameText) == 0x20, "Offset mismatch!");
@@ -82,6 +82,6 @@ static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerName, ____connect
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::ConnectedPlayerName, 0x30>, "Size mismatch!");
 
-} // namespace end def BeatSaber::AvatarCore
+} // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::ConnectedPlayerName);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::ConnectedPlayerName*, "BeatSaber.AvatarCore", "ConnectedPlayerName");

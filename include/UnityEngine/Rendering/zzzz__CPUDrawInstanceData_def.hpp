@@ -14,16 +14,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CPUDrawInstanceData)
 namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template<typename T>
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 namespace Unity::Collections {
-template<typename TKey,typename TValue>
-struct NativeParallelHashMap_2;
+template <typename TKey, typename TValue> struct NativeParallelHashMap_2;
 }
 namespace UnityEngine::Rendering {
 struct DrawBatch;
@@ -49,193 +46,197 @@ class CPUDrawInstanceData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Rendering::CPUDrawInstanceData);
-// Dependencies System.Object, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.DrawBatch, UnityEngine.Rendering.DrawInstance, UnityEngine.Rendering.DrawKey, UnityEngine.Rendering.DrawRange, UnityEngine.Rendering.RangeKey
+// Dependencies System.Object, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.DrawBatch, UnityEngine.Rendering.DrawInstance,
+// UnityEngine.Rendering.DrawKey, UnityEngine.Rendering.DrawRange, UnityEngine.Rendering.RangeKey
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.CPUDrawInstanceData
 class CORDL_TYPE CPUDrawInstanceData : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_batchHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>  batchHash;
+  // Declarations
+  __declspec(property(get = get_batchHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> batchHash;
 
- __declspec(property(get=get_drawBatchIndices)) ::Unity::Collections::NativeArray_1<int32_t>  drawBatchIndices;
+  __declspec(property(get = get_drawBatchIndices)) ::Unity::Collections::NativeArray_1<int32_t> drawBatchIndices;
 
- __declspec(property(get=get_drawBatches)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>  drawBatches;
+  __declspec(property(get = get_drawBatches)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches;
 
- __declspec(property(get=get_drawInstanceIndices)) ::Unity::Collections::NativeArray_1<int32_t>  drawInstanceIndices;
+  __declspec(property(get = get_drawInstanceIndices)) ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices;
 
- __declspec(property(get=get_drawInstances)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>  drawInstances;
+  __declspec(property(get = get_drawInstances)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances;
 
- __declspec(property(get=get_drawRanges)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>  drawRanges;
+  __declspec(property(get = get_drawRanges)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> drawRanges;
 
-/// @brief Field m_BatchHash, offset 0x28, size 0x10 
- __declspec(property(get=__cordl_internal_get_m_BatchHash, put=__cordl_internal_set_m_BatchHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>  m_BatchHash;
+  /// @brief Field m_BatchHash, offset 0x28, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_BatchHash, put = __cordl_internal_set_m_BatchHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>
+      m_BatchHash;
 
-/// @brief Field m_DrawBatchIndices, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DrawBatchIndices, put=__cordl_internal_set_m_DrawBatchIndices)) ::Unity::Collections::NativeList_1<int32_t>  m_DrawBatchIndices;
+  /// @brief Field m_DrawBatchIndices, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DrawBatchIndices, put = __cordl_internal_set_m_DrawBatchIndices)) ::Unity::Collections::NativeList_1<int32_t> m_DrawBatchIndices;
 
-/// @brief Field m_DrawBatches, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DrawBatches, put=__cordl_internal_set_m_DrawBatches)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>  m_DrawBatches;
+  /// @brief Field m_DrawBatches, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DrawBatches, put = __cordl_internal_set_m_DrawBatches)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> m_DrawBatches;
 
-/// @brief Field m_DrawInstanceIndices, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DrawInstanceIndices, put=__cordl_internal_set_m_DrawInstanceIndices)) ::Unity::Collections::NativeList_1<int32_t>  m_DrawInstanceIndices;
+  /// @brief Field m_DrawInstanceIndices, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DrawInstanceIndices, put = __cordl_internal_set_m_DrawInstanceIndices)) ::Unity::Collections::NativeList_1<int32_t> m_DrawInstanceIndices;
 
-/// @brief Field m_DrawInstances, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DrawInstances, put=__cordl_internal_set_m_DrawInstances)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>  m_DrawInstances;
+  /// @brief Field m_DrawInstances, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DrawInstances, put = __cordl_internal_set_m_DrawInstances)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>
+      m_DrawInstances;
 
-/// @brief Field m_DrawRanges, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DrawRanges, put=__cordl_internal_set_m_DrawRanges)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>  m_DrawRanges;
+  /// @brief Field m_DrawRanges, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DrawRanges, put = __cordl_internal_set_m_DrawRanges)) ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> m_DrawRanges;
 
-/// @brief Field m_NeedsRebuild, offset 0x58, size 0x1 
- __declspec(property(get=__cordl_internal_get_m_NeedsRebuild, put=__cordl_internal_set_m_NeedsRebuild)) bool  m_NeedsRebuild;
+  /// @brief Field m_NeedsRebuild, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_NeedsRebuild, put = __cordl_internal_set_m_NeedsRebuild)) bool m_NeedsRebuild;
 
-/// @brief Field m_RangeHash, offset 0x10, size 0x10 
- __declspec(property(get=__cordl_internal_get_m_RangeHash, put=__cordl_internal_set_m_RangeHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>  m_RangeHash;
+  /// @brief Field m_RangeHash, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_RangeHash, put = __cordl_internal_set_m_RangeHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>
+      m_RangeHash;
 
- __declspec(property(get=get_rangeHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>  rangeHash;
+  __declspec(property(get = get_rangeHash)) ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> rangeHash;
 
- __declspec(property(get=get_valid)) bool  valid;
+  __declspec(property(get = get_valid)) bool valid;
 
-/// @brief Method DestroyDrawInstanceIndices, addr 0x66673ac, size 0xc8, virtual false, abstract: false, final false
-inline void DestroyDrawInstanceIndices(::Unity::Collections::NativeArray_1<int32_t>  drawInstanceIndicesToDestroy) ;
+  /// @brief Method DestroyDrawInstanceIndices, addr 0x66d93b8, size 0xc8, virtual false, abstract: false, final false
+  inline void DestroyDrawInstanceIndices(::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndicesToDestroy);
 
-/// @brief Method DestroyDrawInstances, addr 0x6667474, size 0x2dc, virtual false, abstract: false, final false
-inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>  destroyedInstances) ;
+  /// @brief Method DestroyDrawInstances, addr 0x66d9480, size 0x2dc, virtual false, abstract: false, final false
+  inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> destroyedInstances);
 
-/// @brief Method DestroyMaterialDrawInstances, addr 0x666775c, size 0x2dc, virtual false, abstract: false, final false
-inline void DestroyMaterialDrawInstances(::Unity::Collections::NativeArray_1<uint32_t>  destroyedBatchMaterials) ;
+  /// @brief Method DestroyMaterialDrawInstances, addr 0x66d9768, size 0x2dc, virtual false, abstract: false, final false
+  inline void DestroyMaterialDrawInstances(::Unity::Collections::NativeArray_1<uint32_t> destroyedBatchMaterials);
 
-/// @brief Method Dispose, addr 0x6666f1c, size 0x200, virtual false, abstract: false, final false
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x66d8f28, size 0x200, virtual false, abstract: false, final false
+  inline void Dispose();
 
-/// @brief Method Initialize, addr 0x6666d80, size 0x19c, virtual false, abstract: false, final false
-inline void Initialize() ;
+  /// @brief Method Initialize, addr 0x66d8d8c, size 0x19c, virtual false, abstract: false, final false
+  inline void Initialize();
 
-/// @brief Method NeedsRebuild, addr 0x6667750, size 0xc, virtual false, abstract: false, final false
-inline void NeedsRebuild() ;
+  /// @brief Method NeedsRebuild, addr 0x66d975c, size 0xc, virtual false, abstract: false, final false
+  inline void NeedsRebuild();
 
-static inline ::UnityEngine::Rendering::CPUDrawInstanceData* New_ctor() ;
+  static inline ::UnityEngine::Rendering::CPUDrawInstanceData* New_ctor();
 
-/// @brief Method RebuildDrawListsIfNeeded, addr 0x666711c, size 0x290, virtual false, abstract: false, final false
-inline void RebuildDrawListsIfNeeded() ;
+  /// @brief Method RebuildDrawListsIfNeeded, addr 0x66d9128, size 0x290, virtual false, abstract: false, final false
+  inline void RebuildDrawListsIfNeeded();
 
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t> const& __cordl_internal_get_m_BatchHash() const;
+  constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> const& __cordl_internal_get_m_BatchHash() const;
 
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>& __cordl_internal_get_m_BatchHash() ;
+  constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>& __cordl_internal_get_m_BatchHash();
 
-constexpr ::Unity::Collections::NativeList_1<int32_t> const& __cordl_internal_get_m_DrawBatchIndices() const;
+  constexpr ::Unity::Collections::NativeList_1<int32_t> const& __cordl_internal_get_m_DrawBatchIndices() const;
 
-constexpr ::Unity::Collections::NativeList_1<int32_t>& __cordl_internal_get_m_DrawBatchIndices() ;
+  constexpr ::Unity::Collections::NativeList_1<int32_t>& __cordl_internal_get_m_DrawBatchIndices();
 
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> const& __cordl_internal_get_m_DrawBatches() const;
+  constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> const& __cordl_internal_get_m_DrawBatches() const;
 
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>& __cordl_internal_get_m_DrawBatches() ;
+  constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>& __cordl_internal_get_m_DrawBatches();
 
-constexpr ::Unity::Collections::NativeList_1<int32_t> const& __cordl_internal_get_m_DrawInstanceIndices() const;
+  constexpr ::Unity::Collections::NativeList_1<int32_t> const& __cordl_internal_get_m_DrawInstanceIndices() const;
 
-constexpr ::Unity::Collections::NativeList_1<int32_t>& __cordl_internal_get_m_DrawInstanceIndices() ;
+  constexpr ::Unity::Collections::NativeList_1<int32_t>& __cordl_internal_get_m_DrawInstanceIndices();
 
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> const& __cordl_internal_get_m_DrawInstances() const;
+  constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> const& __cordl_internal_get_m_DrawInstances() const;
 
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>& __cordl_internal_get_m_DrawInstances() ;
+  constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>& __cordl_internal_get_m_DrawInstances();
 
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> const& __cordl_internal_get_m_DrawRanges() const;
+  constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> const& __cordl_internal_get_m_DrawRanges() const;
 
-constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>& __cordl_internal_get_m_DrawRanges() ;
+  constexpr ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>& __cordl_internal_get_m_DrawRanges();
 
-constexpr bool const& __cordl_internal_get_m_NeedsRebuild() const;
+  constexpr bool const& __cordl_internal_get_m_NeedsRebuild() const;
 
-constexpr bool& __cordl_internal_get_m_NeedsRebuild() ;
+  constexpr bool& __cordl_internal_get_m_NeedsRebuild();
 
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t> const& __cordl_internal_get_m_RangeHash() const;
+  constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> const& __cordl_internal_get_m_RangeHash() const;
 
-constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>& __cordl_internal_get_m_RangeHash() ;
+  constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>& __cordl_internal_get_m_RangeHash();
 
-constexpr void __cordl_internal_set_m_BatchHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>  value) ;
+  constexpr void __cordl_internal_set_m_BatchHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> value);
 
-constexpr void __cordl_internal_set_m_DrawBatchIndices(::Unity::Collections::NativeList_1<int32_t>  value) ;
+  constexpr void __cordl_internal_set_m_DrawBatchIndices(::Unity::Collections::NativeList_1<int32_t> value);
 
-constexpr void __cordl_internal_set_m_DrawBatches(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>  value) ;
+  constexpr void __cordl_internal_set_m_DrawBatches(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> value);
 
-constexpr void __cordl_internal_set_m_DrawInstanceIndices(::Unity::Collections::NativeList_1<int32_t>  value) ;
+  constexpr void __cordl_internal_set_m_DrawInstanceIndices(::Unity::Collections::NativeList_1<int32_t> value);
 
-constexpr void __cordl_internal_set_m_DrawInstances(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>  value) ;
+  constexpr void __cordl_internal_set_m_DrawInstances(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> value);
 
-constexpr void __cordl_internal_set_m_DrawRanges(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>  value) ;
+  constexpr void __cordl_internal_set_m_DrawRanges(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> value);
 
-constexpr void __cordl_internal_set_m_NeedsRebuild(bool  value) ;
+  constexpr void __cordl_internal_set_m_NeedsRebuild(bool value);
 
-constexpr void __cordl_internal_set_m_RangeHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>  value) ;
+  constexpr void __cordl_internal_set_m_RangeHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> value);
 
-/// @brief Method .ctor, addr 0x6667a38, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x66d9a44, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_batchHash, addr 0x6666c74, size 0xc, virtual false, abstract: false, final false
-inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t> get_batchHash() ;
+  /// @brief Method get_batchHash, addr 0x66d8c80, size 0xc, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> get_batchHash();
 
-/// @brief Method get_drawBatchIndices, addr 0x6666c9c, size 0x4c, virtual false, abstract: false, final false
-inline ::Unity::Collections::NativeArray_1<int32_t> get_drawBatchIndices() ;
+  /// @brief Method get_drawBatchIndices, addr 0x66d8ca8, size 0x4c, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeArray_1<int32_t> get_drawBatchIndices();
 
-/// @brief Method get_drawBatches, addr 0x6666c80, size 0x8, virtual false, abstract: false, final false
-inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> get_drawBatches() ;
+  /// @brief Method get_drawBatches, addr 0x66d8c8c, size 0x8, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> get_drawBatches();
 
-/// @brief Method get_drawInstanceIndices, addr 0x6666ce8, size 0x4c, virtual false, abstract: false, final false
-inline ::Unity::Collections::NativeArray_1<int32_t> get_drawInstanceIndices() ;
+  /// @brief Method get_drawInstanceIndices, addr 0x66d8cf4, size 0x4c, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeArray_1<int32_t> get_drawInstanceIndices();
 
-/// @brief Method get_drawInstances, addr 0x6666c6c, size 0x8, virtual false, abstract: false, final false
-inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> get_drawInstances() ;
+  /// @brief Method get_drawInstances, addr 0x66d8c78, size 0x8, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> get_drawInstances();
 
-/// @brief Method get_drawRanges, addr 0x6666c94, size 0x8, virtual false, abstract: false, final false
-inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> get_drawRanges() ;
+  /// @brief Method get_drawRanges, addr 0x66d8ca0, size 0x8, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> get_drawRanges();
 
-/// @brief Method get_rangeHash, addr 0x6666c88, size 0xc, virtual false, abstract: false, final false
-inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t> get_rangeHash() ;
+  /// @brief Method get_rangeHash, addr 0x66d8c94, size 0xc, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> get_rangeHash();
 
-/// @brief Method get_valid, addr 0x6666d34, size 0x4c, virtual false, abstract: false, final false
-inline bool get_valid() ;
+  /// @brief Method get_valid, addr 0x66d8d40, size 0x4c, virtual false, abstract: false, final false
+  inline bool get_valid();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CPUDrawInstanceData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CPUDrawInstanceData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CPUDrawInstanceData(CPUDrawInstanceData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CPUDrawInstanceData(CPUDrawInstanceData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CPUDrawInstanceData(CPUDrawInstanceData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CPUDrawInstanceData(CPUDrawInstanceData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17655 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17647};
+  /// @brief Field m_RangeHash, offset: 0x10, size: 0x10, def value: None
+  ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> ___m_RangeHash;
 
-/// @brief Field m_RangeHash, offset: 0x10, size: 0x10, def value: None
- ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>  ___m_RangeHash;
+  /// @brief Field m_DrawRanges, offset: 0x20, size: 0x8, def value: None
+  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> ___m_DrawRanges;
 
-/// @brief Field m_DrawRanges, offset: 0x20, size: 0x8, def value: None
- ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>  ___m_DrawRanges;
+  /// @brief Field m_BatchHash, offset: 0x28, size: 0x10, def value: None
+  ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> ___m_BatchHash;
 
-/// @brief Field m_BatchHash, offset: 0x28, size: 0x10, def value: None
- ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>  ___m_BatchHash;
+  /// @brief Field m_DrawBatches, offset: 0x38, size: 0x8, def value: None
+  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> ___m_DrawBatches;
 
-/// @brief Field m_DrawBatches, offset: 0x38, size: 0x8, def value: None
- ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>  ___m_DrawBatches;
+  /// @brief Field m_DrawInstances, offset: 0x40, size: 0x8, def value: None
+  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> ___m_DrawInstances;
 
-/// @brief Field m_DrawInstances, offset: 0x40, size: 0x8, def value: None
- ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>  ___m_DrawInstances;
+  /// @brief Field m_DrawInstanceIndices, offset: 0x48, size: 0x8, def value: None
+  ::Unity::Collections::NativeList_1<int32_t> ___m_DrawInstanceIndices;
 
-/// @brief Field m_DrawInstanceIndices, offset: 0x48, size: 0x8, def value: None
- ::Unity::Collections::NativeList_1<int32_t>  ___m_DrawInstanceIndices;
+  /// @brief Field m_DrawBatchIndices, offset: 0x50, size: 0x8, def value: None
+  ::Unity::Collections::NativeList_1<int32_t> ___m_DrawBatchIndices;
 
-/// @brief Field m_DrawBatchIndices, offset: 0x50, size: 0x8, def value: None
- ::Unity::Collections::NativeList_1<int32_t>  ___m_DrawBatchIndices;
+  /// @brief Field m_NeedsRebuild, offset: 0x58, size: 0x1, def value: None
+  bool ___m_NeedsRebuild;
 
-/// @brief Field m_NeedsRebuild, offset: 0x58, size: 0x1, def value: None
- bool  ___m_NeedsRebuild;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::CPUDrawInstanceData, ___m_RangeHash) == 0x10, "Offset mismatch!");
@@ -256,6 +257,6 @@ static_assert(offsetof(::UnityEngine::Rendering::CPUDrawInstanceData, ___m_Needs
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CPUDrawInstanceData, 0x60>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::CPUDrawInstanceData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CPUDrawInstanceData*, "UnityEngine.Rendering", "CPUDrawInstanceData");

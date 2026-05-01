@@ -23,98 +23,98 @@ namespace BeatmapSaveDataVersion3 {
 // CS Name: BeatmapSaveDataVersion3.LightTranslationBaseData
 class CORDL_TYPE LightTranslationBaseData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field b, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_b, put=__cordl_internal_set_b)) float_t  b;
+  // Declarations
+  /// @brief Field b, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
- __declspec(property(get=get_beat)) float_t  beat;
+  __declspec(property(get = get_beat)) float_t beat;
 
-/// @brief Field e, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get_e, put=__cordl_internal_set_e)) ::BeatmapSaveDataCommon::EaseType  e;
+  /// @brief Field e, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::BeatmapSaveDataCommon::EaseType e;
 
- __declspec(property(get=get_easeType)) ::BeatmapSaveDataCommon::EaseType  easeType;
+  __declspec(property(get = get_easeType)) ::BeatmapSaveDataCommon::EaseType easeType;
 
-/// @brief Field p, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_p, put=__cordl_internal_set_p)) int32_t  p;
+  /// @brief Field p, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) int32_t p;
 
-/// @brief Field t, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get_t, put=__cordl_internal_set_t)) float_t  t;
+  /// @brief Field t, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) float_t t;
 
- __declspec(property(get=get_translation)) float_t  translation;
+  __declspec(property(get = get_translation)) float_t translation;
 
- __declspec(property(get=get_usePreviousEventTranslationValue)) bool  usePreviousEventTranslationValue;
+  __declspec(property(get = get_usePreviousEventTranslationValue)) bool usePreviousEventTranslationValue;
 
-static inline ::BeatmapSaveDataVersion3::LightTranslationBaseData* New_ctor(float_t  beat, bool  usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType  easeType, float_t  translation) ;
+  static inline ::BeatmapSaveDataVersion3::LightTranslationBaseData* New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
-constexpr float_t const& __cordl_internal_get_b() const;
+  constexpr float_t const& __cordl_internal_get_b() const;
 
-constexpr float_t& __cordl_internal_get_b() ;
+  constexpr float_t& __cordl_internal_get_b();
 
-constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_e() const;
+  constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_e() const;
 
-constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_e() ;
+  constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_e();
 
-constexpr int32_t const& __cordl_internal_get_p() const;
+  constexpr int32_t const& __cordl_internal_get_p() const;
 
-constexpr int32_t& __cordl_internal_get_p() ;
+  constexpr int32_t& __cordl_internal_get_p();
 
-constexpr float_t const& __cordl_internal_get_t() const;
+  constexpr float_t const& __cordl_internal_get_t() const;
 
-constexpr float_t& __cordl_internal_get_t() ;
+  constexpr float_t& __cordl_internal_get_t();
 
-constexpr void __cordl_internal_set_b(float_t  value) ;
+  constexpr void __cordl_internal_set_b(float_t value);
 
-constexpr void __cordl_internal_set_e(::BeatmapSaveDataCommon::EaseType  value) ;
+  constexpr void __cordl_internal_set_e(::BeatmapSaveDataCommon::EaseType value);
 
-constexpr void __cordl_internal_set_p(int32_t  value) ;
+  constexpr void __cordl_internal_set_p(int32_t value);
 
-constexpr void __cordl_internal_set_t(float_t  value) ;
+  constexpr void __cordl_internal_set_t(float_t value);
 
-/// @brief Method .ctor, addr 0x3661ad8, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(float_t  beat, bool  usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType  easeType, float_t  translation) ;
+  /// @brief Method .ctor, addr 0x369da88, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
-/// @brief Method get_beat, addr 0x3661ab0, size 0x8, virtual false, abstract: false, final false
-inline float_t get_beat() ;
+  /// @brief Method get_beat, addr 0x369da60, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_beat();
 
-/// @brief Method get_easeType, addr 0x3661ac8, size 0x8, virtual false, abstract: false, final false
-inline ::BeatmapSaveDataCommon::EaseType get_easeType() ;
+  /// @brief Method get_easeType, addr 0x369da78, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-/// @brief Method get_translation, addr 0x3661ad0, size 0x8, virtual false, abstract: false, final false
-inline float_t get_translation() ;
+  /// @brief Method get_translation, addr 0x369da80, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_translation();
 
-/// @brief Method get_usePreviousEventTranslationValue, addr 0x3661ab8, size 0x10, virtual false, abstract: false, final false
-inline bool get_usePreviousEventTranslationValue() ;
+  /// @brief Method get_usePreviousEventTranslationValue, addr 0x369da68, size 0x10, virtual false, abstract: false, final false
+  inline bool get_usePreviousEventTranslationValue();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LightTranslationBaseData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationBaseData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LightTranslationBaseData(LightTranslationBaseData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LightTranslationBaseData(LightTranslationBaseData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LightTranslationBaseData(LightTranslationBaseData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LightTranslationBaseData(LightTranslationBaseData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15346 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15341};
+  /// @brief Field b, offset: 0x10, size: 0x4, def value: None
+  float_t ___b;
 
-/// @brief Field b, offset: 0x10, size: 0x4, def value: None
- float_t  ___b;
+  /// @brief Field p, offset: 0x14, size: 0x4, def value: None
+  int32_t ___p;
 
-/// @brief Field p, offset: 0x14, size: 0x4, def value: None
- int32_t  ___p;
+  /// @brief Field e, offset: 0x18, size: 0x4, def value: None
+  ::BeatmapSaveDataCommon::EaseType ___e;
 
-/// @brief Field e, offset: 0x18, size: 0x4, def value: None
- ::BeatmapSaveDataCommon::EaseType  ___e;
+  /// @brief Field t, offset: 0x1c, size: 0x4, def value: None
+  float_t ___t;
 
-/// @brief Field t, offset: 0x1c, size: 0x4, def value: None
- float_t  ___t;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationBaseData, ___b) == 0x10, "Offset mismatch!");
@@ -127,6 +127,6 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::LightTranslationBaseData, ___t
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightTranslationBaseData, 0x20>, "Size mismatch!");
 
-} // namespace end def BeatmapSaveDataVersion3
+} // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::LightTranslationBaseData);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion3::LightTranslationBaseData*, "BeatmapSaveDataVersion3", "LightTranslationBaseData");

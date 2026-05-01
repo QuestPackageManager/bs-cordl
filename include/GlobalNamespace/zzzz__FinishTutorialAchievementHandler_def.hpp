@@ -26,75 +26,76 @@ namespace GlobalNamespace {
 // CS Name: FinishTutorialAchievementHandler
 class CORDL_TYPE FinishTutorialAchievementHandler : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _finishTutorialAchievement, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__finishTutorialAchievement, put=__cordl_internal_set__finishTutorialAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>  _finishTutorialAchievement;
+  // Declarations
+  /// @brief Field _finishTutorialAchievement, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__finishTutorialAchievement, put = __cordl_internal_set__finishTutorialAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>
+      _finishTutorialAchievement;
 
-/// @brief Field _platform, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__platform, put=__cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform*  _platform;
+  /// @brief Field _platform, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform* _platform;
 
-/// @brief Field _tutorialFinishedSignal, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__tutorialFinishedSignal, put=__cordl_internal_set__tutorialFinishedSignal)) ::UnityW<::GlobalNamespace::Signal>  _tutorialFinishedSignal;
+  /// @brief Field _tutorialFinishedSignal, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal)) ::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
-/// @brief Method HandleTutorialFinished, addr 0x35ff0f8, size 0x134, virtual false, abstract: false, final false
-inline void HandleTutorialFinished() ;
+  /// @brief Method HandleTutorialFinished, addr 0x363b73c, size 0x134, virtual false, abstract: false, final false
+  inline void HandleTutorialFinished();
 
-static inline ::GlobalNamespace::FinishTutorialAchievementHandler* New_ctor() ;
+  static inline ::GlobalNamespace::FinishTutorialAchievementHandler* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x35ff06c, size 0x8c, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x363b6b0, size 0x8c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method Start, addr 0x35fefd4, size 0x98, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x363b618, size 0x98, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__finishTutorialAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__finishTutorialAchievement() const;
 
-constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__finishTutorialAchievement() ;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__finishTutorialAchievement();
 
-constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
+  constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
 
-constexpr ::OculusStudios::Platform::Core::IPlatform*& __cordl_internal_get__platform() ;
+  constexpr ::OculusStudios::Platform::Core::IPlatform*& __cordl_internal_get__platform();
 
-constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialFinishedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialFinishedSignal() const;
 
-constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialFinishedSignal() ;
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialFinishedSignal();
 
-constexpr void __cordl_internal_set__finishTutorialAchievement(::UnityW<::GlobalNamespace::AchievementSO>  value) ;
+  constexpr void __cordl_internal_set__finishTutorialAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform*  value) ;
+  constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value);
 
-constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal>  value) ;
+  constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-/// @brief Method .ctor, addr 0x35ff22c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x363b870, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FinishTutorialAchievementHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FinishTutorialAchievementHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FinishTutorialAchievementHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FinishTutorialAchievementHandler(FinishTutorialAchievementHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FinishTutorialAchievementHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FinishTutorialAchievementHandler(FinishTutorialAchievementHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FinishTutorialAchievementHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FinishTutorialAchievementHandler(FinishTutorialAchievementHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FinishTutorialAchievementHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FinishTutorialAchievementHandler(FinishTutorialAchievementHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14747 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14740};
+  /// @brief Field _platform, offset: 0x20, size: 0x8, def value: None
+  ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
-/// @brief Field _platform, offset: 0x20, size: 0x8, def value: None
- ::OculusStudios::Platform::Core::IPlatform*  ____platform;
+  /// @brief Field _tutorialFinishedSignal, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::Signal> ____tutorialFinishedSignal;
 
-/// @brief Field _tutorialFinishedSignal, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::Signal>  ____tutorialFinishedSignal;
+  /// @brief Field _finishTutorialAchievement, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::AchievementSO> ____finishTutorialAchievement;
 
-/// @brief Field _finishTutorialAchievement, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::AchievementSO>  ____finishTutorialAchievement;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::FinishTutorialAchievementHandler, ____platform) == 0x20, "Offset mismatch!");
@@ -105,6 +106,6 @@ static_assert(offsetof(::GlobalNamespace::FinishTutorialAchievementHandler, ____
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FinishTutorialAchievementHandler, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FinishTutorialAchievementHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FinishTutorialAchievementHandler*, "", "FinishTutorialAchievementHandler");

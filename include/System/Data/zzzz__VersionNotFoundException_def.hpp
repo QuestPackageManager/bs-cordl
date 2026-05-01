@@ -24,44 +24,44 @@ namespace System::Data {
 // CS Name: System.Data.VersionNotFoundException
 class CORDL_TYPE VersionNotFoundException : public ::System::Data::DataException {
 public:
-// Declarations
-static inline ::System::Data::VersionNotFoundException* New_ctor() ;
+  // Declarations
+  static inline ::System::Data::VersionNotFoundException* New_ctor();
 
-static inline ::System::Data::VersionNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::Data::VersionNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::Data::VersionNotFoundException* New_ctor(::StringW  s) ;
+  static inline ::System::Data::VersionNotFoundException* New_ctor(::StringW s);
 
-/// @brief Method .ctor, addr 0x5e513d0, size 0x60, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5ec33dc, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5e513c8, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5ec33d4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5e51430, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  s) ;
+  /// @brief Method .ctor, addr 0x5ec343c, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW s);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr VersionNotFoundException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VersionNotFoundException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "VersionNotFoundException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  VersionNotFoundException(VersionNotFoundException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VersionNotFoundException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-VersionNotFoundException(VersionNotFoundException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "VersionNotFoundException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  VersionNotFoundException(VersionNotFoundException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "VersionNotFoundException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-VersionNotFoundException(VersionNotFoundException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13724 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13717};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::VersionNotFoundException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::VersionNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::VersionNotFoundException*, "System.Data", "VersionNotFoundException");

@@ -18,37 +18,37 @@ namespace UnityEngine::InputSystem::XR {
 // CS Name: UnityEngine.InputSystem.XR.XRControllerWithRumble
 class CORDL_TYPE XRControllerWithRumble : public ::UnityEngine::InputSystem::XR::XRController {
 public:
-// Declarations
-static inline ::UnityEngine::InputSystem::XR::XRControllerWithRumble* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::InputSystem::XR::XRControllerWithRumble* New_ctor();
 
-/// @brief Method SendImpulse, addr 0x63d1a50, size 0xac, virtual false, abstract: false, final false
-inline void SendImpulse(float_t  amplitude, float_t  duration) ;
+  /// @brief Method SendImpulse, addr 0x6443a5c, size 0xac, virtual false, abstract: false, final false
+  inline void SendImpulse(float_t amplitude, float_t duration);
 
-/// @brief Method .ctor, addr 0x63d1b18, size 0x20, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6443b24, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XRControllerWithRumble() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRControllerWithRumble();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XRControllerWithRumble", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XRControllerWithRumble(XRControllerWithRumble&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XRControllerWithRumble", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XRControllerWithRumble(XRControllerWithRumble && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XRControllerWithRumble", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XRControllerWithRumble(XRControllerWithRumble const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XRControllerWithRumble", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XRControllerWithRumble(XRControllerWithRumble const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8804 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8798};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRControllerWithRumble, 0x1a8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::XR
+} // namespace UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRControllerWithRumble);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::XRControllerWithRumble*, "UnityEngine.InputSystem.XR", "XRControllerWithRumble");

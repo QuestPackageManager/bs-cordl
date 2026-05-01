@@ -13,471 +13,425 @@
 #include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp.GetPercentComplete
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::GetPercentComplete)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)()>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::GetPercentComplete)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x676b1e8;
+  constexpr static std::size_t addrs = 0x67dd1f4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "GetPercentComplete",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                                 "GetPercentComplete", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp.Start
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*)>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::Start)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x676ada8;
+  constexpr static std::size_t addrs = 0x67dcdb4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), "Start",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp.WaitForCompletionHandler
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::WaitForCompletionHandler)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)()>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::WaitForCompletionHandler)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x676b300;
+  constexpr static std::size_t addrs = 0x67dd30c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "WaitForCompletionHandler",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                                 "WaitForCompletionHandler", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp.RequestOperation_completed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::UnityEngine::AsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::RequestOperation_completed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(
+    ::UnityEngine::AsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::RequestOperation_completed)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x676b374;
+  constexpr static std::size_t addrs = 0x67dd380;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "RequestOperation_completed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), "RequestOperation_completed",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp.CompleteOperation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::StringW, ::System::Exception*)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::CompleteOperation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(
+    ::StringW, ::System::Exception*)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::CompleteOperation)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x676b548;
+  constexpr static std::size_t addrs = 0x67dd554;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "CompleteOperation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                                 "CompleteOperation", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp.ConvertText
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::StringW)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::ConvertText)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::StringW)>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::ConvertText)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x676b200;
+  constexpr static std::size_t addrs = 0x67dd20c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "ConvertText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), "ConvertText",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp.SendWebRequest
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::StringW)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::SendWebRequest)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::StringW)>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::SendWebRequest)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x676b5f0;
+  constexpr static std::size_t addrs = 0x67dd5fc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)()>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676ada4;
+  constexpr static std::size_t addrs = 0x67dcdb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp._SendWebRequest_b__13_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_SendWebRequest_b__13_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::*)(
+    ::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_SendWebRequest_b__13_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x676ba04;
+  constexpr static std::size_t addrs = 0x67dda10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "<SendWebRequest>b__13_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                    "<SendWebRequest>b__13_0", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Provider()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Provider;
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Provider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Provider;
 }
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Provider() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Provider;
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* const&
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Provider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Provider;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestOperation()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequestOperation;
+constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestOperation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequestOperation;
 }
-constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation* const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestOperation() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequestOperation;
+constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation* const&
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestOperation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequestOperation;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_RequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_RequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestQueueOperation()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequestQueueOperation;
+constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*&
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestQueueOperation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequestQueueOperation;
 }
-constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation* const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestQueueOperation() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_RequestQueueOperation;
+constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation* const&
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_RequestQueueOperation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RequestQueueOperation;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_RequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestQueueOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_RequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestQueueOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_PI()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_PI;
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_PI() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PI;
 }
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_PI() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_PI;
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const&
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_PI() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PI;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_PI(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_PI = value;
+constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_PI(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_PI = value;
 }
-constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_IgnoreFailures()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_IgnoreFailures;
+constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_IgnoreFailures() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IgnoreFailures;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_IgnoreFailures() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_IgnoreFailures;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IgnoreFailures;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_IgnoreFailures(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_IgnoreFailures = value;
+constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_IgnoreFailures(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IgnoreFailures = value;
 }
-constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Complete()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Complete;
+constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Complete() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Complete;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Complete() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Complete;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Complete;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_Complete(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Complete = value;
+constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_Complete(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Complete = value;
 }
-constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Timeout()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Timeout;
+constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Timeout() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Timeout;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_get_m_Timeout() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___m_Timeout;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Timeout;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_Timeout(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___m_Timeout = value;
+constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::__cordl_internal_set_m_Timeout(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Timeout = value;
 }
-inline float_t UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::GetPercentComplete()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "GetPercentComplete",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::GetPercentComplete() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                               "GetPercentComplete", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*  rawProvider)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "Start",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provideHandle, rawProvider);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle,
+                                                                                                   ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), "Start",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provideHandle, rawProvider);
 }
-inline bool UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::WaitForCompletionHandler()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "WaitForCompletionHandler",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::WaitForCompletionHandler() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                               "WaitForCompletionHandler", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::RequestOperation_completed(::UnityEngine::AsyncOperation*  op)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "RequestOperation_completed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, op);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::RequestOperation_completed(::UnityEngine::AsyncOperation* op) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), "RequestOperation_completed",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, op);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::CompleteOperation(::StringW  text, ::System::Exception*  exception)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "CompleteOperation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text, exception);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::CompleteOperation(::StringW text, ::System::Exception* exception) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                               "CompleteOperation", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text, exception);
 }
-inline ::System::Object* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::ConvertText(::StringW  text)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "ConvertText",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, text);
+inline ::System::Object* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::ConvertText(::StringW text) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), "ConvertText",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, text);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::SendWebRequest(::StringW  path)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, path);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::SendWebRequest(::StringW path) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, path);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation*  asyncOperation)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
-                        "<SendWebRequest>b__13_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asyncOperation);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::_SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>::get(),
+                                  "<SendWebRequest>b__13_0", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asyncOperation);
 }
-inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>());
+inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::TextDataProvider_InternalOp()   {
-}
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp::TextDataProvider_InternalOp() {}
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider.get_IgnoreFailures
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::get_IgnoreFailures)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)()>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::get_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676ad08;
+  constexpr static std::size_t addrs = 0x67dcd14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                        "get_IgnoreFailures",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
+                                                 "get_IgnoreFailures", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider.set_IgnoreFailures
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(bool)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::set_IgnoreFailures)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(bool)>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::set_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676ad10;
+  constexpr static std::size_t addrs = 0x67dcd1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                        "set_IgnoreFailures",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), "set_IgnoreFailures",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider.Convert
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(::System::Type*, ::StringW)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Convert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(::System::Type*, ::StringW)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Convert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676ad18;
+  constexpr static std::size_t addrs = 0x67dcd24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), 19));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider.Provide
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Provide)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Provide)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x676ad20;
+  constexpr static std::size_t addrs = 0x67dcd2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), 17));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)()>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67684cc;
+  constexpr static std::size_t addrs = 0x67da4d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__cordl_internal_get__IgnoreFailures_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____IgnoreFailures_k__BackingField;
+constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__cordl_internal_get__IgnoreFailures_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IgnoreFailures_k__BackingField;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__cordl_internal_get__IgnoreFailures_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____IgnoreFailures_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IgnoreFailures_k__BackingField;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__cordl_internal_set__IgnoreFailures_k__BackingField(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____IgnoreFailures_k__BackingField = value;
+constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__cordl_internal_set__IgnoreFailures_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IgnoreFailures_k__BackingField = value;
 }
-inline bool UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::get_IgnoreFailures()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                        "get_IgnoreFailures",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::get_IgnoreFailures() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
+                                               "get_IgnoreFailures", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::set_IgnoreFailures(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                        "set_IgnoreFailures",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::set_IgnoreFailures(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), "set_IgnoreFailures",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Object* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Convert(::System::Type*  type, ::StringW  text)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, type, text);
+inline ::System::Object* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Convert(::System::Type* type, ::StringW text) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), 19)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, type, text);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  provideHandle)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provideHandle);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), 17)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provideHandle);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>());
+inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::TextDataProvider()   {
-}
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::TextDataProvider() {}

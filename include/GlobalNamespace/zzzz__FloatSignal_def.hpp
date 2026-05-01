@@ -18,34 +18,34 @@ namespace GlobalNamespace {
 // CS Name: FloatSignal
 class CORDL_TYPE FloatSignal : public ::GlobalNamespace::GenericSignal_1<float_t> {
 public:
-// Declarations
-static inline ::GlobalNamespace::FloatSignal* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::FloatSignal* New_ctor();
 
-/// @brief Method .ctor, addr 0x56a3d40, size 0x48, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5711c08, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FloatSignal() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatSignal();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FloatSignal(FloatSignal&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FloatSignal(FloatSignal && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FloatSignal(FloatSignal const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatSignal", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FloatSignal(FloatSignal const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20296 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20286};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatSignal, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatSignal);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatSignal*, "", "FloatSignal");

@@ -20,42 +20,43 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.StarNode
 class CORDL_TYPE StarNode : public ::System::Xml::Schema::InteriorNode {
 public:
-// Declarations
- __declspec(property(get=get_IsNullable)) bool  IsNullable;
+  // Declarations
+  __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-/// @brief Method ConstructPos, addr 0x616b4f4, size 0x9c, virtual true, abstract: false, final false
-inline void ConstructPos(::System::Xml::Schema::BitSet*  firstpos, ::System::Xml::Schema::BitSet*  lastpos, ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*>  followpos) ;
+  /// @brief Method ConstructPos, addr 0x61dd500, size 0x9c, virtual true, abstract: false, final false
+  inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
+                           ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-static inline ::System::Xml::Schema::StarNode* New_ctor() ;
+  static inline ::System::Xml::Schema::StarNode* New_ctor();
 
-/// @brief Method .ctor, addr 0x616b598, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x61dd5a4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsNullable, addr 0x616b590, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsNullable() ;
+  /// @brief Method get_IsNullable, addr 0x61dd59c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsNullable();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StarNode() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StarNode();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StarNode", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StarNode(StarNode&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StarNode", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StarNode(StarNode && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StarNode", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StarNode(StarNode const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StarNode", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StarNode(StarNode const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9586 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9580};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::StarNode, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::StarNode);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::StarNode*, "System.Xml.Schema", "StarNode");

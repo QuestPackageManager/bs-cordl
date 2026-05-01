@@ -50,393 +50,408 @@ namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // CS Name: UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController
 class CORDL_TYPE HTCViveControllerProfile_ViveController : public ::UnityEngine::InputSystem::XR::XRControllerWithRumble {
 public:
-// Declarations
-/// @brief Field <devicePose>k__BackingField, offset 0x1f0, size 0x8 
- __declspec(property(get=__cordl_internal_get__devicePose_k__BackingField, put=__cordl_internal_set__devicePose_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::PoseControl*  _devicePose_k__BackingField;
+  // Declarations
+  /// @brief Field <devicePose>k__BackingField, offset 0x1f0, size 0x8
+  __declspec(property(get = __cordl_internal_get__devicePose_k__BackingField,
+                      put = __cordl_internal_set__devicePose_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::PoseControl* _devicePose_k__BackingField;
 
-/// @brief Field <devicePosition>k__BackingField, offset 0x210, size 0x8 
- __declspec(property(get=__cordl_internal_get__devicePosition_k__BackingField, put=__cordl_internal_set__devicePosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control*  _devicePosition_k__BackingField;
+  /// @brief Field <devicePosition>k__BackingField, offset 0x210, size 0x8
+  __declspec(property(get = __cordl_internal_get__devicePosition_k__BackingField,
+                      put = __cordl_internal_set__devicePosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _devicePosition_k__BackingField;
 
-/// @brief Field <deviceRotation>k__BackingField, offset 0x218, size 0x8 
- __declspec(property(get=__cordl_internal_get__deviceRotation_k__BackingField, put=__cordl_internal_set__deviceRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl*  _deviceRotation_k__BackingField;
+  /// @brief Field <deviceRotation>k__BackingField, offset 0x218, size 0x8
+  __declspec(property(get = __cordl_internal_get__deviceRotation_k__BackingField,
+                      put = __cordl_internal_set__deviceRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl* _deviceRotation_k__BackingField;
 
-/// @brief Field <gripPressed>k__BackingField, offset 0x1b8, size 0x8 
- __declspec(property(get=__cordl_internal_get__gripPressed_k__BackingField, put=__cordl_internal_set__gripPressed_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _gripPressed_k__BackingField;
+  /// @brief Field <gripPressed>k__BackingField, offset 0x1b8, size 0x8
+  __declspec(property(get = __cordl_internal_get__gripPressed_k__BackingField,
+                      put = __cordl_internal_set__gripPressed_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _gripPressed_k__BackingField;
 
-/// @brief Field <grip>k__BackingField, offset 0x1b0, size 0x8 
- __declspec(property(get=__cordl_internal_get__grip_k__BackingField, put=__cordl_internal_set__grip_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl*  _grip_k__BackingField;
+  /// @brief Field <grip>k__BackingField, offset 0x1b0, size 0x8
+  __declspec(property(get = __cordl_internal_get__grip_k__BackingField, put = __cordl_internal_set__grip_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _grip_k__BackingField;
 
-/// @brief Field <haptic>k__BackingField, offset 0x230, size 0x8 
- __declspec(property(get=__cordl_internal_get__haptic_k__BackingField, put=__cordl_internal_set__haptic_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::HapticControl*  _haptic_k__BackingField;
+  /// @brief Field <haptic>k__BackingField, offset 0x230, size 0x8
+  __declspec(property(get = __cordl_internal_get__haptic_k__BackingField, put = __cordl_internal_set__haptic_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::HapticControl* _haptic_k__BackingField;
 
-/// @brief Field <isTracked>k__BackingField, offset 0x200, size 0x8 
- __declspec(property(get=__cordl_internal_get__isTracked_k__BackingField, put=__cordl_internal_set__isTracked_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _isTracked_k__BackingField;
+  /// @brief Field <isTracked>k__BackingField, offset 0x200, size 0x8
+  __declspec(property(get = __cordl_internal_get__isTracked_k__BackingField,
+                      put = __cordl_internal_set__isTracked_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _isTracked_k__BackingField;
 
-/// @brief Field <menu>k__BackingField, offset 0x1c0, size 0x8 
- __declspec(property(get=__cordl_internal_get__menu_k__BackingField, put=__cordl_internal_set__menu_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _menu_k__BackingField;
+  /// @brief Field <menu>k__BackingField, offset 0x1c0, size 0x8
+  __declspec(property(get = __cordl_internal_get__menu_k__BackingField, put = __cordl_internal_set__menu_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _menu_k__BackingField;
 
-/// @brief Field <pointerPosition>k__BackingField, offset 0x220, size 0x8 
- __declspec(property(get=__cordl_internal_get__pointerPosition_k__BackingField, put=__cordl_internal_set__pointerPosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control*  _pointerPosition_k__BackingField;
+  /// @brief Field <pointerPosition>k__BackingField, offset 0x220, size 0x8
+  __declspec(property(get = __cordl_internal_get__pointerPosition_k__BackingField,
+                      put = __cordl_internal_set__pointerPosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _pointerPosition_k__BackingField;
 
-/// @brief Field <pointerRotation>k__BackingField, offset 0x228, size 0x8 
- __declspec(property(get=__cordl_internal_get__pointerRotation_k__BackingField, put=__cordl_internal_set__pointerRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl*  _pointerRotation_k__BackingField;
+  /// @brief Field <pointerRotation>k__BackingField, offset 0x228, size 0x8
+  __declspec(property(get = __cordl_internal_get__pointerRotation_k__BackingField,
+                      put = __cordl_internal_set__pointerRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl* _pointerRotation_k__BackingField;
 
-/// @brief Field <pointer>k__BackingField, offset 0x1f8, size 0x8 
- __declspec(property(get=__cordl_internal_get__pointer_k__BackingField, put=__cordl_internal_set__pointer_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::PoseControl*  _pointer_k__BackingField;
+  /// @brief Field <pointer>k__BackingField, offset 0x1f8, size 0x8
+  __declspec(property(get = __cordl_internal_get__pointer_k__BackingField,
+                      put = __cordl_internal_set__pointer_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::PoseControl* _pointer_k__BackingField;
 
-/// @brief Field <select>k__BackingField, offset 0x1a8, size 0x8 
- __declspec(property(get=__cordl_internal_get__select_k__BackingField, put=__cordl_internal_set__select_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _select_k__BackingField;
+  /// @brief Field <select>k__BackingField, offset 0x1a8, size 0x8
+  __declspec(property(get = __cordl_internal_get__select_k__BackingField,
+                      put = __cordl_internal_set__select_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _select_k__BackingField;
 
-/// @brief Field <trackingState>k__BackingField, offset 0x208, size 0x8 
- __declspec(property(get=__cordl_internal_get__trackingState_k__BackingField, put=__cordl_internal_set__trackingState_k__BackingField)) ::UnityEngine::InputSystem::Controls::IntegerControl*  _trackingState_k__BackingField;
+  /// @brief Field <trackingState>k__BackingField, offset 0x208, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackingState_k__BackingField,
+                      put = __cordl_internal_set__trackingState_k__BackingField)) ::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
 
-/// @brief Field <trackpadClicked>k__BackingField, offset 0x1e0, size 0x8 
- __declspec(property(get=__cordl_internal_get__trackpadClicked_k__BackingField, put=__cordl_internal_set__trackpadClicked_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _trackpadClicked_k__BackingField;
+  /// @brief Field <trackpadClicked>k__BackingField, offset 0x1e0, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackpadClicked_k__BackingField,
+                      put = __cordl_internal_set__trackpadClicked_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _trackpadClicked_k__BackingField;
 
-/// @brief Field <trackpadTouched>k__BackingField, offset 0x1e8, size 0x8 
- __declspec(property(get=__cordl_internal_get__trackpadTouched_k__BackingField, put=__cordl_internal_set__trackpadTouched_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _trackpadTouched_k__BackingField;
+  /// @brief Field <trackpadTouched>k__BackingField, offset 0x1e8, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackpadTouched_k__BackingField,
+                      put = __cordl_internal_set__trackpadTouched_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _trackpadTouched_k__BackingField;
 
-/// @brief Field <trackpad>k__BackingField, offset 0x1d8, size 0x8 
- __declspec(property(get=__cordl_internal_get__trackpad_k__BackingField, put=__cordl_internal_set__trackpad_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector2Control*  _trackpad_k__BackingField;
+  /// @brief Field <trackpad>k__BackingField, offset 0x1d8, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackpad_k__BackingField,
+                      put = __cordl_internal_set__trackpad_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector2Control* _trackpad_k__BackingField;
 
-/// @brief Field <triggerPressed>k__BackingField, offset 0x1d0, size 0x8 
- __declspec(property(get=__cordl_internal_get__triggerPressed_k__BackingField, put=__cordl_internal_set__triggerPressed_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _triggerPressed_k__BackingField;
+  /// @brief Field <triggerPressed>k__BackingField, offset 0x1d0, size 0x8
+  __declspec(property(get = __cordl_internal_get__triggerPressed_k__BackingField,
+                      put = __cordl_internal_set__triggerPressed_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _triggerPressed_k__BackingField;
 
-/// @brief Field <trigger>k__BackingField, offset 0x1c8, size 0x8 
- __declspec(property(get=__cordl_internal_get__trigger_k__BackingField, put=__cordl_internal_set__trigger_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl*  _trigger_k__BackingField;
+  /// @brief Field <trigger>k__BackingField, offset 0x1c8, size 0x8
+  __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
+                      put = __cordl_internal_set__trigger_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _trigger_k__BackingField;
 
- __declspec(property(get=get_devicePose, put=set_devicePose)) ::UnityEngine::XR::OpenXR::Input::PoseControl*  devicePose;
+  __declspec(property(get = get_devicePose, put = set_devicePose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* devicePose;
 
- __declspec(property(get=get_devicePosition, put=set_devicePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control*  devicePosition;
+  __declspec(property(get = get_devicePosition, put = set_devicePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* devicePosition;
 
- __declspec(property(get=get_deviceRotation, put=set_deviceRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl*  deviceRotation;
+  __declspec(property(get = get_deviceRotation, put = set_deviceRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* deviceRotation;
 
- __declspec(property(get=get_grip, put=set_grip)) ::UnityEngine::InputSystem::Controls::AxisControl*  grip;
+  __declspec(property(get = get_grip, put = set_grip)) ::UnityEngine::InputSystem::Controls::AxisControl* grip;
 
- __declspec(property(get=get_gripPressed, put=set_gripPressed)) ::UnityEngine::InputSystem::Controls::ButtonControl*  gripPressed;
+  __declspec(property(get = get_gripPressed, put = set_gripPressed)) ::UnityEngine::InputSystem::Controls::ButtonControl* gripPressed;
 
- __declspec(property(get=get_haptic, put=set_haptic)) ::UnityEngine::XR::OpenXR::Input::HapticControl*  haptic;
+  __declspec(property(get = get_haptic, put = set_haptic)) ::UnityEngine::XR::OpenXR::Input::HapticControl* haptic;
 
- __declspec(property(get=get_isTracked, put=set_isTracked)) ::UnityEngine::InputSystem::Controls::ButtonControl*  isTracked;
+  __declspec(property(get = get_isTracked, put = set_isTracked)) ::UnityEngine::InputSystem::Controls::ButtonControl* isTracked;
 
- __declspec(property(get=get_menu, put=set_menu)) ::UnityEngine::InputSystem::Controls::ButtonControl*  menu;
+  __declspec(property(get = get_menu, put = set_menu)) ::UnityEngine::InputSystem::Controls::ButtonControl* menu;
 
- __declspec(property(get=get_pointer, put=set_pointer)) ::UnityEngine::XR::OpenXR::Input::PoseControl*  pointer;
+  __declspec(property(get = get_pointer, put = set_pointer)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pointer;
 
- __declspec(property(get=get_pointerPosition, put=set_pointerPosition)) ::UnityEngine::InputSystem::Controls::Vector3Control*  pointerPosition;
+  __declspec(property(get = get_pointerPosition, put = set_pointerPosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* pointerPosition;
 
- __declspec(property(get=get_pointerRotation, put=set_pointerRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl*  pointerRotation;
+  __declspec(property(get = get_pointerRotation, put = set_pointerRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* pointerRotation;
 
- __declspec(property(get=get_select, put=set_select)) ::UnityEngine::InputSystem::Controls::ButtonControl*  select;
+  __declspec(property(get = get_select, put = set_select)) ::UnityEngine::InputSystem::Controls::ButtonControl* select;
 
- __declspec(property(get=get_trackingState, put=set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl*  trackingState;
+  __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
- __declspec(property(get=get_trackpad, put=set_trackpad)) ::UnityEngine::InputSystem::Controls::Vector2Control*  trackpad;
+  __declspec(property(get = get_trackpad, put = set_trackpad)) ::UnityEngine::InputSystem::Controls::Vector2Control* trackpad;
 
- __declspec(property(get=get_trackpadClicked, put=set_trackpadClicked)) ::UnityEngine::InputSystem::Controls::ButtonControl*  trackpadClicked;
+  __declspec(property(get = get_trackpadClicked, put = set_trackpadClicked)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadClicked;
 
- __declspec(property(get=get_trackpadTouched, put=set_trackpadTouched)) ::UnityEngine::InputSystem::Controls::ButtonControl*  trackpadTouched;
+  __declspec(property(get = get_trackpadTouched, put = set_trackpadTouched)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadTouched;
 
- __declspec(property(get=get_trigger, put=set_trigger)) ::UnityEngine::InputSystem::Controls::AxisControl*  trigger;
+  __declspec(property(get = get_trigger, put = set_trigger)) ::UnityEngine::InputSystem::Controls::AxisControl* trigger;
 
- __declspec(property(get=get_triggerPressed, put=set_triggerPressed)) ::UnityEngine::InputSystem::Controls::ButtonControl*  triggerPressed;
+  __declspec(property(get = get_triggerPressed, put = set_triggerPressed)) ::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
 
-/// @brief Method FinishSetup, addr 0x6836ee8, size 0x418, virtual true, abstract: false, final false
-inline void FinishSetup() ;
+  /// @brief Method FinishSetup, addr 0x68a8ef4, size 0x418, virtual true, abstract: false, final false
+  inline void FinishSetup();
 
-static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController* New_ctor() ;
+  static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController* New_ctor();
 
-constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl* const& __cordl_internal_get__devicePose_k__BackingField() const;
+  constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl* const& __cordl_internal_get__devicePose_k__BackingField() const;
 
-constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl*& __cordl_internal_get__devicePose_k__BackingField() ;
+  constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl*& __cordl_internal_get__devicePose_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__devicePosition_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__devicePosition_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__devicePosition_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__devicePosition_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& __cordl_internal_get__deviceRotation_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& __cordl_internal_get__deviceRotation_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__deviceRotation_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__deviceRotation_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__gripPressed_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__gripPressed_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__gripPressed_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__gripPressed_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__grip_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__grip_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__grip_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__grip_k__BackingField();
 
-constexpr ::UnityEngine::XR::OpenXR::Input::HapticControl* const& __cordl_internal_get__haptic_k__BackingField() const;
+  constexpr ::UnityEngine::XR::OpenXR::Input::HapticControl* const& __cordl_internal_get__haptic_k__BackingField() const;
 
-constexpr ::UnityEngine::XR::OpenXR::Input::HapticControl*& __cordl_internal_get__haptic_k__BackingField() ;
+  constexpr ::UnityEngine::XR::OpenXR::Input::HapticControl*& __cordl_internal_get__haptic_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__isTracked_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__isTracked_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__isTracked_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__isTracked_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__menu_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__menu_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__menu_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__menu_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__pointerPosition_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__pointerPosition_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__pointerPosition_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__pointerPosition_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& __cordl_internal_get__pointerRotation_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& __cordl_internal_get__pointerRotation_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__pointerRotation_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__pointerRotation_k__BackingField();
 
-constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl* const& __cordl_internal_get__pointer_k__BackingField() const;
+  constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl* const& __cordl_internal_get__pointer_k__BackingField() const;
 
-constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl*& __cordl_internal_get__pointer_k__BackingField() ;
+  constexpr ::UnityEngine::XR::OpenXR::Input::PoseControl*& __cordl_internal_get__pointer_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__select_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__select_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__select_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__select_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::IntegerControl* const& __cordl_internal_get__trackingState_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl* const& __cordl_internal_get__trackingState_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__trackingState_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__trackingState_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__trackpadClicked_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__trackpadClicked_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadClicked_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadClicked_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__trackpadTouched_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__trackpadTouched_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadTouched_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadTouched_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::Vector2Control* const& __cordl_internal_get__trackpad_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control* const& __cordl_internal_get__trackpad_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__trackpad_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__trackpad_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__triggerPressed_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__triggerPressed_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__triggerPressed_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__triggerPressed_k__BackingField();
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__trigger_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__trigger_k__BackingField() const;
 
-constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__trigger_k__BackingField() ;
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__trigger_k__BackingField();
 
-constexpr void __cordl_internal_set__devicePose_k__BackingField(::UnityEngine::XR::OpenXR::Input::PoseControl*  value) ;
+  constexpr void __cordl_internal_set__devicePose_k__BackingField(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-constexpr void __cordl_internal_set__devicePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control*  value) ;
+  constexpr void __cordl_internal_set__devicePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-constexpr void __cordl_internal_set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl*  value) ;
+  constexpr void __cordl_internal_set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-constexpr void __cordl_internal_set__gripPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  constexpr void __cordl_internal_set__gripPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-constexpr void __cordl_internal_set__grip_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
+  constexpr void __cordl_internal_set__grip_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-constexpr void __cordl_internal_set__haptic_k__BackingField(::UnityEngine::XR::OpenXR::Input::HapticControl*  value) ;
+  constexpr void __cordl_internal_set__haptic_k__BackingField(::UnityEngine::XR::OpenXR::Input::HapticControl* value);
 
-constexpr void __cordl_internal_set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  constexpr void __cordl_internal_set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-constexpr void __cordl_internal_set__menu_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  constexpr void __cordl_internal_set__menu_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-constexpr void __cordl_internal_set__pointerPosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control*  value) ;
+  constexpr void __cordl_internal_set__pointerPosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-constexpr void __cordl_internal_set__pointerRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl*  value) ;
+  constexpr void __cordl_internal_set__pointerRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-constexpr void __cordl_internal_set__pointer_k__BackingField(::UnityEngine::XR::OpenXR::Input::PoseControl*  value) ;
+  constexpr void __cordl_internal_set__pointer_k__BackingField(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-constexpr void __cordl_internal_set__select_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  constexpr void __cordl_internal_set__select_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl*  value) ;
+  constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-constexpr void __cordl_internal_set__trackpadClicked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  constexpr void __cordl_internal_set__trackpadClicked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-constexpr void __cordl_internal_set__trackpadTouched_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  constexpr void __cordl_internal_set__trackpadTouched_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-constexpr void __cordl_internal_set__trackpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control*  value) ;
+  constexpr void __cordl_internal_set__trackpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-constexpr void __cordl_internal_set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  constexpr void __cordl_internal_set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
+  constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-/// @brief Method .ctor, addr 0x6837300, size 0x20, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x68a930c, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_devicePose, addr 0x6836e58, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_devicePose() ;
+  /// @brief Method get_devicePose, addr 0x68a8e64, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_devicePose();
 
-/// @brief Method get_devicePosition, addr 0x6836e98, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition() ;
+  /// @brief Method get_devicePosition, addr 0x68a8ea4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
-/// @brief Method get_deviceRotation, addr 0x6836ea8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation() ;
+  /// @brief Method get_deviceRotation, addr 0x68a8eb4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
-/// @brief Method get_grip, addr 0x6836dd8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip() ;
+  /// @brief Method get_grip, addr 0x68a8de4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-/// @brief Method get_gripPressed, addr 0x6836de8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed() ;
+  /// @brief Method get_gripPressed, addr 0x68a8df4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-/// @brief Method get_haptic, addr 0x6836ed8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::XR::OpenXR::Input::HapticControl* get_haptic() ;
+  /// @brief Method get_haptic, addr 0x68a8ee4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::XR::OpenXR::Input::HapticControl* get_haptic();
 
-/// @brief Method get_isTracked, addr 0x6836e78, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked() ;
+  /// @brief Method get_isTracked, addr 0x68a8e84, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-/// @brief Method get_menu, addr 0x6836df8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu() ;
+  /// @brief Method get_menu, addr 0x68a8e04, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
 
-/// @brief Method get_pointer, addr 0x6836e68, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pointer() ;
+  /// @brief Method get_pointer, addr 0x68a8e74, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pointer();
 
-/// @brief Method get_pointerPosition, addr 0x6836eb8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pointerPosition() ;
+  /// @brief Method get_pointerPosition, addr 0x68a8ec4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pointerPosition();
 
-/// @brief Method get_pointerRotation, addr 0x6836ec8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pointerRotation() ;
+  /// @brief Method get_pointerRotation, addr 0x68a8ed4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pointerRotation();
 
-/// @brief Method get_select, addr 0x6836dc8, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_select() ;
+  /// @brief Method get_select, addr 0x68a8dd4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_select();
 
-/// @brief Method get_trackingState, addr 0x6836e88, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState() ;
+  /// @brief Method get_trackingState, addr 0x68a8e94, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-/// @brief Method get_trackpad, addr 0x6836e28, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_trackpad() ;
+  /// @brief Method get_trackpad, addr 0x68a8e34, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_trackpad();
 
-/// @brief Method get_trackpadClicked, addr 0x6836e38, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadClicked() ;
+  /// @brief Method get_trackpadClicked, addr 0x68a8e44, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadClicked();
 
-/// @brief Method get_trackpadTouched, addr 0x6836e48, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadTouched() ;
+  /// @brief Method get_trackpadTouched, addr 0x68a8e54, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadTouched();
 
-/// @brief Method get_trigger, addr 0x6836e08, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger() ;
+  /// @brief Method get_trigger, addr 0x68a8e14, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
 
-/// @brief Method get_triggerPressed, addr 0x6836e18, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed() ;
+  /// @brief Method get_triggerPressed, addr 0x68a8e24, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-/// @brief Method set_devicePose, addr 0x6836e60, size 0x8, virtual false, abstract: false, final false
-inline void set_devicePose(::UnityEngine::XR::OpenXR::Input::PoseControl*  value) ;
+  /// @brief Method set_devicePose, addr 0x68a8e6c, size 0x8, virtual false, abstract: false, final false
+  inline void set_devicePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-/// @brief Method set_devicePosition, addr 0x6836ea0, size 0x8, virtual false, abstract: false, final false
-inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control*  value) ;
+  /// @brief Method set_devicePosition, addr 0x68a8eac, size 0x8, virtual false, abstract: false, final false
+  inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-/// @brief Method set_deviceRotation, addr 0x6836eb0, size 0x8, virtual false, abstract: false, final false
-inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl*  value) ;
+  /// @brief Method set_deviceRotation, addr 0x68a8ebc, size 0x8, virtual false, abstract: false, final false
+  inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-/// @brief Method set_grip, addr 0x6836de0, size 0x8, virtual false, abstract: false, final false
-inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
+  /// @brief Method set_grip, addr 0x68a8dec, size 0x8, virtual false, abstract: false, final false
+  inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-/// @brief Method set_gripPressed, addr 0x6836df0, size 0x8, virtual false, abstract: false, final false
-inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  /// @brief Method set_gripPressed, addr 0x68a8dfc, size 0x8, virtual false, abstract: false, final false
+  inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-/// @brief Method set_haptic, addr 0x6836ee0, size 0x8, virtual false, abstract: false, final false
-inline void set_haptic(::UnityEngine::XR::OpenXR::Input::HapticControl*  value) ;
+  /// @brief Method set_haptic, addr 0x68a8eec, size 0x8, virtual false, abstract: false, final false
+  inline void set_haptic(::UnityEngine::XR::OpenXR::Input::HapticControl* value);
 
-/// @brief Method set_isTracked, addr 0x6836e80, size 0x8, virtual false, abstract: false, final false
-inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  /// @brief Method set_isTracked, addr 0x68a8e8c, size 0x8, virtual false, abstract: false, final false
+  inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-/// @brief Method set_menu, addr 0x6836e00, size 0x8, virtual false, abstract: false, final false
-inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  /// @brief Method set_menu, addr 0x68a8e0c, size 0x8, virtual false, abstract: false, final false
+  inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-/// @brief Method set_pointer, addr 0x6836e70, size 0x8, virtual false, abstract: false, final false
-inline void set_pointer(::UnityEngine::XR::OpenXR::Input::PoseControl*  value) ;
+  /// @brief Method set_pointer, addr 0x68a8e7c, size 0x8, virtual false, abstract: false, final false
+  inline void set_pointer(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-/// @brief Method set_pointerPosition, addr 0x6836ec0, size 0x8, virtual false, abstract: false, final false
-inline void set_pointerPosition(::UnityEngine::InputSystem::Controls::Vector3Control*  value) ;
+  /// @brief Method set_pointerPosition, addr 0x68a8ecc, size 0x8, virtual false, abstract: false, final false
+  inline void set_pointerPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-/// @brief Method set_pointerRotation, addr 0x6836ed0, size 0x8, virtual false, abstract: false, final false
-inline void set_pointerRotation(::UnityEngine::InputSystem::Controls::QuaternionControl*  value) ;
+  /// @brief Method set_pointerRotation, addr 0x68a8edc, size 0x8, virtual false, abstract: false, final false
+  inline void set_pointerRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-/// @brief Method set_select, addr 0x6836dd0, size 0x8, virtual false, abstract: false, final false
-inline void set_select(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  /// @brief Method set_select, addr 0x68a8ddc, size 0x8, virtual false, abstract: false, final false
+  inline void set_select(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-/// @brief Method set_trackingState, addr 0x6836e90, size 0x8, virtual false, abstract: false, final false
-inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl*  value) ;
+  /// @brief Method set_trackingState, addr 0x68a8e9c, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-/// @brief Method set_trackpad, addr 0x6836e30, size 0x8, virtual false, abstract: false, final false
-inline void set_trackpad(::UnityEngine::InputSystem::Controls::Vector2Control*  value) ;
+  /// @brief Method set_trackpad, addr 0x68a8e3c, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-/// @brief Method set_trackpadClicked, addr 0x6836e40, size 0x8, virtual false, abstract: false, final false
-inline void set_trackpadClicked(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  /// @brief Method set_trackpadClicked, addr 0x68a8e4c, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackpadClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-/// @brief Method set_trackpadTouched, addr 0x6836e50, size 0x8, virtual false, abstract: false, final false
-inline void set_trackpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  /// @brief Method set_trackpadTouched, addr 0x68a8e5c, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-/// @brief Method set_trigger, addr 0x6836e10, size 0x8, virtual false, abstract: false, final false
-inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
+  /// @brief Method set_trigger, addr 0x68a8e1c, size 0x8, virtual false, abstract: false, final false
+  inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-/// @brief Method set_triggerPressed, addr 0x6836e20, size 0x8, virtual false, abstract: false, final false
-inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
+  /// @brief Method set_triggerPressed, addr 0x68a8e2c, size 0x8, virtual false, abstract: false, final false
+  inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HTCViveControllerProfile_ViveController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HTCViveControllerProfile_ViveController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile_ViveController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HTCViveControllerProfile_ViveController(HTCViveControllerProfile_ViveController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile_ViveController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HTCViveControllerProfile_ViveController(HTCViveControllerProfile_ViveController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile_ViveController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HTCViveControllerProfile_ViveController(HTCViveControllerProfile_ViveController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile_ViveController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HTCViveControllerProfile_ViveController(HTCViveControllerProfile_ViveController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18559 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18549};
+  /// @brief Field <select>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____select_k__BackingField;
 
-/// @brief Field <select>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::ButtonControl*  ____select_k__BackingField;
+  /// @brief Field <grip>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::AxisControl* ____grip_k__BackingField;
 
-/// @brief Field <grip>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::AxisControl*  ____grip_k__BackingField;
+  /// @brief Field <gripPressed>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____gripPressed_k__BackingField;
 
-/// @brief Field <gripPressed>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::ButtonControl*  ____gripPressed_k__BackingField;
+  /// @brief Field <menu>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____menu_k__BackingField;
 
-/// @brief Field <menu>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::ButtonControl*  ____menu_k__BackingField;
+  /// @brief Field <trigger>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::AxisControl* ____trigger_k__BackingField;
 
-/// @brief Field <trigger>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::AxisControl*  ____trigger_k__BackingField;
+  /// @brief Field <triggerPressed>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____triggerPressed_k__BackingField;
 
-/// @brief Field <triggerPressed>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::ButtonControl*  ____triggerPressed_k__BackingField;
+  /// @brief Field <trackpad>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::Vector2Control* ____trackpad_k__BackingField;
 
-/// @brief Field <trackpad>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::Vector2Control*  ____trackpad_k__BackingField;
+  /// @brief Field <trackpadClicked>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____trackpadClicked_k__BackingField;
 
-/// @brief Field <trackpadClicked>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::ButtonControl*  ____trackpadClicked_k__BackingField;
+  /// @brief Field <trackpadTouched>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____trackpadTouched_k__BackingField;
 
-/// @brief Field <trackpadTouched>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::ButtonControl*  ____trackpadTouched_k__BackingField;
+  /// @brief Field <devicePose>k__BackingField, offset: 0x1f0, size: 0x8, def value: None
+  ::UnityEngine::XR::OpenXR::Input::PoseControl* ____devicePose_k__BackingField;
 
-/// @brief Field <devicePose>k__BackingField, offset: 0x1f0, size: 0x8, def value: None
- ::UnityEngine::XR::OpenXR::Input::PoseControl*  ____devicePose_k__BackingField;
+  /// @brief Field <pointer>k__BackingField, offset: 0x1f8, size: 0x8, def value: None
+  ::UnityEngine::XR::OpenXR::Input::PoseControl* ____pointer_k__BackingField;
 
-/// @brief Field <pointer>k__BackingField, offset: 0x1f8, size: 0x8, def value: None
- ::UnityEngine::XR::OpenXR::Input::PoseControl*  ____pointer_k__BackingField;
+  /// @brief Field <isTracked>k__BackingField, offset: 0x200, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____isTracked_k__BackingField;
 
-/// @brief Field <isTracked>k__BackingField, offset: 0x200, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::ButtonControl*  ____isTracked_k__BackingField;
+  /// @brief Field <trackingState>k__BackingField, offset: 0x208, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::IntegerControl* ____trackingState_k__BackingField;
 
-/// @brief Field <trackingState>k__BackingField, offset: 0x208, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::IntegerControl*  ____trackingState_k__BackingField;
+  /// @brief Field <devicePosition>k__BackingField, offset: 0x210, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::Vector3Control* ____devicePosition_k__BackingField;
 
-/// @brief Field <devicePosition>k__BackingField, offset: 0x210, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::Vector3Control*  ____devicePosition_k__BackingField;
+  /// @brief Field <deviceRotation>k__BackingField, offset: 0x218, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::QuaternionControl* ____deviceRotation_k__BackingField;
 
-/// @brief Field <deviceRotation>k__BackingField, offset: 0x218, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::QuaternionControl*  ____deviceRotation_k__BackingField;
+  /// @brief Field <pointerPosition>k__BackingField, offset: 0x220, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::Vector3Control* ____pointerPosition_k__BackingField;
 
-/// @brief Field <pointerPosition>k__BackingField, offset: 0x220, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::Vector3Control*  ____pointerPosition_k__BackingField;
+  /// @brief Field <pointerRotation>k__BackingField, offset: 0x228, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::QuaternionControl* ____pointerRotation_k__BackingField;
 
-/// @brief Field <pointerRotation>k__BackingField, offset: 0x228, size: 0x8, def value: None
- ::UnityEngine::InputSystem::Controls::QuaternionControl*  ____pointerRotation_k__BackingField;
+  /// @brief Field <haptic>k__BackingField, offset: 0x230, size: 0x8, def value: None
+  ::UnityEngine::XR::OpenXR::Input::HapticControl* ____haptic_k__BackingField;
 
-/// @brief Field <haptic>k__BackingField, offset: 0x230, size: 0x8, def value: None
- ::UnityEngine::XR::OpenXR::Input::HapticControl*  ____haptic_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController, ____select_k__BackingField) == 0x1a8, "Offset mismatch!");
@@ -477,99 +492,100 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::Interactions::HTCViv
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController, 0x238>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features::Interactions
+} // namespace UnityEngine::XR::OpenXR::Features::Interactions
 // Dependencies UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
 class CORDL_TYPE HTCViveControllerProfile : public ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature {
 public:
-// Declarations
-using ViveController = ::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController;
+  // Declarations
+  using ViveController = ::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController;
 
-/// @brief Method GetDeviceLayoutName, addr 0x6835348, size 0x44, virtual true, abstract: false, final false
-inline ::StringW GetDeviceLayoutName() ;
+  /// @brief Method GetDeviceLayoutName, addr 0x68a7354, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW GetDeviceLayoutName();
 
-static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile* New_ctor() ;
+  static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile* New_ctor();
 
-/// @brief Method RegisterActionMapsWithRuntime, addr 0x683538c, size 0x19e0, virtual true, abstract: false, final false
-inline void RegisterActionMapsWithRuntime() ;
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x68a7398, size 0x19e0, virtual true, abstract: false, final false
+  inline void RegisterActionMapsWithRuntime();
 
-/// @brief Method RegisterDeviceLayout, addr 0x6835190, size 0x148, virtual true, abstract: false, final false
-inline void RegisterDeviceLayout() ;
+  /// @brief Method RegisterDeviceLayout, addr 0x68a719c, size 0x148, virtual true, abstract: false, final false
+  inline void RegisterDeviceLayout();
 
-/// @brief Method UnregisterDeviceLayout, addr 0x68352d8, size 0x70, virtual true, abstract: false, final false
-inline void UnregisterDeviceLayout() ;
+  /// @brief Method UnregisterDeviceLayout, addr 0x68a72e4, size 0x70, virtual true, abstract: false, final false
+  inline void UnregisterDeviceLayout();
 
-/// @brief Method .ctor, addr 0x6836d6c, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x68a8d78, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HTCViveControllerProfile() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HTCViveControllerProfile();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HTCViveControllerProfile(HTCViveControllerProfile&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HTCViveControllerProfile(HTCViveControllerProfile && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HTCViveControllerProfile(HTCViveControllerProfile const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HTCViveControllerProfile(HTCViveControllerProfile const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18560 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18550};
+  /// @brief Field aim offset 0xffffffff size 0x8
+  static constexpr ::ConstString aim{ u"/input/aim/pose" };
 
-/// @brief Field aim offset 0xffffffff size 0x8
-static constexpr ::ConstString  aim{u"/input/aim/pose"};
+  /// @brief Field featureId offset 0xffffffff size 0x8
+  static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.input.htcvive" };
 
-/// @brief Field featureId offset 0xffffffff size 0x8
-static constexpr ::ConstString  featureId{u"com.unity.openxr.feature.input.htcvive"};
+  /// @brief Field grip offset 0xffffffff size 0x8
+  static constexpr ::ConstString grip{ u"/input/grip/pose" };
 
-/// @brief Field grip offset 0xffffffff size 0x8
-static constexpr ::ConstString  grip{u"/input/grip/pose"};
+  /// @brief Field haptic offset 0xffffffff size 0x8
+  static constexpr ::ConstString haptic{ u"/output/haptic" };
 
-/// @brief Field haptic offset 0xffffffff size 0x8
-static constexpr ::ConstString  haptic{u"/output/haptic"};
+  /// @brief Field kDeviceLocalizedName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDeviceLocalizedName{ u"HTC Vive Controller OpenXR" };
 
-/// @brief Field kDeviceLocalizedName offset 0xffffffff size 0x8
-static constexpr ::ConstString  kDeviceLocalizedName{u"HTC Vive Controller OpenXR"};
+  /// @brief Field menu offset 0xffffffff size 0x8
+  static constexpr ::ConstString menu{ u"/input/menu/click" };
 
-/// @brief Field menu offset 0xffffffff size 0x8
-static constexpr ::ConstString  menu{u"/input/menu/click"};
+  /// @brief Field profile offset 0xffffffff size 0x8
+  static constexpr ::ConstString profile{ u"/interaction_profiles/htc/vive_controller" };
 
-/// @brief Field profile offset 0xffffffff size 0x8
-static constexpr ::ConstString  profile{u"/interaction_profiles/htc/vive_controller"};
+  /// @brief Field squeeze offset 0xffffffff size 0x8
+  static constexpr ::ConstString squeeze{ u"/input/squeeze/click" };
 
-/// @brief Field squeeze offset 0xffffffff size 0x8
-static constexpr ::ConstString  squeeze{u"/input/squeeze/click"};
+  /// @brief Field system offset 0xffffffff size 0x8
+  static constexpr ::ConstString system{ u"/input/system/click" };
 
-/// @brief Field system offset 0xffffffff size 0x8
-static constexpr ::ConstString  system{u"/input/system/click"};
+  /// @brief Field trackpad offset 0xffffffff size 0x8
+  static constexpr ::ConstString trackpad{ u"/input/trackpad" };
 
-/// @brief Field trackpad offset 0xffffffff size 0x8
-static constexpr ::ConstString  trackpad{u"/input/trackpad"};
+  /// @brief Field trackpadClick offset 0xffffffff size 0x8
+  static constexpr ::ConstString trackpadClick{ u"/input/trackpad/click" };
 
-/// @brief Field trackpadClick offset 0xffffffff size 0x8
-static constexpr ::ConstString  trackpadClick{u"/input/trackpad/click"};
+  /// @brief Field trackpadTouch offset 0xffffffff size 0x8
+  static constexpr ::ConstString trackpadTouch{ u"/input/trackpad/touch" };
 
-/// @brief Field trackpadTouch offset 0xffffffff size 0x8
-static constexpr ::ConstString  trackpadTouch{u"/input/trackpad/touch"};
+  /// @brief Field trigger offset 0xffffffff size 0x8
+  static constexpr ::ConstString trigger{ u"/input/trigger/value" };
 
-/// @brief Field trigger offset 0xffffffff size 0x8
-static constexpr ::ConstString  trigger{u"/input/trigger/value"};
+  /// @brief Field triggerClick offset 0xffffffff size 0x8
+  static constexpr ::ConstString triggerClick{ u"/input/trigger/click" };
 
-/// @brief Field triggerClick offset 0xffffffff size 0x8
-static constexpr ::ConstString  triggerClick{u"/input/trigger/click"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile, 0x50>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR::Features::Interactions
+} // namespace UnityEngine::XR::OpenXR::Features::Interactions
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile*, "UnityEngine.XR.OpenXR.Features.Interactions", "HTCViveControllerProfile");
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController*, "UnityEngine.XR.OpenXR.Features.Interactions", "HTCViveControllerProfile/ViveController");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile_ViveController*, "UnityEngine.XR.OpenXR.Features.Interactions",
+                       "HTCViveControllerProfile/ViveController");

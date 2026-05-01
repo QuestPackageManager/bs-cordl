@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Drawing/Color.hpp"
 #include "System/Drawing/KnownColor.hpp"
@@ -13,6 +13,5 @@
 #include "System/Drawing/Size.hpp"
 #include "System/Drawing/SizeF.hpp"
 #ifdef __cpp_modules
-                    export module Drawing;
-                    #endif
-                
+export module Drawing;
+#endif

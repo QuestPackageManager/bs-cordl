@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatSaber/Settings/AudioSettings.hpp"
 #include "BeatSaber/Settings/ControllerSettings.hpp"
@@ -22,6 +22,5 @@
 #include "BeatSaber/Settings/SmoothCameraSettings.hpp"
 #include "BeatSaber/Settings/WindowSettings.hpp"
 #ifdef __cpp_modules
-                    export module Settings;
-                    #endif
-                
+export module Settings;
+#endif

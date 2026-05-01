@@ -11,8 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EasingFunction)
 namespace System {
-template<typename T>
-class IEquatable_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -46,138 +45,138 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.EasingFunction
 struct CORDL_TYPE EasingFunction {
 public:
-// Declarations
-using PropertyBag = ::UnityEngine::UIElements::EasingFunction_PropertyBag;
+  // Declarations
+  using PropertyBag = ::UnityEngine::UIElements::EasingFunction_PropertyBag;
 
- __declspec(property(get=get_mode, put=set_mode)) ::UnityEngine::UIElements::EasingMode  mode;
+  __declspec(property(get = get_mode, put = set_mode)) ::UnityEngine::UIElements::EasingMode mode;
 
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*() ;
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*();
 
-/// @brief Method Equals, addr 0x6c12390, size 0x7c, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x6c845d8, size 0x7c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method Equals, addr 0x6c12380, size 0x10, virtual true, abstract: false, final true
-inline bool Equals(::UnityEngine::UIElements::EasingFunction  other) ;
+  /// @brief Method Equals, addr 0x6c845c8, size 0x10, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::EasingFunction other);
 
-/// @brief Method GetHashCode, addr 0x6c10f78, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6c831c0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method ToString, addr 0x6c1240c, size 0x6c, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6c84654, size 0x6c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x6c1236c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::UIElements::EasingMode  mode) ;
+  /// @brief Method .ctor, addr 0x6c845b4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::EasingMode mode);
 
-/// @brief Method get_mode, addr 0x6c1235c, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::EasingMode get_mode() ;
+  /// @brief Method get_mode, addr 0x6c845a4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EasingMode get_mode();
 
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_() ;
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_();
 
-/// @brief Method op_Equality, addr 0x6c12374, size 0xc, virtual false, abstract: false, final false
-static inline bool op_Equality(::UnityEngine::UIElements::EasingFunction  lhs, ::UnityEngine::UIElements::EasingFunction  rhs) ;
+  /// @brief Method op_Equality, addr 0x6c845bc, size 0xc, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::UIElements::EasingFunction lhs, ::UnityEngine::UIElements::EasingFunction rhs);
 
-/// @brief Method op_Implicit, addr 0x6c113a8, size 0x4, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::EasingFunction op_Implicit___UnityEngine__UIElements__EasingFunction(::UnityEngine::UIElements::EasingMode  easingMode) ;
+  /// @brief Method op_Implicit, addr 0x6c835f0, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::EasingFunction op_Implicit___UnityEngine__UIElements__EasingFunction(::UnityEngine::UIElements::EasingMode easingMode);
 
-/// @brief Method set_mode, addr 0x6c12364, size 0x8, virtual false, abstract: false, final false
-inline void set_mode(::UnityEngine::UIElements::EasingMode  value) ;
+  /// @brief Method set_mode, addr 0x6c845ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_mode(::UnityEngine::UIElements::EasingMode value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr EasingFunction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EasingFunction();
 
-// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: None }]
-constexpr EasingFunction(::UnityEngine::UIElements::EasingMode  m_Mode) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: None }]
+  constexpr EasingFunction(::UnityEngine::UIElements::EasingMode m_Mode) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4712};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4712 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field m_Mode, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::UIElements::EasingMode  m_Mode;
+  /// @brief Field m_Mode, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::UIElements::EasingMode m_Mode;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::EasingFunction, m_Mode) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EasingFunction, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.EasingFunction, UnityEngine.UIElements.EasingMode
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EasingFunction/PropertyBag/ModeProperty
-class CORDL_TYPE PropertyBag_EasingFunction_ModeProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::EasingFunction,::UnityEngine::UIElements::EasingMode> {
+class CORDL_TYPE PropertyBag_EasingFunction_ModeProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::EasingFunction, ::UnityEngine::UIElements::EasingMode> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-/// @brief Method GetValue, addr 0x6c125b0, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::EasingMode GetValue(::ByRef<::UnityEngine::UIElements::EasingFunction>  container) ;
+  /// @brief Method GetValue, addr 0x6c847f8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::EasingMode GetValue(::ByRef<::UnityEngine::UIElements::EasingFunction> container);
 
-static inline ::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6c125b8, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::EasingFunction>  container, ::UnityEngine::UIElements::EasingMode  value) ;
+  /// @brief Method SetValue, addr 0x6c84800, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::EasingFunction> container, ::UnityEngine::UIElements::EasingMode value);
 
-constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6c1253c, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c84784, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6c125a8, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6c847f0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6c125a0, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6c847e8, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PropertyBag_EasingFunction_ModeProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyBag_EasingFunction_ModeProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4710 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4710};
+  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____Name_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____Name_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____IsReadOnly_k__BackingField;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____IsReadOnly_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -186,44 +185,44 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_EasingFunction_Mod
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.UIElements.EasingFunction
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EasingFunction/PropertyBag
 class CORDL_TYPE EasingFunction_PropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::UIElements::EasingFunction> {
 public:
-// Declarations
-using ModeProperty = ::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty;
+  // Declarations
+  using ModeProperty = ::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty;
 
-static inline ::UnityEngine::UIElements::EasingFunction_PropertyBag* New_ctor() ;
+  static inline ::UnityEngine::UIElements::EasingFunction_PropertyBag* New_ctor();
 
-/// @brief Method .ctor, addr 0x6c12478, size 0xc4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c846c0, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EasingFunction_PropertyBag() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EasingFunction_PropertyBag();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EasingFunction_PropertyBag(EasingFunction_PropertyBag&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EasingFunction_PropertyBag(EasingFunction_PropertyBag && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EasingFunction_PropertyBag(EasingFunction_PropertyBag const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EasingFunction_PropertyBag(EasingFunction_PropertyBag const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4711 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4711};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EasingFunction_PropertyBag, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EasingFunction_PropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EasingFunction_PropertyBag*, "UnityEngine.UIElements", "EasingFunction/PropertyBag");
 NEED_NO_BOX(::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty);

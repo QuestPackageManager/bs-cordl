@@ -34,124 +34,124 @@ namespace Org::BouncyCastle::Bcpg {
 // CS Name: Org.BouncyCastle.Bcpg.PublicKeyPacket
 class CORDL_TYPE PublicKeyPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
-// Declarations
- __declspec(property(get=get_Algorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  Algorithm;
+  // Declarations
+  __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Algorithm;
 
- __declspec(property(get=get_Key)) ::Org::BouncyCastle::Bcpg::IBcpgKey*  Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Bcpg::IBcpgKey* Key;
 
- __declspec(property(get=get_ValidDays)) int32_t  ValidDays;
+  __declspec(property(get = get_ValidDays)) int32_t ValidDays;
 
- __declspec(property(get=get_Version)) int32_t  Version;
+  __declspec(property(get = get_Version)) int32_t Version;
 
-/// @brief Field algorithm, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get_algorithm, put=__cordl_internal_set_algorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  algorithm;
+  /// @brief Field algorithm, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm;
 
-/// @brief Field key, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_key, put=__cordl_internal_set_key)) ::Org::BouncyCastle::Bcpg::IBcpgKey*  key;
+  /// @brief Field key, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Bcpg::IBcpgKey* key;
 
-/// @brief Field time, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_time, put=__cordl_internal_set_time)) int64_t  time;
+  /// @brief Field time, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) int64_t time;
 
-/// @brief Field validDays, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_validDays, put=__cordl_internal_set_validDays)) int32_t  validDays;
+  /// @brief Field validDays, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_validDays, put = __cordl_internal_set_validDays)) int32_t validDays;
 
-/// @brief Field version, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) int32_t  version;
+  /// @brief Field version, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-/// @brief Method Encode, addr 0x35a3638, size 0x38, virtual true, abstract: false, final false
-inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream*  bcpgOut) ;
+  /// @brief Method Encode, addr 0x35dfc7c, size 0x38, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-/// @brief Method GetEncodedContents, addr 0x35a34d0, size 0x168, virtual true, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetEncodedContents() ;
+  /// @brief Method GetEncodedContents, addr 0x35dfb14, size 0x168, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedContents();
 
-/// @brief Method GetTime, addr 0x35a3464, size 0x64, virtual true, abstract: false, final false
-inline ::System::DateTime GetTime() ;
+  /// @brief Method GetTime, addr 0x35dfaa8, size 0x64, virtual true, abstract: false, final false
+  inline ::System::DateTime GetTime();
 
-static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  algorithm, ::System::DateTime  time, ::Org::BouncyCastle::Bcpg::IBcpgKey*  key) ;
+  static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn) ;
+  static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_algorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_algorithm() const;
 
-constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_algorithm() ;
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_algorithm();
 
-constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* const& __cordl_internal_get_key() const;
+  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* const& __cordl_internal_get_key() const;
 
-constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey*& __cordl_internal_get_key() ;
+  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey*& __cordl_internal_get_key();
 
-constexpr int64_t const& __cordl_internal_get_time() const;
+  constexpr int64_t const& __cordl_internal_get_time() const;
 
-constexpr int64_t& __cordl_internal_get_time() ;
+  constexpr int64_t& __cordl_internal_get_time();
 
-constexpr int32_t const& __cordl_internal_get_validDays() const;
+  constexpr int32_t const& __cordl_internal_get_validDays() const;
 
-constexpr int32_t& __cordl_internal_get_validDays() ;
+  constexpr int32_t& __cordl_internal_get_validDays();
 
-constexpr int32_t const& __cordl_internal_get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-constexpr int32_t& __cordl_internal_get_version() ;
+  constexpr int32_t& __cordl_internal_get_version();
 
-constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  value) ;
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
 
-constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Bcpg::IBcpgKey*  value) ;
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Bcpg::IBcpgKey* value);
 
-constexpr void __cordl_internal_set_time(int64_t  value) ;
+  constexpr void __cordl_internal_set_time(int64_t value);
 
-constexpr void __cordl_internal_set_validDays(int32_t  value) ;
+  constexpr void __cordl_internal_set_validDays(int32_t value);
 
-constexpr void __cordl_internal_set_version(int32_t  value) ;
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-/// @brief Method .ctor, addr 0x35a33a0, size 0xac, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  algorithm, ::System::DateTime  time, ::Org::BouncyCastle::Bcpg::IBcpgKey*  key) ;
+  /// @brief Method .ctor, addr 0x35df9e4, size 0xac, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-/// @brief Method .ctor, addr 0x359f864, size 0x298, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn) ;
+  /// @brief Method .ctor, addr 0x35dbea8, size 0x298, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-/// @brief Method get_Algorithm, addr 0x35a3454, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm() ;
+  /// @brief Method get_Algorithm, addr 0x35dfa98, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-/// @brief Method get_Key, addr 0x35a34c8, size 0x8, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Bcpg::IBcpgKey* get_Key() ;
+  /// @brief Method get_Key, addr 0x35dfb0c, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::IBcpgKey* get_Key();
 
-/// @brief Method get_ValidDays, addr 0x35a345c, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ValidDays() ;
+  /// @brief Method get_ValidDays, addr 0x35dfaa0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ValidDays();
 
-/// @brief Method get_Version, addr 0x35a344c, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_Version() ;
+  /// @brief Method get_Version, addr 0x35dfa90, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_Version();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PublicKeyPacket() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PublicKeyPacket();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PublicKeyPacket", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PublicKeyPacket(PublicKeyPacket&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PublicKeyPacket", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PublicKeyPacket(PublicKeyPacket && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PublicKeyPacket", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PublicKeyPacket(PublicKeyPacket const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PublicKeyPacket", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PublicKeyPacket(PublicKeyPacket const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 582 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{582};
+  /// @brief Field version, offset: 0x10, size: 0x4, def value: None
+  int32_t ___version;
 
-/// @brief Field version, offset: 0x10, size: 0x4, def value: None
- int32_t  ___version;
+  /// @brief Field time, offset: 0x18, size: 0x8, def value: None
+  int64_t ___time;
 
-/// @brief Field time, offset: 0x18, size: 0x8, def value: None
- int64_t  ___time;
+  /// @brief Field validDays, offset: 0x20, size: 0x4, def value: None
+  int32_t ___validDays;
 
-/// @brief Field validDays, offset: 0x20, size: 0x4, def value: None
- int32_t  ___validDays;
+  /// @brief Field algorithm, offset: 0x24, size: 0x4, def value: None
+  ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag ___algorithm;
 
-/// @brief Field algorithm, offset: 0x24, size: 0x4, def value: None
- ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  ___algorithm;
+  /// @brief Field key, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Bcpg::IBcpgKey* ___key;
 
-/// @brief Field key, offset: 0x28, size: 0x8, def value: None
- ::Org::BouncyCastle::Bcpg::IBcpgKey*  ___key;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyPacket, ___version) == 0x10, "Offset mismatch!");
@@ -166,6 +166,6 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::PublicKeyPacket, ___key) == 0x
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::PublicKeyPacket, 0x30>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Bcpg
+} // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::PublicKeyPacket);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::PublicKeyPacket*, "Org.BouncyCastle.Bcpg", "PublicKeyPacket");

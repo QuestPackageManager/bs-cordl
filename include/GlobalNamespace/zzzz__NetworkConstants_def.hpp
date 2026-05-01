@@ -19,44 +19,44 @@ namespace GlobalNamespace {
 // CS Name: NetworkConstants
 class CORDL_TYPE NetworkConstants : public ::System::Object {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NetworkConstants() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetworkConstants();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkConstants", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NetworkConstants(NetworkConstants&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetworkConstants", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NetworkConstants(NetworkConstants && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkConstants", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NetworkConstants(NetworkConstants const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetworkConstants", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NetworkConstants(NetworkConstants const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18203 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18195};
+  /// @brief Field backgroundedState offset 0xffffffff size 0x8
+  static constexpr ::ConstString backgroundedState{ u"backgrounded" };
 
-/// @brief Field backgroundedState offset 0xffffffff size 0x8
-static constexpr ::ConstString  backgroundedState{u"backgrounded"};
+  /// @brief Field kProtocolVersion offset 0xffffffff size 0x4
+  static constexpr uint32_t kProtocolVersion{ static_cast<uint32_t>(0x9u) };
 
-/// @brief Field kProtocolVersion offset 0xffffffff size 0x4
-static constexpr uint32_t  kProtocolVersion{static_cast<uint32_t>(0x9u)};
+  /// @brief Field playerState offset 0xffffffff size 0x8
+  static constexpr ::ConstString playerState{ u"player" };
 
-/// @brief Field playerState offset 0xffffffff size 0x8
-static constexpr ::ConstString  playerState{u"player"};
+  /// @brief Field spectatingState offset 0xffffffff size 0x8
+  static constexpr ::ConstString spectatingState{ u"spectating" };
 
-/// @brief Field spectatingState offset 0xffffffff size 0x8
-static constexpr ::ConstString  spectatingState{u"spectating"};
+  /// @brief Field terminatingState offset 0xffffffff size 0x8
+  static constexpr ::ConstString terminatingState{ u"terminating" };
 
-/// @brief Field terminatingState offset 0xffffffff size 0x8
-static constexpr ::ConstString  terminatingState{u"terminating"};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkConstants, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkConstants);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkConstants*, "", "NetworkConstants");

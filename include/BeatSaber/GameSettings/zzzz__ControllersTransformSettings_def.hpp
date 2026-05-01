@@ -24,158 +24,159 @@ namespace BeatSaber::GameSettings {
 // CS Name: BeatSaber.GameSettings.ControllersTransformSettings
 class CORDL_TYPE ControllersTransformSettings : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _isLeft, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__isLeft, put=__cordl_internal_set__isLeft)) bool  _isLeft;
+  // Declarations
+  /// @brief Field _isLeft, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__isLeft, put = __cordl_internal_set__isLeft)) bool _isLeft;
 
-/// @brief Field _posXSlider, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__posXSlider, put=__cordl_internal_set__posXSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _posXSlider;
+  /// @brief Field _posXSlider, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__posXSlider, put = __cordl_internal_set__posXSlider)) ::UnityW<::HMUI::RangeValuesTextSlider> _posXSlider;
 
-/// @brief Field _posYSlider, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__posYSlider, put=__cordl_internal_set__posYSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _posYSlider;
+  /// @brief Field _posYSlider, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__posYSlider, put = __cordl_internal_set__posYSlider)) ::UnityW<::HMUI::RangeValuesTextSlider> _posYSlider;
 
-/// @brief Field _posZSlider, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__posZSlider, put=__cordl_internal_set__posZSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _posZSlider;
+  /// @brief Field _posZSlider, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__posZSlider, put = __cordl_internal_set__posZSlider)) ::UnityW<::HMUI::RangeValuesTextSlider> _posZSlider;
 
-/// @brief Field _rotXSlider, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__rotXSlider, put=__cordl_internal_set__rotXSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _rotXSlider;
+  /// @brief Field _rotXSlider, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__rotXSlider, put = __cordl_internal_set__rotXSlider)) ::UnityW<::HMUI::RangeValuesTextSlider> _rotXSlider;
 
-/// @brief Field _rotYSlider, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__rotYSlider, put=__cordl_internal_set__rotYSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _rotYSlider;
+  /// @brief Field _rotYSlider, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__rotYSlider, put = __cordl_internal_set__rotYSlider)) ::UnityW<::HMUI::RangeValuesTextSlider> _rotYSlider;
 
-/// @brief Field _rotZSlider, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__rotZSlider, put=__cordl_internal_set__rotZSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _rotZSlider;
+  /// @brief Field _rotZSlider, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__rotZSlider, put = __cordl_internal_set__rotZSlider)) ::UnityW<::HMUI::RangeValuesTextSlider> _rotZSlider;
 
-/// @brief Field _selectedControllerProfile, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get__selectedControllerProfile, put=__cordl_internal_set__selectedControllerProfile)) ::BeatSaber::GameSettings::ControllerProfile*  _selectedControllerProfile;
+  /// @brief Field _selectedControllerProfile, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectedControllerProfile,
+                      put = __cordl_internal_set__selectedControllerProfile)) ::BeatSaber::GameSettings::ControllerProfile* _selectedControllerProfile;
 
- __declspec(property(get=get_selectedControllerProfile)) ::BeatSaber::GameSettings::ControllerProfile*  selectedControllerProfile;
+  __declspec(property(get = get_selectedControllerProfile)) ::BeatSaber::GameSettings::ControllerProfile* selectedControllerProfile;
 
-/// @brief Method Deactivate, addr 0x31c4518, size 0x8, virtual false, abstract: false, final false
-inline void Deactivate() ;
+  /// @brief Method Deactivate, addr 0x31fdacc, size 0x8, virtual false, abstract: false, final false
+  inline void Deactivate();
 
-/// @brief Method HandlePositionSliderValueDidChange, addr 0x31c4be4, size 0xd0, virtual false, abstract: false, final false
-inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider*  slider, float_t  value) ;
+  /// @brief Method HandlePositionSliderValueDidChange, addr 0x31fe198, size 0xd0, virtual false, abstract: false, final false
+  inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-/// @brief Method HandleRotationSliderValueDidChange, addr 0x31c4cb4, size 0xd0, virtual false, abstract: false, final false
-inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider*  slider, float_t  value) ;
+  /// @brief Method HandleRotationSliderValueDidChange, addr 0x31fe268, size 0xd0, virtual false, abstract: false, final false
+  inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-/// @brief Method Initialize, addr 0x31c3f7c, size 0x454, virtual false, abstract: false, final false
-inline void Initialize() ;
+  /// @brief Method Initialize, addr 0x31fd530, size 0x454, virtual false, abstract: false, final false
+  inline void Initialize();
 
-static inline ::BeatSaber::GameSettings::ControllersTransformSettings* New_ctor() ;
+  static inline ::BeatSaber::GameSettings::ControllersTransformSettings* New_ctor();
 
-/// @brief Method RefreshView, addr 0x31c48f8, size 0x19c, virtual false, abstract: false, final false
-inline void RefreshView(::BeatSaber::GameSettings::ControllerProfile*  controllerProfile) ;
+  /// @brief Method RefreshView, addr 0x31fdeac, size 0x19c, virtual false, abstract: false, final false
+  inline void RefreshView(::BeatSaber::GameSettings::ControllerProfile* controllerProfile);
 
-/// @brief Method SetInteractable, addr 0x31c4b50, size 0x94, virtual false, abstract: false, final false
-inline void SetInteractable(bool  interactable) ;
+  /// @brief Method SetInteractable, addr 0x31fe104, size 0x94, virtual false, abstract: false, final false
+  inline void SetInteractable(bool interactable);
 
-constexpr bool const& __cordl_internal_get__isLeft() const;
+  constexpr bool const& __cordl_internal_get__isLeft() const;
 
-constexpr bool& __cordl_internal_get__isLeft() ;
+  constexpr bool& __cordl_internal_get__isLeft();
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posXSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posXSlider() const;
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posXSlider() ;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posXSlider();
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posYSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posYSlider() const;
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posYSlider() ;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posYSlider();
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posZSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posZSlider() const;
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posZSlider() ;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posZSlider();
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotXSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotXSlider() const;
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotXSlider() ;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotXSlider();
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotYSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotYSlider() const;
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotYSlider() ;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotYSlider();
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotZSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotZSlider() const;
 
-constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotZSlider() ;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotZSlider();
 
-constexpr ::BeatSaber::GameSettings::ControllerProfile* const& __cordl_internal_get__selectedControllerProfile() const;
+  constexpr ::BeatSaber::GameSettings::ControllerProfile* const& __cordl_internal_get__selectedControllerProfile() const;
 
-constexpr ::BeatSaber::GameSettings::ControllerProfile*& __cordl_internal_get__selectedControllerProfile() ;
+  constexpr ::BeatSaber::GameSettings::ControllerProfile*& __cordl_internal_get__selectedControllerProfile();
 
-constexpr void __cordl_internal_set__isLeft(bool  value) ;
+  constexpr void __cordl_internal_set__isLeft(bool value);
 
-constexpr void __cordl_internal_set__posXSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
+  constexpr void __cordl_internal_set__posXSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-constexpr void __cordl_internal_set__posYSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
+  constexpr void __cordl_internal_set__posYSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-constexpr void __cordl_internal_set__posZSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
+  constexpr void __cordl_internal_set__posZSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-constexpr void __cordl_internal_set__rotXSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
+  constexpr void __cordl_internal_set__rotXSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-constexpr void __cordl_internal_set__rotYSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
+  constexpr void __cordl_internal_set__rotYSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-constexpr void __cordl_internal_set__rotZSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
+  constexpr void __cordl_internal_set__rotZSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-constexpr void __cordl_internal_set__selectedControllerProfile(::BeatSaber::GameSettings::ControllerProfile*  value) ;
+  constexpr void __cordl_internal_set__selectedControllerProfile(::BeatSaber::GameSettings::ControllerProfile* value);
 
-/// @brief Method .ctor, addr 0x31c4d84, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x31fe338, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_selectedControllerProfile, addr 0x31c4af8, size 0x58, virtual false, abstract: false, final false
-inline ::BeatSaber::GameSettings::ControllerProfile* get_selectedControllerProfile() ;
+  /// @brief Method get_selectedControllerProfile, addr 0x31fe0ac, size 0x58, virtual false, abstract: false, final false
+  inline ::BeatSaber::GameSettings::ControllerProfile* get_selectedControllerProfile();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ControllersTransformSettings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ControllersTransformSettings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ControllersTransformSettings(ControllersTransformSettings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ControllersTransformSettings(ControllersTransformSettings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ControllersTransformSettings(ControllersTransformSettings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ControllersTransformSettings(ControllersTransformSettings const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21899 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21888};
+  /// @brief Field kPositionMul offset 0xffffffff size 0x4
+  static constexpr float_t kPositionMul{ static_cast<float_t>(100.0f) };
 
-/// @brief Field kPositionMul offset 0xffffffff size 0x4
-static constexpr float_t  kPositionMul{static_cast<float_t>(100.0f)};
+  /// @brief Field kPositionStep offset 0xffffffff size 0x4
+  static constexpr float_t kPositionStep{ static_cast<float_t>(0.1f) };
 
-/// @brief Field kPositionStep offset 0xffffffff size 0x4
-static constexpr float_t  kPositionStep{static_cast<float_t>(0.1f)};
+  /// @brief Field kRotationStep offset 0xffffffff size 0x4
+  static constexpr float_t kRotationStep{ static_cast<float_t>(1.0f) };
 
-/// @brief Field kRotationStep offset 0xffffffff size 0x4
-static constexpr float_t  kRotationStep{static_cast<float_t>(1.0f)};
+  /// @brief Field _isLeft, offset: 0x20, size: 0x1, def value: None
+  bool ____isLeft;
 
-/// @brief Field _isLeft, offset: 0x20, size: 0x1, def value: None
- bool  ____isLeft;
+  /// @brief Field _posXSlider, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____posXSlider;
 
-/// @brief Field _posXSlider, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::HMUI::RangeValuesTextSlider>  ____posXSlider;
+  /// @brief Field _posYSlider, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____posYSlider;
 
-/// @brief Field _posYSlider, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::HMUI::RangeValuesTextSlider>  ____posYSlider;
+  /// @brief Field _posZSlider, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____posZSlider;
 
-/// @brief Field _posZSlider, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::HMUI::RangeValuesTextSlider>  ____posZSlider;
+  /// @brief Field _rotXSlider, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotXSlider;
 
-/// @brief Field _rotXSlider, offset: 0x40, size: 0x8, def value: None
- ::UnityW<::HMUI::RangeValuesTextSlider>  ____rotXSlider;
+  /// @brief Field _rotYSlider, offset: 0x48, size: 0x8, def value: None
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotYSlider;
 
-/// @brief Field _rotYSlider, offset: 0x48, size: 0x8, def value: None
- ::UnityW<::HMUI::RangeValuesTextSlider>  ____rotYSlider;
+  /// @brief Field _rotZSlider, offset: 0x50, size: 0x8, def value: None
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotZSlider;
 
-/// @brief Field _rotZSlider, offset: 0x50, size: 0x8, def value: None
- ::UnityW<::HMUI::RangeValuesTextSlider>  ____rotZSlider;
+  /// @brief Field _selectedControllerProfile, offset: 0x58, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::ControllerProfile* ____selectedControllerProfile;
 
-/// @brief Field _selectedControllerProfile, offset: 0x58, size: 0x8, def value: None
- ::BeatSaber::GameSettings::ControllerProfile*  ____selectedControllerProfile;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::GameSettings::ControllersTransformSettings, ____isLeft) == 0x20, "Offset mismatch!");
@@ -196,6 +197,6 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllersTransformSettings, 
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::ControllersTransformSettings, 0x60>, "Size mismatch!");
 
-} // namespace end def BeatSaber::GameSettings
+} // namespace BeatSaber::GameSettings
 NEED_NO_BOX(::BeatSaber::GameSettings::ControllersTransformSettings);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::GameSettings::ControllersTransformSettings*, "BeatSaber.GameSettings", "ControllersTransformSettings");

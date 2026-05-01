@@ -23,35 +23,36 @@ namespace Unity::IntegerTime {
 // CS Name: Unity.IntegerTime.RationalTimeExtensions
 class CORDL_TYPE RationalTimeExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Convert, addr 0x68906bc, size 0x54, virtual false, abstract: false, final false
-static inline ::Unity::IntegerTime::RationalTime Convert(::Unity::IntegerTime::RationalTime  time, ::Unity::IntegerTime::RationalTime_TicksPerSecond  rate) ;
+  // Declarations
+  /// @brief Method Convert, addr 0x69026c8, size 0x54, virtual false, abstract: false, final false
+  static inline ::Unity::IntegerTime::RationalTime Convert(::Unity::IntegerTime::RationalTime time, ::Unity::IntegerTime::RationalTime_TicksPerSecond rate);
 
-/// @brief Method Convert_Injected, addr 0x6890bc8, size 0x54, virtual false, abstract: false, final false
-static inline void Convert_Injected(::ByRef<::Unity::IntegerTime::RationalTime>  time, ::ByRef<::Unity::IntegerTime::RationalTime_TicksPerSecond>  rate, ::ByRef<::Unity::IntegerTime::RationalTime>  ret) ;
+  /// @brief Method Convert_Injected, addr 0x6902bd4, size 0x54, virtual false, abstract: false, final false
+  static inline void Convert_Injected(::ByRef<::Unity::IntegerTime::RationalTime> time, ::ByRef<::Unity::IntegerTime::RationalTime_TicksPerSecond> rate,
+                                      ::ByRef<::Unity::IntegerTime::RationalTime> ret);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RationalTimeExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RationalTimeExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RationalTimeExtensions(RationalTimeExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RationalTimeExtensions(RationalTimeExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RationalTimeExtensions(RationalTimeExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RationalTimeExtensions(RationalTimeExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9927 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9921};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::IntegerTime::RationalTimeExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::IntegerTime
+} // namespace Unity::IntegerTime
 NEED_NO_BOX(::Unity::IntegerTime::RationalTimeExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IntegerTime::RationalTimeExtensions*, "Unity.IntegerTime", "RationalTimeExtensions");

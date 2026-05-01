@@ -24,54 +24,54 @@ namespace System::Net {
 // CS Name: System.Net.CookieParser
 class CORDL_TYPE CookieParser : public ::System::Object {
 public:
-// Declarations
-/// @brief Field m_tokenizer, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_tokenizer, put=__cordl_internal_set_m_tokenizer)) ::System::Net::CookieTokenizer*  m_tokenizer;
+  // Declarations
+  /// @brief Field m_tokenizer, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_tokenizer, put = __cordl_internal_set_m_tokenizer)) ::System::Net::CookieTokenizer* m_tokenizer;
 
-/// @brief Method CheckQuoted, addr 0x6266c58, size 0x64, virtual false, abstract: false, final false
-static inline ::StringW CheckQuoted(::StringW  value) ;
+  /// @brief Method CheckQuoted, addr 0x62d8c64, size 0x64, virtual false, abstract: false, final false
+  static inline ::StringW CheckQuoted(::StringW value);
 
-/// @brief Method Get, addr 0x62666a8, size 0x5b0, virtual false, abstract: false, final false
-inline ::System::Net::Cookie* Get() ;
+  /// @brief Method Get, addr 0x62d86b4, size 0x5b0, virtual false, abstract: false, final false
+  inline ::System::Net::Cookie* Get();
 
-static inline ::System::Net::CookieParser* New_ctor(::StringW  cookieString) ;
+  static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
 
-constexpr ::System::Net::CookieTokenizer* const& __cordl_internal_get_m_tokenizer() const;
+  constexpr ::System::Net::CookieTokenizer* const& __cordl_internal_get_m_tokenizer() const;
 
-constexpr ::System::Net::CookieTokenizer*& __cordl_internal_get_m_tokenizer() ;
+  constexpr ::System::Net::CookieTokenizer*& __cordl_internal_get_m_tokenizer();
 
-constexpr void __cordl_internal_set_m_tokenizer(::System::Net::CookieTokenizer*  value) ;
+  constexpr void __cordl_internal_set_m_tokenizer(::System::Net::CookieTokenizer* value);
 
-/// @brief Method .ctor, addr 0x6266638, size 0x70, virtual false, abstract: false, final false
-inline void _ctor(::StringW  cookieString) ;
+  /// @brief Method .ctor, addr 0x62d8644, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::StringW cookieString);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CookieParser() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CookieParser();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CookieParser", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CookieParser(CookieParser&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CookieParser", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CookieParser(CookieParser && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CookieParser", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CookieParser(CookieParser const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CookieParser", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CookieParser(CookieParser const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11534 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11527};
+  /// @brief Field m_tokenizer, offset: 0x10, size: 0x8, def value: None
+  ::System::Net::CookieTokenizer* ___m_tokenizer;
 
-/// @brief Field m_tokenizer, offset: 0x10, size: 0x8, def value: None
- ::System::Net::CookieTokenizer*  ___m_tokenizer;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::CookieParser, ___m_tokenizer) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Net::CookieParser, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 NEED_NO_BOX(::System::Net::CookieParser);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieParser*, "System.Net", "CookieParser");

@@ -32,47 +32,49 @@ namespace System::Net::Security {
 // CS Name: System.Net.Security.CertificateHelper
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetEligibleClientCertificate, addr 0x61bbf2c, size 0x180, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate() ;
+  // Declarations
+  /// @brief Method GetEligibleClientCertificate, addr 0x622df38, size 0x180, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-/// @brief Method GetEligibleClientCertificate, addr 0x61bbcc0, size 0xa4, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*  candidateCerts) ;
+  /// @brief Method GetEligibleClientCertificate, addr 0x622dccc, size 0xa4, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
+  GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 
-/// @brief Method GetEligibleClientCertificate, addr 0x61bbc1c, size 0xa4, virtual false, abstract: false, final false
-static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  candidateCerts) ;
+  /// @brief Method GetEligibleClientCertificate, addr 0x622dc28, size 0xa4, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
+  GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
 
-/// @brief Method IsValidClientCertificate, addr 0x61bbd64, size 0x104, virtual false, abstract: false, final false
-static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2*  cert) ;
+  /// @brief Method IsValidClientCertificate, addr 0x622dd70, size 0x104, virtual false, abstract: false, final false
+  static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
 
-/// @brief Method IsValidForClientAuthenticationEKU, addr 0x61bbe68, size 0xa4, virtual false, abstract: false, final false
-static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*  eku) ;
+  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x622de74, size 0xa4, virtual false, abstract: false, final false
+  static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* eku);
 
-/// @brief Method IsValidForDigitalSignatureUsage, addr 0x61bbf0c, size 0x20, virtual false, abstract: false, final false
-static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension*  ku) ;
+  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x622df18, size 0x20, virtual false, abstract: false, final false
+  static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* ku);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CertificateHelper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertificateHelper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CertificateHelper(CertificateHelper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CertificateHelper(CertificateHelper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CertificateHelper(CertificateHelper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CertificateHelper(CertificateHelper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11783 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11776};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Security::CertificateHelper, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net::Security
+} // namespace System::Net::Security
 NEED_NO_BOX(::System::Net::Security::CertificateHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::CertificateHelper*, "System.Net.Security", "CertificateHelper");

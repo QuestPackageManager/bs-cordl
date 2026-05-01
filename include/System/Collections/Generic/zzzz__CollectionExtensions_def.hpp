@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CollectionExtensions)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IReadOnlyDictionary_2;
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -21,37 +20,35 @@ namespace System::Collections::Generic {
 // CS Name: System.Collections.Generic.CollectionExtensions
 class CORDL_TYPE CollectionExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TKey,typename TValue>
-static inline TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>*  dictionary, TKey  key) ;
+  // Declarations
+  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TKey, typename TValue> static inline TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key);
 
-/// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TKey,typename TValue>
-static inline TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey,TValue>*  dictionary, TKey  key, TValue  defaultValue) ;
+  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TKey, typename TValue> static inline TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key, TValue defaultValue);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CollectionExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CollectionExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CollectionExtensions(CollectionExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CollectionExtensions(CollectionExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CollectionExtensions(CollectionExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CollectionExtensions(CollectionExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3790 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3790};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::CollectionExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Collections::Generic
+} // namespace System::Collections::Generic
 NEED_NO_BOX(::System::Collections::Generic::CollectionExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::CollectionExtensions*, "System.Collections.Generic", "CollectionExtensions");

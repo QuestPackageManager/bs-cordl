@@ -16,12 +16,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSqlBinaryReader)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IDictionary_2;
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::IO {
 class Stream;
@@ -138,152 +136,153 @@ MARK_VAL_T(::System::Xml::XmlSqlBinaryReader_AttrInfo);
 MARK_VAL_T(::System::Xml::XmlSqlBinaryReader_ElemInfo);
 MARK_VAL_T(::System::Xml::XmlSqlBinaryReader_QName);
 MARK_VAL_T(::System::Xml::XmlSqlBinaryReader_SymbolTables);
-// Dependencies 
+// Dependencies
 namespace System::Xml {
 // Is value type: true
 // CS Name: System.Xml.XmlSqlBinaryReader/ScanState
 struct CORDL_TYPE XmlSqlBinaryReader_ScanState {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __XmlSqlBinaryReader_ScanState_Unwrapped
-enum struct __XmlSqlBinaryReader_ScanState_Unwrapped : int32_t {
-__E_Doc = static_cast<int32_t>(0x0),
-__E_XmlText = static_cast<int32_t>(0x1),
-__E_Attr = static_cast<int32_t>(0x2),
-__E_AttrVal = static_cast<int32_t>(0x3),
-__E_AttrValPseudoValue = static_cast<int32_t>(0x4),
-__E_Init = static_cast<int32_t>(0x5),
-__E_Error = static_cast<int32_t>(0x6),
-__E_EOF = static_cast<int32_t>(0x7),
-__E_Closed = static_cast<int32_t>(0x8),
-};
+  /// @brief Nested struct __XmlSqlBinaryReader_ScanState_Unwrapped
+  enum struct __XmlSqlBinaryReader_ScanState_Unwrapped : int32_t {
+    __E_Doc = static_cast<int32_t>(0x0),
+    __E_XmlText = static_cast<int32_t>(0x1),
+    __E_Attr = static_cast<int32_t>(0x2),
+    __E_AttrVal = static_cast<int32_t>(0x3),
+    __E_AttrValPseudoValue = static_cast<int32_t>(0x4),
+    __E_Init = static_cast<int32_t>(0x5),
+    __E_Error = static_cast<int32_t>(0x6),
+    __E_EOF = static_cast<int32_t>(0x7),
+    __E_Closed = static_cast<int32_t>(0x8),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __XmlSqlBinaryReader_ScanState_Unwrapped () const noexcept {
-return static_cast<__XmlSqlBinaryReader_ScanState_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __XmlSqlBinaryReader_ScanState_Unwrapped() const noexcept {
+    return static_cast<__XmlSqlBinaryReader_ScanState_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader_ScanState() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader_ScanState();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr XmlSqlBinaryReader_ScanState(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr XmlSqlBinaryReader_ScanState(int32_t value__) noexcept;
 
-/// @brief Field Attr value: I32(2)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const Attr;
+  /// @brief Field Attr value: I32(2)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const Attr;
 
-/// @brief Field AttrVal value: I32(3)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const AttrVal;
+  /// @brief Field AttrVal value: I32(3)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const AttrVal;
 
-/// @brief Field AttrValPseudoValue value: I32(4)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const AttrValPseudoValue;
+  /// @brief Field AttrValPseudoValue value: I32(4)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const AttrValPseudoValue;
 
-/// @brief Field Closed value: I32(8)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const Closed;
+  /// @brief Field Closed value: I32(8)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const Closed;
 
-/// @brief Field Doc value: I32(0)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const Doc;
+  /// @brief Field Doc value: I32(0)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const Doc;
 
-/// @brief Field Error value: I32(6)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const Error;
+  /// @brief Field Error value: I32(6)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const Error;
 
-/// @brief Field Init value: I32(5)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const Init;
+  /// @brief Field Init value: I32(5)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const Init;
 
-/// @brief Field XmlText value: I32(1)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const XmlText;
+  /// @brief Field XmlText value: I32(1)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const XmlText;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9234};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9240 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field EOF value: I32(7)
-static ::System::Xml::XmlSqlBinaryReader_ScanState const _cordl_EOF;
+  /// @brief Field EOF value: I32(7)
+  static ::System::Xml::XmlSqlBinaryReader_ScanState const _cordl_EOF;
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_ScanState, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader_ScanState, 0x4>, "Size mismatch!");
 
-} // namespace end def System::Xml
-// Dependencies 
+} // namespace System::Xml
+// Dependencies
 namespace System::Xml {
 // Is value type: true
 // CS Name: System.Xml.XmlSqlBinaryReader/QName
 struct CORDL_TYPE XmlSqlBinaryReader_QName {
 public:
-// Declarations
-/// @brief Method CheckPrefixNS, addr 0x5ff7c7c, size 0xdc, virtual false, abstract: false, final false
-inline void CheckPrefixNS(::StringW  prefix, ::StringW  namespaceUri) ;
+  // Declarations
+  /// @brief Method CheckPrefixNS, addr 0x6069c88, size 0xdc, virtual false, abstract: false, final false
+  inline void CheckPrefixNS(::StringW prefix, ::StringW namespaceUri);
 
-/// @brief Method Clear, addr 0x5ff7bd0, size 0x1c, virtual false, abstract: false, final false
-inline void Clear() ;
+  /// @brief Method Clear, addr 0x6069bdc, size 0x1c, virtual false, abstract: false, final false
+  inline void Clear();
 
-/// @brief Method Equals, addr 0x5ff7e84, size 0xa4, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  other) ;
+  /// @brief Method Equals, addr 0x6069e90, size 0xa4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
 
-/// @brief Method GetHashCode, addr 0x5ff7d58, size 0x48, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6069d64, size 0x48, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method GetNSHashCode, addr 0x5ff7da0, size 0x44, virtual false, abstract: false, final false
-inline int32_t GetNSHashCode(::System::Xml::SecureStringHasher*  hasher) ;
+  /// @brief Method GetNSHashCode, addr 0x6069dac, size 0x44, virtual false, abstract: false, final false
+  inline int32_t GetNSHashCode(::System::Xml::SecureStringHasher* hasher);
 
-/// @brief Method MatchNs, addr 0x5ff7bec, size 0x48, virtual false, abstract: false, final false
-inline bool MatchNs(::StringW  lname, ::StringW  nsUri) ;
+  /// @brief Method MatchNs, addr 0x6069bf8, size 0x48, virtual false, abstract: false, final false
+  inline bool MatchNs(::StringW lname, ::StringW nsUri);
 
-/// @brief Method MatchPrefix, addr 0x5ff7c34, size 0x48, virtual false, abstract: false, final false
-inline bool MatchPrefix(::StringW  prefix, ::StringW  lname) ;
+  /// @brief Method MatchPrefix, addr 0x6069c40, size 0x48, virtual false, abstract: false, final false
+  inline bool MatchPrefix(::StringW prefix, ::StringW lname);
 
-/// @brief Method Set, addr 0x5ff7bc4, size 0xc, virtual false, abstract: false, final false
-inline void Set(::StringW  prefix, ::StringW  lname, ::StringW  nsUri) ;
+  /// @brief Method Set, addr 0x6069bd0, size 0xc, virtual false, abstract: false, final false
+  inline void Set(::StringW prefix, ::StringW lname, ::StringW nsUri);
 
-/// @brief Method ToString, addr 0x5ff7f7c, size 0x74, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6069f88, size 0x74, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x5ff7bb8, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::StringW  prefix, ::StringW  lname, ::StringW  nsUri) ;
+  /// @brief Method .ctor, addr 0x6069bc4, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW prefix, ::StringW lname, ::StringW nsUri);
 
-/// @brief Method op_Equality, addr 0x5ff7f28, size 0x54, virtual false, abstract: false, final false
-static inline bool op_Equality(::System::Xml::XmlSqlBinaryReader_QName  a, ::System::Xml::XmlSqlBinaryReader_QName  b) ;
+  /// @brief Method op_Equality, addr 0x6069f34, size 0x54, virtual false, abstract: false, final false
+  static inline bool op_Equality(::System::Xml::XmlSqlBinaryReader_QName a, ::System::Xml::XmlSqlBinaryReader_QName b);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader_QName() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader_QName();
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localname", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr XmlSqlBinaryReader_QName(::StringW  prefix, ::StringW  localname, ::StringW  namespaceUri) noexcept;
+  // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localname", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // "namespaceUri", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr XmlSqlBinaryReader_QName(::StringW prefix, ::StringW localname, ::StringW namespaceUri) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9235};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9241 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
-/// @brief Field prefix, offset: 0x0, size: 0x8, def value: None
- ::StringW  prefix;
+  /// @brief Field prefix, offset: 0x0, size: 0x8, def value: None
+  ::StringW prefix;
 
-/// @brief Field localname, offset: 0x8, size: 0x8, def value: None
- ::StringW  localname;
+  /// @brief Field localname, offset: 0x8, size: 0x8, def value: None
+  ::StringW localname;
 
-/// @brief Field namespaceUri, offset: 0x10, size: 0x8, def value: None
- ::StringW  namespaceUri;
+  /// @brief Field namespaceUri, offset: 0x10, size: 0x8, def value: None
+  ::StringW namespaceUri;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_QName, prefix) == 0x0, "Offset mismatch!");
@@ -294,49 +293,52 @@ static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_QName, namespaceUri) ==
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader_QName, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 // Dependencies System.Xml.XmlSpace, System.Xml.XmlSqlBinaryReader::QName
 namespace System::Xml {
 // Is value type: true
 // CS Name: System.Xml.XmlSqlBinaryReader/ElemInfo
 struct CORDL_TYPE XmlSqlBinaryReader_ElemInfo {
 public:
-// Declarations
-/// @brief Method Clear, addr 0x5ff800c, size 0x10, virtual false, abstract: false, final false
-inline ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* Clear() ;
+  // Declarations
+  /// @brief Method Clear, addr 0x606a018, size 0x10, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* Clear();
 
-/// @brief Method Set, addr 0x5ff7ff0, size 0x1c, virtual false, abstract: false, final false
-inline void Set(::System::Xml::XmlSqlBinaryReader_QName  name, bool  xmlspacePreserve) ;
+  /// @brief Method Set, addr 0x6069ffc, size 0x1c, virtual false, abstract: false, final false
+  inline void Set(::System::Xml::XmlSqlBinaryReader_QName name, bool xmlspacePreserve);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader_ElemInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader_ElemInfo();
 
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: None }, CppParam { name: "xmlspacePreserve", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nsdecls", ty: "::System::Xml::XmlSqlBinaryReader_NamespaceDecl*", modifiers: "", def_value: None }]
-constexpr XmlSqlBinaryReader_ElemInfo(::System::Xml::XmlSqlBinaryReader_QName  name, ::StringW  xmlLang, ::System::Xml::XmlSpace  xmlSpace, bool  xmlspacePreserve, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  nsdecls) noexcept;
+  // Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value:
+  // None }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: None }, CppParam { name: "xmlspacePreserve", ty: "bool", modifiers: "", def_value: None }, CppParam {
+  // name: "nsdecls", ty: "::System::Xml::XmlSqlBinaryReader_NamespaceDecl*", modifiers: "", def_value: None }]
+  constexpr XmlSqlBinaryReader_ElemInfo(::System::Xml::XmlSqlBinaryReader_QName name, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace, bool xmlspacePreserve,
+                                        ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* nsdecls) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9236};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9242 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field name, offset: 0x0, size: 0x18, def value: None
- ::System::Xml::XmlSqlBinaryReader_QName  name;
+  /// @brief Field name, offset: 0x0, size: 0x18, def value: None
+  ::System::Xml::XmlSqlBinaryReader_QName name;
 
-/// @brief Field xmlLang, offset: 0x18, size: 0x8, def value: None
- ::StringW  xmlLang;
+  /// @brief Field xmlLang, offset: 0x18, size: 0x8, def value: None
+  ::StringW xmlLang;
 
-/// @brief Field xmlSpace, offset: 0x20, size: 0x4, def value: None
- ::System::Xml::XmlSpace  xmlSpace;
+  /// @brief Field xmlSpace, offset: 0x20, size: 0x4, def value: None
+  ::System::Xml::XmlSpace xmlSpace;
 
-/// @brief Field xmlspacePreserve, offset: 0x24, size: 0x1, def value: None
- bool  xmlspacePreserve;
+  /// @brief Field xmlspacePreserve, offset: 0x24, size: 0x1, def value: None
+  bool xmlspacePreserve;
 
-/// @brief Field nsdecls, offset: 0x28, size: 0x8, def value: None
- ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  nsdecls;
+  /// @brief Field nsdecls, offset: 0x28, size: 0x8, def value: None
+  ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* nsdecls;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_ElemInfo, name) == 0x0, "Offset mismatch!");
@@ -351,64 +353,66 @@ static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_ElemInfo, nsdecls) == 0
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader_ElemInfo, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 // Dependencies System.Xml.XmlSqlBinaryReader::QName
 namespace System::Xml {
 // Is value type: true
 // CS Name: System.Xml.XmlSqlBinaryReader/AttrInfo
 struct CORDL_TYPE XmlSqlBinaryReader_AttrInfo {
 public:
-// Declarations
-/// @brief Method AdjustPosition, addr 0x5ff80b4, size 0x14, virtual false, abstract: false, final false
-inline void AdjustPosition(int32_t  adj) ;
+  // Declarations
+  /// @brief Method AdjustPosition, addr 0x606a0c0, size 0x14, virtual false, abstract: false, final false
+  inline void AdjustPosition(int32_t adj);
 
-/// @brief Method GetLocalnameAndNamespaceUri, addr 0x5ff8054, size 0x14, virtual false, abstract: false, final false
-inline void GetLocalnameAndNamespaceUri(::ByRef<::StringW>  localname, ::ByRef<::StringW>  namespaceUri) ;
+  /// @brief Method GetLocalnameAndNamespaceUri, addr 0x606a060, size 0x14, virtual false, abstract: false, final false
+  inline void GetLocalnameAndNamespaceUri(::ByRef<::StringW> localname, ::ByRef<::StringW> namespaceUri);
 
-/// @brief Method GetLocalnameAndNamespaceUriAndHash, addr 0x5ff8068, size 0x28, virtual false, abstract: false, final false
-inline int32_t GetLocalnameAndNamespaceUriAndHash(::System::Xml::SecureStringHasher*  hasher, ::ByRef<::StringW>  localname, ::ByRef<::StringW>  namespaceUri) ;
+  /// @brief Method GetLocalnameAndNamespaceUriAndHash, addr 0x606a074, size 0x28, virtual false, abstract: false, final false
+  inline int32_t GetLocalnameAndNamespaceUriAndHash(::System::Xml::SecureStringHasher* hasher, ::ByRef<::StringW> localname, ::ByRef<::StringW> namespaceUri);
 
-/// @brief Method MatchHashNS, addr 0x5ff8094, size 0x20, virtual false, abstract: false, final false
-inline bool MatchHashNS(int32_t  hash, ::StringW  localname, ::StringW  namespaceUri) ;
+  /// @brief Method MatchHashNS, addr 0x606a0a0, size 0x20, virtual false, abstract: false, final false
+  inline bool MatchHashNS(int32_t hash, ::StringW localname, ::StringW namespaceUri);
 
-/// @brief Method MatchNS, addr 0x5ff8090, size 0x4, virtual false, abstract: false, final false
-inline bool MatchNS(::StringW  localname, ::StringW  namespaceUri) ;
+  /// @brief Method MatchNS, addr 0x606a09c, size 0x4, virtual false, abstract: false, final false
+  inline bool MatchNS(::StringW localname, ::StringW namespaceUri);
 
-/// @brief Method Set, addr 0x5ff8038, size 0x1c, virtual false, abstract: false, final false
-inline void Set(::System::Xml::XmlSqlBinaryReader_QName  n, int32_t  pos) ;
+  /// @brief Method Set, addr 0x606a044, size 0x1c, virtual false, abstract: false, final false
+  inline void Set(::System::Xml::XmlSqlBinaryReader_QName n, int32_t pos);
 
-/// @brief Method Set, addr 0x5ff801c, size 0x1c, virtual false, abstract: false, final false
-inline void Set(::System::Xml::XmlSqlBinaryReader_QName  n, ::StringW  v) ;
+  /// @brief Method Set, addr 0x606a028, size 0x1c, virtual false, abstract: false, final false
+  inline void Set(::System::Xml::XmlSqlBinaryReader_QName n, ::StringW v);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader_AttrInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader_AttrInfo();
 
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: None }, CppParam { name: "val", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "contentPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prevHash", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr XmlSqlBinaryReader_AttrInfo(::System::Xml::XmlSqlBinaryReader_QName  name, ::StringW  val, int32_t  contentPos, int32_t  hashCode, int32_t  prevHash) noexcept;
+  // Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: None }, CppParam { name: "val", ty: "::StringW", modifiers: "", def_value: None
+  // }, CppParam { name: "contentPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prevHash", ty:
+  // "int32_t", modifiers: "", def_value: None }]
+  constexpr XmlSqlBinaryReader_AttrInfo(::System::Xml::XmlSqlBinaryReader_QName name, ::StringW val, int32_t contentPos, int32_t hashCode, int32_t prevHash) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9237};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9243 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field name, offset: 0x0, size: 0x18, def value: None
- ::System::Xml::XmlSqlBinaryReader_QName  name;
+  /// @brief Field name, offset: 0x0, size: 0x18, def value: None
+  ::System::Xml::XmlSqlBinaryReader_QName name;
 
-/// @brief Field val, offset: 0x18, size: 0x8, def value: None
- ::StringW  val;
+  /// @brief Field val, offset: 0x18, size: 0x8, def value: None
+  ::StringW val;
 
-/// @brief Field contentPos, offset: 0x20, size: 0x4, def value: None
- int32_t  contentPos;
+  /// @brief Field contentPos, offset: 0x20, size: 0x4, def value: None
+  int32_t contentPos;
 
-/// @brief Field hashCode, offset: 0x24, size: 0x4, def value: None
- int32_t  hashCode;
+  /// @brief Field hashCode, offset: 0x24, size: 0x4, def value: None
+  int32_t hashCode;
 
-/// @brief Field prevHash, offset: 0x28, size: 0x4, def value: None
- int32_t  prevHash;
+  /// @brief Field prevHash, offset: 0x28, size: 0x4, def value: None
+  int32_t prevHash;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_AttrInfo, name) == 0x0, "Offset mismatch!");
@@ -423,109 +427,111 @@ static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_AttrInfo, prevHash) == 
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader_AttrInfo, 0x30>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 // Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.XmlSqlBinaryReader/NamespaceDecl
 class CORDL_TYPE XmlSqlBinaryReader_NamespaceDecl : public ::System::Object {
 public:
-// Declarations
-/// @brief Field implied, offset 0x34, size 0x1 
- __declspec(property(get=__cordl_internal_get_implied, put=__cordl_internal_set_implied)) bool  implied;
+  // Declarations
+  /// @brief Field implied, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get_implied, put = __cordl_internal_set_implied)) bool implied;
 
-/// @brief Field prefix, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_prefix, put=__cordl_internal_set_prefix)) ::StringW  prefix;
+  /// @brief Field prefix, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix)) ::StringW prefix;
 
-/// @brief Field prevLink, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_prevLink, put=__cordl_internal_set_prevLink)) ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  prevLink;
+  /// @brief Field prevLink, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_prevLink, put = __cordl_internal_set_prevLink)) ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* prevLink;
 
-/// @brief Field scope, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get_scope, put=__cordl_internal_set_scope)) int32_t  scope;
+  /// @brief Field scope, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_scope, put = __cordl_internal_set_scope)) int32_t scope;
 
-/// @brief Field scopeLink, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_scopeLink, put=__cordl_internal_set_scopeLink)) ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  scopeLink;
+  /// @brief Field scopeLink, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_scopeLink, put = __cordl_internal_set_scopeLink)) ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* scopeLink;
 
-/// @brief Field uri, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_uri, put=__cordl_internal_set_uri)) ::StringW  uri;
+  /// @brief Field uri, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri)) ::StringW uri;
 
-static inline ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* New_ctor(::StringW  prefix, ::StringW  nsuri, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  nextInScope, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  prevDecl, int32_t  scope, bool  implied) ;
+  static inline ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* New_ctor(::StringW prefix, ::StringW nsuri, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* nextInScope,
+                                                                          ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* prevDecl, int32_t scope, bool implied);
 
-constexpr bool const& __cordl_internal_get_implied() const;
+  constexpr bool const& __cordl_internal_get_implied() const;
 
-constexpr bool& __cordl_internal_get_implied() ;
+  constexpr bool& __cordl_internal_get_implied();
 
-constexpr ::StringW const& __cordl_internal_get_prefix() const;
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
-constexpr ::StringW& __cordl_internal_get_prefix() ;
+  constexpr ::StringW& __cordl_internal_get_prefix();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* const& __cordl_internal_get_prevLink() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* const& __cordl_internal_get_prevLink() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*& __cordl_internal_get_prevLink() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*& __cordl_internal_get_prevLink();
 
-constexpr int32_t const& __cordl_internal_get_scope() const;
+  constexpr int32_t const& __cordl_internal_get_scope() const;
 
-constexpr int32_t& __cordl_internal_get_scope() ;
+  constexpr int32_t& __cordl_internal_get_scope();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* const& __cordl_internal_get_scopeLink() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* const& __cordl_internal_get_scopeLink() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*& __cordl_internal_get_scopeLink() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*& __cordl_internal_get_scopeLink();
 
-constexpr ::StringW const& __cordl_internal_get_uri() const;
+  constexpr ::StringW const& __cordl_internal_get_uri() const;
 
-constexpr ::StringW& __cordl_internal_get_uri() ;
+  constexpr ::StringW& __cordl_internal_get_uri();
 
-constexpr void __cordl_internal_set_implied(bool  value) ;
+  constexpr void __cordl_internal_set_implied(bool value);
 
-constexpr void __cordl_internal_set_prefix(::StringW  value) ;
+  constexpr void __cordl_internal_set_prefix(::StringW value);
 
-constexpr void __cordl_internal_set_prevLink(::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  value) ;
+  constexpr void __cordl_internal_set_prevLink(::System::Xml::XmlSqlBinaryReader_NamespaceDecl* value);
 
-constexpr void __cordl_internal_set_scope(int32_t  value) ;
+  constexpr void __cordl_internal_set_scope(int32_t value);
 
-constexpr void __cordl_internal_set_scopeLink(::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  value) ;
+  constexpr void __cordl_internal_set_scopeLink(::System::Xml::XmlSqlBinaryReader_NamespaceDecl* value);
 
-constexpr void __cordl_internal_set_uri(::StringW  value) ;
+  constexpr void __cordl_internal_set_uri(::StringW value);
 
-/// @brief Method .ctor, addr 0x5ff80c8, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::StringW  prefix, ::StringW  nsuri, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  nextInScope, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  prevDecl, int32_t  scope, bool  implied) ;
+  /// @brief Method .ctor, addr 0x606a0d4, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::StringW prefix, ::StringW nsuri, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* nextInScope, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* prevDecl, int32_t scope,
+                    bool implied);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader_NamespaceDecl() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader_NamespaceDecl();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NamespaceDecl", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSqlBinaryReader_NamespaceDecl(XmlSqlBinaryReader_NamespaceDecl&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NamespaceDecl", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSqlBinaryReader_NamespaceDecl(XmlSqlBinaryReader_NamespaceDecl && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NamespaceDecl", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSqlBinaryReader_NamespaceDecl(XmlSqlBinaryReader_NamespaceDecl const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NamespaceDecl", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSqlBinaryReader_NamespaceDecl(XmlSqlBinaryReader_NamespaceDecl const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9244 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9238};
+  /// @brief Field prefix, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___prefix;
 
-/// @brief Field prefix, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___prefix;
+  /// @brief Field uri, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___uri;
 
-/// @brief Field uri, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___uri;
+  /// @brief Field scopeLink, offset: 0x20, size: 0x8, def value: None
+  ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* ___scopeLink;
 
-/// @brief Field scopeLink, offset: 0x20, size: 0x8, def value: None
- ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  ___scopeLink;
+  /// @brief Field prevLink, offset: 0x28, size: 0x8, def value: None
+  ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* ___prevLink;
 
-/// @brief Field prevLink, offset: 0x28, size: 0x8, def value: None
- ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  ___prevLink;
+  /// @brief Field scope, offset: 0x30, size: 0x4, def value: None
+  int32_t ___scope;
 
-/// @brief Field scope, offset: 0x30, size: 0x4, def value: None
- int32_t  ___scope;
+  /// @brief Field implied, offset: 0x34, size: 0x1, def value: None
+  bool ___implied;
 
-/// @brief Field implied, offset: 0x34, size: 0x1, def value: None
- bool  ___implied;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_NamespaceDecl, ___prefix) == 0x10, "Offset mismatch!");
@@ -542,43 +548,46 @@ static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_NamespaceDecl, ___impli
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader_NamespaceDecl, 0x38>, "Size mismatch!");
 
-} // namespace end def System::Xml
-// Dependencies 
+} // namespace System::Xml
+// Dependencies
 namespace System::Xml {
 // Is value type: true
 // CS Name: System.Xml.XmlSqlBinaryReader/SymbolTables
 struct CORDL_TYPE XmlSqlBinaryReader_SymbolTables {
 public:
-// Declarations
-/// @brief Method Init, addr 0x5ff80dc, size 0xb4, virtual false, abstract: false, final false
-inline void Init() ;
+  // Declarations
+  /// @brief Method Init, addr 0x606a0e8, size 0xb4, virtual false, abstract: false, final false
+  inline void Init();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader_SymbolTables() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader_SymbolTables();
 
-// Ctor Parameters [CppParam { name: "symtable", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "symCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "qnametable", ty: "::ArrayW<::System::Xml::XmlSqlBinaryReader_QName,::Array<::System::Xml::XmlSqlBinaryReader_QName>*>", modifiers: "", def_value: None }, CppParam { name: "qnameCount", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr XmlSqlBinaryReader_SymbolTables(::ArrayW<::StringW,::Array<::StringW>*>  symtable, int32_t  symCount, ::ArrayW<::System::Xml::XmlSqlBinaryReader_QName,::Array<::System::Xml::XmlSqlBinaryReader_QName>*>  qnametable, int32_t  qnameCount) noexcept;
+  // Ctor Parameters [CppParam { name: "symtable", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "symCount", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "qnametable", ty: "::ArrayW<::System::Xml::XmlSqlBinaryReader_QName,::Array<::System::Xml::XmlSqlBinaryReader_QName>*>", modifiers: "", def_value: None },
+  // CppParam { name: "qnameCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr XmlSqlBinaryReader_SymbolTables(::ArrayW<::StringW, ::Array<::StringW>*> symtable, int32_t symCount,
+                                            ::ArrayW<::System::Xml::XmlSqlBinaryReader_QName, ::Array<::System::Xml::XmlSqlBinaryReader_QName>*> qnametable, int32_t qnameCount) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9239};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9245 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field symtable, offset: 0x0, size: 0x8, def value: None
- ::ArrayW<::StringW,::Array<::StringW>*>  symtable;
+  /// @brief Field symtable, offset: 0x0, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> symtable;
 
-/// @brief Field symCount, offset: 0x8, size: 0x4, def value: None
- int32_t  symCount;
+  /// @brief Field symCount, offset: 0x8, size: 0x4, def value: None
+  int32_t symCount;
 
-/// @brief Field qnametable, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<::System::Xml::XmlSqlBinaryReader_QName,::Array<::System::Xml::XmlSqlBinaryReader_QName>*>  qnametable;
+  /// @brief Field qnametable, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::System::Xml::XmlSqlBinaryReader_QName, ::Array<::System::Xml::XmlSqlBinaryReader_QName>*> qnametable;
 
-/// @brief Field qnameCount, offset: 0x18, size: 0x4, def value: None
- int32_t  qnameCount;
+  /// @brief Field qnameCount, offset: 0x18, size: 0x4, def value: None
+  int32_t qnameCount;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_SymbolTables, symtable) == 0x0, "Offset mismatch!");
@@ -591,73 +600,74 @@ static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_SymbolTables, qnameCoun
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader_SymbolTables, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 // Dependencies System.Object, System.Xml.XmlSqlBinaryReader::SymbolTables
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.XmlSqlBinaryReader/NestedBinXml
 class CORDL_TYPE XmlSqlBinaryReader_NestedBinXml : public ::System::Object {
 public:
-// Declarations
-/// @brief Field docState, offset 0x30, size 0x4 
- __declspec(property(get=__cordl_internal_get_docState, put=__cordl_internal_set_docState)) int32_t  docState;
+  // Declarations
+  /// @brief Field docState, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_docState, put = __cordl_internal_set_docState)) int32_t docState;
 
-/// @brief Field next, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get_next, put=__cordl_internal_set_next)) ::System::Xml::XmlSqlBinaryReader_NestedBinXml*  next;
+  /// @brief Field next, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Xml::XmlSqlBinaryReader_NestedBinXml* next;
 
-/// @brief Field symbolTables, offset 0x10, size 0x20 
- __declspec(property(get=__cordl_internal_get_symbolTables, put=__cordl_internal_set_symbolTables)) ::System::Xml::XmlSqlBinaryReader_SymbolTables  symbolTables;
+  /// @brief Field symbolTables, offset 0x10, size 0x20
+  __declspec(property(get = __cordl_internal_get_symbolTables, put = __cordl_internal_set_symbolTables)) ::System::Xml::XmlSqlBinaryReader_SymbolTables symbolTables;
 
-static inline ::System::Xml::XmlSqlBinaryReader_NestedBinXml* New_ctor(::System::Xml::XmlSqlBinaryReader_SymbolTables  symbolTables, int32_t  docState, ::System::Xml::XmlSqlBinaryReader_NestedBinXml*  next) ;
+  static inline ::System::Xml::XmlSqlBinaryReader_NestedBinXml* New_ctor(::System::Xml::XmlSqlBinaryReader_SymbolTables symbolTables, int32_t docState,
+                                                                         ::System::Xml::XmlSqlBinaryReader_NestedBinXml* next);
 
-constexpr int32_t const& __cordl_internal_get_docState() const;
+  constexpr int32_t const& __cordl_internal_get_docState() const;
 
-constexpr int32_t& __cordl_internal_get_docState() ;
+  constexpr int32_t& __cordl_internal_get_docState();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml* const& __cordl_internal_get_next() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml* const& __cordl_internal_get_next() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml*& __cordl_internal_get_next() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml*& __cordl_internal_get_next();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables const& __cordl_internal_get_symbolTables() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables const& __cordl_internal_get_symbolTables() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables& __cordl_internal_get_symbolTables() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables& __cordl_internal_get_symbolTables();
 
-constexpr void __cordl_internal_set_docState(int32_t  value) ;
+  constexpr void __cordl_internal_set_docState(int32_t value);
 
-constexpr void __cordl_internal_set_next(::System::Xml::XmlSqlBinaryReader_NestedBinXml*  value) ;
+  constexpr void __cordl_internal_set_next(::System::Xml::XmlSqlBinaryReader_NestedBinXml* value);
 
-constexpr void __cordl_internal_set_symbolTables(::System::Xml::XmlSqlBinaryReader_SymbolTables  value) ;
+  constexpr void __cordl_internal_set_symbolTables(::System::Xml::XmlSqlBinaryReader_SymbolTables value);
 
-/// @brief Method .ctor, addr 0x5ff8190, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::XmlSqlBinaryReader_SymbolTables  symbolTables, int32_t  docState, ::System::Xml::XmlSqlBinaryReader_NestedBinXml*  next) ;
+  /// @brief Method .ctor, addr 0x606a19c, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::XmlSqlBinaryReader_SymbolTables symbolTables, int32_t docState, ::System::Xml::XmlSqlBinaryReader_NestedBinXml* next);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader_NestedBinXml() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader_NestedBinXml();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NestedBinXml", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSqlBinaryReader_NestedBinXml(XmlSqlBinaryReader_NestedBinXml&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NestedBinXml", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSqlBinaryReader_NestedBinXml(XmlSqlBinaryReader_NestedBinXml && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NestedBinXml", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSqlBinaryReader_NestedBinXml(XmlSqlBinaryReader_NestedBinXml const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NestedBinXml", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSqlBinaryReader_NestedBinXml(XmlSqlBinaryReader_NestedBinXml const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9246 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9240};
+  /// @brief Field symbolTables, offset: 0x10, size: 0x20, def value: None
+  ::System::Xml::XmlSqlBinaryReader_SymbolTables ___symbolTables;
 
-/// @brief Field symbolTables, offset: 0x10, size: 0x20, def value: None
- ::System::Xml::XmlSqlBinaryReader_SymbolTables  ___symbolTables;
+  /// @brief Field docState, offset: 0x30, size: 0x4, def value: None
+  int32_t ___docState;
 
-/// @brief Field docState, offset: 0x30, size: 0x4, def value: None
- int32_t  ___docState;
+  /// @brief Field next, offset: 0x38, size: 0x8, def value: None
+  ::System::Xml::XmlSqlBinaryReader_NestedBinXml* ___next;
 
-/// @brief Field next, offset: 0x38, size: 0x8, def value: None
- ::System::Xml::XmlSqlBinaryReader_NestedBinXml*  ___next;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_NestedBinXml, ___symbolTables) == 0x10, "Offset mismatch!");
@@ -668,1120 +678,1128 @@ static_assert(offsetof(::System::Xml::XmlSqlBinaryReader_NestedBinXml, ___next) 
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader_NestedBinXml, 0x40>, "Size mismatch!");
 
-} // namespace end def System::Xml
-// Dependencies System.Xml.BinXmlToken, System.Xml.DtdProcessing, System.Xml.XmlCharType, System.Xml.XmlNodeType, System.Xml.XmlReader, System.Xml.XmlSqlBinaryReader::QName, System.Xml.XmlSqlBinaryReader::ScanState, System.Xml.XmlSqlBinaryReader::SymbolTables
+} // namespace System::Xml
+// Dependencies System.Xml.BinXmlToken, System.Xml.DtdProcessing, System.Xml.XmlCharType, System.Xml.XmlNodeType, System.Xml.XmlReader, System.Xml.XmlSqlBinaryReader::QName,
+// System.Xml.XmlSqlBinaryReader::ScanState, System.Xml.XmlSqlBinaryReader::SymbolTables
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.XmlSqlBinaryReader
 class CORDL_TYPE XmlSqlBinaryReader : public ::System::Xml::XmlReader {
 public:
-// Declarations
-using AttrInfo = ::System::Xml::XmlSqlBinaryReader_AttrInfo;
+  // Declarations
+  using AttrInfo = ::System::Xml::XmlSqlBinaryReader_AttrInfo;
 
-using ElemInfo = ::System::Xml::XmlSqlBinaryReader_ElemInfo;
+  using ElemInfo = ::System::Xml::XmlSqlBinaryReader_ElemInfo;
 
-using NamespaceDecl = ::System::Xml::XmlSqlBinaryReader_NamespaceDecl;
+  using NamespaceDecl = ::System::Xml::XmlSqlBinaryReader_NamespaceDecl;
 
-using NestedBinXml = ::System::Xml::XmlSqlBinaryReader_NestedBinXml;
+  using NestedBinXml = ::System::Xml::XmlSqlBinaryReader_NestedBinXml;
 
-using QName = ::System::Xml::XmlSqlBinaryReader_QName;
+  using QName = ::System::Xml::XmlSqlBinaryReader_QName;
 
-using ScanState = ::System::Xml::XmlSqlBinaryReader_ScanState;
+  using ScanState = ::System::Xml::XmlSqlBinaryReader_ScanState;
 
-using SymbolTables = ::System::Xml::XmlSqlBinaryReader_SymbolTables;
+  using SymbolTables = ::System::Xml::XmlSqlBinaryReader_SymbolTables;
 
- __declspec(property(get=get_AttributeCount)) int32_t  AttributeCount;
+  __declspec(property(get = get_AttributeCount)) int32_t AttributeCount;
 
- __declspec(property(get=get_BaseURI)) ::StringW  BaseURI;
+  __declspec(property(get = get_BaseURI)) ::StringW BaseURI;
 
- __declspec(property(get=get_Depth)) int32_t  Depth;
+  __declspec(property(get = get_Depth)) int32_t Depth;
 
- __declspec(property(get=get_IsEmptyElement)) bool  IsEmptyElement;
+  __declspec(property(get = get_IsEmptyElement)) bool IsEmptyElement;
 
- __declspec(property(get=get_LocalName)) ::StringW  LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
- __declspec(property(get=get_NameTable)) ::System::Xml::XmlNameTable*  NameTable;
+  __declspec(property(get = get_NameTable)) ::System::Xml::XmlNameTable* NameTable;
 
- __declspec(property(get=get_NamespaceURI)) ::StringW  NamespaceURI;
+  __declspec(property(get = get_NamespaceURI)) ::StringW NamespaceURI;
 
- __declspec(property(get=get_NodeType)) ::System::Xml::XmlNodeType  NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
- __declspec(property(get=get_Prefix)) ::StringW  Prefix;
+  __declspec(property(get = get_Prefix)) ::StringW Prefix;
 
- __declspec(property(get=get_ReadState)) ::System::Xml::ReadState  ReadState;
+  __declspec(property(get = get_ReadState)) ::System::Xml::ReadState ReadState;
 
-/// @brief Field ScanState2ReadState, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_ScanState2ReadState, put=setStaticF_ScanState2ReadState)) ::ArrayW<::System::Xml::ReadState,::Array<::System::Xml::ReadState>*>  ScanState2ReadState;
+  /// @brief Field ScanState2ReadState, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_ScanState2ReadState, put = setStaticF_ScanState2ReadState)) ::ArrayW<::System::Xml::ReadState, ::Array<::System::Xml::ReadState>*> ScanState2ReadState;
 
- __declspec(property(get=get_Settings)) ::System::Xml::XmlReaderSettings*  Settings;
+  __declspec(property(get = get_Settings)) ::System::Xml::XmlReaderSettings* Settings;
 
-/// @brief Field TokenTypeMap, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_TokenTypeMap, put=setStaticF_TokenTypeMap)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  TokenTypeMap;
+  /// @brief Field TokenTypeMap, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_TokenTypeMap, put = setStaticF_TokenTypeMap)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> TokenTypeMap;
 
-/// @brief Field TypeOfObject, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_TypeOfObject, put=setStaticF_TypeOfObject)) ::System::Type*  TypeOfObject;
+  /// @brief Field TypeOfObject, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_TypeOfObject, put = setStaticF_TypeOfObject)) ::System::Type* TypeOfObject;
 
-/// @brief Field TypeOfString, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_TypeOfString, put=setStaticF_TypeOfString)) ::System::Type*  TypeOfString;
+  /// @brief Field TypeOfString, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_TypeOfString, put = setStaticF_TypeOfString)) ::System::Type* TypeOfString;
 
- __declspec(property(get=get_Value)) ::StringW  Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
- __declspec(property(get=get_ValueType)) ::System::Type*  ValueType;
+  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
- __declspec(property(get=get_XmlLang)) ::StringW  XmlLang;
+  __declspec(property(get = get_XmlLang)) ::StringW XmlLang;
 
- __declspec(property(get=get_XmlSpace)) ::System::Xml::XmlSpace  XmlSpace;
+  __declspec(property(get = get_XmlSpace)) ::System::Xml::XmlSpace XmlSpace;
 
-/// @brief Field XsdKatmaiTimeScaleToValueLengthMap, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_XsdKatmaiTimeScaleToValueLengthMap, put=setStaticF_XsdKatmaiTimeScaleToValueLengthMap)) ::ArrayW<uint8_t,::Array<uint8_t>*>  XsdKatmaiTimeScaleToValueLengthMap;
+  /// @brief Field XsdKatmaiTimeScaleToValueLengthMap, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_XsdKatmaiTimeScaleToValueLengthMap, put = setStaticF_XsdKatmaiTimeScaleToValueLengthMap)) ::ArrayW<uint8_t, ::Array<uint8_t>*>
+      XsdKatmaiTimeScaleToValueLengthMap;
 
- __declspec(property(get=get_EOF)) bool  _cordl_EOF;
+  __declspec(property(get = get_EOF)) bool _cordl_EOF;
 
-/// @brief Field attrCount, offset 0xf8, size 0x4 
- __declspec(property(get=__cordl_internal_get_attrCount, put=__cordl_internal_set_attrCount)) int32_t  attrCount;
+  /// @brief Field attrCount, offset 0xf8, size 0x4
+  __declspec(property(get = __cordl_internal_get_attrCount, put = __cordl_internal_set_attrCount)) int32_t attrCount;
 
-/// @brief Field attrHashTbl, offset 0xf0, size 0x8 
- __declspec(property(get=__cordl_internal_get_attrHashTbl, put=__cordl_internal_set_attrHashTbl)) ::ArrayW<int32_t,::Array<int32_t>*>  attrHashTbl;
+  /// @brief Field attrHashTbl, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_attrHashTbl, put = __cordl_internal_set_attrHashTbl)) ::ArrayW<int32_t, ::Array<int32_t>*> attrHashTbl;
 
-/// @brief Field attrIndex, offset 0x9c, size 0x4 
- __declspec(property(get=__cordl_internal_get_attrIndex, put=__cordl_internal_set_attrIndex)) int32_t  attrIndex;
+  /// @brief Field attrIndex, offset 0x9c, size 0x4
+  __declspec(property(get = __cordl_internal_get_attrIndex, put = __cordl_internal_set_attrIndex)) int32_t attrIndex;
 
-/// @brief Field attributes, offset 0xe8, size 0x8 
- __declspec(property(get=__cordl_internal_get_attributes, put=__cordl_internal_set_attributes)) ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo,::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*>  attributes;
+  /// @brief Field attributes, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_attributes,
+                      put = __cordl_internal_set_attributes)) ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo, ::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*>
+      attributes;
 
-/// @brief Field baseUri, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get_baseUri, put=__cordl_internal_set_baseUri)) ::StringW  baseUri;
+  /// @brief Field baseUri, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_baseUri, put = __cordl_internal_set_baseUri)) ::StringW baseUri;
 
-/// @brief Field checkCharacters, offset 0x139, size 0x1 
- __declspec(property(get=__cordl_internal_get_checkCharacters, put=__cordl_internal_set_checkCharacters)) bool  checkCharacters;
+  /// @brief Field checkCharacters, offset 0x139, size 0x1
+  __declspec(property(get = __cordl_internal_get_checkCharacters, put = __cordl_internal_set_checkCharacters)) bool checkCharacters;
 
-/// @brief Field closeInput, offset 0x138, size 0x1 
- __declspec(property(get=__cordl_internal_get_closeInput, put=__cordl_internal_set_closeInput)) bool  closeInput;
+  /// @brief Field closeInput, offset 0x138, size 0x1
+  __declspec(property(get = __cordl_internal_get_closeInput, put = __cordl_internal_set_closeInput)) bool closeInput;
 
-/// @brief Field data, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_data, put=__cordl_internal_set_data)) ::ArrayW<uint8_t,::Array<uint8_t>*>  data;
+  /// @brief Field data, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-/// @brief Field docState, offset 0x3c, size 0x4 
- __declspec(property(get=__cordl_internal_get_docState, put=__cordl_internal_set_docState)) int32_t  docState;
+  /// @brief Field docState, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_docState, put = __cordl_internal_set_docState)) int32_t docState;
 
-/// @brief Field dtdProcessing, offset 0x140, size 0x4 
- __declspec(property(get=__cordl_internal_get_dtdProcessing, put=__cordl_internal_set_dtdProcessing)) ::System::Xml::DtdProcessing  dtdProcessing;
+  /// @brief Field dtdProcessing, offset 0x140, size 0x4
+  __declspec(property(get = __cordl_internal_get_dtdProcessing, put = __cordl_internal_set_dtdProcessing)) ::System::Xml::DtdProcessing dtdProcessing;
 
-/// @brief Field elemDepth, offset 0xe0, size 0x4 
- __declspec(property(get=__cordl_internal_get_elemDepth, put=__cordl_internal_set_elemDepth)) int32_t  elemDepth;
+  /// @brief Field elemDepth, offset 0xe0, size 0x4
+  __declspec(property(get = __cordl_internal_get_elemDepth, put = __cordl_internal_set_elemDepth)) int32_t elemDepth;
 
-/// @brief Field elementStack, offset 0xd8, size 0x8 
- __declspec(property(get=__cordl_internal_get_elementStack, put=__cordl_internal_set_elementStack)) ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo,::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*>  elementStack;
+  /// @brief Field elementStack, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_elementStack,
+                      put = __cordl_internal_set_elementStack)) ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo, ::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*>
+      elementStack;
 
-/// @brief Field end, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get_end, put=__cordl_internal_set_end)) int32_t  end;
+  /// @brief Field end, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_end, put = __cordl_internal_set_end)) int32_t end;
 
-/// @brief Field eof, offset 0x38, size 0x1 
- __declspec(property(get=__cordl_internal_get_eof, put=__cordl_internal_set_eof)) bool  eof;
+  /// @brief Field eof, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_eof, put = __cordl_internal_set_eof)) bool eof;
 
-/// @brief Field hasTypedValue, offset 0x10c, size 0x1 
- __declspec(property(get=__cordl_internal_get_hasTypedValue, put=__cordl_internal_set_hasTypedValue)) bool  hasTypedValue;
+  /// @brief Field hasTypedValue, offset 0x10c, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasTypedValue, put = __cordl_internal_set_hasTypedValue)) bool hasTypedValue;
 
-/// @brief Field hasher, offset 0x148, size 0x8 
- __declspec(property(get=__cordl_internal_get_hasher, put=__cordl_internal_set_hasher)) ::System::Xml::SecureStringHasher*  hasher;
+  /// @brief Field hasher, offset 0x148, size 0x8
+  __declspec(property(get = __cordl_internal_get_hasher, put = __cordl_internal_set_hasher)) ::System::Xml::SecureStringHasher* hasher;
 
-/// @brief Field ignoreComments, offset 0x13c, size 0x1 
- __declspec(property(get=__cordl_internal_get_ignoreComments, put=__cordl_internal_set_ignoreComments)) bool  ignoreComments;
+  /// @brief Field ignoreComments, offset 0x13c, size 0x1
+  __declspec(property(get = __cordl_internal_get_ignoreComments, put = __cordl_internal_set_ignoreComments)) bool ignoreComments;
 
-/// @brief Field ignorePIs, offset 0x13b, size 0x1 
- __declspec(property(get=__cordl_internal_get_ignorePIs, put=__cordl_internal_set_ignorePIs)) bool  ignorePIs;
+  /// @brief Field ignorePIs, offset 0x13b, size 0x1
+  __declspec(property(get = __cordl_internal_get_ignorePIs, put = __cordl_internal_set_ignorePIs)) bool ignorePIs;
 
-/// @brief Field ignoreWhitespace, offset 0x13a, size 0x1 
- __declspec(property(get=__cordl_internal_get_ignoreWhitespace, put=__cordl_internal_set_ignoreWhitespace)) bool  ignoreWhitespace;
+  /// @brief Field ignoreWhitespace, offset 0x13a, size 0x1
+  __declspec(property(get = __cordl_internal_get_ignoreWhitespace, put = __cordl_internal_set_ignoreWhitespace)) bool ignoreWhitespace;
 
-/// @brief Field inStrm, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_inStrm, put=__cordl_internal_set_inStrm)) ::System::IO::Stream*  inStrm;
+  /// @brief Field inStrm, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_inStrm, put = __cordl_internal_set_inStrm)) ::System::IO::Stream* inStrm;
 
-/// @brief Field isEmpty, offset 0x3a, size 0x1 
- __declspec(property(get=__cordl_internal_get_isEmpty, put=__cordl_internal_set_isEmpty)) bool  isEmpty;
+  /// @brief Field isEmpty, offset 0x3a, size 0x1
+  __declspec(property(get = __cordl_internal_get_isEmpty, put = __cordl_internal_set_isEmpty)) bool isEmpty;
 
-/// @brief Field mark, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get_mark, put=__cordl_internal_set_mark)) int32_t  mark;
+  /// @brief Field mark, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_mark, put = __cordl_internal_set_mark)) int32_t mark;
 
-/// @brief Field namespaces, offset 0x120, size 0x8 
- __declspec(property(get=__cordl_internal_get_namespaces, put=__cordl_internal_set_namespaces)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>*  namespaces;
+  /// @brief Field namespaces, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get_namespaces,
+                      put = __cordl_internal_set_namespaces)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>* namespaces;
 
-/// @brief Field nodetype, offset 0x94, size 0x4 
- __declspec(property(get=__cordl_internal_get_nodetype, put=__cordl_internal_set_nodetype)) ::System::Xml::XmlNodeType  nodetype;
+  /// @brief Field nodetype, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get_nodetype, put = __cordl_internal_set_nodetype)) ::System::Xml::XmlNodeType nodetype;
 
-/// @brief Field nsxmlns, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get_nsxmlns, put=__cordl_internal_set_nsxmlns)) ::StringW  nsxmlns;
+  /// @brief Field nsxmlns, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_nsxmlns, put = __cordl_internal_set_nsxmlns)) ::StringW nsxmlns;
 
-/// @brief Field offset, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_offset, put=__cordl_internal_set_offset)) int64_t  offset;
+  /// @brief Field offset, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) int64_t offset;
 
-/// @brief Field parentNodeType, offset 0xd0, size 0x4 
- __declspec(property(get=__cordl_internal_get_parentNodeType, put=__cordl_internal_set_parentNodeType)) ::System::Xml::XmlNodeType  parentNodeType;
+  /// @brief Field parentNodeType, offset 0xd0, size 0x4
+  __declspec(property(get = __cordl_internal_get_parentNodeType, put = __cordl_internal_set_parentNodeType)) ::System::Xml::XmlNodeType parentNodeType;
 
-/// @brief Field pos, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_pos, put=__cordl_internal_set_pos)) int32_t  pos;
+  /// @brief Field pos, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
-/// @brief Field posAfterAttrs, offset 0xfc, size 0x4 
- __declspec(property(get=__cordl_internal_get_posAfterAttrs, put=__cordl_internal_set_posAfterAttrs)) int32_t  posAfterAttrs;
+  /// @brief Field posAfterAttrs, offset 0xfc, size 0x4
+  __declspec(property(get = __cordl_internal_get_posAfterAttrs, put = __cordl_internal_set_posAfterAttrs)) int32_t posAfterAttrs;
 
-/// @brief Field prevNameInfo, offset 0x128, size 0x8 
- __declspec(property(get=__cordl_internal_get_prevNameInfo, put=__cordl_internal_set_prevNameInfo)) ::System::Xml::XmlSqlBinaryReader_NestedBinXml*  prevNameInfo;
+  /// @brief Field prevNameInfo, offset 0x128, size 0x8
+  __declspec(property(get = __cordl_internal_get_prevNameInfo, put = __cordl_internal_set_prevNameInfo)) ::System::Xml::XmlSqlBinaryReader_NestedBinXml* prevNameInfo;
 
-/// @brief Field qnameElement, offset 0xb8, size 0x18 
- __declspec(property(get=__cordl_internal_get_qnameElement, put=__cordl_internal_set_qnameElement)) ::System::Xml::XmlSqlBinaryReader_QName  qnameElement;
+  /// @brief Field qnameElement, offset 0xb8, size 0x18
+  __declspec(property(get = __cordl_internal_get_qnameElement, put = __cordl_internal_set_qnameElement)) ::System::Xml::XmlSqlBinaryReader_QName qnameElement;
 
-/// @brief Field qnameOther, offset 0xa0, size 0x18 
- __declspec(property(get=__cordl_internal_get_qnameOther, put=__cordl_internal_set_qnameOther)) ::System::Xml::XmlSqlBinaryReader_QName  qnameOther;
+  /// @brief Field qnameOther, offset 0xa0, size 0x18
+  __declspec(property(get = __cordl_internal_get_qnameOther, put = __cordl_internal_set_qnameOther)) ::System::Xml::XmlSqlBinaryReader_QName qnameOther;
 
-/// @brief Field sniffed, offset 0x39, size 0x1 
- __declspec(property(get=__cordl_internal_get_sniffed, put=__cordl_internal_set_sniffed)) bool  sniffed;
+  /// @brief Field sniffed, offset 0x39, size 0x1
+  __declspec(property(get = __cordl_internal_get_sniffed, put = __cordl_internal_set_sniffed)) bool sniffed;
 
-/// @brief Field state, offset 0x90, size 0x4 
- __declspec(property(get=__cordl_internal_get_state, put=__cordl_internal_set_state)) ::System::Xml::XmlSqlBinaryReader_ScanState  state;
+  /// @brief Field state, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::System::Xml::XmlSqlBinaryReader_ScanState state;
 
-/// @brief Field stringValue, offset 0x118, size 0x8 
- __declspec(property(get=__cordl_internal_get_stringValue, put=__cordl_internal_set_stringValue)) ::StringW  stringValue;
+  /// @brief Field stringValue, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get_stringValue, put = __cordl_internal_set_stringValue)) ::StringW stringValue;
 
-/// @brief Field symbolTables, offset 0x40, size 0x20 
- __declspec(property(get=__cordl_internal_get_symbolTables, put=__cordl_internal_set_symbolTables)) ::System::Xml::XmlSqlBinaryReader_SymbolTables  symbolTables;
+  /// @brief Field symbolTables, offset 0x40, size 0x20
+  __declspec(property(get = __cordl_internal_get_symbolTables, put = __cordl_internal_set_symbolTables)) ::System::Xml::XmlSqlBinaryReader_SymbolTables symbolTables;
 
-/// @brief Field textXmlReader, offset 0x130, size 0x8 
- __declspec(property(get=__cordl_internal_get_textXmlReader, put=__cordl_internal_set_textXmlReader)) ::System::Xml::XmlReader*  textXmlReader;
+  /// @brief Field textXmlReader, offset 0x130, size 0x8
+  __declspec(property(get = __cordl_internal_get_textXmlReader, put = __cordl_internal_set_textXmlReader)) ::System::Xml::XmlReader* textXmlReader;
 
-/// @brief Field tokDataPos, offset 0x108, size 0x4 
- __declspec(property(get=__cordl_internal_get_tokDataPos, put=__cordl_internal_set_tokDataPos)) int32_t  tokDataPos;
+  /// @brief Field tokDataPos, offset 0x108, size 0x4
+  __declspec(property(get = __cordl_internal_get_tokDataPos, put = __cordl_internal_set_tokDataPos)) int32_t tokDataPos;
 
-/// @brief Field tokLen, offset 0x104, size 0x4 
- __declspec(property(get=__cordl_internal_get_tokLen, put=__cordl_internal_set_tokLen)) int32_t  tokLen;
+  /// @brief Field tokLen, offset 0x104, size 0x4
+  __declspec(property(get = __cordl_internal_get_tokLen, put = __cordl_internal_set_tokLen)) int32_t tokLen;
 
-/// @brief Field token, offset 0x98, size 0x4 
- __declspec(property(get=__cordl_internal_get_token, put=__cordl_internal_set_token)) ::System::Xml::BinXmlToken  token;
+  /// @brief Field token, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token)) ::System::Xml::BinXmlToken token;
 
-/// @brief Field unicode, offset 0x158, size 0x8 
- __declspec(property(get=__cordl_internal_get_unicode, put=__cordl_internal_set_unicode)) ::System::Text::Encoding*  unicode;
+  /// @brief Field unicode, offset 0x158, size 0x8
+  __declspec(property(get = __cordl_internal_get_unicode, put = __cordl_internal_set_unicode)) ::System::Text::Encoding* unicode;
 
-/// @brief Field valueType, offset 0x110, size 0x8 
- __declspec(property(get=__cordl_internal_get_valueType, put=__cordl_internal_set_valueType)) ::System::Type*  valueType;
+  /// @brief Field valueType, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get_valueType, put = __cordl_internal_set_valueType)) ::System::Type* valueType;
 
-/// @brief Field version, offset 0x160, size 0x1 
- __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) uint8_t  version;
+  /// @brief Field version, offset 0x160, size 0x1
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
-/// @brief Field xml, offset 0x70, size 0x8 
- __declspec(property(get=__cordl_internal_get_xml, put=__cordl_internal_set_xml)) ::StringW  xml;
+  /// @brief Field xml, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_xml, put = __cordl_internal_set_xml)) ::StringW xml;
 
-/// @brief Field xmlCharType, offset 0x150, size 0x8 
- __declspec(property(get=__cordl_internal_get_xmlCharType, put=__cordl_internal_set_xmlCharType)) ::System::Xml::XmlCharType  xmlCharType;
+  /// @brief Field xmlCharType, offset 0x150, size 0x8
+  __declspec(property(get = __cordl_internal_get_xmlCharType, put = __cordl_internal_set_xmlCharType)) ::System::Xml::XmlCharType xmlCharType;
 
-/// @brief Field xmlns, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get_xmlns, put=__cordl_internal_set_xmlns)) ::StringW  xmlns;
+  /// @brief Field xmlns, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_xmlns, put = __cordl_internal_set_xmlns)) ::StringW xmlns;
 
-/// @brief Field xmlspacePreserve, offset 0x100, size 0x1 
- __declspec(property(get=__cordl_internal_get_xmlspacePreserve, put=__cordl_internal_set_xmlspacePreserve)) bool  xmlspacePreserve;
+  /// @brief Field xmlspacePreserve, offset 0x100, size 0x1
+  __declspec(property(get = __cordl_internal_get_xmlspacePreserve, put = __cordl_internal_set_xmlspacePreserve)) bool xmlspacePreserve;
 
-/// @brief Field xnt, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get_xnt, put=__cordl_internal_set_xnt)) ::System::Xml::XmlNameTable*  xnt;
+  /// @brief Field xnt, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_xnt, put = __cordl_internal_set_xnt)) ::System::Xml::XmlNameTable* xnt;
 
-/// @brief Field xntFromSettings, offset 0x68, size 0x1 
- __declspec(property(get=__cordl_internal_get_xntFromSettings, put=__cordl_internal_set_xntFromSettings)) bool  xntFromSettings;
+  /// @brief Field xntFromSettings, offset 0x68, size 0x1
+  __declspec(property(get = __cordl_internal_get_xntFromSettings, put = __cordl_internal_set_xntFromSettings)) bool xntFromSettings;
 
-/// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
-constexpr operator  ::System::Xml::IXmlNamespaceResolver*() noexcept;
+  /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
+  constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
-/// @brief Method AddInitNamespace, addr 0x5fe2cc0, size 0xe0, virtual false, abstract: false, final false
-inline void AddInitNamespace(::StringW  prefix, ::StringW  uri) ;
+  /// @brief Method AddInitNamespace, addr 0x6054ccc, size 0xe0, virtual false, abstract: false, final false
+  inline void AddInitNamespace(::StringW prefix, ::StringW uri);
 
-/// @brief Method AddName, addr 0x5feac6c, size 0x114, virtual false, abstract: false, final false
-inline void AddName() ;
+  /// @brief Method AddName, addr 0x605cc78, size 0x114, virtual false, abstract: false, final false
+  inline void AddName();
 
-/// @brief Method AddQName, addr 0x5feae44, size 0x264, virtual false, abstract: false, final false
-inline void AddQName() ;
+  /// @brief Method AddQName, addr 0x605ce50, size 0x264, virtual false, abstract: false, final false
+  inline void AddQName();
 
-/// @brief Method CDATAValue, addr 0x5fe3b60, size 0x108, virtual false, abstract: false, final false
-inline ::StringW CDATAValue() ;
+  /// @brief Method CDATAValue, addr 0x6055b6c, size 0x108, virtual false, abstract: false, final false
+  inline ::StringW CDATAValue();
 
-/// @brief Method CheckAllowContent, addr 0x5fed804, size 0x64, virtual false, abstract: false, final false
-inline void CheckAllowContent() ;
+  /// @brief Method CheckAllowContent, addr 0x605f810, size 0x64, virtual false, abstract: false, final false
+  inline void CheckAllowContent();
 
-/// @brief Method CheckText, addr 0x5fed910, size 0x1b0, virtual false, abstract: false, final false
-inline ::System::Xml::XmlNodeType CheckText(bool  attr) ;
+  /// @brief Method CheckText, addr 0x605f91c, size 0x1b0, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlNodeType CheckText(bool attr);
 
-/// @brief Method CheckTextIsWS, addr 0x5fedac0, size 0x9c, virtual false, abstract: false, final false
-inline ::System::Xml::XmlNodeType CheckTextIsWS() ;
+  /// @brief Method CheckTextIsWS, addr 0x605facc, size 0x9c, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlNodeType CheckTextIsWS();
 
-/// @brief Method CheckValueTokenBounds, addr 0x5fedfec, size 0x5c, virtual false, abstract: false, final false
-inline void CheckValueTokenBounds() ;
+  /// @brief Method CheckValueTokenBounds, addr 0x605fff8, size 0x5c, virtual false, abstract: false, final false
+  inline void CheckValueTokenBounds();
 
-/// @brief Method ClearAttributes, addr 0x5febcc4, size 0x10, virtual false, abstract: false, final false
-inline void ClearAttributes() ;
+  /// @brief Method ClearAttributes, addr 0x605dcd0, size 0x10, virtual false, abstract: false, final false
+  inline void ClearAttributes();
 
-/// @brief Method Close, addr 0x5fe5370, size 0x6c, virtual true, abstract: false, final false
-inline void Close() ;
+  /// @brief Method Close, addr 0x605737c, size 0x6c, virtual true, abstract: false, final false
+  inline void Close();
 
-/// @brief Method Fill, addr 0x5feb244, size 0x1c, virtual false, abstract: false, final false
-inline void Fill(int32_t  require) ;
+  /// @brief Method Fill, addr 0x605d250, size 0x1c, virtual false, abstract: false, final false
+  inline void Fill(int32_t require);
 
-/// @brief Method FillAllowEOF, addr 0x5feb2e4, size 0x214, virtual false, abstract: false, final false
-inline bool FillAllowEOF() ;
+  /// @brief Method FillAllowEOF, addr 0x605d2f0, size 0x214, virtual false, abstract: false, final false
+  inline bool FillAllowEOF();
 
-/// @brief Method Fill_, addr 0x5feb4f8, size 0x78, virtual false, abstract: false, final false
-inline void Fill_(int32_t  require) ;
+  /// @brief Method Fill_, addr 0x605d504, size 0x78, virtual false, abstract: false, final false
+  inline void Fill_(int32_t require);
 
-/// @brief Method FinishCDATA, addr 0x5fecb38, size 0xa0, virtual false, abstract: false, final false
-inline void FinishCDATA() ;
+  /// @brief Method FinishCDATA, addr 0x605eb44, size 0xa0, virtual false, abstract: false, final false
+  inline void FinishCDATA();
 
-/// @brief Method FinishContentAsXXX, addr 0x5fe60d0, size 0xc8, virtual false, abstract: false, final false
-inline int32_t FinishContentAsXXX(int32_t  origPos) ;
+  /// @brief Method FinishContentAsXXX, addr 0x60580dc, size 0xc8, virtual false, abstract: false, final false
+  inline int32_t FinishContentAsXXX(int32_t origPos);
 
-/// @brief Method FinishEndElement, addr 0x5fecbd8, size 0x54, virtual false, abstract: false, final false
-inline void FinishEndElement() ;
+  /// @brief Method FinishEndElement, addr 0x605ebe4, size 0x54, virtual false, abstract: false, final false
+  inline void FinishEndElement();
 
-/// @brief Method GenerateImpliedXmlnsAttrs, addr 0x5febfd4, size 0x108, virtual false, abstract: false, final false
-inline void GenerateImpliedXmlnsAttrs() ;
+  /// @brief Method GenerateImpliedXmlnsAttrs, addr 0x605dfe0, size 0x108, virtual false, abstract: false, final false
+  inline void GenerateImpliedXmlnsAttrs();
 
-/// @brief Method GenerateTokenTypeMap, addr 0x5fe2da0, size 0xa1c, virtual false, abstract: false, final false
-inline void GenerateTokenTypeMap() ;
+  /// @brief Method GenerateTokenTypeMap, addr 0x6054dac, size 0xa1c, virtual false, abstract: false, final false
+  inline void GenerateTokenTypeMap();
 
-/// @brief Method GetAttribute, addr 0x5fe4afc, size 0x90, virtual true, abstract: false, final false
-inline ::StringW GetAttribute(int32_t  i) ;
+  /// @brief Method GetAttribute, addr 0x6056b08, size 0x90, virtual true, abstract: false, final false
+  inline ::StringW GetAttribute(int32_t i);
 
-/// @brief Method GetAttribute, addr 0x5fe49a8, size 0x6c, virtual true, abstract: false, final false
-inline ::StringW GetAttribute(::StringW  name) ;
+  /// @brief Method GetAttribute, addr 0x60569b4, size 0x6c, virtual true, abstract: false, final false
+  inline ::StringW GetAttribute(::StringW name);
 
-/// @brief Method GetAttribute, addr 0x5fe4850, size 0xcc, virtual true, abstract: false, final false
-inline ::StringW GetAttribute(::StringW  name, ::StringW  ns) ;
+  /// @brief Method GetAttribute, addr 0x605685c, size 0xcc, virtual true, abstract: false, final false
+  inline ::StringW GetAttribute(::StringW name, ::StringW ns);
 
-/// @brief Method GetAttributeText, addr 0x5fe44f8, size 0x138, virtual false, abstract: false, final false
-inline ::StringW GetAttributeText(int32_t  i) ;
+  /// @brief Method GetAttributeText, addr 0x6056504, size 0x138, virtual false, abstract: false, final false
+  inline ::StringW GetAttributeText(int32_t i);
 
-/// @brief Method GetDouble, addr 0x5fee4f8, size 0xd4, virtual false, abstract: false, final false
-inline double_t GetDouble(int32_t  offset) ;
+  /// @brief Method GetDouble, addr 0x6060504, size 0xd4, virtual false, abstract: false, final false
+  inline double_t GetDouble(int32_t offset);
 
-/// @brief Method GetInt16, addr 0x5fee120, size 0x44, virtual false, abstract: false, final false
-inline int16_t GetInt16(int32_t  pos) ;
+  /// @brief Method GetInt16, addr 0x606012c, size 0x44, virtual false, abstract: false, final false
+  inline int16_t GetInt16(int32_t pos);
 
-/// @brief Method GetInt32, addr 0x5fee164, size 0x74, virtual false, abstract: false, final false
-inline int32_t GetInt32(int32_t  pos) ;
+  /// @brief Method GetInt32, addr 0x6060170, size 0x74, virtual false, abstract: false, final false
+  inline int32_t GetInt32(int32_t pos);
 
-/// @brief Method GetInt64, addr 0x5fee1d8, size 0xd0, virtual false, abstract: false, final false
-inline int64_t GetInt64(int32_t  pos) ;
+  /// @brief Method GetInt64, addr 0x60601e4, size 0xd0, virtual false, abstract: false, final false
+  inline int64_t GetInt64(int32_t pos);
 
-/// @brief Method GetSingle, addr 0x5fee480, size 0x78, virtual false, abstract: false, final false
-inline float_t GetSingle(int32_t  offset) ;
+  /// @brief Method GetSingle, addr 0x606048c, size 0x78, virtual false, abstract: false, final false
+  inline float_t GetSingle(int32_t offset);
 
-/// @brief Method GetString, addr 0x5fe3a04, size 0x15c, virtual false, abstract: false, final false
-inline ::StringW GetString(int32_t  pos, int32_t  cch) ;
+  /// @brief Method GetString, addr 0x6055a10, size 0x15c, virtual false, abstract: false, final false
+  inline ::StringW GetString(int32_t pos, int32_t cch);
 
-/// @brief Method GetStringAligned, addr 0x5febb84, size 0x2c, virtual false, abstract: false, final false
-inline ::StringW GetStringAligned(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  offset, int32_t  cch) ;
+  /// @brief Method GetStringAligned, addr 0x605db90, size 0x2c, virtual false, abstract: false, final false
+  inline ::StringW GetStringAligned(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t cch);
 
-/// @brief Method GetUInt16, addr 0x5fee2a8, size 0x44, virtual false, abstract: false, final false
-inline uint16_t GetUInt16(int32_t  pos) ;
+  /// @brief Method GetUInt16, addr 0x60602b4, size 0x44, virtual false, abstract: false, final false
+  inline uint16_t GetUInt16(int32_t pos);
 
-/// @brief Method GetUInt32, addr 0x5fee2ec, size 0x74, virtual false, abstract: false, final false
-inline uint32_t GetUInt32(int32_t  pos) ;
+  /// @brief Method GetUInt32, addr 0x60602f8, size 0x74, virtual false, abstract: false, final false
+  inline uint32_t GetUInt32(int32_t pos);
 
-/// @brief Method GetUInt64, addr 0x5fee360, size 0xd0, virtual false, abstract: false, final false
-inline uint64_t GetUInt64(int32_t  pos) ;
+  /// @brief Method GetUInt64, addr 0x606036c, size 0xd0, virtual false, abstract: false, final false
+  inline uint64_t GetUInt64(int32_t pos);
 
-/// @brief Method GetValueConverter, addr 0x5feea14, size 0x6c, virtual false, abstract: false, final false
-inline ::System::Xml::Schema::XmlValueConverter* GetValueConverter(::System::Xml::Schema::XmlTypeCode  typeCode) ;
+  /// @brief Method GetValueConverter, addr 0x6060a20, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::XmlValueConverter* GetValueConverter(::System::Xml::Schema::XmlTypeCode typeCode);
 
-/// @brief Method GetValueType, addr 0x5fe52a0, size 0xd0, virtual false, abstract: false, final false
-inline ::System::Type* GetValueType(::System::Xml::BinXmlToken  token) ;
+  /// @brief Method GetValueType, addr 0x60572ac, size 0xd0, virtual false, abstract: false, final false
+  inline ::System::Type* GetValueType(::System::Xml::BinXmlToken token);
 
-/// @brief Method GetXsdKatmaiTokenLength, addr 0x5fedf04, size 0xe8, virtual false, abstract: false, final false
-inline int32_t GetXsdKatmaiTokenLength(::System::Xml::BinXmlToken  token) ;
+  /// @brief Method GetXsdKatmaiTokenLength, addr 0x605ff10, size 0xe8, virtual false, abstract: false, final false
+  inline int32_t GetXsdKatmaiTokenLength(::System::Xml::BinXmlToken token);
 
-/// @brief Method GrowAttributes, addr 0x5febc3c, size 0x88, virtual false, abstract: false, final false
-inline void GrowAttributes() ;
+  /// @brief Method GrowAttributes, addr 0x605dc48, size 0x88, virtual false, abstract: false, final false
+  inline void GrowAttributes();
 
-/// @brief Method GrowElements, addr 0x5febbb0, size 0x8c, virtual false, abstract: false, final false
-inline void GrowElements() ;
+  /// @brief Method GrowElements, addr 0x605dbbc, size 0x8c, virtual false, abstract: false, final false
+  inline void GrowElements();
 
-/// @brief Method HashCheckForDuplicateAttributes, addr 0x5fec8e8, size 0x250, virtual false, abstract: false, final false
-inline void HashCheckForDuplicateAttributes() ;
+  /// @brief Method HashCheckForDuplicateAttributes, addr 0x605e8f4, size 0x250, virtual false, abstract: false, final false
+  inline void HashCheckForDuplicateAttributes();
 
-/// @brief Method ImplReadCDATA, addr 0x5fed234, size 0x34, virtual false, abstract: false, final false
-inline void ImplReadCDATA() ;
+  /// @brief Method ImplReadCDATA, addr 0x605f240, size 0x34, virtual false, abstract: false, final false
+  inline void ImplReadCDATA();
 
-/// @brief Method ImplReadComment, addr 0x5fed208, size 0x2c, virtual false, abstract: false, final false
-inline void ImplReadComment() ;
+  /// @brief Method ImplReadComment, addr 0x605f214, size 0x2c, virtual false, abstract: false, final false
+  inline void ImplReadComment();
 
-/// @brief Method ImplReadData, addr 0x5fed68c, size 0x178, virtual false, abstract: false, final false
-inline void ImplReadData(::System::Xml::BinXmlToken  tokenType) ;
+  /// @brief Method ImplReadData, addr 0x605f698, size 0x178, virtual false, abstract: false, final false
+  inline void ImplReadData(::System::Xml::BinXmlToken tokenType);
 
-/// @brief Method ImplReadDoctype, addr 0x5fecf44, size 0x260, virtual false, abstract: false, final false
-inline void ImplReadDoctype() ;
+  /// @brief Method ImplReadDoctype, addr 0x605ef50, size 0x260, virtual false, abstract: false, final false
+  inline void ImplReadDoctype();
 
-/// @brief Method ImplReadElement, addr 0x5fecc2c, size 0x24c, virtual false, abstract: false, final false
-inline void ImplReadElement() ;
+  /// @brief Method ImplReadElement, addr 0x605ec38, size 0x24c, virtual false, abstract: false, final false
+  inline void ImplReadElement();
 
-/// @brief Method ImplReadEndElement, addr 0x5fece78, size 0xcc, virtual false, abstract: false, final false
-inline void ImplReadEndElement() ;
+  /// @brief Method ImplReadEndElement, addr 0x605ee84, size 0xcc, virtual false, abstract: false, final false
+  inline void ImplReadEndElement();
 
-/// @brief Method ImplReadEndNest, addr 0x5fed2f8, size 0x2c, virtual false, abstract: false, final false
-inline void ImplReadEndNest() ;
+  /// @brief Method ImplReadEndNest, addr 0x605f304, size 0x2c, virtual false, abstract: false, final false
+  inline void ImplReadEndNest();
 
-/// @brief Method ImplReadNest, addr 0x5fed268, size 0x90, virtual false, abstract: false, final false
-inline void ImplReadNest() ;
+  /// @brief Method ImplReadNest, addr 0x605f274, size 0x90, virtual false, abstract: false, final false
+  inline void ImplReadNest();
 
-/// @brief Method ImplReadPI, addr 0x5fed1a4, size 0x64, virtual false, abstract: false, final false
-inline void ImplReadPI() ;
+  /// @brief Method ImplReadPI, addr 0x605f1b0, size 0x64, virtual false, abstract: false, final false
+  inline void ImplReadPI();
 
-/// @brief Method ImplReadXmlText, addr 0x5fed324, size 0x368, virtual false, abstract: false, final false
-inline void ImplReadXmlText() ;
+  /// @brief Method ImplReadXmlText, addr 0x605f330, size 0x368, virtual false, abstract: false, final false
+  inline void ImplReadXmlText();
 
-/// @brief Method LocateAttribute, addr 0x5fe4a14, size 0xe8, virtual false, abstract: false, final false
-inline int32_t LocateAttribute(::StringW  name) ;
+  /// @brief Method LocateAttribute, addr 0x6056a20, size 0xe8, virtual false, abstract: false, final false
+  inline int32_t LocateAttribute(::StringW name);
 
-/// @brief Method LocateAttribute, addr 0x5fe491c, size 0x8c, virtual false, abstract: false, final false
-inline int32_t LocateAttribute(::StringW  name, ::StringW  ns) ;
+  /// @brief Method LocateAttribute, addr 0x6056928, size 0x8c, virtual false, abstract: false, final false
+  inline int32_t LocateAttribute(::StringW name, ::StringW ns);
 
-/// @brief Method LookupNamespace, addr 0x5fe53e4, size 0xc0, virtual true, abstract: false, final false
-inline ::StringW LookupNamespace(::StringW  prefix) ;
+  /// @brief Method LookupNamespace, addr 0x60573f0, size 0xc0, virtual true, abstract: false, final false
+  inline ::StringW LookupNamespace(::StringW prefix);
 
-/// @brief Method MoveToAttribute, addr 0x5fe4d50, size 0x7c, virtual true, abstract: false, final false
-inline bool MoveToAttribute(::StringW  name) ;
+  /// @brief Method MoveToAttribute, addr 0x6056d5c, size 0x7c, virtual true, abstract: false, final false
+  inline bool MoveToAttribute(::StringW name);
 
-/// @brief Method MoveToAttribute, addr 0x5fe4b8c, size 0xdc, virtual true, abstract: false, final false
-inline bool MoveToAttribute(::StringW  name, ::StringW  ns) ;
+  /// @brief Method MoveToAttribute, addr 0x6056b98, size 0xdc, virtual true, abstract: false, final false
+  inline bool MoveToAttribute(::StringW name, ::StringW ns);
 
-/// @brief Method MoveToAttribute, addr 0x5fe4dcc, size 0xa4, virtual true, abstract: false, final false
-inline void MoveToAttribute(int32_t  i) ;
+  /// @brief Method MoveToAttribute, addr 0x6056dd8, size 0xa4, virtual true, abstract: false, final false
+  inline void MoveToAttribute(int32_t i);
 
-/// @brief Method MoveToElement, addr 0x5fe4f64, size 0xbc, virtual true, abstract: false, final false
-inline bool MoveToElement() ;
+  /// @brief Method MoveToElement, addr 0x6056f70, size 0xbc, virtual true, abstract: false, final false
+  inline bool MoveToElement();
 
-/// @brief Method MoveToFirstAttribute, addr 0x5fe4e70, size 0x70, virtual true, abstract: false, final false
-inline bool MoveToFirstAttribute() ;
+  /// @brief Method MoveToFirstAttribute, addr 0x6056e7c, size 0x70, virtual true, abstract: false, final false
+  inline bool MoveToFirstAttribute();
 
-/// @brief Method MoveToNextAttribute, addr 0x5fe4ee0, size 0x84, virtual true, abstract: false, final false
-inline bool MoveToNextAttribute() ;
+  /// @brief Method MoveToNextAttribute, addr 0x6056eec, size 0x84, virtual true, abstract: false, final false
+  inline bool MoveToNextAttribute();
 
-/// @brief Method NameFlush, addr 0x5feb12c, size 0x50, virtual false, abstract: false, final false
-inline void NameFlush() ;
+  /// @brief Method NameFlush, addr 0x605d138, size 0x50, virtual false, abstract: false, final false
+  inline void NameFlush();
 
-static inline ::System::Xml::XmlSqlBinaryReader* New_ctor(::System::IO::Stream*  stream, ::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  len, ::StringW  baseUri, bool  closeInput, ::System::Xml::XmlReaderSettings*  settings) ;
+  static inline ::System::Xml::XmlSqlBinaryReader* New_ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t len, ::StringW baseUri, bool closeInput,
+                                                            ::System::Xml::XmlReaderSettings* settings);
 
-/// @brief Method NextToken, addr 0x5feba30, size 0x68, virtual false, abstract: false, final false
-inline ::System::Xml::BinXmlToken NextToken() ;
+  /// @brief Method NextToken, addr 0x605da3c, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Xml::BinXmlToken NextToken();
 
-/// @brief Method NextToken1, addr 0x5feb9b8, size 0x78, virtual false, abstract: false, final false
-inline ::System::Xml::BinXmlToken NextToken1() ;
+  /// @brief Method NextToken1, addr 0x605d9c4, size 0x78, virtual false, abstract: false, final false
+  inline ::System::Xml::BinXmlToken NextToken1();
 
-/// @brief Method NextToken2, addr 0x5feb940, size 0x78, virtual false, abstract: false, final false
-inline ::System::Xml::BinXmlToken NextToken2(::System::Xml::BinXmlToken  token) ;
+  /// @brief Method NextToken2, addr 0x605d94c, size 0x78, virtual false, abstract: false, final false
+  inline ::System::Xml::BinXmlToken NextToken2(::System::Xml::BinXmlToken token);
 
-/// @brief Method ParseMB32, addr 0x5feb218, size 0x2c, virtual false, abstract: false, final false
-inline int32_t ParseMB32() ;
+  /// @brief Method ParseMB32, addr 0x605d224, size 0x2c, virtual false, abstract: false, final false
+  inline int32_t ParseMB32();
 
-/// @brief Method ParseMB32, addr 0x5feb750, size 0xec, virtual false, abstract: false, final false
-inline int32_t ParseMB32(int32_t  pos) ;
+  /// @brief Method ParseMB32, addr 0x605d75c, size 0xec, virtual false, abstract: false, final false
+  inline int32_t ParseMB32(int32_t pos);
 
-/// @brief Method ParseMB32_, addr 0x5feb6b8, size 0x98, virtual false, abstract: false, final false
-inline int32_t ParseMB32_(uint8_t  b) ;
+  /// @brief Method ParseMB32_, addr 0x605d6c4, size 0x98, virtual false, abstract: false, final false
+  inline int32_t ParseMB32_(uint8_t b);
 
-/// @brief Method ParseMB64, addr 0x5feb83c, size 0x2c, virtual false, abstract: false, final false
-inline int32_t ParseMB64() ;
+  /// @brief Method ParseMB64, addr 0x605d848, size 0x2c, virtual false, abstract: false, final false
+  inline int32_t ParseMB64();
 
-/// @brief Method ParseText, addr 0x5fead80, size 0xc4, virtual false, abstract: false, final false
-inline ::StringW ParseText() ;
+  /// @brief Method ParseText, addr 0x605cd8c, size 0xc4, virtual false, abstract: false, final false
+  inline ::StringW ParseText();
 
-/// @brief Method PeekNextToken, addr 0x5feba98, size 0x28, virtual false, abstract: false, final false
-inline ::System::Xml::BinXmlToken PeekNextToken() ;
+  /// @brief Method PeekNextToken, addr 0x605daa4, size 0x28, virtual false, abstract: false, final false
+  inline ::System::Xml::BinXmlToken PeekNextToken();
 
-/// @brief Method PeekToken, addr 0x5feb868, size 0x68, virtual false, abstract: false, final false
-inline ::System::Xml::BinXmlToken PeekToken() ;
+  /// @brief Method PeekToken, addr 0x605d874, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Xml::BinXmlToken PeekToken();
 
-/// @brief Method PopNamespaces, addr 0x5febf14, size 0xc0, virtual false, abstract: false, final false
-inline void PopNamespaces(::System::Xml::XmlSqlBinaryReader_NamespaceDecl*  firstInScopeChain) ;
+  /// @brief Method PopNamespaces, addr 0x605df20, size 0xc0, virtual false, abstract: false, final false
+  inline void PopNamespaces(::System::Xml::XmlSqlBinaryReader_NamespaceDecl* firstInScopeChain);
 
-/// @brief Method PositionOnAttribute, addr 0x5fe4c84, size 0xcc, virtual false, abstract: false, final false
-inline void PositionOnAttribute(int32_t  i) ;
+  /// @brief Method PositionOnAttribute, addr 0x6056c90, size 0xcc, virtual false, abstract: false, final false
+  inline void PositionOnAttribute(int32_t i);
 
-/// @brief Method PushNamespace, addr 0x5febcd4, size 0x240, virtual false, abstract: false, final false
-inline void PushNamespace(::StringW  prefix, ::StringW  ns, bool  implied) ;
+  /// @brief Method PushNamespace, addr 0x605dce0, size 0x240, virtual false, abstract: false, final false
+  inline void PushNamespace(::StringW prefix, ::StringW ns, bool implied);
 
-/// @brief Method ReScanOverValue, addr 0x5fe5294, size 0xc, virtual false, abstract: false, final false
-inline void ReScanOverValue(::System::Xml::BinXmlToken  token) ;
+  /// @brief Method ReScanOverValue, addr 0x60572a0, size 0xc, virtual false, abstract: false, final false
+  inline void ReScanOverValue(::System::Xml::BinXmlToken token);
 
-/// @brief Method Read, addr 0x5fe5560, size 0x1cc, virtual true, abstract: false, final false
-inline bool Read() ;
+  /// @brief Method Read, addr 0x605756c, size 0x1cc, virtual true, abstract: false, final false
+  inline bool Read();
 
-/// @brief Method ReadAttributeValue, addr 0x5fe5030, size 0x168, virtual true, abstract: false, final false
-inline bool ReadAttributeValue() ;
+  /// @brief Method ReadAttributeValue, addr 0x605703c, size 0x168, virtual true, abstract: false, final false
+  inline bool ReadAttributeValue();
 
-/// @brief Method ReadByte, addr 0x5feb5e8, size 0x5c, virtual false, abstract: false, final false
-inline uint8_t ReadByte() ;
+  /// @brief Method ReadByte, addr 0x605d5f4, size 0x5c, virtual false, abstract: false, final false
+  inline uint8_t ReadByte();
 
-/// @brief Method ReadContentAs, addr 0x5fe9a7c, size 0x46c, virtual true, abstract: false, final false
-inline ::System::Object* ReadContentAs(::System::Type*  returnType, ::System::Xml::IXmlNamespaceResolver*  namespaceResolver) ;
+  /// @brief Method ReadContentAs, addr 0x605ba88, size 0x46c, virtual true, abstract: false, final false
+  inline ::System::Object* ReadContentAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* namespaceResolver);
 
-/// @brief Method ReadContentAsBoolean, addr 0x5fe6218, size 0x494, virtual true, abstract: false, final false
-inline bool ReadContentAsBoolean() ;
+  /// @brief Method ReadContentAsBoolean, addr 0x6058224, size 0x494, virtual true, abstract: false, final false
+  inline bool ReadContentAsBoolean();
 
-/// @brief Method ReadContentAsDateTime, addr 0x5fe66ac, size 0x53c, virtual true, abstract: false, final false
-inline ::System::DateTime ReadContentAsDateTime() ;
+  /// @brief Method ReadContentAsDateTime, addr 0x60586b8, size 0x53c, virtual true, abstract: false, final false
+  inline ::System::DateTime ReadContentAsDateTime();
 
-/// @brief Method ReadContentAsDecimal, addr 0x5fe7ad8, size 0x548, virtual true, abstract: false, final false
-inline ::System::Decimal ReadContentAsDecimal() ;
+  /// @brief Method ReadContentAsDecimal, addr 0x6059ae4, size 0x548, virtual true, abstract: false, final false
+  inline ::System::Decimal ReadContentAsDecimal();
 
-/// @brief Method ReadContentAsDouble, addr 0x5fe6f24, size 0x530, virtual true, abstract: false, final false
-inline double_t ReadContentAsDouble() ;
+  /// @brief Method ReadContentAsDouble, addr 0x6058f30, size 0x530, virtual true, abstract: false, final false
+  inline double_t ReadContentAsDouble();
 
-/// @brief Method ReadContentAsFloat, addr 0x5fe75ac, size 0x52c, virtual true, abstract: false, final false
-inline float_t ReadContentAsFloat() ;
+  /// @brief Method ReadContentAsFloat, addr 0x60595b8, size 0x52c, virtual true, abstract: false, final false
+  inline float_t ReadContentAsFloat();
 
-/// @brief Method ReadContentAsInt, addr 0x5fe8260, size 0x58c, virtual true, abstract: false, final false
-inline int32_t ReadContentAsInt() ;
+  /// @brief Method ReadContentAsInt, addr 0x605a26c, size 0x58c, virtual true, abstract: false, final false
+  inline int32_t ReadContentAsInt();
 
-/// @brief Method ReadContentAsLong, addr 0x5fe8a2c, size 0x53c, virtual true, abstract: false, final false
-inline int64_t ReadContentAsLong() ;
+  /// @brief Method ReadContentAsLong, addr 0x605aa38, size 0x53c, virtual true, abstract: false, final false
+  inline int64_t ReadContentAsLong();
 
-/// @brief Method ReadContentAsObject, addr 0x5fe8f68, size 0x394, virtual true, abstract: false, final false
-inline ::System::Object* ReadContentAsObject() ;
+  /// @brief Method ReadContentAsObject, addr 0x605af74, size 0x394, virtual true, abstract: false, final false
+  inline ::System::Object* ReadContentAsObject();
 
-/// @brief Method ReadDoc, addr 0x5fe5b44, size 0x398, virtual false, abstract: false, final false
-inline bool ReadDoc() ;
+  /// @brief Method ReadDoc, addr 0x6057b50, size 0x398, virtual false, abstract: false, final false
+  inline bool ReadDoc();
 
-/// @brief Method ReadInit, addr 0x5fe572c, size 0x418, virtual false, abstract: false, final false
-inline bool ReadInit(bool  skipXmlDecl) ;
+  /// @brief Method ReadInit, addr 0x6057738, size 0x418, virtual false, abstract: false, final false
+  inline bool ReadInit(bool skipXmlDecl);
 
-/// @brief Method ReadNameRef, addr 0x5feb0a8, size 0x84, virtual false, abstract: false, final false
-inline int32_t ReadNameRef() ;
+  /// @brief Method ReadNameRef, addr 0x605d0b4, size 0x84, virtual false, abstract: false, final false
+  inline int32_t ReadNameRef();
 
-/// @brief Method ReadQNameRef, addr 0x5feb260, size 0x84, virtual false, abstract: false, final false
-inline int32_t ReadQNameRef() ;
+  /// @brief Method ReadQNameRef, addr 0x605d26c, size 0x84, virtual false, abstract: false, final false
+  inline int32_t ReadQNameRef();
 
-/// @brief Method ReadToken, addr 0x5feb8d0, size 0x70, virtual false, abstract: false, final false
-inline ::System::Xml::BinXmlToken ReadToken() ;
+  /// @brief Method ReadToken, addr 0x605d8dc, size 0x70, virtual false, abstract: false, final false
+  inline ::System::Xml::BinXmlToken ReadToken();
 
-/// @brief Method ReadUShort, addr 0x5feb644, size 0x74, virtual false, abstract: false, final false
-inline uint16_t ReadUShort() ;
+  /// @brief Method ReadUShort, addr 0x605d650, size 0x74, virtual false, abstract: false, final false
+  inline uint16_t ReadUShort();
 
-/// @brief Method RescanNextToken, addr 0x5fe5198, size 0xfc, virtual false, abstract: false, final false
-inline ::System::Xml::BinXmlToken RescanNextToken() ;
+  /// @brief Method RescanNextToken, addr 0x60571a4, size 0xfc, virtual false, abstract: false, final false
+  inline ::System::Xml::BinXmlToken RescanNextToken();
 
-/// @brief Method ResolveEntity, addr 0x5fe54a4, size 0x38, virtual true, abstract: false, final false
-inline void ResolveEntity() ;
+  /// @brief Method ResolveEntity, addr 0x60574b0, size 0x38, virtual true, abstract: false, final false
+  inline void ResolveEntity();
 
-/// @brief Method ScanAttributes, addr 0x5fec0dc, size 0x498, virtual false, abstract: false, final false
-inline void ScanAttributes() ;
+  /// @brief Method ScanAttributes, addr 0x605e0e8, size 0x498, virtual false, abstract: false, final false
+  inline void ScanAttributes();
 
-/// @brief Method ScanOverAnyValue, addr 0x5fedb5c, size 0x3a8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlNodeType ScanOverAnyValue(::System::Xml::BinXmlToken  token, bool  attr, bool  checkChars) ;
+  /// @brief Method ScanOverAnyValue, addr 0x605fb68, size 0x3a8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlNodeType ScanOverAnyValue(::System::Xml::BinXmlToken token, bool attr, bool checkChars);
 
-/// @brief Method ScanOverValue, addr 0x5fec648, size 0x148, virtual false, abstract: false, final false
-inline ::System::Xml::XmlNodeType ScanOverValue(::System::Xml::BinXmlToken  token, bool  attr, bool  checkChars) ;
+  /// @brief Method ScanOverValue, addr 0x605e654, size 0x148, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlNodeType ScanOverValue(::System::Xml::BinXmlToken token, bool attr, bool checkChars);
 
-/// @brief Method ScanText, addr 0x5febac0, size 0xc4, virtual false, abstract: false, final false
-inline int32_t ScanText(::ByRef<int32_t>  start) ;
+  /// @brief Method ScanText, addr 0x605dacc, size 0xc4, virtual false, abstract: false, final false
+  inline int32_t ScanText(::ByRef<int32_t> start);
 
-/// @brief Method SetupContentAsXXX, addr 0x5fe5edc, size 0x1f4, virtual false, abstract: false, final false
-inline bool SetupContentAsXXX(::StringW  name) ;
+  /// @brief Method SetupContentAsXXX, addr 0x6057ee8, size 0x1f4, virtual false, abstract: false, final false
+  inline bool SetupContentAsXXX(::StringW name);
 
-/// @brief Method SimpleCheckForDuplicateAttributes, addr 0x5fec790, size 0x158, virtual false, abstract: false, final false
-inline void SimpleCheckForDuplicateAttributes() ;
+  /// @brief Method SimpleCheckForDuplicateAttributes, addr 0x605e79c, size 0x158, virtual false, abstract: false, final false
+  inline void SimpleCheckForDuplicateAttributes();
 
-/// @brief Method SkipExtn, addr 0x5feb17c, size 0x9c, virtual false, abstract: false, final false
-inline void SkipExtn() ;
+  /// @brief Method SkipExtn, addr 0x605d188, size 0x9c, virtual false, abstract: false, final false
+  inline void SkipExtn();
 
-/// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x5fea694, size 0x3b4, virtual true, abstract: false, final true
-inline ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope  scope) ;
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x605c6a0, size 0x3b4, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-/// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x5feaa48, size 0x1a4, virtual true, abstract: false, final true
-inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW  namespaceName) ;
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x605ca54, size 0x1a4, virtual true, abstract: false, final true
+  inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
 
-/// @brief Method ThrowNotSupported, addr 0x5fe6198, size 0x80, virtual false, abstract: false, final false
-inline ::System::Exception* ThrowNotSupported(::StringW  res) ;
+  /// @brief Method ThrowNotSupported, addr 0x60581a4, size 0x80, virtual false, abstract: false, final false
+  inline ::System::Exception* ThrowNotSupported(::StringW res);
 
-/// @brief Method ThrowUnexpectedToken, addr 0x5feac20, size 0x4c, virtual false, abstract: false, final false
-inline ::System::Exception* ThrowUnexpectedToken(::System::Xml::BinXmlToken  token) ;
+  /// @brief Method ThrowUnexpectedToken, addr 0x605cc2c, size 0x4c, virtual false, abstract: false, final false
+  inline ::System::Exception* ThrowUnexpectedToken(::System::Xml::BinXmlToken token);
 
-/// @brief Method ThrowXmlException, addr 0x5feb570, size 0x78, virtual false, abstract: false, final false
-inline ::System::Exception* ThrowXmlException(::StringW  res) ;
+  /// @brief Method ThrowXmlException, addr 0x605d57c, size 0x78, virtual false, abstract: false, final false
+  inline ::System::Exception* ThrowXmlException(::StringW res);
 
-/// @brief Method ThrowXmlException, addr 0x5fec574, size 0xd4, virtual false, abstract: false, final false
-inline ::System::Exception* ThrowXmlException(::StringW  res, ::StringW  arg1, ::StringW  arg2) ;
+  /// @brief Method ThrowXmlException, addr 0x605e580, size 0xd4, virtual false, abstract: false, final false
+  inline ::System::Exception* ThrowXmlException(::StringW res, ::StringW arg1, ::StringW arg2);
 
-/// @brief Method UpdateFromTextReader, addr 0x5fe4c68, size 0x1c, virtual false, abstract: false, final false
-inline bool UpdateFromTextReader(bool  needUpdate) ;
+  /// @brief Method UpdateFromTextReader, addr 0x6056c74, size 0x1c, virtual false, abstract: false, final false
+  inline bool UpdateFromTextReader(bool needUpdate);
 
-/// @brief Method UpdateFromTextReader, addr 0x5fed868, size 0xa8, virtual false, abstract: false, final false
-inline void UpdateFromTextReader() ;
+  /// @brief Method UpdateFromTextReader, addr 0x605f874, size 0xa8, virtual false, abstract: false, final false
+  inline void UpdateFromTextReader();
 
-/// @brief Method ValueAs, addr 0x5fe9ee8, size 0x7ac, virtual false, abstract: false, final false
-inline ::System::Object* ValueAs(::System::Xml::BinXmlToken  token, ::System::Type*  returnType, ::System::Xml::IXmlNamespaceResolver*  namespaceResolver) ;
+  /// @brief Method ValueAs, addr 0x605bef4, size 0x7ac, virtual false, abstract: false, final false
+  inline ::System::Object* ValueAs(::System::Xml::BinXmlToken token, ::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* namespaceResolver);
 
-/// @brief Method ValueAsDateTime, addr 0x5fe6be8, size 0x33c, virtual false, abstract: false, final false
-inline ::System::DateTime ValueAsDateTime() ;
+  /// @brief Method ValueAsDateTime, addr 0x6058bf4, size 0x33c, virtual false, abstract: false, final false
+  inline ::System::DateTime ValueAsDateTime();
 
-/// @brief Method ValueAsDateTimeOffset, addr 0x5fee5cc, size 0x10c, virtual false, abstract: false, final false
-inline ::System::DateTimeOffset ValueAsDateTimeOffset() ;
+  /// @brief Method ValueAsDateTimeOffset, addr 0x60605d8, size 0x10c, virtual false, abstract: false, final false
+  inline ::System::DateTimeOffset ValueAsDateTimeOffset();
 
-/// @brief Method ValueAsDateTimeString, addr 0x5fee6d8, size 0x33c, virtual false, abstract: false, final false
-inline ::StringW ValueAsDateTimeString() ;
+  /// @brief Method ValueAsDateTimeString, addr 0x60606e4, size 0x33c, virtual false, abstract: false, final false
+  inline ::StringW ValueAsDateTimeString();
 
-/// @brief Method ValueAsDecimal, addr 0x5fe8020, size 0x240, virtual false, abstract: false, final false
-inline ::System::Decimal ValueAsDecimal() ;
+  /// @brief Method ValueAsDecimal, addr 0x605a02c, size 0x240, virtual false, abstract: false, final false
+  inline ::System::Decimal ValueAsDecimal();
 
-/// @brief Method ValueAsDouble, addr 0x5fe7454, size 0x158, virtual false, abstract: false, final false
-inline double_t ValueAsDouble() ;
+  /// @brief Method ValueAsDouble, addr 0x6059460, size 0x158, virtual false, abstract: false, final false
+  inline double_t ValueAsDouble();
 
-/// @brief Method ValueAsLong, addr 0x5fe87ec, size 0x240, virtual false, abstract: false, final false
-inline int64_t ValueAsLong() ;
+  /// @brief Method ValueAsLong, addr 0x605a7f8, size 0x240, virtual false, abstract: false, final false
+  inline int64_t ValueAsLong();
 
-/// @brief Method ValueAsObject, addr 0x5fe92fc, size 0x780, virtual false, abstract: false, final false
-inline ::System::Object* ValueAsObject(::System::Xml::BinXmlToken  token, bool  returnInternalTypes) ;
+  /// @brief Method ValueAsObject, addr 0x605b308, size 0x780, virtual false, abstract: false, final false
+  inline ::System::Object* ValueAsObject(::System::Xml::BinXmlToken token, bool returnInternalTypes);
 
-/// @brief Method ValueAsString, addr 0x5fe3da8, size 0x750, virtual false, abstract: false, final false
-inline ::StringW ValueAsString(::System::Xml::BinXmlToken  token) ;
+  /// @brief Method ValueAsString, addr 0x6055db4, size 0x750, virtual false, abstract: false, final false
+  inline ::StringW ValueAsString(::System::Xml::BinXmlToken token);
 
-/// @brief Method ValueAsULong, addr 0x5fee430, size 0x50, virtual false, abstract: false, final false
-inline uint64_t ValueAsULong() ;
+  /// @brief Method ValueAsULong, addr 0x606043c, size 0x50, virtual false, abstract: false, final false
+  inline uint64_t ValueAsULong();
 
-/// @brief Method VerifyVersion, addr 0x5feabec, size 0x34, virtual false, abstract: false, final false
-inline void VerifyVersion(int32_t  requiredVersion, ::System::Xml::BinXmlToken  token) ;
+  /// @brief Method VerifyVersion, addr 0x605cbf8, size 0x34, virtual false, abstract: false, final false
+  inline void VerifyVersion(int32_t requiredVersion, ::System::Xml::BinXmlToken token);
 
-/// @brief Method XmlDeclValue, addr 0x5fe3c68, size 0x140, virtual false, abstract: false, final false
-inline ::StringW XmlDeclValue() ;
+  /// @brief Method XmlDeclValue, addr 0x6055c74, size 0x140, virtual false, abstract: false, final false
+  inline ::StringW XmlDeclValue();
 
-/// @brief Method XsdKatmaiTimeScaleToValueLength, addr 0x5fee048, size 0xd8, virtual false, abstract: false, final false
-inline int32_t XsdKatmaiTimeScaleToValueLength(uint8_t  scale) ;
+  /// @brief Method XsdKatmaiTimeScaleToValueLength, addr 0x6060054, size 0xd8, virtual false, abstract: false, final false
+  inline int32_t XsdKatmaiTimeScaleToValueLength(uint8_t scale);
 
-constexpr int32_t const& __cordl_internal_get_attrCount() const;
+  constexpr int32_t const& __cordl_internal_get_attrCount() const;
 
-constexpr int32_t& __cordl_internal_get_attrCount() ;
+  constexpr int32_t& __cordl_internal_get_attrCount();
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_attrHashTbl() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_attrHashTbl() const;
 
-constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_attrHashTbl() ;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_attrHashTbl();
 
-constexpr int32_t const& __cordl_internal_get_attrIndex() const;
+  constexpr int32_t const& __cordl_internal_get_attrIndex() const;
 
-constexpr int32_t& __cordl_internal_get_attrIndex() ;
+  constexpr int32_t& __cordl_internal_get_attrIndex();
 
-constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo,::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*> const& __cordl_internal_get_attributes() const;
+  constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo, ::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*> const& __cordl_internal_get_attributes() const;
 
-constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo,::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*>& __cordl_internal_get_attributes() ;
+  constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo, ::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*>& __cordl_internal_get_attributes();
 
-constexpr ::StringW const& __cordl_internal_get_baseUri() const;
+  constexpr ::StringW const& __cordl_internal_get_baseUri() const;
 
-constexpr ::StringW& __cordl_internal_get_baseUri() ;
+  constexpr ::StringW& __cordl_internal_get_baseUri();
 
-constexpr bool const& __cordl_internal_get_checkCharacters() const;
+  constexpr bool const& __cordl_internal_get_checkCharacters() const;
 
-constexpr bool& __cordl_internal_get_checkCharacters() ;
+  constexpr bool& __cordl_internal_get_checkCharacters();
 
-constexpr bool const& __cordl_internal_get_closeInput() const;
+  constexpr bool const& __cordl_internal_get_closeInput() const;
 
-constexpr bool& __cordl_internal_get_closeInput() ;
+  constexpr bool& __cordl_internal_get_closeInput();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_data() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
 
-constexpr int32_t const& __cordl_internal_get_docState() const;
+  constexpr int32_t const& __cordl_internal_get_docState() const;
 
-constexpr int32_t& __cordl_internal_get_docState() ;
+  constexpr int32_t& __cordl_internal_get_docState();
 
-constexpr ::System::Xml::DtdProcessing const& __cordl_internal_get_dtdProcessing() const;
+  constexpr ::System::Xml::DtdProcessing const& __cordl_internal_get_dtdProcessing() const;
 
-constexpr ::System::Xml::DtdProcessing& __cordl_internal_get_dtdProcessing() ;
+  constexpr ::System::Xml::DtdProcessing& __cordl_internal_get_dtdProcessing();
 
-constexpr int32_t const& __cordl_internal_get_elemDepth() const;
+  constexpr int32_t const& __cordl_internal_get_elemDepth() const;
 
-constexpr int32_t& __cordl_internal_get_elemDepth() ;
+  constexpr int32_t& __cordl_internal_get_elemDepth();
 
-constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo,::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*> const& __cordl_internal_get_elementStack() const;
+  constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo, ::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*> const& __cordl_internal_get_elementStack() const;
 
-constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo,::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*>& __cordl_internal_get_elementStack() ;
+  constexpr ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo, ::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*>& __cordl_internal_get_elementStack();
 
-constexpr int32_t const& __cordl_internal_get_end() const;
+  constexpr int32_t const& __cordl_internal_get_end() const;
 
-constexpr int32_t& __cordl_internal_get_end() ;
+  constexpr int32_t& __cordl_internal_get_end();
 
-constexpr bool const& __cordl_internal_get_eof() const;
+  constexpr bool const& __cordl_internal_get_eof() const;
 
-constexpr bool& __cordl_internal_get_eof() ;
+  constexpr bool& __cordl_internal_get_eof();
 
-constexpr bool const& __cordl_internal_get_hasTypedValue() const;
+  constexpr bool const& __cordl_internal_get_hasTypedValue() const;
 
-constexpr bool& __cordl_internal_get_hasTypedValue() ;
+  constexpr bool& __cordl_internal_get_hasTypedValue();
 
-constexpr ::System::Xml::SecureStringHasher* const& __cordl_internal_get_hasher() const;
+  constexpr ::System::Xml::SecureStringHasher* const& __cordl_internal_get_hasher() const;
 
-constexpr ::System::Xml::SecureStringHasher*& __cordl_internal_get_hasher() ;
+  constexpr ::System::Xml::SecureStringHasher*& __cordl_internal_get_hasher();
 
-constexpr bool const& __cordl_internal_get_ignoreComments() const;
+  constexpr bool const& __cordl_internal_get_ignoreComments() const;
 
-constexpr bool& __cordl_internal_get_ignoreComments() ;
+  constexpr bool& __cordl_internal_get_ignoreComments();
 
-constexpr bool const& __cordl_internal_get_ignorePIs() const;
+  constexpr bool const& __cordl_internal_get_ignorePIs() const;
 
-constexpr bool& __cordl_internal_get_ignorePIs() ;
+  constexpr bool& __cordl_internal_get_ignorePIs();
 
-constexpr bool const& __cordl_internal_get_ignoreWhitespace() const;
+  constexpr bool const& __cordl_internal_get_ignoreWhitespace() const;
 
-constexpr bool& __cordl_internal_get_ignoreWhitespace() ;
+  constexpr bool& __cordl_internal_get_ignoreWhitespace();
 
-constexpr ::System::IO::Stream* const& __cordl_internal_get_inStrm() const;
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_inStrm() const;
 
-constexpr ::System::IO::Stream*& __cordl_internal_get_inStrm() ;
+  constexpr ::System::IO::Stream*& __cordl_internal_get_inStrm();
 
-constexpr bool const& __cordl_internal_get_isEmpty() const;
+  constexpr bool const& __cordl_internal_get_isEmpty() const;
 
-constexpr bool& __cordl_internal_get_isEmpty() ;
+  constexpr bool& __cordl_internal_get_isEmpty();
 
-constexpr int32_t const& __cordl_internal_get_mark() const;
+  constexpr int32_t const& __cordl_internal_get_mark() const;
 
-constexpr int32_t& __cordl_internal_get_mark() ;
+  constexpr int32_t& __cordl_internal_get_mark();
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>* const& __cordl_internal_get_namespaces() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>* const& __cordl_internal_get_namespaces() const;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>*& __cordl_internal_get_namespaces() ;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>*& __cordl_internal_get_namespaces();
 
-constexpr ::System::Xml::XmlNodeType const& __cordl_internal_get_nodetype() const;
+  constexpr ::System::Xml::XmlNodeType const& __cordl_internal_get_nodetype() const;
 
-constexpr ::System::Xml::XmlNodeType& __cordl_internal_get_nodetype() ;
+  constexpr ::System::Xml::XmlNodeType& __cordl_internal_get_nodetype();
 
-constexpr ::StringW const& __cordl_internal_get_nsxmlns() const;
+  constexpr ::StringW const& __cordl_internal_get_nsxmlns() const;
 
-constexpr ::StringW& __cordl_internal_get_nsxmlns() ;
+  constexpr ::StringW& __cordl_internal_get_nsxmlns();
 
-constexpr int64_t const& __cordl_internal_get_offset() const;
+  constexpr int64_t const& __cordl_internal_get_offset() const;
 
-constexpr int64_t& __cordl_internal_get_offset() ;
+  constexpr int64_t& __cordl_internal_get_offset();
 
-constexpr ::System::Xml::XmlNodeType const& __cordl_internal_get_parentNodeType() const;
+  constexpr ::System::Xml::XmlNodeType const& __cordl_internal_get_parentNodeType() const;
 
-constexpr ::System::Xml::XmlNodeType& __cordl_internal_get_parentNodeType() ;
+  constexpr ::System::Xml::XmlNodeType& __cordl_internal_get_parentNodeType();
 
-constexpr int32_t const& __cordl_internal_get_pos() const;
+  constexpr int32_t const& __cordl_internal_get_pos() const;
 
-constexpr int32_t& __cordl_internal_get_pos() ;
+  constexpr int32_t& __cordl_internal_get_pos();
 
-constexpr int32_t const& __cordl_internal_get_posAfterAttrs() const;
+  constexpr int32_t const& __cordl_internal_get_posAfterAttrs() const;
 
-constexpr int32_t& __cordl_internal_get_posAfterAttrs() ;
+  constexpr int32_t& __cordl_internal_get_posAfterAttrs();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml* const& __cordl_internal_get_prevNameInfo() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml* const& __cordl_internal_get_prevNameInfo() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml*& __cordl_internal_get_prevNameInfo() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_NestedBinXml*& __cordl_internal_get_prevNameInfo();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_QName const& __cordl_internal_get_qnameElement() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_QName const& __cordl_internal_get_qnameElement() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_QName& __cordl_internal_get_qnameElement() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_QName& __cordl_internal_get_qnameElement();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_QName const& __cordl_internal_get_qnameOther() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_QName const& __cordl_internal_get_qnameOther() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_QName& __cordl_internal_get_qnameOther() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_QName& __cordl_internal_get_qnameOther();
 
-constexpr bool const& __cordl_internal_get_sniffed() const;
+  constexpr bool const& __cordl_internal_get_sniffed() const;
 
-constexpr bool& __cordl_internal_get_sniffed() ;
+  constexpr bool& __cordl_internal_get_sniffed();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_ScanState const& __cordl_internal_get_state() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_ScanState const& __cordl_internal_get_state() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_ScanState& __cordl_internal_get_state() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_ScanState& __cordl_internal_get_state();
 
-constexpr ::StringW const& __cordl_internal_get_stringValue() const;
+  constexpr ::StringW const& __cordl_internal_get_stringValue() const;
 
-constexpr ::StringW& __cordl_internal_get_stringValue() ;
+  constexpr ::StringW& __cordl_internal_get_stringValue();
 
-constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables const& __cordl_internal_get_symbolTables() const;
+  constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables const& __cordl_internal_get_symbolTables() const;
 
-constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables& __cordl_internal_get_symbolTables() ;
+  constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables& __cordl_internal_get_symbolTables();
 
-constexpr ::System::Xml::XmlReader* const& __cordl_internal_get_textXmlReader() const;
+  constexpr ::System::Xml::XmlReader* const& __cordl_internal_get_textXmlReader() const;
 
-constexpr ::System::Xml::XmlReader*& __cordl_internal_get_textXmlReader() ;
+  constexpr ::System::Xml::XmlReader*& __cordl_internal_get_textXmlReader();
 
-constexpr int32_t const& __cordl_internal_get_tokDataPos() const;
+  constexpr int32_t const& __cordl_internal_get_tokDataPos() const;
 
-constexpr int32_t& __cordl_internal_get_tokDataPos() ;
+  constexpr int32_t& __cordl_internal_get_tokDataPos();
 
-constexpr int32_t const& __cordl_internal_get_tokLen() const;
+  constexpr int32_t const& __cordl_internal_get_tokLen() const;
 
-constexpr int32_t& __cordl_internal_get_tokLen() ;
+  constexpr int32_t& __cordl_internal_get_tokLen();
 
-constexpr ::System::Xml::BinXmlToken const& __cordl_internal_get_token() const;
+  constexpr ::System::Xml::BinXmlToken const& __cordl_internal_get_token() const;
 
-constexpr ::System::Xml::BinXmlToken& __cordl_internal_get_token() ;
+  constexpr ::System::Xml::BinXmlToken& __cordl_internal_get_token();
 
-constexpr ::System::Text::Encoding* const& __cordl_internal_get_unicode() const;
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get_unicode() const;
 
-constexpr ::System::Text::Encoding*& __cordl_internal_get_unicode() ;
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_unicode();
 
-constexpr ::System::Type* const& __cordl_internal_get_valueType() const;
+  constexpr ::System::Type* const& __cordl_internal_get_valueType() const;
 
-constexpr ::System::Type*& __cordl_internal_get_valueType() ;
+  constexpr ::System::Type*& __cordl_internal_get_valueType();
 
-constexpr uint8_t const& __cordl_internal_get_version() const;
+  constexpr uint8_t const& __cordl_internal_get_version() const;
 
-constexpr uint8_t& __cordl_internal_get_version() ;
+  constexpr uint8_t& __cordl_internal_get_version();
 
-constexpr ::StringW const& __cordl_internal_get_xml() const;
+  constexpr ::StringW const& __cordl_internal_get_xml() const;
 
-constexpr ::StringW& __cordl_internal_get_xml() ;
+  constexpr ::StringW& __cordl_internal_get_xml();
 
-constexpr ::System::Xml::XmlCharType const& __cordl_internal_get_xmlCharType() const;
+  constexpr ::System::Xml::XmlCharType const& __cordl_internal_get_xmlCharType() const;
 
-constexpr ::System::Xml::XmlCharType& __cordl_internal_get_xmlCharType() ;
+  constexpr ::System::Xml::XmlCharType& __cordl_internal_get_xmlCharType();
 
-constexpr ::StringW const& __cordl_internal_get_xmlns() const;
+  constexpr ::StringW const& __cordl_internal_get_xmlns() const;
 
-constexpr ::StringW& __cordl_internal_get_xmlns() ;
+  constexpr ::StringW& __cordl_internal_get_xmlns();
 
-constexpr bool const& __cordl_internal_get_xmlspacePreserve() const;
+  constexpr bool const& __cordl_internal_get_xmlspacePreserve() const;
 
-constexpr bool& __cordl_internal_get_xmlspacePreserve() ;
+  constexpr bool& __cordl_internal_get_xmlspacePreserve();
 
-constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_xnt() const;
+  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_xnt() const;
 
-constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_xnt() ;
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_xnt();
 
-constexpr bool const& __cordl_internal_get_xntFromSettings() const;
+  constexpr bool const& __cordl_internal_get_xntFromSettings() const;
 
-constexpr bool& __cordl_internal_get_xntFromSettings() ;
+  constexpr bool& __cordl_internal_get_xntFromSettings();
 
-constexpr void __cordl_internal_set_attrCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_attrCount(int32_t value);
 
-constexpr void __cordl_internal_set_attrHashTbl(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
+  constexpr void __cordl_internal_set_attrHashTbl(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-constexpr void __cordl_internal_set_attrIndex(int32_t  value) ;
+  constexpr void __cordl_internal_set_attrIndex(int32_t value);
 
-constexpr void __cordl_internal_set_attributes(::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo,::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*>  value) ;
+  constexpr void __cordl_internal_set_attributes(::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo, ::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*> value);
 
-constexpr void __cordl_internal_set_baseUri(::StringW  value) ;
+  constexpr void __cordl_internal_set_baseUri(::StringW value);
 
-constexpr void __cordl_internal_set_checkCharacters(bool  value) ;
+  constexpr void __cordl_internal_set_checkCharacters(bool value);
 
-constexpr void __cordl_internal_set_closeInput(bool  value) ;
+  constexpr void __cordl_internal_set_closeInput(bool value);
 
-constexpr void __cordl_internal_set_data(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_docState(int32_t  value) ;
+  constexpr void __cordl_internal_set_docState(int32_t value);
 
-constexpr void __cordl_internal_set_dtdProcessing(::System::Xml::DtdProcessing  value) ;
+  constexpr void __cordl_internal_set_dtdProcessing(::System::Xml::DtdProcessing value);
 
-constexpr void __cordl_internal_set_elemDepth(int32_t  value) ;
+  constexpr void __cordl_internal_set_elemDepth(int32_t value);
 
-constexpr void __cordl_internal_set_elementStack(::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo,::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*>  value) ;
+  constexpr void __cordl_internal_set_elementStack(::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo, ::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*> value);
 
-constexpr void __cordl_internal_set_end(int32_t  value) ;
+  constexpr void __cordl_internal_set_end(int32_t value);
 
-constexpr void __cordl_internal_set_eof(bool  value) ;
+  constexpr void __cordl_internal_set_eof(bool value);
 
-constexpr void __cordl_internal_set_hasTypedValue(bool  value) ;
+  constexpr void __cordl_internal_set_hasTypedValue(bool value);
 
-constexpr void __cordl_internal_set_hasher(::System::Xml::SecureStringHasher*  value) ;
+  constexpr void __cordl_internal_set_hasher(::System::Xml::SecureStringHasher* value);
 
-constexpr void __cordl_internal_set_ignoreComments(bool  value) ;
+  constexpr void __cordl_internal_set_ignoreComments(bool value);
 
-constexpr void __cordl_internal_set_ignorePIs(bool  value) ;
+  constexpr void __cordl_internal_set_ignorePIs(bool value);
 
-constexpr void __cordl_internal_set_ignoreWhitespace(bool  value) ;
+  constexpr void __cordl_internal_set_ignoreWhitespace(bool value);
 
-constexpr void __cordl_internal_set_inStrm(::System::IO::Stream*  value) ;
+  constexpr void __cordl_internal_set_inStrm(::System::IO::Stream* value);
 
-constexpr void __cordl_internal_set_isEmpty(bool  value) ;
+  constexpr void __cordl_internal_set_isEmpty(bool value);
 
-constexpr void __cordl_internal_set_mark(int32_t  value) ;
+  constexpr void __cordl_internal_set_mark(int32_t value);
 
-constexpr void __cordl_internal_set_namespaces(::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>*  value) ;
+  constexpr void __cordl_internal_set_namespaces(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>* value);
 
-constexpr void __cordl_internal_set_nodetype(::System::Xml::XmlNodeType  value) ;
+  constexpr void __cordl_internal_set_nodetype(::System::Xml::XmlNodeType value);
 
-constexpr void __cordl_internal_set_nsxmlns(::StringW  value) ;
+  constexpr void __cordl_internal_set_nsxmlns(::StringW value);
 
-constexpr void __cordl_internal_set_offset(int64_t  value) ;
+  constexpr void __cordl_internal_set_offset(int64_t value);
 
-constexpr void __cordl_internal_set_parentNodeType(::System::Xml::XmlNodeType  value) ;
+  constexpr void __cordl_internal_set_parentNodeType(::System::Xml::XmlNodeType value);
 
-constexpr void __cordl_internal_set_pos(int32_t  value) ;
+  constexpr void __cordl_internal_set_pos(int32_t value);
 
-constexpr void __cordl_internal_set_posAfterAttrs(int32_t  value) ;
+  constexpr void __cordl_internal_set_posAfterAttrs(int32_t value);
 
-constexpr void __cordl_internal_set_prevNameInfo(::System::Xml::XmlSqlBinaryReader_NestedBinXml*  value) ;
+  constexpr void __cordl_internal_set_prevNameInfo(::System::Xml::XmlSqlBinaryReader_NestedBinXml* value);
 
-constexpr void __cordl_internal_set_qnameElement(::System::Xml::XmlSqlBinaryReader_QName  value) ;
+  constexpr void __cordl_internal_set_qnameElement(::System::Xml::XmlSqlBinaryReader_QName value);
 
-constexpr void __cordl_internal_set_qnameOther(::System::Xml::XmlSqlBinaryReader_QName  value) ;
+  constexpr void __cordl_internal_set_qnameOther(::System::Xml::XmlSqlBinaryReader_QName value);
 
-constexpr void __cordl_internal_set_sniffed(bool  value) ;
+  constexpr void __cordl_internal_set_sniffed(bool value);
 
-constexpr void __cordl_internal_set_state(::System::Xml::XmlSqlBinaryReader_ScanState  value) ;
+  constexpr void __cordl_internal_set_state(::System::Xml::XmlSqlBinaryReader_ScanState value);
 
-constexpr void __cordl_internal_set_stringValue(::StringW  value) ;
+  constexpr void __cordl_internal_set_stringValue(::StringW value);
 
-constexpr void __cordl_internal_set_symbolTables(::System::Xml::XmlSqlBinaryReader_SymbolTables  value) ;
+  constexpr void __cordl_internal_set_symbolTables(::System::Xml::XmlSqlBinaryReader_SymbolTables value);
 
-constexpr void __cordl_internal_set_textXmlReader(::System::Xml::XmlReader*  value) ;
+  constexpr void __cordl_internal_set_textXmlReader(::System::Xml::XmlReader* value);
 
-constexpr void __cordl_internal_set_tokDataPos(int32_t  value) ;
+  constexpr void __cordl_internal_set_tokDataPos(int32_t value);
 
-constexpr void __cordl_internal_set_tokLen(int32_t  value) ;
+  constexpr void __cordl_internal_set_tokLen(int32_t value);
 
-constexpr void __cordl_internal_set_token(::System::Xml::BinXmlToken  value) ;
+  constexpr void __cordl_internal_set_token(::System::Xml::BinXmlToken value);
 
-constexpr void __cordl_internal_set_unicode(::System::Text::Encoding*  value) ;
+  constexpr void __cordl_internal_set_unicode(::System::Text::Encoding* value);
 
-constexpr void __cordl_internal_set_valueType(::System::Type*  value) ;
+  constexpr void __cordl_internal_set_valueType(::System::Type* value);
 
-constexpr void __cordl_internal_set_version(uint8_t  value) ;
+  constexpr void __cordl_internal_set_version(uint8_t value);
 
-constexpr void __cordl_internal_set_xml(::StringW  value) ;
+  constexpr void __cordl_internal_set_xml(::StringW value);
 
-constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType  value) ;
+  constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value);
 
-constexpr void __cordl_internal_set_xmlns(::StringW  value) ;
+  constexpr void __cordl_internal_set_xmlns(::StringW value);
 
-constexpr void __cordl_internal_set_xmlspacePreserve(bool  value) ;
+  constexpr void __cordl_internal_set_xmlspacePreserve(bool value);
 
-constexpr void __cordl_internal_set_xnt(::System::Xml::XmlNameTable*  value) ;
+  constexpr void __cordl_internal_set_xnt(::System::Xml::XmlNameTable* value);
 
-constexpr void __cordl_internal_set_xntFromSettings(bool  value) ;
+  constexpr void __cordl_internal_set_xntFromSettings(bool value);
 
-/// @brief Method .ctor, addr 0x5fe281c, size 0x4a4, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::Stream*  stream, ::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  len, ::StringW  baseUri, bool  closeInput, ::System::Xml::XmlReaderSettings*  settings) ;
+  /// @brief Method .ctor, addr 0x6054828, size 0x4a4, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t len, ::StringW baseUri, bool closeInput, ::System::Xml::XmlReaderSettings* settings);
 
-static inline ::ArrayW<::System::Xml::ReadState,::Array<::System::Xml::ReadState>*> getStaticF_ScanState2ReadState() ;
+  static inline ::ArrayW<::System::Xml::ReadState, ::Array<::System::Xml::ReadState>*> getStaticF_ScanState2ReadState();
 
-static inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> getStaticF_TokenTypeMap() ;
+  static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_TokenTypeMap();
 
-static inline ::System::Type* getStaticF_TypeOfObject() ;
+  static inline ::System::Type* getStaticF_TypeOfObject();
 
-static inline ::System::Type* getStaticF_TypeOfString() ;
+  static inline ::System::Type* getStaticF_TypeOfString();
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_XsdKatmaiTimeScaleToValueLengthMap() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_XsdKatmaiTimeScaleToValueLengthMap();
 
-/// @brief Method get_AttributeCount, addr 0x5fe4804, size 0x4c, virtual true, abstract: false, final false
-inline int32_t get_AttributeCount() ;
+  /// @brief Method get_AttributeCount, addr 0x6056810, size 0x4c, virtual true, abstract: false, final false
+  inline int32_t get_AttributeCount();
 
-/// @brief Method get_BaseURI, addr 0x5fe46cc, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_BaseURI() ;
+  /// @brief Method get_BaseURI, addr 0x60566d8, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_BaseURI();
 
-/// @brief Method get_Depth, addr 0x5fe4630, size 0x9c, virtual true, abstract: false, final false
-inline int32_t get_Depth() ;
+  /// @brief Method get_Depth, addr 0x605663c, size 0x9c, virtual true, abstract: false, final false
+  inline int32_t get_Depth();
 
-/// @brief Method get_EOF, addr 0x5fe5020, size 0x10, virtual true, abstract: false, final false
-inline bool get_EOF() ;
+  /// @brief Method get_EOF, addr 0x605702c, size 0x10, virtual true, abstract: false, final false
+  inline bool get_EOF();
 
-/// @brief Method get_IsEmptyElement, addr 0x5fe46d4, size 0x24, virtual true, abstract: false, final false
-inline bool get_IsEmptyElement() ;
+  /// @brief Method get_IsEmptyElement, addr 0x60566e0, size 0x24, virtual true, abstract: false, final false
+  inline bool get_IsEmptyElement();
 
-/// @brief Method get_LocalName, addr 0x5fe38e4, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_LocalName() ;
+  /// @brief Method get_LocalName, addr 0x60558f0, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_LocalName();
 
-/// @brief Method get_NameTable, addr 0x5fe53dc, size 0x8, virtual true, abstract: false, final false
-inline ::System::Xml::XmlNameTable* get_NameTable() ;
+  /// @brief Method get_NameTable, addr 0x60573e8, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlNameTable* get_NameTable();
 
-/// @brief Method get_NamespaceURI, addr 0x5fe38ec, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_NamespaceURI() ;
+  /// @brief Method get_NamespaceURI, addr 0x60558f8, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_NamespaceURI();
 
-/// @brief Method get_NodeType, addr 0x5fe38dc, size 0x8, virtual true, abstract: false, final false
-inline ::System::Xml::XmlNodeType get_NodeType() ;
+  /// @brief Method get_NodeType, addr 0x60558e8, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlNodeType get_NodeType();
 
-/// @brief Method get_Prefix, addr 0x5fe38f4, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Prefix() ;
+  /// @brief Method get_Prefix, addr 0x6055900, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Prefix();
 
-/// @brief Method get_ReadState, addr 0x5fe54dc, size 0x84, virtual true, abstract: false, final false
-inline ::System::Xml::ReadState get_ReadState() ;
+  /// @brief Method get_ReadState, addr 0x60574e8, size 0x84, virtual true, abstract: false, final false
+  inline ::System::Xml::ReadState get_ReadState();
 
-/// @brief Method get_Settings, addr 0x5fe37bc, size 0x120, virtual true, abstract: false, final false
-inline ::System::Xml::XmlReaderSettings* get_Settings() ;
+  /// @brief Method get_Settings, addr 0x60557c8, size 0x120, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlReaderSettings* get_Settings();
 
-/// @brief Method get_Value, addr 0x5fe38fc, size 0x108, virtual true, abstract: false, final false
-inline ::StringW get_Value() ;
+  /// @brief Method get_Value, addr 0x6055908, size 0x108, virtual true, abstract: false, final false
+  inline ::StringW get_Value();
 
-/// @brief Method get_ValueType, addr 0x5fe47fc, size 0x8, virtual true, abstract: false, final false
-inline ::System::Type* get_ValueType() ;
+  /// @brief Method get_ValueType, addr 0x6056808, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Type* get_ValueType();
 
-/// @brief Method get_XmlLang, addr 0x5fe4774, size 0x88, virtual true, abstract: false, final false
-inline ::StringW get_XmlLang() ;
+  /// @brief Method get_XmlLang, addr 0x6056780, size 0x88, virtual true, abstract: false, final false
+  inline ::StringW get_XmlLang();
 
-/// @brief Method get_XmlSpace, addr 0x5fe46f8, size 0x7c, virtual true, abstract: false, final false
-inline ::System::Xml::XmlSpace get_XmlSpace() ;
+  /// @brief Method get_XmlSpace, addr 0x6056704, size 0x7c, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlSpace get_XmlSpace();
 
-/// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
-constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
+  /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
+  constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
 
-static inline void setStaticF_ScanState2ReadState(::ArrayW<::System::Xml::ReadState,::Array<::System::Xml::ReadState>*>  value) ;
+  static inline void setStaticF_ScanState2ReadState(::ArrayW<::System::Xml::ReadState, ::Array<::System::Xml::ReadState>*> value);
 
-static inline void setStaticF_TokenTypeMap(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value) ;
+  static inline void setStaticF_TokenTypeMap(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-static inline void setStaticF_TypeOfObject(::System::Type*  value) ;
+  static inline void setStaticF_TypeOfObject(::System::Type* value);
 
-static inline void setStaticF_TypeOfString(::System::Type*  value) ;
+  static inline void setStaticF_TypeOfString(::System::Type* value);
 
-static inline void setStaticF_XsdKatmaiTimeScaleToValueLengthMap(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_XsdKatmaiTimeScaleToValueLengthMap(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSqlBinaryReader() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSqlBinaryReader();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSqlBinaryReader(XmlSqlBinaryReader&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSqlBinaryReader(XmlSqlBinaryReader && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSqlBinaryReader(XmlSqlBinaryReader const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSqlBinaryReader(XmlSqlBinaryReader const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9247 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9241};
+  /// @brief Field inStrm, offset: 0x10, size: 0x8, def value: None
+  ::System::IO::Stream* ___inStrm;
 
-/// @brief Field inStrm, offset: 0x10, size: 0x8, def value: None
- ::System::IO::Stream*  ___inStrm;
+  /// @brief Field data, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___data;
 
-/// @brief Field data, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___data;
+  /// @brief Field pos, offset: 0x20, size: 0x4, def value: None
+  int32_t ___pos;
 
-/// @brief Field pos, offset: 0x20, size: 0x4, def value: None
- int32_t  ___pos;
+  /// @brief Field mark, offset: 0x24, size: 0x4, def value: None
+  int32_t ___mark;
 
-/// @brief Field mark, offset: 0x24, size: 0x4, def value: None
- int32_t  ___mark;
+  /// @brief Field end, offset: 0x28, size: 0x4, def value: None
+  int32_t ___end;
 
-/// @brief Field end, offset: 0x28, size: 0x4, def value: None
- int32_t  ___end;
+  /// @brief Field offset, offset: 0x30, size: 0x8, def value: None
+  int64_t ___offset;
 
-/// @brief Field offset, offset: 0x30, size: 0x8, def value: None
- int64_t  ___offset;
+  /// @brief Field eof, offset: 0x38, size: 0x1, def value: None
+  bool ___eof;
 
-/// @brief Field eof, offset: 0x38, size: 0x1, def value: None
- bool  ___eof;
+  /// @brief Field sniffed, offset: 0x39, size: 0x1, def value: None
+  bool ___sniffed;
 
-/// @brief Field sniffed, offset: 0x39, size: 0x1, def value: None
- bool  ___sniffed;
+  /// @brief Field isEmpty, offset: 0x3a, size: 0x1, def value: None
+  bool ___isEmpty;
 
-/// @brief Field isEmpty, offset: 0x3a, size: 0x1, def value: None
- bool  ___isEmpty;
+  /// @brief Field docState, offset: 0x3c, size: 0x4, def value: None
+  int32_t ___docState;
 
-/// @brief Field docState, offset: 0x3c, size: 0x4, def value: None
- int32_t  ___docState;
+  /// @brief Field symbolTables, offset: 0x40, size: 0x20, def value: None
+  ::System::Xml::XmlSqlBinaryReader_SymbolTables ___symbolTables;
 
-/// @brief Field symbolTables, offset: 0x40, size: 0x20, def value: None
- ::System::Xml::XmlSqlBinaryReader_SymbolTables  ___symbolTables;
+  /// @brief Field xnt, offset: 0x60, size: 0x8, def value: None
+  ::System::Xml::XmlNameTable* ___xnt;
 
-/// @brief Field xnt, offset: 0x60, size: 0x8, def value: None
- ::System::Xml::XmlNameTable*  ___xnt;
+  /// @brief Field xntFromSettings, offset: 0x68, size: 0x1, def value: None
+  bool ___xntFromSettings;
 
-/// @brief Field xntFromSettings, offset: 0x68, size: 0x1, def value: None
- bool  ___xntFromSettings;
+  /// @brief Field xml, offset: 0x70, size: 0x8, def value: None
+  ::StringW ___xml;
 
-/// @brief Field xml, offset: 0x70, size: 0x8, def value: None
- ::StringW  ___xml;
+  /// @brief Field xmlns, offset: 0x78, size: 0x8, def value: None
+  ::StringW ___xmlns;
 
-/// @brief Field xmlns, offset: 0x78, size: 0x8, def value: None
- ::StringW  ___xmlns;
+  /// @brief Field nsxmlns, offset: 0x80, size: 0x8, def value: None
+  ::StringW ___nsxmlns;
 
-/// @brief Field nsxmlns, offset: 0x80, size: 0x8, def value: None
- ::StringW  ___nsxmlns;
+  /// @brief Field baseUri, offset: 0x88, size: 0x8, def value: None
+  ::StringW ___baseUri;
 
-/// @brief Field baseUri, offset: 0x88, size: 0x8, def value: None
- ::StringW  ___baseUri;
+  /// @brief Field state, offset: 0x90, size: 0x4, def value: None
+  ::System::Xml::XmlSqlBinaryReader_ScanState ___state;
 
-/// @brief Field state, offset: 0x90, size: 0x4, def value: None
- ::System::Xml::XmlSqlBinaryReader_ScanState  ___state;
+  /// @brief Field nodetype, offset: 0x94, size: 0x4, def value: None
+  ::System::Xml::XmlNodeType ___nodetype;
 
-/// @brief Field nodetype, offset: 0x94, size: 0x4, def value: None
- ::System::Xml::XmlNodeType  ___nodetype;
+  /// @brief Field token, offset: 0x98, size: 0x4, def value: None
+  ::System::Xml::BinXmlToken ___token;
 
-/// @brief Field token, offset: 0x98, size: 0x4, def value: None
- ::System::Xml::BinXmlToken  ___token;
+  /// @brief Field attrIndex, offset: 0x9c, size: 0x4, def value: None
+  int32_t ___attrIndex;
 
-/// @brief Field attrIndex, offset: 0x9c, size: 0x4, def value: None
- int32_t  ___attrIndex;
+  /// @brief Field qnameOther, offset: 0xa0, size: 0x18, def value: None
+  ::System::Xml::XmlSqlBinaryReader_QName ___qnameOther;
 
-/// @brief Field qnameOther, offset: 0xa0, size: 0x18, def value: None
- ::System::Xml::XmlSqlBinaryReader_QName  ___qnameOther;
+  /// @brief Field qnameElement, offset: 0xb8, size: 0x18, def value: None
+  ::System::Xml::XmlSqlBinaryReader_QName ___qnameElement;
 
-/// @brief Field qnameElement, offset: 0xb8, size: 0x18, def value: None
- ::System::Xml::XmlSqlBinaryReader_QName  ___qnameElement;
+  /// @brief Field parentNodeType, offset: 0xd0, size: 0x4, def value: None
+  ::System::Xml::XmlNodeType ___parentNodeType;
 
-/// @brief Field parentNodeType, offset: 0xd0, size: 0x4, def value: None
- ::System::Xml::XmlNodeType  ___parentNodeType;
+  /// @brief Field elementStack, offset: 0xd8, size: 0x8, def value: None
+  ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo, ::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*> ___elementStack;
 
-/// @brief Field elementStack, offset: 0xd8, size: 0x8, def value: None
- ::ArrayW<::System::Xml::XmlSqlBinaryReader_ElemInfo,::Array<::System::Xml::XmlSqlBinaryReader_ElemInfo>*>  ___elementStack;
+  /// @brief Field elemDepth, offset: 0xe0, size: 0x4, def value: None
+  int32_t ___elemDepth;
 
-/// @brief Field elemDepth, offset: 0xe0, size: 0x4, def value: None
- int32_t  ___elemDepth;
+  /// @brief Field attributes, offset: 0xe8, size: 0x8, def value: None
+  ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo, ::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*> ___attributes;
 
-/// @brief Field attributes, offset: 0xe8, size: 0x8, def value: None
- ::ArrayW<::System::Xml::XmlSqlBinaryReader_AttrInfo,::Array<::System::Xml::XmlSqlBinaryReader_AttrInfo>*>  ___attributes;
+  /// @brief Field attrHashTbl, offset: 0xf0, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> ___attrHashTbl;
 
-/// @brief Field attrHashTbl, offset: 0xf0, size: 0x8, def value: None
- ::ArrayW<int32_t,::Array<int32_t>*>  ___attrHashTbl;
+  /// @brief Field attrCount, offset: 0xf8, size: 0x4, def value: None
+  int32_t ___attrCount;
 
-/// @brief Field attrCount, offset: 0xf8, size: 0x4, def value: None
- int32_t  ___attrCount;
+  /// @brief Field posAfterAttrs, offset: 0xfc, size: 0x4, def value: None
+  int32_t ___posAfterAttrs;
 
-/// @brief Field posAfterAttrs, offset: 0xfc, size: 0x4, def value: None
- int32_t  ___posAfterAttrs;
+  /// @brief Field xmlspacePreserve, offset: 0x100, size: 0x1, def value: None
+  bool ___xmlspacePreserve;
 
-/// @brief Field xmlspacePreserve, offset: 0x100, size: 0x1, def value: None
- bool  ___xmlspacePreserve;
+  /// @brief Field tokLen, offset: 0x104, size: 0x4, def value: None
+  int32_t ___tokLen;
 
-/// @brief Field tokLen, offset: 0x104, size: 0x4, def value: None
- int32_t  ___tokLen;
+  /// @brief Field tokDataPos, offset: 0x108, size: 0x4, def value: None
+  int32_t ___tokDataPos;
 
-/// @brief Field tokDataPos, offset: 0x108, size: 0x4, def value: None
- int32_t  ___tokDataPos;
+  /// @brief Field hasTypedValue, offset: 0x10c, size: 0x1, def value: None
+  bool ___hasTypedValue;
 
-/// @brief Field hasTypedValue, offset: 0x10c, size: 0x1, def value: None
- bool  ___hasTypedValue;
+  /// @brief Field valueType, offset: 0x110, size: 0x8, def value: None
+  ::System::Type* ___valueType;
 
-/// @brief Field valueType, offset: 0x110, size: 0x8, def value: None
- ::System::Type*  ___valueType;
+  /// @brief Field stringValue, offset: 0x118, size: 0x8, def value: None
+  ::StringW ___stringValue;
 
-/// @brief Field stringValue, offset: 0x118, size: 0x8, def value: None
- ::StringW  ___stringValue;
+  /// @brief Field namespaces, offset: 0x120, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>* ___namespaces;
 
-/// @brief Field namespaces, offset: 0x120, size: 0x8, def value: None
- ::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>*  ___namespaces;
+  /// @brief Field prevNameInfo, offset: 0x128, size: 0x8, def value: None
+  ::System::Xml::XmlSqlBinaryReader_NestedBinXml* ___prevNameInfo;
 
-/// @brief Field prevNameInfo, offset: 0x128, size: 0x8, def value: None
- ::System::Xml::XmlSqlBinaryReader_NestedBinXml*  ___prevNameInfo;
+  /// @brief Field textXmlReader, offset: 0x130, size: 0x8, def value: None
+  ::System::Xml::XmlReader* ___textXmlReader;
 
-/// @brief Field textXmlReader, offset: 0x130, size: 0x8, def value: None
- ::System::Xml::XmlReader*  ___textXmlReader;
+  /// @brief Field closeInput, offset: 0x138, size: 0x1, def value: None
+  bool ___closeInput;
 
-/// @brief Field closeInput, offset: 0x138, size: 0x1, def value: None
- bool  ___closeInput;
+  /// @brief Field checkCharacters, offset: 0x139, size: 0x1, def value: None
+  bool ___checkCharacters;
 
-/// @brief Field checkCharacters, offset: 0x139, size: 0x1, def value: None
- bool  ___checkCharacters;
+  /// @brief Field ignoreWhitespace, offset: 0x13a, size: 0x1, def value: None
+  bool ___ignoreWhitespace;
 
-/// @brief Field ignoreWhitespace, offset: 0x13a, size: 0x1, def value: None
- bool  ___ignoreWhitespace;
+  /// @brief Field ignorePIs, offset: 0x13b, size: 0x1, def value: None
+  bool ___ignorePIs;
 
-/// @brief Field ignorePIs, offset: 0x13b, size: 0x1, def value: None
- bool  ___ignorePIs;
+  /// @brief Field ignoreComments, offset: 0x13c, size: 0x1, def value: None
+  bool ___ignoreComments;
 
-/// @brief Field ignoreComments, offset: 0x13c, size: 0x1, def value: None
- bool  ___ignoreComments;
+  /// @brief Field dtdProcessing, offset: 0x140, size: 0x4, def value: None
+  ::System::Xml::DtdProcessing ___dtdProcessing;
 
-/// @brief Field dtdProcessing, offset: 0x140, size: 0x4, def value: None
- ::System::Xml::DtdProcessing  ___dtdProcessing;
+  /// @brief Field hasher, offset: 0x148, size: 0x8, def value: None
+  ::System::Xml::SecureStringHasher* ___hasher;
 
-/// @brief Field hasher, offset: 0x148, size: 0x8, def value: None
- ::System::Xml::SecureStringHasher*  ___hasher;
+  /// @brief Field xmlCharType, offset: 0x150, size: 0x8, def value: None
+  ::System::Xml::XmlCharType ___xmlCharType;
 
-/// @brief Field xmlCharType, offset: 0x150, size: 0x8, def value: None
- ::System::Xml::XmlCharType  ___xmlCharType;
+  /// @brief Field unicode, offset: 0x158, size: 0x8, def value: None
+  ::System::Text::Encoding* ___unicode;
 
-/// @brief Field unicode, offset: 0x158, size: 0x8, def value: None
- ::System::Text::Encoding*  ___unicode;
+  /// @brief Field version, offset: 0x160, size: 0x1, def value: None
+  uint8_t ___version;
 
-/// @brief Field version, offset: 0x160, size: 0x1, def value: None
- uint8_t  ___version;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlSqlBinaryReader, ___inStrm) == 0x10, "Offset mismatch!");
@@ -1884,7 +1902,7 @@ static_assert(offsetof(::System::Xml::XmlSqlBinaryReader, ___version) == 0x160, 
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlSqlBinaryReader, 0x168>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlSqlBinaryReader_ScanState, "System.Xml", "XmlSqlBinaryReader/ScanState");
 NEED_NO_BOX(::System::Xml::XmlSqlBinaryReader);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlSqlBinaryReader*, "System.Xml", "XmlSqlBinaryReader");

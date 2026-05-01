@@ -23,37 +23,37 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlValueGetter
 class CORDL_TYPE XmlValueGetter : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x60889d4, size 0x14, virtual true, abstract: false, final false
-inline ::System::Object* Invoke() ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x60fa9e0, size 0x14, virtual true, abstract: false, final false
+  inline ::System::Object* Invoke();
 
-static inline ::System::Xml::Schema::XmlValueGetter* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Xml::Schema::XmlValueGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x608896c, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x60fa978, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlValueGetter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlValueGetter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlValueGetter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlValueGetter(XmlValueGetter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlValueGetter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlValueGetter(XmlValueGetter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlValueGetter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlValueGetter(XmlValueGetter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlValueGetter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlValueGetter(XmlValueGetter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9812 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9806};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlValueGetter, 0x80>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlValueGetter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlValueGetter*, "System.Xml.Schema", "XmlValueGetter");

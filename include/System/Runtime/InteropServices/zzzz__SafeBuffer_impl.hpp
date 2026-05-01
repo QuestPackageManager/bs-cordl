@@ -5,101 +5,81 @@
 #include "System/Runtime/InteropServices/zzzz__SafeBuffer_def.hpp"
 #include "System/zzzz__InvalidOperationException_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::SafeBuffer.AcquirePointer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)(::ByRef<uint8_t*>)>(&::System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)(::ByRef<uint8_t*>)>(
+    &::System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59bc4ac;
+  constexpr static std::size_t addrs = 0x5a2e418;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
-                        "AcquirePointer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(), "AcquirePointer",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::InteropServices::SafeBuffer.ReleasePointer
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)()>(&::System::Runtime::InteropServices::SafeBuffer::ReleasePointer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)()>(
+    &::System::Runtime::InteropServices::SafeBuffer::ReleasePointer)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x59bc6a8;
+  constexpr static std::size_t addrs = 0x5a2e614;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
-                        "ReleasePointer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
+                                                                               "ReleasePointer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::InteropServices::SafeBuffer.NotInitialized
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::InvalidOperationException* (*)()>(&::System::Runtime::InteropServices::SafeBuffer::NotInitialized)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x59bc56c;
+  constexpr static std::size_t addrs = 0x5a2e4d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
-                        "NotInitialized",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
+                                                                               "NotInitialized", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::UIntPtr& System::Runtime::InteropServices::SafeBuffer::__cordl_internal_get__numBytes()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____numBytes;
+constexpr ::System::UIntPtr& System::Runtime::InteropServices::SafeBuffer::__cordl_internal_get__numBytes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____numBytes;
 }
 constexpr ::System::UIntPtr const& System::Runtime::InteropServices::SafeBuffer::__cordl_internal_get__numBytes() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____numBytes;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____numBytes;
 }
-constexpr void System::Runtime::InteropServices::SafeBuffer::__cordl_internal_set__numBytes(::System::UIntPtr  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____numBytes = value;
+constexpr void System::Runtime::InteropServices::SafeBuffer::__cordl_internal_set__numBytes(::System::UIntPtr value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____numBytes = value;
 }
-inline void System::Runtime::InteropServices::SafeBuffer::setStaticF_Uninitialized(::System::UIntPtr  value)  {
-::cordl_internals::setStaticField<::System::UIntPtr, "Uninitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get>(std::forward<::System::UIntPtr>(value));
+inline void System::Runtime::InteropServices::SafeBuffer::setStaticF_Uninitialized(::System::UIntPtr value) {
+  ::cordl_internals::setStaticField<::System::UIntPtr, "Uninitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get>(
+      std::forward<::System::UIntPtr>(value));
 }
-inline ::System::UIntPtr System::Runtime::InteropServices::SafeBuffer::getStaticF_Uninitialized()  {
-return ::cordl_internals::getStaticField<::System::UIntPtr, "Uninitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get>();
+inline ::System::UIntPtr System::Runtime::InteropServices::SafeBuffer::getStaticF_Uninitialized() {
+  return ::cordl_internals::getStaticField<::System::UIntPtr, "Uninitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get>();
 }
-inline void System::Runtime::InteropServices::SafeBuffer::AcquirePointer(::ByRef<uint8_t*>  pointer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
-                        "AcquirePointer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pointer);
+inline void System::Runtime::InteropServices::SafeBuffer::AcquirePointer(::ByRef<uint8_t*> pointer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(), "AcquirePointer",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pointer);
 }
-inline void System::Runtime::InteropServices::SafeBuffer::ReleasePointer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
-                        "ReleasePointer",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Runtime::InteropServices::SafeBuffer::ReleasePointer() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
+                                                                             "ReleasePointer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::InvalidOperationException* System::Runtime::InteropServices::SafeBuffer::NotInitialized()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
-                        "NotInitialized",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::InvalidOperationException*, false>(nullptr, ___internal_method);
+inline ::System::InvalidOperationException* System::Runtime::InteropServices::SafeBuffer::NotInitialized() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
+                                                                             "NotInitialized", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::InvalidOperationException*, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::InteropServices::SafeBuffer::SafeBuffer()   {
-}
+constexpr ::System::Runtime::InteropServices::SafeBuffer::SafeBuffer() {}

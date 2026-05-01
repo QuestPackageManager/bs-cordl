@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/CMac.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/CbcBlockCipherMac.hpp"
@@ -18,6 +18,5 @@
 #include "Org/BouncyCastle/Crypto/Macs/SkeinMac.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/VmpcMac.hpp"
 #ifdef __cpp_modules
-                    export module Macs;
-                    #endif
-                
+export module Macs;
+#endif

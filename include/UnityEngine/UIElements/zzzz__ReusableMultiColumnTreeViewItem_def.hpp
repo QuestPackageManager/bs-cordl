@@ -23,45 +23,45 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ReusableMultiColumnTreeViewItem
 class CORDL_TYPE ReusableMultiColumnTreeViewItem : public ::UnityEngine::UIElements::ReusableTreeViewItem {
 public:
-// Declarations
- __declspec(property(get=get_rootElement)) ::UnityEngine::UIElements::VisualElement*  rootElement;
+  // Declarations
+  __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-/// @brief Method Init, addr 0x6a89700, size 0x3bc, virtual false, abstract: false, final false
-inline void Init(::UnityEngine::UIElements::VisualElement*  container, ::UnityEngine::UIElements::Columns*  columns) ;
+  /// @brief Method Init, addr 0x6afb948, size 0x3bc, virtual false, abstract: false, final false
+  inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns);
 
-/// @brief Method Init, addr 0x6a8ad74, size 0x4, virtual true, abstract: false, final false
-inline void Init(::UnityEngine::UIElements::VisualElement*  item) ;
+  /// @brief Method Init, addr 0x6afcfbc, size 0x4, virtual true, abstract: false, final false
+  inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
-static inline ::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem* New_ctor() ;
+  static inline ::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem* New_ctor();
 
-/// @brief Method .ctor, addr 0x6a8b224, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6afd46c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_rootElement, addr 0x6a8ad6c, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::VisualElement* get_rootElement() ;
+  /// @brief Method get_rootElement, addr 0x6afcfb4, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ReusableMultiColumnTreeViewItem() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ReusableMultiColumnTreeViewItem();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnTreeViewItem", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnTreeViewItem", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnTreeViewItem", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnTreeViewItem", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4097 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4097};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem, 0xa0>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem*, "UnityEngine.UIElements", "ReusableMultiColumnTreeViewItem");

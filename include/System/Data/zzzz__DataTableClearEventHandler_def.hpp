@@ -26,37 +26,37 @@ namespace System::Data {
 // CS Name: System.Data.DataTableClearEventHandler
 class CORDL_TYPE DataTableClearEventHandler : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x5e7a8ac, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::System::Object*  sender, ::System::Data::DataTableClearEventArgs*  e) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x5eec8b8, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::Object* sender, ::System::Data::DataTableClearEventArgs* e);
 
-static inline ::System::Data::DataTableClearEventHandler* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Data::DataTableClearEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5e7a764, size 0x148, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5eec770, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DataTableClearEventHandler() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DataTableClearEventHandler();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DataTableClearEventHandler(DataTableClearEventHandler&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DataTableClearEventHandler(DataTableClearEventHandler && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DataTableClearEventHandler(DataTableClearEventHandler const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataTableClearEventHandler", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DataTableClearEventHandler(DataTableClearEventHandler const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13776 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13769};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::DataTableClearEventHandler, 0x80>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::DataTableClearEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataTableClearEventHandler*, "System.Data", "DataTableClearEventHandler");

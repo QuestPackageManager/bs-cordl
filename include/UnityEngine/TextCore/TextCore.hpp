@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/TextCore/FaceInfo.hpp"
 #include "UnityEngine/TextCore/Glyph.hpp"
@@ -18,6 +18,5 @@
 #include "UnityEngine/TextCore/VerticalAlignment.hpp"
 #include "UnityEngine/TextCore/WhiteSpace.hpp"
 #ifdef __cpp_modules
-                    export module TextCore;
-                    #endif
-                
+export module TextCore;
+#endif

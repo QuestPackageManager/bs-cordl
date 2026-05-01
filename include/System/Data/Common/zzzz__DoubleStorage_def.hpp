@@ -32,87 +32,87 @@ namespace System::Data::Common {
 // CS Name: System.Data.Common.DoubleStorage
 class CORDL_TYPE DoubleStorage : public ::System::Data::Common::DataStorage {
 public:
-// Declarations
-/// @brief Field _values, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__values, put=__cordl_internal_set__values)) ::ArrayW<double_t,::Array<double_t>*>  _values;
+  // Declarations
+  /// @brief Field _values, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<double_t, ::Array<double_t>*> _values;
 
-/// @brief Method Aggregate, addr 0x5ef7e4c, size 0x6ec, virtual true, abstract: false, final false
-inline ::System::Object* Aggregate(::ArrayW<int32_t,::Array<int32_t>*>  records, ::System::Data::AggregateType  kind) ;
+  /// @brief Method Aggregate, addr 0x5f69e58, size 0x6ec, virtual true, abstract: false, final false
+  inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-/// @brief Method Compare, addr 0x5ef8538, size 0xb4, virtual true, abstract: false, final false
-inline int32_t Compare(int32_t  recordNo1, int32_t  recordNo2) ;
+  /// @brief Method Compare, addr 0x5f6a544, size 0xb4, virtual true, abstract: false, final false
+  inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-/// @brief Method CompareValueTo, addr 0x5ef85ec, size 0xf8, virtual true, abstract: false, final false
-inline int32_t CompareValueTo(int32_t  recordNo, ::System::Object*  value) ;
+  /// @brief Method CompareValueTo, addr 0x5f6a5f8, size 0xf8, virtual true, abstract: false, final false
+  inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-/// @brief Method ConvertObjectToXml, addr 0x5ef8b90, size 0x88, virtual true, abstract: false, final false
-inline ::StringW ConvertObjectToXml(::System::Object*  value) ;
+  /// @brief Method ConvertObjectToXml, addr 0x5f6ab9c, size 0x88, virtual true, abstract: false, final false
+  inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-/// @brief Method ConvertValue, addr 0x5ef86e4, size 0x140, virtual true, abstract: false, final false
-inline ::System::Object* ConvertValue(::System::Object*  value) ;
+  /// @brief Method ConvertValue, addr 0x5f6a6f0, size 0x140, virtual true, abstract: false, final false
+  inline ::System::Object* ConvertValue(::System::Object* value);
 
-/// @brief Method ConvertXmlToObject, addr 0x5ef8b14, size 0x7c, virtual true, abstract: false, final false
-inline ::System::Object* ConvertXmlToObject(::StringW  s) ;
+  /// @brief Method ConvertXmlToObject, addr 0x5f6ab20, size 0x7c, virtual true, abstract: false, final false
+  inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-/// @brief Method Copy, addr 0x5ef8824, size 0x54, virtual true, abstract: false, final false
-inline void Copy(int32_t  recordNo1, int32_t  recordNo2) ;
+  /// @brief Method Copy, addr 0x5f6a830, size 0x54, virtual true, abstract: false, final false
+  inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-/// @brief Method CopyValue, addr 0x5ef8c64, size 0x104, virtual true, abstract: false, final false
-inline void CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex) ;
+  /// @brief Method CopyValue, addr 0x5f6ac70, size 0x104, virtual true, abstract: false, final false
+  inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-/// @brief Method Get, addr 0x5ef8878, size 0x54, virtual true, abstract: false, final false
-inline ::System::Object* Get(int32_t  record) ;
+  /// @brief Method Get, addr 0x5f6a884, size 0x54, virtual true, abstract: false, final false
+  inline ::System::Object* Get(int32_t record);
 
-/// @brief Method GetEmptyStorage, addr 0x5ef8c18, size 0x4c, virtual true, abstract: false, final false
-inline ::System::Object* GetEmptyStorage(int32_t  recordCount) ;
+  /// @brief Method GetEmptyStorage, addr 0x5f6ac24, size 0x4c, virtual true, abstract: false, final false
+  inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
-static inline ::System::Data::Common::DoubleStorage* New_ctor(::System::Data::DataColumn*  column) ;
+  static inline ::System::Data::Common::DoubleStorage* New_ctor(::System::Data::DataColumn* column);
 
-/// @brief Method Set, addr 0x5ef88cc, size 0x188, virtual true, abstract: false, final false
-inline void Set(int32_t  record, ::System::Object*  value) ;
+  /// @brief Method Set, addr 0x5f6a8d8, size 0x188, virtual true, abstract: false, final false
+  inline void Set(int32_t record, ::System::Object* value);
 
-/// @brief Method SetCapacity, addr 0x5ef8a54, size 0xc0, virtual true, abstract: false, final false
-inline void SetCapacity(int32_t  capacity) ;
+  /// @brief Method SetCapacity, addr 0x5f6aa60, size 0xc0, virtual true, abstract: false, final false
+  inline void SetCapacity(int32_t capacity);
 
-/// @brief Method SetStorage, addr 0x5ef8d68, size 0x98, virtual true, abstract: false, final false
-inline void SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits) ;
+  /// @brief Method SetStorage, addr 0x5f6ad74, size 0x98, virtual true, abstract: false, final false
+  inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
-constexpr ::ArrayW<double_t,::Array<double_t>*> const& __cordl_internal_get__values() const;
+  constexpr ::ArrayW<double_t, ::Array<double_t>*> const& __cordl_internal_get__values() const;
 
-constexpr ::ArrayW<double_t,::Array<double_t>*>& __cordl_internal_get__values() ;
+  constexpr ::ArrayW<double_t, ::Array<double_t>*>& __cordl_internal_get__values();
 
-constexpr void __cordl_internal_set__values(::ArrayW<double_t,::Array<double_t>*>  value) ;
+  constexpr void __cordl_internal_set__values(::ArrayW<double_t, ::Array<double_t>*> value);
 
-/// @brief Method .ctor, addr 0x5ef211c, size 0xbc, virtual false, abstract: false, final false
-inline void _ctor(::System::Data::DataColumn*  column) ;
+  /// @brief Method .ctor, addr 0x5f64128, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DoubleStorage() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DoubleStorage();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleStorage", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DoubleStorage(DoubleStorage&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleStorage", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DoubleStorage(DoubleStorage && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleStorage", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DoubleStorage(DoubleStorage const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DoubleStorage", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DoubleStorage(DoubleStorage const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13907 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13900};
+  /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
+  ::ArrayW<double_t, ::Array<double_t>*> ____values;
 
-/// @brief Field _values, offset: 0x50, size: 0x8, def value: None
- ::ArrayW<double_t,::Array<double_t>*>  ____values;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::Common::DoubleStorage, ____values) == 0x50, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Data::Common::DoubleStorage, 0x58>, "Size mismatch!");
 
-} // namespace end def System::Data::Common
+} // namespace System::Data::Common
 NEED_NO_BOX(::System::Data::Common::DoubleStorage);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::DoubleStorage*, "System.Data.Common", "DoubleStorage");

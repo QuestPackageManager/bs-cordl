@@ -24,47 +24,47 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UIPainter2D
 class CORDL_TYPE UIPainter2D : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ClearSnapshots, addr 0x6beb858, size 0x3c, virtual false, abstract: false, final false
-static inline void ClearSnapshots(::System::IntPtr  handle) ;
+  // Declarations
+  /// @brief Method ClearSnapshots, addr 0x6c5daa0, size 0x3c, virtual false, abstract: false, final false
+  static inline void ClearSnapshots(::System::IntPtr handle);
 
-/// @brief Method Create, addr 0x6beb7a4, size 0x3c, virtual false, abstract: false, final false
-static inline ::System::IntPtr Create(bool  computeBBox) ;
+  /// @brief Method Create, addr 0x6c5d9ec, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Create(bool computeBBox);
 
-/// @brief Method Destroy, addr 0x6beb7e0, size 0x3c, virtual false, abstract: false, final false
-static inline void Destroy(::System::IntPtr  handle) ;
+  /// @brief Method Destroy, addr 0x6c5da28, size 0x3c, virtual false, abstract: false, final false
+  static inline void Destroy(::System::IntPtr handle);
 
-/// @brief Method ExecuteSnapshotFromJob, addr 0x6beb894, size 0x70, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::MeshWriteDataInterface ExecuteSnapshotFromJob(::System::IntPtr  painterHandle, int32_t  i) ;
+  /// @brief Method ExecuteSnapshotFromJob, addr 0x6c5dadc, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::MeshWriteDataInterface ExecuteSnapshotFromJob(::System::IntPtr painterHandle, int32_t i);
 
-/// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x6beb904, size 0x54, virtual false, abstract: false, final false
-static inline void ExecuteSnapshotFromJob_Injected(::System::IntPtr  painterHandle, int32_t  i, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>  ret) ;
+  /// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x6c5db4c, size 0x54, virtual false, abstract: false, final false
+  static inline void ExecuteSnapshotFromJob_Injected(::System::IntPtr painterHandle, int32_t i, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-/// @brief Method Reset, addr 0x6beb81c, size 0x3c, virtual false, abstract: false, final false
-static inline void Reset(::System::IntPtr  handle) ;
+  /// @brief Method Reset, addr 0x6c5da64, size 0x3c, virtual false, abstract: false, final false
+  static inline void Reset(::System::IntPtr handle);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UIPainter2D() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIPainter2D();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UIPainter2D(UIPainter2D&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UIPainter2D(UIPainter2D && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UIPainter2D(UIPainter2D const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIPainter2D", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UIPainter2D(UIPainter2D const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4625 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4625};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIPainter2D, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIPainter2D);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIPainter2D*, "UnityEngine.UIElements", "UIPainter2D");

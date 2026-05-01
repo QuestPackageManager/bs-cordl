@@ -24,54 +24,54 @@ namespace System {
 // CS Name: System.MissingMethodException
 class CORDL_TYPE MissingMethodException : public ::System::MissingMemberException {
 public:
-// Declarations
- __declspec(property(get=get_Message)) ::StringW  Message;
+  // Declarations
+  __declspec(property(get = get_Message)) ::StringW Message;
 
-static inline ::System::MissingMethodException* New_ctor() ;
+  static inline ::System::MissingMethodException* New_ctor();
 
-static inline ::System::MissingMethodException* New_ctor(::StringW  className, ::StringW  methodName) ;
+  static inline ::System::MissingMethodException* New_ctor(::StringW className, ::StringW methodName);
 
-static inline ::System::MissingMethodException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::MissingMethodException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::MissingMethodException* New_ctor(::StringW  message) ;
+  static inline ::System::MissingMethodException* New_ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5a9b584, size 0x60, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5b0d56c, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5a9b608, size 0x2c, virtual false, abstract: false, final false
-inline void _ctor(::StringW  className, ::StringW  methodName) ;
+  /// @brief Method .ctor, addr 0x5b0d5f0, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW className, ::StringW methodName);
 
-/// @brief Method .ctor, addr 0x5a9b634, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5b0d61c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5a9b5e4, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5b0d5cc, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method get_Message, addr 0x5a9b63c, size 0xf0, virtual true, abstract: false, final false
-inline ::StringW get_Message() ;
+  /// @brief Method get_Message, addr 0x5b0d624, size 0xf0, virtual true, abstract: false, final false
+  inline ::StringW get_Message();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissingMethodException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissingMethodException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissingMethodException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissingMethodException(MissingMethodException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissingMethodException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissingMethodException(MissingMethodException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissingMethodException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissingMethodException(MissingMethodException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissingMethodException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissingMethodException(MissingMethodException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2446 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2446};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::MissingMethodException, 0xa8>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::MissingMethodException);
 DEFINE_IL2CPP_ARG_TYPE(::System::MissingMethodException*, "System", "MissingMethodException");

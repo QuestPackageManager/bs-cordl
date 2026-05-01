@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: LobbyDataModelInstaller
 class CORDL_TYPE LobbyDataModelInstaller : public ::Zenject::MonoInstaller {
 public:
-// Declarations
-/// @brief Method InstallBindings, addr 0x58501c8, size 0x3ec, virtual true, abstract: false, final false
-inline void InstallBindings() ;
+  // Declarations
+  /// @brief Method InstallBindings, addr 0x58c497c, size 0x3ec, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-static inline ::GlobalNamespace::LobbyDataModelInstaller* New_ctor() ;
+  static inline ::GlobalNamespace::LobbyDataModelInstaller* New_ctor();
 
-/// @brief Method .ctor, addr 0x58505b4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58c4d68, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LobbyDataModelInstaller() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LobbyDataModelInstaller();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelInstaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LobbyDataModelInstaller(LobbyDataModelInstaller&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelInstaller", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LobbyDataModelInstaller(LobbyDataModelInstaller && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelInstaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LobbyDataModelInstaller(LobbyDataModelInstaller const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelInstaller", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LobbyDataModelInstaller(LobbyDataModelInstaller const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6313 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6303};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyDataModelInstaller, 0x28>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LobbyDataModelInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyDataModelInstaller*, "", "LobbyDataModelInstaller");

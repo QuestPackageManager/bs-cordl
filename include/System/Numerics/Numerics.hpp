@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Numerics/BigInteger.hpp"
 #include "System/Numerics/BigIntegerCalculator.hpp"
@@ -13,6 +13,5 @@
 #include "System/Numerics/Vector.hpp"
 #include "System/Numerics/Vector_1.hpp"
 #ifdef __cpp_modules
-                    export module Numerics;
-                    #endif
-                
+export module Numerics;
+#endif

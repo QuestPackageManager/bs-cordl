@@ -17,34 +17,34 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaTotalDigitsFacet
 class CORDL_TYPE XmlSchemaTotalDigitsFacet : public ::System::Xml::Schema::XmlSchemaNumericFacet {
 public:
-// Declarations
-static inline ::System::Xml::Schema::XmlSchemaTotalDigitsFacet* New_ctor() ;
+  // Declarations
+  static inline ::System::Xml::Schema::XmlSchemaTotalDigitsFacet* New_ctor();
 
-/// @brief Method .ctor, addr 0x607d274, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x60ef280, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSchemaTotalDigitsFacet() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaTotalDigitsFacet();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaTotalDigitsFacet", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSchemaTotalDigitsFacet(XmlSchemaTotalDigitsFacet&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaTotalDigitsFacet", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSchemaTotalDigitsFacet(XmlSchemaTotalDigitsFacet && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaTotalDigitsFacet", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSchemaTotalDigitsFacet(XmlSchemaTotalDigitsFacet const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaTotalDigitsFacet", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSchemaTotalDigitsFacet(XmlSchemaTotalDigitsFacet const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9768 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9762};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaTotalDigitsFacet, 0x60>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaTotalDigitsFacet);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaTotalDigitsFacet*, "System.Xml.Schema", "XmlSchemaTotalDigitsFacet");

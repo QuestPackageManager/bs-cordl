@@ -21,67 +21,67 @@ namespace Newtonsoft::Json::Bson {
 // CS Name: Newtonsoft.Json.Bson.BsonString
 class CORDL_TYPE BsonString : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
-// Declarations
- __declspec(property(get=get_ByteCount, put=set_ByteCount)) int32_t  ByteCount;
+  // Declarations
+  __declspec(property(get = get_ByteCount, put = set_ByteCount)) int32_t ByteCount;
 
- __declspec(property(get=get_IncludeLength)) bool  IncludeLength;
+  __declspec(property(get = get_IncludeLength)) bool IncludeLength;
 
-/// @brief Field <ByteCount>k__BackingField, offset 0x2c, size 0x4 
- __declspec(property(get=__cordl_internal_get__ByteCount_k__BackingField, put=__cordl_internal_set__ByteCount_k__BackingField)) int32_t  _ByteCount_k__BackingField;
+  /// @brief Field <ByteCount>k__BackingField, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__ByteCount_k__BackingField, put = __cordl_internal_set__ByteCount_k__BackingField)) int32_t _ByteCount_k__BackingField;
 
-/// @brief Field <IncludeLength>k__BackingField, offset 0x30, size 0x1 
- __declspec(property(get=__cordl_internal_get__IncludeLength_k__BackingField, put=__cordl_internal_set__IncludeLength_k__BackingField)) bool  _IncludeLength_k__BackingField;
+  /// @brief Field <IncludeLength>k__BackingField, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__IncludeLength_k__BackingField, put = __cordl_internal_set__IncludeLength_k__BackingField)) bool _IncludeLength_k__BackingField;
 
-static inline ::Newtonsoft::Json::Bson::BsonString* New_ctor(::System::Object*  value, bool  includeLength) ;
+  static inline ::Newtonsoft::Json::Bson::BsonString* New_ctor(::System::Object* value, bool includeLength);
 
-constexpr int32_t const& __cordl_internal_get__ByteCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__ByteCount_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__ByteCount_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__ByteCount_k__BackingField();
 
-constexpr bool const& __cordl_internal_get__IncludeLength_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IncludeLength_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__IncludeLength_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__IncludeLength_k__BackingField();
 
-constexpr void __cordl_internal_set__ByteCount_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__ByteCount_k__BackingField(int32_t value);
 
-constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-/// @brief Method .ctor, addr 0x5c0055c, size 0x14, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  value, bool  includeLength) ;
+  /// @brief Method .ctor, addr 0x5c72544, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* value, bool includeLength);
 
-/// @brief Method get_ByteCount, addr 0x5c008b8, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_ByteCount() ;
+  /// @brief Method get_ByteCount, addr 0x5c728a0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_ByteCount();
 
-/// @brief Method get_IncludeLength, addr 0x5c008c8, size 0x8, virtual false, abstract: false, final false
-inline bool get_IncludeLength() ;
+  /// @brief Method get_IncludeLength, addr 0x5c728b0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IncludeLength();
 
-/// @brief Method set_ByteCount, addr 0x5c008c0, size 0x8, virtual false, abstract: false, final false
-inline void set_ByteCount(int32_t  value) ;
+  /// @brief Method set_ByteCount, addr 0x5c728a8, size 0x8, virtual false, abstract: false, final false
+  inline void set_ByteCount(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BsonString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BsonString();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BsonString(BsonString&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BsonString(BsonString && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BsonString(BsonString const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BsonString(BsonString const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13686 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13679};
+  /// @brief Field <ByteCount>k__BackingField, offset: 0x2c, size: 0x4, def value: None
+  int32_t ____ByteCount_k__BackingField;
 
-/// @brief Field <ByteCount>k__BackingField, offset: 0x2c, size: 0x4, def value: None
- int32_t  ____ByteCount_k__BackingField;
+  /// @brief Field <IncludeLength>k__BackingField, offset: 0x30, size: 0x1, def value: None
+  bool ____IncludeLength_k__BackingField;
 
-/// @brief Field <IncludeLength>k__BackingField, offset: 0x30, size: 0x1, def value: None
- bool  ____IncludeLength_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonString, ____ByteCount_k__BackingField) == 0x2c, "Offset mismatch!");
@@ -90,6 +90,6 @@ static_assert(offsetof(::Newtonsoft::Json::Bson::BsonString, ____IncludeLength_k
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonString, 0x38>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Bson
+} // namespace Newtonsoft::Json::Bson
 NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonString);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonString*, "Newtonsoft.Json.Bson", "BsonString");

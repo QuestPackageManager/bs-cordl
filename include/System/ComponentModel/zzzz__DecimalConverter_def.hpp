@@ -34,59 +34,60 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.DecimalConverter
 class CORDL_TYPE DecimalConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
-// Declarations
- __declspec(property(get=get_AllowHex)) bool  AllowHex;
+  // Declarations
+  __declspec(property(get = get_AllowHex)) bool AllowHex;
 
- __declspec(property(get=get_TargetType)) ::System::Type*  TargetType;
+  __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-/// @brief Method CanConvertTo, addr 0x620a0f8, size 0xa0, virtual true, abstract: false, final false
-inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
+  /// @brief Method CanConvertTo, addr 0x627c104, size 0xa0, virtual true, abstract: false, final false
+  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-/// @brief Method ConvertTo, addr 0x620a198, size 0x310, virtual true, abstract: false, final false
-inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
+  /// @brief Method ConvertTo, addr 0x627c1a4, size 0x310, virtual true, abstract: false, final false
+  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
+                                     ::System::Type* destinationType);
 
-/// @brief Method FromString, addr 0x620a5a0, size 0xb0, virtual true, abstract: false, final false
-inline ::System::Object* FromString(::StringW  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
+  /// @brief Method FromString, addr 0x627c5ac, size 0xb0, virtual true, abstract: false, final false
+  inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-/// @brief Method FromString, addr 0x620a4a8, size 0xf8, virtual true, abstract: false, final false
-inline ::System::Object* FromString(::StringW  value, int32_t  radix) ;
+  /// @brief Method FromString, addr 0x627c4b4, size 0xf8, virtual true, abstract: false, final false
+  inline ::System::Object* FromString(::StringW value, int32_t radix);
 
-static inline ::System::ComponentModel::DecimalConverter* New_ctor() ;
+  static inline ::System::ComponentModel::DecimalConverter* New_ctor();
 
-/// @brief Method ToString, addr 0x620a650, size 0x104, virtual true, abstract: false, final false
-inline ::StringW ToString(::System::Object*  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
+  /// @brief Method ToString, addr 0x627c65c, size 0x104, virtual true, abstract: false, final false
+  inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-/// @brief Method .ctor, addr 0x620a754, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x627c760, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_AllowHex, addr 0x620a090, size 0x8, virtual true, abstract: false, final false
-inline bool get_AllowHex() ;
+  /// @brief Method get_AllowHex, addr 0x627c09c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_AllowHex();
 
-/// @brief Method get_TargetType, addr 0x620a098, size 0x60, virtual true, abstract: false, final false
-inline ::System::Type* get_TargetType() ;
+  /// @brief Method get_TargetType, addr 0x627c0a4, size 0x60, virtual true, abstract: false, final false
+  inline ::System::Type* get_TargetType();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DecimalConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecimalConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DecimalConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DecimalConverter(DecimalConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecimalConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DecimalConverter(DecimalConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DecimalConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DecimalConverter(DecimalConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecimalConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DecimalConverter(DecimalConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11240 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11233};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DecimalConverter, 0x10>, "Size mismatch!");
 
-} // namespace end def System::ComponentModel
+} // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::DecimalConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DecimalConverter*, "System.ComponentModel", "DecimalConverter");

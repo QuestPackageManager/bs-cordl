@@ -19,42 +19,42 @@ namespace System::Net::NetworkInformation {
 // CS Name: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
 class CORDL_TYPE CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {
 public:
-// Declarations
- __declspec(property(get=get_DomainName)) ::StringW  DomainName;
+  // Declarations
+  __declspec(property(get = get_DomainName)) ::StringW DomainName;
 
-static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor() ;
+  static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-/// @brief Method .ctor, addr 0x61a29d4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x62149e0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_DomainName, addr 0x61a2834, size 0x1a0, virtual true, abstract: false, final false
-inline ::StringW get_DomainName() ;
+  /// @brief Method get_DomainName, addr 0x6214840, size 0x1a0, virtual true, abstract: false, final false
+  inline ::StringW get_DomainName();
 
-/// @brief Method getdomainname, addr 0x61a27a8, size 0x8c, virtual false, abstract: false, final false
-static inline int32_t getdomainname(::ArrayW<uint8_t,::Array<uint8_t>*>  name, int32_t  len) ;
+  /// @brief Method getdomainname, addr 0x62147b4, size 0x8c, virtual false, abstract: false, final false
+  static inline int32_t getdomainname(::ArrayW<uint8_t, ::Array<uint8_t>*> name, int32_t len);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CommonUnixIPGlobalProperties() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommonUnixIPGlobalProperties();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CommonUnixIPGlobalProperties", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommonUnixIPGlobalProperties", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CommonUnixIPGlobalProperties", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommonUnixIPGlobalProperties", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11695 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11688};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::CommonUnixIPGlobalProperties, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net::NetworkInformation
+} // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties*, "System.Net.NetworkInformation", "CommonUnixIPGlobalProperties");

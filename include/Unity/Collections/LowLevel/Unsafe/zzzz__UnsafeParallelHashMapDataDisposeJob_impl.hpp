@@ -4,43 +4,38 @@
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapDataDisposeJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob.Execute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::Execute)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::*)()>(
+    &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6318fa8;
+  constexpr static std::size_t addrs = 0x638afb4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob>::get(),
-                        "Execute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob>::get(), "Execute",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::Execute()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob>::get(),
-                        "Execute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::Execute() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob>::get(), "Execute",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 /// @brief Convert operator to "::Unity::Jobs::IJob"
-constexpr  Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::operator ::Unity::Jobs::IJob*()  {
-return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::operator ::Unity::Jobs::IJob*() {
+  return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::Unity::Jobs::IJob"
-constexpr ::Unity::Jobs::IJob* Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::i___Unity__Jobs__IJob()  {
-return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::Unity::Jobs::IJob* Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::i___Unity__Jobs__IJob() {
+  return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::UnsafeParallelHashMapDataDisposeJob(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose  Data) noexcept  {
-this->Data = Data;
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::UnsafeParallelHashMapDataDisposeJob(
+    ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose Data) noexcept {
+  this->Data = Data;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::UnsafeParallelHashMapDataDisposeJob()   {
-}
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob::UnsafeParallelHashMapDataDisposeJob() {}

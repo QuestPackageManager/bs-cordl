@@ -25,133 +25,133 @@ namespace System::Data::SqlTypes {
 // CS Name: System.Data.SqlTypes.SqlXmlStreamWrapper
 class CORDL_TYPE SqlXmlStreamWrapper : public ::System::IO::Stream {
 public:
-// Declarations
- __declspec(property(get=get_CanRead)) bool  CanRead;
+  // Declarations
+  __declspec(property(get = get_CanRead)) bool CanRead;
 
- __declspec(property(get=get_CanSeek)) bool  CanSeek;
+  __declspec(property(get = get_CanSeek)) bool CanSeek;
 
- __declspec(property(get=get_CanWrite)) bool  CanWrite;
+  __declspec(property(get = get_CanWrite)) bool CanWrite;
 
- __declspec(property(get=get_Length)) int64_t  Length;
+  __declspec(property(get = get_Length)) int64_t Length;
 
- __declspec(property(get=get_Position, put=set_Position)) int64_t  Position;
+  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-/// @brief Field _isClosed, offset 0x38, size 0x1 
- __declspec(property(get=__cordl_internal_get__isClosed, put=__cordl_internal_set__isClosed)) bool  _isClosed;
+  /// @brief Field _isClosed, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__isClosed, put = __cordl_internal_set__isClosed)) bool _isClosed;
 
-/// @brief Field _lPosition, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__lPosition, put=__cordl_internal_set__lPosition)) int64_t  _lPosition;
+  /// @brief Field _lPosition, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__lPosition, put = __cordl_internal_set__lPosition)) int64_t _lPosition;
 
-/// @brief Field _stream, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__stream, put=__cordl_internal_set__stream)) ::System::IO::Stream*  _stream;
+  /// @brief Field _stream, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream)) ::System::IO::Stream* _stream;
 
-/// @brief Method Dispose, addr 0x5ee8bf0, size 0xc, virtual true, abstract: false, final false
-inline void Dispose(bool  disposing) ;
+  /// @brief Method Dispose, addr 0x5f5abfc, size 0xc, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-/// @brief Method Flush, addr 0x5ee8bd4, size 0x1c, virtual true, abstract: false, final false
-inline void Flush() ;
+  /// @brief Method Flush, addr 0x5f5abe0, size 0x1c, virtual true, abstract: false, final false
+  inline void Flush();
 
-/// @brief Method IsStreamClosed, addr 0x5ee7fe4, size 0x70, virtual false, abstract: false, final false
-inline bool IsStreamClosed() ;
+  /// @brief Method IsStreamClosed, addr 0x5f59ff0, size 0x70, virtual false, abstract: false, final false
+  inline bool IsStreamClosed();
 
-static inline ::System::Data::SqlTypes::SqlXmlStreamWrapper* New_ctor(::System::IO::Stream*  stream) ;
+  static inline ::System::Data::SqlTypes::SqlXmlStreamWrapper* New_ctor(::System::IO::Stream* stream);
 
-/// @brief Method Read, addr 0x5ee84bc, size 0x1c0, virtual true, abstract: false, final false
-inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
+  /// @brief Method Read, addr 0x5f5a4c8, size 0x1c0, virtual true, abstract: false, final false
+  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-/// @brief Method ReadByte, addr 0x5ee8934, size 0x11c, virtual true, abstract: false, final false
-inline int32_t ReadByte() ;
+  /// @brief Method ReadByte, addr 0x5f5a940, size 0x11c, virtual true, abstract: false, final false
+  inline int32_t ReadByte();
 
-/// @brief Method Seek, addr 0x5ee8350, size 0x16c, virtual true, abstract: false, final false
-inline int64_t Seek(int64_t  offset, ::System::IO::SeekOrigin  origin) ;
+  /// @brief Method Seek, addr 0x5f5a35c, size 0x16c, virtual true, abstract: false, final false
+  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-/// @brief Method SetLength, addr 0x5ee8b3c, size 0x98, virtual true, abstract: false, final false
-inline void SetLength(int64_t  value) ;
+  /// @brief Method SetLength, addr 0x5f5ab48, size 0x98, virtual true, abstract: false, final false
+  inline void SetLength(int64_t value);
 
-/// @brief Method ThrowIfStreamCannotRead, addr 0x5ee867c, size 0x7c, virtual false, abstract: false, final false
-inline void ThrowIfStreamCannotRead(::StringW  method) ;
+  /// @brief Method ThrowIfStreamCannotRead, addr 0x5f5a688, size 0x7c, virtual false, abstract: false, final false
+  inline void ThrowIfStreamCannotRead(::StringW method);
 
-/// @brief Method ThrowIfStreamCannotSeek, addr 0x5ee819c, size 0x7c, virtual false, abstract: false, final false
-inline void ThrowIfStreamCannotSeek(::StringW  method) ;
+  /// @brief Method ThrowIfStreamCannotSeek, addr 0x5f5a1a8, size 0x7c, virtual false, abstract: false, final false
+  inline void ThrowIfStreamCannotSeek(::StringW method);
 
-/// @brief Method ThrowIfStreamCannotWrite, addr 0x5ee88b8, size 0x7c, virtual false, abstract: false, final false
-inline void ThrowIfStreamCannotWrite(::StringW  method) ;
+  /// @brief Method ThrowIfStreamCannotWrite, addr 0x5f5a8c4, size 0x7c, virtual false, abstract: false, final false
+  inline void ThrowIfStreamCannotWrite(::StringW method);
 
-/// @brief Method ThrowIfStreamClosed, addr 0x5ee8134, size 0x68, virtual false, abstract: false, final false
-inline void ThrowIfStreamClosed(::StringW  method) ;
+  /// @brief Method ThrowIfStreamClosed, addr 0x5f5a140, size 0x68, virtual false, abstract: false, final false
+  inline void ThrowIfStreamClosed(::StringW method);
 
-/// @brief Method Write, addr 0x5ee86f8, size 0x1c0, virtual true, abstract: false, final false
-inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
+  /// @brief Method Write, addr 0x5f5a704, size 0x1c0, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-/// @brief Method WriteByte, addr 0x5ee8a50, size 0xec, virtual true, abstract: false, final false
-inline void WriteByte(uint8_t  value) ;
+  /// @brief Method WriteByte, addr 0x5f5aa5c, size 0xec, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t value);
 
-constexpr bool const& __cordl_internal_get__isClosed() const;
+  constexpr bool const& __cordl_internal_get__isClosed() const;
 
-constexpr bool& __cordl_internal_get__isClosed() ;
+  constexpr bool& __cordl_internal_get__isClosed();
 
-constexpr int64_t const& __cordl_internal_get__lPosition() const;
+  constexpr int64_t const& __cordl_internal_get__lPosition() const;
 
-constexpr int64_t& __cordl_internal_get__lPosition() ;
+  constexpr int64_t& __cordl_internal_get__lPosition();
 
-constexpr ::System::IO::Stream* const& __cordl_internal_get__stream() const;
+  constexpr ::System::IO::Stream* const& __cordl_internal_get__stream() const;
 
-constexpr ::System::IO::Stream*& __cordl_internal_get__stream() ;
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
 
-constexpr void __cordl_internal_set__isClosed(bool  value) ;
+  constexpr void __cordl_internal_set__isClosed(bool value);
 
-constexpr void __cordl_internal_set__lPosition(int64_t  value) ;
+  constexpr void __cordl_internal_set__lPosition(int64_t value);
 
-constexpr void __cordl_internal_set__stream(::System::IO::Stream*  value) ;
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-/// @brief Method .ctor, addr 0x5ee7690, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::IO::Stream*  stream) ;
+  /// @brief Method .ctor, addr 0x5f5969c, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* stream);
 
-/// @brief Method get_CanRead, addr 0x5ee7fac, size 0x38, virtual true, abstract: false, final false
-inline bool get_CanRead() ;
+  /// @brief Method get_CanRead, addr 0x5f59fb8, size 0x38, virtual true, abstract: false, final false
+  inline bool get_CanRead();
 
-/// @brief Method get_CanSeek, addr 0x5ee8054, size 0x38, virtual true, abstract: false, final false
-inline bool get_CanSeek() ;
+  /// @brief Method get_CanSeek, addr 0x5f5a060, size 0x38, virtual true, abstract: false, final false
+  inline bool get_CanSeek();
 
-/// @brief Method get_CanWrite, addr 0x5ee808c, size 0x38, virtual true, abstract: false, final false
-inline bool get_CanWrite() ;
+  /// @brief Method get_CanWrite, addr 0x5f5a098, size 0x38, virtual true, abstract: false, final false
+  inline bool get_CanWrite();
 
-/// @brief Method get_Length, addr 0x5ee80c4, size 0x70, virtual true, abstract: false, final false
-inline int64_t get_Length() ;
+  /// @brief Method get_Length, addr 0x5f5a0d0, size 0x70, virtual true, abstract: false, final false
+  inline int64_t get_Length();
 
-/// @brief Method get_Position, addr 0x5ee8218, size 0x60, virtual true, abstract: false, final false
-inline int64_t get_Position() ;
+  /// @brief Method get_Position, addr 0x5f5a224, size 0x60, virtual true, abstract: false, final false
+  inline int64_t get_Position();
 
-/// @brief Method set_Position, addr 0x5ee8278, size 0xd8, virtual true, abstract: false, final false
-inline void set_Position(int64_t  value) ;
+  /// @brief Method set_Position, addr 0x5f5a284, size 0xd8, virtual true, abstract: false, final false
+  inline void set_Position(int64_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SqlXmlStreamWrapper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SqlXmlStreamWrapper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SqlXmlStreamWrapper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SqlXmlStreamWrapper(SqlXmlStreamWrapper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SqlXmlStreamWrapper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SqlXmlStreamWrapper(SqlXmlStreamWrapper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SqlXmlStreamWrapper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SqlXmlStreamWrapper(SqlXmlStreamWrapper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SqlXmlStreamWrapper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SqlXmlStreamWrapper(SqlXmlStreamWrapper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13893 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13886};
+  /// @brief Field _stream, offset: 0x28, size: 0x8, def value: None
+  ::System::IO::Stream* ____stream;
 
-/// @brief Field _stream, offset: 0x28, size: 0x8, def value: None
- ::System::IO::Stream*  ____stream;
+  /// @brief Field _lPosition, offset: 0x30, size: 0x8, def value: None
+  int64_t ____lPosition;
 
-/// @brief Field _lPosition, offset: 0x30, size: 0x8, def value: None
- int64_t  ____lPosition;
+  /// @brief Field _isClosed, offset: 0x38, size: 0x1, def value: None
+  bool ____isClosed;
 
-/// @brief Field _isClosed, offset: 0x38, size: 0x1, def value: None
- bool  ____isClosed;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::SqlTypes::SqlXmlStreamWrapper, ____stream) == 0x28, "Offset mismatch!");
@@ -162,6 +162,6 @@ static_assert(offsetof(::System::Data::SqlTypes::SqlXmlStreamWrapper, ____isClos
 
 static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::SqlXmlStreamWrapper, 0x40>, "Size mismatch!");
 
-} // namespace end def System::Data::SqlTypes
+} // namespace System::Data::SqlTypes
 NEED_NO_BOX(::System::Data::SqlTypes::SqlXmlStreamWrapper);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SqlXmlStreamWrapper*, "System.Data.SqlTypes", "SqlXmlStreamWrapper");

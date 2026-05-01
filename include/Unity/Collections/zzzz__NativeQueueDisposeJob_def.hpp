@@ -21,38 +21,38 @@ namespace Unity::Collections {
 // CS Name: Unity.Collections.NativeQueueDisposeJob
 struct CORDL_TYPE NativeQueueDisposeJob {
 public:
-// Declarations
-/// @brief Convert operator to "::Unity::Jobs::IJob"
-constexpr operator  ::Unity::Jobs::IJob*() ;
+  // Declarations
+  /// @brief Convert operator to "::Unity::Jobs::IJob"
+  constexpr operator ::Unity::Jobs::IJob*();
 
-/// @brief Method Execute, addr 0x630d27c, size 0x4, virtual true, abstract: false, final true
-inline void Execute() ;
+  /// @brief Method Execute, addr 0x637f288, size 0x4, virtual true, abstract: false, final true
+  inline void Execute();
 
-/// @brief Convert to "::Unity::Jobs::IJob"
-constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob() ;
+  /// @brief Convert to "::Unity::Jobs::IJob"
+  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr NativeQueueDisposeJob() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeQueueDisposeJob();
 
-// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeQueueDispose", modifiers: "", def_value: None }]
-constexpr NativeQueueDisposeJob(::Unity::Collections::NativeQueueDispose  Data) noexcept;
+  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeQueueDispose", modifiers: "", def_value: None }]
+  constexpr NativeQueueDisposeJob(::Unity::Collections::NativeQueueDispose Data) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15655};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15662 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field Data, offset: 0x0, size: 0x8, def value: None
- ::Unity::Collections::NativeQueueDispose  Data;
+  /// @brief Field Data, offset: 0x0, size: 0x8, def value: None
+  ::Unity::Collections::NativeQueueDispose Data;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::NativeQueueDisposeJob, Data) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeQueueDisposeJob, 0x8>, "Size mismatch!");
 
-} // namespace end def Unity::Collections
+} // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeQueueDisposeJob, "Unity.Collections", "NativeQueueDisposeJob");

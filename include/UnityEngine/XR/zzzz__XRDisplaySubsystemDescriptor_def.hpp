@@ -17,34 +17,34 @@ namespace UnityEngine::XR {
 // CS Name: UnityEngine.XR.XRDisplaySubsystemDescriptor
 class CORDL_TYPE XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<Il2CppObject*> {
 public:
-// Declarations
-static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* New_ctor();
 
-/// @brief Method .ctor, addr 0x6c6ad78, size 0x3c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6cdcfc0, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XRDisplaySubsystemDescriptor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRDisplaySubsystemDescriptor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystemDescriptor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystemDescriptor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystemDescriptor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystemDescriptor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21972 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21961};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::XRDisplaySubsystemDescriptor, 0x18>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR
+} // namespace UnityEngine::XR
 NEED_NO_BOX(::UnityEngine::XR::XRDisplaySubsystemDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRDisplaySubsystemDescriptor*, "UnityEngine.XR", "XRDisplaySubsystemDescriptor");

@@ -21,56 +21,56 @@ namespace HMUI {
 // CS Name: HMUI.Touchable
 class CORDL_TYPE Touchable : public ::UnityEngine::UI::Graphic {
 public:
-// Declarations
-/// @brief Field _skew, offset 0xa4, size 0x4 
- __declspec(property(get=__cordl_internal_get__skew, put=__cordl_internal_set__skew)) float_t  _skew;
+  // Declarations
+  /// @brief Field _skew, offset 0xa4, size 0x4
+  __declspec(property(get = __cordl_internal_get__skew, put = __cordl_internal_set__skew)) float_t _skew;
 
- __declspec(property(get=get_skew)) float_t  skew;
+  __declspec(property(get = get_skew)) float_t skew;
 
-static inline ::HMUI::Touchable* New_ctor() ;
+  static inline ::HMUI::Touchable* New_ctor();
 
-/// @brief Method OnPopulateMesh, addr 0x56cc908, size 0x18, virtual true, abstract: false, final false
-inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper*  vh) ;
+  /// @brief Method OnPopulateMesh, addr 0x573a7f4, size 0x18, virtual true, abstract: false, final false
+  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-constexpr float_t const& __cordl_internal_get__skew() const;
+  constexpr float_t const& __cordl_internal_get__skew() const;
 
-constexpr float_t& __cordl_internal_get__skew() ;
+  constexpr float_t& __cordl_internal_get__skew();
 
-constexpr void __cordl_internal_set__skew(float_t  value) ;
+  constexpr void __cordl_internal_set__skew(float_t value);
 
-/// @brief Method .ctor, addr 0x56cc470, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x573a35c, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_skew, addr 0x56cc900, size 0x8, virtual false, abstract: false, final false
-inline float_t get_skew() ;
+  /// @brief Method get_skew, addr 0x573a7ec, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_skew();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Touchable() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Touchable();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Touchable(Touchable&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Touchable(Touchable && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Touchable(Touchable const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Touchable(Touchable const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19175 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19165};
+  /// @brief Field _skew, offset: 0xa4, size: 0x4, def value: None
+  float_t ____skew;
 
-/// @brief Field _skew, offset: 0xa4, size: 0x4, def value: None
- float_t  ____skew;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::Touchable, ____skew) == 0xa4, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::Touchable, 0xa8>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 NEED_NO_BOX(::HMUI::Touchable);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::Touchable*, "HMUI", "Touchable");

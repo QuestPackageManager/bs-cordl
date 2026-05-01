@@ -10,26 +10,26 @@ class IPollable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IPollable);
-// Dependencies 
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IPollable
 class CORDL_TYPE IPollable {
 public:
-// Declarations
-/// @brief Method PollUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void PollUpdate() ;
+  // Declarations
+  /// @brief Method PollUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void PollUpdate();
 
-// Ctor Parameters [CppParam { name: "", ty: "IPollable", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IPollable(IPollable const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IPollable", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IPollable(IPollable const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18162};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18170 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IPollable);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPollable*, "", "IPollable");

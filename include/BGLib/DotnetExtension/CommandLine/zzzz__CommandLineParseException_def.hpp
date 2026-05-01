@@ -21,34 +21,34 @@ namespace BGLib::DotnetExtension::CommandLine {
 // CS Name: BGLib.DotnetExtension.CommandLine.CommandLineParseException
 class CORDL_TYPE CommandLineParseException : public ::System::Exception {
 public:
-// Declarations
-static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* New_ctor(::StringW  hint, ::System::Exception*  innerException) ;
+  // Declarations
+  static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* New_ctor(::StringW hint, ::System::Exception* innerException);
 
-/// @brief Method .ctor, addr 0x3219a60, size 0xdc, virtual false, abstract: false, final false
-inline void _ctor(::StringW  hint, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x3255eac, size 0xdc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW hint, ::System::Exception* innerException);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CommandLineParseException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandLineParseException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CommandLineParseException(CommandLineParseException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CommandLineParseException(CommandLineParseException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CommandLineParseException(CommandLineParseException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CommandLineParseException(CommandLineParseException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20563 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20551};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::DotnetExtension::CommandLine::CommandLineParseException, 0x90>, "Size mismatch!");
 
-} // namespace end def BGLib::DotnetExtension::CommandLine
+} // namespace BGLib::DotnetExtension::CommandLine
 NEED_NO_BOX(::BGLib::DotnetExtension::CommandLine::CommandLineParseException);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::DotnetExtension::CommandLine::CommandLineParseException*, "BGLib.DotnetExtension.CommandLine", "CommandLineParseException");

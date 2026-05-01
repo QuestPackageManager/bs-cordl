@@ -27,66 +27,66 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ResourcesAPI
 class CORDL_TYPE ResourcesAPI : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <overrideAPI>k__BackingField, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__overrideAPI_k__BackingField, put=setStaticF__overrideAPI_k__BackingField)) ::UnityEngine::ResourcesAPI*  _overrideAPI_k__BackingField;
+  // Declarations
+  /// @brief Field <overrideAPI>k__BackingField, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__overrideAPI_k__BackingField, put = setStaticF__overrideAPI_k__BackingField)) ::UnityEngine::ResourcesAPI* _overrideAPI_k__BackingField;
 
-/// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_DefaultAPI, put=setStaticF_s_DefaultAPI)) ::UnityEngine::ResourcesAPI*  s_DefaultAPI;
+  /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI)) ::UnityEngine::ResourcesAPI* s_DefaultAPI;
 
-/// @brief Method FindObjectsOfTypeAll, addr 0x690f06c, size 0x3c, virtual true, abstract: false, final false
-inline ::ArrayW<::UnityW<::UnityEngine::Object>,::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type*  systemTypeInstance) ;
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6981288, size 0x3c, virtual true, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
 
-/// @brief Method FindShaderByName, addr 0x690f0a8, size 0x8, virtual true, abstract: false, final false
-inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW  name) ;
+  /// @brief Method FindShaderByName, addr 0x69812c4, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-/// @brief Method Load, addr 0x690f0b0, size 0xc, virtual true, abstract: false, final false
-inline ::UnityW<::UnityEngine::Object> Load(::StringW  path, ::System::Type*  systemTypeInstance) ;
+  /// @brief Method Load, addr 0x69812cc, size 0xc, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-/// @brief Method LoadAll, addr 0x690f0bc, size 0xc, virtual true, abstract: false, final false
-inline ::ArrayW<::UnityW<::UnityEngine::Object>,::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW  path, ::System::Type*  systemTypeInstance) ;
+  /// @brief Method LoadAll, addr 0x69812d8, size 0xc, virtual true, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-static inline ::UnityEngine::ResourcesAPI* New_ctor() ;
+  static inline ::UnityEngine::ResourcesAPI* New_ctor();
 
-/// @brief Method .ctor, addr 0x690f068, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6981284, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField() ;
+  static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField();
 
-static inline ::UnityEngine::ResourcesAPI* getStaticF_s_DefaultAPI() ;
+  static inline ::UnityEngine::ResourcesAPI* getStaticF_s_DefaultAPI();
 
-/// @brief Method get_ActiveAPI, addr 0x690ef58, size 0xb4, virtual false, abstract: false, final false
-static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI() ;
+  /// @brief Method get_ActiveAPI, addr 0x6981174, size 0xb4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI();
 
-/// @brief Method get_overrideAPI, addr 0x690f00c, size 0x5c, virtual false, abstract: false, final false
-static inline ::UnityEngine::ResourcesAPI* get_overrideAPI() ;
+  /// @brief Method get_overrideAPI, addr 0x6981228, size 0x5c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ResourcesAPI* get_overrideAPI();
 
-static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::ResourcesAPI*  value) ;
+  static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::ResourcesAPI* value);
 
-static inline void setStaticF_s_DefaultAPI(::UnityEngine::ResourcesAPI*  value) ;
+  static inline void setStaticF_s_DefaultAPI(::UnityEngine::ResourcesAPI* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ResourcesAPI() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourcesAPI();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ResourcesAPI", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ResourcesAPI(ResourcesAPI&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ResourcesAPI", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ResourcesAPI(ResourcesAPI && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ResourcesAPI", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ResourcesAPI(ResourcesAPI const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ResourcesAPI", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ResourcesAPI(ResourcesAPI const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10284 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10278};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourcesAPI, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ResourcesAPI);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourcesAPI*, "UnityEngine", "ResourcesAPI");

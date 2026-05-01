@@ -4,7 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelAnalytics)
+namespace BeatSaber::Analytics::Gameplay {
+class IGameplayEventsDispatcher;
+}
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
@@ -26,71 +30,92 @@ namespace GlobalNamespace {
 // CS Name: MissionLevelAnalytics
 class CORDL_TYPE MissionLevelAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _analyticsModel, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__analyticsModel, put=__cordl_internal_set__analyticsModel)) ::GlobalNamespace::IAnalyticsModel*  _analyticsModel;
+  // Declarations
+  /// @brief Field _analyticsModel, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel)) ::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-/// @brief Field _missionLevelScenesTransitionSetupData, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__missionLevelScenesTransitionSetupData, put=__cordl_internal_set__missionLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  _missionLevelScenesTransitionSetupData;
+  /// @brief Field _gameplayEventsDispatcher, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayEventsDispatcher,
+                      put = __cordl_internal_set__gameplayEventsDispatcher)) ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* _gameplayEventsDispatcher;
 
-/// @brief Method HandleMissionLevelDidFinishEvent, addr 0x57062c8, size 0x264, virtual false, abstract: false, final false
-inline void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*  missionLevelScenesTransitionSetupData, ::GlobalNamespace::MissionCompletionResults*  missionCompletionResults) ;
+  /// @brief Field _missionLevelScenesTransitionSetupData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionLevelScenesTransitionSetupData,
+                      put = __cordl_internal_set__missionLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>
+      _missionLevelScenesTransitionSetupData;
 
-static inline ::GlobalNamespace::MissionLevelAnalytics* New_ctor() ;
+  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x57753ac, size 0x410, virtual false, abstract: false, final false
+  inline void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
+                                               ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-/// @brief Method OnDestroy, addr 0x5706238, size 0x90, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  static inline ::GlobalNamespace::MissionLevelAnalytics* New_ctor();
 
-/// @brief Method Start, addr 0x57061a8, size 0x90, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method OnDestroy, addr 0x577531c, size 0x90, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
+  /// @brief Method Start, addr 0x577528c, size 0x90, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel() ;
+  constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
 
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelScenesTransitionSetupData() const;
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelScenesTransitionSetupData() ;
+  constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* const& __cordl_internal_get__gameplayEventsDispatcher() const;
 
-constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel*  value) ;
+  constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*& __cordl_internal_get__gameplayEventsDispatcher();
 
-constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  value) ;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelScenesTransitionSetupData() const;
 
-/// @brief Method .ctor, addr 0x570652c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelScenesTransitionSetupData();
+
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+
+  constexpr void __cordl_internal_set__gameplayEventsDispatcher(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* value);
+
+  constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
+
+  /// @brief Method .ctor, addr 0x57757bc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MissionLevelAnalytics() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionLevelAnalytics();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelAnalytics", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MissionLevelAnalytics(MissionLevelAnalytics&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelAnalytics", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MissionLevelAnalytics(MissionLevelAnalytics && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelAnalytics", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MissionLevelAnalytics(MissionLevelAnalytics const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MissionLevelAnalytics", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MissionLevelAnalytics(MissionLevelAnalytics const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5545 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5543};
+  /// @brief Field kDefaultMissionObjectiveResultsMask offset 0xffffffff size 0x1
+  static constexpr uint8_t kDefaultMissionObjectiveResultsMask{ static_cast<uint8_t>(0xffu) };
 
-/// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  ____missionLevelScenesTransitionSetupData;
+  /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelScenesTransitionSetupData;
 
-/// @brief Field _analyticsModel, offset: 0x28, size: 0x8, def value: None
- ::GlobalNamespace::IAnalyticsModel*  ____analyticsModel;
+  /// @brief Field _analyticsModel, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  /// @brief Field _gameplayEventsDispatcher, offset: 0x30, size: 0x8, def value: None
+  ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* ____gameplayEventsDispatcher;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionLevelAnalytics, ____missionLevelScenesTransitionSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionLevelAnalytics, ____analyticsModel) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelAnalytics, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelAnalytics, ____gameplayEventsDispatcher) == 0x30, "Offset mismatch!");
 
-} // namespace end def GlobalNamespace
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelAnalytics, 0x38>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelAnalytics);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelAnalytics*, "", "MissionLevelAnalytics");

@@ -26,56 +26,58 @@ namespace Meta::XR::EnvironmentDepth {
 // CS Name: Meta.XR.EnvironmentDepth.DepthProviderNotSupported
 class CORDL_TYPE DepthProviderNotSupported : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported)) bool  Meta_XR_EnvironmentDepth_IDepthProvider_IsSupported;
+  // Declarations
+  __declspec(property(get = Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported)) bool Meta_XR_EnvironmentDepth_IDepthProvider_IsSupported;
 
- __declspec(property(put=Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands)) bool  Meta_XR_EnvironmentDepth_IDepthProvider_RemoveHands;
+  __declspec(property(put = Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands)) bool Meta_XR_EnvironmentDepth_IDepthProvider_RemoveHands;
 
-/// @brief Convert operator to "::Meta::XR::EnvironmentDepth::IDepthProvider"
-constexpr operator  ::Meta::XR::EnvironmentDepth::IDepthProvider*() noexcept;
+  /// @brief Convert operator to "::Meta::XR::EnvironmentDepth::IDepthProvider"
+  constexpr operator ::Meta::XR::EnvironmentDepth::IDepthProvider*() noexcept;
 
-/// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.SetDepthEnabled, addr 0x588fff8, size 0x4, virtual true, abstract: false, final true
-inline void Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled(bool  isEnabled, bool  removeHands) ;
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.SetDepthEnabled, addr 0x5901f64, size 0x4, virtual true, abstract: false, final true
+  inline void Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled(bool isEnabled, bool removeHands);
 
-/// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.TryGetUpdatedDepthTexture, addr 0x588fffc, size 0x38, virtual true, abstract: false, final true
-inline bool Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture(::ByRef<::UnityEngine::RenderTexture*>  depthTexture, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>  frameDescriptors) ;
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.TryGetUpdatedDepthTexture, addr 0x5901f68, size 0x38, virtual true, abstract: false, final true
+  inline bool
+  Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture(::ByRef<::UnityEngine::RenderTexture*> depthTexture,
+                                                                    ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> frameDescriptors);
 
-/// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.get_IsSupported, addr 0x588ffec, size 0x8, virtual true, abstract: false, final true
-inline bool Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported() ;
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.get_IsSupported, addr 0x5901f58, size 0x8, virtual true, abstract: false, final true
+  inline bool Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported();
 
-/// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.set_RemoveHands, addr 0x588fff4, size 0x4, virtual true, abstract: false, final true
-inline void Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands(bool  value) ;
+  /// @brief Method Meta.XR.EnvironmentDepth.IDepthProvider.set_RemoveHands, addr 0x5901f60, size 0x4, virtual true, abstract: false, final true
+  inline void Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands(bool value);
 
-static inline ::Meta::XR::EnvironmentDepth::DepthProviderNotSupported* New_ctor() ;
+  static inline ::Meta::XR::EnvironmentDepth::DepthProviderNotSupported* New_ctor();
 
-/// @brief Method .ctor, addr 0x588d764, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58ff6d0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::Meta::XR::EnvironmentDepth::IDepthProvider"
-constexpr ::Meta::XR::EnvironmentDepth::IDepthProvider* i___Meta__XR__EnvironmentDepth__IDepthProvider() noexcept;
+  /// @brief Convert to "::Meta::XR::EnvironmentDepth::IDepthProvider"
+  constexpr ::Meta::XR::EnvironmentDepth::IDepthProvider* i___Meta__XR__EnvironmentDepth__IDepthProvider() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DepthProviderNotSupported() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DepthProviderNotSupported();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DepthProviderNotSupported", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DepthProviderNotSupported(DepthProviderNotSupported&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DepthProviderNotSupported", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DepthProviderNotSupported(DepthProviderNotSupported && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DepthProviderNotSupported", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DepthProviderNotSupported(DepthProviderNotSupported const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DepthProviderNotSupported", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DepthProviderNotSupported(DepthProviderNotSupported const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22737 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22629};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::EnvironmentDepth::DepthProviderNotSupported, 0x10>, "Size mismatch!");
 
-} // namespace end def Meta::XR::EnvironmentDepth
+} // namespace Meta::XR::EnvironmentDepth
 NEED_NO_BOX(::Meta::XR::EnvironmentDepth::DepthProviderNotSupported);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::EnvironmentDepth::DepthProviderNotSupported*, "Meta.XR.EnvironmentDepth", "DepthProviderNotSupported");

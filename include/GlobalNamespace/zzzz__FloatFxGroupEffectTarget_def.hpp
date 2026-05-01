@@ -19,40 +19,40 @@ namespace GlobalNamespace {
 // CS Name: FloatFxGroupEffectTarget
 class CORDL_TYPE FloatFxGroupEffectTarget : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-static inline ::GlobalNamespace::FloatFxGroupEffectTarget* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::FloatFxGroupEffectTarget* New_ctor();
 
-/// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void SetValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
+  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-/// @brief Method TriggerValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void TriggerValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
+  /// @brief Method TriggerValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
-/// @brief Method .ctor, addr 0x57e0ba4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5852a9c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr FloatFxGroupEffectTarget() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatFxGroupEffectTarget();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  FloatFxGroupEffectTarget(FloatFxGroupEffectTarget&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-FloatFxGroupEffectTarget(FloatFxGroupEffectTarget && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  FloatFxGroupEffectTarget(FloatFxGroupEffectTarget const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-FloatFxGroupEffectTarget(FloatFxGroupEffectTarget const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5840};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatFxGroupEffectTarget, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatFxGroupEffectTarget);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatFxGroupEffectTarget*, "", "FloatFxGroupEffectTarget");

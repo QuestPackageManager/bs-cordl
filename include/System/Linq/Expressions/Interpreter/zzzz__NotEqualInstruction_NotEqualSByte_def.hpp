@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.NotEqualInstruction/NotEqualSByte
 class CORDL_TYPE NotEqualInstruction_NotEqualSByte : public ::System::Linq::Expressions::Interpreter::NotEqualInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::NotEqualInstruction_NotEqualSByte* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::NotEqualInstruction_NotEqualSByte* New_ctor();
 
-/// @brief Method Run, addr 0x5e03c4c, size 0xac, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e75c58, size 0xac, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5e03b70, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e75b7c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NotEqualInstruction_NotEqualSByte() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotEqualInstruction_NotEqualSByte();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualSByte", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NotEqualInstruction_NotEqualSByte(NotEqualInstruction_NotEqualSByte&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualSByte", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NotEqualInstruction_NotEqualSByte(NotEqualInstruction_NotEqualSByte && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualSByte", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NotEqualInstruction_NotEqualSByte(NotEqualInstruction_NotEqualSByte const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualSByte", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NotEqualInstruction_NotEqualSByte(NotEqualInstruction_NotEqualSByte const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16498 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16490};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NotEqualInstruction_NotEqualSByte, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NotEqualInstruction_NotEqualSByte);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NotEqualInstruction_NotEqualSByte*, "System.Linq.Expressions.Interpreter", "NotEqualInstruction/NotEqualSByte");

@@ -7,8 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeRingQueueDispose)
 namespace Unity::Collections::LowLevel::Unsafe {
-template<typename T>
-struct UnsafeRingQueue_1;
+template <typename T> struct UnsafeRingQueue_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -16,38 +15,38 @@ struct NativeRingQueueDispose;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeRingQueueDispose);
-// Dependencies 
+// Dependencies
 namespace Unity::Collections {
 // Is value type: true
 // CS Name: Unity.Collections.NativeRingQueueDispose
 struct CORDL_TYPE NativeRingQueueDispose {
 public:
-// Declarations
-/// @brief Method Dispose, addr 0x630d2d0, size 0x4c, virtual false, abstract: false, final false
-inline void Dispose() ;
+  // Declarations
+  /// @brief Method Dispose, addr 0x637f2dc, size 0x4c, virtual false, abstract: false, final false
+  inline void Dispose();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr NativeRingQueueDispose() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeRingQueueDispose();
 
-// Ctor Parameters [CppParam { name: "m_QueueData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>*", modifiers: "", def_value: None }]
-constexpr NativeRingQueueDispose(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>*  m_QueueData) noexcept;
+  // Ctor Parameters [CppParam { name: "m_QueueData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>*", modifiers: "", def_value: None }]
+  constexpr NativeRingQueueDispose(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>* m_QueueData) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15662};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15669 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field m_QueueData, offset: 0x0, size: 0x8, def value: None
- ::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>*  m_QueueData;
+  /// @brief Field m_QueueData, offset: 0x0, size: 0x8, def value: None
+  ::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<int32_t>* m_QueueData;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::NativeRingQueueDispose, m_QueueData) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeRingQueueDispose, 0x8>, "Size mismatch!");
 
-} // namespace end def Unity::Collections
+} // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeRingQueueDispose, "Unity.Collections", "NativeRingQueueDispose");

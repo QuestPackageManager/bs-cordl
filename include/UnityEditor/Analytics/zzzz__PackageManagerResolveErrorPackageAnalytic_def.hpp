@@ -18,57 +18,57 @@ namespace UnityEditor::Analytics {
 // CS Name: UnityEditor.Analytics.PackageManagerResolveErrorPackageAnalytic
 class CORDL_TYPE PackageManagerResolveErrorPackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
-// Declarations
-/// @brief Field action, offset 0x68, size 0x8 
- __declspec(property(get=__cordl_internal_get_action, put=__cordl_internal_set_action)) ::StringW  action;
+  // Declarations
+  /// @brief Field action, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action)) ::StringW action;
 
-/// @brief Field reason, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get_reason, put=__cordl_internal_set_reason)) ::StringW  reason;
+  /// @brief Field reason, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) ::StringW reason;
 
-/// @brief Method CreatePackageManagerResolveErrorPackageAnalytic, addr 0x6c5a7e4, size 0x54, virtual false, abstract: false, final false
-static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* CreatePackageManagerResolveErrorPackageAnalytic() ;
+  /// @brief Method CreatePackageManagerResolveErrorPackageAnalytic, addr 0x6ccca2c, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* CreatePackageManagerResolveErrorPackageAnalytic();
 
-static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* New_ctor() ;
+  static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* New_ctor();
 
-constexpr ::StringW const& __cordl_internal_get_action() const;
+  constexpr ::StringW const& __cordl_internal_get_action() const;
 
-constexpr ::StringW& __cordl_internal_get_action() ;
+  constexpr ::StringW& __cordl_internal_get_action();
 
-constexpr ::StringW const& __cordl_internal_get_reason() const;
+  constexpr ::StringW const& __cordl_internal_get_reason() const;
 
-constexpr ::StringW& __cordl_internal_get_reason() ;
+  constexpr ::StringW& __cordl_internal_get_reason();
 
-constexpr void __cordl_internal_set_action(::StringW  value) ;
+  constexpr void __cordl_internal_set_action(::StringW value);
 
-constexpr void __cordl_internal_set_reason(::StringW  value) ;
+  constexpr void __cordl_internal_set_reason(::StringW value);
 
-/// @brief Method .ctor, addr 0x6c5a750, size 0x94, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ccc998, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PackageManagerResolveErrorPackageAnalytic() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PackageManagerResolveErrorPackageAnalytic();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolveErrorPackageAnalytic", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PackageManagerResolveErrorPackageAnalytic(PackageManagerResolveErrorPackageAnalytic&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolveErrorPackageAnalytic", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PackageManagerResolveErrorPackageAnalytic(PackageManagerResolveErrorPackageAnalytic && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolveErrorPackageAnalytic", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PackageManagerResolveErrorPackageAnalytic(PackageManagerResolveErrorPackageAnalytic const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolveErrorPackageAnalytic", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PackageManagerResolveErrorPackageAnalytic(PackageManagerResolveErrorPackageAnalytic const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22708 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22600};
+  /// @brief Field reason, offset: 0x60, size: 0x8, def value: None
+  ::StringW ___reason;
 
-/// @brief Field reason, offset: 0x60, size: 0x8, def value: None
- ::StringW  ___reason;
+  /// @brief Field action, offset: 0x68, size: 0x8, def value: None
+  ::StringW ___action;
 
-/// @brief Field action, offset: 0x68, size: 0x8, def value: None
- ::StringW  ___action;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic, ___reason) == 0x60, "Offset mismatch!");
@@ -77,6 +77,6 @@ static_assert(offsetof(::UnityEditor::Analytics::PackageManagerResolveErrorPacka
 
 static_assert(::cordl_internals::size_check_v<::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic, 0x70>, "Size mismatch!");
 
-} // namespace end def UnityEditor::Analytics
+} // namespace UnityEditor::Analytics
 NEED_NO_BOX(::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic*, "UnityEditor.Analytics", "PackageManagerResolveErrorPackageAnalytic");

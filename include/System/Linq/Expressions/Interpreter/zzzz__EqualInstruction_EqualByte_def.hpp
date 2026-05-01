@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.EqualInstruction/EqualByte
 class CORDL_TYPE EqualInstruction_EqualByte : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::EqualInstruction_EqualByte* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::EqualInstruction_EqualByte* New_ctor();
 
-/// @brief Method Run, addr 0x5ddf250, size 0xa8, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e5125c, size 0xa8, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5ddee44, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e50e50, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EqualInstruction_EqualByte() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EqualInstruction_EqualByte();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualByte", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EqualInstruction_EqualByte(EqualInstruction_EqualByte&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualByte", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EqualInstruction_EqualByte(EqualInstruction_EqualByte && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualByte", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EqualInstruction_EqualByte(EqualInstruction_EqualByte const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualByte", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EqualInstruction_EqualByte(EqualInstruction_EqualByte const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16299 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16291};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EqualInstruction_EqualByte, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EqualInstruction_EqualByte);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EqualInstruction_EqualByte*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualByte");

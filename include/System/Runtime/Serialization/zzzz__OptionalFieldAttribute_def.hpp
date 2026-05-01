@@ -18,53 +18,53 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.OptionalFieldAttribute
 class CORDL_TYPE OptionalFieldAttribute : public ::System::Attribute {
 public:
-// Declarations
- __declspec(property(put=set_VersionAdded)) int32_t  VersionAdded;
+  // Declarations
+  __declspec(property(put = set_VersionAdded)) int32_t VersionAdded;
 
-/// @brief Field versionAdded, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_versionAdded, put=__cordl_internal_set_versionAdded)) int32_t  versionAdded;
+  /// @brief Field versionAdded, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_versionAdded, put = __cordl_internal_set_versionAdded)) int32_t versionAdded;
 
-static inline ::System::Runtime::Serialization::OptionalFieldAttribute* New_ctor() ;
+  static inline ::System::Runtime::Serialization::OptionalFieldAttribute* New_ctor();
 
-constexpr int32_t const& __cordl_internal_get_versionAdded() const;
+  constexpr int32_t const& __cordl_internal_get_versionAdded() const;
 
-constexpr int32_t& __cordl_internal_get_versionAdded() ;
+  constexpr int32_t& __cordl_internal_get_versionAdded();
 
-constexpr void __cordl_internal_set_versionAdded(int32_t  value) ;
+  constexpr void __cordl_internal_set_versionAdded(int32_t value);
 
-/// @brief Method .ctor, addr 0x59a54b0, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5a1741c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method set_VersionAdded, addr 0x59a54bc, size 0x60, virtual false, abstract: false, final false
-inline void set_VersionAdded(int32_t  value) ;
+  /// @brief Method set_VersionAdded, addr 0x5a17428, size 0x60, virtual false, abstract: false, final false
+  inline void set_VersionAdded(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OptionalFieldAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OptionalFieldAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalFieldAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OptionalFieldAttribute(OptionalFieldAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OptionalFieldAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OptionalFieldAttribute(OptionalFieldAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalFieldAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OptionalFieldAttribute(OptionalFieldAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OptionalFieldAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OptionalFieldAttribute(OptionalFieldAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3244 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3244};
+  /// @brief Field versionAdded, offset: 0x10, size: 0x4, def value: None
+  int32_t ___versionAdded;
 
-/// @brief Field versionAdded, offset: 0x10, size: 0x4, def value: None
- int32_t  ___versionAdded;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::OptionalFieldAttribute, ___versionAdded) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::OptionalFieldAttribute, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Serialization
+} // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::OptionalFieldAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::OptionalFieldAttribute*, "System.Runtime.Serialization", "OptionalFieldAttribute");

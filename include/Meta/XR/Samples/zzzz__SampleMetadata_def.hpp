@@ -19,63 +19,63 @@ namespace Meta::XR::Samples {
 // CS Name: Meta.XR.Samples.SampleMetadata
 class CORDL_TYPE SampleMetadata : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _timestampOpen, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get__timestampOpen, put=__cordl_internal_set__timestampOpen)) float_t  _timestampOpen;
+  // Declarations
+  /// @brief Field _timestampOpen, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__timestampOpen, put = __cordl_internal_set__timestampOpen)) float_t _timestampOpen;
 
-/// @brief Method Awake, addr 0x5ca2958, size 0x40, virtual false, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x5d14940, size 0x40, virtual false, abstract: false, final false
+  inline void Awake();
 
-static inline ::Meta::XR::Samples::SampleMetadata* New_ctor() ;
+  static inline ::Meta::XR::Samples::SampleMetadata* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x5ca2998, size 0x4, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x5d14980, size 0x4, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method OnEditorShutdown, addr 0x5ca2d78, size 0xc, virtual false, abstract: false, final false
-inline void OnEditorShutdown() ;
+  /// @brief Method OnEditorShutdown, addr 0x5d14d60, size 0xc, virtual false, abstract: false, final false
+  inline void OnEditorShutdown();
 
-/// @brief Method SendEvent, addr 0x5ca2a2c, size 0x34c, virtual false, abstract: false, final false
-inline void SendEvent(int32_t  eventType) ;
+  /// @brief Method SendEvent, addr 0x5d14a14, size 0x34c, virtual false, abstract: false, final false
+  inline void SendEvent(int32_t eventType);
 
-/// @brief Method Start, addr 0x5ca299c, size 0x90, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x5d14984, size 0x90, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr float_t const& __cordl_internal_get__timestampOpen() const;
+  constexpr float_t const& __cordl_internal_get__timestampOpen() const;
 
-constexpr float_t& __cordl_internal_get__timestampOpen() ;
+  constexpr float_t& __cordl_internal_get__timestampOpen();
 
-constexpr void __cordl_internal_set__timestampOpen(float_t  value) ;
+  constexpr void __cordl_internal_set__timestampOpen(float_t value);
 
-/// @brief Method .ctor, addr 0x5ca2d84, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5d14d6c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SampleMetadata() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SampleMetadata();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SampleMetadata(SampleMetadata&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SampleMetadata(SampleMetadata && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SampleMetadata(SampleMetadata const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SampleMetadata", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SampleMetadata(SampleMetadata const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8558 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8552};
+  /// @brief Field _timestampOpen, offset: 0x20, size: 0x4, def value: None
+  float_t ____timestampOpen;
 
-/// @brief Field _timestampOpen, offset: 0x20, size: 0x4, def value: None
- float_t  ____timestampOpen;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::Samples::SampleMetadata, ____timestampOpen) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::Samples::SampleMetadata, 0x28>, "Size mismatch!");
 
-} // namespace end def Meta::XR::Samples
+} // namespace Meta::XR::Samples
 NEED_NO_BOX(::Meta::XR::Samples::SampleMetadata);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::Samples::SampleMetadata*, "Meta.XR.Samples", "SampleMetadata");

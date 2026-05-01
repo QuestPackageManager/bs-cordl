@@ -36,68 +36,68 @@ namespace Newtonsoft::Json::Converters {
 // CS Name: Newtonsoft.Json.Converters.EntityKeyMemberConverter
 class CORDL_TYPE EntityKeyMemberConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
-// Declarations
-/// @brief Field _reflectionObject, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__reflectionObject, put=setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject*  _reflectionObject;
+  // Declarations
+  /// @brief Field _reflectionObject, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__reflectionObject, put = setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
 
-/// @brief Method CanConvert, addr 0x5becec0, size 0x64, virtual true, abstract: false, final false
-inline bool CanConvert(::System::Type*  objectType) ;
+  /// @brief Method CanConvert, addr 0x5c5eea8, size 0x64, virtual true, abstract: false, final false
+  inline bool CanConvert(::System::Type* objectType);
 
-/// @brief Method EnsureReflectionObject, addr 0x5beca08, size 0xf0, virtual false, abstract: false, final false
-static inline void EnsureReflectionObject(::System::Type*  objectType) ;
+  /// @brief Method EnsureReflectionObject, addr 0x5c5e9f0, size 0xf0, virtual false, abstract: false, final false
+  static inline void EnsureReflectionObject(::System::Type* objectType);
 
-static inline ::Newtonsoft::Json::Converters::EntityKeyMemberConverter* New_ctor() ;
+  static inline ::Newtonsoft::Json::Converters::EntityKeyMemberConverter* New_ctor();
 
-/// @brief Method ReadAndAssertProperty, addr 0x5becaf8, size 0xf4, virtual false, abstract: false, final false
-static inline void ReadAndAssertProperty(::Newtonsoft::Json::JsonReader*  reader, ::StringW  propertyName) ;
+  /// @brief Method ReadAndAssertProperty, addr 0x5c5eae0, size 0xf4, virtual false, abstract: false, final false
+  static inline void ReadAndAssertProperty(::Newtonsoft::Json::JsonReader* reader, ::StringW propertyName);
 
-/// @brief Method ReadJson, addr 0x5becbec, size 0x2d4, virtual true, abstract: false, final false
-inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
+  /// @brief Method ReadJson, addr 0x5c5ebd4, size 0x2d4, virtual true, abstract: false, final false
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-/// @brief Method WriteJson, addr 0x5bec6a8, size 0x360, virtual true, abstract: false, final false
-inline void WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
+  /// @brief Method WriteJson, addr 0x5c5e690, size 0x360, virtual true, abstract: false, final false
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-/// @brief Method .ctor, addr 0x5becf24, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5c5ef0c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject() ;
+  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject();
 
-static inline void setStaticF__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject*  value) ;
+  static inline void setStaticF__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EntityKeyMemberConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EntityKeyMemberConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EntityKeyMemberConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EntityKeyMemberConverter(EntityKeyMemberConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EntityKeyMemberConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EntityKeyMemberConverter(EntityKeyMemberConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EntityKeyMemberConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EntityKeyMemberConverter(EntityKeyMemberConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EntityKeyMemberConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EntityKeyMemberConverter(EntityKeyMemberConverter const& ) = delete;
+  /// @brief Field EntityKeyMemberFullTypeName offset 0xffffffff size 0x8
+  static constexpr ::ConstString EntityKeyMemberFullTypeName{ u"System.Data.EntityKeyMember" };
 
-/// @brief Field EntityKeyMemberFullTypeName offset 0xffffffff size 0x8
-static constexpr ::ConstString  EntityKeyMemberFullTypeName{u"System.Data.EntityKeyMember"};
+  /// @brief Field KeyPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString KeyPropertyName{ u"Key" };
 
-/// @brief Field KeyPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  KeyPropertyName{u"Key"};
+  /// @brief Field TypePropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString TypePropertyName{ u"Type" };
 
-/// @brief Field TypePropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  TypePropertyName{u"Type"};
+  /// @brief Field ValuePropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ValuePropertyName{ u"Value" };
 
-/// @brief Field ValuePropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  ValuePropertyName{u"Value"};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13644 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13637};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::EntityKeyMemberConverter, 0x10>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Converters
+} // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::EntityKeyMemberConverter);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::EntityKeyMemberConverter*, "Newtonsoft.Json.Converters", "EntityKeyMemberConverter");

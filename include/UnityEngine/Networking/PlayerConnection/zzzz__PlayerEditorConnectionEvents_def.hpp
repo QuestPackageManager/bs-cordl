@@ -9,27 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerEditorConnectionEvents)
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 struct Guid;
 }
 namespace UnityEngine::Events {
-template<typename T0>
-class UnityAction_1;
+template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::Events {
-template<typename T0>
-class UnityEvent_1;
+template <typename T0> class UnityEvent_1;
 }
 namespace UnityEngine::Networking::PlayerConnection {
 class MessageEventArgs;
@@ -67,144 +62,145 @@ namespace UnityEngine::Networking::PlayerConnection {
 // CS Name: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent
 class CORDL_TYPE PlayerEditorConnectionEvents_MessageEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*> {
 public:
-// Declarations
-static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* New_ctor();
 
-/// @brief Method .ctor, addr 0x69390a4, size 0x48, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69ab2c0, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PlayerEditorConnectionEvents_MessageEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerEditorConnectionEvents_MessageEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10642 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10636};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent, 0x30>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Networking::PlayerConnection
+} // namespace UnityEngine::Networking::PlayerConnection
 // Dependencies UnityEngine.Events.UnityEvent`1<T0>
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent
 class CORDL_TYPE PlayerEditorConnectionEvents_ConnectionChangeEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {
 public:
-// Declarations
-static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* New_ctor();
 
-/// @brief Method .ctor, addr 0x69390ec, size 0x48, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69ab308, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PlayerEditorConnectionEvents_ConnectionChangeEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerEditorConnectionEvents_ConnectionChangeEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10643 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10637};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent, 0x30>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Networking::PlayerConnection
+} // namespace UnityEngine::Networking::PlayerConnection
 // Dependencies System.Object
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers
 class CORDL_TYPE PlayerEditorConnectionEvents_MessageTypeSubscribers : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_MessageTypeId, put=set_MessageTypeId)) ::System::Guid  MessageTypeId;
+  // Declarations
+  __declspec(property(get = get_MessageTypeId, put = set_MessageTypeId)) ::System::Guid MessageTypeId;
 
-/// @brief Field m_messageTypeId, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_messageTypeId, put=__cordl_internal_set_m_messageTypeId)) ::StringW  m_messageTypeId;
+  /// @brief Field m_messageTypeId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_messageTypeId, put = __cordl_internal_set_m_messageTypeId)) ::StringW m_messageTypeId;
 
-/// @brief Field messageCallback, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_messageCallback, put=__cordl_internal_set_messageCallback)) ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*  messageCallback;
+  /// @brief Field messageCallback, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_messageCallback,
+                      put = __cordl_internal_set_messageCallback)) ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* messageCallback;
 
-/// @brief Field subscriberCount, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get_subscriberCount, put=__cordl_internal_set_subscriberCount)) int32_t  subscriberCount;
+  /// @brief Field subscriberCount, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_subscriberCount, put = __cordl_internal_set_subscriberCount)) int32_t subscriberCount;
 
-static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* New_ctor() ;
+  static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* New_ctor();
 
-constexpr ::StringW const& __cordl_internal_get_m_messageTypeId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_messageTypeId() const;
 
-constexpr ::StringW& __cordl_internal_get_m_messageTypeId() ;
+  constexpr ::StringW& __cordl_internal_get_m_messageTypeId();
 
-constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* const& __cordl_internal_get_messageCallback() const;
+  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* const& __cordl_internal_get_messageCallback() const;
 
-constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*& __cordl_internal_get_messageCallback() ;
+  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*& __cordl_internal_get_messageCallback();
 
-constexpr int32_t const& __cordl_internal_get_subscriberCount() const;
+  constexpr int32_t const& __cordl_internal_get_subscriberCount() const;
 
-constexpr int32_t& __cordl_internal_get_subscriberCount() ;
+  constexpr int32_t& __cordl_internal_get_subscriberCount();
 
-constexpr void __cordl_internal_set_m_messageTypeId(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_messageTypeId(::StringW value);
 
-constexpr void __cordl_internal_set_messageCallback(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*  value) ;
+  constexpr void __cordl_internal_set_messageCallback(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* value);
 
-constexpr void __cordl_internal_set_subscriberCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_subscriberCount(int32_t value);
 
-/// @brief Method .ctor, addr 0x693901c, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69ab238, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_MessageTypeId, addr 0x6938be0, size 0x2c, virtual false, abstract: false, final false
-inline ::System::Guid get_MessageTypeId() ;
+  /// @brief Method get_MessageTypeId, addr 0x69aadfc, size 0x2c, virtual false, abstract: false, final false
+  inline ::System::Guid get_MessageTypeId();
 
-/// @brief Method set_MessageTypeId, addr 0x6939078, size 0x2c, virtual false, abstract: false, final false
-inline void set_MessageTypeId(::System::Guid  value) ;
+  /// @brief Method set_MessageTypeId, addr 0x69ab294, size 0x2c, virtual false, abstract: false, final false
+  inline void set_MessageTypeId(::System::Guid value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PlayerEditorConnectionEvents_MessageTypeSubscribers() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerEditorConnectionEvents_MessageTypeSubscribers();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10644 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10638};
+  /// @brief Field m_messageTypeId, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___m_messageTypeId;
 
-/// @brief Field m_messageTypeId, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___m_messageTypeId;
+  /// @brief Field subscriberCount, offset: 0x18, size: 0x4, def value: None
+  int32_t ___subscriberCount;
 
-/// @brief Field subscriberCount, offset: 0x18, size: 0x4, def value: None
- int32_t  ___subscriberCount;
+  /// @brief Field messageCallback, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* ___messageCallback;
 
-/// @brief Field messageCallback, offset: 0x20, size: 0x8, def value: None
- ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*  ___messageCallback;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers, ___m_messageTypeId) == 0x10, "Offset mismatch!");
@@ -215,108 +211,119 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::PlayerEditor
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Networking::PlayerConnection
+} // namespace UnityEngine::Networking::PlayerConnection
 // Dependencies System.Object
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
 class CORDL_TYPE PlayerEditorConnectionEvents : public ::System::Object {
 public:
-// Declarations
-using ConnectionChangeEvent = ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent;
+  // Declarations
+  using ConnectionChangeEvent = ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent;
 
-using MessageEvent = ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent;
+  using MessageEvent = ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent;
 
-using MessageTypeSubscribers = ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers;
+  using MessageTypeSubscribers = ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers;
 
-/// @brief Field connectionEvent, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_connectionEvent, put=__cordl_internal_set_connectionEvent)) ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  connectionEvent;
+  /// @brief Field connectionEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_connectionEvent,
+                      put = __cordl_internal_set_connectionEvent)) ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* connectionEvent;
 
-/// @brief Field disconnectionEvent, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_disconnectionEvent, put=__cordl_internal_set_disconnectionEvent)) ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  disconnectionEvent;
+  /// @brief Field disconnectionEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_disconnectionEvent,
+                      put = __cordl_internal_set_disconnectionEvent)) ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* disconnectionEvent;
 
-/// @brief Field m_MessageTypeSubscribers, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_MessageTypeSubscribers, put=__cordl_internal_set_m_MessageTypeSubscribers)) ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  m_MessageTypeSubscribers;
+  /// @brief Field m_MessageTypeSubscribers, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MessageTypeSubscribers, put = __cordl_internal_set_m_MessageTypeSubscribers)) ::System::Collections::Generic::List_1<
+      ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* m_MessageTypeSubscribers;
 
-/// @brief Field m_SubscriberLookup, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_SubscriberLookup, put=__cordl_internal_set_m_SubscriberLookup)) ::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  m_SubscriberLookup;
+  /// @brief Field m_SubscriberLookup, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SubscriberLookup, put = __cordl_internal_set_m_SubscriberLookup)) ::System::Collections::Generic::Dictionary_2<
+      ::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* m_SubscriberLookup;
 
- __declspec(property(get=get_messageTypeSubscribers)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  messageTypeSubscribers;
+  __declspec(property(
+      get = get_messageTypeSubscribers)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*
+      messageTypeSubscribers;
 
-/// @brief Method AddAndCreate, addr 0x69378c8, size 0x1cc, virtual false, abstract: false, final false
-inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid  messageId) ;
+  /// @brief Method AddAndCreate, addr 0x69a9ae4, size 0x1cc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid messageId);
 
-/// @brief Method BuildLookup, addr 0x6938c88, size 0x394, virtual false, abstract: false, final false
-inline void BuildLookup() ;
+  /// @brief Method BuildLookup, addr 0x69aaea4, size 0x394, virtual false, abstract: false, final false
+  inline void BuildLookup();
 
-/// @brief Method InvokeMessageIdSubscribers, addr 0x693871c, size 0x184, virtual false, abstract: false, final false
-inline void InvokeMessageIdSubscribers(::System::Guid  messageId, ::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  playerId) ;
+  /// @brief Method InvokeMessageIdSubscribers, addr 0x69aa938, size 0x184, virtual false, abstract: false, final false
+  inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
 
-static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor() ;
+  static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor();
 
-/// @brief Method UnregisterManagedCallback, addr 0x6937c48, size 0x148, virtual false, abstract: false, final false
-inline void UnregisterManagedCallback(::System::Guid  messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*  callback) ;
+  /// @brief Method UnregisterManagedCallback, addr 0x69a9e64, size 0x148, virtual false, abstract: false, final false
+  inline void UnregisterManagedCallback(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& __cordl_internal_get_connectionEvent() const;
+  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& __cordl_internal_get_connectionEvent() const;
 
-constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*& __cordl_internal_get_connectionEvent() ;
+  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*& __cordl_internal_get_connectionEvent();
 
-constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& __cordl_internal_get_disconnectionEvent() const;
+  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& __cordl_internal_get_disconnectionEvent() const;
 
-constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*& __cordl_internal_get_disconnectionEvent() ;
+  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*& __cordl_internal_get_disconnectionEvent();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* const& __cordl_internal_get_m_MessageTypeSubscribers() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* const&
+  __cordl_internal_get_m_MessageTypeSubscribers() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*& __cordl_internal_get_m_MessageTypeSubscribers() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*& __cordl_internal_get_m_MessageTypeSubscribers();
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* const& __cordl_internal_get_m_SubscriberLookup() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* const&
+  __cordl_internal_get_m_SubscriberLookup() const;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*& __cordl_internal_get_m_SubscriberLookup() ;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*&
+  __cordl_internal_get_m_SubscriberLookup();
 
-constexpr void __cordl_internal_set_connectionEvent(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  value) ;
+  constexpr void __cordl_internal_set_connectionEvent(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* value);
 
-constexpr void __cordl_internal_set_disconnectionEvent(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  value) ;
+  constexpr void __cordl_internal_set_disconnectionEvent(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* value);
 
-constexpr void __cordl_internal_set_m_MessageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  value) ;
+  constexpr void
+  __cordl_internal_set_m_MessageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* value);
 
-constexpr void __cordl_internal_set_m_SubscriberLookup(::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  value) ;
+  constexpr void __cordl_internal_set_m_SubscriberLookup(
+      ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* value);
 
-/// @brief Method .ctor, addr 0x6938ac4, size 0xb4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x69aace0, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_messageTypeSubscribers, addr 0x6938c80, size 0x8, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* get_messageTypeSubscribers() ;
+  /// @brief Method get_messageTypeSubscribers, addr 0x69aae9c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* get_messageTypeSubscribers();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PlayerEditorConnectionEvents() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerEditorConnectionEvents();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PlayerEditorConnectionEvents(PlayerEditorConnectionEvents&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PlayerEditorConnectionEvents(PlayerEditorConnectionEvents && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PlayerEditorConnectionEvents(PlayerEditorConnectionEvents const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PlayerEditorConnectionEvents(PlayerEditorConnectionEvents const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10645 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10639};
+  /// @brief Field m_MessageTypeSubscribers, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* ___m_MessageTypeSubscribers;
 
-/// @brief Field m_MessageTypeSubscribers, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  ___m_MessageTypeSubscribers;
+  /// @brief Field m_SubscriberLookup, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* ___m_SubscriberLookup;
 
-/// @brief Field m_SubscriberLookup, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  ___m_SubscriberLookup;
+  /// @brief Field connectionEvent, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* ___connectionEvent;
 
-/// @brief Field connectionEvent, offset: 0x20, size: 0x8, def value: None
- ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  ___connectionEvent;
+  /// @brief Field disconnectionEvent, offset: 0x28, size: 0x8, def value: None
+  ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* ___disconnectionEvent;
 
-/// @brief Field disconnectionEvent, offset: 0x28, size: 0x8, def value: None
- ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  ___disconnectionEvent;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents, ___m_MessageTypeSubscribers) == 0x10, "Offset mismatch!");
@@ -329,12 +336,14 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::PlayerEditor
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents, 0x30>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Networking::PlayerConnection
+} // namespace UnityEngine::Networking::PlayerConnection
 NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents");
 NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/ConnectionChangeEvent");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*, "UnityEngine.Networking.PlayerConnection",
+                       "PlayerEditorConnectionEvents/ConnectionChangeEvent");
 NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageEvent");
 NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageTypeSubscribers");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*, "UnityEngine.Networking.PlayerConnection",
+                       "PlayerEditorConnectionEvents/MessageTypeSubscribers");

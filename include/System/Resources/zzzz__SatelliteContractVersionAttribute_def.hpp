@@ -18,53 +18,53 @@ namespace System::Resources {
 // CS Name: System.Resources.SatelliteContractVersionAttribute
 class CORDL_TYPE SatelliteContractVersionAttribute : public ::System::Attribute {
 public:
-// Declarations
- __declspec(property(get=get_Version)) ::StringW  Version;
+  // Declarations
+  __declspec(property(get = get_Version)) ::StringW Version;
 
-/// @brief Field <Version>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__Version_k__BackingField, put=__cordl_internal_set__Version_k__BackingField)) ::StringW  _Version_k__BackingField;
+  /// @brief Field <Version>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Version_k__BackingField, put = __cordl_internal_set__Version_k__BackingField)) ::StringW _Version_k__BackingField;
 
-static inline ::System::Resources::SatelliteContractVersionAttribute* New_ctor(::StringW  version) ;
+  static inline ::System::Resources::SatelliteContractVersionAttribute* New_ctor(::StringW version);
 
-constexpr ::StringW const& __cordl_internal_get__Version_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Version_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Version_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Version_k__BackingField();
 
-constexpr void __cordl_internal_set__Version_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Version_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x59c531c, size 0x58, virtual false, abstract: false, final false
-inline void _ctor(::StringW  version) ;
+  /// @brief Method .ctor, addr 0x5a37288, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::StringW version);
 
-/// @brief Method get_Version, addr 0x59c5374, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Version() ;
+  /// @brief Method get_Version, addr 0x5a372e0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Version();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SatelliteContractVersionAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SatelliteContractVersionAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SatelliteContractVersionAttribute(SatelliteContractVersionAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SatelliteContractVersionAttribute(SatelliteContractVersionAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SatelliteContractVersionAttribute(SatelliteContractVersionAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SatelliteContractVersionAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SatelliteContractVersionAttribute(SatelliteContractVersionAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3449 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3449};
+  /// @brief Field <Version>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____Version_k__BackingField;
 
-/// @brief Field <Version>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::StringW  ____Version_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Resources::SatelliteContractVersionAttribute, ____Version_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Resources::SatelliteContractVersionAttribute, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Resources
+} // namespace System::Resources
 NEED_NO_BOX(::System::Resources::SatelliteContractVersionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");

@@ -23,61 +23,61 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlImplementation
 class CORDL_TYPE XmlImplementation : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_NameTable)) ::System::Xml::XmlNameTable*  NameTable;
+  // Declarations
+  __declspec(property(get = get_NameTable)) ::System::Xml::XmlNameTable* NameTable;
 
-/// @brief Field nameTable, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_nameTable, put=__cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable*  nameTable;
+  /// @brief Field nameTable, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
-/// @brief Method CreateDocument, addr 0x610e4e0, size 0x5c, virtual true, abstract: false, final false
-inline ::System::Xml::XmlDocument* CreateDocument() ;
+  /// @brief Method CreateDocument, addr 0x61804ec, size 0x5c, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlDocument* CreateDocument();
 
-static inline ::System::Xml::XmlImplementation* New_ctor() ;
+  static inline ::System::Xml::XmlImplementation* New_ctor();
 
-static inline ::System::Xml::XmlImplementation* New_ctor(::System::Xml::XmlNameTable*  nt) ;
+  static inline ::System::Xml::XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt);
 
-constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
+  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
 
-constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable() ;
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable*  value) ;
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-/// @brief Method .ctor, addr 0x61072b0, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x61792bc, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x6107734, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::XmlNameTable*  nt) ;
+  /// @brief Method .ctor, addr 0x6179740, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::XmlNameTable* nt);
 
-/// @brief Method get_NameTable, addr 0x610e53c, size 0x8, virtual false, abstract: false, final false
-inline ::System::Xml::XmlNameTable* get_NameTable() ;
+  /// @brief Method get_NameTable, addr 0x6180548, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlImplementation() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlImplementation();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlImplementation", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlImplementation(XmlImplementation&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlImplementation", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlImplementation(XmlImplementation && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlImplementation", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlImplementation(XmlImplementation const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlImplementation", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlImplementation(XmlImplementation const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9380 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9374};
+  /// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
+  ::System::Xml::XmlNameTable* ___nameTable;
 
-/// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
- ::System::Xml::XmlNameTable*  ___nameTable;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlImplementation, ___nameTable) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlImplementation, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlImplementation);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlImplementation*, "System.Xml", "XmlImplementation");

@@ -22,47 +22,47 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.LoadLocalFromClosureBoxedInstruction
 class CORDL_TYPE LoadLocalFromClosureBoxedInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction {
 public:
-// Declarations
- __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
+  // Declarations
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
- __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
+  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
-static inline ::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction* New_ctor(int32_t  index) ;
+  static inline ::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction* New_ctor(int32_t index);
 
-/// @brief Method Run, addr 0x5dfe124, size 0x90, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e70130, size 0x90, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5dfe0d0, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  index) ;
+  /// @brief Method .ctor, addr 0x5e700dc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t index);
 
-/// @brief Method get_InstructionName, addr 0x5dfe0e0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_InstructionName() ;
+  /// @brief Method get_InstructionName, addr 0x5e700ec, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_InstructionName();
 
-/// @brief Method get_ProducedStack, addr 0x5dfe0d8, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_ProducedStack() ;
+  /// @brief Method get_ProducedStack, addr 0x5e700e4, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ProducedStack();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LoadLocalFromClosureBoxedInstruction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LoadLocalFromClosureBoxedInstruction();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalFromClosureBoxedInstruction", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LoadLocalFromClosureBoxedInstruction(LoadLocalFromClosureBoxedInstruction&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LoadLocalFromClosureBoxedInstruction", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LoadLocalFromClosureBoxedInstruction(LoadLocalFromClosureBoxedInstruction && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LoadLocalFromClosureBoxedInstruction", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LoadLocalFromClosureBoxedInstruction(LoadLocalFromClosureBoxedInstruction const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LoadLocalFromClosureBoxedInstruction", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LoadLocalFromClosureBoxedInstruction(LoadLocalFromClosureBoxedInstruction const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16439 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16431};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction, 0x18>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction*, "System.Linq.Expressions.Interpreter", "LoadLocalFromClosureBoxedInstruction");

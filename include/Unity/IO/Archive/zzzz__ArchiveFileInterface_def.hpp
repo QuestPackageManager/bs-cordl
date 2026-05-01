@@ -17,29 +17,29 @@ namespace Unity::IO::Archive {
 // CS Name: Unity.IO.Archive.ArchiveFileInterface
 class CORDL_TYPE ArchiveFileInterface : public ::System::Object {
 public:
-// Declarations
+  // Declarations
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ArchiveFileInterface() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ArchiveFileInterface();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ArchiveFileInterface", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ArchiveFileInterface(ArchiveFileInterface&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ArchiveFileInterface", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ArchiveFileInterface(ArchiveFileInterface && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ArchiveFileInterface", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ArchiveFileInterface(ArchiveFileInterface const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ArchiveFileInterface", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ArchiveFileInterface(ArchiveFileInterface const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9969 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9963};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::IO::Archive::ArchiveFileInterface, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::IO::Archive
+} // namespace Unity::IO::Archive
 NEED_NO_BOX(::Unity::IO::Archive::ArchiveFileInterface);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::Archive::ArchiveFileInterface*, "Unity.IO.Archive", "ArchiveFileInterface");

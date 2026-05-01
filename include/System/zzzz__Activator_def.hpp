@@ -32,54 +32,57 @@ namespace System {
 // CS Name: System.Activator
 class CORDL_TYPE Activator : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CreateInstance, addr 0x5ac2df8, size 0xc, virtual false, abstract: false, final false
-static inline ::System::Object* CreateInstance(::System::Type*  type) ;
+  // Declarations
+  /// @brief Method CreateInstance, addr 0x5b34de0, size 0xc, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateInstance(::System::Type* type);
 
-/// @brief Method CreateInstance, addr 0x5ac2dc8, size 0x18, virtual false, abstract: false, final false
-static inline ::System::Object* CreateInstance(::System::Type*  type, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method CreateInstance, addr 0x5b34db0, size 0x18, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-/// @brief Method CreateInstance, addr 0x5ac2de0, size 0x18, virtual false, abstract: false, final false
-static inline ::System::Object* CreateInstance(::System::Type*  type, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  activationAttributes) ;
+  /// @brief Method CreateInstance, addr 0x5b34dc8, size 0x18, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
+                                                 ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-/// @brief Method CreateInstance, addr 0x5ac21fc, size 0x8, virtual false, abstract: false, final false
-static inline ::System::Object* CreateInstance(::System::Type*  type, ::System::Reflection::BindingFlags  bindingAttr, ::System::Reflection::Binder*  binder, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, ::System::Globalization::CultureInfo*  culture) ;
+  /// @brief Method CreateInstance, addr 0x5b341e4, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
+                                                 ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture);
 
-/// @brief Method CreateInstance, addr 0x5ac2204, size 0x1d8, virtual false, abstract: false, final false
-static inline ::System::Object* CreateInstance(::System::Type*  type, ::System::Reflection::BindingFlags  bindingAttr, ::System::Reflection::Binder*  binder, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, ::System::Globalization::CultureInfo*  culture, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  activationAttributes) ;
+  /// @brief Method CreateInstance, addr 0x5b341ec, size 0x1d8, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
+                                                 ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture,
+                                                 ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-/// @brief Method CreateInstance, addr 0x5ac2e04, size 0x8, virtual false, abstract: false, final false
-static inline ::System::Object* CreateInstance(::System::Type*  type, bool  nonPublic) ;
+  /// @brief Method CreateInstance, addr 0x5b34dec, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic);
 
-/// @brief Method CreateInstance, addr 0x5ac2e0c, size 0x174, virtual false, abstract: false, final false
-static inline ::System::Object* CreateInstance(::System::Type*  type, bool  nonPublic, bool  wrapExceptions) ;
+  /// @brief Method CreateInstance, addr 0x5b34df4, size 0x174, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic, bool wrapExceptions);
 
-/// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline T CreateInstance() ;
+  /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T CreateInstance();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Activator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Activator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Activator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Activator(Activator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Activator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Activator(Activator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Activator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Activator(Activator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Activator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Activator(Activator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2556 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2556};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Activator, 0x10>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::Activator);
 DEFINE_IL2CPP_ARG_TYPE(::System::Activator*, "System", "Activator");

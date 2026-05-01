@@ -12,64 +12,64 @@ struct SpinWait;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::SpinWait);
-// Dependencies 
+// Dependencies
 namespace System::Threading {
 // Is value type: true
 // CS Name: System.Threading.SpinWait
 struct CORDL_TYPE SpinWait {
 public:
-// Declarations
- __declspec(property(get=get_Count)) int32_t  Count;
+  // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
 
- __declspec(property(get=get_NextSpinWillYield)) bool  NextSpinWillYield;
+  __declspec(property(get = get_NextSpinWillYield)) bool NextSpinWillYield;
 
-/// @brief Field SpinCountforSpinBeforeWait, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_SpinCountforSpinBeforeWait, put=setStaticF_SpinCountforSpinBeforeWait)) int32_t  SpinCountforSpinBeforeWait;
+  /// @brief Field SpinCountforSpinBeforeWait, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_SpinCountforSpinBeforeWait, put = setStaticF_SpinCountforSpinBeforeWait)) int32_t SpinCountforSpinBeforeWait;
 
-/// @brief Method Reset, addr 0x5afba94, size 0x8, virtual false, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x5b6da7c, size 0x8, virtual false, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method SpinOnce, addr 0x5afb7b0, size 0x5c, virtual false, abstract: false, final false
-inline void SpinOnce() ;
+  /// @brief Method SpinOnce, addr 0x5b6d798, size 0x5c, virtual false, abstract: false, final false
+  inline void SpinOnce();
 
-/// @brief Method SpinOnce, addr 0x5afb3f0, size 0xf8, virtual false, abstract: false, final false
-inline void SpinOnce(int32_t  sleep1Threshold) ;
+  /// @brief Method SpinOnce, addr 0x5b6d3d8, size 0xf8, virtual false, abstract: false, final false
+  inline void SpinOnce(int32_t sleep1Threshold);
 
-/// @brief Method SpinOnceCore, addr 0x5afb928, size 0x16c, virtual false, abstract: false, final false
-inline void SpinOnceCore(int32_t  sleep1Threshold) ;
+  /// @brief Method SpinOnceCore, addr 0x5b6d910, size 0x16c, virtual false, abstract: false, final false
+  inline void SpinOnceCore(int32_t sleep1Threshold);
 
-static inline int32_t getStaticF_SpinCountforSpinBeforeWait() ;
+  static inline int32_t getStaticF_SpinCountforSpinBeforeWait();
 
-/// @brief Method get_Count, addr 0x5afb8a4, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_Count() ;
+  /// @brief Method get_Count, addr 0x5b6d88c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Count();
 
-/// @brief Method get_NextSpinWillYield, addr 0x5afb8ac, size 0x7c, virtual false, abstract: false, final false
-inline bool get_NextSpinWillYield() ;
+  /// @brief Method get_NextSpinWillYield, addr 0x5b6d894, size 0x7c, virtual false, abstract: false, final false
+  inline bool get_NextSpinWillYield();
 
-static inline void setStaticF_SpinCountforSpinBeforeWait(int32_t  value) ;
+  static inline void setStaticF_SpinCountforSpinBeforeWait(int32_t value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr SpinWait() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpinWait();
 
-// Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr SpinWait(int32_t  _count) noexcept;
+  // Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SpinWait(int32_t _count) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2692};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2692 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field _count, offset: 0x0, size: 0x4, def value: None
- int32_t  _count;
+  /// @brief Field _count, offset: 0x0, size: 0x4, def value: None
+  int32_t _count;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Threading::SpinWait, _count) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Threading::SpinWait, 0x4>, "Size mismatch!");
 
-} // namespace end def System::Threading
+} // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::SpinWait, "System.Threading", "SpinWait");

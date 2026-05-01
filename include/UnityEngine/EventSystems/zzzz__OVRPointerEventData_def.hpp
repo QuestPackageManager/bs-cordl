@@ -23,57 +23,57 @@ namespace UnityEngine::EventSystems {
 // CS Name: UnityEngine.EventSystems.OVRPointerEventData
 class CORDL_TYPE OVRPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
 public:
-// Declarations
-/// @brief Field swipeStart, offset 0x198, size 0x8 
- __declspec(property(get=__cordl_internal_get_swipeStart, put=__cordl_internal_set_swipeStart)) ::UnityEngine::Vector2  swipeStart;
+  // Declarations
+  /// @brief Field swipeStart, offset 0x198, size 0x8
+  __declspec(property(get = __cordl_internal_get_swipeStart, put = __cordl_internal_set_swipeStart)) ::UnityEngine::Vector2 swipeStart;
 
-/// @brief Field worldSpaceRay, offset 0x180, size 0x18 
- __declspec(property(get=__cordl_internal_get_worldSpaceRay, put=__cordl_internal_set_worldSpaceRay)) ::UnityEngine::Ray  worldSpaceRay;
+  /// @brief Field worldSpaceRay, offset 0x180, size 0x18
+  __declspec(property(get = __cordl_internal_get_worldSpaceRay, put = __cordl_internal_set_worldSpaceRay)) ::UnityEngine::Ray worldSpaceRay;
 
-static inline ::UnityEngine::EventSystems::OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem) ;
+  static inline ::UnityEngine::EventSystems::OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-/// @brief Method ToString, addr 0x5ca0f60, size 0x414, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5d12f48, size 0x414, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_swipeStart() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_swipeStart() const;
 
-constexpr ::UnityEngine::Vector2& __cordl_internal_get_swipeStart() ;
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_swipeStart();
 
-constexpr ::UnityEngine::Ray const& __cordl_internal_get_worldSpaceRay() const;
+  constexpr ::UnityEngine::Ray const& __cordl_internal_get_worldSpaceRay() const;
 
-constexpr ::UnityEngine::Ray& __cordl_internal_get_worldSpaceRay() ;
+  constexpr ::UnityEngine::Ray& __cordl_internal_get_worldSpaceRay();
 
-constexpr void __cordl_internal_set_swipeStart(::UnityEngine::Vector2  value) ;
+  constexpr void __cordl_internal_set_swipeStart(::UnityEngine::Vector2 value);
 
-constexpr void __cordl_internal_set_worldSpaceRay(::UnityEngine::Ray  value) ;
+  constexpr void __cordl_internal_set_worldSpaceRay(::UnityEngine::Ray value);
 
-/// @brief Method .ctor, addr 0x5ca0f58, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem) ;
+  /// @brief Method .ctor, addr 0x5d12f40, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr OVRPointerEventData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRPointerEventData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRPointerEventData(OVRPointerEventData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-OVRPointerEventData(OVRPointerEventData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRPointerEventData(OVRPointerEventData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-OVRPointerEventData(OVRPointerEventData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8549 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8543};
+  /// @brief Field worldSpaceRay, offset: 0x180, size: 0x18, def value: None
+  ::UnityEngine::Ray ___worldSpaceRay;
 
-/// @brief Field worldSpaceRay, offset: 0x180, size: 0x18, def value: None
- ::UnityEngine::Ray  ___worldSpaceRay;
+  /// @brief Field swipeStart, offset: 0x198, size: 0x8, def value: None
+  ::UnityEngine::Vector2 ___swipeStart;
 
-/// @brief Field swipeStart, offset: 0x198, size: 0x8, def value: None
- ::UnityEngine::Vector2  ___swipeStart;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::EventSystems::OVRPointerEventData, ___worldSpaceRay) == 0x180, "Offset mismatch!");
@@ -82,6 +82,6 @@ static_assert(offsetof(::UnityEngine::EventSystems::OVRPointerEventData, ___swip
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::OVRPointerEventData, 0x1a0>, "Size mismatch!");
 
-} // namespace end def UnityEngine::EventSystems
+} // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::OVRPointerEventData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");

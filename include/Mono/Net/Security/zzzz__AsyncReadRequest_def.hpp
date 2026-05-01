@@ -24,37 +24,38 @@ namespace Mono::Net::Security {
 // CS Name: Mono.Net.Security.AsyncReadRequest
 class CORDL_TYPE AsyncReadRequest : public ::Mono::Net::Security::AsyncReadOrWriteRequest {
 public:
-// Declarations
-static inline ::Mono::Net::Security::AsyncReadRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, bool  sync, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
+  // Declarations
+  static inline ::Mono::Net::Security::AsyncReadRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
+                                                                  int32_t size);
 
-/// @brief Method Run, addr 0x5e24150, size 0x68, virtual true, abstract: false, final false
-inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus  status) ;
+  /// @brief Method Run, addr 0x5e9615c, size 0x68, virtual true, abstract: false, final false
+  inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-/// @brief Method .ctor, addr 0x5e2414c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, bool  sync, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
+  /// @brief Method .ctor, addr 0x5e96158, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AsyncReadRequest() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncReadRequest();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadRequest", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AsyncReadRequest(AsyncReadRequest&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncReadRequest", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AsyncReadRequest(AsyncReadRequest && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadRequest", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AsyncReadRequest(AsyncReadRequest const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncReadRequest", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AsyncReadRequest(AsyncReadRequest const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11004 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10997};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::AsyncReadRequest, 0x48>, "Size mismatch!");
 
-} // namespace end def Mono::Net::Security
+} // namespace Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::AsyncReadRequest);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::AsyncReadRequest*, "Mono.Net.Security", "AsyncReadRequest");

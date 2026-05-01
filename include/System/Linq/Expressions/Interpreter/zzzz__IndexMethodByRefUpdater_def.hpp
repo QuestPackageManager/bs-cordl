@@ -24,8 +24,7 @@ namespace System::Reflection {
 class MethodInfo;
 }
 namespace System {
-template<typename T>
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -42,72 +41,79 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.IndexMethodByRefUpdater
 class CORDL_TYPE IndexMethodByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater {
 public:
-// Declarations
-/// @brief Field _args, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__args, put=__cordl_internal_set__args)) ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition,::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>  _args;
+  // Declarations
+  /// @brief Field _args, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__args,
+                      put = __cordl_internal_set__args)) ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>
+      _args;
 
-/// @brief Field _indexer, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__indexer, put=__cordl_internal_set__indexer)) ::System::Reflection::MethodInfo*  _indexer;
+  /// @brief Field _indexer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__indexer, put = __cordl_internal_set__indexer)) ::System::Reflection::MethodInfo* _indexer;
 
-/// @brief Field _obj, offset 0x20, size 0x18 
- __declspec(property(get=__cordl_internal_get__obj, put=__cordl_internal_set__obj)) ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>  _obj;
+  /// @brief Field _obj, offset 0x20, size 0x18
+  __declspec(property(get = __cordl_internal_get__obj, put = __cordl_internal_set__obj)) ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _obj;
 
-static inline ::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater* New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>  obj, ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition,::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>  args, ::System::Reflection::MethodInfo*  indexer, int32_t  argumentIndex) ;
+  static inline ::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater*
+  New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
+           ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args, ::System::Reflection::MethodInfo* indexer,
+           int32_t argumentIndex);
 
-/// @brief Method UndefineTemps, addr 0x5dfabf4, size 0x10c, virtual true, abstract: false, final false
-inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList*  instructions, ::System::Linq::Expressions::Interpreter::LocalVariables*  locals) ;
+  /// @brief Method UndefineTemps, addr 0x5e6cc00, size 0x10c, virtual true, abstract: false, final false
+  inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-/// @brief Method Update, addr 0x5dfa980, size 0x274, virtual true, abstract: false, final false
-inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame, ::System::Object*  value) ;
+  /// @brief Method Update, addr 0x5e6c98c, size 0x274, virtual true, abstract: false, final false
+  inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
-constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition,::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> const& __cordl_internal_get__args() const;
+  constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> const& __cordl_internal_get__args() const;
 
-constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition,::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>& __cordl_internal_get__args() ;
+  constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>& __cordl_internal_get__args();
 
-constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get__indexer() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get__indexer() const;
 
-constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__indexer() ;
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__indexer();
 
-constexpr ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> const& __cordl_internal_get__obj() const;
+  constexpr ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> const& __cordl_internal_get__obj() const;
 
-constexpr ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>& __cordl_internal_get__obj() ;
+  constexpr ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>& __cordl_internal_get__obj();
 
-constexpr void __cordl_internal_set__args(::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition,::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>  value) ;
+  constexpr void __cordl_internal_set__args(::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> value);
 
-constexpr void __cordl_internal_set__indexer(::System::Reflection::MethodInfo*  value) ;
+  constexpr void __cordl_internal_set__indexer(::System::Reflection::MethodInfo* value);
 
-constexpr void __cordl_internal_set__obj(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>  value) ;
+  constexpr void __cordl_internal_set__obj(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
 
-/// @brief Method .ctor, addr 0x5dfa964, size 0x1c, virtual false, abstract: false, final false
-inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>  obj, ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition,::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>  args, ::System::Reflection::MethodInfo*  indexer, int32_t  argumentIndex) ;
+  /// @brief Method .ctor, addr 0x5e6c970, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
+                    ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args,
+                    ::System::Reflection::MethodInfo* indexer, int32_t argumentIndex);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IndexMethodByRefUpdater() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IndexMethodByRefUpdater();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IndexMethodByRefUpdater", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IndexMethodByRefUpdater(IndexMethodByRefUpdater&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IndexMethodByRefUpdater", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IndexMethodByRefUpdater(IndexMethodByRefUpdater && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IndexMethodByRefUpdater", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IndexMethodByRefUpdater(IndexMethodByRefUpdater const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IndexMethodByRefUpdater", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IndexMethodByRefUpdater(IndexMethodByRefUpdater const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16429 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16421};
+  /// @brief Field _indexer, offset: 0x18, size: 0x8, def value: None
+  ::System::Reflection::MethodInfo* ____indexer;
 
-/// @brief Field _indexer, offset: 0x18, size: 0x8, def value: None
- ::System::Reflection::MethodInfo*  ____indexer;
+  /// @brief Field _obj, offset: 0x20, size: 0x18, def value: None
+  ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> ____obj;
 
-/// @brief Field _obj, offset: 0x20, size: 0x18, def value: None
- ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>  ____obj;
+  /// @brief Field _args, offset: 0x38, size: 0x8, def value: None
+  ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> ____args;
 
-/// @brief Field _args, offset: 0x38, size: 0x8, def value: None
- ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition,::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>  ____args;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater, ____indexer) == 0x18, "Offset mismatch!");
@@ -118,6 +124,6 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::IndexMethodByRe
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater, 0x40>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater*, "System.Linq.Expressions.Interpreter", "IndexMethodByRefUpdater");

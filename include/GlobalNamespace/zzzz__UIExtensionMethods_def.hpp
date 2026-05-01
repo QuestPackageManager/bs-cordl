@@ -23,35 +23,35 @@ namespace GlobalNamespace {
 // CS Name: UIExtensionMethods
 class CORDL_TYPE UIExtensionMethods : public ::System::Object {
 public:
-// Declarations
-/// @brief Method CopySizeAndPositionFrom, addr 0x56a3720, size 0xcc, virtual false, abstract: false, final false
-static inline void CopySizeAndPositionFrom(::UnityEngine::RectTransform*  target, ::UnityEngine::RectTransform*  source) ;
+  // Declarations
+  /// @brief Method CopySizeAndPositionFrom, addr 0x57115e8, size 0xcc, virtual false, abstract: false, final false
+  static inline void CopySizeAndPositionFrom(::UnityEngine::RectTransform* target, ::UnityEngine::RectTransform* source);
 
-/// @brief Method GetWorldRect, addr 0x56a37ec, size 0xe4, virtual false, abstract: false, final false
-static inline ::UnityEngine::Rect GetWorldRect(::UnityEngine::RectTransform*  target) ;
+  /// @brief Method GetWorldRect, addr 0x57116b4, size 0xe4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rect GetWorldRect(::UnityEngine::RectTransform* target);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UIExtensionMethods() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIExtensionMethods();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UIExtensionMethods", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UIExtensionMethods(UIExtensionMethods&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIExtensionMethods", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UIExtensionMethods(UIExtensionMethods && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UIExtensionMethods", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UIExtensionMethods(UIExtensionMethods const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UIExtensionMethods", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UIExtensionMethods(UIExtensionMethods const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20289 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20279};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIExtensionMethods, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::UIExtensionMethods);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UIExtensionMethods*, "", "UIExtensionMethods");

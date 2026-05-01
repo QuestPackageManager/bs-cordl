@@ -25,83 +25,85 @@ namespace System::Security::Cryptography {
 // CS Name: System.Security.Cryptography.AsymmetricAlgorithm
 class CORDL_TYPE AsymmetricAlgorithm : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_KeySize, put=set_KeySize)) int32_t  KeySize;
+  // Declarations
+  __declspec(property(get = get_KeySize, put = set_KeySize)) int32_t KeySize;
 
-/// @brief Field KeySizeValue, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_KeySizeValue, put=__cordl_internal_set_KeySizeValue)) int32_t  KeySizeValue;
+  /// @brief Field KeySizeValue, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_KeySizeValue, put = __cordl_internal_set_KeySizeValue)) int32_t KeySizeValue;
 
-/// @brief Field LegalKeySizesValue, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_LegalKeySizesValue, put=__cordl_internal_set_LegalKeySizesValue)) ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>  LegalKeySizesValue;
+  /// @brief Field LegalKeySizesValue, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_LegalKeySizesValue,
+                      put = __cordl_internal_set_LegalKeySizesValue)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      LegalKeySizesValue;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method Clear, addr 0x594954c, size 0x70, virtual false, abstract: false, final false
-inline void Clear() ;
+  /// @brief Method Clear, addr 0x59bb4b8, size 0x70, virtual false, abstract: false, final false
+  inline void Clear();
 
-/// @brief Method Dispose, addr 0x5949548, size 0x4, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x59bb4b4, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method Dispose, addr 0x59495bc, size 0x4, virtual true, abstract: false, final false
-inline void Dispose(bool  disposing) ;
+  /// @brief Method Dispose, addr 0x59bb528, size 0x4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-/// @brief Method FromXmlString, addr 0x59496c8, size 0x38, virtual true, abstract: false, final false
-inline void FromXmlString(::StringW  xmlString) ;
+  /// @brief Method FromXmlString, addr 0x59bb634, size 0x38, virtual true, abstract: false, final false
+  inline void FromXmlString(::StringW xmlString);
 
-static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor() ;
+  static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
 
-/// @brief Method ToXmlString, addr 0x5949700, size 0x38, virtual true, abstract: false, final false
-inline ::StringW ToXmlString(bool  includePrivateParameters) ;
+  /// @brief Method ToXmlString, addr 0x59bb66c, size 0x38, virtual true, abstract: false, final false
+  inline ::StringW ToXmlString(bool includePrivateParameters);
 
-constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
 
-constexpr int32_t& __cordl_internal_get_KeySizeValue() ;
+  constexpr int32_t& __cordl_internal_get_KeySizeValue();
 
-constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*> const& __cordl_internal_get_LegalKeySizesValue() const;
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __cordl_internal_get_LegalKeySizesValue() const;
 
-constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>& __cordl_internal_get_LegalKeySizesValue() ;
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __cordl_internal_get_LegalKeySizesValue();
 
-constexpr void __cordl_internal_set_KeySizeValue(int32_t  value) ;
+  constexpr void __cordl_internal_set_KeySizeValue(int32_t value);
 
-constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>  value) ;
+  constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-/// @brief Method .ctor, addr 0x5949544, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x59bb4b0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_KeySize, addr 0x59495c0, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_KeySize() ;
+  /// @brief Method get_KeySize, addr 0x59bb52c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_KeySize();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-/// @brief Method set_KeySize, addr 0x59495c8, size 0xdc, virtual true, abstract: false, final false
-inline void set_KeySize(int32_t  value) ;
+  /// @brief Method set_KeySize, addr 0x59bb534, size 0xdc, virtual true, abstract: false, final false
+  inline void set_KeySize(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AsymmetricAlgorithm() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsymmetricAlgorithm();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricAlgorithm", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AsymmetricAlgorithm(AsymmetricAlgorithm&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsymmetricAlgorithm", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AsymmetricAlgorithm(AsymmetricAlgorithm && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricAlgorithm", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AsymmetricAlgorithm(AsymmetricAlgorithm const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsymmetricAlgorithm", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AsymmetricAlgorithm(AsymmetricAlgorithm const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2934 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2934};
+  /// @brief Field KeySizeValue, offset: 0x10, size: 0x4, def value: None
+  int32_t ___KeySizeValue;
 
-/// @brief Field KeySizeValue, offset: 0x10, size: 0x4, def value: None
- int32_t  ___KeySizeValue;
+  /// @brief Field LegalKeySizesValue, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> ___LegalKeySizesValue;
 
-/// @brief Field LegalKeySizesValue, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<::System::Security::Cryptography::KeySizes*,::Array<::System::Security::Cryptography::KeySizes*>*>  ___LegalKeySizesValue;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::Cryptography::AsymmetricAlgorithm, ___KeySizeValue) == 0x10, "Offset mismatch!");
@@ -110,6 +112,6 @@ static_assert(offsetof(::System::Security::Cryptography::AsymmetricAlgorithm, __
 
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::AsymmetricAlgorithm, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Security::Cryptography
+} // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::AsymmetricAlgorithm);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsymmetricAlgorithm*, "System.Security.Cryptography", "AsymmetricAlgorithm");

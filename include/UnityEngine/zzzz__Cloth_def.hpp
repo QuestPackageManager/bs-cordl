@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cloth)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 struct IntPtr;
@@ -53,456 +52,457 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Cloth
 class CORDL_TYPE Cloth : public ::UnityEngine::Component {
 public:
-// Declarations
-/// @brief Field <selfCollision>k__BackingField, offset 0x1c, size 0x1 
- __declspec(property(get=__cordl_internal_get__selfCollision_k__BackingField, put=__cordl_internal_set__selfCollision_k__BackingField)) bool  _selfCollision_k__BackingField;
+  // Declarations
+  /// @brief Field <selfCollision>k__BackingField, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get__selfCollision_k__BackingField, put = __cordl_internal_set__selfCollision_k__BackingField)) bool _selfCollision_k__BackingField;
 
-/// @brief Field <useContinuousCollision>k__BackingField, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get__useContinuousCollision_k__BackingField, put=__cordl_internal_set__useContinuousCollision_k__BackingField)) float_t  _useContinuousCollision_k__BackingField;
+  /// @brief Field <useContinuousCollision>k__BackingField, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__useContinuousCollision_k__BackingField,
+                      put = __cordl_internal_set__useContinuousCollision_k__BackingField)) float_t _useContinuousCollision_k__BackingField;
 
- __declspec(property(get=get_bendingStiffness, put=set_bendingStiffness)) float_t  bendingStiffness;
+  __declspec(property(get = get_bendingStiffness, put = set_bendingStiffness)) float_t bendingStiffness;
 
- __declspec(property(get=get_capsuleColliders, put=set_capsuleColliders)) ::ArrayW<::UnityW<::UnityEngine::CapsuleCollider>,::Array<::UnityW<::UnityEngine::CapsuleCollider>>*>  capsuleColliders;
+  __declspec(property(get = get_capsuleColliders, put = set_capsuleColliders)) ::ArrayW<::UnityW<::UnityEngine::CapsuleCollider>, ::Array<::UnityW<::UnityEngine::CapsuleCollider>>*> capsuleColliders;
 
- __declspec(property(get=get_clothSolverFrequency, put=set_clothSolverFrequency)) float_t  clothSolverFrequency;
+  __declspec(property(get = get_clothSolverFrequency, put = set_clothSolverFrequency)) float_t clothSolverFrequency;
 
- __declspec(property(get=get_coefficients, put=set_coefficients)) ::ArrayW<::UnityEngine::ClothSkinningCoefficient,::Array<::UnityEngine::ClothSkinningCoefficient>*>  coefficients;
+  __declspec(property(get = get_coefficients, put = set_coefficients)) ::ArrayW<::UnityEngine::ClothSkinningCoefficient, ::Array<::UnityEngine::ClothSkinningCoefficient>*> coefficients;
 
- __declspec(property(get=get_collisionMassScale, put=set_collisionMassScale)) float_t  collisionMassScale;
+  __declspec(property(get = get_collisionMassScale, put = set_collisionMassScale)) float_t collisionMassScale;
 
- __declspec(property(get=get_damping, put=set_damping)) float_t  damping;
+  __declspec(property(get = get_damping, put = set_damping)) float_t damping;
 
- __declspec(property(get=get_enableContinuousCollision, put=set_enableContinuousCollision)) bool  enableContinuousCollision;
+  __declspec(property(get = get_enableContinuousCollision, put = set_enableContinuousCollision)) bool enableContinuousCollision;
 
- __declspec(property(get=get_enabled, put=set_enabled)) bool  enabled;
+  __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
- __declspec(property(get=get_externalAcceleration, put=set_externalAcceleration)) ::UnityEngine::Vector3  externalAcceleration;
+  __declspec(property(get = get_externalAcceleration, put = set_externalAcceleration)) ::UnityEngine::Vector3 externalAcceleration;
 
- __declspec(property(get=get_friction, put=set_friction)) float_t  friction;
+  __declspec(property(get = get_friction, put = set_friction)) float_t friction;
 
- __declspec(property(get=get_normals)) ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  normals;
+  __declspec(property(get = get_normals)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals;
 
- __declspec(property(get=get_randomAcceleration, put=set_randomAcceleration)) ::UnityEngine::Vector3  randomAcceleration;
+  __declspec(property(get = get_randomAcceleration, put = set_randomAcceleration)) ::UnityEngine::Vector3 randomAcceleration;
 
- __declspec(property(get=get_selfCollision)) bool  selfCollision;
+  __declspec(property(get = get_selfCollision)) bool selfCollision;
 
- __declspec(property(get=get_selfCollisionDistance, put=set_selfCollisionDistance)) float_t  selfCollisionDistance;
+  __declspec(property(get = get_selfCollisionDistance, put = set_selfCollisionDistance)) float_t selfCollisionDistance;
 
- __declspec(property(get=get_selfCollisionStiffness, put=set_selfCollisionStiffness)) float_t  selfCollisionStiffness;
+  __declspec(property(get = get_selfCollisionStiffness, put = set_selfCollisionStiffness)) float_t selfCollisionStiffness;
 
- __declspec(property(get=get_sleepThreshold, put=set_sleepThreshold)) float_t  sleepThreshold;
+  __declspec(property(get = get_sleepThreshold, put = set_sleepThreshold)) float_t sleepThreshold;
 
- __declspec(property(get=get_solverFrequency, put=set_solverFrequency)) bool  solverFrequency;
+  __declspec(property(get = get_solverFrequency, put = set_solverFrequency)) bool solverFrequency;
 
- __declspec(property(get=get_sphereColliders, put=set_sphereColliders)) ::ArrayW<::UnityEngine::ClothSphereColliderPair,::Array<::UnityEngine::ClothSphereColliderPair>*>  sphereColliders;
+  __declspec(property(get = get_sphereColliders, put = set_sphereColliders)) ::ArrayW<::UnityEngine::ClothSphereColliderPair, ::Array<::UnityEngine::ClothSphereColliderPair>*> sphereColliders;
 
- __declspec(property(get=get_stiffnessFrequency, put=set_stiffnessFrequency)) float_t  stiffnessFrequency;
+  __declspec(property(get = get_stiffnessFrequency, put = set_stiffnessFrequency)) float_t stiffnessFrequency;
 
- __declspec(property(get=get_stretchingStiffness, put=set_stretchingStiffness)) float_t  stretchingStiffness;
+  __declspec(property(get = get_stretchingStiffness, put = set_stretchingStiffness)) float_t stretchingStiffness;
 
- __declspec(property(get=get_useContinuousCollision, put=set_useContinuousCollision)) float_t  useContinuousCollision;
+  __declspec(property(get = get_useContinuousCollision, put = set_useContinuousCollision)) float_t useContinuousCollision;
 
- __declspec(property(get=get_useGravity, put=set_useGravity)) bool  useGravity;
+  __declspec(property(get = get_useGravity, put = set_useGravity)) bool useGravity;
 
- __declspec(property(get=get_useTethers, put=set_useTethers)) bool  useTethers;
+  __declspec(property(get = get_useTethers, put = set_useTethers)) bool useTethers;
 
- __declspec(property(get=get_useVirtualParticles, put=set_useVirtualParticles)) float_t  useVirtualParticles;
+  __declspec(property(get = get_useVirtualParticles, put = set_useVirtualParticles)) float_t useVirtualParticles;
 
- __declspec(property(get=get_vertices)) ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  vertices;
+  __declspec(property(get = get_vertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices;
 
- __declspec(property(get=get_worldAccelerationScale, put=set_worldAccelerationScale)) float_t  worldAccelerationScale;
+  __declspec(property(get = get_worldAccelerationScale, put = set_worldAccelerationScale)) float_t worldAccelerationScale;
 
- __declspec(property(get=get_worldVelocityScale, put=set_worldVelocityScale)) float_t  worldVelocityScale;
+  __declspec(property(get = get_worldVelocityScale, put = set_worldVelocityScale)) float_t worldVelocityScale;
 
-/// @brief Method ClearTransformMotion, addr 0x688dd40, size 0x80, virtual false, abstract: false, final false
-inline void ClearTransformMotion() ;
+  /// @brief Method ClearTransformMotion, addr 0x68ffd4c, size 0x80, virtual false, abstract: false, final false
+  inline void ClearTransformMotion();
 
-/// @brief Method ClearTransformMotion_Injected, addr 0x688ddc0, size 0x3c, virtual false, abstract: false, final false
-static inline void ClearTransformMotion_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method ClearTransformMotion_Injected, addr 0x68ffdcc, size 0x3c, virtual false, abstract: false, final false
+  static inline void ClearTransformMotion_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method GetSelfAndInterCollisionIndices, addr 0x688ddfc, size 0x200, virtual false, abstract: false, final false
-inline void GetSelfAndInterCollisionIndices(::System::Collections::Generic::List_1<uint32_t>*  indices) ;
+  /// @brief Method GetSelfAndInterCollisionIndices, addr 0x68ffe08, size 0x200, virtual false, abstract: false, final false
+  inline void GetSelfAndInterCollisionIndices(::System::Collections::Generic::List_1<uint32_t>* indices);
 
-/// @brief Method GetSelfAndInterCollisionIndices_Injected, addr 0x688dffc, size 0x44, virtual false, abstract: false, final false
-static inline void GetSelfAndInterCollisionIndices_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper>  indices) ;
+  /// @brief Method GetSelfAndInterCollisionIndices_Injected, addr 0x6900008, size 0x44, virtual false, abstract: false, final false
+  static inline void GetSelfAndInterCollisionIndices_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper> indices);
 
-/// @brief Method GetVirtualParticleIndices, addr 0x688e284, size 0x200, virtual false, abstract: false, final false
-inline void GetVirtualParticleIndices(::System::Collections::Generic::List_1<uint32_t>*  indicesOutList) ;
+  /// @brief Method GetVirtualParticleIndices, addr 0x6900290, size 0x200, virtual false, abstract: false, final false
+  inline void GetVirtualParticleIndices(::System::Collections::Generic::List_1<uint32_t>* indicesOutList);
 
-/// @brief Method GetVirtualParticleIndices_Injected, addr 0x688e484, size 0x44, virtual false, abstract: false, final false
-static inline void GetVirtualParticleIndices_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper>  indicesOutList) ;
+  /// @brief Method GetVirtualParticleIndices_Injected, addr 0x6900490, size 0x44, virtual false, abstract: false, final false
+  static inline void GetVirtualParticleIndices_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper> indicesOutList);
 
-/// @brief Method GetVirtualParticleWeights, addr 0x688e70c, size 0x200, virtual false, abstract: false, final false
-inline void GetVirtualParticleWeights(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  weightsOutList) ;
+  /// @brief Method GetVirtualParticleWeights, addr 0x6900718, size 0x200, virtual false, abstract: false, final false
+  inline void GetVirtualParticleWeights(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* weightsOutList);
 
-/// @brief Method GetVirtualParticleWeights_Injected, addr 0x688e90c, size 0x44, virtual false, abstract: false, final false
-static inline void GetVirtualParticleWeights_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper>  weightsOutList) ;
+  /// @brief Method GetVirtualParticleWeights_Injected, addr 0x6900918, size 0x44, virtual false, abstract: false, final false
+  static inline void GetVirtualParticleWeights_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper> weightsOutList);
 
-static inline ::UnityEngine::Cloth* New_ctor() ;
+  static inline ::UnityEngine::Cloth* New_ctor();
 
-/// @brief Method Raycast, addr 0x688eca8, size 0xe0, virtual false, abstract: false, final false
-inline ::UnityEngine::RaycastHit Raycast(::UnityEngine::Ray  ray, float_t  maxDistance, ::ByRef<bool>  hasHit) ;
+  /// @brief Method Raycast, addr 0x6900cb4, size 0xe0, virtual false, abstract: false, final false
+  inline ::UnityEngine::RaycastHit Raycast(::UnityEngine::Ray ray, float_t maxDistance, ::ByRef<bool> hasHit);
 
-/// @brief Method Raycast_Injected, addr 0x688ed88, size 0x6c, virtual false, abstract: false, final false
-static inline void Raycast_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Ray>  ray, float_t  maxDistance, ::ByRef<bool>  hasHit, ::ByRef<::UnityEngine::RaycastHit>  ret) ;
+  /// @brief Method Raycast_Injected, addr 0x6900d94, size 0x6c, virtual false, abstract: false, final false
+  static inline void Raycast_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Ray> ray, float_t maxDistance, ::ByRef<bool> hasHit, ::ByRef<::UnityEngine::RaycastHit> ret);
 
-/// @brief Method SetEnabledFading, addr 0x688eca0, size 0x8, virtual false, abstract: false, final false
-inline void SetEnabledFading(bool  enabled) ;
+  /// @brief Method SetEnabledFading, addr 0x6900cac, size 0x8, virtual false, abstract: false, final false
+  inline void SetEnabledFading(bool enabled);
 
-/// @brief Method SetEnabledFading, addr 0x688ebac, size 0xa0, virtual false, abstract: false, final false
-inline void SetEnabledFading(bool  enabled, float_t  interpolationTime) ;
+  /// @brief Method SetEnabledFading, addr 0x6900bb8, size 0xa0, virtual false, abstract: false, final false
+  inline void SetEnabledFading(bool enabled, float_t interpolationTime);
 
-/// @brief Method SetEnabledFading_Injected, addr 0x688ec4c, size 0x54, virtual false, abstract: false, final false
-static inline void SetEnabledFading_Injected(::System::IntPtr  _unity_self, bool  enabled, float_t  interpolationTime) ;
+  /// @brief Method SetEnabledFading_Injected, addr 0x6900c58, size 0x54, virtual false, abstract: false, final false
+  static inline void SetEnabledFading_Injected(::System::IntPtr _unity_self, bool enabled, float_t interpolationTime);
 
-/// @brief Method SetSelfAndInterCollisionIndices, addr 0x688e040, size 0x200, virtual false, abstract: false, final false
-inline void SetSelfAndInterCollisionIndices(::System::Collections::Generic::List_1<uint32_t>*  indices) ;
+  /// @brief Method SetSelfAndInterCollisionIndices, addr 0x690004c, size 0x200, virtual false, abstract: false, final false
+  inline void SetSelfAndInterCollisionIndices(::System::Collections::Generic::List_1<uint32_t>* indices);
 
-/// @brief Method SetSelfAndInterCollisionIndices_Injected, addr 0x688e240, size 0x44, virtual false, abstract: false, final false
-static inline void SetSelfAndInterCollisionIndices_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper>  indices) ;
+  /// @brief Method SetSelfAndInterCollisionIndices_Injected, addr 0x690024c, size 0x44, virtual false, abstract: false, final false
+  static inline void SetSelfAndInterCollisionIndices_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper> indices);
 
-/// @brief Method SetVirtualParticleIndices, addr 0x688e4c8, size 0x200, virtual false, abstract: false, final false
-inline void SetVirtualParticleIndices(::System::Collections::Generic::List_1<uint32_t>*  indicesIn) ;
+  /// @brief Method SetVirtualParticleIndices, addr 0x69004d4, size 0x200, virtual false, abstract: false, final false
+  inline void SetVirtualParticleIndices(::System::Collections::Generic::List_1<uint32_t>* indicesIn);
 
-/// @brief Method SetVirtualParticleIndices_Injected, addr 0x688e6c8, size 0x44, virtual false, abstract: false, final false
-static inline void SetVirtualParticleIndices_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper>  indicesIn) ;
+  /// @brief Method SetVirtualParticleIndices_Injected, addr 0x69006d4, size 0x44, virtual false, abstract: false, final false
+  static inline void SetVirtualParticleIndices_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper> indicesIn);
 
-/// @brief Method SetVirtualParticleWeights, addr 0x688e950, size 0x200, virtual false, abstract: false, final false
-inline void SetVirtualParticleWeights(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  weights) ;
+  /// @brief Method SetVirtualParticleWeights, addr 0x690095c, size 0x200, virtual false, abstract: false, final false
+  inline void SetVirtualParticleWeights(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* weights);
 
-/// @brief Method SetVirtualParticleWeights_Injected, addr 0x688eb50, size 0x44, virtual false, abstract: false, final false
-static inline void SetVirtualParticleWeights_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper>  weights) ;
+  /// @brief Method SetVirtualParticleWeights_Injected, addr 0x6900b5c, size 0x44, virtual false, abstract: false, final false
+  static inline void SetVirtualParticleWeights_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableListWrapper> weights);
 
-constexpr bool const& __cordl_internal_get__selfCollision_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__selfCollision_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__selfCollision_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__selfCollision_k__BackingField();
 
-constexpr float_t const& __cordl_internal_get__useContinuousCollision_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__useContinuousCollision_k__BackingField() const;
 
-constexpr float_t& __cordl_internal_get__useContinuousCollision_k__BackingField() ;
+  constexpr float_t& __cordl_internal_get__useContinuousCollision_k__BackingField();
 
-constexpr void __cordl_internal_set__selfCollision_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__selfCollision_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t  value) ;
+  constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-/// @brief Method .ctor, addr 0x688edf4, size 0x688, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6900e00, size 0x688, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_bendingStiffness, addr 0x688c024, size 0x80, virtual false, abstract: false, final false
-inline float_t get_bendingStiffness() ;
+  /// @brief Method get_bendingStiffness, addr 0x68fe030, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_bendingStiffness();
 
-/// @brief Method get_bendingStiffness_Injected, addr 0x688c0a4, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_bendingStiffness_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_bendingStiffness_Injected, addr 0x68fe0b0, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_bendingStiffness_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_capsuleColliders, addr 0x688bb6c, size 0x80, virtual false, abstract: false, final false
-inline ::ArrayW<::UnityW<::UnityEngine::CapsuleCollider>,::Array<::UnityW<::UnityEngine::CapsuleCollider>>*> get_capsuleColliders() ;
+  /// @brief Method get_capsuleColliders, addr 0x68fdb78, size 0x80, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::CapsuleCollider>, ::Array<::UnityW<::UnityEngine::CapsuleCollider>>*> get_capsuleColliders();
 
-/// @brief Method get_capsuleColliders_Injected, addr 0x688bbec, size 0x3c, virtual false, abstract: false, final false
-static inline ::ArrayW<::UnityW<::UnityEngine::CapsuleCollider>,::Array<::UnityW<::UnityEngine::CapsuleCollider>>*> get_capsuleColliders_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_capsuleColliders_Injected, addr 0x68fdbf8, size 0x3c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityW<::UnityEngine::CapsuleCollider>, ::Array<::UnityW<::UnityEngine::CapsuleCollider>>*> get_capsuleColliders_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_clothSolverFrequency, addr 0x688d514, size 0x80, virtual false, abstract: false, final false
-inline float_t get_clothSolverFrequency() ;
+  /// @brief Method get_clothSolverFrequency, addr 0x68ff520, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_clothSolverFrequency();
 
-/// @brief Method get_clothSolverFrequency_Injected, addr 0x688d594, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_clothSolverFrequency_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_clothSolverFrequency_Injected, addr 0x68ff5a0, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_clothSolverFrequency_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_coefficients, addr 0x688b880, size 0x160, virtual false, abstract: false, final false
-inline ::ArrayW<::UnityEngine::ClothSkinningCoefficient,::Array<::UnityEngine::ClothSkinningCoefficient>*> get_coefficients() ;
+  /// @brief Method get_coefficients, addr 0x68fd88c, size 0x160, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ClothSkinningCoefficient, ::Array<::UnityEngine::ClothSkinningCoefficient>*> get_coefficients();
 
-/// @brief Method get_coefficients_Injected, addr 0x688b9e0, size 0x44, virtual false, abstract: false, final false
-static inline void get_coefficients_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>  ret) ;
+  /// @brief Method get_coefficients_Injected, addr 0x68fd9ec, size 0x44, virtual false, abstract: false, final false
+  static inline void get_coefficients_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-/// @brief Method get_collisionMassScale, addr 0x688cd24, size 0x80, virtual false, abstract: false, final false
-inline float_t get_collisionMassScale() ;
+  /// @brief Method get_collisionMassScale, addr 0x68fed30, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_collisionMassScale();
 
-/// @brief Method get_collisionMassScale_Injected, addr 0x688cda4, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_collisionMassScale_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_collisionMassScale_Injected, addr 0x68fedb0, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_collisionMassScale_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_damping, addr 0x688c354, size 0x80, virtual false, abstract: false, final false
-inline float_t get_damping() ;
+  /// @brief Method get_damping, addr 0x68fe360, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_damping();
 
-/// @brief Method get_damping_Injected, addr 0x688c3d4, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_damping_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_damping_Injected, addr 0x68fe3e0, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_damping_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_enableContinuousCollision, addr 0x688cebc, size 0x80, virtual false, abstract: false, final false
-inline bool get_enableContinuousCollision() ;
+  /// @brief Method get_enableContinuousCollision, addr 0x68feec8, size 0x80, virtual false, abstract: false, final false
+  inline bool get_enableContinuousCollision();
 
-/// @brief Method get_enableContinuousCollision_Injected, addr 0x688cf3c, size 0x3c, virtual false, abstract: false, final false
-static inline bool get_enableContinuousCollision_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_enableContinuousCollision_Injected, addr 0x68fef48, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_enableContinuousCollision_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_enabled, addr 0x688c9fc, size 0x80, virtual false, abstract: false, final false
-inline bool get_enabled() ;
+  /// @brief Method get_enabled, addr 0x68fea08, size 0x80, virtual false, abstract: false, final false
+  inline bool get_enabled();
 
-/// @brief Method get_enabled_Injected, addr 0x688ca7c, size 0x3c, virtual false, abstract: false, final false
-static inline bool get_enabled_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_enabled_Injected, addr 0x68fea88, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_enabled_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_externalAcceleration, addr 0x688c4ec, size 0xa0, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector3 get_externalAcceleration() ;
+  /// @brief Method get_externalAcceleration, addr 0x68fe4f8, size 0xa0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_externalAcceleration();
 
-/// @brief Method get_externalAcceleration_Injected, addr 0x688c58c, size 0x44, virtual false, abstract: false, final false
-static inline void get_externalAcceleration_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  ret) ;
+  /// @brief Method get_externalAcceleration_Injected, addr 0x68fe598, size 0x44, virtual false, abstract: false, final false
+  static inline void get_externalAcceleration_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-/// @brief Method get_friction, addr 0x688cb8c, size 0x80, virtual false, abstract: false, final false
-inline float_t get_friction() ;
+  /// @brief Method get_friction, addr 0x68feb98, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_friction();
 
-/// @brief Method get_friction_Injected, addr 0x688cc0c, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_friction_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_friction_Injected, addr 0x68fec18, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_friction_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_normals, addr 0x688b6dc, size 0x160, virtual false, abstract: false, final false
-inline ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> get_normals() ;
+  /// @brief Method get_normals, addr 0x68fd6e8, size 0x160, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_normals();
 
-/// @brief Method get_normals_Injected, addr 0x688b83c, size 0x44, virtual false, abstract: false, final false
-static inline void get_normals_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>  ret) ;
+  /// @brief Method get_normals_Injected, addr 0x68fd848, size 0x44, virtual false, abstract: false, final false
+  static inline void get_normals_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-/// @brief Method get_randomAcceleration, addr 0x688c6ac, size 0xa0, virtual false, abstract: false, final false
-inline ::UnityEngine::Vector3 get_randomAcceleration() ;
+  /// @brief Method get_randomAcceleration, addr 0x68fe6b8, size 0xa0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_randomAcceleration();
 
-/// @brief Method get_randomAcceleration_Injected, addr 0x688c74c, size 0x44, virtual false, abstract: false, final false
-static inline void get_randomAcceleration_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  ret) ;
+  /// @brief Method get_randomAcceleration_Injected, addr 0x68fe758, size 0x44, virtual false, abstract: false, final false
+  static inline void get_randomAcceleration_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-/// @brief Method get_selfCollision, addr 0x688eba4, size 0x8, virtual false, abstract: false, final false
-inline bool get_selfCollision() ;
+  /// @brief Method get_selfCollision, addr 0x6900bb0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_selfCollision();
 
-/// @brief Method get_selfCollisionDistance, addr 0x688da10, size 0x80, virtual false, abstract: false, final false
-inline float_t get_selfCollisionDistance() ;
+  /// @brief Method get_selfCollisionDistance, addr 0x68ffa1c, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_selfCollisionDistance();
 
-/// @brief Method get_selfCollisionDistance_Injected, addr 0x688da90, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_selfCollisionDistance_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_selfCollisionDistance_Injected, addr 0x68ffa9c, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_selfCollisionDistance_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_selfCollisionStiffness, addr 0x688dba8, size 0x80, virtual false, abstract: false, final false
-inline float_t get_selfCollisionStiffness() ;
+  /// @brief Method get_selfCollisionStiffness, addr 0x68ffbb4, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_selfCollisionStiffness();
 
-/// @brief Method get_selfCollisionStiffness_Injected, addr 0x688dc28, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_selfCollisionStiffness_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_selfCollisionStiffness_Injected, addr 0x68ffc34, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_selfCollisionStiffness_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_sleepThreshold, addr 0x688be8c, size 0x80, virtual false, abstract: false, final false
-inline float_t get_sleepThreshold() ;
+  /// @brief Method get_sleepThreshold, addr 0x68fde98, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_sleepThreshold();
 
-/// @brief Method get_sleepThreshold_Injected, addr 0x688bf0c, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_sleepThreshold_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_sleepThreshold_Injected, addr 0x68fdf18, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_sleepThreshold_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_solverFrequency, addr 0x688d6ac, size 0x18, virtual false, abstract: false, final false
-inline bool get_solverFrequency() ;
+  /// @brief Method get_solverFrequency, addr 0x68ff6b8, size 0x18, virtual false, abstract: false, final false
+  inline bool get_solverFrequency();
 
-/// @brief Method get_sphereColliders, addr 0x688bcfc, size 0x80, virtual false, abstract: false, final false
-inline ::ArrayW<::UnityEngine::ClothSphereColliderPair,::Array<::UnityEngine::ClothSphereColliderPair>*> get_sphereColliders() ;
+  /// @brief Method get_sphereColliders, addr 0x68fdd08, size 0x80, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ClothSphereColliderPair, ::Array<::UnityEngine::ClothSphereColliderPair>*> get_sphereColliders();
 
-/// @brief Method get_sphereColliders_Injected, addr 0x688bd7c, size 0x3c, virtual false, abstract: false, final false
-static inline ::ArrayW<::UnityEngine::ClothSphereColliderPair,::Array<::UnityEngine::ClothSphereColliderPair>*> get_sphereColliders_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_sphereColliders_Injected, addr 0x68fdd88, size 0x3c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::ClothSphereColliderPair, ::Array<::UnityEngine::ClothSphereColliderPair>*> get_sphereColliders_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_stiffnessFrequency, addr 0x688d878, size 0x80, virtual false, abstract: false, final false
-inline float_t get_stiffnessFrequency() ;
+  /// @brief Method get_stiffnessFrequency, addr 0x68ff884, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_stiffnessFrequency();
 
-/// @brief Method get_stiffnessFrequency_Injected, addr 0x688d8f8, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_stiffnessFrequency_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_stiffnessFrequency_Injected, addr 0x68ff904, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_stiffnessFrequency_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_stretchingStiffness, addr 0x688c1bc, size 0x80, virtual false, abstract: false, final false
-inline float_t get_stretchingStiffness() ;
+  /// @brief Method get_stretchingStiffness, addr 0x68fe1c8, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_stretchingStiffness();
 
-/// @brief Method get_stretchingStiffness_Injected, addr 0x688c23c, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_stretchingStiffness_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_stretchingStiffness_Injected, addr 0x68fe248, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_stretchingStiffness_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_useContinuousCollision, addr 0x688eb94, size 0x8, virtual false, abstract: false, final false
-inline float_t get_useContinuousCollision() ;
+  /// @brief Method get_useContinuousCollision, addr 0x6900ba0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_useContinuousCollision();
 
-/// @brief Method get_useGravity, addr 0x688c86c, size 0x80, virtual false, abstract: false, final false
-inline bool get_useGravity() ;
+  /// @brief Method get_useGravity, addr 0x68fe878, size 0x80, virtual false, abstract: false, final false
+  inline bool get_useGravity();
 
-/// @brief Method get_useGravity_Injected, addr 0x688c8ec, size 0x3c, virtual false, abstract: false, final false
-static inline bool get_useGravity_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_useGravity_Injected, addr 0x68fe8f8, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_useGravity_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_useTethers, addr 0x688d6e8, size 0x80, virtual false, abstract: false, final false
-inline bool get_useTethers() ;
+  /// @brief Method get_useTethers, addr 0x68ff6f4, size 0x80, virtual false, abstract: false, final false
+  inline bool get_useTethers();
 
-/// @brief Method get_useTethers_Injected, addr 0x688d768, size 0x3c, virtual false, abstract: false, final false
-static inline bool get_useTethers_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_useTethers_Injected, addr 0x68ff774, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_useTethers_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_useVirtualParticles, addr 0x688d04c, size 0x80, virtual false, abstract: false, final false
-inline float_t get_useVirtualParticles() ;
+  /// @brief Method get_useVirtualParticles, addr 0x68ff058, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_useVirtualParticles();
 
-/// @brief Method get_useVirtualParticles_Injected, addr 0x688d0cc, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_useVirtualParticles_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_useVirtualParticles_Injected, addr 0x68ff0d8, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_useVirtualParticles_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_vertices, addr 0x688b538, size 0x160, virtual false, abstract: false, final false
-inline ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> get_vertices() ;
+  /// @brief Method get_vertices, addr 0x68fd544, size 0x160, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_vertices();
 
-/// @brief Method get_vertices_Injected, addr 0x688b698, size 0x44, virtual false, abstract: false, final false
-static inline void get_vertices_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>  ret) ;
+  /// @brief Method get_vertices_Injected, addr 0x68fd6a4, size 0x44, virtual false, abstract: false, final false
+  static inline void get_vertices_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-/// @brief Method get_worldAccelerationScale, addr 0x688d37c, size 0x80, virtual false, abstract: false, final false
-inline float_t get_worldAccelerationScale() ;
+  /// @brief Method get_worldAccelerationScale, addr 0x68ff388, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_worldAccelerationScale();
 
-/// @brief Method get_worldAccelerationScale_Injected, addr 0x688d3fc, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_worldAccelerationScale_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_worldAccelerationScale_Injected, addr 0x68ff408, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_worldAccelerationScale_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method get_worldVelocityScale, addr 0x688d1e4, size 0x80, virtual false, abstract: false, final false
-inline float_t get_worldVelocityScale() ;
+  /// @brief Method get_worldVelocityScale, addr 0x68ff1f0, size 0x80, virtual false, abstract: false, final false
+  inline float_t get_worldVelocityScale();
 
-/// @brief Method get_worldVelocityScale_Injected, addr 0x688d264, size 0x3c, virtual false, abstract: false, final false
-static inline float_t get_worldVelocityScale_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method get_worldVelocityScale_Injected, addr 0x68ff270, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_worldVelocityScale_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method set_bendingStiffness, addr 0x688c0e0, size 0x90, virtual false, abstract: false, final false
-inline void set_bendingStiffness(float_t  value) ;
+  /// @brief Method set_bendingStiffness, addr 0x68fe0ec, size 0x90, virtual false, abstract: false, final false
+  inline void set_bendingStiffness(float_t value);
 
-/// @brief Method set_bendingStiffness_Injected, addr 0x688c170, size 0x4c, virtual false, abstract: false, final false
-static inline void set_bendingStiffness_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_bendingStiffness_Injected, addr 0x68fe17c, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_bendingStiffness_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_capsuleColliders, addr 0x688bc28, size 0x90, virtual false, abstract: false, final false
-inline void set_capsuleColliders(::ArrayW<::UnityEngine::CapsuleCollider*,::Array<::UnityEngine::CapsuleCollider*>*>  value) ;
+  /// @brief Method set_capsuleColliders, addr 0x68fdc34, size 0x90, virtual false, abstract: false, final false
+  inline void set_capsuleColliders(::ArrayW<::UnityEngine::CapsuleCollider*, ::Array<::UnityEngine::CapsuleCollider*>*> value);
 
-/// @brief Method set_capsuleColliders_Injected, addr 0x688bcb8, size 0x44, virtual false, abstract: false, final false
-static inline void set_capsuleColliders_Injected(::System::IntPtr  _unity_self, ::ArrayW<::UnityEngine::CapsuleCollider*,::Array<::UnityEngine::CapsuleCollider*>*>  value) ;
+  /// @brief Method set_capsuleColliders_Injected, addr 0x68fdcc4, size 0x44, virtual false, abstract: false, final false
+  static inline void set_capsuleColliders_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::CapsuleCollider*, ::Array<::UnityEngine::CapsuleCollider*>*> value);
 
-/// @brief Method set_clothSolverFrequency, addr 0x688d5d0, size 0x90, virtual false, abstract: false, final false
-inline void set_clothSolverFrequency(float_t  value) ;
+  /// @brief Method set_clothSolverFrequency, addr 0x68ff5dc, size 0x90, virtual false, abstract: false, final false
+  inline void set_clothSolverFrequency(float_t value);
 
-/// @brief Method set_clothSolverFrequency_Injected, addr 0x688d660, size 0x4c, virtual false, abstract: false, final false
-static inline void set_clothSolverFrequency_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_clothSolverFrequency_Injected, addr 0x68ff66c, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_clothSolverFrequency_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_coefficients, addr 0x688ba24, size 0x104, virtual false, abstract: false, final false
-inline void set_coefficients(::ArrayW<::UnityEngine::ClothSkinningCoefficient,::Array<::UnityEngine::ClothSkinningCoefficient>*>  value) ;
+  /// @brief Method set_coefficients, addr 0x68fda30, size 0x104, virtual false, abstract: false, final false
+  inline void set_coefficients(::ArrayW<::UnityEngine::ClothSkinningCoefficient, ::Array<::UnityEngine::ClothSkinningCoefficient>*> value);
 
-/// @brief Method set_coefficients_Injected, addr 0x688bb28, size 0x44, virtual false, abstract: false, final false
-static inline void set_coefficients_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  value) ;
+  /// @brief Method set_coefficients_Injected, addr 0x68fdb34, size 0x44, virtual false, abstract: false, final false
+  static inline void set_coefficients_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
-/// @brief Method set_collisionMassScale, addr 0x688cde0, size 0x90, virtual false, abstract: false, final false
-inline void set_collisionMassScale(float_t  value) ;
+  /// @brief Method set_collisionMassScale, addr 0x68fedec, size 0x90, virtual false, abstract: false, final false
+  inline void set_collisionMassScale(float_t value);
 
-/// @brief Method set_collisionMassScale_Injected, addr 0x688ce70, size 0x4c, virtual false, abstract: false, final false
-static inline void set_collisionMassScale_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_collisionMassScale_Injected, addr 0x68fee7c, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_collisionMassScale_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_damping, addr 0x688c410, size 0x90, virtual false, abstract: false, final false
-inline void set_damping(float_t  value) ;
+  /// @brief Method set_damping, addr 0x68fe41c, size 0x90, virtual false, abstract: false, final false
+  inline void set_damping(float_t value);
 
-/// @brief Method set_damping_Injected, addr 0x688c4a0, size 0x4c, virtual false, abstract: false, final false
-static inline void set_damping_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_damping_Injected, addr 0x68fe4ac, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_damping_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_enableContinuousCollision, addr 0x688cf78, size 0x90, virtual false, abstract: false, final false
-inline void set_enableContinuousCollision(bool  value) ;
+  /// @brief Method set_enableContinuousCollision, addr 0x68fef84, size 0x90, virtual false, abstract: false, final false
+  inline void set_enableContinuousCollision(bool value);
 
-/// @brief Method set_enableContinuousCollision_Injected, addr 0x688d008, size 0x44, virtual false, abstract: false, final false
-static inline void set_enableContinuousCollision_Injected(::System::IntPtr  _unity_self, bool  value) ;
+  /// @brief Method set_enableContinuousCollision_Injected, addr 0x68ff014, size 0x44, virtual false, abstract: false, final false
+  static inline void set_enableContinuousCollision_Injected(::System::IntPtr _unity_self, bool value);
 
-/// @brief Method set_enabled, addr 0x688cab8, size 0x90, virtual false, abstract: false, final false
-inline void set_enabled(bool  value) ;
+  /// @brief Method set_enabled, addr 0x68feac4, size 0x90, virtual false, abstract: false, final false
+  inline void set_enabled(bool value);
 
-/// @brief Method set_enabled_Injected, addr 0x688cb48, size 0x44, virtual false, abstract: false, final false
-static inline void set_enabled_Injected(::System::IntPtr  _unity_self, bool  value) ;
+  /// @brief Method set_enabled_Injected, addr 0x68feb54, size 0x44, virtual false, abstract: false, final false
+  static inline void set_enabled_Injected(::System::IntPtr _unity_self, bool value);
 
-/// @brief Method set_externalAcceleration, addr 0x688c5d0, size 0x98, virtual false, abstract: false, final false
-inline void set_externalAcceleration(::UnityEngine::Vector3  value) ;
+  /// @brief Method set_externalAcceleration, addr 0x68fe5dc, size 0x98, virtual false, abstract: false, final false
+  inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-/// @brief Method set_externalAcceleration_Injected, addr 0x688c668, size 0x44, virtual false, abstract: false, final false
-static inline void set_externalAcceleration_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  value) ;
+  /// @brief Method set_externalAcceleration_Injected, addr 0x68fe674, size 0x44, virtual false, abstract: false, final false
+  static inline void set_externalAcceleration_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
 
-/// @brief Method set_friction, addr 0x688cc48, size 0x90, virtual false, abstract: false, final false
-inline void set_friction(float_t  value) ;
+  /// @brief Method set_friction, addr 0x68fec54, size 0x90, virtual false, abstract: false, final false
+  inline void set_friction(float_t value);
 
-/// @brief Method set_friction_Injected, addr 0x688ccd8, size 0x4c, virtual false, abstract: false, final false
-static inline void set_friction_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_friction_Injected, addr 0x68fece4, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_friction_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_randomAcceleration, addr 0x688c790, size 0x98, virtual false, abstract: false, final false
-inline void set_randomAcceleration(::UnityEngine::Vector3  value) ;
+  /// @brief Method set_randomAcceleration, addr 0x68fe79c, size 0x98, virtual false, abstract: false, final false
+  inline void set_randomAcceleration(::UnityEngine::Vector3 value);
 
-/// @brief Method set_randomAcceleration_Injected, addr 0x688c828, size 0x44, virtual false, abstract: false, final false
-static inline void set_randomAcceleration_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  value) ;
+  /// @brief Method set_randomAcceleration_Injected, addr 0x68fe834, size 0x44, virtual false, abstract: false, final false
+  static inline void set_randomAcceleration_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
 
-/// @brief Method set_selfCollisionDistance, addr 0x688dacc, size 0x90, virtual false, abstract: false, final false
-inline void set_selfCollisionDistance(float_t  value) ;
+  /// @brief Method set_selfCollisionDistance, addr 0x68ffad8, size 0x90, virtual false, abstract: false, final false
+  inline void set_selfCollisionDistance(float_t value);
 
-/// @brief Method set_selfCollisionDistance_Injected, addr 0x688db5c, size 0x4c, virtual false, abstract: false, final false
-static inline void set_selfCollisionDistance_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_selfCollisionDistance_Injected, addr 0x68ffb68, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_selfCollisionDistance_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_selfCollisionStiffness, addr 0x688dc64, size 0x90, virtual false, abstract: false, final false
-inline void set_selfCollisionStiffness(float_t  value) ;
+  /// @brief Method set_selfCollisionStiffness, addr 0x68ffc70, size 0x90, virtual false, abstract: false, final false
+  inline void set_selfCollisionStiffness(float_t value);
 
-/// @brief Method set_selfCollisionStiffness_Injected, addr 0x688dcf4, size 0x4c, virtual false, abstract: false, final false
-static inline void set_selfCollisionStiffness_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_selfCollisionStiffness_Injected, addr 0x68ffd00, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_selfCollisionStiffness_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_sleepThreshold, addr 0x688bf48, size 0x90, virtual false, abstract: false, final false
-inline void set_sleepThreshold(float_t  value) ;
+  /// @brief Method set_sleepThreshold, addr 0x68fdf54, size 0x90, virtual false, abstract: false, final false
+  inline void set_sleepThreshold(float_t value);
 
-/// @brief Method set_sleepThreshold_Injected, addr 0x688bfd8, size 0x4c, virtual false, abstract: false, final false
-static inline void set_sleepThreshold_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_sleepThreshold_Injected, addr 0x68fdfe4, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_sleepThreshold_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_solverFrequency, addr 0x688d6c4, size 0x24, virtual false, abstract: false, final false
-inline void set_solverFrequency(bool  value) ;
+  /// @brief Method set_solverFrequency, addr 0x68ff6d0, size 0x24, virtual false, abstract: false, final false
+  inline void set_solverFrequency(bool value);
 
-/// @brief Method set_sphereColliders, addr 0x688bdb8, size 0x90, virtual false, abstract: false, final false
-inline void set_sphereColliders(::ArrayW<::UnityEngine::ClothSphereColliderPair,::Array<::UnityEngine::ClothSphereColliderPair>*>  value) ;
+  /// @brief Method set_sphereColliders, addr 0x68fddc4, size 0x90, virtual false, abstract: false, final false
+  inline void set_sphereColliders(::ArrayW<::UnityEngine::ClothSphereColliderPair, ::Array<::UnityEngine::ClothSphereColliderPair>*> value);
 
-/// @brief Method set_sphereColliders_Injected, addr 0x688be48, size 0x44, virtual false, abstract: false, final false
-static inline void set_sphereColliders_Injected(::System::IntPtr  _unity_self, ::ArrayW<::UnityEngine::ClothSphereColliderPair,::Array<::UnityEngine::ClothSphereColliderPair>*>  value) ;
+  /// @brief Method set_sphereColliders_Injected, addr 0x68fde54, size 0x44, virtual false, abstract: false, final false
+  static inline void set_sphereColliders_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::ClothSphereColliderPair, ::Array<::UnityEngine::ClothSphereColliderPair>*> value);
 
-/// @brief Method set_stiffnessFrequency, addr 0x688d934, size 0x90, virtual false, abstract: false, final false
-inline void set_stiffnessFrequency(float_t  value) ;
+  /// @brief Method set_stiffnessFrequency, addr 0x68ff940, size 0x90, virtual false, abstract: false, final false
+  inline void set_stiffnessFrequency(float_t value);
 
-/// @brief Method set_stiffnessFrequency_Injected, addr 0x688d9c4, size 0x4c, virtual false, abstract: false, final false
-static inline void set_stiffnessFrequency_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_stiffnessFrequency_Injected, addr 0x68ff9d0, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_stiffnessFrequency_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_stretchingStiffness, addr 0x688c278, size 0x90, virtual false, abstract: false, final false
-inline void set_stretchingStiffness(float_t  value) ;
+  /// @brief Method set_stretchingStiffness, addr 0x68fe284, size 0x90, virtual false, abstract: false, final false
+  inline void set_stretchingStiffness(float_t value);
 
-/// @brief Method set_stretchingStiffness_Injected, addr 0x688c308, size 0x4c, virtual false, abstract: false, final false
-static inline void set_stretchingStiffness_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_stretchingStiffness_Injected, addr 0x68fe314, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_stretchingStiffness_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_useContinuousCollision, addr 0x688eb9c, size 0x8, virtual false, abstract: false, final false
-inline void set_useContinuousCollision(float_t  value) ;
+  /// @brief Method set_useContinuousCollision, addr 0x6900ba8, size 0x8, virtual false, abstract: false, final false
+  inline void set_useContinuousCollision(float_t value);
 
-/// @brief Method set_useGravity, addr 0x688c928, size 0x90, virtual false, abstract: false, final false
-inline void set_useGravity(bool  value) ;
+  /// @brief Method set_useGravity, addr 0x68fe934, size 0x90, virtual false, abstract: false, final false
+  inline void set_useGravity(bool value);
 
-/// @brief Method set_useGravity_Injected, addr 0x688c9b8, size 0x44, virtual false, abstract: false, final false
-static inline void set_useGravity_Injected(::System::IntPtr  _unity_self, bool  value) ;
+  /// @brief Method set_useGravity_Injected, addr 0x68fe9c4, size 0x44, virtual false, abstract: false, final false
+  static inline void set_useGravity_Injected(::System::IntPtr _unity_self, bool value);
 
-/// @brief Method set_useTethers, addr 0x688d7a4, size 0x90, virtual false, abstract: false, final false
-inline void set_useTethers(bool  value) ;
+  /// @brief Method set_useTethers, addr 0x68ff7b0, size 0x90, virtual false, abstract: false, final false
+  inline void set_useTethers(bool value);
 
-/// @brief Method set_useTethers_Injected, addr 0x688d834, size 0x44, virtual false, abstract: false, final false
-static inline void set_useTethers_Injected(::System::IntPtr  _unity_self, bool  value) ;
+  /// @brief Method set_useTethers_Injected, addr 0x68ff840, size 0x44, virtual false, abstract: false, final false
+  static inline void set_useTethers_Injected(::System::IntPtr _unity_self, bool value);
 
-/// @brief Method set_useVirtualParticles, addr 0x688d108, size 0x90, virtual false, abstract: false, final false
-inline void set_useVirtualParticles(float_t  value) ;
+  /// @brief Method set_useVirtualParticles, addr 0x68ff114, size 0x90, virtual false, abstract: false, final false
+  inline void set_useVirtualParticles(float_t value);
 
-/// @brief Method set_useVirtualParticles_Injected, addr 0x688d198, size 0x4c, virtual false, abstract: false, final false
-static inline void set_useVirtualParticles_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_useVirtualParticles_Injected, addr 0x68ff1a4, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_useVirtualParticles_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_worldAccelerationScale, addr 0x688d438, size 0x90, virtual false, abstract: false, final false
-inline void set_worldAccelerationScale(float_t  value) ;
+  /// @brief Method set_worldAccelerationScale, addr 0x68ff444, size 0x90, virtual false, abstract: false, final false
+  inline void set_worldAccelerationScale(float_t value);
 
-/// @brief Method set_worldAccelerationScale_Injected, addr 0x688d4c8, size 0x4c, virtual false, abstract: false, final false
-static inline void set_worldAccelerationScale_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_worldAccelerationScale_Injected, addr 0x68ff4d4, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_worldAccelerationScale_Injected(::System::IntPtr _unity_self, float_t value);
 
-/// @brief Method set_worldVelocityScale, addr 0x688d2a0, size 0x90, virtual false, abstract: false, final false
-inline void set_worldVelocityScale(float_t  value) ;
+  /// @brief Method set_worldVelocityScale, addr 0x68ff2ac, size 0x90, virtual false, abstract: false, final false
+  inline void set_worldVelocityScale(float_t value);
 
-/// @brief Method set_worldVelocityScale_Injected, addr 0x688d330, size 0x4c, virtual false, abstract: false, final false
-static inline void set_worldVelocityScale_Injected(::System::IntPtr  _unity_self, float_t  value) ;
+  /// @brief Method set_worldVelocityScale_Injected, addr 0x68ff33c, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_worldVelocityScale_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Cloth() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Cloth();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Cloth(Cloth&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Cloth(Cloth && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Cloth(Cloth const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Cloth", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Cloth(Cloth const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22428 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22350};
+  /// @brief Field <useContinuousCollision>k__BackingField, offset: 0x18, size: 0x4, def value: None
+  float_t ____useContinuousCollision_k__BackingField;
 
-/// @brief Field <useContinuousCollision>k__BackingField, offset: 0x18, size: 0x4, def value: None
- float_t  ____useContinuousCollision_k__BackingField;
+  /// @brief Field <selfCollision>k__BackingField, offset: 0x1c, size: 0x1, def value: None
+  bool ____selfCollision_k__BackingField;
 
-/// @brief Field <selfCollision>k__BackingField, offset: 0x1c, size: 0x1, def value: None
- bool  ____selfCollision_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Cloth, ____useContinuousCollision_k__BackingField) == 0x18, "Offset mismatch!");
@@ -511,6 +511,6 @@ static_assert(offsetof(::UnityEngine::Cloth, ____selfCollision_k__BackingField) 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Cloth, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Cloth);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Cloth*, "UnityEngine", "Cloth");

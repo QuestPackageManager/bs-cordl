@@ -29,40 +29,41 @@ namespace System::Data {
 // CS Name: System.Data.RelationshipConverter
 class CORDL_TYPE RelationshipConverter : public ::System::ComponentModel::ExpandableObjectConverter {
 public:
-// Declarations
-/// @brief Method CanConvertTo, addr 0x5e98078, size 0xa4, virtual true, abstract: false, final false
-inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
+  // Declarations
+  /// @brief Method CanConvertTo, addr 0x5f0a084, size 0xa4, virtual true, abstract: false, final false
+  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-/// @brief Method ConvertTo, addr 0x5e9811c, size 0xa9c, virtual true, abstract: false, final false
-inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
+  /// @brief Method ConvertTo, addr 0x5f0a128, size 0xa9c, virtual true, abstract: false, final false
+  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
+                                     ::System::Type* destinationType);
 
-static inline ::System::Data::RelationshipConverter* New_ctor() ;
+  static inline ::System::Data::RelationshipConverter* New_ctor();
 
-/// @brief Method .ctor, addr 0x5e98074, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5f0a080, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RelationshipConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RelationshipConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RelationshipConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RelationshipConverter(RelationshipConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RelationshipConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RelationshipConverter(RelationshipConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RelationshipConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RelationshipConverter(RelationshipConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RelationshipConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RelationshipConverter(RelationshipConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13834 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13827};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::RelationshipConverter, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::RelationshipConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::RelationshipConverter*, "System.Data", "RelationshipConverter");

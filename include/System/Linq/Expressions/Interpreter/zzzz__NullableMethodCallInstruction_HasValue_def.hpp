@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.NullableMethodCallInstruction/HasValue
 class CORDL_TYPE NullableMethodCallInstruction_HasValue : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::NullableMethodCallInstruction_HasValue* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::NullableMethodCallInstruction_HasValue* New_ctor();
 
-/// @brief Method Run, addr 0x5e0ad74, size 0x3c, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e7cd80, size 0x3c, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5e0acac, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e7ccb8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NullableMethodCallInstruction_HasValue() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NullableMethodCallInstruction_HasValue();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NullableMethodCallInstruction_HasValue", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NullableMethodCallInstruction_HasValue(NullableMethodCallInstruction_HasValue const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16581 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16573};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullableMethodCallInstruction_HasValue, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NullableMethodCallInstruction_HasValue);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NullableMethodCallInstruction_HasValue*, "System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction/HasValue");

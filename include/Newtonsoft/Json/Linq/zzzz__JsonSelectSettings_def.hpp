@@ -8,8 +8,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__TimeSpan_def.hpp"
 CORDL_MODULE_EXPORT(JsonSelectSettings)
 namespace System {
-template<typename T>
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 struct TimeSpan;
@@ -26,70 +25,71 @@ namespace Newtonsoft::Json::Linq {
 // CS Name: Newtonsoft.Json.Linq.JsonSelectSettings
 class CORDL_TYPE JsonSelectSettings : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_ErrorWhenNoMatch, put=set_ErrorWhenNoMatch)) bool  ErrorWhenNoMatch;
+  // Declarations
+  __declspec(property(get = get_ErrorWhenNoMatch, put = set_ErrorWhenNoMatch)) bool ErrorWhenNoMatch;
 
- __declspec(property(get=get_RegexMatchTimeout, put=set_RegexMatchTimeout)) ::System::Nullable_1<::System::TimeSpan>  RegexMatchTimeout;
+  __declspec(property(get = get_RegexMatchTimeout, put = set_RegexMatchTimeout)) ::System::Nullable_1<::System::TimeSpan> RegexMatchTimeout;
 
-/// @brief Field <ErrorWhenNoMatch>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__ErrorWhenNoMatch_k__BackingField, put=__cordl_internal_set__ErrorWhenNoMatch_k__BackingField)) bool  _ErrorWhenNoMatch_k__BackingField;
+  /// @brief Field <ErrorWhenNoMatch>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__ErrorWhenNoMatch_k__BackingField, put = __cordl_internal_set__ErrorWhenNoMatch_k__BackingField)) bool _ErrorWhenNoMatch_k__BackingField;
 
-/// @brief Field <RegexMatchTimeout>k__BackingField, offset 0x10, size 0x10 
- __declspec(property(get=__cordl_internal_get__RegexMatchTimeout_k__BackingField, put=__cordl_internal_set__RegexMatchTimeout_k__BackingField)) ::System::Nullable_1<::System::TimeSpan>  _RegexMatchTimeout_k__BackingField;
+  /// @brief Field <RegexMatchTimeout>k__BackingField, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get__RegexMatchTimeout_k__BackingField, put = __cordl_internal_set__RegexMatchTimeout_k__BackingField)) ::System::Nullable_1<::System::TimeSpan>
+      _RegexMatchTimeout_k__BackingField;
 
-static inline ::Newtonsoft::Json::Linq::JsonSelectSettings* New_ctor() ;
+  static inline ::Newtonsoft::Json::Linq::JsonSelectSettings* New_ctor();
 
-constexpr bool const& __cordl_internal_get__ErrorWhenNoMatch_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ErrorWhenNoMatch_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__ErrorWhenNoMatch_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__ErrorWhenNoMatch_k__BackingField();
 
-constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__RegexMatchTimeout_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__RegexMatchTimeout_k__BackingField() const;
 
-constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get__RegexMatchTimeout_k__BackingField() ;
+  constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get__RegexMatchTimeout_k__BackingField();
 
-constexpr void __cordl_internal_set__ErrorWhenNoMatch_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__ErrorWhenNoMatch_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan>  value) ;
+  constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-/// @brief Method .ctor, addr 0x5bcd074, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5c3f05c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_ErrorWhenNoMatch, addr 0x5bcd064, size 0x8, virtual false, abstract: false, final false
-inline bool get_ErrorWhenNoMatch() ;
+  /// @brief Method get_ErrorWhenNoMatch, addr 0x5c3f04c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ErrorWhenNoMatch();
 
-/// @brief Method get_RegexMatchTimeout, addr 0x5bcd050, size 0xc, virtual false, abstract: false, final false
-inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout() ;
+  /// @brief Method get_RegexMatchTimeout, addr 0x5c3f038, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
-/// @brief Method set_ErrorWhenNoMatch, addr 0x5bcd06c, size 0x8, virtual false, abstract: false, final false
-inline void set_ErrorWhenNoMatch(bool  value) ;
+  /// @brief Method set_ErrorWhenNoMatch, addr 0x5c3f054, size 0x8, virtual false, abstract: false, final false
+  inline void set_ErrorWhenNoMatch(bool value);
 
-/// @brief Method set_RegexMatchTimeout, addr 0x5bcd05c, size 0x8, virtual false, abstract: false, final false
-inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan>  value) ;
+  /// @brief Method set_RegexMatchTimeout, addr 0x5c3f044, size 0x8, virtual false, abstract: false, final false
+  inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr JsonSelectSettings() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonSelectSettings();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  JsonSelectSettings(JsonSelectSettings&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-JsonSelectSettings(JsonSelectSettings && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  JsonSelectSettings(JsonSelectSettings const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonSelectSettings", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-JsonSelectSettings(JsonSelectSettings const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13589 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13582};
+  /// @brief Field <RegexMatchTimeout>k__BackingField, offset: 0x10, size: 0x10, def value: None
+  ::System::Nullable_1<::System::TimeSpan> ____RegexMatchTimeout_k__BackingField;
 
-/// @brief Field <RegexMatchTimeout>k__BackingField, offset: 0x10, size: 0x10, def value: None
- ::System::Nullable_1<::System::TimeSpan>  ____RegexMatchTimeout_k__BackingField;
+  /// @brief Field <ErrorWhenNoMatch>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____ErrorWhenNoMatch_k__BackingField;
 
-/// @brief Field <ErrorWhenNoMatch>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____ErrorWhenNoMatch_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonSelectSettings, ____RegexMatchTimeout_k__BackingField) == 0x10, "Offset mismatch!");
@@ -98,6 +98,6 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonSelectSettings, ____ErrorWh
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonSelectSettings, 0x28>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Linq
+} // namespace Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonSelectSettings);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JsonSelectSettings*, "Newtonsoft.Json.Linq", "JsonSelectSettings");

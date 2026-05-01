@@ -7,8 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceLocationComparer)
 namespace System::Collections::Generic {
-template<typename T>
-class IEqualityComparer_1;
+template <typename T> class IEqualityComparer_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
@@ -25,46 +24,47 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 // CS Name: UnityEngine.ResourceManagement.ResourceLocations.ResourceLocationComparer
 class CORDL_TYPE ResourceLocationComparer : public ::System::Object {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
-constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
+  constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*() noexcept;
 
-/// @brief Method Equals, addr 0x676baa0, size 0x30, virtual true, abstract: false, final true
-inline bool Equals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*  x, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*  y) ;
+  /// @brief Method Equals, addr 0x67ddaac, size 0x30, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* x, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* y);
 
-/// @brief Method GetHashCode, addr 0x676bad0, size 0x12c, virtual true, abstract: false, final true
-inline int32_t GetHashCode(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*  obj) ;
+  /// @brief Method GetHashCode, addr 0x67ddadc, size 0x12c, virtual true, abstract: false, final true
+  inline int32_t GetHashCode(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* obj);
 
-static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationComparer* New_ctor() ;
+  static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationComparer* New_ctor();
 
-/// @brief Method .ctor, addr 0x676bbfc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x67ddc08, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
-constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
+  i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation__() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ResourceLocationComparer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourceLocationComparer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationComparer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ResourceLocationComparer(ResourceLocationComparer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ResourceLocationComparer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ResourceLocationComparer(ResourceLocationComparer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationComparer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ResourceLocationComparer(ResourceLocationComparer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ResourceLocationComparer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ResourceLocationComparer(ResourceLocationComparer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18779 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18769};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationComparer, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ResourceManagement::ResourceLocations
+} // namespace UnityEngine::ResourceManagement::ResourceLocations
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationComparer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationComparer*, "UnityEngine.ResourceManagement.ResourceLocations", "ResourceLocationComparer");

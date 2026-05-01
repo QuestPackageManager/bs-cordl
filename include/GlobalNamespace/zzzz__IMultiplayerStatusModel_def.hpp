@@ -8,8 +8,7 @@ namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
 namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -20,26 +19,26 @@ class IMultiplayerStatusModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerStatusModel);
-// Dependencies 
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IMultiplayerStatusModel
 class CORDL_TYPE IMultiplayerStatusModel {
 public:
-// Declarations
-/// @brief Method GetMultiplayerStatusAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken  cancellationToken) ;
+  // Declarations
+  /// @brief Method GetMultiplayerStatusAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
-// Ctor Parameters [CppParam { name: "", ty: "IMultiplayerStatusModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IMultiplayerStatusModel(IMultiplayerStatusModel const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerStatusModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IMultiplayerStatusModel(IMultiplayerStatusModel const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18869};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18879 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IMultiplayerStatusModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMultiplayerStatusModel*, "", "IMultiplayerStatusModel");

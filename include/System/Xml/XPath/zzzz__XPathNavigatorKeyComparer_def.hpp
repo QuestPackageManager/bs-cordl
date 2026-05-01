@@ -24,46 +24,46 @@ namespace System::Xml::XPath {
 // CS Name: System.Xml.XPath.XPathNavigatorKeyComparer
 class CORDL_TYPE XPathNavigatorKeyComparer : public ::System::Object {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Collections::IEqualityComparer"
-constexpr operator  ::System::Collections::IEqualityComparer*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::System::Collections::IEqualityComparer"
+  constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor() ;
+  static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor();
 
-/// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x613616c, size 0xe0, virtual true, abstract: false, final true
-inline bool System_Collections_IEqualityComparer_Equals(::System::Object*  obj1, ::System::Object*  obj2) ;
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x61a8178, size 0xe0, virtual true, abstract: false, final true
+  inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
 
-/// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x613624c, size 0x1c8, virtual true, abstract: false, final true
-inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object*  obj) ;
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x61a8258, size 0x1c8, virtual true, abstract: false, final true
+  inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
-/// @brief Method .ctor, addr 0x6136168, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x61a8174, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::System::Collections::IEqualityComparer"
-constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XPathNavigatorKeyComparer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XPathNavigatorKeyComparer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XPathNavigatorKeyComparer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XPathNavigatorKeyComparer(XPathNavigatorKeyComparer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XPathNavigatorKeyComparer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XPathNavigatorKeyComparer(XPathNavigatorKeyComparer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XPathNavigatorKeyComparer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XPathNavigatorKeyComparer(XPathNavigatorKeyComparer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XPathNavigatorKeyComparer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XPathNavigatorKeyComparer(XPathNavigatorKeyComparer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9461 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9455};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XPath::XPathNavigatorKeyComparer, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Xml::XPath
+} // namespace System::Xml::XPath
 NEED_NO_BOX(::System::Xml::XPath::XPathNavigatorKeyComparer);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XPath::XPathNavigatorKeyComparer*, "System.Xml.XPath", "XPathNavigatorKeyComparer");

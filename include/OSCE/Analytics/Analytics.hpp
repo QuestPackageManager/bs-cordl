@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "OSCE/Analytics/AnalyticsBatchingThread.hpp"
 #include "OSCE/Analytics/AnalyticsManager.hpp"
@@ -16,6 +16,5 @@
 #include "OSCE/Analytics/ScribeHelperUtility.hpp"
 #include "OSCE/Analytics/UserSessionAnalyticsEvent.hpp"
 #ifdef __cpp_modules
-                    export module Analytics;
-                    #endif
-                
+export module Analytics;
+#endif

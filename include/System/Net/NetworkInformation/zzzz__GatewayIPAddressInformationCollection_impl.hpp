@@ -10,322 +10,293 @@
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(
+    &::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x619d74c;
+  constexpr static std::size_t addrs = 0x620f758;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.CopyTo
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(::ArrayW<::System::Net::NetworkInformation::GatewayIPAddressInformation*,::Array<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>, int32_t)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(
+    ::ArrayW<::System::Net::NetworkInformation::GatewayIPAddressInformation*, ::Array<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>, int32_t)>(
+    &::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::CopyTo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x619d7c0;
+  constexpr static std::size_t addrs = 0x620f7cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.get_Count
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(
+    &::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_Count)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x619d82c;
+  constexpr static std::size_t addrs = 0x620f838;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(
+    &::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x619d880;
+  constexpr static std::size_t addrs = 0x620f88c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.Add
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(
+    ::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Add)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x619d888;
+  constexpr static std::size_t addrs = 0x620f894;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.InternalAdd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::InternalAdd)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(
+    ::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::InternalAdd)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x619d8d8;
+  constexpr static std::size_t addrs = 0x620f8e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                        "InternalAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::NetworkInformation::GatewayIPAddressInformation*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), "InternalAdd",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::NetworkInformation::GatewayIPAddressInformation*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.Contains
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Contains)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(
+    ::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Contains)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x619d93c;
+  constexpr static std::size_t addrs = 0x620f948;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 17));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* (
+    ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x619d9a0;
+  constexpr static std::size_t addrs = 0x620f9ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 18));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.System_Collections_IEnumerable_GetEnumerator
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(
+    &::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x619d9f4;
+  constexpr static std::size_t addrs = 0x620fa00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.Remove
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Remove)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(
+    ::System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Remove)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x619da04;
+  constexpr static std::size_t addrs = 0x620fa10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 19));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection.Clear
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Clear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(
+    &::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Clear)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x619da54;
+  constexpr static std::size_t addrs = 0x620fa60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                                  20
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 20));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*& System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__cordl_internal_get_addresses()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___addresses;
+constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*&
+System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__cordl_internal_get_addresses() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___addresses;
 }
-constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* const& System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__cordl_internal_get_addresses() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___addresses;
+constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* const&
+System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__cordl_internal_get_addresses() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___addresses;
 }
-constexpr void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__cordl_internal_set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___addresses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__cordl_internal_set_addresses(
+    ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___addresses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::CopyTo(::ArrayW<::System::Net::NetworkInformation::GatewayIPAddressInformation*,::Array<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>  array, int32_t  offset)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, offset);
+inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::CopyTo(
+    ::ArrayW<::System::Net::NetworkInformation::GatewayIPAddressInformation*, ::Array<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*> array, int32_t offset) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, offset);
 }
-inline int32_t System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_Count()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_Count() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_IsReadOnly()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Add(::System::Net::NetworkInformation::GatewayIPAddressInformation*  address)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, address);
+inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Add(::System::Net::NetworkInformation::GatewayIPAddressInformation* address) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, address);
 }
-inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::InternalAdd(::System::Net::NetworkInformation::GatewayIPAddressInformation*  address)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                        "InternalAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::NetworkInformation::GatewayIPAddressInformation*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, address);
+inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::InternalAdd(::System::Net::NetworkInformation::GatewayIPAddressInformation* address) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), "InternalAdd", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::NetworkInformation::GatewayIPAddressInformation*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, address);
 }
-inline bool System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Contains(::System::Net::NetworkInformation::GatewayIPAddressInformation*  address)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, address);
+inline bool System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Contains(::System::Net::NetworkInformation::GatewayIPAddressInformation* address) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 17)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, address);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GetEnumerator()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*
+System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GetEnumerator() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 18)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                        "System.Collections.IEnumerable.GetEnumerator",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
+                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline bool System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Remove(::System::Net::NetworkInformation::GatewayIPAddressInformation*  address)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, address);
+inline bool System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Remove(::System::Net::NetworkInformation::GatewayIPAddressInformation* address) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 19)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, address);
 }
-inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Clear()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(),
-                            20
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Clear() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>::get(), 20)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>());
+inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*>());
 }
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>"
-constexpr  System::Net::NetworkInformation::GatewayIPAddressInformationCollection::operator ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
+constexpr System::Net::NetworkInformation::GatewayIPAddressInformationCollection::operator ::System::Collections::Generic::ICollection_1<
+    ::System::Net::NetworkInformation::GatewayIPAddressInformation*>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>"
-constexpr ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::i___System__Collections__Generic__ICollection_1___System__Net__NetworkInformation__GatewayIPAddressInformation__() noexcept {
-return static_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*
+System::Net::NetworkInformation::GatewayIPAddressInformationCollection::i___System__Collections__Generic__ICollection_1___System__Net__NetworkInformation__GatewayIPAddressInformation__() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>"
-constexpr  System::Net::NetworkInformation::GatewayIPAddressInformationCollection::operator ::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
+constexpr System::Net::NetworkInformation::GatewayIPAddressInformationCollection::operator ::System::Collections::Generic::IEnumerable_1<
+    ::System::Net::NetworkInformation::GatewayIPAddressInformation*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::i___System__Collections__Generic__IEnumerable_1___System__Net__NetworkInformation__GatewayIPAddressInformation__() noexcept {
-return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*
+System::Net::NetworkInformation::GatewayIPAddressInformationCollection::i___System__Collections__Generic__IEnumerable_1___System__Net__NetworkInformation__GatewayIPAddressInformation__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr  System::Net::NetworkInformation::GatewayIPAddressInformationCollection::operator ::System::Collections::IEnumerable*() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr System::Net::NetworkInformation::GatewayIPAddressInformationCollection::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::i___System__Collections__IEnumerable() noexcept {
-return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GatewayIPAddressInformationCollection()   {
-}
+constexpr ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GatewayIPAddressInformationCollection() {}

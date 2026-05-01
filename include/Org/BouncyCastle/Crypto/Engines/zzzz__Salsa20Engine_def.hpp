@@ -25,229 +25,229 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
 class CORDL_TYPE Salsa20Engine : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-/// @brief Field DEFAULT_ROUNDS, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_DEFAULT_ROUNDS, put=setStaticF_DEFAULT_ROUNDS)) int32_t  DEFAULT_ROUNDS;
+  /// @brief Field DEFAULT_ROUNDS, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_DEFAULT_ROUNDS, put = setStaticF_DEFAULT_ROUNDS)) int32_t DEFAULT_ROUNDS;
 
- __declspec(property(get=get_NonceSize)) int32_t  NonceSize;
+  __declspec(property(get = get_NonceSize)) int32_t NonceSize;
 
-/// @brief Field TAU_SIGMA, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_TAU_SIGMA, put=setStaticF_TAU_SIGMA)) ::ArrayW<uint32_t,::Array<uint32_t>*>  TAU_SIGMA;
+  /// @brief Field TAU_SIGMA, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_TAU_SIGMA, put = setStaticF_TAU_SIGMA)) ::ArrayW<uint32_t, ::Array<uint32_t>*> TAU_SIGMA;
 
-/// @brief Field cW0, offset 0x34, size 0x4 
- __declspec(property(get=__cordl_internal_get_cW0, put=__cordl_internal_set_cW0)) uint32_t  cW0;
+  /// @brief Field cW0, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_cW0, put = __cordl_internal_set_cW0)) uint32_t cW0;
 
-/// @brief Field cW1, offset 0x38, size 0x4 
- __declspec(property(get=__cordl_internal_get_cW1, put=__cordl_internal_set_cW1)) uint32_t  cW1;
+  /// @brief Field cW1, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_cW1, put = __cordl_internal_set_cW1)) uint32_t cW1;
 
-/// @brief Field cW2, offset 0x3c, size 0x4 
- __declspec(property(get=__cordl_internal_get_cW2, put=__cordl_internal_set_cW2)) uint32_t  cW2;
+  /// @brief Field cW2, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_cW2, put = __cordl_internal_set_cW2)) uint32_t cW2;
 
-/// @brief Field engineState, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_engineState, put=__cordl_internal_set_engineState)) ::ArrayW<uint32_t,::Array<uint32_t>*>  engineState;
+  /// @brief Field engineState, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_engineState, put = __cordl_internal_set_engineState)) ::ArrayW<uint32_t, ::Array<uint32_t>*> engineState;
 
-/// @brief Field index, offset 0x14, size 0x4 
- __declspec(property(get=__cordl_internal_get_index, put=__cordl_internal_set_index)) int32_t  index;
+  /// @brief Field index, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
-/// @brief Field initialised, offset 0x30, size 0x1 
- __declspec(property(get=__cordl_internal_get_initialised, put=__cordl_internal_set_initialised)) bool  initialised;
+  /// @brief Field initialised, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
 
-/// @brief Field keyStream, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_keyStream, put=__cordl_internal_set_keyStream)) ::ArrayW<uint8_t,::Array<uint8_t>*>  keyStream;
+  /// @brief Field keyStream, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyStream, put = __cordl_internal_set_keyStream)) ::ArrayW<uint8_t, ::Array<uint8_t>*> keyStream;
 
-/// @brief Field rounds, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_rounds, put=__cordl_internal_set_rounds)) int32_t  rounds;
+  /// @brief Field rounds, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_rounds, put = __cordl_internal_set_rounds)) int32_t rounds;
 
-/// @brief Field sigma, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_sigma, put=setStaticF_sigma)) ::ArrayW<uint8_t,::Array<uint8_t>*>  sigma;
+  /// @brief Field sigma, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_sigma, put = setStaticF_sigma)) ::ArrayW<uint8_t, ::Array<uint8_t>*> sigma;
 
-/// @brief Field tau, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_tau, put=setStaticF_tau)) ::ArrayW<uint8_t,::Array<uint8_t>*>  tau;
+  /// @brief Field tau, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_tau, put = setStaticF_tau)) ::ArrayW<uint8_t, ::Array<uint8_t>*> tau;
 
-/// @brief Field x, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_x, put=__cordl_internal_set_x)) ::ArrayW<uint32_t,::Array<uint32_t>*>  x;
+  /// @brief Field x, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::ArrayW<uint32_t, ::Array<uint32_t>*> x;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
-constexpr operator  ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-/// @brief Method AdvanceCounter, addr 0x32ad53c, size 0x4c, virtual true, abstract: false, final false
-inline void AdvanceCounter() ;
+  /// @brief Method AdvanceCounter, addr 0x32e9b80, size 0x4c, virtual true, abstract: false, final false
+  inline void AdvanceCounter();
 
-/// @brief Method GenerateKeyStream, addr 0x32ada8c, size 0x88, virtual true, abstract: false, final false
-inline void GenerateKeyStream(::ArrayW<uint8_t,::Array<uint8_t>*>  output) ;
+  /// @brief Method GenerateKeyStream, addr 0x32ea0d0, size 0x88, virtual true, abstract: false, final false
+  inline void GenerateKeyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-/// @brief Method Init, addr 0x32acf84, size 0x38c, virtual true, abstract: false, final false
-inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
+  /// @brief Method Init, addr 0x32e95c8, size 0x38c, virtual true, abstract: false, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-/// @brief Method LimitExceeded, addr 0x32ad4fc, size 0x40, virtual false, abstract: false, final false
-inline bool LimitExceeded() ;
+  /// @brief Method LimitExceeded, addr 0x32e9b40, size 0x40, virtual false, abstract: false, final false
+  inline bool LimitExceeded();
 
-/// @brief Method LimitExceeded, addr 0x32ad804, size 0x40, virtual false, abstract: false, final false
-inline bool LimitExceeded(uint32_t  len) ;
+  /// @brief Method LimitExceeded, addr 0x32e9e48, size 0x40, virtual false, abstract: false, final false
+  inline bool LimitExceeded(uint32_t len);
 
-static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor();
 
-static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor(int32_t  rounds) ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine* New_ctor(int32_t rounds);
 
-/// @brief Method PackTauOrSigma, addr 0x32acce8, size 0x138, virtual false, abstract: false, final false
-inline void PackTauOrSigma(int32_t  keyLength, ::ArrayW<uint32_t,::Array<uint32_t>*>  state, int32_t  stateOffset) ;
+  /// @brief Method PackTauOrSigma, addr 0x32e932c, size 0x138, virtual false, abstract: false, final false
+  inline void PackTauOrSigma(int32_t keyLength, ::ArrayW<uint32_t, ::Array<uint32_t>*> state, int32_t stateOffset);
 
-/// @brief Method ProcessBytes, addr 0x32ad588, size 0x27c, virtual true, abstract: false, final false
-inline void ProcessBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, int32_t  len, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
+  /// @brief Method ProcessBytes, addr 0x32e9bcc, size 0x27c, virtual true, abstract: false, final false
+  inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-/// @brief Method Reset, addr 0x32ad844, size 0x1c, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x32e9e88, size 0x1c, virtual true, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method ResetCounter, addr 0x32ad86c, size 0x2c, virtual true, abstract: false, final false
-inline void ResetCounter() ;
+  /// @brief Method ResetCounter, addr 0x32e9eb0, size 0x2c, virtual true, abstract: false, final false
+  inline void ResetCounter();
 
-/// @brief Method ResetLimitCounter, addr 0x32ad860, size 0xc, virtual false, abstract: false, final false
-inline void ResetLimitCounter() ;
+  /// @brief Method ResetLimitCounter, addr 0x32e9ea4, size 0xc, virtual false, abstract: false, final false
+  inline void ResetLimitCounter();
 
-/// @brief Method ReturnByte, addr 0x32ad3fc, size 0x100, virtual true, abstract: false, final false
-inline uint8_t ReturnByte(uint8_t  input) ;
+  /// @brief Method ReturnByte, addr 0x32e9a40, size 0x100, virtual true, abstract: false, final false
+  inline uint8_t ReturnByte(uint8_t input);
 
-/// @brief Method SalsaCore, addr 0x32adb14, size 0x2ac, virtual false, abstract: false, final false
-static inline void SalsaCore(int32_t  rounds, ::ArrayW<uint32_t,::Array<uint32_t>*>  input, ::ArrayW<uint32_t,::Array<uint32_t>*>  x) ;
+  /// @brief Method SalsaCore, addr 0x32ea158, size 0x2ac, virtual false, abstract: false, final false
+  static inline void SalsaCore(int32_t rounds, ::ArrayW<uint32_t, ::Array<uint32_t>*> input, ::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-/// @brief Method SetKey, addr 0x32ad898, size 0x1f4, virtual true, abstract: false, final false
-inline void SetKey(::ArrayW<uint8_t,::Array<uint8_t>*>  keyBytes, ::ArrayW<uint8_t,::Array<uint8_t>*>  ivBytes) ;
+  /// @brief Method SetKey, addr 0x32e9edc, size 0x1f4, virtual true, abstract: false, final false
+  inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-constexpr uint32_t const& __cordl_internal_get_cW0() const;
+  constexpr uint32_t const& __cordl_internal_get_cW0() const;
 
-constexpr uint32_t& __cordl_internal_get_cW0() ;
+  constexpr uint32_t& __cordl_internal_get_cW0();
 
-constexpr uint32_t const& __cordl_internal_get_cW1() const;
+  constexpr uint32_t const& __cordl_internal_get_cW1() const;
 
-constexpr uint32_t& __cordl_internal_get_cW1() ;
+  constexpr uint32_t& __cordl_internal_get_cW1();
 
-constexpr uint32_t const& __cordl_internal_get_cW2() const;
+  constexpr uint32_t const& __cordl_internal_get_cW2() const;
 
-constexpr uint32_t& __cordl_internal_get_cW2() ;
+  constexpr uint32_t& __cordl_internal_get_cW2();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_engineState() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_engineState() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_engineState() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_engineState();
 
-constexpr int32_t const& __cordl_internal_get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-constexpr int32_t& __cordl_internal_get_index() ;
+  constexpr int32_t& __cordl_internal_get_index();
 
-constexpr bool const& __cordl_internal_get_initialised() const;
+  constexpr bool const& __cordl_internal_get_initialised() const;
 
-constexpr bool& __cordl_internal_get_initialised() ;
+  constexpr bool& __cordl_internal_get_initialised();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_keyStream() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_keyStream() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_keyStream() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keyStream();
 
-constexpr int32_t const& __cordl_internal_get_rounds() const;
+  constexpr int32_t const& __cordl_internal_get_rounds() const;
 
-constexpr int32_t& __cordl_internal_get_rounds() ;
+  constexpr int32_t& __cordl_internal_get_rounds();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_x() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_x() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_x() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_x();
 
-constexpr void __cordl_internal_set_cW0(uint32_t  value) ;
+  constexpr void __cordl_internal_set_cW0(uint32_t value);
 
-constexpr void __cordl_internal_set_cW1(uint32_t  value) ;
+  constexpr void __cordl_internal_set_cW1(uint32_t value);
 
-constexpr void __cordl_internal_set_cW2(uint32_t  value) ;
+  constexpr void __cordl_internal_set_cW2(uint32_t value);
 
-constexpr void __cordl_internal_set_engineState(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set_engineState(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-constexpr void __cordl_internal_set_index(int32_t  value) ;
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-constexpr void __cordl_internal_set_initialised(bool  value) ;
+  constexpr void __cordl_internal_set_initialised(bool value);
 
-constexpr void __cordl_internal_set_keyStream(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_keyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_rounds(int32_t  value) ;
+  constexpr void __cordl_internal_set_rounds(int32_t value);
 
-constexpr void __cordl_internal_set_x(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-/// @brief Method .ctor, addr 0x32ace20, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32e9464, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x32ace84, size 0x100, virtual false, abstract: false, final false
-inline void _ctor(int32_t  rounds) ;
+  /// @brief Method .ctor, addr 0x32e94c8, size 0x100, virtual false, abstract: false, final false
+  inline void _ctor(int32_t rounds);
 
-static inline int32_t getStaticF_DEFAULT_ROUNDS() ;
+  static inline int32_t getStaticF_DEFAULT_ROUNDS();
 
-static inline ::ArrayW<uint32_t,::Array<uint32_t>*> getStaticF_TAU_SIGMA() ;
+  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_TAU_SIGMA();
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_sigma() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_sigma();
 
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_tau() ;
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_tau();
 
-/// @brief Method get_AlgorithmName, addr 0x32ad318, size 0xe4, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x32e995c, size 0xe4, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
-/// @brief Method get_NonceSize, addr 0x32ad310, size 0x8, virtual true, abstract: false, final false
-inline int32_t get_NonceSize() ;
+  /// @brief Method get_NonceSize, addr 0x32e9954, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_NonceSize();
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
-constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
-static inline void setStaticF_DEFAULT_ROUNDS(int32_t  value) ;
+  static inline void setStaticF_DEFAULT_ROUNDS(int32_t value);
 
-static inline void setStaticF_TAU_SIGMA(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  static inline void setStaticF_TAU_SIGMA(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-static inline void setStaticF_sigma(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_sigma(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-static inline void setStaticF_tau(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  static inline void setStaticF_tau(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Salsa20Engine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Salsa20Engine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Salsa20Engine(Salsa20Engine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Salsa20Engine(Salsa20Engine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Salsa20Engine(Salsa20Engine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Salsa20Engine(Salsa20Engine const& ) = delete;
+  /// @brief Field StateSize offset 0xffffffff size 0x4
+  static constexpr int32_t StateSize{ static_cast<int32_t>(0x10) };
 
-/// @brief Field StateSize offset 0xffffffff size 0x4
-static constexpr int32_t  StateSize{static_cast<int32_t>(0x10)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 836 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{836};
+  /// @brief Field rounds, offset: 0x10, size: 0x4, def value: None
+  int32_t ___rounds;
 
-/// @brief Field rounds, offset: 0x10, size: 0x4, def value: None
- int32_t  ___rounds;
+  /// @brief Field index, offset: 0x14, size: 0x4, def value: None
+  int32_t ___index;
 
-/// @brief Field index, offset: 0x14, size: 0x4, def value: None
- int32_t  ___index;
+  /// @brief Field engineState, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___engineState;
 
-/// @brief Field engineState, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ___engineState;
+  /// @brief Field x, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___x;
 
-/// @brief Field x, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ___x;
+  /// @brief Field keyStream, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___keyStream;
 
-/// @brief Field keyStream, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___keyStream;
+  /// @brief Field initialised, offset: 0x30, size: 0x1, def value: None
+  bool ___initialised;
 
-/// @brief Field initialised, offset: 0x30, size: 0x1, def value: None
- bool  ___initialised;
+  /// @brief Field cW0, offset: 0x34, size: 0x4, def value: None
+  uint32_t ___cW0;
 
-/// @brief Field cW0, offset: 0x34, size: 0x4, def value: None
- uint32_t  ___cW0;
+  /// @brief Field cW1, offset: 0x38, size: 0x4, def value: None
+  uint32_t ___cW1;
 
-/// @brief Field cW1, offset: 0x38, size: 0x4, def value: None
- uint32_t  ___cW1;
+  /// @brief Field cW2, offset: 0x3c, size: 0x4, def value: None
+  uint32_t ___cW2;
 
-/// @brief Field cW2, offset: 0x3c, size: 0x4, def value: None
- uint32_t  ___cW2;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___rounds) == 0x10, "Offset mismatch!");
@@ -270,6 +270,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, ___c
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine, 0x40>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Engines
+} // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*, "Org.BouncyCastle.Crypto.Engines", "Salsa20Engine");

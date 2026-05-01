@@ -6,165 +6,149 @@
 #include "System/ComponentModel/zzzz__RefreshProperties_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::RefreshPropertiesAttribute._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::ComponentModel::RefreshProperties)>(&::System::ComponentModel::RefreshPropertiesAttribute::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::ComponentModel::RefreshProperties)>(
+    &::System::ComponentModel::RefreshPropertiesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62359f0;
+  constexpr static std::size_t addrs = 0x62a79fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::RefreshProperties>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::RefreshProperties>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::RefreshPropertiesAttribute.get_RefreshProperties
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::RefreshProperties (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(&::System::ComponentModel::RefreshPropertiesAttribute::get_RefreshProperties)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::RefreshProperties (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(
+    &::System::ComponentModel::RefreshPropertiesAttribute::get_RefreshProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62359f8;
+  constexpr static std::size_t addrs = 0x62a7a04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                        "get_RefreshProperties",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
+                                                                               "get_RefreshProperties", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::RefreshPropertiesAttribute.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::Object*)>(&::System::ComponentModel::RefreshPropertiesAttribute::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::Object*)>(
+    &::System::ComponentModel::RefreshPropertiesAttribute::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6235a00;
+  constexpr static std::size_t addrs = 0x62a7a0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                                  0
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), 0));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::RefreshPropertiesAttribute.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(&::System::ComponentModel::RefreshPropertiesAttribute::GetHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(
+    &::System::ComponentModel::RefreshPropertiesAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6235a7c;
+  constexpr static std::size_t addrs = 0x62a7a88;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), 2));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::RefreshPropertiesAttribute.IsDefaultAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(&::System::ComponentModel::RefreshPropertiesAttribute::IsDefaultAttribute)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(
+    &::System::ComponentModel::RefreshPropertiesAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6235a84;
+  constexpr static std::size_t addrs = 0x62a7a90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), 6));
     return ___internal_method;
   }
 };
-constexpr ::System::ComponentModel::RefreshProperties& System::ComponentModel::RefreshPropertiesAttribute::__cordl_internal_get_refresh()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___refresh;
+constexpr ::System::ComponentModel::RefreshProperties& System::ComponentModel::RefreshPropertiesAttribute::__cordl_internal_get_refresh() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___refresh;
 }
 constexpr ::System::ComponentModel::RefreshProperties const& System::ComponentModel::RefreshPropertiesAttribute::__cordl_internal_get_refresh() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___refresh;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___refresh;
 }
-constexpr void System::ComponentModel::RefreshPropertiesAttribute::__cordl_internal_set_refresh(::System::ComponentModel::RefreshProperties  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___refresh = value;
+constexpr void System::ComponentModel::RefreshPropertiesAttribute::__cordl_internal_set_refresh(::System::ComponentModel::RefreshProperties value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___refresh = value;
 }
-inline void System::ComponentModel::RefreshPropertiesAttribute::setStaticF_All(::System::ComponentModel::RefreshPropertiesAttribute*  value)  {
-::cordl_internals::setStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "All", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>(std::forward<::System::ComponentModel::RefreshPropertiesAttribute*>(value));
+inline void System::ComponentModel::RefreshPropertiesAttribute::setStaticF_All(::System::ComponentModel::RefreshPropertiesAttribute* value) {
+  ::cordl_internals::setStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "All",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>(
+      std::forward<::System::ComponentModel::RefreshPropertiesAttribute*>(value));
 }
-inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::getStaticF_All()  {
-return ::cordl_internals::getStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "All", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>();
+inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::getStaticF_All() {
+  return ::cordl_internals::getStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "All",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>();
 }
-inline void System::ComponentModel::RefreshPropertiesAttribute::setStaticF_Repaint(::System::ComponentModel::RefreshPropertiesAttribute*  value)  {
-::cordl_internals::setStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Repaint", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>(std::forward<::System::ComponentModel::RefreshPropertiesAttribute*>(value));
+inline void System::ComponentModel::RefreshPropertiesAttribute::setStaticF_Repaint(::System::ComponentModel::RefreshPropertiesAttribute* value) {
+  ::cordl_internals::setStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Repaint",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>(
+      std::forward<::System::ComponentModel::RefreshPropertiesAttribute*>(value));
 }
-inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::getStaticF_Repaint()  {
-return ::cordl_internals::getStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Repaint", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>();
+inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::getStaticF_Repaint() {
+  return ::cordl_internals::getStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Repaint",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>();
 }
-inline void System::ComponentModel::RefreshPropertiesAttribute::setStaticF_Default(::System::ComponentModel::RefreshPropertiesAttribute*  value)  {
-::cordl_internals::setStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>(std::forward<::System::ComponentModel::RefreshPropertiesAttribute*>(value));
+inline void System::ComponentModel::RefreshPropertiesAttribute::setStaticF_Default(::System::ComponentModel::RefreshPropertiesAttribute* value) {
+  ::cordl_internals::setStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Default",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>(
+      std::forward<::System::ComponentModel::RefreshPropertiesAttribute*>(value));
 }
-inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::getStaticF_Default()  {
-return ::cordl_internals::getStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>();
+inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::getStaticF_Default() {
+  return ::cordl_internals::getStaticField<::System::ComponentModel::RefreshPropertiesAttribute*, "Default",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get>();
 }
-inline void System::ComponentModel::RefreshPropertiesAttribute::_ctor(::System::ComponentModel::RefreshProperties  refresh)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::RefreshProperties>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, refresh);
+inline void System::ComponentModel::RefreshPropertiesAttribute::_ctor(::System::ComponentModel::RefreshProperties refresh) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::RefreshProperties>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, refresh);
 }
-inline ::System::ComponentModel::RefreshProperties System::ComponentModel::RefreshPropertiesAttribute::get_RefreshProperties()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                        "get_RefreshProperties",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::RefreshProperties, false>(this, ___internal_method);
+inline ::System::ComponentModel::RefreshProperties System::ComponentModel::RefreshPropertiesAttribute::get_RefreshProperties() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
+                                                                             "get_RefreshProperties", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::RefreshProperties, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::RefreshPropertiesAttribute::Equals(::System::Object*  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                            0
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
+inline bool System::ComponentModel::RefreshPropertiesAttribute::Equals(::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
-inline int32_t System::ComponentModel::RefreshPropertiesAttribute::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::ComponentModel::RefreshPropertiesAttribute::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::RefreshPropertiesAttribute::IsDefaultAttribute()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::ComponentModel::RefreshPropertiesAttribute::IsDefaultAttribute() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::RefreshPropertiesAttribute*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::New_ctor(::System::ComponentModel::RefreshProperties  refresh)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::RefreshPropertiesAttribute*>(refresh));
+inline ::System::ComponentModel::RefreshPropertiesAttribute* System::ComponentModel::RefreshPropertiesAttribute::New_ctor(::System::ComponentModel::RefreshProperties refresh) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::RefreshPropertiesAttribute*>(refresh));
 }
 // Ctor Parameters []
-constexpr ::System::ComponentModel::RefreshPropertiesAttribute::RefreshPropertiesAttribute()   {
-}
+constexpr ::System::ComponentModel::RefreshPropertiesAttribute::RefreshPropertiesAttribute() {}

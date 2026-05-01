@@ -30,101 +30,101 @@ namespace Newtonsoft::Json::Converters {
 // CS Name: Newtonsoft.Json.Converters.XmlDocumentWrapper
 class CORDL_TYPE XmlDocumentWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
-// Declarations
- __declspec(property(get=get_DocumentElement)) ::Newtonsoft::Json::Converters::IXmlElement*  DocumentElement;
+  // Declarations
+  __declspec(property(get = get_DocumentElement)) ::Newtonsoft::Json::Converters::IXmlElement* DocumentElement;
 
-/// @brief Field _document, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__document, put=__cordl_internal_set__document)) ::System::Xml::XmlDocument*  _document;
+  /// @brief Field _document, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__document, put = __cordl_internal_set__document)) ::System::Xml::XmlDocument* _document;
 
-/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocument"
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlDocument*() noexcept;
+  /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocument"
+  constexpr operator ::Newtonsoft::Json::Converters::IXmlDocument*() noexcept;
 
-/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
-constexpr operator  ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
+  /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-/// @brief Method CreateAttribute, addr 0x5bf1290, size 0xa0, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW  name, ::StringW  value) ;
+  /// @brief Method CreateAttribute, addr 0x5c63278, size 0xa0, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW name, ::StringW value);
 
-/// @brief Method CreateAttribute, addr 0x5bf134c, size 0xb0, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW  qualifiedName, ::StringW  namespaceUri, ::StringW  value) ;
+  /// @brief Method CreateAttribute, addr 0x5c63334, size 0xb0, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW qualifiedName, ::StringW namespaceUri, ::StringW value);
 
-/// @brief Method CreateCDataSection, addr 0x5bf0e08, size 0x84, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateCDataSection(::StringW  data) ;
+  /// @brief Method CreateCDataSection, addr 0x5c62df0, size 0x84, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateCDataSection(::StringW data);
 
-/// @brief Method CreateComment, addr 0x5bf0d00, size 0x84, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateComment(::StringW  data) ;
+  /// @brief Method CreateComment, addr 0x5c62ce8, size 0x84, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateComment(::StringW data);
 
-/// @brief Method CreateElement, addr 0x5bf117c, size 0x80, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW  elementName) ;
+  /// @brief Method CreateElement, addr 0x5c63164, size 0x80, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName);
 
-/// @brief Method CreateElement, addr 0x5bf1208, size 0x88, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW  qualifiedName, ::StringW  namespaceUri) ;
+  /// @brief Method CreateElement, addr 0x5c631f0, size 0x88, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW qualifiedName, ::StringW namespaceUri);
 
-/// @brief Method CreateProcessingInstruction, addr 0x5bf10f0, size 0x8c, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateProcessingInstruction(::StringW  target, ::StringW  data) ;
+  /// @brief Method CreateProcessingInstruction, addr 0x5c630d8, size 0x8c, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateProcessingInstruction(::StringW target, ::StringW data);
 
-/// @brief Method CreateSignificantWhitespace, addr 0x5bf0f10, size 0x84, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateSignificantWhitespace(::StringW  text) ;
+  /// @brief Method CreateSignificantWhitespace, addr 0x5c62ef8, size 0x84, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateSignificantWhitespace(::StringW text);
 
-/// @brief Method CreateTextNode, addr 0x5bf0d84, size 0x84, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateTextNode(::StringW  text) ;
+  /// @brief Method CreateTextNode, addr 0x5c62d6c, size 0x84, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateTextNode(::StringW text);
 
-/// @brief Method CreateWhitespace, addr 0x5bf0e8c, size 0x84, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateWhitespace(::StringW  text) ;
+  /// @brief Method CreateWhitespace, addr 0x5c62e74, size 0x84, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateWhitespace(::StringW text);
 
-/// @brief Method CreateXmlDeclaration, addr 0x5bf0f94, size 0xa0, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDeclaration(::StringW  version, ::StringW  encoding, ::StringW  standalone) ;
+  /// @brief Method CreateXmlDeclaration, addr 0x5c62f7c, size 0xa0, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone);
 
-/// @brief Method CreateXmlDocumentType, addr 0x5bf1040, size 0xa4, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDocumentType(::StringW  name, ::StringW  publicId, ::StringW  systemId, ::StringW  internalSubset) ;
+  /// @brief Method CreateXmlDocumentType, addr 0x5c63028, size 0xa4, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
-static inline ::Newtonsoft::Json::Converters::XmlDocumentWrapper* New_ctor(::System::Xml::XmlDocument*  document) ;
+  static inline ::Newtonsoft::Json::Converters::XmlDocumentWrapper* New_ctor(::System::Xml::XmlDocument* document);
 
-constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get__document() const;
+  constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get__document() const;
 
-constexpr ::System::Xml::XmlDocument*& __cordl_internal_get__document() ;
+  constexpr ::System::Xml::XmlDocument*& __cordl_internal_get__document();
 
-constexpr void __cordl_internal_set__document(::System::Xml::XmlDocument*  value) ;
+  constexpr void __cordl_internal_set__document(::System::Xml::XmlDocument* value);
 
-/// @brief Method .ctor, addr 0x5bf0cec, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::XmlDocument*  document) ;
+  /// @brief Method .ctor, addr 0x5c62cd4, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::XmlDocument* document);
 
-/// @brief Method get_DocumentElement, addr 0x5bf13fc, size 0x84, virtual true, abstract: false, final true
-inline ::Newtonsoft::Json::Converters::IXmlElement* get_DocumentElement() ;
+  /// @brief Method get_DocumentElement, addr 0x5c633e4, size 0x84, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Converters::IXmlElement* get_DocumentElement();
 
-/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocument"
-constexpr ::Newtonsoft::Json::Converters::IXmlDocument* i___Newtonsoft__Json__Converters__IXmlDocument() noexcept;
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocument"
+  constexpr ::Newtonsoft::Json::Converters::IXmlDocument* i___Newtonsoft__Json__Converters__IXmlDocument() noexcept;
 
-/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
-constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlDocumentWrapper() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlDocumentWrapper();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentWrapper", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlDocumentWrapper(XmlDocumentWrapper&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDocumentWrapper", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlDocumentWrapper(XmlDocumentWrapper && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentWrapper", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlDocumentWrapper(XmlDocumentWrapper const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlDocumentWrapper", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlDocumentWrapper(XmlDocumentWrapper const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13653 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13646};
+  /// @brief Field _document, offset: 0x28, size: 0x8, def value: None
+  ::System::Xml::XmlDocument* ____document;
 
-/// @brief Field _document, offset: 0x28, size: 0x8, def value: None
- ::System::Xml::XmlDocument*  ____document;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Converters::XmlDocumentWrapper, ____document) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XmlDocumentWrapper, 0x30>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Converters
+} // namespace Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDocumentWrapper);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlDocumentWrapper*, "Newtonsoft.Json.Converters", "XmlDocumentWrapper");

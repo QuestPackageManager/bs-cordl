@@ -36,69 +36,73 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.RenderingData
 struct CORDL_TYPE RenderingData {
 public:
-// Declarations
- __declspec(property(get=get_commandBuffer)) ::UnityEngine::Rendering::CommandBuffer*  commandBuffer;
+  // Declarations
+  __declspec(property(get = get_commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* commandBuffer;
 
- __declspec(property(get=get_cullResults)) ::UnityEngine::Rendering::CullingResults  cullResults;
+  __declspec(property(get = get_cullResults)) ::UnityEngine::Rendering::CullingResults cullResults;
 
- __declspec(property(get=get_perObjectData)) ::UnityEngine::Rendering::PerObjectData  perObjectData;
+  __declspec(property(get = get_perObjectData)) ::UnityEngine::Rendering::PerObjectData perObjectData;
 
- __declspec(property(get=get_postProcessingEnabled)) bool  postProcessingEnabled;
+  __declspec(property(get = get_postProcessingEnabled)) bool postProcessingEnabled;
 
- __declspec(property(get=get_supportsDynamicBatching)) bool  supportsDynamicBatching;
+  __declspec(property(get = get_supportsDynamicBatching)) bool supportsDynamicBatching;
 
- __declspec(property(get=get_universalRenderingData)) ::UnityEngine::Rendering::Universal::UniversalRenderingData*  universalRenderingData;
+  __declspec(property(get = get_universalRenderingData)) ::UnityEngine::Rendering::Universal::UniversalRenderingData* universalRenderingData;
 
-/// @brief Method .ctor, addr 0x672b840, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Rendering::ContextContainer*  frameData) ;
+  /// @brief Method .ctor, addr 0x679d84c, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-/// @brief Method get_commandBuffer, addr 0x672b8a4, size 0xb8, virtual false, abstract: false, final false
-inline ::ByRef<::UnityEngine::Rendering::CommandBuffer*> get_commandBuffer() ;
+  /// @brief Method get_commandBuffer, addr 0x679d8b0, size 0xb8, virtual false, abstract: false, final false
+  inline ::ByRef<::UnityEngine::Rendering::CommandBuffer*> get_commandBuffer();
 
-/// @brief Method get_cullResults, addr 0x672b95c, size 0x60, virtual false, abstract: false, final false
-inline ::ByRef<::UnityEngine::Rendering::CullingResults> get_cullResults() ;
+  /// @brief Method get_cullResults, addr 0x679d968, size 0x60, virtual false, abstract: false, final false
+  inline ::ByRef<::UnityEngine::Rendering::CullingResults> get_cullResults();
 
-/// @brief Method get_perObjectData, addr 0x672ba1c, size 0x60, virtual false, abstract: false, final false
-inline ::ByRef<::UnityEngine::Rendering::PerObjectData> get_perObjectData() ;
+  /// @brief Method get_perObjectData, addr 0x679da28, size 0x60, virtual false, abstract: false, final false
+  inline ::ByRef<::UnityEngine::Rendering::PerObjectData> get_perObjectData();
 
-/// @brief Method get_postProcessingEnabled, addr 0x672ba7c, size 0x60, virtual false, abstract: false, final false
-inline ::ByRef<bool> get_postProcessingEnabled() ;
+  /// @brief Method get_postProcessingEnabled, addr 0x679da88, size 0x60, virtual false, abstract: false, final false
+  inline ::ByRef<bool> get_postProcessingEnabled();
 
-/// @brief Method get_supportsDynamicBatching, addr 0x672b9bc, size 0x60, virtual false, abstract: false, final false
-inline ::ByRef<bool> get_supportsDynamicBatching() ;
+  /// @brief Method get_supportsDynamicBatching, addr 0x679d9c8, size 0x60, virtual false, abstract: false, final false
+  inline ::ByRef<bool> get_supportsDynamicBatching();
 
-/// @brief Method get_universalRenderingData, addr 0x672b850, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* get_universalRenderingData() ;
+  /// @brief Method get_universalRenderingData, addr 0x679d85c, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* get_universalRenderingData();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr RenderingData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderingData();
 
-// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None }, CppParam { name: "cameraData", ty: "::UnityEngine::Rendering::Universal::CameraData", modifiers: "", def_value: None }, CppParam { name: "lightData", ty: "::UnityEngine::Rendering::Universal::LightData", modifiers: "", def_value: None }, CppParam { name: "shadowData", ty: "::UnityEngine::Rendering::Universal::ShadowData", modifiers: "", def_value: None }, CppParam { name: "postProcessingData", ty: "::UnityEngine::Rendering::Universal::PostProcessingData", modifiers: "", def_value: None }]
-constexpr RenderingData(::UnityEngine::Rendering::ContextContainer*  frameData, ::UnityEngine::Rendering::Universal::CameraData  cameraData, ::UnityEngine::Rendering::Universal::LightData  lightData, ::UnityEngine::Rendering::Universal::ShadowData  shadowData, ::UnityEngine::Rendering::Universal::PostProcessingData  postProcessingData) noexcept;
+  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None }, CppParam { name: "cameraData", ty:
+  // "::UnityEngine::Rendering::Universal::CameraData", modifiers: "", def_value: None }, CppParam { name: "lightData", ty: "::UnityEngine::Rendering::Universal::LightData", modifiers: "", def_value:
+  // None }, CppParam { name: "shadowData", ty: "::UnityEngine::Rendering::Universal::ShadowData", modifiers: "", def_value: None }, CppParam { name: "postProcessingData", ty:
+  // "::UnityEngine::Rendering::Universal::PostProcessingData", modifiers: "", def_value: None }]
+  constexpr RenderingData(::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Rendering::Universal::CameraData cameraData, ::UnityEngine::Rendering::Universal::LightData lightData,
+                          ::UnityEngine::Rendering::Universal::ShadowData shadowData, ::UnityEngine::Rendering::Universal::PostProcessingData postProcessingData) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13013};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13020 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
-/// @brief Field frameData, offset: 0x0, size: 0x8, def value: None
- ::UnityEngine::Rendering::ContextContainer*  frameData;
+  /// @brief Field frameData, offset: 0x0, size: 0x8, def value: None
+  ::UnityEngine::Rendering::ContextContainer* frameData;
 
-/// @brief Field cameraData, offset: 0x8, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::CameraData  cameraData;
+  /// @brief Field cameraData, offset: 0x8, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::CameraData cameraData;
 
-/// @brief Field lightData, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::LightData  lightData;
+  /// @brief Field lightData, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::LightData lightData;
 
-/// @brief Field shadowData, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::ShadowData  shadowData;
+  /// @brief Field shadowData, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::ShadowData shadowData;
 
-/// @brief Field postProcessingData, offset: 0x20, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::PostProcessingData  postProcessingData;
+  /// @brief Field postProcessingData, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::PostProcessingData postProcessingData;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderingData, frameData) == 0x0, "Offset mismatch!");
@@ -113,5 +117,5 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderingData, postP
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::RenderingData, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::RenderingData, "UnityEngine.Rendering.Universal", "RenderingData");

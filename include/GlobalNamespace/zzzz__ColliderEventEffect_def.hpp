@@ -25,85 +25,86 @@ namespace GlobalNamespace {
 // CS Name: ColliderEventEffect
 class CORDL_TYPE ColliderEventEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
-// Declarations
-/// @brief Field _effectCollider, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__effectCollider, put=__cordl_internal_set__effectCollider)) ::UnityW<::UnityEngine::Collider>  _effectCollider;
+  // Declarations
+  /// @brief Field _effectCollider, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__effectCollider, put = __cordl_internal_set__effectCollider)) ::UnityW<::UnityEngine::Collider> _effectCollider;
 
-/// @brief Field _environmentCollisionRepository, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__environmentCollisionRepository, put=__cordl_internal_set__environmentCollisionRepository)) ::GlobalNamespace::EnvironmentCollisionRepository*  _environmentCollisionRepository;
+  /// @brief Field _environmentCollisionRepository, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentCollisionRepository,
+                      put = __cordl_internal_set__environmentCollisionRepository)) ::GlobalNamespace::EnvironmentCollisionRepository* _environmentCollisionRepository;
 
-/// @brief Field _value, offset 0x28, size 0x4 
- __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) float_t  _value;
+  /// @brief Field _value, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) float_t _value;
 
- __declspec(property(get=get_effectCollider)) ::UnityW<::UnityEngine::Collider>  effectCollider;
+  __declspec(property(get = get_effectCollider)) ::UnityW<::UnityEngine::Collider> effectCollider;
 
- __declspec(property(get=get_value)) float_t  value;
+  __declspec(property(get = get_value)) float_t value;
 
-static inline ::GlobalNamespace::ColliderEventEffect* New_ctor() ;
+  static inline ::GlobalNamespace::ColliderEventEffect* New_ctor();
 
-/// @brief Method SetValue, addr 0x57ee7e4, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
+  /// @brief Method SetValue, addr 0x58606dc, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-/// @brief Method Start, addr 0x57ee750, size 0x18, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x5860648, size 0x18, virtual false, abstract: false, final false
+  inline void Start();
 
-/// @brief Method TriggerValue, addr 0x57ee7ec, size 0x8, virtual true, abstract: false, final false
-inline void TriggerValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
+  /// @brief Method TriggerValue, addr 0x58606e4, size 0x8, virtual true, abstract: false, final false
+  inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
-constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get__effectCollider() const;
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get__effectCollider() const;
 
-constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get__effectCollider() ;
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get__effectCollider();
 
-constexpr ::GlobalNamespace::EnvironmentCollisionRepository* const& __cordl_internal_get__environmentCollisionRepository() const;
+  constexpr ::GlobalNamespace::EnvironmentCollisionRepository* const& __cordl_internal_get__environmentCollisionRepository() const;
 
-constexpr ::GlobalNamespace::EnvironmentCollisionRepository*& __cordl_internal_get__environmentCollisionRepository() ;
+  constexpr ::GlobalNamespace::EnvironmentCollisionRepository*& __cordl_internal_get__environmentCollisionRepository();
 
-constexpr float_t const& __cordl_internal_get__value() const;
+  constexpr float_t const& __cordl_internal_get__value() const;
 
-constexpr float_t& __cordl_internal_get__value() ;
+  constexpr float_t& __cordl_internal_get__value();
 
-constexpr void __cordl_internal_set__effectCollider(::UnityW<::UnityEngine::Collider>  value) ;
+  constexpr void __cordl_internal_set__effectCollider(::UnityW<::UnityEngine::Collider> value);
 
-constexpr void __cordl_internal_set__environmentCollisionRepository(::GlobalNamespace::EnvironmentCollisionRepository*  value) ;
+  constexpr void __cordl_internal_set__environmentCollisionRepository(::GlobalNamespace::EnvironmentCollisionRepository* value);
 
-constexpr void __cordl_internal_set__value(float_t  value) ;
+  constexpr void __cordl_internal_set__value(float_t value);
 
-/// @brief Method .ctor, addr 0x57ee7f4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58606ec, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_effectCollider, addr 0x57ee740, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Collider> get_effectCollider() ;
+  /// @brief Method get_effectCollider, addr 0x5860638, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider> get_effectCollider();
 
-/// @brief Method get_value, addr 0x57ee748, size 0x8, virtual false, abstract: false, final false
-inline float_t get_value() ;
+  /// @brief Method get_value, addr 0x5860640, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_value();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColliderEventEffect() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColliderEventEffect();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ColliderEventEffect(ColliderEventEffect&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ColliderEventEffect(ColliderEventEffect && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ColliderEventEffect(ColliderEventEffect const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ColliderEventEffect(ColliderEventEffect const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5921 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5920};
+  /// @brief Field _effectCollider, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Collider> ____effectCollider;
 
-/// @brief Field _effectCollider, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Collider>  ____effectCollider;
+  /// @brief Field _value, offset: 0x28, size: 0x4, def value: None
+  float_t ____value;
 
-/// @brief Field _value, offset: 0x28, size: 0x4, def value: None
- float_t  ____value;
+  /// @brief Field _environmentCollisionRepository, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::EnvironmentCollisionRepository* ____environmentCollisionRepository;
 
-/// @brief Field _environmentCollisionRepository, offset: 0x30, size: 0x8, def value: None
- ::GlobalNamespace::EnvironmentCollisionRepository*  ____environmentCollisionRepository;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____effectCollider) == 0x20, "Offset mismatch!");
@@ -114,6 +115,6 @@ static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____environmentCo
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColliderEventEffect, 0x38>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColliderEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColliderEventEffect*, "", "ColliderEventEffect");

@@ -20,37 +20,37 @@ namespace Zenject {
 // CS Name: Zenject.Installer
 class CORDL_TYPE Installer : public ::Zenject::InstallerBase {
 public:
-// Declarations
-static inline ::Zenject::Installer* New_ctor() ;
+  // Declarations
+  static inline ::Zenject::Installer* New_ctor();
 
-/// @brief Method __zenCreateInjectTypeInfo, addr 0x6ca97c4, size 0x148, virtual false, abstract: false, final false
-static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d1ba08, size 0x148, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-/// @brief Method .ctor, addr 0x6ca97bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6d1ba00, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Installer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Installer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Installer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Installer(Installer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Installer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Installer(Installer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Installer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Installer(Installer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Installer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Installer(Installer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14468 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14461};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::Installer, 0x18>, "Size mismatch!");
 
-} // namespace end def Zenject
+} // namespace Zenject
 NEED_NO_BOX(::Zenject::Installer);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::Installer*, "Zenject", "Installer");

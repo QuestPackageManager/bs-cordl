@@ -9,8 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDevices)
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -39,80 +38,80 @@ namespace UnityEngine::XR {
 // CS Name: UnityEngine.XR.InputDevices
 class CORDL_TYPE InputDevices : public ::System::Object {
 public:
-// Declarations
-/// @brief Field deviceConfigChanged, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_deviceConfigChanged, put=setStaticF_deviceConfigChanged)) ::System::Action_1<::UnityEngine::XR::InputDevice>*  deviceConfigChanged;
+  // Declarations
+  /// @brief Field deviceConfigChanged, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_deviceConfigChanged, put = setStaticF_deviceConfigChanged)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConfigChanged;
 
-/// @brief Field deviceConnected, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_deviceConnected, put=setStaticF_deviceConnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>*  deviceConnected;
+  /// @brief Field deviceConnected, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_deviceConnected, put = setStaticF_deviceConnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConnected;
 
-/// @brief Field deviceDisconnected, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_deviceDisconnected, put=setStaticF_deviceDisconnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>*  deviceDisconnected;
+  /// @brief Field deviceDisconnected, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_deviceDisconnected, put = setStaticF_deviceDisconnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceDisconnected;
 
-/// @brief Method GetDeviceAtXRNode, addr 0x6c6995c, size 0x44, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode  node) ;
+  /// @brief Method GetDeviceAtXRNode, addr 0x6cdbba4, size 0x44, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node);
 
-/// @brief Method GetDeviceCharacteristics, addr 0x6c693dc, size 0x3c, virtual false, abstract: false, final false
-static inline ::UnityEngine::XR::InputDeviceCharacteristics GetDeviceCharacteristics(uint64_t  deviceId) ;
+  /// @brief Method GetDeviceCharacteristics, addr 0x6cdb624, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::InputDeviceCharacteristics GetDeviceCharacteristics(uint64_t deviceId);
 
-/// @brief Method GetDeviceManufacturer, addr 0x6c692b4, size 0xcc, virtual false, abstract: false, final false
-static inline ::StringW GetDeviceManufacturer(uint64_t  deviceId) ;
+  /// @brief Method GetDeviceManufacturer, addr 0x6cdb4fc, size 0xcc, virtual false, abstract: false, final false
+  static inline ::StringW GetDeviceManufacturer(uint64_t deviceId);
 
-/// @brief Method GetDeviceManufacturer_Injected, addr 0x6c69aa8, size 0x44, virtual false, abstract: false, final false
-static inline void GetDeviceManufacturer_Injected(uint64_t  deviceId, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
+  /// @brief Method GetDeviceManufacturer_Injected, addr 0x6cdbcf0, size 0x44, virtual false, abstract: false, final false
+  static inline void GetDeviceManufacturer_Injected(uint64_t deviceId, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-/// @brief Method GetDeviceName, addr 0x6c691c8, size 0xcc, virtual false, abstract: false, final false
-static inline ::StringW GetDeviceName(uint64_t  deviceId) ;
+  /// @brief Method GetDeviceName, addr 0x6cdb410, size 0xcc, virtual false, abstract: false, final false
+  static inline ::StringW GetDeviceName(uint64_t deviceId);
 
-/// @brief Method GetDeviceName_Injected, addr 0x6c69a64, size 0x44, virtual false, abstract: false, final false
-static inline void GetDeviceName_Injected(uint64_t  deviceId, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
+  /// @brief Method GetDeviceName_Injected, addr 0x6cdbcac, size 0x44, virtual false, abstract: false, final false
+  static inline void GetDeviceName_Injected(uint64_t deviceId, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-/// @brief Method InvokeConnectionEvent, addr 0x6c699a0, size 0xc4, virtual false, abstract: false, final false
-static inline void InvokeConnectionEvent(uint64_t  deviceId, ::UnityEngine::XR::ConnectionChangeType  change) ;
+  /// @brief Method InvokeConnectionEvent, addr 0x6cdbbe8, size 0xc4, virtual false, abstract: false, final false
+  static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
-/// @brief Method IsDeviceValid, addr 0x6c6916c, size 0x3c, virtual false, abstract: false, final false
-static inline bool IsDeviceValid(uint64_t  deviceId) ;
+  /// @brief Method IsDeviceValid, addr 0x6cdb3b4, size 0x3c, virtual false, abstract: false, final false
+  static inline bool IsDeviceValid(uint64_t deviceId);
 
-/// @brief Method SendHapticImpulse, addr 0x6c69510, size 0x5c, virtual false, abstract: false, final false
-static inline bool SendHapticImpulse(uint64_t  deviceId, uint32_t  channel, float_t  amplitude, float_t  duration) ;
+  /// @brief Method SendHapticImpulse, addr 0x6cdb758, size 0x5c, virtual false, abstract: false, final false
+  static inline bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration);
 
-/// @brief Method StopHaptics, addr 0x6c695c4, size 0x3c, virtual false, abstract: false, final false
-static inline void StopHaptics(uint64_t  deviceId) ;
+  /// @brief Method StopHaptics, addr 0x6cdb80c, size 0x3c, virtual false, abstract: false, final false
+  static inline void StopHaptics(uint64_t deviceId);
 
-static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged() ;
+  static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged();
 
-static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConnected() ;
+  static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConnected();
 
-static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceDisconnected() ;
+  static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceDisconnected();
 
-static inline void setStaticF_deviceConfigChanged(::System::Action_1<::UnityEngine::XR::InputDevice>*  value) ;
+  static inline void setStaticF_deviceConfigChanged(::System::Action_1<::UnityEngine::XR::InputDevice>* value);
 
-static inline void setStaticF_deviceConnected(::System::Action_1<::UnityEngine::XR::InputDevice>*  value) ;
+  static inline void setStaticF_deviceConnected(::System::Action_1<::UnityEngine::XR::InputDevice>* value);
 
-static inline void setStaticF_deviceDisconnected(::System::Action_1<::UnityEngine::XR::InputDevice>*  value) ;
+  static inline void setStaticF_deviceDisconnected(::System::Action_1<::UnityEngine::XR::InputDevice>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InputDevices() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputDevices();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputDevices(InputDevices&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InputDevices(InputDevices && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputDevices(InputDevices const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InputDevices(InputDevices const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21963 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21952};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::InputDevices, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR
+} // namespace UnityEngine::XR
 NEED_NO_BOX(::UnityEngine::XR::InputDevices);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputDevices*, "UnityEngine.XR", "InputDevices");

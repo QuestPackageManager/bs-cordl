@@ -12,8 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Angle)
 namespace System {
-template<typename T>
-class IEquatable_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -55,159 +54,160 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Angle_PropertyBag);
 MARK_REF_PTR_T(::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty);
 MARK_REF_PTR_T(::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty);
 MARK_VAL_T(::UnityEngine::UIElements::Angle);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Angle/Unit
 struct CORDL_TYPE Angle_Unit {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __Angle_Unit_Unwrapped
-enum struct __Angle_Unit_Unwrapped : int32_t {
-__E_Degree = static_cast<int32_t>(0x0),
-__E_Gradian = static_cast<int32_t>(0x1),
-__E_Radian = static_cast<int32_t>(0x2),
-__E_Turn = static_cast<int32_t>(0x3),
-__E_None = static_cast<int32_t>(0x4),
-};
+  /// @brief Nested struct __Angle_Unit_Unwrapped
+  enum struct __Angle_Unit_Unwrapped : int32_t {
+    __E_Degree = static_cast<int32_t>(0x0),
+    __E_Gradian = static_cast<int32_t>(0x1),
+    __E_Radian = static_cast<int32_t>(0x2),
+    __E_Turn = static_cast<int32_t>(0x3),
+    __E_None = static_cast<int32_t>(0x4),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __Angle_Unit_Unwrapped () const noexcept {
-return static_cast<__Angle_Unit_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __Angle_Unit_Unwrapped() const noexcept {
+    return static_cast<__Angle_Unit_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Angle_Unit() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Angle_Unit();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr Angle_Unit(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr Angle_Unit(int32_t value__) noexcept;
 
-/// @brief Field Degree value: I32(0)
-static ::UnityEngine::UIElements::Angle_Unit const Degree;
+  /// @brief Field Degree value: I32(0)
+  static ::UnityEngine::UIElements::Angle_Unit const Degree;
 
-/// @brief Field Gradian value: I32(1)
-static ::UnityEngine::UIElements::Angle_Unit const Gradian;
+  /// @brief Field Gradian value: I32(1)
+  static ::UnityEngine::UIElements::Angle_Unit const Gradian;
 
-/// @brief Field None value: I32(4)
-static ::UnityEngine::UIElements::Angle_Unit const None;
+  /// @brief Field None value: I32(4)
+  static ::UnityEngine::UIElements::Angle_Unit const None;
 
-/// @brief Field Radian value: I32(2)
-static ::UnityEngine::UIElements::Angle_Unit const Radian;
+  /// @brief Field Radian value: I32(2)
+  static ::UnityEngine::UIElements::Angle_Unit const Radian;
 
-/// @brief Field Turn value: I32(3)
-static ::UnityEngine::UIElements::Angle_Unit const Turn;
+  /// @brief Field Turn value: I32(3)
+  static ::UnityEngine::UIElements::Angle_Unit const Turn;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4695};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4695 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Angle_Unit, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Angle_Unit, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.Angle::Unit
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Angle
 struct CORDL_TYPE Angle {
 public:
-// Declarations
-using PropertyBag = ::UnityEngine::UIElements::Angle_PropertyBag;
+  // Declarations
+  using PropertyBag = ::UnityEngine::UIElements::Angle_PropertyBag;
 
-using Unit = ::UnityEngine::UIElements::Angle_Unit;
+  using Unit = ::UnityEngine::UIElements::Angle_Unit;
 
- __declspec(property(get=get_unit, put=set_unit)) ::UnityEngine::UIElements::AngleUnit  unit;
+  __declspec(property(get = get_unit, put = set_unit)) ::UnityEngine::UIElements::AngleUnit unit;
 
- __declspec(property(get=get_value, put=set_value)) float_t  value;
+  __declspec(property(get = get_value, put = set_value)) float_t value;
 
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*() ;
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*();
 
-/// @brief Method Equals, addr 0x6c0f27c, size 0x94, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x6c814c4, size 0x94, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method Equals, addr 0x6c0f258, size 0x24, virtual true, abstract: false, final true
-inline bool Equals(::UnityEngine::UIElements::Angle  other) ;
+  /// @brief Method Equals, addr 0x6c814a0, size 0x24, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::Angle other);
 
-/// @brief Method GetHashCode, addr 0x6c0f310, size 0x24, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6c81558, size 0x24, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method None, addr 0x6c0f14c, size 0x8, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::Angle None() ;
+  /// @brief Method None, addr 0x6c81394, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Angle None();
 
-/// @brief Method ToDegrees, addr 0x6c0f18c, size 0x84, virtual false, abstract: false, final false
-inline float_t ToDegrees() ;
+  /// @brief Method ToDegrees, addr 0x6c813d4, size 0x84, virtual false, abstract: false, final false
+  inline float_t ToDegrees();
 
-/// @brief Method ToString, addr 0x6c0f334, size 0x1f4, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6c8157c, size 0x1f4, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x6c0f180, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(float_t  value, ::UnityEngine::UIElements::AngleUnit  unit) ;
+  /// @brief Method .ctor, addr 0x6c813c8, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(float_t value, ::UnityEngine::UIElements::AngleUnit unit);
 
-/// @brief Method .ctor, addr 0x6c0f154, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(float_t  value, ::UnityEngine::UIElements::Angle_Unit  unit) ;
+  /// @brief Method .ctor, addr 0x6c8139c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(float_t value, ::UnityEngine::UIElements::Angle_Unit unit);
 
-/// @brief Method get_unit, addr 0x6c0f170, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::AngleUnit get_unit() ;
+  /// @brief Method get_unit, addr 0x6c813b8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::AngleUnit get_unit();
 
-/// @brief Method get_value, addr 0x6c0f160, size 0x8, virtual false, abstract: false, final false
-inline float_t get_value() ;
+  /// @brief Method get_value, addr 0x6c813a8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_value();
 
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* i___System__IEquatable_1___UnityEngine__UIElements__Angle_() ;
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* i___System__IEquatable_1___UnityEngine__UIElements__Angle_();
 
-/// @brief Method op_Equality, addr 0x6c0f218, size 0x20, virtual false, abstract: false, final false
-static inline bool op_Equality(::UnityEngine::UIElements::Angle  lhs, ::UnityEngine::UIElements::Angle  rhs) ;
+  /// @brief Method op_Equality, addr 0x6c81460, size 0x20, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-/// @brief Method op_Implicit, addr 0x6c0f210, size 0x8, virtual false, abstract: false, final false
-static inline ::UnityEngine::UIElements::Angle op_Implicit___UnityEngine__UIElements__Angle(float_t  value) ;
+  /// @brief Method op_Implicit, addr 0x6c81458, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Angle op_Implicit___UnityEngine__UIElements__Angle(float_t value);
 
-/// @brief Method op_Inequality, addr 0x6c0f238, size 0x20, virtual false, abstract: false, final false
-static inline bool op_Inequality(::UnityEngine::UIElements::Angle  lhs, ::UnityEngine::UIElements::Angle  rhs) ;
+  /// @brief Method op_Inequality, addr 0x6c81480, size 0x20, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-/// @brief Method set_unit, addr 0x6c0f178, size 0x8, virtual false, abstract: false, final false
-inline void set_unit(::UnityEngine::UIElements::AngleUnit  value) ;
+  /// @brief Method set_unit, addr 0x6c813c0, size 0x8, virtual false, abstract: false, final false
+  inline void set_unit(::UnityEngine::UIElements::AngleUnit value);
 
-/// @brief Method set_value, addr 0x6c0f168, size 0x8, virtual false, abstract: false, final false
-inline void set_value(float_t  value) ;
+  /// @brief Method set_value, addr 0x6c813b0, size 0x8, virtual false, abstract: false, final false
+  inline void set_value(float_t value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Angle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Angle();
 
-// Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::Angle_Unit", modifiers: "", def_value: None }]
-constexpr Angle(float_t  m_Value, ::UnityEngine::UIElements::Angle_Unit  m_Unit) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Unit", ty: "::UnityEngine::UIElements::Angle_Unit", modifiers: "", def_value:
+  // None }]
+  constexpr Angle(float_t m_Value, ::UnityEngine::UIElements::Angle_Unit m_Unit) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4696};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4696 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field m_Value, offset: 0x0, size: 0x4, def value: None
- float_t  m_Value;
+  /// @brief Field m_Value, offset: 0x0, size: 0x4, def value: None
+  float_t m_Value;
 
-/// @brief Field m_Unit, offset: 0x4, size: 0x4, def value: None
- ::UnityEngine::UIElements::Angle_Unit  m_Unit;
+  /// @brief Field m_Unit, offset: 0x4, size: 0x4, def value: None
+  ::UnityEngine::UIElements::Angle_Unit m_Unit;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Angle, m_Value) == 0x0, "Offset mismatch!");
@@ -216,77 +216,77 @@ static_assert(offsetof(::UnityEngine::UIElements::Angle, m_Unit) == 0x4, "Offset
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Angle, 0x8>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.Angle
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Angle/PropertyBag/ValueProperty
-class CORDL_TYPE PropertyBag_Angle_ValueProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::Angle,float_t> {
+class CORDL_TYPE PropertyBag_Angle_ValueProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::Angle, float_t> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-/// @brief Method GetValue, addr 0x6c0f714, size 0x8, virtual true, abstract: false, final false
-inline float_t GetValue(::ByRef<::UnityEngine::UIElements::Angle>  container) ;
+  /// @brief Method GetValue, addr 0x6c8195c, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::ByRef<::UnityEngine::UIElements::Angle> container);
 
-static inline ::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6c0f71c, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::Angle>  container, float_t  value) ;
+  /// @brief Method SetValue, addr 0x6c81964, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::Angle> container, float_t value);
 
-constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6c0f63c, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c81884, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6c0f70c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6c81954, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6c0f704, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6c8194c, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PropertyBag_Angle_ValueProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyBag_Angle_ValueProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_ValueProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PropertyBag_Angle_ValueProperty(PropertyBag_Angle_ValueProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_ValueProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PropertyBag_Angle_ValueProperty(PropertyBag_Angle_ValueProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_ValueProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PropertyBag_Angle_ValueProperty(PropertyBag_Angle_ValueProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_ValueProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PropertyBag_Angle_ValueProperty(PropertyBag_Angle_ValueProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4692 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4692};
+  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____Name_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____Name_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____IsReadOnly_k__BackingField;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____IsReadOnly_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -295,77 +295,77 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Angle_ValuePropert
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.Angle, UnityEngine.UIElements.AngleUnit
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Angle/PropertyBag/UnitProperty
-class CORDL_TYPE PropertyBag_Angle_UnitProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::Angle,::UnityEngine::UIElements::AngleUnit> {
+class CORDL_TYPE PropertyBag_Angle_UnitProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::Angle, ::UnityEngine::UIElements::AngleUnit> {
 public:
-// Declarations
- __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+  // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
- __declspec(property(get=get_Name)) ::StringW  Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
- __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-/// @brief Method GetValue, addr 0x6c0f734, size 0x8, virtual true, abstract: false, final false
-inline ::UnityEngine::UIElements::AngleUnit GetValue(::ByRef<::UnityEngine::UIElements::Angle>  container) ;
+  /// @brief Method GetValue, addr 0x6c8197c, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::AngleUnit GetValue(::ByRef<::UnityEngine::UIElements::Angle> container);
 
-static inline ::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty* New_ctor();
 
-/// @brief Method SetValue, addr 0x6c0f73c, size 0x8, virtual true, abstract: false, final false
-inline void SetValue(::ByRef<::UnityEngine::UIElements::Angle>  container, ::UnityEngine::UIElements::AngleUnit  value) ;
+  /// @brief Method SetValue, addr 0x6c81984, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::UIElements::Angle> container, ::UnityEngine::UIElements::AngleUnit value);
 
-constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
 
-constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-/// @brief Method .ctor, addr 0x6c0f6a0, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c818e8, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_IsReadOnly, addr 0x6c0f72c, size 0x8, virtual true, abstract: false, final false
-inline bool get_IsReadOnly() ;
+  /// @brief Method get_IsReadOnly, addr 0x6c81974, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-/// @brief Method get_Name, addr 0x6c0f724, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Name() ;
+  /// @brief Method get_Name, addr 0x6c8196c, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PropertyBag_Angle_UnitProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyBag_Angle_UnitProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_UnitProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PropertyBag_Angle_UnitProperty(PropertyBag_Angle_UnitProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_UnitProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PropertyBag_Angle_UnitProperty(PropertyBag_Angle_UnitProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_UnitProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PropertyBag_Angle_UnitProperty(PropertyBag_Angle_UnitProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Angle_UnitProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PropertyBag_Angle_UnitProperty(PropertyBag_Angle_UnitProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4693 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4693};
+  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____Name_k__BackingField;
 
-/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
- ::StringW  ____Name_k__BackingField;
+  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____IsReadOnly_k__BackingField;
 
-/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
- bool  ____IsReadOnly_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -374,46 +374,46 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.UIElements.Angle
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Angle/PropertyBag
 class CORDL_TYPE Angle_PropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::UIElements::Angle> {
 public:
-// Declarations
-using UnitProperty = ::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty;
+  // Declarations
+  using UnitProperty = ::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty;
 
-using ValueProperty = ::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty;
+  using ValueProperty = ::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty;
 
-static inline ::UnityEngine::UIElements::Angle_PropertyBag* New_ctor() ;
+  static inline ::UnityEngine::UIElements::Angle_PropertyBag* New_ctor();
 
-/// @brief Method .ctor, addr 0x6c0f528, size 0x114, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c81770, size 0x114, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Angle_PropertyBag() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Angle_PropertyBag();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Angle_PropertyBag", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Angle_PropertyBag(Angle_PropertyBag&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Angle_PropertyBag", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Angle_PropertyBag(Angle_PropertyBag && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Angle_PropertyBag", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Angle_PropertyBag(Angle_PropertyBag const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Angle_PropertyBag", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Angle_PropertyBag(Angle_PropertyBag const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4694 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4694};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Angle_PropertyBag, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Angle_Unit, "UnityEngine.UIElements", "Angle/Unit");
 NEED_NO_BOX(::UnityEngine::UIElements::Angle_PropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Angle_PropertyBag*, "UnityEngine.UIElements", "Angle/PropertyBag");

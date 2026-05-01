@@ -23,34 +23,34 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.ProductList
 class CORDL_TYPE ProductList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Product*> {
 public:
-// Declarations
-static inline ::Oculus::Platform::Models::ProductList* New_ctor(::System::IntPtr  a) ;
+  // Declarations
+  static inline ::Oculus::Platform::Models::ProductList* New_ctor(::System::IntPtr a);
 
-/// @brief Method .ctor, addr 0x5c43eb8, size 0x1fc, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  a) ;
+  /// @brief Method .ctor, addr 0x5cb5ea0, size 0x1fc, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProductList() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProductList();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProductList", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProductList(ProductList&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProductList", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProductList(ProductList && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProductList", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProductList(ProductList const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProductList", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProductList(ProductList const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18066 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18058};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ProductList, 0x28>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ProductList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ProductList*, "Oculus.Platform.Models", "ProductList");

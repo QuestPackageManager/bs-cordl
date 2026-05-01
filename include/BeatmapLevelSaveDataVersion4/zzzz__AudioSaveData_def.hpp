@@ -25,105 +25,107 @@ namespace BeatmapLevelSaveDataVersion4 {
 // CS Name: BeatmapLevelSaveDataVersion4.AudioSaveData
 class CORDL_TYPE AudioSaveData : public ::System::Object {
 public:
-// Declarations
-/// @brief Field bpmData, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_bpmData, put=__cordl_internal_set_bpmData)) ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*,::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*>  bpmData;
+  // Declarations
+  /// @brief Field bpmData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_bpmData, put = __cordl_internal_set_bpmData)) ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*, ::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*>
+      bpmData;
 
-/// @brief Field lufsData, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_lufsData, put=__cordl_internal_set_lufsData)) ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData,::Array<::BeatmapLevelSaveDataVersion4::LufsData>*>  lufsData;
+  /// @brief Field lufsData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_lufsData, put = __cordl_internal_set_lufsData)) ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*>
+      lufsData;
 
-/// @brief Field songChecksum, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_songChecksum, put=__cordl_internal_set_songChecksum)) ::StringW  songChecksum;
+  /// @brief Field songChecksum, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_songChecksum, put = __cordl_internal_set_songChecksum)) ::StringW songChecksum;
 
-/// @brief Field songFrequency, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get_songFrequency, put=__cordl_internal_set_songFrequency)) int32_t  songFrequency;
+  /// @brief Field songFrequency, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_songFrequency, put = __cordl_internal_set_songFrequency)) int32_t songFrequency;
 
-/// @brief Field songSampleCount, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_songSampleCount, put=__cordl_internal_set_songSampleCount)) int32_t  songSampleCount;
+  /// @brief Field songSampleCount, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_songSampleCount, put = __cordl_internal_set_songSampleCount)) int32_t songSampleCount;
 
-/// @brief Field version, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::StringW  version;
+  /// @brief Field version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
-static inline ::BeatmapLevelSaveDataVersion4::AudioSaveData* New_ctor() ;
+  static inline ::BeatmapLevelSaveDataVersion4::AudioSaveData* New_ctor();
 
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*,::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*> const& __cordl_internal_get_bpmData() const;
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*, ::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*> const& __cordl_internal_get_bpmData() const;
 
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*,::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*>& __cordl_internal_get_bpmData() ;
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*, ::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*>& __cordl_internal_get_bpmData();
 
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData,::Array<::BeatmapLevelSaveDataVersion4::LufsData>*> const& __cordl_internal_get_lufsData() const;
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*> const& __cordl_internal_get_lufsData() const;
 
-constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData,::Array<::BeatmapLevelSaveDataVersion4::LufsData>*>& __cordl_internal_get_lufsData() ;
+  constexpr ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*>& __cordl_internal_get_lufsData();
 
-constexpr ::StringW const& __cordl_internal_get_songChecksum() const;
+  constexpr ::StringW const& __cordl_internal_get_songChecksum() const;
 
-constexpr ::StringW& __cordl_internal_get_songChecksum() ;
+  constexpr ::StringW& __cordl_internal_get_songChecksum();
 
-constexpr int32_t const& __cordl_internal_get_songFrequency() const;
+  constexpr int32_t const& __cordl_internal_get_songFrequency() const;
 
-constexpr int32_t& __cordl_internal_get_songFrequency() ;
+  constexpr int32_t& __cordl_internal_get_songFrequency();
 
-constexpr int32_t const& __cordl_internal_get_songSampleCount() const;
+  constexpr int32_t const& __cordl_internal_get_songSampleCount() const;
 
-constexpr int32_t& __cordl_internal_get_songSampleCount() ;
+  constexpr int32_t& __cordl_internal_get_songSampleCount();
 
-constexpr ::StringW const& __cordl_internal_get_version() const;
+  constexpr ::StringW const& __cordl_internal_get_version() const;
 
-constexpr ::StringW& __cordl_internal_get_version() ;
+  constexpr ::StringW& __cordl_internal_get_version();
 
-constexpr void __cordl_internal_set_bpmData(::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*,::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*>  value) ;
+  constexpr void __cordl_internal_set_bpmData(::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*, ::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*> value);
 
-constexpr void __cordl_internal_set_lufsData(::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData,::Array<::BeatmapLevelSaveDataVersion4::LufsData>*>  value) ;
+  constexpr void __cordl_internal_set_lufsData(::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*> value);
 
-constexpr void __cordl_internal_set_songChecksum(::StringW  value) ;
+  constexpr void __cordl_internal_set_songChecksum(::StringW value);
 
-constexpr void __cordl_internal_set_songFrequency(int32_t  value) ;
+  constexpr void __cordl_internal_set_songFrequency(int32_t value);
 
-constexpr void __cordl_internal_set_songSampleCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_songSampleCount(int32_t value);
 
-constexpr void __cordl_internal_set_version(::StringW  value) ;
+  constexpr void __cordl_internal_set_version(::StringW value);
 
-/// @brief Method .ctor, addr 0x36625d8, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x369e588, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AudioSaveData() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioSaveData();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSaveData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AudioSaveData(AudioSaveData&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AudioSaveData", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AudioSaveData(AudioSaveData && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSaveData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AudioSaveData(AudioSaveData const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AudioSaveData", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AudioSaveData(AudioSaveData const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15399 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15394};
+  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };
 
-/// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-static constexpr ::ConstString  kCurrentVersion{u"4.0.0"};
+  /// @brief Field version, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___version;
 
-/// @brief Field version, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___version;
+  /// @brief Field songChecksum, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___songChecksum;
 
-/// @brief Field songChecksum, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___songChecksum;
+  /// @brief Field songSampleCount, offset: 0x20, size: 0x4, def value: None
+  int32_t ___songSampleCount;
 
-/// @brief Field songSampleCount, offset: 0x20, size: 0x4, def value: None
- int32_t  ___songSampleCount;
+  /// @brief Field songFrequency, offset: 0x24, size: 0x4, def value: None
+  int32_t ___songFrequency;
 
-/// @brief Field songFrequency, offset: 0x24, size: 0x4, def value: None
- int32_t  ___songFrequency;
+  /// @brief Field bpmData, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*, ::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*> ___bpmData;
 
-/// @brief Field bpmData, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*,::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*>  ___bpmData;
+  /// @brief Field lufsData, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*> ___lufsData;
 
-/// @brief Field lufsData, offset: 0x30, size: 0x8, def value: None
- ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData,::Array<::BeatmapLevelSaveDataVersion4::LufsData>*>  ___lufsData;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapLevelSaveDataVersion4::AudioSaveData, ___version) == 0x10, "Offset mismatch!");
@@ -140,6 +142,6 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::AudioSaveData, ___lufsDat
 
 static_assert(::cordl_internals::size_check_v<::BeatmapLevelSaveDataVersion4::AudioSaveData, 0x38>, "Size mismatch!");
 
-} // namespace end def BeatmapLevelSaveDataVersion4
+} // namespace BeatmapLevelSaveDataVersion4
 NEED_NO_BOX(::BeatmapLevelSaveDataVersion4::AudioSaveData);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::AudioSaveData*, "BeatmapLevelSaveDataVersion4", "AudioSaveData");

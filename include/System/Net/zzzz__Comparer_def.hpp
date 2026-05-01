@@ -24,43 +24,43 @@ namespace System::Net {
 // CS Name: System.Net.Comparer
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Collections::IComparer"
-constexpr operator  ::System::Collections::IComparer*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::System::Collections::IComparer"
+  constexpr operator ::System::Collections::IComparer*() noexcept;
 
-static inline ::System::Net::Comparer* New_ctor() ;
+  static inline ::System::Net::Comparer* New_ctor();
 
-/// @brief Method System.Collections.IComparer.Compare, addr 0x6266cbc, size 0xe8, virtual true, abstract: false, final true
-inline int32_t System_Collections_IComparer_Compare(::System::Object*  ol, ::System::Object*  _cordl_or) ;
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x62d8cc8, size 0xe8, virtual true, abstract: false, final true
+  inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
-/// @brief Method .ctor, addr 0x6266da4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x62d8db0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::System::Collections::IComparer"
-constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Comparer() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Comparer();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Comparer(Comparer&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Comparer(Comparer && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Comparer(Comparer const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Comparer(Comparer const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11535 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11528};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Comparer, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 NEED_NO_BOX(::System::Net::Comparer);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Comparer*, "System.Net", "Comparer");

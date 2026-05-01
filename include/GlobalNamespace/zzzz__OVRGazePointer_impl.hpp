@@ -6,672 +6,540 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.get_hidden
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_hidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d4cef0;
+  constexpr static std::size_t addrs = 0x5dbeed8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_hidden",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_hidden",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.set_hidden
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(bool)>(&::GlobalNamespace::OVRGazePointer::set_hidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d4cef8;
+  constexpr static std::size_t addrs = 0x5dbeee0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "set_hidden",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "set_hidden",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.get_currentScale
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_currentScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d4cf00;
+  constexpr static std::size_t addrs = 0x5dbeee8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_currentScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_currentScale",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.set_currentScale
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(float_t)>(&::GlobalNamespace::OVRGazePointer::set_currentScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d4cf08;
+  constexpr static std::size_t addrs = 0x5dbeef0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "set_currentScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "set_currentScale", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.get_instance
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRGazePointer> (*)()>(&::GlobalNamespace::OVRGazePointer::get_instance)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x5d4cf10;
+  constexpr static std::size_t addrs = 0x5dbeef8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_instance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_instance",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.get_visibilityStrength
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_visibilityStrength)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5d4d138;
+  constexpr static std::size_t addrs = 0x5dbf120;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_visibilityStrength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
+                                                                               "get_visibilityStrength", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.get_SelectionProgress
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_SelectionProgress)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d4d210;
+  constexpr static std::size_t addrs = 0x5dbf1f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_SelectionProgress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
+                                                                               "get_SelectionProgress", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.set_SelectionProgress
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(float_t)>(&::GlobalNamespace::OVRGazePointer::set_SelectionProgress)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d4d28c;
+  constexpr static std::size_t addrs = 0x5dbf274;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "set_SelectionProgress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "set_SelectionProgress",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.Awake
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Awake)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5d4d310;
+  constexpr static std::size_t addrs = 0x5dbf2f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Awake",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.Update
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Update)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5d4d490;
+  constexpr static std::size_t addrs = 0x5dbf478;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Update",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.SetCursorStartDest
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::OVRGazePointer::SetCursorStartDest)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
+    &::GlobalNamespace::OVRGazePointer::SetCursorStartDest)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x5d4d86c;
+  constexpr static std::size_t addrs = 0x5dbf854;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.SetCursorRay
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Transform*)>(&::GlobalNamespace::OVRGazePointer::SetCursorRay)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Transform*)>(
+    &::GlobalNamespace::OVRGazePointer::SetCursorRay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d4daa8;
+  constexpr static std::size_t addrs = 0x5dbfa90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.LateUpdate
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::LateUpdate)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5d4daac;
+  constexpr static std::size_t addrs = 0x5dbfa94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "LateUpdate",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.RequestHide
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::RequestHide)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d4dc28;
+  constexpr static std::size_t addrs = 0x5dbfc10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "RequestHide",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "RequestHide",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.RequestShow
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::RequestShow)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5d4da68;
+  constexpr static std::size_t addrs = 0x5dbfa50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "RequestShow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "RequestShow",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.Hide
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Hide)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5d4d628;
+  constexpr static std::size_t addrs = 0x5dbf610;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Hide",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Hide",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.Show
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Show)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5d4d74c;
+  constexpr static std::size_t addrs = 0x5dbf734;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Show",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Show",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5d4dc74;
+  constexpr static std::size_t addrs = 0x5dbfc5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVRGazePointer::__cordl_internal_get_gazeIcon()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___gazeIcon;
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVRGazePointer::__cordl_internal_get_gazeIcon() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___gazeIcon;
 }
 constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_gazeIcon() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___gazeIcon;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___gazeIcon;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_gazeIcon(::UnityW<::UnityEngine::Transform>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gazeIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_gazeIcon(::UnityW<::UnityEngine::Transform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gazeIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideByDefault()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hideByDefault;
+constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideByDefault() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hideByDefault;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideByDefault() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hideByDefault;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hideByDefault;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_hideByDefault(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___hideByDefault = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_hideByDefault(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___hideByDefault = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_showTimeoutPeriod()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___showTimeoutPeriod;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_showTimeoutPeriod() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___showTimeoutPeriod;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_showTimeoutPeriod() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___showTimeoutPeriod;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___showTimeoutPeriod;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_showTimeoutPeriod(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___showTimeoutPeriod = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_showTimeoutPeriod(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___showTimeoutPeriod = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideTimeoutPeriod()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hideTimeoutPeriod;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideTimeoutPeriod() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hideTimeoutPeriod;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideTimeoutPeriod() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hideTimeoutPeriod;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hideTimeoutPeriod;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_hideTimeoutPeriod(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___hideTimeoutPeriod = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_hideTimeoutPeriod(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___hideTimeoutPeriod = value;
 }
-constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get_dimOnHideRequest()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___dimOnHideRequest;
+constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get_dimOnHideRequest() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___dimOnHideRequest;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_dimOnHideRequest() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___dimOnHideRequest;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___dimOnHideRequest;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_dimOnHideRequest(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___dimOnHideRequest = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_dimOnHideRequest(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___dimOnHideRequest = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_depthScaleMultiplier()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___depthScaleMultiplier;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_depthScaleMultiplier() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___depthScaleMultiplier;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_depthScaleMultiplier() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___depthScaleMultiplier;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___depthScaleMultiplier;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_depthScaleMultiplier(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___depthScaleMultiplier = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_depthScaleMultiplier(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___depthScaleMultiplier = value;
 }
-constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get_matchNormalOnPhysicsColliders()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___matchNormalOnPhysicsColliders;
+constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get_matchNormalOnPhysicsColliders() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___matchNormalOnPhysicsColliders;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_matchNormalOnPhysicsColliders() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___matchNormalOnPhysicsColliders;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___matchNormalOnPhysicsColliders;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_matchNormalOnPhysicsColliders(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___matchNormalOnPhysicsColliders = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_matchNormalOnPhysicsColliders(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___matchNormalOnPhysicsColliders = value;
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVRGazePointer::__cordl_internal_get_rayTransform()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___rayTransform;
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVRGazePointer::__cordl_internal_get_rayTransform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rayTransform;
 }
 constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_rayTransform() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___rayTransform;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___rayTransform;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rayTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rayTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get__hidden_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hidden_k__BackingField;
+constexpr bool& GlobalNamespace::OVRGazePointer::__cordl_internal_get__hidden_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hidden_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__cordl_internal_get__hidden_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____hidden_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hidden_k__BackingField;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set__hidden_k__BackingField(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____hidden_k__BackingField = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set__hidden_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hidden_k__BackingField = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get__currentScale_k__BackingField()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____currentScale_k__BackingField;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get__currentScale_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentScale_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get__currentScale_k__BackingField() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____currentScale_k__BackingField;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentScale_k__BackingField;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set__currentScale_k__BackingField(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____currentScale_k__BackingField = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set__currentScale_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____currentScale_k__BackingField = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_depth()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___depth;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_depth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___depth;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_depth() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___depth;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___depth;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_depth(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___depth = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_depth(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___depth = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideUntilTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hideUntilTime;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideUntilTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hideUntilTime;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_hideUntilTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___hideUntilTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hideUntilTime;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_hideUntilTime(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___hideUntilTime = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_hideUntilTime(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___hideUntilTime = value;
 }
-constexpr int32_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_positionSetsThisFrame()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___positionSetsThisFrame;
+constexpr int32_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_positionSetsThisFrame() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___positionSetsThisFrame;
 }
 constexpr int32_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_positionSetsThisFrame() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___positionSetsThisFrame;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___positionSetsThisFrame;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_positionSetsThisFrame(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___positionSetsThisFrame = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_positionSetsThisFrame(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___positionSetsThisFrame = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_lastShowRequestTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lastShowRequestTime;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_lastShowRequestTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastShowRequestTime;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_lastShowRequestTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lastShowRequestTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastShowRequestTime;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_lastShowRequestTime(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___lastShowRequestTime = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_lastShowRequestTime(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___lastShowRequestTime = value;
 }
-constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_lastHideRequestTime()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lastHideRequestTime;
+constexpr float_t& GlobalNamespace::OVRGazePointer::__cordl_internal_get_lastHideRequestTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastHideRequestTime;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_lastHideRequestTime() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___lastHideRequestTime;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lastHideRequestTime;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_lastHideRequestTime(float_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___lastHideRequestTime = value;
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_lastHideRequestTime(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___lastHideRequestTime = value;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRProgressIndicator>& GlobalNamespace::OVRGazePointer::__cordl_internal_get_progressIndicator()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___progressIndicator;
+constexpr ::UnityW<::GlobalNamespace::OVRProgressIndicator>& GlobalNamespace::OVRGazePointer::__cordl_internal_get_progressIndicator() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___progressIndicator;
 }
 constexpr ::UnityW<::GlobalNamespace::OVRProgressIndicator> const& GlobalNamespace::OVRGazePointer::__cordl_internal_get_progressIndicator() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___progressIndicator;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___progressIndicator;
 }
-constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_progressIndicator(::UnityW<::GlobalNamespace::OVRProgressIndicator>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___progressIndicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRGazePointer::__cordl_internal_set_progressIndicator(::UnityW<::GlobalNamespace::OVRProgressIndicator> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___progressIndicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRGazePointer::setStaticF__instance(::UnityW<::GlobalNamespace::OVRGazePointer>  value)  {
-::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::OVRGazePointer>, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get>(std::forward<::UnityW<::GlobalNamespace::OVRGazePointer>>(value));
+inline void GlobalNamespace::OVRGazePointer::setStaticF__instance(::UnityW<::GlobalNamespace::OVRGazePointer> value) {
+  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::OVRGazePointer>, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get>(
+      std::forward<::UnityW<::GlobalNamespace::OVRGazePointer>>(value));
 }
-inline ::UnityW<::GlobalNamespace::OVRGazePointer> GlobalNamespace::OVRGazePointer::getStaticF__instance()  {
-return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::OVRGazePointer>, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get>();
+inline ::UnityW<::GlobalNamespace::OVRGazePointer> GlobalNamespace::OVRGazePointer::getStaticF__instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::OVRGazePointer>, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get>();
 }
-inline bool GlobalNamespace::OVRGazePointer::get_hidden()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_hidden",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::OVRGazePointer::get_hidden() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_hidden",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::set_hidden(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "set_hidden",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRGazePointer::set_hidden(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "set_hidden",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::OVRGazePointer::get_currentScale()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_currentScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::OVRGazePointer::get_currentScale() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_currentScale",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::set_currentScale(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "set_currentScale",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRGazePointer::set_currentScale(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "set_currentScale",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityW<::GlobalNamespace::OVRGazePointer> GlobalNamespace::OVRGazePointer::get_instance()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_instance",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRGazePointer>, false>(nullptr, ___internal_method);
+inline ::UnityW<::GlobalNamespace::OVRGazePointer> GlobalNamespace::OVRGazePointer::get_instance() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_instance",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRGazePointer>, false>(nullptr, ___internal_method);
 }
-inline float_t GlobalNamespace::OVRGazePointer::get_visibilityStrength()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_visibilityStrength",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::OVRGazePointer::get_visibilityStrength() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
+                                                                             "get_visibilityStrength", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::OVRGazePointer::get_SelectionProgress()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "get_SelectionProgress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t GlobalNamespace::OVRGazePointer::get_SelectionProgress() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_SelectionProgress",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::set_SelectionProgress(float_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "set_SelectionProgress",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void GlobalNamespace::OVRGazePointer::set_SelectionProgress(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "set_SelectionProgress",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRGazePointer::Awake()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Awake",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::Awake() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Awake",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::Update()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Update",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::Update() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Update",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::SetCursorStartDest(::UnityEngine::Vector3  _, ::UnityEngine::Vector3  pos, ::UnityEngine::Vector3  normal)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _, pos, normal);
+inline void GlobalNamespace::OVRGazePointer::SetCursorStartDest(::UnityEngine::Vector3 _, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _, pos, normal);
 }
-inline void GlobalNamespace::OVRGazePointer::SetCursorRay(::UnityEngine::Transform*  ray)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ray);
+inline void GlobalNamespace::OVRGazePointer::SetCursorRay(::UnityEngine::Transform* ray) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ray);
 }
-inline void GlobalNamespace::OVRGazePointer::LateUpdate()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "LateUpdate",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::LateUpdate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "LateUpdate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::RequestHide()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "RequestHide",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::RequestHide() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "RequestHide",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::RequestShow()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "RequestShow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::RequestShow() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "RequestShow",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::Hide()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Hide",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::Hide() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Hide",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::Show()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        "Show",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::Show() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Show",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRGazePointer::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRGazePointer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRGazePointer* GlobalNamespace::OVRGazePointer::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRGazePointer*>());
+inline ::GlobalNamespace::OVRGazePointer* GlobalNamespace::OVRGazePointer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRGazePointer*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRGazePointer::OVRGazePointer()   {
-}
+constexpr ::GlobalNamespace::OVRGazePointer::OVRGazePointer() {}

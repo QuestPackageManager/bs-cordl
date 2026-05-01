@@ -21,27 +21,28 @@ namespace UnityEngine::UIElements::StyleSheets {
 // CS Name: UnityEngine.UIElements.StyleSheets.StylePropertyValue
 struct CORDL_TYPE StylePropertyValue {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr StylePropertyValue() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StylePropertyValue();
 
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "::UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None }]
-constexpr StylePropertyValue(::UnityW<::UnityEngine::UIElements::StyleSheet>  sheet, ::UnityEngine::UIElements::StyleValueHandle  handle) noexcept;
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "handle", ty:
+  // "::UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None }]
+  constexpr StylePropertyValue(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleValueHandle handle) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5455};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5455 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field sheet, offset: 0x0, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UIElements::StyleSheet>  sheet;
+  /// @brief Field sheet, offset: 0x0, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> sheet;
 
-/// @brief Field handle, offset: 0x8, size: 0x8, def value: None
- ::UnityEngine::UIElements::StyleValueHandle  handle;
+  /// @brief Field handle, offset: 0x8, size: 0x8, def value: None
+  ::UnityEngine::UIElements::StyleValueHandle handle;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StylePropertyValue, sheet) == 0x0, "Offset mismatch!");
@@ -50,5 +51,5 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StylePropertyValu
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::StylePropertyValue, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements::StyleSheets
+} // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StylePropertyValue, "UnityEngine.UIElements.StyleSheets", "StylePropertyValue");

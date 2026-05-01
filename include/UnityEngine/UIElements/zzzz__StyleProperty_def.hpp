@@ -22,100 +22,102 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.StyleProperty
 class CORDL_TYPE StyleProperty : public ::System::Object {
 public:
-// Declarations
-/// @brief Field isCustomProperty, offset 0x28, size 0x1 
- __declspec(property(get=__cordl_internal_get_isCustomProperty, put=__cordl_internal_set_isCustomProperty)) bool  isCustomProperty;
+  // Declarations
+  /// @brief Field isCustomProperty, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_isCustomProperty, put = __cordl_internal_set_isCustomProperty)) bool isCustomProperty;
 
-/// @brief Field m_Line, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get_m_Line, put=__cordl_internal_set_m_Line)) int32_t  m_Line;
+  /// @brief Field m_Line, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Line, put = __cordl_internal_set_m_Line)) int32_t m_Line;
 
-/// @brief Field m_Name, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Name, put=__cordl_internal_set_m_Name)) ::StringW  m_Name;
+  /// @brief Field m_Name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
 
-/// @brief Field m_Values, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Values, put=__cordl_internal_set_m_Values)) ::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*>  m_Values;
+  /// @brief Field m_Values, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Values,
+                      put = __cordl_internal_set_m_Values)) ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*>
+      m_Values;
 
- __declspec(property(get=get_name)) ::StringW  name;
+  __declspec(property(get = get_name)) ::StringW name;
 
-/// @brief Field requireVariableResolve, offset 0x29, size 0x1 
- __declspec(property(get=__cordl_internal_get_requireVariableResolve, put=__cordl_internal_set_requireVariableResolve)) bool  requireVariableResolve;
+  /// @brief Field requireVariableResolve, offset 0x29, size 0x1
+  __declspec(property(get = __cordl_internal_get_requireVariableResolve, put = __cordl_internal_set_requireVariableResolve)) bool requireVariableResolve;
 
- __declspec(property(get=get_values)) ::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*>  values;
+  __declspec(property(get = get_values)) ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> values;
 
-static inline ::UnityEngine::UIElements::StyleProperty* New_ctor() ;
+  static inline ::UnityEngine::UIElements::StyleProperty* New_ctor();
 
-constexpr bool const& __cordl_internal_get_isCustomProperty() const;
+  constexpr bool const& __cordl_internal_get_isCustomProperty() const;
 
-constexpr bool& __cordl_internal_get_isCustomProperty() ;
+  constexpr bool& __cordl_internal_get_isCustomProperty();
 
-constexpr int32_t const& __cordl_internal_get_m_Line() const;
+  constexpr int32_t const& __cordl_internal_get_m_Line() const;
 
-constexpr int32_t& __cordl_internal_get_m_Line() ;
+  constexpr int32_t& __cordl_internal_get_m_Line();
 
-constexpr ::StringW const& __cordl_internal_get_m_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-constexpr ::StringW& __cordl_internal_get_m_Name() ;
+  constexpr ::StringW& __cordl_internal_get_m_Name();
 
-constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*> const& __cordl_internal_get_m_Values() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> const& __cordl_internal_get_m_Values() const;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*>& __cordl_internal_get_m_Values() ;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*>& __cordl_internal_get_m_Values();
 
-constexpr bool const& __cordl_internal_get_requireVariableResolve() const;
+  constexpr bool const& __cordl_internal_get_requireVariableResolve() const;
 
-constexpr bool& __cordl_internal_get_requireVariableResolve() ;
+  constexpr bool& __cordl_internal_get_requireVariableResolve();
 
-constexpr void __cordl_internal_set_isCustomProperty(bool  value) ;
+  constexpr void __cordl_internal_set_isCustomProperty(bool value);
 
-constexpr void __cordl_internal_set_m_Line(int32_t  value) ;
+  constexpr void __cordl_internal_set_m_Line(int32_t value);
 
-constexpr void __cordl_internal_set_m_Name(::StringW  value) ;
+  constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-constexpr void __cordl_internal_set_m_Values(::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*>  value) ;
+  constexpr void __cordl_internal_set_m_Values(::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> value);
 
-constexpr void __cordl_internal_set_requireVariableResolve(bool  value) ;
+  constexpr void __cordl_internal_set_requireVariableResolve(bool value);
 
-/// @brief Method .ctor, addr 0x6ad081c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6b42a64, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_name, addr 0x6ad080c, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_name() ;
+  /// @brief Method get_name, addr 0x6b42a54, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_name();
 
-/// @brief Method get_values, addr 0x6ad0814, size 0x8, virtual false, abstract: false, final false
-inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values() ;
+  /// @brief Method get_values, addr 0x6b42a5c, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StyleProperty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StyleProperty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StyleProperty(StyleProperty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StyleProperty(StyleProperty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StyleProperty(StyleProperty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StyleProperty(StyleProperty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5062 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5062};
+  /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___m_Name;
 
-/// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___m_Name;
+  /// @brief Field m_Line, offset: 0x18, size: 0x4, def value: None
+  int32_t ___m_Line;
 
-/// @brief Field m_Line, offset: 0x18, size: 0x4, def value: None
- int32_t  ___m_Line;
+  /// @brief Field m_Values, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> ___m_Values;
 
-/// @brief Field m_Values, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*>  ___m_Values;
+  /// @brief Field isCustomProperty, offset: 0x28, size: 0x1, def value: None
+  bool ___isCustomProperty;
 
-/// @brief Field isCustomProperty, offset: 0x28, size: 0x1, def value: None
- bool  ___isCustomProperty;
+  /// @brief Field requireVariableResolve, offset: 0x29, size: 0x1, def value: None
+  bool ___requireVariableResolve;
 
-/// @brief Field requireVariableResolve, offset: 0x29, size: 0x1, def value: None
- bool  ___requireVariableResolve;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::StyleProperty, ___m_Name) == 0x10, "Offset mismatch!");
@@ -130,6 +132,6 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleProperty, ___requireVaria
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleProperty, 0x30>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleProperty);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleProperty*, "UnityEngine.UIElements", "StyleProperty");

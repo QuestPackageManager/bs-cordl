@@ -17,34 +17,34 @@ namespace UnityEngine::InputSystem::Android {
 // CS Name: UnityEngine.InputSystem.Android.AndroidMagneticFieldSensor
 class CORDL_TYPE AndroidMagneticFieldSensor : public ::UnityEngine::InputSystem::MagneticFieldSensor {
 public:
-// Declarations
-static inline ::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor* New_ctor();
 
-/// @brief Method .ctor, addr 0x63f59a8, size 0x20, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x64679b4, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AndroidMagneticFieldSensor() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidMagneticFieldSensor();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidMagneticFieldSensor", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AndroidMagneticFieldSensor(AndroidMagneticFieldSensor&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AndroidMagneticFieldSensor", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AndroidMagneticFieldSensor(AndroidMagneticFieldSensor && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidMagneticFieldSensor", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AndroidMagneticFieldSensor(AndroidMagneticFieldSensor const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AndroidMagneticFieldSensor", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AndroidMagneticFieldSensor(AndroidMagneticFieldSensor const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8914 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8908};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor, 0x190>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::Android
+} // namespace UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor*, "UnityEngine.InputSystem.Android", "AndroidMagneticFieldSensor");

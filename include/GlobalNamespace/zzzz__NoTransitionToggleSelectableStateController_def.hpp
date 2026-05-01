@@ -23,46 +23,46 @@ namespace GlobalNamespace {
 // CS Name: NoTransitionToggleSelectableStateController
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsToggle>> {
 public:
-// Declarations
-/// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x62909f8, size 0x8, virtual false, abstract: false, final false
-inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState  state) ;
+  // Declarations
+  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x6302a04, size 0x8, virtual false, abstract: false, final false
+  inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
 
-static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor() ;
+  static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor();
 
-/// @brief Method OnDisable, addr 0x6290968, size 0x90, virtual false, abstract: false, final false
-inline void OnDisable() ;
+  /// @brief Method OnDisable, addr 0x6302974, size 0x90, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-/// @brief Method OnEnable, addr 0x6290830, size 0xa8, virtual false, abstract: false, final false
-inline void OnEnable() ;
+  /// @brief Method OnEnable, addr 0x630283c, size 0xa8, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-/// @brief Method ResolveSelectionState, addr 0x62908d8, size 0x90, virtual false, abstract: false, final false
-inline void ResolveSelectionState(::HMUI::UISelectionState  state, bool  animated) ;
+  /// @brief Method ResolveSelectionState, addr 0x63028e4, size 0x90, virtual false, abstract: false, final false
+  inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
 
-/// @brief Method .ctor, addr 0x6290a00, size 0x44, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6302a0c, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NoTransitionToggleSelectableStateController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoTransitionToggleSelectableStateController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NoTransitionToggleSelectableStateController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22182 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22128};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoTransitionToggleSelectableStateController, 0x40>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoTransitionToggleSelectableStateController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoTransitionToggleSelectableStateController*, "", "NoTransitionToggleSelectableStateController");

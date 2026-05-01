@@ -20,48 +20,48 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.RejoinDialogResult
 class CORDL_TYPE RejoinDialogResult : public ::System::Object {
 public:
-// Declarations
-/// @brief Field RejoinSelected, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_RejoinSelected, put=__cordl_internal_set_RejoinSelected)) bool  RejoinSelected;
+  // Declarations
+  /// @brief Field RejoinSelected, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_RejoinSelected, put = __cordl_internal_set_RejoinSelected)) bool RejoinSelected;
 
-static inline ::Oculus::Platform::Models::RejoinDialogResult* New_ctor(::System::IntPtr  o) ;
+  static inline ::Oculus::Platform::Models::RejoinDialogResult* New_ctor(::System::IntPtr o);
 
-constexpr bool const& __cordl_internal_get_RejoinSelected() const;
+  constexpr bool const& __cordl_internal_get_RejoinSelected() const;
 
-constexpr bool& __cordl_internal_get_RejoinSelected() ;
+  constexpr bool& __cordl_internal_get_RejoinSelected();
 
-constexpr void __cordl_internal_set_RejoinSelected(bool  value) ;
+  constexpr void __cordl_internal_set_RejoinSelected(bool value);
 
-/// @brief Method .ctor, addr 0x5c443f0, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  o) ;
+  /// @brief Method .ctor, addr 0x5cb63d8, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RejoinDialogResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RejoinDialogResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RejoinDialogResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RejoinDialogResult(RejoinDialogResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RejoinDialogResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RejoinDialogResult(RejoinDialogResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RejoinDialogResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RejoinDialogResult(RejoinDialogResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RejoinDialogResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RejoinDialogResult(RejoinDialogResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18070 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18062};
+  /// @brief Field RejoinSelected, offset: 0x10, size: 0x1, def value: None
+  bool ___RejoinSelected;
 
-/// @brief Field RejoinSelected, offset: 0x10, size: 0x1, def value: None
- bool  ___RejoinSelected;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::RejoinDialogResult, ___RejoinSelected) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::RejoinDialogResult, 0x18>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::RejoinDialogResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::RejoinDialogResult*, "Oculus.Platform.Models", "RejoinDialogResult");

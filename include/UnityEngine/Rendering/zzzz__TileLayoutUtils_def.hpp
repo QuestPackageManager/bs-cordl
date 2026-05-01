@@ -21,38 +21,39 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.TileLayoutUtils
 class CORDL_TYPE TileLayoutUtils : public ::System::Object {
 public:
-// Declarations
-/// @brief Method TryLayoutByCol, addr 0x6612920, size 0x60, virtual false, abstract: false, final false
-static inline bool TryLayoutByCol(::UnityEngine::RectInt  src, uint32_t  tileSize, ::ByRef<::UnityEngine::RectInt>  main, ::ByRef<::UnityEngine::RectInt>  other) ;
+  // Declarations
+  /// @brief Method TryLayoutByCol, addr 0x668492c, size 0x60, virtual false, abstract: false, final false
+  static inline bool TryLayoutByCol(::UnityEngine::RectInt src, uint32_t tileSize, ::ByRef<::UnityEngine::RectInt> main, ::ByRef<::UnityEngine::RectInt> other);
 
-/// @brief Method TryLayoutByRow, addr 0x66128c0, size 0x60, virtual false, abstract: false, final false
-static inline bool TryLayoutByRow(::UnityEngine::RectInt  src, uint32_t  tileSize, ::ByRef<::UnityEngine::RectInt>  main, ::ByRef<::UnityEngine::RectInt>  other) ;
+  /// @brief Method TryLayoutByRow, addr 0x66848cc, size 0x60, virtual false, abstract: false, final false
+  static inline bool TryLayoutByRow(::UnityEngine::RectInt src, uint32_t tileSize, ::ByRef<::UnityEngine::RectInt> main, ::ByRef<::UnityEngine::RectInt> other);
 
-/// @brief Method TryLayoutByTiles, addr 0x6612834, size 0x8c, virtual false, abstract: false, final false
-static inline bool TryLayoutByTiles(::UnityEngine::RectInt  src, uint32_t  tileSize, ::ByRef<::UnityEngine::RectInt>  main, ::ByRef<::UnityEngine::RectInt>  topRow, ::ByRef<::UnityEngine::RectInt>  rightCol, ::ByRef<::UnityEngine::RectInt>  topRight) ;
+  /// @brief Method TryLayoutByTiles, addr 0x6684840, size 0x8c, virtual false, abstract: false, final false
+  static inline bool TryLayoutByTiles(::UnityEngine::RectInt src, uint32_t tileSize, ::ByRef<::UnityEngine::RectInt> main, ::ByRef<::UnityEngine::RectInt> topRow,
+                                      ::ByRef<::UnityEngine::RectInt> rightCol, ::ByRef<::UnityEngine::RectInt> topRight);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TileLayoutUtils() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TileLayoutUtils();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TileLayoutUtils", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TileLayoutUtils(TileLayoutUtils&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TileLayoutUtils", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TileLayoutUtils(TileLayoutUtils && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TileLayoutUtils", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TileLayoutUtils(TileLayoutUtils const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TileLayoutUtils", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TileLayoutUtils(TileLayoutUtils const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12304 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12297};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::TileLayoutUtils, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::TileLayoutUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::TileLayoutUtils*, "UnityEngine.Rendering", "TileLayoutUtils");

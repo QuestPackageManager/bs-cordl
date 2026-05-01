@@ -26,69 +26,69 @@ namespace GlobalNamespace {
 // CS Name: System.Threading.Tasks.Task/DelayPromise
 class CORDL_TYPE Task_DelayPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
-// Declarations
-/// @brief Field Registration, offset 0x60, size 0x18 
- __declspec(property(get=__cordl_internal_get_Registration, put=__cordl_internal_set_Registration)) ::System::Threading::CancellationTokenRegistration  Registration;
+  // Declarations
+  /// @brief Field Registration, offset 0x60, size 0x18
+  __declspec(property(get = __cordl_internal_get_Registration, put = __cordl_internal_set_Registration)) ::System::Threading::CancellationTokenRegistration Registration;
 
-/// @brief Field Timer, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get_Timer, put=__cordl_internal_set_Timer)) ::System::Threading::Timer*  Timer;
+  /// @brief Field Timer, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_Timer, put = __cordl_internal_set_Timer)) ::System::Threading::Timer* Timer;
 
-/// @brief Field Token, offset 0x58, size 0x8 
- __declspec(property(get=__cordl_internal_get_Token, put=__cordl_internal_set_Token)) ::System::Threading::CancellationToken  Token;
+  /// @brief Field Token, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_Token, put = __cordl_internal_set_Token)) ::System::Threading::CancellationToken Token;
 
-/// @brief Method Complete, addr 0x5b158d4, size 0x188, virtual false, abstract: false, final false
-inline void Complete() ;
+  /// @brief Method Complete, addr 0x5b878bc, size 0x188, virtual false, abstract: false, final false
+  inline void Complete();
 
-static inline ::GlobalNamespace::Task_DelayPromise* New_ctor(::System::Threading::CancellationToken  token) ;
+  static inline ::GlobalNamespace::Task_DelayPromise* New_ctor(::System::Threading::CancellationToken token);
 
-constexpr ::System::Threading::CancellationTokenRegistration const& __cordl_internal_get_Registration() const;
+  constexpr ::System::Threading::CancellationTokenRegistration const& __cordl_internal_get_Registration() const;
 
-constexpr ::System::Threading::CancellationTokenRegistration& __cordl_internal_get_Registration() ;
+  constexpr ::System::Threading::CancellationTokenRegistration& __cordl_internal_get_Registration();
 
-constexpr ::System::Threading::Timer* const& __cordl_internal_get_Timer() const;
+  constexpr ::System::Threading::Timer* const& __cordl_internal_get_Timer() const;
 
-constexpr ::System::Threading::Timer*& __cordl_internal_get_Timer() ;
+  constexpr ::System::Threading::Timer*& __cordl_internal_get_Timer();
 
-constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_Token() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_Token() const;
 
-constexpr ::System::Threading::CancellationToken& __cordl_internal_get_Token() ;
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_Token();
 
-constexpr void __cordl_internal_set_Registration(::System::Threading::CancellationTokenRegistration  value) ;
+  constexpr void __cordl_internal_set_Registration(::System::Threading::CancellationTokenRegistration value);
 
-constexpr void __cordl_internal_set_Timer(::System::Threading::Timer*  value) ;
+  constexpr void __cordl_internal_set_Timer(::System::Threading::Timer* value);
 
-constexpr void __cordl_internal_set_Token(::System::Threading::CancellationToken  value) ;
+  constexpr void __cordl_internal_set_Token(::System::Threading::CancellationToken value);
 
-/// @brief Method .ctor, addr 0x5b13cb8, size 0x130, virtual false, abstract: false, final false
-inline void _ctor(::System::Threading::CancellationToken  token) ;
+  /// @brief Method .ctor, addr 0x5b85ca0, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::CancellationToken token);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Task_DelayPromise() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Task_DelayPromise();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Task_DelayPromise", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Task_DelayPromise(Task_DelayPromise&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Task_DelayPromise", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Task_DelayPromise(Task_DelayPromise && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Task_DelayPromise", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Task_DelayPromise(Task_DelayPromise const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Task_DelayPromise", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Task_DelayPromise(Task_DelayPromise const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2799 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2799};
+  /// @brief Field Token, offset: 0x58, size: 0x8, def value: None
+  ::System::Threading::CancellationToken ___Token;
 
-/// @brief Field Token, offset: 0x58, size: 0x8, def value: None
- ::System::Threading::CancellationToken  ___Token;
+  /// @brief Field Registration, offset: 0x60, size: 0x18, def value: None
+  ::System::Threading::CancellationTokenRegistration ___Registration;
 
-/// @brief Field Registration, offset: 0x60, size: 0x18, def value: None
- ::System::Threading::CancellationTokenRegistration  ___Registration;
+  /// @brief Field Timer, offset: 0x78, size: 0x8, def value: None
+  ::System::Threading::Timer* ___Timer;
 
-/// @brief Field Timer, offset: 0x78, size: 0x8, def value: None
- ::System::Threading::Timer*  ___Timer;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::Task_DelayPromise, ___Token) == 0x58, "Offset mismatch!");
@@ -99,6 +99,6 @@ static_assert(offsetof(::GlobalNamespace::Task_DelayPromise, ___Timer) == 0x78, 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Task_DelayPromise, 0x80>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Task_DelayPromise);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Task_DelayPromise*, "System.Threading.Tasks", "Task/DelayPromise");

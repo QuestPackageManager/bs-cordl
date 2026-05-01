@@ -23,65 +23,65 @@ namespace GlobalNamespace {
 // CS Name: RenderTextureFromPostEffect
 class CORDL_TYPE RenderTextureFromPostEffect : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-/// @brief Field _camera, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__camera, put=__cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera>  _camera;
+  // Declarations
+  /// @brief Field _camera, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
-/// @brief Field _targetTexture, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__targetTexture, put=__cordl_internal_set__targetTexture)) ::UnityW<::UnityEngine::RenderTexture>  _targetTexture;
+  /// @brief Field _targetTexture, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__targetTexture, put = __cordl_internal_set__targetTexture)) ::UnityW<::UnityEngine::RenderTexture> _targetTexture;
 
- __declspec(property(get=get_targetTexture)) ::UnityW<::UnityEngine::RenderTexture>  targetTexture;
+  __declspec(property(get = get_targetTexture)) ::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
-/// @brief Method Awake, addr 0x5d9830c, size 0x54, virtual false, abstract: false, final false
-inline void Awake() ;
+  /// @brief Method Awake, addr 0x5e0a318, size 0x54, virtual false, abstract: false, final false
+  inline void Awake();
 
-static inline ::GlobalNamespace::RenderTextureFromPostEffect* New_ctor() ;
+  static inline ::GlobalNamespace::RenderTextureFromPostEffect* New_ctor();
 
-/// @brief Method OnRenderImage, addr 0x5d98360, size 0x208, virtual false, abstract: false, final false
-inline void OnRenderImage(::UnityEngine::RenderTexture*  src, ::UnityEngine::RenderTexture*  dst) ;
+  /// @brief Method OnRenderImage, addr 0x5e0a36c, size 0x208, virtual false, abstract: false, final false
+  inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dst);
 
-constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera() ;
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__targetTexture() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__targetTexture() const;
 
-constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__targetTexture() ;
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__targetTexture();
 
-constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera>  value) ;
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-constexpr void __cordl_internal_set__targetTexture(::UnityW<::UnityEngine::RenderTexture>  value) ;
+  constexpr void __cordl_internal_set__targetTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-/// @brief Method .ctor, addr 0x5d98568, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e0a574, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_targetTexture, addr 0x5d98304, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture() ;
+  /// @brief Method get_targetTexture, addr 0x5e0a310, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RenderTextureFromPostEffect() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderTextureFromPostEffect();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RenderTextureFromPostEffect", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RenderTextureFromPostEffect(RenderTextureFromPostEffect&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RenderTextureFromPostEffect", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RenderTextureFromPostEffect(RenderTextureFromPostEffect && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RenderTextureFromPostEffect", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RenderTextureFromPostEffect(RenderTextureFromPostEffect const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RenderTextureFromPostEffect", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RenderTextureFromPostEffect(RenderTextureFromPostEffect const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20811 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20799};
+  /// @brief Field _targetTexture, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::RenderTexture> ____targetTexture;
 
-/// @brief Field _targetTexture, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::UnityEngine::RenderTexture>  ____targetTexture;
+  /// @brief Field _camera, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
-/// @brief Field _camera, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Camera>  ____camera;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RenderTextureFromPostEffect, ____targetTexture) == 0x20, "Offset mismatch!");
@@ -90,6 +90,6 @@ static_assert(offsetof(::GlobalNamespace::RenderTextureFromPostEffect, ____camer
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RenderTextureFromPostEffect, 0x30>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RenderTextureFromPostEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RenderTextureFromPostEffect*, "", "RenderTextureFromPostEffect");

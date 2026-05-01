@@ -21,37 +21,37 @@ namespace UnityEngine::AddressableAssets {
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceSprite
 class CORDL_TYPE AssetReferenceSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Sprite>> {
 public:
-// Declarations
-static inline ::UnityEngine::AddressableAssets::AssetReferenceSprite* New_ctor(::StringW  guid) ;
+  // Declarations
+  static inline ::UnityEngine::AddressableAssets::AssetReferenceSprite* New_ctor(::StringW guid);
 
-/// @brief Method ValidateAsset, addr 0x62aa3ec, size 0x8, virtual true, abstract: false, final false
-inline bool ValidateAsset(::StringW  path) ;
+  /// @brief Method ValidateAsset, addr 0x631c3f8, size 0x8, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::StringW path);
 
-/// @brief Method .ctor, addr 0x62aa374, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(::StringW  guid) ;
+  /// @brief Method .ctor, addr 0x631c380, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::StringW guid);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AssetReferenceSprite() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetReferenceSprite();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceSprite", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AssetReferenceSprite(AssetReferenceSprite&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceSprite", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AssetReferenceSprite(AssetReferenceSprite && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceSprite", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AssetReferenceSprite(AssetReferenceSprite const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceSprite", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AssetReferenceSprite(AssetReferenceSprite const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19554 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19544};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AssetReferenceSprite, 0x40>, "Size mismatch!");
 
-} // namespace end def UnityEngine::AddressableAssets
+} // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceSprite);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceSprite*, "UnityEngine.AddressableAssets", "AssetReferenceSprite");

@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.DecrementInstruction/DecrementInt32
 class CORDL_TYPE DecrementInstruction_DecrementInt32 : public ::System::Linq::Expressions::Interpreter::DecrementInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::DecrementInstruction_DecrementInt32* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::DecrementInstruction_DecrementInt32* New_ctor();
 
-/// @brief Method Run, addr 0x5ddd570, size 0x74, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e4f57c, size 0x74, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5ddd4e0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e4f4ec, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DecrementInstruction_DecrementInt32() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecrementInstruction_DecrementInt32();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementInt32", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DecrementInstruction_DecrementInt32(DecrementInstruction_DecrementInt32&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementInt32", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DecrementInstruction_DecrementInt32(DecrementInstruction_DecrementInt32 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementInt32", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DecrementInstruction_DecrementInt32(DecrementInstruction_DecrementInt32 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementInt32", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DecrementInstruction_DecrementInt32(DecrementInstruction_DecrementInt32 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16275 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16267};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DecrementInstruction_DecrementInt32, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DecrementInstruction_DecrementInt32);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DecrementInstruction_DecrementInt32*, "System.Linq.Expressions.Interpreter", "DecrementInstruction/DecrementInt32");

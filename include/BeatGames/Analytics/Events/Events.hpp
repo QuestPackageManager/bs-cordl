@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "BeatGames/Analytics/Events/BasePlatformSessionAnalyticsEvent.hpp"
 #include "BeatGames/Analytics/Events/CommonFieldProviders.hpp"
@@ -13,6 +13,5 @@
 #include "BeatGames/Analytics/Events/TelemetryEvent.hpp"
 #include "BeatGames/Analytics/Events/TelemetryEventSender.hpp"
 #ifdef __cpp_modules
-                    export module Events;
-                    #endif
-                
+export module Events;
+#endif

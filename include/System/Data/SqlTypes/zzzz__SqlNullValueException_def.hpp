@@ -27,52 +27,53 @@ namespace System::Data::SqlTypes {
 // CS Name: System.Data.SqlTypes.SqlNullValueException
 class CORDL_TYPE SqlNullValueException : public ::System::Data::SqlTypes::SqlTypeException {
 public:
-// Declarations
-static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor() ;
+  // Declarations
+  static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor();
 
-static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::StringW  message) ;
+  static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::StringW message);
 
-static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::StringW  message, ::System::Exception*  e) ;
+  static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::StringW message, ::System::Exception* e);
 
-static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  si, ::System::Runtime::Serialization::StreamingContext  sc) ;
+  static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-/// @brief Method SqlNullValueExceptionSerialization, addr 0x5ee72a4, size 0xdc, virtual false, abstract: false, final false
-static inline ::System::Runtime::Serialization::SerializationInfo* SqlNullValueExceptionSerialization(::System::Runtime::Serialization::SerializationInfo*  si, ::System::Runtime::Serialization::StreamingContext  sc) ;
+  /// @brief Method SqlNullValueExceptionSerialization, addr 0x5f592b0, size 0xdc, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Serialization::SerializationInfo* SqlNullValueExceptionSerialization(::System::Runtime::Serialization::SerializationInfo* si,
+                                                                                                        ::System::Runtime::Serialization::StreamingContext sc);
 
-/// @brief Method .ctor, addr 0x5ed1524, size 0x64, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5f43530, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5ee721c, size 0x28, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5f59228, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5ee71f8, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  e) ;
+  /// @brief Method .ctor, addr 0x5f59204, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* e);
 
-/// @brief Method .ctor, addr 0x5ee7244, size 0x60, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  si, ::System::Runtime::Serialization::StreamingContext  sc) ;
+  /// @brief Method .ctor, addr 0x5f59250, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SqlNullValueException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SqlNullValueException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SqlNullValueException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SqlNullValueException(SqlNullValueException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SqlNullValueException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SqlNullValueException(SqlNullValueException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SqlNullValueException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SqlNullValueException(SqlNullValueException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SqlNullValueException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SqlNullValueException(SqlNullValueException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13889 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13882};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::SqlNullValueException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Data::SqlTypes
+} // namespace System::Data::SqlTypes
 NEED_NO_BOX(::System::Data::SqlTypes::SqlNullValueException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SqlNullValueException*, "System.Data.SqlTypes", "SqlNullValueException");

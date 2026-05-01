@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithPartyUnderCurrentParty
 class CORDL_TYPE MessageWithPartyUnderCurrentParty : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Party*> {
 public:
-// Declarations
-/// @brief Method GetDataFromMessage, addr 0x5c2e5a4, size 0x9c, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::Party* GetDataFromMessage(::System::IntPtr  c_message) ;
+  // Declarations
+  /// @brief Method GetDataFromMessage, addr 0x5ca058c, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::Party* GetDataFromMessage(::System::IntPtr c_message);
 
-/// @brief Method GetParty, addr 0x5c2e560, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::Party* GetParty() ;
+  /// @brief Method GetParty, addr 0x5ca0548, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::Party* GetParty();
 
-static inline ::Oculus::Platform::MessageWithPartyUnderCurrentParty* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithPartyUnderCurrentParty* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c29c80, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5c9bc68, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithPartyUnderCurrentParty() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithPartyUnderCurrentParty();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyUnderCurrentParty", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithPartyUnderCurrentParty(MessageWithPartyUnderCurrentParty&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyUnderCurrentParty", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithPartyUnderCurrentParty(MessageWithPartyUnderCurrentParty && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyUnderCurrentParty", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithPartyUnderCurrentParty(MessageWithPartyUnderCurrentParty const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyUnderCurrentParty", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithPartyUnderCurrentParty(MessageWithPartyUnderCurrentParty const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17887 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17879};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithPartyUnderCurrentParty, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithPartyUnderCurrentParty);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithPartyUnderCurrentParty*, "Oculus.Platform", "MessageWithPartyUnderCurrentParty");

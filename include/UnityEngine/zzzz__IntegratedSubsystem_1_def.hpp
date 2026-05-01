@@ -7,44 +7,43 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IntegratedSubsystem_1)
 // Forward declare root types
 namespace UnityEngine {
-template<typename TSubsystemDescriptor>
-class IntegratedSubsystem_1;
+template <typename TSubsystemDescriptor> class IntegratedSubsystem_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::IntegratedSubsystem_1);
 // Dependencies UnityEngine.IntegratedSubsystem
 namespace UnityEngine {
 // cpp template
-template<typename TSubsystemDescriptor>
+template <typename TSubsystemDescriptor>
 // Is value type: false
 // CS Name: UnityEngine.IntegratedSubsystem`1<TSubsystemDescriptor>
 class CORDL_TYPE IntegratedSubsystem_1 : public ::UnityEngine::IntegratedSubsystem {
 public:
-// Declarations
-static inline ::UnityEngine::IntegratedSubsystem_1<TSubsystemDescriptor>* New_ctor() ;
+  // Declarations
+  static inline ::UnityEngine::IntegratedSubsystem_1<TSubsystemDescriptor>* New_ctor();
 
-/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IntegratedSubsystem_1() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IntegratedSubsystem_1();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IntegratedSubsystem_1(IntegratedSubsystem_1&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_1", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IntegratedSubsystem_1(IntegratedSubsystem_1 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IntegratedSubsystem_1(IntegratedSubsystem_1 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IntegratedSubsystem_1(IntegratedSubsystem_1 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22611 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22533};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::IntegratedSubsystem_1, "UnityEngine", "IntegratedSubsystem`1");

@@ -27,47 +27,48 @@ namespace Unity::Collections::LowLevel::Unsafe {
 // CS Name: Unity.Collections.LowLevel.Unsafe.DataStreamExtensions
 class CORDL_TYPE DataStreamExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Create, addr 0x63173a0, size 0x94, virtual false, abstract: false, final false
-static inline ::Unity::Collections::DataStreamWriter Create(uint8_t*  data, int32_t  length) ;
+  // Declarations
+  /// @brief Method Create, addr 0x63893ac, size 0x94, virtual false, abstract: false, final false
+  static inline ::Unity::Collections::DataStreamWriter Create(uint8_t* data, int32_t length);
 
-/// @brief Method GetUnsafeReadOnlyPtr, addr 0x63175f0, size 0x8, virtual false, abstract: false, final false
-static inline void* GetUnsafeReadOnlyPtr(::ByRef<::Unity::Collections::DataStreamReader>  reader) ;
+  /// @brief Method GetUnsafeReadOnlyPtr, addr 0x63895fc, size 0x8, virtual false, abstract: false, final false
+  static inline void* GetUnsafeReadOnlyPtr(::ByRef<::Unity::Collections::DataStreamReader> reader);
 
-/// @brief Method ReadBytesUnsafe, addr 0x6317498, size 0x64, virtual false, abstract: false, final false
-static inline void ReadBytesUnsafe(::ByRef<::Unity::Collections::DataStreamReader>  reader, uint8_t*  data, int32_t  length) ;
+  /// @brief Method ReadBytesUnsafe, addr 0x63894a4, size 0x64, virtual false, abstract: false, final false
+  static inline void ReadBytesUnsafe(::ByRef<::Unity::Collections::DataStreamReader> reader, uint8_t* data, int32_t length);
 
-/// @brief Method ReadFixedStringUnsafe, addr 0x63174fc, size 0x64, virtual false, abstract: false, final false
-static inline uint16_t ReadFixedStringUnsafe(::ByRef<::Unity::Collections::DataStreamReader>  reader, uint8_t*  data, int32_t  maxLength) ;
+  /// @brief Method ReadFixedStringUnsafe, addr 0x6389508, size 0x64, virtual false, abstract: false, final false
+  static inline uint16_t ReadFixedStringUnsafe(::ByRef<::Unity::Collections::DataStreamReader> reader, uint8_t* data, int32_t maxLength);
 
-/// @brief Method ReadPackedFixedStringDeltaUnsafe, addr 0x6317560, size 0x90, virtual false, abstract: false, final false
-static inline uint16_t ReadPackedFixedStringDeltaUnsafe(::ByRef<::Unity::Collections::DataStreamReader>  reader, uint8_t*  data, int32_t  maxLength, uint8_t*  baseData, uint16_t  baseLength, ::Unity::Collections::StreamCompressionModel  model) ;
+  /// @brief Method ReadPackedFixedStringDeltaUnsafe, addr 0x638956c, size 0x90, virtual false, abstract: false, final false
+  static inline uint16_t ReadPackedFixedStringDeltaUnsafe(::ByRef<::Unity::Collections::DataStreamReader> reader, uint8_t* data, int32_t maxLength, uint8_t* baseData, uint16_t baseLength,
+                                                          ::Unity::Collections::StreamCompressionModel model);
 
-/// @brief Method WriteBytesUnsafe, addr 0x6317434, size 0x64, virtual false, abstract: false, final false
-static inline bool WriteBytesUnsafe(::ByRef<::Unity::Collections::DataStreamWriter>  writer, uint8_t*  data, int32_t  bytes) ;
+  /// @brief Method WriteBytesUnsafe, addr 0x6389440, size 0x64, virtual false, abstract: false, final false
+  static inline bool WriteBytesUnsafe(::ByRef<::Unity::Collections::DataStreamWriter> writer, uint8_t* data, int32_t bytes);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DataStreamExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DataStreamExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DataStreamExtensions(DataStreamExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DataStreamExtensions(DataStreamExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DataStreamExtensions(DataStreamExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DataStreamExtensions(DataStreamExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15732 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15725};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::LowLevel::Unsafe::DataStreamExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Collections::LowLevel::Unsafe
+} // namespace Unity::Collections::LowLevel::Unsafe
 NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::DataStreamExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::DataStreamExtensions*, "Unity.Collections.LowLevel.Unsafe", "DataStreamExtensions");

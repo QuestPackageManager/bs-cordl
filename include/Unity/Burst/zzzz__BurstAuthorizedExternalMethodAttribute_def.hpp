@@ -17,34 +17,34 @@ namespace Unity::Burst {
 // CS Name: Unity.Burst.BurstAuthorizedExternalMethodAttribute
 class CORDL_TYPE BurstAuthorizedExternalMethodAttribute : public ::System::Attribute {
 public:
-// Declarations
-static inline ::Unity::Burst::BurstAuthorizedExternalMethodAttribute* New_ctor() ;
+  // Declarations
+  static inline ::Unity::Burst::BurstAuthorizedExternalMethodAttribute* New_ctor();
 
-/// @brief Method .ctor, addr 0x6893ea4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6905eb0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BurstAuthorizedExternalMethodAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BurstAuthorizedExternalMethodAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BurstAuthorizedExternalMethodAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BurstAuthorizedExternalMethodAttribute(BurstAuthorizedExternalMethodAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BurstAuthorizedExternalMethodAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BurstAuthorizedExternalMethodAttribute(BurstAuthorizedExternalMethodAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BurstAuthorizedExternalMethodAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BurstAuthorizedExternalMethodAttribute(BurstAuthorizedExternalMethodAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BurstAuthorizedExternalMethodAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BurstAuthorizedExternalMethodAttribute(BurstAuthorizedExternalMethodAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10015 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10009};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::BurstAuthorizedExternalMethodAttribute, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Burst
+} // namespace Unity::Burst
 NEED_NO_BOX(::Unity::Burst::BurstAuthorizedExternalMethodAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::BurstAuthorizedExternalMethodAttribute*, "Unity.Burst", "BurstAuthorizedExternalMethodAttribute");

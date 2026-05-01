@@ -15,12 +15,10 @@ namespace HMUI {
 class ViewController;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 class Action;
@@ -41,112 +39,113 @@ namespace HMUI {
 // CS Name: HMUI.StackedController/<>c__DisplayClass5_0
 class CORDL_TYPE StackedController___c__DisplayClass5_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field numberOfViewControllersToPop, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_numberOfViewControllersToPop, put=__cordl_internal_set_numberOfViewControllersToPop)) int32_t  numberOfViewControllersToPop;
+  // Declarations
+  /// @brief Field numberOfViewControllersToPop, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_numberOfViewControllersToPop, put = __cordl_internal_set_numberOfViewControllersToPop)) int32_t numberOfViewControllersToPop;
 
-static inline ::HMUI::StackedController___c__DisplayClass5_0* New_ctor() ;
+  static inline ::HMUI::StackedController___c__DisplayClass5_0* New_ctor();
 
-/// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x3200950, size 0x70, virtual false, abstract: false, final false
-inline void _PopViewControllers_g__AnimationLayouter_0(float_t  t, ::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>  viewControllers, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*  removingViewControllers) ;
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x323c680, size 0x70, virtual false, abstract: false, final false
+  inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
+                                                         ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
-constexpr int32_t const& __cordl_internal_get_numberOfViewControllersToPop() const;
+  constexpr int32_t const& __cordl_internal_get_numberOfViewControllersToPop() const;
 
-constexpr int32_t& __cordl_internal_get_numberOfViewControllersToPop() ;
+  constexpr int32_t& __cordl_internal_get_numberOfViewControllersToPop();
 
-constexpr void __cordl_internal_set_numberOfViewControllersToPop(int32_t  value) ;
+  constexpr void __cordl_internal_set_numberOfViewControllersToPop(int32_t value);
 
-/// @brief Method .ctor, addr 0x32008b8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x323c5e8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StackedController___c__DisplayClass5_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StackedController___c__DisplayClass5_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StackedController___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20473 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20463};
+  /// @brief Field numberOfViewControllersToPop, offset: 0x10, size: 0x4, def value: None
+  int32_t ___numberOfViewControllersToPop;
 
-/// @brief Field numberOfViewControllersToPop, offset: 0x10, size: 0x4, def value: None
- int32_t  ___numberOfViewControllersToPop;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::StackedController___c__DisplayClass5_0, ___numberOfViewControllersToPop) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::StackedController___c__DisplayClass5_0, 0x18>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 // Dependencies HMUI.ContainerViewController
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.StackedController
 class CORDL_TYPE StackedController : public ::HMUI::ContainerViewController {
 public:
-// Declarations
-using __c__DisplayClass5_0 = ::HMUI::StackedController___c__DisplayClass5_0;
+  // Declarations
+  using __c__DisplayClass5_0 = ::HMUI::StackedController___c__DisplayClass5_0;
 
- __declspec(property(get=get_topStackedViewController)) ::UnityW<::HMUI::ViewController>  topStackedViewController;
+  __declspec(property(get = get_topStackedViewController)) ::UnityW<::HMUI::ViewController> topStackedViewController;
 
-/// @brief Method LayoutViewControllers, addr 0x32004c8, size 0xf4, virtual true, abstract: false, final false
-inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*  viewControllers) ;
+  /// @brief Method LayoutViewControllers, addr 0x323c1f8, size 0xf4, virtual true, abstract: false, final false
+  inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
-static inline ::HMUI::StackedController* New_ctor() ;
+  static inline ::HMUI::StackedController* New_ctor();
 
-/// @brief Method PopViewController, addr 0x32006b0, size 0x10, virtual false, abstract: false, final false
-inline void PopViewController(::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method PopViewController, addr 0x323c3e0, size 0x10, virtual false, abstract: false, final false
+  inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-/// @brief Method PopViewControllers, addr 0x32006c0, size 0x1f8, virtual false, abstract: false, final false
-inline void PopViewControllers(int32_t  numberOfViewControllersToPop, ::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method PopViewControllers, addr 0x323c3f0, size 0x1f8, virtual false, abstract: false, final false
+  inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-/// @brief Method PushViewController, addr 0x3200608, size 0xa8, virtual false, abstract: false, final false
-inline void PushViewController(::HMUI::ViewController*  viewController, ::System::Action*  finishedCallback, bool  immediately) ;
+  /// @brief Method PushViewController, addr 0x323c338, size 0xa8, virtual false, abstract: false, final false
+  inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-/// @brief Method SetupViewControllerRect, addr 0x32005bc, size 0x28, virtual false, abstract: false, final false
-static inline void SetupViewControllerRect(::HMUI::ViewController*  viewController, int32_t  index) ;
+  /// @brief Method SetupViewControllerRect, addr 0x323c2ec, size 0x28, virtual false, abstract: false, final false
+  static inline void SetupViewControllerRect(::HMUI::ViewController* viewController, int32_t index);
 
-/// @brief Method <PushViewController>g__AnimationLayouter|3_0, addr 0x32008c0, size 0x90, virtual false, abstract: false, final false
-static inline void _PushViewController_g__AnimationLayouter_3_0(float_t  t, ::ArrayW<::HMUI::ViewController*,::Array<::HMUI::ViewController*>*>  viewControllers) ;
+  /// @brief Method <PushViewController>g__AnimationLayouter|3_0, addr 0x323c5f0, size 0x90, virtual false, abstract: false, final false
+  static inline void _PushViewController_g__AnimationLayouter_3_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
-/// @brief Method .ctor, addr 0x32008bc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x323c5ec, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_topStackedViewController, addr 0x3200444, size 0x84, virtual false, abstract: false, final false
-inline ::UnityW<::HMUI::ViewController> get_topStackedViewController() ;
+  /// @brief Method get_topStackedViewController, addr 0x323c174, size 0x84, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::ViewController> get_topStackedViewController();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr StackedController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StackedController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  StackedController(StackedController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-StackedController(StackedController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  StackedController(StackedController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "StackedController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-StackedController(StackedController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20474 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20464};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::StackedController, 0x88>, "Size mismatch!");
 
-} // namespace end def HMUI
+} // namespace HMUI
 NEED_NO_BOX(::HMUI::StackedController);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::StackedController*, "HMUI", "StackedController");
 NEED_NO_BOX(::HMUI::StackedController___c__DisplayClass5_0);

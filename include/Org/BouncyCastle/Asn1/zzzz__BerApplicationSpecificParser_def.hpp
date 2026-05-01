@@ -30,72 +30,72 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.BerApplicationSpecificParser
 class CORDL_TYPE BerApplicationSpecificParser : public ::System::Object {
 public:
-// Declarations
-/// @brief Field parser, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_parser, put=__cordl_internal_set_parser)) ::Org::BouncyCastle::Asn1::Asn1StreamParser*  parser;
+  // Declarations
+  /// @brief Field parser, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser)) ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
 
-/// @brief Field tag, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_tag, put=__cordl_internal_set_tag)) int32_t  tag;
+  /// @brief Field tag, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag)) int32_t tag;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
+  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser*() noexcept;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser* New_ctor(int32_t  tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser*  parser) ;
+  static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser* New_ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-/// @brief Method ReadObject, addr 0x358d49c, size 0x1c, virtual true, abstract: false, final true
-inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject() ;
+  /// @brief Method ReadObject, addr 0x35c9ae0, size 0x1c, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-/// @brief Method ToAsn1Object, addr 0x3588024, size 0x7c, virtual true, abstract: false, final true
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x35c4668, size 0x7c, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& __cordl_internal_get_parser() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& __cordl_internal_get_parser() const;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get_parser() ;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get_parser();
 
-constexpr int32_t const& __cordl_internal_get_tag() const;
+  constexpr int32_t const& __cordl_internal_get_tag() const;
 
-constexpr int32_t& __cordl_internal_get_tag() ;
+  constexpr int32_t& __cordl_internal_get_tag();
 
-constexpr void __cordl_internal_set_parser(::Org::BouncyCastle::Asn1::Asn1StreamParser*  value) ;
+  constexpr void __cordl_internal_set_parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
-constexpr void __cordl_internal_set_tag(int32_t  value) ;
+  constexpr void __cordl_internal_set_tag(int32_t value);
 
-/// @brief Method .ctor, addr 0x3588018, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(int32_t  tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser*  parser) ;
+  /// @brief Method .ctor, addr 0x35c465c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser* i___Org__BouncyCastle__Asn1__IAsn1ApplicationSpecificParser() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser* i___Org__BouncyCastle__Asn1__IAsn1ApplicationSpecificParser() noexcept;
 
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BerApplicationSpecificParser() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerApplicationSpecificParser();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BerApplicationSpecificParser", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BerApplicationSpecificParser(BerApplicationSpecificParser&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BerApplicationSpecificParser", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BerApplicationSpecificParser(BerApplicationSpecificParser && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BerApplicationSpecificParser", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BerApplicationSpecificParser(BerApplicationSpecificParser const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BerApplicationSpecificParser", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BerApplicationSpecificParser(BerApplicationSpecificParser const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 474 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{474};
+  /// @brief Field tag, offset: 0x10, size: 0x4, def value: None
+  int32_t ___tag;
 
-/// @brief Field tag, offset: 0x10, size: 0x4, def value: None
- int32_t  ___tag;
+  /// @brief Field parser, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1StreamParser* ___parser;
 
-/// @brief Field parser, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::Asn1StreamParser*  ___parser;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::BerApplicationSpecificParser, ___tag) == 0x10, "Offset mismatch!");
@@ -104,6 +104,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::BerApplicationSpecificParser, 
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerApplicationSpecificParser, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1
+} // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerApplicationSpecificParser);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerApplicationSpecificParser*, "Org.BouncyCastle.Asn1", "BerApplicationSpecificParser");

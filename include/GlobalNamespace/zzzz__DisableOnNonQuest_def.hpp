@@ -17,34 +17,34 @@ namespace GlobalNamespace {
 // CS Name: DisableOnNonQuest
 class CORDL_TYPE DisableOnNonQuest : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-static inline ::GlobalNamespace::DisableOnNonQuest* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::DisableOnNonQuest* New_ctor();
 
-/// @brief Method .ctor, addr 0x569c288, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x570a150, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DisableOnNonQuest() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisableOnNonQuest();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DisableOnNonQuest", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DisableOnNonQuest(DisableOnNonQuest&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DisableOnNonQuest", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DisableOnNonQuest(DisableOnNonQuest && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DisableOnNonQuest", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DisableOnNonQuest(DisableOnNonQuest const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DisableOnNonQuest", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DisableOnNonQuest(DisableOnNonQuest const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22902 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22794};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableOnNonQuest, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisableOnNonQuest);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisableOnNonQuest*, "", "DisableOnNonQuest");

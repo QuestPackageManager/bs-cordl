@@ -57,190 +57,190 @@ namespace System::Runtime {
 // CS Name: System.Runtime.Fx/InternalException
 class CORDL_TYPE Fx_InternalException : public ::System::SystemException {
 public:
-// Declarations
-static inline ::System::Runtime::Fx_InternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  // Declarations
+  static inline ::System::Runtime::Fx_InternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5fd2f70, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x6044f7c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Fx_InternalException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Fx_InternalException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Fx_InternalException(Fx_InternalException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Fx_InternalException(Fx_InternalException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Fx_InternalException(Fx_InternalException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Fx_InternalException(Fx_InternalException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21123 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21112};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Fx_InternalException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Runtime
+} // namespace System::Runtime
 // Dependencies System.Runtime.Fx::InternalException
 namespace System::Runtime {
 // Is value type: false
 // CS Name: System.Runtime.Fx/FatalInternalException
 class CORDL_TYPE Fx_FatalInternalException : public ::System::Runtime::Fx_InternalException {
 public:
-// Declarations
-static inline ::System::Runtime::Fx_FatalInternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  // Declarations
+  static inline ::System::Runtime::Fx_FatalInternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5fd2f78, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x6044f84, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Fx_FatalInternalException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Fx_FatalInternalException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Fx_FatalInternalException(Fx_FatalInternalException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Fx_FatalInternalException(Fx_FatalInternalException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Fx_FatalInternalException(Fx_FatalInternalException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Fx_FatalInternalException(Fx_FatalInternalException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21124 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21113};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Fx_FatalInternalException, 0x90>, "Size mismatch!");
 
-} // namespace end def System::Runtime
+} // namespace System::Runtime
 // Dependencies System.Object
 namespace System::Runtime {
 // Is value type: false
 // CS Name: System.Runtime.Fx/<>c
 class CORDL_TYPE Fx___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::System::Runtime::Fx___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Runtime::Fx___c* __9;
 
-/// @brief Field <>9__8_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__8_0, put=setStaticF___9__8_0)) ::System::Action*  __9__8_0;
+  /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Action* __9__8_0;
 
-static inline ::System::Runtime::Fx___c* New_ctor() ;
+  static inline ::System::Runtime::Fx___c* New_ctor();
 
-/// @brief Method <InitializeTracing>b__8_0, addr 0x5fd2fd8, size 0x10, virtual false, abstract: false, final false
-inline void _InitializeTracing_b__8_0() ;
+  /// @brief Method <InitializeTracing>b__8_0, addr 0x6044fe4, size 0x10, virtual false, abstract: false, final false
+  inline void _InitializeTracing_b__8_0();
 
-/// @brief Method .ctor, addr 0x5fd2fd4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6044fe0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::Runtime::Fx___c* getStaticF___9() ;
+  static inline ::System::Runtime::Fx___c* getStaticF___9();
 
-static inline ::System::Action* getStaticF___9__8_0() ;
+  static inline ::System::Action* getStaticF___9__8_0();
 
-static inline void setStaticF___9(::System::Runtime::Fx___c*  value) ;
+  static inline void setStaticF___9(::System::Runtime::Fx___c* value);
 
-static inline void setStaticF___9__8_0(::System::Action*  value) ;
+  static inline void setStaticF___9__8_0(::System::Action* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Fx___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Fx___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Fx___c(Fx___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Fx___c(Fx___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Fx___c(Fx___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Fx___c(Fx___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21125 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21114};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Fx___c, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Runtime
+} // namespace System::Runtime
 // Dependencies System.Object
 namespace System::Runtime {
 // Is value type: false
 // CS Name: System.Runtime.Fx
 class CORDL_TYPE Fx : public ::System::Object {
 public:
-// Declarations
-using FatalInternalException = ::System::Runtime::Fx_FatalInternalException;
+  // Declarations
+  using FatalInternalException = ::System::Runtime::Fx_FatalInternalException;
 
-using InternalException = ::System::Runtime::Fx_InternalException;
+  using InternalException = ::System::Runtime::Fx_InternalException;
 
-using __c = ::System::Runtime::Fx___c;
+  using __c = ::System::Runtime::Fx___c;
 
-/// @brief Field diagnosticTrace, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_diagnosticTrace, put=setStaticF_diagnosticTrace)) ::System::Runtime::Diagnostics::EtwDiagnosticTrace*  diagnosticTrace;
+  /// @brief Field diagnosticTrace, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_diagnosticTrace, put = setStaticF_diagnosticTrace)) ::System::Runtime::Diagnostics::EtwDiagnosticTrace* diagnosticTrace;
 
-/// @brief Field exceptionTrace, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_exceptionTrace, put=setStaticF_exceptionTrace)) ::System::Runtime::ExceptionTrace*  exceptionTrace;
+  /// @brief Field exceptionTrace, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_exceptionTrace, put = setStaticF_exceptionTrace)) ::System::Runtime::ExceptionTrace* exceptionTrace;
 
-/// @brief Method InitializeTracing, addr 0x5fd23f0, size 0x1d0, virtual false, abstract: false, final false
-static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* InitializeTracing() ;
+  /// @brief Method InitializeTracing, addr 0x60443fc, size 0x1d0, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* InitializeTracing();
 
-/// @brief Method IsFatal, addr 0x5fd2a1c, size 0x470, virtual false, abstract: false, final false
-static inline bool IsFatal(::System::Exception*  exception) ;
+  /// @brief Method IsFatal, addr 0x6044a28, size 0x470, virtual false, abstract: false, final false
+  static inline bool IsFatal(::System::Exception* exception);
 
-/// @brief Method UpdateLevel, addr 0x5fd2f60, size 0x10, virtual false, abstract: false, final false
-static inline void UpdateLevel() ;
+  /// @brief Method UpdateLevel, addr 0x6044f6c, size 0x10, virtual false, abstract: false, final false
+  static inline void UpdateLevel();
 
-/// @brief Method UpdateLevel, addr 0x5fd2988, size 0x94, virtual false, abstract: false, final false
-static inline void UpdateLevel(::System::Runtime::Diagnostics::EtwDiagnosticTrace*  trace) ;
+  /// @brief Method UpdateLevel, addr 0x6044994, size 0x94, virtual false, abstract: false, final false
+  static inline void UpdateLevel(::System::Runtime::Diagnostics::EtwDiagnosticTrace* trace);
 
-static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* getStaticF_diagnosticTrace() ;
+  static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* getStaticF_diagnosticTrace();
 
-static inline ::System::Runtime::ExceptionTrace* getStaticF_exceptionTrace() ;
+  static inline ::System::Runtime::ExceptionTrace* getStaticF_exceptionTrace();
 
-/// @brief Method get_Exception, addr 0x5fd22d8, size 0xb8, virtual false, abstract: false, final false
-static inline ::System::Runtime::ExceptionTrace* get_Exception() ;
+  /// @brief Method get_Exception, addr 0x60442e4, size 0xb8, virtual false, abstract: false, final false
+  static inline ::System::Runtime::ExceptionTrace* get_Exception();
 
-/// @brief Method get_Trace, addr 0x5fd2390, size 0x60, virtual false, abstract: false, final false
-static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* get_Trace() ;
+  /// @brief Method get_Trace, addr 0x604439c, size 0x60, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* get_Trace();
 
-static inline void setStaticF_diagnosticTrace(::System::Runtime::Diagnostics::EtwDiagnosticTrace*  value) ;
+  static inline void setStaticF_diagnosticTrace(::System::Runtime::Diagnostics::EtwDiagnosticTrace* value);
 
-static inline void setStaticF_exceptionTrace(::System::Runtime::ExceptionTrace*  value) ;
+  static inline void setStaticF_exceptionTrace(::System::Runtime::ExceptionTrace* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Fx() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Fx();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Fx(Fx&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Fx(Fx && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Fx(Fx const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Fx(Fx const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21126 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21115};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Fx, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Runtime
+} // namespace System::Runtime
 NEED_NO_BOX(::System::Runtime::Fx);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Fx*, "System.Runtime", "Fx");
 NEED_NO_BOX(::System::Runtime::Fx_FatalInternalException);

@@ -6,8 +6,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__Installer_2_def.hpp"
 CORDL_MODULE_EXPORT(ExecutionOrderInstaller)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
@@ -28,59 +27,59 @@ MARK_REF_PTR_T(::Zenject::ExecutionOrderInstaller);
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.ExecutionOrderInstaller
-class CORDL_TYPE ExecutionOrderInstaller : public ::Zenject::Installer_2<::System::Collections::Generic::List_1<::System::Type*>*,::Zenject::ExecutionOrderInstaller*> {
+class CORDL_TYPE ExecutionOrderInstaller : public ::Zenject::Installer_2<::System::Collections::Generic::List_1<::System::Type*>*, ::Zenject::ExecutionOrderInstaller*> {
 public:
-// Declarations
-/// @brief Field _typeOrder, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__typeOrder, put=__cordl_internal_set__typeOrder)) ::System::Collections::Generic::List_1<::System::Type*>*  _typeOrder;
+  // Declarations
+  /// @brief Field _typeOrder, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__typeOrder, put = __cordl_internal_set__typeOrder)) ::System::Collections::Generic::List_1<::System::Type*>* _typeOrder;
 
-/// @brief Method InstallBindings, addr 0x6cd06fc, size 0x12c, virtual true, abstract: false, final false
-inline void InstallBindings() ;
+  /// @brief Method InstallBindings, addr 0x6d42940, size 0x12c, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-static inline ::Zenject::ExecutionOrderInstaller* New_ctor(::System::Collections::Generic::List_1<::System::Type*>*  typeOrder) ;
+  static inline ::Zenject::ExecutionOrderInstaller* New_ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
 
-constexpr ::System::Collections::Generic::List_1<::System::Type*>* const& __cordl_internal_get__typeOrder() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>* const& __cordl_internal_get__typeOrder() const;
 
-constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__typeOrder() ;
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__typeOrder();
 
-constexpr void __cordl_internal_set__typeOrder(::System::Collections::Generic::List_1<::System::Type*>*  value) ;
+  constexpr void __cordl_internal_set__typeOrder(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-/// @brief Method __zenCreate, addr 0x6cd0828, size 0xf0, virtual false, abstract: false, final false
-static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
+  /// @brief Method __zenCreate, addr 0x6d42a6c, size 0xf0, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-/// @brief Method __zenCreateInjectTypeInfo, addr 0x6cd0918, size 0x248, virtual false, abstract: false, final false
-static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d42b5c, size 0x248, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-/// @brief Method .ctor, addr 0x6cd06ac, size 0x50, virtual false, abstract: false, final false
-inline void _ctor(::System::Collections::Generic::List_1<::System::Type*>*  typeOrder) ;
+  /// @brief Method .ctor, addr 0x6d428f0, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ExecutionOrderInstaller() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExecutionOrderInstaller();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ExecutionOrderInstaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ExecutionOrderInstaller(ExecutionOrderInstaller&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExecutionOrderInstaller", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ExecutionOrderInstaller(ExecutionOrderInstaller && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ExecutionOrderInstaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ExecutionOrderInstaller(ExecutionOrderInstaller const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ExecutionOrderInstaller", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ExecutionOrderInstaller(ExecutionOrderInstaller const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14682};
+  /// @brief Field _typeOrder, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::System::Type*>* ____typeOrder;
 
-/// @brief Field _typeOrder, offset: 0x18, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::System::Type*>*  ____typeOrder;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::ExecutionOrderInstaller, ____typeOrder) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Zenject::ExecutionOrderInstaller, 0x20>, "Size mismatch!");
 
-} // namespace end def Zenject
+} // namespace Zenject
 NEED_NO_BOX(::Zenject::ExecutionOrderInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ExecutionOrderInstaller*, "Zenject", "ExecutionOrderInstaller");

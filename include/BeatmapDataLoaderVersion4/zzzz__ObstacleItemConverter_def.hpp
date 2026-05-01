@@ -29,51 +29,53 @@ namespace BeatmapDataLoaderVersion4 {
 // CS Name: BeatmapDataLoaderVersion4.ObstacleItemConverter
 class CORDL_TYPE ObstacleItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
-// Declarations
-/// @brief Field _obstacles, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__obstacles, put=__cordl_internal_set__obstacles)) ::ArrayW<::BeatmapSaveDataVersion4::Obstacle,::Array<::BeatmapSaveDataVersion4::Obstacle>*>  _obstacles;
+  // Declarations
+  /// @brief Field _obstacles, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__obstacles, put = __cordl_internal_set__obstacles)) ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*>
+      _obstacles;
 
-/// @brief Method Convert, addr 0x3664ecc, size 0x118, virtual false, abstract: false, final false
-inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex*  index) ;
+  /// @brief Method Convert, addr 0x36a1928, size 0x118, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
-static inline ::BeatmapDataLoaderVersion4::ObstacleItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle,::Array<::BeatmapSaveDataVersion4::Obstacle>*>  obstacles, ::GlobalNamespace::BpmTimeProcessor*  bpmTimeProcessor) ;
+  static inline ::BeatmapDataLoaderVersion4::ObstacleItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> obstacles,
+                                                                             ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
-constexpr ::ArrayW<::BeatmapSaveDataVersion4::Obstacle,::Array<::BeatmapSaveDataVersion4::Obstacle>*> const& __cordl_internal_get__obstacles() const;
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> const& __cordl_internal_get__obstacles() const;
 
-constexpr ::ArrayW<::BeatmapSaveDataVersion4::Obstacle,::Array<::BeatmapSaveDataVersion4::Obstacle>*>& __cordl_internal_get__obstacles() ;
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*>& __cordl_internal_get__obstacles();
 
-constexpr void __cordl_internal_set__obstacles(::ArrayW<::BeatmapSaveDataVersion4::Obstacle,::Array<::BeatmapSaveDataVersion4::Obstacle>*>  value) ;
+  constexpr void __cordl_internal_set__obstacles(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> value);
 
-/// @brief Method .ctor, addr 0x3664d48, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle,::Array<::BeatmapSaveDataVersion4::Obstacle>*>  obstacles, ::GlobalNamespace::BpmTimeProcessor*  bpmTimeProcessor) ;
+  /// @brief Method .ctor, addr 0x36a17a4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> obstacles, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ObstacleItemConverter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObstacleItemConverter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleItemConverter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ObstacleItemConverter(ObstacleItemConverter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ObstacleItemConverter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ObstacleItemConverter(ObstacleItemConverter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleItemConverter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ObstacleItemConverter(ObstacleItemConverter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ObstacleItemConverter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ObstacleItemConverter(ObstacleItemConverter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15411 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15404};
+  /// @brief Field _obstacles, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> ____obstacles;
 
-/// @brief Field _obstacles, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<::BeatmapSaveDataVersion4::Obstacle,::Array<::BeatmapSaveDataVersion4::Obstacle>*>  ____obstacles;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapDataLoaderVersion4::ObstacleItemConverter, ____obstacles) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::ObstacleItemConverter, 0x20>, "Size mismatch!");
 
-} // namespace end def BeatmapDataLoaderVersion4
+} // namespace BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::ObstacleItemConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::ObstacleItemConverter*, "BeatmapDataLoaderVersion4", "ObstacleItemConverter");

@@ -48,111 +48,112 @@ namespace System::Runtime::Remoting::Proxies {
 // CS Name: System.Runtime.Remoting.Proxies.RemotingProxy
 class CORDL_TYPE RemotingProxy : public ::System::Runtime::Remoting::Proxies::RealProxy {
 public:
-// Declarations
- __declspec(property(get=get_TypeName)) ::StringW  TypeName;
+  // Declarations
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
-/// @brief Field _cache_GetHashCodeMethod, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__cache_GetHashCodeMethod, put=setStaticF__cache_GetHashCodeMethod)) ::System::Reflection::MethodInfo*  _cache_GetHashCodeMethod;
+  /// @brief Field _cache_GetHashCodeMethod, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__cache_GetHashCodeMethod, put = setStaticF__cache_GetHashCodeMethod)) ::System::Reflection::MethodInfo* _cache_GetHashCodeMethod;
 
-/// @brief Field _cache_GetTypeMethod, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF__cache_GetTypeMethod, put=setStaticF__cache_GetTypeMethod)) ::System::Reflection::MethodInfo*  _cache_GetTypeMethod;
+  /// @brief Field _cache_GetTypeMethod, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__cache_GetTypeMethod, put = setStaticF__cache_GetTypeMethod)) ::System::Reflection::MethodInfo* _cache_GetTypeMethod;
 
-/// @brief Field _ctorCall, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get__ctorCall, put=__cordl_internal_set__ctorCall)) ::System::Runtime::Remoting::Messaging::ConstructionCall*  _ctorCall;
+  /// @brief Field _ctorCall, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__ctorCall, put = __cordl_internal_set__ctorCall)) ::System::Runtime::Remoting::Messaging::ConstructionCall* _ctorCall;
 
-/// @brief Field _hasEnvoySink, offset 0x58, size 0x1 
- __declspec(property(get=__cordl_internal_get__hasEnvoySink, put=__cordl_internal_set__hasEnvoySink)) bool  _hasEnvoySink;
+  /// @brief Field _hasEnvoySink, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasEnvoySink, put = __cordl_internal_set__hasEnvoySink)) bool _hasEnvoySink;
 
-/// @brief Field _sink, offset 0x50, size 0x8 
- __declspec(property(get=__cordl_internal_get__sink, put=__cordl_internal_set__sink)) ::System::Runtime::Remoting::Messaging::IMessageSink*  _sink;
+  /// @brief Field _sink, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__sink, put = __cordl_internal_set__sink)) ::System::Runtime::Remoting::Messaging::IMessageSink* _sink;
 
-/// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
-constexpr operator  ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
+  constexpr operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
 
-/// @brief Method ActivateRemoteObject, addr 0x5982ae4, size 0xe4, virtual false, abstract: false, final false
-inline ::System::Runtime::Remoting::Messaging::IMessage* ActivateRemoteObject(::System::Runtime::Remoting::Messaging::IMethodMessage*  request) ;
+  /// @brief Method ActivateRemoteObject, addr 0x59f4a50, size 0xe4, virtual false, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessage* ActivateRemoteObject(::System::Runtime::Remoting::Messaging::IMethodMessage* request);
 
-/// @brief Method AttachIdentity, addr 0x5984748, size 0x23c, virtual false, abstract: false, final false
-inline void AttachIdentity(::System::Runtime::Remoting::Identity*  identity) ;
+  /// @brief Method AttachIdentity, addr 0x59f66b4, size 0x23c, virtual false, abstract: false, final false
+  inline void AttachIdentity(::System::Runtime::Remoting::Identity* identity);
 
-/// @brief Method CanCastTo, addr 0x5985090, size 0x20c, virtual true, abstract: false, final true
-inline bool CanCastTo(::System::Type*  fromType, ::System::Object*  o) ;
+  /// @brief Method CanCastTo, addr 0x59f6ffc, size 0x20c, virtual true, abstract: false, final true
+  inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
-/// @brief Method Finalize, addr 0x598529c, size 0xdc, virtual true, abstract: false, final false
-inline void Finalize() ;
+  /// @brief Method Finalize, addr 0x59f7208, size 0xdc, virtual true, abstract: false, final false
+  inline void Finalize();
 
-/// @brief Method Invoke, addr 0x5983ed0, size 0x5fc, virtual true, abstract: false, final false
-inline ::System::Runtime::Remoting::Messaging::IMessage* Invoke(::System::Runtime::Remoting::Messaging::IMessage*  request) ;
+  /// @brief Method Invoke, addr 0x59f5e3c, size 0x5fc, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessage* Invoke(::System::Runtime::Remoting::Messaging::IMessage* request);
 
-static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type*  type, ::StringW  activationUrl, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  activationAttributes) ;
+  static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type* type, ::StringW activationUrl,
+                                                                              ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type*  type, ::System::Runtime::Remoting::ClientIdentity*  identity) ;
+  static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity);
 
-constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall* const& __cordl_internal_get__ctorCall() const;
+  constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall* const& __cordl_internal_get__ctorCall() const;
 
-constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall*& __cordl_internal_get__ctorCall() ;
+  constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall*& __cordl_internal_get__ctorCall();
 
-constexpr bool const& __cordl_internal_get__hasEnvoySink() const;
+  constexpr bool const& __cordl_internal_get__hasEnvoySink() const;
 
-constexpr bool& __cordl_internal_get__hasEnvoySink() ;
+  constexpr bool& __cordl_internal_get__hasEnvoySink();
 
-constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get__sink() const;
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get__sink() const;
 
-constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__sink() ;
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__sink();
 
-constexpr void __cordl_internal_set__ctorCall(::System::Runtime::Remoting::Messaging::ConstructionCall*  value) ;
+  constexpr void __cordl_internal_set__ctorCall(::System::Runtime::Remoting::Messaging::ConstructionCall* value);
 
-constexpr void __cordl_internal_set__hasEnvoySink(bool  value) ;
+  constexpr void __cordl_internal_set__hasEnvoySink(bool value);
 
-constexpr void __cordl_internal_set__sink(::System::Runtime::Remoting::Messaging::IMessageSink*  value) ;
+  constexpr void __cordl_internal_set__sink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-/// @brief Method .ctor, addr 0x597c4fc, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor(::System::Type*  type, ::StringW  activationUrl, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  activationAttributes) ;
+  /// @brief Method .ctor, addr 0x59ee468, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Type* type, ::StringW activationUrl, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-/// @brief Method .ctor, addr 0x597cfb4, size 0x54, virtual false, abstract: false, final false
-inline void _ctor(::System::Type*  type, ::System::Runtime::Remoting::ClientIdentity*  identity) ;
+  /// @brief Method .ctor, addr 0x59eef20, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity);
 
-static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetHashCodeMethod() ;
+  static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetHashCodeMethod();
 
-static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetTypeMethod() ;
+  static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetTypeMethod();
 
-/// @brief Method get_TypeName, addr 0x5984f50, size 0x140, virtual true, abstract: false, final true
-inline ::StringW get_TypeName() ;
+  /// @brief Method get_TypeName, addr 0x59f6ebc, size 0x140, virtual true, abstract: false, final true
+  inline ::StringW get_TypeName();
 
-/// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
-constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept;
+  /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
+  constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept;
 
-static inline void setStaticF__cache_GetHashCodeMethod(::System::Reflection::MethodInfo*  value) ;
+  static inline void setStaticF__cache_GetHashCodeMethod(::System::Reflection::MethodInfo* value);
 
-static inline void setStaticF__cache_GetTypeMethod(::System::Reflection::MethodInfo*  value) ;
+  static inline void setStaticF__cache_GetTypeMethod(::System::Reflection::MethodInfo* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RemotingProxy() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RemotingProxy();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingProxy", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RemotingProxy(RemotingProxy&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RemotingProxy", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RemotingProxy(RemotingProxy && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingProxy", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RemotingProxy(RemotingProxy const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RemotingProxy", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RemotingProxy(RemotingProxy const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3105 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3105};
+  /// @brief Field _sink, offset: 0x50, size: 0x8, def value: None
+  ::System::Runtime::Remoting::Messaging::IMessageSink* ____sink;
 
-/// @brief Field _sink, offset: 0x50, size: 0x8, def value: None
- ::System::Runtime::Remoting::Messaging::IMessageSink*  ____sink;
+  /// @brief Field _hasEnvoySink, offset: 0x58, size: 0x1, def value: None
+  bool ____hasEnvoySink;
 
-/// @brief Field _hasEnvoySink, offset: 0x58, size: 0x1, def value: None
- bool  ____hasEnvoySink;
+  /// @brief Field _ctorCall, offset: 0x60, size: 0x8, def value: None
+  ::System::Runtime::Remoting::Messaging::ConstructionCall* ____ctorCall;
 
-/// @brief Field _ctorCall, offset: 0x60, size: 0x8, def value: None
- ::System::Runtime::Remoting::Messaging::ConstructionCall*  ____ctorCall;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Proxies::RemotingProxy, ____sink) == 0x50, "Offset mismatch!");
@@ -163,6 +164,6 @@ static_assert(offsetof(::System::Runtime::Remoting::Proxies::RemotingProxy, ____
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Proxies::RemotingProxy, 0x68>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Remoting::Proxies
+} // namespace System::Runtime::Remoting::Proxies
 NEED_NO_BOX(::System::Runtime::Remoting::Proxies::RemotingProxy);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Proxies::RemotingProxy*, "System.Runtime.Remoting.Proxies", "RemotingProxy");

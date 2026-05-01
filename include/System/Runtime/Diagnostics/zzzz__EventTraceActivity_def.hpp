@@ -18,43 +18,43 @@ namespace System::Runtime::Diagnostics {
 // CS Name: System.Runtime.Diagnostics.EventTraceActivity
 class CORDL_TYPE EventTraceActivity : public ::System::Object {
 public:
-// Declarations
-/// @brief Field ActivityId, offset 0x10, size 0x10 
- __declspec(property(get=__cordl_internal_get_ActivityId, put=__cordl_internal_set_ActivityId)) ::System::Guid  ActivityId;
+  // Declarations
+  /// @brief Field ActivityId, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_ActivityId, put = __cordl_internal_set_ActivityId)) ::System::Guid ActivityId;
 
-constexpr ::System::Guid const& __cordl_internal_get_ActivityId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_ActivityId() const;
 
-constexpr ::System::Guid& __cordl_internal_get_ActivityId() ;
+  constexpr ::System::Guid& __cordl_internal_get_ActivityId();
 
-constexpr void __cordl_internal_set_ActivityId(::System::Guid  value) ;
+  constexpr void __cordl_internal_set_ActivityId(::System::Guid value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EventTraceActivity() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventTraceActivity();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EventTraceActivity", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EventTraceActivity(EventTraceActivity&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EventTraceActivity", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EventTraceActivity(EventTraceActivity && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EventTraceActivity", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EventTraceActivity(EventTraceActivity const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EventTraceActivity", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EventTraceActivity(EventTraceActivity const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21150 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21139};
+  /// @brief Field ActivityId, offset: 0x10, size: 0x10, def value: None
+  ::System::Guid ___ActivityId;
 
-/// @brief Field ActivityId, offset: 0x10, size: 0x10, def value: None
- ::System::Guid  ___ActivityId;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Diagnostics::EventTraceActivity, ___ActivityId) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Diagnostics::EventTraceActivity, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Runtime::Diagnostics
+} // namespace System::Runtime::Diagnostics
 NEED_NO_BOX(::System::Runtime::Diagnostics::EventTraceActivity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Diagnostics::EventTraceActivity*, "System.Runtime.Diagnostics", "EventTraceActivity");

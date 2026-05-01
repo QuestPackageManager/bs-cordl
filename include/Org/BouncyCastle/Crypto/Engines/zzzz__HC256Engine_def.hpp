@@ -25,161 +25,161 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.HC256Engine
 class CORDL_TYPE HC256Engine : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
+  // Declarations
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-/// @brief Field buf, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get_buf, put=__cordl_internal_set_buf)) ::ArrayW<uint8_t,::Array<uint8_t>*>  buf;
+  /// @brief Field buf, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
 
-/// @brief Field cnt, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_cnt, put=__cordl_internal_set_cnt)) uint32_t  cnt;
+  /// @brief Field cnt, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_cnt, put = __cordl_internal_set_cnt)) uint32_t cnt;
 
-/// @brief Field idx, offset 0x48, size 0x4 
- __declspec(property(get=__cordl_internal_get_idx, put=__cordl_internal_set_idx)) int32_t  idx;
+  /// @brief Field idx, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_idx, put = __cordl_internal_set_idx)) int32_t idx;
 
-/// @brief Field initialised, offset 0x38, size 0x1 
- __declspec(property(get=__cordl_internal_get_initialised, put=__cordl_internal_set_initialised)) bool  initialised;
+  /// @brief Field initialised, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
 
-/// @brief Field iv, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_iv, put=__cordl_internal_set_iv)) ::ArrayW<uint8_t,::Array<uint8_t>*>  iv;
+  /// @brief Field iv, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv)) ::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
 
-/// @brief Field key, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_key, put=__cordl_internal_set_key)) ::ArrayW<uint8_t,::Array<uint8_t>*>  key;
+  /// @brief Field key, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::ArrayW<uint8_t, ::Array<uint8_t>*> key;
 
-/// @brief Field p, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_p, put=__cordl_internal_set_p)) ::ArrayW<uint32_t,::Array<uint32_t>*>  p;
+  /// @brief Field p, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::ArrayW<uint32_t, ::Array<uint32_t>*> p;
 
-/// @brief Field q, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_q, put=__cordl_internal_set_q)) ::ArrayW<uint32_t,::Array<uint32_t>*>  q;
+  /// @brief Field q, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::ArrayW<uint32_t, ::Array<uint32_t>*> q;
 
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
-constexpr operator  ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-/// @brief Method GetByte, addr 0x32b75cc, size 0x60, virtual false, abstract: false, final false
-inline uint8_t GetByte() ;
+  /// @brief Method GetByte, addr 0x32f3c10, size 0x60, virtual false, abstract: false, final false
+  inline uint8_t GetByte();
 
-/// @brief Method Init, addr 0x32b7020, size 0x380, virtual false, abstract: false, final false
-inline void Init() ;
+  /// @brief Method Init, addr 0x32f3664, size 0x380, virtual false, abstract: false, final false
+  inline void Init();
 
-/// @brief Method Init, addr 0x32b73e4, size 0x1e8, virtual true, abstract: false, final false
-inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
+  /// @brief Method Init, addr 0x32f3a28, size 0x1e8, virtual true, abstract: false, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-static inline ::Org::BouncyCastle::Crypto::Engines::HC256Engine* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Engines::HC256Engine* New_ctor();
 
-/// @brief Method ProcessBytes, addr 0x32b762c, size 0x1b0, virtual true, abstract: false, final false
-inline void ProcessBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  len, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
+  /// @brief Method ProcessBytes, addr 0x32f3c70, size 0x1b0, virtual true, abstract: false, final false
+  inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-/// @brief Method Reset, addr 0x32b77dc, size 0x4, virtual true, abstract: false, final false
-inline void Reset() ;
+  /// @brief Method Reset, addr 0x32f3e20, size 0x4, virtual true, abstract: false, final false
+  inline void Reset();
 
-/// @brief Method ReturnByte, addr 0x32b77e0, size 0x18, virtual true, abstract: false, final false
-inline uint8_t ReturnByte(uint8_t  input) ;
+  /// @brief Method ReturnByte, addr 0x32f3e24, size 0x18, virtual true, abstract: false, final false
+  inline uint8_t ReturnByte(uint8_t input);
 
-/// @brief Method RotateRight, addr 0x32b7018, size 0x8, virtual false, abstract: false, final false
-static inline uint32_t RotateRight(uint32_t  x, int32_t  bits) ;
+  /// @brief Method RotateRight, addr 0x32f365c, size 0x8, virtual false, abstract: false, final false
+  static inline uint32_t RotateRight(uint32_t x, int32_t bits);
 
-/// @brief Method Step, addr 0x32b6e00, size 0x218, virtual false, abstract: false, final false
-inline uint32_t Step() ;
+  /// @brief Method Step, addr 0x32f3444, size 0x218, virtual false, abstract: false, final false
+  inline uint32_t Step();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_buf() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf();
 
-constexpr uint32_t const& __cordl_internal_get_cnt() const;
+  constexpr uint32_t const& __cordl_internal_get_cnt() const;
 
-constexpr uint32_t& __cordl_internal_get_cnt() ;
+  constexpr uint32_t& __cordl_internal_get_cnt();
 
-constexpr int32_t const& __cordl_internal_get_idx() const;
+  constexpr int32_t const& __cordl_internal_get_idx() const;
 
-constexpr int32_t& __cordl_internal_get_idx() ;
+  constexpr int32_t& __cordl_internal_get_idx();
 
-constexpr bool const& __cordl_internal_get_initialised() const;
+  constexpr bool const& __cordl_internal_get_initialised() const;
 
-constexpr bool& __cordl_internal_get_initialised() ;
+  constexpr bool& __cordl_internal_get_initialised();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_iv() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_iv();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_key() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_key() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_key();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_p() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_p() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_p() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_p();
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_q() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_q() const;
 
-constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_q() ;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_q();
 
-constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_cnt(uint32_t  value) ;
+  constexpr void __cordl_internal_set_cnt(uint32_t value);
 
-constexpr void __cordl_internal_set_idx(int32_t  value) ;
+  constexpr void __cordl_internal_set_idx(int32_t value);
 
-constexpr void __cordl_internal_set_initialised(bool  value) ;
+  constexpr void __cordl_internal_set_initialised(bool value);
 
-constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_key(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_p(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set_p(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-constexpr void __cordl_internal_set_q(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
+  constexpr void __cordl_internal_set_q(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-/// @brief Method .ctor, addr 0x32b77f8, size 0x98, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x32f3e3c, size 0x98, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_AlgorithmName, addr 0x32b73a0, size 0x44, virtual true, abstract: false, final false
-inline ::StringW get_AlgorithmName() ;
+  /// @brief Method get_AlgorithmName, addr 0x32f39e4, size 0x44, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
-constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HC256Engine() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HC256Engine();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HC256Engine", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HC256Engine(HC256Engine&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HC256Engine", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HC256Engine(HC256Engine && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HC256Engine", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HC256Engine(HC256Engine const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HC256Engine", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HC256Engine(HC256Engine const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 847 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{847};
+  /// @brief Field p, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___p;
 
-/// @brief Field p, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ___p;
+  /// @brief Field q, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___q;
 
-/// @brief Field q, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint32_t,::Array<uint32_t>*>  ___q;
+  /// @brief Field cnt, offset: 0x20, size: 0x4, def value: None
+  uint32_t ___cnt;
 
-/// @brief Field cnt, offset: 0x20, size: 0x4, def value: None
- uint32_t  ___cnt;
+  /// @brief Field key, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___key;
 
-/// @brief Field key, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___key;
+  /// @brief Field iv, offset: 0x30, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___iv;
 
-/// @brief Field iv, offset: 0x30, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___iv;
+  /// @brief Field initialised, offset: 0x38, size: 0x1, def value: None
+  bool ___initialised;
 
-/// @brief Field initialised, offset: 0x38, size: 0x1, def value: None
- bool  ___initialised;
+  /// @brief Field buf, offset: 0x40, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buf;
 
-/// @brief Field buf, offset: 0x40, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___buf;
+  /// @brief Field idx, offset: 0x48, size: 0x4, def value: None
+  int32_t ___idx;
 
-/// @brief Field idx, offset: 0x48, size: 0x4, def value: None
- int32_t  ___idx;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC256Engine, ___p) == 0x10, "Offset mismatch!");
@@ -200,6 +200,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::HC256Engine, ___idx
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::HC256Engine, 0x50>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Engines
+} // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::HC256Engine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::HC256Engine*, "Org.BouncyCastle.Crypto.Engines", "HC256Engine");

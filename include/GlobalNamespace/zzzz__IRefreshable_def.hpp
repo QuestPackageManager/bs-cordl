@@ -10,26 +10,26 @@ class IRefreshable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IRefreshable);
-// Dependencies 
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IRefreshable
 class CORDL_TYPE IRefreshable {
 public:
-// Declarations
-/// @brief Method Refresh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline void Refresh() ;
+  // Declarations
+  /// @brief Method Refresh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Refresh();
 
-// Ctor Parameters [CppParam { name: "", ty: "IRefreshable", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IRefreshable(IRefreshable const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IRefreshable", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IRefreshable(IRefreshable const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20238};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20248 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IRefreshable);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IRefreshable*, "", "IRefreshable");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Unity/IO/LowLevel/Unsafe/AssetLoadingSubsystem.hpp"
 #include "Unity/IO/LowLevel/Unsafe/AsyncReadManager.hpp"
@@ -18,6 +18,5 @@
 #include "Unity/IO/LowLevel/Unsafe/ReadHandle.hpp"
 #include "Unity/IO/LowLevel/Unsafe/ReadStatus.hpp"
 #ifdef __cpp_modules
-                    export module Unsafe;
-                    #endif
-                
+export module Unsafe;
+#endif

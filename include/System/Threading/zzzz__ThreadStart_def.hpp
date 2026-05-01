@@ -23,37 +23,37 @@ namespace System::Threading {
 // CS Name: System.Threading.ThreadStart
 class CORDL_TYPE ThreadStart : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x5af9758, size 0x14, virtual true, abstract: false, final false
-inline void Invoke() ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x5b6b740, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke();
 
-static inline ::System::Threading::ThreadStart* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::System::Threading::ThreadStart* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x5af96f0, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x5b6b6d8, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ThreadStart() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadStart();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadStart", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ThreadStart(ThreadStart&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThreadStart", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ThreadStart(ThreadStart && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadStart", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ThreadStart(ThreadStart const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ThreadStart", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ThreadStart(ThreadStart const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2683 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2683};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::ThreadStart, 0x80>, "Size mismatch!");
 
-} // namespace end def System::Threading
+} // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ThreadStart);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadStart*, "System.Threading", "ThreadStart");

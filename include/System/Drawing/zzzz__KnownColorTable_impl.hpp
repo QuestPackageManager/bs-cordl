@@ -4,199 +4,151 @@
 #include "System/Drawing/zzzz__KnownColorTable_def.hpp"
 #include "System/Drawing/zzzz__KnownColor_def.hpp"
 //  Writing Method size for method: ::System::Drawing::KnownColorTable.EnsureColorTable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::EnsureColorTable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f1e240;
+  constexpr static std::size_t addrs = 0x5f9024c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "EnsureColorTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "EnsureColorTable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Drawing::KnownColorTable.InitColorTable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::InitColorTable)> {
   constexpr static std::size_t size = 0xab8;
-  constexpr static std::size_t addrs = 0x5f1e29c;
+  constexpr static std::size_t addrs = 0x5f902a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "InitColorTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "InitColorTable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Drawing::KnownColorTable.EnsureColorNameTable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::EnsureColorNameTable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f1ee88;
+  constexpr static std::size_t addrs = 0x5f90e94;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "EnsureColorNameTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
+                                                                               "EnsureColorNameTable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Drawing::KnownColorTable.InitColorNameTable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::InitColorNameTable)> {
   constexpr static std::size_t size = 0x18ec;
-  constexpr static std::size_t addrs = 0x5f1eee4;
+  constexpr static std::size_t addrs = 0x5f90ef0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "InitColorNameTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "InitColorNameTable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Drawing::KnownColorTable.KnownColorToArgb
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Drawing::KnownColor)>(&::System::Drawing::KnownColorTable::KnownColorToArgb)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f207d0;
+  constexpr static std::size_t addrs = 0x5f927dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "KnownColorToArgb",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "KnownColorToArgb", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Drawing::KnownColorTable.KnownColorToName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Drawing::KnownColor)>(&::System::Drawing::KnownColorTable::KnownColorToName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f20844;
+  constexpr static std::size_t addrs = 0x5f92850;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "KnownColorToName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "KnownColorToName", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Drawing::KnownColorTable.UpdateSystemColors
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<int32_t,::Array<int32_t>*>)>(&::System::Drawing::KnownColorTable::UpdateSystemColors)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::System::Drawing::KnownColorTable::UpdateSystemColors)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5f1ed54;
+  constexpr static std::size_t addrs = 0x5f90d60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "UpdateSystemColors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t,::Array<int32_t>*>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "UpdateSystemColors", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Drawing::KnownColorTable::setStaticF_s_colorTable(::ArrayW<int32_t,::Array<int32_t>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<int32_t,::Array<int32_t>*>, "s_colorTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>(std::forward<::ArrayW<int32_t,::Array<int32_t>*>>(value));
+inline void System::Drawing::KnownColorTable::setStaticF_s_colorTable(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int32_t, ::Array<int32_t>*>, "s_colorTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>(
+      std::forward<::ArrayW<int32_t, ::Array<int32_t>*>>(value));
 }
-inline ::ArrayW<int32_t,::Array<int32_t>*> System::Drawing::KnownColorTable::getStaticF_s_colorTable()  {
-return ::cordl_internals::getStaticField<::ArrayW<int32_t,::Array<int32_t>*>, "s_colorTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>();
+inline ::ArrayW<int32_t, ::Array<int32_t>*> System::Drawing::KnownColorTable::getStaticF_s_colorTable() {
+  return ::cordl_internals::getStaticField<::ArrayW<int32_t, ::Array<int32_t>*>, "s_colorTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>();
 }
-inline void System::Drawing::KnownColorTable::setStaticF_s_colorNameTable(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "s_colorNameTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>(std::forward<::ArrayW<::StringW,::Array<::StringW>*>>(value));
+inline void System::Drawing::KnownColorTable::setStaticF_s_colorNameTable(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "s_colorNameTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>(
+      std::forward<::ArrayW<::StringW, ::Array<::StringW>*>>(value));
 }
-inline ::ArrayW<::StringW,::Array<::StringW>*> System::Drawing::KnownColorTable::getStaticF_s_colorNameTable()  {
-return ::cordl_internals::getStaticField<::ArrayW<::StringW,::Array<::StringW>*>, "s_colorNameTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>();
+inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Drawing::KnownColorTable::getStaticF_s_colorNameTable() {
+  return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "s_colorNameTable",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get>();
 }
-inline void System::Drawing::KnownColorTable::EnsureColorTable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "EnsureColorTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::Drawing::KnownColorTable::EnsureColorTable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "EnsureColorTable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline void System::Drawing::KnownColorTable::InitColorTable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "InitColorTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::Drawing::KnownColorTable::InitColorTable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "InitColorTable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline void System::Drawing::KnownColorTable::EnsureColorNameTable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "EnsureColorNameTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::Drawing::KnownColorTable::EnsureColorNameTable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "EnsureColorNameTable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline void System::Drawing::KnownColorTable::InitColorNameTable()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "InitColorNameTable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::Drawing::KnownColorTable::InitColorNameTable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "InitColorNameTable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline int32_t System::Drawing::KnownColorTable::KnownColorToArgb(::System::Drawing::KnownColor  color)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "KnownColorToArgb",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, color);
+inline int32_t System::Drawing::KnownColorTable::KnownColorToArgb(::System::Drawing::KnownColor color) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "KnownColorToArgb", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, color);
 }
-inline ::StringW System::Drawing::KnownColorTable::KnownColorToName(::System::Drawing::KnownColor  color)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "KnownColorToName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, color);
+inline ::StringW System::Drawing::KnownColorTable::KnownColorToName(::System::Drawing::KnownColor color) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "KnownColorToName", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Drawing::KnownColor>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, color);
 }
-inline void System::Drawing::KnownColorTable::UpdateSystemColors(::ArrayW<int32_t,::Array<int32_t>*>  colorTable)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
-                        "UpdateSystemColors",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t,::Array<int32_t>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, colorTable);
+inline void System::Drawing::KnownColorTable::UpdateSystemColors(::ArrayW<int32_t, ::Array<int32_t>*> colorTable) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "UpdateSystemColors", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, colorTable);
 }
 // Ctor Parameters []
-constexpr ::System::Drawing::KnownColorTable::KnownColorTable()   {
-}
+constexpr ::System::Drawing::KnownColorTable::KnownColorTable() {}

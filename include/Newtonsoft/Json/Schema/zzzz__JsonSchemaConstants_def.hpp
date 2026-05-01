@@ -10,8 +10,7 @@ namespace Newtonsoft::Json::Schema {
 struct JsonSchemaType;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IDictionary_2;
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Schema {
@@ -25,132 +24,133 @@ namespace Newtonsoft::Json::Schema {
 // CS Name: Newtonsoft.Json.Schema.JsonSchemaConstants
 class CORDL_TYPE JsonSchemaConstants : public ::System::Object {
 public:
-// Declarations
-/// @brief Field JsonSchemaTypeMapping, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_JsonSchemaTypeMapping, put=setStaticF_JsonSchemaTypeMapping)) ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaType>*  JsonSchemaTypeMapping;
+  // Declarations
+  /// @brief Field JsonSchemaTypeMapping, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_JsonSchemaTypeMapping,
+                      put = setStaticF_JsonSchemaTypeMapping)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType>* JsonSchemaTypeMapping;
 
-static inline ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaType>* getStaticF_JsonSchemaTypeMapping() ;
+  static inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType>* getStaticF_JsonSchemaTypeMapping();
 
-static inline void setStaticF_JsonSchemaTypeMapping(::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaType>*  value) ;
+  static inline void setStaticF_JsonSchemaTypeMapping(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr JsonSchemaConstants() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonSchemaConstants();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  JsonSchemaConstants(JsonSchemaConstants&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-JsonSchemaConstants(JsonSchemaConstants && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  JsonSchemaConstants(JsonSchemaConstants const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-JsonSchemaConstants(JsonSchemaConstants const& ) = delete;
+  /// @brief Field AdditionalItemsPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString AdditionalItemsPropertyName{ u"additionalItems" };
 
-/// @brief Field AdditionalItemsPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  AdditionalItemsPropertyName{u"additionalItems"};
+  /// @brief Field AdditionalPropertiesPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString AdditionalPropertiesPropertyName{ u"additionalProperties" };
 
-/// @brief Field AdditionalPropertiesPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  AdditionalPropertiesPropertyName{u"additionalProperties"};
+  /// @brief Field DefaultPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString DefaultPropertyName{ u"default" };
 
-/// @brief Field DefaultPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  DefaultPropertyName{u"default"};
+  /// @brief Field DescriptionPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString DescriptionPropertyName{ u"description" };
 
-/// @brief Field DescriptionPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  DescriptionPropertyName{u"description"};
+  /// @brief Field DisallowPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString DisallowPropertyName{ u"disallow" };
 
-/// @brief Field DisallowPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  DisallowPropertyName{u"disallow"};
+  /// @brief Field DivisibleByPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString DivisibleByPropertyName{ u"divisibleBy" };
 
-/// @brief Field DivisibleByPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  DivisibleByPropertyName{u"divisibleBy"};
+  /// @brief Field EnumPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString EnumPropertyName{ u"enum" };
 
-/// @brief Field EnumPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  EnumPropertyName{u"enum"};
+  /// @brief Field ExclusiveMaximumPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ExclusiveMaximumPropertyName{ u"exclusiveMaximum" };
 
-/// @brief Field ExclusiveMaximumPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  ExclusiveMaximumPropertyName{u"exclusiveMaximum"};
+  /// @brief Field ExclusiveMinimumPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ExclusiveMinimumPropertyName{ u"exclusiveMinimum" };
 
-/// @brief Field ExclusiveMinimumPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  ExclusiveMinimumPropertyName{u"exclusiveMinimum"};
+  /// @brief Field ExtendsPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ExtendsPropertyName{ u"extends" };
 
-/// @brief Field ExtendsPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  ExtendsPropertyName{u"extends"};
+  /// @brief Field FormatPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString FormatPropertyName{ u"format" };
 
-/// @brief Field FormatPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  FormatPropertyName{u"format"};
+  /// @brief Field HiddenPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString HiddenPropertyName{ u"hidden" };
 
-/// @brief Field HiddenPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  HiddenPropertyName{u"hidden"};
+  /// @brief Field IdPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString IdPropertyName{ u"id" };
 
-/// @brief Field IdPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  IdPropertyName{u"id"};
+  /// @brief Field ItemsPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ItemsPropertyName{ u"items" };
 
-/// @brief Field ItemsPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  ItemsPropertyName{u"items"};
+  /// @brief Field MaximumItemsPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString MaximumItemsPropertyName{ u"maxItems" };
 
-/// @brief Field MaximumItemsPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  MaximumItemsPropertyName{u"maxItems"};
+  /// @brief Field MaximumLengthPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString MaximumLengthPropertyName{ u"maxLength" };
 
-/// @brief Field MaximumLengthPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  MaximumLengthPropertyName{u"maxLength"};
+  /// @brief Field MaximumPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString MaximumPropertyName{ u"maximum" };
 
-/// @brief Field MaximumPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  MaximumPropertyName{u"maximum"};
+  /// @brief Field MinimumItemsPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString MinimumItemsPropertyName{ u"minItems" };
 
-/// @brief Field MinimumItemsPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  MinimumItemsPropertyName{u"minItems"};
+  /// @brief Field MinimumLengthPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString MinimumLengthPropertyName{ u"minLength" };
 
-/// @brief Field MinimumLengthPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  MinimumLengthPropertyName{u"minLength"};
+  /// @brief Field MinimumPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString MinimumPropertyName{ u"minimum" };
 
-/// @brief Field MinimumPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  MinimumPropertyName{u"minimum"};
+  /// @brief Field OptionLabelPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString OptionLabelPropertyName{ u"label" };
 
-/// @brief Field OptionLabelPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  OptionLabelPropertyName{u"label"};
+  /// @brief Field OptionValuePropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString OptionValuePropertyName{ u"value" };
 
-/// @brief Field OptionValuePropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  OptionValuePropertyName{u"value"};
+  /// @brief Field PatternPropertiesPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString PatternPropertiesPropertyName{ u"patternProperties" };
 
-/// @brief Field PatternPropertiesPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  PatternPropertiesPropertyName{u"patternProperties"};
+  /// @brief Field PatternPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString PatternPropertyName{ u"pattern" };
 
-/// @brief Field PatternPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  PatternPropertyName{u"pattern"};
+  /// @brief Field PropertiesPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString PropertiesPropertyName{ u"properties" };
 
-/// @brief Field PropertiesPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  PropertiesPropertyName{u"properties"};
+  /// @brief Field ReadOnlyPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ReadOnlyPropertyName{ u"readonly" };
 
-/// @brief Field ReadOnlyPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  ReadOnlyPropertyName{u"readonly"};
+  /// @brief Field RequiredPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString RequiredPropertyName{ u"required" };
 
-/// @brief Field RequiredPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  RequiredPropertyName{u"required"};
+  /// @brief Field RequiresPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString RequiresPropertyName{ u"requires" };
 
-/// @brief Field RequiresPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  RequiresPropertyName{u"requires"};
+  /// @brief Field TitlePropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString TitlePropertyName{ u"title" };
 
-/// @brief Field TitlePropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  TitlePropertyName{u"title"};
+  /// @brief Field TransientPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString TransientPropertyName{ u"transient" };
 
-/// @brief Field TransientPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  TransientPropertyName{u"transient"};
+  /// @brief Field TypePropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString TypePropertyName{ u"type" };
 
-/// @brief Field TypePropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  TypePropertyName{u"type"};
+  /// @brief Field UniqueItemsPropertyName offset 0xffffffff size 0x8
+  static constexpr ::ConstString UniqueItemsPropertyName{ u"uniqueItems" };
 
-/// @brief Field UniqueItemsPropertyName offset 0xffffffff size 0x8
-static constexpr ::ConstString  UniqueItemsPropertyName{u"uniqueItems"};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13529 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13522};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::JsonSchemaConstants, 0x10>, "Size mismatch!");
 
-} // namespace end def Newtonsoft::Json::Schema
+} // namespace Newtonsoft::Json::Schema
 NEED_NO_BOX(::Newtonsoft::Json::Schema::JsonSchemaConstants);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Schema::JsonSchemaConstants*, "Newtonsoft.Json.Schema", "JsonSchemaConstants");

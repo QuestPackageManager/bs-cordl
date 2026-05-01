@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.MulInstruction/MulSingle
 class CORDL_TYPE MulInstruction_MulSingle : public ::System::Linq::Expressions::Interpreter::MulInstruction {
 public:
-// Declarations
-static inline ::GlobalNamespace::MulInstruction_MulSingle* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::MulInstruction_MulSingle* New_ctor();
 
-/// @brief Method Run, addr 0x5e0157c, size 0x10c, virtual true, abstract: false, final false
-inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+  /// @brief Method Run, addr 0x5e73588, size 0x10c, virtual true, abstract: false, final false
+  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-/// @brief Method .ctor, addr 0x5e00f38, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5e72f44, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MulInstruction_MulSingle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MulInstruction_MulSingle();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MulInstruction_MulSingle(MulInstruction_MulSingle&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MulInstruction_MulSingle(MulInstruction_MulSingle && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MulInstruction_MulSingle(MulInstruction_MulSingle const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MulInstruction_MulSingle(MulInstruction_MulSingle const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16475 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16467};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MulInstruction_MulSingle, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MulInstruction_MulSingle);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MulInstruction_MulSingle*, "System.Linq.Expressions.Interpreter", "MulInstruction/MulSingle");

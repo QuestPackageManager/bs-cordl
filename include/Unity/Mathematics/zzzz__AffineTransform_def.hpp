@@ -10,8 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AffineTransform)
 namespace System {
-template<typename T>
-class IEquatable_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
@@ -52,95 +51,96 @@ namespace Unity::Mathematics {
 // CS Name: Unity.Mathematics.AffineTransform
 struct CORDL_TYPE AffineTransform {
 public:
-// Declarations
-/// @brief Field identity, offset 0xffffffff, size 0x30 
- __declspec(property(get=getStaticF_identity, put=setStaticF_identity)) ::Unity::Mathematics::AffineTransform  identity;
+  // Declarations
+  /// @brief Field identity, offset 0xffffffff, size 0x30
+  __declspec(property(get = getStaticF_identity, put = setStaticF_identity)) ::Unity::Mathematics::AffineTransform identity;
 
-/// @brief Field zero, offset 0xffffffff, size 0x30 
- __declspec(property(get=getStaticF_zero, put=setStaticF_zero)) ::Unity::Mathematics::AffineTransform  zero;
+  /// @brief Field zero, offset 0xffffffff, size 0x30
+  __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::Unity::Mathematics::AffineTransform zero;
 
-/// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::AffineTransform>"
-constexpr operator  ::System::IEquatable_1<::Unity::Mathematics::AffineTransform>*() ;
+  /// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::AffineTransform>"
+  constexpr operator ::System::IEquatable_1<::Unity::Mathematics::AffineTransform>*();
 
-/// @brief Convert operator to "::System::IFormattable"
-constexpr operator  ::System::IFormattable*() ;
+  /// @brief Convert operator to "::System::IFormattable"
+  constexpr operator ::System::IFormattable*();
 
-/// @brief Method Equals, addr 0x64496e0, size 0x12c, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  o) ;
+  /// @brief Method Equals, addr 0x64bb6ec, size 0x12c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* o);
 
-/// @brief Method Equals, addr 0x6449614, size 0xcc, virtual true, abstract: false, final true
-inline bool Equals(::Unity::Mathematics::AffineTransform  rhs) ;
+  /// @brief Method Equals, addr 0x64bb620, size 0xcc, virtual true, abstract: false, final true
+  inline bool Equals(::Unity::Mathematics::AffineTransform rhs);
 
-/// @brief Method GetHashCode, addr 0x644980c, size 0xc8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x64bb818, size 0xc8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method ToString, addr 0x64498d4, size 0x3a0, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x64bb8e0, size 0x3a0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method ToString, addr 0x6449c74, size 0x39c, virtual true, abstract: false, final true
-inline ::StringW ToString(::StringW  format, ::System::IFormatProvider*  formatProvider) ;
+  /// @brief Method ToString, addr 0x64bbc80, size 0x39c, virtual true, abstract: false, final true
+  inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-/// @brief Method .ctor, addr 0x6449534, size 0x34, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Mathematics::float3x4  m) ;
+  /// @brief Method .ctor, addr 0x64bb540, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Mathematics::float3x4 m);
 
-/// @brief Method .ctor, addr 0x6449568, size 0x40, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Mathematics::float4x4  m) ;
+  /// @brief Method .ctor, addr 0x64bb574, size 0x40, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Mathematics::float4x4 m);
 
-/// @brief Method .ctor, addr 0x64494c8, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Mathematics::RigidTransform  rigid) ;
+  /// @brief Method .ctor, addr 0x64bb4d4, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Mathematics::RigidTransform rigid);
 
-/// @brief Method .ctor, addr 0x6449450, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Mathematics::float3x3  rotationScale) ;
+  /// @brief Method .ctor, addr 0x64bb45c, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Mathematics::float3x3 rotationScale);
 
-/// @brief Method .ctor, addr 0x6449308, size 0x74, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Mathematics::float3  translation, ::Unity::Mathematics::quaternion  rotation) ;
+  /// @brief Method .ctor, addr 0x64bb314, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Mathematics::float3 translation, ::Unity::Mathematics::quaternion rotation);
 
-/// @brief Method .ctor, addr 0x644937c, size 0xb8, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Mathematics::float3  translation, ::Unity::Mathematics::quaternion  rotation, ::Unity::Mathematics::float3  scale) ;
+  /// @brief Method .ctor, addr 0x64bb388, size 0xb8, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Mathematics::float3 translation, ::Unity::Mathematics::quaternion rotation, ::Unity::Mathematics::float3 scale);
 
-/// @brief Method .ctor, addr 0x6449434, size 0x1c, virtual false, abstract: false, final false
-inline void _ctor(::Unity::Mathematics::float3  translation, ::Unity::Mathematics::float3x3  rotationScale) ;
+  /// @brief Method .ctor, addr 0x64bb440, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Mathematics::float3 translation, ::Unity::Mathematics::float3x3 rotationScale);
 
-static inline ::Unity::Mathematics::AffineTransform getStaticF_identity() ;
+  static inline ::Unity::Mathematics::AffineTransform getStaticF_identity();
 
-static inline ::Unity::Mathematics::AffineTransform getStaticF_zero() ;
+  static inline ::Unity::Mathematics::AffineTransform getStaticF_zero();
 
-/// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::AffineTransform>"
-constexpr ::System::IEquatable_1<::Unity::Mathematics::AffineTransform>* i___System__IEquatable_1___Unity__Mathematics__AffineTransform_() ;
+  /// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::AffineTransform>"
+  constexpr ::System::IEquatable_1<::Unity::Mathematics::AffineTransform>* i___System__IEquatable_1___Unity__Mathematics__AffineTransform_();
 
-/// @brief Convert to "::System::IFormattable"
-constexpr ::System::IFormattable* i___System__IFormattable() ;
+  /// @brief Convert to "::System::IFormattable"
+  constexpr ::System::IFormattable* i___System__IFormattable();
 
-/// @brief Method op_Implicit, addr 0x64495a8, size 0x14, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float3x4 op_Implicit___Unity__Mathematics__float3x4(::Unity::Mathematics::AffineTransform  m) ;
+  /// @brief Method op_Implicit, addr 0x64bb5b4, size 0x14, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float3x4 op_Implicit___Unity__Mathematics__float3x4(::Unity::Mathematics::AffineTransform m);
 
-/// @brief Method op_Implicit, addr 0x64495bc, size 0x58, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::float4x4 op_Implicit___Unity__Mathematics__float4x4(::Unity::Mathematics::AffineTransform  m) ;
+  /// @brief Method op_Implicit, addr 0x64bb5c8, size 0x58, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::float4x4 op_Implicit___Unity__Mathematics__float4x4(::Unity::Mathematics::AffineTransform m);
 
-static inline void setStaticF_identity(::Unity::Mathematics::AffineTransform  value) ;
+  static inline void setStaticF_identity(::Unity::Mathematics::AffineTransform value);
 
-static inline void setStaticF_zero(::Unity::Mathematics::AffineTransform  value) ;
+  static inline void setStaticF_zero(::Unity::Mathematics::AffineTransform value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AffineTransform() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AffineTransform();
 
-// Ctor Parameters [CppParam { name: "rs", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }]
-constexpr AffineTransform(::Unity::Mathematics::float3x3  rs, ::Unity::Mathematics::float3  t) noexcept;
+  // Ctor Parameters [CppParam { name: "rs", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::Unity::Mathematics::float3", modifiers: "", def_value:
+  // None }]
+  constexpr AffineTransform(::Unity::Mathematics::float3x3 rs, ::Unity::Mathematics::float3 t) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13100};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13107 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
-/// @brief Field rs, offset: 0x0, size: 0x24, def value: None
- ::Unity::Mathematics::float3x3  rs;
+  /// @brief Field rs, offset: 0x0, size: 0x24, def value: None
+  ::Unity::Mathematics::float3x3 rs;
 
-/// @brief Field t, offset: 0x24, size: 0xc, def value: None
- ::Unity::Mathematics::float3  t;
+  /// @brief Field t, offset: 0x24, size: 0xc, def value: None
+  ::Unity::Mathematics::float3 t;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Mathematics::AffineTransform, rs) == 0x0, "Offset mismatch!");
@@ -149,5 +149,5 @@ static_assert(offsetof(::Unity::Mathematics::AffineTransform, t) == 0x24, "Offse
 
 static_assert(::cordl_internals::size_check_v<::Unity::Mathematics::AffineTransform, 0x30>, "Size mismatch!");
 
-} // namespace end def Unity::Mathematics
+} // namespace Unity::Mathematics
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Mathematics::AffineTransform, "Unity.Mathematics", "AffineTransform");

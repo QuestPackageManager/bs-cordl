@@ -27,43 +27,43 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsCipherFactory
 class CORDL_TYPE AbstractTlsCipherFactory : public ::System::Object {
 public:
-// Declarations
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*() noexcept;
+  // Declarations
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
+  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*() noexcept;
 
-/// @brief Method CreateCipher, addr 0x33395e4, size 0x3c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  encryptionAlgorithm, int32_t  macAlgorithm) ;
+  /// @brief Method CreateCipher, addr 0x3375c28, size 0x3c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t encryptionAlgorithm, int32_t macAlgorithm);
 
-static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory* New_ctor();
 
-/// @brief Method .ctor, addr 0x3339620, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3375c64, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* i___Org__BouncyCastle__Crypto__Tls__TlsCipherFactory() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* i___Org__BouncyCastle__Crypto__Tls__TlsCipherFactory() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AbstractTlsCipherFactory() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AbstractTlsCipherFactory();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsCipherFactory", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AbstractTlsCipherFactory(AbstractTlsCipherFactory&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AbstractTlsCipherFactory", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AbstractTlsCipherFactory(AbstractTlsCipherFactory && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsCipherFactory", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AbstractTlsCipherFactory(AbstractTlsCipherFactory const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AbstractTlsCipherFactory", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AbstractTlsCipherFactory(AbstractTlsCipherFactory const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1161 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1161};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory*, "Org.BouncyCastle.Crypto.Tls", "AbstractTlsCipherFactory");

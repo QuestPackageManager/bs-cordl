@@ -21,35 +21,35 @@ namespace System::Xml {
 // CS Name: System.Xml.Res
 class CORDL_TYPE Res : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetString, addr 0x61276bc, size 0x4, virtual false, abstract: false, final false
-static inline ::StringW GetString(::StringW  name) ;
+  // Declarations
+  /// @brief Method GetString, addr 0x61996c8, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name);
 
-/// @brief Method GetString, addr 0x6128d64, size 0x10, virtual false, abstract: false, final false
-static inline ::StringW GetString(::StringW  name, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
+  /// @brief Method GetString, addr 0x619ad70, size 0x10, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Res() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Res();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Res", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Res(Res&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Res", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Res(Res && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Res", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Res(Res const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Res", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Res(Res const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9454 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9448};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Res, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::Res);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Res*, "System.Xml", "Res");

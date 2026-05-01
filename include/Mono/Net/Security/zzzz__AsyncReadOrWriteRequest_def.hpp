@@ -25,70 +25,72 @@ namespace Mono::Net::Security {
 // CS Name: Mono.Net.Security.AsyncReadOrWriteRequest
 class CORDL_TYPE AsyncReadOrWriteRequest : public ::Mono::Net::Security::AsyncProtocolRequest {
 public:
-// Declarations
- __declspec(property(get=get_CurrentSize, put=set_CurrentSize)) int32_t  CurrentSize;
+  // Declarations
+  __declspec(property(get = get_CurrentSize, put = set_CurrentSize)) int32_t CurrentSize;
 
- __declspec(property(get=get_UserBuffer)) ::Mono::Net::Security::BufferOffsetSize*  UserBuffer;
+  __declspec(property(get = get_UserBuffer)) ::Mono::Net::Security::BufferOffsetSize* UserBuffer;
 
-/// @brief Field <CurrentSize>k__BackingField, offset 0x40, size 0x4 
- __declspec(property(get=__cordl_internal_get__CurrentSize_k__BackingField, put=__cordl_internal_set__CurrentSize_k__BackingField)) int32_t  _CurrentSize_k__BackingField;
+  /// @brief Field <CurrentSize>k__BackingField, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__CurrentSize_k__BackingField, put = __cordl_internal_set__CurrentSize_k__BackingField)) int32_t _CurrentSize_k__BackingField;
 
-/// @brief Field <UserBuffer>k__BackingField, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__UserBuffer_k__BackingField, put=__cordl_internal_set__UserBuffer_k__BackingField)) ::Mono::Net::Security::BufferOffsetSize*  _UserBuffer_k__BackingField;
+  /// @brief Field <UserBuffer>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__UserBuffer_k__BackingField,
+                      put = __cordl_internal_set__UserBuffer_k__BackingField)) ::Mono::Net::Security::BufferOffsetSize* _UserBuffer_k__BackingField;
 
-static inline ::Mono::Net::Security::AsyncReadOrWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, bool  sync, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
+  static inline ::Mono::Net::Security::AsyncReadOrWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
+                                                                         int32_t offset, int32_t size);
 
-/// @brief Method ToString, addr 0x5e240c0, size 0x8c, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x5e960cc, size 0x8c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr int32_t const& __cordl_internal_get__CurrentSize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__CurrentSize_k__BackingField() const;
 
-constexpr int32_t& __cordl_internal_get__CurrentSize_k__BackingField() ;
+  constexpr int32_t& __cordl_internal_get__CurrentSize_k__BackingField();
 
-constexpr ::Mono::Net::Security::BufferOffsetSize* const& __cordl_internal_get__UserBuffer_k__BackingField() const;
+  constexpr ::Mono::Net::Security::BufferOffsetSize* const& __cordl_internal_get__UserBuffer_k__BackingField() const;
 
-constexpr ::Mono::Net::Security::BufferOffsetSize*& __cordl_internal_get__UserBuffer_k__BackingField() ;
+  constexpr ::Mono::Net::Security::BufferOffsetSize*& __cordl_internal_get__UserBuffer_k__BackingField();
 
-constexpr void __cordl_internal_set__CurrentSize_k__BackingField(int32_t  value) ;
+  constexpr void __cordl_internal_set__CurrentSize_k__BackingField(int32_t value);
 
-constexpr void __cordl_internal_set__UserBuffer_k__BackingField(::Mono::Net::Security::BufferOffsetSize*  value) ;
+  constexpr void __cordl_internal_set__UserBuffer_k__BackingField(::Mono::Net::Security::BufferOffsetSize* value);
 
-/// @brief Method .ctor, addr 0x5e24020, size 0xa0, virtual false, abstract: false, final false
-inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, bool  sync, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
+  /// @brief Method .ctor, addr 0x5e9602c, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-/// @brief Method get_CurrentSize, addr 0x5e24010, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_CurrentSize() ;
+  /// @brief Method get_CurrentSize, addr 0x5e9601c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_CurrentSize();
 
-/// @brief Method get_UserBuffer, addr 0x5e24008, size 0x8, virtual false, abstract: false, final false
-inline ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer() ;
+  /// @brief Method get_UserBuffer, addr 0x5e96014, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer();
 
-/// @brief Method set_CurrentSize, addr 0x5e24018, size 0x8, virtual false, abstract: false, final false
-inline void set_CurrentSize(int32_t  value) ;
+  /// @brief Method set_CurrentSize, addr 0x5e96024, size 0x8, virtual false, abstract: false, final false
+  inline void set_CurrentSize(int32_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AsyncReadOrWriteRequest() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncReadOrWriteRequest();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadOrWriteRequest", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AsyncReadOrWriteRequest(AsyncReadOrWriteRequest&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncReadOrWriteRequest", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AsyncReadOrWriteRequest(AsyncReadOrWriteRequest && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncReadOrWriteRequest", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AsyncReadOrWriteRequest(AsyncReadOrWriteRequest const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AsyncReadOrWriteRequest", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AsyncReadOrWriteRequest(AsyncReadOrWriteRequest const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11003 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10996};
+  /// @brief Field <UserBuffer>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  ::Mono::Net::Security::BufferOffsetSize* ____UserBuffer_k__BackingField;
 
-/// @brief Field <UserBuffer>k__BackingField, offset: 0x38, size: 0x8, def value: None
- ::Mono::Net::Security::BufferOffsetSize*  ____UserBuffer_k__BackingField;
+  /// @brief Field <CurrentSize>k__BackingField, offset: 0x40, size: 0x4, def value: None
+  int32_t ____CurrentSize_k__BackingField;
 
-/// @brief Field <CurrentSize>k__BackingField, offset: 0x40, size: 0x4, def value: None
- int32_t  ____CurrentSize_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Net::Security::AsyncReadOrWriteRequest, ____UserBuffer_k__BackingField) == 0x38, "Offset mismatch!");
@@ -97,6 +99,6 @@ static_assert(offsetof(::Mono::Net::Security::AsyncReadOrWriteRequest, ____Curre
 
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::AsyncReadOrWriteRequest, 0x48>, "Size mismatch!");
 
-} // namespace end def Mono::Net::Security
+} // namespace Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::AsyncReadOrWriteRequest);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::AsyncReadOrWriteRequest*, "Mono.Net.Security", "AsyncReadOrWriteRequest");

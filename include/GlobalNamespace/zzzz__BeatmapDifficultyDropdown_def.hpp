@@ -21,20 +21,16 @@ namespace HMUI {
 class SimpleTextDropdown;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+template <typename T> class IReadOnlyList_1;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
+template <typename T1, typename T2> class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,169 +48,172 @@ namespace GlobalNamespace {
 // CS Name: BeatmapDifficultyDropdown/<>c
 class CORDL_TYPE BeatmapDifficultyDropdown___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::GlobalNamespace::BeatmapDifficultyDropdown___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::BeatmapDifficultyDropdown___c* __9;
 
-/// @brief Field <>9__11_0, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9__11_0, put=setStaticF___9__11_0)) ::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*,::StringW>*  __9__11_0;
+  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* __9__11_0;
 
-static inline ::GlobalNamespace::BeatmapDifficultyDropdown___c* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapDifficultyDropdown___c* New_ctor();
 
-/// @brief Method <Start>b__11_0, addr 0x57a4f8c, size 0x4c, virtual false, abstract: false, final false
-inline ::StringW _Start_b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*  x) ;
+  /// @brief Method <Start>b__11_0, addr 0x5815464, size 0x4c, virtual false, abstract: false, final false
+  inline ::StringW _Start_b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x);
 
-/// @brief Method .ctor, addr 0x57a4f88, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5815460, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::GlobalNamespace::BeatmapDifficultyDropdown___c* getStaticF___9() ;
+  static inline ::GlobalNamespace::BeatmapDifficultyDropdown___c* getStaticF___9();
 
-static inline ::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*,::StringW>* getStaticF___9__11_0() ;
+  static inline ::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* getStaticF___9__11_0();
 
-static inline void setStaticF___9(::GlobalNamespace::BeatmapDifficultyDropdown___c*  value) ;
+  static inline void setStaticF___9(::GlobalNamespace::BeatmapDifficultyDropdown___c* value);
 
-static inline void setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*,::StringW>*  value) ;
+  static inline void setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapDifficultyDropdown___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDifficultyDropdown___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapDifficultyDropdown___c(BeatmapDifficultyDropdown___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapDifficultyDropdown___c(BeatmapDifficultyDropdown___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapDifficultyDropdown___c(BeatmapDifficultyDropdown___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapDifficultyDropdown___c(BeatmapDifficultyDropdown___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6927 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6918};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultyDropdown___c, 0x10>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapDifficultyDropdown
 class CORDL_TYPE BeatmapDifficultyDropdown : public ::UnityEngine::MonoBehaviour {
 public:
-// Declarations
-using __c = ::GlobalNamespace::BeatmapDifficultyDropdown___c;
+  // Declarations
+  using __c = ::GlobalNamespace::BeatmapDifficultyDropdown___c;
 
-/// @brief Field _beatmapDifficultyData, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__beatmapDifficultyData, put=__cordl_internal_set__beatmapDifficultyData)) ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*>*  _beatmapDifficultyData;
+  /// @brief Field _beatmapDifficultyData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapDifficultyData,
+                      put = __cordl_internal_set__beatmapDifficultyData)) ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>*
+      _beatmapDifficultyData;
 
-/// @brief Field <includeAllDifficulties>k__BackingField, offset 0x38, size 0x1 
- __declspec(property(get=__cordl_internal_get__includeAllDifficulties_k__BackingField, put=__cordl_internal_set__includeAllDifficulties_k__BackingField)) bool  _includeAllDifficulties_k__BackingField;
+  /// @brief Field <includeAllDifficulties>k__BackingField, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__includeAllDifficulties_k__BackingField,
+                      put = __cordl_internal_set__includeAllDifficulties_k__BackingField)) bool _includeAllDifficulties_k__BackingField;
 
-/// @brief Field _simpleTextDropdown, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get__simpleTextDropdown, put=__cordl_internal_set__simpleTextDropdown)) ::UnityW<::HMUI::SimpleTextDropdown>  _simpleTextDropdown;
+  /// @brief Field _simpleTextDropdown, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
 
- __declspec(property(get=get_beatmapDifficultyData)) ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*>*  beatmapDifficultyData;
+  __declspec(property(get = get_beatmapDifficultyData)) ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* beatmapDifficultyData;
 
-/// @brief Field didSelectCellWithIdxEvent, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_didSelectCellWithIdxEvent, put=__cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<int32_t>*  didSelectCellWithIdxEvent;
+  /// @brief Field didSelectCellWithIdxEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
 
- __declspec(property(get=get_includeAllDifficulties, put=set_includeAllDifficulties)) bool  includeAllDifficulties;
+  __declspec(property(get = get_includeAllDifficulties, put = set_includeAllDifficulties)) bool includeAllDifficulties;
 
-/// @brief Method GetIdxForBeatmapDifficultyMask, addr 0x57a4ecc, size 0x40, virtual false, abstract: false, final false
-inline int32_t GetIdxForBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask  beatmapDifficultyMask) ;
+  /// @brief Method GetIdxForBeatmapDifficultyMask, addr 0x58153a4, size 0x40, virtual false, abstract: false, final false
+  inline int32_t GetIdxForBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
 
-/// @brief Method GetSelectedBeatmapDifficultyMask, addr 0x57a4dc4, size 0xdc, virtual false, abstract: false, final false
-inline ::GlobalNamespace::BeatmapDifficultyMask GetSelectedBeatmapDifficultyMask() ;
+  /// @brief Method GetSelectedBeatmapDifficultyMask, addr 0x581529c, size 0xdc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDifficultyMask GetSelectedBeatmapDifficultyMask();
 
-/// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x57a4f0c, size 0x24, virtual false, abstract: false, final false
-inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView*  dropdownWithTableView, int32_t  idx) ;
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x58153e4, size 0x24, virtual false, abstract: false, final false
+  inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-static inline ::GlobalNamespace::BeatmapDifficultyDropdown* New_ctor() ;
+  static inline ::GlobalNamespace::BeatmapDifficultyDropdown* New_ctor();
 
-/// @brief Method OnDestroy, addr 0x57a4ce8, size 0xdc, virtual false, abstract: false, final false
-inline void OnDestroy() ;
+  /// @brief Method OnDestroy, addr 0x58151c0, size 0xdc, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-/// @brief Method SelectCellWithBeatmapDifficultyMask, addr 0x57a4ea0, size 0x2c, virtual false, abstract: false, final false
-inline void SelectCellWithBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask  beatmapDifficultyMask) ;
+  /// @brief Method SelectCellWithBeatmapDifficultyMask, addr 0x5815378, size 0x2c, virtual false, abstract: false, final false
+  inline void SelectCellWithBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
 
-/// @brief Method Start, addr 0x57a4b34, size 0x1b4, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x581500c, size 0x1b4, virtual false, abstract: false, final false
+  inline void Start();
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*>* const& __cordl_internal_get__beatmapDifficultyData() const;
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* const& __cordl_internal_get__beatmapDifficultyData() const;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*>*& __cordl_internal_get__beatmapDifficultyData() ;
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>*& __cordl_internal_get__beatmapDifficultyData();
 
-constexpr bool const& __cordl_internal_get__includeAllDifficulties_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__includeAllDifficulties_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__includeAllDifficulties_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__includeAllDifficulties_k__BackingField();
 
-constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
 
-constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown() ;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown();
 
-constexpr ::System::Action_1<int32_t>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
+  constexpr ::System::Action_1<int32_t>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent() ;
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
-constexpr void __cordl_internal_set__beatmapDifficultyData(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*>*  value) ;
+  constexpr void __cordl_internal_set__beatmapDifficultyData(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* value);
 
-constexpr void __cordl_internal_set__includeAllDifficulties_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__includeAllDifficulties_k__BackingField(bool value);
 
-constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown>  value) ;
+  constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>*  value) ;
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-/// @brief Method .ctor, addr 0x57a4f30, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5815408, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method add_didSelectCellWithIdxEvent, addr 0x57a47c4, size 0xc0, virtual false, abstract: false, final false
-inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>*  value) ;
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x5814c9c, size 0xc0, virtual false, abstract: false, final false
+  inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-/// @brief Method get_beatmapDifficultyData, addr 0x57a4944, size 0x1e0, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*>* get_beatmapDifficultyData() ;
+  /// @brief Method get_beatmapDifficultyData, addr 0x5814e1c, size 0x1e0, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* get_beatmapDifficultyData();
 
-/// @brief Method get_includeAllDifficulties, addr 0x57a4b24, size 0x8, virtual false, abstract: false, final false
-inline bool get_includeAllDifficulties() ;
+  /// @brief Method get_includeAllDifficulties, addr 0x5814ffc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_includeAllDifficulties();
 
-/// @brief Method remove_didSelectCellWithIdxEvent, addr 0x57a4884, size 0xc0, virtual false, abstract: false, final false
-inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>*  value) ;
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x5814d5c, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-/// @brief Method set_includeAllDifficulties, addr 0x57a4b2c, size 0x8, virtual false, abstract: false, final false
-inline void set_includeAllDifficulties(bool  value) ;
+  /// @brief Method set_includeAllDifficulties, addr 0x5815004, size 0x8, virtual false, abstract: false, final false
+  inline void set_includeAllDifficulties(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapDifficultyDropdown() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDifficultyDropdown();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapDifficultyDropdown(BeatmapDifficultyDropdown&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapDifficultyDropdown(BeatmapDifficultyDropdown && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapDifficultyDropdown(BeatmapDifficultyDropdown const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapDifficultyDropdown(BeatmapDifficultyDropdown const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6928 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6919};
+  /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
-/// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
- ::UnityW<::HMUI::SimpleTextDropdown>  ____simpleTextDropdown;
+  /// @brief Field didSelectCellWithIdxEvent, offset: 0x28, size: 0x8, def value: None
+  ::System::Action_1<int32_t>* ___didSelectCellWithIdxEvent;
 
-/// @brief Field didSelectCellWithIdxEvent, offset: 0x28, size: 0x8, def value: None
- ::System::Action_1<int32_t>*  ___didSelectCellWithIdxEvent;
+  /// @brief Field _beatmapDifficultyData, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* ____beatmapDifficultyData;
 
-/// @brief Field _beatmapDifficultyData, offset: 0x30, size: 0x8, def value: None
- ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask,::StringW>*>*  ____beatmapDifficultyData;
+  /// @brief Field <includeAllDifficulties>k__BackingField, offset: 0x38, size: 0x1, def value: None
+  bool ____includeAllDifficulties_k__BackingField;
 
-/// @brief Field <includeAllDifficulties>k__BackingField, offset: 0x38, size: 0x1, def value: None
- bool  ____includeAllDifficulties_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapDifficultyDropdown, ____simpleTextDropdown) == 0x20, "Offset mismatch!");
@@ -227,7 +226,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDifficultyDropdown, ____include
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultyDropdown, 0x40>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultyDropdown);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultyDropdown*, "", "BeatmapDifficultyDropdown");
 NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultyDropdown___c);

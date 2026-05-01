@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Analytics/Model/TelemetryModel.hpp"
 #ifdef __cpp_modules
-                    export module Model;
-                    #endif
-                
+export module Model;
+#endif

@@ -25,8 +25,7 @@ namespace UnityEngine::InputForUI {
 struct EventSource;
 }
 namespace UnityEngine::InputForUI {
-template<typename TOutputType>
-class Event_IMapFn_1;
+template <typename TOutputType> class Event_IMapFn_1;
 }
 namespace UnityEngine::InputForUI {
 struct Event_MapAsEventModifiers;
@@ -63,8 +62,7 @@ namespace UnityEngine::InputForUI {
 struct Event_Type;
 }
 namespace UnityEngine::InputForUI {
-template<typename TOutputType>
-class Event_IMapFn_1;
+template <typename TOutputType> class Event_IMapFn_1;
 }
 namespace UnityEngine::InputForUI {
 struct Event;
@@ -85,521 +83,522 @@ MARK_VAL_T(::UnityEngine::InputForUI::Event);
 MARK_VAL_T(::UnityEngine::InputForUI::Event_MapAsEventModifiers);
 MARK_VAL_T(::UnityEngine::InputForUI::Event_MapAsEventSource);
 MARK_VAL_T(::UnityEngine::InputForUI::Event_MapAsObject);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event/Type
 struct CORDL_TYPE Event_Type {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __Event_Type_Unwrapped
-enum struct __Event_Type_Unwrapped : int32_t {
-__E_Invalid = static_cast<int32_t>(0x0),
-__E_KeyEvent = static_cast<int32_t>(0x1),
-__E_PointerEvent = static_cast<int32_t>(0x2),
-__E_TextInputEvent = static_cast<int32_t>(0x3),
-__E_IMECompositionEvent = static_cast<int32_t>(0x4),
-__E_CommandEvent = static_cast<int32_t>(0x5),
-__E_NavigationEvent = static_cast<int32_t>(0x6),
-};
+  /// @brief Nested struct __Event_Type_Unwrapped
+  enum struct __Event_Type_Unwrapped : int32_t {
+    __E_Invalid = static_cast<int32_t>(0x0),
+    __E_KeyEvent = static_cast<int32_t>(0x1),
+    __E_PointerEvent = static_cast<int32_t>(0x2),
+    __E_TextInputEvent = static_cast<int32_t>(0x3),
+    __E_IMECompositionEvent = static_cast<int32_t>(0x4),
+    __E_CommandEvent = static_cast<int32_t>(0x5),
+    __E_NavigationEvent = static_cast<int32_t>(0x6),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __Event_Type_Unwrapped () const noexcept {
-return static_cast<__Event_Type_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __Event_Type_Unwrapped() const noexcept {
+    return static_cast<__Event_Type_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Event_Type() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Event_Type();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr Event_Type(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr Event_Type(int32_t value__) noexcept;
 
-/// @brief Field CommandEvent value: I32(5)
-static ::UnityEngine::InputForUI::Event_Type const CommandEvent;
+  /// @brief Field CommandEvent value: I32(5)
+  static ::UnityEngine::InputForUI::Event_Type const CommandEvent;
 
-/// @brief Field IMECompositionEvent value: I32(4)
-static ::UnityEngine::InputForUI::Event_Type const IMECompositionEvent;
+  /// @brief Field IMECompositionEvent value: I32(4)
+  static ::UnityEngine::InputForUI::Event_Type const IMECompositionEvent;
 
-/// @brief Field Invalid value: I32(0)
-static ::UnityEngine::InputForUI::Event_Type const Invalid;
+  /// @brief Field Invalid value: I32(0)
+  static ::UnityEngine::InputForUI::Event_Type const Invalid;
 
-/// @brief Field KeyEvent value: I32(1)
-static ::UnityEngine::InputForUI::Event_Type const KeyEvent;
+  /// @brief Field KeyEvent value: I32(1)
+  static ::UnityEngine::InputForUI::Event_Type const KeyEvent;
 
-/// @brief Field NavigationEvent value: I32(6)
-static ::UnityEngine::InputForUI::Event_Type const NavigationEvent;
+  /// @brief Field NavigationEvent value: I32(6)
+  static ::UnityEngine::InputForUI::Event_Type const NavigationEvent;
 
-/// @brief Field PointerEvent value: I32(2)
-static ::UnityEngine::InputForUI::Event_Type const PointerEvent;
+  /// @brief Field PointerEvent value: I32(2)
+  static ::UnityEngine::InputForUI::Event_Type const PointerEvent;
 
-/// @brief Field TextInputEvent value: I32(3)
-static ::UnityEngine::InputForUI::Event_Type const TextInputEvent;
+  /// @brief Field TextInputEvent value: I32(3)
+  static ::UnityEngine::InputForUI::Event_Type const TextInputEvent;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21610};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21621 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputForUI::Event_Type, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputForUI::Event_Type, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputForUI
-// Dependencies 
+} // namespace UnityEngine::InputForUI
+// Dependencies
 namespace UnityEngine::InputForUI {
 // cpp template
-template<typename TOutputType>
+template <typename TOutputType>
 // Is value type: false
 // CS Name: UnityEngine.InputForUI.Event/IMapFn`1<TOutputType>
 class CORDL_TYPE Event_IMapFn_1 {
 public:
-// Declarations
-/// @brief Method Map, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-template<typename TEventType>
-inline TOutputType Map(::ByRef<TEventType>  ev) ;
+  // Declarations
+  /// @brief Method Map, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  template <typename TEventType> inline TOutputType Map(::ByRef<TEventType> ev);
 
-// Ctor Parameters [CppParam { name: "", ty: "Event_IMapFn_1", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Event_IMapFn_1(Event_IMapFn_1 const& ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Event_IMapFn_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Event_IMapFn_1(Event_IMapFn_1 const&) = delete;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21611};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21622 };
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace end def UnityEngine::InputForUI
-// Dependencies 
+} // namespace UnityEngine::InputForUI
+// Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event/MapAsObject
 #pragma pack(push, 0)
 struct CORDL_TYPE Event_MapAsObject {
 public:
-// Declarations
-/// @brief Convert operator to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>"
-constexpr operator  ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>*() ;
+  // Declarations
+  /// @brief Convert operator to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>"
+  constexpr operator ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>*();
 
-/// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-template<typename TEventType>
-inline ::UnityEngine::InputForUI::IEventProperties* Map(::ByRef<TEventType>  ev) ;
+  /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  template <typename TEventType> inline ::UnityEngine::InputForUI::IEventProperties* Map(::ByRef<TEventType> ev);
 
-/// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>"
-constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__IEventProperties__() ;
+  /// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>"
+  constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::IEventProperties*>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__IEventProperties__();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Event_MapAsObject() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Event_MapAsObject();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21612};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21623 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputForUI::Event_MapAsObject, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputForUI
-// Dependencies 
+} // namespace UnityEngine::InputForUI
+// Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event/MapAsEventSource
 #pragma pack(push, 0)
 struct CORDL_TYPE Event_MapAsEventSource {
 public:
-// Declarations
-/// @brief Convert operator to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>"
-constexpr operator  ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>*() ;
+  // Declarations
+  /// @brief Convert operator to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>"
+  constexpr operator ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>*();
 
-/// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-template<typename TEventType>
-inline ::UnityEngine::InputForUI::EventSource Map(::ByRef<TEventType>  ev) ;
+  /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  template <typename TEventType> inline ::UnityEngine::InputForUI::EventSource Map(::ByRef<TEventType> ev);
 
-/// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>"
-constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__EventSource_() ;
+  /// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>"
+  constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventSource>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__EventSource_();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Event_MapAsEventSource() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Event_MapAsEventSource();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21613};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21624 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputForUI::Event_MapAsEventSource, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputForUI
-// Dependencies 
+} // namespace UnityEngine::InputForUI
+// Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event/MapAsEventModifiers
 #pragma pack(push, 0)
 struct CORDL_TYPE Event_MapAsEventModifiers {
 public:
-// Declarations
-/// @brief Convert operator to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>"
-constexpr operator  ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>*() ;
+  // Declarations
+  /// @brief Convert operator to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>"
+  constexpr operator ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>*();
 
-/// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-template<typename TEventType>
-inline ::UnityEngine::InputForUI::EventModifiers Map(::ByRef<TEventType>  ev) ;
+  /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  template <typename TEventType> inline ::UnityEngine::InputForUI::EventModifiers Map(::ByRef<TEventType> ev);
 
-/// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>"
-constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__EventModifiers_() ;
+  /// @brief Convert to "::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>"
+  constexpr ::UnityEngine::InputForUI::Event_IMapFn_1<::UnityEngine::InputForUI::EventModifiers>* i___UnityEngine__InputForUI__Event_IMapFn_1___UnityEngine__InputForUI__EventModifiers_();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Event_MapAsEventModifiers() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Event_MapAsEventModifiers();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21614};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21625 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputForUI::Event_MapAsEventModifiers, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputForUI
-// Dependencies UnityEngine.InputForUI.CommandEvent, UnityEngine.InputForUI.Event::Type, UnityEngine.InputForUI.KeyEvent, UnityEngine.InputForUI.NavigationEvent, UnityEngine.InputForUI.PointerEvent, UnityEngine.InputForUI.TextInputEvent
+} // namespace UnityEngine::InputForUI
+// Dependencies UnityEngine.InputForUI.CommandEvent, UnityEngine.InputForUI.Event::Type, UnityEngine.InputForUI.KeyEvent, UnityEngine.InputForUI.NavigationEvent, UnityEngine.InputForUI.PointerEvent,
+// UnityEngine.InputForUI.TextInputEvent
 namespace UnityEngine::InputForUI {
 // Is value type: true
 // CS Name: UnityEngine.InputForUI.Event
 struct CORDL_TYPE Event {
 public:
-// Declarations
-template<typename TOutputType>
-using IMapFn_1 = ::UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>;
+  // Declarations
+  template <typename TOutputType> using IMapFn_1 = ::UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>;
 
-using MapAsEventModifiers = ::UnityEngine::InputForUI::Event_MapAsEventModifiers;
+  using MapAsEventModifiers = ::UnityEngine::InputForUI::Event_MapAsEventModifiers;
 
-using MapAsEventSource = ::UnityEngine::InputForUI::Event_MapAsEventSource;
+  using MapAsEventSource = ::UnityEngine::InputForUI::Event_MapAsEventSource;
 
-using MapAsObject = ::UnityEngine::InputForUI::Event_MapAsObject;
+  using MapAsObject = ::UnityEngine::InputForUI::Event_MapAsObject;
 
-using Type = ::UnityEngine::InputForUI::Event_Type;
+  using Type = ::UnityEngine::InputForUI::Event_Type;
 
-/// @brief Field TypesWithState, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_TypesWithState, put=setStaticF_TypesWithState)) ::ArrayW<::UnityEngine::InputForUI::Event_Type,::Array<::UnityEngine::InputForUI::Event_Type>*>  TypesWithState;
+  /// @brief Field TypesWithState, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_TypesWithState, put = setStaticF_TypesWithState)) ::ArrayW<::UnityEngine::InputForUI::Event_Type, ::Array<::UnityEngine::InputForUI::Event_Type>*>
+      TypesWithState;
 
-/// @brief Field _commandEvent, offset 0x10, size 0x20 
- __declspec(property(get=__cordl_internal_get__commandEvent, put=__cordl_internal_set__commandEvent)) ::UnityEngine::InputForUI::CommandEvent  _commandEvent;
+  /// @brief Field _commandEvent, offset 0x10, size 0x20
+  __declspec(property(get = __cordl_internal_get__commandEvent, put = __cordl_internal_set__commandEvent)) ::UnityEngine::InputForUI::CommandEvent _commandEvent;
 
-/// @brief Field _keyEvent, offset 0x10, size 0x48 
- __declspec(property(get=__cordl_internal_get__keyEvent, put=__cordl_internal_set__keyEvent)) ::UnityEngine::InputForUI::KeyEvent  _keyEvent;
+  /// @brief Field _keyEvent, offset 0x10, size 0x48
+  __declspec(property(get = __cordl_internal_get__keyEvent, put = __cordl_internal_set__keyEvent)) ::UnityEngine::InputForUI::KeyEvent _keyEvent;
 
-/// @brief Field _managedEvent, offset 0x8, size 0x8 
- __declspec(property(get=__cordl_internal_get__managedEvent, put=__cordl_internal_set__managedEvent)) ::System::Object*  _managedEvent;
+  /// @brief Field _managedEvent, offset 0x8, size 0x8
+  __declspec(property(get = __cordl_internal_get__managedEvent, put = __cordl_internal_set__managedEvent)) ::System::Object* _managedEvent;
 
-/// @brief Field _navigationEvent, offset 0x10, size 0x28 
- __declspec(property(get=__cordl_internal_get__navigationEvent, put=__cordl_internal_set__navigationEvent)) ::UnityEngine::InputForUI::NavigationEvent  _navigationEvent;
+  /// @brief Field _navigationEvent, offset 0x10, size 0x28
+  __declspec(property(get = __cordl_internal_get__navigationEvent, put = __cordl_internal_set__navigationEvent)) ::UnityEngine::InputForUI::NavigationEvent _navigationEvent;
 
-/// @brief Field _pointerEvent, offset 0x10, size 0x60 
- __declspec(property(get=__cordl_internal_get__pointerEvent, put=__cordl_internal_set__pointerEvent)) ::UnityEngine::InputForUI::PointerEvent  _pointerEvent;
+  /// @brief Field _pointerEvent, offset 0x10, size 0x60
+  __declspec(property(get = __cordl_internal_get__pointerEvent, put = __cordl_internal_set__pointerEvent)) ::UnityEngine::InputForUI::PointerEvent _pointerEvent;
 
-/// @brief Field _textInputEvent, offset 0x10, size 0x20 
- __declspec(property(get=__cordl_internal_get__textInputEvent, put=__cordl_internal_set__textInputEvent)) ::UnityEngine::InputForUI::TextInputEvent  _textInputEvent;
+  /// @brief Field _textInputEvent, offset 0x10, size 0x20
+  __declspec(property(get = __cordl_internal_get__textInputEvent, put = __cordl_internal_set__textInputEvent)) ::UnityEngine::InputForUI::TextInputEvent _textInputEvent;
 
-/// @brief Field _type, offset 0x0, size 0x4 
- __declspec(property(get=__cordl_internal_get__type, put=__cordl_internal_set__type)) ::UnityEngine::InputForUI::Event_Type  _type;
+  /// @brief Field _type, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::UnityEngine::InputForUI::Event_Type _type;
 
- __declspec(property(get=get_asCommandEvent)) ::UnityEngine::InputForUI::CommandEvent  asCommandEvent;
+  __declspec(property(get = get_asCommandEvent)) ::UnityEngine::InputForUI::CommandEvent asCommandEvent;
 
- __declspec(property(get=get_asIMECompositionEvent)) ::UnityEngine::InputForUI::IMECompositionEvent  asIMECompositionEvent;
+  __declspec(property(get = get_asIMECompositionEvent)) ::UnityEngine::InputForUI::IMECompositionEvent asIMECompositionEvent;
 
- __declspec(property(get=get_asKeyEvent)) ::UnityEngine::InputForUI::KeyEvent  asKeyEvent;
+  __declspec(property(get = get_asKeyEvent)) ::UnityEngine::InputForUI::KeyEvent asKeyEvent;
 
- __declspec(property(get=get_asNavigationEvent)) ::UnityEngine::InputForUI::NavigationEvent  asNavigationEvent;
+  __declspec(property(get = get_asNavigationEvent)) ::UnityEngine::InputForUI::NavigationEvent asNavigationEvent;
 
- __declspec(property(get=get_asObject)) ::UnityEngine::InputForUI::IEventProperties*  asObject;
+  __declspec(property(get = get_asObject)) ::UnityEngine::InputForUI::IEventProperties* asObject;
 
- __declspec(property(get=get_asPointerEvent)) ::UnityEngine::InputForUI::PointerEvent  asPointerEvent;
+  __declspec(property(get = get_asPointerEvent)) ::UnityEngine::InputForUI::PointerEvent asPointerEvent;
 
- __declspec(property(get=get_asTextInputEvent)) ::UnityEngine::InputForUI::TextInputEvent  asTextInputEvent;
+  __declspec(property(get = get_asTextInputEvent)) ::UnityEngine::InputForUI::TextInputEvent asTextInputEvent;
 
- __declspec(property(get=get_eventModifiers)) ::UnityEngine::InputForUI::EventModifiers  eventModifiers;
+  __declspec(property(get = get_eventModifiers)) ::UnityEngine::InputForUI::EventModifiers eventModifiers;
 
- __declspec(property(get=get_eventSource)) ::UnityEngine::InputForUI::EventSource  eventSource;
+  __declspec(property(get = get_eventSource)) ::UnityEngine::InputForUI::EventSource eventSource;
 
- __declspec(property(get=get_type)) ::UnityEngine::InputForUI::Event_Type  type;
+  __declspec(property(get = get_type)) ::UnityEngine::InputForUI::Event_Type type;
 
-/// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
-constexpr operator  ::UnityEngine::InputForUI::IEventProperties*() ;
+  /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
+  constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-/// @brief Method CompareType, addr 0x698d990, size 0xdc, virtual false, abstract: false, final false
-static inline int32_t CompareType(::UnityEngine::InputForUI::Event  a, ::UnityEngine::InputForUI::Event  b) ;
+  /// @brief Method CompareType, addr 0x69ffbd8, size 0xdc, virtual false, abstract: false, final false
+  static inline int32_t CompareType(::UnityEngine::InputForUI::Event a, ::UnityEngine::InputForUI::Event b);
 
-/// @brief Method Ensure, addr 0x698dbd0, size 0x98, virtual false, abstract: false, final false
-inline void Ensure(::UnityEngine::InputForUI::Event_Type  t) ;
+  /// @brief Method Ensure, addr 0x69ffe18, size 0x98, virtual false, abstract: false, final false
+  inline void Ensure(::UnityEngine::InputForUI::Event_Type t);
 
-/// @brief Method From, addr 0x698e48c, size 0x70, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::CommandEvent  commandEvent) ;
+  /// @brief Method From, addr 0x6a006d4, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::CommandEvent commandEvent);
 
-/// @brief Method From, addr 0x698e34c, size 0x8c, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::IMECompositionEvent  imeCompositionEvent) ;
+  /// @brief Method From, addr 0x6a00594, size 0x8c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::IMECompositionEvent imeCompositionEvent);
 
-/// @brief Method From, addr 0x698e084, size 0x80, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::KeyEvent  keyEvent) ;
+  /// @brief Method From, addr 0x6a002cc, size 0x80, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::KeyEvent keyEvent);
 
-/// @brief Method From, addr 0x698e570, size 0x88, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::NavigationEvent  navigationEvent) ;
+  /// @brief Method From, addr 0x6a007b8, size 0x88, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::NavigationEvent navigationEvent);
 
-/// @brief Method From, addr 0x698e17c, size 0x74, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::PointerEvent  pointerEvent) ;
+  /// @brief Method From, addr 0x6a003c4, size 0x74, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::PointerEvent pointerEvent);
 
-/// @brief Method From, addr 0x698e268, size 0x70, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::TextInputEvent  textInputEvent) ;
+  /// @brief Method From, addr 0x6a004b0, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputForUI::Event From(::UnityEngine::InputForUI::TextInputEvent textInputEvent);
 
-/// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TOutputType,typename TMapType>
-inline TOutputType Map() ;
+  /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TOutputType, typename TMapType> inline TOutputType Map();
 
-/// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename TOutputType,typename TMapType>
-inline TOutputType Map(TMapType  fn) ;
+  /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TOutputType, typename TMapType> inline TOutputType Map(TMapType fn);
 
-/// @brief Method ToString, addr 0x698dc68, size 0x190, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x69ffeb0, size 0x190, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-constexpr ::UnityEngine::InputForUI::CommandEvent const& __cordl_internal_get__commandEvent() const;
+  constexpr ::UnityEngine::InputForUI::CommandEvent const& __cordl_internal_get__commandEvent() const;
 
-constexpr ::UnityEngine::InputForUI::CommandEvent& __cordl_internal_get__commandEvent() ;
+  constexpr ::UnityEngine::InputForUI::CommandEvent& __cordl_internal_get__commandEvent();
 
-constexpr ::UnityEngine::InputForUI::KeyEvent const& __cordl_internal_get__keyEvent() const;
+  constexpr ::UnityEngine::InputForUI::KeyEvent const& __cordl_internal_get__keyEvent() const;
 
-constexpr ::UnityEngine::InputForUI::KeyEvent& __cordl_internal_get__keyEvent() ;
+  constexpr ::UnityEngine::InputForUI::KeyEvent& __cordl_internal_get__keyEvent();
 
-constexpr ::System::Object* const& __cordl_internal_get__managedEvent() const;
+  constexpr ::System::Object* const& __cordl_internal_get__managedEvent() const;
 
-constexpr ::System::Object*& __cordl_internal_get__managedEvent() ;
+  constexpr ::System::Object*& __cordl_internal_get__managedEvent();
 
-constexpr ::UnityEngine::InputForUI::NavigationEvent const& __cordl_internal_get__navigationEvent() const;
+  constexpr ::UnityEngine::InputForUI::NavigationEvent const& __cordl_internal_get__navigationEvent() const;
 
-constexpr ::UnityEngine::InputForUI::NavigationEvent& __cordl_internal_get__navigationEvent() ;
+  constexpr ::UnityEngine::InputForUI::NavigationEvent& __cordl_internal_get__navigationEvent();
 
-constexpr ::UnityEngine::InputForUI::PointerEvent const& __cordl_internal_get__pointerEvent() const;
+  constexpr ::UnityEngine::InputForUI::PointerEvent const& __cordl_internal_get__pointerEvent() const;
 
-constexpr ::UnityEngine::InputForUI::PointerEvent& __cordl_internal_get__pointerEvent() ;
+  constexpr ::UnityEngine::InputForUI::PointerEvent& __cordl_internal_get__pointerEvent();
 
-constexpr ::UnityEngine::InputForUI::TextInputEvent const& __cordl_internal_get__textInputEvent() const;
+  constexpr ::UnityEngine::InputForUI::TextInputEvent const& __cordl_internal_get__textInputEvent() const;
 
-constexpr ::UnityEngine::InputForUI::TextInputEvent& __cordl_internal_get__textInputEvent() ;
+  constexpr ::UnityEngine::InputForUI::TextInputEvent& __cordl_internal_get__textInputEvent();
 
-constexpr ::UnityEngine::InputForUI::Event_Type const& __cordl_internal_get__type() const;
+  constexpr ::UnityEngine::InputForUI::Event_Type const& __cordl_internal_get__type() const;
 
-constexpr ::UnityEngine::InputForUI::Event_Type& __cordl_internal_get__type() ;
+  constexpr ::UnityEngine::InputForUI::Event_Type& __cordl_internal_get__type();
 
-constexpr void __cordl_internal_set__commandEvent(::UnityEngine::InputForUI::CommandEvent  value) ;
+  constexpr void __cordl_internal_set__commandEvent(::UnityEngine::InputForUI::CommandEvent value);
 
-constexpr void __cordl_internal_set__keyEvent(::UnityEngine::InputForUI::KeyEvent  value) ;
+  constexpr void __cordl_internal_set__keyEvent(::UnityEngine::InputForUI::KeyEvent value);
 
-constexpr void __cordl_internal_set__managedEvent(::System::Object*  value) ;
+  constexpr void __cordl_internal_set__managedEvent(::System::Object* value);
 
-constexpr void __cordl_internal_set__navigationEvent(::UnityEngine::InputForUI::NavigationEvent  value) ;
+  constexpr void __cordl_internal_set__navigationEvent(::UnityEngine::InputForUI::NavigationEvent value);
 
-constexpr void __cordl_internal_set__pointerEvent(::UnityEngine::InputForUI::PointerEvent  value) ;
+  constexpr void __cordl_internal_set__pointerEvent(::UnityEngine::InputForUI::PointerEvent value);
 
-constexpr void __cordl_internal_set__textInputEvent(::UnityEngine::InputForUI::TextInputEvent  value) ;
+  constexpr void __cordl_internal_set__textInputEvent(::UnityEngine::InputForUI::TextInputEvent value);
 
-constexpr void __cordl_internal_set__type(::UnityEngine::InputForUI::Event_Type  value) ;
+  constexpr void __cordl_internal_set__type(::UnityEngine::InputForUI::Event_Type value);
 
-static inline ::ArrayW<::UnityEngine::InputForUI::Event_Type,::Array<::UnityEngine::InputForUI::Event_Type>*> getStaticF_TypesWithState() ;
+  static inline ::ArrayW<::UnityEngine::InputForUI::Event_Type, ::Array<::UnityEngine::InputForUI::Event_Type>*> getStaticF_TypesWithState();
 
-/// @brief Method get_asCommandEvent, addr 0x698e4fc, size 0x74, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::CommandEvent get_asCommandEvent() ;
+  /// @brief Method get_asCommandEvent, addr 0x6a00744, size 0x74, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::CommandEvent get_asCommandEvent();
 
-/// @brief Method get_asIMECompositionEvent, addr 0x698e3d8, size 0xb4, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::IMECompositionEvent get_asIMECompositionEvent() ;
+  /// @brief Method get_asIMECompositionEvent, addr 0x6a00620, size 0xb4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::IMECompositionEvent get_asIMECompositionEvent();
 
-/// @brief Method get_asKeyEvent, addr 0x698e104, size 0x78, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::KeyEvent get_asKeyEvent() ;
+  /// @brief Method get_asKeyEvent, addr 0x6a0034c, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::KeyEvent get_asKeyEvent();
 
-/// @brief Method get_asNavigationEvent, addr 0x698e5f8, size 0x7c, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::NavigationEvent get_asNavigationEvent() ;
+  /// @brief Method get_asNavigationEvent, addr 0x6a00840, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::NavigationEvent get_asNavigationEvent();
 
-/// @brief Method get_asObject, addr 0x698dae8, size 0x74, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::IEventProperties* get_asObject() ;
+  /// @brief Method get_asObject, addr 0x69ffd30, size 0x74, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::IEventProperties* get_asObject();
 
-/// @brief Method get_asPointerEvent, addr 0x698e1f0, size 0x78, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::PointerEvent get_asPointerEvent() ;
+  /// @brief Method get_asPointerEvent, addr 0x6a00438, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::PointerEvent get_asPointerEvent();
 
-/// @brief Method get_asTextInputEvent, addr 0x698e2d8, size 0x74, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::TextInputEvent get_asTextInputEvent() ;
+  /// @brief Method get_asTextInputEvent, addr 0x6a00520, size 0x74, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::TextInputEvent get_asTextInputEvent();
 
-/// @brief Method get_eventModifiers, addr 0x698db5c, size 0x74, virtual true, abstract: false, final true
-inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers() ;
+  /// @brief Method get_eventModifiers, addr 0x69ffda4, size 0x74, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
-/// @brief Method get_eventSource, addr 0x698da6c, size 0x74, virtual true, abstract: false, final true
-inline ::UnityEngine::InputForUI::EventSource get_eventSource() ;
+  /// @brief Method get_eventSource, addr 0x69ffcb4, size 0x74, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
-/// @brief Method get_type, addr 0x698dae0, size 0x8, virtual false, abstract: false, final false
-inline ::UnityEngine::InputForUI::Event_Type get_type() ;
+  /// @brief Method get_type, addr 0x69ffd28, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputForUI::Event_Type get_type();
 
-/// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
-constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties() ;
+  /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
+  constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
-static inline void setStaticF_TypesWithState(::ArrayW<::UnityEngine::InputForUI::Event_Type,::Array<::UnityEngine::InputForUI::Event_Type>*>  value) ;
+  static inline void setStaticF_TypesWithState(::ArrayW<::UnityEngine::InputForUI::Event_Type, ::Array<::UnityEngine::InputForUI::Event_Type>*> value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Event() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Event();
 
-// Ctor Parameters [CppParam { name: "_type", ty: "::UnityEngine::InputForUI::Event_Type", modifiers: "", def_value: None }, CppParam { name: "_managedEvent", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_keyEvent", ty: "::UnityEngine::InputForUI::KeyEvent", modifiers: "", def_value: None }, CppParam { name: "_pointerEvent", ty: "::UnityEngine::InputForUI::PointerEvent", modifiers: "", def_value: None }, CppParam { name: "_textInputEvent", ty: "::UnityEngine::InputForUI::TextInputEvent", modifiers: "", def_value: None }, CppParam { name: "_commandEvent", ty: "::UnityEngine::InputForUI::CommandEvent", modifiers: "", def_value: None }, CppParam { name: "_navigationEvent", ty: "::UnityEngine::InputForUI::NavigationEvent", modifiers: "", def_value: None }]
-constexpr Event(::UnityEngine::InputForUI::Event_Type  _type, ::System::Object*  _managedEvent, ::UnityEngine::InputForUI::KeyEvent  _keyEvent, ::UnityEngine::InputForUI::PointerEvent  _pointerEvent, ::UnityEngine::InputForUI::TextInputEvent  _textInputEvent, ::UnityEngine::InputForUI::CommandEvent  _commandEvent, ::UnityEngine::InputForUI::NavigationEvent  _navigationEvent) noexcept;
+  // Ctor Parameters [CppParam { name: "_type", ty: "::UnityEngine::InputForUI::Event_Type", modifiers: "", def_value: None }, CppParam { name: "_managedEvent", ty: "::System::Object*", modifiers: "",
+  // def_value: None }, CppParam { name: "_keyEvent", ty: "::UnityEngine::InputForUI::KeyEvent", modifiers: "", def_value: None }, CppParam { name: "_pointerEvent", ty:
+  // "::UnityEngine::InputForUI::PointerEvent", modifiers: "", def_value: None }, CppParam { name: "_textInputEvent", ty: "::UnityEngine::InputForUI::TextInputEvent", modifiers: "", def_value: None },
+  // CppParam { name: "_commandEvent", ty: "::UnityEngine::InputForUI::CommandEvent", modifiers: "", def_value: None }, CppParam { name: "_navigationEvent", ty:
+  // "::UnityEngine::InputForUI::NavigationEvent", modifiers: "", def_value: None }]
+  constexpr Event(::UnityEngine::InputForUI::Event_Type _type, ::System::Object* _managedEvent, ::UnityEngine::InputForUI::KeyEvent _keyEvent, ::UnityEngine::InputForUI::PointerEvent _pointerEvent,
+                  ::UnityEngine::InputForUI::TextInputEvent _textInputEvent, ::UnityEngine::InputForUI::CommandEvent _commandEvent,
+                  ::UnityEngine::InputForUI::NavigationEvent _navigationEvent) noexcept;
 
 private:
-/// @brief Explicitly laid out type with union based offsets
-union {
+  /// @brief Explicitly laid out type with union based offsets
+  union {
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x0
- uint8_t  ____type_padding[0x0];
-/// @brief Field _type, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::InputForUI::Event_Type  ____type;
-};
+    struct {
+      /// @brief Padding field 0x0
+      uint8_t ____type_padding[0x0];
+      /// @brief Field _type, offset: 0x0, size: 0x4, def value: None
+      ::UnityEngine::InputForUI::Event_Type ____type;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x0 for alignment
- uint8_t  ____type_padding_forAlignment[0x0];
-/// @brief Field _type, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::InputForUI::Event_Type  ____type_forAlignment;
-};
+    struct {
+      /// @brief Padding field 0x0 for alignment
+      uint8_t ____type_padding_forAlignment[0x0];
+      /// @brief Field _type, offset: 0x0, size: 0x4, def value: None
+      ::UnityEngine::InputForUI::Event_Type ____type_forAlignment;
+    };
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x8
- uint8_t  ____managedEvent_padding[0x8];
-/// @brief Field _managedEvent, offset: 0x8, size: 0x8, def value: None
- ::System::Object*  ____managedEvent;
-};
+    struct {
+      /// @brief Padding field 0x8
+      uint8_t ____managedEvent_padding[0x8];
+      /// @brief Field _managedEvent, offset: 0x8, size: 0x8, def value: None
+      ::System::Object* ____managedEvent;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x8 for alignment
- uint8_t  ____managedEvent_padding_forAlignment[0x8];
-/// @brief Field _managedEvent, offset: 0x8, size: 0x8, def value: None
- ::System::Object*  ____managedEvent_forAlignment;
-};
+    struct {
+      /// @brief Padding field 0x8 for alignment
+      uint8_t ____managedEvent_padding_forAlignment[0x8];
+      /// @brief Field _managedEvent, offset: 0x8, size: 0x8, def value: None
+      ::System::Object* ____managedEvent_forAlignment;
+    };
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x10
- uint8_t  ____keyEvent_padding[0x10];
-/// @brief Field _keyEvent, offset: 0x10, size: 0x48, def value: None
- ::UnityEngine::InputForUI::KeyEvent  ____keyEvent;
-};
+    struct {
+      /// @brief Padding field 0x10
+      uint8_t ____keyEvent_padding[0x10];
+      /// @brief Field _keyEvent, offset: 0x10, size: 0x48, def value: None
+      ::UnityEngine::InputForUI::KeyEvent ____keyEvent;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x10 for alignment
- uint8_t  ____keyEvent_padding_forAlignment[0x10];
-/// @brief Field _keyEvent, offset: 0x10, size: 0x48, def value: None
- ::UnityEngine::InputForUI::KeyEvent  ____keyEvent_forAlignment;
-};
+    struct {
+      /// @brief Padding field 0x10 for alignment
+      uint8_t ____keyEvent_padding_forAlignment[0x10];
+      /// @brief Field _keyEvent, offset: 0x10, size: 0x48, def value: None
+      ::UnityEngine::InputForUI::KeyEvent ____keyEvent_forAlignment;
+    };
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x10
- uint8_t  ____pointerEvent_padding[0x10];
-/// @brief Field _pointerEvent, offset: 0x10, size: 0x60, def value: None
- ::UnityEngine::InputForUI::PointerEvent  ____pointerEvent;
-};
+    struct {
+      /// @brief Padding field 0x10
+      uint8_t ____pointerEvent_padding[0x10];
+      /// @brief Field _pointerEvent, offset: 0x10, size: 0x60, def value: None
+      ::UnityEngine::InputForUI::PointerEvent ____pointerEvent;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x10 for alignment
- uint8_t  ____pointerEvent_padding_forAlignment[0x10];
-/// @brief Field _pointerEvent, offset: 0x10, size: 0x60, def value: None
- ::UnityEngine::InputForUI::PointerEvent  ____pointerEvent_forAlignment;
-};
+    struct {
+      /// @brief Padding field 0x10 for alignment
+      uint8_t ____pointerEvent_padding_forAlignment[0x10];
+      /// @brief Field _pointerEvent, offset: 0x10, size: 0x60, def value: None
+      ::UnityEngine::InputForUI::PointerEvent ____pointerEvent_forAlignment;
+    };
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x10
- uint8_t  ____textInputEvent_padding[0x10];
-/// @brief Field _textInputEvent, offset: 0x10, size: 0x20, def value: None
- ::UnityEngine::InputForUI::TextInputEvent  ____textInputEvent;
-};
+    struct {
+      /// @brief Padding field 0x10
+      uint8_t ____textInputEvent_padding[0x10];
+      /// @brief Field _textInputEvent, offset: 0x10, size: 0x20, def value: None
+      ::UnityEngine::InputForUI::TextInputEvent ____textInputEvent;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x10 for alignment
- uint8_t  ____textInputEvent_padding_forAlignment[0x10];
-/// @brief Field _textInputEvent, offset: 0x10, size: 0x20, def value: None
- ::UnityEngine::InputForUI::TextInputEvent  ____textInputEvent_forAlignment;
-};
+    struct {
+      /// @brief Padding field 0x10 for alignment
+      uint8_t ____textInputEvent_padding_forAlignment[0x10];
+      /// @brief Field _textInputEvent, offset: 0x10, size: 0x20, def value: None
+      ::UnityEngine::InputForUI::TextInputEvent ____textInputEvent_forAlignment;
+    };
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x10
- uint8_t  ____commandEvent_padding[0x10];
-/// @brief Field _commandEvent, offset: 0x10, size: 0x20, def value: None
- ::UnityEngine::InputForUI::CommandEvent  ____commandEvent;
-};
+    struct {
+      /// @brief Padding field 0x10
+      uint8_t ____commandEvent_padding[0x10];
+      /// @brief Field _commandEvent, offset: 0x10, size: 0x20, def value: None
+      ::UnityEngine::InputForUI::CommandEvent ____commandEvent;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x10 for alignment
- uint8_t  ____commandEvent_padding_forAlignment[0x10];
-/// @brief Field _commandEvent, offset: 0x10, size: 0x20, def value: None
- ::UnityEngine::InputForUI::CommandEvent  ____commandEvent_forAlignment;
-};
+    struct {
+      /// @brief Padding field 0x10 for alignment
+      uint8_t ____commandEvent_padding_forAlignment[0x10];
+      /// @brief Field _commandEvent, offset: 0x10, size: 0x20, def value: None
+      ::UnityEngine::InputForUI::CommandEvent ____commandEvent_forAlignment;
+    };
 #pragma pack(push, tp, 1)
-struct  {
-/// @brief Padding field 0x10
- uint8_t  ____navigationEvent_padding[0x10];
-/// @brief Field _navigationEvent, offset: 0x10, size: 0x28, def value: None
- ::UnityEngine::InputForUI::NavigationEvent  ____navigationEvent;
-};
+    struct {
+      /// @brief Padding field 0x10
+      uint8_t ____navigationEvent_padding[0x10];
+      /// @brief Field _navigationEvent, offset: 0x10, size: 0x28, def value: None
+      ::UnityEngine::InputForUI::NavigationEvent ____navigationEvent;
+    };
 #pragma pack(pop, tp)
-struct  {
-/// @brief Padding field 0x10 for alignment
- uint8_t  ____navigationEvent_padding_forAlignment[0x10];
-/// @brief Field _navigationEvent, offset: 0x10, size: 0x28, def value: None
- ::UnityEngine::InputForUI::NavigationEvent  ____navigationEvent_forAlignment;
-};
-};
+    struct {
+      /// @brief Padding field 0x10 for alignment
+      uint8_t ____navigationEvent_padding_forAlignment[0x10];
+      /// @brief Field _navigationEvent, offset: 0x10, size: 0x28, def value: None
+      ::UnityEngine::InputForUI::NavigationEvent ____navigationEvent_forAlignment;
+    };
+  };
+
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21626 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21615};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x70};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputForUI::Event, 0x70>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputForUI
+} // namespace UnityEngine::InputForUI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputForUI::Event_Type, "UnityEngine.InputForUI", "Event/Type");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputForUI::Event_IMapFn_1, "UnityEngine.InputForUI", "Event/IMapFn`1");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputForUI::Event, "UnityEngine.InputForUI", "Event");

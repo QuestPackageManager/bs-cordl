@@ -21,41 +21,41 @@ namespace System::Runtime {
 // CS Name: System.Runtime.RuntimeImports
 class CORDL_TYPE RuntimeImports : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Memmove, addr 0x59711e4, size 0x8, virtual false, abstract: false, final false
-static inline void Memmove(uint8_t*  dest, uint8_t*  src, uint32_t  len) ;
+  // Declarations
+  /// @brief Method Memmove, addr 0x59e3150, size 0x8, virtual false, abstract: false, final false
+  static inline void Memmove(uint8_t* dest, uint8_t* src, uint32_t len);
 
-/// @brief Method Memmove_wbarrier, addr 0x59711ec, size 0x4, virtual false, abstract: false, final false
-static inline void Memmove_wbarrier(uint8_t*  dest, uint8_t*  src, uint32_t  len, ::System::IntPtr  type_handle) ;
+  /// @brief Method Memmove_wbarrier, addr 0x59e3158, size 0x4, virtual false, abstract: false, final false
+  static inline void Memmove_wbarrier(uint8_t* dest, uint8_t* src, uint32_t len, ::System::IntPtr type_handle);
 
-/// @brief Method RhZeroMemory, addr 0x59711cc, size 0xc, virtual false, abstract: false, final false
-static inline void RhZeroMemory(::ByRef<uint8_t>  b, uint64_t  byteLength) ;
+  /// @brief Method RhZeroMemory, addr 0x59e3138, size 0xc, virtual false, abstract: false, final false
+  static inline void RhZeroMemory(::ByRef<uint8_t> b, uint64_t byteLength);
 
-/// @brief Method ZeroMemory, addr 0x59711d8, size 0xc, virtual false, abstract: false, final false
-static inline void ZeroMemory(void*  p, uint32_t  byteLength) ;
+  /// @brief Method ZeroMemory, addr 0x59e3144, size 0xc, virtual false, abstract: false, final false
+  static inline void ZeroMemory(void* p, uint32_t byteLength);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr RuntimeImports() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeImports();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeImports", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RuntimeImports(RuntimeImports&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RuntimeImports", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-RuntimeImports(RuntimeImports && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeImports", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RuntimeImports(RuntimeImports const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "RuntimeImports", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-RuntimeImports(RuntimeImports const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3067 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3067};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::RuntimeImports, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Runtime
+} // namespace System::Runtime
 NEED_NO_BOX(::System::Runtime::RuntimeImports);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::RuntimeImports*, "System.Runtime", "RuntimeImports");

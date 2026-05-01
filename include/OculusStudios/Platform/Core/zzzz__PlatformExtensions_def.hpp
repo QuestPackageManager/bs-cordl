@@ -20,33 +20,32 @@ namespace OculusStudios::Platform::Core {
 // CS Name: OculusStudios.Platform.Core.PlatformExtensions
 class CORDL_TYPE PlatformExtensions : public ::System::Object {
 public:
-// Declarations
-/// @brief Method SetRichPresenceStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline void SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform*  platform) ;
+  // Declarations
+  /// @brief Method SetRichPresenceStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform* platform);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PlatformExtensions() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformExtensions();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PlatformExtensions(PlatformExtensions&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PlatformExtensions(PlatformExtensions && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PlatformExtensions(PlatformExtensions const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PlatformExtensions", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PlatformExtensions(PlatformExtensions const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22245 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22191};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::Platform::Core::PlatformExtensions, 0x10>, "Size mismatch!");
 
-} // namespace end def OculusStudios::Platform::Core
+} // namespace OculusStudios::Platform::Core
 NEED_NO_BOX(::OculusStudios::Platform::Core::PlatformExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::Platform::Core::PlatformExtensions*, "OculusStudios.Platform.Core", "PlatformExtensions");

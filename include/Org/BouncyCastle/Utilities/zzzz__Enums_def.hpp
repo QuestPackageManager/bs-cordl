@@ -27,46 +27,46 @@ namespace Org::BouncyCastle::Utilities {
 // CS Name: Org.BouncyCastle.Utilities.Enums
 class CORDL_TYPE Enums : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GetArbitraryValue, addr 0x354200c, size 0xd4, virtual false, abstract: false, final false
-static inline ::System::Enum* GetArbitraryValue(::System::Type*  enumType) ;
+  // Declarations
+  /// @brief Method GetArbitraryValue, addr 0x357e650, size 0xd4, virtual false, abstract: false, final false
+  static inline ::System::Enum* GetArbitraryValue(::System::Type* enumType);
 
-/// @brief Method GetEnumValue, addr 0x3541d8c, size 0x19c, virtual false, abstract: false, final false
-static inline ::System::Enum* GetEnumValue(::System::Type*  enumType, ::StringW  s) ;
+  /// @brief Method GetEnumValue, addr 0x357e3d0, size 0x19c, virtual false, abstract: false, final false
+  static inline ::System::Enum* GetEnumValue(::System::Type* enumType, ::StringW s);
 
-/// @brief Method GetEnumValues, addr 0x3541f44, size 0xc8, virtual false, abstract: false, final false
-static inline ::System::Array* GetEnumValues(::System::Type*  enumType) ;
+  /// @brief Method GetEnumValues, addr 0x357e588, size 0xc8, virtual false, abstract: false, final false
+  static inline ::System::Array* GetEnumValues(::System::Type* enumType);
 
-/// @brief Method IsEnumType, addr 0x3541f28, size 0x1c, virtual false, abstract: false, final false
-static inline bool IsEnumType(::System::Type*  t) ;
+  /// @brief Method IsEnumType, addr 0x357e56c, size 0x1c, virtual false, abstract: false, final false
+  static inline bool IsEnumType(::System::Type* t);
 
-static inline ::Org::BouncyCastle::Utilities::Enums* New_ctor() ;
+  static inline ::Org::BouncyCastle::Utilities::Enums* New_ctor();
 
-/// @brief Method .ctor, addr 0x35420e0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x357e724, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Enums() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Enums();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Enums", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Enums(Enums&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Enums", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Enums(Enums && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Enums", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Enums(Enums const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Enums", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Enums(Enums const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1833 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1833};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Enums, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Utilities
+} // namespace Org::BouncyCastle::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Enums);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Enums*, "Org.BouncyCastle.Utilities", "Enums");

@@ -32,46 +32,46 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.QNameFacetsChecker
 class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
-// Declarations
-/// @brief Method CheckValueFacets, addr 0x601fbf0, size 0x124, virtual true, abstract: false, final false
-inline ::System::Exception* CheckValueFacets(::System::Object*  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+  // Declarations
+  /// @brief Method CheckValueFacets, addr 0x6091bfc, size 0x124, virtual true, abstract: false, final false
+  inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-/// @brief Method CheckValueFacets, addr 0x601fd14, size 0x1e0, virtual true, abstract: false, final false
-inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName*  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+  /// @brief Method CheckValueFacets, addr 0x6091d20, size 0x1e0, virtual true, abstract: false, final false
+  inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-/// @brief Method MatchEnumeration, addr 0x602000c, size 0x10c, virtual true, abstract: false, final false
-inline bool MatchEnumeration(::System::Object*  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+  /// @brief Method MatchEnumeration, addr 0x6092018, size 0x10c, virtual true, abstract: false, final false
+  inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-/// @brief Method MatchEnumeration, addr 0x601fef4, size 0x118, virtual false, abstract: false, final false
-inline bool MatchEnumeration(::System::Xml::XmlQualifiedName*  value, ::System::Collections::ArrayList*  enumeration) ;
+  /// @brief Method MatchEnumeration, addr 0x6091f00, size 0x118, virtual false, abstract: false, final false
+  inline bool MatchEnumeration(::System::Xml::XmlQualifiedName* value, ::System::Collections::ArrayList* enumeration);
 
-static inline ::System::Xml::Schema::QNameFacetsChecker* New_ctor() ;
+  static inline ::System::Xml::Schema::QNameFacetsChecker* New_ctor();
 
-/// @brief Method .ctor, addr 0x6020118, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6092124, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr QNameFacetsChecker() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QNameFacetsChecker();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "QNameFacetsChecker", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  QNameFacetsChecker(QNameFacetsChecker&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QNameFacetsChecker", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-QNameFacetsChecker(QNameFacetsChecker && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "QNameFacetsChecker", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  QNameFacetsChecker(QNameFacetsChecker const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "QNameFacetsChecker", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-QNameFacetsChecker(QNameFacetsChecker const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9674 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9668};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::QNameFacetsChecker, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::QNameFacetsChecker);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::QNameFacetsChecker*, "System.Xml.Schema", "QNameFacetsChecker");

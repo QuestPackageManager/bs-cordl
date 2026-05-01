@@ -10,236 +10,195 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)(::System::Xml::XmlReader*)>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)(::System::Xml::XmlReader*)>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5fff468;
+  constexpr static std::size_t addrs = 0x6071474;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema.System_Xml_Schema_IXmlSchemaInfo_get_Validity
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidity (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_Validity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidity (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_Validity)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6000bb4;
+  constexpr static std::size_t addrs = 0x6072bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_Validity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                                 "System.Xml.Schema.IXmlSchemaInfo.get_Validity", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema.System_Xml_Schema_IXmlSchemaInfo_get_IsDefault
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsDefault)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsDefault)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6000c58;
+  constexpr static std::size_t addrs = 0x6072c64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_IsDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                                 "System.Xml.Schema.IXmlSchemaInfo.get_IsDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema.System_Xml_Schema_IXmlSchemaInfo_get_IsNil
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsNil)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsNil)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6000d00;
+  constexpr static std::size_t addrs = 0x6072d0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_IsNil",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                                 "System.Xml.Schema.IXmlSchemaInfo.get_IsNil", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema.System_Xml_Schema_IXmlSchemaInfo_get_MemberType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_MemberType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_MemberType)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6000da8;
+  constexpr static std::size_t addrs = 0x6072db4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_MemberType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                                 "System.Xml.Schema.IXmlSchemaInfo.get_MemberType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema.System_Xml_Schema_IXmlSchemaInfo_get_SchemaType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaType)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6000e50;
+  constexpr static std::size_t addrs = 0x6072e5c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_SchemaType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                                 "System.Xml.Schema.IXmlSchemaInfo.get_SchemaType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema.System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6000ef8;
+  constexpr static std::size_t addrs = 0x6072f04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                                 "System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema.System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(&::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
+    &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6000fa0;
+  constexpr static std::size_t addrs = 0x6072fac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                                 "System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::IXmlSchemaInfo*& System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::__cordl_internal_get_readerAsIXmlSchemaInfo()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___readerAsIXmlSchemaInfo;
+constexpr ::System::Xml::Schema::IXmlSchemaInfo*& System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::__cordl_internal_get_readerAsIXmlSchemaInfo() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___readerAsIXmlSchemaInfo;
 }
 constexpr ::System::Xml::Schema::IXmlSchemaInfo* const& System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::__cordl_internal_get_readerAsIXmlSchemaInfo() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___readerAsIXmlSchemaInfo;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___readerAsIXmlSchemaInfo;
 }
-constexpr void System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::__cordl_internal_set_readerAsIXmlSchemaInfo(::System::Xml::Schema::IXmlSchemaInfo*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readerAsIXmlSchemaInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::__cordl_internal_set_readerAsIXmlSchemaInfo(::System::Xml::Schema::IXmlSchemaInfo* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readerAsIXmlSchemaInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::_ctor(::System::Xml::XmlReader*  reader)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+inline void System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::_ctor(::System::Xml::XmlReader* reader) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
 }
-inline ::System::Xml::Schema::XmlSchemaValidity System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_Validity()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_Validity",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaValidity, false>(this, ___internal_method);
+inline ::System::Xml::Schema::XmlSchemaValidity System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_Validity() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                               "System.Xml.Schema.IXmlSchemaInfo.get_Validity", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaValidity, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsDefault()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_IsDefault",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsDefault() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                               "System.Xml.Schema.IXmlSchemaInfo.get_IsDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsNil()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_IsNil",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsNil() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                               "System.Xml.Schema.IXmlSchemaInfo.get_IsNil", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaSimpleType* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_MemberType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_MemberType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaSimpleType*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::XmlSchemaSimpleType* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_MemberType() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                               "System.Xml.Schema.IXmlSchemaInfo.get_MemberType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaSimpleType*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaType* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_SchemaType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaType*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::XmlSchemaType* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaType() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                               "System.Xml.Schema.IXmlSchemaInfo.get_SchemaType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaType*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaElement* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaElement*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::XmlSchemaElement* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                               "System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaElement*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaAttribute* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
-                        "System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaAttribute*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::XmlSchemaAttribute* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>::get(),
+                                               "System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaAttribute*, false>(this, ___internal_method);
 }
-inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::New_ctor(::System::Xml::XmlReader*  reader)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>(reader));
+inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::New_ctor(::System::Xml::XmlReader* reader) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema*>(reader));
 }
 /// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
-constexpr  System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept {
-return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
+constexpr System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept {
+  return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
 constexpr ::System::Xml::Schema::IXmlSchemaInfo* System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::i___System__Xml__Schema__IXmlSchemaInfo() noexcept {
-return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
+  return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::XmlAsyncCheckReaderWithLineInfoNSSchema()   {
-}
+constexpr ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::XmlAsyncCheckReaderWithLineInfoNSSchema() {}

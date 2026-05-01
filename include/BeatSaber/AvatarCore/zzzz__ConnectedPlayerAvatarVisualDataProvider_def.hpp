@@ -26,59 +26,59 @@ namespace BeatSaber::AvatarCore {
 // CS Name: BeatSaber.AvatarCore.ConnectedPlayerAvatarVisualDataProvider
 class CORDL_TYPE ConnectedPlayerAvatarVisualDataProvider : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _connectedPlayer, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__connectedPlayer, put=__cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer*  _connectedPlayer;
+  // Declarations
+  /// @brief Field _connectedPlayer, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
- __declspec(property(get=get_avatarsData)) ::GlobalNamespace::MultiplayerAvatarsData  avatarsData;
+  __declspec(property(get = get_avatarsData)) ::GlobalNamespace::MultiplayerAvatarsData avatarsData;
 
-/// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
-constexpr operator  ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept;
+  /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
+  constexpr operator ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept;
 
-static inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer*  connectedPlayer) ;
+  static inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer() ;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer*  value) ;
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
-/// @brief Method .ctor, addr 0x319f94c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer*  connectedPlayer) ;
+  /// @brief Method .ctor, addr 0x31d6454, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-/// @brief Method get_avatarsData, addr 0x319f880, size 0xcc, virtual true, abstract: false, final true
-inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData() ;
+  /// @brief Method get_avatarsData, addr 0x31d6388, size 0xcc, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
 
-/// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
-constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
+  constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ConnectedPlayerAvatarVisualDataProvider() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConnectedPlayerAvatarVisualDataProvider();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarVisualDataProvider", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ConnectedPlayerAvatarVisualDataProvider(ConnectedPlayerAvatarVisualDataProvider&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarVisualDataProvider", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ConnectedPlayerAvatarVisualDataProvider(ConnectedPlayerAvatarVisualDataProvider && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarVisualDataProvider", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ConnectedPlayerAvatarVisualDataProvider(ConnectedPlayerAvatarVisualDataProvider const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerAvatarVisualDataProvider", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ConnectedPlayerAvatarVisualDataProvider(ConnectedPlayerAvatarVisualDataProvider const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21442 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21431};
+  /// @brief Field _connectedPlayer, offset: 0x10, size: 0x8, def value: None
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
-/// @brief Field _connectedPlayer, offset: 0x10, size: 0x8, def value: None
- ::GlobalNamespace::IBeatSaberConnectedPlayer*  ____connectedPlayer;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider, ____connectedPlayer) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatSaber::AvatarCore
+} // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider*, "BeatSaber.AvatarCore", "ConnectedPlayerAvatarVisualDataProvider");

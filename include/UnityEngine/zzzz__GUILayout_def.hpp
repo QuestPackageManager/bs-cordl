@@ -31,68 +31,68 @@ namespace UnityEngine {
 // CS Name: UnityEngine.GUILayout
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
-// Declarations
-/// @brief Method BeginArea, addr 0x697a43c, size 0xc4, virtual false, abstract: false, final false
-static inline void BeginArea(::UnityEngine::Rect  screenRect) ;
+  // Declarations
+  /// @brief Method BeginArea, addr 0x69ec684, size 0xc4, virtual false, abstract: false, final false
+  static inline void BeginArea(::UnityEngine::Rect screenRect);
 
-/// @brief Method BeginArea, addr 0x697a500, size 0x1d0, virtual false, abstract: false, final false
-static inline void BeginArea(::UnityEngine::Rect  screenRect, ::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style) ;
+  /// @brief Method BeginArea, addr 0x69ec748, size 0x1d0, virtual false, abstract: false, final false
+  static inline void BeginArea(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
 
-/// @brief Method BeginHorizontal, addr 0x6979a18, size 0x1a4, virtual false, abstract: false, final false
-static inline void BeginHorizontal(::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style, ::ArrayW<::UnityEngine::GUILayoutOption*,::Array<::UnityEngine::GUILayoutOption*>*>  options) ;
+  /// @brief Method BeginHorizontal, addr 0x69ebc60, size 0x1a4, virtual false, abstract: false, final false
+  static inline void BeginHorizontal(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-/// @brief Method BeginHorizontal, addr 0x697997c, size 0x9c, virtual false, abstract: false, final false
-static inline void BeginHorizontal(::ArrayW<::UnityEngine::GUILayoutOption*,::Array<::UnityEngine::GUILayoutOption*>*>  options) ;
+  /// @brief Method BeginHorizontal, addr 0x69ebbc4, size 0x9c, virtual false, abstract: false, final false
+  static inline void BeginHorizontal(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-/// @brief Method BeginVertical, addr 0x6979f98, size 0x1a4, virtual false, abstract: false, final false
-static inline void BeginVertical(::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style, ::ArrayW<::UnityEngine::GUILayoutOption*,::Array<::UnityEngine::GUILayoutOption*>*>  options) ;
+  /// @brief Method BeginVertical, addr 0x69ec1e0, size 0x1a4, virtual false, abstract: false, final false
+  static inline void BeginVertical(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-/// @brief Method BeginVertical, addr 0x6979efc, size 0x9c, virtual false, abstract: false, final false
-static inline void BeginVertical(::ArrayW<::UnityEngine::GUILayoutOption*,::Array<::UnityEngine::GUILayoutOption*>*>  options) ;
+  /// @brief Method BeginVertical, addr 0x69ec144, size 0x9c, virtual false, abstract: false, final false
+  static inline void BeginVertical(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-/// @brief Method DoLabel, addr 0x69794b4, size 0xd4, virtual false, abstract: false, final false
-static inline void DoLabel(::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style, ::ArrayW<::UnityEngine::GUILayoutOption*,::Array<::UnityEngine::GUILayoutOption*>*>  options) ;
+  /// @brief Method DoLabel, addr 0x69eb6fc, size 0xd4, virtual false, abstract: false, final false
+  static inline void DoLabel(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-/// @brief Method EndArea, addr 0x697a9d8, size 0x100, virtual false, abstract: false, final false
-static inline void EndArea() ;
+  /// @brief Method EndArea, addr 0x69ecc20, size 0x100, virtual false, abstract: false, final false
+  static inline void EndArea();
 
-/// @brief Method EndVertical, addr 0x697a13c, size 0x50, virtual false, abstract: false, final false
-static inline void EndVertical() ;
+  /// @brief Method EndVertical, addr 0x69ec384, size 0x50, virtual false, abstract: false, final false
+  static inline void EndVertical();
 
-/// @brief Method Height, addr 0x6978538, size 0x84, virtual false, abstract: false, final false
-static inline ::UnityEngine::GUILayoutOption* Height(float_t  height) ;
+  /// @brief Method Height, addr 0x69ea780, size 0x84, virtual false, abstract: false, final false
+  static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
-/// @brief Method Label, addr 0x6979404, size 0xb0, virtual false, abstract: false, final false
-static inline void Label(::StringW  text, ::ArrayW<::UnityEngine::GUILayoutOption*,::Array<::UnityEngine::GUILayoutOption*>*>  options) ;
+  /// @brief Method Label, addr 0x69eb64c, size 0xb0, virtual false, abstract: false, final false
+  static inline void Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-/// @brief Method Space, addr 0x69795f8, size 0x224, virtual false, abstract: false, final false
-static inline void Space(float_t  pixels) ;
+  /// @brief Method Space, addr 0x69eb840, size 0x224, virtual false, abstract: false, final false
+  static inline void Space(float_t pixels);
 
-/// @brief Method Width, addr 0x69784b8, size 0x80, virtual false, abstract: false, final false
-static inline ::UnityEngine::GUILayoutOption* Width(float_t  width) ;
+  /// @brief Method Width, addr 0x69ea700, size 0x80, virtual false, abstract: false, final false
+  static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GUILayout() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GUILayout();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GUILayout(GUILayout&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GUILayout(GUILayout && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GUILayout(GUILayout const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GUILayout(GUILayout const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19609 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19599};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUILayout, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::GUILayout);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUILayout*, "UnityEngine", "GUILayout");

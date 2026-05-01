@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "System/Runtime/CompilerServices/AsyncMethodBuilderAttribute.hpp"
 #include "System/Runtime/CompilerServices/AsyncMethodBuilderCore.hpp"
@@ -77,6 +77,5 @@
 #include "System/Runtime/CompilerServices/ValueTaskAwaiter_1.hpp"
 #include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 #ifdef __cpp_modules
-                    export module CompilerServices;
-                    #endif
-                
+export module CompilerServices;
+#endif

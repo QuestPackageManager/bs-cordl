@@ -4,116 +4,95 @@
 #include "GlobalNamespace/zzzz__RandomValueToShader_def.hpp"
 #include "GlobalNamespace/zzzz__IRandom_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RandomValueToShader.SetRandom
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomValueToShader::SetRandom)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)(::GlobalNamespace::IRandom*)>(
+    &::GlobalNamespace::RandomValueToShader::SetRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56b4f00;
+  constexpr static std::size_t addrs = 0x5722dec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
-                        "SetRandom",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(), "SetRandom", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RandomValueToShader.SetRandomValueToShaders
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(&::GlobalNamespace::RandomValueToShader::SetRandomValueToShaders)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(
+    &::GlobalNamespace::RandomValueToShader::SetRandomValueToShaders)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x56b4dd8;
+  constexpr static std::size_t addrs = 0x5722cc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
-                        "SetRandomValueToShaders",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
+                                                                               "SetRandomValueToShaders", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::RandomValueToShader._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(&::GlobalNamespace::RandomValueToShader::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x56b4f08;
+  constexpr static std::size_t addrs = 0x5722df4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::RandomValueToShader::__cordl_internal_get__random()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____random;
+constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::RandomValueToShader::__cordl_internal_get__random() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
 }
 constexpr ::GlobalNamespace::IRandom* const& GlobalNamespace::RandomValueToShader::__cordl_internal_get__random() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____random;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
 }
-constexpr void GlobalNamespace::RandomValueToShader::__cordl_internal_set__random(::GlobalNamespace::IRandom*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::RandomValueToShader::__cordl_internal_set__random(::GlobalNamespace::IRandom* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::RandomValueToShader::__cordl_internal_get__lastFrameNum()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastFrameNum;
+constexpr int32_t& GlobalNamespace::RandomValueToShader::__cordl_internal_get__lastFrameNum() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastFrameNum;
 }
 constexpr int32_t const& GlobalNamespace::RandomValueToShader::__cordl_internal_get__lastFrameNum() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____lastFrameNum;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastFrameNum;
 }
-constexpr void GlobalNamespace::RandomValueToShader::__cordl_internal_set__lastFrameNum(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____lastFrameNum = value;
+constexpr void GlobalNamespace::RandomValueToShader::__cordl_internal_set__lastFrameNum(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastFrameNum = value;
 }
-inline void GlobalNamespace::RandomValueToShader::setStaticF__randomValueID(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "_randomValueID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get>(std::forward<int32_t>(value));
+inline void GlobalNamespace::RandomValueToShader::setStaticF__randomValueID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_randomValueID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t GlobalNamespace::RandomValueToShader::getStaticF__randomValueID()  {
-return ::cordl_internals::getStaticField<int32_t, "_randomValueID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get>();
+inline int32_t GlobalNamespace::RandomValueToShader::getStaticF__randomValueID() {
+  return ::cordl_internals::getStaticField<int32_t, "_randomValueID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get>();
 }
-inline void GlobalNamespace::RandomValueToShader::SetRandom(::GlobalNamespace::IRandom*  random)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
-                        "SetRandom",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, random);
+inline void GlobalNamespace::RandomValueToShader::SetRandom(::GlobalNamespace::IRandom* random) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(), "SetRandom", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IRandom*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, random);
 }
-inline void GlobalNamespace::RandomValueToShader::SetRandomValueToShaders()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
-                        "SetRandomValueToShaders",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RandomValueToShader::SetRandomValueToShaders() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
+                                                                             "SetRandomValueToShaders", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RandomValueToShader::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::RandomValueToShader::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::RandomValueToShader* GlobalNamespace::RandomValueToShader::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RandomValueToShader*>());
+inline ::GlobalNamespace::RandomValueToShader* GlobalNamespace::RandomValueToShader::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RandomValueToShader*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::RandomValueToShader::RandomValueToShader()   {
-}
+constexpr ::GlobalNamespace::RandomValueToShader::RandomValueToShader() {}

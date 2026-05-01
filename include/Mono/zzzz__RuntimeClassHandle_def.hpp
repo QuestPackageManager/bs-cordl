@@ -24,58 +24,58 @@ struct RuntimeClassHandle;
 }
 // Write type traits
 MARK_VAL_T(::Mono::RuntimeClassHandle);
-// Dependencies 
+// Dependencies
 namespace Mono {
 // Is value type: true
 // CS Name: Mono.RuntimeClassHandle
 struct CORDL_TYPE RuntimeClassHandle {
 public:
-// Declarations
- __declspec(property(get=get_Value)) ::Mono::RuntimeStructs_MonoClass*  Value;
+  // Declarations
+  __declspec(property(get = get_Value)) ::Mono::RuntimeStructs_MonoClass* Value;
 
-/// @brief Method Equals, addr 0x58ff24c, size 0xe8, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  obj) ;
+  /// @brief Method Equals, addr 0x59711b8, size 0xe8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-/// @brief Method GetHashCode, addr 0x58ff334, size 0x8, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x59712a0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method GetTypeFromClass, addr 0x58ff33c, size 0x8, virtual false, abstract: false, final false
-static inline ::System::IntPtr GetTypeFromClass(::Mono::RuntimeStructs_MonoClass*  klass) ;
+  /// @brief Method GetTypeFromClass, addr 0x59712a8, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetTypeFromClass(::Mono::RuntimeStructs_MonoClass* klass);
 
-/// @brief Method GetTypeHandle, addr 0x58ff344, size 0xc, virtual false, abstract: false, final false
-inline ::System::RuntimeTypeHandle GetTypeHandle() ;
+  /// @brief Method GetTypeHandle, addr 0x59712b0, size 0xc, virtual false, abstract: false, final false
+  inline ::System::RuntimeTypeHandle GetTypeHandle();
 
-/// @brief Method .ctor, addr 0x58ff23c, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  ptr) ;
+  /// @brief Method .ctor, addr 0x59711a8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr ptr);
 
-/// @brief Method .ctor, addr 0x58ff234, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Mono::RuntimeStructs_MonoClass*  value) ;
+  /// @brief Method .ctor, addr 0x59711a0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Mono::RuntimeStructs_MonoClass* value);
 
-/// @brief Method get_Value, addr 0x58ff244, size 0x8, virtual false, abstract: false, final false
-inline ::Mono::RuntimeStructs_MonoClass* get_Value() ;
+  /// @brief Method get_Value, addr 0x59711b0, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::RuntimeStructs_MonoClass* get_Value();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr RuntimeClassHandle() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeClassHandle();
 
-// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }]
-constexpr RuntimeClassHandle(::Mono::RuntimeStructs_MonoClass*  value) noexcept;
+  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }]
+  constexpr RuntimeClassHandle(::Mono::RuntimeStructs_MonoClass* value) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2228};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2228 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field value, offset: 0x0, size: 0x8, def value: None
- ::Mono::RuntimeStructs_MonoClass*  value;
+  /// @brief Field value, offset: 0x0, size: 0x8, def value: None
+  ::Mono::RuntimeStructs_MonoClass* value;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::RuntimeClassHandle, value) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Mono::RuntimeClassHandle, 0x8>, "Size mismatch!");
 
-} // namespace end def Mono
+} // namespace Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");

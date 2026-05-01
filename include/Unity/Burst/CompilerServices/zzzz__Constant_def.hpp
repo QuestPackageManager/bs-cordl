@@ -17,36 +17,35 @@ namespace Unity::Burst::CompilerServices {
 // CS Name: Unity.Burst.CompilerServices.Constant
 class CORDL_TYPE Constant : public ::System::Object {
 public:
-// Declarations
-/// @brief Method IsConstantExpression, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-template<typename T>
-static inline bool IsConstantExpression(T  t) ;
+  // Declarations
+  /// @brief Method IsConstantExpression, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline bool IsConstantExpression(T t);
 
-/// @brief Method IsConstantExpression, addr 0x62f164c, size 0x8, virtual false, abstract: false, final false
-static inline bool IsConstantExpression(void*  t) ;
+  /// @brief Method IsConstantExpression, addr 0x6363658, size 0x8, virtual false, abstract: false, final false
+  static inline bool IsConstantExpression(void* t);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Constant() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Constant();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Constant(Constant&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Constant(Constant && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Constant(Constant const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Constant(Constant const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17350 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17342};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::CompilerServices::Constant, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Burst::CompilerServices
+} // namespace Unity::Burst::CompilerServices
 NEED_NO_BOX(::Unity::Burst::CompilerServices::Constant);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::CompilerServices::Constant*, "Unity.Burst.CompilerServices", "Constant");

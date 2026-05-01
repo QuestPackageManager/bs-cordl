@@ -23,42 +23,45 @@ struct ImageSource;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ImageSource);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.StyleSheets.ImageSource
 struct CORDL_TYPE ImageSource {
 public:
-// Declarations
-/// @brief Method IsNull, addr 0x6b475ec, size 0xec, virtual false, abstract: false, final false
-inline bool IsNull() ;
+  // Declarations
+  /// @brief Method IsNull, addr 0x6bb9834, size 0xec, virtual false, abstract: false, final false
+  inline bool IsNull();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr ImageSource() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ImageSource();
 
-// Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }, CppParam { name: "renderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }]
-constexpr ImageSource(::UnityW<::UnityEngine::Texture2D>  texture, ::UnityW<::UnityEngine::Sprite>  sprite, ::UnityW<::UnityEngine::UIElements::VectorImage>  vectorImage, ::UnityW<::UnityEngine::RenderTexture>  renderTexture) noexcept;
+  // Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>",
+  // modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }, CppParam { name: "renderTexture", ty:
+  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }]
+  constexpr ImageSource(::UnityW<::UnityEngine::Texture2D> texture, ::UnityW<::UnityEngine::Sprite> sprite, ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
+                        ::UnityW<::UnityEngine::RenderTexture> renderTexture) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5456};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5456 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
-/// @brief Field texture, offset: 0x0, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Texture2D>  texture;
+  /// @brief Field texture, offset: 0x0, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Texture2D> texture;
 
-/// @brief Field sprite, offset: 0x8, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Sprite>  sprite;
+  /// @brief Field sprite, offset: 0x8, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Sprite> sprite;
 
-/// @brief Field vectorImage, offset: 0x10, size: 0x8, def value: None
- ::UnityW<::UnityEngine::UIElements::VectorImage>  vectorImage;
+  /// @brief Field vectorImage, offset: 0x10, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
 
-/// @brief Field renderTexture, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::UnityEngine::RenderTexture>  renderTexture;
+  /// @brief Field renderTexture, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::RenderTexture> renderTexture;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ImageSource, texture) == 0x0, "Offset mismatch!");
@@ -71,5 +74,5 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ImageSource, rend
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::ImageSource, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements::StyleSheets
+} // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::ImageSource, "UnityEngine.UIElements.StyleSheets", "ImageSource");

@@ -29,38 +29,38 @@ namespace Unity::Mathematics::Geometry {
 // CS Name: Unity.Mathematics.Geometry.Math
 class CORDL_TYPE Math : public ::System::Object {
 public:
-// Declarations
-/// @brief Method Transform, addr 0x6467458, size 0x2d4, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform  transform, ::Unity::Mathematics::Geometry::MinMaxAABB  aabb) ;
+  // Declarations
+  /// @brief Method Transform, addr 0x64d9464, size 0x2d4, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-/// @brief Method Transform, addr 0x64678d0, size 0x18c, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3  transform, ::Unity::Mathematics::Geometry::MinMaxAABB  aabb) ;
+  /// @brief Method Transform, addr 0x64d98dc, size 0x18c, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-/// @brief Method Transform, addr 0x646772c, size 0x1a4, virtual false, abstract: false, final false
-static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4  transform, ::Unity::Mathematics::Geometry::MinMaxAABB  aabb) ;
+  /// @brief Method Transform, addr 0x64d9738, size 0x1a4, virtual false, abstract: false, final false
+  static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Math() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Math();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Math(Math&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Math(Math && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Math(Math const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Math(Math const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13195};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Mathematics::Geometry::Math, 0x10>, "Size mismatch!");
 
-} // namespace end def Unity::Mathematics::Geometry
+} // namespace Unity::Mathematics::Geometry
 NEED_NO_BOX(::Unity::Mathematics::Geometry::Math);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Mathematics::Geometry::Math*, "Unity.Mathematics.Geometry", "Math");

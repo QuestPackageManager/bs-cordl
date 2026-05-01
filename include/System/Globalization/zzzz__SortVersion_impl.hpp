@@ -3,5 +3,4 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__SortVersion_def.hpp"
 // Ctor Parameters []
-constexpr ::System::Globalization::SortVersion::SortVersion()   {
-}
+constexpr ::System::Globalization::SortVersion::SortVersion() {}

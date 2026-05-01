@@ -17,37 +17,37 @@ namespace UnityEditor::Analytics {
 // CS Name: UnityEditor.Analytics.PackageManagerRemovePackageAnalytic
 class CORDL_TYPE PackageManagerRemovePackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
-// Declarations
-/// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6c5a444, size 0x54, virtual false, abstract: false, final false
-static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* CreatePackageManagerRemovePackageAnalytic() ;
+  // Declarations
+  /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6ccc68c, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* CreatePackageManagerRemovePackageAnalytic();
 
-static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* New_ctor() ;
+  static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* New_ctor();
 
-/// @brief Method .ctor, addr 0x6c5a3b0, size 0x94, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6ccc5f8, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr PackageManagerRemovePackageAnalytic() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PackageManagerRemovePackageAnalytic();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22704 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22596};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic, 0x60>, "Size mismatch!");
 
-} // namespace end def UnityEditor::Analytics
+} // namespace UnityEditor::Analytics
 NEED_NO_BOX(::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic*, "UnityEditor.Analytics", "PackageManagerRemovePackageAnalytic");

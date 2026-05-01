@@ -21,37 +21,37 @@ namespace Org::BouncyCastle::Crypto::Prng {
 // CS Name: Org.BouncyCastle.Crypto.Prng.EntropyUtilities
 class CORDL_TYPE EntropyUtilities : public ::System::Object {
 public:
-// Declarations
-/// @brief Method GenerateSeed, addr 0x33228f0, size 0x164, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateSeed(::Org::BouncyCastle::Crypto::IEntropySource*  entropySource, int32_t  numBytes) ;
+  // Declarations
+  /// @brief Method GenerateSeed, addr 0x335ef34, size 0x164, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(::Org::BouncyCastle::Crypto::IEntropySource* entropySource, int32_t numBytes);
 
-static inline ::Org::BouncyCastle::Crypto::Prng::EntropyUtilities* New_ctor() ;
+  static inline ::Org::BouncyCastle::Crypto::Prng::EntropyUtilities* New_ctor();
 
-/// @brief Method .ctor, addr 0x3322a54, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x335f098, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EntropyUtilities() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EntropyUtilities();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EntropyUtilities", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EntropyUtilities(EntropyUtilities&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EntropyUtilities", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EntropyUtilities(EntropyUtilities && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EntropyUtilities", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EntropyUtilities(EntropyUtilities const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EntropyUtilities", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EntropyUtilities(EntropyUtilities const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1108 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1108};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::EntropyUtilities, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Prng
+} // namespace Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::EntropyUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::EntropyUtilities*, "Org.BouncyCastle.Crypto.Prng", "EntropyUtilities");

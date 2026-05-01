@@ -62,203 +62,204 @@ namespace UnityEngine {
 // CS Name: UnityEngine.CullingGroup/StateChanged
 class CORDL_TYPE CullingGroup_StateChanged : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x68a9ac4, size 0x14, virtual true, abstract: false, final false
-inline void Invoke(::UnityEngine::CullingGroupEvent  sphere) ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x691bce0, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
-static inline ::UnityEngine::CullingGroup_StateChanged* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::UnityEngine::CullingGroup_StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x68a9a58, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x691bc74, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CullingGroup_StateChanged() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CullingGroup_StateChanged();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_StateChanged", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CullingGroup_StateChanged(CullingGroup_StateChanged&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CullingGroup_StateChanged", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CullingGroup_StateChanged(CullingGroup_StateChanged && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_StateChanged", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CullingGroup_StateChanged(CullingGroup_StateChanged const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CullingGroup_StateChanged", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CullingGroup_StateChanged(CullingGroup_StateChanged const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10083 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10077};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroup_StateChanged, 0x80>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.CullingGroup/BindingsMarshaller
 class CORDL_TYPE CullingGroup_BindingsMarshaller : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ConvertToNative, addr 0x68a9ad8, size 0x14, virtual false, abstract: false, final false
-static inline ::System::IntPtr ConvertToNative(::UnityEngine::CullingGroup*  cullingGroup) ;
+  // Declarations
+  /// @brief Method ConvertToNative, addr 0x691bcf4, size 0x14, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ConvertToNative(::UnityEngine::CullingGroup* cullingGroup);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CullingGroup_BindingsMarshaller() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CullingGroup_BindingsMarshaller();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CullingGroup_BindingsMarshaller(CullingGroup_BindingsMarshaller&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CullingGroup_BindingsMarshaller", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CullingGroup_BindingsMarshaller(CullingGroup_BindingsMarshaller && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CullingGroup_BindingsMarshaller(CullingGroup_BindingsMarshaller const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CullingGroup_BindingsMarshaller", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CullingGroup_BindingsMarshaller(CullingGroup_BindingsMarshaller const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10084 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10078};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroup_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.CullingGroup
 class CORDL_TYPE CullingGroup : public ::System::Object {
 public:
-// Declarations
-using BindingsMarshaller = ::UnityEngine::CullingGroup_BindingsMarshaller;
+  // Declarations
+  using BindingsMarshaller = ::UnityEngine::CullingGroup_BindingsMarshaller;
 
-using StateChanged = ::UnityEngine::CullingGroup_StateChanged;
+  using StateChanged = ::UnityEngine::CullingGroup_StateChanged;
 
-/// @brief Field m_OnStateChanged, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_OnStateChanged, put=__cordl_internal_set_m_OnStateChanged)) ::UnityEngine::CullingGroup_StateChanged*  m_OnStateChanged;
+  /// @brief Field m_OnStateChanged, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_OnStateChanged, put = __cordl_internal_set_m_OnStateChanged)) ::UnityEngine::CullingGroup_StateChanged* m_OnStateChanged;
 
-/// @brief Field m_Ptr, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
+  /// @brief Field m_Ptr, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
- __declspec(property(put=set_targetCamera)) ::UnityW<::UnityEngine::Camera>  targetCamera;
+  __declspec(property(put = set_targetCamera)) ::UnityW<::UnityEngine::Camera> targetCamera;
 
-/// @brief Convert operator to "::System::IDisposable"
-constexpr operator  ::System::IDisposable*() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-/// @brief Method Dispose, addr 0x68a93f4, size 0x18, virtual true, abstract: false, final true
-inline void Dispose() ;
+  /// @brief Method Dispose, addr 0x691b610, size 0x18, virtual true, abstract: false, final true
+  inline void Dispose();
 
-/// @brief Method DisposeInternal, addr 0x68a9368, size 0x50, virtual false, abstract: false, final false
-inline void DisposeInternal() ;
+  /// @brief Method DisposeInternal, addr 0x691b584, size 0x50, virtual false, abstract: false, final false
+  inline void DisposeInternal();
 
-/// @brief Method DisposeInternal_Injected, addr 0x68a93b8, size 0x3c, virtual false, abstract: false, final false
-static inline void DisposeInternal_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method DisposeInternal_Injected, addr 0x691b5d4, size 0x3c, virtual false, abstract: false, final false
+  static inline void DisposeInternal_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method Finalize, addr 0x68a92cc, size 0x4c, virtual true, abstract: false, final false
-inline void Finalize() ;
+  /// @brief Method Finalize, addr 0x691b4e8, size 0x4c, virtual true, abstract: false, final false
+  inline void Finalize();
 
-/// @brief Method FinalizerFailure, addr 0x68a9318, size 0x50, virtual false, abstract: false, final false
-inline void FinalizerFailure() ;
+  /// @brief Method FinalizerFailure, addr 0x691b534, size 0x50, virtual false, abstract: false, final false
+  inline void FinalizerFailure();
 
-/// @brief Method FinalizerFailure_Injected, addr 0x68a9a1c, size 0x3c, virtual false, abstract: false, final false
-static inline void FinalizerFailure_Injected(::System::IntPtr  _unity_self) ;
+  /// @brief Method FinalizerFailure_Injected, addr 0x691bc38, size 0x3c, virtual false, abstract: false, final false
+  static inline void FinalizerFailure_Injected(::System::IntPtr _unity_self);
 
-/// @brief Method Init, addr 0x68a9290, size 0x3c, virtual false, abstract: false, final false
-static inline ::System::IntPtr Init(::System::Object*  scripting) ;
+  /// @brief Method Init, addr 0x691b4ac, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Init(::System::Object* scripting);
 
-static inline ::UnityEngine::CullingGroup* New_ctor() ;
+  static inline ::UnityEngine::CullingGroup* New_ctor();
 
-/// @brief Method QueryIndices, addr 0x68a9648, size 0x120, virtual false, abstract: false, final false
-inline int32_t QueryIndices(bool  visible, int32_t  distanceIndex, ::UnityEngine::CullingQueryOptions  options, ::ArrayW<int32_t,::Array<int32_t>*>  result, int32_t  firstIndex) ;
+  /// @brief Method QueryIndices, addr 0x691b864, size 0x120, virtual false, abstract: false, final false
+  inline int32_t QueryIndices(bool visible, int32_t distanceIndex, ::UnityEngine::CullingQueryOptions options, ::ArrayW<int32_t, ::Array<int32_t>*> result, int32_t firstIndex);
 
-/// @brief Method QueryIndices, addr 0x68a9634, size 0x14, virtual false, abstract: false, final false
-inline int32_t QueryIndices(bool  visible, ::ArrayW<int32_t,::Array<int32_t>*>  result, int32_t  firstIndex) ;
+  /// @brief Method QueryIndices, addr 0x691b850, size 0x14, virtual false, abstract: false, final false
+  inline int32_t QueryIndices(bool visible, ::ArrayW<int32_t, ::Array<int32_t>*> result, int32_t firstIndex);
 
-/// @brief Method QueryIndices_Injected, addr 0x68a9768, size 0x74, virtual false, abstract: false, final false
-static inline int32_t QueryIndices_Injected(::System::IntPtr  _unity_self, bool  visible, int32_t  distanceIndex, ::UnityEngine::CullingQueryOptions  options, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  result, int32_t  firstIndex) ;
+  /// @brief Method QueryIndices_Injected, addr 0x691b984, size 0x74, virtual false, abstract: false, final false
+  static inline int32_t QueryIndices_Injected(::System::IntPtr _unity_self, bool visible, int32_t distanceIndex, ::UnityEngine::CullingQueryOptions options,
+                                              ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> result, int32_t firstIndex);
 
-/// @brief Method SendEvents, addr 0x68a99c0, size 0x5c, virtual false, abstract: false, final false
-static inline void SendEvents(::UnityEngine::CullingGroup*  cullingGroup, ::System::IntPtr  eventsPtr, int32_t  count) ;
+  /// @brief Method SendEvents, addr 0x691bbdc, size 0x5c, virtual false, abstract: false, final false
+  static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
-/// @brief Method SetBoundingDistances, addr 0x68a97dc, size 0xf0, virtual false, abstract: false, final false
-inline void SetBoundingDistances(::ArrayW<float_t,::Array<float_t>*>  distances) ;
+  /// @brief Method SetBoundingDistances, addr 0x691b9f8, size 0xf0, virtual false, abstract: false, final false
+  inline void SetBoundingDistances(::ArrayW<float_t, ::Array<float_t>*> distances);
 
-/// @brief Method SetBoundingDistances_Injected, addr 0x68a98cc, size 0x44, virtual false, abstract: false, final false
-static inline void SetBoundingDistances_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  distances) ;
+  /// @brief Method SetBoundingDistances_Injected, addr 0x691bae8, size 0x44, virtual false, abstract: false, final false
+  static inline void SetBoundingDistances_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> distances);
 
-/// @brief Method SetBoundingSphereCount, addr 0x68a9598, size 0x58, virtual false, abstract: false, final false
-inline void SetBoundingSphereCount(int32_t  count) ;
+  /// @brief Method SetBoundingSphereCount, addr 0x691b7b4, size 0x58, virtual false, abstract: false, final false
+  inline void SetBoundingSphereCount(int32_t count);
 
-/// @brief Method SetBoundingSphereCount_Injected, addr 0x68a95f0, size 0x44, virtual false, abstract: false, final false
-static inline void SetBoundingSphereCount_Injected(::System::IntPtr  _unity_self, int32_t  count) ;
+  /// @brief Method SetBoundingSphereCount_Injected, addr 0x691b80c, size 0x44, virtual false, abstract: false, final false
+  static inline void SetBoundingSphereCount_Injected(::System::IntPtr _unity_self, int32_t count);
 
-/// @brief Method SetBoundingSpheres, addr 0x68a94fc, size 0x58, virtual false, abstract: false, final false
-inline void SetBoundingSpheres(::ArrayW<::UnityEngine::BoundingSphere,::Array<::UnityEngine::BoundingSphere>*>  array) ;
+  /// @brief Method SetBoundingSpheres, addr 0x691b718, size 0x58, virtual false, abstract: false, final false
+  inline void SetBoundingSpheres(::ArrayW<::UnityEngine::BoundingSphere, ::Array<::UnityEngine::BoundingSphere>*> array);
 
-/// @brief Method SetBoundingSpheres_Injected, addr 0x68a9554, size 0x44, virtual false, abstract: false, final false
-static inline void SetBoundingSpheres_Injected(::System::IntPtr  _unity_self, ::ArrayW<::UnityEngine::BoundingSphere,::Array<::UnityEngine::BoundingSphere>*>  array) ;
+  /// @brief Method SetBoundingSpheres_Injected, addr 0x691b770, size 0x44, virtual false, abstract: false, final false
+  static inline void SetBoundingSpheres_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::BoundingSphere, ::Array<::UnityEngine::BoundingSphere>*> array);
 
-/// @brief Method SetDistanceReferencePoint, addr 0x68a99bc, size 0x4, virtual false, abstract: false, final false
-inline void SetDistanceReferencePoint(::UnityEngine::Vector3  point) ;
+  /// @brief Method SetDistanceReferencePoint, addr 0x691bbd8, size 0x4, virtual false, abstract: false, final false
+  inline void SetDistanceReferencePoint(::UnityEngine::Vector3 point);
 
-/// @brief Method SetDistanceReferencePoint_InternalVector3, addr 0x68a9910, size 0x68, virtual false, abstract: false, final false
-inline void SetDistanceReferencePoint_InternalVector3(::UnityEngine::Vector3  point) ;
+  /// @brief Method SetDistanceReferencePoint_InternalVector3, addr 0x691bb2c, size 0x68, virtual false, abstract: false, final false
+  inline void SetDistanceReferencePoint_InternalVector3(::UnityEngine::Vector3 point);
 
-/// @brief Method SetDistanceReferencePoint_InternalVector3_Injected, addr 0x68a9978, size 0x44, virtual false, abstract: false, final false
-static inline void SetDistanceReferencePoint_InternalVector3_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  point) ;
+  /// @brief Method SetDistanceReferencePoint_InternalVector3_Injected, addr 0x691bb94, size 0x44, virtual false, abstract: false, final false
+  static inline void SetDistanceReferencePoint_InternalVector3_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> point);
 
-constexpr ::UnityEngine::CullingGroup_StateChanged* const& __cordl_internal_get_m_OnStateChanged() const;
+  constexpr ::UnityEngine::CullingGroup_StateChanged* const& __cordl_internal_get_m_OnStateChanged() const;
 
-constexpr ::UnityEngine::CullingGroup_StateChanged*& __cordl_internal_get_m_OnStateChanged() ;
+  constexpr ::UnityEngine::CullingGroup_StateChanged*& __cordl_internal_get_m_OnStateChanged();
 
-constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-constexpr void __cordl_internal_set_m_OnStateChanged(::UnityEngine::CullingGroup_StateChanged*  value) ;
+  constexpr void __cordl_internal_set_m_OnStateChanged(::UnityEngine::CullingGroup_StateChanged* value);
 
-constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-/// @brief Method .ctor, addr 0x68a9248, size 0x48, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x691b464, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-/// @brief Method set_targetCamera, addr 0x68a940c, size 0xac, virtual false, abstract: false, final false
-inline void set_targetCamera(::UnityEngine::Camera*  value) ;
+  /// @brief Method set_targetCamera, addr 0x691b628, size 0xac, virtual false, abstract: false, final false
+  inline void set_targetCamera(::UnityEngine::Camera* value);
 
-/// @brief Method set_targetCamera_Injected, addr 0x68a94b8, size 0x44, virtual false, abstract: false, final false
-static inline void set_targetCamera_Injected(::System::IntPtr  _unity_self, ::System::IntPtr  value) ;
+  /// @brief Method set_targetCamera_Injected, addr 0x691b6d4, size 0x44, virtual false, abstract: false, final false
+  static inline void set_targetCamera_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr CullingGroup() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CullingGroup();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CullingGroup(CullingGroup&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CullingGroup", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-CullingGroup(CullingGroup && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CullingGroup(CullingGroup const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "CullingGroup", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-CullingGroup(CullingGroup const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10085 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10079};
+  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+  ::System::IntPtr ___m_Ptr;
 
-/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
- ::System::IntPtr  ___m_Ptr;
+  /// @brief Field m_OnStateChanged, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::CullingGroup_StateChanged* ___m_OnStateChanged;
 
-/// @brief Field m_OnStateChanged, offset: 0x18, size: 0x8, def value: None
- ::UnityEngine::CullingGroup_StateChanged*  ___m_OnStateChanged;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::CullingGroup, ___m_Ptr) == 0x10, "Offset mismatch!");
@@ -267,7 +268,7 @@ static_assert(offsetof(::UnityEngine::CullingGroup, ___m_OnStateChanged) == 0x18
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroup, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::CullingGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
 NEED_NO_BOX(::UnityEngine::CullingGroup_BindingsMarshaller);

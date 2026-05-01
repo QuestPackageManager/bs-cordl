@@ -23,48 +23,48 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.SendInvitesResult
 class CORDL_TYPE SendInvitesResult : public ::System::Object {
 public:
-// Declarations
-/// @brief Field Invites, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_Invites, put=__cordl_internal_set_Invites)) ::Oculus::Platform::Models::ApplicationInviteList*  Invites;
+  // Declarations
+  /// @brief Field Invites, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_Invites, put = __cordl_internal_set_Invites)) ::Oculus::Platform::Models::ApplicationInviteList* Invites;
 
-static inline ::Oculus::Platform::Models::SendInvitesResult* New_ctor(::System::IntPtr  o) ;
+  static inline ::Oculus::Platform::Models::SendInvitesResult* New_ctor(::System::IntPtr o);
 
-constexpr ::Oculus::Platform::Models::ApplicationInviteList* const& __cordl_internal_get_Invites() const;
+  constexpr ::Oculus::Platform::Models::ApplicationInviteList* const& __cordl_internal_get_Invites() const;
 
-constexpr ::Oculus::Platform::Models::ApplicationInviteList*& __cordl_internal_get_Invites() ;
+  constexpr ::Oculus::Platform::Models::ApplicationInviteList*& __cordl_internal_get_Invites();
 
-constexpr void __cordl_internal_set_Invites(::Oculus::Platform::Models::ApplicationInviteList*  value) ;
+  constexpr void __cordl_internal_set_Invites(::Oculus::Platform::Models::ApplicationInviteList* value);
 
-/// @brief Method .ctor, addr 0x5c446c0, size 0xa8, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  o) ;
+  /// @brief Method .ctor, addr 0x5cb66a8, size 0xa8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SendInvitesResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SendInvitesResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SendInvitesResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SendInvitesResult(SendInvitesResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SendInvitesResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SendInvitesResult(SendInvitesResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SendInvitesResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SendInvitesResult(SendInvitesResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SendInvitesResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SendInvitesResult(SendInvitesResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18073 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18065};
+  /// @brief Field Invites, offset: 0x10, size: 0x8, def value: None
+  ::Oculus::Platform::Models::ApplicationInviteList* ___Invites;
 
-/// @brief Field Invites, offset: 0x10, size: 0x8, def value: None
- ::Oculus::Platform::Models::ApplicationInviteList*  ___Invites;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::SendInvitesResult, ___Invites) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SendInvitesResult, 0x18>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::SendInvitesResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::SendInvitesResult*, "Oculus.Platform.Models", "SendInvitesResult");

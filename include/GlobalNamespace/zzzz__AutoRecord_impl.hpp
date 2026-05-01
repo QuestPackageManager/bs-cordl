@@ -14,157 +14,167 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteLineCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "items", ty: "::ArrayW<::GlobalNamespace::BeatmapDataItem*,::Array<::GlobalNamespace::BeatmapDataItem*>*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::AutoRecord_Beatmap::AutoRecord_Beatmap(float_t  beatsPerMinute, int32_t  noteLineCount, ::ArrayW<::GlobalNamespace::BeatmapDataItem*,::Array<::GlobalNamespace::BeatmapDataItem*>*>  items) noexcept  {
-this->beatsPerMinute = beatsPerMinute;
-this->noteLineCount = noteLineCount;
-this->items = items;
+// Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteLineCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "items", ty: "::ArrayW<::GlobalNamespace::BeatmapDataItem*,::Array<::GlobalNamespace::BeatmapDataItem*>*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::AutoRecord_Beatmap::AutoRecord_Beatmap(float_t beatsPerMinute, int32_t noteLineCount,
+                                                                    ::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*> items) noexcept {
+  this->beatsPerMinute = beatsPerMinute;
+  this->noteLineCount = noteLineCount;
+  this->items = items;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AutoRecord_Beatmap::AutoRecord_Beatmap()   {
-}
+constexpr ::GlobalNamespace::AutoRecord_Beatmap::AutoRecord_Beatmap() {}
 //  Writing Method size for method: ::GlobalNamespace::AutoRecord.CreatePlayerPoseFrames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::ByRef<::GlobalNamespace::AutoRecord_Beatmap>)>(&::GlobalNamespace::AutoRecord::CreatePlayerPoseFrames)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::ByRef<::GlobalNamespace::AutoRecord_Beatmap>)>(
+    &::GlobalNamespace::AutoRecord::CreatePlayerPoseFrames)> {
   constexpr static std::size_t size = 0x8fc;
-  constexpr static std::size_t addrs = 0x5765ea8;
+  constexpr static std::size_t addrs = 0x57d5fb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "CreatePlayerPoseFrames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::AutoRecord_Beatmap>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "CreatePlayerPoseFrames", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::AutoRecord_Beatmap>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AutoRecord.AddNoteHandFrames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::NoteData*, int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>, ::ArrayW<::GlobalNamespace::NoteCutDirection,::Array<::GlobalNamespace::NoteCutDirection>*>)>(&::GlobalNamespace::AutoRecord::AddNoteHandFrames)> {
-  constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x57667e4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::GlobalNamespace::NoteData*, int32_t, float_t, float_t, ::UnityEngine::Quaternion,
+                         ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>,
+                         ::ArrayW<::GlobalNamespace::NoteCutDirection, ::Array<::GlobalNamespace::NoteCutDirection>*>)>(&::GlobalNamespace::AutoRecord::AddNoteHandFrames)> {
+  constexpr static std::size_t size = 0x490;
+  constexpr static std::size_t addrs = 0x57d68f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "AddNoteHandFrames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::NoteCutDirection,::Array<::GlobalNamespace::NoteCutDirection>*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "AddNoteHandFrames", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::NoteCutDirection, ::Array<::GlobalNamespace::NoteCutDirection>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AutoRecord.AddSliderHandFrames
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::SliderData*, int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>)>(&::GlobalNamespace::AutoRecord::AddSliderHandFrames)> {
-  constexpr static std::size_t size = 0x5bc;
-  constexpr static std::size_t addrs = 0x5766cac;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::GlobalNamespace::SliderData*, int32_t, float_t, float_t, ::UnityEngine::Quaternion,
+                         ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>)>(
+        &::GlobalNamespace::AutoRecord::AddSliderHandFrames)> {
+  constexpr static std::size_t size = 0x590;
+  constexpr static std::size_t addrs = 0x57d6d84;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "AddSliderHandFrames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "AddSliderHandFrames", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AutoRecord.LocateCutPosition
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::AutoRecord::LocateCutPosition)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(
+    &::GlobalNamespace::AutoRecord::LocateCutPosition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x57667a4;
+  constexpr static std::size_t addrs = 0x57d68b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "LocateCutPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "LocateCutPosition", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AutoRecord._CreatePlayerPoseFrames_g__FixFrames_1_0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame,::Array<::BeatSaber::RecPlay::PoseFrame>*>)>(&::GlobalNamespace::AutoRecord::_CreatePlayerPoseFrames_g__FixFrames_1_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>)>(
+    &::GlobalNamespace::AutoRecord::_CreatePlayerPoseFrames_g__FixFrames_1_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5767268;
+  constexpr static std::size_t addrs = 0x57d7314;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "<CreatePlayerPoseFrames>g__FixFrames|1_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::BeatSaber::RecPlay::PoseFrame,::Array<::BeatSaber::RecPlay::PoseFrame>*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "<CreatePlayerPoseFrames>g__FixFrames|1_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::AutoRecord::setStaticF_kCutStartOffset(::UnityEngine::Pose  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Pose, "kCutStartOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>(std::forward<::UnityEngine::Pose>(value));
+inline void GlobalNamespace::AutoRecord::setStaticF_kCutStartOffset(::UnityEngine::Pose value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Pose, "kCutStartOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>(
+      std::forward<::UnityEngine::Pose>(value));
 }
-inline ::UnityEngine::Pose GlobalNamespace::AutoRecord::getStaticF_kCutStartOffset()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Pose, "kCutStartOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>();
+inline ::UnityEngine::Pose GlobalNamespace::AutoRecord::getStaticF_kCutStartOffset() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Pose, "kCutStartOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>();
 }
-inline void GlobalNamespace::AutoRecord::setStaticF_kCutEndOffset(::UnityEngine::Pose  value)  {
-::cordl_internals::setStaticField<::UnityEngine::Pose, "kCutEndOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>(std::forward<::UnityEngine::Pose>(value));
+inline void GlobalNamespace::AutoRecord::setStaticF_kCutEndOffset(::UnityEngine::Pose value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Pose, "kCutEndOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>(
+      std::forward<::UnityEngine::Pose>(value));
 }
-inline ::UnityEngine::Pose GlobalNamespace::AutoRecord::getStaticF_kCutEndOffset()  {
-return ::cordl_internals::getStaticField<::UnityEngine::Pose, "kCutEndOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>();
+inline ::UnityEngine::Pose GlobalNamespace::AutoRecord::getStaticF_kCutEndOffset() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Pose, "kCutEndOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get>();
 }
-inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::AutoRecord::CreatePlayerPoseFrames(::ByRef<::GlobalNamespace::AutoRecord_Beatmap>  beatmap)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "CreatePlayerPoseFrames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::AutoRecord_Beatmap>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::BeatSaber::RecPlay::PlayerPoseFrames, false>(nullptr, ___internal_method, beatmap);
+inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::AutoRecord::CreatePlayerPoseFrames(::ByRef<::GlobalNamespace::AutoRecord_Beatmap> beatmap) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "CreatePlayerPoseFrames", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::AutoRecord_Beatmap>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::RecPlay::PlayerPoseFrames, false>(nullptr, ___internal_method, beatmap);
 }
-inline void GlobalNamespace::AutoRecord::AddNoteHandFrames(::GlobalNamespace::NoteData*  note, int32_t  noteLineCount, float_t  cutStart, float_t  cutEnd, ::UnityEngine::Quaternion  trackOrientation, ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>  handFrames, ::ArrayW<::GlobalNamespace::NoteCutDirection,::Array<::GlobalNamespace::NoteCutDirection>*>  lastCutDirections)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "AddNoteHandFrames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::NoteCutDirection,::Array<::GlobalNamespace::NoteCutDirection>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, note, noteLineCount, cutStart, cutEnd, trackOrientation, handFrames, lastCutDirections);
+inline void GlobalNamespace::AutoRecord::AddNoteHandFrames(
+    ::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
+    ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames,
+    ::ArrayW<::GlobalNamespace::NoteCutDirection, ::Array<::GlobalNamespace::NoteCutDirection>*> lastCutDirections) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "AddNoteHandFrames", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::NoteCutDirection, ::Array<::GlobalNamespace::NoteCutDirection>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, note, noteLineCount, cutStart, cutEnd, trackOrientation, handFrames, lastCutDirections);
 }
-inline void GlobalNamespace::AutoRecord::AddSliderHandFrames(::GlobalNamespace::SliderData*  slider, int32_t  noteLineCount, float_t  cutStart, float_t  cutEnd, ::UnityEngine::Quaternion  trackOrientation, ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>  handFrames)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "AddSliderHandFrames",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, slider, noteLineCount, cutStart, cutEnd, trackOrientation, handFrames);
+inline void GlobalNamespace::AutoRecord::AddSliderHandFrames(
+    ::GlobalNamespace::SliderData* slider, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
+    ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "AddSliderHandFrames", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+              ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, slider, noteLineCount, cutStart, cutEnd, trackOrientation, handFrames);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::AutoRecord::LocateCutPosition(int32_t  lineCount, int32_t  line, ::GlobalNamespace::NoteLineLayer  layer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "LocateCutPosition",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, lineCount, line, layer);
+inline ::UnityEngine::Vector3 GlobalNamespace::AutoRecord::LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "LocateCutPosition", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, lineCount, line, layer);
 }
-inline int32_t GlobalNamespace::AutoRecord::_CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame,::Array<::BeatSaber::RecPlay::PoseFrame>*>  frames)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(),
-                        "<CreatePlayerPoseFrames>g__FixFrames|1_0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::BeatSaber::RecPlay::PoseFrame,::Array<::BeatSaber::RecPlay::PoseFrame>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, frames);
+inline int32_t GlobalNamespace::AutoRecord::_CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoRecord*>::get(), "<CreatePlayerPoseFrames>g__FixFrames|1_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, frames);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AutoRecord::AutoRecord()   {
-}
+constexpr ::GlobalNamespace::AutoRecord::AutoRecord() {}

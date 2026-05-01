@@ -31,68 +31,68 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.DerUtf8String
 class CORDL_TYPE DerUtf8String : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
-// Declarations
-/// @brief Field str, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_str, put=__cordl_internal_set_str)) ::StringW  str;
+  // Declarations
+  /// @brief Field str, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str)) ::StringW str;
 
-/// @brief Method Asn1Equals, addr 0x3596d84, size 0xa8, virtual true, abstract: false, final false
-inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object*  asn1Object) ;
+  /// @brief Method Asn1Equals, addr 0x35d33c8, size 0xa8, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-/// @brief Method Encode, addr 0x3596e2c, size 0x50, virtual true, abstract: false, final false
-inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream*  derOut) ;
+  /// @brief Method Encode, addr 0x35d3470, size 0x50, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-/// @brief Method GetInstance, addr 0x3596c30, size 0xf4, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
+  /// @brief Method GetInstance, addr 0x35d3274, size 0xf4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-/// @brief Method GetInstance, addr 0x3596b44, size 0xec, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x35d3188, size 0xec, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetInstance(::System::Object* obj);
 
-/// @brief Method GetString, addr 0x3596d7c, size 0x8, virtual true, abstract: false, final false
-inline ::StringW GetString() ;
+  /// @brief Method GetString, addr 0x35d33c0, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW GetString();
 
-static inline ::Org::BouncyCastle::Asn1::DerUtf8String* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  str) ;
+  static inline ::Org::BouncyCastle::Asn1::DerUtf8String* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-static inline ::Org::BouncyCastle::Asn1::DerUtf8String* New_ctor(::StringW  str) ;
+  static inline ::Org::BouncyCastle::Asn1::DerUtf8String* New_ctor(::StringW str);
 
-constexpr ::StringW const& __cordl_internal_get_str() const;
+  constexpr ::StringW const& __cordl_internal_get_str() const;
 
-constexpr ::StringW& __cordl_internal_get_str() ;
+  constexpr ::StringW& __cordl_internal_get_str();
 
-constexpr void __cordl_internal_set_str(::StringW  value) ;
+  constexpr void __cordl_internal_set_str(::StringW value);
 
-/// @brief Method .ctor, addr 0x3588e80, size 0x54, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  str) ;
+  /// @brief Method .ctor, addr 0x35c54c4, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-/// @brief Method .ctor, addr 0x3596d24, size 0x58, virtual false, abstract: false, final false
-inline void _ctor(::StringW  str) ;
+  /// @brief Method .ctor, addr 0x35d3368, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::StringW str);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DerUtf8String() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerUtf8String();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DerUtf8String", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DerUtf8String(DerUtf8String&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DerUtf8String", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DerUtf8String(DerUtf8String && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DerUtf8String", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DerUtf8String(DerUtf8String const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DerUtf8String", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DerUtf8String(DerUtf8String const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 520 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{520};
+  /// @brief Field str, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___str;
 
-/// @brief Field str, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___str;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::DerUtf8String, ___str) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerUtf8String, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1
+} // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerUtf8String);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerUtf8String*, "Org.BouncyCastle.Asn1", "DerUtf8String");

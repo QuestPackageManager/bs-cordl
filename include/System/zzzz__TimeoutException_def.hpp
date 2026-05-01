@@ -24,44 +24,44 @@ namespace System {
 // CS Name: System.TimeoutException
 class CORDL_TYPE TimeoutException : public ::System::SystemException {
 public:
-// Declarations
-static inline ::System::TimeoutException* New_ctor() ;
+  // Declarations
+  static inline ::System::TimeoutException* New_ctor();
 
-static inline ::System::TimeoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  static inline ::System::TimeoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-static inline ::System::TimeoutException* New_ctor(::StringW  message) ;
+  static inline ::System::TimeoutException* New_ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x5ab05e0, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5b225c8, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x5ab065c, size 0x4, virtual false, abstract: false, final false
-inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+  /// @brief Method .ctor, addr 0x5b22644, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-/// @brief Method .ctor, addr 0x5ab063c, size 0x20, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5b22624, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TimeoutException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimeoutException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TimeoutException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TimeoutException(TimeoutException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TimeoutException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TimeoutException(TimeoutException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TimeoutException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TimeoutException(TimeoutException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TimeoutException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TimeoutException(TimeoutException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2492 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2492};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TimeoutException, 0x90>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 NEED_NO_BOX(::System::TimeoutException);
 DEFINE_IL2CPP_ARG_TYPE(::System::TimeoutException*, "System", "TimeoutException");

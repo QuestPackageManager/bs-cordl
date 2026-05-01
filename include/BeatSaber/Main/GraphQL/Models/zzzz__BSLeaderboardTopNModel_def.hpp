@@ -33,8 +33,7 @@ namespace OculusStudios::GraphQL::Client {
 class IFragment;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::Models {
@@ -66,375 +65,437 @@ MARK_REF_PTR_T(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
 // CS Name: BeatSaber.Main.GraphQL.Models.BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel/LeaderboardEntriesPageModel/NodesModel
-class CORDL_TYPE LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
+class CORDL_TYPE LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel
+    : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
-// Declarations
- __declspec(property(get=get_LeaderboardEntryWithRank, put=set_LeaderboardEntryWithRank)) ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*  LeaderboardEntryWithRank;
+  // Declarations
+  __declspec(property(get = get_LeaderboardEntryWithRank, put = set_LeaderboardEntryWithRank)) ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* LeaderboardEntryWithRank;
 
-/// @brief Field <LeaderboardEntryWithRank>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__LeaderboardEntryWithRank_k__BackingField, put=__cordl_internal_set__LeaderboardEntryWithRank_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*  _LeaderboardEntryWithRank_k__BackingField;
+  /// @brief Field <LeaderboardEntryWithRank>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__LeaderboardEntryWithRank_k__BackingField,
+                      put =
+                          __cordl_internal_set__LeaderboardEntryWithRank_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* _LeaderboardEntryWithRank_k__BackingField;
 
-/// @brief Convert operator to "::OculusStudios::GraphQL::Client::IFragment"
-constexpr operator  ::OculusStudios::GraphQL::Client::IFragment*() noexcept;
+  /// @brief Convert operator to "::OculusStudios::GraphQL::Client::IFragment"
+  constexpr operator ::OculusStudios::GraphQL::Client::IFragment*() noexcept;
 
-/// @brief Method CovertNestedFragments, addr 0x31cb9d4, size 0xd0, virtual true, abstract: false, final true
-inline void CovertNestedFragments(::Newtonsoft::Json::Linq::JToken*  token) ;
+  /// @brief Method CovertNestedFragments, addr 0x3207b90, size 0xd0, virtual true, abstract: false, final true
+  inline void CovertNestedFragments(::Newtonsoft::Json::Linq::JToken* token);
 
-/// @brief Method GetNestedFragment, addr 0x31cbaa4, size 0x8, virtual true, abstract: false, final true
-inline ::OculusStudios::GraphQL::Client::GraphQLModel* GetNestedFragment() ;
+  /// @brief Method GetNestedFragment, addr 0x3207c60, size 0x8, virtual true, abstract: false, final true
+  inline ::OculusStudios::GraphQL::Client::GraphQLModel* GetNestedFragment();
 
-static inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel* New_ctor() ;
+  static inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel* New_ctor();
 
-constexpr ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* const& __cordl_internal_get__LeaderboardEntryWithRank_k__BackingField() const;
+  constexpr ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* const& __cordl_internal_get__LeaderboardEntryWithRank_k__BackingField() const;
 
-constexpr ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*& __cordl_internal_get__LeaderboardEntryWithRank_k__BackingField() ;
+  constexpr ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*& __cordl_internal_get__LeaderboardEntryWithRank_k__BackingField();
 
-constexpr void __cordl_internal_set__LeaderboardEntryWithRank_k__BackingField(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*  value) ;
+  constexpr void __cordl_internal_set__LeaderboardEntryWithRank_k__BackingField(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* value);
 
-/// @brief Method .ctor, addr 0x31cbaac, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3207c68, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_LeaderboardEntryWithRank, addr 0x31cb9cc, size 0x8, virtual false, abstract: false, final false
-inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* get_LeaderboardEntryWithRank() ;
+  /// @brief Method get_LeaderboardEntryWithRank, addr 0x3207b88, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* get_LeaderboardEntryWithRank();
 
-/// @brief Convert to "::OculusStudios::GraphQL::Client::IFragment"
-constexpr ::OculusStudios::GraphQL::Client::IFragment* i___OculusStudios__GraphQL__Client__IFragment() noexcept;
+  /// @brief Convert to "::OculusStudios::GraphQL::Client::IFragment"
+  constexpr ::OculusStudios::GraphQL::Client::IFragment* i___OculusStudios__GraphQL__Client__IFragment() noexcept;
 
-/// @brief Method set_LeaderboardEntryWithRank, addr 0x31cb9c4, size 0x8, virtual false, abstract: false, final false
-inline void set_LeaderboardEntryWithRank(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*  value) ;
+  /// @brief Method set_LeaderboardEntryWithRank, addr 0x3207b80, size 0x8, virtual false, abstract: false, final false
+  inline void set_LeaderboardEntryWithRank(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel", modifiers: "&&",
+  // def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel(
+      LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel(LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel", modifiers:
+  // "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel(
+      LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel(LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21064 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20929};
+  /// @brief Field <LeaderboardEntryWithRank>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* ____LeaderboardEntryWithRank_k__BackingField;
 
-/// @brief Field <LeaderboardEntryWithRank>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*  ____LeaderboardEntryWithRank_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel, ____LeaderboardEntryWithRank_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel,
+                       ____LeaderboardEntryWithRank_k__BackingField) == 0x10,
+              "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<
+                  ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel, 0x18>,
+              "Size mismatch!");
 
-} // namespace end def BeatSaber::Main::GraphQL::Models
+} // namespace BeatSaber::Main::GraphQL::Models
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
 // CS Name: BeatSaber.Main.GraphQL.Models.BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel/LeaderboardEntriesPageModel
 class CORDL_TYPE BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
-// Declarations
-using NodesModel = ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel;
+  // Declarations
+  using NodesModel = ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel;
 
- __declspec(property(get=get_Nodes, put=set_Nodes)) ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*  Nodes;
+  __declspec(property(get = get_Nodes, put = set_Nodes)) ::System::Collections::Generic::List_1<
+      ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>* Nodes;
 
-/// @brief Field <Nodes>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__Nodes_k__BackingField, put=__cordl_internal_set__Nodes_k__BackingField)) ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*  _Nodes_k__BackingField;
+  /// @brief Field <Nodes>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Nodes_k__BackingField, put = __cordl_internal_set__Nodes_k__BackingField)) ::System::Collections::Generic::List_1<
+      ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>* _Nodes_k__BackingField;
 
-static inline ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* New_ctor() ;
+  static inline ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* New_ctor();
 
-constexpr ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>* const& __cordl_internal_get__Nodes_k__BackingField() const;
+  constexpr ::System::Collections::Generic::List_1<
+      ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>* const&
+  __cordl_internal_get__Nodes_k__BackingField() const;
 
-constexpr ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*& __cordl_internal_get__Nodes_k__BackingField() ;
+  constexpr ::System::Collections::Generic::List_1<
+      ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*&
+  __cordl_internal_get__Nodes_k__BackingField();
 
-constexpr void __cordl_internal_set__Nodes_k__BackingField(::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*  value) ;
+  constexpr void __cordl_internal_set__Nodes_k__BackingField(
+      ::System::Collections::Generic::List_1<
+          ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>* value);
 
-/// @brief Method .ctor, addr 0x31cb9c0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3207b7c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Nodes, addr 0x31cb9b8, size 0x8, virtual false, abstract: false, final false
-inline ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>* get_Nodes() ;
+  /// @brief Method get_Nodes, addr 0x3207b74, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<
+      ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*
+  get_Nodes();
 
-/// @brief Method set_Nodes, addr 0x31cb9b0, size 0x8, virtual false, abstract: false, final false
-inline void set_Nodes(::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*  value) ;
+  /// @brief Method set_Nodes, addr 0x3207b6c, size 0x8, virtual false, abstract: false, final false
+  inline void
+  set_Nodes(::System::Collections::Generic::List_1<
+            ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel", modifiers: "&&", def_value:
+  // None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel(
+      BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel(BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel", modifiers: "const&",
+  // def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel(
+      BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel(BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21065 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20930};
+  /// @brief Field <Nodes>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<
+      ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*
+      ____Nodes_k__BackingField;
 
-/// @brief Field <Nodes>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>*  ____Nodes_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel, ____Nodes_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel,
+                       ____Nodes_k__BackingField) == 0x10,
+              "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel, 0x18>, "Size mismatch!");
+static_assert(
+    ::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel, 0x18>,
+    "Size mismatch!");
 
-} // namespace end def BeatSaber::Main::GraphQL::Models
+} // namespace BeatSaber::Main::GraphQL::Models
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
 // CS Name: BeatSaber.Main.GraphQL.Models.BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel
 class CORDL_TYPE ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
-// Declarations
-using LeaderboardEntriesPageModel = ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel;
+  // Declarations
+  using LeaderboardEntriesPageModel = ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel;
 
- __declspec(property(get=get_LeaderboardEntriesPage, put=set_LeaderboardEntriesPage)) ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*  LeaderboardEntriesPage;
+  __declspec(property(
+      get = get_LeaderboardEntriesPage,
+      put = set_LeaderboardEntriesPage)) ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*
+      LeaderboardEntriesPage;
 
-/// @brief Field <LeaderboardEntriesPage>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__LeaderboardEntriesPage_k__BackingField, put=__cordl_internal_set__LeaderboardEntriesPage_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*  _LeaderboardEntriesPage_k__BackingField;
+  /// @brief Field <LeaderboardEntriesPage>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__LeaderboardEntriesPage_k__BackingField, put = __cordl_internal_set__LeaderboardEntriesPage_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::
+      BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* _LeaderboardEntriesPage_k__BackingField;
 
-static inline ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* New_ctor() ;
+  static inline ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* New_ctor();
 
-constexpr ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* const& __cordl_internal_get__LeaderboardEntriesPage_k__BackingField() const;
+  constexpr ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* const&
+  __cordl_internal_get__LeaderboardEntriesPage_k__BackingField() const;
 
-constexpr ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*& __cordl_internal_get__LeaderboardEntriesPage_k__BackingField() ;
+  constexpr ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*&
+  __cordl_internal_get__LeaderboardEntriesPage_k__BackingField();
 
-constexpr void __cordl_internal_set__LeaderboardEntriesPage_k__BackingField(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*  value) ;
+  constexpr void __cordl_internal_set__LeaderboardEntriesPage_k__BackingField(
+      ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* value);
 
-/// @brief Method .ctor, addr 0x31cb9ac, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3207b68, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_LeaderboardEntriesPage, addr 0x31cb9a4, size 0x8, virtual false, abstract: false, final false
-inline ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* get_LeaderboardEntriesPage() ;
+  /// @brief Method get_LeaderboardEntriesPage, addr 0x3207b60, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* get_LeaderboardEntriesPage();
 
-/// @brief Method set_LeaderboardEntriesPage, addr 0x31cb99c, size 0x8, virtual false, abstract: false, final false
-inline void set_LeaderboardEntriesPage(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*  value) ;
+  /// @brief Method set_LeaderboardEntriesPage, addr 0x3207b58, size 0x8, virtual false, abstract: false, final false
+  inline void
+  set_LeaderboardEntriesPage(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel(ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel(ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel(ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel const&) =
+      delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel(ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21066 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20931};
+  /// @brief Field <LeaderboardEntriesPage>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*
+      ____LeaderboardEntriesPage_k__BackingField;
 
-/// @brief Field <LeaderboardEntriesPage>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*  ____LeaderboardEntriesPage_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel, ____LeaderboardEntriesPage_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel, ____LeaderboardEntriesPage_k__BackingField) ==
+                  0x10,
+              "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatSaber::Main::GraphQL::Models
+} // namespace BeatSaber::Main::GraphQL::Models
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
 // CS Name: BeatSaber.Main.GraphQL.Models.BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel
 class CORDL_TYPE XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
-// Declarations
-using BeatmapModel = ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel;
+  // Declarations
+  using BeatmapModel = ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel;
 
- __declspec(property(get=get_Beatmap, put=set_Beatmap)) ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*  Beatmap;
+  __declspec(property(get = get_Beatmap, put = set_Beatmap)) ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* Beatmap;
 
-/// @brief Field <Beatmap>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__Beatmap_k__BackingField, put=__cordl_internal_set__Beatmap_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*  _Beatmap_k__BackingField;
+  /// @brief Field <Beatmap>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__Beatmap_k__BackingField,
+      put = __cordl_internal_set__Beatmap_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*
+      _Beatmap_k__BackingField;
 
-static inline ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* New_ctor() ;
+  static inline ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* New_ctor();
 
-constexpr ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* const& __cordl_internal_get__Beatmap_k__BackingField() const;
+  constexpr ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* const&
+  __cordl_internal_get__Beatmap_k__BackingField() const;
 
-constexpr ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*& __cordl_internal_get__Beatmap_k__BackingField() ;
+  constexpr ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*& __cordl_internal_get__Beatmap_k__BackingField();
 
-constexpr void __cordl_internal_set__Beatmap_k__BackingField(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*  value) ;
+  constexpr void __cordl_internal_set__Beatmap_k__BackingField(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* value);
 
-/// @brief Method .ctor, addr 0x31cb998, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3207b54, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_Beatmap, addr 0x31cb990, size 0x8, virtual false, abstract: false, final false
-inline ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* get_Beatmap() ;
+  /// @brief Method get_Beatmap, addr 0x3207b4c, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* get_Beatmap();
 
-/// @brief Method set_Beatmap, addr 0x31cb988, size 0x8, virtual false, abstract: false, final false
-inline void set_Beatmap(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*  value) ;
+  /// @brief Method set_Beatmap, addr 0x3207b44, size 0x8, virtual false, abstract: false, final false
+  inline void set_Beatmap(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel(XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel(XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel(XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel(XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21067 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20932};
+  /// @brief Field <Beatmap>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel* ____Beatmap_k__BackingField;
 
-/// @brief Field <Beatmap>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*  ____Beatmap_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel, ____Beatmap_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatSaber::Main::GraphQL::Models
+} // namespace BeatSaber::Main::GraphQL::Models
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
 // CS Name: BeatSaber.Main.GraphQL.Models.BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel
 class CORDL_TYPE BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
-// Declarations
-using ActiveDataEnvironmentModel = ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel;
+  // Declarations
+  using ActiveDataEnvironmentModel = ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel;
 
- __declspec(property(get=get_ActiveDataEnvironment, put=set_ActiveDataEnvironment)) ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*  ActiveDataEnvironment;
+  __declspec(property(get = get_ActiveDataEnvironment,
+                      put = set_ActiveDataEnvironment)) ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* ActiveDataEnvironment;
 
-/// @brief Field <ActiveDataEnvironment>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__ActiveDataEnvironment_k__BackingField, put=__cordl_internal_set__ActiveDataEnvironment_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*  _ActiveDataEnvironment_k__BackingField;
+  /// @brief Field <ActiveDataEnvironment>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__ActiveDataEnvironment_k__BackingField,
+      put = __cordl_internal_set__ActiveDataEnvironment_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*
+      _ActiveDataEnvironment_k__BackingField;
 
-static inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* New_ctor() ;
+  static inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* New_ctor();
 
-constexpr ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* const& __cordl_internal_get__ActiveDataEnvironment_k__BackingField() const;
+  constexpr ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* const&
+  __cordl_internal_get__ActiveDataEnvironment_k__BackingField() const;
 
-constexpr ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*& __cordl_internal_get__ActiveDataEnvironment_k__BackingField() ;
+  constexpr ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*& __cordl_internal_get__ActiveDataEnvironment_k__BackingField();
 
-constexpr void __cordl_internal_set__ActiveDataEnvironment_k__BackingField(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*  value) ;
+  constexpr void __cordl_internal_set__ActiveDataEnvironment_k__BackingField(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* value);
 
-/// @brief Method .ctor, addr 0x31cb984, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3207b40, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_ActiveDataEnvironment, addr 0x31cb97c, size 0x8, virtual false, abstract: false, final false
-inline ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* get_ActiveDataEnvironment() ;
+  /// @brief Method get_ActiveDataEnvironment, addr 0x3207b38, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* get_ActiveDataEnvironment();
 
-/// @brief Method set_ActiveDataEnvironment, addr 0x31cb974, size 0x8, virtual false, abstract: false, final false
-inline void set_ActiveDataEnvironment(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*  value) ;
+  /// @brief Method set_ActiveDataEnvironment, addr 0x3207b30, size 0x8, virtual false, abstract: false, final false
+  inline void set_ActiveDataEnvironment(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel(BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel(BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel(BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel(BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21068 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20933};
+  /// @brief Field <ActiveDataEnvironment>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel* ____ActiveDataEnvironment_k__BackingField;
 
-/// @brief Field <ActiveDataEnvironment>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*  ____ActiveDataEnvironment_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel, ____ActiveDataEnvironment_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatSaber::Main::GraphQL::Models
+} // namespace BeatSaber::Main::GraphQL::Models
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
 // CS Name: BeatSaber.Main.GraphQL.Models.BSLeaderboardTopNModel
 class CORDL_TYPE BSLeaderboardTopNModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
-// Declarations
-using XocBeatGamesCurrentUserModel = ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel;
+  // Declarations
+  using XocBeatGamesCurrentUserModel = ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel;
 
- __declspec(property(get=get_XocBeatGamesCurrentUser, put=set_XocBeatGamesCurrentUser)) ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*  XocBeatGamesCurrentUser;
+  __declspec(property(get = get_XocBeatGamesCurrentUser,
+                      put = set_XocBeatGamesCurrentUser)) ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* XocBeatGamesCurrentUser;
 
-/// @brief Field <XocBeatGamesCurrentUser>k__BackingField, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__XocBeatGamesCurrentUser_k__BackingField, put=__cordl_internal_set__XocBeatGamesCurrentUser_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*  _XocBeatGamesCurrentUser_k__BackingField;
+  /// @brief Field <XocBeatGamesCurrentUser>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__XocBeatGamesCurrentUser_k__BackingField,
+                      put = __cordl_internal_set__XocBeatGamesCurrentUser_k__BackingField)) ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*
+      _XocBeatGamesCurrentUser_k__BackingField;
 
-static inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel* New_ctor() ;
+  static inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel* New_ctor();
 
-constexpr ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* const& __cordl_internal_get__XocBeatGamesCurrentUser_k__BackingField() const;
+  constexpr ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* const& __cordl_internal_get__XocBeatGamesCurrentUser_k__BackingField() const;
 
-constexpr ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*& __cordl_internal_get__XocBeatGamesCurrentUser_k__BackingField() ;
+  constexpr ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*& __cordl_internal_get__XocBeatGamesCurrentUser_k__BackingField();
 
-constexpr void __cordl_internal_set__XocBeatGamesCurrentUser_k__BackingField(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*  value) ;
+  constexpr void __cordl_internal_set__XocBeatGamesCurrentUser_k__BackingField(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* value);
 
-/// @brief Method .ctor, addr 0x31cb970, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x3207b2c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_XocBeatGamesCurrentUser, addr 0x31cb968, size 0x8, virtual false, abstract: false, final false
-inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* get_XocBeatGamesCurrentUser() ;
+  /// @brief Method get_XocBeatGamesCurrentUser, addr 0x3207b24, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* get_XocBeatGamesCurrentUser();
 
-/// @brief Method set_XocBeatGamesCurrentUser, addr 0x31cb960, size 0x8, virtual false, abstract: false, final false
-inline void set_XocBeatGamesCurrentUser(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*  value) ;
+  /// @brief Method set_XocBeatGamesCurrentUser, addr 0x3207b1c, size 0x8, virtual false, abstract: false, final false
+  inline void set_XocBeatGamesCurrentUser(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BSLeaderboardTopNModel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BSLeaderboardTopNModel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BSLeaderboardTopNModel(BSLeaderboardTopNModel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BSLeaderboardTopNModel(BSLeaderboardTopNModel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BSLeaderboardTopNModel(BSLeaderboardTopNModel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardTopNModel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BSLeaderboardTopNModel(BSLeaderboardTopNModel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21069 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20934};
+  /// @brief Field <XocBeatGamesCurrentUser>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel* ____XocBeatGamesCurrentUser_k__BackingField;
 
-/// @brief Field <XocBeatGamesCurrentUser>k__BackingField, offset: 0x10, size: 0x8, def value: None
- ::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*  ____XocBeatGamesCurrentUser_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel, ____XocBeatGamesCurrentUser_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel, 0x18>, "Size mismatch!");
 
-} // namespace end def BeatSaber::Main::GraphQL::Models
+} // namespace BeatSaber::Main::GraphQL::Models
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*, "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_BeatmapModel*, "BeatSaber.Main.GraphQL.Models",
+                       "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel");
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*, "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel");
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*, "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel_XocBeatGamesCurrentUserModel*, "BeatSaber.Main.GraphQL.Models",
+                       "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel");
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*, "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel/LeaderboardEntriesPageModel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_LeaderboardEntriesPageModel*,
+                       "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel/LeaderboardEntriesPageModel");
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*, "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel/LeaderboardEntriesPageModel/NodesModel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*,
+                       "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel/BeatmapModel/LeaderboardEntriesPageModel/NodesModel");
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*, "BeatSaber.Main.GraphQL.Models", "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_ActiveDataEnvironmentModel*, "BeatSaber.Main.GraphQL.Models",
+                       "BSLeaderboardTopNModel/XocBeatGamesCurrentUserModel/ActiveDataEnvironmentModel");

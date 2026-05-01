@@ -43,82 +43,82 @@ namespace System::Data {
 // CS Name: System.Data.InternalDataCollectionBase
 class CORDL_TYPE InternalDataCollectionBase : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Count)) int32_t  Count;
+  // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
 
- __declspec(property(get=get_IsSynchronized)) bool  IsSynchronized;
+  __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
- __declspec(property(get=get_List)) ::System::Collections::ArrayList*  List;
+  __declspec(property(get = get_List)) ::System::Collections::ArrayList* List;
 
- __declspec(property(get=get_SyncRoot)) ::System::Object*  SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
-/// @brief Field s_refreshEventArgs, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_s_refreshEventArgs, put=setStaticF_s_refreshEventArgs)) ::System::ComponentModel::CollectionChangeEventArgs*  s_refreshEventArgs;
+  /// @brief Field s_refreshEventArgs, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_refreshEventArgs, put = setStaticF_s_refreshEventArgs)) ::System::ComponentModel::CollectionChangeEventArgs* s_refreshEventArgs;
 
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr operator  ::System::Collections::ICollection*() noexcept;
+  /// @brief Convert operator to "::System::Collections::ICollection"
+  constexpr operator ::System::Collections::ICollection*() noexcept;
 
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+  /// @brief Convert operator to "::System::Collections::IEnumerable"
+  constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-/// @brief Method CopyTo, addr 0x5e677b8, size 0x48, virtual true, abstract: false, final false
-inline void CopyTo(::System::Array*  ar, int32_t  index) ;
+  /// @brief Method CopyTo, addr 0x5ed97c4, size 0x48, virtual true, abstract: false, final false
+  inline void CopyTo(::System::Array* ar, int32_t index);
 
-/// @brief Method GetEnumerator, addr 0x5e67800, size 0x2c, virtual true, abstract: false, final false
-inline ::System::Collections::IEnumerator* GetEnumerator() ;
+  /// @brief Method GetEnumerator, addr 0x5ed980c, size 0x2c, virtual true, abstract: false, final false
+  inline ::System::Collections::IEnumerator* GetEnumerator();
 
-/// @brief Method NamesEqual, addr 0x5e67834, size 0xa4, virtual false, abstract: false, final false
-inline int32_t NamesEqual(::StringW  s1, ::StringW  s2, bool  fCaseSensitive, ::System::Globalization::CultureInfo*  locale) ;
+  /// @brief Method NamesEqual, addr 0x5ed9840, size 0xa4, virtual false, abstract: false, final false
+  inline int32_t NamesEqual(::StringW s1, ::StringW s2, bool fCaseSensitive, ::System::Globalization::CultureInfo* locale);
 
-static inline ::System::Data::InternalDataCollectionBase* New_ctor() ;
+  static inline ::System::Data::InternalDataCollectionBase* New_ctor();
 
-/// @brief Method .ctor, addr 0x5e678e4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5ed98f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::System::ComponentModel::CollectionChangeEventArgs* getStaticF_s_refreshEventArgs() ;
+  static inline ::System::ComponentModel::CollectionChangeEventArgs* getStaticF_s_refreshEventArgs();
 
-/// @brief Method get_Count, addr 0x5e6778c, size 0x2c, virtual true, abstract: false, final false
-inline int32_t get_Count() ;
+  /// @brief Method get_Count, addr 0x5ed9798, size 0x2c, virtual true, abstract: false, final false
+  inline int32_t get_Count();
 
-/// @brief Method get_IsSynchronized, addr 0x5e6782c, size 0x8, virtual true, abstract: false, final true
-inline bool get_IsSynchronized() ;
+  /// @brief Method get_IsSynchronized, addr 0x5ed9838, size 0x8, virtual true, abstract: false, final true
+  inline bool get_IsSynchronized();
 
-/// @brief Method get_List, addr 0x5e678dc, size 0x8, virtual true, abstract: false, final false
-inline ::System::Collections::ArrayList* get_List() ;
+  /// @brief Method get_List, addr 0x5ed98e8, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Collections::ArrayList* get_List();
 
-/// @brief Method get_SyncRoot, addr 0x5e678d8, size 0x4, virtual true, abstract: false, final true
-inline ::System::Object* get_SyncRoot() ;
+  /// @brief Method get_SyncRoot, addr 0x5ed98e4, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Object* get_SyncRoot();
 
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-static inline void setStaticF_s_refreshEventArgs(::System::ComponentModel::CollectionChangeEventArgs*  value) ;
+  static inline void setStaticF_s_refreshEventArgs(::System::ComponentModel::CollectionChangeEventArgs* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InternalDataCollectionBase() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InternalDataCollectionBase();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InternalDataCollectionBase(InternalDataCollectionBase&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InternalDataCollectionBase(InternalDataCollectionBase && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InternalDataCollectionBase(InternalDataCollectionBase const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InternalDataCollectionBase(InternalDataCollectionBase const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13739 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13732};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::InternalDataCollectionBase, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Data
+} // namespace System::Data
 NEED_NO_BOX(::System::Data::InternalDataCollectionBase);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::InternalDataCollectionBase*, "System.Data", "InternalDataCollectionBase");

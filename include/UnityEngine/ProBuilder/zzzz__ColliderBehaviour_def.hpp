@@ -23,43 +23,43 @@ namespace UnityEngine::ProBuilder {
 // CS Name: UnityEngine.ProBuilder.ColliderBehaviour
 class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
-// Declarations
-/// @brief Method Initialize, addr 0x6501d30, size 0x11c, virtual true, abstract: false, final false
-inline void Initialize() ;
+  // Declarations
+  /// @brief Method Initialize, addr 0x6573d3c, size 0x11c, virtual true, abstract: false, final false
+  inline void Initialize();
 
-static inline ::UnityEngine::ProBuilder::ColliderBehaviour* New_ctor() ;
+  static inline ::UnityEngine::ProBuilder::ColliderBehaviour* New_ctor();
 
-/// @brief Method OnEnterPlayMode, addr 0x6501f38, size 0xb4, virtual true, abstract: false, final false
-inline void OnEnterPlayMode() ;
+  /// @brief Method OnEnterPlayMode, addr 0x6573f44, size 0xb4, virtual true, abstract: false, final false
+  inline void OnEnterPlayMode();
 
-/// @brief Method OnSceneLoaded, addr 0x6501fec, size 0xb4, virtual true, abstract: false, final false
-inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene  scene, ::UnityEngine::SceneManagement::LoadSceneMode  mode) ;
+  /// @brief Method OnSceneLoaded, addr 0x6573ff8, size 0xb4, virtual true, abstract: false, final false
+  inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-/// @brief Method .ctor, addr 0x65020a0, size 0xc, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x65740ac, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ColliderBehaviour() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColliderBehaviour();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ColliderBehaviour(ColliderBehaviour&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ColliderBehaviour(ColliderBehaviour && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ColliderBehaviour(ColliderBehaviour const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ColliderBehaviour(ColliderBehaviour const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16702 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16694};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ColliderBehaviour, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::ProBuilder
+} // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::ColliderBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ColliderBehaviour*, "UnityEngine.ProBuilder", "ColliderBehaviour");

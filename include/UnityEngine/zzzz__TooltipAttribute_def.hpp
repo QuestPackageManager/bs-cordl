@@ -18,48 +18,48 @@ namespace UnityEngine {
 // CS Name: UnityEngine.TooltipAttribute
 class CORDL_TYPE TooltipAttribute : public ::UnityEngine::PropertyAttribute {
 public:
-// Declarations
-/// @brief Field tooltip, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_tooltip, put=__cordl_internal_set_tooltip)) ::StringW  tooltip;
+  // Declarations
+  /// @brief Field tooltip, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_tooltip, put = __cordl_internal_set_tooltip)) ::StringW tooltip;
 
-static inline ::UnityEngine::TooltipAttribute* New_ctor(::StringW  tooltip) ;
+  static inline ::UnityEngine::TooltipAttribute* New_ctor(::StringW tooltip);
 
-constexpr ::StringW const& __cordl_internal_get_tooltip() const;
+  constexpr ::StringW const& __cordl_internal_get_tooltip() const;
 
-constexpr ::StringW& __cordl_internal_get_tooltip() ;
+  constexpr ::StringW& __cordl_internal_get_tooltip();
 
-constexpr void __cordl_internal_set_tooltip(::StringW  value) ;
+  constexpr void __cordl_internal_set_tooltip(::StringW value);
 
-/// @brief Method .ctor, addr 0x690dbd0, size 0xc, virtual false, abstract: false, final false
-inline void _ctor(::StringW  tooltip) ;
+  /// @brief Method .ctor, addr 0x697fdec, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW tooltip);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TooltipAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TooltipAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TooltipAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TooltipAttribute(TooltipAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TooltipAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TooltipAttribute(TooltipAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TooltipAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TooltipAttribute(TooltipAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TooltipAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TooltipAttribute(TooltipAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10268 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10262};
+  /// @brief Field tooltip, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___tooltip;
 
-/// @brief Field tooltip, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___tooltip;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TooltipAttribute, ___tooltip) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TooltipAttribute, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::TooltipAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TooltipAttribute*, "UnityEngine", "TooltipAttribute");

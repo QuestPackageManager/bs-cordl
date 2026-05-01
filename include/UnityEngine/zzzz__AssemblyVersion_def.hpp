@@ -16,51 +16,52 @@ struct AssemblyVersion;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AssemblyVersion);
-// Dependencies 
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.AssemblyVersion
 struct CORDL_TYPE AssemblyVersion {
 public:
-// Declarations
-/// @brief Method Equals, addr 0x6912918, size 0xac, virtual true, abstract: false, final false
-inline bool Equals(::System::Object*  other) ;
+  // Declarations
+  /// @brief Method Equals, addr 0x6984b34, size 0xac, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
 
-/// @brief Method GetHashCode, addr 0x69129c4, size 0x98, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  /// @brief Method GetHashCode, addr 0x6984be0, size 0x98, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-/// @brief Method ToString, addr 0x6912778, size 0x1a0, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x6984994, size 0x1a0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method op_Equality, addr 0x691276c, size 0xc, virtual false, abstract: false, final false
-static inline bool op_Equality(::UnityEngine::AssemblyVersion  lhs, ::UnityEngine::AssemblyVersion  rhs) ;
+  /// @brief Method op_Equality, addr 0x6984988, size 0xc, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::AssemblyVersion lhs, ::UnityEngine::AssemblyVersion rhs);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AssemblyVersion() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssemblyVersion();
 
-// Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: None }]
-constexpr AssemblyVersion(uint16_t  major, uint16_t  minor, uint16_t  build, uint16_t  revision) noexcept;
+  // Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "build",
+  // ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr AssemblyVersion(uint16_t major, uint16_t minor, uint16_t build, uint16_t revision) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10314};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10320 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
-/// @brief Field major, offset: 0x0, size: 0x2, def value: None
- uint16_t  major;
+  /// @brief Field major, offset: 0x0, size: 0x2, def value: None
+  uint16_t major;
 
-/// @brief Field minor, offset: 0x2, size: 0x2, def value: None
- uint16_t  minor;
+  /// @brief Field minor, offset: 0x2, size: 0x2, def value: None
+  uint16_t minor;
 
-/// @brief Field build, offset: 0x4, size: 0x2, def value: None
- uint16_t  build;
+  /// @brief Field build, offset: 0x4, size: 0x2, def value: None
+  uint16_t build;
 
-/// @brief Field revision, offset: 0x6, size: 0x2, def value: None
- uint16_t  revision;
+  /// @brief Field revision, offset: 0x6, size: 0x2, def value: None
+  uint16_t revision;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AssemblyVersion, major) == 0x0, "Offset mismatch!");
@@ -73,5 +74,5 @@ static_assert(offsetof(::UnityEngine::AssemblyVersion, revision) == 0x6, "Offset
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AssemblyVersion, 0x8>, "Size mismatch!");
 
-} // namespace end def UnityEngine
+} // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssemblyVersion, "UnityEngine", "AssemblyVersion");

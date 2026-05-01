@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithCowatchViewerList
 class CORDL_TYPE MessageWithCowatchViewerList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::CowatchViewerList*> {
 public:
-// Declarations
-/// @brief Method GetCowatchViewerList, addr 0x5c2c9a4, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::CowatchViewerList* GetCowatchViewerList() ;
+  // Declarations
+  /// @brief Method GetCowatchViewerList, addr 0x5c9e98c, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::CowatchViewerList* GetCowatchViewerList();
 
-/// @brief Method GetDataFromMessage, addr 0x5c2c9e8, size 0x9c, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::CowatchViewerList* GetDataFromMessage(::System::IntPtr  c_message) ;
+  /// @brief Method GetDataFromMessage, addr 0x5c9e9d0, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::CowatchViewerList* GetDataFromMessage(::System::IntPtr c_message);
 
-static inline ::Oculus::Platform::MessageWithCowatchViewerList* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithCowatchViewerList* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c29550, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5c9b538, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithCowatchViewerList() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithCowatchViewerList();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithCowatchViewerList", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithCowatchViewerList(MessageWithCowatchViewerList&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithCowatchViewerList", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithCowatchViewerList(MessageWithCowatchViewerList && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithCowatchViewerList", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithCowatchViewerList(MessageWithCowatchViewerList const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithCowatchViewerList", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithCowatchViewerList(MessageWithCowatchViewerList const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17859 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17851};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithCowatchViewerList, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithCowatchViewerList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithCowatchViewerList*, "Oculus.Platform", "MessageWithCowatchViewerList");

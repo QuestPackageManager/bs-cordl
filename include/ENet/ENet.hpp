@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "ENet/Address.hpp"
 #include "ENet/AllocCallback.hpp"
@@ -29,6 +29,5 @@
 #include "ENet/SslConfiguration.hpp"
 #include "ENet/SslMode.hpp"
 #ifdef __cpp_modules
-                    export module ENet;
-                    #endif
-                
+export module ENet;
+#endif

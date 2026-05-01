@@ -17,479 +17,428 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::System::Object*, ::System::IntPtr)>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5872e7c;
+  constexpr static std::size_t addrs = 0x58e6fdc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate.Invoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(&::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(
+    ::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(&::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5872fc4;
+  constexpr static std::size_t addrs = 0x58e7124;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate.BeginInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::BeginInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5872fd8;
+  constexpr static std::size_t addrs = 0x58e7138;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate.EndInvoke
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::System::IAsyncResult*)>(&::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::System::IAsyncResult*)>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5873000;
+  constexpr static std::size_t addrs = 0x58e7160;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), 15));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::Invoke(::GlobalNamespace::EnterPlayerGuestNameViewController*  viewController, ::StringW  playerName)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController, playerName);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::Invoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController, playerName);
 }
-inline ::System::IAsyncResult* GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::BeginInvoke(::GlobalNamespace::EnterPlayerGuestNameViewController*  viewController, ::StringW  playerName, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, viewController, playerName, callback, object);
+inline ::System::IAsyncResult* GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::BeginInvoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController,
+                                                                                                               ::StringW playerName, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, viewController, playerName, callback, object);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::EndInvoke(::System::IAsyncResult*  result)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
-inline ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>(object, method));
+inline ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::New_ctor(::System::Object* object,
+                                                                                                                                                          ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>(object, method));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::EnterPlayerGuestNameViewController_FinishDelegate()   {
-}
+constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::EnterPlayerGuestNameViewController_FinishDelegate() {}
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::*)()>(&::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::*)()>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5872cd0;
+  constexpr static std::size_t addrs = 0x58e6e30;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0._DidActivate_b__0
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::*)(int32_t, ::GlobalNamespace::GuestNameButtonsListItem*)>(&::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_DidActivate_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::*)(
+    int32_t, ::GlobalNamespace::GuestNameButtonsListItem*)>(&::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_DidActivate_b__0)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x587300c;
+  constexpr static std::size_t addrs = 0x58e716c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(),
-                        "<DidActivate>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GuestNameButtonsListItem*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(),
+                                                 "<DidActivate>b__0", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GuestNameButtonsListItem*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController>& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_get___4__this()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController>& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
 constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> const& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_get___4__this() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->_____4__this;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_get_guestPlayerNames()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___guestPlayerNames;
+constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_get_guestPlayerNames() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___guestPlayerNames;
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_get_guestPlayerNames() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___guestPlayerNames;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___guestPlayerNames;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___guestPlayerNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::__cordl_internal_set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___guestPlayerNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_DidActivate_b__0(int32_t  idx, ::GlobalNamespace::GuestNameButtonsListItem*  item)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(),
-                        "<DidActivate>b__0",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GuestNameButtonsListItem*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, idx, item);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::_DidActivate_b__0(int32_t idx, ::GlobalNamespace::GuestNameButtonsListItem* item) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>::get(),
+                                               "<DidActivate>b__0", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GuestNameButtonsListItem*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, idx, item);
 }
-inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>());
+inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::EnterPlayerGuestNameViewController___c__DisplayClass10_0()   {
-}
+constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0::EnterPlayerGuestNameViewController___c__DisplayClass10_0() {}
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::*)()>(&::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::*)()>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587315c;
+  constexpr static std::size_t addrs = 0x58e72bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1._DidActivate_b__1
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::*)()>(&::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_DidActivate_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::*)()>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_DidActivate_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5873160;
+  constexpr static std::size_t addrs = 0x58e72c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(),
-                        "<DidActivate>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(),
+                                                 "<DidActivate>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_get_guestPlayerName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___guestPlayerName;
+constexpr ::StringW& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_get_guestPlayerName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___guestPlayerName;
 }
 constexpr ::StringW const& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_get_guestPlayerName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___guestPlayerName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___guestPlayerName;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_set_guestPlayerName(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___guestPlayerName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_set_guestPlayerName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___guestPlayerName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_get_CS$__8__locals1()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CS$__8__locals1;
+constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*&
+GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_get_CS$__8__locals1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CS$__8__locals1;
 }
-constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* const& GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_get_CS$__8__locals1() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___CS$__8__locals1;
+constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* const&
+GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_get_CS$__8__locals1() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CS$__8__locals1;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_set_CS$__8__locals1(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::__cordl_internal_set_CS$__8__locals1(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_DidActivate_b__1()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(),
-                        "<DidActivate>b__1",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::_DidActivate_b__1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>::get(),
+                                               "<DidActivate>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1* GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>());
+inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1* GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::EnterPlayerGuestNameViewController___c__DisplayClass10_1()   {
-}
+constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1::EnterPlayerGuestNameViewController___c__DisplayClass10_1() {}
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController.Init
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*)>(&::GlobalNamespace::EnterPlayerGuestNameViewController::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(
+    ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*)>(&::GlobalNamespace::EnterPlayerGuestNameViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5872a60;
+  constexpr static std::size_t addrs = 0x58e6bc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController.DidActivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool, bool)>(&::GlobalNamespace::EnterPlayerGuestNameViewController::DidActivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool, bool)>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController::DidActivate)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5872a68;
+  constexpr static std::size_t addrs = 0x58e6bc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController.DidDeactivate
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool)>(&::GlobalNamespace::EnterPlayerGuestNameViewController::DidDeactivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool)>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5872cd4;
+  constexpr static std::size_t addrs = 0x58e6e34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController.OkButtonPressed
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(&::GlobalNamespace::EnterPlayerGuestNameViewController::OkButtonPressed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5872d90;
+  constexpr static std::size_t addrs = 0x58e6ef0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                        "OkButtonPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
+                                                                               "OkButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EnterPlayerGuestNameViewController._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(&::GlobalNamespace::EnterPlayerGuestNameViewController::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(
+    &::GlobalNamespace::EnterPlayerGuestNameViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5872e78;
+  constexpr static std::size_t addrs = 0x58e6fd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::StringSignal>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__playerNameWasEnteredSignal()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerNameWasEnteredSignal;
+constexpr ::UnityW<::GlobalNamespace::StringSignal>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__playerNameWasEnteredSignal() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerNameWasEnteredSignal;
 }
 constexpr ::UnityW<::GlobalNamespace::StringSignal> const& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__playerNameWasEnteredSignal() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerNameWasEnteredSignal;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerNameWasEnteredSignal;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__playerNameWasEnteredSignal(::UnityW<::GlobalNamespace::StringSignal>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerNameWasEnteredSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__playerNameWasEnteredSignal(::UnityW<::GlobalNamespace::StringSignal> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerNameWasEnteredSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::UIKeyboard>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__uiKeyboard()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____uiKeyboard;
+constexpr ::UnityW<::HMUI::UIKeyboard>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__uiKeyboard() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____uiKeyboard;
 }
 constexpr ::UnityW<::HMUI::UIKeyboard> const& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__uiKeyboard() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____uiKeyboard;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____uiKeyboard;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uiKeyboard)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uiKeyboard)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::InputFieldView>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__nameInputFieldView()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____nameInputFieldView;
+constexpr ::UnityW<::HMUI::InputFieldView>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__nameInputFieldView() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nameInputFieldView;
 }
 constexpr ::UnityW<::HMUI::InputFieldView> const& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__nameInputFieldView() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____nameInputFieldView;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nameInputFieldView;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__nameInputFieldView(::UnityW<::HMUI::InputFieldView>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameInputFieldView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__nameInputFieldView(::UnityW<::HMUI::InputFieldView> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameInputFieldView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::GuestNameButtonsListItemsList>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__guestNameButtonsListItemsList()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____guestNameButtonsListItemsList;
+constexpr ::UnityW<::GlobalNamespace::GuestNameButtonsListItemsList>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__guestNameButtonsListItemsList() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____guestNameButtonsListItemsList;
 }
 constexpr ::UnityW<::GlobalNamespace::GuestNameButtonsListItemsList> const& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__guestNameButtonsListItemsList() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____guestNameButtonsListItemsList;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____guestNameButtonsListItemsList;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__guestNameButtonsListItemsList(::UnityW<::GlobalNamespace::GuestNameButtonsListItemsList>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____guestNameButtonsListItemsList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__guestNameButtonsListItemsList(::UnityW<::GlobalNamespace::GuestNameButtonsListItemsList> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____guestNameButtonsListItemsList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__playerDataModel()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerDataModel;
+constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__playerDataModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerDataModel;
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__playerDataModel() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____playerDataModel;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerDataModel;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__didFinishCallback()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____didFinishCallback;
+constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__didFinishCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____didFinishCallback;
 }
 constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* const& GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_get__didFinishCallback() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____didFinishCallback;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____didFinishCallback;
 }
-constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__didFinishCallback(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::EnterPlayerGuestNameViewController::__cordl_internal_set__didFinishCallback(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController::Init(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*  didFinishCallback)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                        "Init",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, didFinishCallback);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController::Init(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* didFinishCallback) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, didFinishCallback);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController::DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController::DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController::DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController::OkButtonPressed()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                        "OkButtonPressed",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController::OkButtonPressed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
+                                                                             "OkButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnterPlayerGuestNameViewController::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::EnterPlayerGuestNameViewController::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EnterPlayerGuestNameViewController* GlobalNamespace::EnterPlayerGuestNameViewController::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController*>());
+inline ::GlobalNamespace::EnterPlayerGuestNameViewController* GlobalNamespace::EnterPlayerGuestNameViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnterPlayerGuestNameViewController*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController::EnterPlayerGuestNameViewController()   {
-}
+constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController::EnterPlayerGuestNameViewController() {}

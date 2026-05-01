@@ -57,191 +57,195 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.ParticleContentValidator
 class CORDL_TYPE ParticleContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
-// Declarations
-/// @brief Field contentNode, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_contentNode, put=__cordl_internal_set_contentNode)) ::System::Xml::Schema::SyntaxTreeNode*  contentNode;
+  // Declarations
+  /// @brief Field contentNode, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_contentNode, put = __cordl_internal_set_contentNode)) ::System::Xml::Schema::SyntaxTreeNode* contentNode;
 
-/// @brief Field enableUpaCheck, offset 0x40, size 0x1 
- __declspec(property(get=__cordl_internal_get_enableUpaCheck, put=__cordl_internal_set_enableUpaCheck)) bool  enableUpaCheck;
+  /// @brief Field enableUpaCheck, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get_enableUpaCheck, put = __cordl_internal_set_enableUpaCheck)) bool enableUpaCheck;
 
-/// @brief Field isPartial, offset 0x38, size 0x1 
- __declspec(property(get=__cordl_internal_get_isPartial, put=__cordl_internal_set_isPartial)) bool  isPartial;
+  /// @brief Field isPartial, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_isPartial, put = __cordl_internal_set_isPartial)) bool isPartial;
 
-/// @brief Field minMaxNodesCount, offset 0x3c, size 0x4 
- __declspec(property(get=__cordl_internal_get_minMaxNodesCount, put=__cordl_internal_set_minMaxNodesCount)) int32_t  minMaxNodesCount;
+  /// @brief Field minMaxNodesCount, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_minMaxNodesCount, put = __cordl_internal_set_minMaxNodesCount)) int32_t minMaxNodesCount;
 
-/// @brief Field positions, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_positions, put=__cordl_internal_set_positions)) ::System::Xml::Schema::Positions*  positions;
+  /// @brief Field positions, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions)) ::System::Xml::Schema::Positions* positions;
 
-/// @brief Field stack, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_stack, put=__cordl_internal_set_stack)) ::System::Collections::Stack*  stack;
+  /// @brief Field stack, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack)) ::System::Collections::Stack* stack;
 
-/// @brief Field symbols, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_symbols, put=__cordl_internal_set_symbols)) ::System::Xml::Schema::SymbolsDictionary*  symbols;
+  /// @brief Field symbols, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols)) ::System::Xml::Schema::SymbolsDictionary* symbols;
 
-/// @brief Method AddChoice, addr 0x616bfe8, size 0xdc, virtual false, abstract: false, final false
-inline void AddChoice() ;
+  /// @brief Method AddChoice, addr 0x61ddff4, size 0xdc, virtual false, abstract: false, final false
+  inline void AddChoice();
 
-/// @brief Method AddLeafNode, addr 0x616be70, size 0xf4, virtual false, abstract: false, final false
-inline void AddLeafNode(::System::Xml::Schema::SyntaxTreeNode*  node) ;
+  /// @brief Method AddLeafNode, addr 0x61dde7c, size 0xf4, virtual false, abstract: false, final false
+  inline void AddLeafNode(::System::Xml::Schema::SyntaxTreeNode* node);
 
-/// @brief Method AddLeafRange, addr 0x616c400, size 0xe0, virtual false, abstract: false, final false
-inline void AddLeafRange(::System::Decimal  min, ::System::Decimal  max) ;
+  /// @brief Method AddLeafRange, addr 0x61de40c, size 0xe0, virtual false, abstract: false, final false
+  inline void AddLeafRange(::System::Decimal min, ::System::Decimal max);
 
-/// @brief Method AddName, addr 0x616bdd0, size 0xa0, virtual false, abstract: false, final false
-inline void AddName(::System::Xml::XmlQualifiedName*  name, ::System::Object*  particle) ;
+  /// @brief Method AddName, addr 0x61ddddc, size 0xa0, virtual false, abstract: false, final false
+  inline void AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
 
-/// @brief Method AddNamespaceList, addr 0x616bf64, size 0x84, virtual false, abstract: false, final false
-inline void AddNamespaceList(::System::Xml::Schema::NamespaceList*  namespaceList, ::System::Object*  particle) ;
+  /// @brief Method AddNamespaceList, addr 0x61ddf70, size 0x84, virtual false, abstract: false, final false
+  inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
 
-/// @brief Method AddPlus, addr 0x616c358, size 0x54, virtual false, abstract: false, final false
-inline void AddPlus() ;
+  /// @brief Method AddPlus, addr 0x61de364, size 0x54, virtual false, abstract: false, final false
+  inline void AddPlus();
 
-/// @brief Method AddQMark, addr 0x616c3ac, size 0x54, virtual false, abstract: false, final false
-inline void AddQMark() ;
+  /// @brief Method AddQMark, addr 0x61de3b8, size 0x54, virtual false, abstract: false, final false
+  inline void AddQMark();
 
-/// @brief Method AddSequence, addr 0x616c0c4, size 0xdc, virtual false, abstract: false, final false
-inline void AddSequence() ;
+  /// @brief Method AddSequence, addr 0x61de0d0, size 0xdc, virtual false, abstract: false, final false
+  inline void AddSequence();
 
-/// @brief Method AddStar, addr 0x616c1a0, size 0x54, virtual false, abstract: false, final false
-inline void AddStar() ;
+  /// @brief Method AddStar, addr 0x61de1ac, size 0x54, virtual false, abstract: false, final false
+  inline void AddStar();
 
-/// @brief Method BuildTransitionTable, addr 0x616d058, size 0x588, virtual false, abstract: false, final false
-inline ::ArrayW<::ArrayW<int32_t,::Array<int32_t>*>,::Array<::ArrayW<int32_t,::Array<int32_t>*>>*> BuildTransitionTable(::System::Xml::Schema::BitSet*  firstpos, ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*>  followpos, int32_t  endMarkerPos) ;
+  /// @brief Method BuildTransitionTable, addr 0x61df064, size 0x588, virtual false, abstract: false, final false
+  inline ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>
+  BuildTransitionTable(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos, int32_t endMarkerPos);
 
-/// @brief Method CalculateTotalFollowposForRangeNodes, addr 0x616ca40, size 0x2b8, virtual false, abstract: false, final false
-inline ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*> CalculateTotalFollowposForRangeNodes(::System::Xml::Schema::BitSet*  firstpos, ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*>  followpos, ::ByRef<::System::Xml::Schema::BitSet*>  posWithRangeTerminals) ;
+  /// @brief Method CalculateTotalFollowposForRangeNodes, addr 0x61dea4c, size 0x2b8, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>
+  CalculateTotalFollowposForRangeNodes(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
+                                       ::ByRef<::System::Xml::Schema::BitSet*> posWithRangeTerminals);
 
-/// @brief Method CheckCMUPAWithLeafRangeNodes, addr 0x616ce6c, size 0x164, virtual false, abstract: false, final false
-inline void CheckCMUPAWithLeafRangeNodes(::System::Xml::Schema::BitSet*  curpos) ;
+  /// @brief Method CheckCMUPAWithLeafRangeNodes, addr 0x61dee78, size 0x164, virtual false, abstract: false, final false
+  inline void CheckCMUPAWithLeafRangeNodes(::System::Xml::Schema::BitSet* curpos);
 
-/// @brief Method CheckUniqueParticleAttribution, addr 0x616d678, size 0x1b0, virtual false, abstract: false, final false
-inline void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet*  curpos) ;
+  /// @brief Method CheckUniqueParticleAttribution, addr 0x61df684, size 0x1b0, virtual false, abstract: false, final false
+  inline void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet* curpos);
 
-/// @brief Method CheckUniqueParticleAttribution, addr 0x616cfd0, size 0x88, virtual false, abstract: false, final false
-inline void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet*  firstpos, ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*>  followpos) ;
+  /// @brief Method CheckUniqueParticleAttribution, addr 0x61defdc, size 0x88, virtual false, abstract: false, final false
+  inline void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-/// @brief Method CloseGroup, addr 0x616bc40, size 0x158, virtual false, abstract: false, final false
-inline void CloseGroup() ;
+  /// @brief Method CloseGroup, addr 0x61ddc4c, size 0x158, virtual false, abstract: false, final false
+  inline void CloseGroup();
 
-/// @brief Method Closure, addr 0x616c1f4, size 0x164, virtual false, abstract: false, final false
-inline void Closure(::System::Xml::Schema::InteriorNode*  node) ;
+  /// @brief Method Closure, addr 0x61de200, size 0x164, virtual false, abstract: false, final false
+  inline void Closure(::System::Xml::Schema::InteriorNode* node);
 
-/// @brief Method CompleteValidation, addr 0x616bb30, size 0x38, virtual true, abstract: false, final false
-inline bool CompleteValidation(::System::Xml::Schema::ValidationState*  context) ;
+  /// @brief Method CompleteValidation, addr 0x61ddb3c, size 0x38, virtual true, abstract: false, final false
+  inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
 
-/// @brief Method Exists, addr 0x616bd98, size 0x38, virtual false, abstract: false, final false
-inline bool Exists(::System::Xml::XmlQualifiedName*  name) ;
+  /// @brief Method Exists, addr 0x61ddda4, size 0x38, virtual false, abstract: false, final false
+  inline bool Exists(::System::Xml::XmlQualifiedName* name);
 
-/// @brief Method Finish, addr 0x616c4e0, size 0x560, virtual false, abstract: false, final false
-inline ::System::Xml::Schema::ContentValidator* Finish(bool  useDFA) ;
+  /// @brief Method Finish, addr 0x61de4ec, size 0x560, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::ContentValidator* Finish(bool useDFA);
 
-/// @brief Method GetApplicableMinMaxFollowPos, addr 0x616ccf8, size 0x174, virtual false, abstract: false, final false
-inline ::System::Xml::Schema::BitSet* GetApplicableMinMaxFollowPos(::System::Xml::Schema::BitSet*  curpos, ::System::Xml::Schema::BitSet*  posWithRangeTerminals, ::ArrayW<::System::Xml::Schema::BitSet*,::Array<::System::Xml::Schema::BitSet*>*>  minmaxFollowPos) ;
+  /// @brief Method GetApplicableMinMaxFollowPos, addr 0x61ded04, size 0x174, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::BitSet* GetApplicableMinMaxFollowPos(::System::Xml::Schema::BitSet* curpos, ::System::Xml::Schema::BitSet* posWithRangeTerminals,
+                                                                     ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> minmaxFollowPos);
 
-/// @brief Method InitValidation, addr 0x616bac0, size 0x38, virtual true, abstract: false, final false
-inline void InitValidation(::System::Xml::Schema::ValidationState*  context) ;
+  /// @brief Method InitValidation, addr 0x61ddacc, size 0x38, virtual true, abstract: false, final false
+  inline void InitValidation(::System::Xml::Schema::ValidationState* context);
 
-static inline ::System::Xml::Schema::ParticleContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType  contentType) ;
+  static inline ::System::Xml::Schema::ParticleContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 
-static inline ::System::Xml::Schema::ParticleContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType  contentType, bool  enableUpaCheck) ;
+  static inline ::System::Xml::Schema::ParticleContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck);
 
-/// @brief Method OpenGroup, addr 0x616bc1c, size 0x24, virtual false, abstract: false, final false
-inline void OpenGroup() ;
+  /// @brief Method OpenGroup, addr 0x61ddc28, size 0x24, virtual false, abstract: false, final false
+  inline void OpenGroup();
 
-/// @brief Method Start, addr 0x616bb68, size 0xb4, virtual false, abstract: false, final false
-inline void Start() ;
+  /// @brief Method Start, addr 0x61ddb74, size 0xb4, virtual false, abstract: false, final false
+  inline void Start();
 
-/// @brief Method ValidateElement, addr 0x616baf8, size 0x38, virtual true, abstract: false, final false
-inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName*  name, ::System::Xml::Schema::ValidationState*  context, ::ByRef<int32_t>  errorCode) ;
+  /// @brief Method ValidateElement, addr 0x61ddb04, size 0x38, virtual true, abstract: false, final false
+  inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ::ByRef<int32_t> errorCode);
 
-constexpr ::System::Xml::Schema::SyntaxTreeNode* const& __cordl_internal_get_contentNode() const;
+  constexpr ::System::Xml::Schema::SyntaxTreeNode* const& __cordl_internal_get_contentNode() const;
 
-constexpr ::System::Xml::Schema::SyntaxTreeNode*& __cordl_internal_get_contentNode() ;
+  constexpr ::System::Xml::Schema::SyntaxTreeNode*& __cordl_internal_get_contentNode();
 
-constexpr bool const& __cordl_internal_get_enableUpaCheck() const;
+  constexpr bool const& __cordl_internal_get_enableUpaCheck() const;
 
-constexpr bool& __cordl_internal_get_enableUpaCheck() ;
+  constexpr bool& __cordl_internal_get_enableUpaCheck();
 
-constexpr bool const& __cordl_internal_get_isPartial() const;
+  constexpr bool const& __cordl_internal_get_isPartial() const;
 
-constexpr bool& __cordl_internal_get_isPartial() ;
+  constexpr bool& __cordl_internal_get_isPartial();
 
-constexpr int32_t const& __cordl_internal_get_minMaxNodesCount() const;
+  constexpr int32_t const& __cordl_internal_get_minMaxNodesCount() const;
 
-constexpr int32_t& __cordl_internal_get_minMaxNodesCount() ;
+  constexpr int32_t& __cordl_internal_get_minMaxNodesCount();
 
-constexpr ::System::Xml::Schema::Positions* const& __cordl_internal_get_positions() const;
+  constexpr ::System::Xml::Schema::Positions* const& __cordl_internal_get_positions() const;
 
-constexpr ::System::Xml::Schema::Positions*& __cordl_internal_get_positions() ;
+  constexpr ::System::Xml::Schema::Positions*& __cordl_internal_get_positions();
 
-constexpr ::System::Collections::Stack* const& __cordl_internal_get_stack() const;
+  constexpr ::System::Collections::Stack* const& __cordl_internal_get_stack() const;
 
-constexpr ::System::Collections::Stack*& __cordl_internal_get_stack() ;
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_stack();
 
-constexpr ::System::Xml::Schema::SymbolsDictionary* const& __cordl_internal_get_symbols() const;
+  constexpr ::System::Xml::Schema::SymbolsDictionary* const& __cordl_internal_get_symbols() const;
 
-constexpr ::System::Xml::Schema::SymbolsDictionary*& __cordl_internal_get_symbols() ;
+  constexpr ::System::Xml::Schema::SymbolsDictionary*& __cordl_internal_get_symbols();
 
-constexpr void __cordl_internal_set_contentNode(::System::Xml::Schema::SyntaxTreeNode*  value) ;
+  constexpr void __cordl_internal_set_contentNode(::System::Xml::Schema::SyntaxTreeNode* value);
 
-constexpr void __cordl_internal_set_enableUpaCheck(bool  value) ;
+  constexpr void __cordl_internal_set_enableUpaCheck(bool value);
 
-constexpr void __cordl_internal_set_isPartial(bool  value) ;
+  constexpr void __cordl_internal_set_isPartial(bool value);
 
-constexpr void __cordl_internal_set_minMaxNodesCount(int32_t  value) ;
+  constexpr void __cordl_internal_set_minMaxNodesCount(int32_t value);
 
-constexpr void __cordl_internal_set_positions(::System::Xml::Schema::Positions*  value) ;
+  constexpr void __cordl_internal_set_positions(::System::Xml::Schema::Positions* value);
 
-constexpr void __cordl_internal_set_stack(::System::Collections::Stack*  value) ;
+  constexpr void __cordl_internal_set_stack(::System::Collections::Stack* value);
 
-constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary*  value) ;
+  constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
-/// @brief Method .ctor, addr 0x616ba40, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::Schema::XmlSchemaContentType  contentType) ;
+  /// @brief Method .ctor, addr 0x61dda4c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 
-/// @brief Method .ctor, addr 0x616ba48, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::Schema::XmlSchemaContentType  contentType, bool  enableUpaCheck) ;
+  /// @brief Method .ctor, addr 0x61dda54, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ParticleContentValidator() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParticleContentValidator();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleContentValidator", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ParticleContentValidator(ParticleContentValidator&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ParticleContentValidator", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ParticleContentValidator(ParticleContentValidator && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleContentValidator", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ParticleContentValidator(ParticleContentValidator const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ParticleContentValidator", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ParticleContentValidator(ParticleContentValidator const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9589 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9583};
+  /// @brief Field symbols, offset: 0x18, size: 0x8, def value: None
+  ::System::Xml::Schema::SymbolsDictionary* ___symbols;
 
-/// @brief Field symbols, offset: 0x18, size: 0x8, def value: None
- ::System::Xml::Schema::SymbolsDictionary*  ___symbols;
+  /// @brief Field positions, offset: 0x20, size: 0x8, def value: None
+  ::System::Xml::Schema::Positions* ___positions;
 
-/// @brief Field positions, offset: 0x20, size: 0x8, def value: None
- ::System::Xml::Schema::Positions*  ___positions;
+  /// @brief Field stack, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Stack* ___stack;
 
-/// @brief Field stack, offset: 0x28, size: 0x8, def value: None
- ::System::Collections::Stack*  ___stack;
+  /// @brief Field contentNode, offset: 0x30, size: 0x8, def value: None
+  ::System::Xml::Schema::SyntaxTreeNode* ___contentNode;
 
-/// @brief Field contentNode, offset: 0x30, size: 0x8, def value: None
- ::System::Xml::Schema::SyntaxTreeNode*  ___contentNode;
+  /// @brief Field isPartial, offset: 0x38, size: 0x1, def value: None
+  bool ___isPartial;
 
-/// @brief Field isPartial, offset: 0x38, size: 0x1, def value: None
- bool  ___isPartial;
+  /// @brief Field minMaxNodesCount, offset: 0x3c, size: 0x4, def value: None
+  int32_t ___minMaxNodesCount;
 
-/// @brief Field minMaxNodesCount, offset: 0x3c, size: 0x4, def value: None
- int32_t  ___minMaxNodesCount;
+  /// @brief Field enableUpaCheck, offset: 0x40, size: 0x1, def value: None
+  bool ___enableUpaCheck;
 
-/// @brief Field enableUpaCheck, offset: 0x40, size: 0x1, def value: None
- bool  ___enableUpaCheck;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::ParticleContentValidator, ___symbols) == 0x18, "Offset mismatch!");
@@ -260,6 +264,6 @@ static_assert(offsetof(::System::Xml::Schema::ParticleContentValidator, ___enabl
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ParticleContentValidator, 0x48>, "Size mismatch!");
 
-} // namespace end def System::Xml::Schema
+} // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::ParticleContentValidator);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ParticleContentValidator*, "System.Xml.Schema", "ParticleContentValidator");

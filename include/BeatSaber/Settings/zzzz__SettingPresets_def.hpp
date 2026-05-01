@@ -37,89 +37,89 @@ namespace BeatSaber::Settings {
 // CS Name: BeatSaber.Settings.SettingPresets
 class CORDL_TYPE SettingPresets : public ::System::Object {
 public:
-// Declarations
-/// @brief Field kLightBaking, offset 0xffffffff, size 0xf0 
- __declspec(property(get=getStaticF_kLightBaking, put=setStaticF_kLightBaking)) ::BeatSaber::Settings::Settings  kLightBaking;
+  // Declarations
+  /// @brief Field kLightBaking, offset 0xffffffff, size 0xf8
+  __declspec(property(get = getStaticF_kLightBaking, put = setStaticF_kLightBaking)) ::BeatSaber::Settings::Settings kLightBaking;
 
-/// @brief Field kQuest1, offset 0xffffffff, size 0xf0 
- __declspec(property(get=getStaticF_kQuest1, put=setStaticF_kQuest1)) ::BeatSaber::Settings::Settings  kQuest1;
+  /// @brief Field kQuest1, offset 0xffffffff, size 0xf8
+  __declspec(property(get = getStaticF_kQuest1, put = setStaticF_kQuest1)) ::BeatSaber::Settings::Settings kQuest1;
 
-/// @brief Field kQuest2, offset 0xffffffff, size 0xf0 
- __declspec(property(get=getStaticF_kQuest2, put=setStaticF_kQuest2)) ::BeatSaber::Settings::Settings  kQuest2;
+  /// @brief Field kQuest2, offset 0xffffffff, size 0xf8
+  __declspec(property(get = getStaticF_kQuest2, put = setStaticF_kQuest2)) ::BeatSaber::Settings::Settings kQuest2;
 
-/// @brief Field kQuest3, offset 0xffffffff, size 0xf0 
- __declspec(property(get=getStaticF_kQuest3, put=setStaticF_kQuest3)) ::BeatSaber::Settings::Settings  kQuest3;
+  /// @brief Field kQuest3, offset 0xffffffff, size 0xf8
+  __declspec(property(get = getStaticF_kQuest3, put = setStaticF_kQuest3)) ::BeatSaber::Settings::Settings kQuest3;
 
-/// @brief Field kQuestPro, offset 0xffffffff, size 0xf0 
- __declspec(property(get=getStaticF_kQuestPro, put=setStaticF_kQuestPro)) ::BeatSaber::Settings::Settings  kQuestPro;
+  /// @brief Field kQuestPro, offset 0xffffffff, size 0xf8
+  __declspec(property(get = getStaticF_kQuestPro, put = setStaticF_kQuestPro)) ::BeatSaber::Settings::Settings kQuestPro;
 
-/// @brief Field kStandalone, offset 0xffffffff, size 0xf0 
- __declspec(property(get=getStaticF_kStandalone, put=setStaticF_kStandalone)) ::BeatSaber::Settings::Settings  kStandalone;
+  /// @brief Field kStandalone, offset 0xffffffff, size 0xf8
+  __declspec(property(get = getStaticF_kStandalone, put = setStaticF_kStandalone)) ::BeatSaber::Settings::Settings kStandalone;
 
-/// @brief Method DefaultAudioSettingsWithLatency, addr 0x31f1c10, size 0x14, virtual false, abstract: false, final false
-static inline ::BeatSaber::Settings::AudioSettings DefaultAudioSettingsWithLatency(float_t  latency) ;
+  /// @brief Method DefaultAudioSettingsWithLatency, addr 0x322d878, size 0x14, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Settings::AudioSettings DefaultAudioSettingsWithLatency(float_t latency);
 
-/// @brief Method DefaultControllerSettings, addr 0x31f1c8c, size 0x90, virtual false, abstract: false, final false
-static inline ::BeatSaber::Settings::ControllerSettings DefaultControllerSettings() ;
+  /// @brief Method DefaultControllerSettings, addr 0x322d8fc, size 0x90, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Settings::ControllerSettings DefaultControllerSettings();
 
-/// @brief Method DefaultMiscSettings, addr 0x31f1c24, size 0x48, virtual false, abstract: false, final false
-static inline ::BeatSaber::Settings::MiscSettings DefaultMiscSettings() ;
+  /// @brief Method DefaultMiscSettings, addr 0x322d88c, size 0x50, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Settings::MiscSettings DefaultMiscSettings();
 
-/// @brief Method DefaultQuestSettings, addr 0x31f1c6c, size 0x14, virtual false, abstract: false, final false
-static inline ::BeatSaber::Settings::QuestSettings DefaultQuestSettings() ;
+  /// @brief Method DefaultQuestSettings, addr 0x322d8dc, size 0x14, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Settings::QuestSettings DefaultQuestSettings();
 
-/// @brief Method DefaultSmoothCameraSettings, addr 0x31f1b8c, size 0x84, virtual false, abstract: false, final false
-static inline ::BeatSaber::Settings::SmoothCameraSettings DefaultSmoothCameraSettings() ;
+  /// @brief Method DefaultSmoothCameraSettings, addr 0x322d7f4, size 0x84, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Settings::SmoothCameraSettings DefaultSmoothCameraSettings();
 
-/// @brief Method DefaultWindowSettings, addr 0x31f1c80, size 0xc, virtual false, abstract: false, final false
-static inline ::BeatSaber::Settings::WindowSettings DefaultWindowSettings() ;
+  /// @brief Method DefaultWindowSettings, addr 0x322d8f0, size 0xc, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Settings::WindowSettings DefaultWindowSettings();
 
-static inline ::BeatSaber::Settings::Settings getStaticF_kLightBaking() ;
+  static inline ::BeatSaber::Settings::Settings getStaticF_kLightBaking();
 
-static inline ::BeatSaber::Settings::Settings getStaticF_kQuest1() ;
+  static inline ::BeatSaber::Settings::Settings getStaticF_kQuest1();
 
-static inline ::BeatSaber::Settings::Settings getStaticF_kQuest2() ;
+  static inline ::BeatSaber::Settings::Settings getStaticF_kQuest2();
 
-static inline ::BeatSaber::Settings::Settings getStaticF_kQuest3() ;
+  static inline ::BeatSaber::Settings::Settings getStaticF_kQuest3();
 
-static inline ::BeatSaber::Settings::Settings getStaticF_kQuestPro() ;
+  static inline ::BeatSaber::Settings::Settings getStaticF_kQuestPro();
 
-static inline ::BeatSaber::Settings::Settings getStaticF_kStandalone() ;
+  static inline ::BeatSaber::Settings::Settings getStaticF_kStandalone();
 
-static inline void setStaticF_kLightBaking(::BeatSaber::Settings::Settings  value) ;
+  static inline void setStaticF_kLightBaking(::BeatSaber::Settings::Settings value);
 
-static inline void setStaticF_kQuest1(::BeatSaber::Settings::Settings  value) ;
+  static inline void setStaticF_kQuest1(::BeatSaber::Settings::Settings value);
 
-static inline void setStaticF_kQuest2(::BeatSaber::Settings::Settings  value) ;
+  static inline void setStaticF_kQuest2(::BeatSaber::Settings::Settings value);
 
-static inline void setStaticF_kQuest3(::BeatSaber::Settings::Settings  value) ;
+  static inline void setStaticF_kQuest3(::BeatSaber::Settings::Settings value);
 
-static inline void setStaticF_kQuestPro(::BeatSaber::Settings::Settings  value) ;
+  static inline void setStaticF_kQuestPro(::BeatSaber::Settings::Settings value);
 
-static inline void setStaticF_kStandalone(::BeatSaber::Settings::Settings  value) ;
+  static inline void setStaticF_kStandalone(::BeatSaber::Settings::Settings value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SettingPresets() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingPresets();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SettingPresets", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SettingPresets(SettingPresets&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SettingPresets", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SettingPresets(SettingPresets && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SettingPresets", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SettingPresets(SettingPresets const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SettingPresets", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SettingPresets(SettingPresets const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21847 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21836};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::SettingPresets, 0x10>, "Size mismatch!");
 
-} // namespace end def BeatSaber::Settings
+} // namespace BeatSaber::Settings
 NEED_NO_BOX(::BeatSaber::Settings::SettingPresets);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::SettingPresets*, "BeatSaber.Settings", "SettingPresets");

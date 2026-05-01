@@ -21,37 +21,37 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.Texture2DParameter
 class CORDL_TYPE Texture2DParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Texture>> {
 public:
-// Declarations
-/// @brief Method GetHashCode, addr 0x6617024, size 0x108, virtual true, abstract: false, final false
-inline int32_t GetHashCode() ;
+  // Declarations
+  /// @brief Method GetHashCode, addr 0x6689030, size 0x108, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-static inline ::UnityEngine::Rendering::Texture2DParameter* New_ctor(::UnityEngine::Texture*  value, bool  overrideState) ;
+  static inline ::UnityEngine::Rendering::Texture2DParameter* New_ctor(::UnityEngine::Texture* value, bool overrideState);
 
-/// @brief Method .ctor, addr 0x6616fc0, size 0x64, virtual false, abstract: false, final false
-inline void _ctor(::UnityEngine::Texture*  value, bool  overrideState) ;
+  /// @brief Method .ctor, addr 0x6688fcc, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Texture* value, bool overrideState);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Texture2DParameter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Texture2DParameter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Texture2DParameter(Texture2DParameter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Texture2DParameter(Texture2DParameter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Texture2DParameter(Texture2DParameter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Texture2DParameter(Texture2DParameter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12351 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12344};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Texture2DParameter, 0x20>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::Texture2DParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Texture2DParameter*, "UnityEngine.Rendering", "Texture2DParameter");

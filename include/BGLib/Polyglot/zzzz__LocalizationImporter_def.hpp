@@ -10,12 +10,10 @@ namespace BGLib::Polyglot {
 class LocalizationAsset;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace BGLib::Polyglot {
@@ -29,38 +27,39 @@ namespace BGLib::Polyglot {
 // CS Name: BGLib.Polyglot.LocalizationImporter
 class CORDL_TYPE LocalizationImporter : public ::System::Object {
 public:
-// Declarations
-/// @brief Method ImportFromFiles, addr 0x3224c88, size 0x24c, virtual false, abstract: false, final false
-static inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::StringW>*>* ImportFromFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*  inputFiles) ;
+  // Declarations
+  /// @brief Method ImportFromFiles, addr 0x3261138, size 0x24c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>*
+  ImportFromFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles);
 
-/// @brief Method ImportTextFile, addr 0x3224ed4, size 0x64c, virtual false, abstract: false, final false
-static inline void ImportTextFile(::StringW  text, ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<::StringW>*>*  result) ;
+  /// @brief Method ImportTextFile, addr 0x3261384, size 0x64c, virtual false, abstract: false, final false
+  static inline void ImportTextFile(::StringW text, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* result);
 
-/// @brief Method IsLineBreak, addr 0x3225520, size 0x60, virtual false, abstract: false, final false
-static inline bool IsLineBreak(::StringW  currentString) ;
+  /// @brief Method IsLineBreak, addr 0x32619d0, size 0x60, virtual false, abstract: false, final false
+  static inline bool IsLineBreak(::StringW currentString);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr LocalizationImporter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalizationImporter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LocalizationImporter(LocalizationImporter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-LocalizationImporter(LocalizationImporter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LocalizationImporter(LocalizationImporter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-LocalizationImporter(LocalizationImporter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22002 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21991};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationImporter, 0x10>, "Size mismatch!");
 
-} // namespace end def BGLib::Polyglot
+} // namespace BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizationImporter);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::Polyglot::LocalizationImporter*, "BGLib.Polyglot", "LocalizationImporter");

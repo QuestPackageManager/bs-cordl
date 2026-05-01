@@ -31,57 +31,57 @@ namespace System::Net {
 // CS Name: System.Net.BasicClient
 class CORDL_TYPE BasicClient : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_AuthenticationType)) ::StringW  AuthenticationType;
+  // Declarations
+  __declspec(property(get = get_AuthenticationType)) ::StringW AuthenticationType;
 
-/// @brief Convert operator to "::System::Net::IAuthenticationModule"
-constexpr operator  ::System::Net::IAuthenticationModule*() noexcept;
+  /// @brief Convert operator to "::System::Net::IAuthenticationModule"
+  constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-/// @brief Method Authenticate, addr 0x6272b84, size 0xb4, virtual true, abstract: false, final true
-inline ::System::Net::Authorization* Authenticate(::StringW  challenge, ::System::Net::WebRequest*  webRequest, ::System::Net::ICredentials*  credentials) ;
+  /// @brief Method Authenticate, addr 0x62e4b90, size 0xb4, virtual true, abstract: false, final true
+  inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-/// @brief Method GetBytes, addr 0x6272f44, size 0xbc, virtual false, abstract: false, final false
-static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetBytes(::StringW  str) ;
+  /// @brief Method GetBytes, addr 0x62e4f50, size 0xbc, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(::StringW str);
 
-/// @brief Method InternalAuthenticate, addr 0x6272c38, size 0x30c, virtual false, abstract: false, final false
-static inline ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest*  webRequest, ::System::Net::ICredentials*  credentials) ;
+  /// @brief Method InternalAuthenticate, addr 0x62e4c44, size 0x30c, virtual false, abstract: false, final false
+  static inline ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-static inline ::System::Net::BasicClient* New_ctor() ;
+  static inline ::System::Net::BasicClient* New_ctor();
 
-/// @brief Method PreAuthenticate, addr 0x6273000, size 0xc, virtual true, abstract: false, final true
-inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest*  webRequest, ::System::Net::ICredentials*  credentials) ;
+  /// @brief Method PreAuthenticate, addr 0x62e500c, size 0xc, virtual true, abstract: false, final true
+  inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-/// @brief Method .ctor, addr 0x62720c4, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x62e40d0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_AuthenticationType, addr 0x627300c, size 0x44, virtual true, abstract: false, final true
-inline ::StringW get_AuthenticationType() ;
+  /// @brief Method get_AuthenticationType, addr 0x62e5018, size 0x44, virtual true, abstract: false, final true
+  inline ::StringW get_AuthenticationType();
 
-/// @brief Convert to "::System::Net::IAuthenticationModule"
-constexpr ::System::Net::IAuthenticationModule* i___System__Net__IAuthenticationModule() noexcept;
+  /// @brief Convert to "::System::Net::IAuthenticationModule"
+  constexpr ::System::Net::IAuthenticationModule* i___System__Net__IAuthenticationModule() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr BasicClient() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicClient();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "BasicClient", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  BasicClient(BasicClient&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BasicClient", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-BasicClient(BasicClient && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "BasicClient", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  BasicClient(BasicClient const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "BasicClient", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-BasicClient(BasicClient const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11559 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11552};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::BasicClient, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 NEED_NO_BOX(::System::Net::BasicClient);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::BasicClient*, "System.Net", "BasicClient");

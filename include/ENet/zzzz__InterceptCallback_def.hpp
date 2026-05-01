@@ -36,43 +36,44 @@ namespace ENet {
 // CS Name: ENet.InterceptCallback
 class CORDL_TYPE InterceptCallback : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method BeginInvoke, addr 0x56dca64, size 0xf8, virtual true, abstract: false, final false
-inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ENet::Event>  event, ::ByRef<::ENet::Address>  address, ::System::IntPtr  receivedData, int32_t  receivedDataLength, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+  // Declarations
+  /// @brief Method BeginInvoke, addr 0x574a950, size 0xf8, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength,
+                                             ::System::AsyncCallback* callback, ::System::Object* object);
 
-/// @brief Method EndInvoke, addr 0x56dcb5c, size 0x30, virtual true, abstract: false, final false
-inline int32_t EndInvoke(::ByRef<::ENet::Event>  event, ::ByRef<::ENet::Address>  address, ::System::IAsyncResult*  result) ;
+  /// @brief Method EndInvoke, addr 0x574aa48, size 0x30, virtual true, abstract: false, final false
+  inline int32_t EndInvoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IAsyncResult* result);
 
-/// @brief Method Invoke, addr 0x56dca50, size 0x14, virtual true, abstract: false, final false
-inline int32_t Invoke(::ByRef<::ENet::Event>  event, ::ByRef<::ENet::Address>  address, ::System::IntPtr  receivedData, int32_t  receivedDataLength) ;
+  /// @brief Method Invoke, addr 0x574a93c, size 0x14, virtual true, abstract: false, final false
+  inline int32_t Invoke(::ByRef<::ENet::Event> event, ::ByRef<::ENet::Address> address, ::System::IntPtr receivedData, int32_t receivedDataLength);
 
-static inline ::ENet::InterceptCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::ENet::InterceptCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x56dc9d0, size 0x80, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x574a8bc, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr InterceptCallback() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InterceptCallback();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InterceptCallback(InterceptCallback&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-InterceptCallback(InterceptCallback && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InterceptCallback(InterceptCallback const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-InterceptCallback(InterceptCallback const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21547 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21536};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ENet::InterceptCallback, 0x80>, "Size mismatch!");
 
-} // namespace end def ENet
+} // namespace ENet
 NEED_NO_BOX(::ENet::InterceptCallback);
 DEFINE_IL2CPP_ARG_TYPE(::ENet::InterceptCallback*, "ENet", "InterceptCallback");

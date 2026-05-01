@@ -15,39 +15,40 @@ struct InterpretedFrameInfo;
 }
 // Write type traits
 MARK_VAL_T(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo);
-// Dependencies 
+// Dependencies
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: true
 // CS Name: System.Linq.Expressions.Interpreter.InterpretedFrameInfo
 struct CORDL_TYPE InterpretedFrameInfo {
 public:
-// Declarations
-/// @brief Method ToString, addr 0x5ded10c, size 0x7c, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  // Declarations
+  /// @brief Method ToString, addr 0x5e5f118, size 0x7c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x5dea3b8, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::StringW  methodName, ::System::Linq::Expressions::Interpreter::DebugInfo*  info) ;
+  /// @brief Method .ctor, addr 0x5e5c3c4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* info);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr InterpretedFrameInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InterpretedFrameInfo();
 
-// Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_debugInfo", ty: "::System::Linq::Expressions::Interpreter::DebugInfo*", modifiers: "", def_value: None }]
-constexpr InterpretedFrameInfo(::StringW  _methodName, ::System::Linq::Expressions::Interpreter::DebugInfo*  _debugInfo) noexcept;
+  // Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_debugInfo", ty: "::System::Linq::Expressions::Interpreter::DebugInfo*",
+  // modifiers: "", def_value: None }]
+  constexpr InterpretedFrameInfo(::StringW _methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16412};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16420 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field _methodName, offset: 0x0, size: 0x8, def value: None
- ::StringW  _methodName;
+  /// @brief Field _methodName, offset: 0x0, size: 0x8, def value: None
+  ::StringW _methodName;
 
-/// @brief Field _debugInfo, offset: 0x8, size: 0x8, def value: None
- ::System::Linq::Expressions::Interpreter::DebugInfo*  _debugInfo;
+  /// @brief Field _debugInfo, offset: 0x8, size: 0x8, def value: None
+  ::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo, _methodName) == 0x0, "Offset mismatch!");
@@ -56,5 +57,5 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::InterpretedFram
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Linq::Expressions::Interpreter
+} // namespace System::Linq::Expressions::Interpreter
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo, "System.Linq.Expressions.Interpreter", "InterpretedFrameInfo");

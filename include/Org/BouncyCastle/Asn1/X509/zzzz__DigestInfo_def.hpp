@@ -33,76 +33,76 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // CS Name: Org.BouncyCastle.Asn1.X509.DigestInfo
 class CORDL_TYPE DigestInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-// Declarations
- __declspec(property(get=get_AlgorithmID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  AlgorithmID;
+  // Declarations
+  __declspec(property(get = get_AlgorithmID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmID;
 
-/// @brief Field algID, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_algID, put=__cordl_internal_set_algID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algID;
+  /// @brief Field algID, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_algID, put = __cordl_internal_set_algID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
 
-/// @brief Field digest, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_digest, put=__cordl_internal_set_digest)) ::ArrayW<uint8_t,::Array<uint8_t>*>  digest;
+  /// @brief Field digest, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
-/// @brief Method GetDigest, addr 0x355ed40, size 0x8, virtual false, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetDigest() ;
+  /// @brief Method GetDigest, addr 0x359b384, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
-/// @brief Method GetInstance, addr 0x355eaac, size 0x14, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
+  /// @brief Method GetInstance, addr 0x359b0f0, size 0x14, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-/// @brief Method GetInstance, addr 0x355eac0, size 0x184, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::System::Object*  obj) ;
+  /// @brief Method GetInstance, addr 0x359b104, size 0x184, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::System::Object* obj);
 
-static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algID, ::ArrayW<uint8_t,::Array<uint8_t>*>  digest) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method ToAsn1Object, addr 0x355ed48, size 0x11c, virtual true, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
+  /// @brief Method ToAsn1Object, addr 0x359b38c, size 0x11c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algID() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algID() const;
 
-constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algID() ;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algID();
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_digest() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
 
-constexpr void __cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
+  constexpr void __cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-/// @brief Method .ctor, addr 0x355ed30, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algID, ::ArrayW<uint8_t,::Array<uint8_t>*>  digest) ;
+  /// @brief Method .ctor, addr 0x359b374, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-/// @brief Method .ctor, addr 0x355ec44, size 0xec, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
+  /// @brief Method .ctor, addr 0x359b288, size 0xec, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-/// @brief Method get_AlgorithmID, addr 0x355ed38, size 0x8, virtual false, abstract: false, final false
-inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID() ;
+  /// @brief Method get_AlgorithmID, addr 0x359b37c, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DigestInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DigestInfo();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DigestInfo", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DigestInfo(DigestInfo&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DigestInfo", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DigestInfo(DigestInfo && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DigestInfo", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DigestInfo(DigestInfo const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DigestInfo", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DigestInfo(DigestInfo const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 355 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{355};
+  /// @brief Field digest, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___digest;
 
-/// @brief Field digest, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___digest;
+  /// @brief Field algID, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___algID;
 
-/// @brief Field algID, offset: 0x18, size: 0x8, def value: None
- ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___algID;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DigestInfo, ___digest) == 0x10, "Offset mismatch!");
@@ -111,6 +111,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DigestInfo, ___algID) ==
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::DigestInfo, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::X509
+} // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::DigestInfo);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::DigestInfo*, "Org.BouncyCastle.Asn1.X509", "DigestInfo");

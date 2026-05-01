@@ -12,59 +12,59 @@ struct VideoTimeSource;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::VideoTimeSource);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
 // CS Name: UnityEngine.Video.VideoTimeSource
 struct CORDL_TYPE VideoTimeSource {
 public:
-// Declarations
-using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-/// @brief Nested struct __VideoTimeSource_Unwrapped
-enum struct __VideoTimeSource_Unwrapped : int32_t {
-__E_AudioDSPTimeSource = static_cast<int32_t>(0x0),
-__E_GameTimeSource = static_cast<int32_t>(0x1),
-};
+  /// @brief Nested struct __VideoTimeSource_Unwrapped
+  enum struct __VideoTimeSource_Unwrapped : int32_t {
+    __E_AudioDSPTimeSource = static_cast<int32_t>(0x0),
+    __E_GameTimeSource = static_cast<int32_t>(0x1),
+  };
 
-/// @brief Conversion into unwrapped enum value
-constexpr operator __VideoTimeSource_Unwrapped () const noexcept {
-return static_cast<__VideoTimeSource_Unwrapped>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __VideoTimeSource_Unwrapped() const noexcept {
+    return static_cast<__VideoTimeSource_Unwrapped>(this->value__);
+  }
 
-/// @brief Conversion into unwrapped enum value
-constexpr explicit operator int32_t () const noexcept {
-return static_cast<int32_t>(this->value__);
-}
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr VideoTimeSource() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VideoTimeSource();
 
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr VideoTimeSource(int32_t  value__) noexcept;
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr VideoTimeSource(int32_t value__) noexcept;
 
-/// @brief Field AudioDSPTimeSource value: I32(0)
-static ::UnityEngine::Video::VideoTimeSource const AudioDSPTimeSource;
+  /// @brief Field AudioDSPTimeSource value: I32(0)
+  static ::UnityEngine::Video::VideoTimeSource const AudioDSPTimeSource;
 
-/// @brief Field GameTimeSource value: I32(1)
-static ::UnityEngine::Video::VideoTimeSource const GameTimeSource;
+  /// @brief Field GameTimeSource value: I32(1)
+  static ::UnityEngine::Video::VideoTimeSource const GameTimeSource;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22051};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22062 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
- int32_t  value__;
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Video::VideoTimeSource, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::VideoTimeSource, 0x4>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Video
+} // namespace UnityEngine::Video
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Video::VideoTimeSource, "UnityEngine.Video", "VideoTimeSource");

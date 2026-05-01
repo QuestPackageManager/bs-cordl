@@ -22,66 +22,66 @@ namespace Org::BouncyCastle::Asn1::Misc {
 // CS Name: Org.BouncyCastle.Asn1.Misc.NetscapeCertType
 class CORDL_TYPE NetscapeCertType : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(::Org::BouncyCastle::Asn1::DerBitString*  usage) ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(int32_t  usage) ;
+  static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(int32_t usage);
 
-/// @brief Method ToString, addr 0x335ba1c, size 0xb0, virtual true, abstract: false, final false
-inline ::StringW ToString() ;
+  /// @brief Method ToString, addr 0x3398060, size 0xb0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-/// @brief Method .ctor, addr 0x335b97c, size 0xa0, virtual false, abstract: false, final false
-inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString*  usage) ;
+  /// @brief Method .ctor, addr 0x3397fc0, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-/// @brief Method .ctor, addr 0x335b910, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(int32_t  usage) ;
+  /// @brief Method .ctor, addr 0x3397f54, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t usage);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr NetscapeCertType() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetscapeCertType();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  NetscapeCertType(NetscapeCertType&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-NetscapeCertType(NetscapeCertType && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  NetscapeCertType(NetscapeCertType const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "NetscapeCertType", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-NetscapeCertType(NetscapeCertType const& ) = delete;
+  /// @brief Field ObjectSigning offset 0xffffffff size 0x4
+  static constexpr int32_t ObjectSigning{ static_cast<int32_t>(0x10) };
 
-/// @brief Field ObjectSigning offset 0xffffffff size 0x4
-static constexpr int32_t  ObjectSigning{static_cast<int32_t>(0x10)};
+  /// @brief Field ObjectSigningCA offset 0xffffffff size 0x4
+  static constexpr int32_t ObjectSigningCA{ static_cast<int32_t>(0x1) };
 
-/// @brief Field ObjectSigningCA offset 0xffffffff size 0x4
-static constexpr int32_t  ObjectSigningCA{static_cast<int32_t>(0x1)};
+  /// @brief Field Reserved offset 0xffffffff size 0x4
+  static constexpr int32_t Reserved{ static_cast<int32_t>(0x8) };
 
-/// @brief Field Reserved offset 0xffffffff size 0x4
-static constexpr int32_t  Reserved{static_cast<int32_t>(0x8)};
+  /// @brief Field Smime offset 0xffffffff size 0x4
+  static constexpr int32_t Smime{ static_cast<int32_t>(0x20) };
 
-/// @brief Field Smime offset 0xffffffff size 0x4
-static constexpr int32_t  Smime{static_cast<int32_t>(0x20)};
+  /// @brief Field SmimeCA offset 0xffffffff size 0x4
+  static constexpr int32_t SmimeCA{ static_cast<int32_t>(0x2) };
 
-/// @brief Field SmimeCA offset 0xffffffff size 0x4
-static constexpr int32_t  SmimeCA{static_cast<int32_t>(0x2)};
+  /// @brief Field SslCA offset 0xffffffff size 0x4
+  static constexpr int32_t SslCA{ static_cast<int32_t>(0x4) };
 
-/// @brief Field SslCA offset 0xffffffff size 0x4
-static constexpr int32_t  SslCA{static_cast<int32_t>(0x4)};
+  /// @brief Field SslClient offset 0xffffffff size 0x4
+  static constexpr int32_t SslClient{ static_cast<int32_t>(0x80) };
 
-/// @brief Field SslClient offset 0xffffffff size 0x4
-static constexpr int32_t  SslClient{static_cast<int32_t>(0x80)};
+  /// @brief Field SslServer offset 0xffffffff size 0x4
+  static constexpr int32_t SslServer{ static_cast<int32_t>(0x40) };
 
-/// @brief Field SslServer offset 0xffffffff size 0x4
-static constexpr int32_t  SslServer{static_cast<int32_t>(0x40)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 198 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{198};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Misc::NetscapeCertType, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Asn1::Misc
+} // namespace Org::BouncyCastle::Asn1::Misc
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Misc::NetscapeCertType);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Misc::NetscapeCertType*, "Org.BouncyCastle.Asn1.Misc", "NetscapeCertType");

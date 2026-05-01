@@ -10,153 +10,143 @@
 #include "Unity/Profiling/zzzz__DebugScreenCapture_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
 //  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.PrepareMetadata
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (*)()>(&::Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)()>(&::Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x68921fc;
+  constexpr static std::size_t addrs = 0x6904208;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "PrepareMetadata",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
+                                                                               "PrepareMetadata", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.WriteIntToByteArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
+    &::Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68923f4;
+  constexpr static std::size_t addrs = 0x6904400;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "WriteIntToByteArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "WriteIntToByteArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.WriteStringToByteArray
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, ::StringW)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::StringW)>(
+    &::Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x689247c;
+  constexpr static std::size_t addrs = 0x6904488;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "WriteStringToByteArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "WriteStringToByteArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.FinalizeSnapshot
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool)>(&::Unity::Profiling::Memory::MemoryProfiler::FinalizeSnapshot)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6892548;
+  constexpr static std::size_t addrs = 0x6904554;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "FinalizeSnapshot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "FinalizeSnapshot", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Profiling::Memory::MemoryProfiler.SaveScreenshotToDisk
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, ::System::IntPtr, int32_t, ::UnityEngine::TextureFormat, int32_t, int32_t)>(&::Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, ::System::IntPtr, int32_t, ::UnityEngine::TextureFormat, int32_t, int32_t)>(
+    &::Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68925d0;
+  constexpr static std::size_t addrs = 0x69045dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "SaveScreenshotToDisk",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureFormat>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "SaveScreenshotToDisk", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureFormat>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-inline void Unity::Profiling::Memory::MemoryProfiler::setStaticF_m_SnapshotFinished(::System::Action_2<::StringW,bool>*  value)  {
-::cordl_internals::setStaticField<::System::Action_2<::StringW,bool>*, "m_SnapshotFinished", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>(std::forward<::System::Action_2<::StringW,bool>*>(value));
+inline void Unity::Profiling::Memory::MemoryProfiler::setStaticF_m_SnapshotFinished(::System::Action_2<::StringW, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Action_2<::StringW, bool>*, "m_SnapshotFinished",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>(
+      std::forward<::System::Action_2<::StringW, bool>*>(value));
 }
-inline ::System::Action_2<::StringW,bool>* Unity::Profiling::Memory::MemoryProfiler::getStaticF_m_SnapshotFinished()  {
-return ::cordl_internals::getStaticField<::System::Action_2<::StringW,bool>*, "m_SnapshotFinished", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>();
+inline ::System::Action_2<::StringW, bool>* Unity::Profiling::Memory::MemoryProfiler::getStaticF_m_SnapshotFinished() {
+  return ::cordl_internals::getStaticField<::System::Action_2<::StringW, bool>*, "m_SnapshotFinished",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>();
 }
-inline void Unity::Profiling::Memory::MemoryProfiler::setStaticF_m_SaveScreenshotToDisk(::System::Action_3<::StringW,bool,::Unity::Profiling::DebugScreenCapture>*  value)  {
-::cordl_internals::setStaticField<::System::Action_3<::StringW,bool,::Unity::Profiling::DebugScreenCapture>*, "m_SaveScreenshotToDisk", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>(std::forward<::System::Action_3<::StringW,bool,::Unity::Profiling::DebugScreenCapture>*>(value));
+inline void Unity::Profiling::Memory::MemoryProfiler::setStaticF_m_SaveScreenshotToDisk(::System::Action_3<::StringW, bool, ::Unity::Profiling::DebugScreenCapture>* value) {
+  ::cordl_internals::setStaticField<::System::Action_3<::StringW, bool, ::Unity::Profiling::DebugScreenCapture>*, "m_SaveScreenshotToDisk",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>(
+      std::forward<::System::Action_3<::StringW, bool, ::Unity::Profiling::DebugScreenCapture>*>(value));
 }
-inline ::System::Action_3<::StringW,bool,::Unity::Profiling::DebugScreenCapture>* Unity::Profiling::Memory::MemoryProfiler::getStaticF_m_SaveScreenshotToDisk()  {
-return ::cordl_internals::getStaticField<::System::Action_3<::StringW,bool,::Unity::Profiling::DebugScreenCapture>*, "m_SaveScreenshotToDisk", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>();
+inline ::System::Action_3<::StringW, bool, ::Unity::Profiling::DebugScreenCapture>* Unity::Profiling::Memory::MemoryProfiler::getStaticF_m_SaveScreenshotToDisk() {
+  return ::cordl_internals::getStaticField<::System::Action_3<::StringW, bool, ::Unity::Profiling::DebugScreenCapture>*, "m_SaveScreenshotToDisk",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>();
 }
-inline void Unity::Profiling::Memory::MemoryProfiler::setStaticF_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*  value)  {
-::cordl_internals::setStaticField<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*, "CreatingMetadata", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>(std::forward<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*>(value));
+inline void Unity::Profiling::Memory::MemoryProfiler::setStaticF_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*, "CreatingMetadata",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>(
+      std::forward<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*>(value));
 }
-inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* Unity::Profiling::Memory::MemoryProfiler::getStaticF_CreatingMetadata()  {
-return ::cordl_internals::getStaticField<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*, "CreatingMetadata", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>();
+inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* Unity::Profiling::Memory::MemoryProfiler::getStaticF_CreatingMetadata() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*, "CreatingMetadata",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get>();
 }
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "PrepareMetadata",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(nullptr, ___internal_method);
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
+                                                                             "PrepareMetadata", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method);
 }
-inline int32_t Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  array, int32_t  offset, int32_t  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "WriteIntToByteArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, array, offset, value);
+inline int32_t Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "WriteIntToByteArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, array, offset, value);
 }
-inline int32_t Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  array, int32_t  offset, ::StringW  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "WriteStringToByteArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, array, offset, value);
+inline int32_t Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, ::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "WriteStringToByteArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, array, offset, value);
 }
-inline void Unity::Profiling::Memory::MemoryProfiler::FinalizeSnapshot(::StringW  path, bool  result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "FinalizeSnapshot",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, path, result);
+inline void Unity::Profiling::Memory::MemoryProfiler::FinalizeSnapshot(::StringW path, bool result) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "FinalizeSnapshot", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, path, result);
 }
-inline void Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk(::StringW  path, bool  result, ::System::IntPtr  pixelsPtr, int32_t  pixelsCount, ::UnityEngine::TextureFormat  format, int32_t  width, int32_t  height)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
-                        "SaveScreenshotToDisk",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureFormat>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, path, result, pixelsPtr, pixelsCount, format, width, height);
+inline void Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format,
+                                                                           int32_t width, int32_t height) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(), "SaveScreenshotToDisk", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureFormat>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, path, result, pixelsPtr, pixelsCount, format, width, height);
 }
 // Ctor Parameters []
-constexpr ::Unity::Profiling::Memory::MemoryProfiler::MemoryProfiler()   {
-}
+constexpr ::Unity::Profiling::Memory::MemoryProfiler::MemoryProfiler() {}

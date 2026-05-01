@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithAppDownloadResult
 class CORDL_TYPE MessageWithAppDownloadResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AppDownloadResult*> {
 public:
-// Declarations
-/// @brief Method GetAppDownloadResult, addr 0x5c2b95c, size 0x44, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::AppDownloadResult* GetAppDownloadResult() ;
+  // Declarations
+  /// @brief Method GetAppDownloadResult, addr 0x5c9d944, size 0x44, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AppDownloadResult* GetAppDownloadResult();
 
-/// @brief Method GetDataFromMessage, addr 0x5c2b9a0, size 0x98, virtual true, abstract: false, final false
-inline ::Oculus::Platform::Models::AppDownloadResult* GetDataFromMessage(::System::IntPtr  c_message) ;
+  /// @brief Method GetDataFromMessage, addr 0x5c9d988, size 0x98, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AppDownloadResult* GetDataFromMessage(::System::IntPtr c_message);
 
-static inline ::Oculus::Platform::MessageWithAppDownloadResult* New_ctor(::System::IntPtr  c_message) ;
+  static inline ::Oculus::Platform::MessageWithAppDownloadResult* New_ctor(::System::IntPtr c_message);
 
-/// @brief Method .ctor, addr 0x5c29048, size 0x5c, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  c_message) ;
+  /// @brief Method .ctor, addr 0x5c9b030, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MessageWithAppDownloadResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithAppDownloadResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithAppDownloadResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MessageWithAppDownloadResult(MessageWithAppDownloadResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithAppDownloadResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MessageWithAppDownloadResult(MessageWithAppDownloadResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithAppDownloadResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MessageWithAppDownloadResult(MessageWithAppDownloadResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MessageWithAppDownloadResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MessageWithAppDownloadResult(MessageWithAppDownloadResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17845 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17837};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithAppDownloadResult, 0x30>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform
+} // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithAppDownloadResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithAppDownloadResult*, "Oculus.Platform", "MessageWithAppDownloadResult");

@@ -22,54 +22,54 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.AppDownloadResult
 class CORDL_TYPE AppDownloadResult : public ::System::Object {
 public:
-// Declarations
-/// @brief Field AppInstallResult, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_AppInstallResult, put=__cordl_internal_set_AppInstallResult)) ::Oculus::Platform::AppInstallResult  AppInstallResult;
+  // Declarations
+  /// @brief Field AppInstallResult, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_AppInstallResult, put = __cordl_internal_set_AppInstallResult)) ::Oculus::Platform::AppInstallResult AppInstallResult;
 
-/// @brief Field Timestamp, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_Timestamp, put=__cordl_internal_set_Timestamp)) int64_t  Timestamp;
+  /// @brief Field Timestamp, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Timestamp, put = __cordl_internal_set_Timestamp)) int64_t Timestamp;
 
-static inline ::Oculus::Platform::Models::AppDownloadResult* New_ctor(::System::IntPtr  o) ;
+  static inline ::Oculus::Platform::Models::AppDownloadResult* New_ctor(::System::IntPtr o);
 
-constexpr ::Oculus::Platform::AppInstallResult const& __cordl_internal_get_AppInstallResult() const;
+  constexpr ::Oculus::Platform::AppInstallResult const& __cordl_internal_get_AppInstallResult() const;
 
-constexpr ::Oculus::Platform::AppInstallResult& __cordl_internal_get_AppInstallResult() ;
+  constexpr ::Oculus::Platform::AppInstallResult& __cordl_internal_get_AppInstallResult();
 
-constexpr int64_t const& __cordl_internal_get_Timestamp() const;
+  constexpr int64_t const& __cordl_internal_get_Timestamp() const;
 
-constexpr int64_t& __cordl_internal_get_Timestamp() ;
+  constexpr int64_t& __cordl_internal_get_Timestamp();
 
-constexpr void __cordl_internal_set_AppInstallResult(::Oculus::Platform::AppInstallResult  value) ;
+  constexpr void __cordl_internal_set_AppInstallResult(::Oculus::Platform::AppInstallResult value);
 
-constexpr void __cordl_internal_set_Timestamp(int64_t  value) ;
+  constexpr void __cordl_internal_set_Timestamp(int64_t value);
 
-/// @brief Method .ctor, addr 0x5c2ba38, size 0x78, virtual false, abstract: false, final false
-inline void _ctor(::System::IntPtr  o) ;
+  /// @brief Method .ctor, addr 0x5c9da20, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr AppDownloadResult() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AppDownloadResult();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "AppDownloadResult", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AppDownloadResult(AppDownloadResult&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AppDownloadResult", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-AppDownloadResult(AppDownloadResult && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "AppDownloadResult", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AppDownloadResult(AppDownloadResult const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "AppDownloadResult", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-AppDownloadResult(AppDownloadResult const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17995 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17987};
+  /// @brief Field AppInstallResult, offset: 0x10, size: 0x4, def value: None
+  ::Oculus::Platform::AppInstallResult ___AppInstallResult;
 
-/// @brief Field AppInstallResult, offset: 0x10, size: 0x4, def value: None
- ::Oculus::Platform::AppInstallResult  ___AppInstallResult;
+  /// @brief Field Timestamp, offset: 0x18, size: 0x8, def value: None
+  int64_t ___Timestamp;
 
-/// @brief Field Timestamp, offset: 0x18, size: 0x8, def value: None
- int64_t  ___Timestamp;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::AppDownloadResult, ___AppInstallResult) == 0x10, "Offset mismatch!");
@@ -78,6 +78,6 @@ static_assert(offsetof(::Oculus::Platform::Models::AppDownloadResult, ___Timesta
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AppDownloadResult, 0x20>, "Size mismatch!");
 
-} // namespace end def Oculus::Platform::Models
+} // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AppDownloadResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AppDownloadResult*, "Oculus.Platform.Models", "AppDownloadResult");

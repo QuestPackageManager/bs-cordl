@@ -8,12 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProjectKernel)
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template <typename T> class List_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
@@ -52,63 +50,63 @@ namespace Zenject {
 // CS Name: Zenject.ProjectKernel/<>c__DisplayClass4_0
 class CORDL_TYPE ProjectKernel___c__DisplayClass4_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9__0, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___9__0, put=__cordl_internal_set___9__0)) ::System::Func_2<::UnityW<::Zenject::SceneContext>,int32_t>*  __9__0;
+  // Declarations
+  /// @brief Field <>9__0, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___9__0, put = __cordl_internal_set___9__0)) ::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>* __9__0;
 
-/// @brief Field sceneOrder, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_sceneOrder, put=__cordl_internal_set_sceneOrder)) ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*  sceneOrder;
+  /// @brief Field sceneOrder, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_sceneOrder, put = __cordl_internal_set_sceneOrder)) ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* sceneOrder;
 
-static inline ::Zenject::ProjectKernel___c__DisplayClass4_0* New_ctor() ;
+  static inline ::Zenject::ProjectKernel___c__DisplayClass4_0* New_ctor();
 
-/// @brief Method <ForceUnloadAllScenes>b__0, addr 0x6cc9390, size 0x9c, virtual false, abstract: false, final false
-inline int32_t _ForceUnloadAllScenes_b__0(::Zenject::SceneContext*  x) ;
+  /// @brief Method <ForceUnloadAllScenes>b__0, addr 0x6d3b5d4, size 0x9c, virtual false, abstract: false, final false
+  inline int32_t _ForceUnloadAllScenes_b__0(::Zenject::SceneContext* x);
 
-constexpr ::System::Func_2<::UnityW<::Zenject::SceneContext>,int32_t>* const& __cordl_internal_get___9__0() const;
+  constexpr ::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>* const& __cordl_internal_get___9__0() const;
 
-constexpr ::System::Func_2<::UnityW<::Zenject::SceneContext>,int32_t>*& __cordl_internal_get___9__0() ;
+  constexpr ::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>*& __cordl_internal_get___9__0();
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* const& __cordl_internal_get_sceneOrder() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* const& __cordl_internal_get_sceneOrder() const;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*& __cordl_internal_get_sceneOrder() ;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*& __cordl_internal_get_sceneOrder();
 
-constexpr void __cordl_internal_set___9__0(::System::Func_2<::UnityW<::Zenject::SceneContext>,int32_t>*  value) ;
+  constexpr void __cordl_internal_set___9__0(::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>* value);
 
-constexpr void __cordl_internal_set_sceneOrder(::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*  value) ;
+  constexpr void __cordl_internal_set_sceneOrder(::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* value);
 
-/// @brief Method __zenCreate, addr 0x6cc942c, size 0x44, virtual false, abstract: false, final false
-static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
+  /// @brief Method __zenCreate, addr 0x6d3b670, size 0x44, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-/// @brief Method __zenCreateInjectTypeInfo, addr 0x6cc9470, size 0x194, virtual false, abstract: false, final false
-static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d3b6b4, size 0x194, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-/// @brief Method .ctor, addr 0x6cc8d98, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6d3afdc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProjectKernel___c__DisplayClass4_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProjectKernel___c__DisplayClass4_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14662 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14655};
+  /// @brief Field sceneOrder, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* ___sceneOrder;
 
-/// @brief Field sceneOrder, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*  ___sceneOrder;
+  /// @brief Field <>9__0, offset: 0x18, size: 0x8, def value: None
+  ::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>* _____9__0;
 
-/// @brief Field <>9__0, offset: 0x18, size: 0x8, def value: None
- ::System::Func_2<::UnityW<::Zenject::SceneContext>,int32_t>*  _____9__0;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::ProjectKernel___c__DisplayClass4_0, ___sceneOrder) == 0x10, "Offset mismatch!");
@@ -117,81 +115,81 @@ static_assert(offsetof(::Zenject::ProjectKernel___c__DisplayClass4_0, _____9__0)
 
 static_assert(::cordl_internals::size_check_v<::Zenject::ProjectKernel___c__DisplayClass4_0, 0x20>, "Size mismatch!");
 
-} // namespace end def Zenject
+} // namespace Zenject
 // Dependencies Zenject.MonoKernel
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.ProjectKernel
 class CORDL_TYPE ProjectKernel : public ::Zenject::MonoKernel {
 public:
-// Declarations
-using __c__DisplayClass4_0 = ::Zenject::ProjectKernel___c__DisplayClass4_0;
+  // Declarations
+  using __c__DisplayClass4_0 = ::Zenject::ProjectKernel___c__DisplayClass4_0;
 
-/// @brief Field _contextRegistry, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__contextRegistry, put=__cordl_internal_set__contextRegistry)) ::Zenject::SceneContextRegistry*  _contextRegistry;
+  /// @brief Field _contextRegistry, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__contextRegistry, put = __cordl_internal_set__contextRegistry)) ::Zenject::SceneContextRegistry* _contextRegistry;
 
-/// @brief Field _settings, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__settings, put=__cordl_internal_set__settings)) ::Zenject::ZenjectSettings*  _settings;
+  /// @brief Field _settings, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings)) ::Zenject::ZenjectSettings* _settings;
 
-/// @brief Method DestroyEverythingInOrder, addr 0x6cc8938, size 0x9c, virtual false, abstract: false, final false
-inline void DestroyEverythingInOrder() ;
+  /// @brief Method DestroyEverythingInOrder, addr 0x6d3ab7c, size 0x9c, virtual false, abstract: false, final false
+  inline void DestroyEverythingInOrder();
 
-/// @brief Method ForceUnloadAllScenes, addr 0x6cc89d4, size 0x3c4, virtual false, abstract: false, final false
-inline void ForceUnloadAllScenes(bool  immediate) ;
+  /// @brief Method ForceUnloadAllScenes, addr 0x6d3ac18, size 0x3c4, virtual false, abstract: false, final false
+  inline void ForceUnloadAllScenes(bool immediate);
 
-static inline ::Zenject::ProjectKernel* New_ctor() ;
+  static inline ::Zenject::ProjectKernel* New_ctor();
 
-/// @brief Method OnApplicationQuit, addr 0x6cc8918, size 0x20, virtual false, abstract: false, final false
-inline void OnApplicationQuit() ;
+  /// @brief Method OnApplicationQuit, addr 0x6d3ab5c, size 0x20, virtual false, abstract: false, final false
+  inline void OnApplicationQuit();
 
-constexpr ::Zenject::SceneContextRegistry* const& __cordl_internal_get__contextRegistry() const;
+  constexpr ::Zenject::SceneContextRegistry* const& __cordl_internal_get__contextRegistry() const;
 
-constexpr ::Zenject::SceneContextRegistry*& __cordl_internal_get__contextRegistry() ;
+  constexpr ::Zenject::SceneContextRegistry*& __cordl_internal_get__contextRegistry();
 
-constexpr ::Zenject::ZenjectSettings* const& __cordl_internal_get__settings() const;
+  constexpr ::Zenject::ZenjectSettings* const& __cordl_internal_get__settings() const;
 
-constexpr ::Zenject::ZenjectSettings*& __cordl_internal_get__settings() ;
+  constexpr ::Zenject::ZenjectSettings*& __cordl_internal_get__settings();
 
-constexpr void __cordl_internal_set__contextRegistry(::Zenject::SceneContextRegistry*  value) ;
+  constexpr void __cordl_internal_set__contextRegistry(::Zenject::SceneContextRegistry* value);
 
-constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings*  value) ;
+  constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings* value);
 
-/// @brief Method __zenCreateInjectTypeInfo, addr 0x6cc903c, size 0x354, virtual false, abstract: false, final false
-static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d3b280, size 0x354, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-/// @brief Method __zenFieldSetter0, addr 0x6cc8df4, size 0x124, virtual false, abstract: false, final false
-static inline void __zenFieldSetter0(::System::Object*  P_0, ::System::Object*  P_1) ;
+  /// @brief Method __zenFieldSetter0, addr 0x6d3b038, size 0x124, virtual false, abstract: false, final false
+  static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-/// @brief Method __zenFieldSetter1, addr 0x6cc8f18, size 0x124, virtual false, abstract: false, final false
-static inline void __zenFieldSetter1(::System::Object*  P_0, ::System::Object*  P_1) ;
+  /// @brief Method __zenFieldSetter1, addr 0x6d3b15c, size 0x124, virtual false, abstract: false, final false
+  static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-/// @brief Method .ctor, addr 0x6cc8df0, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6d3b034, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr ProjectKernel() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProjectKernel();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ProjectKernel(ProjectKernel&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-ProjectKernel(ProjectKernel && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ProjectKernel(ProjectKernel const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-ProjectKernel(ProjectKernel const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14663 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14656};
+  /// @brief Field _settings, offset: 0x40, size: 0x8, def value: None
+  ::Zenject::ZenjectSettings* ____settings;
 
-/// @brief Field _settings, offset: 0x40, size: 0x8, def value: None
- ::Zenject::ZenjectSettings*  ____settings;
+  /// @brief Field _contextRegistry, offset: 0x48, size: 0x8, def value: None
+  ::Zenject::SceneContextRegistry* ____contextRegistry;
 
-/// @brief Field _contextRegistry, offset: 0x48, size: 0x8, def value: None
- ::Zenject::SceneContextRegistry*  ____contextRegistry;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::ProjectKernel, ____settings) == 0x40, "Offset mismatch!");
@@ -200,7 +198,7 @@ static_assert(offsetof(::Zenject::ProjectKernel, ____contextRegistry) == 0x48, "
 
 static_assert(::cordl_internals::size_check_v<::Zenject::ProjectKernel, 0x50>, "Size mismatch!");
 
-} // namespace end def Zenject
+} // namespace Zenject
 NEED_NO_BOX(::Zenject::ProjectKernel);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
 NEED_NO_BOX(::Zenject::ProjectKernel___c__DisplayClass4_0);

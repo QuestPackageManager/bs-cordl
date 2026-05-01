@@ -67,60 +67,61 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.XmlSerializationWriterInterpreter/CallbackInfo
 class CORDL_TYPE XmlSerializationWriterInterpreter_CallbackInfo : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _swi, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__swi, put=__cordl_internal_set__swi)) ::System::Xml::Serialization::XmlSerializationWriterInterpreter*  _swi;
+  // Declarations
+  /// @brief Field _swi, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__swi, put = __cordl_internal_set__swi)) ::System::Xml::Serialization::XmlSerializationWriterInterpreter* _swi;
 
-/// @brief Field _typeMap, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get__typeMap, put=__cordl_internal_set__typeMap)) ::System::Xml::Serialization::XmlTypeMapping*  _typeMap;
+  /// @brief Field _typeMap, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__typeMap, put = __cordl_internal_set__typeMap)) ::System::Xml::Serialization::XmlTypeMapping* _typeMap;
 
-static inline ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo* New_ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter*  swi, ::System::Xml::Serialization::XmlTypeMapping*  typeMap) ;
+  static inline ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo* New_ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter* swi,
+                                                                                                       ::System::Xml::Serialization::XmlTypeMapping* typeMap);
 
-/// @brief Method WriteEnum, addr 0x615c770, size 0x50, virtual false, abstract: false, final false
-inline void WriteEnum(::System::Object*  ob) ;
+  /// @brief Method WriteEnum, addr 0x61ce77c, size 0x50, virtual false, abstract: false, final false
+  inline void WriteEnum(::System::Object* ob);
 
-/// @brief Method WriteObject, addr 0x615c720, size 0x50, virtual false, abstract: false, final false
-inline void WriteObject(::System::Object*  ob) ;
+  /// @brief Method WriteObject, addr 0x61ce72c, size 0x50, virtual false, abstract: false, final false
+  inline void WriteObject(::System::Object* ob);
 
-constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter* const& __cordl_internal_get__swi() const;
+  constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter* const& __cordl_internal_get__swi() const;
 
-constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter*& __cordl_internal_get__swi() ;
+  constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter*& __cordl_internal_get__swi();
 
-constexpr ::System::Xml::Serialization::XmlTypeMapping* const& __cordl_internal_get__typeMap() const;
+  constexpr ::System::Xml::Serialization::XmlTypeMapping* const& __cordl_internal_get__typeMap() const;
 
-constexpr ::System::Xml::Serialization::XmlTypeMapping*& __cordl_internal_get__typeMap() ;
+  constexpr ::System::Xml::Serialization::XmlTypeMapping*& __cordl_internal_get__typeMap();
 
-constexpr void __cordl_internal_set__swi(::System::Xml::Serialization::XmlSerializationWriterInterpreter*  value) ;
+  constexpr void __cordl_internal_set__swi(::System::Xml::Serialization::XmlSerializationWriterInterpreter* value);
 
-constexpr void __cordl_internal_set__typeMap(::System::Xml::Serialization::XmlTypeMapping*  value) ;
+  constexpr void __cordl_internal_set__typeMap(::System::Xml::Serialization::XmlTypeMapping* value);
 
-/// @brief Method .ctor, addr 0x6156490, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter*  swi, ::System::Xml::Serialization::XmlTypeMapping*  typeMap) ;
+  /// @brief Method .ctor, addr 0x61c849c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter* swi, ::System::Xml::Serialization::XmlTypeMapping* typeMap);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSerializationWriterInterpreter_CallbackInfo() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSerializationWriterInterpreter_CallbackInfo();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter_CallbackInfo", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSerializationWriterInterpreter_CallbackInfo(XmlSerializationWriterInterpreter_CallbackInfo&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter_CallbackInfo", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSerializationWriterInterpreter_CallbackInfo(XmlSerializationWriterInterpreter_CallbackInfo && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter_CallbackInfo", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSerializationWriterInterpreter_CallbackInfo(XmlSerializationWriterInterpreter_CallbackInfo const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter_CallbackInfo", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSerializationWriterInterpreter_CallbackInfo(XmlSerializationWriterInterpreter_CallbackInfo const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9526 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9520};
+  /// @brief Field _swi, offset: 0x10, size: 0x8, def value: None
+  ::System::Xml::Serialization::XmlSerializationWriterInterpreter* ____swi;
 
-/// @brief Field _swi, offset: 0x10, size: 0x8, def value: None
- ::System::Xml::Serialization::XmlSerializationWriterInterpreter*  ____swi;
+  /// @brief Field _typeMap, offset: 0x18, size: 0x8, def value: None
+  ::System::Xml::Serialization::XmlTypeMapping* ____typeMap;
 
-/// @brief Field _typeMap, offset: 0x18, size: 0x8, def value: None
- ::System::Xml::Serialization::XmlTypeMapping*  ____typeMap;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo, ____swi) == 0x10, "Offset mismatch!");
@@ -129,135 +130,138 @@ static_assert(offsetof(::System::Xml::Serialization::XmlSerializationWriterInter
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo, 0x20>, "Size mismatch!");
 
-} // namespace end def System::Xml::Serialization
+} // namespace System::Xml::Serialization
 // Dependencies System.Xml.Serialization.SerializationFormat, System.Xml.Serialization.XmlSerializationWriter
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: System.Xml.Serialization.XmlSerializationWriterInterpreter
 class CORDL_TYPE XmlSerializationWriterInterpreter : public ::System::Xml::Serialization::XmlSerializationWriter {
 public:
-// Declarations
-using CallbackInfo = ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo;
+  // Declarations
+  using CallbackInfo = ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo;
 
-/// @brief Field _format, offset 0x50, size 0x4 
- __declspec(property(get=__cordl_internal_get__format, put=__cordl_internal_set__format)) ::System::Xml::Serialization::SerializationFormat  _format;
+  /// @brief Field _format, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__format, put = __cordl_internal_set__format)) ::System::Xml::Serialization::SerializationFormat _format;
 
-/// @brief Field _typeMap, offset 0x48, size 0x8 
- __declspec(property(get=__cordl_internal_get__typeMap, put=__cordl_internal_set__typeMap)) ::System::Xml::Serialization::XmlMapping*  _typeMap;
+  /// @brief Field _typeMap, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__typeMap, put = __cordl_internal_set__typeMap)) ::System::Xml::Serialization::XmlMapping* _typeMap;
 
-/// @brief Method GetEnumXmlValue, addr 0x615c2e4, size 0xb8, virtual false, abstract: false, final false
-inline ::StringW GetEnumXmlValue(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob) ;
+  /// @brief Method GetEnumXmlValue, addr 0x61ce2f0, size 0xb8, virtual false, abstract: false, final false
+  inline ::StringW GetEnumXmlValue(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob);
 
-/// @brief Method GetListCount, addr 0x615b450, size 0x11c, virtual false, abstract: false, final false
-inline int32_t GetListCount(::System::Xml::Serialization::TypeData*  listType, ::System::Object*  ob) ;
+  /// @brief Method GetListCount, addr 0x61cd45c, size 0x11c, virtual false, abstract: false, final false
+  inline int32_t GetListCount(::System::Xml::Serialization::TypeData* listType, ::System::Object* ob);
 
-/// @brief Method GetMemberValue, addr 0x61588a4, size 0xd0, virtual false, abstract: false, final false
-inline ::System::Object* GetMemberValue(::System::Xml::Serialization::XmlTypeMapMember*  member, ::System::Object*  ob, bool  isValueList) ;
+  /// @brief Method GetMemberValue, addr 0x61ca8b0, size 0xd0, virtual false, abstract: false, final false
+  inline ::System::Object* GetMemberValue(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Object* ob, bool isValueList);
 
-/// @brief Method GetStringValue, addr 0x6158d84, size 0x258, virtual false, abstract: false, final false
-inline ::StringW GetStringValue(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Xml::Serialization::TypeData*  type, ::System::Object*  value) ;
+  /// @brief Method GetStringValue, addr 0x61cad90, size 0x258, virtual false, abstract: false, final false
+  inline ::StringW GetStringValue(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Xml::Serialization::TypeData* type, ::System::Object* value);
 
-/// @brief Method ImplicitConvert, addr 0x6156e98, size 0x2ac, virtual false, abstract: false, final false
-static inline ::System::Object* ImplicitConvert(::System::Object*  obj, ::System::Type*  type) ;
+  /// @brief Method ImplicitConvert, addr 0x61c8ea4, size 0x2ac, virtual false, abstract: false, final false
+  static inline ::System::Object* ImplicitConvert(::System::Object* obj, ::System::Type* type);
 
-/// @brief Method InitCallbacks, addr 0x61560ac, size 0x3e4, virtual true, abstract: false, final false
-inline void InitCallbacks() ;
+  /// @brief Method InitCallbacks, addr 0x61c80b8, size 0x3e4, virtual true, abstract: false, final false
+  inline void InitCallbacks();
 
-/// @brief Method MemberHasValue, addr 0x6158678, size 0x22c, virtual false, abstract: false, final false
-inline bool MemberHasValue(::System::Xml::Serialization::XmlTypeMapMember*  member, ::System::Object*  ob, bool  isValueList) ;
+  /// @brief Method MemberHasValue, addr 0x61ca684, size 0x22c, virtual false, abstract: false, final false
+  inline bool MemberHasValue(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Object* ob, bool isValueList);
 
-static inline ::System::Xml::Serialization::XmlSerializationWriterInterpreter* New_ctor(::System::Xml::Serialization::XmlMapping*  typeMap) ;
+  static inline ::System::Xml::Serialization::XmlSerializationWriterInterpreter* New_ctor(::System::Xml::Serialization::XmlMapping* typeMap);
 
-/// @brief Method WriteAnyElementContent, addr 0x6159d9c, size 0x608, virtual false, abstract: false, final false
-inline void WriteAnyElementContent(::System::Xml::Serialization::XmlTypeMapMemberAnyElement*  member, ::System::Object*  memberValue) ;
+  /// @brief Method WriteAnyElementContent, addr 0x61cbda8, size 0x608, virtual false, abstract: false, final false
+  inline void WriteAnyElementContent(::System::Xml::Serialization::XmlTypeMapMemberAnyElement* member, ::System::Object* memberValue);
 
-/// @brief Method WriteAttributeMembers, addr 0x61577f8, size 0x6e0, virtual false, abstract: false, final false
-inline void WriteAttributeMembers(::System::Xml::Serialization::ClassMap*  map, ::System::Object*  ob, bool  isValueList) ;
+  /// @brief Method WriteAttributeMembers, addr 0x61c9804, size 0x6e0, virtual false, abstract: false, final false
+  inline void WriteAttributeMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, bool isValueList);
 
-/// @brief Method WriteElementMembers, addr 0x6157f80, size 0x6f8, virtual false, abstract: false, final false
-inline void WriteElementMembers(::System::Xml::Serialization::ClassMap*  map, ::System::Object*  ob, bool  isValueList) ;
+  /// @brief Method WriteElementMembers, addr 0x61c9f8c, size 0x6f8, virtual false, abstract: false, final false
+  inline void WriteElementMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, bool isValueList);
 
-/// @brief Method WriteEnumElement, addr 0x615c2b4, size 0x30, virtual true, abstract: false, final false
-inline void WriteEnumElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp) ;
+  /// @brief Method WriteEnumElement, addr 0x61ce2c0, size 0x30, virtual true, abstract: false, final false
+  inline void WriteEnumElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::StringW element, ::StringW namesp);
 
-/// @brief Method WriteListContent, addr 0x61595e8, size 0x7b4, virtual false, abstract: false, final false
-inline void WriteListContent(::System::Object*  container, ::System::Xml::Serialization::TypeData*  listType, ::System::Xml::Serialization::ListMap*  map, ::System::Object*  ob, ::System::Text::StringBuilder*  targetString) ;
+  /// @brief Method WriteListContent, addr 0x61cb5f4, size 0x7b4, virtual false, abstract: false, final false
+  inline void WriteListContent(::System::Object* container, ::System::Xml::Serialization::TypeData* listType, ::System::Xml::Serialization::ListMap* map, ::System::Object* ob,
+                               ::System::Text::StringBuilder* targetString);
 
-/// @brief Method WriteListElement, addr 0x615b26c, size 0x1e4, virtual true, abstract: false, final false
-inline void WriteListElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp) ;
+  /// @brief Method WriteListElement, addr 0x61cd278, size 0x1e4, virtual true, abstract: false, final false
+  inline void WriteListElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::StringW element, ::StringW namesp);
 
-/// @brief Method WriteMemberElement, addr 0x6159044, size 0x5a4, virtual false, abstract: false, final false
-inline void WriteMemberElement(::System::Xml::Serialization::XmlTypeMapElementInfo*  elem, ::System::Object*  memberValue) ;
+  /// @brief Method WriteMemberElement, addr 0x61cb050, size 0x5a4, virtual false, abstract: false, final false
+  inline void WriteMemberElement(::System::Xml::Serialization::XmlTypeMapElementInfo* elem, ::System::Object* memberValue);
 
-/// @brief Method WriteMembers, addr 0x61574bc, size 0x40, virtual false, abstract: false, final false
-inline void WriteMembers(::System::Xml::Serialization::ClassMap*  map, ::System::Object*  ob, bool  isValueList) ;
+  /// @brief Method WriteMembers, addr 0x61c94c8, size 0x40, virtual false, abstract: false, final false
+  inline void WriteMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, bool isValueList);
 
-/// @brief Method WriteMessage, addr 0x61572b0, size 0x20c, virtual true, abstract: false, final false
-inline void WriteMessage(::System::Xml::Serialization::XmlMembersMapping*  membersMap, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  parameters) ;
+  /// @brief Method WriteMessage, addr 0x61c92bc, size 0x20c, virtual true, abstract: false, final false
+  inline void WriteMessage(::System::Xml::Serialization::XmlMembersMapping* membersMap, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-/// @brief Method WriteObject, addr 0x61566a0, size 0x7f8, virtual true, abstract: false, final false
-inline void WriteObject(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp, bool  isNullable, bool  needType, bool  writeWrappingElem) ;
+  /// @brief Method WriteObject, addr 0x61c86ac, size 0x7f8, virtual true, abstract: false, final false
+  inline void WriteObject(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::StringW element, ::StringW namesp, bool isNullable, bool needType, bool writeWrappingElem);
 
-/// @brief Method WriteObjectElement, addr 0x61574fc, size 0x130, virtual true, abstract: false, final false
-inline void WriteObjectElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp) ;
+  /// @brief Method WriteObjectElement, addr 0x61c9508, size 0x130, virtual true, abstract: false, final false
+  inline void WriteObjectElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::StringW element, ::StringW namesp);
 
-/// @brief Method WriteObjectElementAttributes, addr 0x6157750, size 0xa8, virtual true, abstract: false, final false
-inline void WriteObjectElementAttributes(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob) ;
+  /// @brief Method WriteObjectElementAttributes, addr 0x61c975c, size 0xa8, virtual true, abstract: false, final false
+  inline void WriteObjectElementAttributes(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob);
 
-/// @brief Method WriteObjectElementElements, addr 0x6157ed8, size 0xa8, virtual true, abstract: false, final false
-inline void WriteObjectElementElements(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob) ;
+  /// @brief Method WriteObjectElementElements, addr 0x61c9ee4, size 0xa8, virtual true, abstract: false, final false
+  inline void WriteObjectElementElements(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob);
 
-/// @brief Method WritePrimitiveElement, addr 0x615c278, size 0x3c, virtual true, abstract: false, final false
-inline void WritePrimitiveElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp) ;
+  /// @brief Method WritePrimitiveElement, addr 0x61ce284, size 0x3c, virtual true, abstract: false, final false
+  inline void WritePrimitiveElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::StringW element, ::StringW namesp);
 
-/// @brief Method WritePrimitiveValueEncoded, addr 0x615afa8, size 0x2c4, virtual false, abstract: false, final false
-inline void WritePrimitiveValueEncoded(::System::Object*  memberValue, ::StringW  name, ::StringW  ns, ::System::Xml::XmlQualifiedName*  xsiType, ::System::Xml::Serialization::XmlTypeMapping*  mappedType, ::System::Xml::Serialization::TypeData*  typeData, bool  wrapped, bool  isNullable) ;
+  /// @brief Method WritePrimitiveValueEncoded, addr 0x61ccfb4, size 0x2c4, virtual false, abstract: false, final false
+  inline void WritePrimitiveValueEncoded(::System::Object* memberValue, ::StringW name, ::StringW ns, ::System::Xml::XmlQualifiedName* xsiType,
+                                         ::System::Xml::Serialization::XmlTypeMapping* mappedType, ::System::Xml::Serialization::TypeData* typeData, bool wrapped, bool isNullable);
 
-/// @brief Method WritePrimitiveValueLiteral, addr 0x615ac60, size 0x2b0, virtual false, abstract: false, final false
-inline void WritePrimitiveValueLiteral(::System::Object*  memberValue, ::StringW  name, ::StringW  ns, ::System::Xml::Serialization::XmlTypeMapping*  mappedType, ::System::Xml::Serialization::TypeData*  typeData, bool  wrapped, bool  isNullable) ;
+  /// @brief Method WritePrimitiveValueLiteral, addr 0x61ccc6c, size 0x2b0, virtual false, abstract: false, final false
+  inline void WritePrimitiveValueLiteral(::System::Object* memberValue, ::StringW name, ::StringW ns, ::System::Xml::Serialization::XmlTypeMapping* mappedType,
+                                         ::System::Xml::Serialization::TypeData* typeData, bool wrapped, bool isNullable);
 
-/// @brief Method WriteRoot, addr 0x6156498, size 0x208, virtual false, abstract: false, final false
-inline void WriteRoot(::System::Object*  ob) ;
+  /// @brief Method WriteRoot, addr 0x61c84a4, size 0x208, virtual false, abstract: false, final false
+  inline void WriteRoot(::System::Object* ob);
 
-constexpr ::System::Xml::Serialization::SerializationFormat const& __cordl_internal_get__format() const;
+  constexpr ::System::Xml::Serialization::SerializationFormat const& __cordl_internal_get__format() const;
 
-constexpr ::System::Xml::Serialization::SerializationFormat& __cordl_internal_get__format() ;
+  constexpr ::System::Xml::Serialization::SerializationFormat& __cordl_internal_get__format();
 
-constexpr ::System::Xml::Serialization::XmlMapping* const& __cordl_internal_get__typeMap() const;
+  constexpr ::System::Xml::Serialization::XmlMapping* const& __cordl_internal_get__typeMap() const;
 
-constexpr ::System::Xml::Serialization::XmlMapping*& __cordl_internal_get__typeMap() ;
+  constexpr ::System::Xml::Serialization::XmlMapping*& __cordl_internal_get__typeMap();
 
-constexpr void __cordl_internal_set__format(::System::Xml::Serialization::SerializationFormat  value) ;
+  constexpr void __cordl_internal_set__format(::System::Xml::Serialization::SerializationFormat value);
 
-constexpr void __cordl_internal_set__typeMap(::System::Xml::Serialization::XmlMapping*  value) ;
+  constexpr void __cordl_internal_set__typeMap(::System::Xml::Serialization::XmlMapping* value);
 
-/// @brief Method .ctor, addr 0x6156074, size 0x38, virtual false, abstract: false, final false
-inline void _ctor(::System::Xml::Serialization::XmlMapping*  typeMap) ;
+  /// @brief Method .ctor, addr 0x61c8080, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Serialization::XmlMapping* typeMap);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlSerializationWriterInterpreter() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSerializationWriterInterpreter();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlSerializationWriterInterpreter(XmlSerializationWriterInterpreter&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlSerializationWriterInterpreter(XmlSerializationWriterInterpreter && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlSerializationWriterInterpreter(XmlSerializationWriterInterpreter const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlSerializationWriterInterpreter(XmlSerializationWriterInterpreter const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9527 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9521};
+  /// @brief Field _typeMap, offset: 0x48, size: 0x8, def value: None
+  ::System::Xml::Serialization::XmlMapping* ____typeMap;
 
-/// @brief Field _typeMap, offset: 0x48, size: 0x8, def value: None
- ::System::Xml::Serialization::XmlMapping*  ____typeMap;
+  /// @brief Field _format, offset: 0x50, size: 0x4, def value: None
+  ::System::Xml::Serialization::SerializationFormat ____format;
 
-/// @brief Field _format, offset: 0x50, size: 0x4, def value: None
- ::System::Xml::Serialization::SerializationFormat  ____format;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializationWriterInterpreter, ____typeMap) == 0x48, "Offset mismatch!");
@@ -266,7 +270,7 @@ static_assert(offsetof(::System::Xml::Serialization::XmlSerializationWriterInter
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationWriterInterpreter, 0x58>, "Size mismatch!");
 
-} // namespace end def System::Xml::Serialization
+} // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationWriterInterpreter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationWriterInterpreter*, "System.Xml.Serialization", "XmlSerializationWriterInterpreter");
 NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo);

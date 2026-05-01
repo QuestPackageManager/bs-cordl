@@ -27,3774 +27,3345 @@
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetDataContractSkipValidation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractSkipValidation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractSkipValidation)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f8aed0;
+  constexpr static std::size_t addrs = 0x5ffcedc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "GetDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetGetOnlyCollectionDataContractSkipValidation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetGetOnlyCollectionDataContractSkipValidation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetGetOnlyCollectionDataContractSkipValidation)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f8b16c;
+  constexpr static std::size_t addrs = 0x5ffd178;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetGetOnlyCollectionDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "GetGetOnlyCollectionDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetDataContractForInitialization
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractForInitialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractForInitialization)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f8b284;
+  constexpr static std::size_t addrs = 0x5ffd290;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractForInitialization",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetIdForInitialization
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Runtime::Serialization::ClassDataContract*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetIdForInitialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Runtime::Serialization::ClassDataContract*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetIdForInitialization)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5f8b3a8;
+  constexpr static std::size_t addrs = 0x5ffd3b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetIdForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetIdForInitialization",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.ContractMatches
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::DataContract*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ContractMatches)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::DataContract*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ContractMatches)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f942a8;
+  constexpr static std::size_t addrs = 0x60062b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "ContractMatches",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "ContractMatches", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::RuntimeTypeHandle)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::RuntimeTypeHandle)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetId)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x5f8b55c;
+  constexpr static std::size_t addrs = 0x5ffd568;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetId", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetNextId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IntRef* (*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetNextId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IntRef* (*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetNextId)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f943b0;
+  constexpr static std::size_t addrs = 0x60063bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetNextId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetNextId",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.CreateDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateDataContract)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x5f938d0;
+  constexpr static std::size_t addrs = 0x60058dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "CreateDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "CreateDataContract", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.AssignDataContractToId
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Serialization::DataContract*, int32_t)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::AssignDataContractToId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Serialization::DataContract*, int32_t)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::AssignDataContractToId)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5f94128;
+  constexpr static std::size_t addrs = 0x6006134;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "AssignDataContractToId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "AssignDataContractToId", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.CreateGetOnlyCollectionDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateGetOnlyCollectionDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateGetOnlyCollectionDataContract)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x5f93e6c;
+  constexpr static std::size_t addrs = 0x6005e78;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "CreateGetOnlyCollectionDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "CreateGetOnlyCollectionDataContract", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetDataContractAdapterType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterType)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f93360;
+  constexpr static std::size_t addrs = 0x600536c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractAdapterType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractAdapterType",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetDataContractOriginalType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractOriginalType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractOriginalType)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f94954;
+  constexpr static std::size_t addrs = 0x6006960;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractOriginalType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractOriginalType",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetDataContractAdapterTypeHandle
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeTypeHandle (*)(::System::RuntimeTypeHandle)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterTypeHandle)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeTypeHandle (*)(::System::RuntimeTypeHandle)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterTypeHandle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f94304;
+  constexpr static std::size_t addrs = 0x6006310;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractAdapterTypeHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractAdapterTypeHandle",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x5f8b908;
+  constexpr static std::size_t addrs = 0x5ffd914;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetBuiltInDataContract",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x5f8bc40;
+  constexpr static std::size_t addrs = 0x5ffdc4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetBuiltInDataContract",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract)> {
   constexpr static std::size_t size = 0xd74;
-  constexpr static std::size_t addrs = 0x5f8bf70;
+  constexpr static std::size_t addrs = 0x5ffdf7c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetBuiltInDataContract",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.TryCreateBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::System::Runtime::Serialization::DataContract*>)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::System::Runtime::Serialization::DataContract*>)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract)> {
   constexpr static std::size_t size = 0x81c;
-  constexpr static std::size_t addrs = 0x5f94ad8;
+  constexpr static std::size_t addrs = 0x6006ae4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "TryCreateBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                    "TryCreateBuiltInDataContract", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.TryCreateBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<::System::Runtime::Serialization::DataContract*>)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<::System::Runtime::Serialization::DataContract*>)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract)> {
   constexpr static std::size_t size = 0x14c4;
-  constexpr static std::size_t addrs = 0x5f952f4;
+  constexpr static std::size_t addrs = 0x6007300;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "TryCreateBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "TryCreateBuiltInDataContract",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetNamespace
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetNamespace)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x5f8cd3c;
+  constexpr static std::size_t addrs = 0x5ffed48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetNamespace",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.GetClrTypeString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (*)(::StringW)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetClrTypeString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (*)(::StringW)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetClrTypeString)> {
   constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x5f8d0f8;
+  constexpr static std::size_t addrs = 0x5fff104;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetClrTypeString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetClrTypeString",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.ThrowInvalidDataContractException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5f8d6dc;
+  constexpr static std::size_t addrs = 0x5fff6e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "ThrowInvalidDataContractException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "ThrowInvalidDataContractException",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5f89cb8;
+  constexpr static std::size_t addrs = 0x5ffbcc4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_UnderlyingType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_UnderlyingType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_UnderlyingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96948;
+  constexpr static std::size_t addrs = 0x6008954;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_UnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "get_UnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_OriginalUnderlyingType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_OriginalUnderlyingType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_OriginalUnderlyingType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f8da14;
+  constexpr static std::size_t addrs = 0x5fffa20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_OriginalUnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "get_OriginalUnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_IsBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsBuiltInDataContract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96950;
+  constexpr static std::size_t addrs = 0x600895c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_TypeForInitialization
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TypeForInitialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TypeForInitialization)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96958;
+  constexpr static std::size_t addrs = 0x6008964;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_TypeForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "get_TypeForInitialization", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.SetTypeForInitialization
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetTypeForInitialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetTypeForInitialization)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f968a4;
+  constexpr static std::size_t addrs = 0x60088b0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "SetTypeForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "SetTypeForInitialization",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_IsReference
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96960;
+  constexpr static std::size_t addrs = 0x600896c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_IsReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "get_IsReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.set_IsReference
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(bool)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(bool)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96968;
+  constexpr static std::size_t addrs = 0x6008974;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_IsReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_IsReference",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_IsValueType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsValueType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsValueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96970;
+  constexpr static std::size_t addrs = 0x600897c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "get_IsValueType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.set_IsValueType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(bool)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsValueType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(bool)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsValueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96978;
+  constexpr static std::size_t addrs = 0x6008984;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_IsValueType",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_StableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_StableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_StableName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96980;
+  constexpr static std::size_t addrs = 0x600898c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_StableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "get_StableName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.set_StableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Xml::XmlQualifiedName*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_StableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(
+    ::System::Xml::XmlQualifiedName*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_StableName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96988;
+  constexpr static std::size_t addrs = 0x6008994;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_StableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_StableName",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_KnownDataContracts
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_KnownDataContracts)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* (
+        ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_KnownDataContracts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96990;
+  constexpr static std::size_t addrs = 0x600899c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_IsISerializable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsISerializable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsISerializable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96998;
+  constexpr static std::size_t addrs = 0x60089a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_Name
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f969a0;
+  constexpr static std::size_t addrs = 0x60089ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "get_Name",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.set_Name
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(
+    ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f969a8;
+  constexpr static std::size_t addrs = 0x60089b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_Name", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_Namespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Namespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f969b0;
+  constexpr static std::size_t addrs = 0x60089bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_Namespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "get_Namespace", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.set_Namespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Namespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(
+    ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f969b8;
+  constexpr static std::size_t addrs = 0x60089c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_Namespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_Namespace",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_HasRoot
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_HasRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_HasRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f969c0;
+  constexpr static std::size_t addrs = 0x60089cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 7));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.set_HasRoot
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(bool)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_HasRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(bool)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_HasRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f969c8;
+  constexpr static std::size_t addrs = 0x60089d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 8));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_TopLevelElementName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f969cc;
+  constexpr static std::size_t addrs = 0x60089d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 9));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.get_TopLevelElementNamespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)()>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f969d4;
+  constexpr static std::size_t addrs = 0x60089e0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 10));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.SetDataContractName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Xml::XmlQualifiedName*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(
+    ::System::Xml::XmlQualifiedName*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f969dc;
+  constexpr static std::size_t addrs = 0x60089e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "SetDataContractName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "SetDataContractName",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.SetDataContractName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(
+    ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f96a84;
+  constexpr static std::size_t addrs = 0x6008a90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "SetDataContractName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                                 "SetDataContractName", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper.ThrowInvalidDataContractException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::StringW)>(&::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::*)(::StringW)>(
+    &::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f96ab4;
+  constexpr static std::size_t addrs = 0x6008ac0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "ThrowInvalidDataContractException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "ThrowInvalidDataContractException",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_underlyingType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___underlyingType;
+constexpr ::System::Type*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_underlyingType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___underlyingType;
 }
 constexpr ::System::Type* const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_underlyingType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___underlyingType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___underlyingType;
 }
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_underlyingType(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___underlyingType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_underlyingType(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___underlyingType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_originalUnderlyingType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___originalUnderlyingType;
+constexpr ::System::Type*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_originalUnderlyingType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___originalUnderlyingType;
 }
 constexpr ::System::Type* const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_originalUnderlyingType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___originalUnderlyingType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___originalUnderlyingType;
 }
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_originalUnderlyingType(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___originalUnderlyingType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_originalUnderlyingType(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___originalUnderlyingType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_isReference()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isReference;
+constexpr bool& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_isReference() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isReference;
 }
 constexpr bool const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_isReference() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isReference;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isReference;
 }
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_isReference(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___isReference = value;
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_isReference(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isReference = value;
 }
-constexpr bool& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_isValueType()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isValueType;
+constexpr bool& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_isValueType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isValueType;
 }
 constexpr bool const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_isValueType() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___isValueType;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isValueType;
 }
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_isValueType(bool  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___isValueType = value;
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_isValueType(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isValueType = value;
 }
-constexpr ::System::Xml::XmlQualifiedName*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_stableName()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___stableName;
+constexpr ::System::Xml::XmlQualifiedName*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_stableName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stableName;
 }
 constexpr ::System::Xml::XmlQualifiedName* const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_stableName() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___stableName;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___stableName;
 }
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_stableName(::System::Xml::XmlQualifiedName*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stableName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_stableName(::System::Xml::XmlQualifiedName* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stableName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_name()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_name() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
 constexpr ::System::Xml::XmlDictionaryString* const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_name() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_name(::System::Xml::XmlDictionaryString*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_name(::System::Xml::XmlDictionaryString* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_ns()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ns;
+constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_ns() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ns;
 }
 constexpr ::System::Xml::XmlDictionaryString* const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_ns() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ns;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ns;
 }
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_ns(::System::Xml::XmlDictionaryString*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_ns(::System::Xml::XmlDictionaryString* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_typeForInitialization()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___typeForInitialization;
+constexpr ::System::Type*& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_typeForInitialization() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___typeForInitialization;
 }
 constexpr ::System::Type* const& System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_get_typeForInitialization() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___typeForInitialization;
-}
-constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_typeForInitialization(::System::Type*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___typeForInitialization)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeToIDCache(::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*,::System::Runtime::Serialization::IntRef*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*,::System::Runtime::Serialization::IntRef*>*, "typeToIDCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*,::System::Runtime::Serialization::IntRef*>*>(value));
-}
-inline ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*,::System::Runtime::Serialization::IntRef*>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeToIDCache()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*,::System::Runtime::Serialization::IntRef*>*, "typeToIDCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_dataContractCache(::ArrayW<::System::Runtime::Serialization::DataContract*,::Array<::System::Runtime::Serialization::DataContract*>*>  value)  {
-::cordl_internals::setStaticField<::ArrayW<::System::Runtime::Serialization::DataContract*,::Array<::System::Runtime::Serialization::DataContract*>*>, "dataContractCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::ArrayW<::System::Runtime::Serialization::DataContract*,::Array<::System::Runtime::Serialization::DataContract*>*>>(value));
-}
-inline ::ArrayW<::System::Runtime::Serialization::DataContract*,::Array<::System::Runtime::Serialization::DataContract*>*> System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_dataContractCache()  {
-return ::cordl_internals::getStaticField<::ArrayW<::System::Runtime::Serialization::DataContract*,::Array<::System::Runtime::Serialization::DataContract*>*>, "dataContractCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_dataContractID(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "dataContractID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<int32_t>(value));
-}
-inline int32_t System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_dataContractID()  {
-return ::cordl_internals::getStaticField<int32_t, "dataContractID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeToBuiltInContract(::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::DataContract*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::DataContract*>*, "typeToBuiltInContract", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::DataContract*>*>(value));
-}
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::DataContract*>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeToBuiltInContract()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::DataContract*>*, "typeToBuiltInContract", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_nameToBuiltInContract(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*, "nameToBuiltInContract", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>(value));
-}
-inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_nameToBuiltInContract()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*, "nameToBuiltInContract", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeNameToBuiltInContract(::System::Collections::Generic::Dictionary_2<::StringW,::System::Runtime::Serialization::DataContract*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Runtime::Serialization::DataContract*>*, "typeNameToBuiltInContract", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::StringW,::System::Runtime::Serialization::DataContract*>*>(value));
-}
-inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Runtime::Serialization::DataContract*>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeNameToBuiltInContract()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Runtime::Serialization::DataContract*>*, "typeNameToBuiltInContract", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_namespaces(::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*, "namespaces", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*>(value));
-}
-inline ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_namespaces()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*, "namespaces", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_clrTypeStrings(::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlDictionaryString*>*  value)  {
-::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlDictionaryString*>*, "clrTypeStrings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlDictionaryString*>*>(value));
-}
-inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlDictionaryString*>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_clrTypeStrings()  {
-return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::Xml::XmlDictionaryString*>*, "clrTypeStrings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_clrTypeStringsDictionary(::System::Xml::XmlDictionary*  value)  {
-::cordl_internals::setStaticField<::System::Xml::XmlDictionary*, "clrTypeStringsDictionary", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Xml::XmlDictionary*>(value));
-}
-inline ::System::Xml::XmlDictionary* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_clrTypeStringsDictionary()  {
-return ::cordl_internals::getStaticField<::System::Xml::XmlDictionary*, "clrTypeStringsDictionary", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeHandleRef(::System::Runtime::Serialization::TypeHandleRef*  value)  {
-::cordl_internals::setStaticField<::System::Runtime::Serialization::TypeHandleRef*, "typeHandleRef", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Runtime::Serialization::TypeHandleRef*>(value));
-}
-inline ::System::Runtime::Serialization::TypeHandleRef* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeHandleRef()  {
-return ::cordl_internals::getStaticField<::System::Runtime::Serialization::TypeHandleRef*, "typeHandleRef", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_cacheLock(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "cacheLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Object*>(value));
-}
-inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_cacheLock()  {
-return ::cordl_internals::getStaticField<::System::Object*, "cacheLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_createDataContractLock(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "createDataContractLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Object*>(value));
-}
-inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_createDataContractLock()  {
-return ::cordl_internals::getStaticField<::System::Object*, "createDataContractLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_initBuiltInContractsLock(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "initBuiltInContractsLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Object*>(value));
-}
-inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_initBuiltInContractsLock()  {
-return ::cordl_internals::getStaticField<::System::Object*, "initBuiltInContractsLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_namespacesLock(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "namespacesLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Object*>(value));
-}
-inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_namespacesLock()  {
-return ::cordl_internals::getStaticField<::System::Object*, "namespacesLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_clrTypeStringsLock(::System::Object*  value)  {
-::cordl_internals::setStaticField<::System::Object*, "clrTypeStringsLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(std::forward<::System::Object*>(value));
-}
-inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_clrTypeStringsLock()  {
-return ::cordl_internals::getStaticField<::System::Object*, "clrTypeStringsLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractSkipValidation(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetGetOnlyCollectionDataContractSkipValidation(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetGetOnlyCollectionDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractForInitialization(int32_t  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id);
-}
-inline int32_t System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetIdForInitialization(::System::Runtime::Serialization::ClassDataContract*  classContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetIdForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, classContract);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ContractMatches(::System::Runtime::Serialization::DataContract*  contract, ::System::Runtime::Serialization::DataContract*  cachedContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "ContractMatches",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, contract, cachedContract);
-}
-inline int32_t System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetId(::System::RuntimeTypeHandle  typeHandle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, typeHandle);
-}
-inline ::System::Runtime::Serialization::IntRef* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetNextId()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetNextId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IntRef*, false>(nullptr, ___internal_method);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateDataContract(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "CreateDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::AssignDataContractToId(::System::Runtime::Serialization::DataContract*  dataContract, int32_t  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "AssignDataContractToId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, dataContract, id);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateGetOnlyCollectionDataContract(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "CreateGetOnlyCollectionDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractAdapterType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractOriginalType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractOriginalType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
-}
-inline ::System::RuntimeTypeHandle System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterTypeHandle(::System::RuntimeTypeHandle  typeHandle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetDataContractAdapterTypeHandle",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::RuntimeTypeHandle, false>(nullptr, ___internal_method, typeHandle);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract(::StringW  name, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, name, ns);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract(::StringW  typeName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, typeName);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract(::System::Type*  type, ::ByRef<::System::Runtime::Serialization::DataContract*>  dataContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "TryCreateBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, dataContract);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract(::StringW  name, ::StringW  ns, ::ByRef<::System::Runtime::Serialization::DataContract*>  dataContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "TryCreateBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, name, ns, dataContract);
-}
-inline ::StringW System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetNamespace(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, key);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetClrTypeString(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "GetClrTypeString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(nullptr, ___internal_method, key);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException(::StringW  message, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "ThrowInvalidDataContractException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message, type);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::_ctor(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_UnderlyingType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_UnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_OriginalUnderlyingType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_OriginalUnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsBuiltInDataContract()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TypeForInitialization()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_TypeForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetTypeForInitialization(::System::Type*  classType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "SetTypeForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, classType);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsReference()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_IsReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsReference(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_IsReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsValueType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsValueType(bool  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_StableName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_StableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_StableName(::System::Xml::XmlQualifiedName*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_StableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_KnownDataContracts()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsISerializable()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Name()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Name(::System::Xml::XmlDictionaryString*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Namespace()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "get_Namespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Namespace(::System::Xml::XmlDictionaryString*  value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "set_Namespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_HasRoot()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_HasRoot(bool  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementNamespace()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName(::System::Xml::XmlQualifiedName*  stableName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "SetDataContractName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stableName);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName(::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "SetDataContractName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, ns);
-}
-inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException(::StringW  message)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
-                        "ThrowInvalidDataContractException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
-}
-inline ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::New_ctor(::System::Type*  type)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>(type));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___typeForInitialization;
+}
+constexpr void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::__cordl_internal_set_typeForInitialization(::System::Type* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___typeForInitialization)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeToIDCache(
+    ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::IntRef*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::IntRef*>*, "typeToIDCache",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::IntRef*>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::IntRef*>*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeToIDCache() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::IntRef*>*, "typeToIDCache",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_dataContractCache(
+    ::ArrayW<::System::Runtime::Serialization::DataContract*, ::Array<::System::Runtime::Serialization::DataContract*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Runtime::Serialization::DataContract*, ::Array<::System::Runtime::Serialization::DataContract*>*>, "dataContractCache",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::ArrayW<::System::Runtime::Serialization::DataContract*, ::Array<::System::Runtime::Serialization::DataContract*>*>>(value));
+}
+inline ::ArrayW<::System::Runtime::Serialization::DataContract*, ::Array<::System::Runtime::Serialization::DataContract*>*>
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_dataContractCache() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Runtime::Serialization::DataContract*, ::Array<::System::Runtime::Serialization::DataContract*>*>, "dataContractCache",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_dataContractID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "dataContractID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_dataContractID() {
+  return ::cordl_internals::getStaticField<int32_t, "dataContractID",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeToBuiltInContract(
+    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::DataContract*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::DataContract*>*, "typeToBuiltInContract",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::DataContract*>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::DataContract*>*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeToBuiltInContract() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::DataContract*>*, "typeToBuiltInContract",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_nameToBuiltInContract(
+    ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*, "nameToBuiltInContract",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_nameToBuiltInContract() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*, "nameToBuiltInContract",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeNameToBuiltInContract(
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Runtime::Serialization::DataContract*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Runtime::Serialization::DataContract*>*, "typeNameToBuiltInContract",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Runtime::Serialization::DataContract*>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Runtime::Serialization::DataContract*>*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeNameToBuiltInContract() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Runtime::Serialization::DataContract*>*, "typeNameToBuiltInContract",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_namespaces(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, "namespaces",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_namespaces() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, "namespaces",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_clrTypeStrings(
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlDictionaryString*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlDictionaryString*>*, "clrTypeStrings",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlDictionaryString*>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlDictionaryString*>*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_clrTypeStrings() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlDictionaryString*>*, "clrTypeStrings",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_clrTypeStringsDictionary(::System::Xml::XmlDictionary* value) {
+  ::cordl_internals::setStaticField<::System::Xml::XmlDictionary*, "clrTypeStringsDictionary",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Xml::XmlDictionary*>(value));
+}
+inline ::System::Xml::XmlDictionary* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_clrTypeStringsDictionary() {
+  return ::cordl_internals::getStaticField<::System::Xml::XmlDictionary*, "clrTypeStringsDictionary",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_typeHandleRef(::System::Runtime::Serialization::TypeHandleRef* value) {
+  ::cordl_internals::setStaticField<::System::Runtime::Serialization::TypeHandleRef*, "typeHandleRef",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Runtime::Serialization::TypeHandleRef*>(value));
+}
+inline ::System::Runtime::Serialization::TypeHandleRef* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_typeHandleRef() {
+  return ::cordl_internals::getStaticField<::System::Runtime::Serialization::TypeHandleRef*, "typeHandleRef",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_cacheLock(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "cacheLock",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Object*>(value));
+}
+inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_cacheLock() {
+  return ::cordl_internals::getStaticField<::System::Object*, "cacheLock",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_createDataContractLock(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "createDataContractLock",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Object*>(value));
+}
+inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_createDataContractLock() {
+  return ::cordl_internals::getStaticField<::System::Object*, "createDataContractLock",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_initBuiltInContractsLock(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "initBuiltInContractsLock",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Object*>(value));
+}
+inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_initBuiltInContractsLock() {
+  return ::cordl_internals::getStaticField<::System::Object*, "initBuiltInContractsLock",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_namespacesLock(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "namespacesLock",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Object*>(value));
+}
+inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_namespacesLock() {
+  return ::cordl_internals::getStaticField<::System::Object*, "namespacesLock",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::setStaticF_clrTypeStringsLock(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "clrTypeStringsLock",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>(
+      std::forward<::System::Object*>(value));
+}
+inline ::System::Object* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::getStaticF_clrTypeStringsLock() {
+  return ::cordl_internals::getStaticField<::System::Object*, "clrTypeStringsLock",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get>();
+}
+inline ::System::Runtime::Serialization::DataContract*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "GetDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
+}
+inline ::System::Runtime::Serialization::DataContract*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetGetOnlyCollectionDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "GetGetOnlyCollectionDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractForInitialization(int32_t id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractForInitialization",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id);
+}
+inline int32_t System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetIdForInitialization(::System::Runtime::Serialization::ClassDataContract* classContract) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetIdForInitialization",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, classContract);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ContractMatches(::System::Runtime::Serialization::DataContract* contract,
+                                                                                                     ::System::Runtime::Serialization::DataContract* cachedContract) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "ContractMatches", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, contract, cachedContract);
+}
+inline int32_t System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetId(::System::RuntimeTypeHandle typeHandle) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetId", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, typeHandle);
+}
+inline ::System::Runtime::Serialization::IntRef* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetNextId() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetNextId",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::IntRef*, false>(nullptr, ___internal_method);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle,
+                                                                                                                                                   ::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "CreateDataContract", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::AssignDataContractToId(::System::Runtime::Serialization::DataContract* dataContract, int32_t id) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "AssignDataContractToId", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, dataContract, id);
+}
+inline ::System::Runtime::Serialization::DataContract*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::CreateGetOnlyCollectionDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "CreateGetOnlyCollectionDataContract", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterType(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractAdapterType",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractOriginalType(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractOriginalType",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::RuntimeTypeHandle System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetDataContractAdapterTypeHandle(::System::RuntimeTypeHandle typeHandle) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetDataContractAdapterTypeHandle",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::RuntimeTypeHandle, false>(nullptr, ___internal_method, typeHandle);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetBuiltInDataContract",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract(::StringW name, ::StringW ns) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetBuiltInDataContract",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, name, ns);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetBuiltInDataContract(::StringW typeName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetBuiltInDataContract",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, typeName);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract(::System::Type* type,
+                                                                                                                  ::ByRef<::System::Runtime::Serialization::DataContract*> dataContract) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                  "TryCreateBuiltInDataContract", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, dataContract);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::TryCreateBuiltInDataContract(::StringW name, ::StringW ns,
+                                                                                                                  ::ByRef<::System::Runtime::Serialization::DataContract*> dataContract) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "TryCreateBuiltInDataContract",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContract*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, name, ns, dataContract);
+}
+inline ::StringW System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetNamespace(::StringW key) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetNamespace",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, key);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::GetClrTypeString(::StringW key) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "GetClrTypeString",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(nullptr, ___internal_method, key);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException(::StringW message, ::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "ThrowInvalidDataContractException",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message, type);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::_ctor(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_UnderlyingType() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "get_UnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_OriginalUnderlyingType() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "get_OriginalUnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsBuiltInDataContract() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TypeForInitialization() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "get_TypeForInitialization", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetTypeForInitialization(::System::Type* classType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "SetTypeForInitialization",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, classType);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsReference() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "get_IsReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsReference(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_IsReference",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsValueType() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "get_IsValueType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_IsValueType(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_IsValueType",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_StableName() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "get_StableName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_StableName(::System::Xml::XmlQualifiedName* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_StableName",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*
+System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_KnownDataContracts() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*, false>(
+      this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_IsISerializable() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Name() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "get_Name",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Name(::System::Xml::XmlDictionaryString* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_Name", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_Namespace() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "get_Namespace", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_Namespace(::System::Xml::XmlDictionaryString* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "set_Namespace",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_HasRoot() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::set_HasRoot(bool value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementName() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::get_TopLevelElementNamespace() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName(::System::Xml::XmlQualifiedName* stableName) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "SetDataContractName",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stableName);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::SetDataContractName(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(),
+                                               "SetDataContractName", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDictionaryString*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, ns);
+}
+inline void System::Runtime::Serialization::DataContract_DataContractCriticalHelper::ThrowInvalidDataContractException(::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get(), "ThrowInvalidDataContractException",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+}
+inline ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* System::Runtime::Serialization::DataContract_DataContractCriticalHelper::New_ctor(::System::Type* type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>(type));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::DataContract_DataContractCriticalHelper()   {
-}
+constexpr ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper::DataContract_DataContractCriticalHelper() {}
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*)>(&::System::Runtime::Serialization::DataContract::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract::*)(
+    ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*)>(&::System::Runtime::Serialization::DataContract::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f8ad94;
+  constexpr static std::size_t addrs = 0x5ffcda0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetDataContract)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f8a794;
+  constexpr static std::size_t addrs = 0x5ffc7a0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContract",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::RuntimeTypeHandle, ::System::Type*, ::System::Runtime::Serialization::SerializationMode)>(&::System::Runtime::Serialization::DataContract::GetDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::RuntimeTypeHandle, ::System::Type*, ::System::Runtime::Serialization::SerializationMode)>(
+        &::System::Runtime::Serialization::DataContract::GetDataContract)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f8adb0;
+  constexpr static std::size_t addrs = 0x5ffcdbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContract", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Runtime::Serialization::SerializationMode)>(&::System::Runtime::Serialization::DataContract::GetDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Runtime::Serialization::SerializationMode)>(
+        &::System::Runtime::Serialization::DataContract::GetDataContract)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f8ae30;
+  constexpr static std::size_t addrs = 0x5ffce3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContract", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDataContractSkipValidation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetDataContractSkipValidation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetDataContractSkipValidation)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f8ae60;
+  constexpr static std::size_t addrs = 0x5ffce6c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetGetOnlyCollectionDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*, ::System::Runtime::Serialization::SerializationMode)>(&::System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*, ::System::Runtime::Serialization::SerializationMode)>(
+        &::System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContract)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5f8af9c;
+  constexpr static std::size_t addrs = 0x5ffcfa8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetGetOnlyCollectionDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetGetOnlyCollectionDataContract", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetGetOnlyCollectionDataContractSkipValidation
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContractSkipValidation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContractSkipValidation)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f8b0e4;
+  constexpr static std::size_t addrs = 0x5ffd0f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetGetOnlyCollectionDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                 "GetGetOnlyCollectionDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDataContractForInitialization
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t)>(&::System::Runtime::Serialization::DataContract::GetDataContractForInitialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(int32_t)>(
+    &::System::Runtime::Serialization::DataContract::GetDataContractForInitialization)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f8b22c;
+  constexpr static std::size_t addrs = 0x5ffd238;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContractForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContractForInitialization",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetIdForInitialization
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Runtime::Serialization::ClassDataContract*)>(&::System::Runtime::Serialization::DataContract::GetIdForInitialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Runtime::Serialization::ClassDataContract*)>(
+    &::System::Runtime::Serialization::DataContract::GetIdForInitialization)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f8b350;
+  constexpr static std::size_t addrs = 0x5ffd35c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetIdForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetIdForInitialization", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetId
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::RuntimeTypeHandle)>(&::System::Runtime::Serialization::DataContract::GetId)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f8add8;
+  constexpr static std::size_t addrs = 0x5ffcde4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetId", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetBuiltInDataContract)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f8b8b0;
+  constexpr static std::size_t addrs = 0x5ffd8bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetBuiltInDataContract",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::DataContract::GetBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::DataContract::GetBuiltInDataContract)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f8bbd8;
+  constexpr static std::size_t addrs = 0x5ffdbe4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetBuiltInDataContract", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::GetBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (*)(::StringW)>(
+    &::System::Runtime::Serialization::DataContract::GetBuiltInDataContract)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f8bf18;
+  constexpr static std::size_t addrs = 0x5ffdf24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetBuiltInDataContract",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetNamespace
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::GetNamespace)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f8cce4;
+  constexpr static std::size_t addrs = 0x5ffecf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetNamespace",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetClrTypeString
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::GetClrTypeString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (*)(::StringW)>(
+    &::System::Runtime::Serialization::DataContract::GetClrTypeString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f8d0a0;
+  constexpr static std::size_t addrs = 0x5fff0ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeString",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ThrowInvalidDataContractException
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Type*)>(&::System::Runtime::Serialization::DataContract::ThrowInvalidDataContractException)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::ThrowInvalidDataContractException)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f8a738;
+  constexpr static std::size_t addrs = 0x5ffc744;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ThrowInvalidDataContractException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ThrowInvalidDataContractException", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_Helper
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_Helper)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* (
+    ::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_Helper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8d9f8;
+  constexpr static std::size_t addrs = 0x5fffa04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_Helper",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_Helper", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_UnderlyingType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_UnderlyingType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_UnderlyingType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f8b154;
+  constexpr static std::size_t addrs = 0x5ffd160;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_UnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_UnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_OriginalUnderlyingType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_OriginalUnderlyingType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_OriginalUnderlyingType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f8da00;
+  constexpr static std::size_t addrs = 0x5fffa0c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_OriginalUnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_OriginalUnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_IsBuiltInDataContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_IsBuiltInDataContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_IsBuiltInDataContract)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f8daa0;
+  constexpr static std::size_t addrs = 0x5fffaac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_TypeForInitialization
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_TypeForInitialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_TypeForInitialization)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f8dabc;
+  constexpr static std::size_t addrs = 0x5fffac8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_TypeForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_TypeForInitialization", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.WriteXmlValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*)>(&::System::Runtime::Serialization::DataContract::WriteXmlValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract::*)(
+    ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*)>(
+    &::System::Runtime::Serialization::DataContract::WriteXmlValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f8dad4;
+  constexpr static std::size_t addrs = 0x5fffae0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  5
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 5));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ReadXmlValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(&::System::Runtime::Serialization::DataContract::ReadXmlValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(
+    &::System::Runtime::Serialization::DataContract::ReadXmlValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f8dbb0;
+  constexpr static std::size_t addrs = 0x5fffbbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  6
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 6));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_IsValueType
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_IsValueType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_IsValueType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f8dc8c;
+  constexpr static std::size_t addrs = 0x5fffc98;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_IsValueType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_IsReference
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_IsReference)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_IsReference)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f8dca4;
+  constexpr static std::size_t addrs = 0x5fffcb0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_IsReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_IsReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_StableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_StableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_StableName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f8a05c;
+  constexpr static std::size_t addrs = 0x5ffc068;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_StableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_StableName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_KnownDataContracts
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_KnownDataContracts)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* (::System::Runtime::Serialization::DataContract::*)()>(
+        &::System::Runtime::Serialization::DataContract::get_KnownDataContracts)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f8dcbc;
+  constexpr static std::size_t addrs = 0x5fffcc8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  7
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 7));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_IsISerializable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_IsISerializable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_IsISerializable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f8dcd8;
+  constexpr static std::size_t addrs = 0x5fffce4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  8
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 8));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_Name
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8dcf4;
+  constexpr static std::size_t addrs = 0x5fffd00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "get_Name", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_Namespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_Namespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8dcfc;
+  constexpr static std::size_t addrs = 0x5fffd08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  9
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 9));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_HasRoot
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_HasRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_HasRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8dd04;
+  constexpr static std::size_t addrs = 0x5fffd10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  10
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 10));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_TopLevelElementName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_TopLevelElementName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_TopLevelElementName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f8dd0c;
+  constexpr static std::size_t addrs = 0x5fffd18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  11
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 11));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_TopLevelElementNamespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_TopLevelElementNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_TopLevelElementNamespace)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f8dd28;
+  constexpr static std::size_t addrs = 0x5fffd34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_CanContainReferences
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_CanContainReferences)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_CanContainReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8dd44;
+  constexpr static std::size_t addrs = 0x5fffd50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.get_IsPrimitive
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::get_IsPrimitive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::get_IsPrimitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8dd4c;
+  constexpr static std::size_t addrs = 0x5fffd58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.WriteRootElement
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(&::System::Runtime::Serialization::DataContract::WriteRootElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContract::*)(
+    ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
+    &::System::Runtime::Serialization::DataContract::WriteRootElement)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5f8dd54;
+  constexpr static std::size_t addrs = 0x5fffd60;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetValidContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::SerializationMode)>(&::System::Runtime::Serialization::DataContract::GetValidContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (
+    ::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::SerializationMode)>(&::System::Runtime::Serialization::DataContract::GetValidContract)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f8de3c;
+  constexpr static std::size_t addrs = 0x5fffe48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  16
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 16));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetValidContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::GetValidContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::GetValidContract)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f8de40;
+  constexpr static std::size_t addrs = 0x5fffe4c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  17
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 17));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsValidContract
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::SerializationMode)>(&::System::Runtime::Serialization::DataContract::IsValidContract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(::System::Runtime::Serialization::SerializationMode)>(
+    &::System::Runtime::Serialization::DataContract::IsValidContract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8de44;
+  constexpr static std::size_t addrs = 0x5fffe50;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  18
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 18));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsTypeSerializable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::IsTypeSerializable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f8de4c;
+  constexpr static std::size_t addrs = 0x5fffe58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsTypeSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsTypeSerializable",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsTypeSerializable
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*)>(&::System::Runtime::Serialization::DataContract::IsTypeSerializable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*)>(
+    &::System::Runtime::Serialization::DataContract::IsTypeSerializable)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5f8dee8;
+  constexpr static std::size_t addrs = 0x5fffef4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsTypeSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsTypeSerializable", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ValidatePreviousCollectionTypes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*)>(&::System::Runtime::Serialization::DataContract::ValidatePreviousCollectionTypes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::System::Type*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*)>(
+        &::System::Runtime::Serialization::DataContract::ValidatePreviousCollectionTypes)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x5f8e240;
+  constexpr static std::size_t addrs = 0x600024c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ValidatePreviousCollectionTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ValidatePreviousCollectionTypes", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.UnwrapRedundantNullableType
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::UnwrapRedundantNullableType)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5f8e65c;
+  constexpr static std::size_t addrs = 0x6000668;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "UnwrapRedundantNullableType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "UnwrapRedundantNullableType",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.UnwrapNullableType
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::UnwrapNullableType)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f89a20;
+  constexpr static std::size_t addrs = 0x5ffba2c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "UnwrapNullableType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "UnwrapNullableType",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsAlpha
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Runtime::Serialization::DataContract::IsAlpha)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f8e874;
+  constexpr static std::size_t addrs = 0x6000880;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsAlpha",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsAlpha", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsDigit
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Runtime::Serialization::DataContract::IsDigit)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f8e88c;
+  constexpr static std::size_t addrs = 0x6000898;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsDigit", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsAsciiLocalName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::IsAsciiLocalName)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5f8e8a0;
+  constexpr static std::size_t addrs = 0x60008ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsAsciiLocalName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsAsciiLocalName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.EncodeLocalName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::EncodeLocalName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f8999c;
+  constexpr static std::size_t addrs = 0x5ffb9a8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "EncodeLocalName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "EncodeLocalName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsValidNCName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::IsValidNCName)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f8e930;
+  constexpr static std::size_t addrs = 0x600093c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsValidNCName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsValidNCName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetStableName)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f89b10;
+  constexpr static std::size_t addrs = 0x5ffbb1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetStableName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::ByRef<bool>)>(&::System::Runtime::Serialization::DataContract::GetStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::ByRef<bool>)>(
+    &::System::Runtime::Serialization::DataContract::GetStableName)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f8ea10;
+  constexpr static std::size_t addrs = 0x6000a1c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "GetStableName", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*, ::ByRef<bool>)>(&::System::Runtime::Serialization::DataContract::GetStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*, ::ByRef<bool>)>(
+        &::System::Runtime::Serialization::DataContract::GetStableName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f8eabc;
+  constexpr static std::size_t addrs = 0x6000ac8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetStableName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDCTypeStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Runtime::Serialization::DataContractAttribute*)>(&::System::Runtime::Serialization::DataContract::GetDCTypeStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Runtime::Serialization::DataContractAttribute*)>(
+    &::System::Runtime::Serialization::DataContract::GetDCTypeStableName)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5f8eda8;
+  constexpr static std::size_t addrs = 0x6000db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDCTypeStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractAttribute*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDCTypeStableName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractAttribute*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetNonDCTypeStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*)>(&::System::Runtime::Serialization::DataContract::GetNonDCTypeStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*)>(
+        &::System::Runtime::Serialization::DataContract::GetNonDCTypeStableName)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f8ef64;
+  constexpr static std::size_t addrs = 0x6000f70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetNonDCTypeStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetNonDCTypeStableName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.TryGetBuiltInXmlAndArrayTypeStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*, ::ByRef<::System::Xml::XmlQualifiedName*>)>(&::System::Runtime::Serialization::DataContract::TryGetBuiltInXmlAndArrayTypeStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<bool (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*, ::ByRef<::System::Xml::XmlQualifiedName*>)>(
+        &::System::Runtime::Serialization::DataContract::TryGetBuiltInXmlAndArrayTypeStableName)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5f8eb3c;
+  constexpr static std::size_t addrs = 0x6000b48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "TryGetBuiltInXmlAndArrayTypeStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlQualifiedName*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "TryGetBuiltInXmlAndArrayTypeStableName",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlQualifiedName*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.TryGetDCAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::System::Runtime::Serialization::DataContractAttribute*>)>(&::System::Runtime::Serialization::DataContract::TryGetDCAttribute)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::System::Runtime::Serialization::DataContractAttribute*>)>(
+    &::System::Runtime::Serialization::DataContract::TryGetDCAttribute)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5f8ecb0;
+  constexpr static std::size_t addrs = 0x6000cbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "TryGetDCAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContractAttribute*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "TryGetDCAttribute", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContractAttribute*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetCollectionStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Type*, ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>)>(&::System::Runtime::Serialization::DataContract::GetCollectionStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Type*, ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>)>(
+        &::System::Runtime::Serialization::DataContract::GetCollectionStableName)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f8a2e4;
+  constexpr static std::size_t addrs = 0x5ffc2f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetCollectionStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetCollectionStableName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetCollectionStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*, ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>)>(&::System::Runtime::Serialization::DataContract::GetCollectionStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::System::Xml::XmlQualifiedName* (*)(::System::Type*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*,
+                                         ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>)>(&::System::Runtime::Serialization::DataContract::GetCollectionStableName)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x5f8fb1c;
+  constexpr static std::size_t addrs = 0x6001b28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetCollectionStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetCollectionStableName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetArrayPrefix
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ByRef<::System::Type*>)>(&::System::Runtime::Serialization::DataContract::GetArrayPrefix)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f8ffb4;
+  constexpr static std::size_t addrs = 0x6001fc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetArrayPrefix",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetArrayPrefix", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetCollectionNamespace
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::GetCollectionNamespace)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f90070;
+  constexpr static std::size_t addrs = 0x600207c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetCollectionNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetCollectionNamespace",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDefaultStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetDefaultStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetDefaultStableName)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f9014c;
+  constexpr static std::size_t addrs = 0x6002158;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDefaultStableLocalName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetDefaultStableLocalName)> {
   constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x5f8f07c;
+  constexpr static std::size_t addrs = 0x6001088;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableLocalName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableLocalName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDefaultDataContractNamespace
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetDefaultDataContractNamespace)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f8fa64;
+  constexpr static std::size_t addrs = 0x6001a70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultDataContractNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultDataContractNamespace",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDataContractNameForGenericName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<int32_t>* (*)(::StringW, ::System::Text::StringBuilder*)>(&::System::Runtime::Serialization::DataContract::GetDataContractNameForGenericName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<int32_t>* (*)(::StringW, ::System::Text::StringBuilder*)>(
+    &::System::Runtime::Serialization::DataContract::GetDataContractNameForGenericName)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x5f9017c;
+  constexpr static std::size_t addrs = 0x6002188;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContractNameForGenericName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContractNameForGenericName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsBuiltInNamespace
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::IsBuiltInNamespace)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f900c8;
+  constexpr static std::size_t addrs = 0x60020d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsBuiltInNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsBuiltInNamespace",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDefaultStableNamespace
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetDefaultStableNamespace)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f8fe30;
+  constexpr static std::size_t addrs = 0x6001e3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableNamespace",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.CreateQualifiedName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::DataContract::CreateQualifiedName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::StringW, ::StringW)>(
+    &::System::Runtime::Serialization::DataContract::CreateQualifiedName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f8a074;
+  constexpr static std::size_t addrs = 0x5ffc080;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "CreateQualifiedName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "CreateQualifiedName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDefaultStableNamespace
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::GetDefaultStableNamespace)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f909fc;
+  constexpr static std::size_t addrs = 0x6002a08;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableNamespace",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.CheckExplicitDataContractNamespaceUri
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Type*)>(&::System::Runtime::Serialization::DataContract::CheckExplicitDataContractNamespaceUri)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::CheckExplicitDataContractNamespaceUri)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5f8f814;
+  constexpr static std::size_t addrs = 0x6001820;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "CheckExplicitDataContractNamespaceUri",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "CheckExplicitDataContractNamespaceUri",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetClrTypeFullName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetClrTypeFullName)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5f89864;
+  constexpr static std::size_t addrs = 0x5ffb870;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetClrAssemblyName
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::ByRef<bool>)>(&::System::Runtime::Serialization::DataContract::GetClrAssemblyName)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5f90bb0;
+  constexpr static std::size_t addrs = 0x6002bbc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrAssemblyName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                               "GetClrAssemblyName", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetClrTypeFullNameUsingTypeForwardedFromAttribute
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetClrTypeFullNameUsingTypeForwardedFromAttribute)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetClrTypeFullNameUsingTypeForwardedFromAttribute)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f90cd0;
+  constexpr static std::size_t addrs = 0x6002cdc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullNameUsingTypeForwardedFromAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullNameUsingTypeForwardedFromAttribute",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetClrTypeFullNameForArray
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetClrTypeFullNameForArray)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f90d0c;
+  constexpr static std::size_t addrs = 0x6002d18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullNameForArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullNameForArray",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetClrTypeFullNameForNonArrayTypes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::GetClrTypeFullNameForNonArrayTypes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::GetClrTypeFullNameForNonArrayTypes)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x5f90e18;
+  constexpr static std::size_t addrs = 0x6002e24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullNameForNonArrayTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullNameForNonArrayTypes",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetClrNameAndNamespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Runtime::Serialization::DataContract::GetClrNameAndNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
+    &::System::Runtime::Serialization::DataContract::GetClrNameAndNamespace)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5f91088;
+  constexpr static std::size_t addrs = 0x6003094;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrNameAndNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrNameAndNamespace", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDefaultStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Runtime::Serialization::DataContract::GetDefaultStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
+    &::System::Runtime::Serialization::DataContract::GetDefaultStableName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5f91170;
+  constexpr static std::size_t addrs = 0x600317c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetDefaultStableName
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Serialization::CodeTypeReference*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Runtime::Serialization::DataContract::GetDefaultStableName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Serialization::CodeTypeReference*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
+    &::System::Runtime::Serialization::DataContract::GetDefaultStableName)> {
   constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x5f911e8;
+  constexpr static std::size_t addrs = 0x60031f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::CodeTypeReference*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableName", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::CodeTypeReference*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetGlobalDataContractNamespace
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Reflection::ICustomAttributeProvider*)>(&::System::Runtime::Serialization::DataContract::GetGlobalDataContractNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Reflection::ICustomAttributeProvider*)>(
+    &::System::Runtime::Serialization::DataContract::GetGlobalDataContractNamespace)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x5f90724;
+  constexpr static std::size_t addrs = 0x6002730;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetGlobalDataContractNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ICustomAttributeProvider*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetGlobalDataContractNamespace", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ICustomAttributeProvider*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetNamespacesDigest
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Serialization::DataContract::GetNamespacesDigest)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5f9054c;
+  constexpr static std::size_t addrs = 0x6002558;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetNamespacesDigest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetNamespacesDigest",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ExpandGenericParameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Type*)>(&::System::Runtime::Serialization::DataContract::ExpandGenericParameters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Type*)>(
+    &::System::Runtime::Serialization::DataContract::ExpandGenericParameters)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f8f010;
+  constexpr static std::size_t addrs = 0x600101c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ExpandGenericParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ExpandGenericParameters", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ExpandGenericParameters
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Runtime::Serialization::IGenericNameProvider*)>(&::System::Runtime::Serialization::DataContract::ExpandGenericParameters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Runtime::Serialization::IGenericNameProvider*)>(
+    &::System::Runtime::Serialization::DataContract::ExpandGenericParameters)> {
   constexpr static std::size_t size = 0x958;
-  constexpr static std::size_t addrs = 0x5f9188c;
+  constexpr static std::size_t addrs = 0x6003898;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ExpandGenericParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IGenericNameProvider*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ExpandGenericParameters", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IGenericNameProvider*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsTypeNullable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::IsTypeNullable)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f89784;
+  constexpr static std::size_t addrs = 0x5ffb790;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsTypeNullable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsTypeNullable",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ThrowTypeNotSerializable
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::ThrowTypeNotSerializable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f921e4;
+  constexpr static std::size_t addrs = 0x60041f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ThrowTypeNotSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ThrowTypeNotSerializable",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ImportKnownTypeAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>* (*)(::System::Type*)>(&::System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* (*)(::System::Type*)>(
+        &::System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f8a954;
+  constexpr static std::size_t addrs = 0x5ffc960;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ImportKnownTypeAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ImportKnownTypeAttributes",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.ImportKnownTypeAttributes
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*, ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>)>(&::System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*,
+                         ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>)>(
+        &::System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes)> {
   constexpr static std::size_t size = 0xa34;
-  constexpr static std::size_t addrs = 0x5f92298;
+  constexpr static std::size_t addrs = 0x60042a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ImportKnownTypeAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ImportKnownTypeAttributes", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.LoadKnownTypesFromConfig
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*, ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>)>(&::System::Runtime::Serialization::DataContract::LoadKnownTypesFromConfig)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*,
+                         ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>)>(
+        &::System::Runtime::Serialization::DataContract::LoadKnownTypesFromConfig)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f9335c;
+  constexpr static std::size_t addrs = 0x6005368;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "LoadKnownTypesFromConfig",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "LoadKnownTypesFromConfig", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.CheckAndAdd
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*, ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>)>(&::System::Runtime::Serialization::DataContract::CheckAndAdd)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*,
+                         ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>)>(
+        &::System::Runtime::Serialization::DataContract::CheckAndAdd)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x5f92dc8;
+  constexpr static std::size_t addrs = 0x6004dd4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "CheckAndAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "CheckAndAdd", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(::System::Object*)>(&::System::Runtime::Serialization::DataContract::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(::System::Object*)>(
+    &::System::Runtime::Serialization::DataContract::Equals)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5f933fc;
+  constexpr static std::size_t addrs = 0x6005408;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.Equals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*,::System::Object*>*)>(&::System::Runtime::Serialization::DataContract::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(
+    ::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>*)>(
+    &::System::Runtime::Serialization::DataContract::Equals)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5f934d0;
+  constexpr static std::size_t addrs = 0x60054dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  19
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 19));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.IsEqualOrChecked
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*,::System::Object*>*)>(&::System::Runtime::Serialization::DataContract::IsEqualOrChecked)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContract::*)(
+    ::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>*)>(
+    &::System::Runtime::Serialization::DataContract::IsEqualOrChecked)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f935e8;
+  constexpr static std::size_t addrs = 0x60055f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsEqualOrChecked",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*,::System::Object*>*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsEqualOrChecked", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContract.GetHashCode
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::DataContract::*)()>(&::System::Runtime::Serialization::DataContract::GetHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::DataContract::*)()>(
+    &::System::Runtime::Serialization::DataContract::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f936e0;
+  constexpr static std::size_t addrs = 0x60056ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                                  2
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 2));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract::__cordl_internal_get_name()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract::__cordl_internal_get_name() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
 constexpr ::System::Xml::XmlDictionaryString* const& System::Runtime::Serialization::DataContract::__cordl_internal_get_name() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___name;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___name;
 }
-constexpr void System::Runtime::Serialization::DataContract::__cordl_internal_set_name(::System::Xml::XmlDictionaryString*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::DataContract::__cordl_internal_set_name(::System::Xml::XmlDictionaryString* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract::__cordl_internal_get_ns()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ns;
+constexpr ::System::Xml::XmlDictionaryString*& System::Runtime::Serialization::DataContract::__cordl_internal_get_ns() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ns;
 }
 constexpr ::System::Xml::XmlDictionaryString* const& System::Runtime::Serialization::DataContract::__cordl_internal_get_ns() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___ns;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ns;
 }
-constexpr void System::Runtime::Serialization::DataContract::__cordl_internal_set_ns(::System::Xml::XmlDictionaryString*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Serialization::DataContract::__cordl_internal_set_ns(::System::Xml::XmlDictionaryString* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*& System::Runtime::Serialization::DataContract::__cordl_internal_get_helper()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___helper;
+constexpr ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*& System::Runtime::Serialization::DataContract::__cordl_internal_get_helper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___helper;
 }
 constexpr ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* const& System::Runtime::Serialization::DataContract::__cordl_internal_get_helper() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___helper;
-}
-constexpr void System::Runtime::Serialization::DataContract::__cordl_internal_set_helper(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___helper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void System::Runtime::Serialization::DataContract::_ctor(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*  helper)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, helper);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContract(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContract(::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type, ::System::Runtime::Serialization::SerializationMode  mode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, typeHandle, type, mode);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContract(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Runtime::Serialization::SerializationMode  mode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, mode);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContractSkipValidation(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContract(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type, ::System::Runtime::Serialization::SerializationMode  mode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetGetOnlyCollectionDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type, mode);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContractSkipValidation(int32_t  id, ::System::RuntimeTypeHandle  typeHandle, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetGetOnlyCollectionDataContractSkipValidation",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContractForInitialization(int32_t  id)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContractForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id);
-}
-inline int32_t System::Runtime::Serialization::DataContract::GetIdForInitialization(::System::Runtime::Serialization::ClassDataContract*  classContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetIdForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, classContract);
-}
-inline int32_t System::Runtime::Serialization::DataContract::GetId(::System::RuntimeTypeHandle  typeHandle)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetId",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, typeHandle);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetBuiltInDataContract(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetBuiltInDataContract(::StringW  name, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, name, ns);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetBuiltInDataContract(::StringW  typeName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetBuiltInDataContract",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, typeName);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetNamespace(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, key);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::GetClrTypeString(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeString",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(nullptr, ___internal_method, key);
-}
-inline void System::Runtime::Serialization::DataContract::ThrowInvalidDataContractException(::StringW  message, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ThrowInvalidDataContractException",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message, type);
-}
-inline ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* System::Runtime::Serialization::DataContract::get_Helper()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_Helper",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*, false>(this, ___internal_method);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract::get_UnderlyingType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_UnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract::get_OriginalUnderlyingType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_OriginalUnderlyingType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract::get_IsBuiltInDataContract()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract::get_TypeForInitialization()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_TypeForInitialization",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract::WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator*  xmlWriter, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            5
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlWriter, obj, context);
-}
-inline ::System::Object* System::Runtime::Serialization::DataContract::ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator*  xmlReader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  context)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            6
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, xmlReader, context);
-}
-inline bool System::Runtime::Serialization::DataContract::get_IsValueType()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_IsValueType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract::get_IsReference()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_IsReference",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::get_StableName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_StableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>* System::Runtime::Serialization::DataContract::get_KnownDataContracts()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            7
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract::get_IsISerializable()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            8
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_Name()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "get_Name",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_Namespace()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            9
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract::get_HasRoot()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            10
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_TopLevelElementName()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            11
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_TopLevelElementNamespace()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract::get_CanContainReferences()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract::get_IsPrimitive()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void System::Runtime::Serialization::DataContract::WriteRootElement(::System::Runtime::Serialization::XmlWriterDelegator*  writer, ::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, name, ns);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetValidContract(::System::Runtime::Serialization::SerializationMode  mode)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            16
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(this, ___internal_method, mode);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetValidContract()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            17
-                        )));
-return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(this, ___internal_method);
-}
-inline bool System::Runtime::Serialization::DataContract::IsValidContract(::System::Runtime::Serialization::SerializationMode  mode)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            18
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mode);
-}
-inline bool System::Runtime::Serialization::DataContract::IsTypeSerializable(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsTypeSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
-}
-inline bool System::Runtime::Serialization::DataContract::IsTypeSerializable(::System::Type*  type, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*  previousCollectionTypes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsTypeSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, previousCollectionTypes);
-}
-inline void System::Runtime::Serialization::DataContract::ValidatePreviousCollectionTypes(::System::Type*  collectionType, ::System::Type*  itemType, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*  previousCollectionTypes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ValidatePreviousCollectionTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, collectionType, itemType, previousCollectionTypes);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract::UnwrapRedundantNullableType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "UnwrapRedundantNullableType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Type* System::Runtime::Serialization::DataContract::UnwrapNullableType(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "UnwrapNullableType",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
-}
-inline bool System::Runtime::Serialization::DataContract::IsAlpha(char16_t  ch)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsAlpha",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ch);
-}
-inline bool System::Runtime::Serialization::DataContract::IsDigit(char16_t  ch)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsDigit",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ch);
-}
-inline bool System::Runtime::Serialization::DataContract::IsAsciiLocalName(::StringW  localName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsAsciiLocalName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, localName);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::EncodeLocalName(::StringW  localName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "EncodeLocalName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, localName);
-}
-inline bool System::Runtime::Serialization::DataContract::IsValidNCName(::StringW  name)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsValidNCName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, name);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetStableName(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetStableName(::System::Type*  type, ::ByRef<bool>  hasDataContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, hasDataContract);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetStableName(::System::Type*  type, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*  previousCollectionTypes, ::ByRef<bool>  hasDataContract)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, previousCollectionTypes, hasDataContract);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetDCTypeStableName(::System::Type*  type, ::System::Runtime::Serialization::DataContractAttribute*  dataContractAttribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDCTypeStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractAttribute*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, dataContractAttribute);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetNonDCTypeStableName(::System::Type*  type, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*  previousCollectionTypes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetNonDCTypeStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, previousCollectionTypes);
-}
-inline bool System::Runtime::Serialization::DataContract::TryGetBuiltInXmlAndArrayTypeStableName(::System::Type*  type, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*  previousCollectionTypes, ::ByRef<::System::Xml::XmlQualifiedName*>  stableName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "TryGetBuiltInXmlAndArrayTypeStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlQualifiedName*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, previousCollectionTypes, stableName);
-}
-inline bool System::Runtime::Serialization::DataContract::TryGetDCAttribute(::System::Type*  type, ::ByRef<::System::Runtime::Serialization::DataContractAttribute*>  dataContractAttribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "TryGetDCAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContractAttribute*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, dataContractAttribute);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetCollectionStableName(::System::Type*  type, ::System::Type*  itemType, ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>  collectionContractAttribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetCollectionStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, itemType, collectionContractAttribute);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetCollectionStableName(::System::Type*  type, ::System::Type*  itemType, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*  previousCollectionTypes, ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>  collectionContractAttribute)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetCollectionStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Object*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, itemType, previousCollectionTypes, collectionContractAttribute);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetArrayPrefix(::ByRef<::System::Type*>  itemType)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetArrayPrefix",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, itemType);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetCollectionNamespace(::StringW  elementNs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetCollectionNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, elementNs);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetDefaultStableName(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultStableLocalName(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableLocalName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultDataContractNamespace(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultDataContractNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Collections::Generic::IList_1<int32_t>* System::Runtime::Serialization::DataContract::GetDataContractNameForGenericName(::StringW  typeName, ::System::Text::StringBuilder*  localName)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDataContractNameForGenericName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<int32_t>*, false>(nullptr, ___internal_method, typeName, localName);
-}
-inline bool System::Runtime::Serialization::DataContract::IsBuiltInNamespace(::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsBuiltInNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ns);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultStableNamespace(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::CreateQualifiedName(::StringW  localName, ::StringW  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "CreateQualifiedName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, localName, ns);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultStableNamespace(::StringW  clrNs)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clrNs);
-}
-inline void System::Runtime::Serialization::DataContract::CheckExplicitDataContractNamespaceUri(::StringW  dataContractNs, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "CheckExplicitDataContractNamespaceUri",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, dataContractNs, type);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullName(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetClrAssemblyName(::System::Type*  type, ::ByRef<bool>  hasTypeForwardedFrom)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrAssemblyName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type, hasTypeForwardedFrom);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullNameUsingTypeForwardedFromAttribute(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullNameUsingTypeForwardedFromAttribute",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullNameForArray(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullNameForArray",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullNameForNonArrayTypes(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrTypeFullNameForNonArrayTypes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
-}
-inline void System::Runtime::Serialization::DataContract::GetClrNameAndNamespace(::StringW  fullTypeName, ::ByRef<::StringW>  localName, ::ByRef<::StringW>  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetClrNameAndNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fullTypeName, localName, ns);
-}
-inline void System::Runtime::Serialization::DataContract::GetDefaultStableName(::StringW  fullTypeName, ::ByRef<::StringW>  localName, ::ByRef<::StringW>  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fullTypeName, localName, ns);
-}
-inline void System::Runtime::Serialization::DataContract::GetDefaultStableName(::System::Runtime::Serialization::CodeTypeReference*  typeReference, ::ByRef<::StringW>  localName, ::ByRef<::StringW>  ns)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetDefaultStableName",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::CodeTypeReference*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, typeReference, localName, ns);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetGlobalDataContractNamespace(::StringW  clrNs, ::System::Reflection::ICustomAttributeProvider*  customAttribuetProvider)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetGlobalDataContractNamespace",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ICustomAttributeProvider*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clrNs, customAttribuetProvider);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::GetNamespacesDigest(::StringW  namespaces)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "GetNamespacesDigest",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, namespaces);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::ExpandGenericParameters(::StringW  format, ::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ExpandGenericParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, format, type);
-}
-inline ::StringW System::Runtime::Serialization::DataContract::ExpandGenericParameters(::StringW  format, ::System::Runtime::Serialization::IGenericNameProvider*  genericNameProvider)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ExpandGenericParameters",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IGenericNameProvider*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, format, genericNameProvider);
-}
-inline bool System::Runtime::Serialization::DataContract::IsTypeNullable(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsTypeNullable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
-}
-inline void System::Runtime::Serialization::DataContract::ThrowTypeNotSerializable(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ThrowTypeNotSerializable",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
-}
-inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>* System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes(::System::Type*  type)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ImportKnownTypeAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*, false>(nullptr, ___internal_method, type);
-}
-inline void System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes(::System::Type*  type, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*  typesChecked, ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>  knownDataContracts)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "ImportKnownTypeAttributes",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, typesChecked, knownDataContracts);
-}
-inline void System::Runtime::Serialization::DataContract::LoadKnownTypesFromConfig(::System::Type*  type, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*  typesChecked, ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>  knownDataContracts)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "LoadKnownTypesFromConfig",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, typesChecked, knownDataContracts);
-}
-inline void System::Runtime::Serialization::DataContract::CheckAndAdd(::System::Type*  type, ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*  typesChecked, ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>  nameToDataContractTable)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "CheckAndAdd",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Type*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,::System::Runtime::Serialization::DataContract*>*>>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, typesChecked, nameToDataContractTable);
-}
-inline bool System::Runtime::Serialization::DataContract::Equals(::System::Object*  other)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "Equals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
-}
-inline bool System::Runtime::Serialization::DataContract::Equals(::System::Object*  other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*,::System::Object*>*  checkedContracts)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            19
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other, checkedContracts);
-}
-inline bool System::Runtime::Serialization::DataContract::IsEqualOrChecked(::System::Object*  other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*,::System::Object*>*  checkedContracts)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                        "IsEqualOrChecked",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*,::System::Object*>*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other, checkedContracts);
-}
-inline int32_t System::Runtime::Serialization::DataContract::GetHashCode()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
-                            2
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::New_ctor(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*  helper)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::DataContract*>(helper));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___helper;
+}
+constexpr void System::Runtime::Serialization::DataContract::__cordl_internal_set_helper(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___helper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void System::Runtime::Serialization::DataContract::_ctor(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* helper) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, helper);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContract(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContract",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContract(::System::RuntimeTypeHandle typeHandle, ::System::Type* type,
+                                                                                                                     ::System::Runtime::Serialization::SerializationMode mode) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContract", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, typeHandle, type, mode);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle,
+                                                                                                                     ::System::Runtime::Serialization::SerializationMode mode) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContract", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, mode);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle,
+                                                                                                                                   ::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle,
+                                                                                                                                      ::System::Type* type,
+                                                                                                                                      ::System::Runtime::Serialization::SerializationMode mode) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetGetOnlyCollectionDataContract", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationMode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type, mode);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetGetOnlyCollectionDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle,
+                                                                                                                                                    ::System::Type* type) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                               "GetGetOnlyCollectionDataContractSkipValidation", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id, typeHandle, type);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetDataContractForInitialization(int32_t id) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContractForInitialization",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, id);
+}
+inline int32_t System::Runtime::Serialization::DataContract::GetIdForInitialization(::System::Runtime::Serialization::ClassDataContract* classContract) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetIdForInitialization", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ClassDataContract*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, classContract);
+}
+inline int32_t System::Runtime::Serialization::DataContract::GetId(::System::RuntimeTypeHandle typeHandle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetId", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::RuntimeTypeHandle>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, typeHandle);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetBuiltInDataContract(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetBuiltInDataContract",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetBuiltInDataContract(::StringW name, ::StringW ns) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetBuiltInDataContract", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, name, ns);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetBuiltInDataContract(::StringW typeName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetBuiltInDataContract",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(nullptr, ___internal_method, typeName);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetNamespace(::StringW key) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetNamespace",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, key);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::GetClrTypeString(::StringW key) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeString",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(nullptr, ___internal_method, key);
+}
+inline void System::Runtime::Serialization::DataContract::ThrowInvalidDataContractException(::StringW message, ::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ThrowInvalidDataContractException", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message, type);
+}
+inline ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* System::Runtime::Serialization::DataContract::get_Helper() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "get_Helper", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract_DataContractCriticalHelper*, false>(this, ___internal_method);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract::get_UnderlyingType() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "get_UnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract::get_OriginalUnderlyingType() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "get_OriginalUnderlyingType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract::get_IsBuiltInDataContract() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract::get_TypeForInitialization() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "get_TypeForInitialization", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract::WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj,
+                                                                        ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmlWriter, obj, context);
+}
+inline ::System::Object* System::Runtime::Serialization::DataContract::ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
+                                                                                    ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, xmlReader, context);
+}
+inline bool System::Runtime::Serialization::DataContract::get_IsValueType() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "get_IsValueType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract::get_IsReference() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "get_IsReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::get_StableName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "get_StableName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*
+System::Runtime::Serialization::DataContract::get_KnownDataContracts() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*, false>(
+      this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract::get_IsISerializable() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_Name() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "get_Name",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_Namespace() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract::get_HasRoot() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_TopLevelElementName() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDictionaryString* System::Runtime::Serialization::DataContract::get_TopLevelElementNamespace() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDictionaryString*, false>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract::get_CanContainReferences() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract::get_IsPrimitive() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::DataContract::WriteRootElement(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Xml::XmlDictionaryString* name,
+                                                                           ::System::Xml::XmlDictionaryString* ns) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, name, ns);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetValidContract(::System::Runtime::Serialization::SerializationMode mode) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(this, ___internal_method, mode);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::GetValidContract() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 17)));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::DataContract*, false>(this, ___internal_method);
+}
+inline bool System::Runtime::Serialization::DataContract::IsValidContract(::System::Runtime::Serialization::SerializationMode mode) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 18)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mode);
+}
+inline bool System::Runtime::Serialization::DataContract::IsTypeSerializable(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsTypeSerializable",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+}
+inline bool System::Runtime::Serialization::DataContract::IsTypeSerializable(::System::Type* type,
+                                                                             ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsTypeSerializable", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, previousCollectionTypes);
+}
+inline void System::Runtime::Serialization::DataContract::ValidatePreviousCollectionTypes(::System::Type* collectionType, ::System::Type* itemType,
+                                                                                          ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ValidatePreviousCollectionTypes", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, collectionType, itemType, previousCollectionTypes);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract::UnwrapRedundantNullableType(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "UnwrapRedundantNullableType",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Type* System::Runtime::Serialization::DataContract::UnwrapNullableType(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "UnwrapNullableType",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, type);
+}
+inline bool System::Runtime::Serialization::DataContract::IsAlpha(char16_t ch) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsAlpha", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ch);
+}
+inline bool System::Runtime::Serialization::DataContract::IsDigit(char16_t ch) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsDigit", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ch);
+}
+inline bool System::Runtime::Serialization::DataContract::IsAsciiLocalName(::StringW localName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsAsciiLocalName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, localName);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::EncodeLocalName(::StringW localName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "EncodeLocalName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, localName);
+}
+inline bool System::Runtime::Serialization::DataContract::IsValidNCName(::StringW name) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsValidNCName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, name);
+}
+inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetStableName(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetStableName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetStableName(::System::Type* type, ::ByRef<bool> hasDataContract) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "GetStableName", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, hasDataContract);
+}
+inline ::System::Xml::XmlQualifiedName*
+System::Runtime::Serialization::DataContract::GetStableName(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes,
+                                                            ::ByRef<bool> hasDataContract) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetStableName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, previousCollectionTypes, hasDataContract);
+}
+inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetDCTypeStableName(::System::Type* type,
+                                                                                                          ::System::Runtime::Serialization::DataContractAttribute* dataContractAttribute) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDCTypeStableName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::DataContractAttribute*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, dataContractAttribute);
+}
+inline ::System::Xml::XmlQualifiedName*
+System::Runtime::Serialization::DataContract::GetNonDCTypeStableName(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetNonDCTypeStableName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, previousCollectionTypes);
+}
+inline bool System::Runtime::Serialization::DataContract::TryGetBuiltInXmlAndArrayTypeStableName(
+    ::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes, ::ByRef<::System::Xml::XmlQualifiedName*> stableName) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "TryGetBuiltInXmlAndArrayTypeStableName",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlQualifiedName*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, previousCollectionTypes, stableName);
+}
+inline bool System::Runtime::Serialization::DataContract::TryGetDCAttribute(::System::Type* type, ::ByRef<::System::Runtime::Serialization::DataContractAttribute*> dataContractAttribute) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "TryGetDCAttribute", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::DataContractAttribute*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type, dataContractAttribute);
+}
+inline ::System::Xml::XmlQualifiedName*
+System::Runtime::Serialization::DataContract::GetCollectionStableName(::System::Type* type, ::System::Type* itemType,
+                                                                      ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*> collectionContractAttribute) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetCollectionStableName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, itemType, collectionContractAttribute);
+}
+inline ::System::Xml::XmlQualifiedName*
+System::Runtime::Serialization::DataContract::GetCollectionStableName(::System::Type* type, ::System::Type* itemType,
+                                                                      ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes,
+                                                                      ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*> collectionContractAttribute) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetCollectionStableName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type, itemType, previousCollectionTypes, collectionContractAttribute);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetArrayPrefix(::ByRef<::System::Type*> itemType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetArrayPrefix", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Type*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, itemType);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetCollectionNamespace(::StringW elementNs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetCollectionNamespace",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, elementNs);
+}
+inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::GetDefaultStableName(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, type);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultStableLocalName(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableLocalName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultDataContractNamespace(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultDataContractNamespace",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Collections::Generic::IList_1<int32_t>* System::Runtime::Serialization::DataContract::GetDataContractNameForGenericName(::StringW typeName, ::System::Text::StringBuilder* localName) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDataContractNameForGenericName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<int32_t>*, false>(nullptr, ___internal_method, typeName, localName);
+}
+inline bool System::Runtime::Serialization::DataContract::IsBuiltInNamespace(::StringW ns) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsBuiltInNamespace",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ns);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultStableNamespace(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableNamespace",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Xml::XmlQualifiedName* System::Runtime::Serialization::DataContract::CreateQualifiedName(::StringW localName, ::StringW ns) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "CreateQualifiedName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(nullptr, ___internal_method, localName, ns);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetDefaultStableNamespace(::StringW clrNs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableNamespace",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clrNs);
+}
+inline void System::Runtime::Serialization::DataContract::CheckExplicitDataContractNamespaceUri(::StringW dataContractNs, ::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "CheckExplicitDataContractNamespaceUri", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, dataContractNs, type);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullName(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetClrAssemblyName(::System::Type* type, ::ByRef<bool> hasTypeForwardedFrom) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(),
+                                                                             "GetClrAssemblyName", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type, hasTypeForwardedFrom);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullNameUsingTypeForwardedFromAttribute(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullNameUsingTypeForwardedFromAttribute",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullNameForArray(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullNameForArray",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetClrTypeFullNameForNonArrayTypes(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrTypeFullNameForNonArrayTypes",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline void System::Runtime::Serialization::DataContract::GetClrNameAndNamespace(::StringW fullTypeName, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetClrNameAndNamespace", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fullTypeName, localName, ns);
+}
+inline void System::Runtime::Serialization::DataContract::GetDefaultStableName(::StringW fullTypeName, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fullTypeName, localName, ns);
+}
+inline void System::Runtime::Serialization::DataContract::GetDefaultStableName(::System::Runtime::Serialization::CodeTypeReference* typeReference, ::ByRef<::StringW> localName,
+                                                                               ::ByRef<::StringW> ns) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetDefaultStableName", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::CodeTypeReference*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, typeReference, localName, ns);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetGlobalDataContractNamespace(::StringW clrNs, ::System::Reflection::ICustomAttributeProvider* customAttribuetProvider) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetGlobalDataContractNamespace", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ICustomAttributeProvider*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clrNs, customAttribuetProvider);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::GetNamespacesDigest(::StringW namespaces) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "GetNamespacesDigest",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, namespaces);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::ExpandGenericParameters(::StringW format, ::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ExpandGenericParameters", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, format, type);
+}
+inline ::StringW System::Runtime::Serialization::DataContract::ExpandGenericParameters(::StringW format, ::System::Runtime::Serialization::IGenericNameProvider* genericNameProvider) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ExpandGenericParameters", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::IGenericNameProvider*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, format, genericNameProvider);
+}
+inline bool System::Runtime::Serialization::DataContract::IsTypeNullable(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsTypeNullable",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+}
+inline void System::Runtime::Serialization::DataContract::ThrowTypeNotSerializable(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ThrowTypeNotSerializable",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*
+System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes(::System::Type* type) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ImportKnownTypeAttributes",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*, false>(
+      nullptr, ___internal_method, type);
+}
+inline void System::Runtime::Serialization::DataContract::ImportKnownTypeAttributes(
+    ::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* typesChecked,
+    ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> knownDataContracts) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "ImportKnownTypeAttributes", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                              ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, typesChecked, knownDataContracts);
+}
+inline void System::Runtime::Serialization::DataContract::LoadKnownTypesFromConfig(
+    ::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* typesChecked,
+    ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> knownDataContracts) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "LoadKnownTypesFromConfig", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                              ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, typesChecked, knownDataContracts);
+}
+inline void System::Runtime::Serialization::DataContract::CheckAndAdd(
+    ::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* typesChecked,
+    ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> nameToDataContractTable) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "CheckAndAdd", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                              ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, typesChecked, nameToDataContractTable);
+}
+inline bool System::Runtime::Serialization::DataContract::Equals(::System::Object* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline bool
+System::Runtime::Serialization::DataContract::Equals(::System::Object* other,
+                                                     ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 19)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other, checkedContracts);
+}
+inline bool System::Runtime::Serialization::DataContract::IsEqualOrChecked(
+    ::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), "IsEqualOrChecked", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other, checkedContracts);
+}
+inline int32_t System::Runtime::Serialization::DataContract::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContract*>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::DataContract* System::Runtime::Serialization::DataContract::New_ctor(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* helper) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::DataContract*>(helper));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Serialization::DataContract::DataContract()   {
-}
+constexpr ::System::Runtime::Serialization::DataContract::DataContract() {}

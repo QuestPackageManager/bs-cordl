@@ -60,244 +60,244 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs);
 MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_SynchronizeState);
 MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors);
 MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate);
-// Dependencies 
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization/ProfilerStartFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization_ProfilerStartFrame {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization_ProfilerStartFrame() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization_ProfilerStartFrame();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10481};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
-// Dependencies 
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization/UpdateCameraMotionVectors
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization_UpdateCameraMotionVectors {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization_UpdateCameraMotionVectors() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization_UpdateCameraMotionVectors();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10482};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10488 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
-// Dependencies 
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization/DirectorSampleTime
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization_DirectorSampleTime {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization_DirectorSampleTime() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization_DirectorSampleTime();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10483};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10489 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
-// Dependencies 
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization/AsyncUploadTimeSlicedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization_AsyncUploadTimeSlicedUpdate {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization_AsyncUploadTimeSlicedUpdate() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization_AsyncUploadTimeSlicedUpdate();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10484};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10490 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
-// Dependencies 
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization/SynchronizeState
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization_SynchronizeState {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization_SynchronizeState() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization_SynchronizeState();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10485};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10491 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_SynchronizeState, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
-// Dependencies 
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization/SynchronizeInputs
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization_SynchronizeInputs {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization_SynchronizeInputs() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization_SynchronizeInputs();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10486};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10492 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
-// Dependencies 
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization/XREarlyUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization_XREarlyUpdate {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization_XREarlyUpdate() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization_XREarlyUpdate();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10487};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10493 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
-// Dependencies 
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: UnityEngine.PlayerLoop.Initialization
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization {
 public:
-// Declarations
-using AsyncUploadTimeSlicedUpdate = ::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate;
+  // Declarations
+  using AsyncUploadTimeSlicedUpdate = ::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate;
 
-using DirectorSampleTime = ::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime;
+  using DirectorSampleTime = ::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime;
 
-using ProfilerStartFrame = ::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame;
+  using ProfilerStartFrame = ::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame;
 
-using SynchronizeInputs = ::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs;
+  using SynchronizeInputs = ::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs;
 
-using SynchronizeState = ::UnityEngine::PlayerLoop::Initialization_SynchronizeState;
+  using SynchronizeState = ::UnityEngine::PlayerLoop::Initialization_SynchronizeState;
 
-using UpdateCameraMotionVectors = ::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors;
+  using UpdateCameraMotionVectors = ::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors;
 
-using XREarlyUpdate = ::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate;
+  using XREarlyUpdate = ::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate;
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr Initialization() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Initialization();
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10488};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10494 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
-/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
- uint8_t  _cordl_size_padding[0x1];
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization, 0x1>, "Size mismatch!");
 
-} // namespace end def UnityEngine::PlayerLoop
+} // namespace UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization, "UnityEngine.PlayerLoop", "Initialization");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate, "UnityEngine.PlayerLoop", "Initialization/AsyncUploadTimeSlicedUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime, "UnityEngine.PlayerLoop", "Initialization/DirectorSampleTime");

@@ -57,51 +57,58 @@ namespace GlobalNamespace {
 // CS Name: MainSettingsAsyncLoader/<LoadResourcesBeforeInstallAsync>d__9
 struct CORDL_TYPE MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9 {
 public:
-// Declarations
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-/// @brief Method MoveNext, addr 0x367658c, size 0x2f4, virtual true, abstract: false, final true
-inline void MoveNext() ;
+  /// @brief Method MoveNext, addr 0x36b300c, size 0x2f4, virtual true, abstract: false, final true
+  inline void MoveNext();
 
-/// @brief Method SetStateMachine, addr 0x3676880, size 0x6c, virtual true, abstract: false, final true
-inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+  /// @brief Method SetStateMachine, addr 0x36b3300, size 0x6c, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9();
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>", modifiers: "", def_value: None }]
-constexpr MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::Zenject::DiContainer*  container, ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>  __4__this, ::GlobalNamespace::SettingsManager*  __7__wrap1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>  __u__1) noexcept;
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None },
+  // CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty:
+  // "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>",
+  // modifiers: "", def_value: None }]
+  constexpr MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                          ::Zenject::DiContainer* container, ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader> __4__this,
+                                                                          ::GlobalNamespace::SettingsManager* __7__wrap1,
+                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings> __u__1) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21012};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20944 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
-/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
- int32_t  __1__state;
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
 
-/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
-/// @brief Field container, offset: 0x20, size: 0x8, def value: None
- ::Zenject::DiContainer*  container;
+  /// @brief Field container, offset: 0x20, size: 0x8, def value: None
+  ::Zenject::DiContainer* container;
 
-/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>  __4__this;
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader> __4__this;
 
-/// @brief Field <>7__wrap1, offset: 0x30, size: 0x8, def value: None
- ::GlobalNamespace::SettingsManager*  __7__wrap1;
+  /// @brief Field <>7__wrap1, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::SettingsManager* __7__wrap1;
 
-/// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>  __u__1;
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings> __u__1;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9, __1__state) == 0x0, "Offset mismatch!");
@@ -118,128 +125,130 @@ static_assert(offsetof(::GlobalNamespace::MainSettingsAsyncLoader__LoadResources
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9, 0x40>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies BGLib.AppFlow.Initialization.AsyncInstaller, BGLib.DotnetExtension.CommandLine.CommandLineParserResult
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MainSettingsAsyncLoader
 class CORDL_TYPE MainSettingsAsyncLoader : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
-// Declarations
-using _LoadResourcesBeforeInstallAsync_d__9 = ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9;
+  // Declarations
+  using _LoadResourcesBeforeInstallAsync_d__9 = ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9;
 
-/// @brief Field _audioManagerConfig, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__audioManagerConfig, put=__cordl_internal_set__audioManagerConfig)) ::UnityW<::GlobalNamespace::AudioManagerConfigSO>  _audioManagerConfig;
+  /// @brief Field _audioManagerConfig, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioManagerConfig, put = __cordl_internal_set__audioManagerConfig)) ::UnityW<::GlobalNamespace::AudioManagerConfigSO> _audioManagerConfig;
 
-/// @brief Field _commandLineParserResult, offset 0x48, size 0x18 
- __declspec(property(get=__cordl_internal_get__commandLineParserResult, put=__cordl_internal_set__commandLineParserResult)) ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult  _commandLineParserResult;
+  /// @brief Field _commandLineParserResult, offset 0x48, size 0x18
+  __declspec(property(get = __cordl_internal_get__commandLineParserResult,
+                      put = __cordl_internal_set__commandLineParserResult)) ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult _commandLineParserResult;
 
-/// @brief Field _hapticFeedbackControllerPrefab, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get__hapticFeedbackControllerPrefab, put=__cordl_internal_set__hapticFeedbackControllerPrefab)) ::UnityW<::GlobalNamespace::HapticFeedbackManager>  _hapticFeedbackControllerPrefab;
+  /// @brief Field _hapticFeedbackControllerPrefab, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackControllerPrefab, put = __cordl_internal_set__hapticFeedbackControllerPrefab)) ::UnityW<::GlobalNamespace::HapticFeedbackManager>
+      _hapticFeedbackControllerPrefab;
 
-/// @brief Field _networkConfig, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get__networkConfig, put=__cordl_internal_set__networkConfig)) ::UnityW<::GlobalNamespace::NetworkConfigSO>  _networkConfig;
+  /// @brief Field _networkConfig, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig)) ::UnityW<::GlobalNamespace::NetworkConfigSO> _networkConfig;
 
-/// @brief Field _settingManager, offset 0x60, size 0x8 
- __declspec(property(get=__cordl_internal_get__settingManager, put=__cordl_internal_set__settingManager)) ::GlobalNamespace::SettingsManager*  _settingManager;
+  /// @brief Field _settingManager, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingManager, put = __cordl_internal_set__settingManager)) ::GlobalNamespace::SettingsManager* _settingManager;
 
-/// @brief Field _setupData, offset 0x40, size 0x8 
- __declspec(property(get=__cordl_internal_get__setupData, put=__cordl_internal_set__setupData)) ::GlobalNamespace::AppInitSetupData*  _setupData;
+  /// @brief Field _setupData, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData)) ::GlobalNamespace::AppInitSetupData* _setupData;
 
- __declspec(property(get=get_isRunningFromTests)) bool  isRunningFromTests;
+  __declspec(property(get = get_isRunningFromTests)) bool isRunningFromTests;
 
-/// @brief Method InstallBindings, addr 0x3675d70, size 0x138, virtual true, abstract: false, final false
-inline void InstallBindings() ;
+  /// @brief Method InstallBindings, addr 0x36b27f0, size 0x138, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-/// @brief Method InstallBindingsThatRelyOnSettings, addr 0x3675ea8, size 0x6c0, virtual false, abstract: false, final false
-inline void InstallBindingsThatRelyOnSettings() ;
+  /// @brief Method InstallBindingsThatRelyOnSettings, addr 0x36b2928, size 0x6c0, virtual false, abstract: false, final false
+  inline void InstallBindingsThatRelyOnSettings();
 
-/// @brief Method LoadResourcesBeforeInstall, addr 0x3675be0, size 0xd0, virtual true, abstract: false, final false
-inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry, ::Zenject::DiContainer*  container) ;
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x36b2660, size 0xd0, virtual true, abstract: false, final false
+  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-/// @brief Method LoadResourcesBeforeInstallAsync, addr 0x3675cb0, size 0xc0, virtual true, abstract: false, final false
-inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry, ::Zenject::DiContainer*  container) ;
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x36b2730, size 0xc0, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-static inline ::GlobalNamespace::MainSettingsAsyncLoader* New_ctor() ;
+  static inline ::GlobalNamespace::MainSettingsAsyncLoader* New_ctor();
 
-constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO> const& __cordl_internal_get__audioManagerConfig() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO> const& __cordl_internal_get__audioManagerConfig() const;
 
-constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO>& __cordl_internal_get__audioManagerConfig() ;
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO>& __cordl_internal_get__audioManagerConfig();
 
-constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& __cordl_internal_get__commandLineParserResult() const;
+  constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& __cordl_internal_get__commandLineParserResult() const;
 
-constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult& __cordl_internal_get__commandLineParserResult() ;
+  constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult& __cordl_internal_get__commandLineParserResult();
 
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackControllerPrefab() const;
 
-constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackControllerPrefab() ;
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackControllerPrefab();
 
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& __cordl_internal_get__networkConfig() const;
+  constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& __cordl_internal_get__networkConfig() const;
 
-constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& __cordl_internal_get__networkConfig() ;
+  constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& __cordl_internal_get__networkConfig();
 
-constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingManager() const;
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingManager() const;
 
-constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingManager() ;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingManager();
 
-constexpr ::GlobalNamespace::AppInitSetupData* const& __cordl_internal_get__setupData() const;
+  constexpr ::GlobalNamespace::AppInitSetupData* const& __cordl_internal_get__setupData() const;
 
-constexpr ::GlobalNamespace::AppInitSetupData*& __cordl_internal_get__setupData() ;
+  constexpr ::GlobalNamespace::AppInitSetupData*& __cordl_internal_get__setupData();
 
-constexpr void __cordl_internal_set__audioManagerConfig(::UnityW<::GlobalNamespace::AudioManagerConfigSO>  value) ;
+  constexpr void __cordl_internal_set__audioManagerConfig(::UnityW<::GlobalNamespace::AudioManagerConfigSO> value);
 
-constexpr void __cordl_internal_set__commandLineParserResult(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult  value) ;
+  constexpr void __cordl_internal_set__commandLineParserResult(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
 
-constexpr void __cordl_internal_set__hapticFeedbackControllerPrefab(::UnityW<::GlobalNamespace::HapticFeedbackManager>  value) ;
+  constexpr void __cordl_internal_set__hapticFeedbackControllerPrefab(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
 
-constexpr void __cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO>  value) ;
+  constexpr void __cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO> value);
 
-constexpr void __cordl_internal_set__settingManager(::GlobalNamespace::SettingsManager*  value) ;
+  constexpr void __cordl_internal_set__settingManager(::GlobalNamespace::SettingsManager* value);
 
-constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData*  value) ;
+  constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-/// @brief Method .ctor, addr 0x3676568, size 0x24, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x36b2fe8, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method get_isRunningFromTests, addr 0x3675bc0, size 0x20, virtual false, abstract: false, final false
-inline bool get_isRunningFromTests() ;
+  /// @brief Method get_isRunningFromTests, addr 0x36b2640, size 0x20, virtual false, abstract: false, final false
+  inline bool get_isRunningFromTests();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MainSettingsAsyncLoader() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainSettingsAsyncLoader();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MainSettingsAsyncLoader(MainSettingsAsyncLoader&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MainSettingsAsyncLoader(MainSettingsAsyncLoader && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MainSettingsAsyncLoader(MainSettingsAsyncLoader const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MainSettingsAsyncLoader(MainSettingsAsyncLoader const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20945 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21013};
+  /// @brief Field _networkConfig, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::NetworkConfigSO> ____networkConfig;
 
-/// @brief Field _networkConfig, offset: 0x28, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::NetworkConfigSO>  ____networkConfig;
+  /// @brief Field _hapticFeedbackControllerPrefab, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackControllerPrefab;
 
-/// @brief Field _hapticFeedbackControllerPrefab, offset: 0x30, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::HapticFeedbackManager>  ____hapticFeedbackControllerPrefab;
+  /// @brief Field _audioManagerConfig, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::AudioManagerConfigSO> ____audioManagerConfig;
 
-/// @brief Field _audioManagerConfig, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::AudioManagerConfigSO>  ____audioManagerConfig;
+  /// @brief Field _setupData, offset: 0x40, size: 0x8, def value: None
+  ::GlobalNamespace::AppInitSetupData* ____setupData;
 
-/// @brief Field _setupData, offset: 0x40, size: 0x8, def value: None
- ::GlobalNamespace::AppInitSetupData*  ____setupData;
+  /// @brief Field _commandLineParserResult, offset: 0x48, size: 0x18, def value: None
+  ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineParserResult;
 
-/// @brief Field _commandLineParserResult, offset: 0x48, size: 0x18, def value: None
- ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult  ____commandLineParserResult;
+  /// @brief Field _settingManager, offset: 0x60, size: 0x8, def value: None
+  ::GlobalNamespace::SettingsManager* ____settingManager;
 
-/// @brief Field _settingManager, offset: 0x60, size: 0x8, def value: None
- ::GlobalNamespace::SettingsManager*  ____settingManager;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MainSettingsAsyncLoader, ____networkConfig) == 0x28, "Offset mismatch!");
@@ -256,7 +265,7 @@ static_assert(offsetof(::GlobalNamespace::MainSettingsAsyncLoader, ____settingMa
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSettingsAsyncLoader, 0x68>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainSettingsAsyncLoader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsAsyncLoader*, "", "MainSettingsAsyncLoader");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9, "", "MainSettingsAsyncLoader/<LoadResourcesBeforeInstallAsync>d__9");

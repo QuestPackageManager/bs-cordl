@@ -4,31 +4,25 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__ExceptionHelpers_def.hpp"
 #include "System/Reflection/zzzz__TargetInvocationException_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ExceptionHelpers.UnwrapAndRethrow
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::TargetInvocationException*)>(&::System::Linq::Expressions::Interpreter::ExceptionHelpers::UnwrapAndRethrow)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::TargetInvocationException*)>(
+    &::System::Linq::Expressions::Interpreter::ExceptionHelpers::UnwrapAndRethrow)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dfa8a4;
+  constexpr static std::size_t addrs = 0x5e6c8b0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ExceptionHelpers*>::get(),
-                        "UnwrapAndRethrow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::TargetInvocationException*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ExceptionHelpers*>::get(), "UnwrapAndRethrow", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::TargetInvocationException*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Linq::Expressions::Interpreter::ExceptionHelpers::UnwrapAndRethrow(::System::Reflection::TargetInvocationException*  exception)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ExceptionHelpers*>::get(),
-                        "UnwrapAndRethrow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::TargetInvocationException*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, exception);
+inline void System::Linq::Expressions::Interpreter::ExceptionHelpers::UnwrapAndRethrow(::System::Reflection::TargetInvocationException* exception) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ExceptionHelpers*>::get(), "UnwrapAndRethrow", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::TargetInvocationException*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, exception);
 }
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::ExceptionHelpers::ExceptionHelpers()   {
-}
+constexpr ::System::Linq::Expressions::Interpreter::ExceptionHelpers::ExceptionHelpers() {}

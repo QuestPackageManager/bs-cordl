@@ -50,150 +50,158 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.DecalDrawSystem
 class CORDL_TYPE DecalDrawSystem : public ::System::Object {
 public:
-// Declarations
-/// @brief Field MaxBatchSize, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_MaxBatchSize, put=setStaticF_MaxBatchSize)) uint32_t  MaxBatchSize;
+  // Declarations
+  /// @brief Field MaxBatchSize, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_MaxBatchSize, put = setStaticF_MaxBatchSize)) uint32_t MaxBatchSize;
 
-/// @brief Field <overrideMaterial>k__BackingField, offset 0x38, size 0x8 
- __declspec(property(get=__cordl_internal_get__overrideMaterial_k__BackingField, put=__cordl_internal_set__overrideMaterial_k__BackingField)) ::UnityW<::UnityEngine::Material>  _overrideMaterial_k__BackingField;
+  /// @brief Field <overrideMaterial>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__overrideMaterial_k__BackingField, put = __cordl_internal_set__overrideMaterial_k__BackingField)) ::UnityW<::UnityEngine::Material>
+      _overrideMaterial_k__BackingField;
 
-/// @brief Field m_DecalLayerMasks, offset 0x28, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_DecalLayerMasks, put=__cordl_internal_set_m_DecalLayerMasks)) ::ArrayW<float_t,::Array<float_t>*>  m_DecalLayerMasks;
+  /// @brief Field m_DecalLayerMasks, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DecalLayerMasks, put = __cordl_internal_set_m_DecalLayerMasks)) ::ArrayW<float_t, ::Array<float_t>*> m_DecalLayerMasks;
 
-/// @brief Field m_EntityManager, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_EntityManager, put=__cordl_internal_set_m_EntityManager)) ::UnityEngine::Rendering::Universal::DecalEntityManager*  m_EntityManager;
+  /// @brief Field m_EntityManager, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_EntityManager, put = __cordl_internal_set_m_EntityManager)) ::UnityEngine::Rendering::Universal::DecalEntityManager* m_EntityManager;
 
-/// @brief Field m_NormalToDecals, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_NormalToDecals, put=__cordl_internal_set_m_NormalToDecals)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_NormalToDecals;
+  /// @brief Field m_NormalToDecals, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_NormalToDecals, put = __cordl_internal_set_m_NormalToDecals)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>
+      m_NormalToDecals;
 
-/// @brief Field m_Sampler, offset 0x30, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_Sampler, put=__cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler*  m_Sampler;
+  /// @brief Field m_Sampler, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Sampler, put = __cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler* m_Sampler;
 
-/// @brief Field m_WorldToDecals, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_m_WorldToDecals, put=__cordl_internal_set_m_WorldToDecals)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_WorldToDecals;
+  /// @brief Field m_WorldToDecals, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_WorldToDecals, put = __cordl_internal_set_m_WorldToDecals)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> m_WorldToDecals;
 
- __declspec(property(get=get_overrideMaterial, put=set_overrideMaterial)) ::UnityW<::UnityEngine::Material>  overrideMaterial;
+  __declspec(property(get = get_overrideMaterial, put = set_overrideMaterial)) ::UnityW<::UnityEngine::Material> overrideMaterial;
 
-/// @brief Method Draw, addr 0x66a38f4, size 0x250, virtual false, abstract: false, final false
-inline void Draw(::ByRef<::UnityEngine::Rendering::Universal::CameraData>  cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk*  decalEntityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*  decalDrawCallChunk) ;
+  /// @brief Method Draw, addr 0x6715900, size 0x250, virtual false, abstract: false, final false
+  inline void Draw(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+                   ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk);
 
-/// @brief Method Draw, addr 0x66a2fd4, size 0x220, virtual false, abstract: false, final false
-inline void Draw(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk*  decalEntityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*  decalDrawCallChunk, int32_t  passIndex) ;
+  /// @brief Method Draw, addr 0x6714fe0, size 0x220, virtual false, abstract: false, final false
+  inline void Draw(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+                   ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t passIndex);
 
-/// @brief Method DrawInstanced, addr 0x66a3640, size 0x2b4, virtual false, abstract: false, final false
-inline void DrawInstanced(::ByRef<::UnityEngine::Rendering::Universal::CameraData>  cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk*  decalEntityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*  decalDrawCallChunk) ;
+  /// @brief Method DrawInstanced, addr 0x671564c, size 0x2b4, virtual false, abstract: false, final false
+  inline void DrawInstanced(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+                            ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk);
 
-/// @brief Method DrawInstanced, addr 0x66a2d64, size 0x270, virtual false, abstract: false, final false
-inline void DrawInstanced(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk*  decalEntityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*  decalDrawCallChunk, int32_t  passIndex) ;
+  /// @brief Method DrawInstanced, addr 0x6714d70, size 0x270, virtual false, abstract: false, final false
+  inline void DrawInstanced(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+                            ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t passIndex);
 
-/// @brief Method Execute, addr 0x66a32b4, size 0x1d4, virtual false, abstract: false, final false
-inline void Execute(::ByRef<::UnityEngine::Rendering::Universal::CameraData>  cameraData) ;
+  /// @brief Method Execute, addr 0x67152c0, size 0x1d4, virtual false, abstract: false, final false
+  inline void Execute(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-/// @brief Method Execute, addr 0x66a3488, size 0x1b8, virtual false, abstract: false, final false
-inline void Execute(::ByRef<::UnityEngine::Rendering::Universal::CameraData>  cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk*  decalEntityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*  decalDrawCallChunk, int32_t  count) ;
+  /// @brief Method Execute, addr 0x6715494, size 0x1b8, virtual false, abstract: false, final false
+  inline void Execute(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+                      ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t count);
 
-/// @brief Method Execute, addr 0x66a2b18, size 0x74, virtual false, abstract: false, final false
-inline void Execute(::UnityEngine::Rendering::CommandBuffer*  cmd) ;
+  /// @brief Method Execute, addr 0x6714b24, size 0x74, virtual false, abstract: false, final false
+  inline void Execute(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-/// @brief Method Execute, addr 0x669d2c0, size 0x1d4, virtual false, abstract: false, final false
-inline void Execute(::UnityEngine::Rendering::RasterCommandBuffer*  cmd) ;
+  /// @brief Method Execute, addr 0x670f2cc, size 0x1d4, virtual false, abstract: false, final false
+  inline void Execute(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-/// @brief Method Execute, addr 0x66a2b8c, size 0x1c4, virtual false, abstract: false, final false
-inline void Execute(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk*  decalEntityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk*  decalDrawCallChunk, int32_t  count) ;
+  /// @brief Method Execute, addr 0x6714b98, size 0x1c4, virtual false, abstract: false, final false
+  inline void Execute(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
+                      ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t count);
 
-/// @brief Method GetMaterial, addr 0x66a2d50, size 0x14, virtual true, abstract: false, final false
-inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Rendering::Universal::DecalEntityChunk*  decalEntityChunk) ;
+  /// @brief Method GetMaterial, addr 0x6714d5c, size 0x14, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk);
 
-/// @brief Method GetPassIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk) ;
+  /// @brief Method GetPassIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
 
-static inline ::UnityEngine::Rendering::Universal::DecalDrawSystem* New_ctor(::StringW  sampler, ::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
+  static inline ::UnityEngine::Rendering::Universal::DecalDrawSystem* New_ctor(::StringW sampler, ::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
-constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__overrideMaterial_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__overrideMaterial_k__BackingField() const;
 
-constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__overrideMaterial_k__BackingField() ;
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__overrideMaterial_k__BackingField();
 
-constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get_m_DecalLayerMasks() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_m_DecalLayerMasks() const;
 
-constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get_m_DecalLayerMasks() ;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_m_DecalLayerMasks();
 
-constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager* const& __cordl_internal_get_m_EntityManager() const;
+  constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager* const& __cordl_internal_get_m_EntityManager() const;
 
-constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager*& __cordl_internal_get_m_EntityManager() ;
+  constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager*& __cordl_internal_get_m_EntityManager();
 
-constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_NormalToDecals() const;
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_NormalToDecals() const;
 
-constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_NormalToDecals() ;
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_NormalToDecals();
 
-constexpr ::UnityEngine::Rendering::ProfilingSampler* const& __cordl_internal_get_m_Sampler() const;
+  constexpr ::UnityEngine::Rendering::ProfilingSampler* const& __cordl_internal_get_m_Sampler() const;
 
-constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_Sampler() ;
+  constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_Sampler();
 
-constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_WorldToDecals() const;
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_WorldToDecals() const;
 
-constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_WorldToDecals() ;
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_WorldToDecals();
 
-constexpr void __cordl_internal_set__overrideMaterial_k__BackingField(::UnityW<::UnityEngine::Material>  value) ;
+  constexpr void __cordl_internal_set__overrideMaterial_k__BackingField(::UnityW<::UnityEngine::Material> value);
 
-constexpr void __cordl_internal_set_m_DecalLayerMasks(::ArrayW<float_t,::Array<float_t>*>  value) ;
+  constexpr void __cordl_internal_set_m_DecalLayerMasks(::ArrayW<float_t, ::Array<float_t>*> value);
 
-constexpr void __cordl_internal_set_m_EntityManager(::UnityEngine::Rendering::Universal::DecalEntityManager*  value) ;
+  constexpr void __cordl_internal_set_m_EntityManager(::UnityEngine::Rendering::Universal::DecalEntityManager* value);
 
-constexpr void __cordl_internal_set_m_NormalToDecals(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
+  constexpr void __cordl_internal_set_m_NormalToDecals(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
 
-constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler*  value) ;
+  constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-constexpr void __cordl_internal_set_m_WorldToDecals(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
+  constexpr void __cordl_internal_set_m_WorldToDecals(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
 
-/// @brief Method .ctor, addr 0x669b9c0, size 0x120, virtual false, abstract: false, final false
-inline void _ctor(::StringW  sampler, ::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
+  /// @brief Method .ctor, addr 0x670d9cc, size 0x120, virtual false, abstract: false, final false
+  inline void _ctor(::StringW sampler, ::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
-static inline uint32_t getStaticF_MaxBatchSize() ;
+  static inline uint32_t getStaticF_MaxBatchSize();
 
-/// @brief Method get_overrideMaterial, addr 0x66a2b08, size 0x8, virtual false, abstract: false, final false
-inline ::UnityW<::UnityEngine::Material> get_overrideMaterial() ;
+  /// @brief Method get_overrideMaterial, addr 0x6714b14, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_overrideMaterial();
 
-static inline void setStaticF_MaxBatchSize(uint32_t  value) ;
+  static inline void setStaticF_MaxBatchSize(uint32_t value);
 
-/// @brief Method set_overrideMaterial, addr 0x66a2b10, size 0x8, virtual false, abstract: false, final false
-inline void set_overrideMaterial(::UnityEngine::Material*  value) ;
+  /// @brief Method set_overrideMaterial, addr 0x6714b1c, size 0x8, virtual false, abstract: false, final false
+  inline void set_overrideMaterial(::UnityEngine::Material* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DecalDrawSystem() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecalDrawSystem();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawSystem", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DecalDrawSystem(DecalDrawSystem&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecalDrawSystem", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DecalDrawSystem(DecalDrawSystem && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawSystem", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DecalDrawSystem(DecalDrawSystem const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DecalDrawSystem", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DecalDrawSystem(DecalDrawSystem const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12678 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12671};
+  /// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_EntityManager;
 
-/// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
- ::UnityEngine::Rendering::Universal::DecalEntityManager*  ___m_EntityManager;
+  /// @brief Field m_WorldToDecals, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_WorldToDecals;
 
-/// @brief Field m_WorldToDecals, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_WorldToDecals;
+  /// @brief Field m_NormalToDecals, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_NormalToDecals;
 
-/// @brief Field m_NormalToDecals, offset: 0x20, size: 0x8, def value: None
- ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_NormalToDecals;
+  /// @brief Field m_DecalLayerMasks, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<float_t, ::Array<float_t>*> ___m_DecalLayerMasks;
 
-/// @brief Field m_DecalLayerMasks, offset: 0x28, size: 0x8, def value: None
- ::ArrayW<float_t,::Array<float_t>*>  ___m_DecalLayerMasks;
+  /// @brief Field m_Sampler, offset: 0x30, size: 0x8, def value: None
+  ::UnityEngine::Rendering::ProfilingSampler* ___m_Sampler;
 
-/// @brief Field m_Sampler, offset: 0x30, size: 0x8, def value: None
- ::UnityEngine::Rendering::ProfilingSampler*  ___m_Sampler;
+  /// @brief Field <overrideMaterial>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Material> ____overrideMaterial_k__BackingField;
 
-/// @brief Field <overrideMaterial>k__BackingField, offset: 0x38, size: 0x8, def value: None
- ::UnityW<::UnityEngine::Material>  ____overrideMaterial_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalDrawSystem, ___m_EntityManager) == 0x10, "Offset mismatch!");
@@ -210,6 +218,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalDrawSystem, ___
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DecalDrawSystem, 0x40>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering::Universal
+} // namespace UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DecalDrawSystem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DecalDrawSystem*, "UnityEngine.Rendering.Universal", "DecalDrawSystem");

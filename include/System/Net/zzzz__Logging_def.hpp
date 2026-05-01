@@ -17,32 +17,32 @@ namespace System::Net {
 // CS Name: System.Net.Logging
 class CORDL_TYPE Logging : public ::System::Object {
 public:
-// Declarations
-/// @brief Method get_On, addr 0x626d008, size 0x8, virtual false, abstract: false, final false
-static inline bool get_On() ;
+  // Declarations
+  /// @brief Method get_On, addr 0x62df014, size 0x8, virtual false, abstract: false, final false
+  static inline bool get_On();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr Logging() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Logging();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "Logging", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Logging(Logging&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Logging", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-Logging(Logging && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "Logging", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Logging(Logging const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "Logging", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-Logging(Logging const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11555 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11548};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Logging, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Net
+} // namespace System::Net
 NEED_NO_BOX(::System::Net::Logging);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Logging*, "System.Net", "Logging");

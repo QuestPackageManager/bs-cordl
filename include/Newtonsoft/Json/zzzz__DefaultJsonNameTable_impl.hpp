@@ -5,273 +5,239 @@
 #include "Newtonsoft/Json/zzzz__DefaultJsonNameTable_def.hpp"
 #include "Newtonsoft/Json/zzzz__DefaultJsonNameTable_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::DefaultJsonNameTable_Entry._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable_Entry::*)(::StringW, int32_t, ::Newtonsoft::Json::DefaultJsonNameTable_Entry*)>(&::Newtonsoft::Json::DefaultJsonNameTable_Entry::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable_Entry::*)(
+    ::StringW, int32_t, ::Newtonsoft::Json::DefaultJsonNameTable_Entry*)>(&::Newtonsoft::Json::DefaultJsonNameTable_Entry::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b25040;
+  constexpr static std::size_t addrs = 0x5b97028;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_Value()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Value;
+constexpr ::StringW& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_Value() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Value;
 }
 constexpr ::StringW const& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_Value() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Value;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Value;
 }
-constexpr void Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_set_Value(::StringW  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_set_Value(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_HashCode()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___HashCode;
+constexpr int32_t& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_HashCode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___HashCode;
 }
 constexpr int32_t const& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_HashCode() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___HashCode;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___HashCode;
 }
-constexpr void Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_set_HashCode(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->___HashCode = value;
+constexpr void Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_set_HashCode(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___HashCode = value;
 }
-constexpr ::Newtonsoft::Json::DefaultJsonNameTable_Entry*& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_Next()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Next;
+constexpr ::Newtonsoft::Json::DefaultJsonNameTable_Entry*& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_Next() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Next;
 }
 constexpr ::Newtonsoft::Json::DefaultJsonNameTable_Entry* const& Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_get_Next() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->___Next;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___Next;
 }
-constexpr void Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_set_Next(::Newtonsoft::Json::DefaultJsonNameTable_Entry*  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::DefaultJsonNameTable_Entry::__cordl_internal_set_Next(::Newtonsoft::Json::DefaultJsonNameTable_Entry* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Newtonsoft::Json::DefaultJsonNameTable_Entry::_ctor(::StringW  value, int32_t  hashCode, ::Newtonsoft::Json::DefaultJsonNameTable_Entry*  next)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, hashCode, next);
+inline void Newtonsoft::Json::DefaultJsonNameTable_Entry::_ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::DefaultJsonNameTable_Entry* next) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, hashCode, next);
 }
-inline ::Newtonsoft::Json::DefaultJsonNameTable_Entry* Newtonsoft::Json::DefaultJsonNameTable_Entry::New_ctor(::StringW  value, int32_t  hashCode, ::Newtonsoft::Json::DefaultJsonNameTable_Entry*  next)  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>(value, hashCode, next));
+inline ::Newtonsoft::Json::DefaultJsonNameTable_Entry* Newtonsoft::Json::DefaultJsonNameTable_Entry::New_ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::DefaultJsonNameTable_Entry* next) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>(value, hashCode, next));
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::DefaultJsonNameTable_Entry::DefaultJsonNameTable_Entry()   {
-}
+constexpr ::Newtonsoft::Json::DefaultJsonNameTable_Entry::DefaultJsonNameTable_Entry() {}
 //  Writing Method size for method: ::Newtonsoft::Json::DefaultJsonNameTable._ctor
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable::*)()>(&::Newtonsoft::Json::DefaultJsonNameTable::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b24b0c;
+  constexpr static std::size_t addrs = 0x5b96af4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::DefaultJsonNameTable.Get
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::ArrayW<char16_t,::Array<char16_t>*>, int32_t, int32_t)>(&::Newtonsoft::Json::DefaultJsonNameTable::Get)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::Newtonsoft::Json::DefaultJsonNameTable::Get)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5b24b6c;
+  constexpr static std::size_t addrs = 0x5b96b54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                                  4
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), 4));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::DefaultJsonNameTable.Add
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::StringW)>(&::Newtonsoft::Json::DefaultJsonNameTable::Add)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5b24da4;
+  constexpr static std::size_t addrs = 0x5b96d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::DefaultJsonNameTable.AddEntry
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::StringW, int32_t)>(&::Newtonsoft::Json::DefaultJsonNameTable::AddEntry)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::StringW, int32_t)>(
+    &::Newtonsoft::Json::DefaultJsonNameTable::AddEntry)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5b24f38;
+  constexpr static std::size_t addrs = 0x5b96f20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "AddEntry",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "AddEntry", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::DefaultJsonNameTable.Grow
-template<>
+template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable::*)()>(&::Newtonsoft::Json::DefaultJsonNameTable::Grow)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5b25050;
+  constexpr static std::size_t addrs = 0x5b97038;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "Grow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "Grow",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::DefaultJsonNameTable.TextEquals
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t,::Array<char16_t>*>, int32_t, int32_t)>(&::Newtonsoft::Json::DefaultJsonNameTable::TextEquals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::Newtonsoft::Json::DefaultJsonNameTable::TextEquals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5b24cf4;
+  constexpr static std::size_t addrs = 0x5b96cdc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "TextEquals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "TextEquals", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr int32_t& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__count()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____count;
+constexpr int32_t& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__count() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____count;
 }
 constexpr int32_t const& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__count() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____count;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____count;
 }
-constexpr void Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_set__count(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____count = value;
+constexpr void Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_set__count(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____count = value;
 }
-constexpr ::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable_Entry*,::Array<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>*>& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__entries()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____entries;
+constexpr ::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable_Entry*, ::Array<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>*>&
+Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__entries() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____entries;
 }
-constexpr ::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable_Entry*,::Array<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>*> const& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__entries() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____entries;
+constexpr ::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable_Entry*, ::Array<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>*> const&
+Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__entries() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____entries;
 }
-constexpr void Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_set__entries(::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable_Entry*,::Array<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>*>  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void
+Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_set__entries(::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable_Entry*, ::Array<::Newtonsoft::Json::DefaultJsonNameTable_Entry*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__mask()  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____mask;
+constexpr int32_t& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__mask() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mask;
 }
 constexpr int32_t const& Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_get__mask() const {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-return this->____mask;
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mask;
 }
-constexpr void Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_set__mask(int32_t  value)  {
-CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-this->____mask = value;
+constexpr void Newtonsoft::Json::DefaultJsonNameTable::__cordl_internal_set__mask(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____mask = value;
 }
-inline void Newtonsoft::Json::DefaultJsonNameTable::setStaticF_HashCodeRandomizer(int32_t  value)  {
-::cordl_internals::setStaticField<int32_t, "HashCodeRandomizer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get>(std::forward<int32_t>(value));
+inline void Newtonsoft::Json::DefaultJsonNameTable::setStaticF_HashCodeRandomizer(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "HashCodeRandomizer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get>(
+      std::forward<int32_t>(value));
 }
-inline int32_t Newtonsoft::Json::DefaultJsonNameTable::getStaticF_HashCodeRandomizer()  {
-return ::cordl_internals::getStaticField<int32_t, "HashCodeRandomizer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get>();
+inline int32_t Newtonsoft::Json::DefaultJsonNameTable::getStaticF_HashCodeRandomizer() {
+  return ::cordl_internals::getStaticField<int32_t, "HashCodeRandomizer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get>();
 }
-inline void Newtonsoft::Json::DefaultJsonNameTable::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::DefaultJsonNameTable::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW Newtonsoft::Json::DefaultJsonNameTable::Get(::ArrayW<char16_t,::Array<char16_t>*>  key, int32_t  start, int32_t  length)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                            4
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key, start, length);
+inline ::StringW Newtonsoft::Json::DefaultJsonNameTable::Get(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t length) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key, start, length);
 }
-inline ::StringW Newtonsoft::Json::DefaultJsonNameTable::Add(::StringW  key)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "Add",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key);
+inline ::StringW Newtonsoft::Json::DefaultJsonNameTable::Add(::StringW key) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key);
 }
-inline ::StringW Newtonsoft::Json::DefaultJsonNameTable::AddEntry(::StringW  str, int32_t  hashCode)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "AddEntry",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, str, hashCode);
+inline ::StringW Newtonsoft::Json::DefaultJsonNameTable::AddEntry(::StringW str, int32_t hashCode) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "AddEntry", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, str, hashCode);
 }
-inline void Newtonsoft::Json::DefaultJsonNameTable::Grow()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "Grow",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::DefaultJsonNameTable::Grow() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "Grow",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::DefaultJsonNameTable::TextEquals(::StringW  str1, ::ArrayW<char16_t,::Array<char16_t>*>  str2, int32_t  str2Start, int32_t  str2Length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(),
-                        "TextEquals",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t,::Array<char16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                    )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, str1, str2, str2Start, str2Length);
+inline bool Newtonsoft::Json::DefaultJsonNameTable::TextEquals(::StringW str1, ::ArrayW<char16_t, ::Array<char16_t>*> str2, int32_t str2Start, int32_t str2Length) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "TextEquals", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, str1, str2, str2Start, str2Length);
 }
-inline ::Newtonsoft::Json::DefaultJsonNameTable* Newtonsoft::Json::DefaultJsonNameTable::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::DefaultJsonNameTable*>());
+inline ::Newtonsoft::Json::DefaultJsonNameTable* Newtonsoft::Json::DefaultJsonNameTable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::DefaultJsonNameTable*>());
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::DefaultJsonNameTable::DefaultJsonNameTable()   {
-}
+constexpr ::Newtonsoft::Json::DefaultJsonNameTable::DefaultJsonNameTable() {}

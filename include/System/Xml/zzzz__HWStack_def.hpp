@@ -24,134 +24,134 @@ namespace System::Xml {
 // CS Name: System.Xml.HWStack
 class CORDL_TYPE HWStack : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Item, put=set_Item)) ::System::Object*  Item[];
+  // Declarations
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
 
- __declspec(property(get=get_Length)) int32_t  Length;
+  __declspec(property(get = get_Length)) int32_t Length;
 
-/// @brief Field growthRate, offset 0x18, size 0x4 
- __declspec(property(get=__cordl_internal_get_growthRate, put=__cordl_internal_set_growthRate)) int32_t  growthRate;
+  /// @brief Field growthRate, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_growthRate, put = __cordl_internal_set_growthRate)) int32_t growthRate;
 
-/// @brief Field limit, offset 0x24, size 0x4 
- __declspec(property(get=__cordl_internal_get_limit, put=__cordl_internal_set_limit)) int32_t  limit;
+  /// @brief Field limit, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_limit, put = __cordl_internal_set_limit)) int32_t limit;
 
-/// @brief Field size, offset 0x20, size 0x4 
- __declspec(property(get=__cordl_internal_get_size, put=__cordl_internal_set_size)) int32_t  size;
+  /// @brief Field size, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-/// @brief Field stack, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_stack, put=__cordl_internal_set_stack)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  stack;
+  /// @brief Field stack, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack;
 
-/// @brief Field used, offset 0x1c, size 0x4 
- __declspec(property(get=__cordl_internal_get_used, put=__cordl_internal_set_used)) int32_t  used;
+  /// @brief Field used, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_used, put = __cordl_internal_set_used)) int32_t used;
 
-/// @brief Convert operator to "::System::ICloneable"
-constexpr operator  ::System::ICloneable*() noexcept;
+  /// @brief Convert operator to "::System::ICloneable"
+  constexpr operator ::System::ICloneable*() noexcept;
 
-/// @brief Method AddToTop, addr 0x611961c, size 0x6c, virtual false, abstract: false, final false
-inline void AddToTop(::System::Object*  o) ;
+  /// @brief Method AddToTop, addr 0x618b628, size 0x6c, virtual false, abstract: false, final false
+  inline void AddToTop(::System::Object* o);
 
-/// @brief Method Clone, addr 0x61197bc, size 0xd0, virtual true, abstract: false, final true
-inline ::System::Object* Clone() ;
+  /// @brief Method Clone, addr 0x618b7c8, size 0xd0, virtual true, abstract: false, final true
+  inline ::System::Object* Clone();
 
-static inline ::System::Xml::HWStack* New_ctor(int32_t  GrowthRate) ;
+  static inline ::System::Xml::HWStack* New_ctor(int32_t GrowthRate);
 
-static inline ::System::Xml::HWStack* New_ctor(int32_t  GrowthRate, int32_t  limit) ;
+  static inline ::System::Xml::HWStack* New_ctor(int32_t GrowthRate, int32_t limit);
 
-static inline ::System::Xml::HWStack* New_ctor(::ArrayW<::System::Object*,::Array<::System::Object*>*>  stack, int32_t  growthRate, int32_t  used, int32_t  size) ;
+  static inline ::System::Xml::HWStack* New_ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size);
 
-/// @brief Method Peek, addr 0x61195d8, size 0x44, virtual false, abstract: false, final false
-inline ::System::Object* Peek() ;
+  /// @brief Method Peek, addr 0x618b5e4, size 0x44, virtual false, abstract: false, final false
+  inline ::System::Object* Peek();
 
-/// @brief Method Pop, addr 0x6119590, size 0x48, virtual false, abstract: false, final false
-inline ::System::Object* Pop() ;
+  /// @brief Method Pop, addr 0x618b59c, size 0x48, virtual false, abstract: false, final false
+  inline ::System::Object* Pop();
 
-/// @brief Method Push, addr 0x6119458, size 0x138, virtual false, abstract: false, final false
-inline ::System::Object* Push() ;
+  /// @brief Method Push, addr 0x618b464, size 0x138, virtual false, abstract: false, final false
+  inline ::System::Object* Push();
 
-constexpr int32_t const& __cordl_internal_get_growthRate() const;
+  constexpr int32_t const& __cordl_internal_get_growthRate() const;
 
-constexpr int32_t& __cordl_internal_get_growthRate() ;
+  constexpr int32_t& __cordl_internal_get_growthRate();
 
-constexpr int32_t const& __cordl_internal_get_limit() const;
+  constexpr int32_t const& __cordl_internal_get_limit() const;
 
-constexpr int32_t& __cordl_internal_get_limit() ;
+  constexpr int32_t& __cordl_internal_get_limit();
 
-constexpr int32_t const& __cordl_internal_get_size() const;
+  constexpr int32_t const& __cordl_internal_get_size() const;
 
-constexpr int32_t& __cordl_internal_get_size() ;
+  constexpr int32_t& __cordl_internal_get_size();
 
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __cordl_internal_get_stack() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_stack() const;
 
-constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __cordl_internal_get_stack() ;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_stack();
 
-constexpr int32_t const& __cordl_internal_get_used() const;
+  constexpr int32_t const& __cordl_internal_get_used() const;
 
-constexpr int32_t& __cordl_internal_get_used() ;
+  constexpr int32_t& __cordl_internal_get_used();
 
-constexpr void __cordl_internal_set_growthRate(int32_t  value) ;
+  constexpr void __cordl_internal_set_growthRate(int32_t value);
 
-constexpr void __cordl_internal_set_limit(int32_t  value) ;
+  constexpr void __cordl_internal_set_limit(int32_t value);
 
-constexpr void __cordl_internal_set_size(int32_t  value) ;
+  constexpr void __cordl_internal_set_size(int32_t value);
 
-constexpr void __cordl_internal_set_stack(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
+  constexpr void __cordl_internal_set_stack(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-constexpr void __cordl_internal_set_used(int32_t  value) ;
+  constexpr void __cordl_internal_set_used(int32_t value);
 
-/// @brief Method .ctor, addr 0x61193e4, size 0x8, virtual false, abstract: false, final false
-inline void _ctor(int32_t  GrowthRate) ;
+  /// @brief Method .ctor, addr 0x618b3f0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t GrowthRate);
 
-/// @brief Method .ctor, addr 0x61193ec, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(int32_t  GrowthRate, int32_t  limit) ;
+  /// @brief Method .ctor, addr 0x618b3f8, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t GrowthRate, int32_t limit);
 
-/// @brief Method .ctor, addr 0x61197ac, size 0x10, virtual false, abstract: false, final false
-inline void _ctor(::ArrayW<::System::Object*,::Array<::System::Object*>*>  stack, int32_t  growthRate, int32_t  used, int32_t  size) ;
+  /// @brief Method .ctor, addr 0x618b7b8, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size);
 
-/// @brief Method get_Item, addr 0x6119688, size 0x74, virtual false, abstract: false, final false
-inline ::System::Object* get_Item(int32_t  index) ;
+  /// @brief Method get_Item, addr 0x618b694, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Object* get_Item(int32_t index);
 
-/// @brief Method get_Length, addr 0x61197a4, size 0x8, virtual false, abstract: false, final false
-inline int32_t get_Length() ;
+  /// @brief Method get_Length, addr 0x618b7b0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Length();
 
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-/// @brief Method set_Item, addr 0x61196fc, size 0xa8, virtual false, abstract: false, final false
-inline void set_Item(int32_t  index, ::System::Object*  value) ;
+  /// @brief Method set_Item, addr 0x618b708, size 0xa8, virtual false, abstract: false, final false
+  inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr HWStack() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HWStack();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "HWStack", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  HWStack(HWStack&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HWStack", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-HWStack(HWStack && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "HWStack", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  HWStack(HWStack const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "HWStack", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-HWStack(HWStack const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9402 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9396};
+  /// @brief Field stack, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___stack;
 
-/// @brief Field stack, offset: 0x10, size: 0x8, def value: None
- ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ___stack;
+  /// @brief Field growthRate, offset: 0x18, size: 0x4, def value: None
+  int32_t ___growthRate;
 
-/// @brief Field growthRate, offset: 0x18, size: 0x4, def value: None
- int32_t  ___growthRate;
+  /// @brief Field used, offset: 0x1c, size: 0x4, def value: None
+  int32_t ___used;
 
-/// @brief Field used, offset: 0x1c, size: 0x4, def value: None
- int32_t  ___used;
+  /// @brief Field size, offset: 0x20, size: 0x4, def value: None
+  int32_t ___size;
 
-/// @brief Field size, offset: 0x20, size: 0x4, def value: None
- int32_t  ___size;
+  /// @brief Field limit, offset: 0x24, size: 0x4, def value: None
+  int32_t ___limit;
 
-/// @brief Field limit, offset: 0x24, size: 0x4, def value: None
- int32_t  ___limit;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::HWStack, ___stack) == 0x10, "Offset mismatch!");
@@ -166,6 +166,6 @@ static_assert(offsetof(::System::Xml::HWStack, ___limit) == 0x24, "Offset mismat
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::HWStack, 0x28>, "Size mismatch!");
 
-} // namespace end def System::Xml
+} // namespace System::Xml
 NEED_NO_BOX(::System::Xml::HWStack);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::HWStack*, "System.Xml", "HWStack");

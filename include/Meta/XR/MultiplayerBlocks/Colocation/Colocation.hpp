@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Meta/XR/MultiplayerBlocks/Colocation/AlignCameraToAnchor.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/Anchor.hpp"
@@ -18,6 +18,5 @@
 #include "Meta/XR/MultiplayerBlocks/Colocation/ShareAndLocalizeParams.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/SharedAnchorManager.hpp"
 #ifdef __cpp_modules
-                    export module Colocation;
-                    #endif
-                
+export module Colocation;
+#endif

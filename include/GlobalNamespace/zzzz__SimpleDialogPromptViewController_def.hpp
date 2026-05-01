@@ -12,8 +12,7 @@ namespace GlobalNamespace {
 class SimpleDialogPromptViewController___c__DisplayClass5_0;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template <typename T> class Action_1;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -37,57 +36,57 @@ namespace GlobalNamespace {
 // CS Name: SimpleDialogPromptViewController/<>c__DisplayClass5_0
 class CORDL_TYPE SimpleDialogPromptViewController___c__DisplayClass5_0 : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>4__this, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>  __4__this;
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> __4__this;
 
-/// @brief Field buttonNum, offset 0x10, size 0x4 
- __declspec(property(get=__cordl_internal_get_buttonNum, put=__cordl_internal_set_buttonNum)) int32_t  buttonNum;
+  /// @brief Field buttonNum, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_buttonNum, put = __cordl_internal_set_buttonNum)) int32_t buttonNum;
 
-static inline ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0* New_ctor() ;
+  static inline ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0* New_ctor();
 
-/// @brief Method <DidActivate>b__0, addr 0x573b998, size 0x30, virtual false, abstract: false, final false
-inline void _DidActivate_b__0() ;
+  /// @brief Method <DidActivate>b__0, addr 0x57ab6b0, size 0x30, virtual false, abstract: false, final false
+  inline void _DidActivate_b__0();
 
-constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& __cordl_internal_get___4__this() const;
 
-constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>& __cordl_internal_get___4__this() ;
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>& __cordl_internal_get___4__this();
 
-constexpr int32_t const& __cordl_internal_get_buttonNum() const;
+  constexpr int32_t const& __cordl_internal_get_buttonNum() const;
 
-constexpr int32_t& __cordl_internal_get_buttonNum() ;
+  constexpr int32_t& __cordl_internal_get_buttonNum();
 
-constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>  value) ;
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-constexpr void __cordl_internal_set_buttonNum(int32_t  value) ;
+  constexpr void __cordl_internal_set_buttonNum(int32_t value);
 
-/// @brief Method .ctor, addr 0x573b7a8, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57ab4c0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SimpleDialogPromptViewController___c__DisplayClass5_0() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SimpleDialogPromptViewController___c__DisplayClass5_0();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0 && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0 const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SimpleDialogPromptViewController___c__DisplayClass5_0(SimpleDialogPromptViewController___c__DisplayClass5_0 const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6546 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6539};
+  /// @brief Field buttonNum, offset: 0x10, size: 0x4, def value: None
+  int32_t ___buttonNum;
 
-/// @brief Field buttonNum, offset: 0x10, size: 0x4, def value: None
- int32_t  ___buttonNum;
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> _____4__this;
 
-/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
- ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>  _____4__this;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0, ___buttonNum) == 0x10, "Offset mismatch!");
@@ -96,114 +95,115 @@ static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController___c__
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0, 0x20>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 // Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SimpleDialogPromptViewController
 class CORDL_TYPE SimpleDialogPromptViewController : public ::HMUI::ViewController {
 public:
-// Declarations
-using __c__DisplayClass5_0 = ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0;
+  // Declarations
+  using __c__DisplayClass5_0 = ::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0;
 
-/// @brief Field _buttonTexts, offset 0x90, size 0x8 
- __declspec(property(get=__cordl_internal_get__buttonTexts, put=__cordl_internal_set__buttonTexts)) ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>  _buttonTexts;
+  /// @brief Field _buttonTexts, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonTexts, put = __cordl_internal_set__buttonTexts)) ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>
+      _buttonTexts;
 
-/// @brief Field _buttons, offset 0x88, size 0x8 
- __declspec(property(get=__cordl_internal_get__buttons, put=__cordl_internal_set__buttons)) ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>  _buttons;
+  /// @brief Field _buttons, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttons, put = __cordl_internal_set__buttons)) ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> _buttons;
 
-/// @brief Field _didFinishAction, offset 0x98, size 0x8 
- __declspec(property(get=__cordl_internal_get__didFinishAction, put=__cordl_internal_set__didFinishAction)) ::System::Action_1<int32_t>*  _didFinishAction;
+  /// @brief Field _didFinishAction, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__didFinishAction, put = __cordl_internal_set__didFinishAction)) ::System::Action_1<int32_t>* _didFinishAction;
 
-/// @brief Field _messageText, offset 0x80, size 0x8 
- __declspec(property(get=__cordl_internal_get__messageText, put=__cordl_internal_set__messageText)) ::UnityW<::TMPro::TextMeshProUGUI>  _messageText;
+  /// @brief Field _messageText, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__messageText, put = __cordl_internal_set__messageText)) ::UnityW<::TMPro::TextMeshProUGUI> _messageText;
 
-/// @brief Field _titleText, offset 0x78, size 0x8 
- __declspec(property(get=__cordl_internal_get__titleText, put=__cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI>  _titleText;
+  /// @brief Field _titleText, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
-/// @brief Method DidActivate, addr 0x573b638, size 0x170, virtual true, abstract: false, final false
-inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
+  /// @brief Method DidActivate, addr 0x57ab350, size 0x170, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-/// @brief Method DidDeactivate, addr 0x573b7ac, size 0xc, virtual true, abstract: false, final false
-inline void DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling) ;
+  /// @brief Method DidDeactivate, addr 0x57ab4c4, size 0xc, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-/// @brief Method Init, addr 0x573b7b8, size 0x10, virtual false, abstract: false, final false
-inline void Init(::StringW  title, ::StringW  message, ::StringW  buttonText, ::System::Action_1<int32_t>*  didFinishAction) ;
+  /// @brief Method Init, addr 0x57ab4d0, size 0x10, virtual false, abstract: false, final false
+  inline void Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int32_t>* didFinishAction);
 
-/// @brief Method Init, addr 0x573b98c, size 0xc, virtual false, abstract: false, final false
-inline void Init(::StringW  title, ::StringW  message, ::StringW  firstButtonText, ::StringW  secondButtonText, ::System::Action_1<int32_t>*  didFinishAction) ;
+  /// @brief Method Init, addr 0x57ab6a4, size 0xc, virtual false, abstract: false, final false
+  inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
-/// @brief Method Init, addr 0x573b7c8, size 0x1c4, virtual false, abstract: false, final false
-inline void Init(::StringW  title, ::StringW  message, ::StringW  firstButtonText, ::StringW  secondButtonText, ::StringW  thirdButtonText, ::System::Action_1<int32_t>*  didFinishAction) ;
+  /// @brief Method Init, addr 0x57ab4e0, size 0x1c4, virtual false, abstract: false, final false
+  inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
-static inline ::GlobalNamespace::SimpleDialogPromptViewController* New_ctor() ;
+  static inline ::GlobalNamespace::SimpleDialogPromptViewController* New_ctor();
 
-constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__buttonTexts() const;
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__buttonTexts() const;
 
-constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& __cordl_internal_get__buttonTexts() ;
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& __cordl_internal_get__buttonTexts();
 
-constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*> const& __cordl_internal_get__buttons() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> const& __cordl_internal_get__buttons() const;
 
-constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>& __cordl_internal_get__buttons() ;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*>& __cordl_internal_get__buttons();
 
-constexpr ::System::Action_1<int32_t>* const& __cordl_internal_get__didFinishAction() const;
+  constexpr ::System::Action_1<int32_t>* const& __cordl_internal_get__didFinishAction() const;
 
-constexpr ::System::Action_1<int32_t>*& __cordl_internal_get__didFinishAction() ;
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get__didFinishAction();
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__messageText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__messageText() const;
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__messageText() ;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__messageText();
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
 
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText() ;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
 
-constexpr void __cordl_internal_set__buttonTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>  value) ;
+  constexpr void __cordl_internal_set__buttonTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> value);
 
-constexpr void __cordl_internal_set__buttons(::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>  value) ;
+  constexpr void __cordl_internal_set__buttons(::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> value);
 
-constexpr void __cordl_internal_set__didFinishAction(::System::Action_1<int32_t>*  value) ;
+  constexpr void __cordl_internal_set__didFinishAction(::System::Action_1<int32_t>* value);
 
-constexpr void __cordl_internal_set__messageText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
+  constexpr void __cordl_internal_set__messageText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
+  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-/// @brief Method .ctor, addr 0x5736098, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x57a62f8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SimpleDialogPromptViewController() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SimpleDialogPromptViewController();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SimpleDialogPromptViewController(SimpleDialogPromptViewController&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SimpleDialogPromptViewController(SimpleDialogPromptViewController && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SimpleDialogPromptViewController(SimpleDialogPromptViewController const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SimpleDialogPromptViewController", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SimpleDialogPromptViewController(SimpleDialogPromptViewController const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6547 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6540};
+  /// @brief Field _titleText, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
-/// @brief Field _titleText, offset: 0x78, size: 0x8, def value: None
- ::UnityW<::TMPro::TextMeshProUGUI>  ____titleText;
+  /// @brief Field _messageText, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::TMPro::TextMeshProUGUI> ____messageText;
 
-/// @brief Field _messageText, offset: 0x80, size: 0x8, def value: None
- ::UnityW<::TMPro::TextMeshProUGUI>  ____messageText;
+  /// @brief Field _buttons, offset: 0x88, size: 0x8, def value: None
+  ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> ____buttons;
 
-/// @brief Field _buttons, offset: 0x88, size: 0x8, def value: None
- ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>  ____buttons;
+  /// @brief Field _buttonTexts, offset: 0x90, size: 0x8, def value: None
+  ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> ____buttonTexts;
 
-/// @brief Field _buttonTexts, offset: 0x90, size: 0x8, def value: None
- ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>,::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>  ____buttonTexts;
+  /// @brief Field _didFinishAction, offset: 0x98, size: 0x8, def value: None
+  ::System::Action_1<int32_t>* ____didFinishAction;
 
-/// @brief Field _didFinishAction, offset: 0x98, size: 0x8, def value: None
- ::System::Action_1<int32_t>*  ____didFinishAction;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController, ____titleText) == 0x78, "Offset mismatch!");
@@ -218,7 +218,7 @@ static_assert(offsetof(::GlobalNamespace::SimpleDialogPromptViewController, ____
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleDialogPromptViewController, 0xa0>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleDialogPromptViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleDialogPromptViewController*, "", "SimpleDialogPromptViewController");
 NEED_NO_BOX(::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0);

@@ -21,69 +21,69 @@ namespace UnityEngine::UIElements::Internal {
 // CS Name: UnityEngine.UIElements.Internal.MultiColumnHeaderColumnIcon
 class CORDL_TYPE MultiColumnHeaderColumnIcon : public ::UnityEngine::UIElements::Image {
 public:
-// Declarations
-/// @brief Field <isImageInline>k__BackingField, offset 0x4eb, size 0x1 
- __declspec(property(get=__cordl_internal_get__isImageInline_k__BackingField, put=__cordl_internal_set__isImageInline_k__BackingField)) bool  _isImageInline_k__BackingField;
+  // Declarations
+  /// @brief Field <isImageInline>k__BackingField, offset 0x4eb, size 0x1
+  __declspec(property(get = __cordl_internal_get__isImageInline_k__BackingField, put = __cordl_internal_set__isImageInline_k__BackingField)) bool _isImageInline_k__BackingField;
 
- __declspec(property(get=get_isImageInline, put=set_isImageInline)) bool  isImageInline;
+  __declspec(property(get = get_isImageInline, put = set_isImageInline)) bool isImageInline;
 
-/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
+  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* New_ctor() ;
+  static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* New_ctor();
 
-/// @brief Method UpdateClassList, addr 0x6b5f1d0, size 0x14c, virtual false, abstract: false, final false
-inline void UpdateClassList() ;
+  /// @brief Method UpdateClassList, addr 0x6bd1418, size 0x14c, virtual false, abstract: false, final false
+  inline void UpdateClassList();
 
-constexpr bool const& __cordl_internal_get__isImageInline_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isImageInline_k__BackingField() const;
 
-constexpr bool& __cordl_internal_get__isImageInline_k__BackingField() ;
+  constexpr bool& __cordl_internal_get__isImageInline_k__BackingField();
 
-constexpr void __cordl_internal_set__isImageInline_k__BackingField(bool  value) ;
+  constexpr void __cordl_internal_set__isImageInline_k__BackingField(bool value);
 
-/// @brief Method <.ctor>b__5_0, addr 0x6b5f3c0, size 0x4, virtual false, abstract: false, final false
-inline void __ctor_b__5_0(::UnityEngine::UIElements::CustomStyleResolvedEvent*  evt) ;
+  /// @brief Method <.ctor>b__5_0, addr 0x6bd1608, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__5_0(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt);
 
-/// @brief Method .ctor, addr 0x6b5f0bc, size 0x114, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6bd1304, size 0x114, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::StringW getStaticF_ussClassName() ;
+  static inline ::StringW getStaticF_ussClassName();
 
-/// @brief Method get_isImageInline, addr 0x6b5f0ac, size 0x8, virtual false, abstract: false, final false
-inline bool get_isImageInline() ;
+  /// @brief Method get_isImageInline, addr 0x6bd12f4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isImageInline();
 
-static inline void setStaticF_ussClassName(::StringW  value) ;
+  static inline void setStaticF_ussClassName(::StringW value);
 
-/// @brief Method set_isImageInline, addr 0x6b5f0b4, size 0x8, virtual false, abstract: false, final false
-inline void set_isImageInline(bool  value) ;
+  /// @brief Method set_isImageInline, addr 0x6bd12fc, size 0x8, virtual false, abstract: false, final false
+  inline void set_isImageInline(bool value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MultiColumnHeaderColumnIcon() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiColumnHeaderColumnIcon();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnIcon", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MultiColumnHeaderColumnIcon(MultiColumnHeaderColumnIcon&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnIcon", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MultiColumnHeaderColumnIcon(MultiColumnHeaderColumnIcon && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnIcon", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MultiColumnHeaderColumnIcon(MultiColumnHeaderColumnIcon const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnIcon", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MultiColumnHeaderColumnIcon(MultiColumnHeaderColumnIcon const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5523 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5523};
+  /// @brief Field <isImageInline>k__BackingField, offset: 0x4eb, size: 0x1, def value: None
+  bool ____isImageInline_k__BackingField;
 
-/// @brief Field <isImageInline>k__BackingField, offset: 0x4eb, size: 0x1, def value: None
- bool  ____isImageInline_k__BackingField;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon, ____isImageInline_k__BackingField) == 0x4eb, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon, 0x4f0>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements::Internal
+} // namespace UnityEngine::UIElements::Internal
 NEED_NO_BOX(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon*, "UnityEngine.UIElements.Internal", "MultiColumnHeaderColumnIcon");

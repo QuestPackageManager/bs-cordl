@@ -24,43 +24,43 @@ namespace UnityEngine::InputSystem::LowLevel {
 // CS Name: UnityEngine.InputSystem.LowLevel.AccelerometerState
 struct CORDL_TYPE AccelerometerState {
 public:
-// Declarations
- __declspec(property(get=get_format)) ::UnityEngine::InputSystem::Utilities::FourCC  format;
+  // Declarations
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
-/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*() ;
+  /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-/// @brief Method get_format, addr 0x63f82c8, size 0xc, virtual true, abstract: false, final true
-inline ::UnityEngine::InputSystem::Utilities::FourCC get_format() ;
+  /// @brief Method get_format, addr 0x646a2d4, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-/// @brief Method get_kFormat, addr 0x63f82bc, size 0xc, virtual false, abstract: false, final false
-static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat() ;
+  /// @brief Method get_kFormat, addr 0x646a2c8, size 0xc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() ;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr AccelerometerState() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AccelerometerState();
 
-// Ctor Parameters [CppParam { name: "acceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr AccelerometerState(::UnityEngine::Vector3  acceleration) noexcept;
+  // Ctor Parameters [CppParam { name: "acceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  constexpr AccelerometerState(::UnityEngine::Vector3 acceleration) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8984};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8990 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
-/// @brief Field acceleration, offset: 0x0, size: 0xc, def value: None
- ::UnityEngine::Vector3  acceleration;
+  /// @brief Field acceleration, offset: 0x0, size: 0xc, def value: None
+  ::UnityEngine::Vector3 acceleration;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::AccelerometerState, acceleration) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::AccelerometerState, 0xc>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::LowLevel
+} // namespace UnityEngine::InputSystem::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::AccelerometerState, "UnityEngine.InputSystem.LowLevel", "AccelerometerState");

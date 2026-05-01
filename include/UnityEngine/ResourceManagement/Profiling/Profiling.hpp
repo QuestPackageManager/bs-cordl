@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/ResourceManagement/Profiling/AssetFrameData.hpp"
 #include "UnityEngine/ResourceManagement/Profiling/BundleFrameData.hpp"
@@ -13,6 +13,5 @@
 #include "UnityEngine/ResourceManagement/Profiling/ProfilerFrameData_2.hpp"
 #include "UnityEngine/ResourceManagement/Profiling/ProfilerRuntime.hpp"
 #ifdef __cpp_modules
-                    export module Profiling;
-                    #endif
-                
+export module Profiling;
+#endif

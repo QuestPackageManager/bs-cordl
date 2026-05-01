@@ -20,34 +20,34 @@ namespace GlobalNamespace {
 // CS Name: GuestNameButtonsListItemsList
 class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::GuestNameButtonsListItem>> {
 public:
-// Declarations
-static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor() ;
+  // Declarations
+  static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor();
 
-/// @brief Method .ctor, addr 0x5865eac, size 0x4c, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x58da00c, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr GuestNameButtonsListItemsList() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GuestNameButtonsListItemsList();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItemsList", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GuestNameButtonsListItemsList(GuestNameButtonsListItemsList&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItemsList", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-GuestNameButtonsListItemsList(GuestNameButtonsListItemsList && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItemsList", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GuestNameButtonsListItemsList(GuestNameButtonsListItemsList const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItemsList", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-GuestNameButtonsListItemsList(GuestNameButtonsListItemsList const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6399 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6390};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GuestNameButtonsListItemsList, 0x48>, "Size mismatch!");
 
-} // namespace end def GlobalNamespace
+} // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GuestNameButtonsListItemsList);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GuestNameButtonsListItemsList*, "", "GuestNameButtonsListItemsList");

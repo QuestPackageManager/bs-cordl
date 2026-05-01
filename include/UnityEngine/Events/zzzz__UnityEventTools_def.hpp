@@ -18,32 +18,32 @@ namespace UnityEngine::Events {
 // CS Name: UnityEngine.Events.UnityEventTools
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
-// Declarations
-/// @brief Method TidyAssemblyTypeName, addr 0x6931fd0, size 0x22c, virtual false, abstract: false, final false
-static inline ::StringW TidyAssemblyTypeName(::StringW  assemblyTypeName) ;
+  // Declarations
+  /// @brief Method TidyAssemblyTypeName, addr 0x69a41ec, size 0x22c, virtual false, abstract: false, final false
+  static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UnityEventTools() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityEventTools();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UnityEventTools(UnityEventTools&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UnityEventTools(UnityEventTools && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UnityEventTools(UnityEventTools const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UnityEventTools(UnityEventTools const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10428 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10422};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::UnityEventTools, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Events
+} // namespace UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::UnityEventTools);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityEventTools*, "UnityEngine.Events", "UnityEventTools");

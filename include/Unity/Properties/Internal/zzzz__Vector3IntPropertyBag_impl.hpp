@@ -7,430 +7,368 @@
 #include "Unity/Properties/Internal/zzzz__Vector3IntPropertyBag_def.hpp"
 #include "UnityEngine/zzzz__Vector3Int_def.hpp"
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty.get_Name
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69e8f18;
+  constexpr static std::size_t addrs = 0x6a5b160;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e8f5c;
+  constexpr static std::size_t addrs = 0x6a5b1a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty.GetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)(::ByRef<::UnityEngine::Vector3Int>)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::GetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)(::ByRef<::UnityEngine::Vector3Int>)>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e8f64;
+  constexpr static std::size_t addrs = 0x6a5b1ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty.SetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)(::ByRef<::UnityEngine::Vector3Int>, int32_t)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::SetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)(
+    ::ByRef<::UnityEngine::Vector3Int>, int32_t)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e8f6c;
+  constexpr static std::size_t addrs = 0x6a5b1b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69e8e64;
+  constexpr static std::size_t addrs = 0x6a5b0ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_Name()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_IsReadOnly()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::GetValue(::ByRef<::UnityEngine::Vector3Int>  container)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+inline int32_t Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::GetValue(::ByRef<::UnityEngine::Vector3Int> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
 }
-inline void Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::SetValue(::ByRef<::UnityEngine::Vector3Int>  container, int32_t  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+inline void Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::SetValue(::ByRef<::UnityEngine::Vector3Int> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
-inline void Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty* Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>());
+inline ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty* Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty*>());
 }
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::Vector3IntPropertyBag_XProperty()   {
-}
+constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::Vector3IntPropertyBag_XProperty() {}
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty.get_Name
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69e8f74;
+  constexpr static std::size_t addrs = 0x6a5b1bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e8fb8;
+  constexpr static std::size_t addrs = 0x6a5b200;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty.GetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)(::ByRef<::UnityEngine::Vector3Int>)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::GetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)(::ByRef<::UnityEngine::Vector3Int>)>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e8fc0;
+  constexpr static std::size_t addrs = 0x6a5b208;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty.SetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)(::ByRef<::UnityEngine::Vector3Int>, int32_t)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::SetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)(
+    ::ByRef<::UnityEngine::Vector3Int>, int32_t)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e8fc8;
+  constexpr static std::size_t addrs = 0x6a5b210;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69e8ea0;
+  constexpr static std::size_t addrs = 0x6a5b0e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_Name()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_IsReadOnly()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::GetValue(::ByRef<::UnityEngine::Vector3Int>  container)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+inline int32_t Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::GetValue(::ByRef<::UnityEngine::Vector3Int> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
 }
-inline void Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::SetValue(::ByRef<::UnityEngine::Vector3Int>  container, int32_t  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+inline void Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::SetValue(::ByRef<::UnityEngine::Vector3Int> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
-inline void Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty* Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>());
+inline ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty* Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty*>());
 }
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::Vector3IntPropertyBag_YProperty()   {
-}
+constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::Vector3IntPropertyBag_YProperty() {}
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty.get_Name
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69e8fd0;
+  constexpr static std::size_t addrs = 0x6a5b218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                  12
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 12));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty.get_IsReadOnly
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e9014;
+  constexpr static std::size_t addrs = 0x6a5b25c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                  13
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 13));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty.GetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)(::ByRef<::UnityEngine::Vector3Int>)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::GetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)(::ByRef<::UnityEngine::Vector3Int>)>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e901c;
+  constexpr static std::size_t addrs = 0x6a5b264;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                  14
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 14));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty.SetValue
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)(::ByRef<::UnityEngine::Vector3Int>, int32_t)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::SetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)(
+    ::ByRef<::UnityEngine::Vector3Int>, int32_t)>(&::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e9024;
+  constexpr static std::size_t addrs = 0x6a5b26c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                                  15
-                                ));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 15));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69e8edc;
+  constexpr static std::size_t addrs = 0x6a5b124;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_Name()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                            12
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_IsReadOnly()  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                            13
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::GetValue(::ByRef<::UnityEngine::Vector3Int>  container)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                            14
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+inline int32_t Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::GetValue(::ByRef<::UnityEngine::Vector3Int> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
 }
-inline void Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::SetValue(::ByRef<::UnityEngine::Vector3Int>  container, int32_t  value)  {
-auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                            15
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+inline void Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::SetValue(::ByRef<::UnityEngine::Vector3Int> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
-inline void Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty* Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>());
+inline ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty* Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty*>());
 }
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::Vector3IntPropertyBag_ZProperty()   {
-}
+constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::Vector3IntPropertyBag_ZProperty() {}
 //  Writing Method size for method: ::Unity::Properties::Internal::Vector3IntPropertyBag._ctor
-template<>
+template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag::*)()>(&::Unity::Properties::Internal::Vector3IntPropertyBag::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag::*)()>(
+    &::Unity::Properties::Internal::Vector3IntPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x69e7bc8;
+  constexpr static std::size_t addrs = 0x6a59e10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Unity::Properties::Internal::Vector3IntPropertyBag::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag*>::get(),
-                        ".ctor",
-                        std::span<const Il2CppClass* const, 0>(),
-                        ::std::span<const Il2CppType* const, 0>()
-                    )));
-return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Properties::Internal::Vector3IntPropertyBag::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::Vector3IntPropertyBag* Unity::Properties::Internal::Vector3IntPropertyBag::New_ctor()  {
-return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag*>());
+inline ::Unity::Properties::Internal::Vector3IntPropertyBag* Unity::Properties::Internal::Vector3IntPropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::Vector3IntPropertyBag*>());
 }
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag::Vector3IntPropertyBag()   {
-}
+constexpr ::Unity::Properties::Internal::Vector3IntPropertyBag::Vector3IntPropertyBag() {}

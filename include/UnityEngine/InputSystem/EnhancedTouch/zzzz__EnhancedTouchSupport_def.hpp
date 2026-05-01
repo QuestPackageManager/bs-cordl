@@ -25,70 +25,70 @@ namespace UnityEngine::InputSystem::EnhancedTouch {
 // CS Name: UnityEngine.InputSystem.EnhancedTouch.EnhancedTouchSupport
 class CORDL_TYPE EnhancedTouchSupport : public ::System::Object {
 public:
-// Declarations
-/// @brief Field s_Enabled, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_s_Enabled, put=setStaticF_s_Enabled)) int32_t  s_Enabled;
+  // Declarations
+  /// @brief Field s_Enabled, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_s_Enabled, put = setStaticF_s_Enabled)) int32_t s_Enabled;
 
-/// @brief Field s_UpdateMode, offset 0xffffffff, size 0x4 
- __declspec(property(get=getStaticF_s_UpdateMode, put=setStaticF_s_UpdateMode)) ::UnityEngine::InputSystem::InputSettings_UpdateMode  s_UpdateMode;
+  /// @brief Field s_UpdateMode, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_s_UpdateMode, put = setStaticF_s_UpdateMode)) ::UnityEngine::InputSystem::InputSettings_UpdateMode s_UpdateMode;
 
-/// @brief Method CheckEnabled, addr 0x63f03d8, size 0x9c, virtual false, abstract: false, final false
-static inline void CheckEnabled() ;
+  /// @brief Method CheckEnabled, addr 0x64623e4, size 0x9c, virtual false, abstract: false, final false
+  static inline void CheckEnabled();
 
-/// @brief Method Disable, addr 0x63efc28, size 0x1a8, virtual false, abstract: false, final false
-static inline void Disable() ;
+  /// @brief Method Disable, addr 0x6461c34, size 0x1a8, virtual false, abstract: false, final false
+  static inline void Disable();
 
-/// @brief Method Enable, addr 0x63ef8e0, size 0x180, virtual false, abstract: false, final false
-static inline void Enable() ;
+  /// @brief Method Enable, addr 0x64618ec, size 0x180, virtual false, abstract: false, final false
+  static inline void Enable();
 
-/// @brief Method OnDeviceChange, addr 0x63f0098, size 0x124, virtual false, abstract: false, final false
-static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice*  device, ::UnityEngine::InputSystem::InputDeviceChange  change) ;
+  /// @brief Method OnDeviceChange, addr 0x64620a4, size 0x124, virtual false, abstract: false, final false
+  static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-/// @brief Method OnSettingsChange, addr 0x63f0338, size 0xa0, virtual false, abstract: false, final false
-static inline void OnSettingsChange() ;
+  /// @brief Method OnSettingsChange, addr 0x6462344, size 0xa0, virtual false, abstract: false, final false
+  static inline void OnSettingsChange();
 
-/// @brief Method Reset, addr 0x63eff70, size 0xa4, virtual false, abstract: false, final false
-static inline void Reset() ;
+  /// @brief Method Reset, addr 0x6461f7c, size 0xa4, virtual false, abstract: false, final false
+  static inline void Reset();
 
-/// @brief Method SetUpState, addr 0x63efa60, size 0x1c8, virtual false, abstract: false, final false
-static inline void SetUpState() ;
+  /// @brief Method SetUpState, addr 0x6461a6c, size 0x1c8, virtual false, abstract: false, final false
+  static inline void SetUpState();
 
-/// @brief Method TearDownState, addr 0x63efdd0, size 0x1a0, virtual false, abstract: false, final false
-static inline void TearDownState() ;
+  /// @brief Method TearDownState, addr 0x6461ddc, size 0x1a0, virtual false, abstract: false, final false
+  static inline void TearDownState();
 
-static inline int32_t getStaticF_s_Enabled() ;
+  static inline int32_t getStaticF_s_Enabled();
 
-static inline ::UnityEngine::InputSystem::InputSettings_UpdateMode getStaticF_s_UpdateMode() ;
+  static inline ::UnityEngine::InputSystem::InputSettings_UpdateMode getStaticF_s_UpdateMode();
 
-/// @brief Method get_enabled, addr 0x63ef88c, size 0x54, virtual false, abstract: false, final false
-static inline bool get_enabled() ;
+  /// @brief Method get_enabled, addr 0x6461898, size 0x54, virtual false, abstract: false, final false
+  static inline bool get_enabled();
 
-static inline void setStaticF_s_Enabled(int32_t  value) ;
+  static inline void setStaticF_s_Enabled(int32_t value);
 
-static inline void setStaticF_s_UpdateMode(::UnityEngine::InputSystem::InputSettings_UpdateMode  value) ;
+  static inline void setStaticF_s_UpdateMode(::UnityEngine::InputSystem::InputSettings_UpdateMode value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr EnhancedTouchSupport() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnhancedTouchSupport();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EnhancedTouchSupport(EnhancedTouchSupport&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-EnhancedTouchSupport(EnhancedTouchSupport && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EnhancedTouchSupport(EnhancedTouchSupport const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "EnhancedTouchSupport", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-EnhancedTouchSupport(EnhancedTouchSupport const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8894 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8888};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::InputSystem::EnhancedTouch
+} // namespace UnityEngine::InputSystem::EnhancedTouch
 NEED_NO_BOX(::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport*, "UnityEngine.InputSystem.EnhancedTouch", "EnhancedTouchSupport");

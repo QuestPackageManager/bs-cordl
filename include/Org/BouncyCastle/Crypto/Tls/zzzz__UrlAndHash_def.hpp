@@ -25,70 +25,70 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.UrlAndHash
 class CORDL_TYPE UrlAndHash : public ::System::Object {
 public:
-// Declarations
- __declspec(property(get=get_Sha1Hash)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Sha1Hash;
+  // Declarations
+  __declspec(property(get = get_Sha1Hash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Sha1Hash;
 
- __declspec(property(get=get_Url)) ::StringW  Url;
+  __declspec(property(get = get_Url)) ::StringW Url;
 
-/// @brief Field mSha1Hash, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_mSha1Hash, put=__cordl_internal_set_mSha1Hash)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mSha1Hash;
+  /// @brief Field mSha1Hash, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_mSha1Hash, put = __cordl_internal_set_mSha1Hash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mSha1Hash;
 
-/// @brief Field mUrl, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get_mUrl, put=__cordl_internal_set_mUrl)) ::StringW  mUrl;
+  /// @brief Field mUrl, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_mUrl, put = __cordl_internal_set_mUrl)) ::StringW mUrl;
 
-/// @brief Method Encode, addr 0x339d930, size 0x108, virtual true, abstract: false, final false
-inline void Encode(::System::IO::Stream*  output) ;
+  /// @brief Method Encode, addr 0x33d9f74, size 0x108, virtual true, abstract: false, final false
+  inline void Encode(::System::IO::Stream* output);
 
-static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* New_ctor(::StringW  url, ::ArrayW<uint8_t,::Array<uint8_t>*>  sha1Hash) ;
+  static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* New_ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-/// @brief Method Parse, addr 0x339da38, size 0x184, virtual false, abstract: false, final false
-static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, ::System::IO::Stream*  input) ;
+  /// @brief Method Parse, addr 0x33da07c, size 0x184, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mSha1Hash() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSha1Hash() const;
 
-constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mSha1Hash() ;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSha1Hash();
 
-constexpr ::StringW const& __cordl_internal_get_mUrl() const;
+  constexpr ::StringW const& __cordl_internal_get_mUrl() const;
 
-constexpr ::StringW& __cordl_internal_get_mUrl() ;
+  constexpr ::StringW& __cordl_internal_get_mUrl();
 
-constexpr void __cordl_internal_set_mSha1Hash(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
+  constexpr void __cordl_internal_set_mSha1Hash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-constexpr void __cordl_internal_set_mUrl(::StringW  value) ;
+  constexpr void __cordl_internal_set_mUrl(::StringW value);
 
-/// @brief Method .ctor, addr 0x339d854, size 0xcc, virtual false, abstract: false, final false
-inline void _ctor(::StringW  url, ::ArrayW<uint8_t,::Array<uint8_t>*>  sha1Hash) ;
+  /// @brief Method .ctor, addr 0x33d9e98, size 0xcc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-/// @brief Method get_Sha1Hash, addr 0x339d928, size 0x8, virtual true, abstract: false, final false
-inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Sha1Hash() ;
+  /// @brief Method get_Sha1Hash, addr 0x33d9f6c, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Sha1Hash();
 
-/// @brief Method get_Url, addr 0x339d920, size 0x8, virtual true, abstract: false, final false
-inline ::StringW get_Url() ;
+  /// @brief Method get_Url, addr 0x33d9f64, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Url();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr UrlAndHash() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UrlAndHash();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "UrlAndHash", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UrlAndHash(UrlAndHash&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UrlAndHash", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-UrlAndHash(UrlAndHash && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "UrlAndHash", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UrlAndHash(UrlAndHash const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "UrlAndHash", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-UrlAndHash(UrlAndHash const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1333 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1333};
+  /// @brief Field mUrl, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___mUrl;
 
-/// @brief Field mUrl, offset: 0x10, size: 0x8, def value: None
- ::StringW  ___mUrl;
+  /// @brief Field mSha1Hash, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mSha1Hash;
 
-/// @brief Field mSha1Hash, offset: 0x18, size: 0x8, def value: None
- ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mSha1Hash;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::UrlAndHash, ___mUrl) == 0x10, "Offset mismatch!");
@@ -97,6 +97,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::UrlAndHash, ___mSha1Has
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::UrlAndHash, 0x20>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::UrlAndHash);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::UrlAndHash*, "Org.BouncyCastle.Crypto.Tls", "UrlAndHash");

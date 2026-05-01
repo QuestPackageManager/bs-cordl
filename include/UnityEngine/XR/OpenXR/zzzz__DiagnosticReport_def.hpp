@@ -22,77 +22,77 @@ namespace UnityEngine::XR::OpenXR {
 // CS Name: UnityEngine.XR.OpenXR.DiagnosticReport
 class CORDL_TYPE DiagnosticReport : public ::System::Object {
 public:
-// Declarations
-/// @brief Field k_NullSection, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_k_NullSection, put=setStaticF_k_NullSection)) uint64_t  k_NullSection;
+  // Declarations
+  /// @brief Field k_NullSection, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_NullSection, put = setStaticF_k_NullSection)) uint64_t k_NullSection;
 
-/// @brief Method AddEventEntry, addr 0x681e9b8, size 0xac, virtual false, abstract: false, final false
-static inline void AddEventEntry(::StringW  eventName, ::StringW  eventData) ;
+  /// @brief Method AddEventEntry, addr 0x68909c4, size 0xac, virtual false, abstract: false, final false
+  static inline void AddEventEntry(::StringW eventName, ::StringW eventData);
 
-/// @brief Method AddSectionBreak, addr 0x681e944, size 0x74, virtual false, abstract: false, final false
-static inline void AddSectionBreak(uint64_t  sectionHandle) ;
+  /// @brief Method AddSectionBreak, addr 0x6890950, size 0x74, virtual false, abstract: false, final false
+  static inline void AddSectionBreak(uint64_t sectionHandle);
 
-/// @brief Method AddSectionEntry, addr 0x681e888, size 0xbc, virtual false, abstract: false, final false
-static inline void AddSectionEntry(uint64_t  sectionHandle, ::StringW  sectionEntry, ::StringW  sectionBody) ;
+  /// @brief Method AddSectionEntry, addr 0x6890894, size 0xbc, virtual false, abstract: false, final false
+  static inline void AddSectionEntry(uint64_t sectionHandle, ::StringW sectionEntry, ::StringW sectionBody);
 
-/// @brief Method DumpReport, addr 0x681ecc8, size 0x4, virtual false, abstract: false, final false
-static inline void DumpReport(::StringW  reason) ;
+  /// @brief Method DumpReport, addr 0x6890cd4, size 0x4, virtual false, abstract: false, final false
+  static inline void DumpReport(::StringW reason);
 
-/// @brief Method GenerateReport, addr 0x681ec38, size 0x90, virtual false, abstract: false, final false
-static inline ::StringW GenerateReport() ;
+  /// @brief Method GenerateReport, addr 0x6890c44, size 0x90, virtual false, abstract: false, final false
+  static inline ::StringW GenerateReport();
 
-/// @brief Method GetSection, addr 0x681e7f8, size 0x90, virtual false, abstract: false, final false
-static inline uint64_t GetSection(::StringW  sectionName) ;
+  /// @brief Method GetSection, addr 0x6890804, size 0x90, virtual false, abstract: false, final false
+  static inline uint64_t GetSection(::StringW sectionName);
 
-/// @brief Method Internal_DumpReport, addr 0x681ea64, size 0x64, virtual false, abstract: false, final false
-static inline void Internal_DumpReport() ;
+  /// @brief Method Internal_DumpReport, addr 0x6890a70, size 0x64, virtual false, abstract: false, final false
+  static inline void Internal_DumpReport();
 
-/// @brief Method Internal_DumpReport, addr 0x681eac8, size 0x90, virtual false, abstract: false, final false
-static inline void Internal_DumpReport(::StringW  reason) ;
+  /// @brief Method Internal_DumpReport, addr 0x6890ad4, size 0x90, virtual false, abstract: false, final false
+  static inline void Internal_DumpReport(::StringW reason);
 
-/// @brief Method Internal_GenerateReport, addr 0x681eb58, size 0x64, virtual false, abstract: false, final false
-static inline ::System::IntPtr Internal_GenerateReport() ;
+  /// @brief Method Internal_GenerateReport, addr 0x6890b64, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Internal_GenerateReport();
 
-/// @brief Method Internal_ReleaseReport, addr 0x681ebbc, size 0x7c, virtual false, abstract: false, final false
-static inline void Internal_ReleaseReport(::System::IntPtr  report) ;
+  /// @brief Method Internal_ReleaseReport, addr 0x6890bc8, size 0x7c, virtual false, abstract: false, final false
+  static inline void Internal_ReleaseReport(::System::IntPtr report);
 
-static inline ::UnityEngine::XR::OpenXR::DiagnosticReport* New_ctor() ;
+  static inline ::UnityEngine::XR::OpenXR::DiagnosticReport* New_ctor();
 
-/// @brief Method StartReport, addr 0x681e794, size 0x64, virtual false, abstract: false, final false
-static inline void StartReport() ;
+  /// @brief Method StartReport, addr 0x68907a0, size 0x64, virtual false, abstract: false, final false
+  static inline void StartReport();
 
-/// @brief Method .ctor, addr 0x681eccc, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6890cd8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline uint64_t getStaticF_k_NullSection() ;
+  static inline uint64_t getStaticF_k_NullSection();
 
-static inline void setStaticF_k_NullSection(uint64_t  value) ;
+  static inline void setStaticF_k_NullSection(uint64_t value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr DiagnosticReport() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DiagnosticReport();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DiagnosticReport(DiagnosticReport&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-DiagnosticReport(DiagnosticReport && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DiagnosticReport(DiagnosticReport const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-DiagnosticReport(DiagnosticReport const& ) = delete;
+  /// @brief Field LibraryName offset 0xffffffff size 0x8
+  static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
-/// @brief Field LibraryName offset 0xffffffff size 0x8
-static constexpr ::ConstString  LibraryName{u"UnityOpenXR"};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18482 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18472};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::DiagnosticReport, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::XR::OpenXR
+} // namespace UnityEngine::XR::OpenXR
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::DiagnosticReport);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::DiagnosticReport*, "UnityEngine.XR.OpenXR", "DiagnosticReport");

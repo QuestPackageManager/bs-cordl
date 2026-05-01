@@ -18,8 +18,7 @@ namespace System {
 struct DTSubString;
 }
 namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 struct TokenType;
@@ -36,122 +35,124 @@ namespace System {
 // CS Name: System.__DTString
 struct CORDL_TYPE __DTString {
 public:
-// Declarations
- __declspec(property(get=get_CompareInfo)) ::System::Globalization::CompareInfo*  CompareInfo;
+  // Declarations
+  __declspec(property(get = get_CompareInfo)) ::System::Globalization::CompareInfo* CompareInfo;
 
- __declspec(property(get=get_Length)) int32_t  Length;
+  __declspec(property(get = get_Length)) int32_t Length;
 
-/// @brief Field WhiteSpaceChecks, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF_WhiteSpaceChecks, put=setStaticF_WhiteSpaceChecks)) ::ArrayW<char16_t,::Array<char16_t>*>  WhiteSpaceChecks;
+  /// @brief Field WhiteSpaceChecks, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_WhiteSpaceChecks, put = setStaticF_WhiteSpaceChecks)) ::ArrayW<char16_t, ::Array<char16_t>*> WhiteSpaceChecks;
 
-/// @brief Method Advance, addr 0x5a8f0e0, size 0xc4, virtual false, abstract: false, final false
-inline bool Advance(int32_t  count) ;
+  /// @brief Method Advance, addr 0x5b010c8, size 0xc4, virtual false, abstract: false, final false
+  inline bool Advance(int32_t count);
 
-/// @brief Method AtEnd, addr 0x5a8f04c, size 0x94, virtual false, abstract: false, final false
-inline bool AtEnd() ;
+  /// @brief Method AtEnd, addr 0x5b01034, size 0x94, virtual false, abstract: false, final false
+  inline bool AtEnd();
 
-/// @brief Method ConsumeSubString, addr 0x5a90b1c, size 0xbc, virtual false, abstract: false, final false
-inline void ConsumeSubString(::System::DTSubString  sub) ;
+  /// @brief Method ConsumeSubString, addr 0x5b02b04, size 0xbc, virtual false, abstract: false, final false
+  inline void ConsumeSubString(::System::DTSubString sub);
 
-/// @brief Method GetChar, addr 0x5a90210, size 0x24, virtual false, abstract: false, final false
-inline char16_t GetChar() ;
+  /// @brief Method GetChar, addr 0x5b021f8, size 0x24, virtual false, abstract: false, final false
+  inline char16_t GetChar();
 
-/// @brief Method GetDigit, addr 0x5a90234, size 0x28, virtual false, abstract: false, final false
-inline int32_t GetDigit() ;
+  /// @brief Method GetDigit, addr 0x5b0221c, size 0x28, virtual false, abstract: false, final false
+  inline int32_t GetDigit();
 
-/// @brief Method GetNext, addr 0x5a8ef8c, size 0xc0, virtual false, abstract: false, final false
-inline bool GetNext() ;
+  /// @brief Method GetNext, addr 0x5b00f74, size 0xc0, virtual false, abstract: false, final false
+  inline bool GetNext();
 
-/// @brief Method GetNextDigit, addr 0x5a90120, size 0xf0, virtual false, abstract: false, final false
-inline bool GetNextDigit() ;
+  /// @brief Method GetNextDigit, addr 0x5b02108, size 0xf0, virtual false, abstract: false, final false
+  inline bool GetNextDigit();
 
-/// @brief Method GetRegularToken, addr 0x5a8f1a4, size 0x354, virtual false, abstract: false, final false
-inline void GetRegularToken(::ByRef<::System::TokenType>  tokenType, ::ByRef<int32_t>  tokenValue, ::System::Globalization::DateTimeFormatInfo*  dtfi) ;
+  /// @brief Method GetRegularToken, addr 0x5b0118c, size 0x354, virtual false, abstract: false, final false
+  inline void GetRegularToken(::ByRef<::System::TokenType> tokenType, ::ByRef<int32_t> tokenValue, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-/// @brief Method GetRepeatCount, addr 0x5a90038, size 0xe8, virtual false, abstract: false, final false
-inline int32_t GetRepeatCount() ;
+  /// @brief Method GetRepeatCount, addr 0x5b02020, size 0xe8, virtual false, abstract: false, final false
+  inline int32_t GetRepeatCount();
 
-/// @brief Method GetSeparatorToken, addr 0x5a8f4f8, size 0x10c, virtual false, abstract: false, final false
-inline ::System::TokenType GetSeparatorToken(::System::Globalization::DateTimeFormatInfo*  dtfi, ::ByRef<int32_t>  indexBeforeSeparator, ::ByRef<char16_t>  charBeforeSeparator) ;
+  /// @brief Method GetSeparatorToken, addr 0x5b014e0, size 0x10c, virtual false, abstract: false, final false
+  inline ::System::TokenType GetSeparatorToken(::System::Globalization::DateTimeFormatInfo* dtfi, ::ByRef<int32_t> indexBeforeSeparator, ::ByRef<char16_t> charBeforeSeparator);
 
-/// @brief Method GetSubString, addr 0x5a909ac, size 0x170, virtual false, abstract: false, final false
-inline ::System::DTSubString GetSubString() ;
+  /// @brief Method GetSubString, addr 0x5b02994, size 0x170, virtual false, abstract: false, final false
+  inline ::System::DTSubString GetSubString();
 
-/// @brief Method Match, addr 0x5a8fe5c, size 0xe0, virtual false, abstract: false, final false
-inline bool Match(char16_t  ch) ;
+  /// @brief Method Match, addr 0x5b01e44, size 0xe0, virtual false, abstract: false, final false
+  inline bool Match(char16_t ch);
 
-/// @brief Method Match, addr 0x5a8fcf0, size 0x16c, virtual false, abstract: false, final false
-inline bool Match(::StringW  str) ;
+  /// @brief Method Match, addr 0x5b01cd8, size 0x16c, virtual false, abstract: false, final false
+  inline bool Match(::StringW str);
 
-/// @brief Method MatchLongestWords, addr 0x5a8ff3c, size 0xfc, virtual false, abstract: false, final false
-inline int32_t MatchLongestWords(::ArrayW<::StringW,::Array<::StringW>*>  words, ::ByRef<int32_t>  maxMatchStrLen) ;
+  /// @brief Method MatchLongestWords, addr 0x5b01f24, size 0xfc, virtual false, abstract: false, final false
+  inline int32_t MatchLongestWords(::ArrayW<::StringW, ::Array<::StringW>*> words, ::ByRef<int32_t> maxMatchStrLen);
 
-/// @brief Method MatchSpecifiedWord, addr 0x5a8f770, size 0x138, virtual false, abstract: false, final false
-inline bool MatchSpecifiedWord(::StringW  target) ;
+  /// @brief Method MatchSpecifiedWord, addr 0x5b01758, size 0x138, virtual false, abstract: false, final false
+  inline bool MatchSpecifiedWord(::StringW target);
 
-/// @brief Method MatchSpecifiedWords, addr 0x5a8f8a8, size 0x448, virtual false, abstract: false, final false
-inline bool MatchSpecifiedWords(::StringW  target, bool  checkWordBoundary, ::ByRef<int32_t>  matchLength) ;
+  /// @brief Method MatchSpecifiedWords, addr 0x5b01890, size 0x448, virtual false, abstract: false, final false
+  inline bool MatchSpecifiedWords(::StringW target, bool checkWordBoundary, ::ByRef<int32_t> matchLength);
 
-/// @brief Method RemoveLeadingInQuoteSpaces, addr 0x5a906e8, size 0x2c4, virtual false, abstract: false, final false
-inline void RemoveLeadingInQuoteSpaces() ;
+  /// @brief Method RemoveLeadingInQuoteSpaces, addr 0x5b026d0, size 0x2c4, virtual false, abstract: false, final false
+  inline void RemoveLeadingInQuoteSpaces();
 
-/// @brief Method RemoveTrailingInQuoteSpaces, addr 0x5a90498, size 0x250, virtual false, abstract: false, final false
-inline void RemoveTrailingInQuoteSpaces() ;
+  /// @brief Method RemoveTrailingInQuoteSpaces, addr 0x5b02480, size 0x250, virtual false, abstract: false, final false
+  inline void RemoveTrailingInQuoteSpaces();
 
-/// @brief Method SkipWhiteSpaceCurrent, addr 0x5a8f604, size 0x16c, virtual false, abstract: false, final false
-inline bool SkipWhiteSpaceCurrent() ;
+  /// @brief Method SkipWhiteSpaceCurrent, addr 0x5b015ec, size 0x16c, virtual false, abstract: false, final false
+  inline bool SkipWhiteSpaceCurrent();
 
-/// @brief Method SkipWhiteSpaces, addr 0x5a9025c, size 0xf4, virtual false, abstract: false, final false
-inline void SkipWhiteSpaces() ;
+  /// @brief Method SkipWhiteSpaces, addr 0x5b02244, size 0xf4, virtual false, abstract: false, final false
+  inline void SkipWhiteSpaces();
 
-/// @brief Method TrimTail, addr 0x5a90350, size 0x148, virtual false, abstract: false, final false
-inline void TrimTail() ;
+  /// @brief Method TrimTail, addr 0x5b02338, size 0x148, virtual false, abstract: false, final false
+  inline void TrimTail();
 
-/// @brief Method .ctor, addr 0x5a8eea8, size 0xdc, virtual false, abstract: false, final false
-inline void _ctor(::System::ReadOnlySpan_1<char16_t>  str, ::System::Globalization::DateTimeFormatInfo*  dtfi) ;
+  /// @brief Method .ctor, addr 0x5b00e90, size 0xdc, virtual false, abstract: false, final false
+  inline void _ctor(::System::ReadOnlySpan_1<char16_t> str, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-/// @brief Method .ctor, addr 0x5a8ee18, size 0x90, virtual false, abstract: false, final false
-inline void _ctor(::System::ReadOnlySpan_1<char16_t>  str, ::System::Globalization::DateTimeFormatInfo*  dtfi, bool  checkDigitToken) ;
+  /// @brief Method .ctor, addr 0x5b00e00, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::System::ReadOnlySpan_1<char16_t> str, ::System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken);
 
-static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_WhiteSpaceChecks() ;
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_WhiteSpaceChecks();
 
-/// @brief Method get_CompareInfo, addr 0x5a8ef84, size 0x8, virtual false, abstract: false, final false
-inline ::System::Globalization::CompareInfo* get_CompareInfo() ;
+  /// @brief Method get_CompareInfo, addr 0x5b00f6c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Globalization::CompareInfo* get_CompareInfo();
 
-/// @brief Method get_Length, addr 0x5a8edd4, size 0x44, virtual false, abstract: false, final false
-inline int32_t get_Length() ;
+  /// @brief Method get_Length, addr 0x5b00dbc, size 0x44, virtual false, abstract: false, final false
+  inline int32_t get_Length();
 
-static inline void setStaticF_WhiteSpaceChecks(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
+  static inline void setStaticF_WhiteSpaceChecks(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-// Ctor Parameters []
-// @brief default ctor
-constexpr __DTString() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DTString();
 
-// Ctor Parameters [CppParam { name: "Value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_current", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "m_info", ty: "::System::Globalization::CompareInfo*", modifiers: "", def_value: None }, CppParam { name: "m_checkDigitToken", ty: "bool", modifiers: "", def_value: None }]
-constexpr __DTString(::System::ReadOnlySpan_1<char16_t>  Value, int32_t  Index, char16_t  m_current, ::System::Globalization::CompareInfo*  m_info, bool  m_checkDigitToken) noexcept;
+  // Ctor Parameters [CppParam { name: "Value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "m_current", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "m_info", ty: "::System::Globalization::CompareInfo*", modifiers: "", def_value: None }, CppParam
+  // { name: "m_checkDigitToken", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __DTString(::System::ReadOnlySpan_1<char16_t> Value, int32_t Index, char16_t m_current, ::System::Globalization::CompareInfo* m_info, bool m_checkDigitToken) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2394};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2394 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
-/// @brief Field Value, offset: 0x0, size: 0x10, def value: None
- ::System::ReadOnlySpan_1<char16_t>  Value;
+  /// @brief Field Value, offset: 0x0, size: 0x10, def value: None
+  ::System::ReadOnlySpan_1<char16_t> Value;
 
-/// @brief Field Index, offset: 0x10, size: 0x4, def value: None
- int32_t  Index;
+  /// @brief Field Index, offset: 0x10, size: 0x4, def value: None
+  int32_t Index;
 
-/// @brief Field m_current, offset: 0x14, size: 0x2, def value: None
- char16_t  m_current;
+  /// @brief Field m_current, offset: 0x14, size: 0x2, def value: None
+  char16_t m_current;
 
-/// @brief Field m_info, offset: 0x18, size: 0x8, def value: None
- ::System::Globalization::CompareInfo*  m_info;
+  /// @brief Field m_info, offset: 0x18, size: 0x8, def value: None
+  ::System::Globalization::CompareInfo* m_info;
 
-/// @brief Field m_checkDigitToken, offset: 0x20, size: 0x1, def value: None
- bool  m_checkDigitToken;
+  /// @brief Field m_checkDigitToken, offset: 0x20, size: 0x1, def value: None
+  bool m_checkDigitToken;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::__DTString, Value) == 0x0, "Offset mismatch!");
@@ -166,5 +167,5 @@ static_assert(offsetof(::System::__DTString, m_checkDigitToken) == 0x20, "Offset
 
 static_assert(::cordl_internals::size_check_v<::System::__DTString, 0x28>, "Size mismatch!");
 
-} // namespace end def System
+} // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::__DTString, "System", "__DTString");

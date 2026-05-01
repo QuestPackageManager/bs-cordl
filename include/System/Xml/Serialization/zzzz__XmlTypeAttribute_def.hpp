@@ -21,79 +21,79 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.XmlTypeAttribute
 class CORDL_TYPE XmlTypeAttribute : public ::System::Attribute {
 public:
-// Declarations
- __declspec(property(get=get_IncludeInSchema)) bool  IncludeInSchema;
+  // Declarations
+  __declspec(property(get = get_IncludeInSchema)) bool IncludeInSchema;
 
- __declspec(property(get=get_Namespace)) ::StringW  Namespace;
+  __declspec(property(get = get_Namespace)) ::StringW Namespace;
 
- __declspec(property(get=get_TypeName)) ::StringW  TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
-/// @brief Field includeInSchema, offset 0x10, size 0x1 
- __declspec(property(get=__cordl_internal_get_includeInSchema, put=__cordl_internal_set_includeInSchema)) bool  includeInSchema;
+  /// @brief Field includeInSchema, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_includeInSchema, put = __cordl_internal_set_includeInSchema)) bool includeInSchema;
 
-/// @brief Field ns, offset 0x18, size 0x8 
- __declspec(property(get=__cordl_internal_get_ns, put=__cordl_internal_set_ns)) ::StringW  ns;
+  /// @brief Field ns, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
-/// @brief Field typeName, offset 0x20, size 0x8 
- __declspec(property(get=__cordl_internal_get_typeName, put=__cordl_internal_set_typeName)) ::StringW  typeName;
+  /// @brief Field typeName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-/// @brief Method AddKeyHash, addr 0x615dc78, size 0xac, virtual false, abstract: false, final false
-inline void AddKeyHash(::System::Text::StringBuilder*  sb) ;
+  /// @brief Method AddKeyHash, addr 0x61cfc84, size 0xac, virtual false, abstract: false, final false
+  inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
-constexpr bool const& __cordl_internal_get_includeInSchema() const;
+  constexpr bool const& __cordl_internal_get_includeInSchema() const;
 
-constexpr bool& __cordl_internal_get_includeInSchema() ;
+  constexpr bool& __cordl_internal_get_includeInSchema();
 
-constexpr ::StringW const& __cordl_internal_get_ns() const;
+  constexpr ::StringW const& __cordl_internal_get_ns() const;
 
-constexpr ::StringW& __cordl_internal_get_ns() ;
+  constexpr ::StringW& __cordl_internal_get_ns();
 
-constexpr ::StringW const& __cordl_internal_get_typeName() const;
+  constexpr ::StringW const& __cordl_internal_get_typeName() const;
 
-constexpr ::StringW& __cordl_internal_get_typeName() ;
+  constexpr ::StringW& __cordl_internal_get_typeName();
 
-constexpr void __cordl_internal_set_includeInSchema(bool  value) ;
+  constexpr void __cordl_internal_set_includeInSchema(bool value);
 
-constexpr void __cordl_internal_set_ns(::StringW  value) ;
+  constexpr void __cordl_internal_set_ns(::StringW value);
 
-constexpr void __cordl_internal_set_typeName(::StringW  value) ;
+  constexpr void __cordl_internal_set_typeName(::StringW value);
 
-/// @brief Method get_IncludeInSchema, addr 0x615dc48, size 0x8, virtual false, abstract: false, final false
-inline bool get_IncludeInSchema() ;
+  /// @brief Method get_IncludeInSchema, addr 0x61cfc54, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IncludeInSchema();
 
-/// @brief Method get_Namespace, addr 0x615dc50, size 0x8, virtual false, abstract: false, final false
-inline ::StringW get_Namespace() ;
+  /// @brief Method get_Namespace, addr 0x61cfc5c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Namespace();
 
-/// @brief Method get_TypeName, addr 0x615dc58, size 0x20, virtual false, abstract: false, final false
-inline ::StringW get_TypeName() ;
+  /// @brief Method get_TypeName, addr 0x61cfc64, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW get_TypeName();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr XmlTypeAttribute() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlTypeAttribute();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  XmlTypeAttribute(XmlTypeAttribute&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlTypeAttribute", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-XmlTypeAttribute(XmlTypeAttribute && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  XmlTypeAttribute(XmlTypeAttribute const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "XmlTypeAttribute", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-XmlTypeAttribute(XmlTypeAttribute const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9533 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9527};
+  /// @brief Field includeInSchema, offset: 0x10, size: 0x1, def value: None
+  bool ___includeInSchema;
 
-/// @brief Field includeInSchema, offset: 0x10, size: 0x1, def value: None
- bool  ___includeInSchema;
+  /// @brief Field ns, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___ns;
 
-/// @brief Field ns, offset: 0x18, size: 0x8, def value: None
- ::StringW  ___ns;
+  /// @brief Field typeName, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___typeName;
 
-/// @brief Field typeName, offset: 0x20, size: 0x8, def value: None
- ::StringW  ___typeName;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::XmlTypeAttribute, ___includeInSchema) == 0x10, "Offset mismatch!");
@@ -104,6 +104,6 @@ static_assert(offsetof(::System::Xml::Serialization::XmlTypeAttribute, ___typeNa
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeAttribute, 0x28>, "Size mismatch!");
 
-} // namespace end def System::Xml::Serialization
+} // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlTypeAttribute*, "System.Xml.Serialization", "XmlTypeAttribute");

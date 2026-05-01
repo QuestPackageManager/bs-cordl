@@ -20,33 +20,36 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.BatchDrawRange
 struct CORDL_TYPE BatchDrawRange {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr BatchDrawRange() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BatchDrawRange();
 
-// Ctor Parameters [CppParam { name: "drawCommandsType", ty: "::UnityEngine::Rendering::BatchDrawCommandType", modifiers: "", def_value: None }, CppParam { name: "drawCommandsBegin", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "drawCommandsCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "filterSettings", ty: "::UnityEngine::Rendering::BatchFilterSettings", modifiers: "", def_value: None }]
-constexpr BatchDrawRange(::UnityEngine::Rendering::BatchDrawCommandType  drawCommandsType, uint32_t  drawCommandsBegin, uint32_t  drawCommandsCount, ::UnityEngine::Rendering::BatchFilterSettings  filterSettings) noexcept;
+  // Ctor Parameters [CppParam { name: "drawCommandsType", ty: "::UnityEngine::Rendering::BatchDrawCommandType", modifiers: "", def_value: None }, CppParam { name: "drawCommandsBegin", ty: "uint32_t",
+  // modifiers: "", def_value: None }, CppParam { name: "drawCommandsCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "filterSettings", ty:
+  // "::UnityEngine::Rendering::BatchFilterSettings", modifiers: "", def_value: None }]
+  constexpr BatchDrawRange(::UnityEngine::Rendering::BatchDrawCommandType drawCommandsType, uint32_t drawCommandsBegin, uint32_t drawCommandsCount,
+                           ::UnityEngine::Rendering::BatchFilterSettings filterSettings) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10843};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10850 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
-/// @brief Field drawCommandsType, offset: 0x0, size: 0x4, def value: None
- ::UnityEngine::Rendering::BatchDrawCommandType  drawCommandsType;
+  /// @brief Field drawCommandsType, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::Rendering::BatchDrawCommandType drawCommandsType;
 
-/// @brief Field drawCommandsBegin, offset: 0x4, size: 0x4, def value: None
- uint32_t  drawCommandsBegin;
+  /// @brief Field drawCommandsBegin, offset: 0x4, size: 0x4, def value: None
+  uint32_t drawCommandsBegin;
 
-/// @brief Field drawCommandsCount, offset: 0x8, size: 0x4, def value: None
- uint32_t  drawCommandsCount;
+  /// @brief Field drawCommandsCount, offset: 0x8, size: 0x4, def value: None
+  uint32_t drawCommandsCount;
 
-/// @brief Field filterSettings, offset: 0x10, size: 0x18, def value: None
- ::UnityEngine::Rendering::BatchFilterSettings  filterSettings;
+  /// @brief Field filterSettings, offset: 0x10, size: 0x18, def value: None
+  ::UnityEngine::Rendering::BatchFilterSettings filterSettings;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::BatchDrawRange, drawCommandsType) == 0x0, "Offset mismatch!");
@@ -59,5 +62,5 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchDrawRange, filterSettings)
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchDrawRange, 0x28>, "Size mismatch!");
 
-} // namespace end def UnityEngine::Rendering
+} // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchDrawRange, "UnityEngine.Rendering", "BatchDrawRange");

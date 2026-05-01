@@ -24,37 +24,37 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.TimeMsFunction
 class CORDL_TYPE TimeMsFunction : public ::System::MulticastDelegate {
 public:
-// Declarations
-/// @brief Method Invoke, addr 0x6bed7f4, size 0x14, virtual true, abstract: false, final false
-inline int64_t Invoke() ;
+  // Declarations
+  /// @brief Method Invoke, addr 0x6c5fa3c, size 0x14, virtual true, abstract: false, final false
+  inline int64_t Invoke();
 
-static inline ::UnityEngine::UIElements::TimeMsFunction* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  static inline ::UnityEngine::UIElements::TimeMsFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-/// @brief Method .ctor, addr 0x6bed78c, size 0x68, virtual false, abstract: false, final false
-inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+  /// @brief Method .ctor, addr 0x6c5f9d4, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TimeMsFunction() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimeMsFunction();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TimeMsFunction", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TimeMsFunction(TimeMsFunction&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TimeMsFunction", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TimeMsFunction(TimeMsFunction && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TimeMsFunction", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TimeMsFunction(TimeMsFunction const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TimeMsFunction", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TimeMsFunction(TimeMsFunction const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4645 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4645};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TimeMsFunction, 0x80>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TimeMsFunction);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TimeMsFunction*, "UnityEngine.UIElements", "TimeMsFunction");

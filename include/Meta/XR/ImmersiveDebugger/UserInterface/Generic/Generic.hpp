@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Background.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Button.hpp"
@@ -38,6 +38,5 @@
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ToggleForGizmo.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ToggleWithLabel.hpp"
 #ifdef __cpp_modules
-                    export module Generic;
-                    #endif
-                
+export module Generic;
+#endif

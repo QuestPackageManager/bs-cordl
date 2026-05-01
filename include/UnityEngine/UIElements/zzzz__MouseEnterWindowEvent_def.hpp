@@ -31,94 +31,94 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.MouseEnterWindowEvent/<>c
 class CORDL_TYPE MouseEnterWindowEvent___c : public ::System::Object {
 public:
-// Declarations
-/// @brief Field <>9, offset 0xffffffff, size 0x8 
- __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::MouseEnterWindowEvent___c*  __9;
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::MouseEnterWindowEvent___c* __9;
 
-static inline ::UnityEngine::UIElements::MouseEnterWindowEvent___c* New_ctor() ;
+  static inline ::UnityEngine::UIElements::MouseEnterWindowEvent___c* New_ctor();
 
-/// @brief Method <.cctor>b__0_0, addr 0x6bd568c, size 0x54, virtual false, abstract: false, final false
-inline ::UnityEngine::UIElements::MouseEnterWindowEvent* __cctor_b__0_0() ;
+  /// @brief Method <.cctor>b__0_0, addr 0x6c478d4, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::MouseEnterWindowEvent* __cctor_b__0_0();
 
-/// @brief Method .ctor, addr 0x6bd5688, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c478d0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-static inline ::UnityEngine::UIElements::MouseEnterWindowEvent___c* getStaticF___9() ;
+  static inline ::UnityEngine::UIElements::MouseEnterWindowEvent___c* getStaticF___9();
 
-static inline void setStaticF___9(::UnityEngine::UIElements::MouseEnterWindowEvent___c*  value) ;
+  static inline void setStaticF___9(::UnityEngine::UIElements::MouseEnterWindowEvent___c* value);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MouseEnterWindowEvent___c() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseEnterWindowEvent___c();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MouseEnterWindowEvent___c(MouseEnterWindowEvent___c&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MouseEnterWindowEvent___c(MouseEnterWindowEvent___c && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MouseEnterWindowEvent___c(MouseEnterWindowEvent___c const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MouseEnterWindowEvent___c(MouseEnterWindowEvent___c const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4507 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4507};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseEnterWindowEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.MouseEnterWindowEvent
 class CORDL_TYPE MouseEnterWindowEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseEnterWindowEvent*> {
 public:
-// Declarations
-using __c = ::UnityEngine::UIElements::MouseEnterWindowEvent___c;
+  // Declarations
+  using __c = ::UnityEngine::UIElements::MouseEnterWindowEvent___c;
 
-/// @brief Method Dispatch, addr 0x6bd55a8, size 0x8c, virtual true, abstract: false, final false
-inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel*  panel) ;
+  /// @brief Method Dispatch, addr 0x6c477f0, size 0x8c, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-/// @brief Method Init, addr 0x6bd5380, size 0x58, virtual true, abstract: false, final false
-inline void Init() ;
+  /// @brief Method Init, addr 0x6c475c8, size 0x58, virtual true, abstract: false, final false
+  inline void Init();
 
-/// @brief Method LocalInit, addr 0x6bd53d8, size 0xc, virtual false, abstract: false, final false
-inline void LocalInit() ;
+  /// @brief Method LocalInit, addr 0x6c47620, size 0xc, virtual false, abstract: false, final false
+  inline void LocalInit();
 
-static inline ::UnityEngine::UIElements::MouseEnterWindowEvent* New_ctor() ;
+  static inline ::UnityEngine::UIElements::MouseEnterWindowEvent* New_ctor();
 
-/// @brief Method PostDispatch, addr 0x6bd543c, size 0x16c, virtual true, abstract: false, final false
-inline void PostDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
+  /// @brief Method PostDispatch, addr 0x6c47684, size 0x16c, virtual true, abstract: false, final false
+  inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-/// @brief Method .ctor, addr 0x6bd53e4, size 0x58, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x6c4762c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr MouseEnterWindowEvent() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseEnterWindowEvent();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  MouseEnterWindowEvent(MouseEnterWindowEvent&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-MouseEnterWindowEvent(MouseEnterWindowEvent && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  MouseEnterWindowEvent(MouseEnterWindowEvent const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-MouseEnterWindowEvent(MouseEnterWindowEvent const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4508 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4508};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseEnterWindowEvent, 0x98>, "Size mismatch!");
 
-} // namespace end def UnityEngine::UIElements
+} // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MouseEnterWindowEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseEnterWindowEvent*, "UnityEngine.UIElements", "MouseEnterWindowEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::MouseEnterWindowEvent___c);

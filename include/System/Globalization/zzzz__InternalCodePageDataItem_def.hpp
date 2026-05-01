@@ -13,39 +13,40 @@ struct InternalCodePageDataItem;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::InternalCodePageDataItem);
-// Dependencies 
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
 // CS Name: System.Globalization.InternalCodePageDataItem
 struct CORDL_TYPE InternalCodePageDataItem {
 public:
-// Declarations
-// Ctor Parameters []
-// @brief default ctor
-constexpr InternalCodePageDataItem() ;
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InternalCodePageDataItem();
 
-// Ctor Parameters [CppParam { name: "codePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uiFamilyCodePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Names", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr InternalCodePageDataItem(uint16_t  codePage, uint16_t  uiFamilyCodePage, uint32_t  flags, ::StringW  Names) noexcept;
+  // Ctor Parameters [CppParam { name: "codePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uiFamilyCodePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam {
+  // name: "flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Names", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr InternalCodePageDataItem(uint16_t codePage, uint16_t uiFamilyCodePage, uint32_t flags, ::StringW Names) noexcept;
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3644};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3644 };
 
-/// @brief The size of the true value type
-static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-/// @brief Field codePage, offset: 0x0, size: 0x2, def value: None
- uint16_t  codePage;
+  /// @brief Field codePage, offset: 0x0, size: 0x2, def value: None
+  uint16_t codePage;
 
-/// @brief Field uiFamilyCodePage, offset: 0x2, size: 0x2, def value: None
- uint16_t  uiFamilyCodePage;
+  /// @brief Field uiFamilyCodePage, offset: 0x2, size: 0x2, def value: None
+  uint16_t uiFamilyCodePage;
 
-/// @brief Field flags, offset: 0x4, size: 0x4, def value: None
- uint32_t  flags;
+  /// @brief Field flags, offset: 0x4, size: 0x4, def value: None
+  uint32_t flags;
 
-/// @brief Field Names, offset: 0x8, size: 0x8, def value: None
- ::StringW  Names;
+  /// @brief Field Names, offset: 0x8, size: 0x8, def value: None
+  ::StringW Names;
 
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Globalization::InternalCodePageDataItem, codePage) == 0x0, "Offset mismatch!");
@@ -58,5 +59,5 @@ static_assert(offsetof(::System::Globalization::InternalCodePageDataItem, Names)
 
 static_assert(::cordl_internals::size_check_v<::System::Globalization::InternalCodePageDataItem, 0x10>, "Size mismatch!");
 
-} // namespace end def System::Globalization
+} // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");

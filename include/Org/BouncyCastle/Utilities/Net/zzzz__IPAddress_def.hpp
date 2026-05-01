@@ -19,61 +19,61 @@ namespace Org::BouncyCastle::Utilities::Net {
 // CS Name: Org.BouncyCastle.Utilities.Net.IPAddress
 class CORDL_TYPE IPAddress : public ::System::Object {
 public:
-// Declarations
-/// @brief Method IsMaskValue, addr 0x3534dd8, size 0x24, virtual false, abstract: false, final false
-static inline bool IsMaskValue(::StringW  component, int32_t  size) ;
+  // Declarations
+  /// @brief Method IsMaskValue, addr 0x357141c, size 0x24, virtual false, abstract: false, final false
+  static inline bool IsMaskValue(::StringW component, int32_t size);
 
-/// @brief Method IsValid, addr 0x35349e4, size 0x28, virtual false, abstract: false, final false
-static inline bool IsValid(::StringW  address) ;
+  /// @brief Method IsValid, addr 0x3571028, size 0x28, virtual false, abstract: false, final false
+  static inline bool IsValid(::StringW address);
 
-/// @brief Method IsValidIPv4, addr 0x3534a0c, size 0xac, virtual false, abstract: false, final false
-static inline bool IsValidIPv4(::StringW  address) ;
+  /// @brief Method IsValidIPv4, addr 0x3571050, size 0xac, virtual false, abstract: false, final false
+  static inline bool IsValidIPv4(::StringW address);
 
-/// @brief Method IsValidIPv4WithNetmask, addr 0x3534b8c, size 0xac, virtual false, abstract: false, final false
-static inline bool IsValidIPv4WithNetmask(::StringW  address) ;
+  /// @brief Method IsValidIPv4WithNetmask, addr 0x35711d0, size 0xac, virtual false, abstract: false, final false
+  static inline bool IsValidIPv4WithNetmask(::StringW address);
 
-/// @brief Method IsValidIPv6, addr 0x3534ab8, size 0xac, virtual false, abstract: false, final false
-static inline bool IsValidIPv6(::StringW  address) ;
+  /// @brief Method IsValidIPv6, addr 0x35710fc, size 0xac, virtual false, abstract: false, final false
+  static inline bool IsValidIPv6(::StringW address);
 
-/// @brief Method IsValidIPv6WithNetmask, addr 0x3534c38, size 0xac, virtual false, abstract: false, final false
-static inline bool IsValidIPv6WithNetmask(::StringW  address) ;
+  /// @brief Method IsValidIPv6WithNetmask, addr 0x357127c, size 0xac, virtual false, abstract: false, final false
+  static inline bool IsValidIPv6WithNetmask(::StringW address);
 
-/// @brief Method IsValidWithNetMask, addr 0x3534b64, size 0x28, virtual false, abstract: false, final false
-static inline bool IsValidWithNetMask(::StringW  address) ;
+  /// @brief Method IsValidWithNetMask, addr 0x35711a8, size 0x28, virtual false, abstract: false, final false
+  static inline bool IsValidWithNetMask(::StringW address);
 
-static inline ::Org::BouncyCastle::Utilities::Net::IPAddress* New_ctor() ;
+  static inline ::Org::BouncyCastle::Utilities::Net::IPAddress* New_ctor();
 
-/// @brief Method .ctor, addr 0x3534f98, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x35715dc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method unsafeIsValidIPv4, addr 0x3534ce4, size 0xf4, virtual false, abstract: false, final false
-static inline bool unsafeIsValidIPv4(::StringW  address) ;
+  /// @brief Method unsafeIsValidIPv4, addr 0x3571328, size 0xf4, virtual false, abstract: false, final false
+  static inline bool unsafeIsValidIPv4(::StringW address);
 
-/// @brief Method unsafeIsValidIPv6, addr 0x3534dfc, size 0x19c, virtual false, abstract: false, final false
-static inline bool unsafeIsValidIPv6(::StringW  address) ;
+  /// @brief Method unsafeIsValidIPv6, addr 0x3571440, size 0x19c, virtual false, abstract: false, final false
+  static inline bool unsafeIsValidIPv6(::StringW address);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr IPAddress() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IPAddress();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IPAddress(IPAddress&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-IPAddress(IPAddress && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IPAddress(IPAddress const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-IPAddress(IPAddress const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1816 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1816};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Net::IPAddress, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Utilities::Net
+} // namespace Org::BouncyCastle::Utilities::Net
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Net::IPAddress);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Net::IPAddress*, "Org.BouncyCastle.Utilities.Net", "IPAddress");

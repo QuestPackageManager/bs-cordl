@@ -18,52 +18,52 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.SrtpProtectionProfile
 class CORDL_TYPE SrtpProtectionProfile : public ::System::Object {
 public:
-// Declarations
-static inline ::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile* New_ctor() ;
+  // Declarations
+  static inline ::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile* New_ctor();
 
-/// @brief Method .ctor, addr 0x3375e24, size 0x4, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x33b2468, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr SrtpProtectionProfile() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SrtpProtectionProfile();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SrtpProtectionProfile(SrtpProtectionProfile&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-SrtpProtectionProfile(SrtpProtectionProfile && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SrtpProtectionProfile(SrtpProtectionProfile const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "SrtpProtectionProfile", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-SrtpProtectionProfile(SrtpProtectionProfile const& ) = delete;
+  /// @brief Field SRTP_AEAD_AES_128_GCM offset 0xffffffff size 0x4
+  static constexpr int32_t SRTP_AEAD_AES_128_GCM{ static_cast<int32_t>(0x7) };
 
-/// @brief Field SRTP_AEAD_AES_128_GCM offset 0xffffffff size 0x4
-static constexpr int32_t  SRTP_AEAD_AES_128_GCM{static_cast<int32_t>(0x7)};
+  /// @brief Field SRTP_AEAD_AES_256_GCM offset 0xffffffff size 0x4
+  static constexpr int32_t SRTP_AEAD_AES_256_GCM{ static_cast<int32_t>(0x8) };
 
-/// @brief Field SRTP_AEAD_AES_256_GCM offset 0xffffffff size 0x4
-static constexpr int32_t  SRTP_AEAD_AES_256_GCM{static_cast<int32_t>(0x8)};
+  /// @brief Field SRTP_AES128_CM_HMAC_SHA1_32 offset 0xffffffff size 0x4
+  static constexpr int32_t SRTP_AES128_CM_HMAC_SHA1_32{ static_cast<int32_t>(0x2) };
 
-/// @brief Field SRTP_AES128_CM_HMAC_SHA1_32 offset 0xffffffff size 0x4
-static constexpr int32_t  SRTP_AES128_CM_HMAC_SHA1_32{static_cast<int32_t>(0x2)};
+  /// @brief Field SRTP_AES128_CM_HMAC_SHA1_80 offset 0xffffffff size 0x4
+  static constexpr int32_t SRTP_AES128_CM_HMAC_SHA1_80{ static_cast<int32_t>(0x1) };
 
-/// @brief Field SRTP_AES128_CM_HMAC_SHA1_80 offset 0xffffffff size 0x4
-static constexpr int32_t  SRTP_AES128_CM_HMAC_SHA1_80{static_cast<int32_t>(0x1)};
+  /// @brief Field SRTP_NULL_HMAC_SHA1_32 offset 0xffffffff size 0x4
+  static constexpr int32_t SRTP_NULL_HMAC_SHA1_32{ static_cast<int32_t>(0x6) };
 
-/// @brief Field SRTP_NULL_HMAC_SHA1_32 offset 0xffffffff size 0x4
-static constexpr int32_t  SRTP_NULL_HMAC_SHA1_32{static_cast<int32_t>(0x6)};
+  /// @brief Field SRTP_NULL_HMAC_SHA1_80 offset 0xffffffff size 0x4
+  static constexpr int32_t SRTP_NULL_HMAC_SHA1_80{ static_cast<int32_t>(0x5) };
 
-/// @brief Field SRTP_NULL_HMAC_SHA1_80 offset 0xffffffff size 0x4
-static constexpr int32_t  SRTP_NULL_HMAC_SHA1_80{static_cast<int32_t>(0x5)};
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1282 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1282};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile, 0x10>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::Crypto::Tls
+} // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile*, "Org.BouncyCastle.Crypto.Tls", "SrtpProtectionProfile");

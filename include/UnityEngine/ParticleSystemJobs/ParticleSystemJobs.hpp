@@ -1,10 +1,9 @@
 #ifdef __cpp_modules
-                    module;
-                    #endif
-                
+module;
+#endif
+
 #pragma once
 #include "UnityEngine/ParticleSystemJobs/NativeParticleData.hpp"
 #ifdef __cpp_modules
-                    export module ParticleSystemJobs;
-                    #endif
-                
+export module ParticleSystemJobs;
+#endif

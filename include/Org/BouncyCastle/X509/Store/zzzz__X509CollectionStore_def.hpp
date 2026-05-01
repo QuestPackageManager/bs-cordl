@@ -26,57 +26,57 @@ namespace Org::BouncyCastle::X509::Store {
 // CS Name: Org.BouncyCastle.X509.Store.X509CollectionStore
 class CORDL_TYPE X509CollectionStore : public ::System::Object {
 public:
-// Declarations
-/// @brief Field _local, offset 0x10, size 0x8 
- __declspec(property(get=__cordl_internal_get__local, put=__cordl_internal_set__local)) ::System::Collections::ICollection*  _local;
+  // Declarations
+  /// @brief Field _local, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__local, put = __cordl_internal_set__local)) ::System::Collections::ICollection* _local;
 
-/// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
-constexpr operator  ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
+  constexpr operator ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept;
 
-/// @brief Method GetMatches, addr 0x3545c9c, size 0x42c, virtual true, abstract: false, final true
-inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector*  selector) ;
+  /// @brief Method GetMatches, addr 0x35822e0, size 0x42c, virtual true, abstract: false, final true
+  inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
-static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection*  collection) ;
+  static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection* collection);
 
-constexpr ::System::Collections::ICollection* const& __cordl_internal_get__local() const;
+  constexpr ::System::Collections::ICollection* const& __cordl_internal_get__local() const;
 
-constexpr ::System::Collections::ICollection*& __cordl_internal_get__local() ;
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get__local();
 
-constexpr void __cordl_internal_set__local(::System::Collections::ICollection*  value) ;
+  constexpr void __cordl_internal_set__local(::System::Collections::ICollection* value);
 
-/// @brief Method .ctor, addr 0x3545c30, size 0x6c, virtual false, abstract: false, final false
-inline void _ctor(::System::Collections::ICollection*  collection) ;
+  /// @brief Method .ctor, addr 0x3582274, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::ICollection* collection);
 
-/// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"
-constexpr ::Org::BouncyCastle::X509::Store::IX509Store* i___Org__BouncyCastle__X509__Store__IX509Store() noexcept;
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store* i___Org__BouncyCastle__X509__Store__IX509Store() noexcept;
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr X509CollectionStore() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509CollectionStore();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "X509CollectionStore", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  X509CollectionStore(X509CollectionStore&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "X509CollectionStore", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-X509CollectionStore(X509CollectionStore && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "X509CollectionStore", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  X509CollectionStore(X509CollectionStore const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "X509CollectionStore", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-X509CollectionStore(X509CollectionStore const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1848 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1848};
+  /// @brief Field _local, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::ICollection* ____local;
 
-/// @brief Field _local, offset: 0x10, size: 0x8, def value: None
- ::System::Collections::ICollection*  ____local;
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509CollectionStore, ____local) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::Store::X509CollectionStore, 0x18>, "Size mismatch!");
 
-} // namespace end def Org::BouncyCastle::X509::Store
+} // namespace Org::BouncyCastle::X509::Store
 NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509CollectionStore);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::X509CollectionStore*, "Org.BouncyCastle.X509.Store", "X509CollectionStore");

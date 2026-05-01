@@ -21,44 +21,44 @@ namespace LiteNetLib {
 // CS Name: LiteNetLib.TooBigPacketException
 class CORDL_TYPE TooBigPacketException : public ::LiteNetLib::InvalidPacketException {
 public:
-// Declarations
-static inline ::LiteNetLib::TooBigPacketException* New_ctor() ;
+  // Declarations
+  static inline ::LiteNetLib::TooBigPacketException* New_ctor();
 
-static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW  message) ;
+  static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW message);
 
-static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
+  static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-/// @brief Method .ctor, addr 0x56e9f38, size 0x8, virtual false, abstract: false, final false
-inline void _ctor() ;
+  /// @brief Method .ctor, addr 0x5757e24, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-/// @brief Method .ctor, addr 0x56e9f40, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message) ;
+  /// @brief Method .ctor, addr 0x5757e2c, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-/// @brief Method .ctor, addr 0x56e9f64, size 0x24, virtual false, abstract: false, final false
-inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
+  /// @brief Method .ctor, addr 0x5757e50, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
-// Ctor Parameters []
-// @brief default ctor
-constexpr TooBigPacketException() ;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TooBigPacketException();
+
 public:
+  // Ctor Parameters [CppParam { name: "", ty: "TooBigPacketException", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TooBigPacketException(TooBigPacketException&&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TooBigPacketException", modifiers: "&&", def_value: None }]
-// @brief delete move ctor to prevent accidental deref moves
-TooBigPacketException(TooBigPacketException && ) = delete;
+  // Ctor Parameters [CppParam { name: "", ty: "TooBigPacketException", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TooBigPacketException(TooBigPacketException const&) = delete;
 
-// Ctor Parameters [CppParam { name: "", ty: "TooBigPacketException", modifiers: "const&", def_value: None }]
-// @brief delete copy ctor to prevent accidental deref copies
-TooBigPacketException(TooBigPacketException const& ) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19843 };
 
-/// @brief IL2CPP Metadata Type Index
-static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19833};
-
-static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::TooBigPacketException, 0x98>, "Size mismatch!");
 
-} // namespace end def LiteNetLib
+} // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::TooBigPacketException);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::TooBigPacketException*, "LiteNetLib", "TooBigPacketException");
